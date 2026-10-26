@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 2, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_mathjax2image"
-    title: "astrbot_plugin_mathjax2image"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "astrbot_plugin_timeprogress"
-    title: "astrbot_plugin_timeprogress"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-02"
-  - name: "astrbot_plugin_claudecode"
-    title: "astrbot_plugin_claudecode"
-    description: "AstrBot插件：将Claude Code作为LLM函数工具"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "astrbot_plugin_vocabcard"
-    title: "astrbot_plugin_vocabcard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "pi-dynamic-workflows"
-    title: "pi-dynamic-workflows"
-    description: "Hardened parallel subagent workflows, Agent Teams, resume journals, safe-point delivery, and interactive run control for Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "pi-follow-up-priority"
-    title: "pi-follow-up-priority"
-    description: "Durable, dynamically prioritized follow-up handling for Pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
+repos: []
 ---
 
 # YukiRa1n

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 8, 3, 7, 18, 2, 0, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 10, 1, 23, 4, 0, 0, 7, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "CodingHelper"
-    title: "CodingHelper"
-    description: "It 's atime helper for code"
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2020-12-16"
-  - name: "private-bustdb"
-    title: "private-bustdb"
-    description: "this is the practise of cmu15445"
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-07-02"
-  - name: "standford-CS251"
-    title: "standford-CS251"
-    description: "The answer of st cs251"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-11-10"
-  - name: "scra"
-    title: "scra"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-07-06"
-  - name: "BeijingWeatherAnalysis"
-    title: "BeijingWeatherAnalysis"
-    description: "Based on spark computing framework. And back end use Flask,front end use vue.js + quasar."
-    language: "Vue"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-07-29"
-  - name: "IDonKonwBot"
-    title: "IDonKonwBot"
-    description: "Just for fun."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-04-09"
+repos: []
 ---
 
 # zhiiw

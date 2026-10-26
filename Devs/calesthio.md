@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 0, 13, 1, 0, 0, 0, 0, 0, 1, 0, 5, 0]
+pushes_per_week: [0, 0, 13, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -118,9 +118,9 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 69262
+    stars_fact: 71971
     first_seen: "2026-06-19T17:17:11.400096+00:00"
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "Crucix"
     title: "Crucix"
     description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
@@ -129,7 +129,7 @@ repos:
       - "ai"
       - "intelligence"
       - "osint"
-    stars_fact: 12129
+    stars_fact: 12139
     first_seen: null
     last_push: "2026-05-20"
   - name: "generative-media-skills"
@@ -157,36 +157,9 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 205
+    stars_fact: 216
     first_seen: null
     last_push: "2026-07-14"
-  - name: "BreakoutAnalysis"
-    title: "BreakoutAnalysis"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 279
-    first_seen: null
-    last_push: "2026-02-23"
-  - name: "Resonant"
-    title: "Resonant"
-    description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
-    language: "TypeScript"
-    topics:
-      - "ace-step"
-      - "ai-music"
-      - "digital-audio-workstation"
-      - "electron"
-      - "generative-music"
-      - "mcp"
-      - "model-context-protocol"
-      - "music-production"
-      - "open-source"
-      - "typescript"
-      - "windows"
-    stars_fact: 161
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "PhantomReach"
     title: "PhantomReach"
     description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
@@ -209,9 +182,36 @@ repos:
       - "seo"
       - "sqlite"
       - "typescript"
-    stars_fact: 67
+    stars_fact: 71
     first_seen: null
     last_push: "2026-06-27"
+  - name: "BreakoutAnalysis"
+    title: "BreakoutAnalysis"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 280
+    first_seen: null
+    last_push: "2026-02-23"
+  - name: "Resonant"
+    title: "Resonant"
+    description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
+    language: "TypeScript"
+    topics:
+      - "ace-step"
+      - "ai-music"
+      - "digital-audio-workstation"
+      - "electron"
+      - "generative-music"
+      - "mcp"
+      - "model-context-protocol"
+      - "music-production"
+      - "open-source"
+      - "typescript"
+      - "windows"
+    stars_fact: 165
+    first_seen: null
+    last_push: "2026-08-07"
 ---
 
 # calesthio

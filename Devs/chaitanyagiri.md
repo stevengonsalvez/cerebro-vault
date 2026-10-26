@@ -3,17 +3,16 @@ login: "chaitanyagiri"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [1, 2, 6, 2, 1, 1, 0, 1, 2, 4, 8, 7, 1]
+pushes_per_week: [1, 2, 6, 2, 1, 1, 1, 0, 2, 4, 9, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -58,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 11
+    pushes_per_repo: 10.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1

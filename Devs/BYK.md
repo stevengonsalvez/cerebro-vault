@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [41, 16, 7, 1, 1, 2, 5, 15, 27, 18, 10, 4, 2]
+pushes_per_week: [44, 9, 7, 1, 1, 3, 7, 12, 31, 21, 5, 2, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 9
     active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 146
     distinct_repos: 14
     active_days: 51
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9216
+  push_per_day: 2.8627
   repo_per_active_day: 0.2745
   not_owned_ratio: 0.5714
   basename_concentration: 0.0714
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 9
-    pushes_per_repo: 5.4444
+    pushes_per_repo: 5.2222
     active_days: 19
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 146
     distinct_repos: 14
-    pushes_per_repo: 10.6429
+    pushes_per_repo: 10.4286
     active_days: 51
     repos_not_owned: 8
     not_owned_basenames: 8
@@ -85,9 +85,17 @@ repos:
       - "ai-agents"
       - "context-management"
       - "memory"
-    stars_fact: 127
+    stars_fact: 129
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "model-tides"
+    title: "model-tides"
+    description: "Private, offline model-usage timelines with local imports and shareable images"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "docker-volume-cache-action"
     title: "docker-volume-cache-action"
     description: "A GitHub Action to cache and restore Docker Volumes"
@@ -107,14 +115,6 @@ repos:
     stars_fact: 60
     first_seen: null
     last_push: "2026-09-17"
-  - name: "model-tides"
-    title: "model-tides"
-    description: "Private, offline model-usage timelines with local imports and shareable images"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-11"
   - name: "jev-mcp"
     title: "jev-mcp"
     description: "An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text."
@@ -122,7 +122,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-09-18"
+    last_push: "2026-10-21"
   - name: "fossilize"
     title: "fossilize"
     description: "Create Node SEA binaries across platforms with ease"
@@ -135,6 +135,6 @@ repos:
 
 # BYK
 
-149 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
+146 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

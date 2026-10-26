@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [2, 0, 5, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "brk"
+    title: "brk"
+    description: "Tutored, constrained coding-dojo plugins for Claude Code + the dojo CLI (install or start right away)."
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "checkout-workshop"
     title: "checkout-workshop"
     description: "Workshop de specs com agentes: cupom num checkout. Constituição → spec → implementar → validar."
@@ -85,14 +93,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-13"
-  - name: "brk"
-    title: "brk"
-    description: "Tutored, constrained coding-dojo plugins for Claude Code + the dojo CLI (install or start right away)."
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-07"
   - name: "multiturn-eval"
     title: "multiturn-eval"
     description: null

@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [26, 15, 8, 8, 6, 1, 0, 28, 53, 9, 27, 58, 40]
+pushes_per_week: [32, 12, 7, 7, 5, 1, 0, 30, 51, 10, 45, 58, 30]
 windows:
   "7d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 158
+    pushes: 160
     distinct_repos: 5
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 288
     distinct_repos: 12
-    active_days: 50
+    active_days: 51
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.5800
-  repo_per_active_day: 0.2400
+  push_per_day: 5.6471
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.0833
   basename_concentration: 0.1667
   shapes: []
@@ -50,34 +50,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 43
     distinct_repos: 3
-    pushes_per_repo: 13.6667
+    pushes_per_repo: 14.3333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 158
+    pushes: 160
     distinct_repos: 5
-    pushes_per_repo: 31.6000
+    pushes_per_repo: 32.0000
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 288
     distinct_repos: 12
-    pushes_per_repo: 23.2500
-    active_days: 50
+    pushes_per_repo: 24.0000
+    active_days: 51
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "justrust"
+    title: "justrust"
+    description: "Ultra fast Rust compile for coding agents"
+    language: "Rust"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "jcode"
     title: "jcode"
     description: "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows"
@@ -95,17 +103,9 @@ repos:
       - "rust"
       - "terminal"
       - "tui"
-    stars_fact: 20984
+    stars_fact: 21210
     first_seen: "2026-07-25T06:00:06.342169+00:00"
-    last_push: "2026-10-18"
-  - name: "justrust"
-    title: "justrust"
-    description: "Fast Rust compile for coding agents"
-    language: "Rust"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "mermaid-rs-renderer"
     title: "mermaid-rs-renderer"
     description: "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
@@ -117,7 +117,7 @@ repos:
       - "mermaid"
       - "rust"
       - "svg"
-    stars_fact: 1772
+    stars_fact: 1789
     first_seen: null
     last_push: "2026-10-04"
   - name: "jcode-desktop"
@@ -125,29 +125,29 @@ repos:
     description: "Native spatial desktop client for Jcode"
     language: "Rust"
     topics: []
-    stars_fact: 16
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-18"
+  - name: "ffp"
+    title: "ffp"
+    description: "Fast file picker with typo-tolerant fuzzy search"
+    language: "Rust"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "agentgrep"
     title: "agentgrep"
     description: "CLI-first code search and retrieval for agents"
     language: "Rust"
     topics: []
-    stars_fact: 45
+    stars_fact: 48
     first_seen: null
-    last_push: "2026-07-05"
-  - name: "firefox-agent-bridge"
-    title: "firefox-agent-bridge"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-24"
 ---
 
 # 1jehuang
 
-279 pushes across 12 repositories on 50 active days in the last 90 days of public GitHub push activity.
+288 pushes across 12 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

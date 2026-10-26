@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [0, 4, 1, 3, 2, 0, 7, 5, 5, 2, 0, 0, 0]
+pushes_per_week: [0, 4, 2, 2, 2, 0, 8, 4, 5, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "platform-pulse"
+    title: "platform-pulse"
+    description: "Slack bot for data platform health, incident threads and LLM support triage, with an MCP server and a Streamlit dashboard"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "Charity-Event-Fundraising-Tracker"
+    title: "Charity-Event-Fundraising-Tracker"
+    description: "OOAD Project"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-20"
   - name: "hemophilia"
     title: "hemophilia"
     description: null

@@ -12,13 +12,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [3, 2, 3, 1, 1, 0, 0, 1, 0, 3, 0, 0, 7]
+pushes_per_week: [3, 3, 3, 0, 1, 0, 0, 1, 0, 3, 0, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -83,14 +83,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "solpulse"
-    title: "solpulse"
-    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "awesome-AI-driven-development"
     title: "awesome-AI-driven-development"
     description: "Awesome list of AI-Driven Development."
@@ -110,17 +102,28 @@ repos:
       - "spec-driven-development"
       - "vibe-coding"
       - "vibecoding"
-    stars_fact: 560
+    stars_fact: 568
     first_seen: null
     last_push: "2026-10-12"
-  - name: "eltociear"
-    title: "eltociear"
-    description: "introduction"
-    language: null
+  - name: "solpulse"
+    title: "solpulse"
+    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
+    language: "HTML"
     topics: []
-    stars_fact: 5
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-26"
+  - name: "translations"
+    title: "translations"
+    description: "Repository of records of translation."
+    language: "Python"
+    topics:
+      - "list"
+      - "record"
+      - "translation"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "awesome-molt-ecosystem"
     title: "awesome-molt-ecosystem"
     description: "The brutally honest map of where AI-agent money actually flows. Every number measured, dated, and re-checked — including the ones that turned out to be wrong. Lifetime external income: $2.40. 1 of 18 awesome-list submissions ever merged."
@@ -146,9 +149,17 @@ repos:
       - "usdc"
       - "web3"
       - "x402"
-    stars_fact: 65
+    stars_fact: 64
     first_seen: null
     last_push: "2026-10-03"
+  - name: "eltociear"
+    title: "eltociear"
+    description: "introduction"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "x402-approval-guard"
     title: "x402-approval-guard"
     description: "Stop your AI agent from signing dangerous ERC20 approvals. Calls contract-guard (x402) to flag unlimited/risky allowances before approve(). Forkable x402 example agent."
@@ -165,14 +176,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-07-15"
-  - name: "contract-guard-mcp"
-    title: "contract-guard-mcp"
-    description: "MCP server: pre-interaction EVM contract/token risk check (proxy, EIP-7702, ERC20). In the official MCP Registry. Also a 0.005 USD x402 API."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
 ---
 
 # eltociear

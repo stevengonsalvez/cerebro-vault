@@ -8,37 +8,37 @@ provenance_repos:
   - "ruvnet/ruflo"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [40, 28, 33, 14, 11, 2, 24, 21, 50, 52, 47, 43, 27]
+pushes_per_week: [37, 25, 33, 15, 9, 8, 20, 22, 50, 60, 50, 33, 31]
 windows:
   "7d":
-    pushes: 27
+    pushes: 35
     distinct_repos: 8
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "30d":
-    pushes: 213
+    pushes: 216
     distinct_repos: 21
     active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 392
+    pushes: 393
     distinct_repos: 40
-    active_days: 71
+    active_days: 70
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 5.5211
-  repo_per_active_day: 0.5634
+  push_per_day: 5.6143
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.2250
   basename_concentration: 0.1500
   shapes: []
@@ -49,144 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 35
     distinct_repos: 8
-    pushes_per_repo: 3.3750
+    pushes_per_repo: 4.3750
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "30d":
-    pushes: 213
+    pushes: 216
     distinct_repos: 21
-    pushes_per_repo: 10.1429
+    pushes_per_repo: 10.2857
     active_days: 24
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 392
+    pushes: 393
     distinct_repos: 40
-    pushes_per_repo: 9.8000
-    active_days: 71
+    pushes_per_repo: 9.8250
+    active_days: 70
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ruflo"
-    title: "ruflo"
-    description: "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "agents"
-      - "ai-agents"
-      - "ai-assistant"
-      - "ai-skills"
-      - "autonomous-agents"
-      - "claude"
-      - "codex"
-      - "dsh-plugin"
-      - "harness"
-      - "mcp-server"
-      - "multi-agent"
-      - "multi-agent-systems"
-      - "npm"
-      - "skills"
-      - "swarm"
-      - "swarm-intelligence"
-      - "typescript"
-    stars_fact: 76692
-    first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-10-19"
-  - name: "ruos"
-    title: "ruos"
-    description: "ruOS — an agentic desktop (a desktop that runs itself): computer-use MCP server + ruvnet-stack skills."
-    language: "Rust"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "RuView"
-    title: "RuView"
-    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
-    language: "Rust"
-    topics:
-      - "awesome"
-      - "claude"
-      - "densepose"
-      - "esp32"
-      - "firmware"
-      - "home-assistant"
-      - "home-automation"
-      - "iot"
-      - "monitoring"
-      - "networking"
-      - "npm"
-      - "pose-estimation"
-      - "react"
-      - "rf"
-      - "self-learning"
-      - "skills"
-      - "spatial-intelligence"
-      - "typescript"
-      - "wifi"
-      - "wifi-security"
-    stars_fact: 98692
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "ruvnet"
-    title: "ruvnet"
-    description: "ruvnet."
-    language: "Python"
-    topics: []
-    stars_fact: 267
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "readme-proof"
-    title: "readme-proof"
-    description: "Reproducible README checks, install plans, MCP tools and portable evidence. A Dream Machine factory product."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "ruqu"
-    title: "ruqu"
-    description: "High-performance quantum computing in pure Rust + WebAssembly: state-vector circuit simulator with SIMD & noise models, VQE, Grover, QAOA, surface-code error correction, and real-time coherence via dynamic min-cut."
-    language: "Rust"
-    topics:
-      - "grovers-algorithm"
-      - "mincut"
-      - "noise-model"
-      - "qaoa"
-      - "quantum"
-      - "quantum-algorithms"
-      - "quantum-chemistry"
-      - "quantum-computing"
-      - "quantum-error-correction"
-      - "quantum-simulator"
-      - "rust"
-      - "simd"
-      - "simulator"
-      - "state-vector"
-      - "surface-code"
-      - "vqe"
-      - "wasm"
-      - "webassembly"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-16"
+repos: []
 ---
 
 # ruvnet
 
-392 pushes across 40 repositories on 71 active days in the last 90 days of public GitHub push activity.
+393 pushes across 40 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

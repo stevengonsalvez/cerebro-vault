@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [6, 6, 9, 1, 2, 1, 0, 3, 7, 1, 1, 2, 1]
+pushes_per_week: [4, 6, 8, 3, 0, 1, 0, 3, 7, 1, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 9
-    active_days: 24
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.3750
+  push_per_day: 1.6087
+  repo_per_active_day: 0.3913
   not_owned_ratio: 0.5556
   basename_concentration: 0.2222
   shapes: []
@@ -65,45 +65,18 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 9
-    pushes_per_repo: 4.4444
-    active_days: 24
+    pushes_per_repo: 4.1111
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "defuddle"
-    title: "defuddle"
-    description: "Get the main content of any page as Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "defuddle"
-      - "html"
-      - "markdown"
-      - "md"
-      - "obsidian"
-      - "readability"
-    stars_fact: 9723
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "kepano-obsidian"
-    title: "kepano-obsidian"
-    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
-    language: null
-    topics:
-      - "markdown"
-      - "obsidian"
-      - "obsidian-md"
-      - "obsidian-vault"
-    stars_fact: 4650
-    first_seen: null
-    last_push: "2026-01-09"
   - name: "obsidian-skills"
     title: "obsidian-skills"
     description: "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
@@ -126,9 +99,44 @@ repos:
       - "openclaw"
       - "opencode"
       - "skills"
-    stars_fact: 49748
+    stars_fact: 50106
     first_seen: "2026-08-14T06:00:04.068645+00:00"
     last_push: "2026-09-15"
+  - name: "defuddle"
+    title: "defuddle"
+    description: "Get the main content of any page as Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "defuddle"
+      - "html"
+      - "markdown"
+      - "md"
+      - "obsidian"
+      - "readability"
+    stars_fact: 9786
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "kepano-obsidian"
+    title: "kepano-obsidian"
+    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+      - "obsidian-md"
+      - "obsidian-vault"
+    stars_fact: 4680
+    first_seen: null
+    last_push: "2026-01-09"
+  - name: "obsidian-permalink-opener"
+    title: "obsidian-permalink-opener"
+    description: "Obsidian plugin to open URLs based on a permalink or slug in the note properties. For use with Jekyll, Hugo, Eleventy, Astro, Obsidian Publish, and other publishing tools."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 106
+    first_seen: null
+    last_push: "2026-07-31"
   - name: "obsidian-minimal"
     title: "obsidian-minimal"
     description: "A distraction-free and highly customizable theme for Obsidian."
@@ -141,17 +149,9 @@ repos:
       - "obsidian-md"
       - "obsidian-theme"
       - "theme"
-    stars_fact: 5443
+    stars_fact: 5452
     first_seen: null
     last_push: "2026-10-06"
-  - name: "list-to-table"
-    title: "list-to-table"
-    description: "Convert lists into Markdown tables."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-05-19"
   - name: "flexoki"
     title: "flexoki"
     description: "An inky color scheme for prose and code."
@@ -176,13 +176,13 @@ repos:
       - "vscode-theme"
       - "wezterm"
       - "xresources"
-    stars_fact: 3706
+    stars_fact: 3724
     first_seen: null
     last_push: "2026-03-07"
 ---
 
 # kepano
 
-40 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+37 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

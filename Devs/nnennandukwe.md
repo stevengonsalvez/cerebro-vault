@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 0, 2, 1, 0, 0, 0, 4, 3, 0, 0, 0, 16]
+pushes_per_week: [5, 0, 3, 0, 0, 0, 0, 4, 3, 0, 0, 0, 16]
 windows:
   "7d":
     pushes: 16
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 3
-    active_days: 3
+    pushes: 16
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes: 16
+    distinct_repos: 2
+    pushes_per_repo: 8.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,70 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "governed-agent-autonomy-patterns"
-    title: "governed-agent-autonomy-patterns"
-    description: "This repo is a public, docs-first reference for teams that want agentic coding without chaos. It focuses on the patterns that protect code integrity while still preserving speed: plan, permission, verification, and tool trust."
-    language: "Rust"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "threadloop"
-    title: "threadloop"
-    description: "ThreadLoop is a local-first CLI that models an AI-assisted software-delivery task as a governed lifecycle graph."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "run-invariant"
-    title: "run-invariant"
-    description: "Implementation-independent conformance evidence for agent-run integrity."
-    language: "JavaScript"
-    topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "ai-governance"
-      - "conformance-testing"
-      - "software-integrity"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "policynim-nemo-coding-workflow"
-    title: "policynim-nemo-coding-workflow"
-    description: "A NVIDIA NeMo-powered coding workflow that uses PolicyNIM to enforce engineering standards during planning, code generation, and evaluation."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "threadloop-contracts"
-    title: "threadloop-contracts"
-    description: "Versioned ThreadLoop Controller Contract specifications: schemas, fixtures, conformance corpus, and reference validators."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "policyNIM"
-    title: "policyNIM"
-    description: "PolicyNIM is a policy-aware engineering preflight layer for AI coding agents."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "code-quality"
-      - "mcp"
-      - "model-context-protocol"
-      - "nvidia-nim"
-      - "policy"
-      - "preflight"
-      - "python"
-      - "verification"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-18"
+repos: []
 ---
 
 # nnennandukwe

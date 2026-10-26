@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 8, 11, 5, 7, 1, 13, 15, 7, 14, 3, 10, 2]
+pushes_per_week: [0, 9, 13, 5, 5, 2, 11, 15, 14, 7, 8, 7, 0]
 windows:
   "7d":
     pushes: 2
@@ -76,69 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cluster"
-    title: "cluster"
-    description: "Collection of Kubernetes cluster deployment tools for multiple cloud platforms and local development."
-    language: "HCL"
-    topics:
-      - "aks"
-      - "eks"
-      - "gke"
-      - "kind"
-      - "kubernetes"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "vimp"
-    title: "vimp"
-    description: "Aggregate vulnerability scans from multiple container image scanners to identify discrepancies and get comprehensive exposure analysis."
-    language: "Go"
-    topics:
-      - "artifact"
-      - "container"
-      - "cve"
-      - "gcp"
-      - "grype"
-      - "registry"
-      - "snyk"
-      - "trivy"
-      - "vulnerability"
-    stars_fact: 86
-    first_seen: null
-    last_push: "2026-07-10"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap project"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "aicrme"
-    title: "aicrme"
-    description: "AI Cluster Runtime Configurer"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "mchmarny"
-    title: "mchmarny"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "mchmarny.github.io"
-    title: "mchmarny.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
+repos: []
 ---
 
 # mchmarny

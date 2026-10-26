@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 2, 2, 0, 0, 0, 2, 0, 3, 6, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 0, 2, 0, 5, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pin-image"
+    title: "pin-image"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-15"
   - name: "Transoria"
     title: "Transoria"
     description: "AI desktop toolkit for novel translation, glossary management, and batch text replacement."
@@ -87,7 +95,7 @@ repos:
     topics: []
     stars_fact: 75
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-19"
   - name: "InkTether"
     title: "InkTether"
     description: null
@@ -120,14 +128,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2025-11-04"
-  - name: "pin-image"
-    title: "pin-image"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-15"
 ---
 
 # oodadoudou

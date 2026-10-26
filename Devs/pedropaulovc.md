@@ -8,28 +8,28 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [56, 16, 14, 34, 3, 7, 51, 51, 151, 86, 60, 64, 101]
+pushes_per_week: [57, 13, 17, 34, 0, 26, 36, 57, 182, 45, 87, 53, 85]
 windows:
   "7d":
-    pushes: 108
+    pushes: 98
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
+    pushes: 382
     distinct_repos: 13
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 694
+    pushes: 692
     distinct_repos: 23
     active_days: 62
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.1935
+  push_per_day: 11.1613
   repo_per_active_day: 0.3710
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 108
+    pushes: 98
     distinct_repos: 6
-    pushes_per_repo: 18.0000
-    active_days: 7
+    pushes_per_repo: 16.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 407
+    pushes: 382
     distinct_repos: 13
-    pushes_per_repo: 31.3077
-    active_days: 24
+    pushes_per_repo: 29.3846
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 694
+    pushes: 692
     distinct_repos: 23
-    pushes_per_repo: 30.1739
+    pushes_per_repo: 30.0870
     active_days: 62
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,59 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "harmonic-analyzer"
-    title: "harmonic-analyzer"
-    description: "Building Albert Michelson's 1898 harmonic analyzer — a 20-element mechanical Fourier computer — from scratch, and writing the machining book nobody ever wrote. Parametric SolidWorks CAD (102 parts + 95 drawings, scripted + verified), a learning-to-machine log, and an interactive simulator."
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Cross-platform (Linux+Windows, bash+pwsh) dotfiles managed with chezmoi"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "prechips"
-    title: "prechips"
-    description: "Checks before chips: turns a part and a short process plan into a validated traveler a machinist can work from — per-setup workholding, DRO zero recipe, coordinates, tools, speeds/feeds and inspections, checked against the shop's inventory, machine ranges, setup geometry, workholding and cut physics."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "hindsight"
-    title: "hindsight"
-    description: "Azure deployment for a self-hosted Hindsight memory service"
-    language: "Bicep"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "agent-sessions-backup"
-    title: "agent-sessions-backup"
-    description: "Backup, index, search and render AI agent sessions (Claude Code, Codex, ChatGPT/Claude web) across machines — Cloudflare Workers hub + per-machine collectors"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "offline-solidworks-api-docs"
-    title: "offline-solidworks-api-docs"
-    description: "An offline replica of the Solidworks API documentation tailored for IntelliSense and LLM use cases"
-    language: "Python"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-08-03"
+repos: []
 ---
 
 # pedropaulovc
 
-694 pushes across 23 repositories on 62 active days in the last 90 days of public GitHub push activity.
+692 pushes across 23 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [23, 24, 26, 1, 6, 0, 1, 18, 7, 1, 1, 0, 4]
+pushes_per_week: [28, 20, 25, 2, 5, 0, 2, 17, 8, 1, 0, 2, 4]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 6
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 5
+    pushes: 8
+    distinct_repos: 6
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 112
-    distinct_repos: 12
-    active_days: 31
+    pushes: 114
+    distinct_repos: 13
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6129
-  repo_per_active_day: 0.3871
-  not_owned_ratio: 0.5833
-  basename_concentration: 0.1667
+  push_per_day: 3.5625
+  repo_per_active_day: 0.4062
+  not_owned_ratio: 0.5385
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 6
+    distinct_repos: 6
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 112
-    distinct_repos: 12
-    pushes_per_repo: 9.3333
-    active_days: 31
+    pushes: 114
+    distinct_repos: 13
+    pushes_per_repo: 8.7692
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lsrules"
-    title: "lsrules"
-    description: "Little Snitch policy references and offline validators."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "chezmoi-managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "forge-provision"
-    title: "forge-provision"
-    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "forge-core"
-    title: "forge-core"
-    description: "Module-building skills for your AI ecosystem — build skills, build agents, architect repositories into modules and plugins in a scaffolding of your choice"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "forge-dev"
-    title: "forge-dev"
-    description: "Developer discipline skills for the forge ecosystem"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-04"
+repos: []
 ---
 
 # N4M3Z
 
-112 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+114 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

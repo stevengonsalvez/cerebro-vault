@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "593d8a1dc9504a09"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,7 +80,7 @@ repos:
   - name: "garden-skills"
     title: "garden-skills"
     description: "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more."
-    language: "CSS"
+    language: "JavaScript"
     topics:
       - "agent"
       - "claude"
@@ -88,9 +88,38 @@ repos:
       - "rag"
       - "skills"
       - "web-design"
-    stars_fact: 12963
+    stars_fact: 13285
     first_seen: "2026-08-27T06:00:05.568199+00:00"
-    last_push: "2026-10-11"
+    last_push: "2026-10-25"
+  - name: "easy-dataset"
+    title: "easy-dataset"
+    description: "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval"
+    language: "JavaScript"
+    topics:
+      - "dataset"
+      - "fine-tuning"
+      - "javascript"
+      - "llm"
+      - "rag"
+    stars_fact: 15038
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "easy-learn-ai"
+    title: "easy-learn-ai"
+    description: "Easy-to-understand AI learning resources for beginners."
+    language: "HTML"
+    topics: []
+    stars_fact: 1435
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "easy-llm-cli"
+    title: "easy-llm-cli"
+    description: "An open-source AI agent that is compatible with multiple LLM models"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1319
+    first_seen: null
+    last_push: "2026-02-05"
   - name: "easy-agent"
     title: "easy-agent"
     description: "Production-ready open source terminal coding agent with readable, layered code: permission rules, OS sandboxing, MCP, skills, sub-agents, and Anthropic, OpenAI-compatible, Gemini, or local models."
@@ -109,46 +138,17 @@ repos:
       - "sandbox"
       - "terminal"
       - "typescript"
-    stars_fact: 1016
+    stars_fact: 1015
     first_seen: null
     last_push: "2026-10-17"
-  - name: "rag-skill"
-    title: "rag-skill"
-    description: "A Skill dedicated to local knowledge base retrieval"
-    language: "Python"
+  - name: "reacticle"
+    title: "reacticle"
+    description: "An HTML article protocol for the AI era — instead of letting AI hand-write raw HTML, give it a constrained, semantic React component contract that produces stable, beautiful, interactive, self-contained HTML articles and reports."
+    language: "TypeScript"
     topics: []
-    stars_fact: 721
+    stars_fact: 95
     first_seen: null
-    last_push: "2026-04-25"
-  - name: "easy-dataset"
-    title: "easy-dataset"
-    description: "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval"
-    language: "JavaScript"
-    topics:
-      - "dataset"
-      - "fine-tuning"
-      - "javascript"
-      - "llm"
-      - "rag"
-    stars_fact: 15011
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "easy-learn-ai"
-    title: "easy-learn-ai"
-    description: "Easy-to-understand AI learning resources for beginners."
-    language: "HTML"
-    topics: []
-    stars_fact: 1420
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "awesome-coding-js"
-    title: "awesome-coding-js"
-    description: "Algorithms and data structures implemented in JavaScript, with detailed explanations and tutorials"
-    language: null
-    topics: []
-    stars_fact: 3279
-    first_seen: null
-    last_push: "2024-01-10"
+    last_push: "2026-06-10"
 ---
 
 # ConardLi

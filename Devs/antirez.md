@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,54 +80,54 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "c64-hw-simulator"
-    title: "c64-hw-simulator"
-    description: "Commodore 64 hardware simulator"
-    language: "C"
-    topics: []
-    stars_fact: 301
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "h3.c"
-    title: "h3.c"
-    description: "MiniMax H3 inference engine for Mac computers"
-    language: "C"
-    topics: []
-    stars_fact: 2919
-    first_seen: "2026-08-11T06:00:08.519332+00:00"
-    last_push: "2026-08-11"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 23911
+    stars_fact: 24090
     first_seen: "2026-08-04T06:00:05.826189+00:00"
-    last_push: "2026-10-08"
-  - name: "kilo"
-    title: "kilo"
-    description: "A text editor in less than 1000 LOC with syntax highlight and search."
+    last_push: "2026-10-23"
+  - name: "youcam"
+    title: "youcam"
+    description: "Mac video recording with face in a circle for YouTubers"
+    language: "Swift"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "tgterm"
+    title: "tgterm"
+    description: "Control your MacOS terminals via Telegram, for fun coding agents interaction and profit"
     language: "C"
     topics: []
-    stars_fact: 9187
+    stars_fact: 227
     first_seen: null
-    last_push: "2025-01-04"
-  - name: "anotherworld-zx-spectrum-48k"
-    title: "anotherworld-zx-spectrum-48k"
-    description: "Actual VM implementation of Another World game, with intro"
-    language: "C++"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "disque"
-    title: "disque"
-    description: "Disque is a distributed message broker"
+    last_push: "2026-09-07"
+  - name: "smallchat"
+    title: "smallchat"
+    description: "A minimal programming example for a chat server"
     language: "C"
     topics: []
-    stars_fact: 8073
+    stars_fact: 7488
     first_seen: null
-    last_push: "2021-03-17"
+    last_push: "2024-01-27"
+  - name: "h3.c"
+    title: "h3.c"
+    description: "MiniMax H3 inference engine for Mac computers"
+    language: "C"
+    topics: []
+    stars_fact: 2960
+    first_seen: "2026-08-11T06:00:08.519332+00:00"
+    last_push: "2026-08-11"
+  - name: "dump1090"
+    title: "dump1090"
+    description: "Dump1090 is a simple Mode S decoder for RTLSDR devices"
+    language: "C"
+    topics: []
+    stars_fact: 2963
+    first_seen: null
+    last_push: "2026-02-15"
 ---
 
 # antirez

@@ -8,23 +8,23 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 1, 5, 3, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+pushes_per_week: [2, 1, 4, 3, 0, 0, 0, 0, 1, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,66 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lanplace"
-    title: "lanplace"
-    description: "HarmonyOS 蓝所记 — Bluetooth place catalog"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "kmp-demo"
-    title: "kmp-demo"
-    description: "Kotlin Multiplatform demo project"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "volward"
-    title: "volward"
-    description: "Cross-platform desktop storage manager — incrementally scan disks, preview space usage, and safely clean up files (Flutter + Rust)."
-    language: "Dart"
-    topics:
-      - "cross-platform"
-      - "desktop-app"
-      - "disk-cleanup"
-      - "disk-space"
-      - "file-manager"
-      - "flutter"
-      - "linux"
-      - "macos"
-      - "rust"
-      - "storage"
-      - "windows"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "discussing-algorithm"
-    title: "discussing-algorithm"
-    description: "刷一下算法题"
-    language: "Java"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "TrayHand-Releases"
-    title: "TrayHand-Releases"
-    description: "TrayHand official macOS releases (installers & in-app updates)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "PrivacyPlugin"
-    title: "PrivacyPlugin"
-    description: "Gradle 8.0+ Transform solution."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-03-22"
+repos: []
 ---
 
 # ZakAnun

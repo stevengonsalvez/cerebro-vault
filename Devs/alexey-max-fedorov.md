@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [2, 2, 1, 2, 0, 0, 3, 1, 0, 0, 0, 1, 0]
+pushes_per_week: [3, 1, 3, 0, 0, 0, 3, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,39 +94,7 @@ repos:
       - "mod"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "ics-calendar-dxt"
-    title: "ics-calendar-dxt"
-    description: "iCloud Calendar MCP / Integration for Claude Desktop on MacOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "deskview-mcp"
-    title: "deskview-mcp"
-    description: "MacOS Desk view plugin for Claude Chat, Cowork, Code (Desktop Extension)"
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "terminal-dxt"
-    title: "terminal-dxt"
-    description: "Claude Desktop extension exposing a run_command MCP tool: execute a bash command in a working directory and get back stdout, stderr, and exit code. Local only."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "ics-plugin"
-    title: "ics-plugin"
-    description: "Claude Code plugin for iCal / ICS Calendar"
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "dripwriter-origin"
     title: "dripwriter-origin"
     description: "Dripwriter Origin browser extension: Simulates human typing on any website — Google Docs, Canvas, and more: natural speed, realistic typos, false starts, and breaks."
@@ -144,7 +112,47 @@ repos:
       - "typer"
     stars_fact: 19
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-25"
+  - name: "ics-calendar-dxt"
+    title: "ics-calendar-dxt"
+    description: "iCloud Calendar MCP / Integration for Claude Desktop on MacOS"
+    language: "Swift"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "deskview-mcp"
+    title: "deskview-mcp"
+    description: "MacOS Desk view plugin for Claude Chat, Cowork, Code (Desktop Extension)"
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "gaia-ai"
+    title: "gaia-ai"
+    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
+    language: "Markdown"
+    topics:
+      - "ai"
+      - "code"
+      - "harness"
+      - "mcp"
+      - "perplexity"
+      - "prompts"
+      - "spaces"
+      - "trending"
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "terminal-dxt"
+    title: "terminal-dxt"
+    description: "Claude Desktop extension exposing a run_command MCP tool: execute a bash command in a working directory and get back stdout, stderr, and exit code. Local only."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # alexey-max-fedorov

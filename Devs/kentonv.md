@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
   - "9c15e014464735eb"
-pushes_per_week: [0, 2, 3, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,12 +26,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 7
     distinct_repos: 3
@@ -61,13 +61,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 7
     distinct_repos: 3
@@ -81,14 +81,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "kvmonitor"
-    title: "kvmonitor"
-    description: "My homebrew baby monitor"
-    language: "C++"
-    topics: []
-    stars_fact: 72
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "lanparty"
     title: "lanparty"
     description: "Netboot a fleet of desktop machines from a single base image"
@@ -97,6 +89,22 @@ repos:
     stars_fact: 973
     first_seen: null
     last_push: "2026-08-28"
+  - name: "home-container"
+    title: "home-container"
+    description: "Containerize your home directory"
+    language: "C"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "kvmonitor"
+    title: "kvmonitor"
+    description: "My homebrew baby monitor"
+    language: "C++"
+    topics: []
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-09-01"
   - name: "private-ca"
     title: "private-ca"
     description: "Scripts to create a private CA and sign certificates with it using OpenSSL"
@@ -105,14 +113,6 @@ repos:
     stars_fact: 40
     first_seen: null
     last_push: "2018-02-04"
-  - name: "home-container"
-    title: "home-container"
-    description: "Containerize your home directory"
-    language: "C"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2026-08-15"
   - name: "dvorak-qwerty"
     title: "dvorak-qwerty"
     description: "\"Dvorak-Qwerty ⌘\" (DQ) keyboard layout for Windows and Unix/Linux/X"

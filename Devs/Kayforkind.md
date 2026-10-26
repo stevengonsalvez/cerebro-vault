@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 5, 4, 17, 0, 15, 4, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 2, 15, 5, 0, 15, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    active_days: 6
+    pushes: 13
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 6
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -103,9 +103,9 @@ repos:
       - "svg"
       - "threejs"
       - "webgl"
-    stars_fact: 209
+    stars_fact: 211
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-24"
   - name: "NavigatorsLab-Tools"
     title: "NavigatorsLab-Tools"
     description: "🧭 15 free in-browser tools — zero uploads, zero accounts. EXIF strip, image shrink, scan clean, PDF sign/pages, OCR, QR, diff, stats + an MCP endpoint for AI agents. MIT."
@@ -113,7 +113,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-19"
+  - name: "Kayforkind"
+    title: "Kayforkind"
+    description: "Local-first agent tooling · founder of NavigatorsLab — private-by-default software, built in public"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "navigators-site"
     title: "navigators-site"
     description: "NavigatorLabs landing site — one static file, zero external fetches, 19/19 on the lab's own design audit. navigators.com"
@@ -140,15 +148,7 @@ repos:
       - "wasm"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "Kayforkind"
-    title: "Kayforkind"
-    description: "Local-first agent tooling · founder of NavigatorsLab — private-by-default software, built in public"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-25"
   - name: "skills-registry"
     title: "skills-registry"
     description: "skills-registry"

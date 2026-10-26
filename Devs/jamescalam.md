@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 6, 0, 0, 1, 1, 0, 15]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 6, 0, 0, 1, 1, 2, 16]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 12
-    active_days: 5
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 5
-  "30d":
     pushes: 17
-    distinct_repos: 12
-    active_days: 7
+    distinct_repos: 13
+    active_days: 6
     repos_not_owned: 12
     not_owned_basenames: 10
-    not_owned_owners: 5
-  "90d":
-    pushes: 23
-    distinct_repos: 15
-    active_days: 10
+    not_owned_owners: 4
+  "30d":
+    pushes: 20
+    distinct_repos: 14
+    active_days: 8
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
+  "90d":
+    pushes: 26
+    distinct_repos: 17
+    active_days: 11
+    repos_not_owned: 14
+    not_owned_basenames: 12
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3000
-  repo_per_active_day: 1.5000
-  not_owned_ratio: 0.8667
-  basename_concentration: 0.2000
+  push_per_day: 2.3636
+  repo_per_active_day: 1.5455
+  not_owned_ratio: 0.8235
+  basename_concentration: 0.1765
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,43 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 12
-    pushes_per_repo: 1.2500
-    active_days: 5
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 5
-  "30d":
     pushes: 17
-    distinct_repos: 12
-    pushes_per_repo: 1.4167
-    active_days: 7
+    distinct_repos: 13
+    pushes_per_repo: 1.3077
+    active_days: 6
     repos_not_owned: 12
     not_owned_basenames: 10
-    not_owned_owners: 5
-  "90d":
-    pushes: 23
-    distinct_repos: 15
-    pushes_per_repo: 1.5333
-    active_days: 10
+    not_owned_owners: 4
+  "30d":
+    pushes: 20
+    distinct_repos: 14
+    pushes_per_repo: 1.4286
+    active_days: 8
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
+  "90d":
+    pushes: 26
+    distinct_repos: 17
+    pushes_per_repo: 1.5294
+    active_days: 11
+    repos_not_owned: 14
+    not_owned_basenames: 12
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pointman-youtube"
+    title: "pointman-youtube"
+    description: "Message Board behaviour: research, titles, description, chapters, tags and thumbnails for a YouTube upload"
+    language: "Rust"
+    topics:
+      - "pointman-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "pointman-karpathy"
     title: "pointman-karpathy"
     description: "Message Board behaviour: seven rules for how agents work, after Karpathy's notes on coding agents"
@@ -85,16 +94,7 @@ repos:
       - "pointman-extension"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "pointman-youtube"
-    title: "pointman-youtube"
-    description: "Message Board behaviour: research, titles, description, chapters, tags and thumbnails for a YouTube upload"
-    language: "Python"
-    topics:
-      - "pointman-extension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
   - name: "transformers"
     title: "transformers"
     description: null
@@ -131,6 +131,6 @@ repos:
 
 # jamescalam
 
-23 pushes across 15 repositories on 10 active days in the last 90 days of public GitHub push activity.
+26 pushes across 17 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamescalam

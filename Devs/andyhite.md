@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 27, 10, 4, 1, 0, 0, 0, 0, 1, 0, 1, 2]
+pushes_per_week: [3, 27, 12, 3, 0, 0, 0, 0, 0, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -77,20 +77,20 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Setup and dotfiles"
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "tern-plotroom"
     title: "tern-plotroom"
     description: null
     language: "Luau"
     topics: []
     stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Setup and dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-16"
   - name: "uc-steer"

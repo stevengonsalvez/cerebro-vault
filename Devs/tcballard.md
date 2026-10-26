@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [32, 25, 12, 3, 5, 11, 10, 24, 33, 19, 17, 10, 5]
+pushes_per_week: [37, 21, 9, 4, 9, 6, 12, 25, 33, 21, 12, 11, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 5
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 56
     distinct_repos: 17
-    active_days: 20
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 206
-    distinct_repos: 60
-    active_days: 62
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 204
+    distinct_repos: 59
+    active_days: 61
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3226
-  repo_per_active_day: 0.9677
-  not_owned_ratio: 0.2167
-  basename_concentration: 0.0333
+  push_per_day: 3.3443
+  repo_per_active_day: 0.9672
+  not_owned_ratio: 0.2034
+  basename_concentration: 0.0339
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,86 +51,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 56
     distinct_repos: 17
-    pushes_per_repo: 3.6471
-    active_days: 20
+    pushes_per_repo: 3.2941
+    active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 206
-    distinct_repos: 60
-    pushes_per_repo: 3.4333
-    active_days: 62
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 204
+    distinct_repos: 59
+    pushes_per_repo: 3.4576
+    active_days: 61
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omarchy-theme-tokyo-roadster"
-    title: "omarchy-theme-tokyo-roadster"
+  - name: "omarchy-plugin-orb"
+    title: "omarchy-plugin-orb"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 14
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
   - name: "build-omarchy-plugins"
     title: "build-omarchy-plugins"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 100
+    stars_fact: 105
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "build-omarchy-themes"
-    title: "build-omarchy-themes"
-    description: null
-    language: "Python"
+    last_push: "2026-10-24"
+  - name: "omarchy-markets"
+    title: "omarchy-markets"
+    description: "Omarchy Markets builds on the ticker-first pattern established by omarchy-stocks, then adds omakase profiles, native management, offline resilience and a stricter long-running service contract."
+    language: "QML"
     topics: []
-    stars_fact: 15
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "omarchy-theme-roadster-8k"
-    title: "omarchy-theme-roadster-8k"
-    description: null
-    language: "JavaScript"
+    last_push: "2026-10-12"
+  - name: "causal-ts-rs"
+    title: "causal-ts-rs"
+    description: "Native Rust port of Bloomberg’s Causal-TS, with numerical validation and performance benchmarks."
+    language: null
     topics: []
-    stars_fact: 6
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "omarchy-theme-tokyo-liftoff"
-    title: "omarchy-theme-tokyo-liftoff"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "omarchy-task-manager"
-    title: "omarchy-task-manager"
+    last_push: "2026-10-24"
+  - name: "OmaChat"
+    title: "OmaChat"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 51
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-07"
+  - name: "OmaSheets"
+    title: "OmaSheets"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # tcballard
 
-206 pushes across 60 repositories on 62 active days in the last 90 days of public GitHub push activity.
+204 pushes across 59 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

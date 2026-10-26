@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 3, 0, 0, 0, 0, 2, 6, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 3, 0, 0, 0, 0, 2, 8, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,77 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "track-b2"
-    title: "track-b2"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "muse-familiar"
-    title: "muse-familiar"
-    description: null
-    language: "Python"
-    topics:
-      - "ai"
-      - "arduino"
-      - "desk-pet"
-      - "iot"
-      - "led-matrix"
-      - "muse"
-      - "muse-gadget"
-      - "qualcomm"
-      - "zephyr"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "lumen"
-    title: "lumen"
-    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "cloudflare-workers"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "nodejs"
-      - "open-source"
-      - "seo"
-      - "seo-audit"
-      - "site-audit"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "lumen-plugin-template"
-    title: "lumen-plugin-template"
-    description: "Starter template for lumen audit-rule plugins."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "res-blog"
-    title: "res-blog"
-    description: "Nitish Personal Portfolio/Blog"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "minimal-editor"
-    title: "minimal-editor"
-    description: "Minimal, fast, VS Code-familiar editor for reviewing code changes. No extensions, no telemetry, no agent upsell."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
+repos: []
 ---
 
 # nitishagar

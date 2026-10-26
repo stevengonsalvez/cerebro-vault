@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 5, 1, 0, 0, 0, 1, 3, 7, 1, 0, 0]
+pushes_per_week: [0, 0, 6, 0, 0, 0, 0, 1, 3, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 8
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 10
+    distinct_repos: 1
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 18
     distinct_repos: 2
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 8
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 10
+    distinct_repos: 1
+    pushes_per_repo: 10.0000
+    active_days: 7
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 18
     distinct_repos: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cs2106-lab1"
-    title: "cs2106-lab1"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-09-10"
-  - name: "vr-ml-backend"
-    title: "vr-ml-backend"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-20"
-  - name: "blender"
-    title: "blender"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-17"
-  - name: "cs4240-assignment-3"
-    title: "cs4240-assignment-3"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-12"
-  - name: "Temp"
-    title: "Temp"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-03-04"
-  - name: "smart-bear"
-    title: "smart-bear"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-06-25"
+repos: []
 ---
 
 # shawnkoh

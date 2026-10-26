@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [56, 1, 10, 2, 3, 6, 0, 1, 2, 4, 6, 2, 7]
+pushes_per_week: [51, 8, 3, 4, 7, 0, 0, 1, 2, 5, 5, 2, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 7
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 95
     distinct_repos: 13
-    active_days: 26
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8462
-  repo_per_active_day: 0.5000
+  push_per_day: 3.8000
+  repo_per_active_day: 0.5200
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
   shapes: []
@@ -57,118 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 2.7143
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 95
     distinct_repos: 13
-    pushes_per_repo: 7.6923
-    active_days: 26
+    pushes_per_repo: 7.3077
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agenttab"
-    title: "agenttab"
-    description: "Drive a real, logged-in Chrome profile from local scripts via a Native Messaging bridge — no remote-debugging popup. Agent-ready: navigation, tabs, waits, screenshots, extraction, input, forms, diagnostics."
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "browser-automation"
-      - "cdp"
-      - "chrome-devtools-protocol"
-      - "chrome-extension"
-      - "native-messaging"
-      - "python"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "wolfie-platform-lab"
-    title: "wolfie-platform-lab"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "omp-episodic-memory"
-    title: "omp-episodic-memory"
-    description: "Hybrid semantic and keyword search over Oh My Pi session transcripts"
-    language: "TypeScript"
-    topics:
-      - "agent-transcr"
-      - "agentic-memory-system"
-      - "episodic-memory"
-      - "episodic-memory-ai"
-      - "oh-my-pi"
-      - "omp"
-      - "rag"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "omp-best-of"
-    title: "omp-best-of"
-    description: "Best-of-N coding agents with LLM-as-a-Verifier selection for Oh My Pi: isolated git worktrees, verifier-ranked trajectories, winner-only patch application"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "best-of-n"
-      - "coding-agent"
-      - "deepseek"
-      - "git-worktree"
-      - "llm-as-a-verifier"
-      - "oh-my-pi"
-      - "oh-my-pi-extension"
-      - "omp"
-      - "omp-extension"
-      - "omp-parallel"
-      - "omp-plugin"
-      - "test-time-scaling"
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "omp-side"
-    title: "omp-side"
-    description: "Fork the current Oh My Pi session into a cmux side pane with /side"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "gpt-control"
-    title: "gpt-control"
-    description: "A trustworthy cross-model review broker for coding agents: real runs, structured findings, attachment receipts, and Chrome Bridge, Codex, or Responses transports"
-    language: "TypeScript"
-    topics:
-      - "agent-tools"
-      - "browser-automation"
-      - "chatgpt"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "developer-tools"
-      - "gpt-control"
-      - "mcp"
-      - "model-review"
-      - "oh-my-pi"
-      - "openai"
-      - "structured-outputs"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+repos: []
 ---
 
 # wolfiesch
 
-100 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
+95 pushes across 13 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [22, 4, 1, 4, 18, 5, 18, 81, 14, 109, 158, 120, 42]
+pushes_per_week: [23, 3, 1, 7, 16, 4, 27, 72, 15, 152, 171, 64, 75]
 windows:
   "7d":
-    pushes: 43
-    distinct_repos: 5
-    active_days: 7
+    pushes: 75
+    distinct_repos: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 433
+    pushes: 463
     distinct_repos: 16
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 596
-    distinct_repos: 22
-    active_days: 62
+    pushes: 630
+    distinct_repos: 24
+    active_days: 63
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.6129
-  repo_per_active_day: 0.3548
-  not_owned_ratio: 0.0455
-  basename_concentration: 0.0909
+  push_per_day: 10.0000
+  repo_per_active_day: 0.3810
+  not_owned_ratio: 0.0417
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,88 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 43
-    distinct_repos: 5
-    pushes_per_repo: 8.6000
-    active_days: 7
+    pushes: 75
+    distinct_repos: 7
+    pushes_per_repo: 10.7143
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 433
+    pushes: 463
     distinct_repos: 16
-    pushes_per_repo: 27.0625
-    active_days: 25
+    pushes_per_repo: 28.9375
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 596
-    distinct_repos: 22
-    pushes_per_repo: 27.0909
-    active_days: 62
+    pushes: 630
+    distinct_repos: 24
+    pushes_per_repo: 26.2500
+    active_days: 63
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-ebpf-filter"
-    title: "agent-ebpf-filter"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "custom_lib_build"
-    title: "custom_lib_build"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "Extera"
-    title: "Extera"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "fluxdo-aistudio"
-    title: "fluxdo-aistudio"
-    description: "more with Gemini"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "bug-v3"
-    title: "bug-v3"
-    description: "一个有很多bug的表情插件，主要在linux do 测试喵。discourse的网站们应该都可以用"
-    language: "TypeScript"
-    topics:
-      - "discourse"
-      - "linux-do"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "2BM"
-    title: "2BM"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
+repos: []
 ---
 
 # stevessr
 
-596 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+630 pushes across 24 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

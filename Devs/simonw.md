@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,7 +43,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [24, 6, 21, 2, 0, 0, 2, 13, 2, 4, 4, 11, 2]
+pushes_per_week: [18, 7, 19, 2, 0, 0, 5, 10, 2, 4, 10, 5, 3]
 windows:
   "7d":
     pushes: 3
@@ -53,25 +53,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 15
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 36
+    pushes: 85
+    distinct_repos: 35
     active_days: 37
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4595
-  repo_per_active_day: 0.9730
-  not_owned_ratio: 0.1944
-  basename_concentration: 0.0556
+  push_per_day: 2.2973
+  repo_per_active_day: 0.9459
+  not_owned_ratio: 0.1714
+  basename_concentration: 0.0571
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -88,34 +88,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 22
     distinct_repos: 15
-    pushes_per_repo: 1.4000
-    active_days: 12
+    pushes_per_repo: 1.4667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 91
-    distinct_repos: 36
-    pushes_per_repo: 2.5278
+    pushes: 85
+    distinct_repos: 35
+    pushes_per_repo: 2.4286
     active_days: 37
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 18 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "usgs-scraper"
-    title: "usgs-scraper"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "scrape-florida-outages"
     title: "scrape-florida-outages"
     description: null
@@ -123,7 +115,40 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "ollama-models-atom-feed"
+    title: "ollama-models-atom-feed"
+    description: "https://ollama.com/search?o=newest"
+    language: "Python"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "usgs-demo"
+    title: "usgs-demo"
+    description: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "battledrones"
+    title: "battledrones"
+    description: "A mobile web RTS"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "scrape-fediverse"
+    title: "scrape-fediverse"
+    description: "Git scrapers for scraping the fediverse"
+    language: null
+    topics:
+      - "git-scraping"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
@@ -132,38 +157,11 @@ repos:
       - "git-scraping"
     stars_fact: 16
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "llm"
-    title: "llm"
-    description: "Access large language models from the command-line"
-    language: "Python"
-    topics:
-      - "ai"
-      - "llms"
-      - "openai"
-    stars_fact: 12636
-    first_seen: "2026-07-31T06:00:06.780986+00:00"
-    last_push: "2026-10-15"
-  - name: "simonwillisonblog-backup"
-    title: "simonwillisonblog-backup"
-    description: "Backups of the database for simonwillison.net"
-    language: "Python"
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "inaturalist-clumps"
-    title: "inaturalist-clumps"
-    description: "Runs inaturalist-clumper"
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
 ---
 
 # simonw
 
-91 pushes across 36 repositories on 37 active days in the last 90 days of public GitHub push activity.
+85 pushes across 35 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

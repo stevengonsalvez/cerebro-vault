@@ -8,11 +8,11 @@ provenance_repos:
   - "oraios/serena"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "41883ae726050c68"
-pushes_per_week: [1, 4, 1, 0, 0, 0, 0, 5, 1, 2, 5, 2, 0]
+pushes_per_week: [1, 4, 1, 0, 0, 0, 0, 5, 1, 2, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "vlc_sync"
-    title: "vlc_sync"
-    description: "a synchronizing video player for remote social video watching"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2015-11-27"
-  - name: "repo-dir-sync"
-    title: "repo-dir-sync"
-    description: "Synchronisation of folders between git repositories"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "wir2wav"
-    title: "wir2wav"
-    description: "a simple tool for the conversion of .wir impulse response files into standard PCM .wav files"
-    language: "Python"
-    topics: []
-    stars_fact: 58
-    first_seen: null
-    last_push: "2021-11-24"
-  - name: "config-notes"
-    title: "config-notes"
-    description: "various configuration files, settings and notes"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-02"
-  - name: "ProbCog"
-    title: "ProbCog"
-    description: "A toolbox for statistical relational learning and reasoning."
-    language: "Java"
-    topics: []
-    stars_fact: 103
-    first_seen: null
-    last_push: "2022-07-06"
-  - name: "git-migrate-subdir"
-    title: "git-migrate-subdir"
-    description: "Describes a method for moving a directory in one git repository to a new path in another repository"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-02-02"
+repos: []
 ---
 
 # opcode81

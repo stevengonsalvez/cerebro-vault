@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 1, 1, 1, 3, 0, 0, 1, 3, 14, 5, 4, 3]
+pushes_per_week: [3, 2, 0, 2, 2, 0, 0, 1, 5, 13, 6, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.7000
-    active_days: 14
+    pushes_per_repo: 2.6000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,74 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "youtube-transcript-mcp"
-    title: "youtube-transcript-mcp"
-    description: "MCP and CLI to extract subtitles from youtube videos. based on python's lib youtube-transcript-api"
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "mcp"
-      - "modelcontextprotocol"
-      - "transcription"
-      - "youtube"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "ps5-custom-payloads"
-    title: "ps5-custom-payloads"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "arrmate"
-    title: "arrmate"
-    description: "A companion app for Radarr and Sonarr instances."
-    language: "Dart"
-    topics:
-      - "app"
-      - "arr"
-      - "companion"
-      - "flutter"
-      - "radarr"
-      - "rudarr"
-      - "sonarr"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "opencode-classifier-plugin"
-    title: "opencode-classifier-plugin"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "llm-telegram-bot"
-    title: "llm-telegram-bot"
-    description: "Telegram bot to chat with LLMs"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "bot"
-      - "llm"
-      - "telegram"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "chatgpt-openai-proxy"
-    title: "chatgpt-openai-proxy"
-    description: "Use your chatgpt plan as an openai compatible api"
-    language: "Python"
-    topics:
-      - "api"
-      - "chatgpt"
-      - "openai"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+repos: []
 ---
 
 # lucasliet

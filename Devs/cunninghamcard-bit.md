@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 4, 1, 3, 0, 0, 0, 9, 17, 13, 21, 25]
+pushes_per_week: [1, 0, 4, 4, 0, 0, 0, 0, 14, 12, 21, 19, 41]
 windows:
   "7d":
-    pushes: 25
+    pushes: 47
     distinct_repos: 2
-    active_days: 4
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 102
     distinct_repos: 4
-    active_days: 21
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 116
     distinct_repos: 5
-    active_days: 30
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1333
-  repo_per_active_day: 0.1667
+  push_per_day: 3.6250
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 4
+    pushes_per_repo: 23.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 102
     distinct_repos: 4
-    pushes_per_repo: 20.5000
-    active_days: 21
+    pushes_per_repo: 25.5000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 116
     distinct_repos: 5
-    pushes_per_repo: 18.8000
-    active_days: 30
+    pushes_per_repo: 23.2000
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "attention"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-25"
   - name: "nehir-niri-dual-monitor"
     title: "nehir-niri-dual-monitor"
     description: "Niri-style Nehir configuration for two side-by-side macOS displays"
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-94 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+116 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

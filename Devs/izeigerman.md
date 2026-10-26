@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "daa338753d6df9fd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,16 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "claude-thermos"
+    title: "claude-thermos"
+    description: "Keeps your Claude session warm for you"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+    stars_fact: 237
+    first_seen: "2026-07-24T06:00:05.187645+00:00"
+    last_push: "2026-07-27"
   - name: "agent-shell-skill"
     title: "agent-shell-skill"
     description: null
@@ -85,16 +95,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-14"
-  - name: "claude-thermos"
-    title: "claude-thermos"
-    description: "Keeps your Claude session warm for you"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-    stars_fact: 234
-    first_seen: "2026-07-24T06:00:05.187645+00:00"
-    last_push: "2026-07-27"
   - name: "pittacus"
     title: "pittacus"
     description: "Gossip protocol implementation in C"

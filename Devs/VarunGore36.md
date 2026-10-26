@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 7, 5, 1, 8, 3, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 6, 6, 5, 3, 8, 1, 6]
 windows:
   "7d":
     pushes: 6
@@ -83,15 +83,31 @@ repos:
     description: "Local-first runtime for securely executing AI agent tools, with capability-based authorization, credential isolation, controlled network egress, and tamper-evident audit logs."
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "DepLens"
+    title: "DepLens"
+    description: "DepLens is an investigation into dependency-change impact prediction. The objective is not to assume that reliable prediction is possible, but to determine how far it can be pushed using empirical evidence."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "ChainLens"
+    title: "ChainLens"
+    description: "High-performance Ethereum blockchain indexer built in Rust and Tokio, featuring concurrent ingestion, canonical-chain tracking, reorg handling, crash-safe recovery, PostgreSQL storage, and reproducible performance benchmarks."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "AstralProject"
     title: "AstralProject"
     description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
     language: "Rust"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-16"
   - name: "VarunGore36"
@@ -101,23 +117,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
-  - name: "ChainLens"
-    title: "ChainLens"
-    description: "High-performance Ethereum blockchain indexer built in Rust and Tokio, featuring concurrent ingestion, canonical-chain tracking, reorg handling, crash-safe recovery, PostgreSQL storage, and reproducible performance benchmarks."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "DepLens"
-    title: "DepLens"
-    description: "DepLens is an investigation into dependency-change impact prediction. The objective is not to assume that reliable prediction is possible, but to determine how far it can be pushed using empirical evidence."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
+    last_push: "2026-10-21"
   - name: "ENAMEL-Extended"
     title: "ENAMEL-Extended"
     description: "Reimplementation and extension of ENAMEL, an ICLR 2025 benchmark for rigorously evaluating the efficiency of LLM-generated code"

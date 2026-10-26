@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1, 0, 1]
+pushes_per_week: [2, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,6 +80,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "copanier"
+    title: "copanier"
+    description: "A minimalist collective buying software."
+    language: "Python"
+    topics:
+      - "community-buying"
+      - "delivery"
+      - "food-hubs"
+      - "joint-buying-association"
+      - "pay"
+      - "purchasing"
+      - "purchasing-system"
+      - "python"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2023-10-20"
   - name: "signal-without-smartphone"
     title: "signal-without-smartphone"
     description: "Use Signal without a smartphone!"
@@ -96,14 +112,6 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2014-09-11"
-  - name: "threat-modeling-ssg"
-    title: "threat-modeling-ssg"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "slides"
     title: "slides"
     description: "My slides"

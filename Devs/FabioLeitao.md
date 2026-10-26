@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [8, 7, 16, 13, 2, 0, 13, 1, 5, 7, 5, 6, 7]
+pushes_per_week: [5, 6, 25, 4, 2, 6, 7, 1, 6, 7, 8, 4, 6]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 1
@@ -24,21 +24,21 @@ windows:
   "30d":
     pushes: 26
     distinct_repos: 11
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 87
     distinct_repos: 12
-    active_days: 36
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.3333
+  push_per_day: 2.4857
+  repo_per_active_day: 0.3429
   not_owned_ratio: 0.1667
   basename_concentration: 0.0833
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -60,21 +60,21 @@ facets:
     pushes: 26
     distinct_repos: 11
     pushes_per_repo: 2.3636
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 87
     distinct_repos: 12
-    pushes_per_repo: 7.5000
-    active_days: 36
+    pushes_per_repo: 7.2500
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zero-bridge-desktop"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-22"
   - name: "zero-bridge"
     title: "zero-bridge"
     description: "Local HTTP/SSE bridge and web UI for zero ACP (personal, experimental)"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-21"
   - name: "zero-handoff"
     title: "zero-handoff"
     description: "Opt-in Zero plugin: /remember, /remind and a deterministic sessionEnd log tied to --resume"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-90 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
+87 pushes across 12 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

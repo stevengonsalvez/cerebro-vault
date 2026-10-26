@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 1, 5, 1, 0, 0, 0, 4, 0, 1, 0, 2, 2]
+pushes_per_week: [3, 5, 0, 1, 0, 0, 0, 4, 0, 1, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -88,7 +88,7 @@ repos:
       - "playwright"
       - "stealth"
       - "web-scraping"
-    stars_fact: 203
+    stars_fact: 206
     first_seen: null
     last_push: "2026-08-27"
   - name: "rever-browser"
@@ -107,9 +107,9 @@ repos:
       - "mcp"
       - "reverse-engineering"
       - "web-scraping"
-    stars_fact: 42
+    stars_fact: 46
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-21"
   - name: "amped-web"
     title: "amped-web"
     description: "싱글 겟앰프드(GetAmped 1.0.12)를 CheerpJ+WebGL로 브라우저에서 돌리는 포팅"
@@ -118,6 +118,14 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-14"
+  - name: "canvas-ui"
+    title: "canvas-ui"
+    description: "HTML-in-Canvas API (drawElementImage) demos & Claude skill"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
   - name: "viruagent-cli"
     title: "viruagent-cli"
     description: "AI agent-powered CLI for blog publishing, Naver Cafe, Instagram, X (Twitter) & Reddit automation"
@@ -153,14 +161,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-02-20"
-  - name: "triple-mcp"
-    title: "triple-mcp"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-02"
 ---
 
 # greekr4

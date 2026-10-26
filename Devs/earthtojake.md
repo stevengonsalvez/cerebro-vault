@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [5, 8, 35, 6, 0, 1, 1, 13, 15, 22, 15, 0, 4]
+pushes_per_week: [5, 9, 38, 2, 1, 0, 2, 12, 15, 29, 8, 0, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 56
     distinct_repos: 1
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 126
     distinct_repos: 5
     active_days: 37
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3784
+  push_per_day: 3.4054
   repo_per_active_day: 0.1351
   not_owned_ratio: 0.6000
   basename_concentration: 0.8000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 5.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 56
     distinct_repos: 1
-    pushes_per_repo: 55.0000
+    pushes_per_repo: 56.0000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 126
     distinct_repos: 5
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 25.2000
     active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 1
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-125 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
+126 pushes across 5 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

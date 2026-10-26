@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [14, 15, 15, 7, 4, 1, 4, 4, 5, 2, 6, 3, 0]
+pushes_per_week: [17, 15, 13, 8, 2, 1, 5, 3, 6, 6, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,6 +95,22 @@ reasons:
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Extensions for pi, the terminal-based coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 564
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Small, opinionated, agent-agnostic skills for coding agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "herdr-browser"
     title: "herdr-browser"
     description: "Render a real Chromium view inside a Herdr pane and drive it over CDP."
@@ -107,17 +123,9 @@ repos:
       - "herdr-plugin"
       - "kitty-graphics"
       - "terminal"
-    stars_fact: 358
+    stars_fact: 360
     first_seen: null
     last_push: "2026-08-22"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Extensions for pi, the terminal-based coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 561
-    first_seen: null
-    last_push: "2026-10-08"
   - name: "herdr-plugin-examples"
     title: "herdr-plugin-examples"
     description: null
@@ -134,14 +142,6 @@ repos:
     stars_fact: 49
     first_seen: null
     last_push: "2026-03-23"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Small, opinionated, agent-agnostic skills for coding agents"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 80
-    first_seen: null
-    last_push: "2026-09-10"
   - name: "claudify"
     title: "claudify"
     description: "AI-powered Spotify playlist generator using Claude API. Create personalized playlists from text prompts or transform your liked songs into curated collections. Seamlessly blends AI creativity with music discovery."

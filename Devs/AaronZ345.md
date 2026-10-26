@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 0, 7, 2, 4, 1, 1, 5, 4, 4, 0, 2, 0]
+pushes_per_week: [1, 0, 8, 4, 2, 0, 1, 5, 4, 4, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "AaronZ345.github.io"
+    title: "AaronZ345.github.io"
+    description: "Personal academic homepage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "xiaoheihe-cli"
     title: "xiaoheihe-cli"
     description: "小黑盒游戏记录、个人评分与短评、社区内容操作 CLI，支持 SDK、REST 和 MCP"
@@ -88,58 +96,9 @@ repos:
       - "mcp"
       - "python"
       - "xiaoheihe"
-    stars_fact: 34
+    stars_fact: 63
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "douban-cli"
-    title: "douban-cli"
-    description: "豆瓣命令行工具：书影查询、豆列、评分与短评管理；提供供 Dots 使用的本地技能和 MCP 接口"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "douban"
-      - "mcp"
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "AaronZ345"
-    title: "AaronZ345"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "VersBand"
-    title: "VersBand"
-    description: "PyTorch Implementation of VersBand(EMNLP 2025): Versatile Framework for Song Generation with Prompt-based Control"
-    language: "Python"
-    topics:
-      - "lyric-generation"
-      - "melody-generation"
-      - "music-generation"
-      - "singing-voice-synthesis"
-      - "song-generation"
-      - "songs"
-    stars_fact: 226
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "Athena-personal-academic-page"
-    title: "Athena-personal-academic-page"
-    description: "A modern personal academic page framework built with React and Vite."
-    language: "JavaScript"
-    topics:
-      - "academic-portfolio"
-      - "academic-website"
-      - "github-pages"
-      - "personal-website"
-      - "react"
-      - "research"
-      - "typescript"
-      - "vite"
-    stars_fact: 211
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
   - name: "GTSinger"
     title: "GTSinger"
     description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
@@ -154,9 +113,43 @@ repos:
       - "style-control"
       - "style-transfer"
       - "technique-detection"
-    stars_fact: 532
+    stars_fact: 535
     first_seen: null
     last_push: "2026-10-06"
+  - name: "AaronZ345"
+    title: "AaronZ345"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "douban-cli"
+    title: "douban-cli"
+    description: "豆瓣命令行工具：书影查询、豆列、评分与短评管理；提供供 Dots 使用的本地技能和 MCP 接口"
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "douban"
+      - "mcp"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "TCSinger"
+    title: "TCSinger"
+    description: "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    language: "Python"
+    topics:
+      - "cross-lingual"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "zero-shot"
+    stars_fact: 386
+    first_seen: null
+    last_push: "2025-10-07"
 ---
 
 # AaronZ345

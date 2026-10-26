@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-20T06:04:57.914428+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "f467fac388ed8e8c"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
@@ -91,20 +91,17 @@ repos:
       - "playwright"
       - "puppeteer"
       - "rust"
-    stars_fact: 29012
+    stars_fact: 29389
     first_seen: "2026-08-09T06:00:06.171858+00:00"
-    last_push: "2026-10-17"
-  - name: "reCaptchaV3-Invisible-Solver"
-    title: "reCaptchaV3-Invisible-Solver"
-    description: "reCaptcha V3 Invisible Solver"
+    last_push: "2026-10-25"
+  - name: "obscura-benchmark"
+    title: "obscura-benchmark"
+    description: "Obscura browser benchmark"
     language: "Python"
-    topics:
-      - "captcha"
-      - "recaptcha"
-      - "solver"
-    stars_fact: 61
+    topics: []
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-04-04"
+    last_push: "2026-10-04"
   - name: "awesome-ai-web-scraping"
     title: "awesome-ai-web-scraping"
     description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
@@ -116,23 +113,26 @@ repos:
       - "llm"
       - "scraping"
       - "web-scraping"
-    stars_fact: 115
+    stars_fact: 117
     first_seen: null
     last_push: "2026-05-18"
-  - name: "obscura-benchmark"
-    title: "obscura-benchmark"
-    description: "Obscura browser benchmark"
+  - name: "reCaptchaV3-Invisible-Solver"
+    title: "reCaptchaV3-Invisible-Solver"
+    description: "reCaptcha V3 Invisible Solver"
     language: "Python"
-    topics: []
-    stars_fact: 8
+    topics:
+      - "captcha"
+      - "recaptcha"
+      - "solver"
+    stars_fact: 62
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-04-04"
   - name: "h4ckf0r0day"
     title: "h4ckf0r0day"
     description: null
     language: null
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-05-16"
 ---

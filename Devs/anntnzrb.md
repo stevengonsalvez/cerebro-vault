@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 2, 6, 0, 0, 0, 2, 1, 10, 16, 18, 6, 1]
+pushes_per_week: [2, 2, 6, 0, 0, 0, 2, 1, 12, 17, 18, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 9
-    pushes_per_repo: 5.6667
-    active_days: 15
+    pushes_per_repo: 5.3333
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,40 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agents"
+    title: "agents"
+    description: "Configurations for LLM Harnesses"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "nurpkgs"
+    title: "nurpkgs"
+    description: "annt's personal NUR (nixpkgs) repository"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "_nixrice"
+    title: "_nixrice"
+    description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
+    language: "Python"
+    topics:
+      - "dotfiles"
+      - "nix"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "aoc-rs"
+    title: "aoc-rs"
+    description: "Advent of Code, in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew formulae and casks"
@@ -108,40 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "agents"
-    title: "agents"
-    description: "Configurations for LLM Harnesses"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "nurpkgs"
-    title: "nurpkgs"
-    description: "annt's personal NUR (nixpkgs) repository"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "aoc-fs"
-    title: "aoc-fs"
-    description: "Advent of Code, in F#"
-    language: "F#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "_nixrice"
-    title: "_nixrice"
-    description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
-    language: "Python"
-    topics:
-      - "dotfiles"
-      - "nix"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
 ---
 
 # anntnzrb

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [4, 1, 6, 18, 0, 0, 0, 2, 1, 0, 1, 0, 3]
+pushes_per_week: [4, 1, 12, 12, 0, 0, 0, 2, 1, 1, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "luminary-memory"
+    title: "luminary-memory"
+    description: "Self-hosted memory layer for AI agents, on PyPI. 4 retrieval strategies fused via RRF, 505+ tests."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "omarchy-overview"
+    title: "omarchy-overview"
+    description: "Live workspace overview plugin for Omarchy's Quickshell shell"
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "rose-agent"
     title: "rose-agent"
     description: "Native Rational Rose model editor with explicitly reviewed software-engineering AI chat"
@@ -129,22 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "scentinel"
-    title: "scentinel"
-    description: "Native desktop simulation studio for gas sensor placement in waste collection vehicles"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "fedora-hyprland"
-    title: "fedora-hyprland"
-    description: "Batteries-included Hyprland setup for Fedora and openSUSE. Blur, shadows, rounded corners."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
 ---
 
 # alertxsto

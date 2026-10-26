@@ -8,37 +8,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [53, 23, 45, 10, 15, 6, 2, 28, 12, 24, 15, 10, 15]
+pushes_per_week: [63, 14, 42, 13, 14, 4, 1, 33, 8, 24, 20, 6, 15]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 10
-    active_days: 7
+    pushes: 17
+    distinct_repos: 9
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 69
-    distinct_repos: 40
-    active_days: 24
+    pushes: 70
+    distinct_repos: 39
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 258
+    pushes: 257
     distinct_repos: 99
-    active_days: 65
+    active_days: 64
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.9692
-  repo_per_active_day: 1.5231
+  push_per_day: 4.0156
+  repo_per_active_day: 1.5469
   not_owned_ratio: 0.0505
   basename_concentration: 0.0303
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 7
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 69
-    distinct_repos: 40
-    pushes_per_repo: 1.7250
-    active_days: 24
+    pushes: 70
+    distinct_repos: 39
+    pushes_per_repo: 1.7949
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 258
+    pushes: 257
     distinct_repos: 99
-    pushes_per_repo: 2.6061
-    active_days: 65
+    pushes_per_repo: 2.5960
+    active_days: 64
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-opencode-go-provider"
-    title: "pi-opencode-go-provider"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "pi-io-provider"
-    title: "pi-io-provider"
-    description: "A pi extension that adds IO Intelligence as a custom model provider."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "pi-neuralwatt-provider"
-    title: "pi-neuralwatt-provider"
-    description: "A pi extension that adds Neuralwatt as a custom model provider."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "pi-zro-provider"
-    title: "pi-zro-provider"
-    description: "Zro provider extension for pi - GLM-5.2, Kimi K3 & DeepSeek V4 Flash through the Zro inference endpoint"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "pi-umans-provider"
-    title: "pi-umans-provider"
-    description: "UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "pi-moonshot-provider"
-    title: "pi-moonshot-provider"
-    description: "A pi extension that adds Moonshot as a custom model provider."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+repos: []
 ---
 
 # monotykamary
 
-258 pushes across 99 repositories on 65 active days in the last 90 days of public GitHub push activity.
+257 pushes across 99 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/monotykamary

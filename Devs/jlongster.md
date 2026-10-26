@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 1, 4, 0, 8, 0, 0, 5, 0, 4, 2, 1, 9]
+pushes_per_week: [4, 1, 4, 0, 8, 0, 0, 5, 1, 4, 2, 0, 9]
 windows:
   "7d":
     pushes: 9
@@ -77,6 +77,38 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-canvas"
+    title: "opencode-canvas"
+    description: "Infinite review canvas for OpenCode sessions: images, videos, HTML, and conjured session butterflies"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "unwinder"
+    title: "unwinder"
+    description: "An implementation of continuations in JavaScript"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 306
+    first_seen: null
+    last_push: "2018-08-14"
+  - name: "blog"
+    title: "blog"
+    description: "All the sources for my (not powered by React anymore) blog"
+    language: "CSS"
+    topics: []
+    stars_fact: 1206
+    first_seen: null
+    last_push: "2023-01-03"
+  - name: "tigma"
+    title: "tigma"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 563
+    first_seen: null
+    last_push: "2025-12-25"
   - name: "absurd-sql"
     title: "absurd-sql"
     description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
@@ -85,22 +117,6 @@ repos:
     stars_fact: 4319
     first_seen: null
     last_push: "2023-08-06"
-  - name: "tigma"
-    title: "tigma"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 562
-    first_seen: null
-    last_push: "2025-12-25"
-  - name: "opencode-canvas"
-    title: "opencode-canvas"
-    description: "Infinite review canvas for OpenCode sessions: images, videos, HTML, and conjured session butterflies"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "crdt-example-app"
     title: "crdt-example-app"
     description: "A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 662
     first_seen: null
     last_push: "2022-12-11"
-  - name: "electron-with-server-example"
-    title: "electron-with-server-example"
-    description: "An example Electron app with a backend server all wired up via IPC"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1016
-    first_seen: null
-    last_push: "2022-12-09"
-  - name: "blog"
-    title: "blog"
-    description: "All the sources for my (not powered by React anymore) blog"
-    language: "CSS"
-    topics: []
-    stars_fact: 1207
-    first_seen: null
-    last_push: "2023-01-03"
 ---
 
 # jlongster

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [10, 1, 5, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0]
+pushes_per_week: [8, 1, 5, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 9
-    active_days: 14
+    pushes: 18
+    distinct_repos: 8
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.6429
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.1111
+  push_per_day: 1.3846
+  repo_per_active_day: 0.6154
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 14
+    pushes: 18
+    distinct_repos: 8
+    pushes_per_repo: 2.2500
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_uapipro_toolbox"
-    title: "astrbot_plugin_uapipro_toolbox"
-    description: "集成 UApiPro 提供的开放接口，为bot提供可使用的工具。"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "daily-analysis-report-theme"
-    title: "daily-analysis-report-theme"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "ASTR_TEST"
-    title: "ASTR_TEST"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "astrbot_plugin_github_triage"
-    title: "astrbot_plugin_github_triage"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "astrbot_plugin_onebot12"
-    title: "astrbot_plugin_onebot12"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "astrbot_plugin_showcase"
-    title: "astrbot_plugin_showcase"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # lingyun14beta
 
-20 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
+18 pushes across 8 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lingyun14beta

@@ -8,37 +8,37 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 4, 8, 1, 1, 1, 0, 5, 12, 6, 5, 6, 2]
+pushes_per_week: [5, 5, 7, 1, 1, 1, 1, 5, 14, 3, 5, 6, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
-    distinct_repos: 10
-    active_days: 15
+    pushes: 24
+    distinct_repos: 9
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 58
     distinct_repos: 22
-    active_days: 36
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.6111
+  push_per_day: 1.5676
+  repo_per_active_day: 0.5946
   not_owned_ratio: 0.0909
   basename_concentration: 0.0455
   shapes: []
@@ -49,93 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.3333
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
-    distinct_repos: 10
-    pushes_per_repo: 2.8000
-    active_days: 15
+    pushes: 24
+    distinct_repos: 9
+    pushes_per_repo: 2.6667
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 58
     distinct_repos: 22
-    pushes_per_repo: 2.5455
-    active_days: 36
+    pushes_per_repo: 2.6364
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-providers-manager"
-    title: "pi-providers-manager"
-    description: "Interactive TUI manager for pi providers, models, and subagents (/providers + /agents)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "astrbot_plugin_simple_long_memory"
-    title: "astrbot_plugin_simple_long_memory"
-    description: "为 AstrBot 提供简易的长期记忆能力，基于内置知识库实现用户偏好、历史交互和重要事实的记忆存储与召回。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "memory"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_skills_mcp_manager"
-    title: "astrbot_plugin_skills_mcp_manager"
-    description: "为astrbot提供函数工具和指令来管理 AstrBot Skills 和 MCP 服务器。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "manger"
-      - "mcp"
-      - "skills"
-      - "tools"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "astrbot_plugin_mmx_cli_tool"
-    title: "astrbot_plugin_mmx_cli_tool"
-    description: "把MiniMax CLI封装为AstrBot工具！"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "newapi-app"
-    title: "newapi-app"
-    description: "newapi手机端"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "elin-decompile-toolkit"
-    title: "elin-decompile-toolkit"
-    description: "Agent Skill: extract official data from Elin and decompile its source - official Chinese names, mechanics verification, version diffing, RAG knowledge base"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-14"
+repos: []
 ---
 
 # piexian
 
-56 pushes across 22 repositories on 36 active days in the last 90 days of public GitHub push activity.
+58 pushes across 22 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

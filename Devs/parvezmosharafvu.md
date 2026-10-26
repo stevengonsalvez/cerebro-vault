@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 14, 6, 4, 2, 0, 0, 2, 0, 22, 2, 13, 12]
+pushes_per_week: [3, 14, 6, 5, 1, 0, 0, 2, 0, 23, 8, 11, 7]
 windows:
   "7d":
     pushes: 12
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cpay"
-    title: "cpay"
-    description: "cpay payments on Breez SDK (Spark)"
-    language: "PLpgSQL"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "boltpay"
-    title: "boltpay"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "parvez-ai"
-    title: "parvez-ai"
-    description: "Parvez AI — public AI assistant platform with multi-provider API router, encrypted API Vault, Jarvis-style dashboard, and chat proxy. Built by Parvez Mosharaf."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "cpay-wallet"
-    title: "cpay-wallet"
-    description: "CPay wallet. One app for phone, tablet, and desktop."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
+repos: []
 ---
 
 # parvezmosharafvu

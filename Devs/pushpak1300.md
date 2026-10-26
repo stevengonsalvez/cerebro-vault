@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 9, 38, 3, 4, 0, 6, 11, 9, 13, 8, 11, 5]
+pushes_per_week: [2, 14, 35, 1, 4, 0, 6, 13, 7, 15, 9, 9, 4]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 21
-    active_days: 17
-    repos_not_owned: 19
+    pushes: 37
+    distinct_repos: 20
+    active_days: 16
+    repos_not_owned: 18
     not_owned_basenames: 17
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 30
-    active_days: 43
+    active_days: 42
     repos_not_owned: 27
     not_owned_basenames: 18
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 2.7907
-  repo_per_active_day: 0.6977
+  push_per_day: 2.8333
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.9000
   basename_concentration: 0.2333
   shapes: []
@@ -57,67 +57,30 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 40
-    distinct_repos: 21
-    pushes_per_repo: 1.9048
-    active_days: 17
-    repos_not_owned: 19
+    pushes: 37
+    distinct_repos: 20
+    pushes_per_repo: 1.8500
+    active_days: 16
+    repos_not_owned: 18
     not_owned_basenames: 17
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 30
-    pushes_per_repo: 4.0000
-    active_days: 43
+    pushes_per_repo: 3.9667
+    active_days: 42
     repos_not_owned: 27
     not_owned_basenames: 18
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pushpak1300.me"
-    title: "pushpak1300.me"
-    description: "Personal Website built from scratch using Nuxt and Tailwind"
-    language: "Vue"
-    topics:
-      - "nuxtjs"
-      - "portfolio-website"
-      - "tailwindcss"
-      - "typescript"
-      - "vue"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "pushpak1300"
-    title: "pushpak1300"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "cypress-mailpit"
-    title: "cypress-mailpit"
-    description: "Cypress Commands for Mailpit ✉️"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "ai-chat"
-    title: "ai-chat"
-    description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
-    language: "PHP"
-    topics: []
-    stars_fact: 383
-    first_seen: null
-    last_push: "2026-06-22"
+repos: []
 ---
 
 # pushpak1300
 
-120 pushes across 30 repositories on 43 active days in the last 90 days of public GitHub push activity.
+119 pushes across 30 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

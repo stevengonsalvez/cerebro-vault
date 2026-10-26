@@ -8,11 +8,11 @@ provenance_repos:
   - "zachahn/vomit"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "09523f683853cee9"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,58 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "vomit"
-    title: "vomit"
-    description: "Clean up Claude's token vomit with a separate LLM. Save your tokens, Opus is hopeless"
-    language: "Go"
-    topics:
-      - "ai"
-      - "ai-tools"
-      - "claude-code"
-    stars_fact: 201
-    first_seen: "2026-08-21T06:00:20.713166+00:00"
-    last_push: "2026-09-09"
-  - name: "release-tuist-sparkle"
-    title: "release-tuist-sparkle"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "Rest"
-    title: "Rest"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "measured"
-    title: "measured"
-    description: "An agentic skills framework & software development methodology that works."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "Plunger"
-    title: "Plunger"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "disqualified"
-    title: "disqualified"
-    description: "A small background job framework for Rails apps"
-    language: "Ruby"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2024-12-08"
+repos: []
 ---
 
 # zachahn

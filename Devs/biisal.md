@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 4, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 1, 3, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,31 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
+    last_push: "2026-10-25"
+  - name: "bai"
+    title: "bai"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 8
+    first_seen: null
     last_push: "2026-10-18"
+  - name: "rowsql"
+    title: "rowsql"
+    description: "RowSQL is a visual database management tool that lets you create tables, manage rows, and explore data effortlessly. Supports Postgres, MySQL, and SQLite with a clean, modern UI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "biisal-file-stream-pro"
+    title: "biisal-file-stream-pro"
+    description: "A Telegram bot that gives streaming and Direct download links of files"
+    language: "Python"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2024-07-02"
   - name: "fast-stream-bot"
     title: "fast-stream-bot"
     description: "A lightweight fast telegram file streaming bot in go"
@@ -93,14 +117,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-03-23"
-  - name: "bai"
-    title: "bai"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "biisal"
     title: "biisal"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-15"
-  - name: "biisal-filter-bot"
-    title: "biisal-filter-bot"
-    description: "A Advance Auto Filter Bot made with Pyrofork"
-    language: "Python"
-    topics: []
-    stars_fact: 90
-    first_seen: null
-    last_push: "2024-08-06"
-  - name: "rowsql"
-    title: "rowsql"
-    description: "RowSQL is a visual database management tool that lets you create tables, manage rows, and explore data effortlessly. Supports Postgres, MySQL, and SQLite with a clean, modern UI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-06-12"
 ---
 
 # biisal

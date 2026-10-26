@@ -8,16 +8,16 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 5, 7, 5, 3, 0, 0, 4, 7, 0, 1, 7, 1]
+pushes_per_week: [0, 5, 7, 7, 1, 0, 0, 5, 6, 0, 4, 5, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dsh-official-patch-empty"
-    title: "dsh-official-patch-empty"
-    description: "DSH Desktop official-build patch script: drag non-image files into chat as local @path file references (backup + inject + resign, rerun after official updates)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "suantea"
-    title: "suantea"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
+repos: []
 ---
 
 # suantea

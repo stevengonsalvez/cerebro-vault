@@ -8,37 +8,37 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 8, 23, 9, 5, 2, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 10, 24, 7, 4, 3, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 2
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 52
     distinct_repos: 2
-    active_days: 25
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.0800
+  repo_per_active_day: 0.0769
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,92 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 14.5000
+    pushes_per_repo: 15.0000
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 52
     distinct_repos: 2
-    pushes_per_repo: 25.0000
-    active_days: 25
+    pushes_per_repo: 26.0000
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "popot-agents"
-    title: "popot-agents"
-    description: "Docker-based multi-agent orchestration demo"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "popot-bot-2.0"
-    title: "popot-bot-2.0"
-    description: "Self-hosted Telegram AI operator for Debian/Ubuntu VPS with Hermes Agent, Ansible provisioning, monitoring, backups, and a privacy-first Telegram user info bot."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "YauheniPo"
-    title: "YauheniPo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "AzureDevOps_Conference_Demo_Project"
-    title: "AzureDevOps_Conference_Demo_Project"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "YauheniPo.github.io"
-    title: "YauheniPo.github.io"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "players_api_automation"
-    title: "players_api_automation"
-    description: "REST API test automation framework built with Kotlin + RestAssured + TestNG + Allure."
-    language: "Kotlin"
-    topics:
-      - "api-testing"
-      - "github-actions"
-      - "kotlin"
-      - "rest-api"
-      - "sdet"
-      - "test-automation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
+repos: []
 ---
 
 # YauheniPo
 
-50 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
+52 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/YauheniPo

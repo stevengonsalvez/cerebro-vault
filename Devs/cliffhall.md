@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [21, 2, 27, 13, 14, 1, 13, 5, 18, 24, 24, 10, 10]
+pushes_per_week: [8, 2, 31, 13, 10, 9, 7, 3, 21, 43, 12, 1, 9]
 windows:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 76
+    pushes: 70
     distinct_repos: 3
     active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 169
     distinct_repos: 3
-    active_days: 44
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.1364
-  repo_per_active_day: 0.0682
+  push_per_day: 3.9302
+  repo_per_active_day: 0.0698
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 5
+    pushes_per_repo: 4.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 76
+    pushes: 70
     distinct_repos: 3
-    pushes_per_repo: 25.3333
+    pushes_per_repo: 23.3333
     active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 182
+    pushes: 169
     distinct_repos: 3
-    pushes_per_repo: 60.6667
-    active_days: 44
+    pushes_per_repo: 56.3333
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-c64"
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-182 pushes across 3 repositories on 44 active days in the last 90 days of public GitHub push activity.
+169 pushes across 3 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall

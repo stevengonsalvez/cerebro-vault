@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 2, 1, 7, 4, 3, 19, 12, 29, 7, 4, 6]
+pushes_per_week: [6, 2, 2, 3, 6, 4, 2, 21, 13, 30, 4, 6, 6]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 54
-    distinct_repos: 13
-    active_days: 17
+    pushes: 9
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
-  "90d":
-    pushes: 102
-    distinct_repos: 20
-    active_days: 41
+  "30d":
+    pushes: 55
+    distinct_repos: 13
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
+  "90d":
+    pushes: 105
+    distinct_repos: 21
+    active_days: 43
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4878
-  repo_per_active_day: 0.4878
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0500
+  push_per_day: 2.4419
+  repo_per_active_day: 0.4884
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
-  "30d":
-    pushes: 54
-    distinct_repos: 13
-    pushes_per_repo: 4.1538
-    active_days: 17
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
-  "90d":
-    pushes: 102
-    distinct_repos: 20
-    pushes_per_repo: 5.1000
-    active_days: 41
+  "30d":
+    pushes: 55
+    distinct_repos: 13
+    pushes_per_repo: 4.2308
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
+  "90d":
+    pushes: 105
+    distinct_repos: 21
+    pushes_per_repo: 5.0000
+    active_days: 43
+    repos_not_owned: 6
+    not_owned_basenames: 6
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pagegraph"
@@ -94,7 +94,30 @@ repos:
       - "vite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "CapsuleDB"
+    title: "CapsuleDB"
+    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "wt"
+    title: "wt"
+    description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
+    language: "TypeScript"
+    topics:
+      - "bash"
+      - "cli"
+      - "developer-tools"
+      - "git"
+      - "git-worktree"
+      - "productivity"
+      - "worktree"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "pi-extensions"
     title: "pi-extensions"
     description: "Pi extension for running Executor tools inside Pi"
@@ -119,41 +142,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-16"
-  - name: "opencode-plugin-executor"
-    title: "opencode-plugin-executor"
-    description: "OpenCode plugin that exposes the Executor tool catalog natively in Code Mode"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "code-mode"
-      - "effect"
-      - "effect-ts"
-      - "executor"
-      - "opencode"
-      - "opencode-plugin"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "wt"
-    title: "wt"
-    description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
-    language: "TypeScript"
-    topics:
-      - "bash"
-      - "cli"
-      - "developer-tools"
-      - "git"
-      - "git-worktree"
-      - "productivity"
-      - "worktree"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # aryasaatvik
 
-102 pushes across 20 repositories on 41 active days in the last 90 days of public GitHub push activity.
+105 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

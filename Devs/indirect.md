@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 1, 9, 0, 0, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 1, 9, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 3
-    active_days: 4
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 9
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 13
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.1667
+  push_per_day: 1.6250
+  repo_per_active_day: 0.6250
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,34 +60,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 9
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 8
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "rails-footnotes"
-    title: "rails-footnotes"
-    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1521
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "bsky-backup"
     title: "bsky-backup"
     description: "@indirect.io"
@@ -95,7 +87,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-24"
+  - name: "rails-footnotes"
+    title: "rails-footnotes"
+    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1521
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "feedyour.email"
     title: "feedyour.email"
     description: "(rss) feed your emails"
@@ -103,7 +103,7 @@ repos:
     topics: []
     stars_fact: 49
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-26"
   - name: "andre.arko.net"
     title: "andre.arko.net"
     description: "blog"
@@ -133,6 +133,6 @@ repos:
 
 # indirect
 
-14 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+13 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/indirect

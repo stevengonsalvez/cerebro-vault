@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
-pushes_per_week: [11, 0, 0, 0, 0, 0, 1, 1, 1, 3, 2, 0, 0]
+pushes_per_week: [10, 0, 0, 0, 0, 0, 1, 1, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    active_days: 11
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7273
-  repo_per_active_day: 0.2727
+  push_per_day: 1.8000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 6.3333
-    active_days: 11
+    pushes_per_repo: 6.0000
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ant-repo-data-tracker"
@@ -86,7 +86,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "mcp-booth"
+    title: "mcp-booth"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "mcp-repo-data-tracker"
     title: "mcp-repo-data-tracker"
     description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
@@ -119,18 +127,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2025-08-16"
-  - name: "remote-auth-mcp-apim-py"
-    title: "remote-auth-mcp-apim-py"
-    description: "Remote MCP server with auth gated by Azure API Management"
-    language: "Bicep"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2025-08-25"
 ---
 
 # localden
 
-19 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/localden

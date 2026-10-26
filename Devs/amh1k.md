@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 0, 1, 0, 0, 0, 0, 1, 1, 3, 6, 2, 0]
+pushes_per_week: [5, 0, 1, 0, 0, 0, 0, 1, 2, 3, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "lockin"
     title: "lockin"
     description: "LockIn is a Chrome extension that uses local, open-weight AI to decide whether a webpage supports your current focus goal, blocking distractions while allowing useful research."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-18"
   - name: "mythborn"
     title: "mythborn"
     description: "An AI-powered civilization simulator where real-world discoveries shape evolving societies, beliefs, and histories through autonomous agents and durable workflows."

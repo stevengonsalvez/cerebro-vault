@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [1, 2, 2, 0, 1, 0, 0, 1, 1, 2, 2, 0, 0]
@@ -78,18 +78,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "factory"
-    title: "factory"
-    description: "A reference software factory for Claude Code and Codex"
-    language: "Shell"
-    topics:
-      - "agentic-engineering"
-      - "claude-code"
-      - "codex"
-      - "software-factory"
-    stars_fact: 246
-    first_seen: null
-    last_push: "2026-08-21"
   - name: "agent-skills"
     title: "agent-skills"
     description: "Production-grade engineering skills for AI coding agents."
@@ -101,33 +89,17 @@ repos:
       - "codex"
       - "cursor"
       - "skills"
-    stars_fact: 107923
+    stars_fact: 110580
     first_seen: "2026-06-19T17:17:12.671343+00:00"
     last_push: "2026-10-13"
-  - name: "jarvis"
-    title: "jarvis"
-    description: "JARVIS built using the Gemini Live API"
-    language: "TypeScript"
-    topics:
-      - "gemini"
-      - "gemini-api"
-      - "gemini-live"
-      - "gemini-live-api"
-      - "google-cloud"
-      - "jarvis"
-      - "jarvis-assistant"
-      - "vertex-ai"
-    stars_fact: 56
-    first_seen: null
-    last_push: "2025-12-14"
-  - name: "addyosmani"
-    title: "addyosmani"
-    description: "GitHub README"
-    language: null
+  - name: "backbone-fundamentals"
+    title: "backbone-fundamentals"
+    description: ":book: A creative-commons book on Backbone.js for beginners and advanced users alike"
+    language: "Rich Text Format"
     topics: []
-    stars_fact: 103
+    stars_fact: 9172
     first_seen: null
-    last_push: "2026-06-20"
+    last_push: "2024-11-30"
   - name: "clarity"
     title: "clarity"
     description: "Clarity - an Agent skill for clearer writing"
@@ -138,20 +110,49 @@ repos:
       - "writing"
       - "writing-assistant"
       - "writing-tools"
-    stars_fact: 273
+    stars_fact: 314
     first_seen: null
     last_push: "2026-09-05"
-  - name: "agent-engineer"
-    title: "agent-engineer"
-    description: "Agent Engineer - a practical course for software engineers"
-    language: null
+  - name: "factory"
+    title: "factory"
+    description: "A reference software factory for Claude Code and Codex"
+    language: "Shell"
     topics:
-      - "agentic-framework"
-      - "ai-agents"
-      - "generative-ai"
-    stars_fact: 519
+      - "agentic-engineering"
+      - "claude-code"
+      - "codex"
+      - "software-factory"
+    stars_fact: 297
     first_seen: null
-    last_push: "2026-07-16"
+    last_push: "2026-08-21"
+  - name: "web-quality-skills"
+    title: "web-quality-skills"
+    description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
+    language: "Shell"
+    topics:
+      - "accessibility"
+      - "agent-skills"
+      - "claude-skills"
+      - "core-web-vitals"
+      - "lighthouse"
+      - "skills"
+      - "testing"
+      - "web-performance"
+    stars_fact: 2990
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "squish"
+    title: "squish"
+    description: "Squish - Batch Browser-based Image Compression"
+    language: "TypeScript"
+    topics:
+      - "batch"
+      - "batch-processing"
+      - "image-compression"
+      - "image-processing"
+    stars_fact: 1045
+    first_seen: null
+    last_push: "2025-01-16"
 ---
 
 # addyosmani

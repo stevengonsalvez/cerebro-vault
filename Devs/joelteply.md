@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [33, 22, 34, 7, 10, 5, 20, 49, 71, 96, 41, 31, 51]
+pushes_per_week: [34, 20, 34, 9, 7, 14, 10, 52, 94, 86, 38, 25, 103]
 windows:
   "7d":
-    pushes: 53
+    pushes: 110
     distinct_repos: 3
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 267
+    pushes: 322
     distinct_repos: 7
     active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 470
+    pushes: 526
     distinct_repos: 7
     active_days: 70
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.7143
+  push_per_day: 7.5143
   repo_per_active_day: 0.1000
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 53
+    pushes: 110
     distinct_repos: 3
-    pushes_per_repo: 17.6667
+    pushes_per_repo: 36.6667
     active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 267
+    pushes: 322
     distinct_repos: 7
-    pushes_per_repo: 38.1429
+    pushes_per_repo: 46.0000
     active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 470
+    pushes: 526
     distinct_repos: 7
-    pushes_per_repo: 67.1429
+    pushes_per_repo: 75.1429
     active_days: 70
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-470 pushes across 7 repositories on 70 active days in the last 90 days of public GitHub push activity.
+526 pushes across 7 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

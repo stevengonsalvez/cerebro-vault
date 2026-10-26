@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 0, 1, 1]
+pushes_per_week: [1, 0, 1, 2, 1, 0, 1, 0, 2, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 7
-    active_days: 10
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.1000
-  repo_per_active_day: 0.7000
+  push_per_day: 1.1111
+  repo_per_active_day: 0.7778
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 10
+    pushes_per_repo: 1.4286
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nfvelten"
-    title: "nfvelten"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "agent-memory"
-    title: "agent-memory"
-    description: "MCP server that turns an Obsidian vault into persistent memory for AI agents — FTS5 search, semantic search, graph traversal, daily notes"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude"
-      - "knowledge-management"
-      - "mcp"
-      - "memory"
-      - "obsidian"
-      - "python"
-      - "sqlite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "site"
-    title: "site"
-    description: "My personal website"
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "backstage-poc"
-    title: "backstage-poc"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "amphora-setup"
-    title: "amphora-setup"
-    description: "PKMS setup — Obsidian + Claude Code + Neovim integration with automation scripts"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-26"
+repos: []
 ---
 
 # nfvelten
 
-11 pushes across 7 repositories on 10 active days in the last 90 days of public GitHub push activity.
+10 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nfvelten

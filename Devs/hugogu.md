@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 3, 0, 4, 3, 0, 3, 8, 5, 14, 5, 3, 0]
+pushes_per_week: [1, 3, 0, 5, 2, 1, 2, 10, 6, 12, 4, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "orbit"
+    title: "orbit"
+    description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
+    language: "TypeScript"
+    topics:
+      - "astronomy"
+      - "education"
+      - "interactive"
+      - "javascript"
+      - "simulation"
+      - "solar-system"
+      - "threejs"
+      - "webgl"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "next-wiki"
+    title: "next-wiki"
+    description: "An AI native personal knowledge management & sharing platform"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "ai-training"
+    title: "ai-training"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "herbert"
     title: "herbert"
     description: "Native SwiftUI H puzzles and Herbert Benchmark for iPhone, iPad and Mac. 30 original MIT lessons, 1,769 community puzzles, parallel AI evaluation with native judging, offline play, and English/中文/日本語."
@@ -99,39 +131,7 @@ repos:
       - "swiftui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "orbit"
-    title: "orbit"
-    description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
-    language: "TypeScript"
-    topics:
-      - "astronomy"
-      - "education"
-      - "interactive"
-      - "javascript"
-      - "simulation"
-      - "solar-system"
-      - "threejs"
-      - "webgl"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "ai-training"
-    title: "ai-training"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "next-wiki"
-    title: "next-wiki"
-    description: "An AI native personal knowledge management & sharing platform"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-19"
   - name: "kokoro-say"
     title: "kokoro-say"
     description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"

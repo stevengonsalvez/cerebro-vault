@@ -8,23 +8,23 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 8, 19, 4, 1, 1, 1, 2, 5, 6, 7, 1, 5]
+pushes_per_week: [7, 9, 17, 4, 1, 1, 1, 4, 4, 7, 6, 1, 4]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 14
+    pushes_per_repo: 2.8571
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mikeei"
-    title: "mikeei"
-    description: "My GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "tp-link-pg2400p-reverse-engineering"
-    title: "tp-link-pg2400p-reverse-engineering"
-    description: "TP-Link PG2400P reverse engineering"
-    language: "Python"
-    topics:
-      - "firmware-analysis"
-      - "ghn"
-      - "pg2400p"
-      - "powerline"
-      - "reverse-engineering"
-      - "tp-link"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "nuclei-templates"
-    title: "nuclei-templates"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2022-03-30"
-  - name: "project-18plus-image-edit"
-    title: "project-18plus-image-edit"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-16"
-  - name: "mikeei.github.io"
-    title: "mikeei.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-08-10"
-  - name: "spodcast"
-    title: "spodcast"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-12-28"
+repos: []
 ---
 
 # MikeeI

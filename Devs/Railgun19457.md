@@ -8,37 +8,37 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 2, 0, 4, 2, 0, 0, 1]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 2, 0, 5, 1, 0, 0, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 3
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 5
-    active_days: 7
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.7143
+  push_per_day: 1.6250
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 7
+    pushes_per_repo: 2.6000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Railgun19457"
-    title: "Railgun19457"
-    description: "Profile page"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "astrbot_plugin_image_generation"
-    title: "astrbot_plugin_image_generation"
-    description: "通用图像生成插件"
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "astrbot_plugin_qq_admin"
-    title: "astrbot_plugin_qq_admin"
-    description: "基于 OneBot v11 的 QQ 群管理插件：禁言/踢人/撤回/黑名单/多群分组/进群审核/表格导出，支持指令与 LLM 工具"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "astrbot_plugin_persona_plus"
-    title: "astrbot_plugin_persona_plus"
-    description: "适用于AstrBot的人格设定管理插件"
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "astrbot_plugin_vision_enhance"
-    title: "astrbot_plugin_vision_enhance"
-    description: "还原 Markdown 内嵌图片、把动图抽帧后再交给模型，让模型真正看见用户发的图片"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "astrbot_plugin_output_enhance"
-    title: "astrbot_plugin_output_enhance"
-    description: "AstrBot输出增强插件"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
+repos: []
 ---
 
 # Railgun19457
 
-11 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
+13 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Railgun19457

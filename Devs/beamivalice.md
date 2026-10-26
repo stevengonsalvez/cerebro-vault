@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 1, 2, 2, 4, 9, 13, 10, 3, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 2, 2, 4, 11, 15, 8, 1, 4]
 windows:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 2
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 4
-    active_days: 20
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2000
+  push_per_day: 2.1818
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,42 +49,58 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 15
+    pushes_per_repo: 17.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 48
     distinct_repos: 4
-    pushes_per_repo: 11.2500
-    active_days: 20
+    pushes_per_repo: 12.0000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sushi"
     title: "sushi"
-    description: "Sushi engine runs very high quality quant model in Apple Silicon, using hybrid affine/exl3 with special expert tuning techniques."
+    description: "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology."
     language: "Zig"
     topics: []
-    stars_fact: 277
+    stars_fact: 310
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "PonyExl3"
+    title: "PonyExl3"
+    description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
+    language: "Python"
+    topics: []
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "fancontrol"
+    title: "fancontrol"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-09"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for sushi"
@@ -92,15 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "PonyExl3"
-    title: "PonyExl3"
-    description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
-    language: "Python"
-    topics: []
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-10-21"
   - name: "m5gpu"
     title: "m5gpu"
     description: null
@@ -117,18 +125,10 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-09-11"
-  - name: "fancontrol"
-    title: "fancontrol"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # beamivalice
 
-45 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+48 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/beamivalice

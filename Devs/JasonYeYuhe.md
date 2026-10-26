@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 5, 4, 2, 4, 3, 2, 9, 6, 27, 6, 2, 3]
+pushes_per_week: [7, 6, 3, 2, 6, 2, 1, 9, 10, 23, 6, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RoastMate"
+    title: "RoastMate"
+    description: "RoastMate — On-device AI for witty, safe self-expression"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "stride-site"
+    title: "stride-site"
+    description: "Stride - Habit Tracker legal and support pages"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "Stride"
     title: "Stride"
     description: "Stride - Habit tracker for iOS & macOS with widgets, notifications, and StoreKit subscriptions"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-22"
   - name: "nihongo-ride-app"
     title: "nihongo-ride-app"
     description: "Nihongo Ride — Japanese typing-practice app for macOS & iOS (private source)"
@@ -101,30 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-15"
-  - name: "stride-site"
-    title: "stride-site"
-    description: "Stride - Habit Tracker legal and support pages"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "RoastMate"
-    title: "RoastMate"
-    description: "RoastMate — On-device AI for witty, safe self-expression"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "soundpost-site"
-    title: "soundpost-site"
-    description: "Soundpost — landing page & privacy policy"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
 ---
 
 # JasonYeYuhe

@@ -8,23 +8,23 @@ provenance_repos:
   - "rohitg00/ai-engineering-from-scratch"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [7, 3, 13, 5, 10, 3, 0, 0, 11, 23, 9, 5, 16]
+pushes_per_week: [8, 2, 14, 11, 5, 1, 0, 0, 15, 21, 7, 8, 13]
 windows:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 7
-    active_days: 19
+    pushes: 56
+    distinct_repos: 5
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.5000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 7
-    pushes_per_repo: 8.5714
-    active_days: 19
+    pushes: 56
+    distinct_repos: 5
+    pushes_per_repo: 11.2000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -76,107 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-engineering-from-scratch"
-    title: "ai-engineering-from-scratch"
-    description: "Learn AI Engineering! Learn it. Build it. Ship it for others."
-    language: "Python"
-    topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "dsh"
-      - "from-scratch"
-      - "generative-ai"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "python"
-      - "rea"
-      - "reinforcement-learning"
-      - "rust"
-      - "transformers"
-      - "tutorial"
-      - "typescript"
-    stars_fact: 71126
-    first_seen: "2026-07-21T06:00:01.973180+00:00"
-    last_push: "2026-10-18"
-  - name: "agentmemory"
-    title: "agentmemory"
-    description: "#1 Persistent memory for AI coding agents based on real-world benchmarks"
-    language: "TypeScript"
-    topics:
-      - "agentmemory"
-      - "agents"
-      - "ai"
-      - "claude"
-      - "claudecode"
-      - "codex"
-      - "copilot"
-      - "cursor"
-      - "genai"
-      - "harness"
-      - "hermes"
-      - "memory"
-      - "openclaw"
-    stars_fact: 29661
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "rohitg00"
-    title: "rohitg00"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "ai-design-team"
-    title: "ai-design-team"
-    description: "AI Design team using Gemini Flash 2.0 Experimental Multimodal AI"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-01-21"
-  - name: "skillkit"
-    title: "skillkit"
-    description: "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more"
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "agentskills"
-      - "ai"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "opencode"
-      - "skills"
-    stars_fact: 1557
-    first_seen: null
-    last_push: "2026-06-02"
-  - name: "awesome-ai-apps"
-    title: "awesome-ai-apps"
-    description: "A curated collection of awesome AI Agents and LLM Apps built with multiple tech stacks, showcasing real-world implementations using OpenAI, Gemini, local models, and various AI frameworks."
-    language: "HTML"
-    topics:
-      - "agents"
-      - "ai"
-      - "apps"
-      - "automation"
-      - "framework"
-      - "genai"
-      - "genai-apps"
-      - "llm"
-      - "llm-apps"
-      - "llms"
-    stars_fact: 841
-    first_seen: null
-    last_push: "2026-02-10"
+repos: []
 ---
 
 # rohitg00

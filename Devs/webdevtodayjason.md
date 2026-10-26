@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 3, 2, 4, 0, 0, 8, 32, 11, 9, 1, 6, 0]
+pushes_per_week: [4, 2, 2, 4, 0, 0, 15, 29, 8, 8, 6, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "titanium-plugins"
-    title: "titanium-plugins"
-    description: "Professional Claude Code plugins with voice-enhanced AI workflows"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-01-31"
-  - name: "tc-Inventory"
-    title: "tc-Inventory"
-    description: "MSP Inventory system"
-    language: "HTML"
-    topics:
-      - "inventory-management"
-      - "msp"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "turn-clock"
-    title: "turn-clock"
-    description: "Hermes plugin: a re-entry brief (elapsed time + behavior cue) when a session resumes after a gap. Silent during a continuous conversation."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "mct2032"
-    title: "mct2032"
-    description: "ESP32 Pen Testing Dev Project"
-    language: "C++"
-    topics:
-      - "cybersecurity"
-      - "esp32"
-      - "penetration-testing"
-      - "pentesting"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2025-06-02"
-  - name: "onelane"
-    title: "onelane"
-    description: "Two apps, one Tiiny, no collisions. A cross-process device lock so your second inference waits its turn instead of failing with error 150004. One file, stdlib only."
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "webdevtodayjason"
-    title: "webdevtodayjason"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+repos: []
 ---
 
 # webdevtodayjason

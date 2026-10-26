@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [2, 0, 1, 0, 1, 0, 0, 1, 2, 0, 0, 0, 2]
@@ -77,9 +77,17 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Brohammad"
+    title: "Brohammad"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "VoxForge"
     title: "VoxForge"
-    description: "Open-source voice AI infrastructure — unified pipeline, RAG, evaluation, replay, handoff. Live: voxforge.brohammad.tech"
+    description: "Open-source voice AI infrastructure — unified pipeline, RAG, evaluation, replay, handoff. Self-hostable in one command."
     language: "Python"
     topics:
       - "docker"
@@ -94,7 +102,15 @@ repos:
       - "voice-ai"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-24"
+  - name: "payment-state-machine"
+    title: "payment-state-machine"
+    description: null
+    language: "Haskell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "BugSathi"
     title: "BugSathi"
     description: null
@@ -102,7 +118,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-10-24"
   - name: "MicroManus"
     title: "MicroManus"
     description: null
@@ -119,22 +135,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-30"
-  - name: "AadharPanValidator"
-    title: "AadharPanValidator"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
-  - name: "PainMiningEngine"
-    title: "PainMiningEngine"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
 ---
 
 # Brohammad

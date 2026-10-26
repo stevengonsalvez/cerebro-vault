@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 5, 3, 6, 5, 3, 0, 11, 8, 3, 4, 4, 0]
+pushes_per_week: [4, 7, 2, 7, 5, 1, 0, 11, 9, 3, 3, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 5
-    active_days: 30
+    pushes: 56
+    distinct_repos: 3
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.1667
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.4000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1071
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,48 +57,68 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 8
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 5
-    pushes_per_repo: 13.0000
-    active_days: 30
+    pushes: 56
+    distinct_repos: 3
+    pushes_per_repo: 18.6667
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cf-effect-experiment"
+    title: "cf-effect-experiment"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "swift-rs"
+    title: "swift-rs"
+    description: "Call Swift functions from Rust with ease!"
+    language: "Rust"
+    topics: []
+    stars_fact: 343
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "apps"
+    title: "apps"
+    description: "vibe coded personal apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "sceneify"
+    title: "sceneify"
+    description: "The simplest way to control OBS from JavaScript"
+    language: "TypeScript"
+    topics:
+      - "javascript"
+      - "obs"
+      - "obs-websocket"
+      - "typescript"
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-07-13"
   - name: "vite-plugin-opencode"
     title: "vite-plugin-opencode"
     description: "Select UI elements in a Vite app and send contextual feedback to OpenCode"
     language: "TypeScript"
     topics: []
     stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "swift-rs"
-    title: "swift-rs"
-    description: "Call Swift functions from Rust with ease!"
-    language: "Rust"
-    topics: []
-    stars_fact: 342
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "cf-effect-experiment"
-    title: "cf-effect-experiment"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-17"
   - name: "alchemy-opencode"
@@ -109,36 +129,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "MacroGraph"
-    title: "MacroGraph"
-    description: "Visual programming for streamers"
-    language: "TypeScript"
-    topics:
-      - "discord"
-      - "midi"
-      - "obs-studio"
-      - "obs-websocket"
-      - "rust"
-      - "solid-start"
-      - "solidjs"
-      - "tauri"
-      - "twitch"
-      - "vtube-studio"
-    stars_fact: 303
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "apps"
-    title: "apps"
-    description: "vibe coded personal apps"
-    language: "Swift"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-07-28"
 ---
 
 # Brendonovich
 
-65 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+56 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

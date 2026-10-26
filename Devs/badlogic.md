@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 4, 13, 1, 1, 1, 1, 3, 2, 4, 0, 3, 2]
+pushes_per_week: [6, 5, 12, 1, 0, 1, 1, 3, 3, 3, 3, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -82,54 +82,60 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-skills"
-    title: "pi-skills"
-    description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2617
-    first_seen: null
-    last_push: "2026-06-06"
   - name: "pi-subagent"
     title: "pi-subagent"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 230
+    stars_fact: 244
     first_seen: null
     last_push: "2026-09-30"
-  - name: "pi-terminal-bench"
-    title: "pi-terminal-bench"
-    description: "Harbor agent adapter for pi coding agent to run Terminal-Bench evaluations"
+  - name: "pi-skills"
+    title: "pi-skills"
+    description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
     language: "JavaScript"
     topics: []
-    stars_fact: 32
+    stars_fact: 2641
     first_seen: null
-    last_push: "2025-12-01"
+    last_push: "2026-06-06"
+  - name: "speech-trainer"
+    title: "speech-trainer"
+    description: "Interactive speech training web app for kids ages 5-10 to practice speech sounds"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-09"
   - name: "sitegeist"
     title: "sitegeist"
     description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
     language: "TypeScript"
     topics: []
-    stars_fact: 905
+    stars_fact: 910
     first_seen: null
     last_push: "2026-03-18"
-  - name: "mini-lit"
-    title: "mini-lit"
-    description: null
+  - name: "explainer"
+    title: "explainer"
+    description: "Markdown to book-style explainers and in-browser agent walkthroughs (a pi skill). 100% slop."
     language: "TypeScript"
     topics: []
-    stars_fact: 102
+    stars_fact: 13
     first_seen: null
-    last_push: "2025-11-12"
-  - name: "pi-telegram"
-    title: "pi-telegram"
-    description: "Telegram DM bridge extension for pi"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 313
+    last_push: "2026-10-21"
+  - name: "r96"
+    title: "r96"
+    description: "Repository for the blog post series \"Rendering like it's 1996\""
+    language: "C"
+    topics:
+      - "emscripten"
+      - "game-development"
+      - "game-engine"
+      - "game-engine-framework"
+      - "graphics-programming"
+      - "webassembly"
+    stars_fact: 172
     first_seen: null
-    last_push: "2026-04-04"
+    last_push: "2023-01-28"
 ---
 
 # badlogic

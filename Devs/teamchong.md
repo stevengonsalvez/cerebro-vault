@@ -8,21 +8,21 @@ provenance_repos:
   - "teamchong/pxpipe"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [6, 8, 5, 1, 0, 0, 0, 0, 1, 0, 0, 0, 8]
+pushes_per_week: [4, 8, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 4
+    pushes: 10
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes: 10
+    distinct_repos: 4
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.2500
+    pushes_per_repo: 2.5000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,66 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pxpipe"
-    title: "pxpipe"
-    description: "cut Claude Code token usage by rendering text context as images"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7553
-    first_seen: "2026-07-06T06:00:04.675243+00:00"
-    last_push: "2026-10-21"
-  - name: "json-literal-types"
-    title: "json-literal-types"
-    description: "TypeScript library for validating and parsing JSON string literals"
-    language: "TypeScript"
-    topics:
-      - "typescript-library"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-06-22"
-  - name: "teamchong"
-    title: "teamchong"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-05-24"
-  - name: "turboquant-wasm"
-    title: "turboquant-wasm"
-    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
-    language: "Zig"
-    topics: []
-    stars_fact: 323
-    first_seen: null
-    last_push: "2026-04-19"
-  - name: "drawmode"
-    title: "drawmode"
-    description: "Code Mode MCP server for generating Excalidraw architecture diagrams with auto-layout. LLM writes TypeScript, Graphviz handles layout."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "vectorjson"
-    title: "vectorjson"
-    description: "O(n) streaming JSON parser for LLM tool calls. Agents act sooner, abort bad outputs early. WASM SIMD, up to 2000× faster than stock AI SDK parsers."
-    language: "JavaScript"
-    topics:
-      - "ai-sdk"
-      - "json"
-      - "llm"
-      - "parser"
-      - "partial-json"
-      - "simd"
-      - "simdjson"
-      - "streaming"
-      - "wasm"
-      - "zig"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-10"
+repos: []
 ---
 
 # teamchong

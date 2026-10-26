@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [29, 13, 10, 5, 1, 2, 33, 24, 34, 4, 1, 1, 5]
+pushes_per_week: [35, 3, 9, 5, 1, 7, 28, 28, 30, 5, 1, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 20
-    distinct_repos: 15
-    active_days: 11
-    repos_not_owned: 9
+    pushes: 19
+    distinct_repos: 14
+    active_days: 10
+    repos_not_owned: 8
     not_owned_basenames: 7
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 162
-    distinct_repos: 74
+    pushes: 157
+    distinct_repos: 73
     active_days: 45
     repos_not_owned: 55
     not_owned_basenames: 14
     not_owned_owners: 54
 automation:
   state: "clear"
-  push_per_day: 3.6000
-  repo_per_active_day: 1.6444
-  not_owned_ratio: 0.7432
-  basename_concentration: 0.5811
+  push_per_day: 3.4889
+  repo_per_active_day: 1.6222
+  not_owned_ratio: 0.7534
+  basename_concentration: 0.5890
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "30d":
-    pushes: 20
-    distinct_repos: 15
-    pushes_per_repo: 1.3333
-    active_days: 11
-    repos_not_owned: 9
+    pushes: 19
+    distinct_repos: 14
+    pushes_per_repo: 1.3571
+    active_days: 10
+    repos_not_owned: 8
     not_owned_basenames: 7
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 162
-    distinct_repos: 74
-    pushes_per_repo: 2.1892
+    pushes: 157
+    distinct_repos: 73
+    pushes_per_repo: 2.1507
     active_days: 45
     repos_not_owned: 55
     not_owned_basenames: 14
@@ -87,15 +87,23 @@ repos:
       - "python"
     stars_fact: 43
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "Pythonista-and-Working-Copy"
-    title: "Pythonista-and-Working-Copy"
-    description: "Allow Pythonista to download a git file, folder, or repo from the Working Copy app"
+    last_push: "2026-10-25"
+  - name: "pythonista-module-versions"
+    title: "pythonista-module-versions"
+    description: "Compare the version numbers of extra modules in Pythonista with PyPI"
     language: "Python"
     topics: []
-    stars_fact: 132
+    stars_fact: 49
     first_seen: null
-    last_push: "2020-04-06"
+    last_push: "2026-10-23"
+  - name: "Personal-Digital-Assistant"
+    title: "Personal-Digital-Assistant"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "claussoft-dominos"
     title: "claussoft-dominos"
     description: "Racehorse dominos"
@@ -106,15 +114,15 @@ repos:
       - "pyscript"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-13"
-  - name: "Personal-Digital-Assistant"
-    title: "Personal-Digital-Assistant"
-    description: null
+    last_push: "2026-10-20"
+  - name: "Pythonista-and-Working-Copy"
+    title: "Pythonista-and-Working-Copy"
+    description: "Allow Pythonista to download a git file, folder, or repo from the Working Copy app"
     language: "Python"
     topics: []
-    stars_fact: 9
+    stars_fact: 132
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2020-04-06"
   - name: "pydantic-books-example"
     title: "pydantic-books-example"
     description: null
@@ -123,18 +131,10 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-08"
-  - name: "Ten-lines-or-less"
-    title: "Ten-lines-or-less"
-    description: "Python scripts that are short but useful or interesting"
-    language: "Python"
-    topics: []
-    stars_fact: 618
-    first_seen: null
-    last_push: "2026-10-08"
 ---
 
 # cclauss
 
-162 pushes across 74 repositories on 45 active days in the last 90 days of public GitHub push activity.
+157 pushes across 73 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cclauss

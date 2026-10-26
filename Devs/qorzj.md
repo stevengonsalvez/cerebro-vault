@@ -8,37 +8,37 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 0, 1, 2, 0, 0, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.3333
+  repo_per_active_day: 0.2857
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "saturn-web"
-    title: "saturn-web"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "web_search_cli"
-    title: "web_search_cli"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-05-03"
-  - name: "deepcode-qrcode-benchmark"
-    title: "deepcode-qrcode-benchmark"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "snake_game"
-    title: "snake_game"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-24"
-  - name: "dockerfiles"
-    title: "dockerfiles"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "claude-code-src"
-    title: "claude-code-src"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-04-01"
+repos: []
 ---
 
 # qorzj
 
-6 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+7 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qorzj

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 4, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 4, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "0xferrous.github.io"
+    title: "0xferrous.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: "Nushell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "my-nix"
+    title: "my-nix"
+    description: "My public nix config, with some reusable modules"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "CodexBar-flake"
+    title: "CodexBar-flake"
+    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "drydock"
     title: "drydock"
     description: null
@@ -85,38 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: ".github"
-    title: ".github"
-    description: null
-    language: "Nushell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "CodexBar-flake"
-    title: "CodexBar-flake"
-    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "0xferrous.github.io"
-    title: "0xferrous.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "my-nix"
-    title: "my-nix"
-    description: "My public nix config, with some reusable modules"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "ash"
     title: "ash"
     description: "ash is a CLI for spawning, attaching to, suspending, resuming, mounting into, and deleting NixOS agent VMs through virtle."

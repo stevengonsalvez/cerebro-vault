@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 5, 0, 1, 0, 1, 1, 7, 12, 4, 0, 0]
+pushes_per_week: [1, 1, 4, 0, 1, 1, 0, 1, 7, 14, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 10
+    pushes_per_repo: 9.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,67 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nexxel.dev"
-    title: "nexxel.dev"
-    description: "my personal website and blog"
-    language: "MDX"
-    topics:
-      - "blog"
-      - "mdx"
-      - "nextjs"
-      - "personal-website"
-      - "redis"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 280
-    first_seen: null
-    last_push: "2026-06-23"
-  - name: "oc-pstack"
-    title: "oc-pstack"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "opencode-config"
-    title: "opencode-config"
-    description: "my opencode config"
-    language: "Shell"
-    topics: []
-    stars_fact: 210
-    first_seen: null
-    last_push: "2026-05-22"
-  - name: "license-generator"
-    title: "license-generator"
-    description: "Create licenses for your projects right from your terminal!"
-    language: "Rust"
-    topics:
-      - "cli"
-      - "license"
-      - "productivity"
-      - "rust"
-    stars_fact: 210
-    first_seen: null
-    last_push: "2024-03-31"
-  - name: "talktui"
-    title: "talktui"
-    description: "presentations on the terminal"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 156
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "jgrep"
-    title: "jgrep"
-    description: "semantic search for code with jev"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
+repos: []
 ---
 
 # nexxeln

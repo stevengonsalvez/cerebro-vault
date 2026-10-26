@@ -8,11 +8,11 @@ provenance_repos:
   - "tirth8205/code-review-graph"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "344d46b0f790a3ec"
-pushes_per_week: [16, 0, 1, 0, 0, 0, 1, 14, 0, 0, 3, 8, 4]
+pushes_per_week: [10, 0, 1, 0, 0, 0, 1, 14, 0, 0, 11, 3, 1]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 41
     distinct_repos: 5
-    active_days: 13
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.6154
-  repo_per_active_day: 0.3846
+  push_per_day: 3.4167
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.6000
   basename_concentration: 0.6000
   shapes: []
@@ -65,96 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 41
     distinct_repos: 5
-    pushes_per_repo: 9.4000
-    active_days: 13
+    pushes_per_repo: 8.2000
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "code-review-graph"
-    title: "code-review-graph"
-    description: "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
-    language: "Python"
-    topics:
-      - "ai-coding"
-      - "claude"
-      - "claude-code"
-      - "code-review"
-      - "graphrag"
-      - "incremental"
-      - "knowledge-graph"
-      - "llm"
-      - "mcp"
-      - "python"
-      - "static-analysis"
-      - "tree-sitter"
-    stars_fact: 32357
-    first_seen: "2026-08-07T06:00:03.620287+00:00"
-    last_push: "2026-10-16"
-  - name: "tirth8205"
-    title: "tirth8205"
-    description: "My Personal Repository"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "my-portfolio"
-    title: "my-portfolio"
-    description: "A modern, responsive portfolio website showcasing my skills, projects, and experience as a Software and Machine Learning Engineer."
-    language: "TypeScript"
-    topics:
-      - "artificial-intelligence"
-      - "framer-motion"
-      - "machine-learning"
-      - "nextjs"
-      - "portfolio"
-      - "portfolio-website"
-      - "react"
-      - "sanity-studio"
-      - "software-engineering"
-      - "tailwindcss"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "No10_Hackathon"
-    title: "No10_Hackathon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "GraphMinds"
-    title: "GraphMinds"
-    description: "GraphMinds: A Python project exploring graph-based algorithms and AI models."
-    language: "Python"
-    topics:
-      - "knowledge-graph"
-      - "nlp"
-      - "prompt-engineering"
-      - "rag"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-05-29"
-  - name: "claude-games"
-    title: "claude-games"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-13"
+repos: []
 ---
 
 # tirth8205
 
-47 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+41 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tirth8205

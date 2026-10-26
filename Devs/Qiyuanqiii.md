@@ -8,16 +8,16 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 5, 10, 0, 3, 1, 0, 4, 3, 6, 7, 6, 16]
+pushes_per_week: [6, 5, 9, 2, 1, 1, 0, 5, 3, 8, 6, 8, 12]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 2
-    active_days: 6
+    pushes: 15
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 6
+    pushes: 15
+    distinct_repos: 1
+    pushes_per_repo: 15.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Qiyuanqiii"
-    title: "Qiyuanqiii"
-    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "ocr-behavior-review"
-    title: "ocr-behavior-review"
-    description: "An opt-in behavior contract and counterexample review policy for OpenCodeReview."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "VulnGym-T2"
-    title: "VulnGym-T2"
-    description: "2026 腾讯开源 VulnGym赛道 T2选题 双证+奖金"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "VulnGym-bv2-private"
-    title: "VulnGym-bv2-private"
-    description: "Private engineering repository for the VulnGym T1 x T2 B-v2 automation loop"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "Jump-Terminator"
-    title: "Jump-Terminator"
-    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "codex-401-doctor"
-    title: "codex-401-doctor"
-    description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-29"
+repos: []
 ---
 
 # Qiyuanqiii

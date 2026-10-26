@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 3, 26, 4, 0, 0, 0, 2, 3, 6, 4, 4, 1]
+pushes_per_week: [9, 5, 25, 3, 0, 0, 0, 2, 4, 6, 5, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    active_days: 9
+    pushes: 15
+    distinct_repos: 8
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 25
-    active_days: 27
+    pushes: 62
+    distinct_repos: 24
+    active_days: 26
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.9259
-  not_owned_ratio: 0.4400
-  basename_concentration: 0.0800
+  push_per_day: 2.3846
+  repo_per_active_day: 0.9231
+  not_owned_ratio: 0.4583
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 9
-    pushes_per_repo: 1.7778
-    active_days: 9
+    pushes: 15
+    distinct_repos: 8
+    pushes_per_repo: 1.8750
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 25
-    pushes_per_repo: 2.5200
-    active_days: 27
+    pushes: 62
+    distinct_repos: 24
+    pushes_per_repo: 2.5833
+    active_days: 26
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "oci-litellm-routing"
+    title: "oci-litellm-routing"
+    description: "LiteLLM routing on OCI Generative AI: one gateway, twenty models, a router trained on judged outcomes; Codex as a routed client and as the agent that builds it"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "deep-agents-oracle-ai-database"
     title: "deep-agents-oracle-ai-database"
     description: "LangChain Deep Agents on Oracle AI Database 26ai, run in an NVIDIA OpenShell sandbox: a cited pre-visit brief for synthetic patients, agent-proposed care actions approved by a clinician and executed by the database, memory and checkpoints on Oracle, driven by Codex or a web app"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-21"
   - name: "openshell-oci-kill-switch-demo"
     title: "openshell-oci-kill-switch-demo"
     description: "Agent kill switch demo on NVIDIA OpenShell with OCI Generative AI: runbook, evidence, insights, upstream OCI integration status"
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-26"
-  - name: "portkey-strands"
-    title: "portkey-strands"
-    description: "Portkey model provider for Strands Agents — routes 250+ LLMs through Portkey's AI gateway"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-25"
 ---
 
 # fede-kamel
 
-63 pushes across 25 repositories on 27 active days in the last 90 days of public GitHub push activity.
+62 pushes across 24 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [10, 1, 16, 0, 1, 0, 1, 0, 2, 1, 4, 3, 2]
+pushes_per_week: [9, 0, 16, 0, 1, 0, 1, 0, 2, 3, 3, 3, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 12
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0500
-  repo_per_active_day: 0.6000
+  push_per_day: 2.0526
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,133 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 12
-    pushes_per_repo: 3.4167
-    active_days: 20
+    pushes_per_repo: 3.2500
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tilbudstrolden-mcp"
-    title: "tilbudstrolden-mcp"
-    description: "MCP server for Nordic grocery deal hunting via the Tjek API (Denmark, Norway, Sweden, Finland)"
-    language: "TypeScript"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "danish"
-      - "deals"
-      - "etilbudsavis"
-      - "finland"
-      - "grocery"
-      - "grocery-deals"
-      - "mcp"
-      - "mcp-server"
-      - "meal-planning"
-      - "model-context-protocol"
-      - "nordic"
-      - "norway"
-      - "price-comparison"
-      - "recipe-manager"
-      - "shopping-list"
-      - "sweden"
-      - "tilbud"
-      - "typescript"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "ridge"
-    title: "ridge"
-    description: "MCP server that reverse-engineers architecture from code (Go, TypeScript, Python) and markdown into a structured graph. Detects drift between any two branches, tags, or commits"
-    language: "Go"
-    topics:
-      - "architecture"
-      - "architecture-diagram"
-      - "c4-model"
-      - "claude"
-      - "claude-code"
-      - "dependency-graph"
-      - "drift-detection"
-      - "excalidraw"
-      - "golang"
-      - "knowledge-graph"
-      - "markdown"
-      - "mcp"
-      - "mcp-server"
-      - "mermaid"
-      - "model-context-protocol"
-      - "obsidian"
-      - "plantuml"
-      - "static-analysis"
-      - "tree-sitter"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "kanadojo"
-    title: "kanadojo"
-    description: "KanaDojo — Japanese kana training app with spaced repetition and mnemonic art"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "linkedin-rs"
-    title: "linkedin-rs"
-    description: "LinkedIn in the terminal. Inbox, messages, feed, search, jobs, profile audit, network overlap; no browser needed. Fork of eisbaw/linkedin-rs."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "linkedin"
-      - "rust"
-      - "terminal"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "gleif-mcp-server"
-    title: "gleif-mcp-server"
-    description: "MCP server for GLEIF LEI (Legal Entity Identifier) database access"
-    language: "Go"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "gleif"
-      - "go"
-      - "golang"
-      - "legal-entity-identifier"
-      - "lei"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "miro-cli"
-    title: "miro-cli"
-    description: "Single-binary CLI that wraps the Miro REST API as shell commands, with a local SQLite mirror for offline search."
-    language: "Go"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "cobra"
-      - "collaboration"
-      - "go"
-      - "golang"
-      - "miro"
-      - "miro-api"
-      - "whiteboard"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
+repos: []
 ---
 
 # olgasafonova
 
-41 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+39 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/olgasafonova

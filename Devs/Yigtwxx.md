@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [21, 8, 21, 1, 1, 1, 1, 1, 0, 7, 7, 2, 0]
+pushes_per_week: [18, 9, 19, 1, 1, 2, 0, 1, 2, 9, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 20
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2903
-  repo_per_active_day: 0.6452
+  push_per_day: 2.2333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,161 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 20
-    pushes_per_repo: 3.5500
-    active_days: 31
+    pushes_per_repo: 3.3500
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Yigtwxx"
-    title: "Yigtwxx"
-    description: null
-    language: null
-    topics:
-      - "deep-learning"
-      - "docker"
-      - "llm"
-      - "machine-learning"
-      - "nlp"
-      - "pandas"
-      - "python"
-      - "pytorch"
-      - "rag"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "Maestro"
-    title: "Maestro"
-    description: "Orchestrate armies of AI agents from a single prompt. Open-core, bring-your-own-key, and self-hostable — Orchestrator routes, specialists execute, a reviewer keeps them honest."
-    language: "Python"
-    topics:
-      - "agent-framework"
-      - "agent-orchestration"
-      - "agentic-ai"
-      - "agentic-workflow"
-      - "ai-agents"
-      - "anthropic"
-      - "byok"
-      - "fastapi"
-      - "gemini"
-      - "llm"
-      - "multi-agent-systems"
-      - "nextjs"
-      - "ollama"
-      - "orchestration"
-      - "python"
-      - "qdrant"
-      - "rag"
-      - "self-hosted"
-      - "typescript"
-      - "websocket"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "OracleX"
-    title: "OracleX"
-    description: "Open-source financial intelligence terminal for equities, Borsa İstanbul and digital assets. Real-time market data, LLM news analysis and a ChromaDB vector memory on a provider-agnostic reasoning layer — local via Ollama or a dozen cloud providers. Next.js 15 and FastAPI."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-finance"
-      - "chromadb"
-      - "cryptocurrency"
-      - "fastapi"
-      - "financial-analysis"
-      - "llm"
-      - "market-data"
-      - "nextjs"
-      - "ollama"
-      - "python"
-      - "rag"
-      - "sentiment-analysis"
-      - "stocks"
-      - "supabase"
-      - "trading"
-      - "tradingview"
-      - "typescript"
-      - "vector-database"
-      - "websocket"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "J.A.R.V.I.S"
-    title: "J.A.R.V.I.S"
-    description: "J.A.R.V.I.S: An AI-powered Open Source Intelligence (OSINT) system. It orchestrates deep web scraping and local LLMs to autonomously generate comprehensive intelligence dossiers."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "ai-assistant"
-      - "automation"
-      - "beautifulsoup"
-      - "fastapi"
-      - "intelligence"
-      - "jarvis"
-      - "local-llm"
-      - "local-llms"
-      - "nextjs"
-      - "ollama"
-      - "osint"
-      - "postgresql"
-      - "python"
-      - "react"
-      - "typescript"
-      - "web-scraping"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "awesome-rag-production"
-    title: "awesome-rag-production"
-    description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-engineering"
-      - "artificial-intelligence"
-      - "awesome"
-      - "awesome-list"
-      - "curated-list"
-      - "embeddings"
-      - "generative-ai"
-      - "langchain"
-      - "large-language-models"
-      - "list"
-      - "llm"
-      - "llmops"
-      - "machine-learning"
-      - "mlops"
-      - "production"
-      - "python"
-      - "rag"
-      - "retrieval-augmented-generation"
-      - "vector-database"
-    stars_fact: 283
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "spiyweb"
-    title: "spiyweb"
-    description: "Graph-based retrieval for RAG — spreading-activation over a multi-layer vector graph, with redundancy-to-vote dedup and honesty outputs"
-    language: "Python"
-    topics:
-      - "ai"
-      - "embeddings"
-      - "python"
-      - "rag"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-04"
+repos: []
 ---
 
 # Yigtwxx
 
-71 pushes across 20 repositories on 31 active days in the last 90 days of public GitHub push activity.
+67 pushes across 20 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

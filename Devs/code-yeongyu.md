@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [69, 29, 67, 21, 15, 10, 73, 54, 143, 258, 95, 90, 130]
+pushes_per_week: [64, 28, 65, 17, 17, 21, 67, 52, 182, 223, 136, 77, 144]
 windows:
   "7d":
-    pushes: 136
-    distinct_repos: 5
+    pushes: 179
+    distinct_repos: 10
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 646
-    distinct_repos: 23
-    active_days: 26
+    pushes: 700
+    distinct_repos: 28
+    active_days: 27
     repos_not_owned: 16
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 1054
-    distinct_repos: 42
+    pushes: 1093
+    distinct_repos: 46
     active_days: 80
     repos_not_owned: 30
     not_owned_basenames: 7
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 13.1750
-  repo_per_active_day: 0.5250
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.3571
+  push_per_day: 13.6625
+  repo_per_active_day: 0.5750
+  not_owned_ratio: 0.6522
+  basename_concentration: 0.3261
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 136
-    distinct_repos: 5
-    pushes_per_repo: 27.2000
+    pushes: 179
+    distinct_repos: 10
+    pushes_per_repo: 17.9000
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 646
-    distinct_repos: 23
-    pushes_per_repo: 28.0870
-    active_days: 26
+    pushes: 700
+    distinct_repos: 28
+    pushes_per_repo: 25.0000
+    active_days: 27
     repos_not_owned: 16
     not_owned_basenames: 5
     not_owned_owners: 13
   "90d":
-    pushes: 1054
-    distinct_repos: 42
-    pushes_per_repo: 25.0952
+    pushes: 1093
+    distinct_repos: 46
+    pushes_per_repo: 23.7609
     active_days: 80
     repos_not_owned: 30
     not_owned_basenames: 7
@@ -94,9 +94,9 @@ repos:
       - "senpi"
       - "tui"
       - "typescript"
-    stars_fact: 484
+    stars_fact: 497
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "oh-my-openagent"
     title: "oh-my-openagent"
     description: "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering."
@@ -117,49 +117,9 @@ repos:
       - "orchestration"
       - "tui"
       - "typescript"
-    stars_fact: 70151
+    stars_fact: 70341
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "lazycodex"
-    title: "lazycodex"
-    description: "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "developer-tools"
-      - "lazy"
-      - "lazycodex"
-      - "oh-my-openagent"
-      - "omo"
-      - "openai"
-      - "orchestration"
-      - "typescript"
-    stars_fact: 3791
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "web-terminal"
-    title: "web-terminal"
-    description: "Mobile-first self-hosted web terminal powered by Ghostty WASM — disconnect-surviving sessions, file explorer, herdr integration"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "ghostty"
-      - "mobile"
-      - "mosh"
-      - "pty"
-      - "self-hosted"
-      - "terminal"
-      - "typescript"
-      - "wasm"
-      - "websocket"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-26"
   - name: "omowright"
     title: "omowright"
     description: "Playwright, but built for AI agents: the browser API models already know, token-efficient a11y snapshots, and scroll-driven collection over the network. Zero-port CDP underneath."
@@ -180,21 +140,65 @@ repos:
       - "llm"
       - "omowright"
       - "web-automation"
-    stars_fact: 5
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "sisyphus-private"
-    title: "sisyphus-private"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 18
+    last_push: "2026-10-26"
+  - name: "pi-webfetch"
+    title: "pi-webfetch"
+    description: "Web fetch tool extension for the pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "coding-agent"
+      - "fetch"
+      - "markdown"
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+      - "typescript"
+      - "webfetch"
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
+  - name: "pi-lsp-client"
+    title: "pi-lsp-client"
+    description: "Language Server Protocol integration for the pi coding agent. Faithful port of the LSP tools from oh-my-openagent: shared server pool, refCount lifecycle, idle/init reaping, typed crash retry, and a /lsp inspector."
+    language: "TypeScript"
+    topics:
+      - "code-intelligence"
+      - "coding-agent"
+      - "language-server-protocol"
+      - "lsp"
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+      - "typescript"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "pi-websearch"
+    title: "pi-websearch"
+    description: "Provider-backed web search tool for pi-coding-agent with config-gated activation, TUI status, and source-aware results."
+    language: "TypeScript"
+    topics:
+      - "brave"
+      - "coding-agent"
+      - "exa"
+      - "perplexity"
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+      - "serper"
+      - "tavily"
+      - "typescript"
+      - "web-search"
+      - "websearch"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # code-yeongyu
 
-1054 pushes across 42 repositories on 80 active days in the last 90 days of public GitHub push activity.
+1093 pushes across 46 repositories on 80 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

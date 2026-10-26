@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 5, 6, 2, 1, 0, 0, 0, 2, 0, 1, 0, 1]
+pushes_per_week: [3, 6, 3, 2, 1, 0, 0, 0, 2, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 7
-    active_days: 15
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.4667
+  push_per_day: 1.3571
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
   shapes: []
@@ -65,98 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 7
-    pushes_per_repo: 2.8571
-    active_days: 15
+    pushes_per_repo: 2.7143
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "instagram-cli"
-    title: "instagram-cli"
-    description: "Instagram's CLI and TUI client -- The ultimate weapon against brainrot"
-    language: "TypeScript"
-    topics:
-      - "brainrot"
-      - "cli"
-      - "command-line-app"
-      - "ink"
-      - "instagram"
-      - "messenger"
-      - "productivity"
-      - "react"
-      - "terminal-graphics"
-      - "terminal-ui"
-      - "typescript"
-    stars_fact: 2181
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "supreme-gg-gg"
-    title: "supreme-gg-gg"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "Eidos"
-    title: "Eidos"
-    description: "A Deep Learning Library"
-    language: "C++"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-12-31"
-  - name: "pendulum-tracking"
-    title: "pendulum-tracking"
-    description: "Track and Analyze Pendulum Motion using OpenCV (PHY180 @ UofT)"
-    language: "Python"
-    topics:
-      - "matplotlib"
-      - "opencv"
-      - "physics"
-      - "python"
-      - "scipy"
-      - "tracking"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2025-10-22"
-  - name: "scholar-link"
-    title: "scholar-link"
-    description: "Find and Explore Connected Research Papers"
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "chatbot"
-      - "data-visualization"
-      - "flask"
-      - "llm"
-      - "nlp-keywords-extraction"
-      - "react"
-      - "research-tool"
-      - "streamlit"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-10-06"
+repos: []
 ---
 
 # supreme-gg-gg
 
-20 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
+19 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/supreme-gg-gg

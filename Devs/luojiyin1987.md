@@ -11,38 +11,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [14, 19, 58, 16, 4, 1, 11, 6, 4, 11, 6, 3, 3]
+pushes_per_week: [13, 19, 66, 10, 3, 4, 7, 7, 8, 6, 7, 3, 6]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 5
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 10
-    active_days: 16
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 27
+    distinct_repos: 12
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 156
+    pushes: 159
     distinct_repos: 44
-    active_days: 49
+    active_days: 50
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1837
-  repo_per_active_day: 0.8980
+  push_per_day: 3.1800
+  repo_per_active_day: 0.8800
   not_owned_ratio: 0.1364
   basename_concentration: 0.0455
   shapes: []
@@ -53,34 +53,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 24
-    distinct_repos: 10
-    pushes_per_repo: 2.4000
-    active_days: 16
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 27
+    distinct_repos: 12
+    pushes_per_repo: 2.2500
+    active_days: 17
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 156
+    pushes: 159
     distinct_repos: 44
-    pushes_per_repo: 3.5455
-    active_days: 49
+    pushes_per_repo: 3.6136
+    active_days: 50
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "youtube-download"
+    title: "youtube-download"
+    description: "youtube-dl"
+    language: "HTML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-03"
   - name: "lint-md-moejs"
     title: "lint-md-moejs"
     description: "验证能否在不依赖 Node.js 运行时的情况下，复用 lint-md 的 JavaScript 解析器和规则引擎。"
@@ -97,14 +105,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-09"
-  - name: "youtube-download"
-    title: "youtube-download"
-    description: "youtube-dl"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-03"
   - name: "codex-recall"
     title: "codex-recall"
     description: "Search your Codex history by code, project, command, error, or conversation — then resume the exact session."
@@ -121,7 +121,7 @@ repos:
       - "learn"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-19"
   - name: "Agent-Harness-Runtime"
     title: "Agent-Harness-Runtime"
     description: null
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-156 pushes across 44 repositories on 49 active days in the last 90 days of public GitHub push activity.
+159 pushes across 44 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

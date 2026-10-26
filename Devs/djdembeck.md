@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 17, 12, 2, 0, 0, 0, 0, 4, 1, 1, 1, 3]
+pushes_per_week: [10, 19, 10, 2, 0, 0, 0, 0, 5, 0, 2, 2, 9]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 11
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 5
+    pushes: 14
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 59
     distinct_repos: 12
     active_days: 25
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2800
+  push_per_day: 2.3600
   repo_per_active_day: 0.4800
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 59
     distinct_repos: 12
-    pushes_per_repo: 4.7500
+    pushes_per_repo: 4.9167
     active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -77,33 +77,80 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-session-title"
-    title: "pi-session-title"
-    description: "Pi extension for session title generation"
-    language: "TypeScript"
+  - name: "llm-router-go"
+    title: "llm-router-go"
+    description: "GPU-aware reverse proxy router for vLLM and SGlang LLM inference backends."
+    language: "Go"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-04-14"
+    last_push: "2026-10-26"
   - name: "bragibooks"
     title: "bragibooks"
-    description: "An audiobook library cleanup and management tool built with Python and Django. Leveraging m4b-merge for audiobook standardization and editing. Ideal for enhancing audiobook library management."
-    language: "Python"
+    description: "Self-hosted web app for organizing personal audiobook libraries: batch intake, AudiobookDB matching, and queued m4b-merge processing. Built with Go and SvelteKit."
+    language: "Go"
     topics:
       - "audible"
+      - "audio"
       - "audiobook-cleanup"
+      - "audiobookdb"
       - "audiobooks"
-      - "audnexus"
-      - "django"
       - "docker"
+      - "go"
       - "library-management"
       - "m4b"
+      - "metadata"
       - "metadata-management"
       - "metadata-parser"
-      - "python"
+      - "self-hosted"
+      - "sveltekit"
     stars_fact: 217
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-26"
+  - name: "m4b-merge"
+    title: "m4b-merge"
+    description: "A high-performance Rust CLI to merge audiobooks into consistently tagged M4B files. Zero runtime deps, native chapter embedding, and 10x faster processing."
+    language: "Rust"
+    topics:
+      - "audible"
+      - "audiobooks"
+      - "audnexus"
+      - "cli"
+      - "docker"
+      - "m4a"
+      - "m4b"
+      - "metadata"
+      - "mp3"
+      - "rust"
+    stars_fact: 92
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "opencode-nanogpt"
+    title: "opencode-nanogpt"
+    description: "Automated setup scripts for configuring OpenCode with NanoGPT integration, featuring automatic model updates, reasoning model support, and built-in MCP server."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-05-29"
+  - name: "annalist"
+    title: "annalist"
+    description: "Self-hosted AI release notes for GitHub and Forgejo releases"
+    language: "Go"
+    topics:
+      - "ai"
+      - "devops"
+      - "forgejo"
+      - "github-actions"
+      - "go"
+      - "llm"
+      - "release-notes"
+      - "self-hosted"
+      - "sveltekit"
+      - "webhooks"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "Audnexus.bundle"
     title: "Audnexus.bundle"
     description: "An Audnexus client proof of concept for Plex, providing rich author and audiobook data. Developed in Python, offering enhanced user experiences via Plex's legacy plugin agent system."
@@ -122,47 +169,13 @@ repos:
       - "proof-of-concept"
       - "python"
       - "user-experience"
-    stars_fact: 650
+    stars_fact: 648
     first_seen: null
     last_push: "2026-02-10"
-  - name: "forgejo-cli"
-    title: "forgejo-cli"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "media-archive-sync"
-    title: "media-archive-sync"
-    description: "Download and organize media from web archives"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "annalist"
-    title: "annalist"
-    description: "Self-hosted AI release notes for GitHub and Forgejo releases"
-    language: "Go"
-    topics:
-      - "ai"
-      - "devops"
-      - "forgejo"
-      - "github-actions"
-      - "go"
-      - "llm"
-      - "release-notes"
-      - "self-hosted"
-      - "sveltekit"
-      - "webhooks"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # djdembeck
 
-57 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
+59 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

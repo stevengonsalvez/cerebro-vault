@@ -8,11 +8,11 @@ provenance_repos:
   - "Wei-Shaw/sub2api"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [5, 7, 13, 7, 5, 2, 6, 7, 9, 12, 3, 3, 2]
+pushes_per_week: [6, 6, 13, 11, 1, 4, 3, 7, 16, 5, 5, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 7
-    active_days: 35
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3143
-  repo_per_active_day: 0.2000
+  push_per_day: 2.3529
+  repo_per_active_day: 0.2059
   not_owned_ratio: 0.8571
   basename_concentration: 1.0000
   shapes: []
@@ -65,90 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 7
-    pushes_per_repo: 11.5714
-    active_days: 35
+    pushes_per_repo: 11.4286
+    active_days: 34
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "claude-relay-service"
-    title: "claude-relay-service"
-    description: "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-api"
-      - "claude-code"
-      - "claude-proxy"
-      - "codex-cli"
-      - "crs"
-      - "droid"
-      - "droid-cli"
-      - "droid2api"
-      - "gemini-cli"
-    stars_fact: 12733
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "sub2api"
-    title: "sub2api"
-    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
-    language: "Go"
-    topics:
-      - "2api"
-      - "antigravity2api"
-      - "cc2api"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "crs"
-      - "crs2"
-      - "gemini"
-    stars_fact: 44724
-    first_seen: "2026-08-23T06:00:02.900682+00:00"
-    last_push: "2026-10-24"
-  - name: "model-price-repo"
-    title: "model-price-repo"
-    description: "This repository stores model pricing files for CRS and sub2api projects. It synchronizes remote price files and allows custom price definitions for better flexibility."
-    language: "Python"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "rsa-js-php"
-    title: "rsa-js-php"
-    description: "RSA demonstration of Javascript and PHP"
-    language: "JavaScript"
-    topics:
-      - "rsa-js-php"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2018-08-15"
-  - name: "lnmpr"
-    title: "lnmpr"
-    description: "lnmpr一键安装脚本"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2018-12-10"
-  - name: "X-header"
-    title: "X-header"
-    description: "Sublime快捷键生成文件头注释"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2018-07-24"
+repos: []
 ---
 
 # Wei-Shaw
 
-81 pushes across 7 repositories on 35 active days in the last 90 days of public GitHub push activity.
+80 pushes across 7 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

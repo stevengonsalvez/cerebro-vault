@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 2, 3, 2, 2, 0, 0, 1, 1, 1, 2, 4, 0]
+pushes_per_week: [0, 2, 5, 1, 1, 0, 0, 1, 2, 0, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
       - "dotfiles"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-02-26"
+    last_push: "2026-10-25"
   - name: "olivaw"
     title: "olivaw"
     description: "My bot, a work in progress."

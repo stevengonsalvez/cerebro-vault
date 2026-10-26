@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [16, 42, 42, 14, 3, 3, 12, 18, 115, 108, 76, 86, 39]
+pushes_per_week: [14, 50, 38, 11, 3, 6, 8, 23, 125, 102, 81, 78, 43]
 windows:
   "7d":
-    pushes: 41
+    pushes: 47
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 391
+    pushes: 390
     distinct_repos: 7
-    active_days: 26
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 574
+    pushes: 582
     distinct_repos: 7
-    active_days: 66
+    active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 8.6970
-  repo_per_active_day: 0.1061
+  push_per_day: 8.6866
+  repo_per_active_day: 0.1045
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 41
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 20.5000
+    pushes_per_repo: 23.5000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 391
+    pushes: 390
     distinct_repos: 7
-    pushes_per_repo: 55.8571
-    active_days: 26
+    pushes_per_repo: 55.7143
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 574
+    pushes: 582
     distinct_repos: 7
-    pushes_per_repo: 82.0000
-    active_days: 66
+    pushes_per_repo: 83.1429
+    active_days: 67
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "estella"
@@ -97,9 +97,9 @@ repos:
       - "webgl"
       - "webgpu"
       - "wechat-minigame"
-    stars_fact: 693
+    stars_fact: 695
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "DeepSeek-Reasonix"
     title: "DeepSeek-Reasonix"
     description: "A reliable coding agent for complex software engineering tasks."
@@ -123,9 +123,9 @@ repos:
       - "tool-use"
       - "tui"
       - "typescript"
-    stars_fact: 35837
+    stars_fact: 35966
     first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "homebrew-reasonix"
     title: "homebrew-reasonix"
     description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
@@ -133,7 +133,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "esengine"
     title: "esengine"
     description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
@@ -189,6 +189,6 @@ repos:
 
 # esengine
 
-574 pushes across 7 repositories on 66 active days in the last 90 days of public GitHub push activity.
+582 pushes across 7 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

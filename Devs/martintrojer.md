@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 2, 0, 1, 0, 12, 26, 45, 23, 17, 1, 8]
+pushes_per_week: [0, 2, 0, 0, 1, 0, 17, 25, 48, 18, 15, 2, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 17
-    active_days: 20
+    active_days: 19
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 71
+    pushes: 67
     distinct_repos: 17
-    pushes_per_repo: 4.1765
-    active_days: 20
+    pushes_per_repo: 3.9412
+    active_days: 19
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "debrief"
-    title: "debrief"
-    description: "Catch up with what your coding agents committed, and answer back."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "carddown"
-    title: "carddown"
-    description: "Spaced repetition for your markdown notes."
-    language: "Rust"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "mdroots"
-    title: "mdroots"
-    description: "A zero-config markdown (and org) language server and Rust library."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "martintrojer"
-    title: "martintrojer"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
+repos: []
 ---
 
 # martintrojer

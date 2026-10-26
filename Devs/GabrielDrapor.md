@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 12, 2, 5, 0, 0, 10, 2, 11, 8, 10, 2]
+pushes_per_week: [0, 1, 12, 2, 5, 0, 2, 10, 0, 16, 3, 10, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "GabrielDrapor.github.io"
+    title: "GabrielDrapor.github.io"
+    description: "Just some nag"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "ovid"
     title: "ovid"
     description: "A bilingual Reader. Two languages, one tap."
@@ -85,25 +93,9 @@ repos:
       - "bilingual-reader"
       - "bilingualism"
       - "reader"
-    stars_fact: 67
+    stars_fact: 68
     first_seen: null
     last_push: "2026-09-30"
-  - name: "demo-support-agent"
-    title: "demo-support-agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "GabrielDrapor.github.io"
-    title: "GabrielDrapor.github.io"
-    description: "Just some nag"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-12"
   - name: "GabrielDrapor"
     title: "GabrielDrapor"
     description: "My profile README"
@@ -128,6 +120,14 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-29"
+  - name: "railway-xray"
+    title: "railway-xray"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-09"
 ---
 
 # GabrielDrapor

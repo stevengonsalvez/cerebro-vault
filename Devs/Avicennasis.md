@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 4, 7, 7, 0, 0, 4, 21, 15, 8, 14, 13, 2]
+pushes_per_week: [7, 4, 6, 7, 0, 0, 12, 13, 18, 13, 9, 11, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 21
     active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 29
     active_days: 35
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9143
+  push_per_day: 2.8857
   repo_per_active_day: 0.8286
   not_owned_ratio: 0.1724
   basename_concentration: 0.0345
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 21
-    pushes_per_repo: 2.0952
+    pushes_per_repo: 2.0476
     active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 101
     distinct_repos: 29
-    pushes_per_repo: 3.5172
+    pushes_per_repo: 3.4828
     active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -77,30 +77,6 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "TypeIt4Me"
-    title: "TypeIt4Me"
-    description: "A lightweight, secure text expansion tool for Windows built with .NET 6 and WPF."
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "scripts-emporium"
-    title: "scripts-emporium"
-    description: "A collection of standalone utility scripts for sysadmin tasks, web scraping, DNS management, and everyday automation."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "redmine-mcp-workflows"
-    title: "redmine-mcp-workflows"
-    description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "pyncua"
     title: "pyncua"
     description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
@@ -108,15 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "pxe-server"
-    title: "pxe-server"
-    description: "On-demand PXE boot server using dnsmasq (proxyDHCP + TFTP) with netboot.xyz"
-    language: "Shell"
+    last_push: "2026-10-25"
+  - name: "jules-mcp"
+    title: "jules-mcp"
+    description: "MCP server for the Google Jules coding-agent API (12 tools: sessions, activities, scheduling, session-diff)"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-25"
+  - name: "redmine-mcp-workflows"
+    title: "redmine-mcp-workflows"
+    description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -124,11 +108,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "incorrecter"
+    title: "incorrecter"
+    description: "The opposite of autocorrect: a 0.5B LoRA that adds realistic human typos to AI-sounding text. MLX + GGUF + the full training pipeline."
+    language: "Python"
+    topics:
+      - "fine-tune"
+      - "gguf"
+      - "lora"
+      - "mlx"
+      - "ollama"
+      - "qwen25"
+      - "typo-generation"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "flipoff"
+    title: "flipoff"
+    description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # Avicennasis
 
-102 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
+101 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

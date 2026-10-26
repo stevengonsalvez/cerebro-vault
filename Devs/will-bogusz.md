@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 3, 0, 0, 0, 5, 3, 6, 37, 19, 92, 161]
+pushes_per_week: [0, 0, 3, 0, 0, 0, 7, 1, 12, 36, 30, 152, 94]
 windows:
   "7d":
-    pushes: 184
+    pushes: 121
     distinct_repos: 1
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 314
+    pushes: 319
     distinct_repos: 3
-    active_days: 21
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 326
+    pushes: 335
     distinct_repos: 3
-    active_days: 28
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.6429
-  repo_per_active_day: 0.1071
+  push_per_day: 11.1667
+  repo_per_active_day: 0.1000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 184
+    pushes: 121
     distinct_repos: 1
-    pushes_per_repo: 184.0000
-    active_days: 6
+    pushes_per_repo: 121.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 314
+    pushes: 319
     distinct_repos: 3
-    pushes_per_repo: 104.6667
-    active_days: 21
+    pushes_per_repo: 106.3333
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 326
+    pushes: 335
     distinct_repos: 3
-    pushes_per_repo: 108.6667
-    active_days: 28
+    pushes_per_repo: 111.6667
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "railway-ubuntu-desktop"
-    title: "railway-ubuntu-desktop"
-    description: "Ubuntu XFCE desktop in the browser (KasmVNC) for Railway"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "railway-ubuntu-ssh"
-    title: "railway-ubuntu-ssh"
-    description: "Ubuntu 24.04 dev box image for Railway: SSH, browser terminal, persistent home, Claude Code"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "railway-openmuse"
-    title: "railway-openmuse"
-    description: "Container images for OpenMuse (API + web client, browser worker), built from pinned upstream source"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "primerl-experiments"
-    title: "primerl-experiments"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-05"
-  - name: "Portfolio-Website"
-    title: "Portfolio-Website"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-22"
-  - name: "ephemera"
-    title: "ephemera"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-01"
+repos: []
 ---
 
 # will-bogusz
 
-326 pushes across 3 repositories on 28 active days in the last 90 days of public GitHub push activity.
+335 pushes across 3 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/will-bogusz

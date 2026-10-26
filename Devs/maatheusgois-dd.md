@@ -8,8 +8,8 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 5, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "maatheusgois-dd"
-    title: "maatheusgois-dd"
-    description: "readme"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "bazel-ios-swiftui-template"
-    title: "bazel-ios-swiftui-template"
-    description: null
-    language: "Starlark"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-12-05"
-  - name: "BidirectionalDijkstra"
-    title: "BidirectionalDijkstra"
-    description: "BidirectionalDijkstra in Swift"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "bazel-bsp-vscode-extension"
-    title: "bazel-bsp-vscode-extension"
-    description: "A Cursor extension to build iOS with Bazel"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "SecuritySocketLayerDemo"
-    title: "SecuritySocketLayerDemo"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-02"
-  - name: "sweetpad-spm"
-    title: "sweetpad-spm"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-05-27"
+repos: []
 ---
 
 # maatheusgois-dd

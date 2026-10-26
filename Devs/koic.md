@@ -8,39 +8,39 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 3, 8, 3, 1, 0, 1, 5, 6, 12, 13, 9, 2]
+pushes_per_week: [3, 4, 7, 3, 1, 1, 1, 4, 8, 13, 15, 5, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 4
-    active_days: 16
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 67
-    distinct_repos: 11
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 66
+    distinct_repos: 10
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8611
-  repo_per_active_day: 0.3056
-  not_owned_ratio: 0.4545
-  basename_concentration: 0.1818
+  push_per_day: 1.8857
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,98 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 4
-    pushes_per_repo: 10.0000
-    active_days: 16
+    pushes_per_repo: 9.7500
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 67
-    distinct_repos: 11
-    pushes_per_repo: 6.0909
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 66
+    distinct_repos: 10
+    pushes_per_repo: 6.6000
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "minifyrb"
-    title: "minifyrb"
-    description: "A minifier of Ruby files."
-    language: "Ruby"
-    topics:
-      - "minify"
-      - "minify-ruby"
-      - "ruby"
-      - "uglify"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2025-01-02"
-  - name: "rubocop-faker"
-    title: "rubocop-faker"
-    description: "A RuboCop extension for Faker."
-    language: "Ruby"
-    topics:
-      - "converter"
-      - "faker"
-      - "linter"
-      - "rubocop"
-      - "ruby"
-      - "static-code-analysis"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2025-02-18"
-  - name: "ruby_ast_visualizer"
-    title: "ruby_ast_visualizer"
-    description: ":evergreen_tree: Ruby AST Visualizer. Based on Parser."
-    language: "Ruby"
-    topics:
-      - "ast"
-      - "ruby"
-    stars_fact: 28
-    first_seen: null
-    last_push: "2018-03-23"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "koic's dotfiles"
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2024-12-18"
-  - name: "rubocop-oracle"
-    title: "rubocop-oracle"
-    description: "A RuboCop extension for Active Record Oracle enhanced adapter."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-05"
-  - name: "death-command"
-    title: "death-command"
-    description: ":metal: Say \"DEATH\" with death voice."
-    language: "Ruby"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2022-12-19"
+repos: []
 ---
 
 # koic
 
-67 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+66 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

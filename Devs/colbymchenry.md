@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 18, 20, 9, 5, 19]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 19, 21, 9, 5, 17]
 windows:
   "7d":
     pushes: 19
@@ -82,9 +82,25 @@ repos:
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
     language: "C"
     topics: []
-    stars_fact: 74345
+    stars_fact: 75360
     first_seen: "2026-10-01T06:00:50.112518+00:00"
-    last_push: "2026-10-17"
+    last_push: "2026-10-24"
+  - name: "shopify-graphql-admin-mcp"
+    title: "shopify-graphql-admin-mcp"
+    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "frontend-audit-skill"
+    title: "frontend-audit-skill"
+    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "claude-context-menu"
     title: "claude-context-menu"
     description: null
@@ -93,22 +109,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-02-19"
-  - name: "frontend-audit-skill"
-    title: "frontend-audit-skill"
-    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "shopify-graphql-admin-mcp"
-    title: "shopify-graphql-admin-mcp"
-    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-03-24"
   - name: "n8n-gcp-firebase"
     title: "n8n-gcp-firebase"
     description: "Deploy an n8n instance to Cloud Run"

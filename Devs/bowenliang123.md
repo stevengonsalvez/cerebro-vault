@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 6, 18, 1, 2, 0, 2, 5, 7, 6, 8, 7, 3]
+pushes_per_week: [0, 6, 18, 1, 2, 0, 4, 3, 11, 2, 8, 7, 7]
 windows:
   "7d":
-    pushes: 3
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 31
     distinct_repos: 1
-    active_days: 14
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 69
     distinct_repos: 7
-    active_days: 29
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2414
-  repo_per_active_day: 0.2414
+  push_per_day: 2.2258
+  repo_per_active_day: 0.2258
   not_owned_ratio: 0.1429
   basename_concentration: 0.2857
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 31
     distinct_repos: 1
-    pushes_per_repo: 28.0000
-    active_days: 14
+    pushes_per_repo: 31.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 69
     distinct_repos: 7
-    pushes_per_repo: 9.2857
-    active_days: 29
+    pushes_per_repo: 9.8571
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
@@ -88,29 +88,17 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 2263
+    stars_fact: 3607
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "markdown-exporter"
-    title: "markdown-exporter"
-    description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "dify"
-      - "dify-plugin"
-      - "markdown"
-    stars_fact: 273
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "dify-grafana-dashboard"
-    title: "dify-grafana-dashboard"
-    description: "Grafana dashboard for Dify"
-    language: null
+    last_push: "2026-10-26"
+  - name: "zcode-context-insight"
+    title: "zcode-context-insight"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 32
+    stars_fact: 2
     first_seen: null
-    last_push: "2025-10-20"
+    last_push: "2026-10-19"
   - name: "dsh-plugin-checker"
     title: "dsh-plugin-checker"
     description: "GitHub Action for checking the correctness of DeepSeek Harness (dsh) plugin"
@@ -122,6 +110,26 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
+  - name: "markdown-exporter"
+    title: "markdown-exporter"
+    description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "dify"
+      - "dify-plugin"
+      - "markdown"
+    stars_fact: 274
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "dify-grafana-dashboard"
+    title: "dify-grafana-dashboard"
+    description: "Grafana dashboard for Dify"
+    language: null
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2025-10-20"
   - name: "dsh-tokener"
     title: "dsh-tokener"
     description: "Tokener.ai gateway LLM provider plugin for DeepSeek Harness"
@@ -130,18 +138,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-03"
-  - name: "Quico"
-    title: "Quico"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
 ---
 
 # bowenliang123
 
-65 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+69 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

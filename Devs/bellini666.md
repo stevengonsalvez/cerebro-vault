@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 1, 0, 1, 1, 0, 1, 2, 1, 4, 2, 2, 0]
+pushes_per_week: [3, 1, 1, 0, 1, 0, 1, 2, 1, 4, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "🔥 Pytest Language Server"
     language: "Rust"
     topics: []
-    stars_fact: 121
+    stars_fact: 122
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "django-choices-field"
     title: "django-choices-field"
     description: "Django field that set/get django's new TextChoices/IntegerChoices enum"
@@ -94,7 +94,7 @@ repos:
       - "enum"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-25"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles"

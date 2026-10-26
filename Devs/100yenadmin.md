@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [63, 7, 33, 45, 20, 5, 8, 3, 32, 63, 42, 43, 47]
+pushes_per_week: [56, 5, 32, 55, 12, 3, 8, 4, 45, 67, 30, 47, 42]
 windows:
   "7d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 8
-    active_days: 6
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 207
-    distinct_repos: 20
-    active_days: 24
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 208
+    distinct_repos: 19
+    active_days: 25
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 411
-    distinct_repos: 26
-    active_days: 65
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 406
+    distinct_repos: 27
+    active_days: 66
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.3231
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.3846
-  basename_concentration: 0.0385
+  push_per_day: 6.1515
+  repo_per_active_day: 0.4091
+  not_owned_ratio: 0.4074
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,51 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 50
+    pushes: 47
     distinct_repos: 8
-    pushes_per_repo: 6.2500
-    active_days: 6
+    pushes_per_repo: 5.8750
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 207
-    distinct_repos: 20
-    pushes_per_repo: 10.3500
-    active_days: 24
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 208
+    distinct_repos: 19
+    pushes_per_repo: 10.9474
+    active_days: 25
+    repos_not_owned: 9
+    not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 411
-    distinct_repos: 26
-    pushes_per_repo: 15.8077
-    active_days: 65
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 406
+    distinct_repos: 27
+    pushes_per_repo: 15.0370
+    active_days: 66
+    repos_not_owned: 11
+    not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "boardstate"
-    title: "boardstate"
-    description: "Your dashboard is data. Any AI can build it; any human can edit it. A protocol + runtime for agent-composable dashboards — layout-as-data, one guarded control plane, sandboxed agent-authored widgets, MCP server included."
-    language: "TypeScript"
-    topics:
-      - "agent-tools"
-      - "ai-agents"
-      - "dashboard"
-      - "lit"
-      - "mcp"
-      - "model-context-protocol"
-      - "sandbox"
-      - "typescript"
-      - "web-components"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-09-26"
   - name: "fish-audio-hermes"
     title: "fish-audio-hermes"
     description: "Official Fish Audio plugin for Hermes Agent: expressive text-to-speech, speech-to-text, voice library, cloning and voice design."
@@ -107,9 +90,9 @@ repos:
       - "text-to-speech"
       - "tts"
       - "voice-cloning"
-    stars_fact: 116
+    stars_fact: 111
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-20"
   - name: "hermes-teammates"
     title: "hermes-teammates"
     description: "Named subagent teammates for Hermes Agent: an operator-defined roster, context-carried follow-ups, live steering and a Kanban teammates lane. Stock Hermes; no patched core."
@@ -121,9 +104,9 @@ repos:
       - "kanban"
       - "multi-agent"
       - "subagents"
-    stars_fact: 79
+    stars_fact: 88
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-20"
   - name: "hermes-plan-mode"
     title: "hermes-plan-mode"
     description: "Claude Code-style plan mode for Hermes Agent: enforced read-only planning, then approval through Hermes' own approval prompt on every interactive surface."
@@ -134,7 +117,7 @@ repos:
       - "hermes-agent"
       - "hermes-plugin"
       - "plan-mode"
-    stars_fact: 98
+    stars_fact: 90
     first_seen: null
     last_push: "2026-10-17"
   - name: "boardstate-hermes-plugin"
@@ -147,7 +130,7 @@ repos:
       - "hermes"
       - "mcp"
       - "widgets"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
     last_push: "2026-10-14"
   - name: "fable-token-saving-skills-orchestrator"
@@ -155,13 +138,28 @@ repos:
     description: "🧚 Fable-first Claude orchestration kit for token-saving lane routing, dense turns, and cache-preserving wait discipline."
     language: "Python"
     topics: []
-    stars_fact: 100
+    stars_fact: 101
     first_seen: null
     last_push: "2026-07-04"
+  - name: "ai-emotion-chip"
+    title: "ai-emotion-chip"
+    description: "AI Emotion Chip: the Hermes Emotion Chip plugin. Agent-authored expressive delivery for ElevenLabs v4 and Fish Audio, grounded in research on emotion concepts in Claude."
+    language: "Python"
+    topics:
+      - "elevenlabs"
+      - "emotion"
+      - "fish-audio"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "tts"
+      - "voice"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # 100yenadmin
 
-411 pushes across 26 repositories on 65 active days in the last 90 days of public GitHub push activity.
+406 pushes across 27 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

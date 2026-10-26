@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 4, 9, 10, 1, 0, 5, 15, 17, 10, 0, 2, 2]
+pushes_per_week: [1, 4, 12, 6, 1, 2, 4, 18, 15, 8, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 10
     active_days: 9
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 21
-    active_days: 33
+    active_days: 32
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3030
-  repo_per_active_day: 0.6364
+  push_per_day: 2.3438
+  repo_per_active_day: 0.6562
   not_owned_ratio: 0.9048
   basename_concentration: 0.0476
   shapes: []
@@ -60,26 +60,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 10
-    pushes_per_repo: 2.6000
+    pushes_per_repo: 2.4000
     active_days: 9
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 21
-    pushes_per_repo: 3.6190
-    active_days: 33
+    pushes_per_repo: 3.5714
+    active_days: 32
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "thothspinner"
+    title: "thothspinner"
+    description: "Claude Code inspired animation TUI component, a configurable progress indicator library for Python, built on Rich. ThothSpinner provides beautiful, composable terminal UI components including spinners, progress bars, timers, and animated messages with shimmer effects."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "ito"
     title: "ito"
     description: null
@@ -88,14 +96,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-07-25"
-  - name: "thothspinner"
-    title: "thothspinner"
-    description: "Claude Code inspired animation TUI component, a configurable progress indicator library for Python, built on Rich. ThothSpinner provides beautiful, composable terminal UI components including spinners, progress bars, timers, and animated messages with shimmer effects."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "filegardener"
     title: "filegardener"
     description: "File gardener - file maintenance utilities - file dedup, only copy detection, prune empty dirs"
@@ -132,6 +132,6 @@ repos:
 
 # smorin
 
-76 pushes across 21 repositories on 33 active days in the last 90 days of public GitHub push activity.
+75 pushes across 21 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

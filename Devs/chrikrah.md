@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 5, 3, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 5, 3, 1, 0, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 4
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 8
-    active_days: 5
+    pushes: 13
+    distinct_repos: 10
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 14
-    distinct_repos: 11
-    active_days: 6
+    pushes: 17
+    distinct_repos: 13
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 1.8333
-  not_owned_ratio: 0.1818
-  basename_concentration: 0.0909
+  push_per_day: 2.4286
+  repo_per_active_day: 1.8571
+  not_owned_ratio: 0.1538
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 8
-    pushes_per_repo: 1.2500
-    active_days: 5
+    pushes: 13
+    distinct_repos: 10
+    pushes_per_repo: 1.3000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 14
-    distinct_repos: 11
-    pushes_per_repo: 1.2727
-    active_days: 6
+    pushes: 17
+    distinct_repos: 13
+    pushes_per_repo: 1.3077
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "keypad-spotify-remote"
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-20"
   - name: "chrikrah"
     title: "chrikrah"
     description: "Profile README"
@@ -132,6 +132,6 @@ repos:
 
 # chrikrah
 
-14 pushes across 11 repositories on 6 active days in the last 90 days of public GitHub push activity.
+17 pushes across 13 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chrikrah

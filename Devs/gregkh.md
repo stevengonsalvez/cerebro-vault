@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 0, 1, 2, 1, 3, 2, 0]
+pushes_per_week: [2, 0, 0, 1, 0, 0, 1, 0, 2, 1, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,28 +77,46 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel stable tree mirror"
+    language: "C"
+    topics:
+      - "kernel"
+      - "linux"
+    stars_fact: 730
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "usbutils"
     title: "usbutils"
     description: "USB utilities for Linux, including lsusb"
     language: "C"
     topics: []
-    stars_fact: 459
+    stars_fact: 461
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "kernel-history"
-    title: "kernel-history"
-    description: "Linux kernel history logs and stats"
-    language: "Python"
-    topics: []
-    stars_fact: 116
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-22"
   - name: "kernel-development"
     title: "kernel-development"
     description: "Presentation on how the Linux kernel is developed"
     language: "TeX"
     topics: []
     stars_fact: 689
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "kdbus"
+    title: "kdbus"
+    description: "Kernel \"dbus-like\" code for the Linux kernel"
+    language: "C"
+    topics: []
+    stars_fact: 262
+    first_seen: null
+    last_push: "2017-01-19"
+  - name: "kernel-history"
+    title: "kernel-history"
+    description: "Linux kernel history logs and stats"
+    language: "Python"
+    topics: []
+    stars_fact: 116
     first_seen: null
     last_push: "2026-10-15"
   - name: "usbview"
@@ -109,24 +127,6 @@ repos:
     stars_fact: 277
     first_seen: null
     last_push: "2025-08-17"
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel stable tree mirror"
-    language: "C"
-    topics:
-      - "kernel"
-      - "linux"
-    stars_fact: 726
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "gregkh-linux"
-    title: "gregkh-linux"
-    description: "My ~/linux/ directory framework"
-    language: "Yacc"
-    topics: []
-    stars_fact: 104
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # gregkh

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-19T06:04:45.439728+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1b56cc9447a6475c"
   - "5dd922e14c0ccf9b"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "KGCL-SIGIR22"
+    title: "KGCL-SIGIR22"
+    description: "[SIGIR'22] Knowledge Graph Contrastive Learning for Recommendation"
+    language: "Python"
+    topics: []
+    stars_fact: 129
+    first_seen: null
+    last_push: "2023-08-18"
   - name: "MBHT-KDD22"
     title: "MBHT-KDD22"
     description: "[KDD'22] Multi-Behavior Hypergraph-Enhanced Transformer for Next-Item Recommendation"
@@ -105,14 +113,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-12-10"
-  - name: "KGCL-SIGIR22"
-    title: "KGCL-SIGIR22"
-    description: "[SIGIR'22] Knowledge Graph Contrastive Learning for Recommendation"
-    language: "Python"
-    topics: []
-    stars_fact: 127
-    first_seen: null
-    last_push: "2023-08-18"
   - name: "yuh-yang.github.io-old"
     title: "yuh-yang.github.io-old"
     description: null

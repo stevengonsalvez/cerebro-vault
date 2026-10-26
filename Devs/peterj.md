@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 1, 1, 0, 0, 0, 0, 0, 2, 0, 1, 0, 1]
+pushes_per_week: [5, 1, 1, 0, 0, 0, 0, 0, 2, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.1818
-  repo_per_active_day: 0.4545
+  push_per_day: 1.1000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.6000
   shapes: []
@@ -57,86 +57,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 11
+    pushes_per_repo: 2.2000
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ppp-gumroad-discounts"
-    title: "ppp-gumroad-discounts"
-    description: "Create PPP discount codes in Gumroad"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2020-10-02"
-  - name: "docpr"
-    title: "docpr"
-    description: "Keep your docs in-sync with your code changes"
-    language: "TypeScript"
-    topics:
-      - "documentation"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-03-10"
-  - name: "servereverything.dev"
-    title: "servereverything.dev"
-    description: "Hosted MCP Server-Everything"
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "mcp-server"
-      - "testing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "pr-validation"
-    title: "pr-validation"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "agw-ratelimiting"
-    title: "agw-ratelimiting"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-16"
-  - name: "vscode-protobuf"
-    title: "vscode-protobuf"
-    description: "Protobuf (.proto) support for Visual Studio Code"
-    language: null
-    topics:
-      - "protobuf"
-      - "visual-studio"
-      - "vscode"
-      - "vscode-extension"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2023-04-20"
+repos: []
 ---
 
 # peterj
 
-13 pushes across 5 repositories on 11 active days in the last 90 days of public GitHub push activity.
+11 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/peterj

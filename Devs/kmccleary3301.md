@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 9, 18, 7, 7, 2, 1, 2, 10, 3, 0, 6, 3]
+pushes_per_week: [11, 9, 18, 7, 9, 0, 1, 2, 11, 2, 1, 5, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 12
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,12 +77,20 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "stream-mdx"
+    title: "stream-mdx"
+    description: "A Fast and Fully Configurable MDX Stream Renderer"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "nested_learning"
     title: "nested_learning"
     description: "A Reproduction of GDM's Nested Learning Paper"
     language: "Python"
     topics: []
-    stars_fact: 713
+    stars_fact: 712
     first_seen: null
     last_push: "2026-02-25"
   - name: "breadboard"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 34
     first_seen: null
     last_push: "2026-03-05"
-  - name: "stream-mdx"
-    title: "stream-mdx"
-    description: "A Fast and Fully Configurable MDX Stream Renderer"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "transcript_viewer"
     title: "transcript_viewer"
     description: "Generalized offline viewer and static HTML compiler for AI agent traces (OMP, ATIF, Claude Code, Codex, OpenHands, Terminus, Harbor)"

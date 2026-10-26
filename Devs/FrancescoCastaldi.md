@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 2, 1, 0, 0, 1, 3, 5, 2, 7, 6, 7, 1]
+pushes_per_week: [2, 2, 1, 0, 1, 2, 1, 7, 0, 8, 8, 5, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "superset-plugin-chart-hierarchical-table"
-    title: "superset-plugin-chart-hierarchical-table"
-    description: "Apache Superset 6.1.0 Hierarchical Table & Matrix Grid Chart Plugin (Backend + Frontend)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "FrancescoCastaldi"
     title: "FrancescoCastaldi"
     description: null
@@ -92,39 +84,62 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "superset-plugin-chart-stratum-heatmap"
-    title: "superset-plugin-chart-stratum-heatmap"
-    description: null
-    language: "TypeScript"
+    last_push: "2026-10-24"
+  - name: "fuel-ledger-android"
+    title: "fuel-ledger-android"
+    description: "Offline Android car logbook for fuel, running costs and maintenance reminders. Kotlin, Jetpack Compose and an amber instrument cluster."
+    language: "Kotlin"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "superset-plugin-chart-stratum-bar"
-    title: "superset-plugin-chart-stratum-bar"
-    description: "StratumBar — 3D Isometric & Advanced Bar Chart Plugin for Apache Superset with Benchmark, Delta % and Modern Controls"
-    language: "TypeScript"
+    last_push: "2026-10-21"
+  - name: "mini-jersey-studio"
+    title: "mini-jersey-studio"
+    description: "Interactive 3D Cycling Jersey & Shirt Customizer. Real-time SVG-to-WebGL dynamic planar texture projection, custom GLB model import, and Tech Pack production export."
+    language: "JavaScript"
+    topics:
+      - "3d-customizer"
+      - "client-side"
+      - "cycling-jersey"
+      - "svg-to-canvas"
+      - "tech-pack"
+      - "threejs"
+      - "vanilla-js"
+      - "webgl"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "bike-garage"
+    title: "bike-garage"
+    description: "App desktop per gestire bici, componenti, consumabili e attività GPX con statistiche"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "superset-plugin-chart-kpi-comparison"
-    title: "superset-plugin-chart-kpi-comparison"
-    description: null
-    language: "TypeScript"
+    last_push: "2026-09-19"
+  - name: "VeloMetric"
+    title: "VeloMetric"
+    description: "VeloMetric 🚴‍♂️ - Precision tracking for your road bike's wear and tear."
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
-  - name: "superset-plugin-chart-calendar-filter"
-    title: "superset-plugin-chart-calendar-filter"
-    description: "Interactive, selectable calendar chart plugin for Apache Superset 6.1.0 -- acts as a dashboard cross-filter"
-    language: "TypeScript"
-    topics: []
+    last_push: "2026-10-26"
+  - name: "sir-markov-chain"
+    title: "sir-markov-chain"
+    description: "Simulazione di un modello epidemiologico SIR come catena di Markov a tempo discreto - Progetto universitario Modelli Probabilistici (Unibo)"
+    language: "Jupyter Notebook"
+    topics:
+      - "epidemiology"
+      - "markov-chains"
+      - "monte-carlo"
+      - "probability-models"
+      - "python"
+      - "sir-model"
+      - "stochastic-simulation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-09-02"
 ---
 
 # FrancescoCastaldi

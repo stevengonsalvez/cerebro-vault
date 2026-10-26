@@ -8,39 +8,39 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [9, 2, 21, 2, 0, 0, 1, 4, 11, 8, 8, 1, 2]
+pushes_per_week: [8, 3, 20, 2, 0, 0, 1, 5, 10, 9, 7, 1, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 8
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 69
-    distinct_repos: 13
-    active_days: 29
+    distinct_repos: 12
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3793
-  repo_per_active_day: 0.4483
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.1538
+  push_per_day: 2.3000
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,87 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 10
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 69
-    distinct_repos: 13
-    pushes_per_repo: 5.3077
-    active_days: 29
+    distinct_repos: 12
+    pushes_per_repo: 5.7500
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wu21-web"
-    title: "wu21-web"
-    description: "wu21-web's ReadMe"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "atri-signin"
-    title: "atri-signin"
-    description: "免费b站/网易云会员签到网站自动签到"
-    language: "Go"
-    topics:
-      - "bilibili"
-      - "neteasemusic"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "conv"
-    title: "conv"
-    description: "All in one file conversions through FFmpeg, ImageMagick's magick, and Pandoc."
-    language: "Go"
-    topics:
-      - "compacted"
-      - "converter"
-      - "ffmpeg"
-      - "gunzip"
-      - "imagemagick"
-      - "pandoc"
-      - "tar"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "gh-pfp"
-    title: "gh-pfp"
-    description: "Github Style Profile Picture Generator + API + Web + Command Line"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "authcore"
-    title: "authcore"
-    description: "Core of an authenticator on the command line."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
+repos: []
 ---
 
 # wu21-web
 
-69 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
+69 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

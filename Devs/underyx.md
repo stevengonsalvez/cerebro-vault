@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [11, 0, 0, 0, 0, 0, 1, 0, 1, 5, 8, 0, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 1, 0, 3, 3, 8, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 18
     distinct_repos: 3
-    active_days: 12
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.2500
+  push_per_day: 1.8000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,85 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 7
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 9.0000
-    active_days: 12
+    pushes_per_repo: 6.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "visawhen"
-    title: "visawhen"
-    description: "Data on US visa wait times at the National Visa Center and at US consulates."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "bence.dev"
-    title: "bence.dev"
-    description: "The thingies behind underyx.me"
-    language: "Astro"
-    topics:
-      - "blog"
-      - "gatsby"
-      - "html"
-      - "personal-website"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "ponpong"
-    title: "ponpong"
-    description: null
-    language: "GDScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "flask-redis"
-    title: "flask-redis"
-    description: "A Flask extension for using Redis"
-    language: "Python"
-    topics:
-      - "flask"
-      - "python"
-      - "redis"
-    stars_fact: 438
-    first_seen: null
-    last_push: "2024-03-04"
-  - name: "getmatter-mcp-server"
-    title: "getmatter-mcp-server"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-23"
-  - name: "wanikani-mcp"
-    title: "wanikani-mcp"
-    description: "MCP server for the WaniKani API"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # underyx
 
-27 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/underyx

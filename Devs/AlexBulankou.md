@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 3, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ray-agentic-runtime"
+    title: "ray-agentic-runtime"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-10-26"
   - name: "substrate-poc1"
     title: "substrate-poc1"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-29"
-  - name: "ray-agentic-runtime"
-    title: "ray-agentic-runtime"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-10-26"
   - name: "docs-auto"
     title: "docs-auto"
     description: null

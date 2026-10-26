@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 15, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 15, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.3750
+  push_per_day: 2.7143
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,34 +65,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 8
+    pushes_per_repo: 6.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llm-interceptor"
-    title: "llm-interceptor"
-    description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
-    language: "Python"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "minecraft-mod-dev"
     title: "minecraft-mod-dev"
     description: "Claude Code skill for Minecraft mod development with NeoForge/Fabric support and inter-mod integration (JEI/AE2/Create)"
     language: "Shell"
     topics: []
-    stars_fact: 20
+    stars_fact: 22
     first_seen: null
     last_push: "2026-08-07"
+  - name: "llm-interceptor"
+    title: "llm-interceptor"
+    description: "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs"
+    language: "Python"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "remoteShell-mcp"
     title: "remoteShell-mcp"
     description: "A Model Context Protocol (MCP) server that enables AI models to manage SSH connections and execute commands on remote machines without repeatedly entering credentials."
@@ -132,6 +132,6 @@ repos:
 
 # chouzz
 
-20 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+19 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chouzz

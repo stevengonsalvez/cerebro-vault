@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 0, 3, 0, 0, 0, 0, 0, 2, 0, 2, 0, 1]
+pushes_per_week: [2, 0, 3, 0, 0, 0, 0, 0, 2, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,38 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gmail-shortcuts-plus"
+    title: "gmail-shortcuts-plus"
+    description: "A lightweight Chrome extension that enhances Gmail mails navigation with arrow keys."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "codeforces-darktheme"
+    title: "codeforces-darktheme"
+    description: "Dark mode for Codeforces"
+    language: "CSS"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "gnome-widgets"
+    title: "gnome-widgets"
+    description: "Widgets Extension for GNOME Shell"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "QualityTube"
+    title: "QualityTube"
+    description: "An extension for always having highest quality on youtube videos"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "The-Movies-Hub"
     title: "The-Movies-Hub"
     description: "A modern movie search and discovery application built with React and Vite. The Movies Hub allows users to explore popular films and keep track of their favorite movies."
@@ -93,44 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "netaccess-automate-iitism"
-    title: "netaccess-automate-iitism"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "BuyNest-Ecom-Website"
-    title: "BuyNest-Ecom-Website"
-    description: "A MERN stack based secure Ecommerce Website."
-    language: "JavaScript"
-    topics:
-      - "ecommerce"
-      - "ecommerce-application"
-      - "ecommerce-website"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "Digital-Image-Processing"
-    title: "Digital-Image-Processing"
-    description: "Digital Image Processing IIT ISM Notes and Assignments"
-    language: "Jupyter Notebook"
-    topics:
-      - "iit-notes"
-      - "iitdhanbad"
-      - "iitism"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "To-Do"
-    title: "To-Do"
-    description: "A To Do application in Typescript"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # gaurav7902

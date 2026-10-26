@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [29, 10, 22, 2, 4, 4, 10, 21, 16, 27, 1, 7, 5]
+pushes_per_week: [30, 10, 21, 5, 2, 6, 9, 20, 20, 22, 1, 7, 9]
 windows:
   "7d":
-    pushes: 5
+    pushes: 9
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 162
     distinct_repos: 2
-    active_days: 52
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0385
-  repo_per_active_day: 0.0385
+  push_per_day: 3.0566
+  repo_per_active_day: 0.0377
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 9.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 162
     distinct_repos: 2
-    pushes_per_repo: 79.0000
-    active_days: 52
+    pushes_per_repo: 81.0000
+    active_days: 53
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "background-agents"
@@ -85,9 +85,49 @@ repos:
       - "background-agents"
       - "cloud-agents"
       - "software-factory"
-    stars_fact: 3370
+    stars_fact: 3399
     first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-10-16"
+    last_push: "2026-10-26"
+  - name: "claude-code-otel"
+    title: "claude-code-otel"
+    description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
+    language: "Makefile"
+    topics: []
+    stars_fact: 513
+    first_seen: null
+    last_push: "2025-06-17"
+  - name: "github-actions-injection-demo"
+    title: "github-actions-injection-demo"
+    description: "Demonstration of GitHub Actions shell injection vulnerability - shows why environment variables don't fix the issue"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-11-14"
+  - name: "aws-rag-application"
+    title: "aws-rag-application"
+    description: "An example AWS RAG application using Bedrock embeddings and LLMs"
+    language: "Python"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-01-16"
+  - name: "modal-vm-examples"
+    title: "modal-vm-examples"
+    description: "Runnable Modal VM Sandbox examples — run Docker, docker compose, docker build, and filesystem snapshots on Modal's microVM runtime (vm_runtime). Reproducible Modal VM examples."
+    language: "Python"
+    topics:
+      - "docker"
+      - "docker-compose"
+      - "examples"
+      - "microvm"
+      - "modal"
+      - "modal-vm"
+      - "sandbox"
+      - "vm-runtime"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-16"
   - name: "aws-rag-s3-vectors"
     title: "aws-rag-s3-vectors"
     description: "AWS RAG Application Using AWS S3 Vectors and AWS Bedrock"
@@ -100,50 +140,10 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2025-08-01"
-  - name: "claude-code-otel"
-    title: "claude-code-otel"
-    description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
-    language: "Makefile"
-    topics: []
-    stars_fact: 512
-    first_seen: null
-    last_push: "2025-06-17"
-  - name: "aws-athena-mcp"
-    title: "aws-athena-mcp"
-    description: "AWS Athena MCP using FastMCP"
-    language: "Python"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "medium-facenet-tutorial"
-    title: "medium-facenet-tutorial"
-    description: "Facial Recognition Pipeline using Dlib and Tensorflow"
-    language: "Python"
-    topics:
-      - "dlib"
-      - "docker"
-      - "facial-recognition"
-      - "python3"
-      - "tensorflow"
-      - "tensorflow-tutorials"
-    stars_fact: 219
-    first_seen: null
-    last_push: "2023-03-24"
-  - name: "gmail-llm-labeler"
-    title: "gmail-llm-labeler"
-    description: "An application for labeling Gmail emails with an LLM"
-    language: "Python"
-    topics:
-      - "gmail"
-      - "llm"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2025-10-10"
 ---
 
 # ColeMurray
 
-158 pushes across 2 repositories on 52 active days in the last 90 days of public GitHub push activity.
+162 pushes across 2 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

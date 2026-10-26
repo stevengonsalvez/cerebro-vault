@@ -8,39 +8,39 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [1, 2, 2, 0, 3, 0, 1, 3, 15, 2, 1, 1, 3]
+pushes_per_week: [0, 2, 2, 3, 0, 1, 0, 4, 14, 3, 1, 0, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 4
+    pushes: 8
+    distinct_repos: 5
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 34
-    distinct_repos: 5
+    distinct_repos: 6
     active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.2941
+  repo_per_active_day: 0.3529
   not_owned_ratio: 1.0000
-  basename_concentration: 0.4000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
+    pushes: 8
+    distinct_repos: 5
+    pushes_per_repo: 1.6000
     active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 34
-    distinct_repos: 5
-    pushes_per_repo: 6.8000
+    distinct_repos: 6
+    pushes_per_repo: 5.6667
     active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "twishabansal.github.io"
-    title: "twishabansal.github.io"
-    description: "Personal blog"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "vector-store-experiments"
-    title: "vector-store-experiments"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-12"
-  - name: "Image-Colourisation"
-    title: "Image-Colourisation"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2021-04-15"
-  - name: "frappe-mean"
-    title: "frappe-mean"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-04-04"
-  - name: "Handwritten_alphabet_classification"
-    title: "Handwritten_alphabet_classification"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-07-18"
-  - name: "COVID_trends_prediction"
-    title: "COVID_trends_prediction"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-06-24"
+repos: []
 ---
 
 # twishabansal
 
-34 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+34 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/twishabansal

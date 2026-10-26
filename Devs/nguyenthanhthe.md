@@ -8,37 +8,37 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 8]
 windows:
   "7d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 12
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.6000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,97 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 4.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SparkAgent"
-    title: "SparkAgent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "astral"
-    title: "astral"
-    description: "Astral — High-performance, zero-dependency Windows desktop app for autonomous Discord Quests & Rich Presence (Tauri v2 + Rust, <4MB binary)."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "bluebook-investigation"
-    title: "bluebook-investigation"
-    description: "Bluebook 0.9.725 won't start: root cause (32-bit Electron GPU process dies inside the user profile), reverse engineering notes, and a verified environment fix"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "his-autofill-extension"
-    title: "his-autofill-extension"
-    description: "Tiện ích Chrome hỗ trợ tự động điền nhanh hồ sơ tiếp đón và kết quả khám sức khỏe định kỳ trên hệ thống Quản lý Y tế Cơ sở (HIS V20 - v20.ytecoso.vn) theo Thông tư 32/2023/TT-BYT."
-    language: "JavaScript"
-    topics:
-      - "autofill"
-      - "chrome-extension"
-      - "healthcare-automation"
-      - "his-v20"
-      - "kham-suc-khoe"
-      - "medical-records"
-      - "ytecoso"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "todomvc-react-antigravity"
-    title: "todomvc-react-antigravity"
-    description: "A modern, production-grade TodoMVC application implemented in React 18+ and TypeScript."
-    language: "TypeScript"
-    topics:
-      - "production-ready"
-      - "react"
-      - "todoapp"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "nguyenthanhthe"
-    title: "nguyenthanhthe"
-    description: "Profile README - Nguyễn Thanh Thế"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
+repos: []
 ---
 
 # nguyenthanhthe
 
-6 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
+12 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nguyenthanhthe

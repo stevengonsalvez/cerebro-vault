@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [5, 0, 9, 0, 0, 0, 0, 51, 27, 0, 0, 2, 0]
+pushes_per_week: [5, 0, 9, 0, 0, 0, 1, 50, 27, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,24 +78,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "awesome-hermes-agent"
-    title: "awesome-hermes-agent"
-    description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
-    language: null
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-tools"
-      - "awesome"
-      - "awesome-list"
-      - "hermes-agent"
-      - "mcp"
-      - "memory"
-      - "nous-research"
-      - "skills"
-    stars_fact: 5861
-    first_seen: null
-    last_push: "2026-09-22"
   - name: "council-of-high-intelligence"
     title: "council-of-high-intelligence"
     description: "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode."
@@ -115,9 +97,27 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4670
+    stars_fact: 4708
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-10-12"
+    last_push: "2026-10-26"
+  - name: "awesome-hermes-agent"
+    title: "awesome-hermes-agent"
+    description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
+    language: null
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-tools"
+      - "awesome"
+      - "awesome-list"
+      - "hermes-agent"
+      - "mcp"
+      - "memory"
+      - "nous-research"
+      - "skills"
+    stars_fact: 5901
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "0xNyk"
     title: "0xNyk"
     description: "Config files for my GitHub profile."
@@ -132,22 +132,37 @@ repos:
       - "trading"
       - "typescript"
       - "web3"
-    stars_fact: 7
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "lacp"
-    title: "lacp"
-    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
+    last_push: "2026-10-25"
+  - name: "awesome-agent-cortex"
+    title: "awesome-agent-cortex"
+    description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
+    language: "JavaScript"
+    topics:
+      - "agent-memory"
+      - "agent-security"
+      - "agentic-ai"
+      - "ai-agents"
+      - "awesome"
+      - "awesome-list"
+      - "knowledge-graphs"
+      - "mcp"
+      - "solana"
+    stars_fact: 229
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "agent-security"
+    title: "agent-security"
+    description: "Deterministic safety gates for repositories touched by coding agents and automation."
     language: "Shell"
     topics:
-      - "agent-harness"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "control-plane"
-      - "hermes"
-      - "local-first"
-    stars_fact: 306
+      - "agent-security"
+      - "github-cli"
+      - "prompt-injection"
+      - "secret-scanning"
+      - "supply-chain-security"
+    stars_fact: 7
     first_seen: null
     last_push: "2026-09-22"
   - name: "xint"
@@ -166,26 +181,9 @@ repos:
       - "twitter"
       - "typescript"
       - "x"
-    stars_fact: 253
+    stars_fact: 255
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "awesome-agent-cortex"
-    title: "awesome-agent-cortex"
-    description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
-    language: "JavaScript"
-    topics:
-      - "agent-memory"
-      - "agent-security"
-      - "agentic-ai"
-      - "ai-agents"
-      - "awesome"
-      - "awesome-list"
-      - "knowledge-graphs"
-      - "mcp"
-      - "solana"
-    stars_fact: 224
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-21"
 ---
 
 # 0xNyk

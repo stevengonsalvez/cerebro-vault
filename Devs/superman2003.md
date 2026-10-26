@@ -8,37 +8,37 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 13, 21]
+pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 3, 19, 46]
 windows:
   "7d":
-    pushes: 21
+    pushes: 52
     distinct_repos: 1
-    active_days: 5
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 68
     distinct_repos: 1
-    active_days: 8
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 70
     distinct_repos: 3
-    active_days: 10
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6000
-  repo_per_active_day: 0.3000
+  push_per_day: 5.8333
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -49,98 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 52
     distinct_repos: 1
-    pushes_per_repo: 21.0000
-    active_days: 5
+    pushes_per_repo: 52.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 68
     distinct_repos: 1
-    pushes_per_repo: 34.0000
-    active_days: 8
+    pushes_per_repo: 68.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 70
     distinct_repos: 3
-    pushes_per_repo: 12.0000
-    active_days: 10
+    pushes_per_repo: 23.3333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Crimson-Thread-Pilgrimage"
-    title: "Crimson-Thread-Pilgrimage"
-    description: null
-    language: "GDScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "mirasim-register"
-    title: "mirasim-register"
-    description: "Unofficial Mirasim/Mirofish email signup panel with QQ IMAP OTP and invite chaining"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "remirasim-dist"
-    title: "remirasim-dist"
-    description: "Remirasim binary distribution mirror - release assets only, no source. Auto-published by CI from the private source repo."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "mirasim-reg"
-    title: "mirasim-reg"
-    description: "Unofficial Mirasim/Mirofish email signup panel with QQ IMAP OTP and invite chaining"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "agentpack"
-    title: "agentpack"
-    description: "Write agent skills once, ship to Cursor, Claude Code, Codex, Copilot and any SKILL.md-compatible agent"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "developer-tools"
-      - "github-copilot"
-      - "mcp"
-      - "open-source"
-      - "python"
-      - "skill-md"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-08"
-  - name: "stagewise"
-    title: "stagewise"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-26"
+repos: []
 ---
 
 # superman2003
 
-36 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+70 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/superman2003

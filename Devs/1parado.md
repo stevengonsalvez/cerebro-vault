@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 2, 1, 1, 0, 1, 8, 2, 3, 1, 15, 0, 2]
+pushes_per_week: [3, 2, 2, 0, 1, 7, 1, 2, 3, 1, 15, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,38 +77,37 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zcode_android"
-    title: "zcode_android"
-    description: "ZCode Android — Control your coding agent from anywhere"
-    language: "Kotlin"
+  - name: "docscan-app"
+    title: "docscan-app"
+    description: null
+    language: "Dart"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "learn-motion"
-    title: "learn-motion"
-    description: null
+    last_push: "2026-10-25"
+  - name: "claude-openai-gateway"
+    title: "claude-openai-gateway"
+    description: "Zero-dependency Anthropic Messages ↔ OpenAI ChatCompletions protocol gateway with a built-in WebUI console. Use OpenAI-compatible models (tool calling, thinking, web search) in Claude Code & Claude Desktop."
+    language: "JavaScript"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "gateway"
+      - "llm-proxy"
+      - "openai"
+      - "webui"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "document-scan-mcp"
+    title: "document-scan-mcp"
+    description: "Local CamScanner-style document scanner: MCP server, CLI, and web UI. Offline edge detect, perspective correction, enhance, A4 PDF."
     language: "HTML"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "deepseek-sider"
-    title: "deepseek-sider"
-    description: "deepseek-sider"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "android-rpa"
-    title: "android-rpa"
-    description: "Android RPA framework: closed-loop automation (BOSS zhipin / WeChat) via uiautomator2, with MCP server for AI agents"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-24"
   - name: "dsh-deepseek-web-search"
     title: "dsh-deepseek-web-search"
     description: "在 DeepSeek Harness (DSH) 桌面端用网页版 DeepSeek 账号做联网搜索——web_search provider backed by chat.deepseek.com, no API key needed"
@@ -122,7 +121,7 @@ repos:
       - "dsh-plugin"
       - "plugin"
       - "web-search"
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
     last_push: "2026-10-17"
   - name: "grok-build-switch"
@@ -130,9 +129,17 @@ repos:
     description: "Grok Build Model Switcher – a lightweight tool to easily switch between model vendors."
     language: "Go"
     topics: []
-    stars_fact: 206
+    stars_fact: 207
     first_seen: null
     last_push: "2026-10-17"
+  - name: "ns2jb"
+    title: "ns2jb"
+    description: "Fork of https://gitlab.com/pepsipu/ns2jb.git - Switch 2 FS demo. This is a fork of the original project."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # 1parado

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-21T06:05:19.754690+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "f8a707d9ac993687"
-pushes_per_week: [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "RehabMate"
+    title: "RehabMate"
+    description: "復健幫手 — a tiny 3D body pain-mapping tool for rehab clinics: patients tap where it hurts, doctors get a clean list. One HTML file, three.js, no build."
+    language: "JavaScript"
+    topics:
+      - "3d"
+      - "healthcare"
+      - "medical"
+      - "pain-management"
+      - "physiotherapy"
+      - "rehabilitation"
+      - "three-js"
+      - "webgl"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-20"
   - name: "claude-real-video"
     title: "claude-real-video"
     description: "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT."
@@ -98,25 +114,17 @@ repos:
       - "transcription"
       - "video-analysis"
       - "whisper"
-    stars_fact: 2237
+    stars_fact: 2263
     first_seen: "2026-07-03T06:00:07.569198+00:00"
-    last_push: "2026-10-08"
-  - name: "RehabMate"
-    title: "RehabMate"
-    description: "復健幫手 — a tiny 3D body pain-mapping tool for rehab clinics: patients tap where it hurts, doctors get a clean list. One HTML file, three.js, no build."
-    language: "JavaScript"
-    topics:
-      - "3d"
-      - "healthcare"
-      - "medical"
-      - "pain-management"
-      - "physiotherapy"
-      - "rehabilitation"
-      - "three-js"
-      - "webgl"
-    stars_fact: 8
+    last_push: "2026-10-23"
+  - name: "second-look"
+    title: "second-look"
+    description: "Alexa+ follows a cooking video with you, hands-free, because it actually watched the video. MCP server (Streamable HTTP, spec 2025-11-25) + simulated Alexa+ screen + Strands agent."
+    language: "Python"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-20"
+    last_push: "2026-10-23"
   - name: "solar-atlas-gesture"
     title: "solar-atlas-gesture"
     description: "Pinch from Saturn until the Solar System becomes a dot — then keep going, to the nearby stars, the Milky Way and the Local Group. A hand-gesture browser atlas: MediaPipe + Three.js, NASA data, EN/中文. Works with mouse or a camera-free tour too."
@@ -158,24 +166,6 @@ repos:
       - "memory-system"
       - "solo-founder"
     stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-08"
-  - name: "claude-playbook-loop"
-    title: "claude-playbook-loop"
-    description: "A 200-line Python loop that lets Claude rewrite its own rules every night. Companion to claude-memory-framework."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "markdown"
-      - "prompt-engineering"
-      - "python"
-      - "self-improvement"
-      - "solo-founder"
-    stars_fact: 1
     first_seen: null
     last_push: "2026-04-08"
 ---

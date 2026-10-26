@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [13, 7, 31, 5, 4, 0, 6, 4, 1, 6, 18, 3, 13]
+pushes_per_week: [11, 7, 32, 4, 2, 1, 5, 4, 1, 10, 15, 3, 12]
 windows:
   "7d":
     pushes: 13
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 111
+    pushes: 107
     distinct_repos: 12
-    active_days: 41
+    active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7073
-  repo_per_active_day: 0.2927
+  push_per_day: 2.6750
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 111
+    pushes: 107
     distinct_repos: 12
-    pushes_per_repo: 9.2500
-    active_days: 41
+    pushes_per_repo: 8.9167
+    active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "youtrack-tui"
-    title: "youtrack-tui"
-    description: "TUi Youtrack issue tracker"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for omartelo's tools"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "nfse4j"
-    title: "nfse4j"
-    description: "Emita NFS-e Nacional pelo seu agente de IA (MCP) ou direto do Java. SDK zero-dependências no núcleo, com servidor MCP e CLI por cima. Homologação por padrão; produção exige confirmação explícita."
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "lazyovpn"
-    title: "lazyovpn"
-    description: "The lazier way to manage openvpn connections"
-    language: "Go"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "eraumanote"
-    title: "eraumanote"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-27"
-  - name: "revu"
-    title: "revu"
-    description: "Track requested reviews from your system tray"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # omartelo
 
-111 pushes across 12 repositories on 41 active days in the last 90 days of public GitHub push activity.
+107 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

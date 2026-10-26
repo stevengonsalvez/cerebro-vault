@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-18T06:04:36.280265+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "fda2072231b00dde"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -84,15 +84,37 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "local-llm"
     title: "local-llm"
     description: "Everything I know about running LLMs locally"
     language: "Shell"
     topics: []
-    stars_fact: 1865
+    stars_fact: 1869
     first_seen: "2026-07-04T06:00:03.825011+00:00"
     last_push: "2026-07-10"
+  - name: "tinychain"
+    title: "tinychain"
+    description: "A pocket-sized implementation of Bitcoin"
+    language: "Python"
+    topics: []
+    stars_fact: 1442
+    first_seen: null
+    last_push: "2021-04-23"
+  - name: "desk"
+    title: "desk"
+    description: "A lightweight workspace manager for the shell"
+    language: "Shell"
+    topics:
+      - "bash"
+      - "desk"
+      - "shell"
+      - "shell-script"
+      - "workspace-manager"
+      - "zsh"
+    stars_fact: 2572
+    first_seen: null
+    last_push: "2022-07-07"
   - name: "clii"
     title: "clii"
     description: "Python 3.7+ function annotations -> CLI"
@@ -108,14 +130,6 @@ repos:
     stars_fact: 45
     first_seen: null
     last_push: "2022-09-20"
-  - name: "tinychain"
-    title: "tinychain"
-    description: "A pocket-sized implementation of Bitcoin"
-    language: "Python"
-    topics: []
-    stars_fact: 1443
-    first_seen: null
-    last_push: "2021-04-23"
   - name: "coldcore"
     title: "coldcore"
     description: "Trust-minimized Bitcoin wallet"
@@ -127,14 +141,6 @@ repos:
     stars_fact: 140
     first_seen: null
     last_push: "2026-07-31"
-  - name: "pub-dotfiles"
-    title: "pub-dotfiles"
-    description: null
-    language: "Vim Script"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
 ---
 
 # jamesob

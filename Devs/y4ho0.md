@@ -8,23 +8,23 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 1, 0, 0, 0, 1, 0, 3, 0, 0, 0, 2]
+pushes_per_week: [2, 0, 1, 0, 0, 1, 0, 1, 2, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,49 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "y4ho0.github.io"
-    title: "y4ho0.github.io"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "assume-zero"
-    title: "assume-zero"
-    description: "Test finite project commands against controlled machine-environment changes and report evidence-backed hidden assumptions."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "cross-platform"
-      - "debugging"
-      - "developer-tools"
-      - "environment"
-      - "open-source"
-      - "reproducibility"
-      - "rust"
-      - "testing"
-      - "works-on-my-machine"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "reprobrief"
-    title: "reprobrief"
-    description: "Create previewable, privacy-conscious reproduction briefs for bug reports."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-29"
-  - name: "repair-codex-history"
-    title: "repair-codex-history"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
+repos: []
 ---
 
 # y4ho0

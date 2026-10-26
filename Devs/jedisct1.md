@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [8, 5, 6, 1, 1, 0, 4, 13, 23, 16, 8, 14, 1]
+pushes_per_week: [9, 4, 7, 0, 1, 0, 4, 15, 25, 12, 12, 10, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
-    distinct_repos: 35
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 40
+    distinct_repos: 21
+    active_days: 13
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 6
   "90d":
     pushes: 100
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
-    distinct_repos: 35
-    pushes_per_repo: 1.6571
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 40
+    distinct_repos: 21
+    pushes_per_repo: 1.9048
+    active_days: 13
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 6
   "90d":
     pushes: 100
@@ -77,6 +77,22 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "bitbar-dnscrypt-proxy-switcher"
+    title: "bitbar-dnscrypt-proxy-switcher"
+    description: "BitBar plugin to control dnscrypt-proxy usage"
+    language: "Shell"
+    topics:
+      - "bitbar"
+      - "bitbar-plugin"
+      - "bitbar-plugins"
+      - "dns"
+      - "dnscrypt"
+      - "dnscrypt-proxy"
+      - "dnscrypt-proxy2"
+      - "macos"
+    stars_fact: 150
+    first_seen: null
+    last_push: "2025-12-02"
   - name: "libsodium"
     title: "libsodium"
     description: "A modern, portable, easy to use crypto library."
@@ -86,72 +102,70 @@ repos:
       - "crypto"
       - "cryptography"
       - "zig-package"
-    stars_fact: 13997
+    stars_fact: 14017
     first_seen: null
     last_push: "2026-10-15"
-  - name: "pure-ftpd"
-    title: "pure-ftpd"
-    description: "Pure FTP server"
+  - name: "dsvpn"
+    title: "dsvpn"
+    description: "A Dead Simple VPN."
     language: "C"
     topics:
-      - "ftp"
-      - "ftpd-server"
-    stars_fact: 763
+      - "privacy"
+      - "reallysimple"
+      - "simple"
+      - "vpn"
+    stars_fact: 5821
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "minisign"
+    title: "minisign"
+    description: "A dead simple tool to sign files and verify digital signatures."
+    language: "C"
+    topics:
+      - "crypto"
+      - "cryptography"
+      - "ed25519"
+      - "gpg"
+      - "pgp"
+      - "signatures"
+      - "zig-package"
+    stars_fact: 2865
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "zig-bounded-array"
+    title: "zig-bounded-array"
+    description: "BoundedArray module for Zig."
+    language: "Zig"
+    topics:
+      - "array"
+      - "arrayvec"
+      - "bounded"
+      - "boundedarray"
+      - "tinyvec"
+      - "zig"
+      - "zig-lib"
+      - "zig-package"
+      - "ziglang"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-05-19"
+  - name: "libhydrogen"
+    title: "libhydrogen"
+    description: "A lightweight, secure, easy-to-use crypto library suitable for constrained environments."
+    language: "C"
+    topics:
+      - "arduino"
+      - "atmega328p"
+      - "avr"
+      - "c"
+      - "crypto"
+      - "cryptography"
+      - "embedded"
+      - "embedded-systems"
+      - "gimli"
+    stars_fact: 790
     first_seen: null
     last_push: "2026-09-28"
-  - name: "homebrew-turbocrypt"
-    title: "homebrew-turbocrypt"
-    description: "Signed TurboCrypt binaries for macOS, built and published locally"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "py-fast"
-    title: "py-fast"
-    description: "Python implementation of the FAST format-preserving cipher."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "rust-jwt-simple"
-    title: "rust-jwt-simple"
-    description: "A secure, standard-conformant, easy to use JWT implementation for Rust."
-    language: "Rust"
-    topics:
-      - "api"
-      - "auth0"
-      - "authentication"
-      - "crypto"
-      - "json"
-      - "jsonwebtokens"
-      - "jws"
-      - "jwt"
-      - "okta"
-      - "rust"
-      - "simple"
-      - "tokens"
-      - "web"
-    stars_fact: 283
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "go-dnsstamps"
-    title: "go-dnsstamps"
-    description: "DNS Stamps library for Go"
-    language: "Go"
-    topics:
-      - "dns"
-      - "dns-over-https"
-      - "dns-over-tls"
-      - "dnscrypt"
-      - "dnscrypt-proxy"
-      - "doh"
-      - "golang"
-      - "secure"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-05-18"
 ---
 
 # jedisct1

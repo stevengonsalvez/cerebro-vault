@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [42, 20, 25, 3, 8, 2, 5, 23, 24, 46, 3, 6, 11]
+pushes_per_week: [42, 20, 25, 3, 8, 2, 5, 23, 33, 38, 2, 7, 10]
 windows:
   "7d":
     pushes: 11
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 73
     distinct_repos: 16
-    active_days: 14
+    active_days: 13
     repos_not_owned: 15
     not_owned_basenames: 5
     not_owned_owners: 12
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 73
     distinct_repos: 16
-    pushes_per_repo: 5.0625
-    active_days: 14
+    pushes_per_repo: 4.5625
+    active_days: 13
     repos_not_owned: 15
     not_owned_basenames: 5
     not_owned_owners: 12
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: "My personal agent skills"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "viz-explain"
-    title: "viz-explain"
-    description: "Editable Excalidraw patterns and agent skill for explaining software systems"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "Patrick-Erichsen.github.io"
-    title: "Patrick-Erichsen.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "openclaw-barnacle-fixture-131619-maintainer"
-    title: "openclaw-barnacle-fixture-131619-maintainer"
-    description: "Disposable live GitHub fixture for OpenClaw PR #131619"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "skill-evaluator-cassette"
-    title: "skill-evaluator-cassette"
-    description: "A tapes cassette for skill evaluation using DSPy GEPA optimizers"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "patrickerichsen.com"
-    title: "patrickerichsen.com"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
+repos: []
 ---
 
 # Patrick-Erichsen

@@ -8,39 +8,39 @@ provenance_repos:
   - "EveryInc/compound-engineering-plugin"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [30, 7, 59, 29, 3, 0, 8, 12, 5, 17, 9, 2, 7]
+pushes_per_week: [28, 8, 64, 23, 3, 1, 7, 13, 11, 12, 7, 4, 7]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 35
-    distinct_repos: 7
-    active_days: 14
-    repos_not_owned: 5
+    pushes: 9
+    distinct_repos: 6
+    active_days: 4
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 37
+    distinct_repos: 9
+    active_days: 15
+    repos_not_owned: 7
+    not_owned_basenames: 4
+    not_owned_owners: 5
   "90d":
     pushes: 188
-    distinct_repos: 22
+    distinct_repos: 23
     active_days: 54
-    repos_not_owned: 16
+    repos_not_owned: 17
     not_owned_basenames: 4
-    not_owned_owners: 12
+    not_owned_owners: 13
 automation:
   state: "clear"
   push_per_day: 3.4815
-  repo_per_active_day: 0.4074
-  not_owned_ratio: 0.7273
-  basename_concentration: 0.2727
+  repo_per_active_day: 0.4259
+  not_owned_ratio: 0.7391
+  basename_concentration: 0.2609
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,97 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
-  "30d":
-    pushes: 35
-    distinct_repos: 7
-    pushes_per_repo: 5.0000
-    active_days: 14
-    repos_not_owned: 5
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 4
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 4
+    not_owned_owners: 3
+  "30d":
+    pushes: 37
+    distinct_repos: 9
+    pushes_per_repo: 4.1111
+    active_days: 15
+    repos_not_owned: 7
+    not_owned_basenames: 4
+    not_owned_owners: 5
   "90d":
     pushes: 188
-    distinct_repos: 22
-    pushes_per_repo: 8.5455
+    distinct_repos: 23
+    pushes_per_repo: 8.1739
     active_days: 54
-    repos_not_owned: 16
+    repos_not_owned: 17
     not_owned_basenames: 4
-    not_owned_owners: 12
+    not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hermes-kids-profile-blueprint"
-    title: "hermes-kids-profile-blueprint"
-    description: "Parent-operated starter kit for designing a private, child-facing Hermes Agent profile"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-safety"
-      - "child-safety"
-      - "education"
-      - "hermes-agent"
-      - "parenting"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "illo-skill"
-    title: "illo-skill"
-    description: "illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starring a recurring mascot. 30+ characters packs, with ability to create your own."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "illustration"
-      - "image-generation"
-      - "skill"
-    stars_fact: 409
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "energon"
-    title: "energon"
-    description: "Self-hosted handoff layer for agent work that doesn't belong in a repo."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Cross-platform AI agent skills (SKILL.md) installable via npx skills / gh skills"
-    language: null
-    topics: []
-    stars_fact: 65
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "illo-characters"
-    title: "illo-characters"
-    description: "Community character packs for the illo editorial-illustration agent skill"
-    language: null
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "clefcam"
-    title: "clefcam"
-    description: "A camera that follows your rules, powered by Cloudflare Clef Flash."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
+repos: []
 ---
 
 # tmchow
 
-188 pushes across 22 repositories on 54 active days in the last 90 days of public GitHub push activity.
+188 pushes across 23 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

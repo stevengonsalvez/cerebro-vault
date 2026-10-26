@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "370b40429763f446"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
@@ -77,54 +77,35 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "instagram-agent-skill"
-    title: "instagram-agent-skill"
-    description: "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT."
-    language: "Python"
-    topics: []
-    stars_fact: 1803
-    first_seen: null
-    last_push: "2026-09-13"
   - name: "youtube-agent-skill"
     title: "youtube-agent-skill"
     description: "Eleven Claude skills that run a YouTube channel: scripts off 21 hook formulas with a scored hook, title and thumbnail linted as one pairing, an edit decision list from your transcript, a retention reader that finds where viewers actually leave, a Shorts cutter, and a virality engine. Free, MIT."
     language: "Python"
     topics: []
-    stars_fact: 1619
+    stars_fact: 2971
     first_seen: null
     last_push: "2026-09-16"
-  - name: "replica-skill"
-    title: "replica-skill"
-    description: "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT."
+  - name: "instagram-agent-skill"
+    title: "instagram-agent-skill"
+    description: "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT."
+    language: "Python"
+    topics: []
+    stars_fact: 2956
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "day-trader-skill"
+    title: "day-trader-skill"
+    description: "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
     language: "Python"
     topics:
-      - "agent"
-      - "agent-skills"
-      - "app-clone"
+      - "backtesting"
       - "claude"
-      - "claude-code"
       - "claude-skills"
-      - "indie-hacker"
-      - "reverse-engineering"
-      - "saas"
-    stars_fact: 3211
+      - "day-trading"
+      - "stock-market"
+    stars_fact: 1771
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "arena-skill"
-    title: "arena-skill"
-    description: "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill."
-    language: "Python"
-    topics:
-      - "arena"
-      - "claude-code"
-      - "claude-skills"
-      - "multi-agent"
-      - "prompting"
-      - "subagents"
-      - "tournament"
-    stars_fact: 727
-    first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-10-20"
   - name: "linkedin-agent-skill"
     title: "linkedin-agent-skill"
     description: "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft before it goes out."
@@ -137,27 +118,38 @@ repos:
       - "claude-skills"
       - "content-marketing"
       - "linkedin"
-    stars_fact: 2281
+    stars_fact: 2693
     first_seen: "2026-10-01T06:00:48.478308+00:00"
     last_push: "2026-09-17"
-  - name: "master-skills"
-    title: "master-skills"
-    description: "Three Claude master skills: edit your videos, make them go viral, and build anything. Free, MIT."
+  - name: "founder-skill"
+    title: "founder-skill"
+    description: "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT."
     language: "Python"
     topics:
-      - "agent-skills"
-      - "captions"
-      - "claude"
+      - "business-plan"
       - "claude-code"
       - "claude-skills"
-      - "content-creation"
-      - "stop-motion"
-      - "video-editing"
-      - "virality"
-      - "web-design"
-    stars_fact: 78
+      - "startup"
+      - "subagents"
+      - "unit-economics"
+    stars_fact: 1784
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-07"
+  - name: "arena-skill"
+    title: "arena-skill"
+    description: "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill."
+    language: "Python"
+    topics:
+      - "arena"
+      - "claude-code"
+      - "claude-skills"
+      - "multi-agent"
+      - "prompting"
+      - "subagents"
+      - "tournament"
+    stars_fact: 982
+    first_seen: null
+    last_push: "2026-09-27"
 ---
 
 # Jakeschincariol

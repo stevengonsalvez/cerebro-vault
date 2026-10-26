@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 1, 0, 0, 2, 4, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 5, 1, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,7 +85,21 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-21"
+  - name: "embodigen"
+    title: "embodigen"
+    description: "Task description in, label-exact photorealistic dataset out. An embodied data engine for robot learning."
+    language: "Python"
+    topics:
+      - "embodied-ai"
+      - "lerobot"
+      - "manipulation"
+      - "robot-learning"
+      - "sim2real"
+      - "synthetic-data"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "codex-jev-preflight"
     title: "codex-jev-preflight"
     description: "Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata."
@@ -186,23 +200,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-04-08"
-  - name: "RepoPilot"
-    title: "RepoPilot"
-    description: "Auditable repository maintenance AgentTeam with evidence-backed pull requests, automated code review, and human approval gates."
-    language: "TypeScript"
-    topics:
-      - "agentteams"
-      - "automated-code-review"
-      - "evidence-chain"
-      - "github-automation"
-      - "mcp"
-      - "multi-agent"
-      - "opentelemetry"
-      - "postgresql"
-      - "repository-maintenance"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-24"
 ---
 
 # wellkilo

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 7, 12, 6, 3, 0, 1, 7, 8, 4, 9, 2, 0]
+pushes_per_week: [1, 8, 11, 7, 2, 0, 1, 8, 7, 8, 6, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 9
+    pushes_per_repo: 8.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,9 +93,9 @@ repos:
       - "wsl"
       - "xcode"
       - "xtool"
-    stars_fact: 108
+    stars_fact: 125
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-26"
   - name: "xcross_gen_snapshot"
     title: "xcross_gen_snapshot"
     description: "Prebuilt iOS AOT gen_snapshot compilers for Linux and Windows hosts, used by xcross"

@@ -8,16 +8,16 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 2, 14, 2]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 2, 2, 3, 11, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mydiskisfull"
-    title: "mydiskisfull"
-    description: "Watches your Mac's disk over time: predicts when it will be full, catches runaway disk fillers, explains why and how to avoid it. Free and open source."
-    language: "Rust"
-    topics:
-      - "apfs"
-      - "cli"
-      - "disk-space"
-      - "macos"
-      - "monitoring"
-      - "rust"
-      - "storage"
-      - "time-machine"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "espresso-macchiato"
-    title: "espresso-macchiato"
-    description: "macOS menu bar caffeinate app (Coca replacement) written in Swift"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "syp"
-    title: "syp"
-    description: "SYP (Sync Your Playlists): browser extension to export, import and copy playlists between Spotify, YouTube Music, Apple Music and Amazon Music, locally in your browser."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "idlewild"
-    title: "idlewild"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "marie-lookapp-releases"
-    title: "marie-lookapp-releases"
-    description: "Binary releases & auto-update feed for Marie LookApp (tray snippet lookup). Source lives in a private repo."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
+repos: []
 ---
 
 # lgibelli

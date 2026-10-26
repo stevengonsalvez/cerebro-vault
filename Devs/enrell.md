@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 0, 0, 0, 0, 0, 0, 4, 3, 8, 2, 1, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 0, 4, 4, 9, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 6
+    pushes: 12
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 23
-    distinct_repos: 7
+    distinct_repos: 8
     active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.6429
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes: 12
+    distinct_repos: 4
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 23
-    distinct_repos: 7
-    pushes_per_repo: 3.2857
+    distinct_repos: 8
+    pushes_per_repo: 2.8750
     active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -77,14 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "loom"
-    title: "loom"
-    description: null
-    language: "Rust"
+  - name: "nexo"
+    title: "nexo"
+    description: "Chat, voz e lives P2P entre amigos, com cara de Discord e sem servidor central"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-26"
   - name: "openvfs"
     title: "openvfs"
     description: "Layered, pluggable virtual file system for Rust: memory, host dir, mounts and copy-on-write overlays. Zero dependencies, MIT."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "nebula"
     title: "nebula"
     description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
@@ -143,6 +143,6 @@ repos:
 
 # enrell
 
-23 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
+23 pushes across 8 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enrell

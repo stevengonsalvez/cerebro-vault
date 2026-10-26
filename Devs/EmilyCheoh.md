@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 1, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_request_capture"
+    title: "astrbot_plugin_request_capture"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "astrbot_plugin_recursion_log"
+    title: "astrbot_plugin_recursion_log"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "astrbot-frontend"
+    title: "astrbot-frontend"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "astrbot_plugin_lorebook"
     title: "astrbot_plugin_lorebook"
     description: null
@@ -85,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-16"
-  - name: "astrbot-frontend"
-    title: "astrbot-frontend"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "astrbot_plugin_cache_pulse"
     title: "astrbot_plugin_cache_pulse"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "astrbot_add_prompt_tags_livingmemory_compatible"
-    title: "astrbot_add_prompt_tags_livingmemory_compatible"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "astrbot_plugin_message_editor"
-    title: "astrbot_plugin_message_editor"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
 ---
 
 # EmilyCheoh

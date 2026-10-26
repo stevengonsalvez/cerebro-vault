@@ -9,42 +9,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [16, 1, 0, 0, 1, 0, 0, 0, 0, 14, 13, 0, 0]
+pushes_per_week: [5, 1, 0, 0, 1, 0, 0, 0, 0, 21, 6, 0, 7]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "30d":
-    pushes: 27
-    distinct_repos: 6
-    active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 1
-    not_owned_owners: 6
+    pushes: 34
+    distinct_repos: 9
+    active_days: 6
+    repos_not_owned: 9
+    not_owned_basenames: 2
+    not_owned_owners: 8
   "90d":
-    pushes: 45
-    distinct_repos: 8
-    active_days: 9
-    repos_not_owned: 8
-    not_owned_basenames: 1
+    pushes: 41
+    distinct_repos: 9
+    active_days: 10
+    repos_not_owned: 9
+    not_owned_basenames: 2
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 5.0000
-  repo_per_active_day: 0.8889
+  push_per_day: 4.1000
+  repo_per_active_day: 0.9000
   not_owned_ratio: 1.0000
-  basename_concentration: 1.0000
+  basename_concentration: 0.6667
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 1.0000 (8 of 8 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: PrefectHQ/fastmcp"
+    - "basename concentration 0.6667 (6 of 9 repos share one basename), 9 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: PrefectHQ/fastmcp"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -58,39 +58,39 @@ automation:
       - "Amazinghorseli/fastmcp"
       - "Ashfaqbs/fastmcp"
       - "BlueX888/fastmcp"
-      - "Educg550/fastmcp"
       - "FanouZeng-TT/fastmcp"
+      - "liang0417/fastmcp"
     upstreams:
       - "PrefectHQ/fastmcp"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "30d":
-    pushes: 27
-    distinct_repos: 6
-    pushes_per_repo: 4.5000
-    active_days: 4
-    repos_not_owned: 6
-    not_owned_basenames: 1
-    not_owned_owners: 6
+    pushes: 34
+    distinct_repos: 9
+    pushes_per_repo: 3.7778
+    active_days: 6
+    repos_not_owned: 9
+    not_owned_basenames: 2
+    not_owned_owners: 8
   "90d":
-    pushes: 45
-    distinct_repos: 8
-    pushes_per_repo: 5.6250
-    active_days: 9
-    repos_not_owned: 8
-    not_owned_basenames: 1
+    pushes: 41
+    distinct_repos: 9
+    pushes_per_repo: 4.5556
+    active_days: 10
+    repos_not_owned: 9
+    not_owned_basenames: 2
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vibecheck"
@@ -158,6 +158,6 @@ repos:
 
 # jlowin
 
-45 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
+41 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jlowin

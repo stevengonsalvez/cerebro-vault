@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 3, 0, 0, 0, 0, 0, 2, 5, 2, 1, 3, 0]
+pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 3, 6, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,74 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "revil"
-    title: "revil"
-    description: "Portfolio ✨"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "Glass-Rea"
-    title: "Glass-Rea"
-    description: "A personal network monitor for Windows: per-app internet use, live traffic, connections, firewall blocking, devices on your network, and clear alerts."
-    language: "C#"
-    topics:
-      - "csharp"
-      - "dotnet"
-      - "etw"
-      - "firewall"
-      - "network-monitor"
-      - "windows"
-      - "winui3"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "Whistle"
-    title: "Whistle"
-    description: "Social Media - UI, using Glassy Blurly Vision to Define it."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "gmrec"
-    title: "gmrec"
-    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "t-sec"
-    title: "t-sec"
-    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
-    language: "TypeScript"
-    topics:
-      - "age"
-      - "cli"
-      - "secrets-management"
-      - "terminal-ui"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "linkedin-auto-poster"
-    title: "linkedin-auto-poster"
-    description: "LinkedIn AI auto-poster self-hostable dashboard"
-    language: "Python"
-    topics:
-      - "autoposter"
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "linkedin"
-      - "poster"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
+repos: []
 ---
 
 # TemRevil

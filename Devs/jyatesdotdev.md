@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 1, 3, 1, 1, 0, 3, 1, 0, 1, 3, 4, 0]
+pushes_per_week: [0, 2, 2, 1, 1, 1, 2, 1, 0, 1, 6, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 7
-    active_days: 15
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.4667
+  push_per_day: 1.1875
+  repo_per_active_day: 0.4375
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 7
-    pushes_per_repo: 2.5714
-    active_days: 15
+    pushes_per_repo: 2.7143
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-logtriage"
@@ -141,7 +141,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-19"
   - name: "jyatesdotdev-frontend"
     title: "jyatesdotdev-frontend"
     description: "React SPA frontend for jyates.dev"
@@ -149,11 +149,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-21"
 ---
 
 # jyatesdotdev
 
-18 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
+19 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jyatesdotdev

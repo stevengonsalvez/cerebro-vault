@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 6, 0, 0, 2, 37, 6, 6, 8, 5, 21, 31]
+pushes_per_week: [0, 0, 6, 0, 0, 18, 23, 4, 7, 7, 16, 13, 36]
 windows:
   "7d":
-    pushes: 32
+    pushes: 38
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
-    distinct_repos: 7
-    active_days: 19
+    pushes: 76
+    distinct_repos: 6
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 130
     distinct_repos: 14
     active_days: 33
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6970
+  push_per_day: 3.9394
   repo_per_active_day: 0.4242
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 32
+    pushes: 38
     distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 7
+    pushes_per_repo: 19.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
-    distinct_repos: 7
-    pushes_per_repo: 10.1429
-    active_days: 19
+    pushes: 76
+    distinct_repos: 6
+    pushes_per_repo: 12.6667
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 130
     distinct_repos: 14
-    pushes_per_repo: 8.7143
+    pushes_per_repo: 9.2857
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -80,12 +80,40 @@ reasons:
 repos:
   - name: "Dot"
     title: "Dot"
-    description: null
+    description: "Dot is an always-on autonomous agent for macOS. Give it a goal in plain words and it works on it until it is done, with what a person at this Mac would use: a shell and the file system, the web, its own Chrome profile (browser use), the screen, mouse and keyboard (computer use), AppleScript, a memory that lasts between runs, schedules."
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "AI-Notepad"
+    title: "AI-Notepad"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "web-research-stack"
+    title: "web-research-stack"
+    description: "A production-ready web scraping and AI-powered research tool with full-stack capabilities."
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "docker"
+      - "docker-compose"
+      - "fastapi"
+      - "llm"
+      - "nextjs"
+      - "react"
+      - "research"
+      - "tool-use"
+      - "tools"
+      - "web-scraping"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "LLM-Context-Manager"
     title: "LLM-Context-Manager"
     description: "Bridge the gap between your codebase and your AI editor. CCM transforms static source code into a dynamic, queryable Knowledge Graph, enabling AI agents to navigate, understand, and reason about your project with surgical precision"
@@ -101,7 +129,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-20"
   - name: "CimriHook"
     title: "CimriHook"
     description: "CimriHook stops AI coding agents from paying again and again for context they no longer need."
@@ -119,26 +147,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "Coworkers"
-    title: "Coworkers"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "AgenticSidebar"
-    title: "AgenticSidebar"
-    description: "A native personal macOS agent app: a sidebar-style chat window that runs without a Dock icon, can be summoned with a global shortcut, optionally reports session state from the menu bar, and drives either the direct OpenAI Responses API or a managed local OpenCode server."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # senoldogann
 
-122 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
+130 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senoldogann

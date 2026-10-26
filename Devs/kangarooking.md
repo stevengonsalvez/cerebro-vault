@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9b860e389365bd38"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -90,7 +90,7 @@ repos:
       - "prompt-engineering"
       - "skill-generator"
       - "templates"
-    stars_fact: 11468
+    stars_fact: 11738
     first_seen: "2026-07-17T06:00:07.124682+00:00"
     last_push: "2026-10-02"
   - name: "director-skills"
@@ -104,58 +104,56 @@ repos:
       - "codex"
       - "filmmaking"
       - "video-generation"
-    stars_fact: 209
+    stars_fact: 243
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-20"
+  - name: "design-skills"
+    title: "design-skills"
+    description: "设计Skill：面向 AI 生图与视觉设计的开源 Agent Skills | Design Skills: Open-source Agent Skills for AI image creation and visual design."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-image-generation"
+      - "claude-code"
+      - "codex"
+      - "visual-design"
+      - "workbuddy"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "kangarooking-skills"
     title: "kangarooking-skills"
     description: "My custom AI Agent skills"
     language: "Python"
     topics: []
-    stars_fact: 677
+    stars_fact: 683
     first_seen: null
     last_push: "2026-09-07"
-  - name: "sunyuchen-skill"
-    title: "sunyuchen-skill"
-    description: "A restrained, detail-driven narrative writing Agent Skill generated with Cangjie Skill."
+  - name: "copywriters-handbook-skill"
+    title: "copywriters-handbook-skill"
+    description: "把《文案创作完全手册》的销售型文案方法蒸馏成 12 个可执行的 AI skill 工具包"
     language: null
     topics:
-      - "agent-skills"
-      - "ai-writing"
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
       - "cangjie-skill"
-      - "creative-writing"
-      - "prompt-engineering"
-    stars_fact: 4
+      - "copywriting"
+      - "direct-response"
+      - "headlines"
+      - "marketing"
+      - "sales-copy"
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "x-skills"
-    title: "x-skills"
-    description: "自动收集素材，确认选题，并创作x推文，最后并发布到草稿箱的Claude Skills"
-    language: "Python"
+    last_push: "2026-05-03"
+  - name: "ai-short-drama-resources"
+    title: "ai-short-drama-resources"
+    description: "AI short drama and AI manga drama resource index"
+    language: null
     topics: []
-    stars_fact: 337
+    stars_fact: 58
     first_seen: null
-    last_push: "2026-02-21"
-  - name: "Ta"
-    title: "Ta"
-    description: "拓（Ta）— AI 原生截图工具：截图、OCR、AI 识图、翻译、长截图、钉图与标注；AI 美化持续开发中。现支持 macOS，Windows 制作中。（AI-native screenshot tool; Windows in progress.）"
-    language: "C#"
-    topics:
-      - "ai"
-      - "appkit"
-      - "long-screenshot"
-      - "macos"
-      - "ocr"
-      - "paddleocr"
-      - "productivity"
-      - "screen-capture"
-      - "screenshot"
-      - "swift"
-      - "swiftui"
-      - "translation"
-    stars_fact: 64
-    first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-07-21"
 ---
 
 # kangarooking

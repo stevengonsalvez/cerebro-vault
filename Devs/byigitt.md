@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "doi2pdf"
-    title: "doi2pdf"
-    description: "Download PDFs from DOI, support downloads from direct doi, name, url & batch downloads!"
+  - name: "mac-dev-janitor"
+    title: "mac-dev-janitor"
+    description: "Daily disk cleanup + a watchdog that kills runaway agent commands on macOS dev machines"
     language: "Python"
     topics: []
-    stars_fact: 17
+    stars_fact: 0
     first_seen: null
-    last_push: "2025-05-15"
+    last_push: "2026-10-23"
   - name: "egomac"
     title: "egomac"
     description: "Native macOS menu bar app for tracking Ankara EGO buses · EGO Cep'te-themed UI · 5-min-before-arrival notifications"
@@ -100,9 +100,17 @@ repos:
       - "swift"
       - "swiftui"
       - "turkish"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-05-10"
+  - name: "doi2pdf"
+    title: "doi2pdf"
+    description: "Download PDFs from DOI, support downloads from direct doi, name, url & batch downloads!"
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2025-05-15"
   - name: "freya-build-the-builder"
     title: "freya-build-the-builder"
     description: null
@@ -141,14 +149,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-05"
-  - name: "agent-fixbot"
-    title: "agent-fixbot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
 ---
 
 # byigitt

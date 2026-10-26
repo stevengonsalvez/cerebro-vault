@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 2, 0, 0, 1, 0, 0, 0, 1, 2, 1, 0, 0]
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "oytech"
-    title: "oytech"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "simplecv"
-    title: "simplecv"
-    description: "Minimalistic template for creating CV with Markdown and LaTeX"
-    language: "TeX"
-    topics:
-      - "cv"
-      - "latex"
-      - "markdown"
-      - "resume"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "github-contributions"
-    title: "github-contributions"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-26"
-  - name: "PortStatus"
-    title: "PortStatus"
-    description: "PoC macOS menu bar app showing status of installed MacPorts packages (ports)"
-    language: "Swift"
-    topics:
-      - "macos"
-      - "macports"
-      - "swift"
-      - "swiftui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-09"
+repos: []
 ---
 
 # oytech

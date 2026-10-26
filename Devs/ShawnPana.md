@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [0, 1, 4, 4, 0, 0, 0, 2, 8, 0, 2, 1, 0]
+pushes_per_week: [0, 4, 1, 4, 0, 0, 0, 2, 8, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,7 +24,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
@@ -59,9 +59,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 4.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -90,17 +90,25 @@ repos:
       - "developer-tools"
       - "mobile-ai"
       - "mobile-development"
-    stars_fact: 3772
+    stars_fact: 3946
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-24"
   - name: "smux"
     title: "smux"
     description: "tmux config with built-in terminal automation and agent-to-agent communication."
     language: "Shell"
     topics: []
-    stars_fact: 1531
+    stars_fact: 1532
     first_seen: null
     last_push: "2026-10-05"
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "personal-portfolio"
     title: "personal-portfolio"
     description: "A personal portfolio using Three.js"
@@ -130,14 +138,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-10-10"
-  - name: "screenstudio-cli"
-    title: "screenstudio-cli"
-    description: "an agent-ready CLI tool to automate Screen Studio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-04-12"
 ---
 
 # ShawnPana

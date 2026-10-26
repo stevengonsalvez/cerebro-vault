@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 1, 9, 5, 1, 1, 3, 6, 11, 17, 2, 4, 1]
+pushes_per_week: [2, 1, 11, 3, 2, 1, 2, 6, 13, 16, 4, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
     active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 8
-    active_days: 34
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8529
-  repo_per_active_day: 0.2353
+  push_per_day: 1.8286
+  repo_per_active_day: 0.2286
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 4.8333
+    pushes_per_repo: 4.5000
     active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 63
+    pushes: 64
     distinct_repos: 8
-    pushes_per_repo: 7.8750
-    active_days: 34
+    pushes_per_repo: 8.0000
+    active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "openkoto"
-    title: "openkoto"
-    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
-    language: "Swift"
-    topics: []
-    stars_fact: 464
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "ghfind"
     title: "ghfind"
     description: "Discover the best developers — and become one. Drop a GitHub handle for a 0–100 value & trust score in 30s: see your gaps, discover top devs, get found. Exposes PR farmers, AI bots & fork-hoarders. Deterministic scoring, self-hostable."
@@ -102,9 +94,17 @@ repos:
       - "openai"
       - "roast"
       - "trust-score"
-    stars_fact: 255
+    stars_fact: 264
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "openkoto"
+    title: "openkoto"
+    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
+    language: "Swift"
+    topics: []
+    stars_fact: 466
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "dshfind"
     title: "dshfind"
     description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
@@ -113,9 +113,17 @@ repos:
       - "deepseek-harness"
       - "dsh"
       - "dsh-plugin"
-    stars_fact: 309
+    stars_fact: 324
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-23"
+  - name: "AIWolfGame"
+    title: "AIWolfGame"
+    description: "AI狼人杀"
+    language: "Python"
+    topics: []
+    stars_fact: 100
+    first_seen: null
+    last_push: "2026-05-06"
   - name: "chat-dataset-baseline"
     title: "chat-dataset-baseline"
     description: "人工精调的中文对话数据集和一段chatglm的微调代码"
@@ -135,18 +143,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "AIWolfGame"
-    title: "AIWolfGame"
-    description: "AI狼人杀"
-    language: "Python"
-    topics: []
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-05-06"
 ---
 
 # hikariming
 
-63 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
+64 pushes across 8 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

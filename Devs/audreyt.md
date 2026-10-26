@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 9, 8, 8, 4, 1, 2, 9, 10, 14, 7, 0, 0]
+pushes_per_week: [0, 9, 9, 8, 3, 2, 4, 8, 9, 15, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omo-mnemon"
-    title: "omo-mnemon"
-    description: "Mnemon long-term memory for omo and other senpi/pi coding agents: recall, remember and link tools plus quiet high-confidence auto-recall."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "ethercalc"
     title: "ethercalc"
     description: "Node.js port of Multi-user SocialCalc"
@@ -93,6 +85,22 @@ repos:
     stars_fact: 3056
     first_seen: null
     last_push: "2026-09-15"
+  - name: "node-webworker-threads"
+    title: "node-webworker-threads"
+    description: "Lightweight Web Worker API implementation with native threads"
+    language: "C++"
+    topics: []
+    stars_fact: 2276
+    first_seen: null
+    last_push: "2021-09-14"
+  - name: "omo-mnemon"
+    title: "omo-mnemon"
+    description: "Mnemon long-term memory for omo and other senpi/pi coding agents: recall, remember and link tools plus quiet high-confidence auto-recall."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
   - name: "lingua-sinica-perlyuyan"
     title: "lingua-sinica-perlyuyan"
     description: "Perl in Classical Chinese in Perl"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2015-12-05"
-  - name: "node-webworker-threads"
-    title: "node-webworker-threads"
-    description: "Lightweight Web Worker API implementation with native threads"
-    language: "C++"
-    topics: []
-    stars_fact: 2275
-    first_seen: null
-    last_push: "2021-09-14"
 ---
 
 # audreyt

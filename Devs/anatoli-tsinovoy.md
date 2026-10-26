@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 0, 4, 2, 0, 0, 3, 1, 4, 5, 3, 5, 2]
+pushes_per_week: [2, 0, 4, 2, 0, 0, 3, 1, 4, 5, 6, 4, 0]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5238
-  repo_per_active_day: 0.2857
+  push_per_day: 1.5500
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 6
-    pushes_per_repo: 5.3333
-    active_days: 21
+    pushes_per_repo: 5.1667
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-22"
   - name: "omp-prompt-stash"
     title: "omp-prompt-stash"
     description: "Persistent per-session prompt stash plugin for Oh My Pi"
@@ -129,6 +129,6 @@ repos:
 
 # anatoli-tsinovoy
 
-32 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+31 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anatoli-tsinovoy

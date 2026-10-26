@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [90, 40, 90, 10, 13, 1, 19, 101, 155, 142, 38, 9, 52]
+pushes_per_week: [86, 43, 82, 10, 13, 4, 24, 101, 160, 131, 35, 18, 64]
 windows:
   "7d":
-    pushes: 60
-    distinct_repos: 24
-    active_days: 7
-    repos_not_owned: 23
-    not_owned_basenames: 21
-    not_owned_owners: 3
+    pushes: 71
+    distinct_repos: 30
+    active_days: 6
+    repos_not_owned: 29
+    not_owned_basenames: 28
+    not_owned_owners: 2
   "30d":
-    pushes: 304
-    distinct_repos: 66
-    active_days: 21
-    repos_not_owned: 64
-    not_owned_basenames: 61
+    pushes: 319
+    distinct_repos: 71
+    active_days: 20
+    repos_not_owned: 69
+    not_owned_basenames: 66
     not_owned_owners: 4
   "90d":
-    pushes: 760
+    pushes: 771
     distinct_repos: 113
-    active_days: 71
+    active_days: 70
     repos_not_owned: 106
     not_owned_basenames: 102
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.7042
-  repo_per_active_day: 1.5915
+  push_per_day: 11.0143
+  repo_per_active_day: 1.6143
   not_owned_ratio: 0.9381
   basename_concentration: 0.0177
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 60
-    distinct_repos: 24
-    pushes_per_repo: 2.5000
-    active_days: 7
-    repos_not_owned: 23
-    not_owned_basenames: 21
-    not_owned_owners: 3
+    pushes: 71
+    distinct_repos: 30
+    pushes_per_repo: 2.3667
+    active_days: 6
+    repos_not_owned: 29
+    not_owned_basenames: 28
+    not_owned_owners: 2
   "30d":
-    pushes: 304
-    distinct_repos: 66
-    pushes_per_repo: 4.6061
-    active_days: 21
-    repos_not_owned: 64
-    not_owned_basenames: 61
+    pushes: 319
+    distinct_repos: 71
+    pushes_per_repo: 4.4930
+    active_days: 20
+    repos_not_owned: 69
+    not_owned_basenames: 66
     not_owned_owners: 4
   "90d":
-    pushes: 760
+    pushes: 771
     distinct_repos: 113
-    pushes_per_repo: 6.7257
-    active_days: 71
+    pushes_per_repo: 6.8230
+    active_days: 70
     repos_not_owned: 106
     not_owned_basenames: 102
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CybotTM"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "wow-quickroute"
     title: "wow-quickroute"
     description: "World of Warcraft addon for optimal travel routing using teleports, portals, spells and items"
@@ -102,7 +102,7 @@ repos:
       - "wow-addon"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-21"
   - name: "typo3-extension-analyzer-skill"
     title: "typo3-extension-analyzer-skill"
     description: "TYPO3 extension analyzer skill for Claude Code - analyzes naming compliance, publication status, and documentation"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-760 pushes across 113 repositories on 71 active days in the last 90 days of public GitHub push activity.
+771 pushes across 113 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 7, 4, 2, 0, 0, 0, 4, 6, 0, 0, 1, 0]
+pushes_per_week: [2, 7, 4, 2, 0, 0, 0, 7, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -95,25 +95,33 @@ repos:
       - "tauri"
       - "vue"
       - "windows"
-    stars_fact: 105
+    stars_fact: 107
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "astrbot_plugin_angel_heart"
     title: "astrbot_plugin_angel_heart"
     description: "告别“人工智障”式群聊！本插件用【4状态机】教会AI观察时机、判断气氛，实现真人般社交直觉；再以【轻重双AI核】分离思考与决策，保证回复质量的同时大幅降低API成本。"
     language: "Python"
     topics: []
-    stars_fact: 136
+    stars_fact: 142
     first_seen: null
     last_push: "2026-10-02"
-  - name: "p-memory"
-    title: "p-memory"
-    description: "Embedded memory, knowledge graph, and note storage for Rust and Python"
-    language: "Rust"
+  - name: "astrbot_plugin_angel_brush"
+    title: "astrbot_plugin_angel_brush"
+    description: "天使的画笔：让机器人会画画、会改图，六家画图服务随便换，配置全在网页上"
+    language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-09-03"
+  - name: "astrbot_plugin_angel_memory"
+    title: "astrbot_plugin_angel_memory"
+    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
+    language: "Python"
+    topics: []
+    stars_fact: 191
+    first_seen: null
+    last_push: "2026-09-15"
   - name: "MangaReader"
     title: "MangaReader"
     description: "一款专为漫画收藏爱好者设计的管理器与阅读器。它能自动扫描、解析和组织您的漫画收藏，通过强大的元数据和标签系统提供极致的浏览体验，并集成了可选的翻译功能。"
@@ -121,25 +129,17 @@ repos:
     topics:
       - "manga-reader"
       - "manga-translator"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-03-20"
-  - name: "astrbot_plugin_angel_memory"
-    title: "astrbot_plugin_angel_memory"
-    description: "为AstrBot赋予真正的记忆能力：让AI不仅能记住，还能主动思考、自主进化"
-    language: "Python"
-    topics: []
-    stars_fact: 187
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_angel_smile"
-    title: "astrbot_plugin_angel_smile"
-    description: "你的表情很可爱，可她接下来就是我的了—— “不知名的表情包大盗天使留言”"
-    language: "Python"
-    topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-03-20"
+  - name: "bgi-combat-gen"
+    title: "bgi-combat-gen"
+    description: "BetterGI 全角色场景通用战斗策略与生成器：任何场景、任何配队通用"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # kawayiYokami

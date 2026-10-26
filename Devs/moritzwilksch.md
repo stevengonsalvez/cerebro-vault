@@ -8,11 +8,11 @@ provenance_repos:
   - "moritzwilksch/diffle"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "61c0da3a99e7cb28"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 2, 3, 1, 1, 3, 1, 1]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 4, 2, 0, 4, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "diffle"
-    title: "diffle"
-    description: "A keyboard-first diff viewer with LSP support and GitHub integration."
-    language: "TypeScript"
-    topics:
-      - "agentic-coding"
-      - "agents"
-      - "code-review"
-      - "diff"
-      - "pr-review"
-    stars_fact: 174
-    first_seen: "2026-10-11T06:01:22.164753+00:00"
-    last_push: "2026-10-18"
-  - name: "pydantic-ai-trace"
-    title: "pydantic-ai-trace"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "moritzwilksch.github.io"
-    title: "moritzwilksch.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "DataScienceEducation"
-    title: "DataScienceEducation"
-    description: "Educational content from books and various online courses"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2022-09-16"
-  - name: "building-agents-workshop"
-    title: "building-agents-workshop"
-    description: null
-    language: "Typst"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "pixi-workspace-demo"
-    title: "pixi-workspace-demo"
-    description: "Demo repo: pixi workspace"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-12"
+repos: []
 ---
 
 # moritzwilksch

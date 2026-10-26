@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 1, 5, 2, 0, 0, 2, 1, 13, 7, 4, 3, 9]
+pushes_per_week: [6, 2, 4, 2, 0, 0, 2, 3, 11, 7, 6, 4, 9]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 3
+    pushes: 12
+    distinct_repos: 5
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 56
     distinct_repos: 18
     active_days: 28
     repos_not_owned: 0
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8929
+  push_per_day: 2.0000
   repo_per_active_day: 0.6429
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 10
-    pushes_per_repo: 3.0000
-    active_days: 14
+    pushes_per_repo: 2.9000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 56
     distinct_repos: 18
-    pushes_per_repo: 2.9444
+    pushes_per_repo: 3.1111
     active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vp-run-stdin-nonblock"
+    title: "vp-run-stdin-nonblock"
+    description: "Minimal reproduction: vp run gives scripts a non-blocking stdin when the run config uses a constant"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "boilerplate_solidjs"
     title: "boilerplate_solidjs"
     description: "Boilerplate SolidJS 2 com TypeScript, Vite+, SSR e funções de servidor. Inclui Nitro, testes com Vitest e Playwright, lint com Oxlint, formatação com Oxfmt e deploy na Vercel."
@@ -99,7 +107,35 @@ repos:
       - "vitest"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-24"
+  - name: "cdxt"
+    title: "cdxt"
+    description: "Interactive on/off toggle for MCP servers and plugins in the Codex CLI config (~/.codex/config.toml)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "vault-search-mcp"
+    title: "vault-search-mcp"
+    description: "Local-first MCP server for hybrid search across Obsidian vaults and Markdown knowledge bases."
+    language: "Python"
+    topics:
+      - "full-text-search"
+      - "knowledge-graph"
+      - "lancedb"
+      - "local-first"
+      - "markdown"
+      - "mcp"
+      - "model-context-protocol"
+      - "obsidian"
+      - "python"
+      - "rag"
+      - "semantic-search"
+      - "vector-search"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "boilerplate_nextjs_app"
     title: "boilerplate_nextjs_app"
     description: "This project is a complete Next.js boilerplate, constantly updated, configured in the smallest details to serve as the basis for large professional projects that intend to scale."
@@ -135,63 +171,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "content-lens"
-    title: "content-lens"
-    description: "Local-first browser extension that filters algorithmic feeds with explicit, explainable rules — no account, no backend, no model required. Adapters for YouTube, LinkedIn, X, Reddit and Hacker News."
-    language: "TypeScript"
-    topics:
-      - "browser-extension"
-      - "chrome-extension"
-      - "clickbait"
-      - "content-filtering"
-      - "digital-wellbeing"
-      - "feed-filter"
-      - "firefox-addon"
-      - "hackernews"
-      - "linkedin"
-      - "local-first"
-      - "manifest-v3"
-      - "privacy"
-      - "react"
-      - "reddit"
-      - "rss"
-      - "tailwindcss"
-      - "twitter"
-      - "typescript"
-      - "wxt"
-      - "youtube"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "cdxt"
-    title: "cdxt"
-    description: "Interactive on/off toggle for MCP servers and plugins in the Codex CLI config (~/.codex/config.toml)"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "llm-router"
-    title: "llm-router"
-    description: "Local OpenCode router for MiniMax, GLM, Claude, and Codex with adaptive routing and configurable tool policies"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "codex"
-      - "glm"
-      - "llm-router"
-      - "local-ai"
-      - "minimax"
-      - "multi-model"
-      - "ollama"
-      - "opencode"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
 ---
 
 # everton-dgn
 
-53 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
+56 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

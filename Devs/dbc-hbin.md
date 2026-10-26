@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 23, 5, 0, 0, 1, 2, 3, 12, 1, 0, 0]
+pushes_per_week: [0, 5, 22, 2, 0, 0, 2, 1, 5, 11, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,25 @@ repos:
     description: "Native ULW workflows and model prompts for OMP"
     language: "JavaScript"
     topics: []
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "FEX-darwin"
+    title: "FEX-darwin"
+    description: "Darwin/Wine integration of FEX Windows emulation modules for ARM64-native macOS"
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "web-gpt-agent"
+    title: "web-gpt-agent"
+    description: "Durable desktop agents driven by ChatGPT Web over MCP"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "kiro-native-omp"
     title: "kiro-native-omp"
     description: null
@@ -93,22 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-17"
-  - name: "FEX-darwin"
-    title: "FEX-darwin"
-    description: "Darwin/Wine integration of FEX Windows emulation modules for ARM64-native macOS"
-    language: "C++"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "web-gpt-agent"
-    title: "web-gpt-agent"
-    description: "Durable desktop agents driven by ChatGPT Web over MCP"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "muse-discord-gateway"
     title: "muse-discord-gateway"
     description: "Isolated Discord gateway deployment (bot + insane-search engine + AI promo scanner)"

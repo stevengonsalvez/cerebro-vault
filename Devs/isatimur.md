@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [44, 3, 2, 0, 0, 0, 1, 4, 0, 5, 0, 0, 0]
+pushes_per_week: [46, 2, 1, 0, 0, 0, 1, 4, 0, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,7 +100,26 @@ repos:
       - "visualization"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "archigram.me"
+    title: "archigram.me"
+    description: "Mermaid Online Tool"
+    language: "TypeScript"
+    topics:
+      - "architecture"
+      - "design"
+      - "systems"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "porto-3d"
+    title: "porto-3d"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "braga-3d"
     title: "braga-3d"
     description: null
@@ -128,25 +147,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-10-13"
-  - name: "archigram.me"
-    title: "archigram.me"
-    description: "Mermaid Online Tool"
-    language: "TypeScript"
-    topics:
-      - "architecture"
-      - "design"
-      - "systems"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "porto-3d"
-    title: "porto-3d"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "de-slop"
     title: "de-slop"
     description: "Portable Claude Code skill that de-slops AI prose — detect, rewrite to a real point of view, self-score, iterate. Fidelity-first; flags hollow spans instead of faking them."

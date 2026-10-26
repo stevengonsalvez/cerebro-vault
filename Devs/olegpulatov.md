@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 2, 0, 1, 0, 0, 0, 4, 0, 2, 2, 0, 1]
+pushes_per_week: [1, 1, 0, 1, 0, 0, 0, 4, 0, 2, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tern-plugin-base"
-    title: "tern-plugin-base"
-    description: "A minimal, copyable starter for Tern plugins."
-    language: "Lua"
-    topics:
-      - "template"
-      - "template-generic-repo"
-      - "template-repository"
-      - "tern"
-      - "tern-app"
-      - "tern-plugin"
-      - "tern-terminal"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "pane-highlight"
-    title: "pane-highlight"
-    description: "tern plugin: highlight the active pane, recolor it per user or host"
-    language: "Luau"
-    topics:
-      - "accessibility"
-      - "omp"
-      - "stencil"
-      - "terminal"
-      - "terminal-colors"
-      - "terminal-theme"
-      - "terminal-ui"
-      - "tern"
-      - "tern-plugin"
-      - "tern-terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "olegpulatov.github.io"
-    title: "olegpulatov.github.io"
-    description: "Personal GitHub Pages site"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "oh-my-pi-web-relay"
-    title: "oh-my-pi-web-relay"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "hello-world-crate"
-    title: "hello-world-crate"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "dot-omp"
-    title: "dot-omp"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
+repos: []
 ---
 
 # olegpulatov

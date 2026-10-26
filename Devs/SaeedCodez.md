@@ -8,16 +8,16 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 0, 0, 0, 3, 0, 0, 0, 0, 4, 1, 3, 1]
+pushes_per_week: [4, 0, 0, 0, 3, 0, 0, 0, 1, 3, 3, 2, 0]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "fyldo"
-    title: "fyldo"
-    description: "A settings-page framework for WordPress plugin developers."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mikrotik-xray-manager"
-    title: "mikrotik-xray-manager"
-    description: "A self-hosted, mobile-first web app for managing Xray-core proxy configurations."
-    language: "Go"
-    topics:
-      - "golang"
-      - "mikrotik"
-      - "xray"
-      - "xray-core"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "restic-golang"
-    title: "restic-golang"
-    description: "A local web app for managing restic-based incremental backups."
-    language: "Go"
-    topics:
-      - "backup"
-      - "golang"
-      - "restic"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "zhayon-funnel"
-    title: "zhayon-funnel"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "wp-topbar"
-    title: "wp-topbar"
-    description: "A lightweight, fast WordPress plugin that adds a clean announcement bar to the top of your site: custom text, a call-to-action button, an optional image, sticky mode, adjustable height, a dismissible close button with a remembered state, and a display schedule."
-    language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "Mivo"
-    title: "Mivo"
-    description: "A calm, instant new tab for Chrome. Vanilla TypeScript, no framework, no background worker."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
+repos: []
 ---
 
 # SaeedCodez

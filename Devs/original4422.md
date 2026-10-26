@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,6 +80,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "learn-claude-code"
+    title: "learn-claude-code"
+    description: "A structured curriculum for understanding Anthropic’s Claude Code (CLI agent) implementation, grounded in a large TypeScript source snapshot"
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-15"
   - name: "open-source-scout"
     title: "open-source-scout"
     description: "Research open-source solutions before development: validate candidates, compare reuse with building from scratch, and deliver an implementation plan. Agent skill for Codex and Claude Code."
@@ -127,14 +135,6 @@ repos:
   - name: "learn-codex"
     title: "learn-codex"
     description: "A bilingual, runnable Codex course with Taskboard exercises, offline labs and real protocol checks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "repo-workbench"
-    title: "repo-workbench"
-    description: "Read-only delivery checks across local Git repositories: clean worktree, exact remote HEAD, and commit-specific CI"
     language: "Python"
     topics: []
     stars_fact: 0

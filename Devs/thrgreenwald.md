@@ -8,28 +8,28 @@ provenance_repos:
   - "magnitudedev/magnitude"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [7, 1, 2, 0, 0, 1, 7, 18, 6, 5, 1, 5, 1]
+pushes_per_week: [5, 1, 2, 0, 0, 1, 7, 18, 6, 6, 2, 4, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 1
-    active_days: 8
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 1
     active_days: 26
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0769
+  push_per_day: 2.0385
   repo_per_active_day: 0.0385
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 8
+    pushes_per_repo: 13.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 1
-    pushes_per_repo: 54.0000
+    pushes_per_repo: 53.0000
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,35 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "chat-ui"
-    title: "chat-ui"
-    description: "User interface for making chat applications"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-04-19"
-  - name: "easy-rag"
-    title: "easy-rag"
-    description: "Library to make standing up a RAG application dead simple"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-10-01"
-  - name: "tommygreenwald.github.io"
-    title: "tommygreenwald.github.io"
-    description: "My Website"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-09"
+repos: []
 ---
 
 # thrgreenwald
 
-54 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
+53 pushes across 1 repository on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thrgreenwald

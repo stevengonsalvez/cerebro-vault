@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [24, 22, 8, 6, 4, 3, 9, 16, 39, 5, 10, 14, 16]
+pushes_per_week: [27, 14, 7, 6, 4, 9, 3, 16, 43, 1, 13, 22, 5]
 windows:
   "7d":
-    pushes: 18
-    distinct_repos: 3
-    active_days: 4
+    pushes: 12
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 56
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 176
-    distinct_repos: 14
+    pushes: 170
+    distinct_repos: 12
     active_days: 44
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.3182
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.0714
+  push_per_day: 3.8636
+  repo_per_active_day: 0.2727
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,28 +49,28 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
-    distinct_repos: 3
+    pushes: 12
+    distinct_repos: 2
     pushes_per_repo: 6.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 62
+    pushes: 56
     distinct_repos: 4
-    pushes_per_repo: 15.5000
-    active_days: 14
+    pushes_per_repo: 14.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 176
-    distinct_repos: 14
-    pushes_per_repo: 12.5714
+    pushes: 170
+    distinct_repos: 12
+    pushes_per_repo: 14.1667
     active_days: 44
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "claude"
     title: "claude"
     description: "My personal plugin marketplace and settings for Claude Code"
@@ -94,31 +94,15 @@ repos:
       - "claude-code-plugin"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "activity-hub"
-    title: "activity-hub"
-    description: "System of record for my activity data: Strava + Wahoo ingest, R2 raw archive, DuckDB lake, website feed"
-    language: "TypeScript"
+    last_push: "2026-10-26"
+  - name: "actions-sandbox"
+    title: "actions-sandbox"
+    description: "GitHub Actions runner that runs jobs in Anthropic's sandbox runtime"
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "logbook"
-    title: "logbook"
-    description: "Stores public code contribution data in Cloudflare for batch analytics"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "jeopardy"
-    title: "jeopardy"
-    description: "Wrap any shell command to play the Jeopardy theme while it runs"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-22"
   - name: "bendrucker.me"
     title: "bendrucker.me"
     description: "This is my personal website (bendrucker.me)"
@@ -126,11 +110,27 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-22"
+  - name: "infrastructure"
+    title: "infrastructure"
+    description: "My personal infrastructure configuration, managed by Terraform"
+    language: "HCL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "azure-blob-to-s3"
+    title: "azure-blob-to-s3"
+    description: "Batch copy files from Azure Blob Storage to Amazon S3"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # bendrucker
 
-176 pushes across 14 repositories on 44 active days in the last 90 days of public GitHub push activity.
+170 pushes across 12 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 6, 3, 4, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 5, 3, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "basil-k-aji-dev"
     title: "basil-k-aji-dev"
     description: "Profile README"
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "amodal_completion"
     title: "amodal_completion"
     description: "Open-world amodal appearance completion pipeline: SAM3 + GPT-5 + InstaOrder + FLUX.1-Fill, with iterative off-frame extension"

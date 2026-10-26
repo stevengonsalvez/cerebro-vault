@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 3, 0, 0, 0, 2, 1, 2, 1, 1, 0, 1]
+pushes_per_week: [0, 0, 3, 0, 0, 1, 1, 1, 3, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,6 +80,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dylanpulver"
+    title: "dylanpulver"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "recon"
     title: "recon"
     description: "Explainable transaction reconciliation — a five-tier matching ladder where every match carries a receipt: which rule, which fields, how much tolerance it consumed. Integer money, property-tested invariants."
@@ -144,19 +152,6 @@ repos:
       - "developer-tools"
       - "knowledge-base"
       - "mental-models"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "research-factory"
-    title: "research-factory"
-    description: "A research factory for Claude Code — structured research that returns decision-ready, sourced briefs, then remembers them so the next question starts ahead. Prediction quarantine, rival-hunting, decoy-gated judging."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "decision-making"
-      - "developer-tools"
-      - "research"
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"

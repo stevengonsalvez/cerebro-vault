@@ -8,39 +8,39 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [81, 1, 83, 3, 8, 1, 4, 139, 133, 82, 30, 86, 12]
+pushes_per_week: [70, 3, 83, 1, 9, 2, 2, 151, 152, 61, 59, 47, 31]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 31
+    distinct_repos: 6
+    active_days: 3
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 292
-    distinct_repos: 16
-    active_days: 17
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 285
+    distinct_repos: 17
+    active_days: 18
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "90d":
-    pushes: 663
-    distinct_repos: 28
-    active_days: 51
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 671
+    distinct_repos: 29
+    active_days: 52
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.0000
-  repo_per_active_day: 0.5490
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.0357
+  push_per_day: 12.9038
+  repo_per_active_day: 0.5577
+  not_owned_ratio: 0.6552
+  basename_concentration: 0.0345
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,138 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 31
+    distinct_repos: 6
+    pushes_per_repo: 5.1667
+    active_days: 3
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 292
-    distinct_repos: 16
-    pushes_per_repo: 18.2500
-    active_days: 17
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 285
+    distinct_repos: 17
+    pushes_per_repo: 16.7647
+    active_days: 18
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "90d":
-    pushes: 663
-    distinct_repos: 28
-    pushes_per_repo: 23.6786
-    active_days: 51
-    repos_not_owned: 18
-    not_owned_basenames: 18
+    pushes: 671
+    distinct_repos: 29
+    pushes_per_repo: 23.1379
+    active_days: 52
+    repos_not_owned: 19
+    not_owned_basenames: 19
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pirate"
-    title: "pirate"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "wireguard-docs"
-    title: "wireguard-docs"
-    description: "📖 Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers & roaming clients."
-    language: "Shell"
-    topics:
-      - "internet"
-      - "kernel-module"
-      - "linux"
-      - "mesh-networking"
-      - "nat"
-      - "networking"
-      - "security"
-      - "tunnel"
-      - "tuntap"
-      - "udp"
-      - "vpn"
-      - "vpn-solution"
-      - "wireguard"
-    stars_fact: 5058
-    first_seen: null
-    last_push: "2026-03-21"
-  - name: "bash-utils"
-    title: "bash-utils"
-    description: "A collection of hand-crafted bash scripts for various common tasks."
-    language: "Shell"
-    topics:
-      - "bash"
-      - "bash-library"
-      - "bash-scripting"
-      - "cloudflare"
-      - "dns"
-      - "dotfiles"
-      - "letsencrypt"
-      - "shell-scripts"
-      - "tools"
-      - "unix"
-    stars_fact: 315
-    first_seen: null
-    last_push: "2026-04-08"
-  - name: "zfsify"
-    title: "zfsify"
-    description: "⚡ Live reformat an Ubuntu VPS's main / disk from ext4 to ZFS, without losing data!"
-    language: "Shell"
-    topics:
-      - "cloud"
-      - "cloud-storage"
-      - "debian"
-      - "digitalocean"
-      - "filesystems"
-      - "root-on-zfs"
-      - "shell"
-      - "ubuntu"
-      - "vps"
-      - "zfs"
-      - "zfsbootmenu"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "security-growler"
-    title: "security-growler"
-    description: ":satellite: A Mac menubar app that notifies you whenever SSH, VNC, sudo, or other auth events occur."
-    language: "Python"
-    topics:
-      - "alerts"
-      - "ids"
-      - "logfile"
-      - "mac"
-      - "menubar"
-      - "monitoring-tool"
-      - "python"
-      - "security"
-      - "snitch"
-    stars_fact: 873
-    first_seen: null
-    last_push: "2025-12-06"
-  - name: "internet-archiving-talk"
-    title: "internet-archiving-talk"
-    description: "🎭 An introduction to the Internet Archiving ecosystem, tooling, and some of the ethical dilemmas that the community faces."
-    language: "JavaScript"
-    topics:
-      - "archivebox"
-      - "censorship"
-      - "ethics"
-      - "internet-archiving"
-      - "slideshow"
-      - "talks"
-      - "warc"
-      - "web-archiving"
-      - "wget"
-    stars_fact: 59
-    first_seen: null
-    last_push: "2024-08-15"
+repos: []
 ---
 
 # pirate
 
-663 pushes across 28 repositories on 51 active days in the last 90 days of public GitHub push activity.
+671 pushes across 29 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

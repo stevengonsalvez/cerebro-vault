@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 5, 6, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 6, 5, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Turn an old Android phone into an always-ready, voice-first AI companion."
     language: "Kotlin"
     topics: []
-    stars_fact: 32
+    stars_fact: 39
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-10-25"
+  - name: "Postgraduate-408-exam"
+    title: "Postgraduate-408-exam"
+    description: "这里有从2009年开始的所有408试卷，帮助学弟学妹减少收集资料的时间。"
+    language: null
+    topics: []
+    stars_fact: 38
+    first_seen: null
+    last_push: "2020-11-12"
   - name: "relative-ear"
     title: "relative-ear"
     description: "Android singing accuracy, relative pitch training and live monophonic melody detection"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-22"
-  - name: "mobile-toolbox"
-    title: "mobile-toolbox"
-    description: "Mobile-friendly toolbox and dashboards, including a US stock portfolio PWA."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-10"
 ---
 
 # gongpx20069

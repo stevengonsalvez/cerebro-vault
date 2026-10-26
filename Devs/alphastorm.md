@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 1, 0, 4, 2, 0, 19, 16, 28, 26, 9, 3, 28]
+pushes_per_week: [2, 1, 0, 4, 2, 0, 19, 18, 27, 27, 7, 3, 46]
 windows:
   "7d":
-    pushes: 28
+    pushes: 46
     distinct_repos: 8
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 96
     distinct_repos: 11
     active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 156
     distinct_repos: 12
-    active_days: 40
+    active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5500
-  repo_per_active_day: 0.3000
+  push_per_day: 4.0000
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,34 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
+    pushes: 46
     distinct_repos: 8
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 5.7500
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 96
     distinct_repos: 11
-    pushes_per_repo: 7.5455
+    pushes_per_repo: 8.7273
     active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 156
     distinct_repos: 12
-    pushes_per_repo: 11.8333
-    active_days: 40
+    pushes_per_repo: 13.0000
+    active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ninfer"
+    title: "ninfer"
+    description: "Public NInfer runtime source for OMP NInfer — RTX 5090 primary plus native 4090/3090 lanes (downstream of Neroued/ninfer)"
+    language: "C++"
+    topics:
+      - "cuda"
+      - "inference"
+      - "qwen"
+      - "rtx-5090"
+      - "speculative-decoding"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "dotfiles-ng"
+    title: "dotfiles-ng"
+    description: "🔥💯 these are my dotfiles (v2). there are many like them, but these ones are mine."
+    language: "Python"
+    topics:
+      - "dotfiles"
+      - "vim"
+      - "zsh"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "omp-ninfer"
+    title: "omp-ninfer"
+    description: "Durable local inference for Oh My Pi: NInfer + Qwen3.8 27B on one RTX 3090/4090/5090, with restart-resumable OpenAI Responses state."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "coding-agent"
+      - "coding-assistant"
+      - "cuda"
+      - "directstorage"
+      - "local-ai"
+      - "local-llm"
+      - "nvidia"
+      - "oh-my-pi"
+      - "openai-compatible-api"
+      - "openai-responses-api"
+      - "persistent-kv-cache"
+      - "qwen"
+      - "qwen3"
+      - "rtx-3090"
+      - "rtx-4090"
+      - "rtx-5090"
+      - "self-hosted"
+      - "speculative-decoding"
+      - "stateful-inference"
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "omp-strata"
     title: "omp-strata"
     description: "Stock Oh My Pi on a stock, local Strata inference server: one Windows 11 + RTX host, every component hash-pinned, loopback behind an API key, and real-host acceptance evidence for every claim. Nothing forked, no proxy."
@@ -104,46 +156,7 @@ repos:
       - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "dotfiles-ng"
-    title: "dotfiles-ng"
-    description: "🔥💯 these are my dotfiles (v2). there are many like them, but these ones are mine."
-    language: "Python"
-    topics:
-      - "dotfiles"
-      - "vim"
-      - "zsh"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "omp-ninfer"
-    title: "omp-ninfer"
-    description: "Durable local inference for Oh My Pi: NInfer + Qwen3.8 27B on one RTX 3090/4090/5090, with restart-resumable OpenAI Responses state."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "coding-agent"
-      - "coding-assistant"
-      - "cuda"
-      - "directstorage"
-      - "local-ai"
-      - "local-llm"
-      - "nvidia"
-      - "oh-my-pi"
-      - "openai-compatible-api"
-      - "openai-responses-api"
-      - "persistent-kv-cache"
-      - "qwen"
-      - "qwen3"
-      - "rtx-3090"
-      - "rtx-4090"
-      - "rtx-5090"
-      - "self-hosted"
-      - "speculative-decoding"
-      - "stateful-inference"
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "alphastorm.github.io"
     title: "alphastorm.github.io"
     description: "my personal website."
@@ -151,20 +164,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "ninfer"
-    title: "ninfer"
-    description: "Public NInfer runtime source for OMP NInfer — RTX 5090 primary plus native 4090/3090 lanes (downstream of Neroued/ninfer)"
-    language: "C++"
-    topics:
-      - "cuda"
-      - "inference"
-      - "qwen"
-      - "rtx-5090"
-      - "speculative-decoding"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-23"
   - name: "slither-import-breaking"
     title: "slither-import-breaking"
     description: null
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-142 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+156 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

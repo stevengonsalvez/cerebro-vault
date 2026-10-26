@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [38, 6, 16, 12, 4, 7, 7, 32, 27, 21, 17, 33, 25]
+pushes_per_week: [28, 6, 22, 8, 2, 7, 8, 32, 35, 12, 28, 29, 30]
 windows:
   "7d":
-    pushes: 28
-    distinct_repos: 14
-    active_days: 7
+    pushes: 35
+    distinct_repos: 15
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 110
-    distinct_repos: 29
-    active_days: 24
+    pushes: 115
+    distinct_repos: 30
+    active_days: 23
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 245
+    pushes: 247
     distinct_repos: 41
-    active_days: 64
+    active_days: 63
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 3.8281
-  repo_per_active_day: 0.6406
+  push_per_day: 3.9206
+  repo_per_active_day: 0.6508
   not_owned_ratio: 0.3415
   basename_concentration: 0.2927
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 28
-    distinct_repos: 14
-    pushes_per_repo: 2.0000
-    active_days: 7
+    pushes: 35
+    distinct_repos: 15
+    pushes_per_repo: 2.3333
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "30d":
-    pushes: 110
-    distinct_repos: 29
-    pushes_per_repo: 3.7931
-    active_days: 24
+    pushes: 115
+    distinct_repos: 30
+    pushes_per_repo: 3.8333
+    active_days: 23
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 245
+    pushes: 247
     distinct_repos: 41
-    pushes_per_repo: 5.9756
-    active_days: 64
+    pushes_per_repo: 6.0244
+    active_days: 63
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-memory"
@@ -83,53 +83,53 @@ repos:
     description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 10062
+    stars_fact: 13597
     first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-10-17"
-  - name: "ai-book-2026"
-    title: "ai-book-2026"
-    description: "e-book version of the akitaonrails.com blog."
-    language: "Ruby"
-    topics: []
-    stars_fact: 221
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "omarchy-cheatsheets"
-    title: "omarchy-cheatsheets"
-    description: "Omarchy inspired cheatsheets app for many developer tools like tmux, zellij, neovim, etc"
-    language: "Rust"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "playmate-fun-to-drive"
-    title: "playmate-fun-to-drive"
-    description: "LLM built small toy simulator (aka Tommy Turbo or Tectoy Turbo Video Driver)"
-    language: "Rust"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "distrobox-gaming"
     title: "distrobox-gaming"
     description: "Script to create a gaming focused Distrobox with all emulators pre-configured"
     language: "Python"
     topics: []
-    stars_fact: 387
+    stars_fact: 439
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "worldreports"
+    title: "worldreports"
+    description: "Collection of many countries websites consolidating their main official numbers in easy to read slides"
+    language: "Python"
+    topics: []
+    stars_fact: 80
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "ai-book-2026"
+    title: "ai-book-2026"
+    description: "e-book version of the akitaonrails.com blog."
+    language: "Ruby"
+    topics: []
+    stars_fact: 307
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "ai-usagebar"
     title: "ai-usagebar"
     description: "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar"
     language: "Rust"
     topics: []
-    stars_fact: 689
+    stars_fact: 724
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "akitaonrails.github.io"
+    title: "akitaonrails.github.io"
+    description: "2025 export from my old Rails-based blog AkitaOnRails.com"
+    language: "HTML"
+    topics: []
+    stars_fact: 226
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # akitaonrails
 
-245 pushes across 41 repositories on 64 active days in the last 90 days of public GitHub push activity.
+247 pushes across 41 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

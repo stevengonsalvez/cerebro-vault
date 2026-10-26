@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 0, 0, 0, 2, 0, 1, 0, 1, 2, 1, 6, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 0, 1, 0, 1, 2, 2, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,24 +22,24 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 2
-    active_days: 13
+    pushes: 16
+    distinct_repos: 1
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3077
-  repo_per_active_day: 0.1538
-  not_owned_ratio: 0.5000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.0833
+  not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 7
+    pushes_per_repo: 9.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
-    distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 13
+    pushes: 16
+    distinct_repos: 1
+    pushes_per_repo: 16.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sidmohanty11.github.io"
-    title: "sidmohanty11.github.io"
-    description: "My portfolio"
-    language: "Astro"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-10"
-  - name: "builder-sad-world"
-    title: "builder-sad-world"
-    description: "Created with Builder.io"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-23"
-  - name: "GSoC-2022"
-    title: "GSoC-2022"
-    description: "A summary of the work done by me as a part of Google Summer of Code (GSoC) 2022 at Rocket.Chat."
-    language: null
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2023-09-25"
-  - name: "builder-weak-hero"
-    title: "builder-weak-hero"
-    description: "Created with Builder.io"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-01"
-  - name: "variant-containers-test-app"
-    title: "variant-containers-test-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-23"
-  - name: "remix-builder-gen2"
-    title: "remix-builder-gen2"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-03"
+repos: []
 ---
 
 # sidmohanty11
 
-17 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 1 repository on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidmohanty11

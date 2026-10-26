@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 2, 1, 0, 0, 1, 4, 1, 3, 0, 0, 0]
+pushes_per_week: [2, 1, 3, 0, 0, 0, 1, 4, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "christmas-gift-drawing"
+    title: "christmas-gift-drawing"
+    description: "Quick lil application to select who has who for gifts"
+    language: "Haskell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "roc-redis"
     title: "roc-redis"
     description: "A binary-safe, platform-agnostic Redis client for Roc"
@@ -124,14 +132,6 @@ repos:
     stars_fact: 50
     first_seen: null
     last_push: "2025-04-22"
-  - name: "zig-game"
-    title: "zig-game"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-24"
 ---
 
 # jaredramirez

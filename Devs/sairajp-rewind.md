@@ -8,16 +8,16 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [6, 2, 6, 1, 0, 0, 0, 1, 0, 0, 1, 2, 2]
+pushes_per_week: [5, 2, 6, 1, 0, 0, 0, 1, 0, 0, 3, 1, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.1429
+  push_per_day: 1.5385
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 14
+    pushes_per_repo: 10.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # sairajp-rewind
 
-21 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+20 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sairajp-rewind

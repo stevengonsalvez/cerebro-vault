@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 8, 3, 7, 0, 0, 1, 5, 8, 1, 3, 0, 1]
+pushes_per_week: [6, 9, 4, 5, 0, 0, 1, 5, 8, 1, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
-    active_days: 8
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 8
+    pushes_per_repo: 1.2222
+    active_days: 7
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
@@ -79,19 +79,6 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "TitanHide"
-    title: "TitanHide"
-    description: "Hiding kernel-driver for x86/x64."
-    language: "C"
-    topics:
-      - "anti-debugging"
-      - "driver"
-      - "hacktoberfest"
-      - "rootkit"
-      - "windows"
-    stars_fact: 2908
-    first_seen: null
-    last_push: "2026-07-18"
   - name: "ida-pro-mcp"
     title: "ida-pro-mcp"
     description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
@@ -106,43 +93,92 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 12989
+    stars_fact: 13157
     first_seen: null
     last_push: "2026-09-26"
-  - name: "toilet-pi"
-    title: "toilet-pi"
-    description: "Control pi sessions across machines with your browser (or mobile PWA)."
-    language: "TypeScript"
+  - name: "perfect-dll-proxy"
+    title: "perfect-dll-proxy"
+    description: "Perfect DLL Proxying using forwards with absolute paths."
+    language: "Python"
     topics:
-      - "pi"
-      - "pi-extension"
-    stars_fact: 37
+      - "dll-hijacking"
+      - "redteam-tools"
+      - "reverse-engineering"
+      - "security"
+      - "windows"
+    stars_fact: 376
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "ida-mcp-docker"
-    title: "ida-mcp-docker"
-    description: "Example Docker setup to analyze binaries with IDA Nexus MCP."
+    last_push: "2025-11-03"
+  - name: "zeromcp"
+    title: "zeromcp"
+    description: "Zero-dependency MCP server implementation."
     language: "Python"
-    topics: []
-    stars_fact: 10
+    topics:
+      - "mcp"
+      - "mcp-sdk"
+      - "modelcontextprotocol"
+      - "python"
+      - "python-mcp"
+    stars_fact: 92
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "sage-miasm"
-    title: "sage-miasm"
-    description: "[Slop] Implementation of SAGE on top of miasm."
-    language: "Python"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-09-23"
+  - name: "phnt-single-header"
+    title: "phnt-single-header"
+    description: "Single header version of System Informer's phnt library."
+    language: "CMake"
+    topics:
+      - "debugger"
+      - "native"
+      - "processhacker"
+      - "sdk"
+      - "security"
+      - "systeminformer"
+      - "wdk"
+      - "windows"
+      - "windows-internals"
+    stars_fact: 250
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "DarkSouls3.TextViewer"
-    title: "DarkSouls3.TextViewer"
-    description: "This tool helps you view all in-game text of Dark Souls 3."
-    language: "C#"
-    topics: []
-    stars_fact: 13
+    last_push: "2026-03-27"
+  - name: "dumpulator"
+    title: "dumpulator"
+    description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
+    language: "C"
+    topics:
+      - "cross-platform"
+      - "debugging-tools"
+      - "easy-to-use"
+      - "emulator"
+      - "hacktoberfest"
+      - "malware"
+      - "malware-analysis"
+      - "malware-analyzer"
+      - "malware-research"
+      - "minidump"
+      - "python"
+      - "python3"
+      - "reverse-engineering"
+      - "sandbox"
+      - "unicorn"
+      - "unpacking"
+      - "windows"
+      - "windows-internals"
+      - "x64"
+    stars_fact: 888
     first_seen: null
-    last_push: "2017-03-30"
+    last_push: "2024-02-02"
+  - name: "TitanHide"
+    title: "TitanHide"
+    description: "Hiding kernel-driver for x86/x64."
+    language: "C"
+    topics:
+      - "anti-debugging"
+      - "driver"
+      - "hacktoberfest"
+      - "rootkit"
+      - "windows"
+    stars_fact: 2914
+    first_seen: null
+    last_push: "2026-07-18"
 ---
 
 # mrexodia

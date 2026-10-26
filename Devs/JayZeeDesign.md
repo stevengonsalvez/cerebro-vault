@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "8b01562a542974d1"
-pushes_per_week: [11, 0, 8, 5, 2, 1, 4, 11, 4, 2, 5, 3, 1]
+pushes_per_week: [10, 0, 10, 5, 1, 1, 6, 9, 4, 1, 5, 4, 1]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 8
+    pushes_per_repo: 6.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gpt-function-calling-tutorial"
+    title: "gpt-function-calling-tutorial"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 79
+    first_seen: null
+    last_push: "2023-06-14"
   - name: "research-agents-3.0"
     title: "research-agents-3.0"
     description: "Autogen + GPTs - build a swarm AI researchers"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 87
     first_seen: null
     last_push: "2024-03-07"
-  - name: "codebase-harness"
-    title: "codebase-harness"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-06-07"
 ---
 
 # JayZeeDesign

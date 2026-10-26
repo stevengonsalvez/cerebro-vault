@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -35,35 +35,35 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [15, 5, 5, 7, 3, 0, 2, 14, 24, 74, 68, 32, 79]
+pushes_per_week: [11, 5, 5, 8, 2, 1, 1, 14, 33, 78, 61, 41, 97]
 windows:
   "7d":
-    pushes: 88
-    distinct_repos: 18
+    pushes: 109
+    distinct_repos: 17
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 270
-    distinct_repos: 22
+    pushes: 296
+    distinct_repos: 21
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 328
-    distinct_repos: 38
-    active_days: 50
-    repos_not_owned: 6
+    pushes: 357
+    distinct_repos: 36
+    active_days: 49
+    repos_not_owned: 5
     not_owned_basenames: 5
-    not_owned_owners: 4
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.5600
-  repo_per_active_day: 0.7600
-  not_owned_ratio: 0.1579
-  basename_concentration: 0.0789
+  push_per_day: 7.2857
+  repo_per_active_day: 0.7347
+  not_owned_ratio: 0.1389
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -72,32 +72,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 88
-    distinct_repos: 18
-    pushes_per_repo: 4.8889
+    pushes: 109
+    distinct_repos: 17
+    pushes_per_repo: 6.4118
     active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 270
-    distinct_repos: 22
-    pushes_per_repo: 12.2727
+    pushes: 296
+    distinct_repos: 21
+    pushes_per_repo: 14.0952
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 328
-    distinct_repos: 38
-    pushes_per_repo: 8.6316
-    active_days: 50
-    repos_not_owned: 6
+    pushes: 357
+    distinct_repos: 36
+    pushes_per_repo: 9.9167
+    active_days: 49
+    repos_not_owned: 5
     not_owned_basenames: 5
-    not_owned_owners: 4
+    not_owned_owners: 3
 reasons:
   - "provenance: 24 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -116,26 +116,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-13"
-  - name: "synctestrepro"
-    title: "synctestrepro"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-21"
-  - name: "wodify-race-repro"
-    title: "wodify-race-repro"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-13"
 ---
 
 # tamird
 
-328 pushes across 38 repositories on 50 active days in the last 90 days of public GitHub push activity.
+357 pushes across 36 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

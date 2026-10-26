@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 3, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 9, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,25 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Echo"
-    title: "Echo"
-    description: "Echo helps you improve expression in your target language while communicating with Claude Code and Codex CLI. Grammar feedback, translation, and back-translation stay in the UI and never enter your active conversation’s model context."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "chrome-deepseek-enchance-plugin"
-    title: "chrome-deepseek-enchance-plugin"
-    description: "Chrome extension to quote selected DeepSeek response text into your message draft with one click. Runs locally, with no tracking."
-    language: "TypeScript"
-    topics:
-      - "chrome-extension"
-      - "deepseek"
-      - "local-first"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "context-port"
     title: "context-port"
     description: "A shared knowledge and context workspace for humans and AI agents, with native MCP and REST support."
@@ -113,7 +94,26 @@ repos:
       - "react"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-25"
+  - name: "chrome-deepseek-enchance-plugin"
+    title: "chrome-deepseek-enchance-plugin"
+    description: "Chrome extension to quote selected DeepSeek response text into your message draft with one click. Runs locally, with no tracking."
+    language: "TypeScript"
+    topics:
+      - "chrome-extension"
+      - "deepseek"
+      - "local-first"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "Echo"
+    title: "Echo"
+    description: "Echo helps you improve expression in your target language while communicating with Claude Code and Codex CLI. Grammar feedback, translation, and back-translation stay in the UI and never enter your active conversation’s model context."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "whisper.cpp-release"
     title: "whisper.cpp-release"
     description: "Prebuilt whisper.cpp binaries for Linux, Windows, and macOS — built and released via GitHub Actions"

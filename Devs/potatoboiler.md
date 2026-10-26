@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "program-set"
-    title: "program-set"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "the-sound-of-music"
-    title: "the-sound-of-music"
-    description: "vsts n shit"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "aram-drafter"
-    title: "aram-drafter"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "bolero"
-    title: "bolero"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-20"
-  - name: "potatoboiler.github.io"
-    title: "potatoboiler.github.io"
-    description: null
-    language: "Svelte"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-04-22"
+repos: []
 ---
 
 # potatoboiler

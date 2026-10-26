@@ -8,37 +8,37 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 3, 2, 1, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 3, 2, 1, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 6
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 10
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 1.1111
+  push_per_day: 1.4000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 1.3333
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 14
     distinct_repos: 10
-    pushes_per_repo: 1.2000
-    active_days: 9
+    pushes_per_repo: 1.4000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ODIN-TURBO-PASCAL"
-    title: "ODIN-TURBO-PASCAL"
-    description: null
-    language: "Pascal"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "SIMANABOS"
-    title: "SIMANABOS"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mDonatur"
-    title: "mDonatur"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "SAKIPRO"
-    title: "SAKIPRO"
-    description: "SAKIPRO adalah AI CLI Agent untuk Kasubbag Perencanaan OPD yang membantu membaca folder dokumen SAKIP, mengecek indikator, cascading, PK, LKjIP, evidence, lalu menyusun rekomendasi dan laporan perbaikan secara cepat di laptop kantor."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-30"
-  - name: "RuangASN"
-    title: "RuangASN"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "arsitektur-pemdi-opd"
-    title: "arsitektur-pemdi-opd"
-    description: "Skill Claude untuk menyusun Arsitektur Pemdi/SPBE tingkat OPD, universal untuk semua kabupaten/kota Indonesia. Memetakan 6 domain (As-is dan To-be), selaras format portal SIA-SPBE, dengan disiplin anti-fabrikasi. Dasar: Perpres 132/2022, UU 23/2014, Permenpan 8/2026."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-11"
+repos: []
 ---
 
 # Syamsuddin
 
-12 pushes across 10 repositories on 9 active days in the last 90 days of public GitHub push activity.
+14 pushes across 10 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Syamsuddin

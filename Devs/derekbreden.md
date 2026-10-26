@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [24, 59, 64, 30, 40, 3, 10, 77, 57, 57, 23, 13, 25]
+pushes_per_week: [25, 58, 64, 39, 25, 4, 17, 89, 43, 59, 19, 11, 44]
 windows:
   "7d":
-    pushes: 25
+    pushes: 44
     distinct_repos: 1
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 125
+    pushes: 143
     distinct_repos: 1
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 482
+    pushes: 497
     distinct_repos: 3
     active_days: 75
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.4267
+  push_per_day: 6.6267
   repo_per_active_day: 0.0400
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 44
     distinct_repos: 1
-    pushes_per_repo: 25.0000
+    pushes_per_repo: 44.0000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 125
+    pushes: 143
     distinct_repos: 1
-    pushes_per_repo: 125.0000
-    active_days: 24
+    pushes_per_repo: 143.0000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 482
+    pushes: 497
     distinct_repos: 3
-    pushes_per_repo: 160.6667
+    pushes_per_repo: 165.6667
     active_days: 75
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-482 pushes across 3 repositories on 75 active days in the last 90 days of public GitHub push activity.
+497 pushes across 3 repositories on 75 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

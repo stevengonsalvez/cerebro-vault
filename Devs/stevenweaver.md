@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 2, 9, 1, 0, 0, 8, 7, 0, 1, 3, 0, 0]
+pushes_per_week: [1, 3, 8, 1, 0, 0, 8, 7, 0, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "website"
+    title: "website"
+    description: null
+    language: "Svelte"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "kmer-diversity-sieve"
     title: "kmer-diversity-sieve"
     description: "Alignment-free k-mer diversity sieve for archive-scale FASTA: a streaming C filter (Count-Min-sketch admission + MinHash/LSH novelty) that reduces tens of millions of sequences to a QC'd, diversity-preserving subset in one pass. Three backends from one source — serial (no deps), pthreads, MPI. Code only."
@@ -106,14 +114,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
-  - name: "website"
-    title: "website"
-    description: null
-    language: "Svelte"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
   - name: "autotune-app"
     title: "autotune-app"
     description: null

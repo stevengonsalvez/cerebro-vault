@@ -10,14 +10,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [8, 10, 4, 1, 0, 0, 16, 47, 31, 27, 0, 0, 4]
+pushes_per_week: [8, 11, 4, 0, 0, 3, 19, 41, 34, 24, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -27,9 +27,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 23
-    active_days: 9
+    active_days: 8
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 1
@@ -62,10 +62,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 23
-    pushes_per_repo: 1.9565
-    active_days: 9
+    pushes_per_repo: 1.9130
+    active_days: 8
     repos_not_owned: 13
     not_owned_basenames: 13
     not_owned_owners: 1
@@ -82,6 +82,14 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "roli-lpci"
+    title: "roli-lpci"
+    description: "Roli Bosch, founder of Hermes Labs. Philosophy of language applied to how AI systems are instructed and evaluated. Research, open-source tools, upstream fixes."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "agent-trash-guard"
     title: "agent-trash-guard"
     description: "Recoverable deletion guard and trash workflow for Claude Code, Codex, and Gemini CLI agents"
@@ -209,28 +217,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
-  - name: "forgetted"
-    title: "forgetted"
-    description: "forgetted is a Python library for selective memory governance in AI agents: a context-managed window where the agent keeps full read access but its writes to memory files, session logs, deliverables, and an optional vector store vanish and are cleaned up on exit."
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "agent-safety"
-      - "ai-agents"
-      - "ai-safety"
-      - "claude-code"
-      - "context-manager"
-      - "data-privacy"
-      - "ephemeral-memory"
-      - "hermes-labs"
-      - "incognito"
-      - "llm"
-      - "memory-governance"
-      - "privacy"
-      - "python"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-17"
 ---
 
 # roli-lpci

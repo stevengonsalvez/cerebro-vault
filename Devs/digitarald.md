@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 2, 2, 1, 0, 0, 0, 3, 4, 2, 1, 0, 0]
+pushes_per_week: [4, 2, 2, 1, 0, 0, 1, 6, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
-    distinct_repos: 9
-    active_days: 15
+    pushes: 19
+    distinct_repos: 8
+    active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.6000
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.2222
+  push_per_day: 1.3571
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
-    distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 15
+    pushes: 19
+    distinct_repos: 8
+    pushes_per_repo: 2.3750
+    active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "slides"
+    title: "slides"
+    description: "Published presentation slides"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "planwerk"
+    title: "planwerk"
+    description: "A local inbox and kanban board for agentic software development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "plugin-marketplace-starter"
     title: "plugin-marketplace-starter"
     description: "A starter template for team plugin marketplaces using Agent Plugins 1.0 and GitHub Copilot extensions."
@@ -118,26 +134,10 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-10-14"
-  - name: "slides"
-    title: "slides"
-    description: "Published presentation slides"
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "fireside-bluff-dice"
-    title: "fireside-bluff-dice"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # digitarald
 
-20 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
+19 pushes across 8 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/digitarald

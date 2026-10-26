@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [0, 0, 3, 1, 1, 2, 0, 3, 9, 1, 11, 3, 0]
+pushes_per_week: [0, 0, 3, 1, 1, 2, 0, 5, 7, 1, 12, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,9 +92,17 @@ repos:
       - "prompt-engineering"
       - "skill"
       - "tokens"
-    stars_fact: 113517
+    stars_fact: 115109
     first_seen: "2026-07-03T06:00:07.803484+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
+  - name: "caveman-code"
+    title: "caveman-code"
+    description: "Frozen — terminal coding agent measured at 1.93× fewer tokens than Codex CLI. Still works; active development moved to JuliusBrussee/caveman (caveman wrap)."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 944
+    first_seen: null
+    last_push: "2026-08-14"
   - name: "cavekit"
     title: "cavekit"
     description: "Frozen — compressed spec-driven development plugin for Claude Code. Still works; active development moved to JuliusBrussee/caveman."
@@ -108,44 +116,42 @@ repos:
     stars_fact: 1156
     first_seen: null
     last_push: "2026-08-14"
-  - name: "revu-swift"
-    title: "revu-swift"
-    description: "Local-first macOS study app with FSRS review, decks, study guides, exams, import/export, and a polished SwiftUI desktop interface."
-    language: "Swift"
-    topics:
-      - "macos"
-      - "productivity"
-      - "swift"
-    stars_fact: 381
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "caveman-browse"
-    title: "caveman-browse"
-    description: "Token-efficient browser automation for coding agents: compressed accessibility snapshots, uid actions, byte-exact recovery. A Playwright MCP alternative."
-    language: "Go"
-    topics: []
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 166
-    first_seen: null
-    last_push: "2026-08-07"
-  - name: "logo-designer"
-    title: "logo-designer"
-    description: "A pixel-grid logo editor that draws on a grid and outputs clean, smooth SVG/PNG — no illustrator required. Paint on a configurable grid, dial in the curve smoothing, then export production-ready vector art in light mode, dark mode, or both at once"
+  - name: "cavemem"
+    title: "cavemem"
+    description: "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman."
     language: "TypeScript"
     topics:
-      - "designer"
-      - "logo"
-      - "svg"
-    stars_fact: 45
+      - "ai"
+      - "caveman"
+      - "claude"
+      - "claude-code"
+      - "compress"
+      - "memory"
+      - "rag"
+      - "rag-chatbot"
+    stars_fact: 676
     first_seen: null
-    last_push: "2026-04-04"
+    last_push: "2026-08-14"
+  - name: "the-prompt-library"
+    title: "the-prompt-library"
+    description: "A curated collection of production‑ready AI prompts with MCP integration, organised for humans and machines alike."
+    language: "Python"
+    topics:
+      - "claude"
+      - "gemini"
+      - "mcp"
+      - "prompts"
+    stars_fact: 78
+    first_seen: null
+    last_push: "2025-08-04"
+  - name: "auto-build-in-public"
+    title: "auto-build-in-public"
+    description: "Automatically generate post-ready build-in-public drafts from your git history (and optionally on merged PRs)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-02-02"
 ---
 
 # JuliusBrussee

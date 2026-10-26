@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [1, 2, 1, 2, 1, 0, 2, 4, 3, 2, 1, 1, 0]
+pushes_per_week: [3, 0, 2, 1, 1, 0, 3, 3, 3, 2, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 11
-    active_days: 16
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.6875
+  push_per_day: 1.2353
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.1818
   basename_concentration: 0.0909
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 5
+    pushes_per_repo: 1.5000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 21
     distinct_repos: 11
-    pushes_per_repo: 1.8182
-    active_days: 16
+    pushes_per_repo: 1.9091
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "GallaIA"
-    title: "GallaIA"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "GallaDev_workspace"
     title: "GallaDev_workspace"
     description: "GallaDev Workspace — CRM to review, qualify and manage leads for asesorias y gestorias. Supabase (PostgreSQL) is the source of truth (Notion legacy); n8n prospecting, web ingest with Resend emails."
@@ -99,7 +91,15 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-26"
+  - name: "GallaIA"
+    title: "GallaIA"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "Dwell_Havanna"
     title: "Dwell_Havanna"
     description: "Revista editorial digital sobre arquitectura y casas de La Habana. Next.js 16 + Supabase, con moderación humana."
@@ -146,6 +146,6 @@ repos:
 
 # GallaGit
 
-20 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+21 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GallaGit

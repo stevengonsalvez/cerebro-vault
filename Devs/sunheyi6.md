@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 8, 3, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 9, 2, 0, 2, 0, 0, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.2857
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "investTemplate"
-    title: "investTemplate"
-    description: "个股分析标准模版"
-    language: "Python"
-    topics: []
-    stars_fact: 68
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "SunCode"
-    title: "SunCode"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "doc-ask-rag"
-    title: "doc-ask-rag"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "hexo-sources"
-    title: "hexo-sources"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "xiaoshuo"
-    title: "xiaoshuo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
+repos: []
 ---
 
 # sunheyi6
 
-18 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sunheyi6

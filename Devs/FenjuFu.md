@@ -8,22 +8,20 @@ provenance_repos:
   - "affaan-m/ECC"
   - "alibaba/open-code-review"
   - "ayghri/i-have-adhd"
-  - "chaitanyagiri/munder-difflin"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
-  - "e5b23adc376a62a9"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 13, 2, 3, 0, 4, 2, 1, 6, 1, 11, 3]
+pushes_per_week: [0, 3, 14, 1, 2, 2, 2, 2, 3, 4, 4, 10, 1]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -56,8 +54,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
@@ -80,7 +78,7 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
-  - "provenance: 5 vault signal(s) — pass"
+  - "provenance: 4 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -91,23 +89,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "FenjuFu"
-    title: "FenjuFu"
-    description: "GitHub profile README"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "astron-images"
-    title: "astron-images"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-25"
   - name: "Awesome-Astron-Workflow"
     title: "Awesome-Astron-Workflow"
     description: "A curated collection of Astron workflow examples and user cases for AI-powered applications, featuring real-world implementations including AI Resume Assistant, Translator, Content Writing, Podcast Generator, and Course Generator."
@@ -116,7 +98,23 @@ repos:
       - "agent"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-23"
+  - name: "astron-images"
+    title: "astron-images"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "FenjuFu"
+    title: "FenjuFu"
+    description: "GitHub profile README"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "skillhub-website"
     title: "skillhub-website"
     description: "Official website and documentation for Astron SkillHub"

@@ -8,37 +8,37 @@ provenance_repos:
   - "mvschwarz/openrig"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [1, 6, 0, 0, 0, 0, 0, 0, 4, 88, 52, 27, 59]
+pushes_per_week: [5, 2, 0, 0, 0, 0, 0, 0, 5, 106, 42, 31, 71]
 windows:
   "7d":
-    pushes: 63
+    pushes: 80
     distinct_repos: 2
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 229
+    pushes: 253
     distinct_repos: 5
     active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 237
+    pushes: 262
     distinct_repos: 7
-    active_days: 30
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 7.9000
-  repo_per_active_day: 0.2333
+  push_per_day: 8.4516
+  repo_per_active_day: 0.2258
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -49,97 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 63
+    pushes: 80
     distinct_repos: 2
-    pushes_per_repo: 31.5000
+    pushes_per_repo: 40.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 229
+    pushes: 253
     distinct_repos: 5
-    pushes_per_repo: 45.8000
+    pushes_per_repo: 50.6000
     active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 237
+    pushes: 262
     distinct_repos: 7
-    pushes_per_repo: 33.8571
-    active_days: 30
+    pushes_per_repo: 37.4286
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openrig"
-    title: "openrig"
-    description: "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
-    language: "TypeScript"
-    topics:
-      - "agent-harness"
-      - "agent-orchestration"
-      - "agent-skills"
-      - "ai-coding"
-      - "claude-code"
-      - "cli"
-      - "codex-cli"
-      - "multi-agent"
-      - "multi-agent-systems"
-      - "tmux"
-      - "typescript"
-    stars_fact: 8143
-    first_seen: "2026-09-28T06:01:28.341049+00:00"
-    last_push: "2026-10-24"
-  - name: "openrig-world"
-    title: "openrig-world"
-    description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "openrig-registry"
-    title: "openrig-registry"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "openrig-studio-apps"
-    title: "openrig-studio-apps"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "openrig-studio"
-    title: "openrig-studio"
-    description: "Official OpenRig Studio SDK (@openrig/studio)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mvschwarz"
-    title: "mvschwarz"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # mvschwarz
 
-237 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+262 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvschwarz

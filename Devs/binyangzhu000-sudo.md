@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [6, 3, 0, 5, 0, 0, 4, 6, 2, 1, 1, 5, 4]
+pushes_per_week: [1, 3, 4, 1, 0, 1, 3, 6, 2, 1, 6, 3, 1]
 windows:
   "7d":
     pushes: 4
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 27
-    active_days: 20
+    pushes: 32
+    distinct_repos: 24
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8500
-  repo_per_active_day: 1.3500
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.0370
+  push_per_day: 1.7778
+  repo_per_active_day: 1.3333
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.0417
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 27
-    pushes_per_repo: 1.3704
-    active_days: 20
+    pushes: 32
+    distinct_repos: 24
+    pushes_per_repo: 1.3333
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # binyangzhu000-sudo
 
-37 pushes across 27 repositories on 20 active days in the last 90 days of public GitHub push activity.
+32 pushes across 24 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/binyangzhu000-sudo

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 1, 2, 2, 0, 1]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 1, 4, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -90,15 +90,23 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10582
+    stars_fact: 10592
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-24"
+  - name: "flakegap"
+    title: "flakegap"
+    description: "Take a Flake and package it for deployment across an airgap."
+    language: "Go"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-08-18"
   - name: "generate"
     title: "generate"
     description: "Generates Go (golang) Structs from JSON schema."
     language: "Go"
     topics: []
-    stars_fact: 451
+    stars_fact: 450
     first_seen: null
     last_push: "2024-04-02"
   - name: "pico_usb_kbd_mouse"
@@ -123,14 +131,6 @@ repos:
     language: "Go"
     topics: []
     stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "serve"
-    title: "serve"
-    description: "Serve directories over HTTP."
-    language: "Go"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
 ---

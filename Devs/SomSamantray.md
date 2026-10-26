@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 4, 12, 4, 0, 1, 2, 4, 2, 3, 2, 7, 1]
+pushes_per_week: [3, 5, 12, 3, 1, 0, 2, 4, 2, 3, 4, 5, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,33 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SomSamantray"
-    title: "SomSamantray"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "ai-canvas-branching"
-    title: "ai-canvas-branching"
-    description: "Infinite canvas for branching AI conversations with dynamic node positioning and multi-canvas support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-26"
-  - name: "mac-storage-doctor"
-    title: "mac-storage-doctor"
-    description: "Claude Code skill: deep macOS disk-space analysis with safe, confirm-before-delete cleanup recommendations"
-    language: null
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-22"
+repos: []
 ---
 
 # SomSamantray

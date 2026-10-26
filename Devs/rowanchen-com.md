@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 1, 0, 2, 0, 0, 1, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 0, 0, 2, 0, 0, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,23 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "komari-dash"
-    title: "komari-dash"
-    description: "A modern server monitoring dashboard theme for Komari, ported from NezhaDash"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "rowanchen-com"
-    title: "rowanchen-com"
-    description: "Profile README for @rowanchen-com"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
+repos: []
 ---
 
 # rowanchen-com

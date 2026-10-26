@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 2, 1, 0, 0, 0, 3, 5, 9, 13, 4, 1]
+pushes_per_week: [0, 0, 3, 0, 0, 0, 0, 3, 5, 10, 13, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ZJPex"
-    title: "ZJPex"
-    description: "周峻锋 / ZJPex · AI 应用与 Agent 开发"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "llm-wiki-organizer"
-    title: "llm-wiki-organizer"
-    description: "LLM Wiki 外置 Raw 整理器：内容命名、主题分类与安全迁移"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "LLMRouter"
-    title: "LLMRouter"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-24"
-  - name: "AlphaPilot"
-    title: "AlphaPilot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-14"
+repos: []
 ---
 
 # ZJPex

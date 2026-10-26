@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 1, 1, 3]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 2, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -80,54 +80,54 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "inspectloop"
-    title: "inspectloop"
-    description: "InspectLoop — OpenCV 5 factory QA agent with HITL stop-line tools (OpenCV AI Competition 2026)"
+  - name: "other-pitch"
+    title: "other-pitch"
+    description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "dispute-recover"
-    title: "dispute-recover"
-    description: "PayPal AI Hackathon: Dispute Recover — agent stamps FOLD/DEFEND/OFFER as Disputes v1 calls"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "frame-call"
-    title: "frame-call"
-    description: "Music and camera for a 15-second brand film, committed only when the Qloo taste graph names them."
+    last_push: "2026-10-24"
+  - name: "epochswitch"
+    title: "epochswitch"
+    description: "EpochSwitch: idle MUSD epoch policy agent (Mezo Soft Wave1 demo)"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
-  - name: "coronary-prob-map"
-    title: "coronary-prob-map"
-    description: "Interactive 3D coronary probability map — Multimodal AI Hackathon 2026 Track A"
+    last_push: "2026-10-24"
+  - name: "kinkeeper"
+    title: "kinkeeper"
+    description: "A self-hosted MCP care-coordination demo with a simulated Alexa+ experience."
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
-  - name: "scardesk"
-    title: "scardesk"
-    description: "Scardesk — Solana synthetic perps desk (loss-funded SCAR, FIFO queue)"
+    last_push: "2026-10-23"
+  - name: "giveway"
+    title: "giveway"
+    description: "Compare two balanced weeks and choose what gives way before accepting a new commitment."
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "lane-paychannel"
-    title: "lane-paychannel"
-    description: "Agent clerk that pays, refuses, or downgrades, then settles one Solana payment channel."
-    language: "JavaScript"
+    last_push: "2026-10-23"
+  - name: "er-s-an"
+    title: "er-s-an"
+    description: "Caesar / 谢佳辰 / Jiachen Xie — MAKEBOOK CTO. AI agents, creative tools & games. Building on Injective."
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-23"
+  - name: "er-s-an.github.io"
+    title: "er-s-an.github.io"
+    description: "Caesar / 谢佳辰 / Jiachen Xie — MAKEBOOK CTO. AI agents, creative tools & games. Building on Injective."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # er-s-an

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [3, 9, 4, 0, 0, 0, 0, 2, 0, 2, 0, 2, 4]
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-10-25"
+  - name: "synthesis.js"
+    title: "synthesis.js"
+    description: "A content synthesis library for for WebGL and three.js."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2015-01-30"
   - name: "atepg-change-feed-perf"
     title: "atepg-change-feed-perf"
     description: null
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-20"
+    last_push: "2026-10-19"
   - name: "apiserver-storm"
     title: "apiserver-storm"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-17"
+    last_push: "2026-10-19"
   - name: "validation-gen"
     title: "validation-gen"
     description: "Dev branch for declarative validation"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2012-07-20"
-  - name: "validation-admission-policy-examples"
-    title: "validation-admission-policy-examples"
-    description: "A directory of various validating admission policies"
-    language: "Shell"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2022-12-02"
 ---
 
 # jpbetz

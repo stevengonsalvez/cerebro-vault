@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 2, 0, 2, 0, 0, 1]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 2, 0, 2, 0, 0, 4]
 windows:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 6
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 5
-    active_days: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1667
-  repo_per_active_day: 0.8333
+  push_per_day: 1.4286
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,46 +49,66 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-loop-visualizer"
+    title: "agent-loop-visualizer"
+    description: "This project is for learning: it shows how an agent loop works underneath, in a way more intuitive and visual than reading about it. Behind an agent's chat box runs a loop: step after step, the model proposes an action and the harness carries it out, until it stops."
+    language: "Python"
+    topics:
+      - "agent-loop"
+      - "ai-agents"
+      - "education"
+      - "function-calling"
+      - "gemma"
+      - "huggingface"
+      - "interactive-learning"
+      - "llm-agents"
+      - "llm-visualization"
+      - "local-llm"
+      - "multimodal"
+      - "python"
+      - "pytorch"
+      - "qwen"
+      - "speculative-decoding"
+      - "streamlit"
+      - "tool-calling"
+      - "traditional-chinese"
+      - "transformers"
+      - "visualization"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "cyyeh"
     title: "cyyeh"
     description: null
     language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "cyyeh.github.io"
-    title: "cyyeh.github.io"
-    description: "A 3D portfolio in the style of Henry Heffernan's site, modelled on my real desk: a walnut standing desk with a 27\" monitor on an arm, a MacBook Pro, an NVIDIA DGX Spark and a Reachy Mini."
-    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
@@ -129,6 +149,6 @@ repos:
 
 # cyyeh
 
-7 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
+10 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cyyeh

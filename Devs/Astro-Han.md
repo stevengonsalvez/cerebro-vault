@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [44, 48, 24, 27, 16, 2, 10, 41, 48, 4, 3, 4, 1]
+pushes_per_week: [54, 41, 23, 33, 9, 3, 10, 43, 47, 2, 2, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
     active_days: 10
     repos_not_owned: 1
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.6667
     active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -95,22 +95,9 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2511
+    stars_fact: 2601
     first_seen: null
     last_push: "2026-07-23"
-  - name: "opencode-bell"
-    title: "opencode-bell"
-    description: "OpenCode plugin: privacy-friendly terminal bell notifications"
-    language: "JavaScript"
-    topics:
-      - "javascript"
-      - "notifications"
-      - "opencode"
-      - "plugin"
-      - "terminal"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-26"
   - name: "pawwork"
     title: "pawwork"
     description: "PawWork — free, open-source desktop AI agent for macOS and Windows, built on DeepSeek Harness (DSH). Free models included, no API key or terminal. Office files, web search, and scheduled automations out of the box. An open alternative to Codex App and Claude Cowork."
@@ -136,15 +123,7 @@ repos:
       - "opencode"
       - "productivity"
       - "windows"
-    stars_fact: 201
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "skills"
-    title: "skills"
-    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
-    language: "Python"
-    topics: []
-    stars_fact: 12
+    stars_fact: 203
     first_seen: null
     last_push: "2026-10-12"
   - name: "claude-pace"
@@ -167,9 +146,30 @@ repos:
       - "terminal"
       - "usage-monitor"
       - "usage-tracking"
-    stars_fact: 236
+    stars_fact: 241
     first_seen: null
     last_push: "2026-09-24"
+  - name: "opencode-bell"
+    title: "opencode-bell"
+    description: "OpenCode plugin: privacy-friendly terminal bell notifications"
+    language: "JavaScript"
+    topics:
+      - "javascript"
+      - "notifications"
+      - "opencode"
+      - "plugin"
+      - "terminal"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-26"
+  - name: "skills"
+    title: "skills"
+    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "jev-harness"
     title: "jev-harness"
     description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"

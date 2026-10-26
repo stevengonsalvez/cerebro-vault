@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 6, 0, 0, 0, 0, 4, 2, 3, 3, 2, 1]
+pushes_per_week: [0, 1, 6, 0, 0, 0, 0, 6, 0, 3, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,38 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_quotes_plugin"
+    title: "astrbot_quotes_plugin"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "astrbot_plugin_nai_brush"
+    title: "astrbot_plugin_nai_brush"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-03-10"
+  - name: "Auto-ASR"
+    title: "Auto-ASR"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "astrbot_zssm_explain"
+    title: "astrbot_zssm_explain"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "EdgeCloud-Bench"
     title: "EdgeCloud-Bench"
     description: null
@@ -93,44 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-16"
-  - name: "x-bookmark-folders"
-    title: "x-bookmark-folders"
-    description: "X(Twitter) 第三方书签文件夹油猴脚本：无需 Premium，支持 WebDAV 跨浏览器同步"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "astrbot_zssm_explain"
-    title: "astrbot_zssm_explain"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "astrbot_plugin_memorix"
-    title: "astrbot_plugin_memorix"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "dsh-request-error-dump"
-    title: "dsh-request-error-dump"
-    description: "DSH 插件：模型请求报错时，把完整请求体 raw JSON 与上游错误响应 raw JSON 一起落盘 | DSH plugin: dump the exact raw request body and the raw upstream error response when a model request fails"
-    language: "JavaScript"
-    topics:
-      - "debugging"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "observability"
-      - "request-dump"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
 ---
 
 # exynos967

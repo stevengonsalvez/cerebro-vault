@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [21, 6, 4, 8, 0, 0, 0, 1, 6, 2, 2, 0, 0]
+pushes_per_week: [13, 6, 12, 0, 0, 0, 0, 1, 6, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 42
     distinct_repos: 7
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6316
-  repo_per_active_day: 0.3684
+  push_per_day: 2.3333
+  repo_per_active_day: 0.3889
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -57,42 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 42
     distinct_repos: 7
-    pushes_per_repo: 7.1429
-    active_days: 19
+    pushes_per_repo: 6.0000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "academic-research-skills"
-    title: "academic-research-skills"
-    description: "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
-    language: "Python"
-    topics:
-      - "academic-pipeline"
-      - "academic-writing"
-      - "ai-research"
-      - "claude"
-      - "claude-code"
-      - "literature-review"
-      - "peer-review"
-      - "prompt-engineering"
-    stars_fact: 52584
-    first_seen: "2026-07-07T06:00:04.676583+00:00"
-    last_push: "2026-10-18"
   - name: "academic-research-skills-codex"
     title: "academic-research-skills-codex"
     description: "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows"
@@ -108,9 +92,25 @@ repos:
       - "peer-review"
       - "prompt-engineering"
       - "research-assistant"
-    stars_fact: 13065
+    stars_fact: 13500
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-26"
+  - name: "academic-research-skills"
+    title: "academic-research-skills"
+    description: "Academic Research Skills for Claude Code: research → write → review → revise → finalize"
+    language: "Python"
+    topics:
+      - "academic-pipeline"
+      - "academic-writing"
+      - "ai-research"
+      - "claude"
+      - "claude-code"
+      - "literature-review"
+      - "peer-review"
+      - "prompt-engineering"
+    stars_fact: 53916
+    first_seen: "2026-07-07T06:00:04.676583+00:00"
+    last_push: "2026-10-26"
   - name: "tw-formal-writing"
     title: "tw-formal-writing"
     description: "台灣正式文件撰寫 AI Skill：公文、存證信函、陳情書、合約 — 匯入 ChatGPT / Claude / Gemini 即可使用"
@@ -126,7 +126,7 @@ repos:
       - "official-document"
       - "prompt-engineering"
       - "taiwan"
-    stars_fact: 182
+    stars_fact: 188
     first_seen: null
     last_push: "2026-09-24"
   - name: "experiment-agent"
@@ -134,7 +134,7 @@ repos:
     description: "Claude Code skill for experiment execution, monitoring, statistical interpretation, and reproducibility verification"
     language: "Python"
     topics: []
-    stars_fact: 206
+    stars_fact: 210
     first_seen: null
     last_push: "2026-09-25"
   - name: "critical-thinking-for-humans"
@@ -151,7 +151,7 @@ repos:
       - "logical-fallacies"
       - "reasoning"
       - "scam-literacy"
-    stars_fact: 41
+    stars_fact: 42
     first_seen: null
     last_push: "2026-10-13"
   - name: "cc-user-autopsy"
@@ -166,6 +166,6 @@ repos:
 
 # Imbad0202
 
-50 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+42 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Imbad0202

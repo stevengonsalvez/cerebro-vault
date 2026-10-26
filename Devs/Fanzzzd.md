@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 3, 7, 22, 0, 1, 2, 0, 1, 2, 9, 19, 5]
+pushes_per_week: [1, 3, 20, 9, 0, 3, 0, 0, 1, 2, 18, 11, 11]
 windows:
   "7d":
-    pushes: 5
+    pushes: 12
     distinct_repos: 3
-    active_days: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 42
     distinct_repos: 5
-    active_days: 9
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 79
     distinct_repos: 11
-    active_days: 22
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2727
-  repo_per_active_day: 0.5000
+  push_per_day: 3.2917
+  repo_per_active_day: 0.4583
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,36 +49,36 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 42
     distinct_repos: 5
-    pushes_per_repo: 7.0000
-    active_days: 9
+    pushes_per_repo: 8.4000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 72
+    pushes: 79
     distinct_repos: 11
-    pushes_per_repo: 6.5455
-    active_days: 22
+    pushes_per_repo: 7.1818
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "sidescreen"
-    title: "sidescreen"
+  - name: "agent-screen"
+    title: "agent-screen"
     description: "Give each AI agent its own Mac screen: Claude Code and Codex work on virtual displays while your mouse and keyboard stay yours."
     language: "Rust"
     topics:
@@ -92,7 +92,28 @@ repos:
       - "virtual-display"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "homebrew-agent-screen"
+    title: "homebrew-agent-screen"
+    description: "Homebrew tap for Agent Screen"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "convex-logto"
+    title: "convex-logto"
+    description: "Use Logto (self-hosted or cloud) as the auth provider for Convex React apps — ID-token OIDC bridge + signed webhook user-sync"
+    language: "TypeScript"
+    topics:
+      - "authentication"
+      - "convex"
+      - "logto"
+      - "oidc"
+      - "react"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "openmail"
     title: "openmail"
     description: "Keyboard-first macOS mail client that keeps your mail in a local SQLite database. AI agents read it over MCP and change it only with your approval."
@@ -111,56 +132,34 @@ repos:
       - "sqlite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "homebrew-sidescreen"
-    title: "homebrew-sidescreen"
-    description: "Homebrew tap for Sidescreen"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "repo-wizard"
-    title: "repo-wizard"
-    description: "A professional tool to safely and efficiently apply LLM-suggested code changes to your local codebase in a controllable, reviewable way."
-    language: "TypeScript"
-    topics:
-      - "code-generator"
-      - "desktop-app"
-      - "developer-tools"
-      - "react"
-      - "rust"
-      - "tauri"
-      - "typescript"
-      - "vite"
-    stars_fact: 337
-    first_seen: null
-    last_push: "2026-03-03"
-  - name: "convex-logto"
-    title: "convex-logto"
-    description: "Use Logto (self-hosted or cloud) as the auth provider for Convex React apps — ID-token OIDC bridge + signed webhook user-sync"
-    language: "TypeScript"
-    topics:
-      - "authentication"
-      - "convex"
-      - "logto"
-      - "oidc"
-      - "react"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "erainfra"
-    title: "erainfra"
-    description: "EraInfra — run GitHub Actions on your own machines and manage your own infra. Convex control plane, no public IP needed, per-job isolation, drop-in runs-on."
+    last_push: "2026-10-23"
+  - name: "convex-improved-search"
+    title: "convex-improved-search"
+    description: "Transactional, reactive, exact substring search for Convex — CJK-first bigram index"
     language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-10-22"
+  - name: "cupertino-datetime-picker"
+    title: "cupertino-datetime-picker"
+    description: "The iOS 14+ compact date & time picker for React: inline calendar with month/year wheels, time wheels that also take typing. shadcn/ui + Base UI + Tailwind, no date library."
+    language: "TypeScript"
+    topics:
+      - "base-ui"
+      - "date-picker"
+      - "ios"
+      - "react"
+      - "shadcn"
+      - "tailwind"
+      - "time-picker"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Fanzzzd
 
-72 pushes across 11 repositories on 22 active days in the last 90 days of public GitHub push activity.
+79 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fanzzzd

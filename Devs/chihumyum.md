@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 3, 0, 0, 1, 3, 0, 8, 2, 0, 2]
+pushes_per_week: [0, 0, 0, 3, 0, 0, 1, 3, 0, 10, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,14 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Drifting"
-    title: "Drifting"
-    description: "An early-stage writing app, developed in the open."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "Persimmon"
     title: "Persimmon"
     description: "A lightweight, native-rendered cross-platform EPUB reader."
@@ -93,9 +85,25 @@ repos:
       - "epub"
       - "epub-reader"
       - "ereader"
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-26"
+  - name: "Drifting"
+    title: "Drifting"
+    description: "An early-stage writing app, developed in the open."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "My-FFVI"
+    title: "My-FFVI"
+    description: "Source-driven FFVI Pixel Remaster Web migration, shared game systems, and reproducible validation."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "persimmon-reader"
     title: "persimmon-reader"
     description: "Official website for the Persimmon EPUB reader"
@@ -127,14 +135,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-08-18"
-  - name: "llm-MITM-proxy"
-    title: "llm-MITM-proxy"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-14"
 ---
 
 # chihumyum

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 2, 0, 2, 12, 1, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 2, 0, 0, 3, 12, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "exocortex-public"
+    title: "exocortex-public"
+    description: "Exocortex engine and lab: public record of AI R&D (PL/EN). Private until the publishing gate is proven."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "ds-demo-tokens"
     title: "ds-demo-tokens"
     description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
@@ -117,14 +125,6 @@ repos:
   - name: "vector-wave-ideas"
     title: "vector-wave-ideas"
     description: "Ideas bank and creative concepts for content generation"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "vector-wave-content"
-    title: "vector-wave-content"
-    description: "Generated content materials, articles, and social media posts"
     language: null
     topics: []
     stars_fact: 0

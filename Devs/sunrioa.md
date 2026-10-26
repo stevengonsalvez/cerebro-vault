@@ -8,14 +8,14 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 0, 2, 0, 0, 1, 0, 2, 6, 1, 1, 2, 4]
+pushes_per_week: [1, 0, 2, 0, 0, 1, 0, 4, 4, 2, 0, 6, 0]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4667
-  repo_per_active_day: 0.2667
+  push_per_day: 1.4286
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 4
-    pushes_per_repo: 5.5000
-    active_days: 15
+    pushes_per_repo: 5.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "baka"
-    title: "baka"
-    description: "Independent customization of Apache Maka, starting from upstream main."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "schquery-ai"
-    title: "schquery-ai"
-    description: "基于Spring Boot和Spring AI实现的问答助手"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "rin"
-    title: "rin"
-    description: "一款通用框架,用于快速开发Ren'Py / Unity / Godot / Unreal 等游戏框架游戏中AI NPC （目前处于前期开发阶段）"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "ccccc"
-    title: "ccccc"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "douyin-llmwiki-skill"
-    title: "douyin-llmwiki-skill"
-    description: "douyin-llmwiki-skill"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-05"
-  - name: "local-river"
-    title: "local-river"
-    description: "Markdown-first local AI agent workspace with a bilingual GUI, local Bridge, and coding-agent shim for task threads, decisions, actions, and reviewer corrections."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-09"
+repos: []
 ---
 
 # sunrioa
 
-22 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sunrioa

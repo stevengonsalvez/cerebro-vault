@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [2, 2, 11, 1, 1, 0, 1, 26, 1, 1, 0, 0, 1]
+pushes_per_week: [2, 2, 12, 0, 1, 0, 1, 26, 1, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,6 +80,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ParamNoise"
+    title: "ParamNoise"
+    description: "A comparison of parameter space noise methods for exploration in deep reinforcement learning"
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2019-03-14"
   - name: "safe-debates"
     title: "safe-debates"
     description: "A PyTorch implementation of AI safety via debate"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-02-23"
-  - name: "ParamNoise"
-    title: "ParamNoise"
-    description: "A comparison of parameter space noise methods for exploration in deep reinforcement learning"
-    language: "Python"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2019-03-14"
   - name: "DeepIDS"
     title: "DeepIDS"
     description: "Playing around with IDS data in Keras"

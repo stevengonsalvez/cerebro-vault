@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 8, 2, 7, 21, 7, 4, 4]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 5, 2, 12, 18, 6, 3, 8]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
+    pushes: 8
+    distinct_repos: 6
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 47
     distinct_repos: 11
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 57
     distinct_repos: 11
     active_days: 24
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2083
+  push_per_day: 2.3750
   repo_per_active_day: 0.4583
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
+    pushes: 8
+    distinct_repos: 6
     pushes_per_repo: 1.3333
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 47
     distinct_repos: 11
-    pushes_per_repo: 3.9091
+    pushes_per_repo: 4.2727
     active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 57
     distinct_repos: 11
-    pushes_per_repo: 4.8182
+    pushes_per_repo: 5.1818
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,15 +84,37 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "cursor-loc"
-    title: "cursor-loc"
-    description: "为 Cursor IDE 专有界面提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包 NLS 无法触及的区域，英文界面下也可用。重难点：0.0.9 注入引擎重写为增量翻译——移除每 100ms 全页扫描、attachShadow 原型劫持与 DOM 变更全页重扫三个卡顿根源，exact 词条走 O(1) Map、变更只处理涉及节点，打字与滚动不再被拖慢；补丁仅手动应用时写入安装目录，卸载自动还原，缺备份时如实报告受限项不猜测拼接。"
-    language: "TypeScript"
+    last_push: "2026-10-26"
+  - name: "coding-agent"
+    title: "coding-agent"
+    description: "Specification-driven Coding Agent Runtime：一套行为规范（specs/ 七篇 SSOT）在 TS / Python / Go / Rust / C# 五种语言运行时实现，可执行一致性套件以同一 scenario 驱动五 runtime、归一化后跨版比对，输出 PASS / ALLOW_DIFF / DRIFT。亮点：能力线对齐 v0.5.0（九工具、权限三态闸门、40 轮熔断、Plan Mode、apply_patch 原子补丁）；diff 裁决 fail closed，不可归类差异一律判漂移；sha256 构建新鲜度门防陈旧产物假象。核心主张：行为契约比任何一份实现都稳定，期望值只取自 specs，禁止从参考实现抄录。"
+    language: "JavaScript"
     topics: []
-    stars_fact: 5
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-10-25"
+  - name: "agent-hub"
+    title: "agent-hub"
+    description: "Agent 工程演示：巡检多智能体 + 持久化运行时 + MCP/Skill + 混合检索 + 评测"
+    language: "Python"
+    topics:
+      - "agent-ui"
+      - "ai-agents"
+      - "fastapi"
+      - "langgraph"
+      - "llm-evaluation"
+      - "mcp"
+      - "multi-agent"
+      - "pydantic"
+      - "rag"
+      - "react"
+      - "sse"
+      - "streaming"
+      - "zod"
+      - "zustand"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "qoder-proxy-api"
     title: "qoder-proxy-api"
     description: "本地多 Provider 协议网关：把 Gateway 私有协议、qodercli 子进程、Cloud Agents 官方 API 三条异构 Qoder 上游统一成一套 OpenAI / Anthropic 兼容 API（含流式），Claude Code 等客户端直连。亮点：下游协议 ↔ Canonical Event ↔ 上游 Provider 三层解耦，adapter 边界由 CI 架构检查强制，新增 Provider 协议层零改动；显式路由无 fallback，上游失败原样报错；89 项离线测试 + 真实 SSE 抓包 fixtures，无凭证 30 秒 demo。重难点：私有协议逆向与跨 chunk 流边界的协议级 characterization 测试。零第三方运行时依赖。"
@@ -108,7 +130,15 @@ repos:
       - "sse"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-10-20"
+  - name: "cursor-loc"
+    title: "cursor-loc"
+    description: "为 Cursor IDE 专有界面提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包 NLS 无法触及的区域，英文界面下也可用。重难点：0.0.9 注入引擎重写为增量翻译——移除每 100ms 全页扫描、attachShadow 原型劫持与 DOM 变更全页重扫三个卡顿根源，exact 词条走 O(1) Map、变更只处理涉及节点，打字与滚动不再被拖慢；补丁仅手动应用时写入安装目录，卸载自动还原，缺备份时如实报告受限项不猜测拼接。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "agent-skills"
     title: "agent-skills"
     description: "实战沉淀的 Agent Skills 公开合集，Codex / Claude Code / Cursor 等支持 Skills 的工具可直接装配：npx skills add ggbdpq/agent-skills 整仓或按单个 skill 安装。当前提供 minimal-diff-fix（不扩散改动面的局部修复）、tech-writer（技术文档英译中与发布级终稿）、mentor-me（导师式概念讲解，结合真实项目举例）。维护原则：SKILL.md 跨工具核心，.curated / .experimental 分层，新 skill 先试验后转正。"
@@ -117,26 +147,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-30"
-  - name: "react-helper-toolkit"
-    title: "react-helper-toolkit"
-    description: "React Hooks 工具库：零运行时依赖、UI 无关。Core 层纯函数可在 Node / Worker 任意 JS 环境运行，Hooks 层对 Core 薄封装、仅依赖 React。亮点：公开 API 稳定可预测，渐进接入不破坏；tree-shaking 友好，统一导出与自动化验证；ref + effect cleanup 模式保持最新回调并兼容 StrictMode 双调用；React 16.8+ 原生状态与副作用模型，不引入额外响应式抽象，附中文注释契约。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "syntax-party"
-    title: "syntax-party"
-    description: "中英双语五后端语言对照学习站：同一主题 Python / Node / Java / Go / Rust 并排展示。亮点：不止语法对照——15 个可运行实验室服务分三档关卡（Hello → Todo CRUD → JWT 鉴权），配全栈核心四层地图（HTTP→鉴权→数据→上线）6 天主线与 JSON / Git / MySQL 工具课；npm test 机器校验实验室入口齐全、端口不冲突。Vite + React 19 + TypeScript + Tailwind + Prism.js，面向前端工程师转全栈。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
 ---
 
 # ggbdpq
 
-53 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
+57 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

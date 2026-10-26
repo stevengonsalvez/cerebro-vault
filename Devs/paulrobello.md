@@ -8,28 +8,28 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [5, 2, 0, 0, 3, 0, 0, 11, 50, 32, 13, 2, 7]
+pushes_per_week: [5, 2, 0, 1, 2, 0, 0, 19, 54, 22, 13, 1, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 74
     distinct_repos: 13
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 127
     distinct_repos: 13
     active_days: 35
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5714
+  push_per_day: 3.6286
   repo_per_active_day: 0.3714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 74
     distinct_repos: 13
-    pushes_per_repo: 6.2308
-    active_days: 20
+    pushes_per_repo: 5.6923
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 127
     distinct_repos: 13
-    pushes_per_repo: 9.6154
+    pushes_per_repo: 9.7692
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,59 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "par-term-emu-core-rust"
-    title: "par-term-emu-core-rust"
-    description: "Rust terminal emulator library with Python 3.12+ bindings (PyO3). Provides VT100/VT220/VT320/VT420 compatibility with PTY support."
-    language: "Rust"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "par-rt-db"
-    title: "par-rt-db"
-    description: "Self-hosted Convex-inspired realtime document DB in Rust (axum/tokio/Postgres)"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "hex-world"
-    title: "hex-world"
-    description: "Hex World: a WebGPU hex-tile world-building game in Rust/Bevy, hosted at hex-world.pardev.net"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "claude-office"
-    title: "claude-office"
-    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 568
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "termflix"
-    title: "termflix"
-    description: "Terminal animation player with 43 procedurally generated animations, multiple render modes, and true color support"
-    language: "Rust"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "par-particle-life"
-    title: "par-particle-life"
-    description: "GPU-accelerated particle life simulation in Rust using wgpu"
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-07-27"
+repos: []
 ---
 
 # paulrobello
 
-125 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
+127 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

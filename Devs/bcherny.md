@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -84,7 +84,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [6, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [7, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -149,25 +149,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3346
+  - name: "bcherny.github.io"
+    title: "bcherny.github.io"
+    description: "My blog"
+    language: "SCSS"
+    topics: []
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-09-07"
-  - name: "programming-typescript-answers"
-    title: "programming-typescript-answers"
-    description: "Official answers for exercises from Orielly's Programming TypeScript"
-    language: "TypeScript"
-    topics:
-      - "typescript"
-    stars_fact: 560
-    first_seen: null
-    last_push: "2021-08-10"
+    last_push: "2026-09-20"
   - name: "frontend-interview-questions"
     title: "frontend-interview-questions"
     description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
@@ -177,38 +166,49 @@ repos:
       - "interview-practice"
       - "interview-questions"
       - "javascript"
-    stars_fact: 1142
+    stars_fact: 1145
     first_seen: null
     last_push: "2023-01-21"
-  - name: "undux"
-    title: "undux"
-    description: "⚡️ Dead simple state for React. Now with Hooks support."
+  - name: "flow-to-typescript"
+    title: "flow-to-typescript"
+    description: "Convert Flow-annotated files to TypeScript"
     language: "TypeScript"
     topics:
-      - "flux"
-      - "react"
-      - "redux"
-      - "typesafe"
+      - "compiler"
+      - "flow"
+      - "flowtype"
+      - "javascript"
       - "typescript"
-    stars_fact: 1563
+    stars_fact: 438
     first_seen: null
-    last_push: "2025-05-08"
-  - name: "bcherny.github.io"
-    title: "bcherny.github.io"
-    description: "My blog"
-    language: "SCSS"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "fibonacci"
-    title: "fibonacci"
-    description: "A simple iterative fibonacci spiral generator that demonstrates geometric recursion"
+    last_push: "2022-12-06"
+  - name: "draggable"
+    title: "draggable"
+    description: "High performance, fully cross browser, full featured drag and drop in a tiny (2k gzipped), dependency-free package"
     language: "JavaScript"
-    topics: []
-    stars_fact: 1
+    topics:
+      - "drag-and-drop"
+      - "microlib"
+      - "vanilla-javascript"
+    stars_fact: 204
     first_seen: null
-    last_push: "2012-12-11"
+    last_push: "2022-12-08"
+  - name: "undux.org"
+    title: "undux.org"
+    description: "Documentation for Undux"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2022-12-09"
+  - name: "crdt-demo"
+    title: "crdt-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-01-05"
 ---
 
 # bcherny

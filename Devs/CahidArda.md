@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [3, 1, 0, 2, 2, 0, 7, 7, 13, 12, 14, 1, 9]
+pushes_per_week: [2, 1, 1, 1, 2, 3, 4, 12, 8, 18, 8, 3, 23]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 4
+    pushes: 25
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 55
     distinct_repos: 10
-    active_days: 12
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 86
     distinct_repos: 18
     active_days: 28
     repos_not_owned: 14
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.5357
+  push_per_day: 3.0714
   repo_per_active_day: 0.6429
   not_owned_ratio: 0.7778
   basename_concentration: 0.1667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 4
+    pushes: 25
+    distinct_repos: 5
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 55
     distinct_repos: 10
-    pushes_per_repo: 3.9000
-    active_days: 12
+    pushes_per_repo: 5.5000
+    active_days: 13
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 86
     distinct_repos: 18
-    pushes_per_repo: 3.9444
+    pushes_per_repo: 4.7778
     active_days: 28
     repos_not_owned: 14
     not_owned_basenames: 12
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-26"
   - name: "bosphore-1819"
     title: "bosphore-1819"
     description: "An 1819 French map of the Bosphorus with every label read, mapped and translated. French original, Ottoman Turkish, and the names we use today."
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-71 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
+86 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

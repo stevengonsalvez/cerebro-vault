@@ -8,8 +8,8 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 8, 0, 1, 1, 0, 1]
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hybox"
-    title: "hybox"
-    description: "Hybox: always-on incident recording and observability for Hytale servers"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "Hyindex"
-    title: "Hyindex"
-    description: "Headless Hytale modding knowledge indexer and MCP server"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "pxpipe"
-    title: "pxpipe"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-04"
-  - name: "apple-keychain-bruteforce"
-    title: "apple-keychain-bruteforce"
-    description: "Bruteforce script that tries multiple combinations to decrypt a keychain file"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-29"
-  - name: "StardewMods"
-    title: "StardewMods"
-    description: "A brief overview of all my mods in development"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-05-07"
+repos: []
 ---
 
 # Xytronix

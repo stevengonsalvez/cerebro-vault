@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [13, 7, 10, 0, 0, 0, 1, 1, 1, 4, 0, 1, 0]
+pushes_per_week: [13, 5, 10, 0, 0, 0, 1, 1, 1, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 7
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9000
-  repo_per_active_day: 0.3500
+  push_per_day: 1.8947
+  repo_per_active_day: 0.3684
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -68,34 +68,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 7
-    pushes_per_repo: 5.4286
-    active_days: 20
+    pushes_per_repo: 5.1429
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "RepoGuardBench"
-    title: "RepoGuardBench"
-    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
-    language: "Python"
-    topics:
-      - "ai-security"
-      - "benchmark"
-      - "coding-agents"
-      - "llm-security"
-      - "local-llm"
-      - "prompt-injection"
-      - "reproducible-research"
-      - "software-engineering"
-    stars_fact: 73
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "mini-verl"
     title: "mini-verl"
     description: "verl for a single consumer GPU. PPO, GRPO and on-policy distillation on NVIDIA GPUs."
@@ -122,6 +106,42 @@ repos:
     stars_fact: 307
     first_seen: null
     last_push: "2026-09-15"
+  - name: "can-i-finetune-this"
+    title: "can-i-finetune-this"
+    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
+    language: "Python"
+    topics:
+      - "bitsandbytes"
+      - "fine-tuning"
+      - "gpu"
+      - "hugging-face"
+      - "llm"
+      - "lora"
+      - "memory-estimation"
+      - "peft"
+      - "pytorch"
+      - "qlora"
+      - "transformers"
+      - "vram"
+    stars_fact: 794
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "RepoGuardBench"
+    title: "RepoGuardBench"
+    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
+    language: "Python"
+    topics:
+      - "ai-security"
+      - "benchmark"
+      - "coding-agents"
+      - "llm-security"
+      - "local-llm"
+      - "prompt-injection"
+      - "reproducible-research"
+      - "software-engineering"
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "labelbank"
     title: "labelbank"
     description: "Retrieve + rerank over a closed label bank: LLM bi-encoders with self-mined hard negatives and a generative listwise reranker. Generalized from a silver-medal solution to Kaggle Eedi — Mining Misconceptions in Mathematics."
@@ -163,26 +183,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-07-11"
-  - name: "can-i-finetune-this"
-    title: "can-i-finetune-this"
-    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
-    language: "Python"
-    topics:
-      - "bitsandbytes"
-      - "fine-tuning"
-      - "gpu"
-      - "hugging-face"
-      - "llm"
-      - "lora"
-      - "memory-estimation"
-      - "peft"
-      - "pytorch"
-      - "qlora"
-      - "transformers"
-      - "vram"
-    stars_fact: 793
-    first_seen: null
-    last_push: "2026-10-08"
   - name: "pairjudge"
     title: "pairjudge"
     description: "Pairwise LLM judges (A/B/tie): budget-aware multi-turn packing, position-bias correction, pseudo-label distillation. Generalized from the 4th-place (gold) solution to Kaggle LMSYS Chatbot Arena."
@@ -206,6 +206,6 @@ repos:
 
 # DaoyuanLi2816
 
-38 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
+36 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

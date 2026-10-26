@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 4, 1, 0, 0, 0, 1, 3, 1, 3, 1, 1]
+pushes_per_week: [0, 0, 4, 1, 0, 0, 0, 1, 3, 2, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,34 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "snapper"
+    title: "snapper"
+    description: "Android app that locks Instagram, YouTube, Shorts and Reels until you finish your daily tasks. Pass an AI voice quiz to earn points, spend them to unlock apps; miss a deadline and payment apps lock too. Sleep mode, content filter and an AI gatekeeper. React + Capacitor, Cloudflare Workers, Supabase."
+    language: "TypeScript"
+    topics:
+      - "accessibility-service"
+      - "android"
+      - "app-blocker"
+      - "capacitor"
+      - "cloudflare-workers"
+      - "digital-wellbeing"
+      - "focus"
+      - "productivity"
+      - "react"
+      - "self-control"
+      - "study"
+      - "supabase"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
+    title: "HGDM-Hierarchical-Gated-Delta-Memory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-22"
   - name: "NCM"
     title: "NCM"
     description: "Native Cognitive Memory - Tensor-based episodic memory with state-conditioned retrieval for AI systems"
@@ -85,14 +113,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
-    title: "HGDM-Hierarchical-Gated-Delta-Memory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-22"
   - name: "Zero-Shot-TabPFN"
     title: "Zero-Shot-TabPFN"
     description: null
@@ -132,14 +152,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "pitchme"
-    title: "pitchme"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-19"
 ---
 
 # iam-saiteja

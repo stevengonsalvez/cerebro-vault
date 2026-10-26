@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [7, 5, 2, 2, 1, 0, 1, 3, 7, 16, 1, 8, 3]
+pushes_per_week: [6, 5, 2, 2, 1, 0, 1, 3, 8, 15, 5, 5, 3]
 windows:
   "7d":
     pushes: 3
-    distinct_repos: 2
+    distinct_repos: 3
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 32
-    distinct_repos: 14
-    active_days: 15
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 31
+    distinct_repos: 15
+    active_days: 16
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
     pushes: 56
-    distinct_repos: 22
+    distinct_repos: 21
     active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.9310
-  repo_per_active_day: 0.7586
-  not_owned_ratio: 0.1364
-  basename_concentration: 0.0455
+  repo_per_active_day: 0.7241
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
     active_days: 3
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 32
-    distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 15
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 31
+    distinct_repos: 15
+    pushes_per_repo: 2.0667
+    active_days: 16
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
     pushes: 56
-    distinct_repos: 22
-    pushes_per_repo: 2.5455
+    distinct_repos: 21
+    pushes_per_repo: 2.6667
     active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -77,58 +77,53 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "betterhtmlchunking"
-    title: "betterhtmlchunking"
-    description: "BetterHTMLChunking is a Python library for intelligent HTML segmentation. It builds a DOM tree from raw HTML and extracts content-rich regions of interest, making content analysis effortless. Great for LLM based processing."
-    language: "Python"
-    topics:
-      - "ai"
-      - "chunking"
-      - "html"
-      - "llm"
-      - "splitting"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-07-05"
   - name: "nanosaas"
     title: "nanosaas"
-    description: "Lightweight microservice platform for managing and tracking computational tasks. Designed with simplicity and scalability in mind."
+    description: "Turn Python functions into credit-based services with FastAPI, TaskIQ, and a built-in web UI."
     language: "Python"
     topics:
       - "alpinejs"
+      - "api"
+      - "asyncio"
+      - "background-task"
       - "fastapi"
-      - "jinja2"
-      - "nanosaas"
+      - "microservices"
+      - "open-source"
+      - "postgresql"
       - "python"
+      - "redis"
       - "saas"
-      - "web"
+      - "self-hosted"
+      - "task-queue"
+      - "taskiq"
+      - "usage-based-billing"
+      - "webhooks"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "webscreencap"
-    title: "webscreencap"
-    description: "A microservice for capturing full-page screenshots and HTML from any URL asynchronously using FastAPI, Celery, and Node.js (Playwright). Results are uploaded to an S3-compatible storage."
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-24"
   - name: "ai-url-aggregator"
     title: "ai-url-aggregator"
     description: "Python tool that uses Perplexity and OpenAI to search the internet for relevant URLs, then filters, deduplicates, and verifies each link’s availability, all in one streamlined workflow."
     language: "Python"
-    topics: []
+    topics:
+      - "artificial-intelligence"
+      - "llm"
+      - "openai"
+      - "perplexity"
+      - "python"
+      - "query-expansion"
+      - "relevance-ranking"
+      - "search-automation"
+      - "semantic-search"
+      - "structured-outputs"
+      - "url-aggregation"
+      - "url-deduplication"
+      - "url-discovery"
+      - "url-validation"
+      - "web-search"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "playwright-splash"
-    title: "playwright-splash"
-    description: "Simple Playwright scraper which receives an URL and returns the website code."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
   - name: "fastapi-lowjs-auth"
     title: "fastapi-lowjs-auth"
     description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
@@ -136,11 +131,44 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
+  - name: "playwright-splash"
+    title: "playwright-splash"
+    description: "Simple Playwright scraper which receives an URL and returns the website code."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "webscreencap"
+    title: "webscreencap"
+    description: "A microservice for capturing full-page screenshots and HTML from any URL asynchronously using FastAPI, TaskIQ, and Node.js (Patchright with Google Chrome). Results are uploaded to an S3-compatible storage."
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "enodia"
+    title: "enodia"
+    description: "Wardriving on foot, without GPS. Offline Wi-Fi positioning from a map you walked yourself."
+    language: "Python"
+    topics:
+      - "geolocation"
+      - "linux"
+      - "offline"
+      - "openstreetmap"
+      - "privacy"
+      - "python"
+      - "radio-fingerprinting"
+      - "wardriving"
+      - "wifi"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # carlosplanchon
 
-56 pushes across 22 repositories on 29 active days in the last 90 days of public GitHub push activity.
+56 pushes across 21 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

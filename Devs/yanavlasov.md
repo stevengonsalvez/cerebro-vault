@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 3, 1, 0, 0, 1, 2, 6, 5, 3, 3, 3]
+pushes_per_week: [2, 0, 4, 0, 0, 0, 2, 1, 6, 6, 2, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 15
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "envoy-dataplane"
-    title: "envoy-dataplane"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
+repos: []
 ---
 
 # yanavlasov

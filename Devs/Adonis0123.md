@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 2, 1, 4, 2, 1]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 0, 0, 2, 3, 2, 2, 5]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 3
-    active_days: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 16
     distinct_repos: 4
-    active_days: 10
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,34 +49,53 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 6
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "adonis-skills"
+    title: "adonis-skills"
+    description: "Agent-agnostic skills for coding agents: review loops, workflow gates, MCP setup, Git delivery and environment audits"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "artificial-intelligence"
+      - "claude-code"
+      - "codex"
+      - "cursor"
+      - "hermes-agent"
+      - "llm"
+      - "machine-learning"
+      - "mcp"
+      - "skills"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "sideby"
     title: "sideby"
     description: "Run work, personal and API-key accounts side by side without config drift. Claude Code, Codex, Grok Build, pi."
@@ -97,28 +116,37 @@ repos:
       - "rate-limits"
       - "typescript"
       - "usage-monitor"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "adonis-skills"
-    title: "adonis-skills"
-    description: "Agent-agnostic skills for coding agents: review loops, workflow gates, MCP setup, Git delivery and environment audits"
-    language: "JavaScript"
+    last_push: "2026-10-25"
+  - name: "mcd-cooldown"
+    title: "mcd-cooldown"
+    description: "终端里的麦当劳 MCP 安全网关：AI 额度冷却、饭点提醒，只核价，确认后才下单 · M-CODE 2026"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "adonis-pi"
+    title: "adonis-pi"
+    description: "Pi Package: permission gate, attention notify, AskUserQuestion tool and multi-account launcher for pi"
+    language: "TypeScript"
     topics:
-      - "agent-skills"
-      - "ai"
-      - "artificial-intelligence"
       - "claude-code"
-      - "codex"
-      - "cursor"
-      - "hermes-agent"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "skills"
-    stars_fact: 4
+      - "coding-agent"
+      - "pi"
+      - "pi-package"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-22"
+  - name: "Adonis0123"
+    title: "Adonis0123"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "hermes-kit"
     title: "hermes-kit"
     description: "Plugins, skills and field notes for running Hermes Agent day to day, plus docs for a patched Hermes fork. Skills also install into Claude Code and Codex."
@@ -132,42 +160,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "mcd-cooldown"
-    title: "mcd-cooldown"
-    description: "终端里的麦当劳 MCP 安全网关：AI 额度冷却、饭点提醒，只核价，确认后才下单 · M-CODE 2026"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "Adonis0123"
-    title: "Adonis0123"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "gemini-chrome-autoinstall"
-    title: "gemini-chrome-autoinstall"
-    description: "Self-healing wrapper that keeps Gemini-in-Chrome working after Chrome updates: watches for version changes and repairs Local State only when it is safe to write. macOS & Windows."
-    language: "PowerShell"
-    topics:
-      - "automation"
-      - "chrome"
-      - "chrome-extension"
-      - "gemini"
-      - "launchd"
-      - "macos"
-      - "shell-script"
-      - "windows"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-04"
 ---
 
 # Adonis0123
 
-12 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Adonis0123

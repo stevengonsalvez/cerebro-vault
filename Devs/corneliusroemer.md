@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 2, 2, 2, 2, 0, 1, 5, 7, 8, 2, 2, 0]
+pushes_per_week: [0, 2, 4, 0, 2, 1, 1, 4, 8, 7, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,23 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "pango-sequences"
+    title: "pango-sequences"
+    description: "Consensus sequences for each Pango lineage"
+    language: "Python"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2025-06-27"
+  - name: "corneliusroemer"
+    title: "corneliusroemer"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-05-19"
   - name: "pango-designation-dates"
     title: "pango-designation-dates"
     description: "Contains dates on which each Pango lineage was designated"
@@ -118,22 +134,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-05-08"
-  - name: "pango-sequences"
-    title: "pango-sequences"
-    description: "Consensus sequences for each Pango lineage"
-    language: "Python"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2025-06-27"
-  - name: "tools"
-    title: "tools"
-    description: "Small self-contained static web tools, published via GitHub Pages"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-28"
 ---
 
 # corneliusroemer

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 6, 8, 4, 3, 0, 1, 11, 8, 0, 3, 1, 0]
+pushes_per_week: [0, 8, 6, 6, 1, 1, 0, 12, 7, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,57 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "TerraBlind"
-    title: "TerraBlind"
-    description: "A Terraria tModLoader mod where an AI fights the bosses: a model answers one question every 200ms, code turns it into keystrokes. Also a full code-only pipeline from fresh world to Wall of Flesh"
-    language: "C#"
-    topics:
-      - "terraria"
-      - "terraria-mod"
-    stars_fact: 77
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "AstrBot_Plugin_Cirno"
-    title: "AstrBot_Plugin_Cirno"
-    description: "一只baka"
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "Tairaria"
-    title: "Tairaria"
-    description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "Jevaria"
-    title: "Jevaria"
-    description: "A Terraria mod aims at letting jev beat some bosses. Jev makes dodge decision."
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "terraria-speedrun-practice-tool-for-mac"
-    title: "terraria-speedrun-practice-tool-for-mac"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "AstrBot_Plugin_Terraria_Server_Manager"
-    title: "AstrBot_Plugin_Terraria_Server_Manager"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-04-04"
+repos: []
 ---
 
 # Reisenbug

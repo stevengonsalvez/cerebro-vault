@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [0, 0, 3, 0, 0, 0, 1, 1, 9, 6, 4, 0, 0]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 1, 1, 14, 3, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 2
-    active_days: 6
+    pushes: 14
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 2
-    active_days: 12
+    pushes: 25
+    distinct_repos: 3
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.1667
+  push_per_day: 1.9231
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 6
+    pushes: 14
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 2
-    pushes_per_repo: 12.0000
-    active_days: 12
+    pushes: 25
+    distinct_repos: 3
+    pushes_per_repo: 8.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jacquard-host"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
   - name: "jacquard-lang"
     title: "jacquard-lang"
     description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
@@ -97,9 +97,9 @@ repos:
       - "ocaml"
       - "probabilistic-programming"
       - "programming-language"
-    stars_fact: 121
+    stars_fact: 122
     first_seen: "2026-07-14T06:00:05.414815+00:00"
-    last_push: "2026-10-07"
+    last_push: "2026-10-26"
   - name: "inkling.nvim"
     title: "inkling.nvim"
     description: "Copilot-style inline completions for Neovim with your choice of model (OpenAI, Anthropic, Ollama) and project-aware context"
@@ -119,7 +119,7 @@ repos:
       - "openai"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-20"
   - name: "wave-intelligence-papers"
     title: "wave-intelligence-papers"
     description: "Controlled Python replications of traveling-wave sequence memory and local synaptic learning"
@@ -148,6 +148,6 @@ repos:
 
 # jbwinters
 
-24 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
+25 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbwinters

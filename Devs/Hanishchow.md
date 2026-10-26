@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 2, 0, 0, 5, 2, 1, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 2, 0, 0, 6, 1, 1, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cityshield-v2"
+    title: "cityshield-v2"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "cityshield"
+    title: "cityshield"
+    description: "One emergency incident record that every responding agency in Bengaluru attaches to. React PWA + Fastify API. Prototype."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "boom"
     title: "boom"
     description: "Celure AI skin-analysis app - Base44 entity schemas for skin profiles, routines, procedures and clinic referrals"
@@ -87,7 +103,35 @@ repos:
       - "skincare"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-23"
+  - name: "Hanishchow"
+    title: "Hanishchow"
+    description: "Profile README for Hanish Chowdary N"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "JellyTech"
+    title: "JellyTech"
+    description: "JellyTech: student-led biotechnology and life-sciences club at Acharya Institute of Technology, Bengaluru. Workshops, research engagement and science communication."
+    language: "JavaScript"
+    topics:
+      - "acharya-institute-of-technology"
+      - "bengaluru"
+      - "biotechnology"
+      - "club-website"
+      - "college-club"
+      - "life-sciences"
+      - "react"
+      - "science-communication"
+      - "student-club"
+      - "vite"
+      - "web"
+      - "webdesign"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "hanishchow.github.io"
     title: "hanishchow.github.io"
     description: "Personal portfolio — a WebGL handheld console you scroll through. Static, no build step."
@@ -98,39 +142,7 @@ repos:
       - "webgl"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "Hanishchow"
-    title: "Hanishchow"
-    description: "Profile README for Hanish Chowdary N"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "cityshield-v2"
-    title: "cityshield-v2"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "narctrace-frontend"
-    title: "narctrace-frontend"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "narctrace-backend"
-    title: "narctrace-backend"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-19"
 ---
 
 # Hanishchow

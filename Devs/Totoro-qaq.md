@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [16, 2, 7, 2, 3, 0, 2, 4, 3, 1, 1, 4, 2]
+pushes_per_week: [16, 4, 7, 1, 2, 1, 1, 4, 3, 1, 2, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 8
+    pushes: 8
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 8
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,14 +79,6 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dsh-plugin-index"
-    title: "dsh-plugin-index"
-    description: "Author-maintained DeepSeek Harness plugin index for Jot and Bridge."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "dsh-plugin-bridge"
     title: "dsh-plugin-bridge"
     description: "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched."
@@ -99,7 +91,39 @@ repos:
       - "dsh-plugin"
       - "preset-migration"
       - "session-migration"
-    stars_fact: 163
+    stars_fact: 164
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "hermes-jot"
+    title: "hermes-jot"
+    description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
+    language: "TypeScript"
+    topics:
+      - "ai-collaboration"
+      - "desktop"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "note-taking"
+      - "notes"
+      - "rich-text-editor"
+      - "todo"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Totoro-qaq"
+    title: "Totoro-qaq"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "dsh-plugin-index"
+    title: "dsh-plugin-index"
+    description: "Author-maintained DeepSeek Harness plugin index for Jot and Bridge."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
   - name: "dsh-jot"
@@ -122,30 +146,6 @@ repos:
       - "todo"
       - "typescript"
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "hermes-jot"
-    title: "hermes-jot"
-    description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
-    language: "TypeScript"
-    topics:
-      - "ai-collaboration"
-      - "desktop"
-      - "hermes-agent"
-      - "hermes-plugin"
-      - "note-taking"
-      - "notes"
-      - "rich-text-editor"
-      - "todo"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "Totoro-qaq"
-    title: "Totoro-qaq"
-    description: "GitHub profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-17"
   - name: "Cobsidian"

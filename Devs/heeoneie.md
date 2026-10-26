@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 2, 0, 0, 0, 3, 0, 2, 0, 0, 1, 3]
+pushes_per_week: [1, 0, 2, 0, 0, 3, 0, 0, 2, 0, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "VOIX"
+    title: "VOIX"
+    description: "음성으로 답하면 AI가 다음 질문을 생성하는 인터랙티브 설문 시스템 (Next.js · Gemini · ElevenLabs)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "algorithm"
+    title: "algorithm"
+    description: "✏️ 알고리즘 문제 풀기"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "paperdeck"
     title: "paperdeck"
     description: "문제집을 카드로 바꿔 풀고 채점하는 학습 도구"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-01-10"
-  - name: "nukki"
-    title: "nukki"
-    description: "AI 이미지 배경 제거 서비스 프론트엔드 (React · Vite)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-20"
-  - name: "nukki-server"
-    title: "nukki-server"
-    description: "U2NET을 직접 구현한 AI 이미지 배경 제거 백엔드 (Flask)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-03"
 ---
 
 # heeoneie

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 0, 1, 3, 0, 0, 0, 4, 2, 2, 1, 1, 3]
+pushes_per_week: [0, 0, 1, 3, 0, 0, 1, 3, 2, 3, 1, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes_per_repo: 1.7500
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -93,9 +93,31 @@ repos:
       - "web"
       - "web-cache"
       - "web-caching"
-    stars_fact: 416
+    stars_fact: 417
     first_seen: null
     last_push: "2026-10-05"
+  - name: "uv-vscode"
+    title: "uv-vscode"
+    description: "A Visual Studio Code extension with support for the Uv package manager."
+    language: "TypeScript"
+    topics:
+      - "package-management"
+      - "uv"
+      - "vscode"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "rfcparser"
+    title: "rfcparser"
+    description: "Rfcparser is a Python tool that makes it easy to parse common RFC syntaxes. Rfcparser takes a raw string as input, parses, validates, and returns Python objects to simplify the processing of RFC syntaxes."
+    language: "Python"
+    topics:
+      - "parsing"
+      - "rfc"
+      - "validator"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-02-18"
   - name: "httpx-aiohttp"
     title: "httpx-aiohttp"
     description: "aiohttp-powered httpx client"
@@ -108,17 +130,6 @@ repos:
     stars_fact: 50
     first_seen: null
     last_push: "2026-07-25"
-  - name: "uv-vscode"
-    title: "uv-vscode"
-    description: "A Visual Studio Code extension with support for the Uv package manager."
-    language: "TypeScript"
-    topics:
-      - "package-management"
-      - "uv"
-      - "vscode"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "ry"
     title: "ry"
     description: "repeat yourself more elegantly"
@@ -135,14 +146,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-02-24"
-  - name: "httpx-metrics"
-    title: "httpx-metrics"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2024-06-23"
 ---
 
 # karpetrosyan

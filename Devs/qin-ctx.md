@@ -8,11 +8,11 @@ provenance_repos:
   - "volcengine/OpenViking"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [5, 0, 3, 2, 3, 1, 3, 8, 10, 4, 0, 6, 1]
+pushes_per_week: [4, 2, 1, 4, 2, 0, 4, 10, 9, 2, 4, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
     active_days: 23
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9565
   repo_per_active_day: 0.2174
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 5
-    pushes_per_repo: 9.2000
+    pushes_per_repo: 9.0000
     active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -76,43 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "qin-ctx"
-    title: "qin-ctx"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "openviking-browser-extension"
-    title: "openviking-browser-extension"
-    description: "Browser extension for saving the current page URL to OpenViking resources"
-    language: "HTML"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-07-03"
-  - name: "openviking-blog"
-    title: "openviking-blog"
-    description: "Standalone OpenViking blog site"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-15"
-  - name: "github-feishu-topic-sync"
-    title: "github-feishu-topic-sync"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-25"
+repos: []
 ---
 
 # qin-ctx
 
-46 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

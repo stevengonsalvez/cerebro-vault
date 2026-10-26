@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [30, 17, 27, 6, 5, 5, 16, 25, 32, 37, 18, 3, 14]
+pushes_per_week: [27, 13, 27, 5, 5, 11, 10, 29, 38, 27, 18, 4, 20]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 5
+    pushes: 20
+    distinct_repos: 6
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 84
     distinct_repos: 14
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 235
+    pushes: 234
     distinct_repos: 25
     active_days: 67
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5075
+  push_per_day: 3.4925
   repo_per_active_day: 0.3731
   not_owned_ratio: 0.2000
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 5
-    pushes_per_repo: 2.8000
+    pushes: 20
+    distinct_repos: 6
+    pushes_per_repo: 3.3333
     active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 82
+    pushes: 84
     distinct_repos: 14
-    pushes_per_repo: 5.8571
+    pushes_per_repo: 6.0000
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 235
+    pushes: 234
     distinct_repos: 25
-    pushes_per_repo: 9.4000
+    pushes_per_repo: 9.3600
     active_days: 67
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
   - name: "opencode-db-viewer"
     title: "opencode-db-viewer"
     description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
@@ -93,7 +93,19 @@ repos:
       - "opencode"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-24"
+  - name: "wechat"
+    title: "wechat"
+    description: "API, command and message handling for WeChat in Rails"
+    language: "Ruby"
+    topics:
+      - "wechat"
+      - "wechat-framework"
+      - "wechat-oauth"
+      - "wechat-sdk"
+    stars_fact: 1348
+    first_seen: null
+    last_push: "2026-07-03"
   - name: "coreui4-rails-starter"
     title: "coreui4-rails-starter"
     description: "The CoreUI 5 Rails starter"
@@ -105,18 +117,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-10-15"
-  - name: "wechat"
-    title: "wechat"
-    description: "API, command and message handling for WeChat in Rails"
-    language: "Ruby"
-    topics:
-      - "wechat"
-      - "wechat-framework"
-      - "wechat-oauth"
-      - "wechat-sdk"
-    stars_fact: 1349
-    first_seen: null
-    last_push: "2026-07-03"
   - name: "vali-admin-rails"
     title: "vali-admin-rails"
     description: "Starting using vali-admin, an Free Bootstrap 4 Admin Template in Rails 5.2"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-235 pushes across 25 repositories on 67 active days in the last 90 days of public GitHub push activity.
+234 pushes across 25 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

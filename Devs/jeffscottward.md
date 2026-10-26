@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [2, 0, 5, 0, 2, 0, 0, 0, 0, 3, 1, 0, 0]
@@ -77,22 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omp-discord-bridge"
-    title: "omp-discord-bridge"
-    description: "Owner-only Discord bridge for the omp coding agent: threads, queue, voice mode, slash commands, sandboxed runs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "omarchy-boot"
-    title: "omarchy-boot"
-    description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "darkfactory"
     title: "darkfactory"
     description: "A modular, Postgres-first, AI-native application foundation."
@@ -110,31 +94,23 @@ repos:
       - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "gzdoom-brutality"
-    title: "gzdoom-brutality"
-    description: "Play GZDoom + Project Brutality while your OMP coding agent works; shows your K/D when it replies"
+    last_push: "2026-10-24"
+  - name: "omarchy-boot"
+    title: "omarchy-boot"
+    description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"
     language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-02"
-  - name: "jeffscottward.github.io"
-    title: "jeffscottward.github.io"
-    description: "Homepage for Front-end Engineer Jeff Scott Ward"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "omarchy-jev"
-    title: "omarchy-jev"
-    description: "Bounded, screenshot-free JEV desktop control for Omarchy, with verified native actions and real-time evidence."
-    language: "JavaScript"
+    last_push: "2026-10-19"
+  - name: "omp-discord-bridge"
+    title: "omp-discord-bridge"
+    description: "Owner-only Discord bridge for the omp coding agent: threads, queue, voice mode, slash commands, sandboxed runs"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-18"
 ---
 
 # jeffscottward

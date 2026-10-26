@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "dffbb846389f9a26"
-pushes_per_week: [0, 1, 8, 3, 3, 0, 2, 3, 4, 4, 2, 4, 0]
+pushes_per_week: [0, 1, 11, 1, 2, 1, 1, 5, 4, 2, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,9 +92,17 @@ repos:
       - "mem0"
       - "mock-interviews"
       - "technical-interview"
-    stars_fact: 1117
+    stars_fact: 1130
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-19"
+  - name: "OpenContextEngine"
+    title: "OpenContextEngine"
+    description: "An efficient, open-source code context engine. Open source deserves world-class code understanding."
+    language: "Python"
+    topics: []
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "AnnaSuSu"
     title: "AnnaSuSu"
     description: null
@@ -103,14 +111,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "OpenContextEngine"
-    title: "OpenContextEngine"
-    description: "An efficient, open-source code context engine. Open source deserves world-class code understanding."
-    language: "Python"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "EvoGraph"
     title: "EvoGraph"
     description: null

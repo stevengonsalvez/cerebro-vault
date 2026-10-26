@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 2, 3, 1, 0, 0, 1, 0, 4, 8, 1, 2, 3]
+pushes_per_week: [3, 2, 3, 1, 0, 0, 1, 0, 6, 6, 1, 2, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 10
+    pushes_per_repo: 3.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Voxal"
+    title: "Voxal"
+    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "gyro"
+    title: "gyro"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "CarLander"
+    title: "CarLander"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "erwann"
+    title: "erwann"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "TrampoVision"
     title: "TrampoVision"
     description: null
@@ -84,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-20"
   - name: "glowgrid"
     title: "glowgrid"
     description: null
@@ -93,38 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-16"
-  - name: "bg-eraser"
-    title: "bg-eraser"
-    description: "Background Eraser tool fully on device"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "erwann"
-    title: "erwann"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "Voxal"
-    title: "Voxal"
-    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "erwannrobin.github.io"
-    title: "erwannrobin.github.io"
-    description: "to serve as erwannrobin.github.io public page"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # ErwannRobin

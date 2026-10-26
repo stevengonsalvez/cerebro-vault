@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 6, 0, 1, 0, 0, 1, 0, 2, 3, 1, 0, 0]
+pushes_per_week: [1, 5, 0, 1, 0, 0, 1, 0, 2, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DiegoC-Agent"
+    title: "DiegoC-Agent"
+    description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "DiegoC-Harness-2.0"
     title: "DiegoC-Harness-2.0"
     description: "Deterministic multi-agent software delivery pipeline built on AgentScope"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-09"
-  - name: "DiegoC-Agent"
-    title: "DiegoC-Agent"
-    description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "agentscope-eval"
     title: "agentscope-eval"
     description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
 ---
 
 # iluv7

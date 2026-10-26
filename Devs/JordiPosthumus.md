@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 5, 29, 20, 1, 0, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 4, 8, 23, 20, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 15
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 7.6667
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,20 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "star-gate"
-    title: "star-gate"
-    description: "One stable endpoint for a local fleet of OpenAI-compatible model servers: session affinity, a continuity door for planned restarts, a loopback dashboard, and opt-in telemetry."
-    language: "JavaScript"
-    topics:
-      - "gateway"
-      - "inference"
-      - "llm"
-      - "local-first"
-      - "nodejs"
-      - "openai-compatible"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "drama3-mac"
     title: "drama3-mac"
     description: "Fish Audio Drama 3 (35B MoE TTS) ported to Apple Silicon — MLX backbone + audio tower, PyTorch DAC codec, fully local. First open Mac/MLX port."
@@ -105,6 +91,20 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-16"
+  - name: "star-gate"
+    title: "star-gate"
+    description: "One stable endpoint for a local fleet of OpenAI-compatible model servers: session affinity, a continuity door for planned restarts, a loopback dashboard, and opt-in telemetry."
+    language: "JavaScript"
+    topics:
+      - "gateway"
+      - "inference"
+      - "llm"
+      - "local-first"
+      - "nodejs"
+      - "openai-compatible"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "pi-quiet-tools"
     title: "pi-quiet-tools"
     description: "4-level tool display for the pi coding agent TUI: name / none / collapsed / full. Cycle with ctrl+shift+o."

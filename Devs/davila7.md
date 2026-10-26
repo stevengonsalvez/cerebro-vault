@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [7, 3, 3, 1, 2, 0, 2, 5, 5, 10, 5, 2, 6]
+pushes_per_week: [5, 2, 3, 1, 2, 1, 1, 6, 5, 9, 5, 3, 8]
 windows:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 3
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 51
-    distinct_repos: 6
-    active_days: 35
+    distinct_repos: 5
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4571
-  repo_per_active_day: 0.1714
+  push_per_day: 1.4167
+  repo_per_active_day: 0.1389
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 18
+    pushes_per_repo: 9.3333
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 51
-    distinct_repos: 6
-    pushes_per_repo: 8.5000
-    active_days: 35
+    distinct_repos: 5
+    pushes_per_repo: 10.2000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-templates"
@@ -86,9 +86,17 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 32718
+    stars_fact: 32905
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "jev-explained"
+    title: "jev-explained"
+    description: "Jev Explained"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "chaos-monkey-coding-agents"
     title: "chaos-monkey-coding-agents"
     description: "Chaos Monkey Benchmark for Coding Agents"
@@ -98,43 +106,39 @@ repos:
       - "coding-agent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "jev-explained"
-    title: "jev-explained"
-    description: "Jev Explained"
-    language: "TypeScript"
+    last_push: "2026-10-25"
+  - name: "claude-managed-agents-cookbook"
+    title: "claude-managed-agents-cookbook"
+    description: "Claude Managed Agents Cookbook"
+    language: "Jupyter Notebook"
     topics: []
     stars_fact: 35
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "fintual_mcp_server"
-    title: "fintual_mcp_server"
-    description: "Fintual MCP Server"
-    language: "Python"
-    topics: []
-    stars_fact: 22
+    last_push: "2026-10-11"
+  - name: "claude-code-cli-training"
+    title: "claude-code-cli-training"
+    description: "Claude Code Training"
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-code-skills"
+    stars_fact: 18
     first_seen: null
-    last_push: "2025-05-23"
+    last_push: "2026-05-11"
   - name: "davila7"
     title: "davila7"
     description: "Profile"
     language: null
     topics: []
-    stars_fact: 35
+    stars_fact: 36
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "repo-planets"
-    title: "repo-planets"
-    description: "Repo Planets"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-06-10"
+    last_push: "2026-10-22"
 ---
 
 # davila7
 
-51 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
+51 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/davila7

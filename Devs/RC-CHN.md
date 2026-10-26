@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 4, 13, 2, 0, 0, 3, 4, 14, 3, 0, 1, 0]
+pushes_per_week: [3, 3, 13, 2, 0, 3, 0, 4, 17, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 9
-    distinct_repos: 4
+    distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 9
-    active_days: 23
+    pushes: 47
+    distinct_repos: 10
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3913
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.2222
+  push_per_day: 1.9583
+  repo_per_active_day: 0.4167
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 9
-    pushes_per_repo: 5.1111
-    active_days: 23
+    pushes: 47
+    distinct_repos: 10
+    pushes_per_repo: 4.7000
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ARTEX"
-    title: "ARTEX"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "astrbot-plugin-hindsight-connector"
-    title: "astrbot-plugin-hindsight-connector"
-    description: "Opt-in, UMO-isolated Hindsight memory connector for AstrBot"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "command-code-reverse"
-    title: "command-code-reverse"
-    description: "Converts Command Code API to OpenAI chat completions"
-    language: "Go"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "Project-Veil"
-    title: "Project-Veil"
-    description: "Beneath notice. Beyond reach."
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "astrbot_plugin_the_Big-3_Chinese_AI_conferences"
-    title: "astrbot_plugin_the_Big-3_Chinese_AI_conferences"
-    description: "亿万人将要精读中文顶会"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-12-03"
-  - name: "ReuleauxCoder"
-    title: "ReuleauxCoder"
-    description: "Reinventing the wheel, but only for those who prefer it non-circular."
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-10-07"
+repos: []
 ---
 
 # RC-CHN
 
-46 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+47 pushes across 10 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

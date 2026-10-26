@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 2, 0]
+pushes_per_week: [4, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "k8s-sig-network-2026-summary"
+    title: "k8s-sig-network-2026-summary"
+    description: "A summary of sig-network activity in Kubernetes for 2026"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "agent-substrate-utils"
     title: "agent-substrate-utils"
     description: "Support utilities for Agent Substrate development"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-10"
-  - name: "k8s-utils"
-    title: "k8s-utils"
-    description: "Misc utilities for Kubernetes"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-06-03"
 ---
 
 # bowei

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-lmstudio"
+    title: "opencode-lmstudio"
+    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 154
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "resume"
     title: "resume"
     description: "Universal coding-agent session interchange CLI (handoff / transplant) — Claude, Codex, Grok, Cursor, OpenCode, Pi on Effect v4"
@@ -88,14 +96,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-16"
-  - name: "opencode-lmstudio"
-    title: "opencode-lmstudio"
-    description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 155
-    first_seen: null
-    last_push: "2026-09-11"
   - name: "sandbox-file-transfer-bridge"
     title: "sandbox-file-transfer-bridge"
     description: "Approved file transfer bridge: HTTPS fetch → Actions artifact → ChatGPT sandbox /mnt/data"
@@ -121,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-23"
   - name: "effect-zfs"
     title: "effect-zfs"
     description: "Effect v4 library for Linux OpenZFS"
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-21"
 ---
 
 # agustif

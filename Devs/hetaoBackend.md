@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [4, 2, 0, 1, 2, 0, 1, 12, 7, 8, 1, 0, 1]
+pushes_per_week: [4, 2, 1, 0, 2, 0, 1, 14, 8, 5, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-pyautogui-server"
+    title: "mcp-pyautogui-server"
+    description: "A MCP (Model Context Protocol) server that provides automated GUI testing and control capabilities through PyAutoGUI."
+    language: "Python"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2025-04-02"
+  - name: "mcp-github-trending"
+    title: "mcp-github-trending"
+    description: "MCP server for getting github trending repos & developers"
+    language: "Python"
+    topics: []
+    stars_fact: 62
+    first_seen: null
+    last_push: "2026-03-18"
   - name: "comic-alpha"
     title: "comic-alpha"
     description: "The Magic Repository For Comic Auto-Generation"
@@ -85,14 +101,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-10-16"
-  - name: "mcp-github-trending"
-    title: "mcp-github-trending"
-    description: "MCP server for getting github trending repos & developers"
-    language: "Python"
-    topics: []
-    stars_fact: 60
-    first_seen: null
-    last_push: "2026-03-18"
   - name: "mcode-evolve"
     title: "mcode-evolve"
     description: "A coding agent that learns the repository it works in."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 115
     first_seen: null
     last_push: "2025-10-24"
-  - name: "harness-tap"
-    title: "harness-tap"
-    description: "Trace OpenAI Chat Completions traffic from configurable harnesses through a local reverse proxy."
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-13"
 ---
 
 # hetaoBackend

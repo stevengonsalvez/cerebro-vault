@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [9, 4, 11, 3, 0, 0, 4, 7, 20, 0, 0, 0, 2]
+pushes_per_week: [9, 4, 13, 1, 0, 1, 4, 6, 20, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "programmer-soft-skills"
+    title: "programmer-soft-skills"
+    description: "程序员的软技能"
+    language: "Vue"
+    topics: []
+    stars_fact: 490
+    first_seen: null
+    last_push: "2022-06-30"
   - name: ".doom.d"
     title: ".doom.d"
     description: "Personal doom emacs configs"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-08-27"
-  - name: "youtube-reader"
-    title: "youtube-reader"
-    description: "CLI to turn YouTube transcripts into readable articles (supports API, yt-dlp subtitles, and Whisper transcription)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-02-03"
 ---
 
 # forrestchang

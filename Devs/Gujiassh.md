@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [6, 1, 12, 3, 1, 1, 0, 1, 7, 2, 0, 0, 2]
+pushes_per_week: [3, 0, 13, 3, 1, 0, 0, 1, 9, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 36
-    distinct_repos: 7
+    pushes: 33
+    distinct_repos: 8
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3889
+  push_per_day: 1.8333
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 36
-    distinct_repos: 7
-    pushes_per_repo: 5.1429
+    pushes: 33
+    distinct_repos: 8
+    pushes_per_repo: 4.1250
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,26 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sceneweave"
+    title: "sceneweave"
+    description: "Open-source, self-hosted editor and runtime for data-driven Three.js scenes, digital twins, IoT visualization, and embeddable WebGL viewers."
+    language: "TypeScript"
+    topics:
+      - "3d"
+      - "data-visualization"
+      - "digital-twin"
+      - "gltf"
+      - "iot"
+      - "open-source"
+      - "react"
+      - "scene-editor"
+      - "self-hosted"
+      - "threejs"
+      - "typescript"
+      - "webgl"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "citeframe"
     title: "citeframe"
     description: "Citeframe is a self-hosted multimodal AI knowledge workspace for organizing heterogeneous assets, asking evidence-grounded questions, conducting research, and preserving traceable knowledge."
@@ -88,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-20"
   - name: "Gujiassh"
     title: "Gujiassh"
     description: null
@@ -96,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-20"
   - name: "ferricov"
     title: "ferricov"
     description: "Parity-first Rust reimplementation of LCOV 2.5 with a reproducible Oracle; 148-case baseline; environment, tracefile, diagnostics, and 321-entry installation contracts; plus a 531-entry behavior plan."
@@ -145,30 +165,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-06"
-  - name: "sceneweave"
-    title: "sceneweave"
-    description: "Open-source, self-hosted editor and runtime for data-driven Three.js scenes, digital twins, IoT visualization, and embeddable WebGL viewers."
-    language: "TypeScript"
-    topics:
-      - "3d"
-      - "data-visualization"
-      - "digital-twin"
-      - "gltf"
-      - "iot"
-      - "open-source"
-      - "react"
-      - "scene-editor"
-      - "self-hosted"
-      - "threejs"
-      - "typescript"
-      - "webgl"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
 ---
 
 # Gujiassh
 
-36 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gujiassh

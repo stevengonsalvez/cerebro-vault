@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "qqc_keyboard_test"
+    title: "qqc_keyboard_test"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "mcmai-docs"
     title: "mcmai-docs"
     description: null
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-20"
-  - name: "qqc_keyboard_test"
-    title: "qqc_keyboard_test"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-18"
   - name: "voicevox-plugin"
     title: "voicevox-plugin"
     description: null

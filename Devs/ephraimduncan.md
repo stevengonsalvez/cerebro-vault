@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 1, 1, 1, 5, 1, 1, 1, 2, 4, 0, 0, 0]
+pushes_per_week: [3, 1, 1, 1, 5, 2, 0, 1, 3, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,69 +77,64 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "blocks"
-    title: "blocks"
-    description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1848
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "opencode-cursor"
-    title: "opencode-cursor"
-    description: "Use your cursor subscription in opencode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 282
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "duncan.land"
-    title: "duncan.land"
-    description: "✨ My personal website. Built using Next.js and deployed on Vercel."
-    language: "TypeScript"
-    topics:
-      - "contentlayer"
-      - "mdx"
-      - "nextjs"
-      - "portfolio"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "minimal-youtube"
-    title: "minimal-youtube"
-    description: "Minimal YouTube is an extension that replaces the YouTube UI with a minimal design containing no recommendations, shorts, or distractions."
-    language: "JavaScript"
-    topics:
-      - "brave"
-      - "browser"
-      - "browser-extension"
-      - "chrome"
-      - "chrome-extension"
-      - "firefox"
-      - "firefox-extension"
-    stars_fact: 301
-    first_seen: null
-    last_push: "2024-06-23"
-  - name: "minimal.so"
-    title: "minimal.so"
-    description: "simple bookmarking for everyone"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 167
-    first_seen: null
-    last_push: "2026-06-12"
   - name: "weekday"
     title: "weekday"
     description: "open source google calendar"
     language: "TypeScript"
     topics: []
-    stars_fact: 190
+    stars_fact: 189
     first_seen: null
     last_push: "2026-09-01"
+  - name: "blocks"
+    title: "blocks"
+    description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1851
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "minimal.so"
+    title: "minimal.so"
+    description: "simple bookmarking for everyone"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 166
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "shadcn-playground"
+    title: "shadcn-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-07-10"
+  - name: "opencode-cursor"
+    title: "opencode-cursor"
+    description: "Use your cursor subscription in opencode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 283
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "mac-download-manager"
+    title: "mac-download-manager"
+    description: "Open source download manager for Mac"
+    language: "Swift"
+    topics:
+      - "download-manager"
+      - "download-manager-tools"
+      - "downloader"
+      - "free-download-manager"
+      - "mac-download-manager"
+      - "macos"
+      - "manager"
+      - "moltix"
+      - "swift"
+      - "swiftui"
+    stars_fact: 88
+    first_seen: null
+    last_push: "2026-03-24"
 ---
 
 # ephraimduncan

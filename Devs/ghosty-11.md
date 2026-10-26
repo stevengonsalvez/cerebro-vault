@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 9, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 8, 5, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,76 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hermes-web-research"
-    title: "hermes-web-research"
-    description: "Web access for a privileged Hermes profile without web tools — a typed, fail-closed hop through a quarantined profile in a separate process"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "hermes-agent"
-      - "plugin"
-      - "prompt-injection"
-      - "python"
-      - "security"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "hermes-discord-ambient"
-    title: "hermes-discord-ambient"
-    description: "Ambient presence for Hermes Agent Discord bots: lurk, react, occasionally join, and choose silence. Subclasses the bundled adapter instead of forking it."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "discord"
-      - "discord-bot"
-      - "hermes-agent"
-      - "plugin"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "hermes-mailbox"
-    title: "hermes-mailbox"
-    description: "Local append-only cross-harness mailbox with narrow Hermes and OMP adapters"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "hermes-agent"
-      - "local-first"
-      - "message-queue"
-      - "oh-my-pi"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "hermes-omp-broker"
-    title: "hermes-omp-broker"
-    description: "Typed local Hermes-to-OMP delegation boundary with policy, schema, skill and tests"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "hermes-agent"
-      - "oh-my-pi"
-      - "policy-as-code"
-      - "python"
-      - "unix-socket"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "hermes-trace"
-    title: "hermes-trace"
-    description: "Per-session evidence of what a Hermes agent actually did — skills exposed vs activated, tool calls, API cost, as bounded events plus a compact TraceCard"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "hermes-agent"
-      - "observability"
-      - "plugin"
-      - "python"
-      - "tracing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
   - name: "hermes-optmem-tools"
     title: "hermes-optmem-tools"
     description: "OptMem as Hermes Agent tools — persistent agent memory without shell access"
@@ -160,7 +90,76 @@ repos:
       - "python"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-10-24"
+  - name: "hermes-trace"
+    title: "hermes-trace"
+    description: "Per-session evidence of what a Hermes agent actually did — skills exposed vs activated, tool calls, API cost, as bounded events plus a compact TraceCard"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "hermes-agent"
+      - "observability"
+      - "plugin"
+      - "python"
+      - "tracing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "hermes-stackbook"
+    title: "hermes-stackbook"
+    description: "Workload-neutral guide to a local, reviewable, provider-swappable personal AI agent stack with Hermes and optional OMP modules"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "hermes-agent"
+      - "local-first"
+      - "oh-my-pi"
+      - "self-hosted"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "hermes-web-research"
+    title: "hermes-web-research"
+    description: "Web access for a privileged Hermes profile without web tools — a typed, fail-closed hop through a quarantined profile in a separate process"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "hermes-agent"
+      - "plugin"
+      - "prompt-injection"
+      - "python"
+      - "security"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "hermes-mailbox"
+    title: "hermes-mailbox"
+    description: "Local append-only cross-harness mailbox with narrow Hermes and OMP adapters"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "hermes-agent"
+      - "local-first"
+      - "message-queue"
+      - "oh-my-pi"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "hermes-discord-ambient"
+    title: "hermes-discord-ambient"
+    description: "Ambient presence for Hermes Agent Discord bots: lurk, react, occasionally join, and choose silence. Subclasses the bundled adapter instead of forking it."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "discord"
+      - "discord-bot"
+      - "hermes-agent"
+      - "plugin"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # ghosty-11

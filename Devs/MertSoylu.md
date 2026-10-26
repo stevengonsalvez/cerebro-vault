@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 2, 0, 0, 0, 1, 2, 5, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 1, 3, 4, 1, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 2
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2222
-  repo_per_active_day: 0.2222
+  push_per_day: 1.3000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,96 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 9
+    pushes_per_repo: 6.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "noble"
-    title: "noble"
-    description: "A retro-futurist HUD terminal workspace: real shells, git projects, system sensors and AI coding quota in one cockpit. Rust + ratatui."
-    language: "Rust"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "developer-tools"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "terminal-emulator"
-      - "tui"
-      - "windows"
-      - "workspace"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "Portfolio"
-    title: "Portfolio"
-    description: "A clean and modern portfolio to showcase my projects and skills."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "MertSoylu"
-    title: "MertSoylu"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "cv-orman"
-    title: "cv-orman"
-    description: "See my project in 3D forest"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "aislopfixer"
-    title: "aislopfixer"
-    description: "Terminal TUI that finds and fixes AI-generated slop in local web projects. Fully offline, rule-based, no API keys"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-01"
-  - name: "WalkKittie_App"
-    title: "WalkKittie_App"
-    description: "WalkKittie Source Codes"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-14"
+repos: []
 ---
 
 # MertSoylu
 
-11 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+13 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MertSoylu

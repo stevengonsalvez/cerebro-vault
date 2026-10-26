@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [0, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -101,9 +101,9 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 36942
+    stars_fact: 37389
     first_seen: "2026-06-23T06:00:02.599193+00:00"
-    last_push: "2026-10-05"
+    last_push: "2026-10-19"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -116,15 +116,7 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "Powerful-Websites-You-Should-Know-About"
-    title: "Powerful-Websites-You-Should-Know-About"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 31
+    stars_fact: 60
     first_seen: null
     last_push: "2026-04-30"
   - name: "ai-animated-website"
@@ -132,23 +124,38 @@ repos:
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 33
+    stars_fact: 34
     first_seen: null
     last_push: "2026-01-22"
+  - name: "movies-for-ai-agents"
+    title: "movies-for-ai-agents"
+    description: "Your personal AI movie buddy"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-04-30"
   - name: "agent-recall"
     title: "agent-recall"
     description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
     language: "JavaScript"
     topics: []
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
     last_push: "2026-09-27"
-  - name: "jcodesmore-plugins"
-    title: "jcodesmore-plugins"
-    description: "All my plugins for AI agents"
-    language: null
-    topics: []
-    stars_fact: 16
+  - name: "ai-chrome-extension-template"
+    title: "ai-chrome-extension-template"
+    description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "chrome-extension"
+      - "claude-code"
+      - "codex"
+      - "mv3"
+      - "skills"
+      - "template"
+    stars_fact: 13
     first_seen: null
     last_push: "2026-08-15"
 ---

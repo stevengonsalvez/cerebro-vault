@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 1, 1, 0, 0, 2, 2, 9, 9, 2, 0, 4]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 2, 2, 10, 9, 1, 0, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 5
-    active_days: 8
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 8
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5333
+  push_per_day: 1.9375
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 8
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 15
+    pushes_per_repo: 3.8750
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Nativerate"
@@ -91,9 +91,9 @@ repos:
       - "menu-bar-app"
       - "sample-rate"
       - "swift"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
   - name: "overflow"
     title: "overflow"
     description: "OBS Studio plugin that sends program video and audio to Apple TVs and Roku TVs in other rooms over AirPlay. For overflow rooms, lobbies and multi-room church AV."
@@ -116,7 +116,7 @@ repos:
       - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-18"
   - name: "projection-mirror"
     title: "projection-mirror"
     description: "Mirror a Mac display to Panasonic PT-F300-family network projectors over LAN — independent, unofficial interoperability tool"
@@ -137,6 +137,6 @@ repos:
 
 # dizzysound
 
-30 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
+31 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dizzysound

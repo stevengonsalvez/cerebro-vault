@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 0, 0, 0, 0, 1, 1, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 1, 2, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "github-trending-analyzer"
-    title: "github-trending-analyzer"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
+  - name: "markindex"
+    title: "markindex"
+    description: "Vectorless, structure-first retrieval over large Markdown libraries for AI agents — a TypeScript take on PageIndex for Markdown (CLI + MCP + AI SDK)"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "bm25"
+      - "markdown"
+      - "mcp"
+      - "pageindex"
+      - "rag"
+      - "typescript"
+      - "vectorless"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-23"
   - name: "douban-mcp"
     title: "douban-mcp"
     description: "面向 agent 的豆瓣 MCP server + CLI：电影/图书查询、个人收藏管理；同时支持 Claude Desktop (stdio/SSE) 与 Claude Code/OpenClaw 等命令行 agent。"
@@ -98,9 +106,17 @@ repos:
       - "mcp"
       - "model-context-protocol"
       - "typescript"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
     last_push: "2026-07-25"
+  - name: "github-trending-analyzer"
+    title: "github-trending-analyzer"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "ClawForge"
     title: "ClawForge"
     description: "🦞 The Ultimate Resource for OpenClaw: Skills, MCP Servers, and Agentic Intelligence. Powering the next generation of personal AI assistants."
@@ -131,14 +147,6 @@ repos:
   - name: "obsidian-html-viewer"
     title: "obsidian-html-viewer"
     description: "Secure sandboxed HTML previews for Obsidian"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-19"
-  - name: "obsidian-inline-comments"
-    title: "obsidian-inline-comments"
-    description: "Obsidian inline comment threads with Feishu-style replies (AI Comments plugin)"
     language: "TypeScript"
     topics: []
     stars_fact: 1

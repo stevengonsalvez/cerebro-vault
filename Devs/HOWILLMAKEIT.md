@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 1, 0, 1, 1, 1, 0, 2, 1, 0, 2, 0, 1]
+pushes_per_week: [2, 1, 0, 1, 1, 1, 1, 1, 1, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -82,8 +82,10 @@ repos:
     description: "DeepSeek Harness 插件：一键匹配模型上下文窗口，展示容量来源，支持勾选批量配置、已有窗口管理和手动编辑。"
     language: "JavaScript"
     topics:
+      - "cliproxyapi"
       - "context-window"
       - "cordis"
+      - "cpa"
       - "deepseek-harness"
       - "dsh"
       - "dsh-plugin"
@@ -91,9 +93,9 @@ repos:
       - "llm"
       - "model-metadata"
       - "pi-ai"
-    stars_fact: 34
+    stars_fact: 30
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "skills"
     title: "skills"
     description: "howill 个人维护的 Agent Skills 合集"
@@ -106,7 +108,7 @@ repos:
       - "deepseek-harness"
       - "llm"
       - "skills"
-    stars_fact: 12
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-14"
   - name: "make-chatgpt-agent"

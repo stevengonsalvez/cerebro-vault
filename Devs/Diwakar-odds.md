@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "6d3bd03b49986330"
 pushes_per_week: [0, 5, 6, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cognibloom-survey"
+    title: "cognibloom-survey"
+    description: "Interactive Retro Diagnostic Questionnaire & Waitlist web app for Cognibloom built with Next.js 16 and Neon Serverless PostgreSQL"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "AeroTwin-AI-SIH26249"
     title: "AeroTwin-AI-SIH26249"
     description: "AI-Driven Predictive Maintenance & Fleet Availability Platform for Military Aircraft | SIH 2026 | PS ID: 26249 | Ministry of Defence & DSSC"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-24"
-  - name: "Ai_Job_Hunter"
-    title: "Ai_Job_Hunter"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-13"
 ---
 
 # Diwakar-odds

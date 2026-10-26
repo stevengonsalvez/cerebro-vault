@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [10, 6, 0, 0, 4, 0, 0, 3, 18, 3, 0, 0, 0]
+pushes_per_week: [13, 3, 0, 1, 3, 0, 0, 4, 17, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,29 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gwae"
+    title: "gwae"
+    description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "cli-agents"
+      - "conpty"
+      - "developer-tools"
+      - "gwae"
+      - "macos"
+      - "multiplexer"
+      - "niri"
+      - "rust"
+      - "terminal"
+      - "terminal-multiplexer"
+      - "tiling-window-manager"
+      - "tui"
+      - "windows"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "hwatu"
     title: "hwatu"
     description: "Headless verification browser for AI coding agents: 35 ms one-call checks, pixel diffs, live human hand-off"
@@ -99,7 +122,7 @@ repos:
       - "wayland"
       - "webkit"
       - "webkitgtk"
-    stars_fact: 116
+    stars_fact: 118
     first_seen: null
     last_push: "2026-10-17"
   - name: "hongnoul.github.io"
@@ -108,29 +131,6 @@ repos:
     language: "HTML"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "gwae"
-    title: "gwae"
-    description: "Infinite scroll terminal multiplexer and agent orchestrator for macOS"
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli-agents"
-      - "conpty"
-      - "developer-tools"
-      - "gwae"
-      - "macos"
-      - "multiplexer"
-      - "niri"
-      - "rust"
-      - "terminal"
-      - "terminal-multiplexer"
-      - "tiling-window-manager"
-      - "tui"
-      - "windows"
-    stars_fact: 14
     first_seen: null
     last_push: "2026-10-17"
   - name: "emma"

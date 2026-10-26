@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [18, 6, 10, 6, 4, 0, 2, 9, 15, 6, 9, 16, 4]
+pushes_per_week: [19, 5, 14, 2, 4, 0, 3, 8, 15, 7, 12, 14, 2]
 windows:
   "7d":
     pushes: 4
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
-    distinct_repos: 16
-    active_days: 15
-    repos_not_owned: 12
-    not_owned_basenames: 11
+    pushes: 39
+    distinct_repos: 15
+    active_days: 14
+    repos_not_owned: 11
+    not_owned_basenames: 10
     not_owned_owners: 8
   "90d":
     pushes: 105
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 44
-    distinct_repos: 16
-    pushes_per_repo: 2.7500
-    active_days: 15
-    repos_not_owned: 12
-    not_owned_basenames: 11
+    pushes: 39
+    distinct_repos: 15
+    pushes_per_repo: 2.6000
+    active_days: 14
+    repos_not_owned: 11
+    not_owned_basenames: 10
     not_owned_owners: 8
   "90d":
     pushes: 105
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "msgpack5"
-    title: "msgpack5"
-    description: "A msgpack v5 implementation for node.js, with extension points / msgpack.org[Node]"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 504
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "skills"
-    title: "skills"
-    description: "My own collection of skills for modern Node.js development"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1953
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "mcp-ripgrep"
-    title: "mcp-ripgrep"
-    description: "An MCP server to wrap ripgrep"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2025-04-29"
-  - name: "close-with-grace"
-    title: "close-with-grace"
-    description: "Exit your process, gracefully (if possible) - for Node.js"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 305
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "autocannon"
-    title: "autocannon"
-    description: "fast HTTP/1.1 benchmarking tool written in Node.js"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 8530
-    first_seen: null
-    last_push: "2026-05-16"
-  - name: "make-promises-safe"
-    title: "make-promises-safe"
-    description: "A node.js module to make the use of promises safe"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 663
-    first_seen: null
-    last_push: "2024-12-21"
+repos: []
 ---
 
 # mcollina

@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [3, 0, 1, 2, 0, 0, 2, 7, 9, 2, 0, 2, 4]
+pushes_per_week: [3, 1, 0, 2, 0, 2, 0, 7, 9, 2, 0, 2, 6]
 windows:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 11
-    distinct_repos: 7
+    distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 34
     distinct_repos: 14
-    active_days: 18
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7778
-  repo_per_active_day: 0.7778
+  push_per_day: 1.7895
+  repo_per_active_day: 0.7368
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -50,34 +50,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 34
     distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 18
+    pushes_per_repo: 2.4286
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "karigor"
+    title: "karigor"
+    description: "Software agents that take an idea to deployed, maintained software, with no human involvement after the idea. Free and open source."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "ResearchScope"
     title: "ResearchScope"
     description: "Open-source research intelligence for CS papers — track what matters, who drives it, what to read first, and where the research gaps are."
@@ -101,9 +109,9 @@ repos:
       - "research-gaps"
       - "research-intelligence"
       - "research-tools"
-    stars_fact: 112
+    stars_fact: 111
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "kishormorol"
     title: "kishormorol"
     description: null
@@ -111,7 +119,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "bangla-multimodal-political-stance"
+    title: "bangla-multimodal-political-stance"
+    description: "Political stance detection in Bangla news from headline and image: dataset pipeline, text and vision-language baselines, and the evaluation protocol behind the paper."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "cli-faq-shortcuts"
     title: "cli-faq-shortcuts"
     description: "Turn repeated Claude Code, Codex, and Cursor prompts into reusable slash commands. Local Python history extractor + Agent Skill."
@@ -137,9 +153,9 @@ repos:
       - "skill"
       - "slash-commands"
       - "workflow-automation"
-    stars_fact: 131
+    stars_fact: 132
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-24"
   - name: "thinkdiff"
     title: "thinkdiff"
     description: "Comparative visualization of LLM reasoning traces — see how Claude, DeepSeek, and GPT think about the same problem"
@@ -156,27 +172,11 @@ repos:
       - "visualization"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "vibescope"
-    title: "vibescope"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "bangla-multimodal-political-stance"
-    title: "bangla-multimodal-political-stance"
-    description: "Political stance detection in Bangla news from headline and image: dataset pipeline, text and vision-language baselines, and the evaluation protocol behind the paper."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-24"
 ---
 
 # kishormorol
 
-32 pushes across 14 repositories on 18 active days in the last 90 days of public GitHub push activity.
+34 pushes across 14 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kishormorol

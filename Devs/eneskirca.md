@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [5, 2, 25, 7, 3, 0, 0, 3, 14, 22, 2, 5, 0]
+pushes_per_week: [4, 3, 24, 7, 3, 0, 0, 3, 17, 20, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.1875
+  push_per_day: 2.8065
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 6
-    pushes_per_repo: 14.6667
-    active_days: 32
+    pushes_per_repo: 14.5000
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2037
+    stars_fact: 2108
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "raw-motion"
     title: "raw-motion"
     description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-88 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+87 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

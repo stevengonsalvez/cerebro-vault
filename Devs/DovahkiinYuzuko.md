@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 3, 9, 0, 1, 0, 1, 0, 3, 0, 6, 0, 3]
+pushes_per_week: [3, 3, 9, 0, 1, 0, 1, 0, 3, 0, 6, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 9
-    active_days: 18
+    pushes: 29
+    distinct_repos: 8
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.5000
+  push_per_day: 1.7059
+  repo_per_active_day: 0.4706
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 9
-    pushes_per_repo: 3.3333
-    active_days: 18
+    pushes: 29
+    distinct_repos: 8
+    pushes_per_repo: 3.6250
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "i-hate-decimal-calc"
@@ -94,7 +94,32 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "local-issues-skill"
+    title: "local-issues-skill"
+    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "fuck-agy-skills"
+    title: "fuck-agy-skills"
+    description: "[ENG]CLI tool that synchronizes Agent Skills (~/.agents/skills) to Google Antigravity (~/.gemini/config/skills) via physical copying. / [JPN]Agent Skills（~/.agents/skills）をGoogle Antigravity（~/.gemini/config/skills）へ物理コピーで同期するCLIツール。"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "antigravity"
+      - "bun"
+      - "cli"
+      - "cross-runtime"
+      - "gemini"
+      - "nodejs"
+      - "skills"
+      - "synchronizer"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "KanColle-Yuzuko-Blog"
     title: "KanColle-Yuzuko-Blog"
     description: "ユズコの艦これ個人攻略ブログ"
@@ -135,39 +160,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-06"
-  - name: "local-issues-skill"
-    title: "local-issues-skill"
-    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "myuujik"
-    title: "myuujik"
-    description: "[ENG] High-performance, multi-format TUI music player with WASAPI exclusive mode, 10-band EQ, synchronized lyrics, and FFT visualizer / [JPN] WASAPI排他モード・10バンドEQ・歌詞同期・FFTアナライザーを搭載した高性能TUI音楽プレーヤー"
-    language: "Rust"
-    topics:
-      - "audio-player"
-      - "cli"
-      - "cross-platform"
-      - "equalizer"
-      - "lrc"
-      - "lyrics"
-      - "music-player"
-      - "ratatui"
-      - "rust"
-      - "spectrum-analyzer"
-      - "terminal"
-      - "tui"
-      - "wasapi"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-03"
 ---
 
 # DovahkiinYuzuko
 
-30 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
+29 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DovahkiinYuzuko

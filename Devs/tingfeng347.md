@@ -8,23 +8,23 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 2, 1, 5, 2, 0, 0, 3, 1, 2, 2, 1, 2]
+pushes_per_week: [2, 2, 1, 7, 0, 0, 1, 2, 2, 2, 2, 0, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 7
+    pushes: 8
+    distinct_repos: 7
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 7
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tingfeng347"
-    title: "tingfeng347"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "windvim"
-    title: "windvim"
-    description: "WindVim 是基于 LazyVim 的个人定制 Neovim 配置，面向习惯终端开发、希望使用中文界面并结合 AI 编程工具的用户。沿用 LazyVim 的插件生态、语言支持与快捷键，再加入一套可以直接使用的界面与工作区配置。"
-    language: "Lua"
-    topics:
-      - "code"
-      - "lazyvim"
-      - "nvim"
-      - "terminal"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "windplay"
-    title: "windplay"
-    description: "WindPlay 是一个网页创意实验场，收录点云人像、粒子动画、交互艺术和小游戏。 这里的每个作品都可以独立开发与构建，也可以随着想法成熟继续扩展。"
-    language: "HTML"
-    topics:
-      - "css"
-      - "game"
-      - "html"
-      - "website"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "dsh-vscode-workbench"
-    title: "dsh-vscode-workbench"
-    description: "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "dsh-plugin-market"
-      - "vscode-theme"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "tingfeng347.github.io"
-    title: "tingfeng347.github.io"
-    description: "这是我的静态个人网站"
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mactools"
-    title: "mactools"
-    description: "macOS 工具集：Homebrew 软件管理、环境诊断、清理、镜像与 AI 编程工具。ma install / maci"
-    language: "Python"
-    topics:
-      - "homebrew"
-      - "macos"
-      - "terminal-app"
-      - "tools"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-22"
+repos: []
 ---
 
 # tingfeng347

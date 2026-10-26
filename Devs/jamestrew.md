@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -81,24 +81,24 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [4, 0, 2, 3, 4, 0, 1, 2, 2, 6, 3, 0, 1]
+pushes_per_week: [4, 0, 2, 6, 1, 0, 2, 1, 7, 1, 3, 0, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 2
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 2
     active_days: 19
     repos_not_owned: 0
@@ -106,7 +106,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4737
+  push_per_day: 1.5789
   repo_per_active_day: 0.1053
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -118,25 +118,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 14.0000
+    pushes_per_repo: 15.0000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -146,6 +146,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-bites"
+    title: "pi-bites"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "nvim"
     title: "nvim"
     description: "BLAZINGLY typical, personal neovim config"
@@ -156,7 +164,7 @@ repos:
       - "neovim-configuration"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
   - name: "nixos-config"
     title: "nixos-config"
     description: "my nixos config"
@@ -164,15 +172,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "pi-bites"
-    title: "pi-bites"
+    last_push: "2026-10-25"
+  - name: "synapse.nvim"
+    title: "synapse.nvim"
     description: null
-    language: "TypeScript"
+    language: "Lua"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-21"
   - name: "rustwasm-sweeper"
     title: "rustwasm-sweeper"
     description: "minesweeper in the browser using full rust with wasm"
@@ -189,18 +197,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2023-03-02"
-  - name: "sql-parse"
-    title: "sql-parse"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-10-19"
 ---
 
 # jamestrew
 
-28 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamestrew

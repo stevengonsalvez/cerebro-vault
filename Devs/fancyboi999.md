@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 1, 6, 3, 1, 1, 2, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 1, 0, 8, 2, 0, 1, 2, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 10
+    pushes: 19
+    distinct_repos: 11
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3846
-  repo_per_active_day: 0.7692
+  push_per_day: 1.4615
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 10
-    pushes_per_repo: 1.8000
+    pushes: 19
+    distinct_repos: 11
+    pushes_per_repo: 1.7273
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -81,6 +81,34 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-engineering-from-scratch-zh"
+    title: "ai-engineering-from-scratch-zh"
+    description: "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 542 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南"
+    language: "Python"
+    topics:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "ai-engineering"
+      - "chinese"
+      - "chinese-translation"
+      - "computer-vision"
+      - "course"
+      - "deep-learning"
+      - "from-scratch"
+      - "generative-ai"
+      - "learn-ai"
+      - "llm"
+      - "machine-learning"
+      - "mcp"
+      - "nlp"
+      - "python"
+      - "reinforcement-learning"
+      - "transformers"
+      - "tutorial"
+    stars_fact: 1283
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "goofish-cli"
     title: "goofish-cli"
     description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
@@ -97,9 +125,42 @@ repos:
       - "typer"
       - "websocket"
       - "xianyu"
-    stars_fact: 331
+    stars_fact: 365
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-26"
+  - name: "weixin_search_mcp"
+    title: "weixin_search_mcp"
+    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+    language: "Python"
+    topics: []
+    stars_fact: 195
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "open-tag"
+    title: "open-tag"
+    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
+    language: "TypeScript"
+    topics:
+      - "agentic-workflows"
+      - "agents"
+      - "ai-agents"
+      - "chatops"
+      - "claude-code"
+      - "claude-tag"
+      - "codex"
+      - "collaboration"
+      - "llm"
+      - "local-first"
+      - "loop-engineering"
+      - "multi-agent"
+      - "openai-codex"
+      - "self-hosted"
+      - "slack-alternative"
+      - "typescript"
+      - "websocket"
+    stars_fact: 213
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -125,87 +186,21 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 286
+    stars_fact: 293
     first_seen: null
     last_push: "2026-09-30"
-  - name: "open-tag"
-    title: "open-tag"
-    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
-    language: "TypeScript"
-    topics:
-      - "agentic-workflows"
-      - "agents"
-      - "ai-agents"
-      - "chatops"
-      - "claude-code"
-      - "claude-tag"
-      - "codex"
-      - "collaboration"
-      - "llm"
-      - "local-first"
-      - "loop-engineering"
-      - "multi-agent"
-      - "openai-codex"
-      - "self-hosted"
-      - "slack-alternative"
-      - "typescript"
-      - "websocket"
-    stars_fact: 212
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "ai-engineering-from-scratch-zh"
-    title: "ai-engineering-from-scratch-zh"
-    description: "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南"
-    language: "Python"
-    topics:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "chinese"
-      - "chinese-translation"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "from-scratch"
-      - "generative-ai"
-      - "learn-ai"
-      - "llm"
-      - "machine-learning"
-      - "mcp"
-      - "nlp"
-      - "python"
-      - "reinforcement-learning"
-      - "transformers"
-      - "tutorial"
-    stars_fact: 1251
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+  - name: "daily-hot-mcp"
+    title: "daily-hot-mcp"
+    description: "获取每日最新热点内容，为大模型提供信息获取的mcp服务"
     language: "Python"
     topics: []
-    stars_fact: 189
+    stars_fact: 33
     first_seen: null
-    last_push: "2026-08-17"
-  - name: "claude-style-illustration"
-    title: "claude-style-illustration"
-    description: "Claude-inspired editorial illustrations: one idea, a few bold marks. An Agent Skill with seven original examples."
-    language: null
-    topics:
-      - "agent-skills"
-      - "claude"
-      - "codex"
-      - "illustration"
-      - "image-generation"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2025-07-06"
 ---
 
 # fancyboi999
 
-18 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
+19 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fancyboi999

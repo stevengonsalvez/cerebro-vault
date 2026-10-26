@@ -8,39 +8,39 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 3, 2, 0, 0, 2, 0, 0, 8, 7, 5, 0, 12]
+pushes_per_week: [3, 3, 2, 0, 0, 2, 0, 0, 8, 11, 1, 0, 22]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 5
+    pushes: 22
+    distinct_repos: 9
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 10
-    active_days: 11
+    pushes: 42
+    distinct_repos: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 10
-    active_days: 18
+    pushes: 52
+    distinct_repos: 13
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5556
+  push_per_day: 2.7368
+  repo_per_active_day: 0.6842
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,72 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 22
+    distinct_repos: 9
+    pushes_per_repo: 2.4444
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 10
-    pushes_per_repo: 3.2000
-    active_days: 11
+    pushes: 42
+    distinct_repos: 13
+    pushes_per_repo: 3.2308
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 10
-    pushes_per_repo: 4.2000
-    active_days: 18
+    pushes: 52
+    distinct_repos: 13
+    pushes_per_repo: 4.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "TestImpactAnalysis.jl"
-    title: "TestImpactAnalysis.jl"
-    description: "Test impact analysis (regression test selection) for Julia packages: run only the tests a change can affect"
-    language: "Julia"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "generic-ballot-roper-ids"
-    title: "generic-ballot-roper-ids"
-    description: "A collection of generic ballot questions from Roper's iPoll"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2022-09-18"
-  - name: "Bombe.jl"
-    title: "Bombe.jl"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-07-05"
-  - name: "ParadaCarleton"
-    title: "ParadaCarleton"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-05-21"
+repos: []
 ---
 
 # ParadaCarleton
 
-42 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
+52 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ParadaCarleton

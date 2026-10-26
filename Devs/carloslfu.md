@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [7, 0, 2, 2, 1, 0, 4, 1, 6, 13, 11, 1, 4]
+pushes_per_week: [7, 0, 2, 3, 0, 0, 4, 3, 4, 19, 5, 1, 9]
 windows:
   "7d":
-    pushes: 4
+    pushes: 9
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 36
     distinct_repos: 3
-    active_days: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 57
     distinct_repos: 6
-    active_days: 23
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2609
-  repo_per_active_day: 0.2609
+  push_per_day: 2.3750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 10
+    pushes_per_repo: 12.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 57
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 23
+    pushes_per_repo: 9.5000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -101,17 +101,17 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 477
+    stars_fact: 497
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-10-16"
-  - name: "rewire"
-    title: "rewire"
-    description: "A browser language model laboratory. Chat, teach, and take apart real models on your device."
-    language: "TypeScript"
+    last_push: "2026-10-26"
+  - name: "sevra-app"
+    title: "sevra-app"
+    description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and Slotstream."
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-25"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for the VibeCraft CLI (https://vibecraft.so)"
@@ -119,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-22"
   - name: "db.md"
     title: "db.md"
     description: "Your database is a folder of markdown files, and the agent is the engine. The open standard for databases in plain files. No vector store, ever."
@@ -143,7 +143,15 @@ repos:
       - "second-brain"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-22"
+  - name: "rewire"
+    title: "rewire"
+    description: "A browser language model laboratory. Chat, teach, and take apart real models on your device."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "carloslfu"
     title: "carloslfu"
     description: "Carlos Galarza: Executable Rationality and efficient AI."
@@ -152,24 +160,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
-  - name: "xstate-router"
-    title: "xstate-router"
-    description: "XState Router. Add routes to your XState machine."
-    language: "TypeScript"
-    topics:
-      - "javascript"
-      - "react"
-      - "state-machine"
-      - "state-management"
-      - "statecharts"
-      - "xstate"
-    stars_fact: 115
-    first_seen: null
-    last_push: "2023-01-04"
 ---
 
 # carloslfu
 
-52 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
+57 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

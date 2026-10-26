@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 6, 6, 3, 1, 0, 8, 10, 11, 4, 2, 4, 4]
+pushes_per_week: [4, 6, 6, 3, 1, 1, 9, 8, 12, 3, 3, 5, 2]
 windows:
   "7d":
     pushes: 4
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 6
-    active_days: 13
+    pushes: 17
+    distinct_repos: 5
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 6
-    pushes_per_repo: 3.3333
-    active_days: 13
+    pushes: 17
+    distinct_repos: 5
+    pushes_per_repo: 3.4000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -87,45 +87,9 @@ repos:
       - "astro"
       - "blog"
       - "minimalist"
-    stars_fact: 39
+    stars_fact: 38
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "skills"
-    title: "skills"
-    description: "我的个人 AI Agent Skills 集合，覆盖开发、设计、研究"
-    language: "HTML"
-    topics:
-      - "skills"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "Pai"
-    title: "Pai"
-    description: "用 Python 从零搭建一个完整的 AI 编程助手系统：统一 LLM 调用 + Agent 编排内核 + 飞书 IM 桥接"
-    language: "Python"
-    topics:
-      - "agent"
-      - "feishu"
-      - "python"
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "video2article"
-    title: "video2article"
-    description: "把视频/播客重写成「阅读版本」文章的 Agent Skill：YouTube 字幕、小宇宙官方逐字稿、本地 ASR"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "wutongyuonce"
-    title: "wutongyuonce"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
   - name: "pi-extensions"
     title: "pi-extensions"
     description: "pi-extensions 集合"
@@ -136,7 +100,42 @@ repos:
       - "pi-extension"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
+  - name: "Trajex"
+    title: "Trajex"
+    description: "数万行散落的 Claude Code、Codex 与 Pi JSONL 会话，索引至同一个 SQLite 中： Agent 可通过 CLI 实现毫秒级查询，用户可通过 App 直观浏览｜Past Claude Code, Codex, Pi sessions -- queryable by your agent, browsable by you"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 125
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "wutongyuonce"
+    title: "wutongyuonce"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "PlainBlog"
+    title: "PlainBlog"
+    description: "黑白极简 Astro 静态博客模板"
+    language: "JavaScript"
+    topics:
+      - "astro"
+      - "blog"
+      - "template"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "FoldBar"
+    title: "FoldBar"
+    description: "A minimal macOS menu bar drawer with persistent icon ordering"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # wutongyuonce

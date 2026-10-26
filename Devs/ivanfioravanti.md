@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,52 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "chatbot-ollama"
+    title: "chatbot-ollama"
+    description: "Chatbot Ollama is an open source chat UI for Ollama."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1897
+    first_seen: null
+    last_push: "2025-09-05"
+  - name: "tflops_mps"
+    title: "tflops_mps"
+    description: "TFLOPs testing on MPS and CUDA"
+    language: "Python"
+    topics:
+      - "cuda"
+      - "mps"
+      - "tflops"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-08-26"
+  - name: "lmstudio_hf"
+    title: "lmstudio_hf"
+    description: "A command-line utility to manage MLX models between your Hugging Face cache and LM Studio."
+    language: "Python"
+    topics: []
+    stars_fact: 90
+    first_seen: null
+    last_push: "2025-11-11"
+  - name: "llm_context_benchmarks"
+    title: "llm_context_benchmarks"
+    description: "📊 LLM Context Benchmarks - A comprehensive benchmarking tool for testing LLMs with varying context sizes using Ollama. Features dual benchmark modes (API/CLI), automatic hardware detection (optimized for Apple Silicon), visual performance charts."
+    language: "Python"
+    topics:
+      - "ai"
+      - "benchmarking"
+      - "llms"
+    stars_fact: 105
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "fasterliveportrait-mlx"
+    title: "fasterliveportrait-mlx"
+    description: "Apple MLX port of FasterLivePortrait for Apple Silicon"
+    language: "Python"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-06-24"
   - name: "qwen-image-mps"
     title: "qwen-image-mps"
     description: "Qwen Image models through MPS"
@@ -89,55 +135,6 @@ repos:
     stars_fact: 274
     first_seen: null
     last_push: "2025-12-31"
-  - name: "chatbot-ollama"
-    title: "chatbot-ollama"
-    description: "Chatbot Ollama is an open source chat UI for Ollama."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1895
-    first_seen: null
-    last_push: "2025-09-05"
-  - name: "llm_context_benchmarks"
-    title: "llm_context_benchmarks"
-    description: "📊 LLM Context Benchmarks - A comprehensive benchmarking tool for testing LLMs with varying context sizes using Ollama. Features dual benchmark modes (API/CLI), automatic hardware detection (optimized for Apple Silicon), visual performance charts."
-    language: "Python"
-    topics:
-      - "ai"
-      - "benchmarking"
-      - "llms"
-    stars_fact: 102
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "fasterliveportrait-mlx"
-    title: "fasterliveportrait-mlx"
-    description: "Apple MLX port of FasterLivePortrait for Apple Silicon"
-    language: "Python"
-    topics: []
-    stars_fact: 41
-    first_seen: null
-    last_push: "2026-06-24"
-  - name: "hn_local_image"
-    title: "hn_local_image"
-    description: "Turn the Hacker News front page into local AI art. Powered by mlx-vlm, MFlux, and Apple Silicon."
-    language: "Python"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "XPoll"
-    title: "XPoll"
-    description: "Self-hosted, privacy-conscious 'pick up to N' community poll with live results"
-    language: "Python"
-    topics:
-      - "cloudflare-tunnel"
-      - "fastapi"
-      - "mlx"
-      - "poll"
-      - "privacy"
-      - "self-hosted"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # ivanfioravanti

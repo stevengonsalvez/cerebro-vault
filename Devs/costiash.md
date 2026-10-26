@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [4, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -104,7 +104,7 @@ repos:
       - "prompt-engineering"
     stars_fact: 55
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
   - name: "termcraft"
     title: "termcraft"
     description: null

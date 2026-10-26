@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 4, 1, 0, 5, 4, 2, 2, 1, 2, 3]
+pushes_per_week: [0, 0, 0, 5, 0, 0, 5, 4, 2, 2, 3, 2, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 9
-    active_days: 7
+    pushes: 12
+    distinct_repos: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 27
     distinct_repos: 15
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8462
-  repo_per_active_day: 1.1538
+  push_per_day: 1.9286
+  repo_per_active_day: 1.0714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -49,113 +49,120 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 9
-    pushes_per_repo: 1.0000
-    active_days: 7
+    pushes: 12
+    distinct_repos: 10
+    pushes_per_repo: 1.2000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 27
     distinct_repos: 15
-    pushes_per_repo: 1.6000
-    active_days: 13
+    pushes_per_repo: 1.8000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dockndevai.github.io"
-    title: "dockndevai.github.io"
-    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "mcp-core"
-    title: "mcp-core"
-    description: "Shared safe-by-default governance library for the dockndevai MCP server suite: capability/mode gating, resource allowlist + protected resources + opt-in flags, human-in-the-loop elicitation, symlink-safe path canonicalization, audit, and a buildServer + create-mcp-server scaffold."
-    language: "TypeScript"
-    topics:
-      - "governance"
-      - "library"
-      - "mcp"
-      - "model-context-protocol"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "mcp-macos"
-    title: "mcp-macos"
-    description: "Safe-by-default MCP server to observe & operate a Mac — files, processes, apps, shell, AppleScript, GUI."
+  - name: "mcp-grafana"
+    title: "mcp-grafana"
+    description: "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "mcp-android"
-    title: "mcp-android"
-    description: "MCP server to control an Android device over ADB — screenshots, taps, typing, app launch, alarms, notifications — safe-by-default with access modes and gated destructive ops."
-    language: "TypeScript"
-    topics:
-      - "adb"
-      - "android"
-      - "device-control"
-      - "llm"
-      - "mcp"
-      - "mobile"
-      - "model-context-protocol"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "mcp-ios"
-    title: "mcp-ios"
-    description: "MCP server to drive a physical iPhone/iPad over Appium + WebDriverAgent (XCUITest) — safe-by-default with access modes and gated destructive ops."
-    language: "TypeScript"
-    topics:
-      - "appium"
-      - "device-control"
-      - "ios"
-      - "llm"
-      - "mcp"
-      - "mobile"
-      - "model-context-protocol"
-      - "webdriveragent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "laya-guard"
-    title: "laya-guard"
-    description: null
-    language: "Python"
-    topics:
-      - "ai-safety"
-      - "guardrails"
-      - "laya"
-      - "mcp"
-      - "policy"
-      - "python"
-      - "security"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-26"
+  - name: "mcp-kafka"
+    title: "mcp-kafka"
+    description: "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags."
+    language: "TypeScript"
+    topics:
+      - "apache-kafka"
+      - "kafka"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "observability"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "mcp-percona-pg"
+    title: "mcp-percona-pg"
+    description: "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags."
+    language: "TypeScript"
+    topics:
+      - "devops"
+      - "kubernetes"
+      - "mcp"
+      - "model-context-protocol"
+      - "percona"
+      - "pgbouncer"
+      - "postgresql"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "mcp-teams"
+    title: "mcp-teams"
+    description: "Safe-by-default MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "llm"
+      - "mcp"
+      - "microsoft-365"
+      - "microsoft-graph"
+      - "microsoft-teams"
+      - "model-context-protocol"
+      - "teams"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "mcp-outlook"
+    title: "mcp-outlook"
+    description: "Safe-by-default MCP server for Microsoft Outlook mail (Microsoft Graph) — read, search, draft, send, reply, forward and organize email, with browser sign-in."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "email"
+      - "llm"
+      - "mcp"
+      - "microsoft-365"
+      - "microsoft-graph"
+      - "model-context-protocol"
+      - "outlook"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "mcp-keycloak"
+    title: "mcp-keycloak"
+    description: "MCP server for Keycloak — multi-realm admin with security modes (read-only/read-write/admin) and access-control flags."
+    language: "TypeScript"
+    topics:
+      - "iam"
+      - "keycloak"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # dockndevai
 
-24 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
+27 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dockndevai

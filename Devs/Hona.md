@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 8, 34, 7, 28, 5, 5, 20, 11, 11, 14, 12, 10]
+pushes_per_week: [6, 7, 35, 8, 25, 9, 2, 22, 8, 22, 3, 19, 11]
 windows:
   "7d":
     pushes: 11
-    distinct_repos: 5
+    distinct_repos: 2
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 55
     distinct_repos: 8
-    active_days: 15
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 177
     distinct_repos: 12
-    active_days: 51
+    active_days: 52
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3922
-  repo_per_active_day: 0.2353
+  push_per_day: 3.4038
+  repo_per_active_day: 0.2308
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -50,55 +50,63 @@ automation:
 facets:
   "7d":
     pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
     active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 55
     distinct_repos: 8
-    pushes_per_repo: 5.8750
-    active_days: 15
+    pushes_per_repo: 6.8750
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 177
     distinct_repos: 12
-    pushes_per_repo: 14.4167
-    active_days: 51
+    pushes_per_repo: 14.7500
+    active_days: 52
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "quantum-cava-hrtp-paper"
-    title: "quantum-cava-hrtp-paper"
-    description: null
-    language: "TeX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "dotnet-opencode"
     title: "dotnet-opencode"
     description: "A 1:1 OpenCode V2 port in C# and .NET 11, currently in development."
     language: "C#"
     topics: []
-    stars_fact: 78
+    stars_fact: 79
     first_seen: null
     last_push: "2026-09-05"
+  - name: "mesh"
+    title: "mesh"
+    description: "Tiny native binary that joins your devices into an opencode mesh"
+    language: "Rust"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "Hona"
+    title: "Hona"
+    description: "Profile README.md"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-06-25"
   - name: "playsrc"
     title: "playsrc"
     description: "Play Team Fortress 2 in the browser"
     language: "TypeScript"
     topics: []
-    stars_fact: 27
+    stars_fact: 28
     first_seen: null
     last_push: "2026-09-01"
   - name: "opencode-desktop-extensions"
@@ -106,29 +114,21 @@ repos:
     description: "Mod loader for OpenCode Desktop"
     language: "TypeScript"
     topics: []
-    stars_fact: 19
+    stars_fact: 20
     first_seen: null
     last_push: "2026-09-08"
-  - name: "openeval"
-    title: "openeval"
-    description: "Typed prompt-and-judge SDK, CLI, and evidence viewer for agent evaluations"
-    language: "TypeScript"
+  - name: "gpui"
+    title: "gpui"
+    description: "gpui 0.2.2 with a Wayland keymap crash fix, used by anomalyco/hex until upstream fixes it"
+    language: "Rust"
     topics: []
-    stars_fact: 73
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "temple-oc"
-    title: "temple-oc"
-    description: "Public domain coding station for OpenCode. HolyC first. White field. Red frame. Oracle ready."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-04-11"
+    last_push: "2026-10-19"
 ---
 
 # Hona
 
-173 pushes across 12 repositories on 51 active days in the last 90 days of public GitHub push activity.
+177 pushes across 12 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

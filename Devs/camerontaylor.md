@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 1, 1, 0, 4, 33, 31, 27, 14, 4, 5]
+pushes_per_week: [0, 0, 1, 1, 0, 0, 8, 35, 26, 26, 14, 5, 6]
 windows:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 58
     distinct_repos: 4
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 122
     distinct_repos: 5
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0000
+  push_per_day: 4.0667
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 58
     distinct_repos: 4
-    pushes_per_repo: 16.2500
-    active_days: 17
+    pushes_per_repo: 14.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 122
     distinct_repos: 5
-    pushes_per_repo: 24.0000
+    pushes_per_repo: 24.4000
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # camerontaylor
 
-120 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+122 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/camerontaylor

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [9, 0, 0, 2, 0, 0, 3, 16, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 0, 0, 2, 0, 0, 3, 16, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2857
+  push_per_day: 4.1429
   repo_per_active_day: 0.5714
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 4
-    pushes_per_repo: 7.5000
+    pushes_per_repo: 7.2500
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -77,47 +77,38 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "reverse-api-engineer"
+    title: "reverse-api-engineer"
+    description: "Reverse engineer any website into a typed API client. Works with Claude Code, Codex, Cursor and OpenCode."
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "api-client"
+      - "api-reverse-engineering"
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "har"
+      - "mcp"
+      - "openapi"
+      - "playwright"
+      - "reverse-engineering"
+      - "scraping"
+      - "unofficial-api"
+      - "web-scraping"
+    stars_fact: 1931
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "ats-scrapers"
     title: "ats-scrapers"
     description: "Open-source ATS job library"
     language: "Python"
     topics: []
-    stars_fact: 179
+    stars_fact: 186
     first_seen: null
     last_push: "2026-09-24"
-  - name: "reverse-api-engineer"
-    title: "reverse-api-engineer"
-    description: "The agent that turns websites into APIs!"
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "claude"
-      - "cli"
-      - "mcp"
-      - "openapi"
-      - "playwright"
-      - "scraping"
-      - "web-scraping"
-    stars_fact: 1406
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "the-browser-arena"
-    title: "the-browser-arena"
-    description: "A simple way to test different browser agents with multiple models"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "stapply"
-    title: "stapply"
-    description: "Apply to tech jobs in one click"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 107
-    first_seen: null
-    last_push: "2026-05-13"
   - name: "map"
     title: "map"
     description: "An open-source job-data + geospatial visualization platform for tech roles."
@@ -132,6 +123,22 @@ repos:
     stars_fact: 25
     first_seen: null
     last_push: "2026-06-22"
+  - name: "the-browser-arena"
+    title: "the-browser-arena"
+    description: "A simple way to test different browser agents with multiple models"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "stapply"
+    title: "stapply"
+    description: "Apply to tech jobs in one click"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "computer-use-cli"
     title: "computer-use-cli"
     description: "Computer-use CLI for coding agents — screenshots, recordings, mouse, keyboard"
@@ -144,6 +151,6 @@ repos:
 
 # kalil0321
 
-30 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+29 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kalil0321

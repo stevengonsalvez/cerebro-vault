@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 2, 6, 0, 0, 0, 1, 3, 4, 6, 12, 5, 3]
+pushes_per_week: [0, 2, 6, 0, 0, 1, 0, 3, 6, 10, 9, 3, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 6
-    active_days: 14
+    pushes: 26
+    distinct_repos: 5
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 6
-    pushes_per_repo: 4.6667
-    active_days: 14
+    pushes: 26
+    distinct_repos: 5
+    pushes_per_repo: 5.2000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,23 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 75
+    stars_fact: 81
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
+  - name: "fashion-skill"
+    title: "fashion-skill"
+    description: "Personal AI stylist skill for Claude Code and Claude Cowork — wardrobe inventory, outfit recommendations, pre-purchase checks, in-store mode, and more."
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-code-skill"
+      - "fashion"
+      - "style"
+      - "wardrobe"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-05-18"
   - name: "vinted-mcp-cli"
     title: "vinted-mcp-cli"
     description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
@@ -118,28 +132,9 @@ repos:
       - "model-context-protocol"
       - "secondhand"
       - "vinted"
-    stars_fact: 15
+    stars_fact: 18
     first_seen: null
     last_push: "2026-10-07"
-  - name: "health-skill"
-    title: "health-skill"
-    description: "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last."
-    language: "Python"
-    topics:
-      - "anthropic"
-      - "care-navigation"
-      - "claude"
-      - "claude-code"
-      - "claude-code-skill"
-      - "family-health"
-      - "health"
-      - "local-first"
-      - "longevity"
-      - "productivity"
-      - "wearables"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "googlarz"
     title: "googlarz"
     description: "GitHub profile README"
@@ -147,21 +142,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "fashion-skill"
-    title: "fashion-skill"
-    description: "Personal AI stylist skill for Claude Code and Claude Cowork — wardrobe inventory, outfit recommendations, pre-purchase checks, in-store mode, and more."
-    language: null
-    topics:
-      - "anthropic"
-      - "claude-code"
-      - "claude-code-skill"
-      - "fashion"
-      - "style"
-      - "wardrobe"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-05-18"
+    last_push: "2026-10-24"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null
@@ -169,7 +150,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-23"
+  - name: "math-skill"
+    title: "math-skill"
+    description: "A Claude skill for rigorously solving math problems — equations, proofs, optimization, geometry, and more, with step-by-step reasoning and verification."
+    language: "Python"
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-code-skill"
+      - "education"
+      - "math"
+      - "mathematics"
+      - "skill"
+      - "sympy"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-03-22"
 ---
 
 # googlarz

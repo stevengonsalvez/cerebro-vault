@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 2, 4, 0, 0, 0, 1, 4, 4, 4, 4, 0, 1]
+pushes_per_week: [0, 2, 4, 0, 0, 0, 1, 5, 4, 4, 3, 0, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 7
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 11
     active_days: 19
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2632
+  push_per_day: 1.3684
   repo_per_active_day: 0.5789
   not_owned_ratio: 0.1818
   basename_concentration: 0.1818
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 13
     distinct_repos: 7
-    pushes_per_repo: 1.5714
+    pushes_per_repo: 1.8571
     active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 24
+    pushes: 26
     distinct_repos: 11
-    pushes_per_repo: 2.1818
+    pushes_per_repo: 2.3636
     active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -84,7 +84,20 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "image-prompt"
+    title: "image-prompt"
+    description: "A source-attributed AI image prompt atlas: 474 examples, 22 categories, static SEO pages and a read-only agent API."
+    language: "JavaScript"
+    topics:
+      - "agent-api"
+      - "cloudflare-workers"
+      - "image-generation"
+      - "open-source"
+      - "prompts"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -110,7 +123,7 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 186
+    stars_fact: 192
     first_seen: null
     last_push: "2026-04-12"
   - name: "recruit-ai-framework"
@@ -120,7 +133,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-19"
   - name: "project-watchtower"
     title: "project-watchtower"
     description: "Bounded health monitoring for Digidai public projects"
@@ -137,28 +150,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "writer"
-    title: "writer"
-    description: "A quiet, input-focused writing surface on the Cloudflare stack. You write; an AI agent files everything away."
-    language: "JavaScript"
-    topics:
-      - "ai-agent"
-      - "cloudflare-workers"
-      - "cloudflare-workflows"
-      - "d1"
-      - "kimi"
-      - "markdown-editor"
-      - "r2"
-      - "serverless"
-      - "workers-ai"
-      - "writing-app"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
 ---
 
 # Digidai
 
-24 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+26 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Digidai

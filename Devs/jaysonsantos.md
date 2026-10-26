@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 3, 8, 23, 6, 3, 8, 10]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 2, 8, 23, 7, 5, 5, 10]
 windows:
   "7d":
     pushes: 10
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 27
     distinct_repos: 6
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 6.5000
-    active_days: 11
+    pushes_per_repo: 4.5000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,22 +77,22 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hermes-deepgram-voice-plugin"
+    title: "hermes-deepgram-voice-plugin"
+    description: "Deepgram Aura TTS and Nova STT plugin for Hermes Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-06"
   - name: "thinwire"
     title: "thinwire"
     description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "pi-agent-celld-spike"
-    title: "pi-agent-celld-spike"
-    description: "A spike: Pi Durable on celld with OpenSandbox as the execution environment, as one Helm chart. Five agents implement a feature, and a new pod continues the work."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-25"
   - name: "bunderwar"
     title: "bunderwar"
     description: "My up-to date docker images with renovate and arm64/amd64 support"
@@ -100,31 +100,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "blog"
-    title: "blog"
-    description: "Personal blog: Astro static site on Cloudflare Workers"
-    language: "Astro"
+    last_push: "2026-10-25"
+  - name: "python-binary-memcached"
+    title: "python-binary-memcached"
+    description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
+    language: "Python"
+    topics: []
+    stars_fact: 167
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "beno-arena"
+    title: "beno-arena"
+    description: "Multiplayer snake game written in beni, with Cloudflare Workers and Durable Objects."
+    language: "Elm"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "fastest-scan"
-    title: "fastest-scan"
-    description: "Make a PDF from a phone video of the pages of a book: cropped, flat, and without glare. A Zig library and a command-line program."
-    language: "Zig"
+    last_push: "2026-10-24"
+  - name: "pi-agent-celld-spike"
+    title: "pi-agent-celld-spike"
+    description: "A spike: Pi Durable on celld with OpenSandbox as the execution environment, as one Helm chart. Five agents implement a feature, and a new pod continues the work."
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "scanwich"
-    title: "scanwich"
-    description: "Make image-based PDFs searchable with pluggable OCR backends"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-24"
 ---
 
 # jaysonsantos

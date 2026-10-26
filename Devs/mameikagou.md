@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,14 +80,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skill-forge"
-    title: "skill-forge"
-    description: "use opus as your brain，and use minimax as your cheap hands。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "mameikagou"
     title: "mameikagou"
     description: null
@@ -95,7 +87,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "garmin-quota-watch"
+    title: "garmin-quota-watch"
+    description: "Garmin Connect IQ widgets for AI subscription quotas and Tibo reset announcements."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "skill-forge"
+    title: "skill-forge"
+    description: "use opus as your brain，and use minimax as your cheap hands。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "cedar"
     title: "cedar"
     description: "Cedar — vanilla HTML/CSS/JavaScript frontend, FastAPI + uv backend, PostgreSQL"
@@ -104,22 +112,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-08"
-  - name: "code-name-three"
-    title: "code-name-three"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-14"
-  - name: "code-name-two"
-    title: "code-name-two"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-12"
 ---
 
 # mameikagou

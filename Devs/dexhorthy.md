@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-22T06:05:29.861706+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4ff4c21b5a15c319"
   - "6a454934fcba31af"
@@ -86,7 +86,7 @@ repos:
     description: "a curation of questionably-useful coding agent plugins"
     language: "HTML"
     topics: []
-    stars_fact: 51
+    stars_fact: 52
     first_seen: null
     last_push: "2026-03-18"
   - name: "better-github"

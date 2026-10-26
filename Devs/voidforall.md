@@ -9,23 +9,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [3, 0, 0, 3, 0, 0, 1, 1, 2, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 3, 0, 1, 1, 0, 2, 1, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -83,50 +83,9 @@ repos:
     description: "堪舆子 · 传统风水顾问 Claude Code Skill —— 三元玄空飞星、八宅明镜、择日学"
     language: null
     topics: []
-    stars_fact: 325
+    stars_fact: 355
     first_seen: null
     last_push: "2026-09-20"
-  - name: "ai-newspaper"
-    title: "ai-newspaper"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "vibepress-voidforall"
-    title: "vibepress-voidforall"
-    description: "A self-publishing daily newspaper, built with vibepress."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "videos"
-    title: "videos"
-    description: "Agent-generated technical explainer videos"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "awesome-video-as-code"
-    title: "awesome-video-as-code"
-    description: "Video creation through code written or directed by AI agents"
-    language: "JavaScript"
-    topics:
-      - "agentic-video"
-      - "ai-video"
-      - "awesome"
-      - "awesome-list"
-      - "creative-coding"
-      - "hyperframes"
-      - "motion-graphics"
-      - "remotion"
-      - "video-as-code"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Personal dotfiles: shell, git, starship, gh, Claude Code"
@@ -134,7 +93,39 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-26"
+    last_push: "2026-10-25"
+  - name: "vibepress-voidforall"
+    title: "vibepress-voidforall"
+    description: "A self-publishing daily newspaper, built with vibepress."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "mutoscope-demo"
+    title: "mutoscope-demo"
+    description: "Live demo reels for mutoscope (https://github.com/voidforall/mutoscope): published reels and their viewer discussions"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "mutoscope"
+    title: "mutoscope"
+    description: "Turn PRs, codebases, concepts and incidents into interactive, discussable animated reels — an agent skill + CLI, model-agnostic"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "videos"
+    title: "videos"
+    description: "Agent-generated technical explainer videos"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # voidforall

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 1, 6, 0, 0, 0, 2, 1, 2, 0, 2, 0, 2]
+pushes_per_week: [2, 2, 5, 0, 0, 1, 1, 1, 2, 0, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,31 @@ repos:
     topics: []
     stars_fact: 58
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "waydroid-a17-nvidia"
+    title: "waydroid-a17-nvidia"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "dingtalk-wayland-screenshare"
+    title: "dingtalk-wayland-screenshare"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "cagedbird.cn"
+    title: "cagedbird.cn"
+    description: "CagedBird's personal engineering blog and lab notes."
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "cagedbird043"
     title: "cagedbird043"
     description: "Profile source for CagedBird — systems, games, and upstream work."
@@ -101,30 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "brilliant-sort"
-    title: "brilliant-sort"
-    description: "Deterministic Brilliant Sort core, Harness & playable web demo / 确定性核心、Harness 与可玩 Web Demo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "dingtalk-wayland-screenshare"
-    title: "dingtalk-wayland-screenshare"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-13"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for cagedbird-maintained packages"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
 ---
 
 # cagedbird043

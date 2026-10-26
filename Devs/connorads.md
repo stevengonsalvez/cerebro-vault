@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 3]
@@ -77,6 +77,30 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "@connorads dotfiles 🟢"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "remobi"
+    title: "remobi"
+    description: "📱 Your terminal. Everywhere."
+    language: "TypeScript"
+    topics:
+      - "mobile"
+      - "node"
+      - "pwa"
+      - "terminal"
+      - "tmux"
+      - "touch"
+      - "ttyd"
+      - "typescript"
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "t3code-patched"
     title: "t3code-patched"
     description: "T3 Code nightly built with Nix, plus local patches"
@@ -84,15 +108,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "@connorads dotfiles 🟢"
-    language: "TypeScript"
+    last_push: "2026-10-20"
+  - name: "wildside"
+    title: "wildside"
+    description: "Wildside is an independent reimplementation of SEGA's Kid Chameleon engine in Rust"
+    language: "Rust"
     topics: []
-    stars_fact: 16
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-05"
   - name: "mise"
     title: "mise"
     description: "@connorads mise guide 🪓"
@@ -101,14 +125,6 @@ repos:
     stars_fact: 176
     first_seen: null
     last_push: "2025-11-05"
-  - name: "wildside"
-    title: "wildside"
-    description: "Wildside is an independent reimplementation of SEGA's Kid Chameleon engine in Rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "bb-release-notes-spike"
     title: "bb-release-notes-spike"
     description: "Throwaway: e2e test of CHANGELOG-driven release notes for get-bb/bb"
@@ -117,14 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-10"
-  - name: "who-gets-what"
-    title: "who-gets-what"
-    description: "UK benefit spending and claimants for every constituency and council in Great Britain"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # connorads

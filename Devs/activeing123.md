@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 0, 2, 4, 1, 0, 4, 1, 1, 9, 0, 2, 3]
+pushes_per_week: [0, 1, 3, 2, 1, 2, 2, 1, 1, 9, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -103,9 +103,17 @@ repos:
       - "windows"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 285
+    stars_fact: 392
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
+  - name: "homebrew-mcptoon"
+    title: "homebrew-mcptoon"
+    description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "toondeck"
     title: "toondeck"
     description: "One deck for every agent — MCP tools, skills, models and API keys. GUI console for mcptoon."
@@ -121,15 +129,7 @@ repos:
       - "mcptoon"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-06"
-  - name: "homebrew-mcptoon"
-    title: "homebrew-mcptoon"
-    description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-20"
   - name: "dsh-mcptoon"
     title: "dsh-mcptoon"
     description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."
@@ -141,7 +141,7 @@ repos:
       - "mcptoon"
       - "model-context-protocol"
       - "token-compression"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-16"
   - name: "choco-mcptoon"

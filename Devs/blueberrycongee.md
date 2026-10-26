@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [5, 8, 6, 3, 3, 1, 8, 27, 37, 23, 23, 37, 12]
+pushes_per_week: [5, 9, 8, 0, 3, 2, 10, 24, 38, 26, 35, 29, 12]
 windows:
   "7d":
-    pushes: 12
+    pushes: 17
     distinct_repos: 1
-    active_days: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
-    distinct_repos: 3
-    active_days: 20
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 110
+    distinct_repos: 2
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 201
     distinct_repos: 4
-    active_days: 48
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0208
-  repo_per_active_day: 0.0833
+  push_per_day: 4.0200
+  repo_per_active_day: 0.0800
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -49,51 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 3
+    pushes_per_repo: 17.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
-    distinct_repos: 3
-    pushes_per_repo: 41.0000
-    active_days: 20
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 110
+    distinct_repos: 2
+    pushes_per_repo: 55.0000
+    active_days: 21
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 201
     distinct_repos: 4
-    pushes_per_repo: 48.2500
-    active_days: 48
+    pushes_per_repo: 50.2500
+    active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "wuu"
-    title: "wuu"
-    description: "Open-source BYOK AI coding agent with a desktop app, scriptable CLI, and built-in multi-agent orchestration. Written in Go."
-    language: "Go"
-    topics:
-      - "ai"
-      - "automation"
-      - "byok"
-      - "cli"
-      - "coding-agent"
-      - "developer-tools"
-      - "electron"
-      - "golang"
-      - "multi-agent"
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "profile-summary-cards"
     title: "profile-summary-cards"
     description: null
@@ -101,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "termcanvas"
     title: "termcanvas"
     description: "An infinite canvas desktop app for visually managing terminals"
@@ -122,17 +105,9 @@ repos:
       - "typescript"
       - "vite"
       - "xterm"
-    stars_fact: 413
+    stars_fact: 414
     first_seen: null
     last_push: "2026-05-31"
-  - name: "DeepSeek-Chat-Exporter"
-    title: "DeepSeek-Chat-Exporter"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-03-09"
   - name: "Lumina-Note"
     title: "Lumina-Note"
     description: "Lumina Note - A modern Markdown note-taking app with live preview, bidirectional links, and AI assistant"
@@ -156,9 +131,34 @@ repos:
       - "semantic-search"
       - "typescript"
       - "wikilinks"
-    stars_fact: 918
+    stars_fact: 916
     first_seen: null
     last_push: "2026-08-13"
+  - name: "wuu"
+    title: "wuu"
+    description: "Open-source BYOK AI coding agent with a desktop app, scriptable CLI, and built-in multi-agent orchestration. Written in Go."
+    language: "Go"
+    topics:
+      - "ai"
+      - "automation"
+      - "byok"
+      - "cli"
+      - "coding-agent"
+      - "developer-tools"
+      - "electron"
+      - "golang"
+      - "multi-agent"
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "DeepSeek-Chat-Exporter"
+    title: "DeepSeek-Chat-Exporter"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-03-09"
   - name: "codemirror-live-markdown"
     title: "codemirror-live-markdown"
     description: null
@@ -171,6 +171,6 @@ repos:
 
 # blueberrycongee
 
-193 pushes across 4 repositories on 48 active days in the last 90 days of public GitHub push activity.
+201 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

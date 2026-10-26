@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 3, 3, 0, 2, 0, 0, 3, 4, 1, 1, 0, 0]
+pushes_per_week: [6, 1, 3, 0, 2, 0, 0, 4, 3, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "Pi Gui"
     language: "Rust"
     topics: []
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-19"
   - name: "CVE-2025-55182-research"
     title: "CVE-2025-55182-research"
     description: "CVE-2025-55182 POC"
@@ -93,6 +93,14 @@ repos:
     stars_fact: 790
     first_seen: null
     last_push: "2025-12-08"
+  - name: "php8-uaf-poc"
+    title: "php8-uaf-poc"
+    description: "php8-uaf-poc"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "serval"
     title: "serval"
     description: "Zig loadbalancer inspired by Pingora and TigerBeetle"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-19"
-  - name: "gantry"
-    title: "gantry"
-    description: "lightweight VMs in Go"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # ejpir

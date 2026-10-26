@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 3, 9, 2, 1, 1, 1, 0, 13, 22, 10, 4, 16]
+pushes_per_week: [10, 3, 9, 3, 1, 0, 1, 3, 10, 28, 4, 4, 16]
 windows:
   "7d":
     pushes: 16
@@ -90,17 +90,25 @@ repos:
       - "quickshell"
       - "radio-browser"
       - "wayland"
-    stars_fact: 93
+    stars_fact: 99
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
   - name: "cohall"
     title: "cohall"
     description: "Let coding agents delegate work across your own devices."
     language: "TypeScript"
     topics: []
-    stars_fact: 7
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-25"
+  - name: "skillsync"
+    title: "skillsync"
+    description: "Local-first GitHub-backed skill manager for AI agent skills"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null
@@ -108,15 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "skillsync"
-    title: "skillsync"
-    description: "Local-first GitHub-backed skill manager for AI agent skills"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
   - name: "blippy"
     title: "blippy"
     description: "GitHub in your terminal"
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 25
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
   - name: "hyfrme"
     title: "hyfrme"
     description: "Cinematic motion components ported from Remotion to HyperFrames"
@@ -132,7 +132,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-23"
 ---
 
 # AksharP5

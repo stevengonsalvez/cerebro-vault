@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [25, 12, 14, 1, 6, 2, 8, 11, 29, 69, 21, 24, 3]
+pushes_per_week: [25, 13, 13, 3, 4, 6, 7, 9, 39, 64, 23, 17, 4]
 windows:
   "7d":
     pushes: 4
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 134
     distinct_repos: 37
-    active_days: 21
+    active_days: 22
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 225
+    pushes: 227
     distinct_repos: 45
-    active_days: 54
+    active_days: 56
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.1667
-  repo_per_active_day: 0.8333
+  push_per_day: 4.0536
+  repo_per_active_day: 0.8036
   not_owned_ratio: 0.2667
   basename_concentration: 0.0889
   shapes: []
@@ -50,39 +50,47 @@ automation:
 facets:
   "7d":
     pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
     active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 134
     distinct_repos: 37
     pushes_per_repo: 3.6216
-    active_days: 21
+    active_days: 22
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 225
+    pushes: 227
     distinct_repos: 45
-    pushes_per_repo: 5.0000
-    active_days: 54
+    pushes_per_repo: 5.0444
+    active_days: 56
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agenticlinux"
+    title: "agenticlinux"
+    description: "An agentic distro with OpenClaw, llmman, Docker Sandboxes and Docker Engine pre-installed"
+    language: "Rust"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "vllm-vulkan"
     title: "vllm-vulkan"
     description: "Community maintained hardware plugin for vLLM via Vulkan"
     language: "Rust"
     topics: []
-    stars_fact: 53
+    stars_fact: 55
     first_seen: null
     last_push: "2026-10-16"
   - name: "sesame"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2025-11-27"
-  - name: "agenticlinux"
-    title: "agenticlinux"
-    description: "An agentic distro with OpenClaw, llmman, Docker Sandboxes and Docker Engine pre-installed"
-    language: "Rust"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for vmmbox"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-225 pushes across 45 repositories on 54 active days in the last 90 days of public GitHub push activity.
+227 pushes across 45 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

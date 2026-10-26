@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [14, 5, 2, 0, 0, 0, 0, 3, 9, 34, 15, 0, 0]
+pushes_per_week: [14, 5, 2, 0, 0, 0, 0, 3, 9, 41, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 51
     distinct_repos: 6
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 51
     distinct_repos: 6
-    pushes_per_repo: 9.6667
-    active_days: 12
+    pushes_per_repo: 8.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openclaw-staging-workspace"
-    title: "openclaw-staging-workspace"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "pi-fast-models"
-    title: "pi-fast-models"
-    description: "Fast-mode virtual models for pi, with allowance-adjusted cost estimates"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "pi-hydra"
-    title: "pi-hydra"
-    description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
-    language: "TypeScript"
-    topics:
-      - "code-review"
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-extension"
-      - "pi-package"
-      - "prompt-caching"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "pi-idle-compact"
-    title: "pi-idle-compact"
-    description: "Compacts a pi session once its prompt cache has expired, never while pi's cache warming keeps it alive"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "openclaw-infra"
-    title: "openclaw-infra"
-    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "openclaw-staging-workspace-test"
-    title: "openclaw-staging-workspace-test"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (test agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
+repos: []
 ---
 
 # pandysp

@@ -8,39 +8,39 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 8, 7, 4, 0, 0, 1, 5, 4, 5, 5, 2, 1]
+pushes_per_week: [6, 5, 8, 3, 0, 0, 2, 4, 5, 5, 4, 2, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 15
-    distinct_repos: 7
-    active_days: 10
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 45
-    distinct_repos: 12
-    active_days: 32
+    pushes: 47
+    distinct_repos: 13
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4062
-  repo_per_active_day: 0.3750
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1667
+  push_per_day: 1.4242
+  repo_per_active_day: 0.3939
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 10
+    distinct_repos: 8
+    pushes_per_repo: 1.8750
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 45
-    distinct_repos: 12
-    pushes_per_repo: 3.7500
-    active_days: 32
+    pushes: 47
+    distinct_repos: 13
+    pushes_per_repo: 3.6154
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "small-app-gardener"
-    title: "small-app-gardener"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "semantic-pull-requests"
-    title: "semantic-pull-requests"
-    description: ":robot: Let the robots take care of the semantic versioning"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1231
-    first_seen: null
-    last_push: "2022-05-30"
-  - name: "swiss-design-skill"
-    title: "swiss-design-skill"
-    description: "A Swiss International Style design system skill for AI agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 159
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "github-digest"
-    title: "github-digest"
-    description: "Scheduled Flue agent that emails you a daily GitHub digest"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "dots-on-cloudflare"
-    title: "dots-on-cloudflare"
-    description: "Exploring an always-on personal agent, like OpenAI dots, built on Cloudflare"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "collignon"
-    title: "collignon"
-    description: "French insults from Amélie"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # zeke
 
-45 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
+47 pushes across 13 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

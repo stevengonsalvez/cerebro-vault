@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [37, 17, 26, 19, 16, 8, 19, 44, 43, 52, 14, 24, 10]
+pushes_per_week: [34, 22, 25, 16, 14, 12, 19, 43, 52, 47, 15, 17, 11]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 3
+    pushes: 14
+    distinct_repos: 4
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 119
-    distinct_repos: 15
+    pushes: 118
+    distinct_repos: 16
     active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 329
+    pushes: 327
     distinct_repos: 23
     active_days: 71
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6338
+  push_per_day: 4.6056
   repo_per_active_day: 0.3239
   not_owned_ratio: 0.3043
   basename_concentration: 0.0870
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 3
-    pushes_per_repo: 4.3333
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 119
-    distinct_repos: 15
-    pushes_per_repo: 7.9333
+    pushes: 118
+    distinct_repos: 16
+    pushes_per_repo: 7.3750
     active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 329
+    pushes: 327
     distinct_repos: 23
-    pushes_per_repo: 14.3043
+    pushes_per_repo: 14.2174
     active_days: 71
     repos_not_owned: 7
     not_owned_basenames: 7
@@ -77,24 +77,39 @@ reasons:
   - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "stuck"
-    title: "stuck"
-    description: "Read-only CLI that finds unclaimed bridge withdrawals for any EVM wallet across 23 bridges."
-    language: "JavaScript"
+  - name: "papertrade-recomp"
+    title: "papertrade-recomp"
+    description: "Verified behavior map of Papertrade's unpublished HyperEVM contracts"
+    language: "Python"
     topics:
-      - "bridges"
-      - "cli"
-      - "cross-chain"
-      - "crypto"
-      - "ethereum"
+      - "bytecode"
+      - "decompilation"
       - "evm"
-      - "l2"
-      - "nodejs"
-      - "viem"
-      - "web3"
-    stars_fact: 1
+      - "hyperevm"
+      - "hyperliquid"
+      - "reverse-engineering"
+      - "security-research"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-25"
+  - name: "web3-research-mcp"
+    title: "web3-research-mcp"
+    description: "Local MCP server for deep crypto token research across CoinGecko, DeFiLlama and web search. Free, no API key."
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "coingecko"
+      - "crypto"
+      - "defillama"
+      - "mcp"
+      - "mcp-crypto"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "typescript"
+      - "web3"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "headless-harness-bench"
     title: "headless-harness-bench"
     description: "Benchmark of 9 coding-agent harnesses as headless agent loops driven by a control plane: static source audit /81, live contract tests /21, golden task with cost and time"
@@ -113,7 +128,25 @@ repos:
       - "opencode"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-23"
+  - name: "soldecomp"
+    title: "soldecomp"
+    description: "Local workbench to reverse-engineer, replay, and probe deployed Solana sBPF programs from bytecode, with a labeled bug-detector benchmark"
+    language: "Python"
+    topics:
+      - "blockchain"
+      - "bpf"
+      - "decompiler"
+      - "ebpf"
+      - "ghidra"
+      - "litesvm"
+      - "reverse-engineering"
+      - "sbpf"
+      - "security-research"
+      - "solana"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "tweazy"
     title: "tweazy"
     description: "Pay-per-query AI chat app: users pay 0.01 USDC on Base per question with a Smart Wallet or any wallet. Tambo AI + MCP"
@@ -131,53 +164,27 @@ repos:
       - "x402"
     stars_fact: 47
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "tg-skill"
-    title: "tg-skill"
-    description: "Read-only Telegram skill for Claude Code: read your own DMs, groups and channels"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "soul-aaronjmars"
-    title: "soul-aaronjmars"
-    description: "AI soul file of Aaron Elijah Mars: identity, voice, examples and source data that let an LLM speak and think as him"
+    last_push: "2026-10-21"
+  - name: "openroutercli"
+    title: "openroutercli"
+    description: "Unofficial CLI for every OpenRouter API endpoint, with OAuth login and --json output for humans and LLM agents."
     language: "JavaScript"
     topics:
-      - "agent-skills"
-      - "ai"
-      - "claude-code"
-      - "digital-twin"
+      - "ai-agents"
+      - "cli"
       - "llm"
-      - "persona"
-      - "prompt-engineering"
-      - "soul"
-    stars_fact: 13
+      - "nodejs"
+      - "oauth"
+      - "openrouter"
+      - "openrouter-api"
+      - "openrouter-integration"
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "web3-research-mcp"
-    title: "web3-research-mcp"
-    description: "Local MCP server for deep crypto token research across CoinGecko, DeFiLlama and web search. Free, no API key."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "coingecko"
-      - "crypto"
-      - "defillama"
-      - "mcp"
-      - "mcp-crypto"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "typescript"
-      - "web3"
-    stars_fact: 168
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-20"
 ---
 
 # aaronjmars
 
-329 pushes across 23 repositories on 71 active days in the last 90 days of public GitHub push activity.
+327 pushes across 23 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

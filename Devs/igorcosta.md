@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 1, 4, 0, 0, 0, 5, 0, 10, 9, 1, 3, 3]
+pushes_per_week: [0, 1, 4, 0, 0, 2, 3, 0, 17, 2, 2, 3, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 11
-    active_days: 19
+    active_days: 18
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9474
-  repo_per_active_day: 0.5789
+  push_per_day: 2.0000
+  repo_per_active_day: 0.6111
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 5
-    pushes_per_repo: 4.2000
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 11
-    pushes_per_repo: 3.3636
-    active_days: 19
+    pushes_per_repo: 3.2727
+    active_days: 18
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flex-maps"
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-37 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

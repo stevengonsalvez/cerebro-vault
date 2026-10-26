@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-24T06:05:01.431039+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,7 +82,7 @@ repos:
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19276
+    stars_fact: 19272
     first_seen: null
     last_push: "2023-03-05"
   - name: "astro-skills"
@@ -98,7 +98,7 @@ repos:
     description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
     language: "JavaScript"
     topics: []
-    stars_fact: 1492
+    stars_fact: 1491
     first_seen: null
     last_push: "2016-01-19"
   - name: "fflip"

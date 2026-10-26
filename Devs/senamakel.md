@@ -8,129 +8,81 @@ provenance_repos:
   - "tinyhumansai/openhuman"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+repos_populated: false
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [72, 63, 98, 40, 35, 3, 38, 138, 128, 180, 217, 127, 184]
+pushes_per_week: [70, 71, 88, 52, 20, 4, 42, 133, 140, 170, 252, 119, 177]
 windows:
   "7d":
-    pushes: 196
+    pushes: 195
     distinct_repos: 50
     active_days: 7
-    repos_not_owned: 25
-    not_owned_basenames: 23
+    repos_not_owned: 27
+    not_owned_basenames: 25
     not_owned_owners: 3
   "30d":
-    pushes: 760
+    pushes: 764
     distinct_repos: 81
-    active_days: 26
-    repos_not_owned: 49
-    not_owned_basenames: 38
+    active_days: 27
+    repos_not_owned: 50
+    not_owned_basenames: 39
     not_owned_owners: 11
   "90d":
-    pushes: 1323
-    distinct_repos: 106
-    active_days: 78
-    repos_not_owned: 70
-    not_owned_basenames: 46
+    pushes: 1338
+    distinct_repos: 108
+    active_days: 79
+    repos_not_owned: 71
+    not_owned_basenames: 47
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 16.9615
-  repo_per_active_day: 1.3590
-  not_owned_ratio: 0.6604
-  basename_concentration: 0.1604
+  push_per_day: 16.9367
+  repo_per_active_day: 1.3671
+  not_owned_ratio: 0.6574
+  basename_concentration: 0.1574
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "16.96 pushes per active day over 90d (1323 pushes / 78 active days), above the 15 review line"
+    - "16.94 pushes per active day over 90d (1338 pushes / 79 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 196
+    pushes: 195
     distinct_repos: 50
-    pushes_per_repo: 3.9200
+    pushes_per_repo: 3.9000
     active_days: 7
-    repos_not_owned: 25
-    not_owned_basenames: 23
+    repos_not_owned: 27
+    not_owned_basenames: 25
     not_owned_owners: 3
   "30d":
-    pushes: 760
+    pushes: 764
     distinct_repos: 81
-    pushes_per_repo: 9.3827
-    active_days: 26
-    repos_not_owned: 49
-    not_owned_basenames: 38
+    pushes_per_repo: 9.4321
+    active_days: 27
+    repos_not_owned: 50
+    not_owned_basenames: 39
     not_owned_owners: 11
   "90d":
-    pushes: 1323
-    distinct_repos: 106
-    pushes_per_repo: 12.4811
-    active_days: 78
-    repos_not_owned: 70
-    not_owned_basenames: 46
+    pushes: 1338
+    distinct_repos: 108
+    pushes_per_repo: 12.3889
+    active_days: 79
+    repos_not_owned: 71
+    not_owned_basenames: 47
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 79 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "llm-ladder-router"
-    title: "llm-ladder-router"
-    description: "A very simple ladder router that caps the prices of various LLM providers and routes to the best rates possible. For max tokenmaxing"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "oh-bench-rsi"
-    title: "oh-bench-rsi"
-    description: "A RSI loop that helps OH improve it's memory benchmarks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "recursive-factorio"
-    title: "recursive-factorio"
-    description: "OpenHuman setup to fully play factorio, win the game and try to get upto 10mn SPM using Recursive Self Improvement"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "senamakel"
-    title: "senamakel"
-    description: "My homepage repo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "enamakel.com"
-    title: "enamakel.com"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "math-superagent"
-    title: "math-superagent"
-    description: "Math specialized research agent in rust"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
+repos: []
 ---
 
 # senamakel
 
-1323 pushes across 106 repositories on 78 active days in the last 90 days of public GitHub push activity.
+1338 pushes across 108 repositories on 79 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

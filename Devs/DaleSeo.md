@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [8, 6, 1, 2, 0, 0, 0, 8, 16, 8, 5, 9, 6]
+pushes_per_week: [9, 5, 2, 1, 0, 0, 1, 7, 21, 4, 5, 9, 6]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 32
-    distinct_repos: 13
+    pushes: 31
+    distinct_repos: 14
     active_days: 16
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 69
+    pushes: 70
     distinct_repos: 17
-    active_days: 32
+    active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1562
-  repo_per_active_day: 0.5312
+  push_per_day: 2.1212
+  repo_per_active_day: 0.5152
   not_owned_ratio: 0.8235
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 32
-    distinct_repos: 13
-    pushes_per_repo: 2.4615
+    pushes: 31
+    distinct_repos: 14
+    pushes_per_repo: 2.2143
     active_days: 16
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 69
+    pushes: 70
     distinct_repos: 17
-    pushes_per_repo: 4.0588
-    active_days: 32
+    pushes_per_repo: 4.1176
+    active_days: 33
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-69 pushes across 17 repositories on 32 active days in the last 90 days of public GitHub push activity.
+70 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

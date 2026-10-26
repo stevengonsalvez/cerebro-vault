@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "xfsr"
+    title: "xfsr"
+    description: "FSR 1.0 for Linux games — wrap a title like `gamemoderun`, get more FPS by rendering lower and upscaling."
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "epochdb-server"
     title: "epochdb-server"
     description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
@@ -84,7 +92,15 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-21"
+  - name: "epochdb"
+    title: "epochdb"
+    description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "the-office-crewai"
     title: "the-office-crewai"
     description: "A 3d office with agents that do actual work."
@@ -93,14 +109,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-10"
-  - name: "epochdb"
-    title: "epochdb"
-    description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
-    language: "Python"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "aiowirecard"
     title: "aiowirecard"
     description: "Wirecard/Moip API asyncio wrapper"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-06-15"
-  - name: "devlifelearn-dist"
-    title: "devlifelearn-dist"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-11"
 ---
 
 # jersobh

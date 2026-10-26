@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
@@ -94,9 +94,9 @@ repos:
       - "roblox"
       - "roblox-studio"
       - "skills"
-    stars_fact: 4
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-21"
   - name: "vmware-guest-bridge"
     title: "vmware-guest-bridge"
     description: "Control VMware guests from Windows, Linux, and macOS: PowerShell, POSIX shell, file transfers, screenshots, and console input."
@@ -159,7 +159,7 @@ repos:
       - "xcode"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-21"
   - name: "ShiroKSH"
     title: "ShiroKSH"
     description: null

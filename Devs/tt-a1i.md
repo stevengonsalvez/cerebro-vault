@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [10, 1, 7, 11, 8, 0, 11, 14, 14, 21, 16, 12, 3]
+pushes_per_week: [8, 1, 7, 14, 5, 2, 10, 13, 17, 24, 10, 13, 14]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 15
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 3
   "30d":
-    pushes: 57
-    distinct_repos: 9
-    active_days: 16
-    repos_not_owned: 8
+    pushes: 69
+    distinct_repos: 11
+    active_days: 17
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 8
+    not_owned_owners: 10
   "90d":
-    pushes: 128
-    distinct_repos: 24
-    active_days: 45
-    repos_not_owned: 17
+    pushes: 138
+    distinct_repos: 26
+    active_days: 44
+    repos_not_owned: 19
     not_owned_basenames: 3
-    not_owned_owners: 16
+    not_owned_owners: 18
 automation:
   state: "clear"
-  push_per_day: 2.8444
-  repo_per_active_day: 0.5333
-  not_owned_ratio: 0.7083
-  basename_concentration: 0.4583
+  push_per_day: 3.1364
+  repo_per_active_day: 0.5909
+  not_owned_ratio: 0.7308
+  basename_concentration: 0.4231
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 3
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 3
   "30d":
-    pushes: 57
-    distinct_repos: 9
-    pushes_per_repo: 6.3333
-    active_days: 16
-    repos_not_owned: 8
+    pushes: 69
+    distinct_repos: 11
+    pushes_per_repo: 6.2727
+    active_days: 17
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 8
+    not_owned_owners: 10
   "90d":
-    pushes: 128
-    distinct_repos: 24
-    pushes_per_repo: 5.3333
-    active_days: 45
-    repos_not_owned: 17
+    pushes: 138
+    distinct_repos: 26
+    pushes_per_repo: 5.3077
+    active_days: 44
+    repos_not_owned: 19
     not_owned_basenames: 3
-    not_owned_owners: 16
+    not_owned_owners: 18
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -105,9 +105,9 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 85008
+    stars_fact: 89379
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "simplify-codebase"
     title: "simplify-codebase"
     description: "Prove and remove accidental codebase complexity without breaking behavior."
@@ -120,75 +120,84 @@ repos:
       - "codex"
       - "developer-tools"
       - "refactoring"
-    stars_fact: 507
+    stars_fact: 509
     first_seen: null
     last_push: "2026-09-04"
-  - name: "matt-skills-with-to-goal"
-    title: "matt-skills-with-to-goal"
-    description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
-    language: "Shell"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "developer-tools"
-      - "workflow"
-    stars_fact: 185
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "skillroster"
-    title: "skillroster"
-    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
-    language: "Rust"
+  - name: "hive-site"
+    title: "hive-site"
+    description: "Website for Hive — browser-native hive-mind for CLI coding agents"
+    language: "Astro"
     topics:
       - "ai-agents"
+      - "astro"
       - "cli"
-      - "developer-tools"
-      - "local-first"
-      - "rust"
-      - "skill-management"
-    stars_fact: 54
+      - "documentation-website"
+      - "hive"
+      - "landing-page"
+      - "multi-agent"
+      - "open-source"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "hive"
-    title: "hive"
-    description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
+    last_push: "2026-10-25"
+  - name: "chat_edit"
+    title: "chat_edit"
+    description: "A dual-mode AI application combining chat and rich-text AI editing, powered by Vue 3.5 + TypeScript. Features streaming Markdown rendering, Mermaid diagrams, Quill 2.0 rich-text editor, Monaco diff view, multi-format export (PDF/DOCX/Markdown/HTML), and offline-first IndexedDB storage."
     language: "TypeScript"
     topics:
-      - "agent-orchestration"
-      - "ai-agents"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "coding-agent"
-      - "developer-tools"
-      - "local-first"
-      - "multi-agent"
-      - "nodejs"
-      - "pty"
+      - "ai"
+      - "chat"
+      - "markdown"
+      - "monaco-editor"
+      - "moonshot-ai"
+      - "naive-ui"
+      - "offline-first"
+      - "pinia"
+      - "quill"
+      - "rich-text-editor"
+      - "streaming"
+      - "tailwindcss"
       - "typescript"
-    stars_fact: 572
+      - "vite"
+      - "vue3"
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "test-value"
-    title: "test-value"
-    description: "An agent skill for tests worth maintaining. Improve regression protection, feedback speed, and maintenance cost."
-    language: null
+    last_push: "2026-03-01"
+  - name: "coding-cli-guide"
+    title: "coding-cli-guide"
+    description: "Interactive deep-dive into Gemini CLI internals — 150+ illustrated pages, 50+ step-by-step animations, Mermaid diagrams, and source-level walkthroughs. Built with React 19 + TypeScript + Tailwind CSS 4."
+    language: "TypeScript"
     topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "developer-tools"
-      - "test-automation"
-      - "testing"
-    stars_fact: 3
+      - "agent-framework"
+      - "ai-tools"
+      - "animations"
+      - "cli-architecture"
+      - "gemini-cli"
+      - "interactive-guide"
+      - "learning-resource"
+      - "mcp"
+      - "mermaid"
+      - "react"
+      - "source-code-analysis"
+      - "tailwindcss"
+      - "typescript"
+      - "vite"
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-03-24"
+  - name: "claude-hud"
+    title: "claude-hud"
+    description: "Customized Claude Code HUD statusline plugin (fork of jarrodwatts/claude-hud)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # tt-a1i
 
-128 pushes across 24 repositories on 45 active days in the last 90 days of public GitHub push activity.
+138 pushes across 26 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

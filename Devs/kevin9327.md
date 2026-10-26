@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 3, 12, 37, 4, 1, 36, 9, 7, 8, 0, 0, 8]
+pushes_per_week: [7, 2, 43, 6, 4, 1, 37, 8, 13, 2, 0, 0, 11]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 6
-    active_days: 3
+    pushes: 11
+    distinct_repos: 9
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 15
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 135
-    distinct_repos: 25
-    active_days: 33
+    pushes: 134
+    distinct_repos: 27
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0909
-  repo_per_active_day: 0.7576
+  push_per_day: 3.9412
+  repo_per_active_day: 0.7941
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0400
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 6
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 11
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 15
-    pushes_per_repo: 1.2000
-    active_days: 6
+    pushes_per_repo: 1.2667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 135
-    distinct_repos: 25
-    pushes_per_repo: 5.4000
-    active_days: 33
+    pushes: 134
+    distinct_repos: 27
+    pushes_per_repo: 4.9630
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -90,7 +90,7 @@ repos:
       - "remotion"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "github-trending-daily"
     title: "github-trending-daily"
     description: "A daily auto-refreshed digest of GitHub Trending, curated for learning"
@@ -102,7 +102,7 @@ repos:
       - "open-source"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-26"
   - name: "OpenSourceHiggsfield"
     title: "OpenSourceHiggsfield"
     description: "OpenSourceHiggsfield (#OpenSourceHiggsfield) — 100% Open-Weights 3-in-1 AI Cinema & Video Direction Platform (Cinematic Studio, 3D Video Re-Shoot with CVGEO1 & Sim(3) Verification, OpenJutsu) built on ComfyUI, comfy-sdk v0.5.0, comfy-api-proxy v0.1.6, LTX-2.5 22B & FLUX.3"
@@ -115,19 +115,7 @@ repos:
       - "flux"
       - "ltx-video"
       - "opensourcehiggsfield"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "kevin9327.github.io"
-    title: "kevin9327.github.io"
-    description: "A year of commits as a live WebGL city: real contribution data, three.js, refreshed daily"
-    language: "JavaScript"
-    topics:
-      - "data-visualization"
-      - "github-contributions"
-      - "threejs"
-      - "webgl"
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-17"
   - name: "balju-radar"
@@ -141,27 +129,27 @@ repos:
       - "tenders"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "patent-intel"
-    title: "patent-intel"
-    description: "Ask patent questions in plain language, get measured answers — Claude Code skill + zero-key CLI for patent landscapes, leaderboards, and trends"
+    last_push: "2026-10-26"
+  - name: "ParaSpellXcmSdkBounty2026"
+    title: "ParaSpellXcmSdkBounty2026"
+    description: null
     language: "Python"
-    topics:
-      - "agentic-ai"
-      - "claude-code"
-      - "claude-skills"
-      - "llm"
-      - "patent-analytics"
-      - "patent-search"
-      - "patents"
-      - "prior-art"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-25"
+  - name: "DrivenDataGEMSGeothermal2026"
+    title: "DrivenDataGEMSGeothermal2026"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # kevin9327
 
-135 pushes across 25 repositories on 33 active days in the last 90 days of public GitHub push activity.
+134 pushes across 27 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

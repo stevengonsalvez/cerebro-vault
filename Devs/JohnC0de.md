@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-26T07:04:45.853276+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [1, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -80,7 +80,7 @@ repos:
   - name: "presets"
     title: "presets"
     description: "Pacote de presets e tooling compartilhado para repositórios pessoais."
-    language: "TypeScript"
+    language: null
     topics:
       - "bun"
       - "tooling"
