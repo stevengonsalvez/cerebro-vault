@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "phant0um.github.io"
+    title: "phant0um.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "phant0um"
+    title: "phant0um"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "comprehension-digest"
+    title: "comprehension-digest"
+    description: "Turn a repo's recent changes into a why-focused reading digest — git log + diff → LLM → markdown. No audio."
+    language: "Shell"
+    topics:
+      - "anthropic"
+      - "bash"
+      - "changelog"
+      - "claude"
+      - "cli"
+      - "code-review"
+      - "developer-tools"
+      - "git"
+      - "llm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "claude-agent-dev"
+    title: "claude-agent-dev"
+    description: "Agents for building agents & software with Claude — spec, verify, guard, extend, review lifecycle"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Predictable agent skills for Claude Code — writing + reasoning guardrails, /plugin installable"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "clipscribe"
+    title: "clipscribe"
+    description: "Transcreve vídeos do YouTube e do X para clippings Markdown do Obsidian (Go, whisper.cpp local)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # phant0um

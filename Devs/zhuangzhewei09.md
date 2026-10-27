@@ -8,23 +8,23 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "profile"
+    title: "profile"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "StockOps"
+    title: "StockOps"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "golearn"
+    title: "golearn"
+    description: "learn of go"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-07-22"
+  - name: "my-app"
+    title: "my-app"
+    description: "learning react demo"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-09-08"
+  - name: "rust-learn"
+    title: "rust-learn"
+    description: "learn for rust"
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-07-26"
+  - name: "cpp-primer-exercise"
+    title: "cpp-primer-exercise"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-06-20"
 ---
 
 # zhuangzhewei09

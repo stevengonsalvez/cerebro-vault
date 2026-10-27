@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,7 +43,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [18, 7, 19, 2, 0, 0, 5, 10, 2, 4, 10, 5, 3]
+pushes_per_week: [17, 7, 18, 2, 0, 1, 7, 7, 3, 4, 12, 4, 1]
 windows:
   "7d":
     pushes: 3
@@ -60,18 +60,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
-    distinct_repos: 35
+    pushes: 83
+    distinct_repos: 33
     active_days: 37
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2973
-  repo_per_active_day: 0.9459
-  not_owned_ratio: 0.1714
-  basename_concentration: 0.0571
+  push_per_day: 2.2432
+  repo_per_active_day: 0.8919
+  not_owned_ratio: 0.1515
+  basename_concentration: 0.0606
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -96,12 +96,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
-    distinct_repos: 35
-    pushes_per_repo: 2.4286
+    pushes: 83
+    distinct_repos: 33
+    pushes_per_repo: 2.5152
     active_days: 37
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 18 vault signal(s) — pass"
@@ -162,6 +162,6 @@ repos:
 
 # simonw
 
-85 pushes across 35 repositories on 37 active days in the last 90 days of public GitHub push activity.
+83 pushes across 33 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

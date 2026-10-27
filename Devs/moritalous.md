@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [1, 2, 1, 0, 1, 0, 1, 2, 0, 1, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cost-widget"
+    title: "cost-widget"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "cost-widget-mac"
+    title: "cost-widget-mac"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "eki-timer"
+    title: "eki-timer"
+    description: "時間を「分」ではなく「駅」ではかるタイマー（山手線・大阪環状線）"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "my-jev-playground"
+    title: "my-jev-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "claude-mods-router"
+    title: "claude-mods-router"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "lambda-mcp-adaptor"
+    title: "lambda-mcp-adaptor"
+    description: "An MCP server SDK for AWS serverless architecture with familiar, official SDK-like API design."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2025-06-15"
 ---
 
 # moritalous

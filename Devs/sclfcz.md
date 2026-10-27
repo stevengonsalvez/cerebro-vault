@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 7, 3, 1, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 9, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 8
-    active_days: 7
+    pushes: 7
+    distinct_repos: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 8
-    pushes_per_repo: 1.1250
-    active_days: 7
+    pushes: 7
+    distinct_repos: 7
+    pushes_per_repo: 1.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,53 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sclfcz"
+    title: "sclfcz"
+    description: "IronMurphy · AI Agent / Full-stack Engineer · TypeScript · Python · MCP · Electron"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "growth-os"
+    title: "growth-os"
+    description: "Self-hosted personal growth workspace for study planning, fitness, mindfulness, budgeting, and daily reflection."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "commerceagent"
+    title: "commerceagent"
+    description: "CommerceAgent：面向电商场景的智能运营工作台，支持商品、订单、客户与自动化协同。"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "claude-code"
+      - "ecommerce"
+      - "electron"
+      - "mcp"
+      - "react"
+      - "self-hosted"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "health-miniprogram"
+    title: "health-miniprogram"
+    description: "康养日记 · 老人用药提醒与健康记录小程序（微信云开发）｜患者到点提醒 + 连续漏服家属预警"
+    language: "JavaScript"
+    topics:
+      - "cloudbase"
+      - "healthcare"
+      - "serverless"
+      - "wechat-miniprogram"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # sclfcz

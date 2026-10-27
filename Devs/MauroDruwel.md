@@ -8,16 +8,16 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [6, 2, 3, 0, 0, 0, 2, 1, 6, 5, 4, 4, 2]
+pushes_per_week: [6, 2, 3, 0, 0, 0, 2, 4, 6, 4, 2, 5, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "NIMStats"
+    title: "NIMStats"
+    description: "📊 Automated hourly benchmarks for 20+ NVIDIA NIM models — interactive dashboard, zero infra, self-hostable. Open-source & community-driven."
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "benchmark"
+      - "dashboard"
+      - "github-actions"
+      - "llm"
+      - "machine-learning"
+      - "nim"
+      - "nvidia"
+      - "open-source"
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "Smartschool-MCP"
+    title: "Smartschool-MCP"
+    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "education"
+      - "mcp"
+      - "python"
+      - "smartschool"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "convergence"
+    title: "convergence"
+    description: "The autonomous semantic code fabric for 100,000+ concurrent AI agents - branchless AST-CRDT version control on Cloudflare Workers, Durable Objects & Artifacts"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "ufora-sync"
+    title: "ufora-sync"
+    description: "Native background sync service and desktop companion for UGent Ufora (Tauri v2 + Rust)"
+    language: "Python"
+    topics:
+      - "brightspace"
+      - "desktop-app"
+      - "rust"
+      - "sync"
+      - "tauri"
+      - "typescript"
+      - "ufora"
+      - "ugent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "quality-gate"
+    title: "quality-gate"
+    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
+    language: "Python"
+    topics:
+      - "ci-cd"
+      - "developer-tools"
+      - "engineering-standards"
+      - "forge"
+      - "openapi"
+      - "quality-gate"
+      - "reusable-workflows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "homewizard-cloud-ha"
+    title: "homewizard-cloud-ha"
+    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
+    language: "Python"
+    topics:
+      - "home-assistant-integration"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # MauroDruwel

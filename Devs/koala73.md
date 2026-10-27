@@ -8,37 +8,37 @@ provenance_repos:
   - "koala73/worldmonitor"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [55, 36, 114, 15, 11, 7, 24, 40, 47, 38, 33, 17, 28]
+pushes_per_week: [49, 39, 119, 5, 10, 8, 27, 49, 43, 42, 25, 18, 22]
 windows:
   "7d":
-    pushes: 31
+    pushes: 26
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 2
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 465
+    pushes: 456
     distinct_repos: 10
-    active_days: 74
+    active_days: 73
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 6.2838
-  repo_per_active_day: 0.1351
+  push_per_day: 6.2466
+  repo_per_active_day: 0.1370
   not_owned_ratio: 0.9000
   basename_concentration: 1.0000
   shapes:
@@ -65,38 +65,82 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 31.0000
-    active_days: 7
+    pushes_per_repo: 26.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 2
-    pushes_per_repo: 64.5000
-    active_days: 26
+    pushes_per_repo: 63.5000
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 465
+    pushes: 456
     distinct_repos: 10
-    pushes_per_repo: 46.5000
-    active_days: 74
+    pushes_per_repo: 45.6000
+    active_days: 73
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "worldmonitor"
+    title: "worldmonitor"
+    description: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "dashboard"
+      - "geopolitics"
+      - "mcp"
+      - "mcp-server"
+      - "monitoring"
+      - "news"
+      - "opensource"
+      - "osint"
+      - "palantir"
+      - "situation"
+    stars_fact: 89617
+    first_seen: "2026-08-01T06:00:04.424073+00:00"
+    last_push: "2026-10-27"
+  - name: "whoopskill"
+    title: "whoopskill"
+    description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-01-25"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-03-09"
+  - name: "reservewithgoogle-skill"
+    title: "reservewithgoogle-skill"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-01"
 ---
 
 # koala73
 
-465 pushes across 10 repositories on 74 active days in the last 90 days of public GitHub push activity.
+456 pushes across 10 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

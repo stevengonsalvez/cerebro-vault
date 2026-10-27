@@ -8,19 +8,19 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 5, 1, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 2, 4, 2, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "adbpg-ai-openclaw-mem0"
+    title: "adbpg-ai-openclaw-mem0"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-04"
 ---
 
 # shaohuaxi

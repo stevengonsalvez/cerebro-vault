@@ -8,11 +8,11 @@ provenance_repos:
   - "asamassekou10/ship-safe"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [3, 7, 4, 3, 1, 1, 0, 0, 0, 7, 5, 5, 0]
+pushes_per_week: [4, 7, 3, 4, 0, 1, 0, 0, 0, 10, 3, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,107 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "emojikit"
+    title: "emojikit"
+    description: "Turn any character image into a high-quality animated emoji pack (Slack/Discord/Twitch) — 2D puppet engine, auto-rigging, web studio."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-22"
+  - name: "LumenDeck"
+    title: "LumenDeck"
+    description: "Control brightness, contrast and per-monitor colour temperature on every Windows display over DDC/CI. Luminance-matched presets, blue light filter per screen, laptop panels via WMI, tray app and CLI."
+    language: "C#"
+    topics:
+      - "blue-light-filter"
+      - "brightness"
+      - "brightness-control"
+      - "color-temperature"
+      - "csharp"
+      - "ddc"
+      - "ddc-ci"
+      - "display-management"
+      - "dotnet"
+      - "external-monitor"
+      - "mccs"
+      - "monitor-brightness"
+      - "monitor-control"
+      - "multi-monitor"
+      - "night-light"
+      - "screen-brightness"
+      - "tray-app"
+      - "vcp"
+      - "windows"
+      - "winforms"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "ai-iconflow"
+    title: "ai-iconflow"
+    description: "Reviewed, platform-ready icon families from one semantic SVG master — favicon, PWA, Tauri, Electron, tray. Distinctiveness = specificity, proven at 16px."
+    language: "HTML"
+    topics:
+      - "app-icon"
+      - "claude-code"
+      - "cli"
+      - "design-system"
+      - "developer-tools"
+      - "electron"
+      - "favicon"
+      - "favicon-generator"
+      - "icon"
+      - "icon-generator"
+      - "icons"
+      - "macos"
+      - "maskable-icons"
+      - "progressive-web-app"
+      - "pwa"
+      - "python"
+      - "svg"
+      - "svg-to-png"
+      - "tauri"
+      - "tray-icon"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "mvp-snowy-style-atlas"
+    title: "mvp-snowy-style-atlas"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "twitch-emote-downloader"
+    title: "twitch-emote-downloader"
+    description: "Windows desktop app (PySide6) to manage Twitch streamers and incrementally download channel emotes at maximum resolution."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "morflo"
+    title: "morflo"
+    description: "Local-first image conversion, compression and resizing for Windows. Built-in image engine; optional local FFmpeg for video. No uploads."
+    language: "Rust"
+    topics:
+      - "batch-conversion"
+      - "desktop-app"
+      - "ffmpeg"
+      - "image-compression"
+      - "image-conversion"
+      - "image-resizer"
+      - "local-first"
+      - "privacy"
+      - "rust"
+      - "tauri"
+      - "video-conversion"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # snowyukitty

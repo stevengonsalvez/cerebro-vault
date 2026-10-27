@@ -8,11 +8,11 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 2, 2, 3, 11, 2]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 1, 2, 13, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mydiskisfull"
+    title: "mydiskisfull"
+    description: "Watches your Mac's disk over time: predicts when it will be full, catches runaway disk fillers, explains why and how to avoid it. Free and open source."
+    language: "Rust"
+    topics:
+      - "apfs"
+      - "cli"
+      - "disk-space"
+      - "macos"
+      - "monitoring"
+      - "rust"
+      - "storage"
+      - "time-machine"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "espresso-macchiato"
+    title: "espresso-macchiato"
+    description: "macOS menu bar caffeinate app (Coca replacement) written in Swift"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "syp"
+    title: "syp"
+    description: "SYP (Sync Your Playlists): browser extension to export, import and copy playlists between Spotify, YouTube Music, Apple Music and Amazon Music, locally in your browser."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "idlewild"
+    title: "idlewild"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "marie-lookapp-releases"
+    title: "marie-lookapp-releases"
+    description: "Binary releases & auto-update feed for Marie LookApp (tray snippet lookup). Source lives in a private repo."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-08"
 ---
 
 # lgibelli

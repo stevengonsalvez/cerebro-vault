@@ -8,26 +8,26 @@ provenance_repos:
   - "luongnv89/claude-howto"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [5, 9, 9, 26, 13, 10, 22, 69, 38, 11, 24, 14, 13]
+pushes_per_week: [5, 10, 8, 28, 11, 14, 24, 68, 34, 20, 21, 15, 5]
 windows:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    active_days: 5
+    pushes: 12
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 79
-    distinct_repos: 25
-    active_days: 20
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 65
+    distinct_repos: 24
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
     pushes: 263
     distinct_repos: 44
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
-    distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 5
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 79
-    distinct_repos: 25
-    pushes_per_repo: 3.1600
-    active_days: 20
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 65
+    distinct_repos: 24
+    pushes_per_repo: 2.7083
+    active_days: 19
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
   "90d":
     pushes: 263
     distinct_repos: 44
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-howto"
+    title: "claude-howto"
+    description: "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+    language: "Python"
+    topics:
+      - "claude-code"
+      - "guide"
+      - "tutorial"
+    stars_fact: 45414
+    first_seen: "2026-06-28T06:00:06.755641+00:00"
+    last_push: "2026-10-27"
+  - name: "news"
+    title: "news"
+    description: "The AI Gazette: sourced AI news in a vintage newspaper, published twice daily"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "skills"
+    title: "skills"
+    description: "Supercharge your AI agents/bots with reusable skills"
+    language: "Python"
+    topics:
+      - "agent"
+      - "skills"
+    stars_fact: 139
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "job-alerts"
+    title: "job-alerts"
+    description: "Daily evidence-backed AI engineering job alerts"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "freetokens"
+    title: "freetokens"
+    description: "Free AI Credits — aggregated, hand-verified free AI token/credit offers"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "free-llm-models"
+    title: "free-llm-models"
+    description: "List of openrouter free models"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # luongnv89

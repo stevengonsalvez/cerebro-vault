@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-25T07:04:46.004956+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 2, 0, 2, 1, 0, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,8 +89,24 @@ repos:
       - "claude-skills"
       - "developer-tools"
       - "productivity"
-    stars_fact: 57890
+    stars_fact: 58921
     first_seen: "2026-08-07T06:00:04.662798+00:00"
+    last_push: "2026-10-19"
+  - name: "slides"
+    title: "slides"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "overleaf-mcp"
+    title: "overleaf-mcp"
+    description: "Overleaf MCP: let AI agents operate on your Overleaf projects as real-time collaborators."
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
     last_push: "2026-10-19"
   - name: "pgcuts"
     title: "pgcuts"
@@ -116,22 +132,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2024-10-14"
-  - name: "sparsekit"
-    title: "sparsekit"
-    description: "Structured Sparsity Specification - PyTorch"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "linatt"
-    title: "linatt"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # ayghri

@@ -8,8 +8,8 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [8, 1, 2, 2, 0, 0, 1, 1, 0, 0, 0, 0, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yetval"
+    title: "yetval"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "Deca_Practice_App"
+    title: "Deca_Practice_App"
+    description: "Upload any official DECA exam PDF to get started. The app creates an interactive practice session where you can track your progress, review missed questions, and simulate timed testing conditions."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "spoofer"
+    title: "spoofer"
+    description: "Spoof Your IOS!"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "dermasnap-archive"
+    title: "dermasnap-archive"
+    description: "Archived Dermasnap models and superseded checkpoints"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "AS4052FinalProject"
+    title: "AS4052FinalProject"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-08"
+  - name: "ADM"
+    title: "ADM"
+    description: "ADM: a contained terminal dashboard for managing Docker containers on AWS hosts."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-03"
 ---
 
 # yetval

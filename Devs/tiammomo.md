@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [2, 10, 4, 5, 1, 2, 1, 6, 3, 0, 0, 0, 0]
+pushes_per_week: [3, 11, 2, 6, 0, 3, 0, 7, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "RepoSteward"
+    title: "RepoSteward"
+    description: "Local-first, policy-gated control plane for turning GitHub issues into verified, human-reviewed pull requests with coding agents."
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "RoutePilot"
+    title: "RoutePilot"
+    description: "Artifact-first multi-agent travel assistant for evidence-backed Q&A, itinerary planning, validation, and versioned replanning."
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "QuantPilot"
+    title: "QuantPilot"
+    description: "AI-native quantitative research workspace powered by MoAgent, turning natural-language requests into evidence-backed stock analysis, screening, backtests, portfolio insights, and interactive financial dashboards."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "ecommerce-bi-workbench"
+    title: "ecommerce-bi-workbench"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "tiammomo"
+    title: "tiammomo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "ModelPort"
+    title: "ModelPort"
+    description: "ModelPort is a self-hosted Anthropic-compatible model gateway for Claude Code, VS Code Claude, and team-controlled provider routing."
+    language: "Rust"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # tiammomo

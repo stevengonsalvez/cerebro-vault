@@ -8,11 +8,11 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [15, 1, 1, 3, 2, 0, 0, 3, 0, 2, 2, 1, 3]
+pushes_per_week: [14, 0, 3, 2, 1, 0, 0, 3, 0, 3, 1, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 12
-    active_days: 20
+    pushes: 31
+    distinct_repos: 11
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.6000
+  push_per_day: 1.6316
+  repo_per_active_day: 0.5789
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 12
-    pushes_per_repo: 2.7500
-    active_days: 20
+    pushes: 31
+    distinct_repos: 11
+    pushes_per_repo: 2.8182
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "crapper"
+    title: "crapper"
+    description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
+    language: "Python"
+    topics: []
+    stars_fact: 100
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "swarm-forge"
+    title: "swarm-forge"
+    description: "A simple tool for coordinating several AI agents."
+    language: "Clojure"
+    topics: []
+    stars_fact: 4038
+    first_seen: "2026-08-09T06:00:06.430133+00:00"
+    last_push: "2026-09-07"
+  - name: "bookwriter"
+    title: "bookwriter"
+    description: "A small writing application for one long book"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 92
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "crap4java"
+    title: "crap4java"
+    description: "Crap analyzer for my java projects."
+    language: "Java"
+    topics: []
+    stars_fact: 336
+    first_seen: null
+    last_push: "2026-03-13"
+  - name: "mutator"
+    title: "mutator"
+    description: "Mutation testing for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
+    language: "Python"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "dryer"
+    title: "dryer"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-10-03"
 ---
 
 # unclebob
 
-33 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
+31 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [4, 3, 24, 7, 3, 0, 0, 3, 17, 20, 6, 0, 0]
+pushes_per_week: [3, 5, 22, 8, 2, 0, 0, 4, 21, 15, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 3
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 30
+    distinct_repos: 2
+    active_days: 9
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 6
-    active_days: 31
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.8065
-  repo_per_active_day: 0.1935
+  push_per_day: 2.8667
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 3
-    pushes_per_repo: 10.6667
-    active_days: 10
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 30
+    distinct_repos: 2
+    pushes_per_repo: 15.0000
+    active_days: 9
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 6
-    pushes_per_repo: 14.5000
-    active_days: 31
+    pushes_per_repo: 14.3333
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-87 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+86 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

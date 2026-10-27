@@ -8,37 +8,37 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [42, 34, 55, 5, 3, 31, 30, 2, 27, 57, 15, 26, 25]
+pushes_per_week: [39, 37, 51, 5, 3, 60, 1, 2, 32, 55, 29, 20, 14]
 windows:
   "7d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 140
+    pushes: 137
     distinct_repos: 14
-    active_days: 19
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 352
+    pushes: 348
     distinct_repos: 30
-    active_days: 49
+    active_days: 48
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.1837
-  repo_per_active_day: 0.6122
+  push_per_day: 7.2500
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.3333
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,105 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 8.3333
+    pushes_per_repo: 8.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 140
+    pushes: 137
     distinct_repos: 14
-    pushes_per_repo: 10.0000
-    active_days: 19
+    pushes_per_repo: 9.7857
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 352
+    pushes: 348
     distinct_repos: 30
-    pushes_per_repo: 11.7333
-    active_days: 49
+    pushes_per_repo: 11.6000
+    active_days: 48
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rtl-antenna-picker"
+    title: "rtl-antenna-picker"
+    description: "Select RTL-SDR roles by RF antenna fingerprint when serials are unreliable."
+    language: "Python"
+    topics:
+      - "ads-b"
+      - "ais"
+      - "antenna"
+      - "dump1090"
+      - "piaware"
+      - "rf"
+      - "rtl-power"
+      - "rtl-sdr"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "ha-vigi-control"
+    title: "ha-vigi-control"
+    description: "Home Assistant controls for TP-Link VIGI cameras alongside Frigate"
+    language: "Python"
+    topics:
+      - "custom-integration"
+      - "frigate"
+      - "hacs"
+      - "home-assistant"
+      - "onvif"
+      - "tplink"
+      - "vigi"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "whatif-video"
+    title: "whatif-video"
+    description: "What if: a code-rendered music video (TypeScript + three.js), every frame drawn by code"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "litterbox"
+    title: "litterbox"
+    description: "Google Inbox-style single inbox for everything that needs attention"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "furry-sansa"
+    title: "furry-sansa"
+    description: "updater for osm2pgsql database"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2015-11-26"
+  - name: "cat-tv-play"
+    title: "cat-tv-play"
+    description: "Home Assistant custom integration for Cat TV play sessions and wall-plane jump measurement"
+    language: "Python"
+    topics:
+      - "cat-tv"
+      - "custom-integration"
+      - "hacs"
+      - "home-assistant"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
 ---
 
 # Komzpa
 
-352 pushes across 30 repositories on 49 active days in the last 90 days of public GitHub push activity.
+348 pushes across 30 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

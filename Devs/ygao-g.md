@@ -8,16 +8,16 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 5, 19, 1, 1, 0, 0, 13, 2, 1, 0, 1, 9]
+pushes_per_week: [0, 11, 14, 0, 1, 0, 4, 10, 2, 0, 1, 1, 8]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0

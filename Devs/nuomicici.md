@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_Favour_Ultra"
+    title: "astrbot_plugin_Favour_Ultra"
+    description: "好感度/亲密关系插件。比目前所有好感度插件都要更加完善，具备自然衰减、主动搭话、查询权限配置等功能，使用数据库存储，读取速度更快"
+    language: "Python"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "astrbot_plugin_AtTool"
+    title: "astrbot_plugin_AtTool"
+    description: "[仅aiocqhttp]@工具，提供给LLM在兼顾上下文的同时可以@用户"
+    language: "Python"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "astrbot_plugin_splitter"
+    title: "astrbot_plugin_splitter"
+    description: "优化消息分段体验，方便小白操作，并添加更多分段配置（如图片跟随等）"
+    language: "Python"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "astrbot_plugin_auto_ban_new"
+    title: "astrbot_plugin_auto_ban_new"
+    description: "去，把那些进群不看公告群规就开始叽叽喳喳的的嘴巴捂上！"
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "astrbot-plugin-choulaopo"
+    title: "astrbot-plugin-choulaopo"
+    description: "一个简单的 AstrBot 插件，允许群友抽取另一个群友作为自己的老婆，可自定义次数限制。"
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-02-02"
+  - name: "astrbot_plugin_GroupMemberQuery"
+    title: "astrbot_plugin_GroupMemberQuery"
+    description: "[仅aiocqhttp]群成员查询工具，用于获取群成员的群昵称、QQ名称、QQ号、群内身份，返回给LLM的工具"
+    language: "Python"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2025-09-22"
 ---
 
 # nuomicici

@@ -8,16 +8,16 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [1, 0, 3, 4, 1, 2, 1, 0, 5, 3, 0, 2, 6]
+pushes_per_week: [1, 1, 2, 4, 1, 3, 0, 1, 4, 3, 0, 5, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -76,7 +76,35 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "base-x-rs"
+    title: "base-x-rs"
+    description: "Encode/decode any base"
+    language: "Rust"
+    topics:
+      - "base-x"
+      - "rust"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "git-review"
+    title: "git-review"
+    description: "Git reviews for local network"
+    language: "Go"
+    topics:
+      - "code-review"
+      - "git"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "chromedriver-bug-repro"
+    title: "chromedriver-bug-repro"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-04"
 ---
 
 # OrKoN

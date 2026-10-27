@@ -8,16 +8,16 @@ provenance_repos:
   - "Leonxlnx/taste-skill"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [3, 10, 0, 1, 0, 0, 8, 23, 3, 11, 23, 8, 12]
+pushes_per_week: [3, 10, 0, 1, 0, 0, 9, 24, 1, 11, 27, 8, 8]
 windows:
   "7d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "taste-skill"
+    title: "taste-skill"
+    description: "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "anti-slop"
+      - "claude-code"
+      - "codex"
+      - "cursor"
+      - "design-system"
+      - "frontend"
+      - "landing-page"
+      - "ui-design"
+      - "web-design"
+    stars_fact: 103184
+    first_seen: "2026-07-07T06:00:04.098731+00:00"
+    last_push: "2026-10-26"
+  - name: "procedural-fire"
+    title: "procedural-fire"
+    description: "A fully procedural, physically based campfire in WebGPU: 3D combustion sim, blackbody rendering and synthesized sound. No assets."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "napali"
+    title: "napali"
+    description: "A drone flight over the Na Pali coast, rendered entirely in code. No textures, images or models."
+    language: "HTML"
+    topics:
+      - "claude-code"
+      - "generative-art"
+      - "glsl"
+      - "procedural-generation"
+      - "shaders"
+      - "webgl2"
+    stars_fact: 108
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "tastecode"
+    title: "tastecode"
+    description: "Personal Harness - a beautiful, adaptive control panel for AI coding agents. Windows-first, design-agent powered."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 413
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "taste-skill-classics"
+    title: "taste-skill-classics"
+    description: "The classic taste-skill styles and earlier versions: soft, minimalist, brutalist, gpt-taste, Stitch, v1 and v2-experimental. Opt-in, run by name."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "cinetic"
+    title: "cinetic"
+    description: "Cinematic launch films and motion design from code, directed by your coding agent."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "claude-skills"
+      - "launch-video"
+      - "motion-design"
+      - "remotion"
+    stars_fact: 901
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # Leonxlnx

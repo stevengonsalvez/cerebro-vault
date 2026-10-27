@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 3, 9, 3, 1, 0, 1, 3, 10, 28, 4, 4, 16]
+pushes_per_week: [9, 5, 9, 1, 1, 0, 1, 3, 12, 26, 7, 1, 16]
 windows:
   "7d":
     pushes: 16
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 12
-    active_days: 15
+    pushes: 52
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 16
     active_days: 31
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9677
+  push_per_day: 2.9355
   repo_per_active_day: 0.5161
   not_owned_ratio: 0.1250
   basename_concentration: 0.1875
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 12
-    pushes_per_repo: 4.6667
-    active_days: 15
+    pushes: 52
+    distinct_repos: 11
+    pushes_per_repo: 4.7273
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 16
-    pushes_per_repo: 5.7500
+    pushes_per_repo: 5.6875
     active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-92 pushes across 16 repositories on 31 active days in the last 90 days of public GitHub push activity.
+91 pushes across 16 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

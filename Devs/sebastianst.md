@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 1, 2, 0, 0, 0, 1, 0, 9, 2, 2, 3]
+pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 1, 0, 9, 2, 3, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.3636
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,76 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 4
-    pushes_per_repo: 5.5000
-    active_days: 11
+    pushes_per_repo: 5.0000
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yabai3"
+    title: "yabai3"
+    description: "i3 sanity layer for yabai"
+    language: "Shell"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2023-11-26"
+  - name: "GenesisZ"
+    title: "GenesisZ"
+    description: "Mine the Genesis Block for your Zcashy altcoin"
+    language: "Python"
+    topics:
+      - "bitcoin"
+      - "blockchain"
+      - "genesis"
+      - "mining"
+      - "solver"
+      - "zcash"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2018-05-17"
+  - name: "sebastianst.github.io"
+    title: "sebastianst.github.io"
+    description: "Github Page of Sebastian Stammler"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-30"
+  - name: "astronvim.cfg"
+    title: "astronvim.cfg"
+    description: "Seb's AstroNvim v4+ configuration"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-01"
+  - name: "UnsafeVolumeXposedMod"
+    title: "UnsafeVolumeXposedMod"
+    description: "Xposed mod to disables the Safe Media Volume Popup"
+    language: "Shell"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2013-06-24"
+  - name: "tbpurge"
+    title: "tbpurge"
+    description: ":put_litter_in_its_place: :gear: Purge Titanium Backup directory, only keeping newest backup(s) for each app"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2019-07-06"
 ---
 
 # sebastianst
 
-22 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+20 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sebastianst

@@ -8,23 +8,23 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 1, 5, 11, 4, 5, 9, 7]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 1, 5, 11, 4, 8, 10, 3]
 windows:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 25
     distinct_repos: 2
-    active_days: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 6.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 13
+    pushes_per_repo: 12.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GAgent"
+    title: "GAgent"
+    description: "AI-Driven 智能任务编排系统"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "DropStation"
+    title: "DropStation"
+    description: "macOS 文件中转站：拖拽文件时晃动鼠标即可暂存，随时拖出"
+    language: "Swift"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "latex-ide"
+    title: "latex-ide"
+    description: "AI-assisted LaTeX writing workbench — compile, literature search, and reviewable-diff AI edits as a Tauri desktop app"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "zotero-reading-assistant"
+    title: "zotero-reading-assistant"
+    description: "AI-powered reading assistant sidebar for Zotero"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "yiyabo"
+    title: "yiyabo"
+    description: "GitHub Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-05"
+  - name: "Gram-_Database"
+    title: "Gram-_Database"
+    description: "Under development"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-05"
 ---
 
 # yiyabo

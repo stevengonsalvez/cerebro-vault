@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 2, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 2, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-openduo"
+    title: "homebrew-openduo"
+    description: "GitLab-hardened wrapper for OpenCode."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "wyoming-openclaw"
+    title: "wyoming-openclaw"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-03-01"
+  - name: "wyoming-qwen-tts"
+    title: "wyoming-qwen-tts"
+    description: "Wyoming TTS service for Qwen3-TTS"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-01-25"
+  - name: "home-assistant-acp"
+    title: "home-assistant-acp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-25"
+  - name: "astronvim_config"
+    title: "astronvim_config"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-29"
 ---
 
 # vglafirov

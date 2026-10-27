@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 1, 4, 7, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 0, 0, 0, 1, 4, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.3333
+  push_per_day: 1.7500
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,54 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 9
+    pushes_per_repo: 4.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-acp-workbench"
+    title: "pi-acp-workbench"
+    description: "VS Code extension for Pi Agent over ACP, with streaming chat, rich Markdown, KaTeX math, editor context and diff previews."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "COMP5331"
+    title: "COMP5331"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "MLLM_Sycophancy"
+    title: "MLLM_Sycophancy"
+    description: "Code for Paper: Pointing to a Llama and Call it a Camel On the Sycophancy of Multimodal Large Language Models\""
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-08-31"
+  - name: "Histogram-Equalization"
+    title: "Histogram-Equalization"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-16"
 ---
 
 # ustc-mkh
 
-15 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
+14 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ustc-mkh

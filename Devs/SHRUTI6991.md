@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 6, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 6
+    pushes: 9
+    distinct_repos: 1
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes: 9
+    distinct_repos: 1
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "module5-solution"
+    title: "module5-solution"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-01-17"
+  - name: "module3-solution"
+    title: "module3-solution"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-01-16"
+  - name: "mod4-solution"
+    title: "mod4-solution"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-01-14"
+  - name: "module2-solution"
+    title: "module2-solution"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-01-10"
+  - name: "coursera-test"
+    title: "coursera-test"
+    description: "Coursera Test Repository"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-12-31"
+  - name: "Multivariate-Image-Data-Set-Visualization"
+    title: "Multivariate-Image-Data-Set-Visualization"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-09-23"
 ---
 
 # SHRUTI6991
 
-11 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SHRUTI6991

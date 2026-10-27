@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 2, 0, 2, 2, 0, 0, 1, 5, 13, 6, 2, 3]
+pushes_per_week: [3, 2, 0, 3, 1, 0, 0, 1, 7, 14, 3, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ps5-custom-payloads"
+    title: "ps5-custom-payloads"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "chatgpt-openai-proxy"
+    title: "chatgpt-openai-proxy"
+    description: "Use your chatgpt plan as an openai compatible api"
+    language: "Python"
+    topics:
+      - "api"
+      - "chatgpt"
+      - "openai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "arrmate"
+    title: "arrmate"
+    description: "A companion app for Radarr and Sonarr instances."
+    language: "Dart"
+    topics:
+      - "app"
+      - "arr"
+      - "companion"
+      - "flutter"
+      - "radarr"
+      - "rudarr"
+      - "sonarr"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "llm-telegram-bot"
+    title: "llm-telegram-bot"
+    description: "Telegram bot to chat with LLMs"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "bot"
+      - "llm"
+      - "telegram"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "opencode-openai-proxy"
+    title: "opencode-openai-proxy"
+    description: "docker image to expose openai compatible api from opencode"
+    language: "JavaScript"
+    topics:
+      - "docker"
+      - "openai"
+      - "opencode"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "youtube-transcript-mcp"
+    title: "youtube-transcript-mcp"
+    description: "MCP and CLI to extract subtitles from youtube videos. based on python's lib youtube-transcript-api"
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "mcp"
+      - "modelcontextprotocol"
+      - "transcription"
+      - "youtube"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-21"
 ---
 
 # lucasliet

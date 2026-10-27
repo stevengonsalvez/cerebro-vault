@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [2, 1, 2, 0, 1, 1, 1, 7, 2, 5, 6, 1, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 2
+    active_days: 1
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "idiomatic-rust"
+    title: "idiomatic-rust"
+    description: "🦀 A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust."
+    language: "Rust"
+    topics:
+      - "ergonomics"
+      - "idiomatic"
+      - "idiomatic-rust"
+      - "rust"
+    stars_fact: 7895
+    first_seen: null
+    last_push: "2026-02-12"
+  - name: "endler.dev"
+    title: "endler.dev"
+    description: "My personal website"
+    language: "HTML"
+    topics: []
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "thundervim"
+    title: "thundervim"
+    description: "Native VIM keybindings for Thunderbird; compose text with your favorite editor shortcuts."
+    language: "TypeScript"
+    topics:
+      - "editing"
+      - "thunderbird"
+      - "vim"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "timelapse"
+    title: "timelapse"
+    description: "A native macOS menu-bar app for recording screen timelapses. Swift, local-only, with incremental video encoding."
+    language: "Swift"
+    topics:
+      - "macos"
+      - "screen-recorder"
+      - "screencapturekit"
+      - "swift"
+      - "swiftui"
+      - "timelapse"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "mos6502"
+    title: "mos6502"
+    description: "Standard-compliant, no_std MOS 6502 emulator written in Rust with support for different variants (Revision A, NMOS 6502, Ricoh 2A03, 65C02)"
+    language: "Rust"
+    topics:
+      - "6502"
+      - "cpu"
+      - "emulator"
+      - "mos6502"
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "envy"
+    title: "envy"
+    description: "💫 Manage environment variables without cluttering your .zshrc."
+    language: "Shell"
+    topics:
+      - "cli"
+      - "direnv"
+      - "dotenv"
+      - "environment"
+      - "variables"
+    stars_fact: 88
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # mre

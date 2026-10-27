@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 0, 2, 2, 0, 0, 0, 0, 0, 2, 3, 3, 2]
+pushes_per_week: [2, 0, 3, 1, 0, 0, 0, 0, 0, 2, 6, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "StephenJarso"
+    title: "StephenJarso"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "applycanary"
+    title: "applycanary"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "stephenjarso-portfolio"
+    title: "stephenjarso-portfolio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "Vouchsafe"
+    title: "Vouchsafe"
+    description: "Vouchsafe — a spending accountability app where every payment needs a purpose, and risky transactions need a trusted person's approval before the money moves. Built for anyone recovering from spending-linked addictions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "python-piscine"
+    title: "python-piscine"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "go-mastery"
+    title: "go-mastery"
+    description: "Comprehensive Go programming language learning repository - Phase 1 onwards (OOP, Concurrency, Web Development, etc.)"
+    language: "Go"
+    topics:
+      - "concurrency"
+      - "functions"
+      - "generic"
+      - "interfaces"
+      - "methods"
+      - "structs"
+      - "testing"
+      - "web"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-04"
 ---
 
 # StephenJarso

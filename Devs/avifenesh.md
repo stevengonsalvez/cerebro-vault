@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [33, 18, 53, 17, 18, 13, 24, 107, 247, 94, 90, 55, 56]
+pushes_per_week: [36, 22, 47, 20, 15, 17, 20, 128, 238, 92, 114, 29, 48]
 windows:
   "7d":
-    pushes: 64
-    distinct_repos: 12
+    pushes: 53
+    distinct_repos: 11
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 420
+    pushes: 361
     distinct_repos: 52
-    active_days: 27
+    active_days: 26
     repos_not_owned: 27
     not_owned_basenames: 27
     not_owned_owners: 1
   "90d":
-    pushes: 825
+    pushes: 826
     distinct_repos: 61
     active_days: 76
     repos_not_owned: 29
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 10.8553
+  push_per_day: 10.8684
   repo_per_active_day: 0.8026
   not_owned_ratio: 0.4754
   basename_concentration: 0.0164
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 64
-    distinct_repos: 12
-    pushes_per_repo: 5.3333
+    pushes: 53
+    distinct_repos: 11
+    pushes_per_repo: 4.8182
     active_days: 7
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 420
+    pushes: 361
     distinct_repos: 52
-    pushes_per_repo: 8.0769
-    active_days: 27
+    pushes_per_repo: 6.9423
+    active_days: 26
     repos_not_owned: 27
     not_owned_basenames: 27
     not_owned_owners: 1
   "90d":
-    pushes: 825
+    pushes: 826
     distinct_repos: 61
-    pushes_per_repo: 13.5246
+    pushes_per_repo: 13.5410
     active_days: 76
     repos_not_owned: 29
     not_owned_basenames: 29
@@ -155,6 +155,6 @@ repos:
 
 # avifenesh
 
-825 pushes across 61 repositories on 76 active days in the last 90 days of public GitHub push activity.
+826 pushes across 61 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

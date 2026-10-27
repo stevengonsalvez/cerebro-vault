@@ -8,25 +8,25 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 3, 4, 4, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 4, 2, 4, 1, 2, 0, 0, 2, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 19
@@ -49,20 +49,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 19
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moreduomoreduogreen"
+    title: "moreduomoreduogreen"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "TRSSLauncher-Setup"
+    title: "TRSSLauncher-Setup"
+    description: "在Windows上可以直接使用的TRSS-yunzai安装器，无需linux指令"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-09-16"
+  - name: "koishi-plugin-iirose-welcome"
+    title: "koishi-plugin-iirose-welcome"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-06"
+  - name: "koishi-plugin-meter-image"
+    title: "koishi-plugin-meter-image"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-03"
 ---
 
 # shangxueink

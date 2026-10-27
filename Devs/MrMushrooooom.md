@@ -8,16 +8,16 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 8, 0, 0, 0, 0, 0, 7, 1, 3, 4, 1]
+pushes_per_week: [2, 1, 7, 0, 0, 0, 0, 0, 7, 3, 2, 3, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "DataSense-Site"
+    title: "DataSense-Site"
+    description: "Open-source AI-powered data insight engine. Turn raw data into actionable intelligence with natural language."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-10"
+  - name: "labvision-report"
+    title: "labvision-report"
+    description: "高校实验室管理平台数据报告项目"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-20"
+  - name: "robot-competition-website"
+    title: "robot-competition-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-20"
+  - name: "rich-text-editor"
+    title: "rich-text-editor"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-11"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-01-09"
+  - name: "brownie_fund_me"
+    title: "brownie_fund_me"
+    description: "Smart Contract Application"
+    language: "Solidity"
+    topics:
+      - "brownie"
+      - "chainlink"
+      - "python"
+      - "solidity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-04-27"
 ---
 
 # MrMushrooooom

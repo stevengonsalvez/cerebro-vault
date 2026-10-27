@@ -8,16 +8,16 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 9, 2, 0, 0, 0, 1, 18, 1, 8, 6, 6, 1]
+pushes_per_week: [1, 9, 2, 0, 0, 0, 1, 18, 3, 7, 9, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 9
-    active_days: 28
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.3214
+  push_per_day: 1.9630
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,97 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 9
-    pushes_per_repo: 6.0000
-    active_days: 28
+    pushes_per_repo: 5.8889
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wcqqq1214"
+    title: "wcqqq1214"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "gxu-campus-3d"
+    title: "gxu-campus-3d"
+    description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
+    language: "Python"
+    topics:
+      - "3d-campus"
+      - "blender"
+      - "guangxi-university"
+      - "gxu"
+      - "openstreetmap"
+      - "threejs"
+      - "virtual-tour"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "astrbot_plugin_openai_oauth"
+    title: "astrbot_plugin_openai_oauth"
+    description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
+    language: "Python"
+    topics:
+      - "astrbot"
+      - "astrbot-plugin"
+      - "chatgpt"
+      - "codex"
+      - "oauth"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "ragdoll-progress"
+    title: "ragdoll-progress"
+    description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."
+    language: "JavaScript"
+    topics:
+      - "bilibili"
+      - "chrome-extension"
+      - "douyin"
+      - "progress-bar"
+      - "ragdoll-cat"
+      - "tiktok"
+      - "youtube"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "codex-dot-send-motion"
+    title: "codex-dot-send-motion"
+    description: "Reusable React message-send animation inspired by Codex Dot."
+    language: "TypeScript"
+    topics:
+      - "animation"
+      - "chat-ui"
+      - "react"
+      - "web-animations-api"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "abceed-ai-translator"
+    title: "abceed-ai-translator"
+    description: "为 abceed 提供 AI 日文翻译、英文查词与发音、听力快捷键。"
+    language: "JavaScript"
+    topics:
+      - "abceed"
+      - "ai-translation"
+      - "tampermonkey"
+      - "toeic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # wcqqq1214
 
-54 pushes across 9 repositories on 28 active days in the last 90 days of public GitHub push activity.
+53 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wcqqq1214

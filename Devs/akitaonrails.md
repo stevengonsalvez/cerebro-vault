@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [28, 6, 22, 8, 2, 7, 8, 32, 35, 12, 28, 29, 30]
+pushes_per_week: [27, 5, 22, 8, 2, 8, 8, 33, 35, 13, 40, 15, 29]
 windows:
   "7d":
-    pushes: 35
-    distinct_repos: 15
-    active_days: 6
-    repos_not_owned: 4
+    pushes: 30
+    distinct_repos: 14
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 30
-    active_days: 23
+    active_days: 22
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 247
+    pushes: 245
     distinct_repos: 41
-    active_days: 63
+    active_days: 62
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 3.9206
-  repo_per_active_day: 0.6508
+  push_per_day: 3.9516
+  repo_per_active_day: 0.6613
   not_owned_ratio: 0.3415
   basename_concentration: 0.2927
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
-    distinct_repos: 15
-    pushes_per_repo: 2.3333
-    active_days: 6
-    repos_not_owned: 4
+    pushes: 30
+    distinct_repos: 14
+    pushes_per_repo: 2.1429
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 3
   "30d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 30
-    pushes_per_repo: 3.8333
-    active_days: 23
+    pushes_per_repo: 3.8000
+    active_days: 22
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 247
+    pushes: 245
     distinct_repos: 41
-    pushes_per_repo: 6.0244
-    active_days: 63
+    pushes_per_repo: 5.9756
+    active_days: 62
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-memory"
@@ -130,6 +130,6 @@ repos:
 
 # akitaonrails
 
-247 pushes across 41 repositories on 63 active days in the last 90 days of public GitHub push activity.
+245 pushes across 41 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

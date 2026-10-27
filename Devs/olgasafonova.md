@@ -8,37 +8,37 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [9, 0, 16, 0, 1, 0, 1, 0, 2, 3, 3, 3, 1]
+pushes_per_week: [8, 0, 16, 0, 1, 0, 1, 0, 2, 3, 3, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 12
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0526
-  repo_per_active_day: 0.6316
+  push_per_day: 2.1111
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -49,38 +49,144 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes_per_repo: 1.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 12
-    pushes_per_repo: 3.2500
-    active_days: 19
+    pushes_per_repo: 3.1667
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mediawiki-mcp-server"
+    title: "mediawiki-mcp-server"
+    description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "mediawiki"
+      - "model-context-protocol"
+      - "starred"
+      - "wiki"
+      - "wikipedia"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "miro-mcp-server"
+    title: "miro-mcp-server"
+    description: "MCP server for controlling Miro whiteboards with AI assistants"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "collaboration"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "miro"
+      - "miro-api"
+      - "model-context-protocol"
+      - "whiteboard"
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "linkedin-rs"
+    title: "linkedin-rs"
+    description: "LinkedIn in the terminal. Inbox, messages, feed, search, jobs, profile audit, network overlap; no browser needed. Fork of eisbaw/linkedin-rs."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "linkedin"
+      - "rust"
+      - "terminal"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "nordic-registry-mcp-server"
+    title: "nordic-registry-mcp-server"
+    description: "MCP server for Nordic company registries (Norway, Denmark, Finland, Sweden)"
+    language: "Go"
+    topics:
+      - "anthropic"
+      - "brreg"
+      - "claude"
+      - "company-registry"
+      - "denmark"
+      - "finland"
+      - "go"
+      - "golang"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "norway"
+      - "sweden"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "miro-cli"
+    title: "miro-cli"
+    description: "Single-binary CLI that wraps the Miro REST API as shell commands, with a local SQLite mirror for offline search."
+    language: "Go"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "cobra"
+      - "collaboration"
+      - "go"
+      - "golang"
+      - "miro"
+      - "miro-api"
+      - "whiteboard"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "godojo"
+    title: "godojo"
+    description: "Learn Go through visual gopher metaphors for abstract concepts, with belts and spaced repetition"
+    language: "TypeScript"
+    topics:
+      - "education"
+      - "go"
+      - "golang"
+      - "learning"
+      - "quiz"
+      - "react"
+      - "spaced-repetition"
+      - "typescript"
+      - "vite"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # olgasafonova
 
-39 pushes across 12 repositories on 19 active days in the last 90 days of public GitHub push activity.
+38 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/olgasafonova

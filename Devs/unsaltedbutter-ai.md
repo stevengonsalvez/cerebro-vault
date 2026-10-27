@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 1, 3, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "local-wallet"
+    title: "local-wallet"
+    description: "Bitcoin + Local AI"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "lndhub-proxy"
+    title: "lndhub-proxy"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "glm-flash-exl3-tp4-switchless"
+    title: "glm-flash-exl3-tp4-switchless"
+    description: "A mashup of MiaAI's EXL3 TP=2, and AlexEllis's Switchless for GLM 5.3 Flash"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "hermes-nostr"
+    title: "hermes-nostr"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "brain-scan"
+    title: "brain-scan"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "nostrmix-bot"
+    title: "nostrmix-bot"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-01"
 ---
 
 # unsaltedbutter-ai

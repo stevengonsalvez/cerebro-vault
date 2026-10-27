@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 3, 2, 1, 2, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 2, 4, 1, 2, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 6
-    pushes_per_repo: 1.6667
+    pushes_per_repo: 1.3333
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ODIN-TURBO-PASCAL"
+    title: "ODIN-TURBO-PASCAL"
+    description: null
+    language: "Pascal"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "SIMANABOS"
+    title: "SIMANABOS"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "mDonatur"
+    title: "mDonatur"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "SAKIPRO"
+    title: "SAKIPRO"
+    description: "SAKIPRO adalah AI CLI Agent untuk Kasubbag Perencanaan OPD yang membantu membaca folder dokumen SAKIP, mengecek indikator, cascading, PK, LKjIP, evidence, lalu menyusun rekomendasi dan laporan perbaikan secara cepat di laptop kantor."
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-30"
+  - name: "RuangASN"
+    title: "RuangASN"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-06-14"
+  - name: "arsitektur-pemdi-opd"
+    title: "arsitektur-pemdi-opd"
+    description: "Skill Claude untuk menyusun Arsitektur Pemdi/SPBE tingkat OPD, universal untuk semua kabupaten/kota Indonesia. Memetakan 6 domain (As-is dan To-be), selaras format portal SIA-SPBE, dengan disiplin anti-fabrikasi. Dasar: Perpres 132/2022, UU 23/2014, Permenpan 8/2026."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-11"
 ---
 
 # Syamsuddin

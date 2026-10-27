@@ -8,16 +8,16 @@ provenance_repos:
   - "ymichael/bb"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [3, 20, 47, 9, 1, 4, 12, 12, 26, 60, 6, 4, 14]
+pushes_per_week: [3, 34, 35, 8, 0, 8, 11, 11, 28, 60, 2, 12, 6]
 windows:
   "7d":
-    pushes: 18
+    pushes: 14
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,10 +65,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -92,7 +92,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bb-plugins"
+    title: "bb-plugins"
+    description: "BB plugins by Michael Yong"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cprofilev"
+    title: "cprofilev"
+    description: ":fire: An easier way to use cProfile"
+    language: "Python"
+    topics: []
+    stars_fact: 424
+    first_seen: null
+    last_push: "2016-02-01"
+  - name: "WidgetSpinner"
+    title: "WidgetSpinner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "everdell"
+    title: "everdell"
+    description: "🐿️ Play Everdell Online!"
+    language: "TypeScript"
+    topics:
+      - "board-game"
+      - "everdell"
+      - "game"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-03-18"
+  - name: "mill-timezone-app"
+    title: "mill-timezone-app"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # ymichael

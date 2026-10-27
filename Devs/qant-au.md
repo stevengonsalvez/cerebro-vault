@@ -8,28 +8,28 @@ provenance_repos:
   - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 16, 22, 6, 6, 8]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 23, 15, 6, 8, 8]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 4
+    pushes: 8
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 53
     distinct_repos: 4
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 61
     distinct_repos: 4
     active_days: 15
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9333
+  push_per_day: 4.0667
   repo_per_active_day: 0.2667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 3
+    pushes: 8
+    distinct_repos: 2
     pushes_per_repo: 4.0000
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
+    pushes: 53
     distinct_repos: 4
-    pushes_per_repo: 14.5000
+    pushes_per_repo: 13.2500
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 61
     distinct_repos: 4
-    pushes_per_repo: 14.7500
+    pushes_per_repo: 15.2500
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,29 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "accurona"
+    title: "accurona"
+    description: "Open-source 3D planning engine for land and marine plans. A maintained fork of NeonPlan 3D."
+    language: "TypeScript"
+    topics:
+      - "3d"
+      - "boat"
+      - "floor-plan"
+      - "hacs"
+      - "hacs-integration"
+      - "home-assistant"
+      - "lit"
+      - "marine"
+      - "signalk"
+      - "threejs"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # qant-au
 
-59 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
+61 pushes across 4 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qant-au

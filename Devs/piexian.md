@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 5, 7, 1, 1, 1, 1, 5, 14, 3, 5, 6, 4]
+pushes_per_week: [6, 6, 6, 0, 1, 1, 2, 4, 16, 2, 8, 2, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 9
     active_days: 14
     repos_not_owned: 2
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 9
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.5556
     active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_simple_long_memory"
+    title: "astrbot_plugin_simple_long_memory"
+    description: "为 AstrBot 提供简易的长期记忆能力，基于内置知识库实现用户偏好、历史交互和重要事实的记忆存储与召回。"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "memory"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "astrbot_plugin_grok_web_search"
+    title: "astrbot_plugin_grok_web_search"
+    description: "通过 Grok API 进行实时联网搜索，返回综合答案和来源链接，支持指令，LLM Tool和skills调用。"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "grok"
+      - "web-search"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "astrbot_plugin_gemini_image_generation"
+    title: "astrbot_plugin_gemini_image_generation"
+    description: "图像生成插件，支持生图和改图，可以自动获取头像作为参考等。"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "doubao"
+      - "gemimi"
+      - "grok"
+      - "image-generation"
+      - "openai"
+      - "xai-api"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "astrbot_plugin_mmx_cli_tool"
+    title: "astrbot_plugin_mmx_cli_tool"
+    description: "把MiniMax变为AstrBot的多功能工具！"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "astrbot_plugin_skills_mcp_manager"
+    title: "astrbot_plugin_skills_mcp_manager"
+    description: "为astrbot提供函数工具和指令来管理 AstrBot Skills 和 MCP 服务器。"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "manger"
+      - "mcp"
+      - "skills"
+      - "tools"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pi-providers-manager"
+    title: "pi-providers-manager"
+    description: "Interactive TUI manager for pi providers, models, and subagents (/providers + /agents)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # piexian

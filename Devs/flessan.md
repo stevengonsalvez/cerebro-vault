@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 0, 1, 1, 0, 5, 4, 11, 43, 11, 5, 2, 39]
+pushes_per_week: [2, 0, 1, 1, 0, 5, 4, 11, 45, 9, 6, 1, 48]
 windows:
   "7d":
-    pushes: 39
+    pushes: 48
     distinct_repos: 5
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 94
-    distinct_repos: 15
-    active_days: 19
+    pushes: 88
+    distinct_repos: 14
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 124
+    pushes: 133
     distinct_repos: 25
     active_days: 33
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7576
+  push_per_day: 4.0303
   repo_per_active_day: 0.7576
   not_owned_ratio: 0.2400
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 7.8000
+    pushes_per_repo: 9.6000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 94
-    distinct_repos: 15
-    pushes_per_repo: 6.2667
-    active_days: 19
+    pushes: 88
+    distinct_repos: 14
+    pushes_per_repo: 6.2857
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 124
+    pushes: 133
     distinct_repos: 25
-    pushes_per_repo: 4.9600
+    pushes_per_repo: 5.3200
     active_days: 33
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -132,6 +132,6 @@ repos:
 
 # flessan
 
-124 pushes across 25 repositories on 33 active days in the last 90 days of public GitHub push activity.
+133 pushes across 25 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/flessan

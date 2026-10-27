@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 1, 4, 2, 1, 0, 0, 5, 4, 8, 3, 1, 1]
+pushes_per_week: [5, 1, 4, 2, 1, 0, 0, 5, 4, 8, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 12
+    pushes_per_repo: 3.2000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "pi-working-enhanced"
+    title: "pi-working-enhanced"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "pi-ui-enhanced"
+    title: "pi-ui-enhanced"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "pi-opencode-free"
+    title: "pi-opencode-free"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "pi-usage-core"
+    title: "pi-usage-core"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "pi-coauthor"
+    title: "pi-coauthor"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # ReStranger

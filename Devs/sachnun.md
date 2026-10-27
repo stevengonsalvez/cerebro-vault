@@ -8,23 +8,23 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 17, 3, 6, 6, 3, 4, 25, 20, 19, 8, 6, 4]
+pushes_per_week: [9, 16, 2, 6, 6, 4, 7, 26, 15, 20, 11, 2, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
-    pushes_per_repo: 7.6667
-    active_days: 16
+    pushes_per_repo: 7.5000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opendum"
+    title: "opendum"
+    description: "Your dummy, one proxy."
+    language: "TypeScript"
+    topics:
+      - "anthropic"
+      - "openai"
+      - "proxy"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal dotfiles."
+    language: "TypeScript"
+    topics:
+      - "chezmoi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "nimeplay"
+    title: "nimeplay"
+    description: "Minimal anime streaming."
+    language: "TypeScript"
+    topics:
+      - "cloudflare"
+      - "nuxt"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "rctiplus"
+    title: "rctiplus"
+    description: "RCTI+ streaming."
+    language: "TypeScript"
+    topics:
+      - "iptv"
+      - "m3u8"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "pi-opendum"
+    title: "pi-opendum"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "unroxy"
+    title: "unroxy"
+    description: "Universal rotating proxy."
+    language: "Rust"
+    topics:
+      - "proxy"
+      - "psiphon-core"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # sachnun

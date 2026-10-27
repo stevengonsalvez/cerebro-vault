@@ -8,16 +8,16 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 1, 3, 0, 0, 0, 0, 0, 3, 1, 0, 2, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 0, 0, 0, 4, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "segnet_crfasrnn"
+    title: "segnet_crfasrnn"
+    description: "SegNet + CRF as RNN"
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2021-05-19"
+  - name: "bicubic-interpolation-fpga"
+    title: "bicubic-interpolation-fpga"
+    description: null
+    language: "Verilog"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2017-11-25"
+  - name: "haze_removal"
+    title: "haze_removal"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2017-11-20"
 ---
 
 # laoj2

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [48, 33, 55, 9, 1, 2, 4, 4, 22, 8, 5, 8, 32]
+pushes_per_week: [44, 43, 49, 4, 1, 2, 4, 7, 19, 8, 5, 8, 32]
 windows:
   "7d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 12
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 19
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 231
+    pushes: 226
     distinct_repos: 29
-    active_days: 50
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6200
-  repo_per_active_day: 0.5800
+  push_per_day: 4.6122
+  repo_per_active_day: 0.5918
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 12
-    pushes_per_repo: 2.9167
-    active_days: 4
+    pushes_per_repo: 2.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 57
     distinct_repos: 19
-    pushes_per_repo: 3.1579
-    active_days: 14
+    pushes_per_repo: 3.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 231
+    pushes: 226
     distinct_repos: 29
-    pushes_per_repo: 7.9655
-    active_days: 50
+    pushes_per_repo: 7.7931
+    active_days: 49
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-mempalace-plugin"
@@ -113,6 +113,6 @@ repos:
 
 # Bartok9
 
-231 pushes across 29 repositories on 50 active days in the last 90 days of public GitHub push activity.
+226 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Bartok9

@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 4, 11, 0, 4, 0, 9, 20, 4, 0, 3, 2, 0]
+pushes_per_week: [4, 9, 6, 0, 4, 0, 10, 19, 4, 0, 4, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 61
     distinct_repos: 5
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0476
-  repo_per_active_day: 0.2381
+  push_per_day: 3.0500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,22 +65,98 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 61
     distinct_repos: 5
-    pushes_per_repo: 12.8000
-    active_days: 21
+    pushes_per_repo: 12.2000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Shipmates CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "shipmates"
+    title: "shipmates"
+    description: "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request autonomously. Multi-harness."
+    language: "Rust"
+    topics:
+      - "agent-orchestration"
+      - "agentic"
+      - "agents"
+      - "ai-agents"
+      - "anthropic"
+      - "automation"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "cli"
+      - "coding-assistant"
+      - "developer-tools"
+      - "llm"
+      - "multi-agent"
+      - "productivity"
+      - "slash-commands"
+      - "subagents"
+      - "workflow-automation"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "pi-cuttle"
+    title: "pi-cuttle"
+    description: "Hybrid local/cloud model routing for pi: a local classifier picks the model per turn, with a cross-process memory governor so subagent fanout cannot exhaust local VRAM."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "cuttle"
+    title: "cuttle"
+    description: "Frontier mind. Local hands. Agentic coding harness that plans on a frontier model and executes on local/cheap hands."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "agentic-synth"
+    title: "agentic-synth"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "crusade-rts"
+    title: "crusade-rts"
+    description: "Crusade — a polished 2D isometric RTS engine & in-game map editor in Godot 4.4 (SC2-style look). Pure-GDScript, headless-tested cores. Fork it to build your own RTS."
+    language: "GDScript"
+    topics:
+      - "game-development"
+      - "game-engine"
+      - "gamedev"
+      - "gdscript"
+      - "godot"
+      - "godot4"
+      - "isometric"
+      - "real-time-strategy"
+      - "rts"
+      - "tilemap"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-26"
 ---
 
 # saman-mb
 
-64 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+61 pushes across 5 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saman-mb

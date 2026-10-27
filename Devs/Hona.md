@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 7, 35, 8, 25, 9, 2, 22, 8, 22, 3, 19, 11]
+pushes_per_week: [2, 13, 31, 7, 25, 8, 4, 21, 8, 22, 9, 13, 10]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 173
     distinct_repos: 12
-    active_days: 52
+    active_days: 50
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4038
-  repo_per_active_day: 0.2308
+  push_per_day: 3.4600
+  repo_per_active_day: 0.2400
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 173
     distinct_repos: 12
-    pushes_per_repo: 14.7500
-    active_days: 52
+    pushes_per_repo: 14.4167
+    active_days: 50
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotnet-opencode"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-177 pushes across 12 repositories on 52 active days in the last 90 days of public GitHub push activity.
+173 pushes across 12 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [1, 0, 4, 0, 0, 0, 1, 1, 0, 0, 4, 0, 1]
+pushes_per_week: [0, 1, 3, 0, 0, 1, 0, 1, 0, 0, 4, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 2
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 11
+    distinct_repos: 1
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7143
-  repo_per_active_day: 0.2857
+  push_per_day: 1.8333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
-    distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 11
+    distinct_repos: 1
+    pushes_per_repo: 11.0000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "amplify-gen1-migration-tool-product-catalog"
+    title: "amplify-gen1-migration-tool-product-catalog"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "amplify-gen1-app"
+    title: "amplify-gen1-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-06"
+  - name: "property-listing-platform"
+    title: "property-listing-platform"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-21"
+  - name: "amplify-mcp-kiro-demo"
+    title: "amplify-mcp-kiro-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-20"
+  - name: "amplify-studio-ui-builder-demo"
+    title: "amplify-studio-ui-builder-demo"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-11"
+  - name: "dynamodb-to-aurora"
+    title: "dynamodb-to-aurora"
+    description: "DynamoDB to Aurora data migration solution"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-11-06"
 ---
 
 # Simone319
 
-12 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+11 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Simone319

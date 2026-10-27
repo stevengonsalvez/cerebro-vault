@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [8, 7, 5, 4, 3, 6, 1, 14, 6, 12, 3, 4, 12]
+pushes_per_week: [6, 7, 5, 5, 2, 6, 4, 12, 6, 11, 7, 3, 9]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    active_days: 5
+    pushes: 9
+    distinct_repos: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 15
-    active_days: 43
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9767
-  repo_per_active_day: 0.3488
+  push_per_day: 1.9762
+  repo_per_active_day: 0.3571
   not_owned_ratio: 0.0000
   basename_concentration: 0.0667
   shapes: []
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 6
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes: 9
+    distinct_repos: 5
+    pushes_per_repo: 1.8000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 9
-    pushes_per_repo: 3.8889
+    pushes_per_repo: 3.7778
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 15
-    pushes_per_repo: 5.6667
-    active_days: 43
+    pushes_per_repo: 5.5333
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zulip-acp"
@@ -137,6 +137,6 @@ repos:
 
 # kfet
 
-85 pushes across 15 repositories on 43 active days in the last 90 days of public GitHub push activity.
+83 pushes across 15 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

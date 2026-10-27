@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
-pushes_per_week: [10, 0, 0, 0, 0, 0, 1, 1, 2, 4, 0, 0, 0]
+pushes_per_week: [6, 0, 0, 0, 0, 0, 1, 2, 1, 4, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 3
     active_days: 10
     repos_not_owned: 3
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8000
+  push_per_day: 1.5000
   repo_per_active_day: 0.3000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 18
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 5.0000
     active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -131,6 +131,6 @@ repos:
 
 # localden
 
-18 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+15 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/localden

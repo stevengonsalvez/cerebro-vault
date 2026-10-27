@@ -8,16 +8,16 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 5, 15, 4, 1, 2, 2, 6, 5, 2, 3, 4, 12]
+pushes_per_week: [0, 7, 16, 1, 1, 4, 0, 7, 4, 2, 3, 5, 11]
 windows:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SuperWagie-Open"
+    title: "SuperWagie-Open"
+    description: "犇马 SuperWagie · 本地 AI 办公与编程智能体。Local AI workbench for office work and coding, with Markdown tasks, a document library, and document/PPT creation for macOS and Windows."
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "benma"
+      - "coding-agent"
+      - "knowledge-base"
+      - "local-first"
+      - "macos"
+      - "markdown"
+      - "office-automation"
+      - "opencode"
+      - "productivity"
+      - "superwagie"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "llmrouter"
+    title: "llmrouter"
+    description: "Private LLM API aggregation and client compatibility platform"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "UniHub"
+    title: "UniHub"
+    description: "UniHub: headless identity, accounts and billing services for independent products"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "AgentWiki"
+    title: "AgentWiki"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "quukk-site"
+    title: "quukk-site"
+    description: "Quukk bilingual company website, product showcases, brand assets, and deployment documentation"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "WPSComposer"
+    title: "WPSComposer"
+    description: "Agent skill (any agent, Codex plugin packaging included) for generating and editing rich-layout DOCX/PPTX/XLSX/PDF via the real WPS Office engine — COM on Windows, JSAPI bridge on macOS"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # NeoMei

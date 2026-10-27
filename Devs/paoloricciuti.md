@@ -8,37 +8,37 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 5, 2, 0, 0, 1, 0, 0, 2, 2, 3, 0, 2]
+pushes_per_week: [3, 3, 2, 0, 0, 1, 0, 0, 2, 5, 0, 1, 2]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 7
-    active_days: 5
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 11
-    active_days: 12
+    active_days: 13
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.9167
+  push_per_day: 1.4615
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.7273
   basename_concentration: 0.2727
   shapes: []
@@ -49,38 +49,93 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 3
   "30d":
-    pushes: 8
+    pushes: 9
     distinct_repos: 7
-    pushes_per_repo: 1.1429
-    active_days: 5
+    pushes_per_repo: 1.2857
+    active_days: 6
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 11
-    pushes_per_repo: 1.6364
-    active_days: 12
+    pushes_per_repo: 1.7273
+    active_days: 13
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tmcp"
+    title: "tmcp"
+    description: "Typescript SDK to build MCP servers in an agnostic way"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 206
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "ricciuti.me"
+    title: "ricciuti.me"
+    description: "my personal website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "mcp-add"
+    title: "mcp-add"
+    description: "Universal cli to add an MCP server to a variety of clients"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-03-17"
+  - name: "sveltekit-search-params"
+    title: "sveltekit-search-params"
+    description: "The easiest way to read and WRITE from query parameters in sveltekit."
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "query-params"
+      - "search-params"
+      - "svelte"
+      - "svelte-store"
+      - "svelte-stores"
+      - "sveltekit"
+    stars_fact: 673
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "the-blog-of-alexandria"
+    title: "the-blog-of-alexandria"
+    description: "The Blog of Alexandria, a never ending source of information"
+    language: "Svelte"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "optimistikit"
+    title: "optimistikit"
+    description: "Optimistic UI in sveltekit made easy"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # paoloricciuti
 
-18 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
+19 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

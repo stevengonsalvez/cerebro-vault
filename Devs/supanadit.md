@@ -8,11 +8,11 @@ provenance_repos:
   - "supanadit/morse"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "59baa2731025f811"
-pushes_per_week: [0, 1, 2, 2, 0, 0, 0, 0, 0, 6, 4, 1, 2]
+pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 0, 6, 5, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "morse"
+    title: "morse"
+    description: "A comfortable GUI for the Pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "nestjs"
+      - "pi"
+    stars_fact: 8
+    first_seen: "2026-10-21T06:01:21.528026+00:00"
+    last_push: "2026-10-20"
+  - name: "ezx"
+    title: "ezx"
+    description: "Eazy Executor ?"
+    language: "Go"
+    topics:
+      - "docker"
+      - "docker-container"
+      - "init"
+      - "init-system"
+      - "linux"
+      - "pid1"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "forge"
+    title: "forge"
+    description: "Deterministic build system"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "phpv"
+    title: "phpv"
+    description: "PHP Version Manager"
+    language: "Go"
+    topics:
+      - "bash"
+      - "php"
+      - "posix-compliant"
+      - "shell"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "docker-flutter"
+    title: "docker-flutter"
+    description: "Flutter in Docker, it useful for automation CI/CD and release build"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "nvim"
+    title: "nvim"
+    description: "My Personal Neovim Config"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-15"
 ---
 
 # supanadit

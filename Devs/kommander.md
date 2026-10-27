@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [10, 0, 1, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4167
-  repo_per_active_day: 0.3333
+  push_per_day: 1.4545
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 12
+    pushes_per_repo: 4.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-iroh"
+    title: "opencode-iroh"
+    description: "Minimal Node/Bun binding for iroh peer connections used by OpenCode"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "tts-lab"
+    title: "tts-lab"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "oc-plugin-vault-tec"
+    title: "oc-plugin-vault-tec"
+    description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 182
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "bun-webgpu"
+    title: "bun-webgpu"
+    description: "WebGPU (Dawn) FFI bindings for bun."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-04-28"
+  - name: "xtui"
+    title: "xtui"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "oc-plugin-smoke-test"
+    title: "oc-plugin-smoke-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-03"
 ---
 
 # kommander
 
-17 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kommander

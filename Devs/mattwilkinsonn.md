@@ -8,18 +8,18 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 11, 5, 7, 6, 1, 0, 4, 7, 6, 29, 16, 4]
+pushes_per_week: [12, 9, 5, 8, 5, 1, 0, 4, 8, 5, 40, 8, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 59
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 59
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jj-hooks"
+    title: "jj-hooks"
+    description: "Use your pre-commit/pre-push hook runner with jj."
+    language: "Rust"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "tessera"
+    title: "tessera"
+    description: "Tessera Window Manager - write your tiling window manger config in TypeScript and use it cross platform with Yabai (macOS), Hyperlnd (Linux)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "dev-shared"
+    title: "dev-shared"
+    description: "Shared dev tooling for mattwilkinsonn tool repos: devenv module, setup-devenv composite action, reusable Rust CI workflow, Renovate preset."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for personal projects."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "jj-gt-live-tests"
+    title: "jj-gt-live-tests"
+    description: "Live-test fixture for jj-gt. Do not delete."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-26"
+  - name: "configs"
+    title: "configs"
+    description: "Public config files."
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-19"
 ---
 
 # mattwilkinsonn

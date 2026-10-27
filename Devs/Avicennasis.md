@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 4, 6, 7, 0, 0, 12, 13, 18, 13, 9, 11, 1]
+pushes_per_week: [5, 4, 6, 7, 0, 0, 13, 16, 14, 14, 18, 1, 2]
 windows:
   "7d":
     pushes: 2
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 21
     active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 101
-    distinct_repos: 29
+    pushes: 100
+    distinct_repos: 28
     active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8857
-  repo_per_active_day: 0.8286
-  not_owned_ratio: 0.1724
-  basename_concentration: 0.0345
+  push_per_day: 2.8571
+  repo_per_active_day: 0.8000
+  not_owned_ratio: 0.1786
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,24 +50,24 @@ automation:
 facets:
   "7d":
     pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 21
-    pushes_per_repo: 2.0476
+    pushes_per_repo: 2.0000
     active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 101
-    distinct_repos: 29
-    pushes_per_repo: 3.4828
+    pushes: 100
+    distinct_repos: 28
+    pushes_per_repo: 3.5714
     active_days: 35
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -136,6 +136,6 @@ repos:
 
 # Avicennasis
 
-101 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
+100 pushes across 28 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

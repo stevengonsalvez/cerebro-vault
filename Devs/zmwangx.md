@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 1, 3, 1, 0, 0, 0, 2, 1, 0, 0, 0, 1]
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "repocards"
+    title: "repocards"
+    description: "Auto-generate GitHub-style repository cards with GitHub Actions"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "rust-ffmpeg"
+    title: "rust-ffmpeg"
+    description: "Safe FFmpeg wrapper."
+    language: "Rust"
+    topics: []
+    stars_fact: 2021
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "rust-ffmpeg-sys"
+    title: "rust-ffmpeg-sys"
+    description: "FFmpeg bindings for Rust."
+    language: "Rust"
+    topics: []
+    stars_fact: 214
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "ets"
+    title: "ets"
+    description: "Command output timestamper"
+    language: "Go"
+    topics:
+      - "command-line"
+      - "golang"
+      - "pty"
+      - "timestamping"
+    stars_fact: 186
+    first_seen: null
+    last_push: "2024-12-24"
+  - name: "enforce-tabs-spaces"
+    title: "enforce-tabs-spaces"
+    description: "Enforce indentation style for languages without a formatter"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "metadata"
+    title: "metadata"
+    description: "Media file metadata for human consumption"
+    language: "Rust"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-08-12"
 ---
 
 # zmwangx

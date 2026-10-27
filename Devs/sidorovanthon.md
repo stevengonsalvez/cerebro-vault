@@ -8,14 +8,14 @@ provenance_repos:
   - "browser-use/video-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [5, 1, 15, 5, 7, 7, 4, 13, 22, 31, 29, 15, 29]
+pushes_per_week: [6, 2, 14, 5, 6, 9, 4, 16, 28, 25, 38, 10, 20]
 windows:
   "7d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 1
     active_days: 4
     repos_not_owned: 1
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 29.0000
+    pushes_per_repo: 26.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "anticodeguy-video-editing-studio"
+    title: "anticodeguy-video-editing-studio"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "hyperframes-repro-contrast-out-of-clip"
+    title: "hyperframes-repro-contrast-out-of-clip"
+    description: "Minimal repro: hyperframes validate + contrast-report.mjs emit null:1 / NaN:1 for text elements whose bbox falls outside the captured 1920x1080 viewport"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "hyperframes-repro-snapshot-portrait"
+    title: "hyperframes-repro-snapshot-portrait"
+    description: "Minimal repro: npx hyperframes snapshot defaults to 1920x1080 regardless of root data-width/data-height"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "hyperframes-repro-double-audio-same-src"
+    title: "hyperframes-repro-double-audio-same-src"
+    description: "Minimal repro: canonical SKILL.md Video+Audio two-element pattern triggers StaticGuard invalid-contract"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "handoff-prompt"
+    title: "handoff-prompt"
+    description: "A compact session handoff prompt for coding agents (Claude Code, Cursor, Aider, Copilot CLI, Gemini CLI, ...). Resume work in a fresh session without context bloat. ~300 tokens."
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-skill"
+      - "context-management"
+      - "productivity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "nutriklinika"
+    title: "nutriklinika"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-02-10"
 ---
 
 # sidorovanthon

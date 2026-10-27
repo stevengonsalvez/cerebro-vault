@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [8, 0, 1, 0, 2, 4, 1, 16, 23, 19, 18, 7, 2]
+pushes_per_week: [7, 1, 0, 0, 2, 4, 1, 19, 21, 19, 22, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 18
-    active_days: 32
+    pushes: 100
+    distinct_repos: 17
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1562
-  repo_per_active_day: 0.5625
-  not_owned_ratio: 0.0556
-  basename_concentration: 0.1111
+  push_per_day: 3.2258
+  repo_per_active_day: 0.5484
+  not_owned_ratio: 0.0588
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
-    distinct_repos: 18
-    pushes_per_repo: 5.6111
-    active_days: 32
+    pushes: 100
+    distinct_repos: 17
+    pushes_per_repo: 5.8824
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-benchmark"
+    title: "ai-benchmark"
+    description: "AI BENCHMARK"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "linux-rpi"
+    title: "linux-rpi"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "prview"
+    title: "prview"
+    description: "A self-hosted, TV-ready dashboard for your open GitHub pull requests. Oldest first, no login screen."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "repodocs"
+    title: "repodocs"
+    description: "Documentation for new repository"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "b3monitor"
+    title: "b3monitor"
+    description: "Blue3 Monitor"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "tv"
+    title: "tv"
+    description: "Our own home-screen layout and operating-system customization for smart TVs, starting with LG (webOS)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # samirhvbr
 
-101 pushes across 18 repositories on 32 active days in the last 90 days of public GitHub push activity.
+100 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samirhvbr

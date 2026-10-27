@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [44, 0, 4, 4, 1, 0, 0, 33, 30, 21, 7, 0, 0]
+pushes_per_week: [40, 1, 3, 5, 0, 0, 0, 49, 22, 13, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 3
-    active_days: 10
+    pushes: 28
+    distinct_repos: 2
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 144
+    pushes: 140
     distinct_repos: 9
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.2812
+  push_per_day: 4.5161
+  repo_per_active_day: 0.2903
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -57,30 +57,101 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 3
-    pushes_per_repo: 10.6667
-    active_days: 10
+    pushes: 28
+    distinct_repos: 2
+    pushes_per_repo: 14.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 144
+    pushes: 140
     distinct_repos: 9
-    pushes_per_repo: 16.0000
-    active_days: 32
+    pushes_per_repo: 15.5556
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gemma-4-abliteration"
+    title: "gemma-4-abliteration"
+    description: "Gemma 4 abliteration research: biprojection + EGA for E2B, E4B, 12B, 26B MoE, 31B"
+    language: "Python"
+    topics: []
+    stars_fact: 142
+    first_seen: null
+    last_push: "2026-06-13"
+  - name: "qwen3-tts-rs"
+    title: "qwen3-tts-rs"
+    description: "Rust implementation of Qwen3-TTS speech synthesis"
+    language: "Rust"
+    topics:
+      - "candle"
+      - "ml"
+      - "qwen3"
+      - "rust"
+      - "tts"
+    stars_fact: 150
+    first_seen: null
+    last_push: "2026-02-06"
+  - name: "voxtral-mini-realtime-rs"
+    title: "voxtral-mini-realtime-rs"
+    description: "Voxtral ASR & TTS running natively and in the browser. A Rust implementation of Mistral's Voxtral mini realtime ASR / TTS using the Burn ML framework"
+    language: "Rust"
+    topics:
+      - "asr"
+      - "audio"
+      - "burn"
+      - "mistral"
+      - "q4"
+      - "rust"
+      - "speech"
+      - "tts"
+      - "voxtral"
+      - "voxtral-mini-realtime"
+      - "wasm"
+    stars_fact: 824
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "slurper"
+    title: "slurper"
+    description: "macOS CLI: YouTube or audio file transcription and vocals/drums/bass/horns/other stems generation"
+    language: "Swift"
+    topics:
+      - "core-ai"
+      - "digitakt"
+      - "macos"
+      - "mlx"
+      - "stem-separation"
+      - "swift"
+      - "yt-dlp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "linear-cli"
+    title: "linear-cli"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "phosphor"
+    title: "phosphor"
+    description: "An agent-native terminal editor - a spiritual successor to Light Table for the age of coding agents, with the terminal as a first-class citizen."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # TrevorS
 
-144 pushes across 9 repositories on 32 active days in the last 90 days of public GitHub push activity.
+140 pushes across 9 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TrevorS

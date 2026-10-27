@@ -8,39 +8,39 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [90, 112, 2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 19]
+pushes_per_week: [44, 113, 1, 0, 0, 0, 0, 0, 0, 0, 1, 20, 9]
 windows:
   "7d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 27
+    pushes: 30
     distinct_repos: 4
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 231
-    distinct_repos: 94
-    active_days: 19
-    repos_not_owned: 15
-    not_owned_basenames: 14
+    pushes: 188
+    distinct_repos: 92
+    active_days: 18
+    repos_not_owned: 14
+    not_owned_basenames: 13
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 12.1579
-  repo_per_active_day: 4.9474
-  not_owned_ratio: 0.1596
-  basename_concentration: 0.0213
+  push_per_day: 10.4444
+  repo_per_active_day: 5.1111
+  not_owned_ratio: 0.1522
+  basename_concentration: 0.0217
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,38 +49,123 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 4
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 5.2500
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 27
+    pushes: 30
     distinct_repos: 4
-    pushes_per_repo: 6.7500
+    pushes_per_repo: 7.5000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 231
-    distinct_repos: 94
-    pushes_per_repo: 2.4574
-    active_days: 19
-    repos_not_owned: 15
-    not_owned_basenames: 14
+    pushes: 188
+    distinct_repos: 92
+    pushes_per_repo: 2.0435
+    active_days: 18
+    repos_not_owned: 14
+    not_owned_basenames: 13
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vastgrid"
+    title: "vastgrid"
+    description: "A React data grid for CSV, TSV, Parquet and JSON Lines files of any size, with spreadsheet features."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "parapdf"
+    title: "parapdf"
+    description: "A fast PDF viewer for React, built on pdf.js"
+    language: "TypeScript"
+    topics:
+      - "pdf"
+      - "pdf-viewer"
+      - "pdfjs"
+      - "react"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "pylopdf"
+    title: "pylopdf"
+    description: "PDF editing, rendering, extraction, and generation for Python on the Rust engines lopdf, hayro, and krilla — MIT, safe on untrusted input, WebAssembly-ready."
+    language: "Python"
+    topics:
+      - "cloudflare-workers"
+      - "ocr"
+      - "pdf"
+      - "pdf-editing"
+      - "pdf-extraction"
+      - "pdf-generation"
+      - "pdf-library"
+      - "pdf-rendering"
+      - "pymupdf-alternative"
+      - "pyo3"
+      - "python"
+      - "rust"
+      - "table-extraction"
+      - "text-extraction"
+      - "webassembly"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "yhay81"
+    title: "yhay81"
+    description: "GitHub public profile"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "GASlacker"
+    title: "GASlacker"
+    description: "Slack Web API client for Google Apps Script — 168 methods, rate-limit retries, file uploads, OAuth v2, zero runtime dependencies"
+    language: "TypeScript"
+    topics:
+      - "automation"
+      - "clasp"
+      - "gas"
+      - "google-apps-script"
+      - "google-sheets"
+      - "google-workspace"
+      - "slack"
+      - "slack-api"
+      - "slack-bot"
+      - "typescript"
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "gettext-tstrings"
+    title: "gettext-tstrings"
+    description: "Safe, fast gettext and Babel integration for Python t-strings"
+    language: "Python"
+    topics:
+      - "babel"
+      - "gettext"
+      - "i18n"
+      - "internationalization"
+      - "python"
+      - "python-314"
+      - "t-strings"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # yhay81
 
-231 pushes across 94 repositories on 19 active days in the last 90 days of public GitHub push activity.
+188 pushes across 92 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

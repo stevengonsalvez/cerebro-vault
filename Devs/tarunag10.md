@@ -8,23 +8,23 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 2, 0, 17, 1, 0, 0, 0, 10, 0, 0, 1, 2]
+pushes_per_week: [0, 2, 0, 18, 0, 0, 0, 0, 10, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 12
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 12
-    pushes_per_repo: 1.0833
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ExactDraft"
+    title: "ExactDraft"
+    description: "ExactDraft: local-first document hash attestations on Monad testnet"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "universal-copy"
+    title: "universal-copy"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "legal-templates"
+    title: "legal-templates"
+    description: "Open Access UK: legal-templates"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "salary-boost-uk-site"
+    title: "salary-boost-uk-site"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "open-access-uk"
+    title: "open-access-uk"
+    description: "Open Access UK suite workspace linking the seven project repos"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "PageLumen"
+    title: "PageLumen"
+    description: "Native macOS accessibility-first reader for PDFs, screenshots, scans, and visual documents."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "macos"
+      - "ocr"
+      - "pdf"
+      - "swiftui"
+      - "vision"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # tarunag10

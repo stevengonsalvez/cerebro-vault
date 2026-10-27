@@ -8,11 +8,11 @@ provenance_repos:
   - "msitarzewski/agency-agents"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [4, 4, 1, 0, 0, 0, 3, 0, 5, 2, 2, 0, 0]
+pushes_per_week: [1, 4, 1, 0, 0, 0, 3, 0, 5, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 11
-    active_days: 16
+    pushes: 18
+    distinct_repos: 10
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3125
-  repo_per_active_day: 0.6875
+  push_per_day: 1.2857
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,94 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 6
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 11
-    pushes_per_repo: 1.9091
-    active_days: 16
+    pushes: 18
+    distinct_repos: 10
+    pushes_per_repo: 1.8000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agency-agents"
+    title: "agency-agents"
+    description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
+    language: "Shell"
+    topics: []
+    stars_fact: 164351
+    first_seen: "2026-08-14T06:00:04.069258+00:00"
+    last_push: "2026-10-25"
+  - name: "agency-agents-app"
+    title: "agency-agents-app"
+    description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 832
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "openstudio"
+    title: "openstudio"
+    description: "OpenStudio is a self-hosted, open-source virtual broadcast studio that puts power back in the hands of creators. Run live call-in shows, multi-host podcasts, and community radio—all from infrastructure you control."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 140
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "brew-browser"
+    title: "brew-browser"
+    description: "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI."
+    language: "Rust"
+    topics: []
+    stars_fact: 1067
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "AGENT-ZERO"
+    title: "AGENT-ZERO"
+    description: "Operational framework and patterns for high-quality, AI-assisted software development. This repository provides a single canonical guide for AGENTS.md and a lightweight workflow for repeatable, auditable, and architecture-first delivery."
+    language: null
+    topics: []
+    stars_fact: 288
+    first_seen: null
+    last_push: "2026-03-05"
+  - name: "AutoPaper"
+    title: "AutoPaper"
+    description: "Tell your computer what you'd like to see: new AI wallpapers from a few keywords, with moods, memory and echoes. Native apps for macOS, Windows and Linux; your own key or a local model."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "comfyui"
+      - "flatpak"
+      - "gtk4"
+      - "image-generation"
+      - "libadwaita"
+      - "linux"
+      - "macos"
+      - "menu-bar-app"
+      - "ollama"
+      - "rust"
+      - "swiftui"
+      - "uniffi"
+      - "wallpaper"
+      - "windows"
+      - "winui3"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # msitarzewski
 
-21 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+18 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/msitarzewski

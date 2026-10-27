@@ -8,23 +8,23 @@ provenance_repos:
   - "Canner/WrenAI"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 7, 4, 2, 0, 0, 2, 3, 1, 3, 5, 4, 3]
+pushes_per_week: [2, 8, 3, 2, 0, 0, 2, 3, 1, 6, 4, 2, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 10
+    pushes_per_repo: 2.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "crazy_haskell"
+    title: "crazy_haskell"
+    description: null
+    language: "Haskell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "adv_2025"
+    title: "adv_2025"
+    description: "Python solutions of Advent of Code 2025"
+    language: "Python"
+    topics:
+      - "advent-of-code"
+      - "advent-of-code-2025"
+      - "adventofcode-python"
+      - "adventofcode2025"
+      - "aoc"
+      - "aoc-python"
+      - "aoc-solutions"
+      - "aoc2025"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "adv_2024"
+    title: "adv_2024"
+    description: "Python solutions of Advent of Code 2024"
+    language: "Python"
+    topics:
+      - "advent-of-code"
+      - "advent-of-code-2024"
+      - "adventofcode-python"
+      - "adventofcode2024"
+      - "aoc"
+      - "aoc-python"
+      - "aoc2024"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "adv_2023"
+    title: "adv_2023"
+    description: "Python solutions of Advent of Code 2023"
+    language: "Python"
+    topics:
+      - "advent-of-code-2023"
+      - "adventofcode2023"
+      - "aoc2023"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "adv_2021"
+    title: "adv_2021"
+    description: "Python solutions of Advent of Code 2021"
+    language: "Python"
+    topics:
+      - "advent-of-code-2021"
+      - "adventofcode2021"
+      - "aoc2021"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "string_to_code_proj"
+    title: "string_to_code_proj"
+    description: "Generates a piece of messy code displaying a given string"
+    language: "Python"
+    topics:
+      - "code-generation"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # vil02

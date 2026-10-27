@@ -8,23 +8,23 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 5, 7, 4, 3, 3, 7, 0, 5, 1, 7, 7, 7]
+pushes_per_week: [11, 8, 3, 6, 1, 5, 5, 0, 5, 4, 7, 4, 7]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 5
+    pushes_per_repo: 7.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
-    pushes_per_repo: 26.0000
-    active_days: 15
+    pushes_per_repo: 25.0000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1

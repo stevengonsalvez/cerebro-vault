@@ -8,25 +8,25 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 3, 3, 13, 10, 8, 46, 119, 202, 120, 122, 84, 49]
+pushes_per_week: [1, 4, 7, 10, 8, 11, 55, 132, 191, 128, 126, 75, 32]
 windows:
   "7d":
-    pushes: 62
-    distinct_repos: 17
-    active_days: 4
-    repos_not_owned: 16
-    not_owned_basenames: 16
+    pushes: 44
+    distinct_repos: 15
+    active_days: 3
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 1
   "30d":
-    pushes: 450
-    distinct_repos: 78
-    active_days: 23
-    repos_not_owned: 71
-    not_owned_basenames: 71
+    pushes: 430
+    distinct_repos: 76
+    active_days: 22
+    repos_not_owned: 69
+    not_owned_basenames: 69
     not_owned_owners: 1
   "90d":
     pushes: 780
@@ -49,20 +49,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 62
-    distinct_repos: 17
-    pushes_per_repo: 3.6471
-    active_days: 4
-    repos_not_owned: 16
-    not_owned_basenames: 16
+    pushes: 44
+    distinct_repos: 15
+    pushes_per_repo: 2.9333
+    active_days: 3
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 1
   "30d":
-    pushes: 450
-    distinct_repos: 78
-    pushes_per_repo: 5.7692
-    active_days: 23
-    repos_not_owned: 71
-    not_owned_basenames: 71
+    pushes: 430
+    distinct_repos: 76
+    pushes_per_repo: 5.6579
+    active_days: 22
+    repos_not_owned: 69
+    not_owned_basenames: 69
     not_owned_owners: 1
   "90d":
     pushes: 780
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "github-workflows"
+    title: "github-workflows"
+    description: "Central reusable GitHub Actions workflows for teemow/* repos"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "mcp-midi-controller"
+    title: "mcp-midi-controller"
+    description: "Conversational MCP server (Go) for rig setup, sound design, and scene management of a MIDI/OSC music rig"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "planterm"
+    title: "planterm"
+    description: "CAREL pLAN terminal protocol library — act as a pGD terminal: decode, enroll, navigate, edit"
+    language: "C++"
+    topics:
+      - "arduino-library"
+      - "carel"
+      - "hvac"
+      - "pgd"
+      - "plan"
+      - "protocol"
+      - "rs485"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "pixelloop"
+    title: "pixelloop"
+    description: "An OS for ESP32 displays built by coding agents, with the hardware-in-the-loop test loop: change code, flash, drive the UI, screenshot, iterate."
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "patty"
+    title: "patty"
+    description: "Finds leaked GitHub tokens in every corner of a repository's history. Marge's sister."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "inboxfewer"
+    title: "inboxfewer"
+    description: "Archive gmail threads when github issues are closed (now with MCP server)"
+    language: "Go"
+    topics:
+      - "assistant"
+      - "github"
+      - "gmail"
+      - "google"
+      - "mcp"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # teemow

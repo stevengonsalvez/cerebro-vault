@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [13, 5, 10, 0, 0, 0, 1, 1, 1, 4, 0, 1, 0]
+pushes_per_week: [12, 7, 8, 0, 0, 0, 1, 2, 0, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,7 +32,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 7
     active_days: 19
     repos_not_owned: 0
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8947
+  push_per_day: 1.8421
   repo_per_active_day: 0.3684
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -68,9 +68,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 7
-    pushes_per_repo: 5.1429
+    pushes_per_repo: 5.0000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -206,6 +206,6 @@ repos:
 
 # DaoyuanLi2816
 
-36 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+35 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

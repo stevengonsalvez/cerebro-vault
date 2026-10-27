@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rymi.dev"
+    title: "rymi.dev"
+    description: "personal website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "switchboard"
+    title: "switchboard"
+    description: "Open links in different Chrome profiles"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "dq"
+    title: "dq"
+    description: "duckdb powered pipeline CLI"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "lustre-todomvc"
+    title: "lustre-todomvc"
+    description: "todomvc example with lustre"
+    language: "Gleam"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2025-04-22"
+  - name: "jsonrpc"
+    title: "jsonrpc"
+    description: null
+    language: "Gleam"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-10-02"
 ---
 
 # ryanmiville

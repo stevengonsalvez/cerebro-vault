@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 2, 2, 0, 0, 4, 7, 1, 0, 0, 0, 5]
+pushes_per_week: [0, 0, 2, 2, 0, 0, 4, 7, 1, 0, 0, 1, 4]
 windows:
   "7d":
     pushes: 5
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hey"
+    title: "hey"
+    description: "HTTP load generator, ApacheBench (ab) replacement"
+    language: "Go"
+    topics: []
+    stars_fact: 20737
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "chiptune"
+    title: "chiptune"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "aep"
+    title: "aep"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "statik"
+    title: "statik"
+    description: "Embed files into a Go executable"
+    language: "Go"
+    topics:
+      - "files"
+      - "go"
+      - "golang"
+      - "http"
+      - "http-server"
+      - "static"
+    stars_fact: 3825
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "fake-it-til-you-make-it"
+    title: "fake-it-til-you-make-it"
+    description: "A program that demonstrates that GitHub contribution graph can be cheated"
+    language: "Go"
+    topics: []
+    stars_fact: 174
+    first_seen: null
+    last_push: "2024-07-26"
+  - name: "log-to-xray"
+    title: "log-to-xray"
+    description: "Write log entries, get X-Ray traces."
+    language: "Go"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2021-06-29"
 ---
 
 # rakyll

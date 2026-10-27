@@ -8,11 +8,11 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [1, 8, 17, 5, 3, 0, 0, 3, 12, 4, 0, 1, 1]
+pushes_per_week: [1, 10, 15, 6, 2, 0, 0, 3, 12, 4, 0, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 10
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 7
+    pushes_per_repo: 5.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pranshugupta54"
+    title: "pranshugupta54"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "hertz"
+    title: "hertz"
+    description: "📊 A tiny native macOS menu-bar system monitor — CPU, memory, disk, network & battery."
+    language: "Swift"
+    topics:
+      - "activity-monitor"
+      - "cpu"
+      - "istat"
+      - "mac"
+      - "macos"
+      - "menu-bar"
+      - "menubar"
+      - "menubar-app"
+      - "monitoring"
+      - "performance"
+      - "swift"
+      - "swiftui"
+      - "system-monitor"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-06-08"
+  - name: "site"
+    title: "site"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "skills"
+    title: "skills"
+    description: "Agent skills for coding agents — install with: npx skills add pranshugupta54/skills"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-09"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-29"
 ---
 
 # pranshugupta54

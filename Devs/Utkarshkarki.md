@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 1, 1, 0, 1, 0, 1, 7, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 0, 0, 1, 7, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AI-FaultX"
+    title: "AI-FaultX"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "ImageMOD"
+    title: "ImageMOD"
+    description: "We will be working around Images"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "AI-Automation"
+    title: "AI-Automation"
+    description: "Automate your daily tasks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "Swarm"
+    title: "Swarm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "CLI-X"
+    title: "CLI-X"
+    description: "Build it"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "Salvage"
+    title: "Salvage"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-05"
 ---
 
 # Utkarshkarki

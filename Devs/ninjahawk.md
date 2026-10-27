@@ -8,11 +8,11 @@ provenance_repos:
   - "ninjahawk/livenerf"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 7, 2, 3, 0, 3, 2]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 8, 1, 3, 0, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "S-and-Poke-500"
+    title: "S-and-Poke-500"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "crypto"
+    title: "crypto"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "livenerf"
+    title: "livenerf"
+    description: "Benchmark for tracking model capability after release."
+    language: "Python"
+    topics: []
+    stars_fact: 1579
+    first_seen: "2026-09-30T06:02:10.916514+00:00"
+    last_push: "2026-10-23"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "Subtext"
+    title: "Subtext"
+    description: "To know what models don't say out loud."
+    language: "HTML"
+    topics:
+      - "interpretability"
+      - "llm"
+      - "mechanistic-interpretability"
+      - "pytorch"
+      - "qwen"
+      - "transformers"
+      - "visualization"
+    stars_fact: 246
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "intratexxxt"
+    title: "intratexxxt"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
 ---
 
 # ninjahawk

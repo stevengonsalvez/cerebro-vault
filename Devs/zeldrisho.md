@@ -8,23 +8,23 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [3, 8, 5, 11, 0, 1, 4, 5, 11, 7, 2, 3, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 7
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 20
     distinct_repos: 7
-    pushes_per_repo: 3.2857
-    active_days: 14
+    pushes_per_repo: 2.8571
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "morphe-patches"
+    title: "morphe-patches"
+    description: "Yet another Morphe Patches"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Yet another Pi packages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "fedora-copr"
+    title: "fedora-copr"
+    description: "Yet another Fedora COPR"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "UnityVietnameseFontSync"
+    title: "UnityVietnameseFontSync"
+    description: "BepInEx 5 plugin for Vietnamese glyph fallback and targeted TextMeshPro font replacement in Unity Mono games."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # zeldrisho

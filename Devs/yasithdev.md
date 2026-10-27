@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [3, 8, 0, 2, 0, 3, 8, 20, 40, 22, 7, 0, 3]
+pushes_per_week: [3, 7, 0, 2, 2, 2, 10, 19, 40, 22, 5, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 53
-    distinct_repos: 6
-    active_days: 15
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 41
+    distinct_repos: 5
+    active_days: 14
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 11
-    active_days: 37
+    active_days: 36
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.1351
-  repo_per_active_day: 0.2973
+  push_per_day: 3.1944
+  repo_per_active_day: 0.3056
   not_owned_ratio: 1.0000
   basename_concentration: 0.1818
   shapes: []
@@ -57,30 +57,79 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 53
-    distinct_repos: 6
-    pushes_per_repo: 8.8333
-    active_days: 15
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 41
+    distinct_repos: 5
+    pushes_per_repo: 8.2000
+    active_days: 14
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 116
+    pushes: 115
     distinct_repos: 11
-    pushes_per_repo: 10.5455
-    active_days: 37
+    pushes_per_repo: 10.4545
+    active_days: 36
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yasithdev.github.io"
+    title: "yasithdev.github.io"
+    description: "My Personal Web Page"
+    language: "HTML"
+    topics:
+      - "jekyll"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "yasithdev"
+    title: "yasithdev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "slurmrest"
+    title: "slurmrest"
+    description: "Docker-Compose SLURM Cluster Accounting, REST Features"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-12"
+  - name: "airavata-nextjs-portal"
+    title: "airavata-nextjs-portal"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-24"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-15"
+  - name: "goldlinetyre.lk"
+    title: "goldlinetyre.lk"
+    description: "Website for Gold Line Tyre Center, Dehiwala, Sri Lanka"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-12-04"
 ---
 
 # yasithdev
 
-116 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+115 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yasithdev

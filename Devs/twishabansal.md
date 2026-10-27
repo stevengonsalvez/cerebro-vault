@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [0, 2, 2, 3, 0, 1, 0, 4, 14, 3, 1, 0, 4]
+pushes_per_week: [2, 1, 1, 3, 0, 1, 0, 7, 12, 2, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "twishabansal.github.io"
+    title: "twishabansal.github.io"
+    description: "Personal blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "vector-store-experiments"
+    title: "vector-store-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-12"
+  - name: "Image-Colourisation"
+    title: "Image-Colourisation"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2021-04-15"
+  - name: "frappe-mean"
+    title: "frappe-mean"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-04-04"
+  - name: "Handwritten_alphabet_classification"
+    title: "Handwritten_alphabet_classification"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-07-18"
+  - name: "COVID_trends_prediction"
+    title: "COVID_trends_prediction"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-06-24"
 ---
 
 # twishabansal

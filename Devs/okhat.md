@@ -8,8 +8,8 @@ provenance_repos:
   - "stanfordnlp/dspy"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "481b19745d66d642"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 360
+    first_seen: null
+    last_push: "2025-09-15"
 ---
 
 # okhat

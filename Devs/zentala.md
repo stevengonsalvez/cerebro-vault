@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 2, 3, 2, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 5, 0, 2, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,88 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MoveUp"
+    title: "MoveUp"
+    description: "App that encourages you to take breaks and change your body position while using computer through a gamification experience with points and badges. Integrates with Open Smart Desk, which monitors desk time and height."
+    language: "Rust"
+    topics:
+      - "app"
+      - "desk"
+      - "health"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "nocookie"
+    title: "nocookie"
+    description: "Open standard + Chrome extension for automatic cookie consent management"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "mdpad"
+    title: "mdpad"
+    description: "Markdown editor & viewer for CLI, desktop and server"
+    language: "TypeScript"
+    topics:
+      - "markdown"
+      - "markdown-editor"
+      - "markdown-to-html"
+      - "markdown-to-pdf"
+      - "markdown-viewer"
+      - "md"
+      - "mdx"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "zentala"
+    title: "zentala"
+    description: "My GitHub profile pinned README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "zentala.eu"
+    title: "zentala.eu"
+    description: "The European Union reform / modernization / innovation ideas in the spirit of Information Economy, 4th Industrial Revolution."
+    language: "MDX"
+    topics:
+      - "blog"
+      - "eu"
+      - "innovation"
+      - "reform"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "pTTY"
+    title: "pTTY"
+    description: "pTTY — persistent virtual terminal for remote AI coding and Linux management via SSH. Keep alive console sessions of Claude, Codex, Gemini, or Pi coding agents, across SSH drops, WiFi glitches, and laptop sleep. Built on tmux with Ctrl+F1–F10 hotkeys for instant switching between 10 terminal sessions."
+    language: "Shell"
+    topics:
+      - "ai-cli"
+      - "ai-coding"
+      - "aider"
+      - "claude-code"
+      - "codex"
+      - "console"
+      - "developer-experience"
+      - "devex"
+      - "persistence"
+      - "presistent-terminal"
+      - "remote"
+      - "remote-control"
+      - "remote-terminal"
+      - "server-management"
+      - "sessions"
+      - "ssh"
+      - "sysadmin"
+      - "terminal"
+      - "tmux"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-15"
 ---
 
 # zentala

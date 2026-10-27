@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 1, 1, 0, 0, 0, 0, 0, 0, 3, 2, 14, 7]
+pushes_per_week: [7, 1, 1, 0, 0, 0, 0, 0, 1, 3, 13, 2, 7]
 windows:
   "7d":
     pushes: 7
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "query"
+    title: "query"
+    description: "Let coding agents ask you for secrets in a floating macOS prompt instead of in chat"
+    language: "Swift"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "glassx"
+    title: "glassx"
+    description: "A fully native X client for macOS 27, built with SwiftUI and Liquid Glass."
+    language: "Swift"
+    topics:
+      - "liquid-glass"
+      - "macos"
+      - "macos-app"
+      - "swiftui"
+      - "twitter"
+      - "x"
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "browse"
+    title: "browse"
+    description: "Let AI agents use your real browser through MCP: the OpenCode Browser extension, relay, and browse tools"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "opensend"
+    title: "opensend"
+    description: "self-hosted transactional & marketing email layer on top of aws ses"
+    language: "TypeScript"
+    topics:
+      - "email"
+      - "email-marketing"
+    stars_fact: 164
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "pgrok"
+    title: "pgrok"
+    description: "Personal ngrok alternative. Expose local ports to the internet with automatic HTTPS via SSH tunnels + Caddy."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1168
+    first_seen: null
+    last_push: "2026-02-11"
 ---
 
 # R44VC0RP

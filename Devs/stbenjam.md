@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -57,6 +57,7 @@ provenance:
   - "8f9e2f8ba8bd1533"
   - "92349bd4a8c11233"
   - "93601d11e4db33a8"
+  - "93af44a64968d818"
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
@@ -81,7 +82,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [8, 13, 5, 0, 8, 0, 0, 4, 12, 1, 0, 0, 0]
+pushes_per_week: [5, 13, 5, 1, 7, 0, 0, 4, 12, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,25 +92,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 17
-    active_days: 22
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 48
+    distinct_repos: 14
+    active_days: 21
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3182
-  repo_per_active_day: 0.7727
-  not_owned_ratio: 0.2353
-  basename_concentration: 0.1765
+  push_per_day: 2.2857
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.2143
+  basename_concentration: 0.2143
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -126,24 +127,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
-    distinct_repos: 17
-    pushes_per_repo: 3.0000
-    active_days: 22
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 48
+    distinct_repos: 14
+    pushes_per_repo: 3.4286
+    active_days: 21
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
-  - "provenance: 70 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "provenance: 71 vault signal(s) — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -215,6 +216,6 @@ repos:
 
 # stbenjam
 
-51 pushes across 17 repositories on 22 active days in the last 90 days of public GitHub push activity.
+48 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

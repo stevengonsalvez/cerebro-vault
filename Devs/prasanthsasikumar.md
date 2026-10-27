@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [4, 3, 0, 0, 0, 0, 2, 3, 4, 10, 12, 1, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 2, 3, 4, 14, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 39
-    distinct_repos: 13
-    active_days: 18
+    pushes: 35
+    distinct_repos: 12
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.7222
-  not_owned_ratio: 0.2308
-  basename_concentration: 0.1538
+  push_per_day: 2.1875
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,127 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 39
-    distinct_repos: 13
-    pushes_per_repo: 3.0000
-    active_days: 18
+    pushes: 35
+    distinct_repos: 12
+    pushes_per_repo: 2.9167
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AISEE-BIN"
+    title: "AISEE-BIN"
+    description: "Hands-free indoor navigation for blind and low-vision visitors in botanical greenhouses. ARKit world tracking for position, A* routing, and turn-by-turn guidance by voice and haptics — plus a web map editor for authoring the space."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "arkit"
+      - "blind-assistive-technology"
+      - "indoor-navigation"
+      - "ios"
+      - "supabase"
+      - "swift"
+      - "swiftui"
+      - "wayfinding"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "FindCars-NZ"
+    title: "FindCars-NZ"
+    description: "🚗 Automated car auction data scraper and analytics platform for New Zealand's Manheim auctions. Features daily data collection, trend analysis, and interactive dashboards."
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "WASD"
+    title: "WASD"
+    description: "Preview any web app the way it appears on the heads-up display of Meta Ray-Ban Display glasses. Additive waveguide simulation in the browser, no hardware required."
+    language: "JavaScript"
+    topics:
+      - "augmented-reality"
+      - "developer-tools"
+      - "heads-up-display"
+      - "meta-ray-ban-display"
+      - "simulator"
+      - "smart-glasses"
+      - "waveguide"
+      - "web-apps"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "hermes-glasses"
+    title: "hermes-glasses"
+    description: "Voice + vision AI assistant for smart glasses — Meta Ray-Ban and AiSee / Realtek-based glasses: live on-device transcription, glasses camera capture, button mapping, and an optional Hermes Agent bridge."
+    language: "Swift"
+    topics:
+      - "computer-vision"
+      - "ios"
+      - "meta-rayban"
+      - "sidekick"
+      - "smart-glasses"
+      - "swiftui"
+      - "voice-assistant"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "openclicky"
+    title: "openclicky"
+    description: "Free, open-source voice assistant for macOS: ask about your screen and a pointer shows you where, dictate anywhere (offline by default), hand tasks to a Codex agent. Your own key or a free account. MIT."
+    language: "C#"
+    topics:
+      - "accessibility"
+      - "ai-agent"
+      - "ai-assistant"
+      - "anthropic"
+      - "codex"
+      - "dictation"
+      - "llm"
+      - "macos"
+      - "macos-app"
+      - "menubar-app"
+      - "open-source"
+      - "openai"
+      - "openai-realtime"
+      - "productivity"
+      - "speech-to-text"
+      - "swift"
+      - "voice-assistant"
+      - "voice-control"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "dailytimes"
+    title: "dailytimes"
+    description: "Your AI writes a one-page newspaper about your day. It prints on any printer you own, when you walk up to it. MCP · any printer · private by design."
+    language: "Python"
+    topics:
+      - "ai"
+      - "chatgpt"
+      - "claude"
+      - "escpos"
+      - "fastapi"
+      - "mcp"
+      - "model-context-protocol"
+      - "morning-routine"
+      - "newspaper"
+      - "printer"
+      - "python"
+      - "raspberry-pi"
+      - "receipt-printer"
+      - "supabase"
+      - "thermal-printer"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # prasanthsasikumar
 
-39 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+35 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/prasanthsasikumar

@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [18, 2, 6, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [16, 5, 3, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 5
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1538
-  repo_per_active_day: 0.3846
+  push_per_day: 2.1667
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 5
-    pushes_per_repo: 5.6000
-    active_days: 13
+    pushes_per_repo: 5.2000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bible-reading-plan"
+    title: "bible-reading-plan"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "gobii-api-swift"
+    title: "gobii-api-swift"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-06-25"
+  - name: "breakout-helper"
+    title: "breakout-helper"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "mattgreat.house"
+    title: "mattgreat.house"
+    description: "My Site"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "gobii-different-ios"
+    title: "gobii-different-ios"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-07-12"
+  - name: "ollama-tls"
+    title: "ollama-tls"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-26"
 ---
 
 # matt-greathouse
 
-28 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+26 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/matt-greathouse

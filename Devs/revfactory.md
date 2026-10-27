@@ -8,11 +8,11 @@ provenance_repos:
   - "revfactory/harness"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "7def51b1549aee4a"
-pushes_per_week: [4, 4, 1, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0]
+pushes_per_week: [5, 4, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "harness"
+    title: "harness"
+    description: "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use."
+    language: null
+    topics:
+      - "claude-code"
+      - "claude-code-plugin"
+      - "harness"
+      - "harness-engineering"
+    stars_fact: 9263
+    first_seen: "2026-06-25T06:00:02.443471+00:00"
+    last_push: "2026-09-28"
+  - name: "revfactory"
+    title: "revfactory"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "local-harness"
+    title: "local-harness"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "langchain-harness"
+    title: "langchain-harness"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-18"
+  - name: "ccm"
+    title: "ccm"
+    description: "See Claude Code usage per account and switch to the one with the most headroom (English/Korean CLI)"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "harness-100"
+    title: "harness-100"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1311
+    first_seen: null
+    last_push: "2026-03-22"
 ---
 
 # revfactory

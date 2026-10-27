@@ -8,19 +8,19 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [3, 7, 14, 0, 1, 4, 7, 7, 3, 0, 0, 1, 1]
+pushes_per_week: [4, 10, 10, 0, 1, 5, 6, 7, 3, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 2
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "auto-green"
+    title: "auto-green"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "ip_derper"
+    title: "ip_derper"
+    description: "无需域名的 derper"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 461
+    first_seen: null
+    last_push: "2025-02-16"
+  - name: "k8s-knowledge"
+    title: "k8s-knowledge"
+    description: "Kubernetes 社区的知识图谱，Knowledge Graph"
+    language: null
+    topics: []
+    stars_fact: 101
+    first_seen: null
+    last_push: "2018-04-07"
+  - name: "prometheus-handbook"
+    title: "prometheus-handbook"
+    description: "Prometheus 中文文档"
+    language: "HTML"
+    topics:
+      - "cloud-native"
+      - "gitbook"
+      - "handbook"
+      - "kubernetes"
+      - "microservices"
+      - "prometheus"
+      - "prometheus-kubernetes"
+    stars_fact: 437
+    first_seen: null
+    last_push: "2023-01-25"
+  - name: "envoy-handbook"
+    title: "envoy-handbook"
+    description: "Envoy 中文指南 - https://icloudnative.io/envoy-handbook/"
+    language: "SCSS"
+    topics:
+      - "envoy"
+      - "envoy-proxy"
+      - "envoyproxy"
+      - "handbook"
+      - "hugo"
+      - "service-mesh"
+    stars_fact: 236
+    first_seen: null
+    last_push: "2022-07-10"
+  - name: "patch-codex-fast"
+    title: "patch-codex-fast"
+    description: "Patch Codex desktop Fast mode and Plugins for API key mode"
+    language: "Python"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-05-16"
 ---
 
 # yangchuansheng

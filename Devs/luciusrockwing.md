@@ -8,16 +8,16 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 1, 2, 4, 1, 0, 0, 2, 0, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,37 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Termux-Android-pipeline-template"
+    title: "Termux-Android-pipeline-template"
+    description: "Build any GitHub project as a native Termux aarch64 .deb with GitHub Actions."
+    language: "Python"
+    topics:
+      - "aarch64"
+      - "android"
+      - "ci"
+      - "deb"
+      - "github-actions"
+      - "termux"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "termux-panel-live"
+    title: "termux-panel-live"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "skyspire"
+    title: "skyspire"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
 ---
 
 # luciusrockwing

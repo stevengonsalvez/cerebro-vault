@@ -9,16 +9,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [10, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 1, 8]
+pushes_per_week: [9, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 5, 4]
 windows:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 8
     active_days: 15
     repos_not_owned: 2
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2667
+  push_per_day: 2.2000
   repo_per_active_day: 0.5333
   not_owned_ratio: 0.2500
   basename_concentration: 0.1250
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 4
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 8
-    pushes_per_repo: 4.2500
+    pushes_per_repo: 4.1250
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -156,6 +156,6 @@ repos:
 
 # zakyirsyaad
 
-34 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
+33 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zakyirsyaad

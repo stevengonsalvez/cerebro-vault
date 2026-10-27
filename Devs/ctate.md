@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [38, 11, 30, 7, 2, 0, 3, 8, 46, 29, 46, 30, 100]
+pushes_per_week: [36, 18, 27, 3, 2, 1, 2, 8, 49, 27, 51, 51, 76]
 windows:
   "7d":
-    pushes: 106
+    pushes: 89
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 228
+    pushes: 220
     distinct_repos: 6
-    active_days: 26
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 350
+    pushes: 351
     distinct_repos: 9
     active_days: 60
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8333
+  push_per_day: 5.8500
   repo_per_active_day: 0.1500
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 106
+    pushes: 89
     distinct_repos: 2
-    pushes_per_repo: 53.0000
-    active_days: 7
+    pushes_per_repo: 44.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 228
+    pushes: 220
     distinct_repos: 6
-    pushes_per_repo: 38.0000
-    active_days: 26
+    pushes_per_repo: 36.6667
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 350
+    pushes: 351
     distinct_repos: 9
-    pushes_per_repo: 38.8889
+    pushes_per_repo: 39.0000
     active_days: 60
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-350 pushes across 9 repositories on 60 active days in the last 90 days of public GitHub push activity.
+351 pushes across 9 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

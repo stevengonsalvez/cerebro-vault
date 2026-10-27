@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 5, 8, 3, 0, 0, 2, 4, 5, 5, 4, 2, 3]
+pushes_per_week: [6, 7, 7, 2, 0, 0, 3, 3, 5, 8, 3, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "small-app-gardener"
+    title: "small-app-gardener"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "semantic-pull-requests"
+    title: "semantic-pull-requests"
+    description: ":robot: Let the robots take care of the semantic versioning"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1231
+    first_seen: null
+    last_push: "2022-05-30"
+  - name: "swiss-design-skill"
+    title: "swiss-design-skill"
+    description: "A Swiss International Style design system skill for AI agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 159
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "github-digest"
+    title: "github-digest"
+    description: "Scheduled Flue agent that emails you a daily GitHub digest"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "dots-on-cloudflare"
+    title: "dots-on-cloudflare"
+    description: "Exploring an always-on personal agent, like OpenAI dots, built on Cloudflare"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "collignon"
+    title: "collignon"
+    description: "French insults from Amélie"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # zeke

@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [2, 2, 0, 0, 0, 0, 0, 3, 6, 0, 4, 0, 0]
@@ -76,7 +76,74 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "revil"
+    title: "revil"
+    description: "Portfolio ✨"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "Glass-Rea"
+    title: "Glass-Rea"
+    description: "A personal network monitor for Windows: per-app internet use, live traffic, connections, firewall blocking, devices on your network, and clear alerts."
+    language: "C#"
+    topics:
+      - "csharp"
+      - "dotnet"
+      - "etw"
+      - "firewall"
+      - "network-monitor"
+      - "windows"
+      - "winui3"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "Whistle"
+    title: "Whistle"
+    description: "Social Media - UI, using Glassy Blurly Vision to Define it."
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "gmrec"
+    title: "gmrec"
+    description: "Chrome extension that records each Google Meet participant into their own MP4, from their real stream — not a screen capture."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "t-sec"
+    title: "t-sec"
+    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
+    language: "TypeScript"
+    topics:
+      - "age"
+      - "cli"
+      - "secrets-management"
+      - "terminal-ui"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "linkedin-auto-poster"
+    title: "linkedin-auto-poster"
+    description: "LinkedIn AI auto-poster self-hostable dashboard"
+    language: "Python"
+    topics:
+      - "autoposter"
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "linkedin"
+      - "poster"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
 ---
 
 # TemRevil

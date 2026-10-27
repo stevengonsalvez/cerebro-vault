@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 2, 2, 0, 0, 0, 0, 0, 10, 18, 20, 4, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 0, 0, 1, 9, 20, 19, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 5
     active_days: 14
     repos_not_owned: 2
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 5
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.8000
     active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bellis"
+    title: "bellis"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "astrbot_plugin_iris_chat_memory"
+    title: "astrbot_plugin_iris_chat_memory"
+    description: "For Astrbot, Smart 3 tier long term memory, completed memory circle."
+    language: "Python"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "cortico-world-qq-official"
+    title: "cortico-world-qq-official"
+    description: "QQ Official API World for Cortico: event delivery, messaging, media and QQ bot credential binding"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "astrbot_plugin_iris_memory"
+    title: "astrbot_plugin_iris_memory"
+    description: "A memory plugin for astrbot"
+    language: "Python"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "astrbot_plugin_message_recorder"
+    title: "astrbot_plugin_message_recorder"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "hoyo_subscribe"
+    title: "hoyo_subscribe"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # leafliber

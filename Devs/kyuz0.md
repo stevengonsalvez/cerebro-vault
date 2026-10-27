@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 2, 6, 3, 1, 1, 2, 3, 8, 1, 1, 3, 1]
+pushes_per_week: [0, 5, 3, 3, 1, 1, 2, 4, 7, 1, 1, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ai-toolbox-cockpit"
+    title: "ai-toolbox-cockpit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 178
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "amd-strix-halo-toolboxes"
+    title: "amd-strix-halo-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2005
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "amd-r9700-ai-toolboxes"
+    title: "amd-r9700-ai-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 115
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "amd-r9700-vllm-toolboxes"
+    title: "amd-r9700-vllm-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 208
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "terminal-bench-mini"
+    title: "terminal-bench-mini"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "amd-strix-halo-llm-finetuning"
+    title: "amd-strix-halo-llm-finetuning"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-03-08"
 ---
 
 # kyuz0

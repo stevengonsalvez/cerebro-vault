@@ -8,28 +8,28 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [7, 5, 9, 15, 4, 1, 24, 21, 77, 24, 10, 3, 7]
+pushes_per_week: [8, 4, 23, 3, 2, 1, 26, 19, 79, 22, 11, 2, 8]
 windows:
   "7d":
     pushes: 8
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
+    pushes: 77
     distinct_repos: 5
-    active_days: 21
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 208
     distinct_repos: 15
     active_days: 54
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8333
+  push_per_day: 3.8519
   repo_per_active_day: 0.2778
   not_owned_ratio: 0.2667
   basename_concentration: 0.1333
@@ -52,22 +52,22 @@ facets:
     pushes: 8
     distinct_repos: 3
     pushes_per_repo: 2.6667
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 98
+    pushes: 77
     distinct_repos: 5
-    pushes_per_repo: 19.6000
-    active_days: 21
+    pushes_per_repo: 15.4000
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 208
     distinct_repos: 15
-    pushes_per_repo: 13.8000
+    pushes_per_repo: 13.8667
     active_days: 54
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,11 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "legion"
+    title: "legion"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "knives"
+    title: "knives"
+    description: "Fork maintenance status across many repos at once: branch vs origin vs upstream, pull request and CI state, dated releases, and which agent is holding what."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "downstream-patches"
+      - "fork-maintenance"
+      - "jj"
+      - "jujutsu"
+      - "opencode"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "ctx-memory"
+    title: "ctx-memory"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "pivot"
+    title: "pivot"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "forward"
+    title: "forward"
+    description: "Open devbox URLs and files in the laptop browser over the devbox SSH tunnel"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # sjawhar
 
-207 pushes across 15 repositories on 54 active days in the last 90 days of public GitHub push activity.
+208 pushes across 15 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sjawhar

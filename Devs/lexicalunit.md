@@ -8,37 +8,37 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [5, 5, 0, 11, 0, 0, 0, 4, 3, 7, 2, 2, 1]
+pushes_per_week: [2, 5, 1, 10, 0, 0, 0, 4, 4, 8, 0, 2, 1]
 windows:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 8
+    pushes: 12
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1053
-  repo_per_active_day: 0.2632
+  push_per_day: 2.0556
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,92 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 8
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 5
-    pushes_per_repo: 8.0000
-    active_days: 19
+    pushes_per_repo: 7.4000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lexicalunit"
+    title: "lexicalunit"
+    description: "About me"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "spellbot"
+    title: "spellbot"
+    description: "The Discord bot for Webcam Magic"
+    language: "Python"
+    topics:
+      - "discord-bot"
+      - "gaming"
+      - "lfg"
+      - "magic"
+      - "magic-the-gathering"
+      - "spelltable"
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Install applications and development environment on a macOS or Linux machine."
+    language: "Shell"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "yeti-mute"
+    title: "yeti-mute"
+    description: "Mute passthru audio from Yeti Blue microphones"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "landcalc"
+    title: "landcalc"
+    description: "Recommend how many lands a Commander deck should run."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "mtgir"
+    title: "mtgir"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-12"
 ---
 
 # lexicalunit
 
-40 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+37 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lexicalunit

@@ -8,11 +8,11 @@ provenance_repos:
   - "Nutlope/hallmark"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hallmark"
+    title: "hallmark"
+    description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    language: "CSS"
+    topics: []
+    stars_fact: 37204
+    first_seen: "2026-09-04T06:00:17.162493+00:00"
+    last_push: "2026-10-22"
+  - name: "nyc-ai-atlas"
+    title: "nyc-ai-atlas"
+    description: "A 3D map of the top AI startups in New York City"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "llamacoder"
+    title: "llamacoder"
+    description: "Open source Claude Artifacts – built with Llama 3.1 405B"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7140
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "gloss"
+    title: "gloss"
+    description: "A reader that writes answers in the margin. Select any line, ask, and an open model on Together AI answers beside it."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 315
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "inspo"
+    title: "inspo"
+    description: "Real websites for your coding agent to learn design from, searchable over MCP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 938
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "aicommits"
+    title: "aicommits"
+    description: "A CLI that writes your git commit messages for you with AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9122
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Nutlope

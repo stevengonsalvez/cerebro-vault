@@ -8,16 +8,16 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 3, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 1, 3, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "QOS"
+    title: "QOS"
+    description: "QOS(Qt Object Storage) 是一个对象存储的客户端，和云厂商的对象存储服务进行联动，方便进行资源和地域管理"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "worldfunction4.github.io"
+    title: "worldfunction4.github.io"
+    description: "泪叶丝的学习博客"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "NetGuard"
+    title: "NetGuard"
+    description: "这是面向中小型企业网络，实现设备自动发现(暂无)——配置备份——安全基线检查——拓扑可视化（暂无）——巡检报告生成的一站式运维平台"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "LiveFace"
+    title: "LiveFace"
+    description: "毕业设计"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
 ---
 
 # worldfunction4

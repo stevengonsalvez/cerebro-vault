@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 0, 2, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 2, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,86 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 10
+    pushes_per_repo: 1.8000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "CCTVVideoDownloader"
+    title: "CCTVVideoDownloader"
+    description: "一款适用于央视网的网络视频流解析处理工具"
+    language: "C++"
+    topics:
+      - "cctv"
+      - "cpp"
+      - "downloader"
+      - "ffmpeg"
+      - "mulithreading"
+      - "qt6"
+      - "web-scraping"
+      - "windows"
+    stars_fact: 720
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "letcode"
+    title: "letcode"
+    description: "A Coding Agent written in Rust."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "coding-agent"
+      - "ratatui"
+      - "rust"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "SleepDown"
+    title: "SleepDown"
+    description: "本地课程表 · Android · Kotlin Multiplatform, Jetpack Compose"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "letr007.github.io"
+    title: "letr007.github.io"
+    description: "个人博客Pages托管页"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "letr007"
+    title: "letr007"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "cctv_api"
+    title: "cctv_api"
+    description: "央视网API整理"
+    language: null
+    topics:
+      - "api"
+      - "cctv"
+      - "json"
+      - "markdown"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2024-06-22"
 ---
 
 # letr007
 
-10 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
+9 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/letr007

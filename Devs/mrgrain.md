@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [8, 2, 1, 0, 1, 0, 0, 0, 2, 2, 2, 2, 1]
+pushes_per_week: [8, 1, 1, 1, 0, 0, 0, 1, 1, 3, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 15
-    active_days: 14
+    active_days: 13
     repos_not_owned: 15
     not_owned_basenames: 12
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.0714
+  push_per_day: 1.5385
+  repo_per_active_day: 1.1538
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,83 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 15
-    pushes_per_repo: 1.4000
-    active_days: 14
+    pushes_per_repo: 1.3333
+    active_days: 13
     repos_not_owned: 15
     not_owned_basenames: 12
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cdk-esbuild"
+    title: "cdk-esbuild"
+    description: "CDK constructs for esbuild, an extremely fast JavaScript bundler"
+    language: "TypeScript"
+    topics:
+      - "aws-cdk"
+      - "aws-lambda"
+      - "aws-synthetics-canary"
+      - "bundler"
+      - "cdk-construct"
+      - "esbuild"
+      - "lambda"
+      - "static-website"
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "projen-projects"
+    title: "projen-projects"
+    description: "Opinionated projen project types for everyone."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "cdk-esbuild-go"
+    title: "cdk-esbuild-go"
+    description: "Go bindings for cdk-esbuild"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "jsii-struct-builder"
+    title: "jsii-struct-builder"
+    description: "Build jsii structs with ease."
+    language: "TypeScript"
+    topics:
+      - "jsii"
+      - "projen"
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "streamlink-serverless"
+    title: "streamlink-serverless"
+    description: "Streamlink as a Serverless Service"
+    language: "TypeScript"
+    topics:
+      - "iptv"
+      - "serverless"
+      - "streamlink"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2024-07-01"
+  - name: "cdk-examples"
+    title: "cdk-examples"
+    description: "Public collection of examples for using the AWS CDK"
+    language: null
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2023-03-13"
 ---
 
 # mrgrain
 
-21 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
+20 pushes across 15 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrgrain

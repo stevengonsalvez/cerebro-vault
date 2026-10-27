@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 0, 6, 2, 7, 0, 0, 2, 0, 2, 4, 0, 4]
+pushes_per_week: [4, 0, 6, 4, 5, 0, 0, 2, 0, 2, 4, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 14
-    active_days: 15
+    pushes: 31
+    distinct_repos: 13
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1333
-  repo_per_active_day: 0.9333
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 2.2143
+  repo_per_active_day: 0.9286
+  not_owned_ratio: 0.3077
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
-    distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 15
+    pushes: 31
+    distinct_repos: 13
+    pushes_per_repo: 2.3846
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "samshush"
@@ -147,6 +147,6 @@ repos:
 
 # elithrar
 
-32 pushes across 14 repositories on 15 active days in the last 90 days of public GitHub push activity.
+31 pushes across 13 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/elithrar

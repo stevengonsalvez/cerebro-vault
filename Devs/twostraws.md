@@ -8,8 +8,8 @@ provenance_repos:
   - "twostraws/SwiftUI-Agent-Skill"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1ee39ec6496bfca4"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SwiftUI-Agent-Skill"
+    title: "SwiftUI-Agent-Skill"
+    description: "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 6338
+    first_seen: "2026-10-10T06:01:25.363111+00:00"
+    last_push: "2026-10-23"
+  - name: "Ignite"
+    title: "Ignite"
+    description: "A static site generator for Swift developers."
+    language: "Swift"
+    topics: []
+    stars_fact: 2280
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "Swift-Testing-Agent-Skill"
+    title: "Swift-Testing-Agent-Skill"
+    description: "Swift Testing agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 470
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "Swift-Concurrency-Agent-Skill"
+    title: "Swift-Concurrency-Agent-Skill"
+    description: "Swift Concurrency agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 575
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "Swift-Agent-Skills"
+    title: "Swift-Agent-Skills"
+    description: "A curated directory of open-source AI agent skills for Swift and Apple platform development."
+    language: null
+    topics: []
+    stars_fact: 2916
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "Inferno"
+    title: "Inferno"
+    description: "Metal shaders for SwiftUI."
+    language: "Metal"
+    topics: []
+    stars_fact: 2931
+    first_seen: null
+    last_push: "2026-05-17"
 ---
 
 # twostraws

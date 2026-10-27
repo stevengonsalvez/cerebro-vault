@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 14, 25, 9, 6]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 8, 18, 24, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 21
-    active_days: 19
+    pushes: 55
+    distinct_repos: 18
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 5
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 21
-    pushes_per_repo: 2.7619
-    active_days: 19
+    pushes: 55
+    distinct_repos: 18
+    pushes_per_repo: 3.0556
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 5
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openbao-credential-broker-demo"
+    title: "openbao-credential-broker-demo"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "siltide"
+    title: "siltide"
+    description: "Terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds, from utilization down to which pod is using them."
+    language: "Go"
+    topics:
+      - "accelerators"
+      - "amd"
+      - "apple-silicon"
+      - "cli"
+      - "go"
+      - "gpu"
+      - "kubernetes"
+      - "monitoring"
+      - "npu"
+      - "nvidia"
+      - "observability"
+      - "prometheus"
+      - "slurm"
+      - "terminal"
+      - "tui"
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for siltide, the terminal monitor for GPUs, NPUs, and other AI accelerators"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "mcp-gpu-server"
+    title: "mcp-gpu-server"
+    description: "MCP server that exposes NVIDIA GPU metrics (utilization, VRAM, temperature) as read-only tools via NVML or nvidia-smi"
+    language: "Python"
+    topics:
+      - "gpu"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "nvidia"
+      - "nvidia-smi"
+      - "nvml"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "CUDA"
+    title: "CUDA"
+    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
+    language: "Cuda"
+    topics:
+      - "cpp"
+      - "cuda"
+      - "gpu"
+      - "gpu-computing"
+      - "gpu-optimization"
+      - "gpu-programming"
+      - "learning"
+      - "nvidia"
+      - "parallel-computing"
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "gpuBook-site"
+    title: "gpuBook-site"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # moezdil

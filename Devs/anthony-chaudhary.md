@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [10, 40, 85, 42, 27, 11, 28, 43, 30, 16, 25, 15, 13]
+pushes_per_week: [6, 47, 87, 33, 25, 17, 22, 51, 23, 19, 33, 3, 13]
 windows:
   "7d":
     pushes: 13
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 1
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 385
+    pushes: 379
     distinct_repos: 2
-    active_days: 67
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.7463
-  repo_per_active_day: 0.0299
+  push_per_day: 5.7424
+  repo_per_active_day: 0.0303
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 1
-    pushes_per_repo: 83.0000
+    pushes_per_repo: 79.0000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 385
+    pushes: 379
     distinct_repos: 2
-    pushes_per_repo: 192.5000
-    active_days: 67
+    pushes_per_repo: 189.5000
+    active_days: 66
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-385 pushes across 2 repositories on 67 active days in the last 90 days of public GitHub push activity.
+379 pushes across 2 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

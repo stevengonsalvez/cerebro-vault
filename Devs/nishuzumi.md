@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [7, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 0, 2]
+pushes_per_week: [6, 0, 1, 1, 0, 0, 2, 1, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 10
-    repos_not_owned: 3
+    pushes: 13
+    distinct_repos: 5
+    active_days: 9
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.6000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.6667
+  push_per_day: 1.4444
+  repo_per_active_day: 0.5556
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.6000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 10
-    repos_not_owned: 3
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 9
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pow-erc20"
+    title: "pow-erc20"
+    description: "A minter for PowerERC20 by rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 130
+    first_seen: null
+    last_push: "2023-12-12"
+  - name: "gemini-teacher"
+    title: "gemini-teacher"
+    description: "English pronunciation correction teacher built with gemini"
+    language: "Python"
+    topics: []
+    stars_fact: 1210
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "blitz-harness"
+    title: "blitz-harness"
+    description: "A harness for monad blitz"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "fomomo"
+    title: "fomomo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "moss"
+    title: "moss"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 84
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "neurom"
+    title: "neurom"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # nishuzumi
 
-14 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
+13 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nishuzumi

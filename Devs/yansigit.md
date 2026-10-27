@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 1, 6, 7, 8, 4, 4, 3, 0, 4, 0, 5, 1]
+pushes_per_week: [0, 1, 8, 6, 7, 4, 4, 3, 0, 4, 2, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gsd-codex-plugin"
+    title: "gsd-codex-plugin"
+    description: "Community-maintained GSD Core plugin for Codex"
+    language: "JavaScript"
+    topics:
+      - "codex"
+      - "gsd"
+      - "plugin"
+      - "spec-driven-development"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "gjc-cursor-sdk"
+    title: "gjc-cursor-sdk"
+    description: "GJC provider adapter using @cursor/sdk, with GJC-owned tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "cmd-gpt"
+    title: "cmd-gpt"
+    description: "A Tiny AI Terminal Assistant"
+    language: "Go"
+    topics:
+      - "bash"
+      - "chatgpt"
+      - "gpt"
+      - "llm"
+      - "powershell"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "ios-fastlane-ci"
+    title: "ios-fastlane-ci"
+    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "tabby-wake-proxy"
+    title: "tabby-wake-proxy"
+    description: "Rust proxy that wakes tabbyAPI on demand and stops its Docker container after inactivity."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "google-photos-takeout-metadata-resolver"
+    title: "google-photos-takeout-metadata-resolver"
+    description: "A Go CLI tool that merges separated JSON metadata from Google Photos Takeout exports back into the actual photo/video files as EXIF/XMP tags."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-08"
 ---
 
 # yansigit

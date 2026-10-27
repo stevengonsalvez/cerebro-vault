@@ -8,18 +8,18 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [28, 20, 25, 2, 5, 0, 2, 17, 8, 1, 0, 2, 4]
+pushes_per_week: [35, 14, 23, 2, 5, 0, 4, 18, 5, 1, 0, 3, 3]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 114
+    pushes: 113
     distinct_repos: 13
-    active_days: 32
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5625
-  repo_per_active_day: 0.4062
+  push_per_day: 3.6452
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.5385
   basename_concentration: 0.1538
   shapes: []
@@ -49,12 +49,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 8
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 114
+    pushes: 113
     distinct_repos: 13
-    pushes_per_repo: 8.7692
-    active_days: 32
+    pushes_per_repo: 8.6923
+    active_days: 31
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "lsrules"
+    title: "lsrules"
+    description: "Little Snitch policy references and offline validators."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "rust-cache"
+    title: "rust-cache"
+    description: "Prune stale cargo build output every night, including leftover macOS debug objects"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "openpgpkey"
+    title: "openpgpkey"
+    description: "Web Key Directory for martinzeman.net: keys.yaml rendered into the served tree on openpgpkey.martinzeman.net"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "forge-provision"
+    title: "forge-provision"
+    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # N4M3Z
 
-114 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
+113 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

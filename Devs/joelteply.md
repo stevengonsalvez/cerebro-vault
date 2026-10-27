@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [34, 20, 34, 9, 7, 14, 10, 52, 94, 86, 38, 25, 103]
+pushes_per_week: [33, 30, 24, 10, 7, 16, 12, 53, 94, 87, 36, 28, 99]
 windows:
   "7d":
-    pushes: 110
+    pushes: 102
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 322
+    pushes: 303
     distinct_repos: 7
-    active_days: 26
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 526
+    pushes: 529
     distinct_repos: 7
-    active_days: 70
+    active_days: 69
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.5143
-  repo_per_active_day: 0.1000
+  push_per_day: 7.6667
+  repo_per_active_day: 0.1014
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 110
+    pushes: 102
     distinct_repos: 3
-    pushes_per_repo: 36.6667
-    active_days: 7
+    pushes_per_repo: 34.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 322
+    pushes: 303
     distinct_repos: 7
-    pushes_per_repo: 46.0000
-    active_days: 26
+    pushes_per_repo: 43.2857
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 526
+    pushes: 529
     distinct_repos: 7
-    pushes_per_repo: 75.1429
-    active_days: 70
+    pushes_per_repo: 75.5714
+    active_days: 69
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-interrogation"
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-526 pushes across 7 repositories on 70 active days in the last 90 days of public GitHub push activity.
+529 pushes across 7 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

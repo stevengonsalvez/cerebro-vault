@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 1, 9, 3, 0, 1, 12, 37, 12, 14, 3, 1, 2]
+pushes_per_week: [6, 5, 5, 3, 0, 2, 12, 38, 10, 15, 2, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 9
-    pushes_per_repo: 3.1111
-    active_days: 13
+    pushes_per_repo: 2.8889
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "copilot-sdk-zig"
+    title: "copilot-sdk-zig"
+    description: "Unofficial Zig SDK for GitHub Copilot CLI"
+    language: "Zig"
+    topics:
+      - "copilot"
+      - "json-rpc"
+      - "sdk"
+      - "zig"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "pi-mxc"
+    title: "pi-mxc"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "pi-local-llm"
+    title: "pi-local-llm"
+    description: "pi extension for lmstudio and ollama providers"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "pi-webfetch"
+    title: "pi-webfetch"
+    description: "webfetch for pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "pi-copilot"
+    title: "pi-copilot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "pi-digivolve"
+    title: "pi-digivolve"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # scaryrawr

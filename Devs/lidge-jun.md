@@ -8,37 +8,37 @@ provenance_repos:
   - "lidge-jun/opencodex"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [28, 65, 101, 27, 27, 52, 58, 181, 178, 88, 58, 26, 142]
+pushes_per_week: [32, 58, 112, 19, 23, 57, 58, 201, 166, 84, 62, 27, 129]
 windows:
   "7d":
-    pushes: 154
+    pushes: 130
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 399
-    distinct_repos: 22
-    active_days: 24
-    repos_not_owned: 19
-    not_owned_basenames: 10
+    pushes: 359
+    distinct_repos: 21
+    active_days: 23
+    repos_not_owned: 18
+    not_owned_basenames: 9
     not_owned_owners: 12
   "90d":
-    pushes: 1031
+    pushes: 1028
     distinct_repos: 47
-    active_days: 78
+    active_days: 77
     repos_not_owned: 33
     not_owned_basenames: 11
     not_owned_owners: 26
 automation:
   state: "clear"
-  push_per_day: 13.2179
-  repo_per_active_day: 0.6026
+  push_per_day: 13.3506
+  repo_per_active_day: 0.6104
   not_owned_ratio: 0.7021
   basename_concentration: 0.5106
   shapes: []
@@ -49,38 +49,149 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 154
+    pushes: 130
     distinct_repos: 5
-    pushes_per_repo: 30.8000
-    active_days: 7
+    pushes_per_repo: 26.0000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "30d":
-    pushes: 399
-    distinct_repos: 22
-    pushes_per_repo: 18.1364
-    active_days: 24
-    repos_not_owned: 19
-    not_owned_basenames: 10
+    pushes: 359
+    distinct_repos: 21
+    pushes_per_repo: 17.0952
+    active_days: 23
+    repos_not_owned: 18
+    not_owned_basenames: 9
     not_owned_owners: 12
   "90d":
-    pushes: 1031
+    pushes: 1028
     distinct_repos: 47
-    pushes_per_repo: 21.9362
-    active_days: 78
+    pushes_per_repo: 21.8723
+    active_days: 77
     repos_not_owned: 33
     not_owned_basenames: 11
     not_owned_owners: 26
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 78 active days in 90d — pass"
+  - "activity: 77 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencodex"
+    title: "opencodex"
+    description: "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code"
+    language: "TypeScript"
+    topics:
+      - "ai-gateway"
+      - "ai-tools"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "codex-cli"
+      - "deepseek"
+      - "developer-tools"
+      - "gemini"
+      - "grok"
+      - "kiro"
+      - "llm"
+      - "llm-proxy"
+      - "ollama"
+      - "openai"
+      - "openrouter"
+      - "proxy"
+      - "typescript"
+    stars_fact: 17953
+    first_seen: "2026-08-09T06:00:06.171867+00:00"
+    last_push: "2026-10-27"
+  - name: "design-isms"
+    title: "design-isms"
+    description: "35 design -isms visual reference board with AI mockups, live examples, prompts, and component-level dev notes."
+    language: "JavaScript"
+    topics:
+      - "design"
+      - "design-systems"
+      - "frontend"
+      - "github-pages"
+      - "reference"
+      - "typescript"
+      - "ui"
+      - "web-design"
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "agbrowse"
+    title: "agbrowse"
+    description: "Ultimate browser automation toolkit for AI agents. Zero MCP token tax, JS evaluate, vision-click with DPR correction."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 233
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "codexclaw"
+    title: "codexclaw"
+    description: "Development discipline + multi-model subagents for OpenAI Codex — 13 dev skills, PABCD workflow, repo map, recall, skill search. Single plugin, no external harness."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "codex"
+      - "codex-plugin"
+      - "codex-skills"
+      - "dev-skills"
+      - "developer-tools"
+      - "multi-agent"
+      - "openai-codex"
+      - "pabcd"
+      - "repo-map"
+      - "subagents"
+      - "workflow-automation"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "aside-codemode"
+    title: "aside-codemode"
+    description: "One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became 1s."
+    language: "JavaScript"
+    topics:
+      - "agent-tools"
+      - "ai-agents"
+      - "aside"
+      - "browser-agent"
+      - "browser-automation"
+      - "cli"
+      - "code-mode"
+      - "codex"
+      - "developer-tools"
+      - "llm-tools"
+      - "nodejs"
+      - "npm-package"
+      - "playwright"
+      - "ripgrep"
+      - "sandbox"
+    stars_fact: 130
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "noslopdesign"
+    title: "noslopdesign"
+    description: "Anti-slop design skills for coding agents: noslop-frontend builds pages that don't look AI-made, noslop-uiux sets the direction first. Korean-first, synced from CodexClaw."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "anti-slop"
+      - "claude-code"
+      - "codex"
+      - "design"
+      - "frontend"
+      - "korean"
+      - "ui-ux"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # lidge-jun
 
-1031 pushes across 47 repositories on 78 active days in the last 90 days of public GitHub push activity.
+1028 pushes across 47 repositories on 77 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

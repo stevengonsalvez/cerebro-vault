@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [1, 3, 2, 0, 1, 2, 0, 3, 5, 4, 6, 6, 3]
+pushes_per_week: [0, 5, 0, 0, 1, 2, 0, 5, 4, 7, 4, 6, 1]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 3
-    active_days: 19
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8947
-  repo_per_active_day: 0.1579
+  push_per_day: 1.9444
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 3
-    pushes_per_repo: 12.0000
-    active_days: 19
+    pushes_per_repo: 11.6667
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wren-engine-skills"
@@ -130,6 +130,6 @@ repos:
 
 # goldmedal
 
-36 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
+35 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/goldmedal

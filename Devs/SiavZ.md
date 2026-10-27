@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 6, 18, 1, 6, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 8, 17, 2, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8333
-  repo_per_active_day: 0.3333
+  push_per_day: 3.0000
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 12
+    pushes_per_repo: 8.2500
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cship-updated"
+    title: "cship-updated"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-30"
 ---
 
 # SiavZ
 
-34 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
+33 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SiavZ

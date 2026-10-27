@@ -8,11 +8,11 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 11, 17, 11, 17, 15, 3, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 12, 16, 11, 17, 18, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 9
-    pushes_per_repo: 4.7778
-    active_days: 15
+    pushes_per_repo: 4.6667
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "zerocoach"
+    title: "zerocoach"
+    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "zero-share"
+    title: "zero-share"
+    description: "A secure P2P file sharing using WebRTC without server-side need."
+    language: "JavaScript"
+    topics:
+      - "astro"
+      - "data-sharing"
+      - "data-transfer"
+      - "file-sharing"
+      - "file-transfer"
+      - "hacktoberfest"
+      - "p2p"
+      - "svelte"
+      - "webrtc"
+    stars_fact: 151
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "ntsd"
+    title: "ntsd"
+    description: "My Github Profile"
+    language: null
+    topics:
+      - "github-profile"
+      - "github-profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "dotai"
+    title: "dotai"
+    description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
+    language: "Makefile"
+    topics:
+      - "dgx-spark"
+      - "hermes"
+      - "local-llm"
+      - "vllm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "systemd-web"
+    title: "systemd-web"
+    description: "Systemd Web UI dashboard"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Cross-platform dotfiles: Make + Stow, Homebrew/asdf, Copilot instruction & chat mode manager."
+    language: "Shell"
+    topics:
+      - "asdf"
+      - "automation"
+      - "copilot"
+      - "dotfiles"
+      - "homebrew"
+      - "linux"
+      - "macos"
+      - "makefile"
+      - "prompts"
+      - "stow"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # ntsd

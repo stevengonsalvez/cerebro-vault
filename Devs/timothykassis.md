@@ -8,8 +8,8 @@ provenance_repos:
   - "K-Dense-AI/scientific-agent-skills"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c8f3d928a400ca53"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 0, 0, 0]
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 6
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 6

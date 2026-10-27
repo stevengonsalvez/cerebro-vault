@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [1, 0, 3, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1]
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MWIS"
+    title: "MWIS"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2021-04-20"
 ---
 
 # ployts

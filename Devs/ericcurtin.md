@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [25, 13, 13, 3, 4, 6, 7, 9, 39, 64, 23, 17, 4]
+pushes_per_week: [25, 13, 6, 6, 1, 7, 7, 11, 49, 52, 31, 10, 2]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 134
+    pushes: 128
     distinct_repos: 37
-    active_days: 22
+    active_days: 21
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 227
+    pushes: 220
     distinct_repos: 45
-    active_days: 56
+    active_days: 55
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.0536
-  repo_per_active_day: 0.8036
+  push_per_day: 4.0000
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.2667
   basename_concentration: 0.0889
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 134
+    pushes: 128
     distinct_repos: 37
-    pushes_per_repo: 3.6216
-    active_days: 22
+    pushes_per_repo: 3.4595
+    active_days: 21
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
   "90d":
-    pushes: 227
+    pushes: 220
     distinct_repos: 45
-    pushes_per_repo: 5.0444
-    active_days: 56
+    pushes_per_repo: 4.8889
+    active_days: 55
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agenticlinux"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-227 pushes across 45 repositories on 56 active days in the last 90 days of public GitHub push activity.
+220 pushes across 45 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

@@ -8,8 +8,8 @@ provenance_repos:
   - "lajosdeme/mole"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "5a94dd163bfbe84d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "watchtower"
+    title: "watchtower"
+    description: "A clean, minimal, terminal-based global intelligence dashboard."
+    language: "Go"
+    topics: []
+    stars_fact: 330
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "mole"
+    title: "mole"
+    description: "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data."
+    language: "Go"
+    topics: []
+    stars_fact: 317
+    first_seen: "2026-08-15T06:00:07.075101+00:00"
+    last_push: "2026-10-25"
+  - name: "polymarket-go-api"
+    title: "polymarket-go-api"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "homebrew-mole"
+    title: "homebrew-mole"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "Dates"
+    title: "Dates"
+    description: "Dates is a small Swift library containing useful Date extensions and functions that will speed up your development workflow."
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-02-18"
+  - name: "protonvpn-omarchy-wg"
+    title: "protonvpn-omarchy-wg"
+    description: "Proton VPN bar widget for Omarchy 4 driven by WireGuard configs + wg-quick (works on the Free plan)"
+    language: "QML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # lajosdeme

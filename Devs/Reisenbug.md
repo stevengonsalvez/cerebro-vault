@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 8, 6, 6, 1, 1, 0, 12, 7, 0, 4, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 3
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "TerraBlind"
+    title: "TerraBlind"
+    description: "A Terraria tModLoader mod where an AI fights the bosses: a model answers one question every 200ms, code turns it into keystrokes. Also a full code-only pipeline from fresh world to Wall of Flesh"
+    language: "C#"
+    topics:
+      - "terraria"
+      - "terraria-mod"
+    stars_fact: 77
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "AstrBot_Plugin_Cirno"
+    title: "AstrBot_Plugin_Cirno"
+    description: "一只baka"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "Tairaria"
+    title: "Tairaria"
+    description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "Jevaria"
+    title: "Jevaria"
+    description: "A Terraria mod aims at letting jev beat some bosses. Jev makes dodge decision."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "terraria-speedrun-practice-tool-for-mac"
+    title: "terraria-speedrun-practice-tool-for-mac"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "AstrBot_Plugin_Terraria_Server_Manager"
+    title: "AstrBot_Plugin_Terraria_Server_Manager"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-04-04"
 ---
 
 # Reisenbug

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [5, 9, 8, 0, 3, 2, 10, 24, 38, 26, 35, 29, 12]
+pushes_per_week: [6, 9, 7, 1, 2, 3, 10, 26, 37, 24, 47, 18, 13]
 windows:
   "7d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 110
+    pushes: 106
     distinct_repos: 2
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 201
+    pushes: 203
     distinct_repos: 4
     active_days: 50
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0200
+  push_per_day: 4.0600
   repo_per_active_day: 0.0800
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 5
+    pushes_per_repo: 13.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 110
+    pushes: 106
     distinct_repos: 2
-    pushes_per_repo: 55.0000
-    active_days: 21
+    pushes_per_repo: 53.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 201
+    pushes: 203
     distinct_repos: 4
-    pushes_per_repo: 50.2500
+    pushes_per_repo: 50.7500
     active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -171,6 +171,6 @@ repos:
 
 # blueberrycongee
 
-201 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
+203 pushes across 4 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blueberrycongee

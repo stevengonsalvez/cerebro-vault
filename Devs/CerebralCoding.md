@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 0, 3, 10, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 0, 7, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Silibar"
-    title: "Silibar"
-    description: "An Apple Silicon metrics and tab bar for Zellij, powered by macmon."
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "Latch"
     title: "Latch"
     description: "Local workload scheduler for autonomous agents sharing an Apple Silicon Mac."
@@ -98,9 +90,17 @@ repos:
       - "mcp"
       - "scheduler"
       - "swift"
-    stars_fact: 3
+    stars_fact: 5
     first_seen: null
     last_push: "2026-10-07"
+  - name: "Silibar"
+    title: "Silibar"
+    description: "An Apple Silicon metrics and tab bar for Zellij, powered by macmon."
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # CerebralCoding

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 0, 13, 3, 1, 0, 0, 1, 9, 0, 0, 0, 3]
+pushes_per_week: [1, 0, 13, 3, 1, 0, 0, 2, 8, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 3
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 8
-    active_days: 18
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8333
-  repo_per_active_day: 0.4444
+  push_per_day: 1.9375
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 8
-    pushes_per_repo: 4.1250
-    active_days: 18
+    pushes_per_repo: 3.8750
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sceneweave"
@@ -169,6 +169,6 @@ repos:
 
 # Gujiassh
 
-33 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
+31 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gujiassh

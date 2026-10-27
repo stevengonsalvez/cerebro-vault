@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 3, 2, 0, 0, 0, 0, 0, 1, 0, 42, 37, 0]
+pushes_per_week: [2, 3, 1, 0, 0, 0, 0, 0, 1, 0, 62, 17, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "heart-atlas"
+    title: "heart-atlas"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "universal-news-digest"
+    title: "universal-news-digest"
+    description: "Config-driven collector and renderer for recurring news digests on any topic"
+    language: "Python"
+    topics:
+      - "automation"
+      - "cron"
+      - "hermes-agent"
+      - "llm"
+      - "news-digest"
+      - "python"
+      - "rss"
+      - "telegram"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # w3lld1

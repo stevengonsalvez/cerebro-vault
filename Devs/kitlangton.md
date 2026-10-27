@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [36, 22, 73, 8, 16, 0, 0, 11, 2, 27, 8, 28, 102]
+pushes_per_week: [30, 36, 59, 8, 16, 0, 1, 11, 1, 31, 13, 41, 83]
 windows:
   "7d":
-    pushes: 113
-    distinct_repos: 9
-    active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 97
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 165
+    pushes: 168
     distinct_repos: 17
     active_days: 19
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 333
-    distinct_repos: 22
-    active_days: 50
+    pushes: 330
+    distinct_repos: 21
+    active_days: 49
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.6600
-  repo_per_active_day: 0.4400
-  not_owned_ratio: 0.5455
-  basename_concentration: 0.1364
+  push_per_day: 6.7347
+  repo_per_active_day: 0.4286
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 113
-    distinct_repos: 9
-    pushes_per_repo: 12.5556
-    active_days: 7
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes: 97
+    distinct_repos: 8
+    pushes_per_repo: 12.1250
+    active_days: 6
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 3
   "30d":
-    pushes: 165
+    pushes: 168
     distinct_repos: 17
-    pushes_per_repo: 9.7059
+    pushes_per_repo: 9.8824
     active_days: 19
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
   "90d":
-    pushes: 333
-    distinct_repos: 22
-    pushes_per_repo: 15.1364
-    active_days: 50
+    pushes: 330
+    distinct_repos: 21
+    pushes_per_repo: 15.7143
+    active_days: 49
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ghui"
@@ -147,6 +147,6 @@ repos:
 
 # kitlangton
 
-333 pushes across 22 repositories on 50 active days in the last 90 days of public GitHub push activity.
+330 pushes across 21 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

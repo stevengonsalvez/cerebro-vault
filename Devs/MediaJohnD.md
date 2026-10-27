@@ -8,8 +8,8 @@ provenance_repos:
   - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4f795faf4eede06c"
 pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 3, 0, 0]
@@ -76,7 +76,33 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "reel-knowledge-pipeline"
+    title: "reel-knowledge-pipeline"
+    description: "Safe-by-default video/reel/photo-post knowledge ingestion pipeline: URL -> transcript -> enriched Obsidian note -> optional Claude/Codex skill artifact."
+    language: "Python"
+    topics:
+      - "automation"
+      - "content-pipeline"
+      - "knowledge-management"
+      - "llm"
+      - "obsidian"
+      - "ollama"
+      - "python"
+      - "second-brain"
+      - "transcription"
+      - "yt-dlp"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "jdg-reels-media"
+    title: "jdg-reels-media"
+    description: "Hosting for scheduled IG Reels"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # MediaJohnD

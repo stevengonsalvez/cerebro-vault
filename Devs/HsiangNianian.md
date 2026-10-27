@@ -5,16 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "abhigyanpatwari/GitNexus"
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "234088bc43763aa2"
-  - "3c90af76cbde0363"
-pushes_per_week: [34, 25, 35, 0, 2, 0, 2, 5, 10, 5, 1, 2, 0]
+pushes_per_week: [26, 30, 30, 0, 2, 0, 3, 4, 12, 3, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 8
+    pushes: 11
+    distinct_repos: 5
     active_days: 8
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 113
     distinct_repos: 16
-    active_days: 36
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.3611
-  repo_per_active_day: 0.4444
+  push_per_day: 3.2286
+  repo_per_active_day: 0.4571
   not_owned_ratio: 0.3750
   basename_concentration: 0.1875
   shapes: []
@@ -59,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    pushes_per_repo: 1.8750
+    pushes: 11
+    distinct_repos: 5
+    pushes_per_repo: 2.2000
     active_days: 8
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 121
+    pushes: 113
     distinct_repos: 16
-    pushes_per_repo: 7.5625
-    active_days: 36
+    pushes_per_repo: 7.0625
+    active_days: 35
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "HsiangNianian"
@@ -152,6 +150,6 @@ repos:
 
 # HsiangNianian
 
-121 pushes across 16 repositories on 36 active days in the last 90 days of public GitHub push activity.
+113 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

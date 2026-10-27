@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 2, 5, 3, 0, 0, 1]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 1, 1, 7, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "stamppot"
+    title: "stamppot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "trakoo"
+    title: "trakoo"
+    description: "A highly typed, zero-dependency, provider-agnostic analytics library for TypeScript"
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "analytics-tracking"
+      - "tracking"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "po-genie"
+    title: "po-genie"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "reword"
+    title: "reword"
+    description: "Click text on any live page, edit it in place, copy one prompt your coding agent can apply."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "better-auth-ui-svelte"
+    title: "better-auth-ui-svelte"
+    description: "Beautiful shadcn/ui components in Svelte built for better-auth."
+    language: "Svelte"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "eve-studio"
+    title: "eve-studio"
+    description: "Visual observability workspace for Eve agents: inspect live sessions, messages, tool calls, steps, and usage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-29"
 ---
 
 # multiplehats

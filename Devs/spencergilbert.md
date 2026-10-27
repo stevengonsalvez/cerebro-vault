@@ -8,8 +8,8 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 5, 3, 0, 0, 0]
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "User-specific application configuration is traditionally stored in so called dotfiles, these are my own."
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "website"
+    title: "website"
+    description: "Personal site and resume on Astro; the PDF is printed from the site."
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "pi-pkg"
+    title: "pi-pkg"
+    description: "Personal Pi package — extensions, skills, prompts, and themes."
+    language: "JavaScript"
+    topics:
+      - "pi"
+      - "pi-coding-agent"
+      - "pi-package"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "asdf-k3d"
+    title: "asdf-k3d"
+    description: "k3d plugin for asdf version manager"
+    language: "Shell"
+    topics:
+      - "asdf"
+      - "asdf-plugin"
+      - "asdf-vm"
+      - "k3d"
+      - "kubernetes"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-06-19"
+  - name: "asdf-vector"
+    title: "asdf-vector"
+    description: "Vector plugin for asdf version manager"
+    language: "Shell"
+    topics:
+      - "asdf"
+      - "asdf-plugin"
+      - "asdf-vm"
+      - "observability"
+      - "vector"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-11-20"
+  - name: "asdf-gitsign"
+    title: "asdf-gitsign"
+    description: "Gitsign plugin for asdf version manager"
+    language: "Shell"
+    topics:
+      - "asdf"
+      - "asdf-plugin"
+      - "asdf-vm"
+      - "gitsign"
+      - "sigstore"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-11-21"
 ---
 
 # spencergilbert

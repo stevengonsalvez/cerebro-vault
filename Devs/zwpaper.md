@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.4286
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,22 +65,73 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "obsidian-progressbar"
+    title: "obsidian-progressbar"
+    description: "Code block plugin for Obsidian generating a progress bar"
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "obsidian-plugin"
+      - "progressbar"
+    stars_fact: 56
+    first_seen: null
+    last_push: "2025-10-10"
+  - name: "ollie-eval-ds-bench"
+    title: "ollie-eval-ds-bench"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "zealt-agent"
+    title: "zealt-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "dotfile"
+    title: "dotfile"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "open-ppt-skill"
+    title: "open-ppt-skill"
+    description: "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "Harmion"
+    title: "Harmion"
+    description: "🎧☁️ Your Personal Streaming Service"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
 ---
 
 # zwpaper
 
-7 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+6 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zwpaper

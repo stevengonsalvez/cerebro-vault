@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 2, 3, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,23 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vllm_topdown_qch"
+    title: "vllm_topdown_qch"
+    description: "vLLM topdown PMU profiling toolkit (920b, vLLM 0.23, TP=1)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "kunpeng-affinity-plugin"
+    title: "kunpeng-affinity-plugin"
+    description: "Portable Linux PCIe and NUMA affinity plugin core for GPU inference frameworks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # qin-chenghan

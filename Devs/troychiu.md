@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 1, 3, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 3, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 8
+    pushes: 8
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1250
-  repo_per_active_day: 0.5000
+  push_per_day: 1.1429
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,54 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 8
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kubecon-demo"
+    title: "kubecon-demo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "gomodtest"
+    title: "gomodtest"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-07"
+  - name: "flyteinteractive_demo"
+    title: "flyteinteractive_demo"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-02-06"
+  - name: "troychiu.github.io"
+    title: "troychiu.github.io"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-08"
 ---
 
 # troychiu
 
-9 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/troychiu

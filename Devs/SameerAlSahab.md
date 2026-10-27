@@ -8,23 +8,23 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 1, 0, 0, 0, 1, 15, 2, 5, 3, 1, 2, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 4
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 9
+    pushes_per_repo: 1.2500
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Hydra-ESP"
+    title: "Hydra-ESP"
+    description: "HydraESP - A Wi-Fi and BT testing firmware for ESP32"
+    language: "C"
+    topics:
+      - "deauther"
+      - "esp32"
+      - "esp32-deauther"
+      - "hydra-esp"
+    stars_fact: 236
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "SameerAlSahab"
+    title: "SameerAlSahab"
+    description: "Hello World! Its me"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "META-Verse"
+    title: "META-Verse"
+    description: "A modern Payload for newer Android devices !! (educational purposes only)"
+    language: "Smali"
+    topics:
+      - "androrat"
+      - "metavas"
+      - "payload"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "OPWidgetPlus"
+    title: "OPWidgetPlus"
+    description: "OnePlus OG Widget with tons of mods for any Android device 6.0++"
+    language: "Smali"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "OPCameraPlus"
+    title: "OPCameraPlus"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "claude-bangla-writing-skills"
+    title: "claude-bangla-writing-skills"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # SameerAlSahab

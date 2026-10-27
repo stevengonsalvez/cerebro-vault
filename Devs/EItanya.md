@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [11, 4, 16, 2, 1, 1, 3, 3, 16, 6, 12, 14, 3]
+pushes_per_week: [9, 9, 11, 1, 1, 2, 2, 4, 16, 5, 25, 2, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 40
     distinct_repos: 4
-    active_days: 16
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 92
-    distinct_repos: 7
-    active_days: 39
-    repos_not_owned: 6
+    pushes: 89
+    distinct_repos: 6
+    active_days: 38
+    repos_not_owned: 5
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3590
-  repo_per_active_day: 0.1795
-  not_owned_ratio: 0.8571
-  basename_concentration: 0.5714
+  push_per_day: 2.3421
+  repo_per_active_day: 0.1579
+  not_owned_ratio: 0.8333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 46
+    pushes: 40
     distinct_repos: 4
-    pushes_per_repo: 11.5000
-    active_days: 16
+    pushes_per_repo: 10.0000
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 92
-    distinct_repos: 7
-    pushes_per_repo: 13.1429
-    active_days: 39
-    repos_not_owned: 6
+    pushes: 89
+    distinct_repos: 6
+    pushes_per_repo: 14.8333
+    active_days: 38
+    repos_not_owned: 5
     not_owned_basenames: 3
-    not_owned_owners: 5
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kagent-runtime-benchmark"
@@ -129,6 +129,6 @@ repos:
 
 # EItanya
 
-92 pushes across 7 repositories on 39 active days in the last 90 days of public GitHub push activity.
+89 pushes across 6 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EItanya

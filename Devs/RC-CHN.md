@@ -8,37 +8,37 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 3, 13, 2, 0, 3, 0, 4, 17, 0, 0, 1, 1]
+pushes_per_week: [2, 7, 8, 2, 0, 3, 0, 7, 14, 0, 1, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 10
-    active_days: 24
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9583
-  repo_per_active_day: 0.4167
+  push_per_day: 2.0909
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -49,38 +49,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 2.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 5
+    pushes_per_repo: 1.6000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 10
-    pushes_per_repo: 4.7000
-    active_days: 24
+    pushes_per_repo: 4.6000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ARTEX"
+    title: "ARTEX"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "tack"
+    title: "tack"
+    description: "A fast TCP/UDP tunnel over HTTP with shell exec"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "ReuleauxCoder"
+    title: "ReuleauxCoder"
+    description: "Reinventing the wheel, but only for those who prefer it non-circular."
+    language: "Python"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "Cumulus-music"
+    title: "Cumulus-music"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "command-code-reverse"
+    title: "command-code-reverse"
+    description: "Converts Command Code API to OpenAI chat completions"
+    language: "Go"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "wg-quic"
+    title: "wg-quic"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # RC-CHN
 
-47 pushes across 10 repositories on 24 active days in the last 90 days of public GitHub push activity.
+46 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

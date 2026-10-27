@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 6, 0, 3, 1, 0, 0, 0, 1, 0, 40, 3, 10]
+pushes_per_week: [2, 5, 1, 2, 1, 0, 0, 0, 1, 0, 40, 5, 8]
 windows:
   "7d":
     pushes: 10
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OpenVTOLPlane"
+    title: "OpenVTOLPlane"
+    description: "Open Hardware and Source VTOL airplane"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2017-08-06"
+  - name: "HappyPumi"
+    title: "HappyPumi"
+    description: "An Open Source version of Pulumi Cloud"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "Photogrammetry-iphone"
+    title: "Photogrammetry-iphone"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "stm32f469-lvgl"
+    title: "stm32f469-lvgl"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-04-01"
+  - name: "Simplify"
+    title: "Simplify"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-07"
+  - name: "GraphicsLessons"
+    title: "GraphicsLessons"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-04"
 ---
 
 # viniciusmiguel

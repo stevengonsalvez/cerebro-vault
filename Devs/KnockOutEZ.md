@@ -8,11 +8,11 @@ provenance_repos:
   - "KnockOutEZ/wigolo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [3, 2, 24, 17, 1, 4, 1, 2, 1, 0, 0, 0, 4]
+pushes_per_week: [3, 11, 15, 16, 1, 5, 0, 2, 1, 0, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 2
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8095
-  repo_per_active_day: 0.0952
+  push_per_day: 2.9000
+  repo_per_active_day: 0.1000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,30 +57,102 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 4.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 58
     distinct_repos: 2
-    pushes_per_repo: 29.5000
-    active_days: 21
+    pushes_per_repo: 29.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wigolo"
+    title: "wigolo"
+    description: "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-agent"
+      - "claude"
+      - "developer-tools"
+      - "exa-alternative"
+      - "firecrawl-alternative"
+      - "local-first"
+      - "mcp"
+      - "mcp-server"
+      - "metasearch"
+      - "model-context-protocol"
+      - "privacy"
+      - "rag"
+      - "search"
+      - "search-engine"
+      - "tavily-alternative"
+      - "web-crawler"
+      - "web-scraping"
+      - "web-search"
+    stars_fact: 5507
+    first_seen: "2026-07-19T06:00:06.180682+00:00"
+    last_push: "2026-10-26"
+  - name: "KnockOutEZ"
+    title: "KnockOutEZ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "diffdeck"
+    title: "diffdeck"
+    description: "DiffDeck: 🚀 Streamline Code Reviews and Collaboration with Smart Diffs, Security Scans, and AI-Ready Outputs!"
+    language: "Go"
+    topics:
+      - "ai"
+      - "go"
+      - "golang"
+      - "llm"
+    stars_fact: 51
+    first_seen: null
+    last_push: "2024-12-30"
+  - name: "homebrew-wigolo"
+    title: "homebrew-wigolo"
+    description: "Homebrew tap for wigolo"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "pocket-tts-alignment"
+    title: "pocket-tts-alignment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-29"
+  - name: "go-to-strapi"
+    title: "go-to-strapi"
+    description: "A go to template for strapi. Which is easily deployable in vercel."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-06"
 ---
 
 # KnockOutEZ
 
-59 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
+58 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KnockOutEZ

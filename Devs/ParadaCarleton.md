@@ -8,11 +8,11 @@ provenance_repos:
   - "can1357/oh-my-pi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 3, 2, 0, 0, 2, 0, 0, 8, 11, 1, 0, 22]
+pushes_per_week: [4, 2, 2, 0, 1, 1, 0, 0, 10, 9, 1, 2, 20]
 windows:
   "7d":
     pushes: 22
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 13
-    active_days: 12
+    pushes: 34
+    distinct_repos: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 13
-    pushes_per_repo: 3.2308
-    active_days: 12
+    pushes: 34
+    distinct_repos: 12
+    pushes_per_repo: 2.8333
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Corset.jl"
+    title: "Corset.jl"
+    description: "Project-specific code rules for Julia packages"
+    language: "Julia"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "GameTracing"
+    title: "GameTracing"
+    description: "Homotopy continuation for logit quantal response equilibria"
+    language: "Julia"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "Fallout.jl"
+    title: "Fallout.jl"
+    description: "Test selection for Julia"
+    language: "Julia"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "generic-ballot-roper-ids"
+    title: "generic-ballot-roper-ids"
+    description: "A collection of generic ballot questions from Roper's iPoll"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2022-09-18"
+  - name: "Bombe.jl"
+    title: "Bombe.jl"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-07-05"
+  - name: "ParadaCarleton"
+    title: "ParadaCarleton"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-05-21"
 ---
 
 # ParadaCarleton

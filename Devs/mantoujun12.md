@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 4, 2, 1, 1, 3, 3, 4, 0, 7, 2, 2]
+pushes_per_week: [0, 0, 4, 2, 2, 1, 2, 3, 4, 1, 7, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,41 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_qq_custom_menu"
+    title: "astrbot_plugin_qq_custom_menu"
+    description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "astrbot_plugin_qq_custom_command_panel"
+    title: "astrbot_plugin_qq_custom_command_panel"
+    description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "python"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "mantoujun12"
+    title: "mantoujun12"
+    description: "Helloヾ(•ω•`)o"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "mantoujun12.github.io"
+    title: "mantoujun12.github.io"
+    description: "This is my Personal Website."
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-07"
 ---
 
 # mantoujun12

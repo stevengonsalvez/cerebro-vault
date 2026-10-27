@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 1, 2, 0, 1, 0, 1, 1]
+pushes_per_week: [2, 0, 1, 0, 0, 0, 1, 2, 0, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jQueryTreeTable"
+    title: "jQueryTreeTable"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-08-10"
+  - name: "Timers"
+    title: "Timers"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-07-15"
+  - name: "TreeTable"
+    title: "TreeTable"
+    description: "基于layui的treetable"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-09-08"
+  - name: "WaterMark"
+    title: "WaterMark"
+    description: "活字格页面水印命令"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-08-11"
 ---
 
 # rome-xi

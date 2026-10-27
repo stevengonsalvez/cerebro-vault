@@ -8,16 +8,16 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 3, 1, 2, 0, 1, 8, 7, 0, 4, 5, 4]
+pushes_per_week: [0, 1, 2, 1, 2, 1, 1, 7, 7, 0, 6, 5, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    active_days: 21
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.1905
+  push_per_day: 1.6364
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.7500
   basename_concentration: 0.7500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 35
+    pushes: 36
     distinct_repos: 4
-    pushes_per_repo: 8.7500
-    active_days: 21
+    pushes_per_repo: 9.0000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homepage"
+    title: "homepage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "rayrayraykk"
+    title: "rayrayraykk"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-20"
+  - name: "aone"
+    title: "aone"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-27"
+  - name: "test_comment"
+    title: "test_comment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-28"
+  - name: "star"
+    title: "star"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-28"
+  - name: "local_llama"
+    title: "local_llama"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-11"
 ---
 
 # rayrayraykk
 
-35 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
+36 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rayrayraykk

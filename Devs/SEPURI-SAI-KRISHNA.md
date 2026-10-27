@@ -8,16 +8,16 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 6, 2, 2, 0, 1, 2, 6, 5, 10, 7, 4, 5]
+pushes_per_week: [1, 7, 2, 1, 0, 1, 2, 8, 4, 10, 8, 3, 4]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 20
-    active_days: 33
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 51
+    distinct_repos: 19
+    active_days: 32
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5758
-  repo_per_active_day: 0.6061
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.0500
+  push_per_day: 1.5938
+  repo_per_active_day: 0.5938
+  not_owned_ratio: 0.1579
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 20
-    pushes_per_repo: 2.6000
-    active_days: 33
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 51
+    distinct_repos: 19
+    pushes_per_repo: 2.6842
+    active_days: 32
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Hackathon-Radar"
+    title: "Hackathon-Radar"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "SEPURI-SAI-KRISHNA"
+    title: "SEPURI-SAI-KRISHNA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "twolang-lab"
+    title: "twolang-lab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "streamcase"
+    title: "streamcase"
+    description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "importtime-check"
+    title: "importtime-check"
+    description: "A CI gate for detecting Python import-time regressions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "til-everything"
+    title: "til-everything"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # SEPURI-SAI-KRISHNA
 
-52 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
+51 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

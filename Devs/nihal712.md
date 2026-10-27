@@ -1,0 +1,134 @@
+---
+login: "nihal712"
+name: null
+discovered_via: "fanout"
+discovered_via_all:
+  - "fanout"
+provenance_repos:
+  - "aws/agent-toolkit-for-aws"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
+provenance:
+  - "a50b0e08dbaee74a"
+pushes_per_week: [0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0]
+windows:
+  "7d":
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "90d":
+    pushes: 7
+    distinct_repos: 4
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 2
+    not_owned_owners: 3
+automation:
+  state: "clear"
+  push_per_day: 1.1667
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.7500
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
+  "90d":
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 6
+    repos_not_owned: 4
+    not_owned_basenames: 2
+    not_owned_owners: 3
+reasons:
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 6 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "Rocky_ECOM"
+    title: "Rocky_ECOM"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-31"
+  - name: "CRS_2021"
+    title: "CRS_2021"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-27"
+  - name: "SMdev"
+    title: "SMdev"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-05-03"
+  - name: "BeachResortReact"
+    title: "BeachResortReact"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-03-22"
+  - name: "ResumeBuilder"
+    title: "ResumeBuilder"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-03-22"
+  - name: "burger-builder"
+    title: "burger-builder"
+    description: "A Burger purchasing website using React and Firebase."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-08-28"
+---
+
+# nihal712
+
+7 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/nihal712

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "PaloMiku-AUR-Action"
+    title: "PaloMiku-AUR-Action"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "astrbot_plugin_searxng"
+    title: "astrbot_plugin_searxng"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-09-30"
+  - name: "blog-public"
+    title: "blog-public"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "Steam_Profile_API_Server"
+    title: "Steam_Profile_API_Server"
+    description: "一个简单的无服务器 API，用于展示你自己的 Steam 用户信息。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "profile-api"
+    title: "profile-api"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "MoeKey-AUR-Action"
+    title: "MoeKey-AUR-Action"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-01"
 ---
 
 # PaloMiku

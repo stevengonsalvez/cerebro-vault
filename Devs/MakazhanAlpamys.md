@@ -8,23 +8,23 @@ provenance_repos:
   - "MakazhanAlpamys/Soup"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [2, 3, 9, 5, 3, 3, 15, 9, 30, 23, 16, 16, 10]
+pushes_per_week: [2, 5, 7, 5, 3, 4, 14, 13, 27, 26, 19, 11, 8]
 windows:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
+    pushes: 79
     distinct_repos: 5
-    pushes_per_repo: 16.6000
-    active_days: 19
+    pushes_per_repo: 15.8000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,92 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Soup"
+    title: "Soup"
+    description: "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
+    language: "Python"
+    topics:
+      - "cli"
+      - "consumer-gpu"
+      - "dpo"
+      - "fine-tuning"
+      - "gguf"
+      - "huggingface"
+      - "llm"
+      - "llmops"
+      - "local-ai"
+      - "local-llm"
+      - "lora"
+      - "low-vram"
+      - "machine-learning"
+      - "ollama"
+      - "peft"
+      - "python"
+      - "pytorch"
+      - "qlora"
+      - "sft"
+      - "transformers"
+    stars_fact: 9604
+    first_seen: "2026-08-16T06:00:08.851157+00:00"
+    last_push: "2026-10-23"
+  - name: "Kaspi-Analytics-Platform"
+    title: "Kaspi-Analytics-Platform"
+    description: "Analytics platform over 210,000+ Kaspi.kz marketplace products — price and demand insights with ML forecasting. Next.js 16 + FastAPI + scikit-learn."
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "ecommerce"
+      - "fastapi"
+      - "kazakhstan"
+      - "machine-learning"
+      - "nextjs"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "G1-Ping-Pong-Lab"
+    title: "G1-Ping-Pong-Lab"
+    description: "A reproducible Unitree G1 table-tennis simulation demo with native physics validation."
+    language: "Python"
+    topics:
+      - "mujoco"
+      - "robotics"
+      - "simulation"
+      - "table-tennis"
+      - "unitree-g1"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "MakazhanAlpamys"
+    title: "MakazhanAlpamys"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "NASA-Exoplanet-Detection-AI"
+    title: "NASA-Exoplanet-Detection-AI"
+    description: "Detects exoplanet candidates in NASA Kepler, K2 and TESS data — ensemble ML (LightGBM, XGBoost, stacking) with SHAP explainability and external validation. NASA Space Apps Global Nominee."
+    language: "Python"
+    topics:
+      - "astronomy"
+      - "exoplanets"
+      - "machine-learning"
+      - "nasa"
+      - "shap"
+      - "streamlit"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-12-16"
+  - name: "AI-Layout-Configurator-for-Construction"
+    title: "AI-Layout-Configurator-for-Construction"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # MakazhanAlpamys

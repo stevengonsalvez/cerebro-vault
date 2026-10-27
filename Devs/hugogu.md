@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 3, 0, 5, 2, 1, 2, 10, 6, 12, 4, 3, 0]
+pushes_per_week: [0, 3, 1, 4, 2, 2, 1, 10, 6, 12, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 5
-    active_days: 26
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8846
-  repo_per_active_day: 0.1923
+  push_per_day: 1.9200
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 4
-    pushes_per_repo: 5.7500
-    active_days: 11
+    pushes_per_repo: 5.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 9.8000
-    active_days: 26
+    pushes_per_repo: 9.6000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orbit"
@@ -169,6 +169,6 @@ repos:
 
 # hugogu
 
-49 pushes across 5 repositories on 26 active days in the last 90 days of public GitHub push activity.
+48 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu

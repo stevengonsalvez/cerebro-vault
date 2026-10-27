@@ -8,11 +8,11 @@ provenance_repos:
   - "Canner/WrenAI"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [17, 2, 0, 0, 0, 0, 1, 3, 6, 0, 0, 0, 0]
+pushes_per_week: [15, 2, 0, 0, 0, 0, 2, 2, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9333
-  repo_per_active_day: 0.2000
+  push_per_day: 1.9286
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,30 +57,104 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 3
-    pushes_per_repo: 9.6667
-    active_days: 15
+    pushes_per_repo: 9.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "clear-your-tools"
+    title: "clear-your-tools"
+    description: "Cut input tokens by 30% while preserving LLM focus and pruning irrelevant MCP tools"
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-tools"
+      - "proxy-server"
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "chunk-your-tools"
+    title: "chunk-your-tools"
+    description: "Chunk MCP tools: Tool with required properties; optional Properties and Enums"
+    language: "Rust"
+    topics:
+      - "chunk"
+      - "chunker"
+      - "chunking"
+      - "chunking-algorithm"
+      - "chunks"
+      - "mcp"
+      - "mcp-tools"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "chunk-your-skills"
+    title: "chunk-your-skills"
+    description: "Chunk Skills: Frontmatter; Index of markdown headers 2 nodes; recompose with PageIndex natural page form"
+    language: "Rust"
+    topics:
+      - "chunk"
+      - "chunker"
+      - "chunking"
+      - "chunking-algorithm"
+      - "chunks"
+      - "markdown"
+      - "skill"
+      - "skill-md"
+      - "skills"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "WrenAi-k8s"
+    title: "WrenAi-k8s"
+    description: "Deployment of WrenAi app in your K8s using ArgoCD"
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-01-16"
+  - name: "kubectl-keychain"
+    title: "kubectl-keychain"
+    description: "A kubectl exec plugin that securely stores your kubeconfig credentials in the macOS Keychain and retrieves them on-demand."
+    language: "Python"
+    topics:
+      - "k8s"
+      - "keychain"
+      - "kubectl"
+      - "kubectl-commands"
+      - "kubectl-plugins"
+      - "kubernetes"
+      - "macos"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-05"
+  - name: "damien-ai-4friends"
+    title: "damien-ai-4friends"
+    description: "A bootstrap guides in AI for friends from Damien"
+    language: null
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2025-08-20"
 ---
 
 # qdrddr
 
-29 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
+27 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qdrddr

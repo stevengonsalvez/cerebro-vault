@@ -8,19 +8,19 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 5, 0, 1, 0, 1, 0, 1, 4, 1, 2, 0]
+pushes_per_week: [2, 4, 2, 1, 0, 0, 1, 0, 1, 4, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 7
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 7
     distinct_repos: 2
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opentui-math"
+    title: "opentui-math"
+    description: "Beautiful LaTeX math rendering for OpenTUI"
+    language: "TypeScript"
+    topics:
+      - "latex"
+      - "math"
+      - "opentui"
+      - "terminal"
+      - "tui"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "opencode-github-browser"
+    title: "opencode-github-browser"
+    description: "Read GitHub issues and pull requests inside the OpenCode TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "opencode-chatgpt-websearch"
+    title: "opencode-chatgpt-websearch"
+    description: "Experimental OpenCode2 web search provider using ChatGPT OAuth"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-08-08"
+  - name: "aevum"
+    title: "aevum"
+    description: "Private, local voice-to-text for Windows"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-11"
+  - name: "opencode-browser"
+    title: "opencode-browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "compact-plugin"
+    title: "compact-plugin"
+    description: "Agent-callable session inspection and compaction tools for OpenCode V2."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
 ---
 
 # neriousy

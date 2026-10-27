@@ -8,16 +8,16 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 3, 2, 0, 0, 0, 1, 1, 4, 2, 0, 1, 7]
+pushes_per_week: [1, 3, 1, 0, 0, 0, 2, 3, 1, 2, 0, 3, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,106 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "NetVar1337"
+    title: "NetVar1337"
+    description: "Security research, reverse engineering, AI/ML and Web3 - autonomous security agents, detection engineering, and open-source tooling."
+    language: "Python"
+    topics:
+      - "anti-cheat"
+      - "detection-engineering"
+      - "game-security"
+      - "reverse-engineering"
+      - "security-research"
+      - "windows-internals"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "vibe-island"
+    title: "vibe-island"
+    description: "Dynamic Island for AI coding tools - macOS, Windows, Linux (Hyprland/Sway/GNOME/KDE)"
+    language: "Rust"
+    topics:
+      - "ai-tools"
+      - "cross-platform"
+      - "desktop"
+      - "developer-tools"
+      - "dynamic-island"
+      - "linux"
+      - "macos"
+      - "rust"
+      - "windows"
+    stars_fact: 71
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "Kevlar-Ultimate"
+    title: "Kevlar-Ultimate"
+    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
+    language: "C++"
+    topics:
+      - "cpp"
+      - "driver"
+      - "emulation"
+      - "kernel"
+      - "malware-analysis"
+      - "reverse-engineering"
+      - "security-research"
+      - "unicorn"
+      - "windows"
+      - "windows-internals"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "glm-tight"
+    title: "glm-tight"
+    description: "Portable prompt profiles and a zero-dependency CLI for concise GLM coding-agent execution"
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "glm"
+      - "javascript"
+      - "prompt-engineering"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "agent-skill-canon"
+    title: "agent-skill-canon"
+    description: "Master skill canon + agent instruction set for the NetVar1337 workstation. Source of truth synced to opencode/claude/codex/pi/omo harness roots via sync-skills.ps1."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "developer-tools"
+      - "opencode"
+      - "security"
+      - "skills"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "audit-findings-skills"
+    title: "audit-findings-skills"
+    description: "Smart contract security skills & audit playbooks: 23,625 audit findings synthesized into reusable SKILL.md playbooks for Solidity/EVM reviewers."
+    language: "Solidity"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "audit"
+      - "code4rena"
+      - "evm"
+      - "security"
+      - "security-research"
+      - "sherlock"
+      - "smart-contracts"
+      - "solidity"
+      - "vulnerability-research"
+      - "web3"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # NetVar1337

@@ -8,8 +8,8 @@ provenance_repos:
   - "Forward-Future/loop-library"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "33a1a1e413da60e1"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "folio-releases"
+    title: "folio-releases"
+    description: "Downloads and automatic updates for Folio, a simple, clean PDF reader for Windows"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "edu-crew"
+    title: "edu-crew"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 87
+    first_seen: null
+    last_push: "2024-11-08"
+  - name: "crewai_yt"
+    title: "crewai_yt"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-06-19"
+  - name: "benchmark-creator"
+    title: "benchmark-creator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-01-22"
+  - name: "no-kings-land"
+    title: "no-kings-land"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "excel-clone"
+    title: "excel-clone"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-12"
 ---
 
 # mberman84

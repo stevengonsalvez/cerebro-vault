@@ -8,11 +8,11 @@ provenance_repos:
   - "pbakaus/impeccable"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [15, 14, 20, 3, 0, 2, 3, 4, 2, 30, 4, 2, 3]
+pushes_per_week: [12, 13, 21, 1, 0, 3, 3, 3, 4, 30, 4, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 97
     distinct_repos: 3
-    active_days: 38
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6842
-  repo_per_active_day: 0.0789
+  push_per_day: 2.6216
+  repo_per_active_day: 0.0811
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 97
     distinct_repos: 3
-    pushes_per_repo: 34.0000
-    active_days: 38
+    pushes_per_repo: 32.3333
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "impeccable"
+    title: "impeccable"
+    description: "The design language that makes your AI harness better at design."
+    language: "Rust"
+    topics: []
+    stars_fact: 86666
+    first_seen: "2026-10-25T07:00:44.509744+00:00"
+    last_push: "2026-10-24"
+  - name: "radiant"
+    title: "radiant"
+    description: "A curated collection of generative shader art"
+    language: "HTML"
+    topics: []
+    stars_fact: 1009
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "scroller"
+    title: "scroller"
+    description: "Accelerated panning and zooming for HTML and Canvas"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3922
+    first_seen: null
+    last_push: "2025-11-21"
+  - name: "impeccable-talks"
+    title: "impeccable-talks"
+    description: "Talks for the Impeccable project."
+    language: "HTML"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "agent-reviews"
+    title: "agent-reviews"
+    description: "Token efficient, automated Github review workflows and bug fixing."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 306
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "viewporter"
+    title: "viewporter"
+    description: "Meta viewport done right."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 593
+    first_seen: null
+    last_push: "2013-02-15"
 ---
 
 # pbakaus
 
-102 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
+97 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

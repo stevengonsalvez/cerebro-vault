@@ -8,11 +8,11 @@ provenance_repos:
   - "FaqFirebase/pi-desktop"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "5b508e513b9bcb98"
-pushes_per_week: [1, 0, 3, 0, 0, 0, 2, 4, 6, 2, 1, 0, 3]
+pushes_per_week: [1, 1, 2, 0, 0, 0, 2, 4, 6, 2, 1, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 2
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 2.2000
+    pushes_per_repo: 2.0000
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,7 +76,77 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SosariaAI"
+    title: "SosariaAI"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "UOTerm"
+    title: "UOTerm"
+    description: "UOTerm is a headless Ultima Online client."
+    language: "Rust"
+    topics:
+      - "ultima"
+      - "ultima-online"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "unraid-docker-templates"
+    title: "unraid-docker-templates"
+    description: "A collection of Docker Templates designed for Unraid"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "von-docker"
+    title: "von-docker"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "laya-system-one-docker"
+    title: "laya-system-one-docker"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "opentartarus"
+    title: "opentartarus"
+    description: "Linux GUI for the Razer Tartarus V2 and Tartarus Pro. Key remapping, per-game profiles, macros, and OpenRazer RGB lighting. A Razer Synapse replacement for the keypad, written in Rust."
+    language: "Rust"
+    topics:
+      - "evdev"
+      - "iced"
+      - "key-remapping"
+      - "keyboard-remapping"
+      - "keypad"
+      - "linux"
+      - "linux-gaming"
+      - "macros"
+      - "openrazer"
+      - "openrgb"
+      - "razer"
+      - "razer-synapse"
+      - "razer-tartarus"
+      - "remapper"
+      - "rgb-lighting"
+      - "rust"
+      - "tartarus"
+      - "tartarus-pro"
+      - "tartarus-v2"
+      - "uinput"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # PikkonMG

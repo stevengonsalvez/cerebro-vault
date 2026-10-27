@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [7, 1, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrcode-pr-review-agent"
+    title: "astrcode-pr-review-agent"
+    description: "Astrcodey 的自动化 GitHub PR 审查插件"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "astrcodey"
+    title: "astrcodey"
+    description: "一个开源的rust code agent，可扩展性非常强，与deepseek-harness架构同源并且比它早写两个月"
+    language: "Rust"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "ScriptableObjectManager"
+    title: "ScriptableObjectManager"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-01-21"
+  - name: "my-blog"
+    title: "my-blog"
+    description: "我的博客"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "HexGridSystem"
+    title: "HexGridSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "Unity-SaveSystem"
+    title: "Unity-SaveSystem"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-26"
 ---
 
 # whatevertogo

@@ -8,11 +8,11 @@ provenance_repos:
   - "JetBrains/thinkrail"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "0acf196572ceb07e"
-pushes_per_week: [4, 0, 0, 1, 4, 0, 0, 1, 4, 6, 2, 8, 0]
+pushes_per_week: [2, 0, 0, 1, 4, 0, 0, 1, 6, 4, 9, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.1176
+  push_per_day: 1.7500
+  repo_per_active_day: 0.1250
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 17
+    pushes_per_repo: 14.0000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "datagen-intellij-plugin"
+    title: "datagen-intellij-plugin"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-17"
 ---
 
 # rsolmano
 
-30 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+28 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rsolmano

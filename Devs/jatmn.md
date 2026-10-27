@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [11, 11, 28, 14, 2, 1, 1, 4, 5, 4, 13, 26, 21]
+pushes_per_week: [9, 17, 25, 13, 1, 0, 1, 5, 6, 3, 23, 17, 19]
 windows:
   "7d":
     pushes: 21
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 141
+    pushes: 139
     distinct_repos: 25
-    active_days: 48
+    active_days: 46
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.9375
-  repo_per_active_day: 0.5208
+  push_per_day: 3.0217
+  repo_per_active_day: 0.5435
   not_owned_ratio: 0.3600
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 141
+    pushes: 139
     distinct_repos: 25
-    pushes_per_repo: 5.6400
-    active_days: 48
+    pushes_per_repo: 5.5600
+    active_days: 46
     repos_not_owned: 9
     not_owned_basenames: 1
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jModGuard"
@@ -136,6 +136,6 @@ repos:
 
 # jatmn
 
-141 pushes across 25 repositories on 48 active days in the last 90 days of public GitHub push activity.
+139 pushes across 25 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

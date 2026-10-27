@@ -9,16 +9,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [15, 22, 20, 9, 6, 2, 1, 6, 9, 6, 5, 7, 7]
+pushes_per_week: [6, 29, 14, 10, 4, 3, 0, 8, 7, 7, 5, 8, 5]
 windows:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 106
     distinct_repos: 4
-    active_days: 47
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4468
-  repo_per_active_day: 0.0851
+  push_per_day: 2.3043
+  repo_per_active_day: 0.0870
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 106
     distinct_repos: 4
-    pushes_per_repo: 28.7500
-    active_days: 47
+    pushes_per_repo: 26.5000
+    active_days: 46
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-115 pushes across 4 repositories on 47 active days in the last 90 days of public GitHub push activity.
+106 pushes across 4 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

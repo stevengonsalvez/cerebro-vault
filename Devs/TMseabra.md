@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 9, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "TMseabra"
+    title: "TMseabra"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "ai-support-assistant"
+    title: "ai-support-assistant"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "jarvis-pc-assistant"
+    title: "jarvis-pc-assistant"
+    description: "Jarvis para PC: assistente que abre apps, sites e controla conversas (WhatsApp/Telegram/Discord) por voz ou texto."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "auth-api"
+    title: "auth-api"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "presenter-notes"
+    title: "presenter-notes"
+    description: "Presenter notes with a live preview of the big screen, for presenting code live (Electron)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "secure-microservices"
+    title: "secure-microservices"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # TMseabra

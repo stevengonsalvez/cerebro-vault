@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [3, 1, 6, 1, 6, 0, 2, 7, 3, 4, 8, 4, 10]
+pushes_per_week: [1, 3, 4, 3, 4, 1, 1, 7, 5, 2, 9, 5, 8]
 windows:
   "7d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 8
-    active_days: 33
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.2424
+  push_per_day: 1.6562
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 5
+    pushes_per_repo: 1.8000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 8
-    pushes_per_repo: 6.8750
-    active_days: 33
+    pushes_per_repo: 6.6250
+    active_days: 32
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "This-repo-has-1426-stars"
@@ -131,6 +131,6 @@ repos:
 
 # fslongjin
 
-55 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
+53 pushes across 8 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fslongjin

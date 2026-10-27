@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 3, 20, 9, 0, 3, 0, 0, 1, 2, 18, 11, 11]
+pushes_per_week: [0, 5, 22, 5, 1, 2, 0, 0, 1, 2, 20, 13, 13]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 4
+    pushes: 13
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 48
     distinct_repos: 5
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
+    pushes: 84
     distinct_repos: 11
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2917
-  repo_per_active_day: 0.4583
+  push_per_day: 3.6522
+  repo_per_active_day: 0.4783
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes: 13
+    distinct_repos: 1
+    pushes_per_repo: 13.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 8.4000
+    pushes_per_repo: 9.6000
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 79
+    pushes: 84
     distinct_repos: 11
-    pushes_per_repo: 7.1818
-    active_days: 24
+    pushes_per_repo: 7.6364
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-screen"
@@ -160,6 +160,6 @@ repos:
 
 # Fanzzzd
 
-79 pushes across 11 repositories on 24 active days in the last 90 days of public GitHub push activity.
+84 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fanzzzd

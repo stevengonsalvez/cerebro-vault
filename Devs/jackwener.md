@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [20, 14, 39, 14, 1, 0, 0, 1, 10, 0, 0, 1, 2]
+pushes_per_week: [18, 45, 8, 15, 0, 0, 0, 3, 8, 0, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,14 +23,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 14
     active_days: 23
     repos_not_owned: 10
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.4348
+  push_per_day: 4.3478
   repo_per_active_day: 0.6087
   not_owned_ratio: 0.7143
   basename_concentration: 0.6429
@@ -74,17 +74,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 6
+    pushes_per_repo: 1.4000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 100
     distinct_repos: 14
-    pushes_per_repo: 7.2857
+    pushes_per_repo: 7.1429
     active_days: 23
     repos_not_owned: 10
     not_owned_basenames: 3
@@ -153,6 +153,6 @@ repos:
 
 # jackwener
 
-102 pushes across 14 repositories on 23 active days in the last 90 days of public GitHub push activity.
+100 pushes across 14 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

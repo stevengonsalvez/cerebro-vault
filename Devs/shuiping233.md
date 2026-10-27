@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 4, 3, 1, 1, 0, 1, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 4, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MemeManager"
+    title: "MemeManager"
+    description: "一个表情包管理器 , 基于dotnet10 + WinUI3开发"
+    language: "C#"
+    topics:
+      - "emoji-manager"
+      - "image-manager"
+      - "meme"
+      - "memes"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "openwrt-system-monitor"
+    title: "openwrt-system-monitor"
+    description: "一个由 golang+ebpf+vue3+TailwindCSS4 编写的OpenWrt监控仪表板"
+    language: "Vue"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "shuiping233-blog"
+    title: "shuiping233-blog"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-10"
+  - name: "map-storage-cnb"
+    title: "map-storage-cnb"
+    description: "Storage RA2 Map file to cnb.cool repository , just like OSS"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-12"
+  - name: "MFC-Edit-CtrlBackspace-Undo"
+    title: "MFC-Edit-CtrlBackspace-Undo"
+    description: "MFC Ctrl-Backspace delete test"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-10"
+  - name: "test_repo"
+    title: "test_repo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-30"
 ---
 
 # shuiping233

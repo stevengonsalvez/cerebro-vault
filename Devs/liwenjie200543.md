@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 9, 3, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 10, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 5
+    pushes: 7
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 5
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "liwenjie200543"
+    title: "liwenjie200543"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "KuseCode"
+    title: "KuseCode"
+    description: "基于Pi agent SDK的coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "test1"
+    title: "test1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-09"
+  - name: "test"
+    title: "test"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-09"
 ---
 
 # liwenjie200543

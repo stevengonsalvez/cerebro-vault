@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [17, 5, 0, 3, 0, 0, 9, 3, 1, 0, 5, 2, 0]
+pushes_per_week: [16, 5, 0, 3, 0, 1, 9, 2, 1, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 14
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.7000
+  push_per_day: 2.3158
+  repo_per_active_day: 0.7368
   not_owned_ratio: 0.1429
   basename_concentration: 0.0714
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 14
-    pushes_per_repo: 3.2143
-    active_days: 20
+    pushes_per_repo: 3.1429
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mohitdebian"
+    title: "mohitdebian"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "Relay"
+    title: "Relay"
+    description: "Self-hostable API gateway built for managing API keys, routing, rate limits, and observability."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "AgentGate"
+    title: "AgentGate"
+    description: "Out-of-process authorization proxy and safety gateway for autonomous AI agent tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "AlgoMerge"
+    title: "AlgoMerge"
+    description: "Find the best open-source issues to contribute to — with the lowest competition"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "ai-knowledge-hub"
+    title: "ai-knowledge-hub"
+    description: "AI-powered knowledge management platform - Full-stack project covering 50+ concepts: React/Next.js, Express, PostgreSQL, MongoDB, Redis, OpenAI, Stripe, Docker, WebSocket, JWT/OAuth, RAG, Multi-step Agent"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "CRY"
+    title: "CRY"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # mohitdebian
 
-45 pushes across 14 repositories on 20 active days in the last 90 days of public GitHub push activity.
+44 pushes across 14 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mohitdebian

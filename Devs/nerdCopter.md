@@ -8,21 +8,21 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 2, 14, 0, 1, 1, 5, 8, 15, 11, 13, 5, 9]
+pushes_per_week: [7, 3, 12, 0, 1, 1, 6, 8, 17, 9, 16, 2, 9]
 windows:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 12
     active_days: 18
     repos_not_owned: 3
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 3
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 12
-    pushes_per_repo: 3.9167
+    pushes_per_repo: 3.6667
     active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "target-convert"
+    title: "target-convert"
+    description: "bf to ef target converter script"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "multirotor-esc-handbook"
+    title: "multirotor-esc-handbook"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "powershell-git-prompt"
+    title: "powershell-git-prompt"
+    description: null
+    language: "PowerShell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "PuterJS-UI"
+    title: "PuterJS-UI"
+    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "copilot-prompts"
+    title: "copilot-prompts"
+    description: "VS Code Copilot prompt/instructions repository: agents, skills, instructions, and prompt files for advanced Copilot customization."
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "BlackBox_CSV_Render"
+    title: "BlackBox_CSV_Render"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-19"
 ---
 
 # nerdCopter

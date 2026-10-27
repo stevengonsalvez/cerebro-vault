@@ -8,23 +8,23 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 15, 7, 5, 4, 0, 0, 0, 5, 18, 13, 8, 19]
+pushes_per_week: [0, 15, 7, 7, 2, 0, 0, 0, 5, 22, 13, 18, 5]
 windows:
   "7d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 8
-    active_days: 14
+    pushes: 58
+    distinct_repos: 7
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 4
+    pushes_per_repo: 4.6667
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 8
-    pushes_per_repo: 7.5000
-    active_days: 14
+    pushes: 58
+    distinct_repos: 7
+    pushes_per_repo: 8.2857
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "teddyli18000"
+    title: "teddyli18000"
+    description: "A living GitHub profile README."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "uu-cli"
+    title: "uu-cli"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "SDAutoLogin"
+    title: "SDAutoLogin"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "screenquiet"
+    title: "screenquiet"
+    description: "Silent Lenovo Fn+F9 screen-off with physical-input wake. Parsec VDD, Raw Input, and ThinkBook / UU remote-control implementation notes."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "LocalType"
+    title: "LocalType"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
 ---
 
 # teddyli18000

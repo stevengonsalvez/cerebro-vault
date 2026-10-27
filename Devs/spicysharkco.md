@@ -8,16 +8,16 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 16]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 9]
 windows:
   "7d":
-    pushes: 21
-    distinct_repos: 7
-    active_days: 3
+    pushes: 12
+    distinct_repos: 5
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
-    distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "chess-sim2real-benchmark"
+    title: "chess-sim2real-benchmark"
+    description: "Render generator and 20,000-image benchmark: what synthetic training data buys a chess-recognition model on real camera images"
+    language: "TeX"
+    topics:
+      - "benchmark"
+      - "chess"
+      - "computer-vision"
+      - "robotics"
+      - "sim-to-real"
+      - "synthetic-data"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "spicysharkco.github.io"
+    title: "spicysharkco.github.io"
+    description: "Engineering notes on upstream fixes: what broke, how I measured it, what reviewers changed."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "spicysharkco"
+    title: "spicysharkco"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "sharkswap"
+    title: "sharkswap"
+    description: "Claude Code account switcher: switch / swap between Claude Code accounts without logging in again"
+    language: "Rust"
+    topics:
+      - "account-switcher"
+      - "claude"
+      - "claude-code"
+      - "claude-swap"
+      - "claude-switch"
+      - "cli"
+      - "multi-account"
+      - "rust"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "sharkline"
+    title: "sharkline"
+    description: "Fast Claude Code statusline (status line) in Rust: git, model, rate limits, context, session time"
+    language: "Rust"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "rust"
+      - "status-line"
+      - "statusline"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # spicysharkco

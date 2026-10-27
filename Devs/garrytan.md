@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "b321d228efd2bc14"
-pushes_per_week: [0, 7, 42, 1, 6, 2, 0, 7, 29, 178, 116, 52, 112]
+pushes_per_week: [0, 11, 38, 1, 6, 2, 2, 6, 36, 202, 119, 26, 108]
 windows:
   "7d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 466
+    pushes: 470
     distinct_repos: 7
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 552
+    pushes: 557
     distinct_repos: 7
     active_days: 50
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.0400
+  push_per_day: 11.1400
   repo_per_active_day: 0.1400
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 5
-    pushes_per_repo: 23.2000
+    pushes_per_repo: 22.8000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 466
+    pushes: 470
     distinct_repos: 7
-    pushes_per_repo: 66.5714
-    active_days: 27
+    pushes_per_repo: 67.1429
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 552
+    pushes: 557
     distinct_repos: 7
-    pushes_per_repo: 78.8571
+    pushes_per_repo: 79.5714
     active_days: 50
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # garrytan
 
-552 pushes across 7 repositories on 50 active days in the last 90 days of public GitHub push activity.
+557 pushes across 7 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

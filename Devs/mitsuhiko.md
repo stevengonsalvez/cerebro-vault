@@ -8,23 +8,23 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-10-26T07:04:45.853276+00:00"
+repos_populated: true
+generated_at: "2026-10-27T07:04:59.524400+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [10, 9, 5, 2, 1, 0, 0, 2, 32, 27, 4, 3, 9]
+pushes_per_week: [10, 10, 4, 2, 1, 0, 0, 3, 36, 23, 6, 3, 6]
 windows:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 68
     distinct_repos: 9
-    active_days: 19
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.2500
+    pushes_per_repo: 2.0000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 72
+    pushes: 68
     distinct_repos: 9
-    pushes_per_repo: 8.0000
-    active_days: 19
+    pushes_per_repo: 7.5556
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "minijinja"
+    title: "minijinja"
+    description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
+    language: "Rust"
+    topics:
+      - "jinja"
+      - "jinja2"
+      - "rust"
+      - "templates"
+    stars_fact: 2813
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "dungeon-crawler"
+    title: "dungeon-crawler"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "deser"
+    title: "deser"
+    description: "Experimental rust serialization library"
+    language: "Rust"
+    topics:
+      - "rust"
+      - "serialization"
+    stars_fact: 466
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "agent-stuff"
+    title: "agent-stuff"
+    description: "These are commands I use with agents, mostly Claude"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3197
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "pi-draw"
+    title: "pi-draw"
+    description: "For when you want to draw something for the clanker"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 100
+    first_seen: null
+    last_push: "2026-04-26"
+  - name: "self-replace"
+    title: "self-replace"
+    description: "Utility library that helps to implement processes that replace themselves"
+    language: "Rust"
+    topics: []
+    stars_fact: 822
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # mitsuhiko
