@@ -9,42 +9,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [49, 39, 119, 5, 10, 8, 27, 49, 43, 42, 25, 18, 22]
+pushes_per_week: [50, 46, 100, 7, 8, 8, 30, 51, 40, 40, 27, 26, 12]
 windows:
   "7d":
-    pushes: 26
+    pushes: 17
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 127
-    distinct_repos: 2
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 120
+    distinct_repos: 1
+    active_days: 24
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 456
-    distinct_repos: 10
-    active_days: 73
-    repos_not_owned: 9
+    pushes: 445
+    distinct_repos: 9
+    active_days: 72
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 6.2466
-  repo_per_active_day: 0.1370
-  not_owned_ratio: 0.9000
+  push_per_day: 6.1806
+  repo_per_active_day: 0.1250
+  not_owned_ratio: 0.8889
   basename_concentration: 1.0000
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 1.0000 (10 of 10 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: koala73/worldmonitor"
+    - "basename concentration 1.0000 (9 of 9 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: koala73/worldmonitor"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -59,38 +59,38 @@ automation:
       - "janbrogger/worldmonitor"
       - "michaeldubu/worldmonitor"
       - "narinth19-ops/worldmonitor"
-      - "shinzoxD/worldmonitor"
+      - "tigerblue77/worldmonitor"
     upstreams:
       - "koala73/worldmonitor"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 26
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 26.0000
-    active_days: 6
+    pushes_per_repo: 17.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 127
-    distinct_repos: 2
-    pushes_per_repo: 63.5000
-    active_days: 25
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 120
+    distinct_repos: 1
+    pushes_per_repo: 120.0000
+    active_days: 24
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 456
-    distinct_repos: 10
-    pushes_per_repo: 45.6000
-    active_days: 73
-    repos_not_owned: 9
+    pushes: 445
+    distinct_repos: 9
+    pushes_per_repo: 49.4444
+    active_days: 72
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worldmonitor"
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-456 pushes across 10 repositories on 73 active days in the last 90 days of public GitHub push activity.
+445 pushes across 9 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 2, 2, 4, 0, 0, 18, 28, 9, 5, 7, 0, 0]
+pushes_per_week: [1, 3, 1, 4, 0, 0, 21, 25, 9, 5, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 79
-    distinct_repos: 23
-    active_days: 28
+    pushes: 76
+    distinct_repos: 22
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.8214
-  repo_per_active_day: 0.8214
-  not_owned_ratio: 0.3913
-  basename_concentration: 0.0435
+  push_per_day: 2.8148
+  repo_per_active_day: 0.8148
+  not_owned_ratio: 0.4091
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 2
   "90d":
-    pushes: 79
-    distinct_repos: 23
-    pushes_per_repo: 3.4348
-    active_days: 28
+    pushes: 76
+    distinct_repos: 22
+    pushes_per_repo: 3.4545
+    active_days: 27
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "titanium-plugins"
@@ -135,6 +135,6 @@ repos:
 
 # webdevtodayjason
 
-79 pushes across 23 repositories on 28 active days in the last 90 days of public GitHub push activity.
+76 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 0, 8, 1, 1, 0, 4, 3, 3, 1, 0, 1, 1]
+pushes_per_week: [2, 1, 7, 2, 0, 0, 4, 3, 3, 1, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 13
-    active_days: 21
+    pushes: 25
+    distinct_repos: 12
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.6190
-  not_owned_ratio: 0.3846
-  basename_concentration: 0.0769
+  push_per_day: 1.2500
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 13
-    pushes_per_repo: 2.0769
-    active_days: 21
+    pushes: 25
+    distinct_repos: 12
+    pushes_per_repo: 2.0833
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "steepr"
@@ -147,6 +147,6 @@ repos:
 
 # maskedsyntax
 
-27 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
+25 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

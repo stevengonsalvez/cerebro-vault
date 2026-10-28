@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [17, 5, 12, 7, 1, 1, 0, 1, 1, 1, 4, 1, 2]
+pushes_per_week: [12, 14, 3, 7, 1, 1, 0, 1, 1, 1, 4, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 48
     distinct_repos: 5
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2083
-  repo_per_active_day: 0.2083
+  push_per_day: 2.0870
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 48
     distinct_repos: 5
-    pushes_per_repo: 10.6000
-    active_days: 24
+    pushes_per_repo: 9.6000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -134,6 +134,6 @@ repos:
 
 # abhinav
 
-53 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
+48 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhinav

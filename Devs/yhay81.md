@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [44, 113, 1, 0, 0, 0, 0, 0, 0, 0, 1, 20, 9]
+pushes_per_week: [26, 114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 20, 9]
 windows:
   "7d":
-    pushes: 21
+    pushes: 9
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 188
-    distinct_repos: 92
-    active_days: 18
-    repos_not_owned: 14
-    not_owned_basenames: 13
+    pushes: 170
+    distinct_repos: 87
+    active_days: 17
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 10.4444
-  repo_per_active_day: 5.1111
-  not_owned_ratio: 0.1522
-  basename_concentration: 0.0217
+  push_per_day: 10.0000
+  repo_per_active_day: 5.1176
+  not_owned_ratio: 0.1034
+  basename_concentration: 0.0230
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 21
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 5.2500
-    active_days: 4
+    pushes_per_repo: 2.2500
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 188
-    distinct_repos: 92
-    pushes_per_repo: 2.0435
-    active_days: 18
-    repos_not_owned: 14
-    not_owned_basenames: 13
+    pushes: 170
+    distinct_repos: 87
+    pushes_per_repo: 1.9540
+    active_days: 17
+    repos_not_owned: 9
+    not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vastgrid"
@@ -166,6 +166,6 @@ repos:
 
 # yhay81
 
-188 pushes across 92 repositories on 18 active days in the last 90 days of public GitHub push activity.
+170 pushes across 87 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 1, 1, 0, 2, 0, 1, 1, 1, 0, 2, 0, 1]
+pushes_per_week: [0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.3636
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 11
+    pushes_per_repo: 2.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-model-context-catalog"
@@ -161,6 +161,6 @@ repos:
 
 # HOWILLMAKEIT
 
-11 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HOWILLMAKEIT

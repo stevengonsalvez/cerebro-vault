@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 4, 46, 2, 3, 1, 37, 9, 12, 2, 0, 1, 10]
+pushes_per_week: [6, 7, 43, 2, 3, 1, 38, 10, 10, 2, 0, 5, 6]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    active_days: 5
+    pushes: 8
+    distinct_repos: 7
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 134
+    pushes: 133
     distinct_repos: 27
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9412
-  repo_per_active_day: 0.7941
+  push_per_day: 4.0303
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    pushes_per_repo: 1.2222
-    active_days: 5
+    pushes: 8
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 134
+    pushes: 133
     distinct_repos: 27
-    pushes_per_repo: 4.9630
-    active_days: 34
+    pushes_per_repo: 4.9259
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -150,6 +150,6 @@ repos:
 
 # kevin9327
 
-134 pushes across 27 repositories on 34 active days in the last 90 days of public GitHub push activity.
+133 pushes across 27 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

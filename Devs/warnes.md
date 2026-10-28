@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [8, 2, 0, 0, 1, 2, 1, 1, 2, 2, 2, 0, 1]
+pushes_per_week: [3, 2, 0, 0, 1, 2, 1, 1, 2, 2, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 17
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.2857
+  push_per_day: 1.3077
+  repo_per_active_day: 0.3077
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 17
     distinct_repos: 4
-    pushes_per_repo: 5.5000
-    active_days: 14
+    pushes_per_repo: 4.2500
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lucas-game"
@@ -113,6 +113,6 @@ repos:
 
 # warnes
 
-22 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/warnes

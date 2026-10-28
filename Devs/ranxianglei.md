@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "44bf92228a9e42f2"
-pushes_per_week: [30, 36, 59, 17, 5, 8, 21, 71, 84, 79, 80, 60, 89]
+pushes_per_week: [28, 52, 43, 16, 4, 9, 26, 72, 86, 70, 104, 46, 79]
 windows:
   "7d":
-    pushes: 101
-    distinct_repos: 10
-    active_days: 6
-    repos_not_owned: 9
+    pushes: 85
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 6
   "30d":
-    pushes: 340
+    pushes: 322
     distinct_repos: 23
-    active_days: 25
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 4
     not_owned_owners: 17
   "90d":
-    pushes: 639
+    pushes: 635
     distinct_repos: 42
-    active_days: 74
+    active_days: 73
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 8.6351
-  repo_per_active_day: 0.5676
+  push_per_day: 8.6986
+  repo_per_active_day: 0.5753
   not_owned_ratio: 0.5714
   basename_concentration: 0.4524
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 101
-    distinct_repos: 10
-    pushes_per_repo: 10.1000
-    active_days: 6
-    repos_not_owned: 9
+    pushes: 85
+    distinct_repos: 7
+    pushes_per_repo: 12.1429
+    active_days: 5
+    repos_not_owned: 6
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 6
   "30d":
-    pushes: 340
+    pushes: 322
     distinct_repos: 23
-    pushes_per_repo: 14.7826
-    active_days: 25
+    pushes_per_repo: 14.0000
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 4
     not_owned_owners: 17
   "90d":
-    pushes: 639
+    pushes: 635
     distinct_repos: 42
-    pushes_per_repo: 15.2143
-    active_days: 74
+    pushes_per_repo: 15.1190
+    active_days: 73
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 74 active days in 90d — pass"
+  - "activity: 73 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "billion-context"
@@ -130,6 +130,6 @@ repos:
 
 # ranxianglei
 
-639 pushes across 42 repositories on 74 active days in the last 90 days of public GitHub push activity.
+635 pushes across 42 repositories on 73 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ranxianglei

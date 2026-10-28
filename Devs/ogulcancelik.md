@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [17, 17, 12, 8, 0, 1, 5, 3, 7, 5, 3, 1, 0]
+pushes_per_week: [17, 16, 10, 7, 0, 1, 5, 3, 7, 5, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,29 +24,29 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 13
-    active_days: 39
-    repos_not_owned: 11
+    pushes: 75
+    distinct_repos: 11
+    active_days: 38
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 10
+    not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.0256
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.8462
-  basename_concentration: 0.8462
+  push_per_day: 1.9737
+  repo_per_active_day: 0.2895
+  not_owned_ratio: 0.9091
+  basename_concentration: 0.8182
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8462 (11 of 13 repos share one basename), 11 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: herdrdev/herdr"
+    - "basename concentration 0.8182 (9 of 11 repos share one basename), 10 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: herdrdev/herdr"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -57,11 +57,11 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
-      - "brabli/herdr"
       - "dark2momo/herdr"
       - "HackAttack/herdr"
       - "herdrdev/herdr"
       - "kiakiraki/herdr"
+      - "KyleCo76/herdr"
     upstreams:
       - "herdrdev/herdr"
   prefilter: "rest_verified"
@@ -75,24 +75,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 2
-    pushes_per_repo: 6.0000
-    active_days: 8
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 79
-    distinct_repos: 13
-    pushes_per_repo: 6.0769
-    active_days: 39
-    repos_not_owned: 11
+    pushes: 75
+    distinct_repos: 11
+    pushes_per_repo: 6.8182
+    active_days: 38
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 10
+    not_owned_owners: 9
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-79 pushes across 13 repositories on 39 active days in the last 90 days of public GitHub push activity.
+75 pushes across 11 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

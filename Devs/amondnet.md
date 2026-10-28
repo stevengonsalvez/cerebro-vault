@@ -10,14 +10,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 8, 11, 1, 2, 9, 32, 21, 8, 26, 3, 9, 20]
+pushes_per_week: [7, 11, 8, 1, 2, 9, 36, 21, 5, 25, 7, 11, 14]
 windows:
   "7d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 5
     active_days: 3
     repos_not_owned: 5
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 11
     not_owned_owners: 4
   "90d":
-    pushes: 160
+    pushes: 157
     distinct_repos: 18
-    active_days: 44
+    active_days: 43
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.6364
-  repo_per_active_day: 0.4091
+  push_per_day: 3.6512
+  repo_per_active_day: 0.4186
   not_owned_ratio: 0.9444
   basename_concentration: 0.1111
   shapes: []
@@ -51,9 +51,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.4000
     active_days: 3
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 11
     not_owned_owners: 4
   "90d":
-    pushes: 160
+    pushes: 157
     distinct_repos: 18
-    pushes_per_repo: 8.8889
-    active_days: 44
+    pushes_per_repo: 8.7222
+    active_days: 43
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amondnet"
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-160 pushes across 18 repositories on 44 active days in the last 90 days of public GitHub push activity.
+157 pushes across 18 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

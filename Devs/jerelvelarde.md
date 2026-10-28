@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [17, 3, 1, 0, 0, 0, 1, 4, 6, 29, 0, 1, 8]
+pushes_per_week: [13, 3, 1, 0, 0, 0, 1, 4, 6, 29, 0, 1, 8]
 windows:
   "7d":
     pushes: 8
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 14
-    active_days: 21
+    active_days: 20
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.6667
+  push_per_day: 3.3000
+  repo_per_active_day: 0.7000
   not_owned_ratio: 0.4286
   basename_concentration: 0.2143
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 14
-    pushes_per_repo: 5.0000
-    active_days: 21
+    pushes_per_repo: 4.7143
+    active_days: 20
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skywake"
@@ -138,6 +138,6 @@ repos:
 
 # jerelvelarde
 
-70 pushes across 14 repositories on 21 active days in the last 90 days of public GitHub push activity.
+66 pushes across 14 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

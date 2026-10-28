@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "41883ae726050c68"
-pushes_per_week: [1, 4, 1, 0, 0, 0, 0, 5, 1, 6, 3, 0, 0]
+pushes_per_week: [0, 4, 1, 0, 0, 0, 0, 6, 0, 6, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 21
-    distinct_repos: 6
-    active_days: 11
-    repos_not_owned: 6
+    pushes: 20
+    distinct_repos: 5
+    active_days: 10
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9091
-  repo_per_active_day: 0.5455
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
-  basename_concentration: 0.8333
+  basename_concentration: 0.8000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 21
-    distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 11
-    repos_not_owned: 6
+    pushes: 20
+    distinct_repos: 5
+    pushes_per_repo: 4.0000
+    active_days: 10
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "config-notes"
@@ -129,6 +129,6 @@ repos:
 
 # opcode81
 
-21 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+20 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/opcode81

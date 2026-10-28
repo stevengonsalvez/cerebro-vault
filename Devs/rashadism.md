@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 0, 2, 1, 0, 1, 0, 4, 8, 5, 3, 0, 1]
+pushes_per_week: [3, 0, 2, 1, 0, 1, 0, 5, 8, 4, 3, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 7
-    active_days: 9
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 9
     active_days: 16
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8125
+  push_per_day: 1.7500
   repo_per_active_day: 0.5625
   not_owned_ratio: 0.2222
   basename_concentration: 0.2222
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 9
+    pushes_per_repo: 1.8571
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 9
-    pushes_per_repo: 3.2222
+    pushes_per_repo: 3.1111
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # rashadism
 
-29 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rashadism

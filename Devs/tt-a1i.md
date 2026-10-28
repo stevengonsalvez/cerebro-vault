@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 2, 5, 14, 5, 6, 7, 17, 12, 25, 11, 11, 14]
+pushes_per_week: [3, 3, 4, 15, 4, 6, 13, 13, 11, 24, 21, 1, 14]
 windows:
   "7d":
     pushes: 14
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 9
-    active_days: 16
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 137
-    distinct_repos: 26
-    active_days: 44
-    repos_not_owned: 19
+    pushes: 132
+    distinct_repos: 24
+    active_days: 42
+    repos_not_owned: 18
     not_owned_basenames: 3
-    not_owned_owners: 18
+    not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 3.1136
-  repo_per_active_day: 0.5909
-  not_owned_ratio: 0.7308
-  basename_concentration: 0.4231
+  push_per_day: 3.1429
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.4583
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 9
-    pushes_per_repo: 7.2222
-    active_days: 16
+    pushes_per_repo: 7.0000
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 137
-    distinct_repos: 26
-    pushes_per_repo: 5.2692
-    active_days: 44
-    repos_not_owned: 19
+    pushes: 132
+    distinct_repos: 24
+    pushes_per_repo: 5.5000
+    active_days: 42
+    repos_not_owned: 18
     not_owned_basenames: 3
-    not_owned_owners: 18
+    not_owned_owners: 17
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -198,6 +198,6 @@ repos:
 
 # tt-a1i
 
-137 pushes across 26 repositories on 44 active days in the last 90 days of public GitHub push activity.
+132 pushes across 24 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

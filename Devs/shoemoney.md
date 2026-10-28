@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [18, 6, 11, 3, 1, 2, 1, 7, 45, 69, 2, 0, 1]
+pushes_per_week: [19, 4, 11, 3, 1, 2, 1, 8, 68, 45, 2, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
-    distinct_repos: 13
-    active_days: 10
+    pushes: 91
+    distinct_repos: 12
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 34
-    active_days: 36
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.6111
-  repo_per_active_day: 0.9444
+  push_per_day: 4.7143
+  repo_per_active_day: 0.9714
   not_owned_ratio: 0.0588
   basename_concentration: 0.0294
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 97
-    distinct_repos: 13
-    pushes_per_repo: 7.4615
-    active_days: 10
+    pushes: 91
+    distinct_repos: 12
+    pushes_per_repo: 7.5833
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 34
-    pushes_per_repo: 4.8824
-    active_days: 36
+    pushes_per_repo: 4.8529
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shoemoneyx"
@@ -157,6 +157,6 @@ repos:
 
 # shoemoney
 
-166 pushes across 34 repositories on 36 active days in the last 90 days of public GitHub push activity.
+165 pushes across 34 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

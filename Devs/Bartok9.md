@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [44, 43, 49, 4, 1, 2, 4, 7, 19, 8, 5, 8, 32]
+pushes_per_week: [41, 60, 30, 4, 1, 2, 4, 9, 17, 8, 10, 4, 31]
 windows:
   "7d":
     pushes: 32
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
-    distinct_repos: 19
-    active_days: 13
+    pushes: 54
+    distinct_repos: 18
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 226
-    distinct_repos: 29
-    active_days: 49
+    pushes: 221
+    distinct_repos: 28
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6122
-  repo_per_active_day: 0.5918
+  push_per_day: 4.6042
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0345
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
-    distinct_repos: 19
+    pushes: 54
+    distinct_repos: 18
     pushes_per_repo: 3.0000
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 226
-    distinct_repos: 29
-    pushes_per_repo: 7.7931
-    active_days: 49
+    pushes: 221
+    distinct_repos: 28
+    pushes_per_repo: 7.8929
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-mempalace-plugin"
@@ -113,6 +113,6 @@ repos:
 
 # Bartok9
 
-226 pushes across 29 repositories on 49 active days in the last 90 days of public GitHub push activity.
+221 pushes across 28 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Bartok9

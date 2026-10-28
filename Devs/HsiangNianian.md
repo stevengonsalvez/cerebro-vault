@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [26, 30, 30, 0, 2, 0, 3, 4, 12, 3, 3, 0, 0]
+pushes_per_week: [23, 32, 24, 0, 2, 0, 3, 6, 11, 2, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 5
-    active_days: 8
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
-    distinct_repos: 16
-    active_days: 35
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 106
+    distinct_repos: 15
+    active_days: 34
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.2286
-  repo_per_active_day: 0.4571
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1875
+  push_per_day: 3.1176
+  repo_per_active_day: 0.4412
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 8
+    pushes_per_repo: 1.6000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 113
-    distinct_repos: 16
-    pushes_per_repo: 7.0625
-    active_days: 35
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 106
+    distinct_repos: 15
+    pushes_per_repo: 7.0667
+    active_days: 34
+    repos_not_owned: 5
+    not_owned_basenames: 4
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "HsiangNianian"
@@ -150,6 +150,6 @@ repos:
 
 # HsiangNianian
 
-113 pushes across 16 repositories on 35 active days in the last 90 days of public GitHub push activity.
+106 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 2, 6, 1, 1, 0, 1, 1, 1, 4, 1, 0, 0]
+pushes_per_week: [0, 3, 5, 1, 1, 0, 1, 1, 1, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    active_days: 17
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1176
-  repo_per_active_day: 0.1765
+  push_per_day: 1.1250
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 6.3333
-    active_days: 17
+    pushes_per_repo: 6.0000
+    active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -129,6 +129,6 @@ repos:
 
 # juli4n
 
-19 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/juli4n

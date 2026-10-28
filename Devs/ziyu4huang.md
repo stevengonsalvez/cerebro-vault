@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [25, 29, 47, 21, 4, 1, 1, 0, 0, 0, 3, 0, 3]
+pushes_per_week: [21, 37, 39, 22, 3, 1, 1, 0, 0, 0, 3, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 134
+    pushes: 130
     distinct_repos: 3
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.1875
-  repo_per_active_day: 0.0938
+  push_per_day: 4.1935
+  repo_per_active_day: 0.0968
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 134
+    pushes: 130
     distinct_repos: 3
-    pushes_per_repo: 44.6667
-    active_days: 32
+    pushes_per_repo: 43.3333
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rust-cad-suite"
@@ -133,6 +133,6 @@ repos:
 
 # ziyu4huang
 
-134 pushes across 3 repositories on 32 active days in the last 90 days of public GitHub push activity.
+130 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ziyu4huang

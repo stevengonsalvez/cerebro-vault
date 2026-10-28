@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [15, 50, 39, 7, 3, 6, 8, 30, 137, 94, 116, 44, 32]
+pushes_per_week: [8, 58, 28, 8, 2, 6, 9, 34, 141, 85, 140, 28, 24]
 windows:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 347
+    pushes: 315
     distinct_repos: 7
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 581
+    pushes: 571
     distinct_repos: 7
-    active_days: 66
+    active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 8.8030
-  repo_per_active_day: 0.1061
+  push_per_day: 8.7846
+  repo_per_active_day: 0.1077
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 7
+    pushes_per_repo: 15.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 347
+    pushes: 315
     distinct_repos: 7
-    pushes_per_repo: 49.5714
-    active_days: 26
+    pushes_per_repo: 45.0000
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 581
+    pushes: 571
     distinct_repos: 7
-    pushes_per_repo: 83.0000
-    active_days: 66
+    pushes_per_repo: 81.5714
+    active_days: 65
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "estella"
@@ -189,6 +189,6 @@ repos:
 
 # esengine
 
-581 pushes across 7 repositories on 66 active days in the last 90 days of public GitHub push activity.
+571 pushes across 7 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

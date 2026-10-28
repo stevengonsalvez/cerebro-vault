@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [6, 10, 22, 1, 0, 0, 0, 4, 2, 9, 4, 0, 1]
+pushes_per_week: [5, 16, 16, 1, 0, 0, 0, 4, 3, 8, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 24
-    active_days: 25
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 58
+    distinct_repos: 23
+    active_days: 24
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3600
-  repo_per_active_day: 0.9600
-  not_owned_ratio: 0.4583
-  basename_concentration: 0.0833
+  push_per_day: 2.4167
+  repo_per_active_day: 0.9583
+  not_owned_ratio: 0.4348
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 24
-    pushes_per_repo: 2.4583
-    active_days: 25
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 58
+    distinct_repos: 23
+    pushes_per_repo: 2.5217
+    active_days: 24
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oci-litellm-routing"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-59 pushes across 24 repositories on 25 active days in the last 90 days of public GitHub push activity.
+58 pushes across 23 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

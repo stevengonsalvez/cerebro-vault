@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 8, 9, 4, 2, 4, 1, 1, 8, 1, 7, 2, 9]
+pushes_per_week: [5, 9, 7, 4, 2, 4, 2, 3, 6, 0, 8, 1, 9]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 3
+    pushes: 9
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 14
-    active_days: 28
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.5000
+  push_per_day: 2.2222
+  repo_per_active_day: 0.5185
   not_owned_ratio: 0.3571
   basename_concentration: 0.0714
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 14
-    pushes_per_repo: 4.4286
-    active_days: 28
+    pushes_per_repo: 4.2857
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "immich-shuttle"
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-62 pushes across 14 repositories on 28 active days in the last 90 days of public GitHub push activity.
+60 pushes across 14 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

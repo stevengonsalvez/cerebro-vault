@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [11, 2, 13, 1, 0, 3, 4, 4, 20, 0, 0, 0, 2]
+pushes_per_week: [8, 6, 8, 1, 0, 3, 6, 6, 16, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 56
     distinct_repos: 4
-    active_days: 24
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 2.4348
+  repo_per_active_day: 0.1739
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 56
     distinct_repos: 4
-    pushes_per_repo: 15.0000
-    active_days: 24
+    pushes_per_repo: 14.0000
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "programmer-soft-skills"
@@ -133,6 +133,6 @@ repos:
 
 # forrestchang
 
-60 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
+56 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

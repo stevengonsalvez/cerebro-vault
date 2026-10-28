@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [12, 10, 16, 4, 8, 5, 2, 14, 1, 16, 11, 3, 6]
+pushes_per_week: [14, 9, 13, 8, 4, 5, 2, 14, 2, 15, 14, 3, 3]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 108
+    pushes: 106
     distinct_repos: 8
-    active_days: 46
+    active_days: 45
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3478
-  repo_per_active_day: 0.1739
+  push_per_day: 2.3556
+  repo_per_active_day: 0.1778
   not_owned_ratio: 0.8750
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 108
+    pushes: 106
     distinct_repos: 8
-    pushes_per_repo: 13.5000
-    active_days: 46
+    pushes_per_repo: 13.2500
+    active_days: 45
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aos-dj"
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-108 pushes across 8 repositories on 46 active days in the last 90 days of public GitHub push activity.
+106 pushes across 8 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

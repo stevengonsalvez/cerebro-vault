@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [6, 4, 12, 0, 2, 6, 8, 54, 15, 85, 7, 2, 3]
+pushes_per_week: [4, 5, 11, 0, 2, 6, 9, 53, 16, 84, 8, 3, 1]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 100
-    distinct_repos: 12
-    active_days: 15
+    pushes: 98
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 204
-    distinct_repos: 29
-    active_days: 41
+    pushes: 202
+    distinct_repos: 28
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.9756
-  repo_per_active_day: 0.7073
+  push_per_day: 5.0500
+  repo_per_active_day: 0.7000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0345
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 100
-    distinct_repos: 12
-    pushes_per_repo: 8.3333
-    active_days: 15
+    pushes: 98
+    distinct_repos: 11
+    pushes_per_repo: 8.9091
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 204
-    distinct_repos: 29
-    pushes_per_repo: 7.0345
-    active_days: 41
+    pushes: 202
+    distinct_repos: 28
+    pushes_per_repo: 7.2143
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pos-system"
@@ -150,6 +150,6 @@ repos:
 
 # ssmurfgg04-gif
 
-204 pushes across 29 repositories on 41 active days in the last 90 days of public GitHub push activity.
+202 pushes across 28 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

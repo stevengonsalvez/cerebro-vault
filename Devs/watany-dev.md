@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 1, 4, 0, 1, 16, 3, 15, 49, 32, 16, 8, 13]
+pushes_per_week: [0, 2, 3, 0, 1, 16, 3, 37, 33, 26, 21, 6, 10]
 windows:
   "7d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 73
     distinct_repos: 1
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 6
-    active_days: 35
+    pushes: 158
+    distinct_repos: 5
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5429
-  repo_per_active_day: 0.1714
+  push_per_day: 4.6471
+  repo_per_active_day: 0.1471
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 5
+    pushes_per_repo: 10.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 73
     distinct_repos: 1
-    pushes_per_repo: 78.0000
-    active_days: 20
+    pushes_per_repo: 73.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 6
-    pushes_per_repo: 26.5000
-    active_days: 35
+    pushes: 158
+    distinct_repos: 5
+    pushes_per_repo: 31.6000
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chokkin"
@@ -132,6 +132,6 @@ repos:
 
 # watany-dev
 
-159 pushes across 6 repositories on 35 active days in the last 90 days of public GitHub push activity.
+158 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/watany-dev

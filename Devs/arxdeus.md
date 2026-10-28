@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 9, 10, 7, 2, 0, 2, 7, 7, 8, 7, 0, 0]
+pushes_per_week: [0, 16, 4, 8, 0, 0, 2, 10, 4, 8, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
-    distinct_repos: 11
-    active_days: 30
+    pushes: 59
+    distinct_repos: 10
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3667
+  push_per_day: 2.0345
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
-    distinct_repos: 11
-    pushes_per_repo: 5.4545
-    active_days: 30
+    pushes: 59
+    distinct_repos: 10
+    pushes_per_repo: 5.9000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xcross"
@@ -155,6 +155,6 @@ repos:
 
 # arxdeus
 
-60 pushes across 11 repositories on 30 active days in the last 90 days of public GitHub push activity.
+59 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arxdeus

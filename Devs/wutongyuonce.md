@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 6, 6, 2, 1, 4, 6, 9, 12, 3, 3, 6, 0]
+pushes_per_week: [2, 7, 6, 1, 1, 4, 8, 7, 12, 3, 5, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 14
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 16
-    active_days: 37
+    pushes: 60
+    distinct_repos: 15
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7027
-  repo_per_active_day: 0.4324
+  push_per_day: 1.6667
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 12
+    pushes_per_repo: 2.8000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 16
-    pushes_per_repo: 3.9375
-    active_days: 37
+    pushes: 60
+    distinct_repos: 15
+    pushes_per_repo: 4.0000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YuBlog"
@@ -140,6 +140,6 @@ repos:
 
 # wutongyuonce
 
-63 pushes across 16 repositories on 37 active days in the last 90 days of public GitHub push activity.
+60 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

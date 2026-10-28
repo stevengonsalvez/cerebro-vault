@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [25, 25, 6, 4, 12, 3, 18, 31, 28, 18, 15, 4, 3]
+pushes_per_week: [25, 24, 3, 6, 10, 3, 18, 35, 26, 16, 16, 4, 2]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
-    distinct_repos: 16
-    active_days: 18
+    pushes: 51
+    distinct_repos: 14
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 192
-    distinct_repos: 58
-    active_days: 60
+    pushes: 188
+    distinct_repos: 56
+    active_days: 59
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2000
-  repo_per_active_day: 0.9667
-  not_owned_ratio: 0.2069
-  basename_concentration: 0.0345
+  push_per_day: 3.1864
+  repo_per_active_day: 0.9492
+  not_owned_ratio: 0.2143
+  basename_concentration: 0.0179
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
-    distinct_repos: 16
-    pushes_per_repo: 3.4375
-    active_days: 18
+    pushes: 51
+    distinct_repos: 14
+    pushes_per_repo: 3.6429
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 192
-    distinct_repos: 58
-    pushes_per_repo: 3.3103
-    active_days: 60
+    pushes: 188
+    distinct_repos: 56
+    pushes_per_repo: 3.3571
+    active_days: 59
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-orb"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-192 pushes across 58 repositories on 60 active days in the last 90 days of public GitHub push activity.
+188 pushes across 56 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

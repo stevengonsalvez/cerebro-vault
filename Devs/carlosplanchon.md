@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [9, 2, 2, 2, 1, 0, 1, 4, 8, 14, 7, 3, 3]
+pushes_per_week: [9, 0, 4, 0, 1, 0, 1, 6, 8, 12, 9, 2, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 14
-    active_days: 15
+    pushes: 28
+    distinct_repos: 13
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 21
     active_days: 29
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9310
+  push_per_day: 1.8621
   repo_per_active_day: 0.7241
   not_owned_ratio: 0.1429
   basename_concentration: 0.0476
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 14
-    pushes_per_repo: 2.0714
-    active_days: 15
+    pushes: 28
+    distinct_repos: 13
+    pushes_per_repo: 2.1538
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 21
-    pushes_per_repo: 2.6667
+    pushes_per_repo: 2.5714
     active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -169,6 +169,6 @@ repos:
 
 # carlosplanchon
 
-56 pushes across 21 repositories on 29 active days in the last 90 days of public GitHub push activity.
+54 pushes across 21 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

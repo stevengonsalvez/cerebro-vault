@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [6, 5, 9, 3, 0, 1, 0, 6, 2, 9, 8, 10, 7]
+pushes_per_week: [5, 8, 6, 3, 0, 1, 0, 6, 3, 8, 8, 14, 3]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 65
     distinct_repos: 10
-    active_days: 35
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8857
-  repo_per_active_day: 0.2857
+  push_per_day: 1.9118
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 65
     distinct_repos: 10
-    pushes_per_repo: 6.6000
-    active_days: 35
+    pushes_per_repo: 6.5000
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Qiyuanqiii"
@@ -129,6 +129,6 @@ repos:
 
 # Qiyuanqiii
 
-66 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
+65 pushes across 10 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qiyuanqiii

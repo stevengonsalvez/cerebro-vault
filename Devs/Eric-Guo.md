@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [26, 20, 21, 5, 5, 10, 12, 30, 36, 32, 14, 4, 18]
+pushes_per_week: [23, 23, 17, 5, 5, 10, 14, 36, 31, 29, 14, 7, 15]
 windows:
   "7d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 75
     distinct_repos: 14
-    active_days: 21
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 233
+    pushes: 229
     distinct_repos: 25
     active_days: 65
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5846
+  push_per_day: 3.5231
   repo_per_active_day: 0.3846
   not_owned_ratio: 0.2000
   basename_concentration: 0.0400
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 6
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.8333
     active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 83
+    pushes: 75
     distinct_repos: 14
-    pushes_per_repo: 5.9286
-    active_days: 21
+    pushes_per_repo: 5.3571
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 233
+    pushes: 229
     distinct_repos: 25
-    pushes_per_repo: 9.3200
+    pushes_per_repo: 9.1600
     active_days: 65
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-233 pushes across 25 repositories on 65 active days in the last 90 days of public GitHub push activity.
+229 pushes across 25 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

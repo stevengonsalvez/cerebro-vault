@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+pushes_per_week: [2, 1, 0, 0, 0, 1, 1, 1, 1, 1, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2500
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 12
+    pushes_per_repo: 3.6667
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Wox.Plugin.QRCode"
@@ -130,6 +130,6 @@ repos:
 
 # Flartiny
 
-12 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+11 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Flartiny

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [21, 22, 9, 2, 3, 15, 11, 19, 62, 24, 19, 21, 7]
+pushes_per_week: [33, 10, 8, 2, 3, 16, 10, 19, 62, 24, 24, 17, 6]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 2
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 107
-    distinct_repos: 11
-    active_days: 22
-    repos_not_owned: 11
-    not_owned_basenames: 3
-    not_owned_owners: 10
+    pushes: 99
+    distinct_repos: 7
+    active_days: 21
+    repos_not_owned: 7
+    not_owned_basenames: 2
+    not_owned_owners: 6
   "90d":
-    pushes: 235
+    pushes: 234
     distinct_repos: 19
-    active_days: 57
+    active_days: 56
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 4.1228
-  repo_per_active_day: 0.3333
+  push_per_day: 4.1786
+  repo_per_active_day: 0.3393
   not_owned_ratio: 1.0000
   basename_concentration: 0.8421
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 107
-    distinct_repos: 11
-    pushes_per_repo: 9.7273
-    active_days: 22
-    repos_not_owned: 11
-    not_owned_basenames: 3
-    not_owned_owners: 10
+    pushes: 99
+    distinct_repos: 7
+    pushes_per_repo: 14.1429
+    active_days: 21
+    repos_not_owned: 7
+    not_owned_basenames: 2
+    not_owned_owners: 6
   "90d":
-    pushes: 235
+    pushes: 234
     distinct_repos: 19
-    pushes_per_repo: 12.3684
-    active_days: 57
+    pushes_per_repo: 12.3158
+    active_days: 56
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 17
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-235 pushes across 19 repositories on 57 active days in the last 90 days of public GitHub push activity.
+234 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

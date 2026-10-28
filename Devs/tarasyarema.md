@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [6, 7, 0, 1, 0, 1, 3, 30, 6, 5, 1, 1, 2]
+pushes_per_week: [8, 4, 0, 1, 0, 1, 3, 31, 7, 3, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 5
-    active_days: 28
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.1786
+  push_per_day: 2.2963
+  repo_per_active_day: 0.1852
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 5
-    pushes_per_repo: 12.6000
-    active_days: 28
+    pushes_per_repo: 12.4000
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "babel"
@@ -138,6 +138,6 @@ repos:
 
 # tarasyarema
 
-63 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
+62 pushes across 5 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarasyarema

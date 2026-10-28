@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 1, 0, 5, 1, 0, 22, 17, 32, 20, 8, 9, 39]
+pushes_per_week: [1, 1, 0, 5, 1, 0, 29, 14, 30, 18, 10, 11, 35]
 windows:
   "7d":
-    pushes: 44
-    distinct_repos: 7
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 36
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 87
-    distinct_repos: 11
-    active_days: 18
+    pushes: 83
+    distinct_repos: 10
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 155
     distinct_repos: 12
-    active_days: 39
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.3077
+  push_per_day: 4.0789
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 44
-    distinct_repos: 7
-    pushes_per_repo: 6.2857
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 36
+    distinct_repos: 5
+    pushes_per_repo: 7.2000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 87
-    distinct_repos: 11
-    pushes_per_repo: 7.9091
-    active_days: 18
+    pushes: 83
+    distinct_repos: 10
+    pushes_per_repo: 8.3000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 156
+    pushes: 155
     distinct_repos: 12
-    pushes_per_repo: 13.0000
-    active_days: 39
+    pushes_per_repo: 12.9167
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ninfer"
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-156 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
+155 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

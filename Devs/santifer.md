@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [14, 6, 28, 4, 5, 1, 1, 29, 20, 8, 17, 6, 1]
+pushes_per_week: [12, 9, 25, 4, 5, 1, 1, 30, 20, 7, 22, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 15
-    active_days: 17
+    active_days: 16
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 140
+    pushes: 138
     distinct_repos: 32
-    active_days: 45
+    active_days: 44
     repos_not_owned: 28
     not_owned_basenames: 4
     not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.7111
+  push_per_day: 3.1364
+  repo_per_active_day: 0.7273
   not_owned_ratio: 0.8750
   basename_concentration: 0.7188
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 15
-    pushes_per_repo: 3.0000
-    active_days: 17
+    pushes_per_repo: 2.8667
+    active_days: 16
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 10
   "90d":
-    pushes: 140
+    pushes: 138
     distinct_repos: 32
-    pushes_per_repo: 4.3750
-    active_days: 45
+    pushes_per_repo: 4.3125
+    active_days: 44
     repos_not_owned: 28
     not_owned_basenames: 4
     not_owned_owners: 25
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-140 pushes across 32 repositories on 45 active days in the last 90 days of public GitHub push activity.
+138 pushes across 32 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

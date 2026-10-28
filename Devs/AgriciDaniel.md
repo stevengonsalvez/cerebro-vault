@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "4f795faf4eede06c"
   - "dc9094c987231bcf"
-pushes_per_week: [1, 0, 14, 1, 1, 0, 2, 0, 0, 0, 1, 1, 2]
+pushes_per_week: [0, 13, 1, 2, 0, 0, 2, 0, 0, 0, 1, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 9
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3000
-  repo_per_active_day: 0.9000
+  push_per_day: 2.4444
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 9
-    pushes_per_repo: 2.5556
-    active_days: 10
+    pushes_per_repo: 2.4444
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-seo"
@@ -184,6 +184,6 @@ repos:
 
 # AgriciDaniel
 
-23 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
+22 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AgriciDaniel

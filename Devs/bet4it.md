@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 7, 10, 8, 1, 0, 1, 7, 3, 2, 3, 3, 0]
+pushes_per_week: [0, 11, 6, 9, 0, 0, 1, 7, 3, 2, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 7
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3043
+  push_per_day: 2.0455
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 7
-    pushes_per_repo: 6.5714
-    active_days: 23
+    pushes_per_repo: 6.4286
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nur-packages"
@@ -163,6 +163,6 @@ repos:
 
 # bet4it
 
-46 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bet4it

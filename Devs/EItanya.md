@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 9, 11, 1, 1, 2, 2, 4, 16, 5, 25, 2, 2]
+pushes_per_week: [8, 13, 6, 1, 1, 3, 1, 7, 14, 4, 26, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 4
-    active_days: 15
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 6
-    active_days: 38
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3421
-  repo_per_active_day: 0.1579
+  push_per_day: 2.3514
+  repo_per_active_day: 0.1622
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 40
+    pushes: 37
     distinct_repos: 4
-    pushes_per_repo: 10.0000
-    active_days: 15
+    pushes_per_repo: 9.2500
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 89
+    pushes: 87
     distinct_repos: 6
-    pushes_per_repo: 14.8333
-    active_days: 38
+    pushes_per_repo: 14.5000
+    active_days: 37
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kagent-runtime-benchmark"
@@ -129,6 +129,6 @@ repos:
 
 # EItanya
 
-89 pushes across 6 repositories on 38 active days in the last 90 days of public GitHub push activity.
+87 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EItanya

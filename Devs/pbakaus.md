@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [12, 13, 21, 1, 0, 3, 3, 3, 4, 30, 4, 0, 3]
+pushes_per_week: [11, 21, 12, 1, 0, 3, 3, 3, 8, 26, 4, 2, 1]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 2
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 3
-    active_days: 37
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6216
-  repo_per_active_day: 0.0811
+  push_per_day: 2.6389
+  repo_per_active_day: 0.0833
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 2
-    pushes_per_repo: 20.5000
+    pushes_per_repo: 20.0000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 3
-    pushes_per_repo: 32.3333
-    active_days: 37
+    pushes_per_repo: 31.6667
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "impeccable"
@@ -129,6 +129,6 @@ repos:
 
 # pbakaus
 
-97 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
+95 pushes across 3 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

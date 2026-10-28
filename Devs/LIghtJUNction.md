@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [20, 39, 72, 27, 10, 3, 66, 302, 296, 68, 95, 11, 31]
+pushes_per_week: [13, 41, 69, 26, 9, 3, 99, 310, 261, 62, 97, 15, 25]
 windows:
   "7d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 10
     active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 269
-    distinct_repos: 30
-    active_days: 24
+    pushes: 238
+    distinct_repos: 29
+    active_days: 23
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 2
   "90d":
-    pushes: 1040
-    distinct_repos: 55
-    active_days: 72
+    pushes: 1030
+    distinct_repos: 53
+    active_days: 71
     repos_not_owned: 21
     not_owned_basenames: 17
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 14.4444
-  repo_per_active_day: 0.7639
-  not_owned_ratio: 0.3818
-  basename_concentration: 0.1091
+  push_per_day: 14.5070
+  repo_per_active_day: 0.7465
+  not_owned_ratio: 0.3962
+  basename_concentration: 0.1132
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 10
-    pushes_per_repo: 3.1000
+    pushes_per_repo: 3.0000
     active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 269
-    distinct_repos: 30
-    pushes_per_repo: 8.9667
-    active_days: 24
+    pushes: 238
+    distinct_repos: 29
+    pushes_per_repo: 8.2069
+    active_days: 23
     repos_not_owned: 14
     not_owned_basenames: 14
     not_owned_owners: 2
   "90d":
-    pushes: 1040
-    distinct_repos: 55
-    pushes_per_repo: 18.9091
-    active_days: 72
+    pushes: 1030
+    distinct_repos: 53
+    pushes_per_repo: 19.4340
+    active_days: 71
     repos_not_owned: 21
     not_owned_basenames: 17
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "magpie-context-folding"
@@ -133,6 +133,6 @@ repos:
 
 # LIghtJUNction
 
-1040 pushes across 55 repositories on 72 active days in the last 90 days of public GitHub push activity.
+1030 pushes across 53 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LIghtJUNction

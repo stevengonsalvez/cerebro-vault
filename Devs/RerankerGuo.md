@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-28T07:04:58.274214+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [34, 26, 5, 0, 0, 0, 0, 3, 3, 4, 1, 0, 0]
+pushes_per_week: [8, 28, 1, 0, 0, 0, 0, 3, 3, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 18
-    active_days: 17
+    pushes: 48
+    distinct_repos: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4706
-  repo_per_active_day: 1.0588
+  push_per_day: 3.2000
+  repo_per_active_day: 1.0667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 76
-    distinct_repos: 18
-    pushes_per_repo: 4.2222
-    active_days: 17
+    pushes: 48
+    distinct_repos: 16
+    pushes_per_repo: 3.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RerankerGuo.github.io"
@@ -91,6 +91,6 @@ repos:
 
 # RerankerGuo
 
-76 pushes across 18 repositories on 17 active days in the last 90 days of public GitHub push activity.
+48 pushes across 16 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RerankerGuo
