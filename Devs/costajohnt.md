@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [3, 30, 4, 2, 0, 1, 8, 28, 2, 4, 10, 1, 10]
+pushes_per_week: [8, 23, 4, 2, 0, 1, 10, 26, 2, 5, 9, 1, 10]
 windows:
   "7d":
     pushes: 10
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 101
     distinct_repos: 24
-    active_days: 28
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6786
-  repo_per_active_day: 0.8571
+  push_per_day: 3.7407
+  repo_per_active_day: 0.8889
   not_owned_ratio: 0.0417
   basename_concentration: 0.0417
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 103
+    pushes: 101
     distinct_repos: 24
-    pushes_per_repo: 4.2917
-    active_days: 28
+    pushes_per_repo: 4.2083
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "costajohnt.github.io"
@@ -165,6 +165,6 @@ repos:
 
 # costajohnt
 
-103 pushes across 24 repositories on 28 active days in the last 90 days of public GitHub push activity.
+101 pushes across 24 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

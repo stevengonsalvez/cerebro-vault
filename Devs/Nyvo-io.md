@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 1, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2857
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Nyvo_skill"
@@ -142,6 +142,6 @@ repos:
 
 # Nyvo-io
 
-7 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+6 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nyvo-io

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [19, 15, 10, 4, 1, 9, 6, 18, 39, 1, 21, 14, 4]
+pushes_per_week: [18, 18, 7, 4, 1, 9, 7, 34, 22, 9, 13, 18, 0]
 windows:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
-    distinct_repos: 4
-    active_days: 12
+    pushes: 41
+    distinct_repos: 3
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 161
-    distinct_repos: 12
-    active_days: 42
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 160
+    distinct_repos: 11
+    active_days: 41
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8333
-  repo_per_active_day: 0.2857
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0833
+  push_per_day: 3.9024
+  repo_per_active_day: 0.2683
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
-    distinct_repos: 4
-    pushes_per_repo: 10.7500
-    active_days: 12
+    pushes: 41
+    distinct_repos: 3
+    pushes_per_repo: 13.6667
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 161
-    distinct_repos: 12
-    pushes_per_repo: 13.4167
-    active_days: 42
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 160
+    distinct_repos: 11
+    pushes_per_repo: 14.5455
+    active_days: 41
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-161 pushes across 12 repositories on 42 active days in the last 90 days of public GitHub push activity.
+160 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

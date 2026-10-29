@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "7269783341f1a205"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0]
@@ -82,8 +82,16 @@ repos:
     description: null
     language: "Go"
     topics: []
-    stars_fact: 3
+    stars_fact: 30
     first_seen: "2026-10-21T06:01:20.271717+00:00"
+    last_push: "2026-10-28"
+  - name: "hamzamon"
+    title: "hamzamon"
+    description: "Hamzamon — dunyo tarixi O'zbekiston nigohida: interaktiv tarix globusi"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
     last_push: "2026-10-21"
   - name: "ai-text-cleaner"
     title: "ai-text-cleaner"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-03"
-  - name: "new_project"
-    title: "new_project"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
 ---
 
 # xamrayev

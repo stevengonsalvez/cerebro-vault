@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 1, 1, 5, 1, 2, 0, 3, 3, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 6, 0, 2, 0, 3, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 9
-    active_days: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.3571
-  repo_per_active_day: 0.6429
+  push_per_day: 1.3077
+  repo_per_active_day: 0.6923
   not_owned_ratio: 0.5556
   basename_concentration: 0.2222
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 9
-    pushes_per_repo: 2.1111
-    active_days: 14
+    pushes_per_repo: 1.8889
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "weekday"
@@ -139,6 +139,6 @@ repos:
 
 # ephraimduncan
 
-19 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ephraimduncan

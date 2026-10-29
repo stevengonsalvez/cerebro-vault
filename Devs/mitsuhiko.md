@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [12, 11, 1, 3, 0, 0, 0, 5, 36, 21, 6, 5, 4]
+pushes_per_week: [13, 9, 1, 3, 0, 0, 0, 5, 39, 19, 5, 5, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 42
     distinct_repos: 9
-    active_days: 17
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 17
-    active_days: 40
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.6000
-  repo_per_active_day: 0.4250
+  push_per_day: 2.6410
+  repo_per_active_day: 0.4359
   not_owned_ratio: 0.5294
   basename_concentration: 0.1176
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 56
+    pushes: 42
     distinct_repos: 9
-    pushes_per_repo: 6.2222
-    active_days: 17
+    pushes_per_repo: 4.6667
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 103
     distinct_repos: 17
-    pushes_per_repo: 6.1176
-    active_days: 40
+    pushes_per_repo: 6.0588
+    active_days: 39
     repos_not_owned: 9
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minijinja"
@@ -135,6 +135,6 @@ repos:
 
 # mitsuhiko
 
-104 pushes across 17 repositories on 40 active days in the last 90 days of public GitHub push activity.
+103 pushes across 17 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitsuhiko

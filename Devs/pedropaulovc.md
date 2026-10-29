@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [47, 0, 23, 28, 1, 31, 32, 76, 178, 51, 94, 87, 21]
+pushes_per_week: [45, 5, 18, 28, 1, 32, 35, 88, 175, 44, 88, 105, 3]
 windows:
   "7d":
-    pushes: 47
-    distinct_repos: 4
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 290
+    pushes: 265
     distinct_repos: 12
-    active_days: 21
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 669
+    pushes: 667
     distinct_repos: 23
-    active_days: 60
+    active_days: 59
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.1500
-  repo_per_active_day: 0.3833
+  push_per_day: 11.3051
+  repo_per_active_day: 0.3898
   not_owned_ratio: 0.0870
   basename_concentration: 0.0435
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 47
-    distinct_repos: 4
-    pushes_per_repo: 11.7500
-    active_days: 4
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 290
+    pushes: 265
     distinct_repos: 12
-    pushes_per_repo: 24.1667
-    active_days: 21
+    pushes_per_repo: 22.0833
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 669
+    pushes: 667
     distinct_repos: 23
-    pushes_per_repo: 29.0870
-    active_days: 60
+    pushes_per_repo: 29.0000
+    active_days: 59
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "harmonic-analyzer"
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-669 pushes across 23 repositories on 60 active days in the last 90 days of public GitHub push activity.
+667 pushes across 23 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

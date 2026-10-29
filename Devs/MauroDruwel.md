@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [7, 1, 3, 0, 0, 0, 2, 4, 6, 4, 3, 4, 1]
+pushes_per_week: [3, 1, 3, 0, 0, 2, 0, 6, 4, 5, 2, 5, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 12
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 24
-    active_days: 20
+    pushes: 31
+    distinct_repos: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 1.2000
+  push_per_day: 1.6316
+  repo_per_active_day: 1.1053
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0417
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 12
-    pushes_per_repo: 1.3333
-    active_days: 10
+    pushes_per_repo: 1.2500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
-    distinct_repos: 24
-    pushes_per_repo: 1.4583
-    active_days: 20
+    pushes: 31
+    distinct_repos: 21
+    pushes_per_repo: 1.4762
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "NIMStats"
@@ -160,6 +160,6 @@ repos:
 
 # MauroDruwel
 
-35 pushes across 24 repositories on 20 active days in the last 90 days of public GitHub push activity.
+31 pushes across 21 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MauroDruwel

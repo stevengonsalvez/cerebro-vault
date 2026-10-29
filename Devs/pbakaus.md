@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [11, 21, 12, 1, 0, 3, 3, 3, 8, 26, 4, 2, 1]
+pushes_per_week: [8, 28, 5, 1, 0, 4, 3, 2, 8, 26, 4, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 92
     distinct_repos: 3
-    active_days: 36
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6389
-  repo_per_active_day: 0.0833
+  push_per_day: 2.6286
+  repo_per_active_day: 0.0857
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 2
-    pushes_per_repo: 20.0000
-    active_days: 12
+    pushes_per_repo: 19.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 92
     distinct_repos: 3
-    pushes_per_repo: 31.6667
-    active_days: 36
+    pushes_per_repo: 30.6667
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "impeccable"
@@ -129,6 +129,6 @@ repos:
 
 # pbakaus
 
-95 pushes across 3 repositories on 36 active days in the last 90 days of public GitHub push activity.
+92 pushes across 3 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

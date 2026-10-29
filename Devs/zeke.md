@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 11, 3, 2, 0, 0, 3, 4, 4, 8, 3, 1, 2]
+pushes_per_week: [4, 12, 2, 2, 0, 0, 4, 4, 6, 6, 2, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 13
-    active_days: 32
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4375
-  repo_per_active_day: 0.4062
+  push_per_day: 1.4516
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.2308
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 9
+    pushes_per_repo: 1.7500
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 13
-    pushes_per_repo: 3.5385
-    active_days: 32
+    pushes_per_repo: 3.4615
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "small-app-gardener"
@@ -129,6 +129,6 @@ repos:
 
 # zeke
 
-46 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
+45 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

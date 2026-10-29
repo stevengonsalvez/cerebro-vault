@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [17, 16, 10, 7, 0, 1, 5, 3, 7, 5, 4, 0, 0]
+pushes_per_week: [17, 16, 8, 7, 0, 2, 4, 4, 6, 6, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,29 +24,29 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 2
-    active_days: 7
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 75
-    distinct_repos: 11
-    active_days: 38
-    repos_not_owned: 10
+    pushes: 73
+    distinct_repos: 10
+    active_days: 37
+    repos_not_owned: 9
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.9737
-  repo_per_active_day: 0.2895
-  not_owned_ratio: 0.9091
-  basename_concentration: 0.8182
+  push_per_day: 1.9730
+  repo_per_active_day: 0.2703
+  not_owned_ratio: 0.9000
+  basename_concentration: 0.8000
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.8182 (9 of 11 repos share one basename), 10 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: herdrdev/herdr"
+    - "basename concentration 0.8000 (8 of 10 repos share one basename), 9 not owned across 2 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: herdrdev/herdr"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -75,24 +75,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 7
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 75
-    distinct_repos: 11
-    pushes_per_repo: 6.8182
-    active_days: 38
-    repos_not_owned: 10
+    pushes: 73
+    distinct_repos: 10
+    pushes_per_repo: 7.3000
+    active_days: 37
+    repos_not_owned: 9
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -160,6 +160,6 @@ repos:
 
 # ogulcancelik
 
-75 pushes across 11 repositories on 38 active days in the last 90 days of public GitHub push activity.
+73 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

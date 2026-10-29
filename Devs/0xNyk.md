@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [5, 1, 8, 0, 0, 0, 3, 75, 0, 0, 2, 0, 0]
+pushes_per_week: [4, 2, 7, 0, 0, 0, 5, 73, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 37
     active_days: 15
     repos_not_owned: 10
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 6.2667
+  push_per_day: 6.2000
   repo_per_active_day: 2.4667
   not_owned_ratio: 0.2703
   basename_concentration: 0.0270
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 37
-    pushes_per_repo: 2.5405
+    pushes_per_repo: 2.5135
     active_days: 15
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -188,6 +188,6 @@ repos:
 
 # 0xNyk
 
-94 pushes across 37 repositories on 15 active days in the last 90 days of public GitHub push activity.
+93 pushes across 37 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xNyk

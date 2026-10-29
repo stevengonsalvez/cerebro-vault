@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [26, 114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 20, 9]
+pushes_per_week: [16, 114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6]
 windows:
   "7d":
     pushes: 9
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 170
+    pushes: 160
     distinct_repos: 87
-    active_days: 17
+    active_days: 15
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 10.0000
-  repo_per_active_day: 5.1176
+  push_per_day: 10.6667
+  repo_per_active_day: 5.8000
   not_owned_ratio: 0.1034
   basename_concentration: 0.0230
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 170
+    pushes: 160
     distinct_repos: 87
-    pushes_per_repo: 1.9540
-    active_days: 17
+    pushes_per_repo: 1.8391
+    active_days: 15
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "vastgrid"
@@ -166,6 +166,6 @@ repos:
 
 # yhay81
 
-170 pushes across 87 repositories on 17 active days in the last 90 days of public GitHub push activity.
+160 pushes across 87 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

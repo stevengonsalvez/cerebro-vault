@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [24, 22, 61, 12, 0, 1, 8, 14, 12, 14, 4, 7, 2]
+pushes_per_week: [18, 36, 47, 11, 0, 2, 8, 14, 13, 13, 3, 7, 2]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 181
-    distinct_repos: 22
-    active_days: 52
-    repos_not_owned: 16
+    pushes: 174
+    distinct_repos: 21
+    active_days: 51
+    repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.4808
-  repo_per_active_day: 0.4231
-  not_owned_ratio: 0.7273
-  basename_concentration: 0.2273
+  push_per_day: 3.4118
+  repo_per_active_day: 0.4118
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.2381
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 15
+    pushes_per_repo: 3.3333
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 181
-    distinct_repos: 22
-    pushes_per_repo: 8.2273
-    active_days: 52
-    repos_not_owned: 16
+    pushes: 174
+    distinct_repos: 21
+    pushes_per_repo: 8.2857
+    active_days: 51
+    repos_not_owned: 15
     not_owned_basenames: 4
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-kids-profile-blueprint"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-181 pushes across 22 repositories on 52 active days in the last 90 days of public GitHub push activity.
+174 pushes across 21 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

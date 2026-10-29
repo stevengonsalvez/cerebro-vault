@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 1, 2, 0, 1, 2, 2, 3, 7, 1, 0, 16, 2]
+pushes_per_week: [1, 1, 1, 0, 1, 2, 2, 3, 7, 1, 0, 17, 1]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "adi-IL"
+    title: "adi-IL"
+    description: "AI Systems Architect · adityaai.dev"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "hq-jr"
     title: "hq-jr"
     description: "Self-hosted GitHub App that reviews PRs with Vertex AI, remembers past findings, and can reproduce bugs in a sandbox before it speaks."
@@ -85,7 +93,6 @@ repos:
       - "ai-code-review"
       - "code-review"
       - "developer-tools"
-      - "github-actions"
       - "github-app"
       - "llm"
       - "probot"
@@ -97,15 +104,7 @@ repos:
       - "vertex-ai"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "adi-IL"
-    title: "adi-IL"
-    description: "AI Systems Architect · adityaai.dev"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-25"
   - name: "omarchy-gcp-credits"
     title: "omarchy-gcp-credits"
     description: "Google Cloud credit balances and per-credit panel in the Omarchy bar (Hyprland + Quickshell), fetched from the billing console via an isolated headless Chromium profile."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 11, 15, 5, 0, 2, 0, 5, 4, 9, 3, 4, 1]
+pushes_per_week: [4, 18, 8, 5, 0, 2, 1, 4, 6, 7, 3, 5, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 7
-    active_days: 12
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 17
     active_days: 35
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8286
+  push_per_day: 1.8000
   repo_per_active_day: 0.4857
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 12
+    pushes_per_repo: 2.4286
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 17
-    pushes_per_repo: 3.7647
+    pushes_per_repo: 3.7059
     active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -135,6 +135,6 @@ repos:
 
 # MikeeI
 
-64 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
+63 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MikeeI

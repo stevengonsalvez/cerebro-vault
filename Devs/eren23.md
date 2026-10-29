@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 2, 2, 0, 0, 1, 0, 4, 5, 5, 9, 1, 5]
+pushes_per_week: [1, 3, 1, 0, 0, 1, 0, 6, 3, 5, 9, 2, 4]
 windows:
   "7d":
     pushes: 5
@@ -98,9 +98,9 @@ repos:
       - "self-hosted"
       - "typescript"
       - "vision-model"
-    stars_fact: 207
+    stars_fact: 210
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-24"
   - name: "attocode"
     title: "attocode"
     description: "A series of lessons, 0 to hero ai coding agent building guide."
@@ -122,27 +122,15 @@ repos:
       - "tutorial"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "neo-unify"
-    title: "neo-unify"
-    description: "Toy-scale unified multimodal model experiments — encoder-free understanding & generation with Mixture-of-Transformers on MLX/Apple Silicon"
-    language: "Python"
-    topics:
-      - "apple-silicon"
-      - "deep-learning"
-      - "flow-matching"
-      - "generative-ai"
-      - "image-generation"
-      - "mixture-of-experts"
-      - "mlx"
-      - "multimodal"
-      - "python"
-      - "transformer"
-      - "vision-language-model"
-      - "vq-vae"
-    stars_fact: 52
+    last_push: "2026-10-28"
+  - name: "telepath"
+    title: "telepath"
+    description: "Memory-aware visualizer for the Hermes Agent Creative Hackathon. Vague intent in → polished chart, diagram, or slide out. Powered by Kimi K2 + Hermes Agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-03-08"
+    last_push: "2026-05-17"
   - name: "open_geo_spy"
     title: "open_geo_spy"
     description: "A basic implementation of geospy"
@@ -164,7 +152,27 @@ repos:
       - "vlm"
     stars_fact: 28
     first_seen: null
-    last_push: "2026-04-08"
+    last_push: "2026-10-25"
+  - name: "neo-unify"
+    title: "neo-unify"
+    description: "Toy-scale unified multimodal model experiments — encoder-free understanding & generation with Mixture-of-Transformers on MLX/Apple Silicon"
+    language: "Python"
+    topics:
+      - "apple-silicon"
+      - "deep-learning"
+      - "flow-matching"
+      - "generative-ai"
+      - "image-generation"
+      - "mixture-of-experts"
+      - "mlx"
+      - "multimodal"
+      - "python"
+      - "transformer"
+      - "vision-language-model"
+      - "vq-vae"
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-03-08"
   - name: "crucible"
     title: "crucible"
     description: "Autonomous ML research on rental GPUs — LLM-driven hypothesis generation and fleet orchestration on RunPod"
@@ -183,26 +191,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-09-30"
-  - name: "one_layer_image_gen"
-    title: "one_layer_image_gen"
-    description: "A PyTorch implementation replicating the core logic of FAE (Feature Auto-Encoder) from the paper \"One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation\" (arXiv:2512.07829)."
-    language: "Jupyter Notebook"
-    topics:
-      - "ai"
-      - "autoencoder"
-      - "deep-learning"
-      - "diffusion-models"
-      - "feature-extraction"
-      - "gen-ai"
-      - "generative-ai"
-      - "image-generation"
-      - "image-to-image"
-      - "python"
-      - "pytorch"
-      - "variational-autoencoder"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2025-12-20"
 ---
 
 # eren23

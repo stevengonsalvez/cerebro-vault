@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [2, 3, 1, 0, 0, 0, 3, 0, 5, 2, 2, 0, 0]
+pushes_per_week: [2, 3, 0, 0, 0, 0, 3, 0, 5, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 10
-    active_days: 14
+    pushes: 17
+    distinct_repos: 9
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.7143
+  push_per_day: 1.3077
+  repo_per_active_day: 0.6923
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
-    distinct_repos: 10
-    pushes_per_repo: 1.8000
-    active_days: 14
+    pushes: 17
+    distinct_repos: 9
+    pushes_per_repo: 1.8889
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agency-agents"
@@ -145,6 +145,6 @@ repos:
 
 # msitarzewski
 
-18 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/msitarzewski

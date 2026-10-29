@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 4, 7, 12, 6, 15, 61, 173, 147, 121, 167, 57, 9]
+pushes_per_week: [0, 4, 7, 12, 6, 16, 68, 198, 140, 110, 152, 66, 0]
 windows:
   "7d":
-    pushes: 25
-    distinct_repos: 12
-    active_days: 2
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 6
+    distinct_repos: 4
+    active_days: 1
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 404
-    distinct_repos: 70
-    active_days: 21
-    repos_not_owned: 63
-    not_owned_basenames: 63
+    pushes: 366
+    distinct_repos: 52
+    active_days: 20
+    repos_not_owned: 46
+    not_owned_basenames: 46
     not_owned_owners: 1
   "90d":
-    pushes: 780
+    pushes: 779
     distinct_repos: 124
-    active_days: 56
+    active_days: 55
     repos_not_owned: 115
     not_owned_basenames: 115
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.9286
-  repo_per_active_day: 2.2143
+  push_per_day: 14.1636
+  repo_per_active_day: 2.2545
   not_owned_ratio: 0.9274
   basename_concentration: 0.0161
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 25
-    distinct_repos: 12
-    pushes_per_repo: 2.0833
-    active_days: 2
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 1
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "30d":
-    pushes: 404
-    distinct_repos: 70
-    pushes_per_repo: 5.7714
-    active_days: 21
-    repos_not_owned: 63
-    not_owned_basenames: 63
+    pushes: 366
+    distinct_repos: 52
+    pushes_per_repo: 7.0385
+    active_days: 20
+    repos_not_owned: 46
+    not_owned_basenames: 46
     not_owned_owners: 1
   "90d":
-    pushes: 780
+    pushes: 779
     distinct_repos: 124
-    pushes_per_repo: 6.2903
-    active_days: 56
+    pushes_per_repo: 6.2823
+    active_days: 55
     repos_not_owned: 115
     not_owned_basenames: 115
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "github-workflows"
@@ -141,6 +141,6 @@ repos:
 
 # teemow
 
-780 pushes across 124 repositories on 56 active days in the last 90 days of public GitHub push activity.
+779 pushes across 124 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teemow

@@ -11,38 +11,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 26, 56, 9, 3, 7, 5, 6, 8, 7, 8, 3, 5]
+pushes_per_week: [15, 52, 23, 9, 3, 7, 5, 8, 9, 6, 6, 3, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 13
-    active_days: 17
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 45
-    active_days: 49
+    active_days: 48
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1020
-  repo_per_active_day: 0.9184
+  push_per_day: 3.1458
+  repo_per_active_day: 0.9375
   not_owned_ratio: 0.1333
   basename_concentration: 0.0444
   shapes: []
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 13
-    pushes_per_repo: 1.8462
-    active_days: 17
+    pushes_per_repo: 1.7692
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 152
+    pushes: 151
     distinct_repos: 45
-    pushes_per_repo: 3.3778
-    active_days: 49
+    pushes_per_repo: 3.3556
+    active_days: 48
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-152 pushes across 45 repositories on 49 active days in the last 90 days of public GitHub push activity.
+151 pushes across 45 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

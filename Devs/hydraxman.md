@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 2, 6, 2, 0, 1, 2, 0, 2, 2, 0, 0, 1]
+pushes_per_week: [1, 3, 5, 2, 0, 1, 2, 0, 2, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 7
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.3889
+  push_per_day: 1.1176
+  repo_per_active_day: 0.4118
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 7
-    pushes_per_repo: 2.8571
-    active_days: 18
+    pushes_per_repo: 2.7143
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GenWorld"
@@ -138,6 +138,6 @@ repos:
 
 # hydraxman
 
-20 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+19 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hydraxman

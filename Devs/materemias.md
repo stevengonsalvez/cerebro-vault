@@ -1,0 +1,142 @@
+---
+login: "materemias"
+name: null
+discovered_via: "fanout"
+discovered_via_all:
+  - "fanout"
+provenance_repos:
+  - "can1357/oh-my-pi"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-10-29T07:04:36.286910+00:00"
+provenance:
+  - "de6bf05613f3ae04"
+pushes_per_week: [0, 8, 0, 1, 0, 0, 0, 3, 1, 1, 2, 1, 0]
+windows:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 17
+    distinct_repos: 6
+    active_days: 11
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+automation:
+  state: "clear"
+  push_per_day: 1.5455
+  repo_per_active_day: 0.5455
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.1667
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 17
+    distinct_repos: 6
+    pushes_per_repo: 2.8333
+    active_days: 11
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+reasons:
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 11 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "tern-awui"
+    title: "tern-awui"
+    description: "Phone and browser companion for omp agents running in Tern, over Tailscale"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "omp-stretch"
+    title: "omp-stretch"
+    description: "Stretchtext replies for omp in Tern: read each reply's gist, click a phrase to grow its detail in place"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "codexbar-agentview"
+    title: "codexbar-agentview"
+    description: "Multi-provider AI usage and coding-agent session monitor for KDE Plasma and Tern, powered by CodexBar."
+    language: "Python"
+    topics:
+      - "ai"
+      - "claude"
+      - "codex"
+      - "kde"
+      - "kde-plasma"
+      - "openrouter"
+      - "plasma"
+      - "plasmoid"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "hikvision-live"
+    title: "hikvision-live"
+    description: "KDE Plasma 6 widget for live Hikvision NVR/DVR cameras, with a local proxy that decrypts Hik-Connect encrypted RTSP streams"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "dca-backtest"
+    title: "dca-backtest"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "claude-vibekanban-plugin"
+    title: "claude-vibekanban-plugin"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-01"
+---
+
+# materemias
+
+17 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/materemias

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [8, 4, 0, 1, 0, 1, 3, 31, 7, 3, 2, 0, 2]
+pushes_per_week: [11, 0, 0, 1, 0, 1, 3, 33, 6, 2, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 5
-    active_days: 27
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2963
-  repo_per_active_day: 0.1852
+  push_per_day: 2.3462
+  repo_per_active_day: 0.1923
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 10
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 5
-    pushes_per_repo: 12.4000
-    active_days: 27
+    pushes_per_repo: 12.2000
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "babel"
@@ -138,6 +138,6 @@ repos:
 
 # tarasyarema
 
-62 pushes across 5 repositories on 27 active days in the last 90 days of public GitHub push activity.
+61 pushes across 5 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarasyarema

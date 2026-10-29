@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [15, 10, 5, 1, 0, 1, 3, 7, 1, 7, 18, 0, 4]
+pushes_per_week: [13, 10, 4, 1, 0, 1, 4, 6, 4, 4, 18, 2, 2]
 windows:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 5
     active_days: 30
     repos_not_owned: 4
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4000
+  push_per_day: 2.3000
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 69
     distinct_repos: 5
-    pushes_per_repo: 14.4000
+    pushes_per_repo: 13.8000
     active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -141,6 +141,6 @@ repos:
 
 # chopratejas
 
-72 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+69 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

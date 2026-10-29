@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 3, 1, 0, 1, 8, 0, 2, 3, 14, 2, 2, 0]
+pushes_per_week: [2, 3, 1, 0, 1, 8, 2, 0, 3, 16, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 13
     active_days: 13
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 2.9231
   repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 13
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.9231
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -144,6 +144,6 @@ repos:
 
 # 1parado
 
-39 pushes across 13 repositories on 13 active days in the last 90 days of public GitHub push activity.
+38 pushes across 13 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1parado

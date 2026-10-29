@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [6, 7, 6, 3, 0, 0, 2, 5, 7, 2, 2, 1, 0]
+pushes_per_week: [5, 7, 4, 3, 0, 0, 3, 4, 7, 3, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 22
-    active_days: 26
-    repos_not_owned: 11
-    not_owned_basenames: 9
+    pushes: 38
+    distinct_repos: 20
+    active_days: 24
+    repos_not_owned: 10
+    not_owned_basenames: 8
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.5769
-  repo_per_active_day: 0.8462
+  push_per_day: 1.5833
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.5000
-  basename_concentration: 0.1364
+  basename_concentration: 0.1500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 22
-    pushes_per_repo: 1.8636
-    active_days: 26
-    repos_not_owned: 11
-    not_owned_basenames: 9
+    pushes: 38
+    distinct_repos: 20
+    pushes_per_repo: 1.9000
+    active_days: 24
+    repos_not_owned: 10
+    not_owned_basenames: 8
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ida-pro-mcp"
@@ -183,6 +183,6 @@ repos:
 
 # mrexodia
 
-41 pushes across 22 repositories on 26 active days in the last 90 days of public GitHub push activity.
+38 pushes across 20 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [33, 10, 8, 2, 3, 16, 10, 19, 62, 24, 24, 17, 6]
+pushes_per_week: [34, 9, 7, 3, 2, 18, 11, 18, 67, 18, 23, 18, 5]
 windows:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 99
-    distinct_repos: 7
-    active_days: 21
-    repos_not_owned: 7
+    pushes: 74
+    distinct_repos: 5
+    active_days: 20
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 4
   "90d":
-    pushes: 234
+    pushes: 233
     distinct_repos: 19
     active_days: 56
     repos_not_owned: 19
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 4.1786
+  push_per_day: 4.1607
   repo_per_active_day: 0.3393
   not_owned_ratio: 1.0000
   basename_concentration: 0.8421
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 5.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 99
-    distinct_repos: 7
-    pushes_per_repo: 14.1429
-    active_days: 21
-    repos_not_owned: 7
+    pushes: 74
+    distinct_repos: 5
+    pushes_per_repo: 14.8000
+    active_days: 20
+    repos_not_owned: 5
     not_owned_basenames: 2
-    not_owned_owners: 6
+    not_owned_owners: 4
   "90d":
-    pushes: 234
+    pushes: 233
     distinct_repos: 19
-    pushes_per_repo: 12.3158
+    pushes_per_repo: 12.2632
     active_days: 56
     repos_not_owned: 19
     not_owned_basenames: 4
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-234 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
+233 pushes across 19 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

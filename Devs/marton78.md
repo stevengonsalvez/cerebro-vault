@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.5714
+  push_per_day: 1.0000
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 7
+    pushes_per_repo: 1.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pffft"
@@ -129,6 +129,6 @@ repos:
 
 # marton78
 
-9 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+6 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/marton78

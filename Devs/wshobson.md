@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "31661aae5fd34dec"
-pushes_per_week: [2, 0, 6, 3, 0, 0, 1, 0, 14, 7, 0, 0, 0]
+pushes_per_week: [2, 0, 6, 3, 0, 0, 1, 0, 19, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 33
     distinct_repos: 6
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 33
     distinct_repos: 6
@@ -102,9 +102,9 @@ repos:
       - "opencode"
       - "pi-coding-agent"
       - "subagents"
-    stars_fact: 41336
+    stars_fact: 41958
     first_seen: "2026-10-21T06:01:17.877066+00:00"
-    last_push: "2026-10-19"
+    last_push: "2026-10-26"
   - name: "maverick-mcp"
     title: "maverick-mcp"
     description: "Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools."
@@ -130,9 +130,25 @@ repos:
       - "stocks"
       - "technical-analysis"
       - "yfinance"
-    stars_fact: 707
+    stars_fact: 713
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-26"
+  - name: "wshobson"
+    title: "wshobson"
+    description: "About Me"
+    language: null
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "wshobson.github.io"
+    title: "wshobson.github.io"
+    description: "sethhobson.com — single-page personal site on GitHub Pages"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "financial-chat"
     title: "financial-chat"
     description: "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus."
@@ -159,22 +175,6 @@ repos:
     stars_fact: 236
     first_seen: null
     last_push: "2025-08-10"
-  - name: "wshobson"
-    title: "wshobson"
-    description: "About Me"
-    language: null
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "wshobson.github.io"
-    title: "wshobson.github.io"
-    description: "sethhobson.com — single-page personal site on GitHub Pages"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "minimax-dgx-spark"
     title: "minimax-dgx-spark"
     description: "MiniMax M2 inference server for NVIDIA DGX Spark"

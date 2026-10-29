@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "59baa2731025f811"
-pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 0, 6, 5, 0, 2]
+pushes_per_week: [0, 2, 1, 2, 0, 0, 0, 0, 0, 6, 5, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,16 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "containers"
+    title: "containers"
+    description: "Specialized and Custom Made Containers"
+    language: "JavaScript"
+    topics:
+      - "containers"
+      - "docker"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "morse"
     title: "morse"
     description: "A comfortable GUI for the Pi coding agent"
@@ -85,9 +95,9 @@ repos:
       - "angular"
       - "nestjs"
       - "pi"
-    stars_fact: 8
+    stars_fact: 13
     first_seen: "2026-10-21T06:01:21.528026+00:00"
-    last_push: "2026-10-20"
+    last_push: "2026-10-28"
   - name: "ezx"
     title: "ezx"
     description: "Eazy Executor ?"
@@ -121,7 +131,7 @@ repos:
       - "shell"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-22"
   - name: "docker-flutter"
     title: "docker-flutter"
     description: "Flutter in Docker, it useful for automation CI/CD and release build"
@@ -130,14 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-21"
-  - name: "nvim"
-    title: "nvim"
-    description: "My Personal Neovim Config"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # supanadit

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [4, 22, 25, 1, 1, 0, 5, 10, 17, 26, 8, 0, 5]
+pushes_per_week: [4, 28, 16, 1, 1, 0, 9, 6, 22, 26, 3, 3, 2]
 windows:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 4
-    active_days: 36
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4444
-  repo_per_active_day: 0.1111
+  push_per_day: 3.4571
+  repo_per_active_day: 0.1143
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
+    pushes_per_repo: 4.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 4
-    pushes_per_repo: 31.0000
-    active_days: 36
+    pushes_per_repo: 30.2500
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-124 pushes across 4 repositories on 36 active days in the last 90 days of public GitHub push activity.
+121 pushes across 4 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 19, 9, 1, 0, 0, 0, 3, 2, 1, 1, 2, 9]
+pushes_per_week: [8, 23, 4, 1, 0, 0, 0, 4, 1, 1, 1, 2, 9]
 windows:
   "7d":
     pushes: 9
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 12
-    active_days: 24
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5000
+  push_per_day: 2.4545
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.2500
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 7
+    pushes_per_repo: 3.2500
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 54
     distinct_repos: 12
-    pushes_per_repo: 4.6667
-    active_days: 24
+    pushes_per_repo: 4.5000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-router-go"
@@ -176,6 +176,6 @@ repos:
 
 # djdembeck
 
-56 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+54 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [9, 5, 11, 0, 0, 0, 1, 2, 5, 1, 2, 0, 0]
+pushes_per_week: [7, 7, 8, 0, 0, 0, 1, 4, 3, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 7
     active_days: 16
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
+  push_per_day: 2.0625
   repo_per_active_day: 0.4375
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 7
-    pushes_per_repo: 5.1429
+    pushes_per_repo: 4.7143
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -166,6 +166,6 @@ repos:
 
 # Imbad0202
 
-36 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+33 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Imbad0202

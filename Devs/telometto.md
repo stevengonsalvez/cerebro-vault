@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [10, 11, 5, 3, 1, 1, 1, 8, 4, 4, 6, 0, 2]
+pushes_per_week: [9, 13, 3, 3, 1, 1, 3, 6, 6, 2, 6, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 1
-    active_days: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 1
     active_days: 33
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6970
+  push_per_day: 1.6667
   repo_per_active_day: 0.0303
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 10
+    pushes_per_repo: 12.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 1
-    pushes_per_repo: 56.0000
+    pushes_per_repo: 55.0000
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -130,6 +130,6 @@ repos:
 
 # telometto
 
-56 pushes across 1 repository on 33 active days in the last 90 days of public GitHub push activity.
+55 pushes across 1 repository on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 8, 4, 5, 4, 139, 2, 15, 16, 6, 6, 5, 5]
+pushes_per_week: [0, 8, 4, 5, 4, 139, 2, 15, 18, 6, 4, 9, 1]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 217
-    distinct_repos: 22
-    active_days: 36
+    pushes: 215
+    distinct_repos: 21
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.0278
-  repo_per_active_day: 0.6111
-  not_owned_ratio: 0.3182
-  basename_concentration: 0.0909
+  push_per_day: 6.1429
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 217
-    distinct_repos: 22
-    pushes_per_repo: 9.8636
-    active_days: 36
+    pushes: 215
+    distinct_repos: 21
+    pushes_per_repo: 10.2381
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -196,6 +196,6 @@ repos:
 
 # zydo
 
-217 pushes across 22 repositories on 36 active days in the last 90 days of public GitHub push activity.
+215 pushes across 21 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zydo

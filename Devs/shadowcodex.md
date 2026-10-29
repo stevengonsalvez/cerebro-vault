@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 18, 3, 3, 0, 0, 0, 4, 2, 1, 4, 14, 11]
+pushes_per_week: [4, 16, 3, 3, 0, 0, 0, 4, 2, 1, 4, 18, 7]
 windows:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 10
-    active_days: 25
+    pushes: 62
+    distinct_repos: 9
+    active_days: 24
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5200
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.2000
+  push_per_day: 2.5833
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 63
-    distinct_repos: 10
-    pushes_per_repo: 6.3000
-    active_days: 25
+    pushes: 62
+    distinct_repos: 9
+    pushes_per_repo: 6.8889
+    active_days: 24
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "c9.ide.desktop"
@@ -145,6 +145,6 @@ repos:
 
 # shadowcodex
 
-63 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
+62 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shadowcodex

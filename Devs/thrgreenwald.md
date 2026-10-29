@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [4, 2, 1, 0, 0, 1, 11, 17, 4, 5, 5, 1, 1]
+pushes_per_week: [4, 1, 1, 0, 0, 1, 19, 12, 4, 2, 5, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 1
-    active_days: 25
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0800
-  repo_per_active_day: 0.0400
+  push_per_day: 2.1250
+  repo_per_active_day: 0.0417
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 13.0000
-    active_days: 9
+    pushes_per_repo: 12.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 1
-    pushes_per_repo: 52.0000
-    active_days: 25
+    pushes_per_repo: 51.0000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chat-ui"
@@ -105,6 +105,6 @@ repos:
 
 # thrgreenwald
 
-52 pushes across 1 repository on 25 active days in the last 90 days of public GitHub push activity.
+51 pushes across 1 repository on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thrgreenwald

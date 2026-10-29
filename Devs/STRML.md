@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [17, 7, 5, 4, 0, 1, 12, 8, 35, 36, 3, 8, 1]
+pushes_per_week: [16, 6, 5, 4, 0, 1, 14, 14, 33, 30, 3, 9, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 14
-    active_days: 12
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 137
+    pushes: 135
     distinct_repos: 23
-    active_days: 39
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.5128
-  repo_per_active_day: 0.5897
+  push_per_day: 3.5526
+  repo_per_active_day: 0.6053
   not_owned_ratio: 0.2174
   basename_concentration: 0.0870
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 14
-    pushes_per_repo: 3.7143
-    active_days: 12
+    pushes_per_repo: 3.6429
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 137
+    pushes: 135
     distinct_repos: 23
-    pushes_per_repo: 5.9565
-    active_days: 39
+    pushes_per_repo: 5.8696
+    active_days: 38
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "quantdiff"
@@ -129,6 +129,6 @@ repos:
 
 # STRML
 
-137 pushes across 23 repositories on 39 active days in the last 90 days of public GitHub push activity.
+135 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

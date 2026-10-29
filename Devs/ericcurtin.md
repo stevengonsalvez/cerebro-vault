@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [18, 10, 6, 6, 1, 7, 8, 17, 50, 44, 37, 4, 2]
+pushes_per_week: [12, 10, 5, 6, 1, 7, 10, 16, 53, 43, 34, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 119
-    distinct_repos: 37
-    active_days: 20
-    repos_not_owned: 12
-    not_owned_basenames: 8
-    not_owned_owners: 9
+    pushes: 102
+    distinct_repos: 31
+    active_days: 19
+    repos_not_owned: 11
+    not_owned_basenames: 7
+    not_owned_owners: 8
   "90d":
-    pushes: 210
+    pushes: 203
     distinct_repos: 45
-    active_days: 54
+    active_days: 53
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.8889
-  repo_per_active_day: 0.8333
+  push_per_day: 3.8302
+  repo_per_active_day: 0.8491
   not_owned_ratio: 0.2667
   basename_concentration: 0.0889
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 119
-    distinct_repos: 37
-    pushes_per_repo: 3.2162
-    active_days: 20
-    repos_not_owned: 12
-    not_owned_basenames: 8
-    not_owned_owners: 9
+    pushes: 102
+    distinct_repos: 31
+    pushes_per_repo: 3.2903
+    active_days: 19
+    repos_not_owned: 11
+    not_owned_basenames: 7
+    not_owned_owners: 8
   "90d":
-    pushes: 210
+    pushes: 203
     distinct_repos: 45
-    pushes_per_repo: 4.6667
-    active_days: 54
+    pushes_per_repo: 4.5111
+    active_days: 53
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agenticlinux"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-210 pushes across 45 repositories on 54 active days in the last 90 days of public GitHub push activity.
+203 pushes across 45 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

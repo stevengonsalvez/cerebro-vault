@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [40, 40, 22, 16, 5, 10, 16, 21, 35, 25, 29, 44, 22]
+pushes_per_week: [28, 43, 17, 16, 5, 10, 17, 30, 32, 20, 27, 52, 14]
 windows:
   "7d":
-    pushes: 31
-    distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 15
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 134
+    pushes: 128
     distinct_repos: 5
-    active_days: 22
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 325
+    pushes: 311
     distinct_repos: 9
-    active_days: 68
+    active_days: 67
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 4.7794
-  repo_per_active_day: 0.1324
+  push_per_day: 4.6418
+  repo_per_active_day: 0.1343
   not_owned_ratio: 0.8889
   basename_concentration: 0.4444
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
-    distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 15
+    distinct_repos: 2
+    pushes_per_repo: 7.5000
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 134
+    pushes: 128
     distinct_repos: 5
-    pushes_per_repo: 26.8000
-    active_days: 22
+    pushes_per_repo: 25.6000
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 325
+    pushes: 311
     distinct_repos: 9
-    pushes_per_repo: 36.1111
-    active_days: 68
+    pushes_per_repo: 34.5556
+    active_days: 67
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -137,6 +137,6 @@ repos:
 
 # rekram1-node
 
-325 pushes across 9 repositories on 68 active days in the last 90 days of public GitHub push activity.
+311 pushes across 9 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 5, 1, 2, 1, 5, 0, 1, 0, 0, 7, 2, 23]
+pushes_per_week: [0, 5, 1, 3, 0, 5, 0, 1, 0, 0, 7, 2, 23]
 windows:
   "7d":
-    pushes: 24
-    distinct_repos: 3
-    active_days: 4
+    pushes: 23
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 10
-    active_days: 21
+    pushes: 47
+    distinct_repos: 9
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.4762
+  push_per_day: 2.3500
+  repo_per_active_day: 0.4500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 24
-    distinct_repos: 3
-    pushes_per_repo: 8.0000
-    active_days: 4
+    pushes: 23
+    distinct_repos: 2
+    pushes_per_repo: 11.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 10
-    pushes_per_repo: 4.9000
-    active_days: 21
+    pushes: 47
+    distinct_repos: 9
+    pushes_per_repo: 5.2222
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nexus"
@@ -129,6 +129,6 @@ repos:
 
 # ramtinJ95
 
-49 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+47 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

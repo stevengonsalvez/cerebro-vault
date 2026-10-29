@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [0, 1, 3, 0, 0, 0, 2, 1, 4, 3, 4, 0, 0]
@@ -77,30 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "aiacc"
-    title: "aiacc"
-    description: "AIACC(AI ACCOUNT) - Multiple AI Accounts!"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "CarlosDanielDev"
-    title: "CarlosDanielDev"
-    description: "readme profile"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "maestro"
-    title: "maestro"
-    description: "Maestro spawns and monitors multiple AI agent sessions working on the same project simultaneously — real-time visibility, costs, and conflict-free coordination from a single TUI. Landing page: https://carlosdanieldev.github.io/maestro/"
-    language: "Rust"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "setwave"
     title: "setwave"
     description: "Drive a GitHub epic to merged PRs wave by wave with Claude Code: one agent per git worktree, verification before relaying, merge only on your OK."
@@ -113,7 +89,31 @@ repos:
       - "worktree"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-28"
+  - name: "CarlosDanielDev"
+    title: "CarlosDanielDev"
+    description: "readme profile"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "aiacc"
+    title: "aiacc"
+    description: "AIACC(AI ACCOUNT) - Multiple AI Accounts!"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "maestro"
+    title: "maestro"
+    description: "Maestro spawns and monitors multiple AI agent sessions working on the same project simultaneously — real-time visibility, costs, and conflict-free coordination from a single TUI. Landing page: https://carlosdanieldev.github.io/maestro/"
+    language: "Rust"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "aimon"
     title: "aimon"
     description: "Tiny TUI that watches what terminal coding agents spawn and kills orphaned workers before memory pressure drowns your machine"

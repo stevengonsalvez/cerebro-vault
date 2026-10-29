@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 6, 8, 1, 1, 0, 1, 6, 12, 23, 8, 0, 16]
+pushes_per_week: [0, 9, 5, 1, 1, 0, 1, 9, 16, 18, 6, 1, 15]
 windows:
   "7d":
     pushes: 16
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 11
     active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 82
     distinct_repos: 16
-    active_days: 30
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.5333
+  push_per_day: 2.9286
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.1250
   basename_concentration: 0.1875
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 11
-    pushes_per_repo: 4.7273
+    pushes_per_repo: 4.6364
     active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
+    pushes: 82
     distinct_repos: 16
-    pushes_per_repo: 5.6250
-    active_days: 30
+    pushes_per_repo: 5.1250
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-radio-atlas"
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-90 pushes across 16 repositories on 30 active days in the last 90 days of public GitHub push activity.
+82 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "3f220f3536f87a11"
-pushes_per_week: [6, 0, 0, 1, 1, 0, 3, 4, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 0, 0, 1, 1, 1, 2, 4, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 12
     distinct_repos: 3
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6000
-  repo_per_active_day: 0.3000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 16
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-n8n-workflows"
@@ -149,6 +149,6 @@ repos:
 
 # felipfr
 
-16 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+12 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/felipfr

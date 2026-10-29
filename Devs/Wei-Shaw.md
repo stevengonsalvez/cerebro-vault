@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [7, 16, 8, 5, 2, 3, 4, 15, 8, 4, 6, 1, 1]
+pushes_per_week: [5, 17, 7, 5, 2, 3, 7, 12, 8, 6, 4, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,17 +29,17 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 80
-    distinct_repos: 7
+    pushes: 78
+    distinct_repos: 6
     active_days: 34
-    repos_not_owned: 6
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 6
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3529
-  repo_per_active_day: 0.2059
-  not_owned_ratio: 0.8571
+  push_per_day: 2.2941
+  repo_per_active_day: 0.1765
+  not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 80
-    distinct_repos: 7
-    pushes_per_repo: 11.4286
+    pushes: 78
+    distinct_repos: 6
+    pushes_per_repo: 13.0000
     active_days: 34
-    repos_not_owned: 6
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 6
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
@@ -149,6 +149,6 @@ repos:
 
 # Wei-Shaw
 
-80 pushes across 7 repositories on 34 active days in the last 90 days of public GitHub push activity.
+78 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

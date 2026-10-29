@@ -12,13 +12,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [2, 3, 3, 0, 1, 0, 0, 1, 1, 2, 0, 0, 7]
+pushes_per_week: [1, 3, 3, 1, 0, 0, 0, 1, 1, 2, 0, 1, 6]
 windows:
   "7d":
     pushes: 7
@@ -35,18 +35,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 11
-    active_days: 16
+    pushes: 19
+    distinct_repos: 10
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.6875
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.1818
+  push_per_day: 1.2667
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -71,16 +71,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 11
-    pushes_per_repo: 1.8182
-    active_days: 16
+    pushes: 19
+    distinct_repos: 10
+    pushes_per_repo: 1.9000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-AI-driven-development"
@@ -180,6 +180,6 @@ repos:
 
 # eltociear
 
-20 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+19 pushes across 10 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eltociear

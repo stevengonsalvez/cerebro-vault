@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 1, 2, 0, 0, 1, 0, 1, 1, 5, 0, 2, 1]
+pushes_per_week: [4, 1, 2, 0, 0, 1, 0, 1, 1, 5, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 8
     distinct_repos: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 11
-    active_days: 13
+    active_days: 12
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.4615
-  repo_per_active_day: 0.8462
+  push_per_day: 1.5000
+  repo_per_active_day: 0.9167
   not_owned_ratio: 0.7273
   basename_concentration: 0.2727
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 8
     distinct_repos: 6
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 13
+    pushes_per_repo: 1.6364
+    active_days: 12
     repos_not_owned: 8
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tmcp"
@@ -136,6 +136,6 @@ repos:
 
 # paoloricciuti
 
-19 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
+18 pushes across 11 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

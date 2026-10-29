@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,7 +43,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [16, 12, 11, 2, 0, 1, 9, 5, 3, 4, 13, 3, 1]
+pushes_per_week: [12, 19, 2, 2, 0, 1, 9, 7, 2, 4, 12, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -60,18 +60,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 33
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 74
+    distinct_repos: 32
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 0.9167
-  not_owned_ratio: 0.1515
-  basename_concentration: 0.0606
+  push_per_day: 2.1143
+  repo_per_active_day: 0.9143
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -96,16 +96,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 33
-    pushes_per_repo: 2.4242
-    active_days: 36
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 74
+    distinct_repos: 32
+    pushes_per_repo: 2.3125
+    active_days: 35
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 18 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-florida-outages"
@@ -162,6 +162,6 @@ repos:
 
 # simonw
 
-80 pushes across 33 repositories on 36 active days in the last 90 days of public GitHub push activity.
+74 pushes across 32 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

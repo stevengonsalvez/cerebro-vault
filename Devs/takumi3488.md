@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [29, 14, 77, 12, 6, 3, 6, 46, 32, 39, 20, 47, 28]
+pushes_per_week: [27, 19, 73, 11, 6, 5, 14, 40, 44, 26, 17, 57, 18]
 windows:
   "7d":
-    pushes: 38
-    distinct_repos: 18
-    active_days: 5
+    pushes: 20
+    distinct_repos: 13
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 143
-    distinct_repos: 46
-    active_days: 23
-    repos_not_owned: 16
-    not_owned_basenames: 16
+    pushes: 139
+    distinct_repos: 45
+    active_days: 22
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "90d":
-    pushes: 359
+    pushes: 357
     distinct_repos: 79
-    active_days: 61
+    active_days: 60
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8852
-  repo_per_active_day: 1.2951
+  push_per_day: 5.9500
+  repo_per_active_day: 1.3167
   not_owned_ratio: 0.2785
   basename_concentration: 0.0253
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 38
-    distinct_repos: 18
-    pushes_per_repo: 2.1111
-    active_days: 5
+    pushes: 20
+    distinct_repos: 13
+    pushes_per_repo: 1.5385
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 143
-    distinct_repos: 46
-    pushes_per_repo: 3.1087
-    active_days: 23
-    repos_not_owned: 16
-    not_owned_basenames: 16
+    pushes: 139
+    distinct_repos: 45
+    pushes_per_repo: 3.0889
+    active_days: 22
+    repos_not_owned: 15
+    not_owned_basenames: 15
     not_owned_owners: 1
   "90d":
-    pushes: 359
+    pushes: 357
     distinct_repos: 79
-    pushes_per_repo: 4.5443
-    active_days: 61
+    pushes_per_repo: 4.5190
+    active_days: 60
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "reji-cleaner"
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-359 pushes across 79 repositories on 61 active days in the last 90 days of public GitHub push activity.
+357 pushes across 79 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

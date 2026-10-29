@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [4, 2, 3, 1, 0, 0, 0, 3, 3, 5, 3, 1, 2]
+pushes_per_week: [2, 2, 3, 1, 0, 0, 0, 3, 4, 4, 3, 2, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
+  push_per_day: 1.1905
   repo_per_active_day: 0.0952
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 13.5000
+    pushes_per_repo: 12.5000
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # torvalds
 
-27 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
+25 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/torvalds

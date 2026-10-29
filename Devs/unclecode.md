@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-29T07:04:36.286910+00:00"
 provenance:
   - "d46d1480c37c463a"
-pushes_per_week: [1, 9, 6, 3, 2, 1, 3, 0, 4, 5, 4, 2, 3]
+pushes_per_week: [0, 9, 6, 3, 2, 1, 3, 2, 2, 6, 3, 3, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3438
-  repo_per_active_day: 0.1875
+  push_per_day: 1.3548
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 6
-    pushes_per_repo: 7.1667
-    active_days: 32
+    pushes_per_repo: 7.0000
+    active_days: 31
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "crawl4ai"
@@ -151,6 +151,6 @@ repos:
 
 # unclecode
 
-43 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+42 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclecode
