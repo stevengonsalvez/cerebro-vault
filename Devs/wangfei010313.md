@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [6, 5, 4, 1, 0, 0, 0, 2, 0, 0, 0, 2, 0]
+pushes_per_week: [4, 6, 3, 1, 0, 0, 1, 1, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5385
-  repo_per_active_day: 0.1538
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 13
+    pushes_per_repo: 9.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MyQwenPaw"
@@ -89,6 +89,6 @@ repos:
 
 # wangfei010313
 
-20 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+18 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wangfei010313

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [7, 10, 0, 3, 0, 1, 2, 2, 7, 0, 3, 1, 0]
+pushes_per_week: [6, 9, 0, 3, 1, 0, 2, 8, 1, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 9
-    active_days: 22
+    pushes: 34
+    distinct_repos: 7
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6364
-  repo_per_active_day: 0.4091
-  not_owned_ratio: 0.5556
-  basename_concentration: 0.2222
+  push_per_day: 1.6190
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
-    distinct_repos: 9
-    pushes_per_repo: 4.0000
-    active_days: 22
+    pushes: 34
+    distinct_repos: 7
+    pushes_per_repo: 4.8571
+    active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obsidian-skills"
@@ -183,6 +183,6 @@ repos:
 
 # kepano
 
-36 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+34 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -23,6 +23,7 @@ provenance:
   - "0dfdf17053d5d17a"
   - "0e371a11c328c372"
   - "11a9e9aebb65d4c7"
+  - "11bfb616c2334a07"
   - "13d96f6971fff698"
   - "199f1aeef5f0463c"
   - "1f4559e41bf13b35"
@@ -80,10 +81,11 @@ provenance:
   - "ed610e0dc54be0b1"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
+  - "fbfedaa618aab83d"
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 14, 2, 1, 7, 0, 0, 4, 12, 1, 0, 0, 0]
+pushes_per_week: [13, 4, 1, 7, 1, 0, 2, 12, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,18 +102,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 13
-    active_days: 19
+    pushes: 43
+    distinct_repos: 12
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3158
-  repo_per_active_day: 0.6842
-  not_owned_ratio: 0.2308
-  basename_concentration: 0.2308
+  push_per_day: 2.3889
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -136,16 +138,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 13
-    pushes_per_repo: 3.3846
-    active_days: 19
+    pushes: 43
+    distinct_repos: 12
+    pushes_per_repo: 3.5833
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 72 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "provenance: 74 vault signal(s) — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsaw"
@@ -217,6 +219,6 @@ repos:
 
 # stbenjam
 
-44 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
+43 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stbenjam

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [6, 28, 9, 5, 0, 4, 3, 4, 2, 13, 12, 10, 3]
+pushes_per_week: [6, 32, 4, 5, 0, 4, 6, 1, 4, 18, 5, 13, 0]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
-    distinct_repos: 8
-    active_days: 15
+    pushes: 38
+    distinct_repos: 7
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 98
     distinct_repos: 12
-    active_days: 37
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6757
-  repo_per_active_day: 0.3243
+  push_per_day: 2.7222
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 39
-    distinct_repos: 8
-    pushes_per_repo: 4.8750
-    active_days: 15
+    pushes: 38
+    distinct_repos: 7
+    pushes_per_repo: 5.4286
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 99
+    pushes: 98
     distinct_repos: 12
-    pushes_per_repo: 8.2500
-    active_days: 37
+    pushes_per_repo: 8.1667
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # omartelo
 
-99 pushes across 12 repositories on 37 active days in the last 90 days of public GitHub push activity.
+98 pushes across 12 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/omartelo

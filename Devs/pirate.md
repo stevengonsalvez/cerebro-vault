@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [22, 49, 38, 2, 7, 3, 7, 183, 115, 67, 95, 16, 21]
+pushes_per_week: [2, 81, 6, 8, 1, 3, 75, 169, 67, 69, 87, 16, 21]
 windows:
   "7d":
     pushes: 21
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 200
+    pushes: 199
     distinct_repos: 14
-    active_days: 15
+    active_days: 14
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 625
+    pushes: 605
     distinct_repos: 28
-    active_days: 49
+    active_days: 47
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.7551
-  repo_per_active_day: 0.5714
+  push_per_day: 12.8723
+  repo_per_active_day: 0.5957
   not_owned_ratio: 0.6429
   basename_concentration: 0.0357
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 1
   "30d":
-    pushes: 200
+    pushes: 199
     distinct_repos: 14
-    pushes_per_repo: 14.2857
-    active_days: 15
+    pushes_per_repo: 14.2143
+    active_days: 14
     repos_not_owned: 12
     not_owned_basenames: 12
     not_owned_owners: 1
   "90d":
-    pushes: 625
+    pushes: 605
     distinct_repos: 28
-    pushes_per_repo: 22.3214
-    active_days: 49
+    pushes_per_repo: 21.6071
+    active_days: 47
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pirate"
@@ -181,6 +181,6 @@ repos:
 
 # pirate
 
-625 pushes across 28 repositories on 49 active days in the last 90 days of public GitHub push activity.
+605 pushes across 28 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

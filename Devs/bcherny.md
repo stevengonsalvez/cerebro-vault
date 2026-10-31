@@ -9,9 +9,9 @@ provenance_repos:
   - "anthropics/claude-code"
   - "anthropics/claude-plugins-official"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -26,6 +26,7 @@ provenance:
   - "0dfdf17053d5d17a"
   - "0e371a11c328c372"
   - "11a9e9aebb65d4c7"
+  - "11bfb616c2334a07"
   - "13d96f6971fff698"
   - "199f1aeef5f0463c"
   - "1f4559e41bf13b35"
@@ -83,10 +84,11 @@ provenance:
   - "ed610e0dc54be0b1"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
+  - "fbfedaa618aab83d"
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [7, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -103,16 +105,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.0000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -139,16 +141,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 73 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "provenance: 75 vault signal(s) — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "bcherny.github.io"
@@ -215,6 +217,6 @@ repos:
 
 # bcherny
 
-9 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+4 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bcherny

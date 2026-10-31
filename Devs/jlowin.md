@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 0, 0, 27, 0, 0, 7]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 0, 2, 25, 0, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -42,17 +42,17 @@ automation:
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes:
-    - "fork_farm_third_party"
+    - "fork_farm"
   shape_evidence:
-    - "basename concentration 0.6667 (6 of 9 repos share one basename), 9 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: PrefectHQ/fastmcp"
+    - "basename concentration 0.6667 (6 of 9 repos share one basename), 9 not owned across 2 basenames"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
-    checked: 5
+    checked: 4
     own_upstream: 0
-    third_party: 5
+    third_party: 4
     no_upstream: 0
-    unresolved: 0
+    unresolved: 1
     truncated: false
     sampled:
       - "Amazinghorseli/fastmcp"

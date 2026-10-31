@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DanZ-Client-Tool"
+    title: "DanZ-Client-Tool"
+    description: "Lol client tool based on kebs tool"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-07-27"
+  - name: "DanZ-Client-ToolV2"
+    title: "DanZ-Client-ToolV2"
+    description: "DanZ Client Tool provides a comprehensive suite of features to manage your client, automate tasks, and customize your profile"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-01-14"
+  - name: "danzaio.github.io"
+    title: "danzaio.github.io"
+    description: "Public GitHub Pages site"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "horizon"
     title: "horizon"
     description: "HORIZON: infinite-view voxel world in Three.js"
@@ -104,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
-  - name: "danzaio.github.io"
-    title: "danzaio.github.io"
-    description: "Public GitHub Pages site"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "arcanist-sdk"
     title: "arcanist-sdk"
     description: "Docs do SDK Lua do arcanist"
@@ -120,22 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-08"
-  - name: "domain-footprint-atlas"
-    title: "domain-footprint-atlas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
-  - name: "prompt-injection-zoo"
-    title: "prompt-injection-zoo"
-    description: "Safe local lab for learning prompt injection attacks and defenses with deterministic traces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
 ---
 
 # danzaio

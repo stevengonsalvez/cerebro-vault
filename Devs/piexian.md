@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 6, 5, 0, 1, 1, 2, 6, 14, 3, 8, 2, 3]
+pushes_per_week: [3, 8, 2, 1, 0, 1, 4, 10, 9, 5, 5, 3, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 9
-    active_days: 12
+    pushes: 16
+    distinct_repos: 8
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 56
-    distinct_repos: 21
-    active_days: 36
+    pushes: 53
+    distinct_repos: 20
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.5833
-  not_owned_ratio: 0.0952
-  basename_concentration: 0.0476
+  push_per_day: 1.5143
+  repo_per_active_day: 0.5714
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
-    distinct_repos: 9
+    pushes: 16
+    distinct_repos: 8
     pushes_per_repo: 2.0000
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 56
-    distinct_repos: 21
-    pushes_per_repo: 2.6667
-    active_days: 36
+    pushes: 53
+    distinct_repos: 20
+    pushes_per_repo: 2.6500
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_simple_long_memory"
@@ -146,6 +146,6 @@ repos:
 
 # piexian
 
-56 pushes across 21 repositories on 36 active days in the last 90 days of public GitHub push activity.
+53 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [20, 3, 11, 3, 1, 2, 2, 7, 107, 6, 2, 1, 0]
+pushes_per_week: [22, 3, 8, 4, 0, 3, 4, 19, 96, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 85
-    distinct_repos: 12
-    active_days: 8
+    pushes: 30
+    distinct_repos: 8
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 165
+    pushes: 164
     distinct_repos: 34
     active_days: 35
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7143
+  push_per_day: 4.6857
   repo_per_active_day: 0.9714
   not_owned_ratio: 0.0588
   basename_concentration: 0.0294
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 85
-    distinct_repos: 12
-    pushes_per_repo: 7.0833
-    active_days: 8
+    pushes: 30
+    distinct_repos: 8
+    pushes_per_repo: 3.7500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 165
+    pushes: 164
     distinct_repos: 34
-    pushes_per_repo: 4.8529
+    pushes_per_repo: 4.8235
     active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -157,6 +157,6 @@ repos:
 
 # shoemoney
 
-165 pushes across 34 repositories on 35 active days in the last 90 days of public GitHub push activity.
+164 pushes across 34 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

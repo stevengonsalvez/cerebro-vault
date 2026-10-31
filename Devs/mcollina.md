@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [10, 8, 8, 5, 1, 1, 4, 12, 11, 13, 16, 4, 0]
+pushes_per_week: [6, 9, 5, 6, 0, 1, 8, 17, 6, 9, 16, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 12
-    active_days: 12
+    active_days: 11
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 93
-    distinct_repos: 27
-    active_days: 41
+    pushes: 87
+    distinct_repos: 26
+    active_days: 39
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.2683
-  repo_per_active_day: 0.6585
-  not_owned_ratio: 0.7037
-  basename_concentration: 0.0741
+  push_per_day: 2.2308
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.7308
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 12
-    pushes_per_repo: 2.8333
-    active_days: 12
+    pushes_per_repo: 2.7500
+    active_days: 11
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 93
-    distinct_repos: 27
-    pushes_per_repo: 3.4444
-    active_days: 41
+    pushes: 87
+    distinct_repos: 26
+    pushes_per_repo: 3.3462
+    active_days: 39
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "githuman"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-93 pushes across 27 repositories on 41 active days in the last 90 days of public GitHub push activity.
+87 pushes across 26 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

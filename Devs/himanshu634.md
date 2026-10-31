@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "dffbb846389f9a26"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0]
@@ -89,7 +89,15 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
+  - name: "portfolio"
+    title: "portfolio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "Insider"
     title: "Insider"
     description: "Turns trader WhatsApp groups into clean, comparable mandi prices and a daily market brief for commodity buyers. Read-only collector, bilingual (Gujarati/English), TypeScript monorepo."
@@ -97,7 +105,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-28"
   - name: "himanshu634"
     title: "himanshu634"
     description: null
@@ -114,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "portfolio"
-    title: "portfolio"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
   - name: "coin-launch"
     title: "coin-launch"
     description: "An open-source coin launching platform based on solana"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [8, 22, 13, 4, 4, 1, 5, 26, 22, 6, 21, 1, 1]
+pushes_per_week: [5, 28, 9, 4, 2, 1, 21, 16, 19, 8, 16, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 31
     distinct_repos: 13
-    active_days: 15
+    active_days: 13
     repos_not_owned: 11
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 31
-    active_days: 43
+    active_days: 42
     repos_not_owned: 27
     not_owned_basenames: 4
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 3.1163
-  repo_per_active_day: 0.7209
+  push_per_day: 3.1190
+  repo_per_active_day: 0.7381
   not_owned_ratio: 0.8710
   basename_concentration: 0.7097
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 31
     distinct_repos: 13
-    pushes_per_repo: 2.7692
-    active_days: 15
+    pushes_per_repo: 2.3846
+    active_days: 13
     repos_not_owned: 11
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 31
-    pushes_per_repo: 4.3226
-    active_days: 43
+    pushes_per_repo: 4.2258
+    active_days: 42
     repos_not_owned: 27
     not_owned_basenames: 4
     not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-134 pushes across 31 repositories on 43 active days in the last 90 days of public GitHub push activity.
+131 pushes across 31 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 23, 4, 1, 0, 0, 0, 4, 1, 1, 1, 2, 9]
+pushes_per_week: [16, 13, 1, 1, 0, 0, 0, 4, 1, 1, 1, 3, 8]
 windows:
   "7d":
     pushes: 9
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 12
-    active_days: 22
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 49
+    distinct_repos: 11
+    active_days: 20
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4545
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1667
+  push_per_day: 2.4500
+  repo_per_active_day: 0.5500
+  not_owned_ratio: 0.1818
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 12
-    pushes_per_repo: 4.5000
-    active_days: 22
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 49
+    distinct_repos: 11
+    pushes_per_repo: 4.4545
+    active_days: 20
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-router-go"
@@ -176,6 +176,6 @@ repos:
 
 # djdembeck
 
-54 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
+49 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

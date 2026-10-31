@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "c1958731fdb78e2d"
-pushes_per_week: [3, 2, 4, 0, 0, 1, 2, 30, 1, 0, 3, 2, 0]
+pushes_per_week: [2, 4, 2, 0, 0, 1, 7, 26, 0, 1, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 3
-    active_days: 20
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.1500
+  push_per_day: 2.4737
+  repo_per_active_day: 0.1579
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 3
-    pushes_per_repo: 16.0000
-    active_days: 20
+    pushes_per_repo: 15.6667
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "EverMemOS-v1"
@@ -129,6 +129,6 @@ repos:
 
 # gloryfromca
 
-48 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
+47 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gloryfromca

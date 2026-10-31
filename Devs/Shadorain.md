@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 4, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omp-grill"
+    title: "omp-grill"
+    description: "Native OMP browser interviews for exploring design decisions"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "omp-mission"
+    title: "omp-mission"
+    description: "Plan and run a ticket or task through verification and review."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "holotable"
     title: "holotable"
     description: "Local-first mission control for OMP: plan, launch, and watch campaigns."
@@ -89,15 +105,7 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "omp-mission"
-    title: "omp-mission"
-    description: "Plan and run a ticket or task through verification and review."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-27"
   - name: "shadotheme"
     title: "shadotheme"
     description: "The ultimate purple and pink dark cherry blossom theme!"
@@ -115,14 +123,6 @@ repos:
     stars_fact: 99
     first_seen: null
     last_push: "2025-11-06"
-  - name: "omp-grill"
-    title: "omp-grill"
-    description: "Native OMP browser interviews for exploring design decisions"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
   - name: "shadovim"
     title: "shadovim"
     description: "A neovim setup for the shadow warriors. Speed through the light with the power of shadovim built on the new Lua based neovim! With the highly overpowered native LSP, built in auto-completion, snippets, menus and so much more, you will unleash the power of a hundred million shadows!"

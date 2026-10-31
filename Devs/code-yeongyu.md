@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [37, 63, 36, 11, 13, 50, 64, 86, 201, 170, 140, 118, 81]
+pushes_per_week: [24, 64, 29, 11, 11, 60, 61, 94, 268, 111, 116, 133, 66]
 windows:
   "7d":
-    pushes: 87
+    pushes: 77
     distinct_repos: 9
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 579
-    distinct_repos: 25
-    active_days: 24
-    repos_not_owned: 13
-    not_owned_basenames: 5
-    not_owned_owners: 12
+    pushes: 529
+    distinct_repos: 21
+    active_days: 22
+    repos_not_owned: 10
+    not_owned_basenames: 4
+    not_owned_owners: 9
   "90d":
-    pushes: 1070
-    distinct_repos: 43
-    active_days: 77
+    pushes: 1048
+    distinct_repos: 42
+    active_days: 74
     repos_not_owned: 27
     not_owned_basenames: 7
     not_owned_owners: 21
 automation:
   state: "clear"
-  push_per_day: 13.8961
-  repo_per_active_day: 0.5584
-  not_owned_ratio: 0.6279
-  basename_concentration: 0.2791
+  push_per_day: 14.1622
+  repo_per_active_day: 0.5676
+  not_owned_ratio: 0.6429
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 87
+    pushes: 77
     distinct_repos: 9
-    pushes_per_repo: 9.6667
-    active_days: 5
+    pushes_per_repo: 8.5556
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 579
-    distinct_repos: 25
-    pushes_per_repo: 23.1600
-    active_days: 24
-    repos_not_owned: 13
-    not_owned_basenames: 5
-    not_owned_owners: 12
+    pushes: 529
+    distinct_repos: 21
+    pushes_per_repo: 25.1905
+    active_days: 22
+    repos_not_owned: 10
+    not_owned_basenames: 4
+    not_owned_owners: 9
   "90d":
-    pushes: 1070
-    distinct_repos: 43
-    pushes_per_repo: 24.8837
-    active_days: 77
+    pushes: 1048
+    distinct_repos: 42
+    pushes_per_repo: 24.9524
+    active_days: 74
     repos_not_owned: 27
     not_owned_basenames: 7
     not_owned_owners: 21
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 74 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "senpi"
@@ -199,6 +199,6 @@ repos:
 
 # code-yeongyu
 
-1070 pushes across 43 repositories on 77 active days in the last 90 days of public GitHub push activity.
+1048 pushes across 42 repositories on 74 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

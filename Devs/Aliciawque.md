@@ -6,11 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
+  - "alchaincyf/huashu-design"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
+  - "1a4e40e8e8763b4b"
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 2, 0]
 windows:
@@ -22,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -73,18 +75,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Aliciawque"
-    title: "Aliciawque"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "digital-garden-showcase"
     title: "digital-garden-showcase"
     description: "Digital Garden by Alicia: a free interactive 3D flower garden with four seasons, nature sounds and flower photography. Made with Houdini and Three.js."
@@ -97,60 +91,57 @@ repos:
       - "threejs"
       - "virtual-garden"
       - "webgpu"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "clip-log-preflight"
-    title: "clip-log-preflight"
-    description: "Read-only Python CLI that checks episode clip logs against local camera and card folders before editing."
+    last_push: "2026-10-31"
+  - name: "missing-eval-audit"
+    title: "missing-eval-audit"
+    description: "Offline fixed-plan evaluation coverage and missing-outcome bounds. Python standard library; missing results are not failures."
     language: "Python"
-    topics:
-      - "cli"
-      - "media-workflow"
-      - "python"
-      - "video-production"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "Aliciawque.github.io"
-    title: "Aliciawque.github.io"
-    description: "A bilingual creative-coding blog built with Astro, exploring AI agents, interactive graphics and practical experiments."
-    language: "Astro"
-    topics:
-      - "ai-agents"
-      - "astro"
-      - "blog"
-      - "creative-coding"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "visual-attraction"
-    title: "visual-attraction"
-    description: "Evidence-based visual critique skill for AI agents, covering composition, color, typography, UI and product presentation."
-    language: "Python"
-    topics:
-      - "accessibility"
-      - "agent-skills"
-      - "design-critique"
-      - "visual-design"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
-  - name: "openclaw-personalized-agent-forge"
-    title: "openclaw-personalized-agent-forge"
-    description: "A 3-skill OpenClaw bundle for turning creators, professions, and fictional characters into deployable personalized agents."
-    language: "Python"
+    last_push: "2026-10-30"
+  - name: "dsh-big-whale"
+    title: "dsh-big-whale"
+    description: "大鲸鱼 / Big Whale / 大クジラ — a trilingual DSH desktop companion with lip sync, expressions, idle motions and context-compaction rice."
+    language: "JavaScript"
     topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "character-ai"
-      - "creator-tools"
-      - "digital-twin"
-      - "openclaw"
-      - "persona"
-    stars_fact: 1
+      - "2d-avatar"
+      - "deepseek-harness"
+      - "desktop-pet"
+      - "dsh-plugin"
+      - "lip-sync"
+      - "mesh-avatar"
+      - "trilingual"
+      - "windows"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-30"
+  - name: "udim-reference-chart"
+    title: "udim-reference-chart"
+    description: "Dependency-free UDIM diagnostic PNG tiles with global coordinates, orientation cues, and reproducible manifests."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "input-tree-digest"
+    title: "input-tree-digest"
+    description: "Fail-closed fingerprints and explainable diffs for explicitly required build inputs. Python standard library only."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "pr-head-audit"
+    title: "pr-head-audit"
+    description: "Read-only, dependency-free Python CLI for exact-head CI evidence across external pull requests."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # Aliciawque

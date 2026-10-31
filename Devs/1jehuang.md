@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [12, 15, 5, 10, 0, 1, 0, 55, 32, 10, 77, 38, 12]
+pushes_per_week: [13, 10, 4, 10, 0, 1, 17, 50, 20, 12, 75, 40, 10]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 2
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 141
+    pushes: 137
     distinct_repos: 4
-    active_days: 20
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 267
+    pushes: 262
     distinct_repos: 11
-    active_days: 48
+    active_days: 45
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.5625
-  repo_per_active_day: 0.2292
+  push_per_day: 5.8222
+  repo_per_active_day: 0.2444
   not_owned_ratio: 0.0909
   basename_concentration: 0.1818
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes: 12
+    distinct_repos: 1
+    pushes_per_repo: 12.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 141
+    pushes: 137
     distinct_repos: 4
-    pushes_per_repo: 35.2500
-    active_days: 20
+    pushes_per_repo: 34.2500
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 267
+    pushes: 262
     distinct_repos: 11
-    pushes_per_repo: 24.2727
-    active_days: 48
+    pushes_per_repo: 23.8182
+    active_days: 45
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "justrust"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-267 pushes across 11 repositories on 48 active days in the last 90 days of public GitHub push activity.
+262 pushes across 11 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

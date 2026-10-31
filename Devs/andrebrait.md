@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [45, 39, 26, 19, 5, 4, 14, 31, 62, 62, 58, 36, 3]
+pushes_per_week: [17, 44, 18, 15, 2, 6, 23, 30, 87, 32, 53, 36, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 178
-    distinct_repos: 18
-    active_days: 22
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 165
+    distinct_repos: 17
+    active_days: 20
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
-    pushes: 404
+    pushes: 366
     distinct_repos: 29
-    active_days: 68
+    active_days: 66
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.9412
-  repo_per_active_day: 0.4265
+  push_per_day: 5.5455
+  repo_per_active_day: 0.4394
   not_owned_ratio: 0.3793
   basename_concentration: 0.0690
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 178
-    distinct_repos: 18
-    pushes_per_repo: 9.8889
-    active_days: 22
-    repos_not_owned: 8
-    not_owned_basenames: 8
+    pushes: 165
+    distinct_repos: 17
+    pushes_per_repo: 9.7059
+    active_days: 20
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
-    pushes: 404
+    pushes: 366
     distinct_repos: 29
-    pushes_per_repo: 13.9310
-    active_days: 68
+    pushes_per_repo: 12.6207
+    active_days: 66
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "e1000e-i219-tso-hang"
@@ -145,6 +145,6 @@ repos:
 
 # andrebrait
 
-404 pushes across 29 repositories on 68 active days in the last 90 days of public GitHub push activity.
+366 pushes across 29 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

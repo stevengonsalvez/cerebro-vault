@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 10, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 10, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 8
-    active_days: 7
+    pushes: 12
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 8
-    pushes_per_repo: 1.7500
-    active_days: 7
+    pushes: 12
+    distinct_repos: 7
+    pushes_per_repo: 1.7143
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-support-assistant"
+    title: "ai-support-assistant"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "local-ai-coding-assistant"
+    title: "local-ai-coding-assistant"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "Porta-seguro"
+    title: "Porta-seguro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "auth-api"
+    title: "auth-api"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "jarvis-pc-assistant"
+    title: "jarvis-pc-assistant"
+    description: "Jarvis para PC: assistente que abre apps, sites e controla conversas (WhatsApp/Telegram/Discord) por voz ou texto."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "TMseabra"
     title: "TMseabra"
     description: null
@@ -85,46 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
-  - name: "ai-support-assistant"
-    title: "ai-support-assistant"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "jarvis-pc-assistant"
-    title: "jarvis-pc-assistant"
-    description: "Jarvis para PC: assistente que abre apps, sites e controla conversas (WhatsApp/Telegram/Discord) por voz ou texto."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "auth-api"
-    title: "auth-api"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "presenter-notes"
-    title: "presenter-notes"
-    description: "Presenter notes with a live preview of the big screen, for presenting code live (Electron)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "secure-microservices"
-    title: "secure-microservices"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # TMseabra

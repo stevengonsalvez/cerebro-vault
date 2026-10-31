@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 10, 1, 7, 0, 8, 2, 1, 5, 4, 8, 5, 4]
+pushes_per_week: [5, 9, 2, 5, 1, 9, 0, 2, 4, 4, 8, 6, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 1
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 58
     distinct_repos: 1
-    active_days: 38
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6579
-  repo_per_active_day: 0.0263
+  push_per_day: 1.6111
+  repo_per_active_day: 0.0278
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,30 +57,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 1
-    pushes_per_repo: 22.0000
-    active_days: 12
+    pushes_per_repo: 21.0000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 58
     distinct_repos: 1
-    pushes_per_repo: 63.0000
-    active_days: 38
+    pushes_per_repo: 58.0000
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # roboomp
 
-63 pushes across 1 repository on 38 active days in the last 90 days of public GitHub push activity.
+58 pushes across 1 repository on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roboomp

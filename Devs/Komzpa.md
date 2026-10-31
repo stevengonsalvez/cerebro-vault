@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [48, 40, 36, 8, 0, 60, 1, 4, 40, 45, 38, 20, 5]
+pushes_per_week: [31, 56, 9, 7, 0, 60, 3, 12, 54, 21, 38, 20, 5]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 2
+    pushes: 5
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 116
     distinct_repos: 13
-    active_days: 16
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 345
+    pushes: 316
     distinct_repos: 30
-    active_days: 46
+    active_days: 44
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.5000
-  repo_per_active_day: 0.6522
+  push_per_day: 7.1818
+  repo_per_active_day: 0.6818
   not_owned_ratio: 0.3333
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 116
     distinct_repos: 13
-    pushes_per_repo: 9.4615
-    active_days: 16
+    pushes_per_repo: 8.9231
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 345
+    pushes: 316
     distinct_repos: 30
-    pushes_per_repo: 11.5000
-    active_days: 46
+    pushes_per_repo: 10.5333
+    active_days: 44
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rtl-antenna-picker"
@@ -148,6 +148,6 @@ repos:
 
 # Komzpa
 
-345 pushes across 30 repositories on 46 active days in the last 90 days of public GitHub push activity.
+316 pushes across 30 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

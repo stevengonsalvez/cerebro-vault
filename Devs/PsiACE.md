@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 18, 5, 6, 2, 2, 2, 8, 7, 18, 5, 5, 0]
+pushes_per_week: [5, 17, 4, 6, 2, 2, 4, 6, 13, 16, 1, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 9
-    active_days: 11
+    active_days: 10
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 18
-    active_days: 40
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0500
-  repo_per_active_day: 0.4500
+  push_per_day: 2.0769
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.5556
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 9
-    pushes_per_repo: 3.4444
-    active_days: 11
+    pushes_per_repo: 3.2222
+    active_days: 10
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 18
-    pushes_per_repo: 4.5556
-    active_days: 40
+    pushes_per_repo: 4.5000
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dohnuts"
@@ -156,6 +156,6 @@ repos:
 
 # PsiACE
 
-82 pushes across 18 repositories on 40 active days in the last 90 days of public GitHub push activity.
+81 pushes across 18 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

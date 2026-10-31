@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [18, 1, 0, 0, 0, 0, 2, 60, 10, 1, 0, 0, 0]
+pushes_per_week: [14, 1, 0, 0, 0, 0, 14, 55, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 25
+    pushes: 88
+    distinct_repos: 23
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.1333
-  repo_per_active_day: 1.6667
-  not_owned_ratio: 0.0400
-  basename_concentration: 0.0800
+  push_per_day: 5.8667
+  repo_per_active_day: 1.5333
+  not_owned_ratio: 0.0435
+  basename_concentration: 0.0870
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
-    distinct_repos: 25
-    pushes_per_repo: 3.6800
+    pushes: 88
+    distinct_repos: 23
+    pushes_per_repo: 3.8261
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -148,6 +148,6 @@ repos:
 
 # Londopy
 
-92 pushes across 25 repositories on 15 active days in the last 90 days of public GitHub push activity.
+88 pushes across 23 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Londopy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 15, 5, 8, 7, 0, 1, 7, 8, 0, 6, 1, 2]
+pushes_per_week: [9, 15, 6, 11, 2, 1, 2, 10, 3, 0, 6, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 6
+    pushes: 9
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 5
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3793
-  repo_per_active_day: 0.1724
+  push_per_day: 2.4286
+  repo_per_active_day: 0.1786
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 5
-    pushes_per_repo: 13.8000
-    active_days: 29
+    pushes_per_repo: 13.6000
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stream-mdx"
@@ -129,6 +129,6 @@ repos:
 
 # kmccleary3301
 
-69 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+68 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

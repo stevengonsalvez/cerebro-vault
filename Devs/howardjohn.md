@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [17, 9, 2, 2, 0, 1, 3, 8, 10, 8, 10, 7, 1]
+pushes_per_week: [15, 10, 2, 1, 0, 1, 5, 6, 14, 4, 10, 7, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
-    distinct_repos: 6
-    active_days: 14
-    repos_not_owned: 3
+    pushes: 31
+    distinct_repos: 5
+    active_days: 13
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 9
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 0.2727
+  push_per_day: 2.3750
+  repo_per_active_day: 0.2812
   not_owned_ratio: 0.5556
   basename_concentration: 0.5556
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 34
-    distinct_repos: 6
-    pushes_per_repo: 5.6667
-    active_days: 14
-    repos_not_owned: 3
+    pushes: 31
+    distinct_repos: 5
+    pushes_per_repo: 6.2000
+    active_days: 13
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 9
-    pushes_per_repo: 8.6667
-    active_days: 33
+    pushes_per_repo: 8.4444
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "registry-redirector"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-78 pushes across 9 repositories on 33 active days in the last 90 days of public GitHub push activity.
+76 pushes across 9 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

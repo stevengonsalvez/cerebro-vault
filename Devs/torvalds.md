@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [2, 2, 3, 1, 0, 0, 0, 3, 4, 4, 3, 2, 1]
+pushes_per_week: [0, 2, 3, 1, 0, 0, 2, 3, 3, 3, 3, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 2
-    active_days: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1905
-  repo_per_active_day: 0.0952
+  push_per_day: 1.2105
+  repo_per_active_day: 0.1053
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 21
+    pushes_per_repo: 11.5000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "linux"
@@ -129,6 +129,6 @@ repos:
 
 # torvalds
 
-25 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
+23 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/torvalds

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 7, 2, 1, 0, 2, 10, 9, 26, 10, 21, 1, 0]
+pushes_per_week: [5, 7, 1, 1, 0, 2, 10, 27, 11, 8, 20, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 52
-    active_days: 34
+    active_days: 33
     repos_not_owned: 20
     not_owned_basenames: 19
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.7647
-  repo_per_active_day: 1.5294
+  push_per_day: 2.8182
+  repo_per_active_day: 1.5758
   not_owned_ratio: 0.3846
   basename_concentration: 0.0385
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 5
   "90d":
-    pushes: 94
+    pushes: 93
     distinct_repos: 52
-    pushes_per_repo: 1.8077
-    active_days: 34
+    pushes_per_repo: 1.7885
+    active_days: 33
     repos_not_owned: 20
     not_owned_basenames: 19
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bitbar-dnscrypt-proxy-switcher"
@@ -170,6 +170,6 @@ repos:
 
 # jedisct1
 
-94 pushes across 52 repositories on 34 active days in the last 90 days of public GitHub push activity.
+93 pushes across 52 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

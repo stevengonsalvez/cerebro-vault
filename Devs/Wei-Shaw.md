@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [5, 17, 7, 5, 2, 3, 7, 12, 8, 6, 4, 2, 0]
+pushes_per_week: [6, 14, 7, 5, 2, 6, 5, 11, 12, 3, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 6
-    active_days: 34
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.2941
-  repo_per_active_day: 0.1765
+  push_per_day: 2.3750
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 6
-    pushes_per_repo: 13.0000
-    active_days: 34
+    pushes_per_repo: 12.6667
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-relay-service"
@@ -149,6 +149,6 @@ repos:
 
 # Wei-Shaw
 
-78 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
+76 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 10, 22, 3, 0, 6, 8, 3, 4, 9, 7, 6, 2]
+pushes_per_week: [3, 14, 18, 3, 0, 7, 7, 5, 2, 9, 7, 6, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 12
-    active_days: 33
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5758
-  repo_per_active_day: 0.3636
+  push_per_day: 2.5938
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.1667
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 83
     distinct_repos: 12
-    pushes_per_repo: 7.0833
-    active_days: 33
+    pushes_per_repo: 6.9167
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zero-bridge-desktop"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-85 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
+83 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

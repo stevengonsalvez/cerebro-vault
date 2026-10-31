@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 13, 2, 6, 6, 4, 18, 18, 15, 17, 12, 3, 2]
+pushes_per_week: [19, 5, 0, 11, 1, 6, 20, 18, 12, 17, 11, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 125
     distinct_repos: 8
-    active_days: 48
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.1667
+  push_per_day: 2.6596
+  repo_per_active_day: 0.1702
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 125
     distinct_repos: 8
-    pushes_per_repo: 16.0000
-    active_days: 48
+    pushes_per_repo: 15.6250
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opendum"
@@ -140,6 +140,6 @@ repos:
 
 # sachnun
 
-128 pushes across 8 repositories on 48 active days in the last 90 days of public GitHub push activity.
+125 pushes across 8 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

@@ -10,14 +10,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [14, 3, 3, 0, 0, 3, 31, 44, 39, 4, 0, 4, 0]
+pushes_per_week: [10, 4, 1, 0, 0, 10, 43, 33, 35, 0, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,23 +27,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 18
-    active_days: 5
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 11
+    distinct_repos: 9
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 140
     distinct_repos: 47
-    active_days: 30
+    active_days: 29
     repos_not_owned: 35
     not_owned_basenames: 35
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.8333
-  repo_per_active_day: 1.5667
+  push_per_day: 4.8276
+  repo_per_active_day: 1.6207
   not_owned_ratio: 0.7447
   basename_concentration: 0.0426
   shapes: []
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 18
-    pushes_per_repo: 1.5556
-    active_days: 5
-    repos_not_owned: 10
-    not_owned_basenames: 10
+    pushes: 11
+    distinct_repos: 9
+    pushes_per_repo: 1.2222
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 145
+    pushes: 140
     distinct_repos: 47
-    pushes_per_repo: 3.0851
-    active_days: 30
+    pushes_per_repo: 2.9787
+    active_days: 29
     repos_not_owned: 35
     not_owned_basenames: 35
     not_owned_owners: 1
 reasons:
   - "provenance: 5 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "roli-lpci"
@@ -221,6 +221,6 @@ repos:
 
 # roli-lpci
 
-145 pushes across 47 repositories on 30 active days in the last 90 days of public GitHub push activity.
+140 pushes across 47 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roli-lpci

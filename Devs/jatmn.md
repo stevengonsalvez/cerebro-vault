@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [14, 22, 16, 11, 1, 0, 1, 5, 6, 8, 30, 9, 15]
+pushes_per_week: [10, 24, 16, 6, 1, 1, 1, 7, 4, 12, 25, 12, 12]
 windows:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 8
-    active_days: 4
+    active_days: 3
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "30d":
-    pushes: 64
-    distinct_repos: 19
-    active_days: 17
+    pushes: 62
+    distinct_repos: 18
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 138
-    distinct_repos: 25
-    active_days: 45
-    repos_not_owned: 9
+    pushes: 131
+    distinct_repos: 24
+    active_days: 43
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.0667
-  repo_per_active_day: 0.5556
-  not_owned_ratio: 0.3600
-  basename_concentration: 0.4000
+  push_per_day: 3.0465
+  repo_per_active_day: 0.5581
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.8750
+    active_days: 3
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "30d":
-    pushes: 64
-    distinct_repos: 19
-    pushes_per_repo: 3.3684
-    active_days: 17
+    pushes: 62
+    distinct_repos: 18
+    pushes_per_repo: 3.4444
+    active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 138
-    distinct_repos: 25
-    pushes_per_repo: 5.5200
-    active_days: 45
-    repos_not_owned: 9
+    pushes: 131
+    distinct_repos: 24
+    pushes_per_repo: 5.4583
+    active_days: 43
+    repos_not_owned: 8
     not_owned_basenames: 1
-    not_owned_owners: 9
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jModGuard"
@@ -136,6 +136,6 @@ repos:
 
 # jatmn
 
-138 pushes across 25 repositories on 45 active days in the last 90 days of public GitHub push activity.
+131 pushes across 24 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

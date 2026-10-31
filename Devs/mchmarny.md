@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 11, 5, 7, 2, 3, 15, 16, 11, 5, 12, 2, 0]
+pushes_per_week: [7, 11, 6, 7, 1, 9, 14, 11, 15, 3, 10, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 9
-    active_days: 10
+    active_days: 8
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 9
-    pushes_per_repo: 2.4444
-    active_days: 10
+    pushes_per_repo: 2.1111
+    active_days: 8
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
@@ -89,7 +89,7 @@ repos:
       - "kubernetes"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-30"
   - name: "vimp"
     title: "vimp"
     description: "Aggregate vulnerability scans from multiple container image scanners to identify discrepancies and get comprehensive exposure analysis."

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 2, 1, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,7 +89,31 @@ repos:
       - "ubuntu"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
+  - name: "pi-watch"
+    title: "pi-watch"
+    description: "A Pi extension with a native macOS companion app for monitoring session status across Kitty panes."
+    language: "Rust"
+    topics:
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+      - "watch"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "pi-aws-assume"
+    title: "pi-aws-assume"
+    description: "Pi extension for selecting project-allowed AWS profiles through Granted, with per-session approval and a dedicated credentialed shell tool."
+    language: "JavaScript"
+    topics:
+      - "aws-assume"
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "pi-prompt-snippets"
     title: "pi-prompt-snippets"
     description: "Manage prompt snippets without polluting context up front."
@@ -114,18 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "pi-aws-assume"
-    title: "pi-aws-assume"
-    description: "Pi extension for selecting project-allowed AWS profiles through Granted, with per-session approval and a dedicated credentialed shell tool."
-    language: "JavaScript"
-    topics:
-      - "aws-assume"
-      - "pi-coding-agent"
-      - "pi-extension"
-      - "pi-package"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "pi-prompt-filter"
     title: "pi-prompt-filter"
     description: "Pi extension to prevent prompt execution for typos or anything on a customizable list."
@@ -138,14 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-16"
-  - name: "pi-models"
-    title: "pi-models"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
 ---
 
 # datfinesoul

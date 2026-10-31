@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 6, 5, 1, 0, 3, 11, 38, 12, 14, 2, 2, 0]
+pushes_per_week: [2, 8, 3, 1, 1, 5, 40, 10, 19, 3, 2, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
-    distinct_repos: 15
-    active_days: 37
+    pushes: 96
+    distinct_repos: 14
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7027
-  repo_per_active_day: 0.4054
+  push_per_day: 2.8235
+  repo_per_active_day: 0.4118
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
-    distinct_repos: 15
-    pushes_per_repo: 6.6667
-    active_days: 37
+    pushes: 96
+    distinct_repos: 14
+    pushes_per_repo: 6.8571
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "copilot-sdk-zig"
@@ -133,6 +133,6 @@ repos:
 
 # scaryrawr
 
-100 pushes across 15 repositories on 37 active days in the last 90 days of public GitHub push activity.
+96 pushes across 14 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

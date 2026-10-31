@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-28T07:04:58.274214+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
+  push_per_day: 1.0000
   repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
+    pushes_per_repo: 1.2500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # juliandickie
 
-6 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/juliandickie

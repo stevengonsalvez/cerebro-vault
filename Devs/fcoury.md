@@ -9,11 +9,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
   - "094c4918ba5c2d38"
+  - "10be109ee0bd01c4"
   - "2204ba57be324ff7"
   - "255cde9f48a82982"
   - "311c4544be952c28"
@@ -36,7 +37,8 @@ provenance:
   - "c6b4a874521ceb02"
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
-pushes_per_week: [3, 12, 22, 2, 0, 0, 0, 1, 8, 0, 4, 2, 0]
+  - "f4325bf458dce49e"
+pushes_per_week: [2, 27, 7, 2, 0, 0, 1, 4, 4, 0, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -53,18 +55,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 8
-    active_days: 19
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 53
+    distinct_repos: 7
+    active_days: 18
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8421
-  repo_per_active_day: 0.4211
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 2.9444
+  repo_per_active_day: 0.3889
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -89,16 +91,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
-    distinct_repos: 8
-    pushes_per_repo: 6.7500
-    active_days: 19
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 53
+    distinct_repos: 7
+    pushes_per_repo: 7.5714
+    active_days: 18
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 25 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "provenance: 27 vault signal(s) — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "config"
@@ -158,6 +160,6 @@ repos:
 
 # fcoury
 
-54 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+53 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -78,6 +78,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "OpenOcto"
+    title: "OpenOcto"
+    description: "A local embodied AI laboratory: visual LLM control, real MuJoCo physics, Inspect Robots evaluation, and auditable experiments."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "thrush-swe-agent"
+    title: "thrush-swe-agent"
+    description: "Thrush is a SWE agent: it reads, reasons, and chambers code changes for you"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "RZK-The-Hunter"
     title: "RZK-The-Hunter"
     description: "A parasitic investigation skill for AI agents. Adaptive research, verified sources, traceable evidence."
@@ -94,14 +110,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "thrush-swe-agent"
-    title: "thrush-swe-agent"
-    description: "Thrush is a SWE agent: it reads, reasons, and chambers code changes for you"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 63
-    first_seen: null
-    last_push: "2026-09-28"
   - name: "Rozooka-The-Gazer"
     title: "Rozooka-The-Gazer"
     description: "EYE👁"

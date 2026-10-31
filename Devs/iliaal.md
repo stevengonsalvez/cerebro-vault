@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 8, 3, 6, 1, 2, 7, 20, 39, 52, 29, 8, 6]
+pushes_per_week: [9, 8, 5, 5, 0, 2, 9, 26, 41, 45, 26, 11, 3]
 windows:
   "7d":
     pushes: 6
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 108
-    distinct_repos: 26
-    active_days: 20
+    pushes: 97
+    distinct_repos: 25
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 197
+    pushes: 190
     distinct_repos: 32
-    active_days: 47
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.1915
-  repo_per_active_day: 0.6809
+  push_per_day: 4.1304
+  repo_per_active_day: 0.6957
   not_owned_ratio: 0.1562
   basename_concentration: 0.1562
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 108
-    distinct_repos: 26
-    pushes_per_repo: 4.1538
-    active_days: 20
+    pushes: 97
+    distinct_repos: 25
+    pushes_per_repo: 3.8800
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 197
+    pushes: 190
     distinct_repos: 32
-    pushes_per_repo: 6.1562
-    active_days: 47
+    pushes_per_repo: 5.9375
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "whetstone"
@@ -175,6 +175,6 @@ repos:
 
 # iliaal
 
-197 pushes across 32 repositories on 47 active days in the last 90 days of public GitHub push activity.
+190 pushes across 32 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [103, 188, 107, 35, 6, 21, 29, 50, 93, 65, 116, 8, 17]
+pushes_per_week: [101, 207, 53, 23, 2, 24, 43, 50, 103, 53, 101, 13, 12]
 windows:
   "7d":
     pushes: 17
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 236
+    pushes: 218
     distinct_repos: 25
-    active_days: 21
+    active_days: 19
     repos_not_owned: 24
     not_owned_basenames: 13
     not_owned_owners: 8
   "90d":
-    pushes: 838
-    distinct_repos: 51
-    active_days: 70
-    repos_not_owned: 49
-    not_owned_basenames: 18
-    not_owned_owners: 26
+    pushes: 785
+    distinct_repos: 49
+    active_days: 68
+    repos_not_owned: 47
+    not_owned_basenames: 17
+    not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 11.9714
-  repo_per_active_day: 0.7286
-  not_owned_ratio: 0.9608
-  basename_concentration: 0.1961
+  push_per_day: 11.5441
+  repo_per_active_day: 0.7206
+  not_owned_ratio: 0.9592
+  basename_concentration: 0.2041
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 3
   "30d":
-    pushes: 236
+    pushes: 218
     distinct_repos: 25
-    pushes_per_repo: 9.4400
-    active_days: 21
+    pushes_per_repo: 8.7200
+    active_days: 19
     repos_not_owned: 24
     not_owned_basenames: 13
     not_owned_owners: 8
   "90d":
-    pushes: 838
-    distinct_repos: 51
-    pushes_per_repo: 16.4314
-    active_days: 70
-    repos_not_owned: 49
-    not_owned_basenames: 18
-    not_owned_owners: 26
+    pushes: 785
+    distinct_repos: 49
+    pushes_per_repo: 16.0204
+    active_days: 68
+    repos_not_owned: 47
+    not_owned_basenames: 17
+    not_owned_owners: 25
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pydata-book"
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-838 pushes across 51 repositories on 70 active days in the last 90 days of public GitHub push activity.
+785 pushes across 49 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

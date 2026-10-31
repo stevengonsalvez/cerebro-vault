@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 1, 0, 5, 1, 0, 30, 16, 33, 14, 8, 11, 35]
+pushes_per_week: [1, 0, 2, 3, 1, 4, 26, 26, 33, 8, 4, 12, 34]
 windows:
   "7d":
     pushes: 35
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 80
+    pushes: 71
     distinct_repos: 10
-    active_days: 16
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 155
+    pushes: 154
     distinct_repos: 12
-    active_days: 38
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0789
-  repo_per_active_day: 0.3158
+  push_per_day: 4.1622
+  repo_per_active_day: 0.3243
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 80
+    pushes: 71
     distinct_repos: 10
-    pushes_per_repo: 8.0000
-    active_days: 16
+    pushes_per_repo: 7.1000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 155
+    pushes: 154
     distinct_repos: 12
-    pushes_per_repo: 12.9167
-    active_days: 38
+    pushes_per_repo: 12.8333
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ninfer"
@@ -177,6 +177,6 @@ repos:
 
 # alphastorm
 
-155 pushes across 12 repositories on 38 active days in the last 90 days of public GitHub push activity.
+154 pushes across 12 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alphastorm

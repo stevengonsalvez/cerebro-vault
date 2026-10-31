@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [6, 16, 2, 1, 1, 1, 27, 1, 37, 38, 4, 9, 0]
+pushes_per_week: [3, 17, 1, 2, 0, 1, 27, 7, 43, 30, 0, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 15
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
-    distinct_repos: 28
+    pushes: 140
+    distinct_repos: 27
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.3333
-  repo_per_active_day: 0.8485
+  push_per_day: 4.2424
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
+    pushes: 53
     distinct_repos: 15
-    pushes_per_repo: 3.6667
-    active_days: 13
+    pushes_per_repo: 3.5333
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
-    distinct_repos: 28
-    pushes_per_repo: 5.1071
+    pushes: 140
+    distinct_repos: 27
+    pushes_per_repo: 5.1852
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -135,6 +135,6 @@ repos:
 
 # tianrking
 
-143 pushes across 28 repositories on 33 active days in the last 90 days of public GitHub push activity.
+140 pushes across 27 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tianrking

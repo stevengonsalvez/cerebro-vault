@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [10, 11, 11, 8, 4, 5, 5, 11, 3, 18, 10, 4, 2]
+pushes_per_week: [7, 17, 4, 8, 3, 5, 9, 7, 5, 16, 10, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 5
-    active_days: 14
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 97
     distinct_repos: 8
-    active_days: 44
+    active_days: 42
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3182
-  repo_per_active_day: 0.1818
+  push_per_day: 2.3095
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.8750
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 35
     distinct_repos: 5
-    pushes_per_repo: 7.4000
-    active_days: 14
+    pushes_per_repo: 7.0000
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 102
+    pushes: 97
     distinct_repos: 8
-    pushes_per_repo: 12.7500
-    active_days: 44
+    pushes_per_repo: 12.1250
+    active_days: 42
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aos-dj"
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-102 pushes across 8 repositories on 44 active days in the last 90 days of public GitHub push activity.
+97 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

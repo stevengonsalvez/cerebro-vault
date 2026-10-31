@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [25, 44, 5, 9, 1, 15, 14, 2, 40, 36, 105, 60, 32]
+pushes_per_week: [35, 29, 2, 10, 2, 13, 14, 32, 26, 29, 96, 66, 26]
 windows:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 2
-    active_days: 5
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 237
+    pushes: 234
     distinct_repos: 4
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 388
+    pushes: 380
     distinct_repos: 7
-    active_days: 58
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.6897
-  repo_per_active_day: 0.1207
+  push_per_day: 6.7857
+  repo_per_active_day: 0.1250
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 5
+    pushes_per_repo: 15.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 237
+    pushes: 234
     distinct_repos: 4
-    pushes_per_repo: 59.2500
+    pushes_per_repo: 58.5000
     active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 388
+    pushes: 380
     distinct_repos: 7
-    pushes_per_repo: 55.4286
-    active_days: 58
+    pushes_per_repo: 54.2857
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tstack"
@@ -136,6 +136,6 @@ repos:
 
 # t3dotgg
 
-388 pushes across 7 repositories on 58 active days in the last 90 days of public GitHub push activity.
+380 pushes across 7 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

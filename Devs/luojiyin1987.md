@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [15, 52, 23, 9, 3, 7, 5, 8, 9, 6, 6, 3, 5]
+pushes_per_week: [14, 60, 17, 5, 2, 8, 9, 4, 10, 6, 4, 3, 5]
 windows:
   "7d":
     pushes: 5
@@ -26,25 +26,25 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 13
     active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 151
-    distinct_repos: 45
-    active_days: 48
+    pushes: 147
+    distinct_repos: 44
+    active_days: 47
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1458
-  repo_per_active_day: 0.9375
-  not_owned_ratio: 0.1333
-  basename_concentration: 0.0444
+  push_per_day: 3.1277
+  repo_per_active_day: 0.9362
+  not_owned_ratio: 0.1364
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -61,24 +61,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 13
-    pushes_per_repo: 1.7692
+    pushes_per_repo: 1.6923
     active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 151
-    distinct_repos: 45
-    pushes_per_repo: 3.3556
-    active_days: 48
+    pushes: 147
+    distinct_repos: 44
+    pushes_per_repo: 3.3409
+    active_days: 47
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-151 pushes across 45 repositories on 48 active days in the last 90 days of public GitHub push activity.
+147 pushes across 44 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 2, 1, 0, 3, 1, 0, 1, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 2, 1, 1, 2, 1, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,7 +94,30 @@ repos:
       - "token-usage"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
+  - name: "deepdive"
+    title: "deepdive"
+    description: "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "agentic-workflow"
+      - "ai-research-assistant"
+      - "anthropic"
+      - "citation-verification"
+      - "claude"
+      - "claude-code"
+      - "deep-research"
+      - "llm-research"
+      - "markdown"
+      - "meta-research"
+      - "prompt-engineering"
+      - "rag"
+      - "research-automation"
+      - "research-methodology"
+    stars_fact: 369
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "agentburn"
     title: "agentburn"
     description: "Which 5-hour window took you out — and where the money goes. Local profiler for Claude Code, OpenClaw & Hermes Agent: usage windows, burn by source (cron/chats/subagents), the overnight bill, why it burns (loops, retries, idle wake-ups), ready config fixes. Zero deps, nothing leaves your machine."
@@ -116,30 +139,15 @@ repos:
       - "usage-limits"
     stars_fact: 113
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "deepdive"
-    title: "deepdive"
-    description: "Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection, relevance × authority evidence filter, multi-angle red team, four-layer citation verification. 105 blocks, 29 channels, 460+ stat sources, 47 APIs, 1072 verified endpoints."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "agentic-workflow"
-      - "ai-research-assistant"
-      - "anthropic"
-      - "citation-verification"
-      - "claude"
-      - "claude-code"
-      - "deep-research"
-      - "llm-research"
-      - "markdown"
-      - "meta-research"
-      - "prompt-engineering"
-      - "rag"
-      - "research-automation"
-      - "research-methodology"
-    stars_fact: 373
+    last_push: "2026-10-28"
+  - name: "handoff-skill"
+    title: "handoff-skill"
+    description: "Claude Code skill: executable context handoff between sessions"
+    language: null
+    topics: []
+    stars_fact: 36
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-08-01"
   - name: "fynd-dyrka-plugin"
     title: "fynd-dyrka-plugin"
     description: "Security-аудит в семь слоёв для Claude Code: SAST, секреты, зависимости, IaC, DAST, recon и состояние прода + ручной разбор логических дыр с подтверждением прогоном"
@@ -165,14 +173,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-02"
-  - name: "handoff-skill"
-    title: "handoff-skill"
-    description: "Claude Code skill: executable context handoff between sessions"
-    language: null
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # Socialpranker

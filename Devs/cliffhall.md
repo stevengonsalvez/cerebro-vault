@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-10-31T07:04:37.839675+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [7, 15, 19, 22, 0, 10, 8, 11, 24, 31, 11, 5, 5]
+pushes_per_week: [2, 15, 18, 21, 1, 10, 8, 17, 18, 31, 10, 6, 4]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 62
+    pushes: 52
     distinct_repos: 3
-    active_days: 14
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 161
     distinct_repos: 3
-    active_days: 42
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.0714
+  push_per_day: 3.9268
+  repo_per_active_day: 0.0732
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 62
+    pushes: 52
     distinct_repos: 3
-    pushes_per_repo: 20.6667
-    active_days: 14
+    pushes_per_repo: 17.3333
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 161
     distinct_repos: 3
-    pushes_per_repo: 56.0000
-    active_days: 42
+    pushes_per_repo: 53.6667
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-c64"
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-168 pushes across 3 repositories on 42 active days in the last 90 days of public GitHub push activity.
+161 pushes across 3 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall
