@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [5, 6, 0, 1, 0, 1, 2, 0, 1, 7, 0, 1, 0]
+pushes_per_week: [9, 1, 0, 1, 0, 1, 2, 1, 1, 6, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 7
     active_days: 12
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.9167
   repo_per_active_day: 0.5833
   not_owned_ratio: 0.1429
   basename_concentration: 0.2857
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 7
-    pushes_per_repo: 3.4286
+    pushes_per_repo: 3.2857
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -102,38 +102,9 @@ repos:
       - "vscode"
       - "vulnerabilities"
       - "vulnerability"
-    stars_fact: 494
+    stars_fact: 501
     first_seen: null
     last_push: "2026-08-24"
-  - name: "cybersecurity-daily"
-    title: "cybersecurity-daily"
-    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
-    language: "HTML"
-    topics:
-      - "cybersecurity"
-      - "hacker-news"
-      - "html"
-      - "security"
-      - "vulnerability"
-    stars_fact: 135
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "AI-Animation-Skill"
-    title: "AI-Animation-Skill"
-    description: "使用 AI 生成 HTML 演示动画的工具集，让视频创作者能够快速将科普文本转换为炫酷的演示动画。"
-    language: "HTML"
-    topics:
-      - "css"
-      - "css3"
-      - "front-end"
-      - "html5"
-      - "html5-css3"
-      - "html5-css3-javascript"
-      - "javascript"
-      - "ppt"
-    stars_fact: 592
-    first_seen: null
-    last_push: "2026-04-16"
   - name: "AI_Animation"
     title: "AI_Animation"
     description: "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。"
@@ -152,29 +123,38 @@ repos:
       - "prompt-engineering"
       - "skill"
       - "skills"
-    stars_fact: 1609
+    stars_fact: 1683
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "starlit"
-    title: "starlit"
-    description: "自托管 QQ AI 伴侣：有记忆、有情绪、有自己的生活，会主动找你说话。NapCat / OneBot 11 双通道，支持自定义角色与热情/好感关系参数。"
-    language: "Python"
+    last_push: "2026-10-26"
+  - name: "cybersecurity-daily"
+    title: "cybersecurity-daily"
+    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
+    language: "HTML"
     topics:
-      - "ai-companion"
-      - "asyncio"
-      - "blue-archive"
-      - "chatbot"
-      - "deepseek"
-      - "llm"
-      - "napcat"
-      - "onebot11"
-      - "python"
-      - "qq-bot"
-      - "self-hosted"
-      - "sqlite"
-    stars_fact: 1
+      - "cybersecurity"
+      - "hacker-news"
+      - "html"
+      - "security"
+      - "vulnerability"
+    stars_fact: 133
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "AI-weekly"
+    title: "AI-weekly"
+    description: "AI人工智能周报—每周推送；weekly updated report on Artificial Intelligence hotspots"
+    language: "HTML"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "starlit.com"
+    title: "starlit.com"
+    description: "星伴公开项目主页：本地二次元角色聊天，Windows 与 Android 双端"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "poc-lab"
     title: "poc-lab"
     description: "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more."
@@ -187,13 +167,13 @@ repos:
       - "python"
       - "python3"
       - "vulnerability"
-    stars_fact: 815
+    stars_fact: 821
     first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-10-26"
 ---
 
 # Unclecheng-li
 
-24 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
+23 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Unclecheng-li

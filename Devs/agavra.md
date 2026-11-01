@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [2, 1, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0]
@@ -87,9 +87,9 @@ repos:
       - "code-review"
       - "rust"
       - "tui"
-    stars_fact: 3452
+    stars_fact: 3498
     first_seen: "2026-07-31T06:00:07.664216+00:00"
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
   - name: "yuzudraw"
     title: "yuzudraw"
     description: "visual ASCII editor for both humans and agents"

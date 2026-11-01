@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 12, 4, 0, 1, 2, 3, 3, 1, 2, 9, 1, 0]
+pushes_per_week: [4, 12, 4, 0, 1, 2, 4, 2, 3, 2, 7, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,15 @@ repos:
       - "github-config"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
+  - name: "JS-Animation-Webpage"
+    title: "JS-Animation-Webpage"
+    description: "Claude Code skill for adding stunning JavaScript animations to any web project. Covers GSAP, Three.js, anime.js, Motion.dev, and 30+ libraries with production-ready code recipes."
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-25"
   - name: "ai-canvas-branching"
     title: "ai-canvas-branching"
     description: "Infinite canvas for branching AI conversations with dynamic node positioning and multi-canvas support"

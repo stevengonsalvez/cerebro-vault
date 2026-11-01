@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [7, 8, 1, 5, 0, 3, 6, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [10, 4, 5, 1, 1, 2, 6, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 10
-    active_days: 16
+    pushes: 32
+    distinct_repos: 9
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0625
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.1000
-  basename_concentration: 0.2000
+  push_per_day: 2.1333
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 10
-    pushes_per_repo: 3.3000
-    active_days: 16
+    pushes: 32
+    distinct_repos: 9
+    pushes_per_repo: 3.5556
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ModelPort"
+    title: "ModelPort"
+    description: "ModelPort is a self-hosted Anthropic-compatible model gateway for Claude Code, VS Code Claude, and team-controlled provider routing."
+    language: "Rust"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "RepoSteward"
     title: "RepoSteward"
     description: "Local-first, policy-gated control plane for turning GitHub issues into verified, human-reviewed pull requests with coding agents."
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "ModelPort"
-    title: "ModelPort"
-    description: "ModelPort is a self-hosted Anthropic-compatible model gateway for Claude Code, VS Code Claude, and team-controlled provider routing."
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # tiammomo
 
-33 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
+32 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tiammomo

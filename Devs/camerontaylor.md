@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 1, 1, 0, 1, 28, 37, 21, 12, 14, 4, 3]
+pushes_per_week: [0, 0, 1, 1, 0, 4, 33, 31, 27, 14, 4, 7, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "cq-fixtures"
     title: "cq-fixtures"
     description: "Scored per-role task suites, fixtures, schemas and eval runner for cq-toolkit (plan §3.2; ws-j). Public MIT from day one."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 1, 5, 0, 3, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 2, 3, 2, 1, 2, 2, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,46 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "SEMANGAT"
+    title: "SEMANGAT"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "SIMSMA"
+    title: "SIMSMA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "SIMASUK"
+    title: "SIMASUK"
+    description: "Aplikasi Administrasi Surat Masuk (Pelatihan Vibe Coding)"
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "ODIN-TURBO-PASCAL"
     title: "ODIN-TURBO-PASCAL"
     description: null
     language: "Pascal"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-25"
+  - name: "pelatihan-prakom"
+    title: "pelatihan-prakom"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "SIMANABOS"
     title: "SIMANABOS"
     description: null
@@ -93,38 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "mDonatur"
-    title: "mDonatur"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "SAKIPRO"
-    title: "SAKIPRO"
-    description: "SAKIPRO adalah AI CLI Agent untuk Kasubbag Perencanaan OPD yang membantu membaca folder dokumen SAKIP, mengecek indikator, cascading, PK, LKjIP, evidence, lalu menyusun rekomendasi dan laporan perbaikan secara cepat di laptop kantor."
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-30"
-  - name: "RuangASN"
-    title: "RuangASN"
-    description: null
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "arsitektur-pemdi-opd"
-    title: "arsitektur-pemdi-opd"
-    description: "Skill Claude untuk menyusun Arsitektur Pemdi/SPBE tingkat OPD, universal untuk semua kabupaten/kota Indonesia. Memetakan 6 domain (As-is dan To-be), selaras format portal SIA-SPBE, dengan disiplin anti-fabrikasi. Dasar: Perpres 132/2022, UU 23/2014, Permenpan 8/2026."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-11"
 ---
 
 # Syamsuddin

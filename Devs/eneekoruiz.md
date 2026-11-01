@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 1, 0, 0, 9, 3, 13, 7, 9, 3, 5, 2]
+pushes_per_week: [0, 0, 1, 0, 2, 8, 7, 8, 10, 7, 2, 7, 0]
 windows:
   "7d":
     pushes: 2
@@ -78,51 +78,46 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "eneekoruiz"
-    title: "eneekoruiz"
-    description: "Software engineer focused on full-stack applications and automation tools."
-    language: null
-    topics:
-      - "full-stack"
-      - "github-profile"
-      - "software-engineer"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "EmergencyToolKitUSB"
-    title: "EmergencyToolKitUSB"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "Curriculum"
-    title: "Curriculum"
-    description: "Dependency-free interactive web CV with multilingual content and an A4 print layout."
-    language: "JavaScript"
-    topics:
-      - "curriculum-vitae"
-      - "i18n"
-      - "javascript"
-      - "portfolio"
-      - "print-css"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "helen"
-    title: "helen"
-    description: "CLI for scaffolding React and Vite projects with optional Docker and GitHub Actions configuration."
+  - name: "ana-peluquera"
+    title: "ana-peluquera"
+    description: "Next.js booking website and content dashboard for a local hair and beauty salon."
     language: "TypeScript"
     topics:
-      - "cli"
-      - "docker"
-      - "github-actions"
-      - "react"
-      - "vite"
-    stars_fact: 1
+      - "booking-system"
+      - "firebase"
+      - "google-calendar"
+      - "nextjs"
+      - "typescript"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP."
+    language: "TypeScript"
+    topics:
+      - "gsap"
+      - "nextjs"
+      - "portfolio"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "revista"
+    title: "revista"
+    description: "Interactive digital magazine and community platform built with Next.js, React Three Fiber (3D), and Sanity.io CMS."
+    language: "TypeScript"
+    topics:
+      - "3d"
+      - "magazine"
+      - "nextjs"
+      - "react-three-fiber"
+      - "sanity-cms"
+      - "tailwindcss"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "recordatorios"
     title: "recordatorios"
     description: "Offline-first productivity and reminder PWA built with React, TypeScript, Dexie.js (IndexedDB), and PostgreSQL sync."
@@ -138,20 +133,31 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "coach"
-    title: "coach"
-    description: "Next.js dashboard for tracking habits, nutrition notes, mood, and wellness routines."
-    language: "TypeScript"
+    last_push: "2026-11-01"
+  - name: "eneekoruiz"
+    title: "eneekoruiz"
+    description: "Software engineer focused on full-stack applications and automation tools."
+    language: null
     topics:
-      - "dashboard"
-      - "nextjs"
-      - "supabase"
-      - "typescript"
-      - "wellness"
+      - "full-stack"
+      - "github-profile"
+      - "software-engineer"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
+  - name: "gallery_organizer"
+    title: "gallery_organizer"
+    description: "Local Streamlit tool for indexing, searching, and reviewing photo and video collections."
+    language: "TypeScript"
+    topics:
+      - "computer-vision"
+      - "photo-management"
+      - "python"
+      - "sqlite"
+      - "streamlit"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
 ---
 
 # eneekoruiz

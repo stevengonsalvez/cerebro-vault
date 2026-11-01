@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 8, 5, 1, 3, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 8, 4, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "playground-flight-booking"
+    title: "playground-flight-booking"
+    description: "Spring AI powered expert system demo"
+    language: "Java"
+    topics:
+      - "artificial-intelligence"
+      - "expert-system"
+      - "generative-ai"
+    stars_fact: 372
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "ing-guild-meetup-demo"
+    title: "ing-guild-meetup-demo"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "spring-ai-cli-chatbot"
     title: "spring-ai-cli-chatbot"
     description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
@@ -89,17 +108,6 @@ repos:
     stars_fact: 69
     first_seen: null
     last_push: "2026-01-03"
-  - name: "playground-flight-booking"
-    title: "playground-flight-booking"
-    description: "Spring AI powered expert system demo"
-    language: "Java"
-    topics:
-      - "artificial-intelligence"
-      - "expert-system"
-      - "generative-ai"
-    stars_fact: 370
-    first_seen: null
-    last_push: "2026-02-14"
   - name: "voxxeddays2026-demo"
     title: "voxxeddays2026-demo"
     description: null
@@ -124,14 +132,6 @@ repos:
     stars_fact: 36
     first_seen: null
     last_push: "2018-01-31"
-  - name: "tensorflow-spring-cloud-stream-app-starters"
-    title: "tensorflow-spring-cloud-stream-app-starters"
-    description: "TensorFlow Processor for Spring Cloud Dataflow"
-    language: "Java"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2017-05-30"
 ---
 
 # tzolov

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [106, 17, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6]
+pushes_per_week: [112, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2, 24, 4]
 windows:
   "7d":
     pushes: 6
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 153
-    distinct_repos: 85
-    active_days: 14
+    pushes: 145
+    distinct_repos: 80
+    active_days: 13
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 10.9286
-  repo_per_active_day: 6.0714
-  not_owned_ratio: 0.1059
-  basename_concentration: 0.0235
+  push_per_day: 11.1538
+  repo_per_active_day: 6.1538
+  not_owned_ratio: 0.1125
+  basename_concentration: 0.0250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 153
-    distinct_repos: 85
-    pushes_per_repo: 1.8000
-    active_days: 14
+    pushes: 145
+    distinct_repos: 80
+    pushes_per_repo: 1.8125
+    active_days: 13
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pyropdf"
+    title: "pyropdf"
+    description: "Complete control of PDF from Python, rebuilt on one versioned object store; the planned successor of pylopdf"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "vastgrid"
     title: "vastgrid"
     description: "A React data grid for CSV, TSV, Parquet and JSON Lines files of any size, with spreadsheet features."
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
   - name: "parapdf"
     title: "parapdf"
     description: "A fast PDF viewer for React, built on pdf.js"
@@ -95,32 +103,17 @@ repos:
       - "pdfjs"
       - "react"
       - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew formulae for yhay81 projects"
+    language: "Ruby"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "pylopdf"
-    title: "pylopdf"
-    description: "PDF editing, rendering, extraction, and generation for Python on the Rust engines lopdf, hayro, and krilla — MIT, safe on untrusted input, WebAssembly-ready."
-    language: "Python"
-    topics:
-      - "cloudflare-workers"
-      - "ocr"
-      - "pdf"
-      - "pdf-editing"
-      - "pdf-extraction"
-      - "pdf-generation"
-      - "pdf-library"
-      - "pdf-rendering"
-      - "pymupdf-alternative"
-      - "pyo3"
-      - "python"
-      - "rust"
-      - "table-extraction"
-      - "text-extraction"
-      - "webassembly"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-29"
   - name: "yhay81"
     title: "yhay81"
     description: "GitHub public profile"
@@ -128,44 +121,35 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "GASlacker"
-    title: "GASlacker"
-    description: "Slack Web API client for Google Apps Script — 168 methods, rate-limit retries, file uploads, OAuth v2, zero runtime dependencies"
-    language: "TypeScript"
+    last_push: "2026-10-29"
+  - name: "sqrail"
+    title: "sqrail"
+    description: "A bounded SQL-on-files CLI for coding agents. SQL in, files out."
+    language: "C++"
     topics:
-      - "automation"
-      - "clasp"
-      - "gas"
-      - "google-apps-script"
-      - "google-sheets"
-      - "google-workspace"
-      - "slack"
-      - "slack-api"
-      - "slack-bot"
-      - "typescript"
-    stars_fact: 32
+      - "ai-agents"
+      - "ai-tools"
+      - "cli"
+      - "command-line-tool"
+      - "cpp"
+      - "cpp20"
+      - "csv"
+      - "data-engineering"
+      - "data-processing"
+      - "developer-tools"
+      - "duckdb"
+      - "file-processing"
+      - "jsonl"
+      - "parquet"
+      - "sql"
+      - "sql-on-files"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "gettext-tstrings"
-    title: "gettext-tstrings"
-    description: "Safe, fast gettext and Babel integration for Python t-strings"
-    language: "Python"
-    topics:
-      - "babel"
-      - "gettext"
-      - "i18n"
-      - "internationalization"
-      - "python"
-      - "python-314"
-      - "t-strings"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-29"
 ---
 
 # yhay81
 
-153 pushes across 85 repositories on 14 active days in the last 90 days of public GitHub push activity.
+145 pushes across 80 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 7, 1, 24, 3, 0, 7, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 3, 7, 18, 2, 0, 7, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zhiiw.github.io"
+    title: "zhiiw.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "scrap_imdb"
+    title: "scrap_imdb"
+    description: "scrap the imdb and tmdb"
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2021-12-30"
   - name: "CodingHelper"
     title: "CodingHelper"
     description: "It 's atime helper for code"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2022-07-06"
-  - name: "BeijingWeatherAnalysis"
-    title: "BeijingWeatherAnalysis"
-    description: "Based on spark computing framework. And back end use Flask,front end use vue.js + quasar."
-    language: "Vue"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-07-29"
-  - name: "IDonKonwBot"
-    title: "IDonKonwBot"
-    description: "Just for fun."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-04-09"
 ---
 
 # zhiiw

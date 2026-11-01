@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 1, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "awesome-stars"
+    title: "awesome-stars"
+    description: "A curated list of my GitHub stars organized by language"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "thinking-patterns"
+    title: "thinking-patterns"
+    description: "A comprehensive MCP server that combines systematic thinking, mental models, debugging approaches, and stochastic algorithms for enhanced problem-solving capabilities."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2025-07-16"
+  - name: "omp-collapsed"
+    title: "omp-collapsed"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "hydemods"
     title: "hydemods"
     description: "A small visual registry of Hyde’s OMP tweaks"
@@ -84,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-27"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -92,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-27"
   - name: "PoetryGenerator"
     title: "PoetryGenerator"
     description: "AI Poetry Generator that uses NLTK to create a humanized poem."
@@ -101,30 +125,6 @@ repos:
     stars_fact: 22
     first_seen: null
     last_push: "2016-05-26"
-  - name: "awesome-stars"
-    title: "awesome-stars"
-    description: "A curated list of my GitHub stars organized by language"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "deleg8"
-    title: "deleg8"
-    description: "delegate work to a pi-agent with channel support through MCP."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "Drive"
-    title: "Drive"
-    description: "Warp: Drive Edition. Full privacy. No telemetry."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # emmahyde

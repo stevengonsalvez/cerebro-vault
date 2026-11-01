@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [10, 12, 0, 3, 0, 7, 8, 36, 37, 14, 14, 28, 16]
+pushes_per_week: [10, 12, 0, 3, 0, 7, 16, 38, 36, 13, 7, 43, 0]
 windows:
   "7d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 86
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 2
+    pushes_per_repo: 16.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 93
+    pushes: 86
     distinct_repos: 2
-    pushes_per_repo: 46.5000
-    active_days: 17
+    pushes_per_repo: 43.0000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,9 @@ repos:
     description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
     language: "JavaScript"
     topics: []
-    stars_fact: 41
+    stars_fact: 43
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
   - name: "businessbar"
     title: "businessbar"
     description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
   - name: "openwrt_microsocks_luci"
     title: "openwrt_microsocks_luci"
     description: "A microsocks repackage with luci interface for openwrt (ax3600 , be7000 etc) arm."

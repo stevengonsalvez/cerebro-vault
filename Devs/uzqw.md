@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "stasis"
+    title: "stasis"
+    description: "Pause the machine. Rest the human. — Rust input-locker rest tool (Linux/Wayland verified)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "pi-usage-web"
     title: "pi-usage-web"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-10"
-  - name: "stasis"
-    title: "stasis"
-    description: "Pause the machine. Rest the human. — Rust input-locker rest tool (Linux/Wayland verified)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "ownbook"
     title: "ownbook"
     description: "A self-hosted ebook reader your LLM can read — EPUB/PDF/MOBI, multi-device sync, embedded MCP server."

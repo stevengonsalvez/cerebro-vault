@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "09523f683853cee9"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,7 +85,7 @@ repos:
       - "ai"
       - "ai-tools"
       - "claude-code"
-    stars_fact: 201
+    stars_fact: 202
     first_seen: "2026-08-21T06:00:20.713166+00:00"
     last_push: "2026-09-09"
   - name: "release-tuist-sparkle"

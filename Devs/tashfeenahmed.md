@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [4, 7, 1, 9, 0, 1, 8, 26, 13, 4, 5, 8, 1]
+pushes_per_week: [4, 6, 7, 3, 1, 0, 14, 25, 10, 2, 5, 9, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 15
-    active_days: 40
+    active_days: 39
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.1750
-  repo_per_active_day: 0.3750
+  push_per_day: 2.2051
+  repo_per_active_day: 0.3846
   not_owned_ratio: 0.3333
   basename_concentration: 0.2667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 15
-    pushes_per_repo: 5.8000
-    active_days: 40
+    pushes_per_repo: 5.7333
+    active_days: 39
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "freellmapi"
@@ -82,25 +82,9 @@ repos:
     description: "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
     language: "TypeScript"
     topics: []
-    stars_fact: 40391
+    stars_fact: 45292
     first_seen: "2026-06-25T06:00:03.189917+00:00"
-    last_push: "2026-10-24"
-  - name: "OnePersonCompany"
-    title: "OnePersonCompany"
-    description: "Personal operations dashboard for a one-person company"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "tashfeenahmed"
-    title: "tashfeenahmed"
-    description: "Profile Introduction"
-    language: null
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-04-22"
+    last_push: "2026-10-31"
   - name: "AgentDomains"
     title: "AgentDomains"
     description: "Free subdomains under makes.fyi / agentdomains.co, claimed from the CLI. A/AAAA/CNAME/TXT/NS records, auto-HTTPS proxy and forwarding for the sites and APIs AI agents build."
@@ -117,7 +101,7 @@ repos:
       - "free-subdomain"
       - "https"
       - "subdomain"
-    stars_fact: 41
+    stars_fact: 42
     first_seen: null
     last_push: "2026-10-17"
   - name: "scallopbot"
@@ -145,21 +129,37 @@ repos:
       - "self-hosted"
       - "spreading-activation"
       - "typescript"
-    stars_fact: 52
+    stars_fact: 55
     first_seen: null
     last_push: "2026-10-16"
+  - name: "kinetic"
+    title: "kinetic"
+    description: "GTM tables (enrichment, AI research, signals) + cold email outreach in one self-hosted app"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "tashfeenahmed"
+    title: "tashfeenahmed"
+    description: "Profile Introduction"
+    language: null
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-04-22"
   - name: "circlechat"
     title: "circlechat"
     description: "Self-hosted team chat where humans and agents are first-class members — channels, DMs, threads, reactions, file uploads, and an agent runtime."
     language: "TypeScript"
     topics: []
-    stars_fact: 84
+    stars_fact: 86
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
 ---
 
 # tashfeenahmed
 
-87 pushes across 15 repositories on 40 active days in the last 90 days of public GitHub push activity.
+86 pushes across 15 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tashfeenahmed

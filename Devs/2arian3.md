@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 1, 0, 1, 2, 2, 1, 1, 1, 1, 2]
+pushes_per_week: [1, 0, 0, 1, 0, 2, 2, 1, 1, 1, 1, 1, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "2arian3"
-    title: "2arian3"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "T15-A4I2026"
-    title: "T15-A4I2026"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "neetcode-submissions"
     title: "neetcode-submissions"
     description: "My NeetCode.io problem submissions"
@@ -100,19 +84,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "2arian3.github.io"
-    title: "2arian3.github.io"
-    description: "This repo contains and hosts all of my personal website documents."
-    language: "HTML"
-    topics:
-      - "css"
-      - "html"
-      - "js"
-      - "personal-website"
-    stars_fact: 11
+    last_push: "2026-10-31"
+  - name: "2arian3"
+    title: "2arian3"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-31"
+  - name: "BSc-Thesis"
+    title: "BSc-Thesis"
+    description: null
+    language: "TeX"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "Landline"
+    title: "Landline"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "agentic-computation-graphs"
     title: "agentic-computation-graphs"
     description: "Characterizing and optimizing agentic computation graphs"
@@ -125,18 +121,15 @@ repos:
       - "vllm"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "docker-introduction"
-    title: "docker-introduction"
-    description: "What is Docker?"
-    language: "JavaScript"
-    topics:
-      - "docker"
-      - "dockerfile"
-      - "virtualization"
-    stars_fact: 5
+    last_push: "2026-10-30"
+  - name: "T15-A4I2026"
+    title: "T15-A4I2026"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-08"
+    last_push: "2026-10-30"
 ---
 
 # 2arian3

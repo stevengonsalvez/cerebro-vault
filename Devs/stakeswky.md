@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 1, 0, 1, 0, 0, 6, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 0, 0, 7, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Balance"
+    title: "Balance"
+    description: "Local-first quota dashboard for Claude Code, Grok, and Codex"
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "codex"
+      - "grok"
+      - "macos"
+      - "quota-tracker"
+      - "tauri"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-25"
   - name: "fastgpt-admin"
     title: "fastgpt-admin"
     description: "fastgpt项目的简略后台"
@@ -100,20 +114,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-15"
-  - name: "Balance"
-    title: "Balance"
-    description: "Local-first quota dashboard for Claude Code, Grok, and Codex"
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "codex"
-      - "grok"
-      - "macos"
-      - "quota-tracker"
-      - "tauri"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-25"
   - name: "simverse-world"
     title: "simverse-world"
     description: "赛博永生开放世界 — AI-driven cyberpunk open-world multiplayer game"

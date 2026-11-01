@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 8, 5, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 6, 6, 4, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "growth-os"
-    title: "growth-os"
-    description: "Self-hosted personal growth workspace for study planning, fitness, mindfulness, budgeting, and daily reflection."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "commerceagent"
     title: "commerceagent"
     description: "CommerceAgent：面向电商场景的智能运营工作台，支持商品、订单、客户与自动化协同。"
@@ -110,7 +102,15 @@ repos:
       - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-25"
+  - name: "growth-os"
+    title: "growth-os"
+    description: "Self-hosted personal growth workspace for study planning, fitness, mindfulness, budgeting, and daily reflection."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "health-miniprogram"
     title: "health-miniprogram"
     description: "康养日记 · 老人用药提醒与健康记录小程序（微信云开发）｜患者到点提醒 + 连续漏服家属预警"

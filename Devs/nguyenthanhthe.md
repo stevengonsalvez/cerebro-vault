@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 6]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 8, 0]
 windows:
   "7d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
+  - name: "uet-robotic-arm"
+    title: "uet-robotic-arm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "android-device"
+    title: "android-device"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "astral"
     title: "astral"
     description: "Astral — High-performance, zero-dependency Windows desktop app for autonomous Discord Quests & Rich Presence (Tauri v2 + Rust, <4MB binary)."
@@ -116,26 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-14"
-  - name: "todomvc-react-antigravity"
-    title: "todomvc-react-antigravity"
-    description: "A modern, production-grade TodoMVC application implemented in React 18+ and TypeScript."
-    language: "TypeScript"
-    topics:
-      - "production-ready"
-      - "react"
-      - "todoapp"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "nguyenthanhthe"
-    title: "nguyenthanhthe"
-    description: "Profile README - Nguyễn Thanh Thế"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-23"
 ---
 
 # nguyenthanhthe

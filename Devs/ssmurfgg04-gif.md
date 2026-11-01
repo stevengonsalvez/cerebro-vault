@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 15, 0, 1, 1, 8, 44, 18, 17, 85, 4, 3, 1]
+pushes_per_week: [3, 14, 0, 1, 7, 4, 52, 20, 7, 85, 2, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -80,14 +80,6 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pos-system"
-    title: "pos-system"
-    description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "context-m"
     title: "context-m"
     description: "Deterministic agent memory. μ=0. Free, local, forever. Mem0-compatible."
@@ -113,7 +105,7 @@ repos:
       - "zep"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "startups-co-ke"
     title: "startups-co-ke"
     description: "startups.co.ke — Kenya Startup Ecosystem & Business Intelligence Hub. Single-file app (no build step) + Supabase backend. Deployed via GitHub Pages."
@@ -121,31 +113,61 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "misc-notes"
-    title: "misc-notes"
-    description: "personal scratch notes, benchmarks and research snippets"
+    last_push: "2026-10-31"
+  - name: "git-identity"
+    title: "git-identity"
+    description: "?? Forensic CLI for Git commit metadata, author attribution vs verified signatures, and identity audit."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "commit-signing"
+      - "forensics"
+      - "git"
+      - "github-attribution"
+      - "gpg"
+      - "rust"
+      - "security"
+      - "ssh"
+      - "supply-chain-security"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "ssmurfgg04-gif"
+    title: "ssmurfgg04-gif"
+    description: "❄ the ice shelf — arctic tuxedo profile (animated hero · tux loop · daily contribution snake)"
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "jiji-marketplace-archive"
-    title: "jiji-marketplace-archive"
-    description: null
-    language: "Python"
+    last_push: "2026-10-31"
+  - name: "cairn"
+    title: "cairn"
+    description: "Cairn v4 - content-addressed chunked sync & storage engine for professional video teams (Rust)"
+    language: "Rust"
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-18"
-  - name: "tdsc-bench"
-    title: "tdsc-bench"
-    description: "bench rig for the twelve-dollar-server-challenge C submission: k6-faithful C loadgen, multi source IP, GitHub-runner matrix"
-    language: "C"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-10-25"
+  - name: "falling-sand"
+    title: "falling-sand"
+    description: "An entire falling-sand physics playground in a single HTML file — sand, water, lava, fire, plants, gunpowder, acid. No build, no dependencies, 60fps."
+    language: "HTML"
+    topics:
+      - "canvas"
+      - "cellular-automata"
+      - "falling-sand"
+      - "game"
+      - "generative-art"
+      - "javascript"
+      - "particle-simulation"
+      - "physics"
+      - "sandbox"
+      - "simulation"
+      - "single-file"
+      - "zero-dependencies"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-09"
 ---
 
 # ssmurfgg04-gif

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 0, 0, 0, 2, 0, 0, 1, 5, 0, 0, 1]
+pushes_per_week: [0, 1, 0, 0, 0, 2, 0, 0, 1, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,25 @@ repos:
       - "social-media-scheduler"
       - "telegram"
       - "twitter"
-    stars_fact: 18
+    stars_fact: 20
     first_seen: null
     last_push: "2026-10-18"
+  - name: "EdgeLab"
+    title: "EdgeLab"
+    description: "Reproducible Premier League forecasting research with baseline, Elo and Poisson models, chronological evaluation, calibration studies and a Streamlit dashboard."
+    language: "Python"
+    topics:
+      - "calibration"
+      - "football"
+      - "premier-league"
+      - "probabilistic-forecasting"
+      - "python"
+      - "reproducible-research"
+      - "sports-analytics"
+      - "streamlit"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "cachekill"
     title: "cachekill"
     description: "Classify macOS/Linux caches SAFE / CHECK / SKIP before you delete. Dry-run by default, app-liveness aware, stdlib-only Python. Because 6.4 GB of cache clearing can be silently offset by one Docker VM image."
@@ -143,14 +159,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-03"
-  - name: "balanceproof"
-    title: "balanceproof"
-    description: "Bank statement PDFs → verified Excel/CSV/QBO exports. The converter that proves its work."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # Matthew-Selvam

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [15, 30, 11, 3, 1, 2, 7, 33, 33, 39, 35, 76, 40]
+pushes_per_week: [6, 32, 9, 2, 1, 3, 7, 36, 34, 37, 37, 102, 9]
 windows:
   "7d":
-    pushes: 49
+    pushes: 37
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 203
+    pushes: 198
     distinct_repos: 4
-    active_days: 21
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 325
+    pushes: 315
     distinct_repos: 9
-    active_days: 56
+    active_days: 54
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8036
-  repo_per_active_day: 0.1607
+  push_per_day: 5.8333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 49
+    pushes: 37
     distinct_repos: 2
-    pushes_per_repo: 24.5000
-    active_days: 3
+    pushes_per_repo: 18.5000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 203
+    pushes: 198
     distinct_repos: 4
-    pushes_per_repo: 50.7500
-    active_days: 21
+    pushes_per_repo: 49.5000
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 325
+    pushes: 315
     distinct_repos: 9
-    pushes_per_repo: 36.1111
-    active_days: 56
+    pushes_per_repo: 35.0000
+    active_days: 54
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openui"
@@ -138,6 +138,6 @@ repos:
 
 # ctate
 
-325 pushes across 9 repositories on 56 active days in the last 90 days of public GitHub push activity.
+315 pushes across 9 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

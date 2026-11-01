@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [10, 19, 1, 1, 1, 20, 22, 20, 7, 15, 1, 5, 11]
+pushes_per_week: [12, 14, 1, 1, 2, 23, 26, 13, 12, 9, 1, 9, 7]
 windows:
   "7d":
     pushes: 11
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 20
-    active_days: 43
+    active_days: 42
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.0930
-  repo_per_active_day: 0.4651
+  push_per_day: 3.0952
+  repo_per_active_day: 0.4762
   not_owned_ratio: 0.8000
   basename_concentration: 0.5500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 20
-    pushes_per_repo: 6.6500
-    active_days: 43
+    pushes_per_repo: 6.5000
+    active_days: 42
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -150,6 +150,6 @@ repos:
 
 # AlexsJones
 
-133 pushes across 20 repositories on 43 active days in the last 90 days of public GitHub push activity.
+130 pushes across 20 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

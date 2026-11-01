@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 1, 0, 0, 1, 0, 0, 2, 0, 3, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omp-tools"
-    title: "omp-tools"
-    description: "OMP extension: flexible option counts for the ask tool (shadow + delegate to native)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
   - name: "tern-plugins"
     title: "tern-plugins"
     description: null
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
+  - name: "omp-tools"
+    title: "omp-tools"
+    description: "OMP extension: flexible option counts for the ask tool (shadow + delegate to native)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "skills"
     title: "skills"
     description: null

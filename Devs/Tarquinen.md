@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 4, 15, 0, 0, 1, 2]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 3, 7, 9, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,36 +77,44 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencode-claude-agent"
-    title: "opencode-claude-agent"
-    description: "Experimental opencode plugin that runs Claude Code models through the Claude Agent SDK"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "opencode-dynamic-context-pruning"
-    title: "opencode-dynamic-context-pruning"
-    description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4419
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "opencode-vim"
     title: "opencode-vim"
     description: "Vim-style editing and conversation navigation for OpenCode. Edit prompts, select and copy text, and browse your chats—all from the keyboard."
     language: "TypeScript"
     topics: []
-    stars_fact: 76
+    stars_fact: 78
     first_seen: null
     last_push: "2026-10-16"
+  - name: "opencode-dynamic-context-pruning"
+    title: "opencode-dynamic-context-pruning"
+    description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4455
+    first_seen: null
+    last_push: "2026-09-25"
   - name: "oc-tps"
     title: "oc-tps"
     description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
     language: "TypeScript"
     topics: []
-    stars_fact: 170
+    stars_fact: 171
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "opencode-claude-agent"
+    title: "opencode-claude-agent"
+    description: "Experimental opencode plugin that runs Claude Code models through the Claude Agent SDK"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "opencode-btw-plus"
+    title: "opencode-btw-plus"
+    description: "OpenCode's /btw, with searchable history saved per session."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-27"
   - name: "opencode-smart-title"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 57
     first_seen: null
     last_push: "2025-12-25"
-  - name: "opencodex-fast"
-    title: "opencodex-fast"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-04-01"
 ---
 
 # Tarquinen

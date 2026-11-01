@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -95,9 +95,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -130,10 +130,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -150,6 +150,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "bus-time"
+    title: "bus-time"
+    description: "A real-time bus tracking application that shows arrival times for NYC buses."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "saadiq.xyz"
     title: "saadiq.xyz"
     description: "Personal website"
@@ -157,7 +165,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-27"
   - name: "pixel-hunt"
     title: "pixel-hunt"
     description: "A mobile-first pixel-art puzzle game: send ant squads to eat the picture, one colour at a time."
@@ -198,21 +206,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-02"
-  - name: "threads-cli"
-    title: "threads-cli"
-    description: "CLI for publishing to Threads and fetching Threads data as JSON"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "cli"
-      - "meta"
-      - "social-media"
-      - "threads"
-      - "threads-api"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # saadiq

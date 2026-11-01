@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 2, 0, 6, 4, 4, 18, 13, 16, 20, 4, 7, 3]
+pushes_per_week: [2, 2, 1, 7, 4, 3, 19, 12, 29, 7, 4, 7, 2]
 windows:
   "7d":
     pushes: 3
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 100
-    distinct_repos: 21
-    active_days: 40
+    pushes: 99
+    distinct_repos: 20
+    active_days: 39
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.5250
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.0476
+  push_per_day: 2.5385
+  repo_per_active_day: 0.5128
+  not_owned_ratio: 0.3000
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 100
-    distinct_repos: 21
-    pushes_per_repo: 4.7619
-    active_days: 40
+    pushes: 99
+    distinct_repos: 20
+    pushes_per_repo: 4.9500
+    active_days: 39
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pagegraph"
@@ -146,6 +146,6 @@ repos:
 
 # aryasaatvik
 
-100 pushes across 21 repositories on 40 active days in the last 90 days of public GitHub push activity.
+99 pushes across 20 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

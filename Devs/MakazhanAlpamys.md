@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [2, 8, 6, 3, 3, 11, 15, 16, 27, 14, 26, 12, 0]
+pushes_per_week: [3, 7, 7, 1, 4, 16, 9, 29, 18, 10, 27, 11, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 61
+    pushes: 54
     distinct_repos: 5
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
+    pushes: 142
     distinct_repos: 11
-    active_days: 48
+    active_days: 47
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.9792
-  repo_per_active_day: 0.2292
+  push_per_day: 3.0213
+  repo_per_active_day: 0.2340
   not_owned_ratio: 0.4545
   basename_concentration: 0.5455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 61
+    pushes: 54
     distinct_repos: 5
-    pushes_per_repo: 12.2000
-    active_days: 14
+    pushes_per_repo: 10.8000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 143
+    pushes: 142
     distinct_repos: 11
-    pushes_per_repo: 13.0000
-    active_days: 48
+    pushes_per_repo: 12.9091
+    active_days: 47
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soup"
@@ -102,9 +102,31 @@ repos:
       - "qlora"
       - "sft"
       - "transformers"
-    stars_fact: 9604
+    stars_fact: 9863
     first_seen: "2026-08-16T06:00:08.851157+00:00"
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "soup-kernel-challenge"
+    title: "soup-kernel-challenge"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "NASA-Exoplanet-Detection-AI"
+    title: "NASA-Exoplanet-Detection-AI"
+    description: "Detects exoplanet candidates in NASA Kepler, K2 and TESS data — ensemble ML (LightGBM, XGBoost, stacking) with SHAP explainability and external validation. NASA Space Apps Global Nominee."
+    language: "Python"
+    topics:
+      - "astronomy"
+      - "exoplanets"
+      - "machine-learning"
+      - "nasa"
+      - "shap"
+      - "streamlit"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-12-16"
   - name: "Kaspi-Analytics-Platform"
     title: "Kaspi-Analytics-Platform"
     description: "Analytics platform over 210,000+ Kaspi.kz marketplace products — price and demand insights with ML forecasting. Next.js 16 + FastAPI + scikit-learn."
@@ -139,33 +161,11 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "NASA-Exoplanet-Detection-AI"
-    title: "NASA-Exoplanet-Detection-AI"
-    description: "Detects exoplanet candidates in NASA Kepler, K2 and TESS data — ensemble ML (LightGBM, XGBoost, stacking) with SHAP explainability and external validation. NASA Space Apps Global Nominee."
-    language: "Python"
-    topics:
-      - "astronomy"
-      - "exoplanets"
-      - "machine-learning"
-      - "nasa"
-      - "shap"
-      - "streamlit"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2025-12-16"
-  - name: "AI-Layout-Configurator-for-Construction"
-    title: "AI-Layout-Configurator-for-Construction"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-01"
 ---
 
 # MakazhanAlpamys
 
-143 pushes across 11 repositories on 48 active days in the last 90 days of public GitHub push activity.
+142 pushes across 11 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MakazhanAlpamys

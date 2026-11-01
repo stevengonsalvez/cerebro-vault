@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [12, 9, 4, 1, 0, 3, 5, 3, 5, 20, 1, 3, 1]
+pushes_per_week: [7, 10, 4, 0, 1, 3, 4, 3, 8, 17, 1, 3, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 62
     distinct_repos: 5
-    active_days: 29
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3103
-  repo_per_active_day: 0.1724
+  push_per_day: 2.2143
+  repo_per_active_day: 0.1786
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
+    pushes: 26
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 8
+    pushes_per_repo: 13.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 67
+    pushes: 62
     distinct_repos: 5
-    pushes_per_repo: 13.4000
-    active_days: 29
+    pushes_per_repo: 12.4000
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "headroom-zed"
@@ -141,6 +141,6 @@ repos:
 
 # chopratejas
 
-67 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+62 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

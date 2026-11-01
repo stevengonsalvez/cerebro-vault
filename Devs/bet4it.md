@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 10, 2, 9, 0, 0, 5, 3, 5, 2, 2, 2, 0]
+pushes_per_week: [6, 9, 10, 1, 0, 0, 7, 1, 5, 3, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,25 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "hyperpwn"
+    title: "hyperpwn"
+    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
+    language: "JavaScript"
+    topics:
+      - "ctf"
+      - "debugging"
+      - "exploit"
+      - "gdb"
+      - "gef"
+      - "hyper"
+      - "peda"
+      - "pwn"
+      - "pwndbg"
+      - "reverse-engineering"
+    stars_fact: 641
+    first_seen: null
+    last_push: "2025-04-28"
   - name: "udbserver"
     title: "udbserver"
     description: "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
@@ -119,24 +137,6 @@ repos:
     stars_fact: 269
     first_seen: null
     last_push: "2021-01-21"
-  - name: "hyperpwn"
-    title: "hyperpwn"
-    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
-    language: "JavaScript"
-    topics:
-      - "ctf"
-      - "debugging"
-      - "exploit"
-      - "gdb"
-      - "gef"
-      - "hyper"
-      - "peda"
-      - "pwn"
-      - "pwndbg"
-      - "reverse-engineering"
-    stars_fact: 640
-    first_seen: null
-    last_push: "2025-04-28"
   - name: "wemeet-flatpak"
     title: "wemeet-flatpak"
     description: "Flatpak packaging and repository for Tencent Meeting (wemeet)"

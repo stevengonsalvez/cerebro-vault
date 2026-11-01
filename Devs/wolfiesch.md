@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [3, 10, 2, 3, 6, 0, 1, 2, 2, 8, 2, 7, 1]
+pushes_per_week: [1, 10, 2, 3, 6, 0, 1, 2, 4, 6, 2, 7, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 12
-    active_days: 21
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.5714
+  push_per_day: 2.2500
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.2500
   basename_concentration: 0.0833
   shapes: []
@@ -65,18 +65,45 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 12
-    pushes_per_repo: 3.9167
-    active_days: 21
+    pushes_per_repo: 3.7500
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tern-omp-usage-dashboard"
+    title: "tern-omp-usage-dashboard"
+    description: "Tern plugin: native dashboard of OMP provider quotas for every account, with reset countdowns, login states and freshness."
+    language: "Luau"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "omp-maintainer"
+    title: "omp-maintainer"
+    description: "Self-hosted GitHub App for bounded autonomous repository maintenance, powered by OMP."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "automation"
+      - "autonomous-agents"
+      - "code-review"
+      - "developer-tools"
+      - "fastapi"
+      - "github-actions"
+      - "github-app"
+      - "llm"
+      - "python"
+      - "self-hosted"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "agenttab"
     title: "agenttab"
     description: "Drive a real, logged-in Chrome profile from local scripts via a Native Messaging bridge — no remote-debugging popup. Agent-ready: navigation, tabs, waits, screenshots, extraction, input, forms, diagnostics."
@@ -89,86 +116,45 @@ repos:
       - "chrome-extension"
       - "native-messaging"
       - "python"
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "wolfie-platform-lab"
-    title: "wolfie-platform-lab"
-    description: null
-    language: "Shell"
+    last_push: "2026-10-31"
+  - name: "AIChangeLogAggregator"
+    title: "AIChangeLogAggregator"
+    description: "AI Changelog Aggregator - Scrapes and aggregates changelogs from 49+ AI tools and services"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "omp-episodic-memory"
-    title: "omp-episodic-memory"
-    description: "Hybrid semantic and keyword search over Oh My Pi session transcripts"
+    last_push: "2026-10-30"
+  - name: "agent-side"
+    title: "agent-side"
+    description: "Fork your Claude Code, Codex, or omp session into a pane beside it with /side, and ask the tangent there"
     language: "TypeScript"
     topics:
-      - "agent-transcr"
-      - "agentic-memory-system"
-      - "episodic-memory"
-      - "episodic-memory-ai"
-      - "oh-my-pi"
-      - "omp"
-      - "rag"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "omp-best-of"
-    title: "omp-best-of"
-    description: "Best-of-N coding agents with LLM-as-a-Verifier selection for Oh My Pi: isolated git worktrees, verifier-ranked trajectories, winner-only patch application"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "best-of-n"
-      - "coding-agent"
-      - "deepseek"
-      - "git-worktree"
-      - "llm-as-a-verifier"
-      - "oh-my-pi"
-      - "oh-my-pi-extension"
-      - "omp"
-      - "omp-extension"
-      - "omp-parallel"
-      - "omp-plugin"
-      - "test-time-scaling"
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "omp-side"
-    title: "omp-side"
-    description: "Fork the current Oh My Pi session into a cmux side pane with /side"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "gpt-control"
-    title: "gpt-control"
-    description: "A trustworthy cross-model review broker for coding agents: real runs, structured findings, attachment receipts, and Chrome Bridge, Codex, or Responses transports"
-    language: "TypeScript"
-    topics:
-      - "agent-tools"
-      - "browser-automation"
-      - "chatgpt"
+      - "bun"
       - "claude-code"
+      - "cli"
       - "codex"
       - "coding-agent"
-      - "developer-tools"
-      - "gpt-control"
-      - "mcp"
-      - "model-review"
       - "oh-my-pi"
-      - "openai"
-      - "structured-outputs"
+      - "terminal"
+      - "tmux"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "wolf-hosted-demo"
+    title: "wolf-hosted-demo"
+    description: "demo.wolfsdk.com: what survives a save, WolfSDK vs LibreOffice and Python libraries"
+    language: "HTML"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
 ---
 
 # wolfiesch
 
-47 pushes across 12 repositories on 21 active days in the last 90 days of public GitHub push activity.
+45 pushes across 12 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wolfiesch

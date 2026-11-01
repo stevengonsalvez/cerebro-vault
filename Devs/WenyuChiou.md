@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 10, 1, 9, 2, 1, 3, 8, 20, 23, 13, 19, 12]
+pushes_per_week: [3, 10, 4, 6, 3, 0, 3, 10, 21, 26, 7, 26, 5]
 windows:
   "7d":
-    pushes: 14
-    distinct_repos: 4
-    active_days: 3
+    pushes: 11
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 8
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
-    distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 3
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 8
-    pushes_per_repo: 9.7500
-    active_days: 17
+    pushes_per_repo: 9.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -101,33 +101,33 @@ repos:
       - "rag"
       - "trilingual"
       - "tutorial"
-    stars_fact: 7971
+    stars_fact: 8337
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "agent-board"
     title: "agent-board"
     description: "See what every AI coding agent is doing, with whatever is waiting on you at the top. A Claude Code plugin that also follows Codex, Gemini CLI, Cursor, OpenCode, Grok Build, Hermes Agent and Muse Code."
     language: "TypeScript"
     topics: []
-    stars_fact: 30
+    stars_fact: 41
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "WenyuChiou"
+    title: "WenyuChiou"
+    description: "GitHub profile README for @WenyuChiou — Wenyu Chiou, PhD candidate at Lehigh (CEE / Catastrophe Modeling & Resilience)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "academic-writing-skills"
     title: "academic-writing-skills"
-    description: "Claude Code skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides."
+    description: "Skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides."
     language: "Python"
     topics: []
-    stars_fact: 126
+    stars_fact: 313
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "zotero-skills"
-    title: "zotero-skills"
-    description: "A skill for managing Zotero references programmatically — search, add, classify, annotate, and organize literature."
-    language: "Python"
-    topics: []
-    stars_fact: 65
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
   - name: "ai-research-skills"
     title: "ai-research-skills"
     description: "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients."
@@ -153,37 +153,17 @@ repos:
       - "research-workflow"
       - "skill-md"
       - "zotero"
-    stars_fact: 403
+    stars_fact: 520
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "research-hub"
-    title: "research-hub"
-    description: "AI-operable research workspace for Zotero, Obsidian, and NotebookLM. Use any two, or all three, through CLI, MCP, REST, and dashboard."
+    last_push: "2026-10-30"
+  - name: "zotero-skills"
+    title: "zotero-skills"
+    description: "A skill for managing Zotero references programmatically — search, add, classify, annotate, and organize literature."
     language: "Python"
-    topics:
-      - "academic-research"
-      - "ai-agents"
-      - "ai-research"
-      - "citation-management"
-      - "claude"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "knowledge-management"
-      - "literature-review"
-      - "mcp"
-      - "mcp-server"
-      - "notebooklm"
-      - "obsidian"
-      - "openclaw"
-      - "python"
-      - "rag"
-      - "research"
-      - "zotero"
-    stars_fact: 66
+    topics: []
+    stars_fact: 74
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-29"
 ---
 
 # WenyuChiou

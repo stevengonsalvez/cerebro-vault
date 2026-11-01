@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [4, 8, 2, 0, 0, 0, 0, 1, 0, 0, 0, 7, 3]
+pushes_per_week: [8, 5, 1, 0, 0, 0, 0, 1, 0, 0, 0, 8, 2]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,17 @@ repos:
     description: "cut Claude Code token usage by rendering text context as images"
     language: "TypeScript"
     topics: []
-    stars_fact: 7553
+    stars_fact: 7569
     first_seen: "2026-07-06T06:00:04.675243+00:00"
-    last_push: "2026-10-21"
+    last_push: "2026-11-01"
+  - name: "turboquant-wasm"
+    title: "turboquant-wasm"
+    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
+    language: "Zig"
+    topics: []
+    stars_fact: 323
+    first_seen: null
+    last_push: "2026-04-19"
   - name: "json-literal-types"
     title: "json-literal-types"
     description: "TypeScript library for validating and parsing JSON string literals"
@@ -102,14 +110,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-05-24"
-  - name: "turboquant-wasm"
-    title: "turboquant-wasm"
-    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
-    language: "Zig"
-    topics: []
-    stars_fact: 323
-    first_seen: null
-    last_push: "2026-04-19"
   - name: "drawmode"
     title: "drawmode"
     description: "Code Mode MCP server for generating Excalidraw architecture diagrams with auto-layout. LLM writes TypeScript, Graphviz handles layout."

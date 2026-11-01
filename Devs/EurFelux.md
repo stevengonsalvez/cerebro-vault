@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 2, 1, 0, 1, 3, 1, 0, 3, 0, 0, 2, 0]
+pushes_per_week: [1, 2, 1, 0, 4, 0, 1, 0, 3, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,7 +90,7 @@ repos:
       - "local-first"
       - "react"
       - "typescript"
-    stars_fact: 9
+    stars_fact: 10
     first_seen: null
     last_push: "2026-10-17"
   - name: "Lyrisland"
@@ -103,9 +103,17 @@ repos:
       - "lyrics"
       - "macos-app"
       - "spotify"
-    stars_fact: 13
+    stars_fact: 16
     first_seen: null
     last_push: "2026-09-16"
+  - name: "github-drafts"
+    title: "github-drafts"
+    description: "Product and design drafts attached to GitHub pull requests and issues"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for EurFelux's apps — Lyrisland, Marginalia"
@@ -130,14 +138,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-16"
-  - name: "obsidian-another-name-plugin"
-    title: "obsidian-another-name-plugin"
-    description: "Add a subheading to your note in Obsidian"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-05-06"
 ---
 
 # EurFelux

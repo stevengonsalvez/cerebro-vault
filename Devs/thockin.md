@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 1, 3, 1, 1, 0, 0, 0, 0, 4, 2, 1, 0]
+pushes_per_week: [1, 1, 4, 0, 1, 0, 0, 0, 2, 3, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "A Makefile/Dockerfile example for Go projects."
     language: "Makefile"
     topics: []
-    stars_fact: 3334
+    stars_fact: 3332
     first_seen: null
     last_push: "2026-10-20"
   - name: "dotfiles"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-28"
   - name: "exploding-clusters-online"
     title: "exploding-clusters-online"
     description: "exploding-clusters-online"

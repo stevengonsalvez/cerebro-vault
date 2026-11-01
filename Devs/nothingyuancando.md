@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 4, 1, 0, 1, 0, 0, 4, 0, 2, 1, 1]
+pushes_per_week: [0, 0, 5, 0, 0, 1, 0, 0, 4, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "QuantPilot"
+    title: "QuantPilot"
+    description: "QuantPilot"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "Misrosoft-VS-code"
     title: "Misrosoft-VS-code"
     description: "游戏"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-07-04"
-  - name: "QuantPilot"
-    title: "QuantPilot"
-    description: "QuantPilot"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "nothingyuancando"
     title: "nothingyuancando"
     description: "Config files for my GitHub profile."
@@ -102,7 +102,7 @@ repos:
       - "github-config"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "408-CS-Exam-Notes"
     title: "408-CS-Exam-Notes"
     description: "408考研计算机学科专业基础综合笔记：数据结构、组成原理、操作系统与计算机网络"

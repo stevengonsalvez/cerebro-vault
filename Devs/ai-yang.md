@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,30 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vnpy_duckdb"
+    title: "vnpy_duckdb"
+    description: "支持接入vnpy4.0的duckdb数据库接口，安装方便"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-18"
+  - name: "ts-backtest"
+    title: "ts-backtest"
+    description: "Lightweight TypeScript backtesting engine with YAML/JSON strategies, precise accounting, CLI and MCP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "AlphaPilot"
     title: "AlphaPilot"
     description: "NEW [🔥 updating...]LLM 驱动的股票量化因子挖掘与交易平台，现在支持MCP接入Codex、Claude Code。支持A股:多 Agent + 公式化挖掘、Qlib 回测、Web 门户、日频信号、Telegram/飞书 通知。"
     language: "Python"
     topics: []
-    stars_fact: 29
+    stars_fact: 30
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-25"
   - name: "alphapilot-mcp"
     title: "alphapilot-mcp"
     description: "Independent TypeScript MCP research workbench for AlphaPilot; stdio and Streamable HTTP"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-02"
-  - name: "AlphaPilotArena"
-    title: "AlphaPilotArena"
-    description: "Public beta arena and outbound worker service for AlphaPilot research jobs"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
-  - name: "AlphaPilotArenaWorker"
-    title: "AlphaPilotArenaWorker"
-    description: "AlphaPilot task runner and compute-side runtime for AlphaPilotArena"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
 ---
 
 # ai-yang

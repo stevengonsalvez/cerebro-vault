@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 1, 4, 0, 4, 1, 2, 4, 0, 1, 4, 2]
+pushes_per_week: [1, 2, 1, 4, 0, 4, 1, 2, 4, 0, 1, 6, 0]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "threexc"
     title: "threexc"
     description: null
@@ -92,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "meta-testv"
+    title: "meta-testv"
+    description: "Yocto-based testing distro for (meta-)riscv, because Poky is a reference"
+    language: "BitBake"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "boardgarden"
     title: "boardgarden"
     description: "tgamblin's boardfarm repo, built for testing RISC-V development boards with Labgrid and Forgejo Actions"
@@ -100,15 +108,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "meta-testv"
-    title: "meta-testv"
-    description: "Yocto-based testing distro for (meta-)riscv, because Poky is a reference"
-    language: "BitBake"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
   - name: "typst-poster-template"
     title: "typst-poster-template"
     description: "An A0-size poster template for Typst, meant for conference use"

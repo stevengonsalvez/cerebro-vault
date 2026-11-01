@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [9, 7, 4, 0, 2, 3, 3, 4, 6, 6, 0, 0, 0]
+pushes_per_week: [0, 7, 4, 1, 1, 4, 2, 5, 5, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 6
     active_days: 2
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 44
-    distinct_repos: 15
-    active_days: 16
-    repos_not_owned: 11
-    not_owned_basenames: 5
+    pushes: 35
+    distinct_repos: 14
+    active_days: 14
+    repos_not_owned: 10
+    not_owned_basenames: 4
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.9375
-  not_owned_ratio: 0.7333
-  basename_concentration: 0.3333
+  push_per_day: 2.5000
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.3571
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 6
-    pushes_per_repo: 1.8333
+    pushes_per_repo: 1.3333
     active_days: 2
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 44
-    distinct_repos: 15
-    pushes_per_repo: 2.9333
-    active_days: 16
-    repos_not_owned: 11
-    not_owned_basenames: 5
+    pushes: 35
+    distinct_repos: 14
+    pushes_per_repo: 2.5000
+    active_days: 14
+    repos_not_owned: 10
+    not_owned_basenames: 4
     not_owned_owners: 7
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-44 pushes across 15 repositories on 16 active days in the last 90 days of public GitHub push activity.
+35 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

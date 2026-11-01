@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 1, 5, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 2, 5, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tell-tail"
-    title: "tell-tail"
-    description: "A bounded-memory Rust terminal dashboard for log throughput, warnings, and errors."
-    language: "Rust"
+  - name: "railway-prometheus"
+    title: "railway-prometheus"
+    description: "one-click deployment of Prometheus to Railway"
+    language: "Dockerfile"
     topics: []
-    stars_fact: 1
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-29"
+  - name: "free-design-md"
+    title: "free-design-md"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "remove-markdown"
     title: "remove-markdown"
     description: "Strip Markdown stuff from text"
@@ -95,23 +103,7 @@ repos:
       - "nodejs"
     stars_fact: 379
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "free-design-md"
-    title: "free-design-md"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "dogs-in-the-details"
-    title: "dogs-in-the-details"
-    description: "Find and inspect dogs in paintings with hosted Roboflow RF-DETR, React, and Cloudflare Workers."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-31"
   - name: "mars-fan-scout"
     title: "mars-fan-scout"
     description: "Roboflow-assisted Mars polar fan discovery, review, and historical dust-direction demo"
@@ -128,6 +120,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-12"
+  - name: "mcp-doctor"
+    title: "mcp-doctor"
+    description: "A deterministic quality lab for MCP server interfaces"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
 ---
 
 # zuchka

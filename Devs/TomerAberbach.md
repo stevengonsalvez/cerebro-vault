@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [7, 10, 5, 1, 0, 2, 1, 9, 11, 1, 4, 0, 3]
+pushes_per_week: [11, 7, 4, 1, 0, 2, 1, 10, 10, 2, 3, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,20 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "profiler-md"
+    title: "profiler-md"
+    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "markdown"
+      - "performance"
+      - "performance-analysis"
+      - "performance-optimization"
+      - "profiler-data"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "lfi"
     title: "lfi"
     description: "🦥 A lazy functional iteration library supporting sync, async, and concurrent iteration."
@@ -97,20 +111,6 @@ repos:
     stars_fact: 351
     first_seen: null
     last_push: "2025-12-16"
-  - name: "profiler-md"
-    title: "profiler-md"
-    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "markdown"
-      - "performance"
-      - "performance-analysis"
-      - "performance-optimization"
-      - "profiler-data"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "quetie"
     title: "quetie"
     description: "🎀 Just the cutest and tiniest queue/deque implementation!"

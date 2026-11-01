@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 8, 7, 5, 3, 4, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 12, 3, 5, 3, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,54 +77,38 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hydra"
-    title: "hydra"
-    description: "Small local models that a frontier coding agent hands routine repo work to"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "Preliquidador_AST_BK"
-    title: "Preliquidador_AST_BK"
+  - name: "rahul05ranjan"
+    title: "rahul05ranjan"
     description: null
     language: null
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "deep-reasearch-agent-ollama"
-    title: "deep-reasearch-agent-ollama"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "new_news_nextjs"
-    title: "new_news_nextjs"
-    description: null
-    language: "TypeScript"
-    topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-01-22"
-  - name: "yii2-live-currency-widget"
-    title: "yii2-live-currency-widget"
-    description: "Live currency widget yii2"
-    language: "PHP"
+    last_push: "2026-11-01"
+  - name: "content-engine"
+    title: "content-engine"
+    description: "Benchmark-driven video production engine — every video passes one gate; every channel plugs in its own format. 100-point benchmark + render gate + VO/SEO templates."
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2019-11-13"
-  - name: "gofugly-php-api"
-    title: "gofugly-php-api"
-    description: "A sdk for jokes, shayari, quotes and many more."
-    language: "PHP"
+    last_push: "2026-10-31"
+  - name: "layoff-pulse"
+    title: "layoff-pulse"
+    description: null
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2019-12-16"
+    last_push: "2026-10-27"
+  - name: "tw-string-arithmetic-repro"
+    title: "tw-string-arithmetic-repro"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # rahul05ranjan

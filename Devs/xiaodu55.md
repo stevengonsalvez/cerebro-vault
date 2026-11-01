@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 4, 2, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,25 +79,25 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "HFusionHub"
+    title: "HFusionHub"
+    description: "多租户 AI Agent 平台：Java+Python 双语言分层、RAG 全链路 + 220 用例 CI 评测门禁、工具审批 exactly-once、插件沙箱"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "fastapi"
+      - "llm"
+      - "milvus"
+      - "multi-tenant"
+      - "mysql"
+      - "rag"
+      - "spring-boot"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "xiaodu55"
     title: "xiaodu55"
     description: "AI 应用 / Agent 方向 · 后端开发实习生 · GitHub Profile"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "seekdb-study"
-    title: "seekdb-study"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "PowerContext-study"
-    title: "PowerContext-study"
-    description: null
     language: null
     topics: []
     stars_fact: 0

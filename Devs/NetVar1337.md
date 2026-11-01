@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 4, 0, 0, 0, 1, 1, 4, 1, 1, 0, 3, 5]
+pushes_per_week: [3, 2, 0, 0, 0, 1, 1, 4, 2, 0, 0, 8, 0]
 windows:
   "7d":
     pushes: 5
@@ -90,24 +90,37 @@ repos:
       - "windows-internals"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "vibe-island"
-    title: "vibe-island"
-    description: "Dynamic Island for AI coding tools - macOS, Windows, Linux (Hyprland/Sway/GNOME/KDE)"
-    language: "Rust"
-    topics:
-      - "ai-tools"
-      - "cross-platform"
-      - "desktop"
-      - "developer-tools"
-      - "dynamic-island"
-      - "linux"
-      - "macos"
-      - "rust"
-      - "windows"
-    stars_fact: 71
+    last_push: "2026-11-01"
+  - name: "EchoDebug"
+    title: "EchoDebug"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-21"
+    last_push: "2026-10-31"
+  - name: "claude-for-firefox"
+    title: "claude-for-firefox"
+    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
+    language: "JavaScript"
+    topics:
+      - "ai-assistant"
+      - "browser-extension"
+      - "claude"
+      - "firefox"
+      - "javascript"
+      - "webextension"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "echo-ai-toolkit"
+    title: "echo-ai-toolkit"
+    description: "AI development toolkit for the Echo Universal API (AngelScript, process memory, overlay rendering)"
+    language: "AngelScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "Kevlar-Ultimate"
     title: "Kevlar-Ultimate"
     description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
@@ -140,42 +153,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-26"
-  - name: "agent-skill-canon"
-    title: "agent-skill-canon"
-    description: "Master skill canon + agent instruction set for the NetVar1337 workstation. Source of truth synced to opencode/claude/codex/pi/omo harness roots via sync-skills.ps1."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "developer-tools"
-      - "opencode"
-      - "security"
-      - "skills"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "audit-findings-skills"
-    title: "audit-findings-skills"
-    description: "Smart contract security skills & audit playbooks: 23,625 audit findings synthesized into reusable SKILL.md playbooks for Solidity/EVM reviewers."
-    language: "Solidity"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "audit"
-      - "code4rena"
-      - "evm"
-      - "security"
-      - "security-research"
-      - "sherlock"
-      - "smart-contracts"
-      - "solidity"
-      - "vulnerability-research"
-      - "web3"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # NetVar1337

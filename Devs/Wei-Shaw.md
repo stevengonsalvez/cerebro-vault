@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [6, 14, 7, 5, 2, 6, 5, 11, 12, 3, 3, 2, 0]
+pushes_per_week: [5, 13, 7, 5, 2, 6, 7, 9, 12, 3, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 3
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 74
     distinct_repos: 6
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3750
-  repo_per_active_day: 0.1875
+  push_per_day: 2.3871
+  repo_per_active_day: 0.1935
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
@@ -57,26 +57,43 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 3
     pushes_per_repo: 3.0000
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 76
+    pushes: 74
     distinct_repos: 6
-    pushes_per_repo: 12.6667
-    active_days: 32
+    pushes_per_repo: 12.3333
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sub2api"
+    title: "sub2api"
+    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+    language: "Go"
+    topics:
+      - "2api"
+      - "antigravity2api"
+      - "cc2api"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "crs"
+      - "crs2"
+      - "gemini"
+    stars_fact: 45218
+    first_seen: "2026-08-23T06:00:02.900682+00:00"
+    last_push: "2026-10-31"
   - name: "claude-relay-service"
     title: "claude-relay-service"
     description: "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
@@ -92,26 +109,9 @@ repos:
       - "droid-cli"
       - "droid2api"
       - "gemini-cli"
-    stars_fact: 12733
+    stars_fact: 12763
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "sub2api"
-    title: "sub2api"
-    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
-    language: "Go"
-    topics:
-      - "2api"
-      - "antigravity2api"
-      - "cc2api"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "crs"
-      - "crs2"
-      - "gemini"
-    stars_fact: 44724
-    first_seen: "2026-08-23T06:00:02.900682+00:00"
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "model-price-repo"
     title: "model-price-repo"
     description: "This repository stores model pricing files for CRS and sub2api projects. It synchronizes remote price files and allows custom price definitions for better flexibility."
@@ -119,7 +119,7 @@ repos:
     topics: []
     stars_fact: 35
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
   - name: "rsa-js-php"
     title: "rsa-js-php"
     description: "RSA demonstration of Javascript and PHP"
@@ -149,6 +149,6 @@ repos:
 
 # Wei-Shaw
 
-76 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
+74 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

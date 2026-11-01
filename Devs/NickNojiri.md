@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 2, 0, 1, 0, 0, 1, 6, 2, 0, 2, 4, 0]
+pushes_per_week: [0, 2, 0, 1, 0, 0, 1, 7, 1, 0, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "isi-coaching-site"
+    title: "isi-coaching-site"
+    description: "ISI Coaching 30-Day Muscle Kick Start Challenge landing page (static site for GitHub Pages)"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "mario-rl"
     title: "mario-rl"
     description: "Double-DQN Super Mario Bros agent: CPU/WSL, frame-dedup replay buffer, resumable training, memorization-aware eval"
@@ -106,7 +114,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-29"
   - name: "NickNojiri"
     title: "NickNojiri"
     description: null
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-15"
-  - name: "portfolio"
-    title: "portfolio"
-    description: "Personal portfolio website — each project shown as its real, interactive data pipeline. Vanilla HTML/CSS/JS, no build step."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # NickNojiri

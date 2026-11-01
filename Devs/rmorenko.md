@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 3, 7, 3, 0, 11, 12, 13, 18, 8, 10, 6, 1]
+pushes_per_week: [1, 3, 8, 2, 3, 9, 15, 11, 19, 7, 8, 7, 0]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
   - name: "thulr"
     title: "thulr"
     description: "A workspace index that answers the questions grep cannot: plain-English search across several repositories, settings traced from config to code across spellings, and definitions traced to the commits that wrote them."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
   - name: "wsindex"
     title: "wsindex"
     description: "WSIndex — a learning-first Python CLI that indexes a developer workspace (code/configs via AST, docs as text) using Tensorus v1 as the vector DB."

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "9e2ff10d772b1e71"
 pushes_per_week: [10, 15, 0, 1, 0, 0, 3, 3, 1, 2, 2, 1, 0]
@@ -87,7 +87,7 @@ repos:
       - "portfolio"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
   - name: "MindGeniusAI"
     title: "MindGeniusAI"
     description: "An AI agent that reads your PDFs and draws editable mind maps — visible tool-calling loop, built-in RAG, bring-your-own-key, multi-provider (OpenAI / Claude / DeepSeek / Kimi). Self-hostable."

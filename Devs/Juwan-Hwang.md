@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [13, 12, 7, 2, 0, 1, 0, 1, 0, 3, 9, 37, 3]
+pushes_per_week: [18, 8, 7, 0, 0, 1, 0, 1, 0, 5, 8, 36, 3]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 13
-    active_days: 29
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0345
-  repo_per_active_day: 0.4483
+  push_per_day: 3.1071
+  repo_per_active_day: 0.4643
   not_owned_ratio: 0.0769
   basename_concentration: 0.0769
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 87
     distinct_repos: 13
-    pushes_per_repo: 6.7692
-    active_days: 29
+    pushes_per_repo: 6.6923
+    active_days: 28
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Zephyr"
@@ -102,9 +102,31 @@ repos:
       - "vibe-coding"
       - "vpn"
       - "windows"
-    stars_fact: 726
+    stars_fact: 733
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "Autoqqpet"
+    title: "Autoqqpet"
+    description: "QQ 宠物自动托管 · LSPosed/Vector 模块（免费使用，不开源）"
+    language: null
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "macOS27-Cursors"
+    title: "macOS27-Cursors"
+    description: "The complete macOS 27 Golden Gate cursor set, extracted from Apple's restore image and packaged for older macOS, Windows and Linux."
+    language: "Python"
+    topics:
+      - "cursor-theme"
+      - "macos"
+      - "mouse-cursor"
+      - "mousecape"
+      - "windows-cursors"
+      - "xcursor"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "omni2api"
     title: "omni2api"
     description: "Anything to API (万物皆可2API): put an AI agent, a script, or even yourself behind an OpenAI-compatible API"
@@ -123,45 +145,29 @@ repos:
       - "rust"
       - "self-hosted"
       - "terminal"
-    stars_fact: 35
+    stars_fact: 46
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "Autoqqpet"
-    title: "Autoqqpet"
-    description: "QQ 宠物自动托管 · LSPosed/Vector 模块（免费使用，不开源）"
-    language: null
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Official Scoop bucket for Zephyr"
-    language: null
+    last_push: "2026-10-25"
+  - name: "sm-in-the-wild"
+    title: "sm-in-the-wild"
+    description: "Preprint companion: SM in the Wild - measuring security-semantics failures in Chinese commercial cryptography implementations (SM2/SM3/SM4). Paper source, build pipeline, and reference-calibration package."
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
   - name: "openhuman"
     title: "openhuman"
     description: "Human-as-an-API runtime — turn a real person into a standard OpenAI-compatible endpoint so other people can reach you through their own AI agents."
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-22"
-  - name: "PingFang-SF"
-    title: "PingFang-SF"
-    description: "超集合并字体 — 以苹方为底本，合并 SF Pro + MiSans + Source Han Sans"
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-18"
 ---
 
 # Juwan-Hwang
 
-88 pushes across 13 repositories on 29 active days in the last 90 days of public GitHub push activity.
+87 pushes across 13 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

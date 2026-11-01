@@ -10,17 +10,17 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 12, 3, 2, 1, 2, 10, 2, 0, 1, 7, 7, 3]
+pushes_per_week: [3, 12, 5, 1, 0, 3, 9, 2, 0, 1, 7, 10, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 18
@@ -50,12 +50,12 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
     pushes: 18
@@ -83,7 +83,7 @@ repos:
     description: null
     language: "Lua"
     topics: []
-    stars_fact: 154
+    stars_fact: 156
     first_seen: null
     last_push: "2026-07-02"
   - name: "docs"

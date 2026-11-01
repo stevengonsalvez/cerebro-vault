@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 22, 0, 7, 2, 0, 0, 5, 3, 23, 12, 17, 3]
+pushes_per_week: [14, 8, 4, 3, 2, 0, 0, 5, 11, 20, 7, 20, 0]
 windows:
   "7d":
     pushes: 3
@@ -77,14 +77,6 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "web-ingest"
-    title: "web-ingest"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "teddyli18000"
     title: "teddyli18000"
     description: "A living GitHub profile README."
@@ -92,7 +84,39 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "mimo-web2api"
+    title: "mimo-web2api"
+    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
+    language: "Go"
+    topics:
+      - "ai-gateway"
+      - "anthropic-api"
+      - "golang"
+      - "llm"
+      - "mimo"
+      - "openai-api"
+      - "proxy"
+      - "xiaomi"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "baidu-drive-mover"
+    title: "baidu-drive-mover"
+    description: "Windows CLI tool for moving arbitrary Baidu Netdisk share links to Google Drive with resumable staged transfer."
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "uu-cli"
     title: "uu-cli"
     description: null
@@ -100,7 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-24"
   - name: "SDAutoLogin"
     title: "SDAutoLogin"
     description: null
@@ -109,22 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "screenquiet"
-    title: "screenquiet"
-    description: "Silent Lenovo Fn+F9 screen-off with physical-input wake. Parsec VDD, Raw Input, and ThinkBook / UU remote-control implementation notes."
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "LocalType"
-    title: "LocalType"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
 ---
 
 # teddyli18000

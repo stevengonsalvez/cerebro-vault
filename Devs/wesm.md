@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [101, 207, 53, 23, 2, 24, 43, 50, 103, 53, 101, 13, 12]
+pushes_per_week: [103, 213, 44, 13, 2, 27, 49, 60, 95, 68, 75, 23, 0]
 windows:
   "7d":
-    pushes: 17
-    distinct_repos: 10
-    active_days: 2
-    repos_not_owned: 9
-    not_owned_basenames: 7
+    pushes: 9
+    distinct_repos: 7
+    active_days: 1
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 218
-    distinct_repos: 25
-    active_days: 19
-    repos_not_owned: 24
+    pushes: 203
+    distinct_repos: 24
+    active_days: 18
+    repos_not_owned: 23
     not_owned_basenames: 13
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 785
-    distinct_repos: 49
-    active_days: 68
-    repos_not_owned: 47
+    pushes: 772
+    distinct_repos: 48
+    active_days: 67
+    repos_not_owned: 46
     not_owned_basenames: 17
-    not_owned_owners: 25
+    not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 11.5441
-  repo_per_active_day: 0.7206
-  not_owned_ratio: 0.9592
-  basename_concentration: 0.2041
+  push_per_day: 11.5224
+  repo_per_active_day: 0.7164
+  not_owned_ratio: 0.9583
+  basename_concentration: 0.2083
   shapes: []
   shape_evidence: []
   cleared_by: "e01-builder"
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 17
-    distinct_repos: 10
-    pushes_per_repo: 1.7000
-    active_days: 2
-    repos_not_owned: 9
-    not_owned_basenames: 7
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 1
+    repos_not_owned: 6
+    not_owned_basenames: 5
     not_owned_owners: 3
   "30d":
-    pushes: 218
-    distinct_repos: 25
-    pushes_per_repo: 8.7200
-    active_days: 19
-    repos_not_owned: 24
+    pushes: 203
+    distinct_repos: 24
+    pushes_per_repo: 8.4583
+    active_days: 18
+    repos_not_owned: 23
     not_owned_basenames: 13
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 785
-    distinct_repos: 49
-    pushes_per_repo: 16.0204
-    active_days: 68
-    repos_not_owned: 47
+    pushes: 772
+    distinct_repos: 48
+    pushes_per_repo: 16.0833
+    active_days: 67
+    repos_not_owned: 46
     not_owned_basenames: 17
-    not_owned_owners: 25
+    not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pydata-book"
@@ -82,7 +82,7 @@ repos:
     description: "Materials and IPython notebooks for \"Python for Data Analysis\" by Wes McKinney, published by O'Reilly Media"
     language: "Jupyter Notebook"
     topics: []
-    stars_fact: 25043
+    stars_fact: 25069
     first_seen: null
     last_push: "2025-10-17"
   - name: "moneyflow"
@@ -90,9 +90,9 @@ repos:
     description: "Moneyflow: Personal Finance Data Interface for Power Users (supporting backends like Monarch Money, YNAB)"
     language: "Go"
     topics: []
-    stars_fact: 279
+    stars_fact: 281
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-27"
   - name: "vldb-2019-apache-arrow-workshop"
     title: "vldb-2019-apache-arrow-workshop"
     description: "Materials for Apache Arrow workshop at VLDB 2019"
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-785 pushes across 49 repositories on 68 active days in the last 90 days of public GitHub push activity.
+772 pushes across 48 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

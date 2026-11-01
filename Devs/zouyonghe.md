@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 8, 1, 0, 0, 0, 1, 1, 0, 4, 3, 0, 0]
+pushes_per_week: [4, 6, 1, 0, 0, 0, 1, 1, 0, 5, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "astrbot_plugin_ebooks"
     title: "astrbot_plugin_ebooks"
     description: "一个功能强大的电子书插件，支持多平台电子书搜索和下载。"
     language: "Python"
     topics: []
-    stars_fact: 30
+    stars_fact: 31
     first_seen: null
     last_push: "2026-06-08"
   - name: "PixelTerm-C"

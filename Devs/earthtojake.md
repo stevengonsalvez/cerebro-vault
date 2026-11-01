@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [4, 35, 9, 1, 1, 0, 14, 2, 33, 16, 1, 3, 2]
+pushes_per_week: [8, 35, 6, 0, 1, 1, 13, 15, 22, 15, 0, 5, 0]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 1
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 1
-    pushes_per_repo: 37.0000
-    active_days: 10
+    pushes_per_repo: 32.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "text-to-cad"
     title: "text-to-cad"
-    description: "Give your agent CAD superpowers."
+    description: "Design physical products with AI"
     language: "Python"
     topics:
       - "agents"
@@ -91,9 +91,9 @@ repos:
       - "stl"
       - "stp"
       - "text-to-cad"
-    stars_fact: 22806
+    stars_fact: 24558
     first_seen: "2026-10-05T06:00:40.753623+00:00"
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "step.parts"
     title: "step.parts"
     description: "12,000+ open source STEP parts for your next CAD project"
@@ -108,9 +108,21 @@ repos:
       - "open-source"
       - "skills"
       - "step"
-    stars_fact: 387
+    stars_fact: 396
     first_seen: null
     last_push: "2026-06-13"
+  - name: "implicit.js"
+    title: "implicit.js"
+    description: "A library for modelling 3D objects with mathematical primitives"
+    language: "JavaScript"
+    topics:
+      - "agents"
+      - "cad"
+      - "implicits"
+      - "threejs"
+    stars_fact: 63
+    first_seen: null
+    last_push: "2026-06-03"
   - name: "muesli"
     title: "muesli"
     description: "An open source meeting transcriber that runs locally"
@@ -135,18 +147,6 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-08-27"
-  - name: "implicit.js"
-    title: "implicit.js"
-    description: "A library for modelling 3D objects with mathematical primitives"
-    language: "JavaScript"
-    topics:
-      - "agents"
-      - "cad"
-      - "implicits"
-      - "threejs"
-    stars_fact: 62
-    first_seen: null
-    last_push: "2026-06-03"
 ---
 
 # earthtojake

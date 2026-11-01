@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 2, 1, 0, 0, 1, 8, 10, 8, 4, 8, 2, 0]
+pushes_per_week: [9, 1, 1, 0, 0, 1, 16, 3, 7, 6, 6, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 11
+    pushes_per_repo: 4.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,20 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "astrbot_plugin_openai_oauth"
+    title: "astrbot_plugin_openai_oauth"
+    description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
+    language: "Python"
+    topics:
+      - "astrbot"
+      - "astrbot-plugin"
+      - "chatgpt"
+      - "codex"
+      - "oauth"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "gxu-campus-3d"
     title: "gxu-campus-3d"
     description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
@@ -97,22 +110,9 @@ repos:
       - "openstreetmap"
       - "threejs"
       - "virtual-tour"
-    stars_fact: 23
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "astrbot_plugin_openai_oauth"
-    title: "astrbot_plugin_openai_oauth"
-    description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
-    language: "Python"
-    topics:
-      - "astrbot"
-      - "astrbot-plugin"
-      - "chatgpt"
-      - "codex"
-      - "oauth"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-29"
   - name: "ragdoll-progress"
     title: "ragdoll-progress"
     description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."

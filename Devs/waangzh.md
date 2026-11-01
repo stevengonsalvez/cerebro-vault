@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 1, 1, 0, 0, 2, 0, 0, 1, 3, 1, 7, 1]
+pushes_per_week: [2, 1, 1, 0, 0, 2, 0, 0, 2, 2, 1, 7, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,30 +77,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "RepoGuardian"
-    title: "RepoGuardian"
+  - name: "Rivu"
+    title: "Rivu"
     description: "Pull Request 代码审查 Agent"
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "re-bookmarks"
     title: "re-bookmarks"
     description: "懂你习惯的 AI 书签整理助手"
     language: "TypeScript"
     topics: []
-    stars_fact: 27
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-26"
   - name: "waangzh.github.io"
     title: "waangzh.github.io"
     description: null
-    language: "CSS"
+    language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-30"
   - name: "Intelligent-Power-Inspection"
     title: "Intelligent-Power-Inspection"
     description: null
@@ -126,7 +126,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
 ---
 
 # waangzh

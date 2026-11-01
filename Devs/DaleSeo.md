@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [6, 1, 2, 0, 0, 0, 7, 16, 6, 6, 11, 6, 1]
+pushes_per_week: [6, 1, 2, 0, 0, 0, 8, 16, 8, 5, 9, 7, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 13
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 13
@@ -85,7 +85,7 @@ repos:
       - "agent-skills"
       - "humanizer"
       - "korean"
-    stars_fact: 232
+    stars_fact: 245
     first_seen: null
     last_push: "2026-05-05"
   - name: "github-actions-secrets"
@@ -111,7 +111,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-26"
   - name: "DaleSeo.github.io"
     title: "DaleSeo.github.io"
     description: "Engineering Blog by Dale Seo"

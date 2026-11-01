@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 8, 3, 1, 0, 0, 5, 5, 4, 6, 2, 1, 2]
+pushes_per_week: [6, 7, 4, 0, 0, 1, 5, 4, 5, 5, 2, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 13
     active_days: 30
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4667
+  push_per_day: 1.4000
   repo_per_active_day: 0.4333
   not_owned_ratio: 0.2308
   basename_concentration: 0.1538
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 8
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 13
-    pushes_per_repo: 3.3846
+    pushes_per_repo: 3.2308
     active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -84,51 +84,51 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "semantic-pull-requests"
-    title: "semantic-pull-requests"
-    description: ":robot: Let the robots take care of the semantic versioning"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1231
-    first_seen: null
-    last_push: "2022-05-30"
+    last_push: "2026-11-01"
   - name: "swiss-design-skill"
     title: "swiss-design-skill"
     description: "A Swiss International Style design system skill for AI agents"
     language: "TypeScript"
     topics: []
-    stars_fact: 159
+    stars_fact: 161
     first_seen: null
     last_push: "2026-09-24"
-  - name: "github-digest"
-    title: "github-digest"
-    description: "Scheduled Flue agent that emails you a daily GitHub digest"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "dots-on-cloudflare"
-    title: "dots-on-cloudflare"
-    description: "Exploring an always-on personal agent, like OpenAI dots, built on Cloudflare"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "collignon"
-    title: "collignon"
-    description: "French insults from Amélie"
-    language: "TypeScript"
+  - name: "all-the-cloudflare-ai-models"
+    title: "all-the-cloudflare-ai-models"
+    description: "A static JSON array of Cloudflare Workers AI and AI Gateway catalog models, updated daily"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
+  - name: "berkeley-outlet-public"
+    title: "berkeley-outlet-public"
+    description: "Independent Berkeley Outlet guide with dated inventory examples and reviewed photographs"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "preview-deployments-skill"
+    title: "preview-deployments-skill"
+    description: "An agent skill to add preview deployments to your Cloudflare apps using GitHub Actions workflows and the GitHub Deployments API."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "paper-previews-starter"
+    title: "paper-previews-starter"
+    description: "Self-hosted phone previews for Paper Desktop, powered by Cloudflare Workers"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # zeke
 
-44 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
+42 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

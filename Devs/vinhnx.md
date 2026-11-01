@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 4, 1, 2, 0, 2, 2, 2, 5, 3, 1, 3, 0]
+pushes_per_week: [2, 3, 1, 2, 0, 2, 2, 2, 6, 3, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 4
     active_days: 23
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1739
+  push_per_day: 1.1304
   repo_per_active_day: 0.1739
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 8
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 4
-    pushes_per_repo: 6.7500
+    pushes_per_repo: 6.5000
     active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vtchat"
-    title: "vtchat"
-    description: "VT Chat - A modern, privacy-first AI chat application with security"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "aisdk"
-      - "chatbot"
-      - "llm"
-      - "nextjs"
-      - "shadcn-ui"
-      - "tailwindcss"
-      - "typescript"
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "VTCode"
     title: "VTCode"
     description: "VT Code is an open-source Rust terminal coding agent."
@@ -113,9 +97,9 @@ repos:
       - "rust"
       - "terminal"
       - "tui"
-    stars_fact: 887
+    stars_fact: 895
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "tui-shimmer"
     title: "tui-shimmer"
     description: "Shimmer text effect for Ratatui"
@@ -125,17 +109,46 @@ repos:
       - "shimmer"
       - "terminal"
       - "tui"
-    stars_fact: 30
+    stars_fact: 31
     first_seen: null
     last_push: "2026-10-23"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "My homebrew tap formula"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
+  - name: "Shift"
+    title: "Shift"
+    description: "Light-weight & concurrent EventKit wrapper"
+    language: "Swift"
+    topics:
+      - "async-await"
+      - "asynchronous"
+      - "calendar"
+      - "combine"
+      - "concurrency"
+      - "eventkit"
+      - "ios"
+      - "swift"
+      - "swift-package-manager"
+      - "swift5"
+      - "swiftui"
+      - "wrapper"
+      - "xcode"
+    stars_fact: 65
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2025-03-20"
+  - name: "vtchat"
+    title: "vtchat"
+    description: "VT Chat - A modern, privacy-first AI chat application with security"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "aisdk"
+      - "chatbot"
+      - "llm"
+      - "nextjs"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "Clendar"
     title: "Clendar"
     description: "Clendar - Minimal Calendar app. Written in SwiftUI."
@@ -162,34 +175,18 @@ repos:
     stars_fact: 739
     first_seen: null
     last_push: "2026-10-15"
-  - name: "VT.ai"
-    title: "VT.ai"
-    description: "VT.ai - multimodal AI chat app with dynamic conversation routing"
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "assistant"
-      - "assistant-chat-bots"
-      - "chatbot"
-      - "dalle"
-      - "function-calling"
-      - "llama"
-      - "llamacpp"
-      - "llm"
-      - "llms"
-      - "multimodal"
-      - "ollama"
-      - "openai"
-      - "python"
-      - "tool-use"
-    stars_fact: 117
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "My homebrew tap formula"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-22"
 ---
 
 # vinhnx
 
-27 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
+26 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vinhnx

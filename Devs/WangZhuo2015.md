@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 9, 49, 4, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 12, 45, 4, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agy-switch"
-    title: "agy-switch"
-    description: "Multi-Account Switcher & Real-Time Quota Dashboard for Google Antigravity CLI"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "baby_panel_for_cecilia"
     title: "baby_panel_for_cecilia"
     description: null
@@ -92,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
   - name: "growdesk-server"
     title: "growdesk-server"
     description: null
@@ -100,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
+  - name: "agy-switch"
+    title: "agy-switch"
+    description: "Multi-Account Switcher & Real-Time Quota Dashboard for Google Antigravity CLI"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "droiddeck-support"
     title: "droiddeck-support"
     description: "DroidDeck support and privacy information"

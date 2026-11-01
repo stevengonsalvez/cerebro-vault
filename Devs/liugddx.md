@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [7, 15, 3, 3, 1, 1, 1, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [7, 15, 1, 4, 1, 1, 0, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
-    distinct_repos: 4
-    active_days: 20
+    pushes: 32
+    distinct_repos: 3
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.2000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 1.6842
+  repo_per_active_day: 0.1579
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
-    distinct_repos: 4
-    pushes_per_repo: 8.5000
-    active_days: 20
+    pushes: 32
+    distinct_repos: 3
+    pushes_per_repo: 10.6667
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome_llm_benchmark"
@@ -134,6 +134,6 @@ repos:
 
 # liugddx
 
-34 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+32 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liugddx

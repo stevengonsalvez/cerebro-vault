@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 10, 2, 11, 0, 1, 2, 5, 6, 15, 29, 9, 0]
+pushes_per_week: [9, 7, 4, 9, 1, 0, 4, 6, 5, 29, 15, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 15
-    active_days: 36
+    active_days: 35
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.4167
+  push_per_day: 2.7429
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.6667
   basename_concentration: 0.1333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 96
     distinct_repos: 15
-    pushes_per_repo: 6.6000
-    active_days: 36
+    pushes_per_repo: 6.4000
+    active_days: 35
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jj-hooks"
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-99 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
+96 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

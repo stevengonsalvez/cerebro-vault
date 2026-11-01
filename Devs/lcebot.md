@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 1, 1, 0, 0, 0, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 6, 0, 1, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 3
@@ -77,22 +77,46 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mi-scanner-enhanced"
+    title: "mi-scanner-enhanced"
+    description: "Removes content censorship and several annoyances from Xiaomi Scanner"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "ferryqr"
+    title: "ferryqr"
+    description: "Privacy-first Android QR scanner that ferries each code to the right app"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "clipsync"
     title: "clipsync"
     description: "Keeps one clipboard in sync across your Android devices and your Windows PC, with text, images and files all supported"
     language: "Kotlin"
     topics: []
-    stars_fact: 12
+    stars_fact: 14
     first_seen: null
     last_push: "2026-10-15"
-  - name: "mi-scanner-enhanced"
-    title: "mi-scanner-enhanced"
-    description: "Removes content censorship and the unnecessary location permission prompt from Xiaomi Scanner"
+  - name: "mi-volume-enhanced"
+    title: "mi-volume-enhanced"
+    description: "LSPosed module for HyperOS that adds noise control and per-app volume to the volume panel"
     language: "Kotlin"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-29"
+  - name: "bc7e"
+    title: "bc7e"
+    description: "Encode RGBA images to BC7"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "ma2-parser"
     title: "ma2-parser"
     description: "An ma2 to simai converter, the reverse companion to maidata-parser."
@@ -107,45 +131,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-07-15"
-  - name: "essential-queue"
-    title: "essential-queue"
-    description: "Batch launcher for Leica Essential on Xiaomi Leitzphone"
-    language: "Kotlin"
-    topics:
-      - "accessibility-service"
-      - "android"
-      - "hyperos"
-      - "jetpack-compose"
-      - "kotlin"
-      - "leica"
-      - "material3-expressive"
-      - "photography"
-      - "xiaomi"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "onnxruntime-dml-java"
-    title: "onnxruntime-dml-java"
-    description: "ONNX Runtime for Java with DirectML provider"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "maidata-parser"
-    title: "maidata-parser"
-    description: "A fast, strict simai chart parser that converts maidata notation to .ma2 format."
-    language: null
-    topics:
-      - "ma2"
-      - "maimai"
-      - "rhythm-game"
-      - "rhythm-game-chart-parser"
-      - "rhythm-game-editor"
-      - "simai"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # lcebot

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 5, 0, 3, 0, 0, 4, 0, 2, 1, 3, 0, 0]
+pushes_per_week: [2, 4, 0, 3, 0, 0, 4, 0, 2, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,38 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "sahurlock"
-    title: "sahurlock"
-    description: "Locks your screen when you look away, using face tracking that runs in the browser."
-    language: "TypeScript"
-    topics:
-      - "computer-vision"
-      - "face-tracking"
-      - "focus-timer"
-      - "mediapipe"
-      - "nextjs"
-      - "privacy"
-      - "productivity"
-      - "react"
-      - "typescript"
-      - "webcam"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "alkindix"
-    title: "alkindix"
-    description: "My personal site"
-    language: "HTML"
-    topics:
-      - "html"
-      - "personal-website"
-      - "portfolio"
-      - "static-site"
-      - "typescript"
-      - "vercel"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "pulse"
     title: "pulse"
     description: "A weekly review of your Gmail, GitHub and Notion activity, built from a ledger on your machine. The optional analysis step calls the Anthropic API."
@@ -126,38 +94,7 @@ repos:
       - "sqlite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "scout"
-    title: "scout"
-    description: "Plans outdoor shoots around sun, weather, and crowds."
-    language: "Python"
-    topics:
-      - "fastapi"
-      - "mcp-server"
-      - "photography"
-      - "services"
-      - "typescript"
-      - "weather"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "proofx"
-    title: "proofx"
-    description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
-    language: "Python"
-    topics:
-      - "computational-mathematics"
-      - "conjectures"
-      - "formal-verification"
-      - "lean4"
-      - "mathematics"
-      - "number-theory"
-      - "python"
-      - "reproducible-research"
-      - "research-tool"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-29"
   - name: "switchyard"
     title: "switchyard"
     description: "Run many AI coding agents on one repo. Each gets its own git worktree, and Switchyard detects collisions between agents before you merge."
@@ -176,7 +113,61 @@ repos:
       - "worktree"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
+  - name: "sahurlock"
+    title: "sahurlock"
+    description: "Locks your screen when you look away, using face tracking that runs in the browser."
+    language: "TypeScript"
+    topics:
+      - "computer-vision"
+      - "face-tracking"
+      - "focus-timer"
+      - "mediapipe"
+      - "nextjs"
+      - "privacy"
+      - "productivity"
+      - "react"
+      - "typescript"
+      - "webcam"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "claude-buddy"
+    title: "claude-buddy"
+    description: "Pip: a floating desktop mascot that puts Claude one click away on Windows"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "scout"
+    title: "scout"
+    description: "Plans outdoor shoots around sun, weather, and crowds."
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "mcp-server"
+      - "photography"
+      - "services"
+      - "typescript"
+      - "weather"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "alkindix"
+    title: "alkindix"
+    description: "My personal site"
+    language: "HTML"
+    topics:
+      - "html"
+      - "personal-website"
+      - "portfolio"
+      - "static-site"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # MohammedAlkindi

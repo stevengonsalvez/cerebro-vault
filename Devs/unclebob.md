@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [1, 0, 4, 1, 1, 0, 3, 0, 2, 2, 1, 1, 2]
+pushes_per_week: [1, 0, 4, 1, 1, 0, 3, 0, 2, 2, 1, 3, 0]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    active_days: 7
+    pushes: 7
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    pushes_per_repo: 1.3333
-    active_days: 7
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,12 +77,20 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ub-mode"
+    title: "ub-mode"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 5924
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "crapper"
     title: "crapper"
     description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
     language: "Python"
     topics: []
-    stars_fact: 100
+    stars_fact: 178
     first_seen: null
     last_push: "2026-10-21"
   - name: "swarm-forge"
@@ -90,31 +98,23 @@ repos:
     description: "A simple tool for coordinating several AI agents."
     language: "Clojure"
     topics: []
-    stars_fact: 4038
+    stars_fact: 4078
     first_seen: "2026-08-09T06:00:06.430133+00:00"
     last_push: "2026-09-07"
-  - name: "bookwriter"
-    title: "bookwriter"
-    description: "A small writing application for one long book"
-    language: "TypeScript"
+  - name: "uml-viewer"
+    title: "uml-viewer"
+    description: "Live Quil UML class-diagram viewer driven by EDN"
+    language: "Clojure"
     topics: []
-    stars_fact: 92
+    stars_fact: 478
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "crap4java"
-    title: "crap4java"
-    description: "Crap analyzer for my java projects."
-    language: "Java"
-    topics: []
-    stars_fact: 336
-    first_seen: null
-    last_push: "2026-03-13"
+    last_push: "2026-10-07"
   - name: "mutator"
     title: "mutator"
     description: "Mutation testing for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
     language: "Python"
     topics: []
-    stars_fact: 55
+    stars_fact: 97
     first_seen: null
     last_push: "2026-10-21"
   - name: "dryer"
@@ -122,7 +122,7 @@ repos:
     description: null
     language: "Python"
     topics: []
-    stars_fact: 39
+    stars_fact: 77
     first_seen: null
     last_push: "2026-10-03"
 ---

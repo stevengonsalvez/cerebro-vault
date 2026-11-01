@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 3, 6, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 3, 6, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 6
+    pushes_per_repo: 2.2500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,13 +84,37 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "chinese-historical-character-test"
+    title: "chinese-historical-character-test"
+    description: "基于性格测试的中国历史人物匹配网站 - 纯前端SPA，20道题目，30位历史人物，余弦相似度算法"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-04-14"
+  - name: "darkside-simulation"
+    title: "darkside-simulation"
+    description: "Dark Forest Simulation - A web-based simulation of cosmic civilizations under the Dark Forest Theory from Liu Cixin's The Three-Body Problem"
+    language: "Python"
+    topics:
+      - "agent-based-modeling"
+      - "canvas"
+      - "dark-forest"
+      - "fastapi"
+      - "game-theory"
+      - "simulation"
+      - "three-body-problem"
+      - "websocket"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-04"
   - name: "hermes-purge"
     title: "hermes-purge"
     description: "Hermes 指令权威性清洗插件（移植自 dsh-purge）：提示词层 + 行为策略 + 审批默认重写 + 多规则集切换，全部可回滚"
     language: "Python"
     topics: []
-    stars_fact: 8
+    stars_fact: 10
     first_seen: null
     last_push: "2026-09-17"
   - name: "skin-craft"
@@ -107,22 +131,6 @@ repos:
     language: "JavaScript"
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "theater-personal-archive"
-    title: "theater-personal-archive"
-    description: "Cinematic personal portfolio, Markdown blog and native motion studies"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "Theater-ahyeon.github.io"
-    title: "Theater-ahyeon.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
 ---

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [10, 22, 0, 2, 0, 2, 1, 0, 7, 7, 2, 0, 0]
+pushes_per_week: [8, 21, 1, 1, 1, 1, 1, 0, 7, 7, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 18
-    active_days: 26
+    pushes: 50
+    distinct_repos: 17
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0385
-  repo_per_active_day: 0.6923
+  push_per_day: 2.0000
+  repo_per_active_day: 0.6800
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1176
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 18
-    pushes_per_repo: 2.9444
-    active_days: 26
+    pushes: 50
+    distinct_repos: 17
+    pushes_per_repo: 2.9412
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yigtwxx"
@@ -93,89 +93,52 @@ repos:
       - "rag"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "Maestro"
-    title: "Maestro"
-    description: "Orchestrate armies of AI agents from a single prompt. Open-core, bring-your-own-key, and self-hostable — Orchestrator routes, specialists execute, a reviewer keeps them honest."
+    last_push: "2026-11-01"
+  - name: "ai-sims"
+    title: "ai-sims"
+    description: "Photoreal customizable 3D character creator with AI chat and lip-sync"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "sepia"
+    title: "sepia"
+    description: "Describe a picture and watch it appear as colored text in a second terminal window."
     language: "Python"
     topics:
-      - "agent-framework"
-      - "agent-orchestration"
-      - "agentic-ai"
-      - "agentic-workflow"
-      - "ai-agents"
+      - "ai-art"
+      - "ansi-art"
       - "anthropic"
-      - "byok"
-      - "fastapi"
-      - "gemini"
+      - "ascii-art"
+      - "claude"
+      - "cli"
+      - "flux"
+      - "generative-art"
+      - "image-generation"
       - "llm"
-      - "multi-agent-systems"
-      - "nextjs"
-      - "ollama"
-      - "orchestration"
+      - "macos"
+      - "pollinations"
       - "python"
-      - "qdrant"
-      - "rag"
-      - "self-hosted"
-      - "typescript"
-      - "websocket"
-    stars_fact: 2
+      - "terminal"
+      - "terminal-art"
+      - "text-to-image"
+      - "windows-terminal"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "OracleX"
-    title: "OracleX"
-    description: "Open-source financial intelligence terminal for equities, Borsa İstanbul and digital assets. Real-time market data, LLM news analysis and a ChromaDB vector memory on a provider-agnostic reasoning layer — local via Ollama or a dozen cloud providers. Next.js 15 and FastAPI."
+    last_push: "2026-10-31"
+  - name: "spiyweb"
+    title: "spiyweb"
+    description: "Graph-based retrieval for RAG — spreading-activation over a multi-layer vector graph, with redundancy-to-vote dedup and honesty outputs."
     language: "Python"
     topics:
       - "ai"
-      - "ai-finance"
-      - "chromadb"
-      - "cryptocurrency"
-      - "fastapi"
-      - "financial-analysis"
-      - "llm"
-      - "market-data"
-      - "nextjs"
-      - "ollama"
+      - "embeddings"
       - "python"
       - "rag"
-      - "sentiment-analysis"
-      - "stocks"
-      - "supabase"
-      - "trading"
-      - "tradingview"
-      - "typescript"
-      - "vector-database"
-      - "websocket"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "J.A.R.V.I.S"
-    title: "J.A.R.V.I.S"
-    description: "J.A.R.V.I.S: An AI-powered Open Source Intelligence (OSINT) system. It orchestrates deep web scraping and local LLMs to autonomously generate comprehensive intelligence dossiers."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "ai-assistant"
-      - "automation"
-      - "beautifulsoup"
-      - "fastapi"
-      - "intelligence"
-      - "jarvis"
-      - "local-llm"
-      - "local-llms"
-      - "nextjs"
-      - "ollama"
-      - "osint"
-      - "postgresql"
-      - "python"
-      - "react"
-      - "typescript"
-      - "web-scraping"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-29"
   - name: "awesome-rag-production"
     title: "awesome-rag-production"
     description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
@@ -201,25 +164,38 @@ repos:
       - "rag"
       - "retrieval-augmented-generation"
       - "vector-database"
-    stars_fact: 283
+    stars_fact: 287
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "spiyweb"
-    title: "spiyweb"
-    description: "Graph-based retrieval for RAG — spreading-activation over a multi-layer vector graph, with redundancy-to-vote dedup and honesty outputs"
+    last_push: "2026-10-30"
+  - name: "reasonhound"
+    title: "reasonhound"
+    description: "AI-assisted security scanner that reasons like a senior researcher: it reads your web/API code, forms and tests vulnerability hypotheses, and writes a Markdown report. Bring your own model (Claude/OpenAI/Gemini/Ollama). Cross-platform, terminal-only, no deploy."
     language: "Python"
     topics:
       - "ai"
-      - "embeddings"
+      - "ai-agents"
+      - "appsec"
+      - "byok"
+      - "cli"
+      - "code-analysis"
+      - "dast"
+      - "devsecops"
+      - "llm"
+      - "pentesting"
       - "python"
-      - "rag"
-    stars_fact: 2
+      - "sast"
+      - "security"
+      - "security-scanner"
+      - "security-tools"
+      - "vulnerability-detection"
+      - "vulnerability-scanner"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-10-29"
 ---
 
 # Yigtwxx
 
-53 pushes across 18 repositories on 26 active days in the last 90 days of public GitHub push activity.
+50 pushes across 17 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [1, 1, 0, 4, 0, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 3, 0, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,27 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "slkcli"
+    title: "slkcli"
+    description: "Slack CLI for macOS, so your agents can read and send messages 💬"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "Youtube-Transcript-Generator"
+    title: "Youtube-Transcript-Generator"
+    description: "Create transcripts of YouTube video in your favorite language. Use it for note-taking, chat with YouTube videos and for training data."
+    language: "Jupyter Notebook"
+    topics:
+      - "notes"
+      - "subtitles"
+      - "transcription"
+      - "youtube"
+      - "youtube-transcription"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2024-02-11"
   - name: "copy-env"
     title: "copy-env"
     description: "Copy local .env files to created worktrees. Works with all coding agents."
@@ -103,27 +124,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-07-29"
-  - name: "slkcli"
-    title: "slkcli"
-    description: "Slack CLI for macOS, so your agents can read and send messages 💬"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "Youtube-Transcript-Generator"
-    title: "Youtube-Transcript-Generator"
-    description: "Create transcripts of YouTube video in your favorite language. Use it for note-taking, chat with YouTube videos and for training data."
-    language: "Jupyter Notebook"
-    topics:
-      - "notes"
-      - "subtitles"
-      - "transcription"
-      - "youtube"
-      - "youtube-transcription"
-    stars_fact: 27
-    first_seen: null
-    last_push: "2024-02-11"
   - name: "therohitdas"
     title: "therohitdas"
     description: null

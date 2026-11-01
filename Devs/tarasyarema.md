@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [10, 0, 1, 0, 0, 2, 7, 29, 6, 1, 2, 0, 2]
+pushes_per_week: [9, 0, 1, 0, 0, 4, 29, 5, 6, 2, 1, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 5
-    active_days: 25
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 2.4583
+  repo_per_active_day: 0.2083
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 7
+    pushes_per_repo: 6.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 5
-    pushes_per_repo: 12.0000
-    active_days: 25
+    pushes_per_repo: 11.8000
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "babel"
@@ -138,6 +138,6 @@ repos:
 
 # tarasyarema
 
-60 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
+59 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tarasyarema

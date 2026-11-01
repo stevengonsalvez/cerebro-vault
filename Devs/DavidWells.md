@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 2, 0, 1, 1, 0, 0, 4, 5, 2, 0, 0, 0]
+pushes_per_week: [3, 1, 0, 1, 1, 0, 0, 5, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "isomorphic-react-example"
-    title: "isomorphic-react-example"
-    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1667
-    first_seen: null
-    last_push: "2017-10-30"
   - name: "analytics"
     title: "analytics"
     description: "Lightweight analytics abstraction layer for tracking page views, custom events, & identifying visitors"
@@ -96,17 +88,9 @@ repos:
       - "metrics"
       - "telemetry"
       - "wired"
-    stars_fact: 2668
+    stars_fact: 2669
     first_seen: null
     last_push: "2026-06-27"
-  - name: "stars"
-    title: "stars"
-    description: "Automatically indexed GitHub stars"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "configorama"
     title: "configorama"
     description: "⚙️ ${variable} support for config files"
@@ -115,31 +99,40 @@ repos:
       - "wired"
     stars_fact: 25
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "markdown-magic"
-    title: "markdown-magic"
-    description: "💫 Automatically format markdown files via comment blocks using source code, external data & custom transforms."
+    last_push: "2026-10-25"
+  - name: "packages"
+    title: "packages"
+    description: "Public Packages & React Components"
     language: "JavaScript"
     topics:
-      - "docs"
-      - "docs-generator"
-      - "dx"
-      - "markdown"
-      - "readme"
       - "wired"
-    stars_fact: 871
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-07-27"
-  - name: "react-server-components"
-    title: "react-server-components"
-    description: "Example of react server components running in AWS Lambda deployed via serverless framework"
+    last_push: "2026-10-25"
+  - name: "stars"
+    title: "stars"
+    description: "Automatically indexed GitHub stars"
     language: "JavaScript"
-    topics:
-      - "react"
-      - "serverless"
-    stars_fact: 26
+    topics: []
+    stars_fact: 37
     first_seen: null
-    last_push: "2020-12-24"
+    last_push: "2026-11-01"
+  - name: "git-split-diffs"
+    title: "git-split-diffs"
+    description: "Fork of git-split-diffs with clickable editor links"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "isomorphic-react-example"
+    title: "isomorphic-react-example"
+    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1667
+    first_seen: null
+    last_push: "2017-10-30"
 ---
 
 # DavidWells

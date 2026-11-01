@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [1, 0, 1, 4, 1, 4, 5, 25, 43, 37, 5, 3, 0]
+pushes_per_week: [1, 0, 1, 4, 1, 4, 8, 22, 45, 37, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 60
     distinct_repos: 11
-    active_days: 14
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 60
     distinct_repos: 11
-    pushes_per_repo: 6.5455
-    active_days: 14
+    pushes_per_repo: 5.4545
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -80,7 +80,7 @@ repos:
   - name: "pstack-claude"
     title: "pstack-claude"
     description: "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
-    language: "JavaScript"
+    language: "TypeScript"
     topics:
       - "agent-plugin"
       - "agent-skills"
@@ -102,9 +102,9 @@ repos:
       - "muse-plugin"
       - "opencode"
       - "pstack"
-    stars_fact: 3348
+    stars_fact: 3701
     first_seen: "2026-10-05T06:00:40.760152+00:00"
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
   - name: "agent-formal-verify"
     title: "agent-formal-verify"
     description: "TLA+ model checking and Lean proofs for coding agents, with explicit tool setup."
@@ -119,60 +119,26 @@ repos:
       - "claude-plugin"
       - "codex"
       - "codex-plugin"
+      - "formal-verification"
       - "lean"
+      - "opencode"
+      - "opencode-plugin"
+      - "pi"
       - "skills"
       - "tla"
       - "verification"
       - "verify"
-    stars_fact: 21
+    stars_fact: 35
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "fast-beagle-5.5"
-    title: "fast-beagle-5.5"
-    description: "Fast standalone C port of Beagle 5.5 genotype phasing and imputation, byte-identical output to the Java release (27Feb25.75f).."
+    last_push: "2026-10-30"
+  - name: "fast-beagle-5.4"
+    title: "fast-beagle-5.4"
+    description: "C port of Beagle 5.4 (29Oct24.c8e) with byte-identical VCF output and BGEN extensions"
     language: "Java"
-    topics:
-      - "beagle"
-      - "bgen"
-      - "bioinformatics"
-      - "genomics"
-      - "imputation"
-      - "phasing"
-      - "vcf"
-    stars_fact: 2
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "memory-mcp"
-    title: "memory-mcp"
-    description: "Engram-inspired memory MCP server with hot cache and pattern mining"
-    language: "Python"
-    topics:
-      - "agent-plugin"
-      - "agent-skills"
-      - "claude-code"
-      - "claude-plugin"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "black-box-unlock"
-    title: "black-box-unlock"
-    description: "Agentic code forensics and analysis tool - investigate your codebase like a crime scene"
-    language: "Python"
-    topics:
-      - "agent-plugin"
-      - "claude-code"
-      - "claude-plugin"
-      - "clean-code"
-      - "code-forensics"
-      - "code-insights"
-      - "code-review"
-      - "codex-plugin"
-      - "git-analysis"
-      - "hotspots"
-      - "technical-debt"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-28"
   - name: "pyLocusZoom"
     title: "pyLocusZoom"
     description: "pyLocusZoom -- publication-ready GWAS visualization in Python: LocusZoom-style regional association plots with LD coloring, gene tracks and recombination overlays, plus Manhattan, QQ, Miami, eQTL, fine-mapping, PheWAS and forest plots. Dog and cat genomes built in."
@@ -197,7 +163,30 @@ repos:
       - "visualization"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-28"
+  - name: "everything-must-go"
+    title: "everything-must-go"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "fast-beagle-5.5"
+    title: "fast-beagle-5.5"
+    description: "Fast standalone C port of Beagle 5.5 genotype phasing and imputation, byte-identical output to the Java release (27Feb25.75f).."
+    language: "Java"
+    topics:
+      - "beagle"
+      - "bgen"
+      - "bioinformatics"
+      - "genomics"
+      - "imputation"
+      - "phasing"
+      - "vcf"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # michael-denyer

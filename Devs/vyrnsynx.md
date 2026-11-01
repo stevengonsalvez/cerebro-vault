@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 0, 4, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 0, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,24 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DiscordBabel"
+    title: "DiscordBabel"
+    description: "Unofficial Manifest V3 Chrome/Edge extension for real-time Discord translation. Free Google/Edge engines, DeepL & OpenAI-compatible AI (TokenDance, Kimi, Zhipu, MiniMax…). Keys stay local. Not affiliated with Discord Inc."
+    language: "JavaScript"
+    topics:
+      - "browser-extension"
+      - "chrome-extension"
+      - "discord"
+      - "edge-extension"
+      - "i18n"
+      - "manifest-v3"
+      - "mit"
+      - "openai-compatible"
+      - "tokendance"
+      - "translation"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "tufty-arm-create"
     title: "tufty-arm-create"
     description: "Arm Create conference firmware for the Pimoroni Tufty 2350 only. The with-filesystem image of MicroPython bw-1.28.0-3 restores the firmware plus the badge apps and pictures. Not the stock release from pimoroni/tufty2350."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 2, 4, 7, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 3, 3, 6, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,23 +82,31 @@ repos:
     description: null
     language: "C"
     topics: []
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "sf-q3-8flash"
-    title: "sf-q3-8flash"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-31"
   - name: "StarForge"
     title: "StarForge"
     description: null
     language: "Shell"
     topics: []
     stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "herdr-to-vscode"
+    title: "herdr-to-vscode"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "sf-q3-8flash"
+    title: "sf-q3-8flash"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 6
     first_seen: null
     last_push: "2026-10-12"
   - name: "herdr-caffeinate-keeper"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2022-11-10"
-  - name: "WebOnChiaSites"
-    title: "WebOnChiaSites"
-    description: "Repository for same WebOnChia Sites"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-20"
 ---
 
 # Chida82

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [27, 11, 4, 4, 1, 18, 21, 30, 47, 18, 20, 18, 5]
+pushes_per_week: [27, 12, 1, 4, 10, 16, 16, 37, 40, 20, 17, 20, 2]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 71
-    distinct_repos: 5
-    active_days: 19
-    repos_not_owned: 5
+    pushes: 64
+    distinct_repos: 3
+    active_days: 18
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 224
+    pushes: 222
     distinct_repos: 19
-    active_days: 54
+    active_days: 53
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 4.1481
-  repo_per_active_day: 0.3519
+  push_per_day: 4.1887
+  repo_per_active_day: 0.3585
   not_owned_ratio: 1.0000
   basename_concentration: 0.8421
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 71
-    distinct_repos: 5
-    pushes_per_repo: 14.2000
-    active_days: 19
-    repos_not_owned: 5
+    pushes: 64
+    distinct_repos: 3
+    pushes_per_repo: 21.3333
+    active_days: 18
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 2
   "90d":
-    pushes: 224
+    pushes: 222
     distinct_repos: 19
-    pushes_per_repo: 11.7895
-    active_days: 54
+    pushes_per_repo: 11.6842
+    active_days: 53
     repos_not_owned: 19
     not_owned_basenames: 4
     not_owned_owners: 17
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-224 pushes across 19 repositories on 54 active days in the last 90 days of public GitHub push activity.
+222 pushes across 19 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

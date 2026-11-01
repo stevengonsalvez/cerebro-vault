@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "745308b2b7085095"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 0, 1, 0, 0, 0, 4, 9, 4, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 1, 0, 0, 0, 6, 11, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tomelias10.github.io"
+    title: "tomelias10.github.io"
+    description: "ORYNVAL research waitlist"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "orynval-research"
+    title: "orynval-research"
+    description: "ORYNVAL research waitlist page"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "mcp-drift-check"
     title: "mcp-drift-check"
     description: "Static MCP package-reference mutability checker: Python CLI and GitHub Action. No discovered server execution. Broader config/baseline tools: Orynval Labs."
@@ -106,7 +122,7 @@ repos:
       - "windsurf"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
   - name: "orynval-labs"
     title: "orynval-labs"
     description: "Local security tools for AI agents: review MCP configs, detect baseline drift, inspect identities, and draft evidence-backed security answers."

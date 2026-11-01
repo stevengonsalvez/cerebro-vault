@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "8a25523a85f8c594"
-pushes_per_week: [1, 1, 0, 0, 0, 3, 3, 2, 2, 4, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 2, 1, 4, 1, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 16
     distinct_repos: 10
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 16
     distinct_repos: 10
@@ -77,13 +77,21 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jev-plays-pokemon-red"
-    title: "jev-plays-pokemon-red"
-    description: "Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks at branches in about 100 ms, calibration measured instead of assumed"
+  - name: "jev-commit"
+    title: "jev-commit"
+    description: "pre-commit hook: one Jev call judges whether your commit message matches the diff, plus debug leftovers, scope creep, and a secret belt"
     language: "Python"
     topics: []
-    stars_fact: 9
+    stars_fact: 17
     first_seen: null
+    last_push: "2026-10-09"
+  - name: "jev-belay"
+    title: "jev-belay"
+    description: "Claude Code Stop hook that blocks an unverified done: reads the transcript for evidence, asks Jev once, fails open on everything else"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 44
+    first_seen: "2026-10-05T06:00:42.527601+00:00"
     last_push: "2026-10-09"
   - name: "awesome-jev-typesafe"
     title: "awesome-jev-typesafe"
@@ -101,9 +109,25 @@ repos:
       - "system1"
       - "typed-decisions"
       - "typesafe"
-    stars_fact: 202
+    stars_fact: 189
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "jev-skip"
+    title: "jev-skip"
+    description: "YouTube sponsor skipper that reads the captions and decides at watch time: a probability heatmap on the seek bar, no crowd database"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "jev-plays-pokemon-red"
+    title: "jev-plays-pokemon-red"
+    description: "Pokemon Red on PyBoy: code owns the route and the arithmetic, Jev picks at branches in about 100 ms, calibration measured instead of assumed"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "linux-io-lab"
     title: "linux-io-lab"
     description: "Five small C programs that make the Linux storage stack visible: which pages are in RAM, where a filename's bytes live on disk, and what a crash-safe write really costs."
@@ -120,30 +144,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-08-07"
-  - name: "jev-belay"
-    title: "jev-belay"
-    description: "Claude Code Stop hook that blocks an unverified done: reads the transcript for evidence, asks Jev once, fails open on everything else"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 41
-    first_seen: "2026-10-05T06:00:42.527601+00:00"
-    last_push: "2026-10-09"
-  - name: "Seniply-Colemak-42"
-    title: "Seniply-Colemak-42"
-    description: "Seniply inspired layout, tailored for 42 keys"
-    language: "C"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-02-07"
-  - name: "building-redis-in-rust"
-    title: "building-redis-in-rust"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # valentynkit

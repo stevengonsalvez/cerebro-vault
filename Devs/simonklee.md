@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 8, 3, 4, 0, 0, 1, 4, 2, 4, 6, 2, 1]
+pushes_per_week: [1, 8, 6, 1, 0, 0, 1, 4, 2, 5, 5, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 6
-    active_days: 26
-    repos_not_owned: 5
+    pushes: 36
+    distinct_repos: 5
+    active_days: 25
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4231
-  repo_per_active_day: 0.2308
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.5000
+  push_per_day: 1.4400
+  repo_per_active_day: 0.2000
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 11
+    pushes_per_repo: 3.2500
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 37
-    distinct_repos: 6
-    pushes_per_repo: 6.1667
-    active_days: 26
-    repos_not_owned: 5
+    pushes: 36
+    distinct_repos: 5
+    pushes_per_repo: 7.2000
+    active_days: 25
+    repos_not_owned: 4
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "godis"
@@ -129,6 +129,6 @@ repos:
 
 # simonklee
 
-37 pushes across 6 repositories on 26 active days in the last 90 days of public GitHub push activity.
+36 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

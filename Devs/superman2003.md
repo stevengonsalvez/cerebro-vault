@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 13, 21, 34]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 13, 38, 17]
 windows:
   "7d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 1
-    pushes_per_repo: 36.0000
-    active_days: 3
+    pushes_per_repo: 33.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "mirasim-register"
     title: "mirasim-register"
     description: "Unofficial Mirasim/Mirofish email signup panel with QQ IMAP OTP and invite chaining"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 1, 2, 4, 0, 1, 2, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 1, 1, 4, 2, 0, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,9 @@ repos:
     description: "Self-hosted web panel for GPT-compatible image generation APIs — generate, edit, and manage your images in one place."
     language: "Python"
     topics: []
-    stars_fact: 123
+    stars_fact: 125
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
   - name: "stash-override"
     title: "stash-override"
     description: "Stash 覆写：流媒体解锁检测（移植自 MediaUnlockTest）"
@@ -92,7 +92,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-30"
+  - name: "NodeSeek-Rulings-Search"
+    title: "NodeSeek-Rulings-Search"
+    description: "🔍 专注于 NodeSeek 论坛管理记录（Ruling）的抓取与查询工具。支持 Telegram Bot 交互、自动定时抓取、精确/模糊搜索及操作详情自动翻译，内置 SQLite 存储与频率限制。"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-04-19"
   - name: "proxy_rules"
     title: "proxy_rules"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-03"
-  - name: "NodeSeek-Rulings-Search"
-    title: "NodeSeek-Rulings-Search"
-    description: "🔍 专注于 NodeSeek 论坛管理记录（Ruling）的抓取与查询工具。支持 Telegram Bot 交互、自动定时抓取、精确/模糊搜索及操作详情自动翻译，内置 SQLite 存储与频率限制。"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-19"
 ---
 
 # Z1rconium

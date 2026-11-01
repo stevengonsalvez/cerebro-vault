@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [1, 3, 4, 1, 0, 0, 0, 0, 1, 2, 1, 6, 0]
@@ -77,15 +77,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "executing"
-    title: "executing"
-    description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
-    language: "Python"
-    topics:
-      - "python"
-    stars_fact: 403
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "futurecoder"
     title: "futurecoder"
     description: "100% free and interactive Python course for beginners"
@@ -95,17 +86,17 @@ repos:
       - "learning"
       - "learning-by-doing"
       - "python"
-    stars_fact: 1546
+    stars_fact: 1550
     first_seen: null
     last_push: "2026-05-09"
-  - name: "stack_data"
-    title: "stack_data"
-    description: null
+  - name: "funcfinder"
+    title: "funcfinder"
+    description: "A tool for automatically solving problems of the form \"I need a python function that does X.\""
     language: "Python"
     topics: []
-    stars_fact: 51
+    stars_fact: 165
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2015-10-22"
   - name: "snoop"
     title: "snoop"
     description: "A powerful set of Python debugging tools, based on PySnooper"
@@ -116,9 +107,18 @@ repos:
       - "debugging-tools"
       - "logging"
       - "python"
-    stars_fact: 1463
+    stars_fact: 1462
     first_seen: null
     last_push: "2026-07-18"
+  - name: "executing"
+    title: "executing"
+    description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
+    language: "Python"
+    topics:
+      - "python"
+    stars_fact: 403
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "birdseye"
     title: "birdseye"
     description: "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
@@ -130,24 +130,20 @@ repos:
       - "debugging"
       - "python"
       - "python-debugger"
-    stars_fact: 1775
+    stars_fact: 1776
     first_seen: null
     last_push: "2026-01-11"
-  - name: "instant_api"
-    title: "instant_api"
-    description: "Instantly create an HTTP API with automatic type conversions, JSON RPC, and a Swagger UI. Just add methods!"
+  - name: "heartrate"
+    title: "heartrate"
+    description: "Simple real time visualisation of the execution of a Python program."
     language: "Python"
     topics:
-      - "api"
-      - "flask"
-      - "http-server"
-      - "json-rpc"
-      - "marshmallow"
+      - "debugger"
       - "python"
-      - "swagger-ui"
-    stars_fact: 133
+      - "visualization"
+    stars_fact: 1842
     first_seen: null
-    last_push: "2020-07-02"
+    last_push: "2021-11-13"
 ---
 
 # alexmojaki

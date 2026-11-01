@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [29, 7, 7, 4, 0, 11, 17, 28, 16, 10, 12, 18, 0]
+pushes_per_week: [15, 8, 6, 4, 3, 9, 16, 39, 5, 10, 14, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 11
-    active_days: 41
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 145
+    distinct_repos: 8
+    active_days: 40
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8780
-  repo_per_active_day: 0.2683
-  not_owned_ratio: 0.1818
-  basename_concentration: 0.0909
+  push_per_day: 3.6250
+  repo_per_active_day: 0.2000
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 11
-    pushes_per_repo: 14.4545
-    active_days: 41
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 145
+    distinct_repos: 8
+    pushes_per_repo: 18.1250
+    active_days: 40
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-159 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
+145 pushes across 8 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

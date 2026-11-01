@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [7, 4, 1, 4, 0, 0, 27, 36, 18, 4, 6, 0, 0]
+pushes_per_week: [0, 4, 1, 4, 0, 0, 31, 32, 20, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 12
     distinct_repos: 1
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
-    distinct_repos: 6
-    active_days: 27
+    pushes: 100
+    distinct_repos: 5
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9630
-  repo_per_active_day: 0.2222
+  push_per_day: 4.0000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,32 +57,40 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 19.0000
-    active_days: 8
+    pushes_per_repo: 12.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 107
-    distinct_repos: 6
-    pushes_per_repo: 17.8333
-    active_days: 27
+    pushes: 100
+    distinct_repos: 5
+    pushes_per_repo: 20.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "uuid-nvim"
+    title: "uuid-nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2024-01-03"
   - name: "gemma-4-abliteration"
     title: "gemma-4-abliteration"
     description: "Gemma 4 abliteration research: biprojection + EGA for E2B, E4B, 12B, 26B MoE, 31B"
     language: "Python"
     topics: []
-    stars_fact: 142
+    stars_fact: 143
     first_seen: null
     last_push: "2026-06-13"
   - name: "qwen3-tts-rs"
@@ -140,18 +148,10 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-09-16"
-  - name: "phosphor"
-    title: "phosphor"
-    description: "An agent-native terminal editor - a spiritual successor to Light Table for the age of coding agents, with the terminal as a first-class citizen."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
 ---
 
 # TrevorS
 
-107 pushes across 6 repositories on 27 active days in the last 90 days of public GitHub push activity.
+100 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TrevorS

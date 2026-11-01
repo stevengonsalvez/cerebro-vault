@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [5, 13, 4, 1, 0, 7, 8, 6, 0, 0, 1, 1, 0]
+pushes_per_week: [6, 12, 4, 1, 2, 9, 7, 3, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,60 +84,47 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "browser-harness-rust"
+    title: "browser-harness-rust"
+    description: "Self-healing browser harness that enables LLMs to complete any task. This is the Rust version."
+    language: "Rust"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "cursor-clone"
+    title: "cursor-clone"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "steep-clone"
+    title: "steep-clone"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "ip_derper"
     title: "ip_derper"
     description: "无需域名的 derper"
     language: "Dockerfile"
     topics: []
-    stars_fact: 461
+    stars_fact: 462
     first_seen: null
     last_push: "2025-02-16"
-  - name: "k8s-knowledge"
-    title: "k8s-knowledge"
-    description: "Kubernetes 社区的知识图谱，Knowledge Graph"
-    language: null
-    topics: []
-    stars_fact: 101
-    first_seen: null
-    last_push: "2018-04-07"
-  - name: "prometheus-handbook"
-    title: "prometheus-handbook"
-    description: "Prometheus 中文文档"
+  - name: "learnseo-zh"
+    title: "learnseo-zh"
+    description: null
     language: "HTML"
-    topics:
-      - "cloud-native"
-      - "gitbook"
-      - "handbook"
-      - "kubernetes"
-      - "microservices"
-      - "prometheus"
-      - "prometheus-kubernetes"
-    stars_fact: 437
-    first_seen: null
-    last_push: "2023-01-25"
-  - name: "envoy-handbook"
-    title: "envoy-handbook"
-    description: "Envoy 中文指南 - https://icloudnative.io/envoy-handbook/"
-    language: "SCSS"
-    topics:
-      - "envoy"
-      - "envoy-proxy"
-      - "envoyproxy"
-      - "handbook"
-      - "hugo"
-      - "service-mesh"
-    stars_fact: 236
-    first_seen: null
-    last_push: "2022-07-10"
-  - name: "patch-codex-fast"
-    title: "patch-codex-fast"
-    description: "Patch Codex desktop Fast mode and Plugins for API key mode"
-    language: "Python"
     topics: []
-    stars_fact: 33
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-05-16"
+    last_push: "2026-10-26"
 ---
 
 # yangchuansheng

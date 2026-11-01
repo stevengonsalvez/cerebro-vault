@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 8, 0, 2, 0, 1, 2, 3, 3, 1, 4, 3, 0]
+pushes_per_week: [2, 8, 0, 2, 0, 1, 3, 2, 3, 1, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,25 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "threadmark"
+    title: "threadmark"
+    description: "An AI-powered discussion workspace that turns conversations into reviewed, version-controlled knowledge."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "collaborative-chat"
+      - "golang"
+      - "google-adk"
+      - "llm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "ktsoator"
     title: "ktsoator"
     description: null
     language: null
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
 ---

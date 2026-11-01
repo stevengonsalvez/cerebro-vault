@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 3, 3, 6, 2, 8, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 2, 3, 7, 2, 5, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,9 +77,17 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "homebrew-evolve"
+    title: "homebrew-evolve"
+    description: "Homebrew tap: EvolveRouter — local LLM routing gateway with a native macOS menu-bar panel"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "evolve-router"
     title: "evolve-router"
-    description: "Stop burning premium model tokens on simple prompts. Save tokens. Spend them where they matter. Local-first self-evolving LLM router with a decision model + feedback flywheel. Judges each request and picks the right model on the fly. 7MB Rust, zero cloud, fully auditable. Works with OpenAI/Anthropic & agents."
+    description: "Stop burning premium model tokens on simple prompts. Save tokens. Spend them where they matter. Local-first self-evolving LLM router with a decision model + feedback flywheel. Judges each request and picks the right model on the fly. 10MB Rust, zero cloud, fully auditable. Works with OpenAI/Anthropic & agents."
     language: "Rust"
     topics:
       - "agent"
@@ -102,15 +110,7 @@ repos:
       - "self-hosting"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "homebrew-evolve"
-    title: "homebrew-evolve"
-    description: "Homebrew tap: EvolveRouter — local LLM routing gateway with a native macOS menu-bar panel"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
   - name: "Agent-Harness-Develop-Book"
     title: "Agent-Harness-Develop-Book"
     description: "Agent Harness (Loop Engineering) dev guide — complete architecture & core modules, based on production-grade agent source: Claude Code, DeepSeek Harness, OpenCode, Pi, Codex, OpenClaw & Hermes. English & 中文"
@@ -130,9 +130,29 @@ repos:
       - "openclaw"
       - "opencode"
       - "pi"
-    stars_fact: 91
+    stars_fact: 93
     first_seen: null
     last_push: "2026-09-24"
+  - name: "share-context-mcp"
+    title: "share-context-mcp"
+    description: "A real-time shared context channel for AI agents — an MCP server that keeps every teammate's agent in sync. Multi-agent teams autonomously exchange decisions, contracts, pitfalls and questions, over an E2E-encrypted blind relay that never sees plaintext. One password to pair, zero accounts; works with Claude Code, opencode, Cursor — any MCP client."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai-agents"
+      - "claude-code"
+      - "collaboration"
+      - "context"
+      - "context-sharing"
+      - "e2e-encryption"
+      - "mcp"
+      - "multi-agent"
+      - "opencode"
+      - "real-time"
+      - "realtime"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "decision-router"
     title: "decision-router"
     description: null
@@ -161,27 +181,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "SpringCloud_WebRTC_Online_Meeting"
-    title: "SpringCloud_WebRTC_Online_Meeting"
-    description: "Spring Cloud Alibaba, WebRTC, WebSocket (Stomp.js), Real-time meeting and chat, Oauth 2.0 and JWT, Spring security, Vue, Quasar, Vue router and VueX, Mybatis-Plus, Naco, gatewa, redis, maven"
-    language: "Java"
-    topics:
-      - "jwt"
-      - "mybatis-plus"
-      - "nacos"
-      - "oauth2"
-      - "quasar"
-      - "real-time-chat"
-      - "redis"
-      - "spring-cloud"
-      - "spring-cloud-alibaba"
-      - "vue"
-      - "vue-router"
-      - "webrtc"
-      - "websockets"
-    stars_fact: 48
-    first_seen: null
-    last_push: "2021-07-18"
 ---
 
 # holny

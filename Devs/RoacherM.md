@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 4, 1, 2, 2, 2, 4]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 4, 2, 1, 2, 4, 2]
 windows:
   "7d":
     pushes: 4
@@ -77,6 +77,38 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "epi"
+    title: "epi"
+    description: "Epi — your own layer on Pi"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "ai-harness-notes"
+    title: "ai-harness-notes"
+    description: "AI harness / skills / MCP 中文深度归档（论文与项目解读）"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "minilfs"
+    title: "minilfs"
+    description: "100% Native LayerFS workspace isolation + Claude Code srt-style macOS Seatbelt sandbox for Pi, Epi, Claude Code, Codex, and MCP."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "Wayne-Skills"
+    title: "Wayne-Skills"
+    description: "Claude Code skills for first-principles architecture thinking via GPT-5.x"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "pi-extensions"
     title: "pi-extensions"
     description: "Opt-in extensions for Pi and Epi. First: layerfs, isolated LayerFS branches for agent file tools and shell commands."
@@ -88,45 +120,13 @@ repos:
       - "pi-package"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "Wayne-Skills"
-    title: "Wayne-Skills"
-    description: "Claude Code skills for first-principles architecture thinking via GPT-5.x"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "epi"
-    title: "epi"
-    description: "Epi — your own layer on Pi"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "ai-harness-notes"
-    title: "ai-harness-notes"
-    description: "AI harness / skills / MCP 中文深度归档（论文与项目解读）"
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-25"
   - name: "dsh-plugins"
     title: "dsh-plugins"
     description: "My DeepSeek Harness plugin bundles"
     language: null
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "trajecable-plugin"
-    title: "trajecable-plugin"
-    description: "DSH plugin Formula: daily race log of local coding agents and a live chat HUD whose speed is tokens per second"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
 ---

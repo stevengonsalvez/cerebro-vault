@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 4, 8, 0, 3, 5, 5]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 5, 7, 0, 3, 10, 0]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 2
+    pushes: 4
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 8
+    pushes_per_repo: 3.2000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "moonlake"
     title: "moonlake"
     description: "A pure-MoonBit, zero-FFI columnar SQL engine over CSV/Parquet — all 22 TPC-H queries pass against DuckDB, native and WebAssembly from one codebase."
@@ -107,7 +107,37 @@ repos:
       - "webassembly"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "Pokefetch"
+    title: "Pokefetch"
+    description: null
+    language: "Rust"
+    topics:
+      - "cli"
+      - "fastfetch"
+      - "fetch"
+      - "neofetch"
+      - "pokemon"
+      - "rust"
+      - "system-info"
+      - "terminal"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "colenc"
+    title: "colenc"
+    description: "Columnar encoding kernel for MoonBit: the Parquet page-level encoding family as a reusable, verifiable, pluggable library."
+    language: "MoonBit"
+    topics:
+      - "bit-packing"
+      - "columnar"
+      - "compression"
+      - "encoding"
+      - "moonbit"
+      - "parquet"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "MoonPerf-Lab"
     title: "MoonPerf-Lab"
     description: null
@@ -144,36 +174,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-20"
-  - name: "colenc"
-    title: "colenc"
-    description: "Columnar encoding kernel for MoonBit: the Parquet page-level encoding family as a reusable, verifiable, pluggable library."
-    language: "MoonBit"
-    topics:
-      - "bit-packing"
-      - "columnar"
-      - "compression"
-      - "encoding"
-      - "moonbit"
-      - "parquet"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "Pokefetch"
-    title: "Pokefetch"
-    description: null
-    language: "Rust"
-    topics:
-      - "cli"
-      - "fastfetch"
-      - "fetch"
-      - "neofetch"
-      - "pokemon"
-      - "rust"
-      - "system-info"
-      - "terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
 ---
 
 # superbigcup325

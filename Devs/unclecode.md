@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "d46d1480c37c463a"
-pushes_per_week: [2, 10, 3, 4, 1, 1, 3, 3, 2, 5, 3, 3, 2]
+pushes_per_week: [4, 10, 2, 3, 1, 1, 3, 4, 3, 4, 2, 4, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -97,9 +97,9 @@ repos:
       - "web-crawler"
       - "web-crawling"
       - "web-scraping"
-    stars_fact: 86133
+    stars_fact: 86680
     first_seen: "2026-08-31T06:00:05.898998+00:00"
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
   - name: "crawl4ai-status"
     title: "crawl4ai-status"
     description: "Live status of the Crawl4AI crawling API and services"
@@ -110,7 +110,7 @@ repos:
       - "uptime-monitor"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "modelprint"
     title: "modelprint"
     description: "Who is really behind that API? Fingerprint any OpenAI-compatible endpoint in the browser: 9 infrastructure probes, side-by-side comparison, community-extensible."
@@ -120,9 +120,25 @@ repos:
       - "fingerprinting"
       - "llm"
       - "openrouter"
-    stars_fact: 132
+    stars_fact: 134
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "promptuner"
+    title: "promptuner"
+    description: "𝙏𝙪𝙧𝙣𝙞𝙣𝙜 𝙨𝙢𝙖𝙡𝙡 𝙩𝙖𝙨𝙠 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣𝙨 𝙞𝙣𝙩𝙤 𝙢𝙚𝙜𝙖 𝙥𝙧𝙤𝙢𝙥𝙩𝙨 𝙖𝙪𝙩𝙤𝙢𝙖𝙜𝙞𝙘𝙖𝙡𝙡𝙮."
+    language: "Python"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2024-07-24"
+  - name: "twikit"
+    title: "twikit"
+    description: "Maintained fork of d60/twikit with 2026 patches for X (formerly Twitter) internal API changes. Drop-in replacement: pip install git+https://github.com/unclecode/twikit.git"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-05-17"
   - name: "crawl4ai-cloud-plugin"
     title: "crawl4ai-cloud-plugin"
     description: "Crawl4AI Cloud for Claude Code and other agents: scrape, search, Google SERP, extract and watch the web with one key."
@@ -131,22 +147,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-15"
-  - name: "claude-compress"
-    title: "claude-compress"
-    description: "Claude Code /compress command - compress chat sessions"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-12-27"
-  - name: "twikit"
-    title: "twikit"
-    description: "Maintained fork of d60/twikit with 2026 patches for X (formerly Twitter) internal API changes. Drop-in replacement: pip install git+https://github.com/unclecode/twikit.git"
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-05-17"
 ---
 
 # unclecode

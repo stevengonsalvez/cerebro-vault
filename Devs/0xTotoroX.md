@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 2, 0, 1, 3, 0, 3]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 2, 0, 1, 3, 3, 0]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "soota"
+    title: "soota"
+    description: "Content collection, captions, and Markdown bundles powered by OpenCLI and TikHub."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "lorelab"
+    title: "lorelab"
+    description: "LoreLab canonical source and component distribution"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "palboo"
+    title: "palboo"
+    description: "A desktop companion for Codex: answer outlines, next-step suggestions, and floating panels."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "openlist-oauth-info"
     title: "openlist-oauth-info"
     description: "Personal OpenList Google Drive OAuth information pages"
@@ -85,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "palboo"
-    title: "palboo"
-    description: "A desktop companion for Codex: answer outlines, next-step suggestions, and floating panels."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "myoncode"
     title: "myoncode"
     description: "知见 / MyOncode — Cancer care management for patients and families."
@@ -103,7 +119,7 @@ repos:
       - "patient-records"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
   - name: "model-deck"
     title: "model-deck"
     description: "A hover model matrix and preset switcher for Codex++."
@@ -116,22 +132,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-07-30"
-  - name: "vps-quality-lab"
-    title: "vps-quality-lab"
-    description: "Resumable SSH and VLESS REALITY delivery with evidence-based VPS assessment"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "soota"
-    title: "soota"
-    description: "Content collection, captions, and Markdown bundles powered by OpenCLI and TikHub."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # 0xTotoroX

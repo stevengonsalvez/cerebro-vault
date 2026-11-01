@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 6, 10, 5, 2, 8, 11, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 6, 11, 4, 3, 7, 11, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 2
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 6
-    active_days: 20
+    pushes: 43
+    distinct_repos: 5
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2000
-  repo_per_active_day: 0.3000
+  push_per_day: 2.2632
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1667
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 12.0000
+    pushes_per_repo: 11.5000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 6
-    pushes_per_repo: 7.3333
-    active_days: 20
+    pushes: 43
+    distinct_repos: 5
+    pushes_per_repo: 8.6000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zotero-reading-assistant"
+    title: "zotero-reading-assistant"
+    description: "AI-powered reading assistant sidebar for Zotero"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "GAgent"
     title: "GAgent"
     description: "AI-Driven 智能任务编排系统"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-16"
-  - name: "zotero-reading-assistant"
-    title: "zotero-reading-assistant"
-    description: "AI-powered reading assistant sidebar for Zotero"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-08-05"
   - name: "yiyabo"
     title: "yiyabo"
     description: "GitHub Profile README"
@@ -129,6 +129,6 @@ repos:
 
 # yiyabo
 
-44 pushes across 6 repositories on 20 active days in the last 90 days of public GitHub push activity.
+43 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yiyabo

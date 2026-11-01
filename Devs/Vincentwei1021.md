@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3e09ebb04c002f64"
-pushes_per_week: [0, 4, 1, 0, 0, 2, 2, 2, 1, 2, 2, 0, 0]
+pushes_per_week: [1, 3, 1, 0, 0, 3, 1, 2, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,17 +77,9 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mg-styles-15"
-    title: "mg-styles-15"
-    description: "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source."
-    language: "Python"
-    topics: []
-    stars_fact: 1964
-    first_seen: null
-    last_push: "2026-10-05"
   - name: "video-shotcraft"
     title: "video-shotcraft"
-    description: "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template"
+    description: "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export."
     language: "TypeScript"
     topics:
       - "agent-skills"
@@ -104,29 +96,9 @@ repos:
       - "remotion"
       - "video-generation"
       - "video-production"
-    stars_fact: 13281
+    stars_fact: 15574
     first_seen: "2026-08-12T06:00:07.613191+00:00"
-    last_push: "2026-10-17"
-  - name: "video-talkcraft"
-    title: "video-talkcraft"
-    description: "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 109 motion recipe cards, an anti-slideshow camera system, Remotion rendering."
-    language: "HTML"
-    topics:
-      - "agent-skills"
-      - "ai-agent"
-      - "claude"
-      - "claude-code"
-      - "explainer-video"
-      - "kinetic-typography"
-      - "motion-design"
-      - "motion-graphics"
-      - "narration"
-      - "remotion"
-      - "talking-head"
-      - "video-production"
-    stars_fact: 1728
-    first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-29"
   - name: "anything2explainer"
     title: "anything2explainer"
     description: "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion."
@@ -150,17 +122,37 @@ repos:
       - "tts"
       - "typescript"
       - "video-generation"
-    stars_fact: 2713
+    stars_fact: 2924
     first_seen: null
     last_push: "2026-09-18"
-  - name: "Synapse"
-    title: "Synapse"
-    description: "Research orchestration platform where human researchers and AI agents collaborate"
-    language: "TypeScript"
+  - name: "mg-styles-15"
+    title: "mg-styles-15"
+    description: "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source."
+    language: "Python"
     topics: []
-    stars_fact: 40
+    stars_fact: 2744
     first_seen: null
-    last_push: "2026-07-21"
+    last_push: "2026-10-05"
+  - name: "video-talkcraft"
+    title: "video-talkcraft"
+    description: "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 109 motion recipe cards, an anti-slideshow camera system, Remotion rendering."
+    language: "HTML"
+    topics:
+      - "agent-skills"
+      - "ai-agent"
+      - "claude"
+      - "claude-code"
+      - "explainer-video"
+      - "kinetic-typography"
+      - "motion-design"
+      - "motion-graphics"
+      - "narration"
+      - "remotion"
+      - "talking-head"
+      - "video-production"
+    stars_fact: 1991
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "kronos-guide-cn"
     title: "kronos-guide-cn"
     description: "📈 Kronos Chinese Guide | Financial K-Line Foundation Model | A 股 K 线预测中文实战指南 — 数据获取 · 预测实战 · 微调教程 · 回测集成 | AAAI 2026 | Zero-shot RankIC +93%"
@@ -180,9 +172,17 @@ repos:
       - "stock-prediction"
       - "time-series"
       - "tutorial"
-    stars_fact: 65
+    stars_fact: 69
     first_seen: null
     last_push: "2026-04-17"
+  - name: "Vincentwei1021"
+    title: "Vincentwei1021"
+    description: "Build in public · 我相信，代码可以创造世界。"
+    language: null
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-10-05"
 ---
 
 # Vincentwei1021

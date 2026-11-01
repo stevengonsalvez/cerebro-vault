@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 4, 9, 6, 0, 2, 3, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 5, 10, 4, 2, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,46 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "woodworks"
-    title: "woodworks"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "aliendoner"
-    title: "aliendoner"
-    description: "🛸 Alien Döner — space-themed halal Turkish restaurant site. Static, SEO-optimized, multi-page (Astro-free), deployed on Vercel."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "limra-website"
-    title: "limra-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "grapher"
-    title: "grapher"
-    description: "grapher"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "vogue-expo-october"
-    title: "vogue-expo-october"
-    description: "New website for vegas vogue expo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "cozumebak"
     title: "cozumebak"
     description: null
@@ -124,7 +84,47 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
+  - name: "vogue-expo-october"
+    title: "vogue-expo-october"
+    description: "New website for vegas vogue expo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "istanbul2"
+    title: "istanbul2"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "aliendoner"
+    title: "aliendoner"
+    description: "🛸 Alien Döner — space-themed halal Turkish restaurant site. Static, SEO-optimized, multi-page (Astro-free), deployed on Vercel."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "limra-website"
+    title: "limra-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "woodworks"
+    title: "woodworks"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # gokhankelebek

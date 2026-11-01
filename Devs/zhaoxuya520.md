@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0396398dad51ec9d"
-pushes_per_week: [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端"
     language: "PowerShell"
     topics: []
-    stars_fact: 43168
+    stars_fact: 43895
     first_seen: "2026-08-07T06:00:03.597556+00:00"
     last_push: "2026-09-22"
   - name: "AI-Fullstack-Delivery-Workflow"
@@ -90,7 +90,7 @@ repos:
     description: "AI 全栈交付工作流总控系统 — 17 个岗位工作流 + 100+ Skills + 自举脚本，AI 读一遍 README 就能自动配置环境并执行完整软件项目交付。覆盖产品/设计/前端/后端/测试/DevOps/SRE/安全/数据/AI集成/逆向渗透。"
     language: "PowerShell"
     topics: []
-    stars_fact: 53
+    stars_fact: 55
     first_seen: null
     last_push: "2026-05-19"
   - name: "MeshLAN"
@@ -108,7 +108,7 @@ repos:
       - "virtual-lan"
       - "vpn"
       - "windows"
-    stars_fact: 235
+    stars_fact: 239
     first_seen: null
     last_push: "2026-08-30"
   - name: "kernary-code"

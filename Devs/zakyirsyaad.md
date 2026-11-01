@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6, 3]
+pushes_per_week: [1, 1, 1, 0, 0, 1, 0, 3, 3, 5, 0, 9, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -50,9 +50,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -78,80 +78,54 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zorvo"
-    title: "zorvo"
-    description: "A macOS desktop app for the coding agents you already use: Qwen Code, Claude Code and Codex over ACP, and terminal agents like Aider."
-    language: "TypeScript"
-    topics:
-      - "agent-client-protocol"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "desktop-app"
-      - "macos"
-      - "qwen-code"
-      - "react"
-      - "rust"
-      - "tauri"
+  - name: "sp1a-wasm"
+    title: "sp1a-wasm"
+    description: null
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "antigravity-bridge"
-    title: "antigravity-bridge"
-    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
+    last_push: "2026-11-01"
+  - name: "ai-perpetual-trading"
+    title: "ai-perpetual-trading"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "zakyirsyaad"
+    title: "zakyirsyaad"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "exoduze"
+    title: "exoduze"
+    description: "Exoduze — AI-agent prediction market monorepo (Next.js, Fastify, Solana/Anchor)"
     language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "uii-skripsi-research"
-    title: "uii-skripsi-research"
-    description: "Plugin Claude Code untuk skripsi Informatika UII. Memverifikasi sitasi ke Crossref/OpenAlex/DataCite, mencari literatur, mengaudit daftar pustaka, memeriksa kata baku dengan KBBI Edisi IV, dan menjaga konteks antar-sesi."
-    language: "Python"
-    topics:
-      - "bahasa-indonesia"
-      - "citation-verification"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "crossref"
-      - "openalex"
-      - "skripsi"
-      - "uii"
-    stars_fact: 2
+    last_push: "2026-05-03"
+  - name: "growfi-fix"
+    title: "growfi-fix"
+    description: "GrowFi — Solana farming GameFi with Phaser 3, marketplace, trades, and an Anchor economy"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-06-14"
   - name: "monagent"
     title: "monagent"
-    description: "MetaMask Agent Wallet Plugin for Monad A2A Commerce & Trust (Metropolis Hackathon)"
+    description: "MetaMask Agent Wallet Plugin for Monad A2A Commerce & Trust"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
-  - name: "nearly"
-    title: "nearly"
-    description: "A social graph where connections can only be made in person — QR handshake + co-location check, recorded on BNB Smart Chain, trust computed from the graph."
-    language: "TypeScript"
-    topics:
-      - "bnb-chain"
-      - "expo"
-      - "hackathon"
-      - "proof-of-personhood"
-      - "react-native"
-      - "social-graph"
-      - "solidity"
-      - "web3"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "frontend-kit-plugin"
-    title: "frontend-kit-plugin"
-    description: "Claude Code plugin for Next.js App Router + Tailwind v4 + shadcn/ui frontends: scaffold, adopt, tokens, rules, reviewer, blocks and adapted Magic UI / Aceternity effects."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-29"
 ---
 
 # zakyirsyaad

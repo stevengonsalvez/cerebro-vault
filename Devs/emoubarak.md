@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 2, 3, 4, 1, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 5, 1, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 8
+    pushes: 9
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,26 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jev-check"
+    title: "jev-check"
+    description: "AI browser agent testing for staging apps: sign in as a real account state (free, paid, lapsed, team), follow a plain-English goal, verify against the database. Agent skill for Claude Code, Codex."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agent"
+      - "browser-agent"
+      - "browser-use"
+      - "claude-code"
+      - "e2e-testing"
+      - "jev"
+      - "qa"
+      - "rls"
+      - "skill-md"
+      - "staging"
+      - "supabase"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "signal-bot"
     title: "signal-bot"
     description: null
@@ -135,26 +155,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "jev-check"
-    title: "jev-check"
-    description: "AI browser agent testing for staging apps: sign in as a real account state (free, paid, lapsed, team), follow a plain-English goal, verify against the database. Agent skill for Claude Code, Codex."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-use"
-      - "claude-code"
-      - "e2e-testing"
-      - "jev"
-      - "qa"
-      - "rls"
-      - "skill-md"
-      - "staging"
-      - "supabase"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "prompt-to-short-video-generator"
     title: "prompt-to-short-video-generator"
     description: null

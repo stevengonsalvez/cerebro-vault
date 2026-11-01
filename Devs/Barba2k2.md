@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [8, 2, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0]
@@ -77,6 +77,17 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "flutter_roomplan"
+    title: "flutter_roomplan"
+    description: "A Flutter plugin that allows you to use Apple's RoomPlan API to scan an interior room and get a 3D model and measurements."
+    language: "Dart"
+    topics:
+      - "apple"
+      - "ios"
+      - "roomplan"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "Cpp-APi"
     title: "Cpp-APi"
     description: null
@@ -113,14 +124,6 @@ repos:
     title: "project1"
     description: null
     language: "PHP"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "order-management-challenge-node"
-    title: "order-management-challenge-node"
-    description: null
-    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null

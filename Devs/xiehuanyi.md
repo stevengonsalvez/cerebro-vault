@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 16, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 13, 11, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ngrove-viz"
+    title: "ngrove-viz"
+    description: "nGrove results dashboard and research-trajectory analysis skill"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "pi-rsi"
     title: "pi-rsi"
     description: "Auto-research harness: tree search + handoffs + frozen evaluators around headless coding agents (pi, Grok CLI)"
@@ -86,14 +94,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-22"
-  - name: "ngrove-viz"
-    title: "ngrove-viz"
-    description: "nGrove results dashboard and research-trajectory analysis skill"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "autotrain-bench-viz"
     title: "autotrain-bench-viz"
     description: "Moved to xiehuanyi/ngrove-viz; keeps the old dashboard address redirecting"

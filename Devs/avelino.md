@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 2, 1, 0, 1, 0, 0, 2, 2, 12, 7, 0]
+pushes_per_week: [2, 1, 3, 0, 0, 1, 0, 0, 3, 1, 12, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,9 +88,9 @@ repos:
       - "golang"
       - "golang-library"
       - "hacktoberfest"
-    stars_fact: 190030
+    stars_fact: 191417
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
   - name: "avelino.run"
     title: "avelino.run"
     description: "My personal blog"
@@ -101,34 +101,21 @@ repos:
       - "personal-website"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "dotagent"
-    title: "dotagent"
-    description: "Polyglot agent orchestrator. Write your agent in any language, handles scheduling, heartbeats, retries, timeouts, health, and notifications"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mcp"
-    title: "mcp"
-    description: "CLI that turns MCP servers into terminal commands, single binary"
+    last_push: "2026-11-01"
+  - name: "jbundle"
+    title: "jbundle"
+    description: "Package JVM applications (Clojure, Java) into self-contained binaries. No JVM installation required to run the output."
     language: "Rust"
     topics:
-      - "cli"
-      - "mcp"
-      - "mcp-server"
-    stars_fact: 71
+      - "clojure"
+      - "graalvm"
+      - "graalvm-native-image"
+      - "jlink"
+      - "jvm"
+      - "rust"
+    stars_fact: 181
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "chrondb"
-    title: "chrondb"
-    description: "Chronological key/value Database built on Git architecture with complete version history"
-    language: "Clojure"
-    topics: []
-    stars_fact: 98
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
   - name: "airtraffic"
     title: "airtraffic"
     description: "Automatic URL routing for Firefox containers and Chrome tab groups. Define URL patterns, assign them to a destination, and tabs land in the right place automatically"
@@ -142,7 +129,26 @@ repos:
       - "zen-browser"
     stars_fact: 20
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
+  - name: "outl-plugin-ouraring"
+    title: "outl-plugin-ouraring"
+    description: "An outl plugin that syncs your Oura Ring health metrics into daily pages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "mcp"
+    title: "mcp"
+    description: "CLI that turns MCP servers into terminal commands, single binary"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "mcp"
+      - "mcp-server"
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # avelino

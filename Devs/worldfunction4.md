@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 2, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,12 +79,12 @@ reasons:
 repos:
   - name: "QOS"
     title: "QOS"
-    description: "QOS(Qt Object Storage) 是一个对象存储的客户端，和云厂商的对象存储服务进行联动，方便进行资源和地域管理"
+    description: "QOS(Qt Object Storage) 是一个轻量化的对象存储客户端，和云厂商的对象存储服务进行联动，方便进行资源和地域管理，非常快捷"
     language: "C++"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "worldfunction4.github.io"
     title: "worldfunction4.github.io"
     description: "泪叶丝的学习博客"

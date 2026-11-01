@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [20, 13, 0, 0, 0, 0, 0, 3, 4, 3, 1, 0, 0]
+pushes_per_week: [19, 13, 0, 0, 0, 0, 1, 2, 4, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 15
+    pushes: 43
+    distinct_repos: 14
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1429
-  repo_per_active_day: 1.0714
+  push_per_day: 3.0714
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 44
-    distinct_repos: 15
-    pushes_per_repo: 2.9333
+    pushes: 43
+    distinct_repos: 14
+    pushes_per_repo: 3.0714
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -91,6 +91,6 @@ repos:
 
 # RerankerGuo
 
-44 pushes across 15 repositories on 14 active days in the last 90 days of public GitHub push activity.
+43 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RerankerGuo

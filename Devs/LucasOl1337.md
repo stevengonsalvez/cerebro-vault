@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [2, 5, 1, 1, 0, 4, 7, 19, 11, 2, 1, 17, 0]
+pushes_per_week: [2, 5, 1, 1, 0, 9, 4, 18, 11, 1, 1, 17, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 7
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 7
-    pushes_per_repo: 4.0000
-    active_days: 10
+    pushes_per_repo: 3.7143
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "LUCA-AI"
-    title: "LUCA-AI"
-    description: "Dashboard to create, follow and review missions executed by AI agents. React + Express + WebSocket."
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "pontape"
     title: "pontape"
     description: "ONG open source: acha quem quer mudar de vida, dá o básico, conecta com trabalho e IA, com transparência ao vivo. (nome provisório)"
@@ -92,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "omarchy-machines-radar"
-    title: "omarchy-machines-radar"
-    description: "Radar de máquinas (PC, notebook e VPS) na barra do Omarchy: CPU, RAM, disco, containers e avisos por SSH"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "sussurro"
     title: "sussurro"
     description: "Local dictation for Windows and Linux: Silero VAD + faster-whisper on CUDA, text typed or pasted where the cursor is. No audio leaves the machine."
@@ -108,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "omarchy-agent-bench"
+    title: "omarchy-agent-bench"
+    description: "Nested X11 benches for AI agents on Omarchy/Hyprland. Agents get their own display, Chromium, and CDP. You keep workspaces 1–5."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "ponte"
     title: "ponte"
     description: "Android touch controls and live monitor views for an Omarchy desktop, over Tailscale. English by default, Portuguese optional."
@@ -121,7 +113,15 @@ repos:
       - "tailscale"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-28"
+  - name: "omarchy-machines-radar"
+    title: "omarchy-machines-radar"
+    description: "Radar de máquinas (PC, notebook e VPS) na barra do Omarchy: CPU, RAM, disco, containers e avisos por SSH"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "RamDog"
     title: "RamDog"
     description: "Process manager that answers \"who is using my machine?\": apps grouped on one row, PSS memory that adds up, and where each process came from. Built for Omarchy/Hyprland; also Windows and macOS."

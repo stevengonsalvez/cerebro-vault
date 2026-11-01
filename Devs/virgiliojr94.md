@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16a73b8e53c5832a"
-pushes_per_week: [2, 4, 2, 1, 0, 0, 2, 0, 0, 1, 5, 0, 0]
+pushes_per_week: [2, 4, 3, 0, 0, 0, 2, 0, 0, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,9 +95,17 @@ repos:
       - "rag"
       - "self-study"
       - "study-tools"
-    stars_fact: 35907
+    stars_fact: 36670
     first_seen: "2026-08-15T06:00:05.480011+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-28"
+  - name: "virgiliojr94"
+    title: "virgiliojr94"
+    description: "my profile README"
+    language: null
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "book-to-skill-use-cases"
     title: "book-to-skill-use-cases"
     description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
@@ -107,23 +115,23 @@ repos:
       - "book-to-skill"
       - "showcase"
       - "use-cases"
-    stars_fact: 19
+    stars_fact: 22
     first_seen: null
     last_push: "2026-09-15"
-  - name: "virgiliojr94"
-    title: "virgiliojr94"
-    description: "my profile README"
-    language: null
+  - name: "localpdf.io"
+    title: "localpdf.io"
+    description: null
+    language: "Python"
     topics: []
-    stars_fact: 5
+    stars_fact: 274
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-05-11"
   - name: "x-to-skill"
     title: "x-to-skill"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 21
+    stars_fact: 22
     first_seen: null
     last_push: "2026-08-27"
   - name: "iteam-react-modulo-04"
@@ -134,14 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "localpdf.io"
-    title: "localpdf.io"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 273
-    first_seen: null
-    last_push: "2026-05-11"
 ---
 
 # virgiliojr94

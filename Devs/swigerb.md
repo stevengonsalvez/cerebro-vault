@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [20, 42, 1, 3, 0, 0, 0, 15, 56, 298, 9, 37, 0]
+pushes_per_week: [34, 26, 1, 3, 0, 0, 3, 41, 55, 270, 9, 37, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 362
+    pushes: 355
     distinct_repos: 4
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 481
+    pushes: 479
     distinct_repos: 10
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.7317
-  repo_per_active_day: 0.2439
+  push_per_day: 11.9750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 362
+    pushes: 355
     distinct_repos: 4
-    pushes_per_repo: 90.5000
-    active_days: 16
+    pushes_per_repo: 88.7500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 481
+    pushes: 479
     distinct_repos: 10
-    pushes_per_repo: 48.1000
-    active_days: 41
+    pushes_per_repo: 47.9000
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "retail-pulse"
@@ -140,6 +140,6 @@ repos:
 
 # swigerb
 
-481 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
+479 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

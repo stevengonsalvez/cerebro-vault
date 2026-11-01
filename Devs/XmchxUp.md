@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "workout_page"
-    title: "workout_page"
-    description: "Make Your Own Workouts Page (Inspired by running_page)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "XmchxUp"
     title: "XmchxUp"
     description: "GitHub Personal README"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "workout_page"
+    title: "workout_page"
+    description: "Make Your Own Workouts Page (Inspired by running_page)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "who-unfollow-you"
     title: "who-unfollow-you"
     description: "🛠️ who has unfollow your GitHub."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-30"
   - name: "Dotfiles"
     title: "Dotfiles"
     description: null

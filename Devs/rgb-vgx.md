@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 5, 6, 3, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 3, 5, 6, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,18 +77,18 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "genVideo"
-    title: "genVideo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
   - name: "Axiom-Office"
     title: "Axiom-Office"
     description: null
     language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "genVideo"
+    title: "genVideo"
+    description: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null

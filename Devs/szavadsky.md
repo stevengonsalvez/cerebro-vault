@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 8, 2, 6, 2, 6, 9, 2, 3, 0, 4, 0, 0]
+pushes_per_week: [6, 6, 5, 3, 3, 9, 5, 2, 3, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omp-json-runner"
+    title: "omp-json-runner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "agentic-swarm"
     title: "agentic-swarm"
     description: "A system to define agents and orchestrated workflows for coding assistants (hybrid orchestration, script first, horizon is script enforced, structural model split - bulk of work by cheap \"Flash\" models\"."

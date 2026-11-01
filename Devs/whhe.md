@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-29"
   - name: "code-review-bot"
     title: "code-review-bot"
     description: "Extensible AI code review bot with pluggable coding agents, review skills, and Git platform adapters (GitLab & GitHub)."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-28"
   - name: "whhe"
     title: "whhe"
     description: null

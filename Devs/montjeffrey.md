@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 1, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,20 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tailnet-sentry"
+    title: "tailnet-sentry"
+    description: "Scan your own tailnet, mark known devices healthy, flag the anomaly, quarantine it. Defensive Go CLI over the Tailscale API."
+    language: "Go"
+    topics:
+      - "cli"
+      - "devsecops"
+      - "go"
+      - "security"
+      - "tailscale"
+      - "zero-trust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "montjeffrey"
     title: "montjeffrey"
     description: "Profile: SecDevOps, agent infrastructure, REST automation. A flag is hidden in here."
@@ -85,33 +99,20 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "tailnet-sentry"
-    title: "tailnet-sentry"
-    description: "Scan your own tailnet, mark known devices healthy, flag the anomaly, quarantine it. Defensive Go CLI over the Tailscale API."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
   - name: "agent-harness"
     title: "agent-harness"
     description: "Portable memory & token-efficiency harness for coding agents — queryable code graphs, human-approval gates, and one-command install for Claude Code, Codex, and Gemini."
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "elevate-hrg"
-    title: "elevate-hrg"
-    description: "Website for Elevate HRG, a home exterior contractor in Wallington NJ: Next.js on Netlify with tested lead capture."
-    language: "TypeScript"
     topics:
-      - "client-work"
-      - "website"
+      - "ai-agents"
+      - "claude-code"
+      - "developer-tools"
+      - "mcp"
+      - "memory"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-11-01"
   - name: "thegenzmama"
     title: "thegenzmama"
     description: "Website for The Gen Z Mama, childcare and newborn care in Wharton NJ: Next.js and Sanity on Netlify."
@@ -121,17 +122,33 @@ repos:
       - "website"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "levelz-barber-studio"
-    title: "levelz-barber-studio"
-    description: "Website for Levelz Barber Studio, a barbershop in Succasunna NJ: hand-built static site on Netlify."
-    language: "HTML"
+    last_push: "2026-10-29"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "My portfolio — an animated Next.js site with a Three.js hero, Framer Motion transitions, and a Supabase-backed contact form."
+    language: "TypeScript"
+    topics:
+      - "framer-motion"
+      - "nextjs"
+      - "portfolio"
+      - "react"
+      - "supabase"
+      - "tailwindcss"
+      - "threejs"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "elevate-hrg"
+    title: "elevate-hrg"
+    description: "Website for Elevate HRG, a home exterior contractor in Wallington NJ: Next.js on Netlify with tested lead capture."
+    language: "TypeScript"
     topics:
       - "client-work"
       - "website"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-29"
 ---
 
 # montjeffrey

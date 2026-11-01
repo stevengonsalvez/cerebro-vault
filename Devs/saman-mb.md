@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 13, 0, 0, 4, 0, 14, 15, 4, 0, 4, 1, 0]
+pushes_per_week: [4, 11, 0, 1, 3, 9, 18, 3, 3, 3, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2778
-  repo_per_active_day: 0.2778
+  push_per_day: 3.3529
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 59
+    pushes: 57
     distinct_repos: 5
-    pushes_per_repo: 11.8000
-    active_days: 18
+    pushes_per_repo: 11.4000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -157,6 +157,6 @@ repos:
 
 # saman-mb
 
-59 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+57 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saman-mb

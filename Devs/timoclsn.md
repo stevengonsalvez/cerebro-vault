@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 1, 4, 1, 3, 1, 1, 2]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 2, 3, 1, 3, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 5
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,7 +80,7 @@ repos:
   - name: "dotfiles"
     title: "dotfiles"
     description: "My personal dotfiles."
-    language: "Shell"
+    language: "Lua"
     topics:
       - "ghostty"
       - "neovim"
@@ -88,7 +88,19 @@ repos:
       - "zsh"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
+  - name: "makersleague.de"
+    title: "makersleague.de"
+    description: "Website for Makers League e.V."
+    language: "TypeScript"
+    topics:
+      - "jamstack"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "agents-dashboard"
     title: "agents-dashboard"
     description: "A TUI/CLI tool for monitoring AI coding agents (Claude, Codex, OpenCode) running across tmux sessions."
@@ -103,18 +115,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-09-24"
-  - name: "makersleague.de"
-    title: "makersleague.de"
-    description: "Website for Makers League e.V."
-    language: "TypeScript"
-    topics:
-      - "jamstack"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-28"
   - name: "lifecentereddesign"
     title: "lifecentereddesign"
     description: "Life-centered design related resources"

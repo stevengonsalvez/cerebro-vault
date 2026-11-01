@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [12, 22, 1, 15, 0, 3, 3, 1, 18, 7, 7, 7, 2]
+pushes_per_week: [13, 20, 4, 12, 0, 3, 3, 2, 17, 8, 6, 7, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 5
     active_days: 36
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7222
+  push_per_day: 2.6944
   repo_per_active_day: 0.1389
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 4
-    pushes_per_repo: 9.0000
-    active_days: 12
+    pushes_per_repo: 7.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 5
-    pushes_per_repo: 19.6000
+    pushes_per_repo: 19.4000
     active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -132,6 +132,6 @@ repos:
 
 # ms-jpq
 
-98 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
+97 pushes across 5 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

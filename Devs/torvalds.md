@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [0, 2, 3, 1, 0, 0, 2, 3, 3, 3, 3, 2, 1]
+pushes_per_week: [0, 3, 2, 1, 0, 0, 3, 3, 5, 2, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,25 +82,41 @@ repos:
     description: "Linux kernel source tree"
     language: "C"
     topics: []
-    stars_fact: 253314
+    stars_fact: 254006
     first_seen: "2026-08-23T06:00:01.522669+00:00"
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "AudioNoise"
     title: "AudioNoise"
     description: "Random digital audio effects"
     language: "C"
     topics: []
-    stars_fact: 4520
+    stars_fact: 4527
     first_seen: null
     last_push: "2026-05-08"
+  - name: "uemacs"
+    title: "uemacs"
+    description: "Random version of microemacs with my private modificatons"
+    language: "C"
+    topics: []
+    stars_fact: 2187
+    first_seen: null
+    last_push: "2026-08-06"
   - name: "GuitarPedal"
     title: "GuitarPedal"
     description: "Linus learns analog circuits"
     language: "C"
     topics: []
-    stars_fact: 2465
+    stars_fact: 2477
     first_seen: null
     last_push: "2026-10-15"
+  - name: "HunspellColorize"
+    title: "HunspellColorize"
+    description: "Wrapper around 'less' to colorize spelling mistakes using Hunspell"
+    language: "C"
+    topics: []
+    stars_fact: 399
+    first_seen: null
+    last_push: "2026-01-19"
   - name: "ScrollWheel"
     title: "ScrollWheel"
     description: "Minimalist RP2350 magnetic sensor scroll wheel toy project"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 385
     first_seen: null
     last_push: "2026-06-02"
-  - name: "HunspellColorize"
-    title: "HunspellColorize"
-    description: "Wrapper around 'less' to colorize spelling mistakes using Hunspell"
-    language: "C"
-    topics: []
-    stars_fact: 395
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "pesconvert"
-    title: "pesconvert"
-    description: "Brother PES file converter"
-    language: "C"
-    topics: []
-    stars_fact: 585
-    first_seen: null
-    last_push: "2022-12-22"
 ---
 
 # torvalds

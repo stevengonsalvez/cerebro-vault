@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 0, 17, 23, 0, 19, 93, 116, 15, 25, 32, 27, 1]
+pushes_per_week: [0, 0, 26, 14, 0, 42, 71, 115, 25, 16, 31, 27, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,46 @@ reasons:
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cad-agent"
+    title: "cad-agent"
+    description: "Agent-assisted mechanical CAD skills and agents for Claude Code, Codex, OpenCode and Kiro"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "adlc-demo-agenda"
+    title: "adlc-demo-agenda"
+    description: "Conference agenda API (Bun, TypeScript): sessions, tracks, speakers and personal schedules"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "opencode-plugins"
+    title: "opencode-plugins"
+    description: "OpenCode V2 plugins: the OpenCode counterpart of omp-plugins."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "omp-plugins"
     title: "omp-plugins"
     description: "OMP-native skills, agents, rules, hooks and marketplace catalog (migrated from srobroek/agentic-packages)"
-    language: "TypeScript"
+    language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "adlc-burnin-projects"
+    title: "adlc-burnin-projects"
+    description: "Where the ADLC burn-in's agents build their projects"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "slopvac"
     title: "slopvac"
     description: "Deterministic linter for AI writing patterns and documentation quality."
@@ -100,39 +132,7 @@ repos:
       - "vale"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "agentic-packages"
-    title: "agentic-packages"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "speckit-roadmap"
-    title: "speckit-roadmap"
-    description: "GitHub Spec Kit extension: a durable spec roadmap written after the constitution and reviewed before/after each spec is implemented."
-    language: "Shell"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "beads-talk"
-    title: "beads-talk"
-    description: "Reproducible Beads durable-agent orchestration demo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "sabot"
-    title: "sabot"
-    description: "Agentic Offensive auditing, fuzzing, and chaos engineering."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-31"
 ---
 
 # srobroek

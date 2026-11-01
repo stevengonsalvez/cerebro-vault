@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 4, 3, 0, 0, 2, 2, 2, 2, 1, 2, 1]
+pushes_per_week: [2, 1, 5, 2, 0, 0, 3, 1, 2, 2, 1, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "windvim"
     title: "windvim"
     description: "WindVim 是基于 LazyVim 的个人定制 Neovim 配置，面向习惯终端开发、希望使用中文界面并结合 AI 编程工具的用户。沿用 LazyVim 的插件生态、语言支持与快捷键，再加入一套可以直接使用的界面与工作区配置。"
@@ -96,19 +96,30 @@ repos:
       - "terminal"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "windplay"
-    title: "windplay"
-    description: "WindPlay 是一个网页创意实验场，收录点云人像、粒子动画、交互艺术和小游戏。 这里的每个作品都可以独立开发与构建，也可以随着想法成熟继续扩展。"
-    language: "HTML"
+    last_push: "2026-10-31"
+  - name: "windshell"
+    title: "windshell"
+    description: "WindShell 是面向 SSH 的 Rust 终端工作区：左侧远端文件树、右侧本地/SSH 终端与只读预览，使用系统 OpenSSH 与 SFTP。"
+    language: "Rust"
     topics:
-      - "css"
-      - "game"
-      - "html"
-      - "website"
-    stars_fact: 4
+      - "developer-tools"
+      - "ratatui"
+      - "rust"
+      - "sftp"
+      - "ssh"
+      - "terminal"
+      - "tui"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
+  - name: "windwiki"
+    title: "windwiki"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "dsh-vscode-workbench"
     title: "dsh-vscode-workbench"
     description: "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。"
@@ -120,29 +131,21 @@ repos:
       - "dsh-plugin"
       - "dsh-plugin-market"
       - "vscode-theme"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "tingfeng347.github.io"
-    title: "tingfeng347.github.io"
-    description: "这是我的静态个人网站"
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mactools"
-    title: "mactools"
-    description: "macOS 工具集：Homebrew 软件管理、环境诊断、清理、镜像与 AI 编程工具。ma install / maci"
-    language: "Python"
+    last_push: "2026-10-27"
+  - name: "zst_agent"
+    title: "zst_agent"
+    description: "基于 FastAPI + Vue 3 构建的智能客服系统，具备 RAG（检索增强生成）与 AI Agent 核心能力，可为企业提供高效、可扩展的智能客服解决方案。"
+    language: "Vue"
     topics:
-      - "homebrew"
-      - "macos"
-      - "terminal-app"
-      - "tools"
-    stars_fact: 3
+      - "agent"
+      - "fastapi"
+      - "rag"
+      - "vue3"
+    stars_fact: 27
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-07-04"
 ---
 
 # tingfeng347

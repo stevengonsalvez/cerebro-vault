@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "f067a4ae268cdf65"
-pushes_per_week: [1, 9, 0, 1, 0, 1, 0, 2, 3, 4, 1, 2, 0]
+pushes_per_week: [3, 7, 0, 1, 0, 1, 1, 1, 5, 3, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Watch a git repository's history grow as a glowing, branching vein network in 3D."
     language: "TypeScript"
     topics: []
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
     last_push: "2026-10-21"
+  - name: "MyPocket"
+    title: "MyPocket"
+    description: "Self-hosted local alternative to the HeyPocket AI meeting recorder"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "netbattle"
     title: "netbattle"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-08"
-  - name: "dockerclaw"
-    title: "dockerclaw"
-    description: "OpenClaw On Docker"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-29"
 ---
 
 # thcp

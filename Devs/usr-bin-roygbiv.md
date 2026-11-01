@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [16, 35, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [21, 24, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 46
     distinct_repos: 3
-    active_days: 12
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4167
-  repo_per_active_day: 0.2500
+  push_per_day: 4.6000
+  repo_per_active_day: 0.3000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
+    pushes: 46
     distinct_repos: 3
-    pushes_per_repo: 17.6667
-    active_days: 12
+    pushes_per_repo: 15.3333
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "remote-tech-jobs"
@@ -89,25 +89,7 @@ repos:
       - "remote-work"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "new-grad-tech-jobs-2027"
-    title: "new-grad-tech-jobs-2027"
-    description: "New grad and entry-level jobs for 2027 from employers' own career sites, updated daily by Applystead."
-    language: null
-    topics:
-      - "class-of-2027"
-      - "early-career"
-      - "entry-level"
-      - "entry-level-jobs"
-      - "graduate-jobs"
-      - "job-search"
-      - "jobs"
-      - "new-grad"
-      - "new-grad-jobs"
-      - "software-engineering"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "summer-2027-tech-internships"
     title: "summer-2027-tech-internships"
     description: "Summer 2027 internships and co-ops from employers' own career sites, updated daily by Applystead."
@@ -125,10 +107,28 @@ repos:
       - "tech-internships"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "new-grad-tech-jobs-2027"
+    title: "new-grad-tech-jobs-2027"
+    description: "New grad and entry-level jobs for 2027 from employers' own career sites, updated daily by Applystead."
+    language: null
+    topics:
+      - "class-of-2027"
+      - "early-career"
+      - "entry-level"
+      - "entry-level-jobs"
+      - "graduate-jobs"
+      - "job-search"
+      - "jobs"
+      - "new-grad"
+      - "new-grad-jobs"
+      - "software-engineering"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "applystead-mcp"
     title: "applystead-mcp"
-    description: "Applystead MCP server: search open jobs from employers’ own career sites (remote, read-only)"
+    description: "Applystead MCP server: search open jobs from employers' own career sites (remote; job search needs no sign-in)"
     language: null
     topics:
       - "careers"
@@ -139,7 +139,7 @@ repos:
       - "model-context-protocol"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-24"
   - name: "blackwell-17p-benchmark"
     title: "blackwell-17p-benchmark"
     description: "Exact replication code, Triton JIT kernels, and instructions for the 17.68 Quadrillion tok/s benchmark on NVIDIA RTX 5090 Blackwell"
@@ -160,6 +160,6 @@ repos:
 
 # usr-bin-roygbiv
 
-53 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/usr-bin-roygbiv

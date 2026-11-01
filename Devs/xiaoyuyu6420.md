@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 4, 4, 0, 4, 3, 2, 3, 0, 3, 0, 0]
+pushes_per_week: [0, 1, 3, 4, 0, 4, 5, 0, 3, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -101,69 +101,49 @@ repos:
       - "session-repair"
       - "skills"
       - "snapshot"
-    stars_fact: 32
+    stars_fact: 36
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "anykey-ai"
-    title: "anykey-ai"
-    description: "RK R87 Pro AI 键盘自定义功能键 + 麦克风桥接工具（Electron，逆向协议，Win/macOS，无需官方软件）"
+    last_push: "2026-10-30"
+  - name: "dsh-rewind"
+    title: "dsh-rewind"
+    description: "DeepSeek Harness 插件:回到任意提问之前重新来——对话回退 + 可选按轮还原工作区文件(CAS 检查点),另带常用提示词、输入历史、一键继续、收藏跳转、复制本轮与心情陪伴。Conversation rewind for DeepSeek Harness with optional per-turn workspace restore."
     language: "JavaScript"
-    topics:
-      - "electron"
-      - "hid"
-      - "hotkeys"
-      - "keyboard"
-      - "macos"
-      - "mechanical-keyboard"
-      - "microphone"
-      - "noise-suppression"
-      - "reverse-engineering"
-      - "rk-r87-pro"
-      - "windows"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "scanforge"
+    title: "scanforge"
+    description: "Open-source Android object-level 3D scanning: quick-scan (TripoSR→STL) + pro-scan (VGGT poses→Brush 3DGS→OBJ/GLB). No ARCore, works on Chinese Android phones."
+    language: "Kotlin"
+    topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-09-04"
   - name: "astrbot_plugin_qq_group_daily_analysis"
     title: "astrbot_plugin_qq_group_daily_analysis"
     description: "xms 定制版群聊分析插件：管理员私聊推送 + 信息差主题。基于 SXP-Simon/astrbot_plugin_qq_group_daily_analysis fork（私有定制）"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "fan-tune"
-    title: "fan-tune"
-    description: "Windows fan controller for Nuvoton NCT6779D..6799D EC chips — curve engine, closed-loop budget thermostat, and an ENE 6k7750 ARGB controller"
-    language: "Rust"
+  - name: "aurabot-zcode"
+    title: "aurabot-zcode"
+    description: "把 DSH 大肥鱼 QQ 机器人适配到 ZCode（已开源）：桥进程 + CLI 驱动 + 原版 Web 面板 + 心情/记忆/表情包"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "gallai-path-decomposition"
-    title: "gallai-path-decomposition"
-    description: "Verified constructions, a classification programme, and conditional reductions for Gallai's path decomposition conjecture"
-    language: "Lean"
-    topics:
-      - "combinatorics"
-      - "gallai-conjecture"
-      - "graph-theory"
-      - "path-decomposition"
+    last_push: "2026-10-28"
+  - name: "aistudio-batch-exporter"
+    title: "aistudio-batch-exporter"
+    description: "批量导出 Google AI Studio 会话为 Markdown —— 浏览器油猴插件 + Node 命令行，可选用户消息/思考/回复任意组合"
+    language: "JavaScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "aabc25-conjecture-6.2"
-    title: "aabc25-conjecture-6.2"
-    description: "Complete proof of Conjecture 6.2 (arXiv:2509.01901) on 6-regular graph cycle-edge decomposition and exhaustive verification"
-    language: "TeX"
-    topics:
-      - "automated-reasoning"
-      - "combinatorics"
-      - "cycle-decomposition"
-      - "discrete-mathematics"
-      - "graph-theory"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-28"
 ---
 
 # xiaoyuyu6420

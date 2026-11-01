@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 0, 4, 14, 0, 0, 0, 10, 0, 0, 0, 2, 1]
+pushes_per_week: [2, 0, 14, 4, 0, 0, 0, 10, 0, 0, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,52 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ExactDraft"
-    title: "ExactDraft"
-    description: "ExactDraft: local-first document hash attestations on Monad testnet"
-    language: "TypeScript"
+  - name: "open-access-uk"
+    title: "open-access-uk"
+    description: "Open Access UK suite workspace linking the seven project repos"
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
+  - name: "conveyancing-legal-skill"
+    title: "conveyancing-legal-skill"
+    description: "Evidence-gated England and Wales conveyancing toolkit for qualified practitioners, with a Python CLI for validation and calculations. Human legal review required."
+    language: "Python"
+    topics:
+      - "conveyancing"
+      - "england-and-wales"
+      - "legal-tech"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "open-access-uk-site"
+    title: "open-access-uk-site"
+    description: "Open Access UK: open-access-uk-site"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "ai-switchboard"
+    title: "ai-switchboard"
+    description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"
+    language: "Rust"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "headroom"
+      - "local-first"
+      - "macos"
+      - "markitdown"
+      - "ponytail"
+      - "repo-intelligence"
+      - "rtk"
+      - "tauri"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "universal-copy"
     title: "universal-copy"
     description: null
@@ -101,36 +139,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-26"
-  - name: "salary-boost-uk-site"
-    title: "salary-boost-uk-site"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "open-access-uk"
-    title: "open-access-uk"
-    description: "Open Access UK suite workspace linking the seven project repos"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "PageLumen"
-    title: "PageLumen"
-    description: "Native macOS accessibility-first reader for PDFs, screenshots, scans, and visual documents."
-    language: "Swift"
-    topics:
-      - "accessibility"
-      - "macos"
-      - "ocr"
-      - "pdf"
-      - "swiftui"
-      - "vision"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
 ---
 
 # tarunag10

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 1, 0, 1, 4, 1, 1, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 2, 3, 1, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-28"
   - name: "ai4s"
     title: "ai4s"
     description: "为企业员工提供统一、安全、可治理的 LLM API 出口：聚合多渠道上游；请求经内容级 DLP 脱敏/阻断与智能路由；员工 Key 审批签发、按档限额、全程可审计。"

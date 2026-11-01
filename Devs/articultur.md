@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 0, 0, 0, 2, 1, 2, 3, 2, 2, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 1, 1, 1, 2, 3, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "DevinUsage"
-    title: "DevinUsage"
-    description: "Devin native plugin (.devin-plugin) for real-time quota, reset countdown, and session token usage monitoring"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "memplex"
     title: "memplex"
     description: "Multi-agent long-term memory layer for AI agents (Codex, Claude Code, OpenClaw, Hermes) — knowledge tiers, bi-temporal facts, cross-agent grants, sleep-time compute"
@@ -107,7 +99,15 @@ repos:
       - "semantic-search"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
+  - name: "DevinUsage"
+    title: "DevinUsage"
+    description: "Devin native plugin (.devin-plugin) for real-time quota, reset countdown, and session token usage monitoring"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "claude-mem-gateway-sync"
     title: "claude-mem-gateway-sync"
     description: "Fix claude-mem silent failures in dynamic gateway environments (codefuse, ccSwitch, LiteLLM). Gateway-agnostic credential sync hooks + diagnostic tools."

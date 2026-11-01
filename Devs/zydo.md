@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 7, 8, 1, 7, 136, 7, 24, 4, 7, 3, 9, 1]
+pushes_per_week: [3, 7, 7, 0, 9, 135, 7, 23, 5, 7, 2, 10, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 10
-    active_days: 12
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 10
-    pushes_per_repo: 2.1000
-    active_days: 12
+    pushes_per_repo: 2.0000
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -97,7 +97,7 @@ repos:
       - "vibe-coding"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "deutsche-gedichte-lernen"
     title: "deutsche-gedichte-lernen"
     description: null

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 28, 17, 53, 4, 6, 7, 26, 52, 49, 50, 50, 6]
+pushes_per_week: [7, 33, 45, 20, 5, 8, 3, 32, 63, 42, 43, 50, 3]
 windows:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 175
+    pushes: 159
     distinct_repos: 18
-    active_days: 20
+    active_days: 18
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 356
+    pushes: 354
     distinct_repos: 25
-    active_days: 62
+    active_days: 61
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.7419
-  repo_per_active_day: 0.4032
+  push_per_day: 5.8033
+  repo_per_active_day: 0.4098
   not_owned_ratio: 0.4000
   basename_concentration: 0.0400
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 175
+    pushes: 159
     distinct_repos: 18
-    pushes_per_repo: 9.7222
-    active_days: 20
+    pushes_per_repo: 8.8333
+    active_days: 18
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 356
+    pushes: 354
     distinct_repos: 25
-    pushes_per_repo: 14.2400
-    active_days: 62
+    pushes_per_repo: 14.1600
+    active_days: 61
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fish-audio-hermes"
@@ -160,6 +160,6 @@ repos:
 
 # 100yenadmin
 
-356 pushes across 25 repositories on 62 active days in the last 90 days of public GitHub push activity.
+354 pushes across 25 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

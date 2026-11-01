@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 2, 2, 2, 1, 0, 4, 2, 8, 5, 2, 1, 0]
+pushes_per_week: [2, 2, 3, 1, 1, 0, 5, 3, 8, 4, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 7
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.2917
+  push_per_day: 1.3478
+  repo_per_active_day: 0.3043
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 9
+    pushes_per_repo: 3.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 7
-    pushes_per_repo: 4.5714
-    active_days: 24
+    pushes_per_repo: 4.4286
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nixos-config"
@@ -83,6 +83,14 @@ repos:
     language: "Nix"
     topics: []
     stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "pi-opencode-free"
+    title: "pi-opencode-free"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-24"
   - name: "pi-working-enhanced"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "pi-opencode-free"
-    title: "pi-opencode-free"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "pi-usage-core"
     title: "pi-usage-core"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # ReStranger
 
-32 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+31 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReStranger

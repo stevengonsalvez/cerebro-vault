@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 1, 0, 0, 1, 2, 2, 4, 1, 0, 0, 7]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 2, 6, 0, 1, 0, 7, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 1
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 8
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 8
     distinct_repos: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "EterUee"
+    title: "EterUee"
+    description: "EterUee is an Android APP that supports for multiple LLM providers."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "A10_KnowledgeGraph"
     title: "A10_KnowledgeGraph"
     description: "A10 课程知识图谱智能构建与学习导航系统 (Next.js 全栈 + Vercel AI SDK + Neo4j)"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "EterUee"
-    title: "EterUee"
-    description: "EterUee is an Android APP that supports for multiple LLM providers."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "astrbot_plugin_maibot_hijack"
     title: "astrbot_plugin_maibot_hijack"
     description: "本插件将 AstrBot 作为消息聚合层，MaiBot 作为LLM 回复引擎。AstrBot 负责对接多种消息平台（QQ、Telegram、Discord 等），MaiBot 负责生成智能回复"

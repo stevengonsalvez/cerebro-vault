@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 2, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1]
+pushes_per_week: [0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gemini-teacher"
+    title: "gemini-teacher"
+    description: "English pronunciation correction teacher built with gemini"
+    language: "Python"
+    topics: []
+    stars_fact: 1208
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "moss"
+    title: "moss"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 83
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "pow-erc20"
     title: "pow-erc20"
     description: "A minter for PowerERC20 by rust"
@@ -85,14 +101,6 @@ repos:
     stars_fact: 130
     first_seen: null
     last_push: "2023-12-12"
-  - name: "gemini-teacher"
-    title: "gemini-teacher"
-    description: "English pronunciation correction teacher built with gemini"
-    language: "Python"
-    topics: []
-    stars_fact: 1210
-    first_seen: null
-    last_push: "2026-08-31"
   - name: "blitz-harness"
     title: "blitz-harness"
     description: "A harness for monad blitz"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 47
     first_seen: null
     last_push: "2026-09-17"
-  - name: "moss"
-    title: "moss"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 84
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "neurom"
     title: "neurom"
     description: null
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
 ---
 
 # nishuzumi

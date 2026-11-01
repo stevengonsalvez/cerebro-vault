@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 3, 3, 1, 5, 3, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 4, 2, 2, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "My personal OpenCode plugins."
     language: "TypeScript"
     topics: []
-    stars_fact: 25
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-27"
   - name: "eleventy-plugin-external-links"
     title: "eleventy-plugin-external-links"
     description: "Eleventy plugin to make all external links open securely in a new tab"

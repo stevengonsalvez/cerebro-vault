@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 2, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1]
+pushes_per_week: [1, 3, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "rust-ffmpeg"
     title: "rust-ffmpeg"
     description: "Safe FFmpeg wrapper."
@@ -93,14 +93,22 @@ repos:
     stars_fact: 2021
     first_seen: null
     last_push: "2026-10-09"
+  - name: "metadata"
+    title: "metadata"
+    description: "Media file metadata for human consumption"
+    language: "Rust"
+    topics: []
+    stars_fact: 62
+    first_seen: null
+    last_push: "2026-08-12"
   - name: "rust-ffmpeg-sys"
     title: "rust-ffmpeg-sys"
     description: "FFmpeg bindings for Rust."
     language: "Rust"
     topics: []
-    stars_fact: 214
+    stars_fact: 215
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-26"
   - name: "ets"
     title: "ets"
     description: "Command output timestamper"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-07"
-  - name: "metadata"
-    title: "metadata"
-    description: "Media file metadata for human consumption"
-    language: "Rust"
-    topics: []
-    stars_fact: 63
-    first_seen: null
-    last_push: "2026-08-12"
 ---
 
 # zmwangx

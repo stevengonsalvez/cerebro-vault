@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 1, 2, 1, 0, 2, 0, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 3, 0, 0, 2, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,9 @@ repos:
     description: "The browser you and your agents share — Linux-native agent browser with isolated, watchable task spaces (ego-lite for Linux)"
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-24"
   - name: "hai-zero-day-detection"
     title: "hai-zero-day-detection"
     description: "Unsupervised zero-day attack detection in an industrial control system"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 2, 0, 1, 0, 7, 1, 0, 9, 7, 16, 126, 44]
+pushes_per_week: [4, 0, 1, 0, 0, 7, 1, 2, 8, 8, 14, 134, 36]
 windows:
   "7d":
     pushes: 44
@@ -77,6 +77,30 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RsaWebTool"
+    title: "RsaWebTool"
+    description: "RSA CTF Cryptanalysis Tool - 47 attacks with SageMath execution and KaTeX proofs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfiles and config files"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "omp-chatroom"
+    title: "omp-chatroom"
+    description: "An omp plugin that gives a session tree a shared room: a claim board with leases, a bounded chat log, tiered attention, blocking waits, and a cold summary tree."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "astryx-dracula"
     title: "astryx-dracula"
     description: "Pure Dracula brand kit for Astryx sites. Full token system, syntax highlighting, chart colors. Prebuilt CSS, zero runtime cost."
@@ -94,22 +118,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-22"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfiles and config files"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "RsaWebTool"
-    title: "RsaWebTool"
-    description: "RSA CTF Cryptanalysis Tool - 47 attacks with SageMath execution and KaTeX proofs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-12"
   - name: "mcp-pool"
     title: "mcp-pool"
     description: null
@@ -126,14 +134,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-08"
-  - name: "omp-stats-tui"
-    title: "omp-stats-tui"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # yuzu-octopus

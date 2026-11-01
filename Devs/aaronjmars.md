@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [18, 25, 17, 21, 5, 14, 40, 48, 53, 20, 21, 13, 4]
+pushes_per_week: [17, 26, 19, 16, 8, 19, 44, 43, 52, 14, 24, 14, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 15
-    active_days: 17
+    pushes: 71
+    distinct_repos: 12
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 299
+    pushes: 296
     distinct_repos: 22
-    active_days: 66
+    active_days: 65
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5303
-  repo_per_active_day: 0.3333
+  push_per_day: 4.5538
+  repo_per_active_day: 0.3385
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 82
-    distinct_repos: 15
-    pushes_per_repo: 5.4667
-    active_days: 17
+    pushes: 71
+    distinct_repos: 12
+    pushes_per_repo: 5.9167
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 299
+    pushes: 296
     distinct_repos: 22
-    pushes_per_repo: 13.5909
-    active_days: 66
+    pushes_per_repo: 13.4545
+    active_days: 65
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "papertrade-recomp"
@@ -185,6 +185,6 @@ repos:
 
 # aaronjmars
 
-299 pushes across 22 repositories on 66 active days in the last 90 days of public GitHub push activity.
+296 pushes across 22 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

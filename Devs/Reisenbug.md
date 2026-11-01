@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 8, 1, 6, 0, 1, 11, 5, 3, 0, 4, 0, 0]
+pushes_per_week: [6, 8, 4, 3, 0, 1, 11, 8, 0, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Tairaria"
+    title: "Tairaria"
+    description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-17"
   - name: "TerraBlind"
     title: "TerraBlind"
     description: "A Terraria tModLoader mod where an AI fights the bosses: a model answers one question every 200ms, code turns it into keystrokes. Also a full code-only pipeline from fresh world to Wall of Flesh"
@@ -84,7 +92,7 @@ repos:
     topics:
       - "terraria"
       - "terraria-mod"
-    stars_fact: 77
+    stars_fact: 78
     first_seen: null
     last_push: "2026-10-23"
   - name: "AstrBot_Plugin_Cirno"
@@ -95,14 +103,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-06"
-  - name: "Tairaria"
-    title: "Tairaria"
-    description: "LLM-driven Terraria bot –– pure AI control with mod-side reflexes."
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-17"
   - name: "Jevaria"
     title: "Jevaria"
     description: "A Terraria mod aims at letting jev beat some bosses. Jev makes dodge decision."

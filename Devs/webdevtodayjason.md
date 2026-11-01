@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 2, 4, 0, 0, 3, 28, 20, 7, 3, 6, 0, 0]
+pushes_per_week: [3, 2, 4, 0, 0, 8, 32, 11, 9, 1, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 11
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 76
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 76
@@ -77,6 +77,53 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aegisrefine"
+    title: "aegisrefine"
+    description: "Hermes Agent-operated dataset refinery: capped Stripe quotes, NVIDIA/Nemotron governance, Aegis-14B, Connect spend verification, and signed AAR proof."
+    language: "HTML"
+    topics:
+      - "aegis-14b"
+      - "agent-attestation"
+      - "agent-economy"
+      - "ai-agents"
+      - "dataset-refinery"
+      - "dgx-spark"
+      - "fastapi"
+      - "frontier-infra"
+      - "hermes-agent"
+      - "huggingface"
+      - "nemotron"
+      - "nous-research"
+      - "nvidia"
+      - "stripe"
+      - "stripe-connect"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "udder-releases"
+    title: "udder-releases"
+    description: "Official preview installers and release notes for Udder voice dictation"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "tiinyengineer"
+    title: "tiinyengineer"
+    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "turn-clock"
+    title: "turn-clock"
+    description: "Hermes plugin: a re-entry brief (elapsed time + behavior cue) when a session resumes after a gap. Silent during a continuous conversation."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "titanium-plugins"
     title: "titanium-plugins"
     description: "Professional Claude Code plugins with voice-enhanced AI workflows"
@@ -94,43 +141,7 @@ repos:
       - "msp"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "turn-clock"
-    title: "turn-clock"
-    description: "Hermes plugin: a re-entry brief (elapsed time + behavior cue) when a session resumes after a gap. Silent during a continuous conversation."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "mct2032"
-    title: "mct2032"
-    description: "ESP32 Pen Testing Dev Project"
-    language: "C++"
-    topics:
-      - "cybersecurity"
-      - "esp32"
-      - "penetration-testing"
-      - "pentesting"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2025-06-02"
-  - name: "onelane"
-    title: "onelane"
-    description: "Two apps, one Tiiny, no collisions. A cross-process device lock so your second inference waits its turn instead of failing with error 150004. One file, stdlib only."
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "webdevtodayjason"
-    title: "webdevtodayjason"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-10-28"
 ---
 
 # webdevtodayjason

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [14, 1, 0, 0, 0, 0, 14, 55, 3, 1, 0, 0, 0]
+pushes_per_week: [9, 1, 0, 0, 0, 2, 27, 40, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 83
     distinct_repos: 23
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8667
-  repo_per_active_day: 1.5333
+  push_per_day: 5.9286
+  repo_per_active_day: 1.6429
   not_owned_ratio: 0.0435
   basename_concentration: 0.0870
   shapes: []
@@ -57,34 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 88
+    pushes: 83
     distinct_repos: 23
-    pushes_per_repo: 3.8261
-    active_days: 15
+    pushes_per_repo: 3.6087
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Londopy"
     title: "Londopy"
     description: null
-    language: null
+    language: "Python"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "the-long-fork"
     title: "the-long-fork"
     description: "A repo whose only purpose is to be forked, one link at a time, as deep as possible. Fork the tip, add one line, pass it on."
@@ -102,15 +102,31 @@ repos:
       - "social-experiment"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "capture-bypass"
     title: "capture-bypass"
     description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
     language: "Rust"
     topics: []
-    stars_fact: 48
+    stars_fact: 51
     first_seen: null
     last_push: "2026-07-12"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Scoop bucket for my apps — scoop bucket add londopy https://github.com/Londopy/scoop-bucket"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "canopy"
+    title: "canopy"
+    description: "A desktop app for Overleaf: the real Overleaf editor, plus folder sync, local compiles with a PDF preview, snapshots and Zotero citations. Windows, macOS and Linux."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "EraSwitch"
     title: "EraSwitch"
     description: "Switch your Windows 11 desktop to a Windows XP look and back with one click. Tray app driving RetroBar + Open-Shell, with a snapshot that puts everything back."
@@ -127,27 +143,11 @@ repos:
       - "windows-xp"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "Snappy"
-    title: "Snappy"
-    description: "Snapchat spammer"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-03-14"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Scoop bucket for my apps — scoop bucket add londopy https://github.com/Londopy/scoop-bucket"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-29"
 ---
 
 # Londopy
 
-88 pushes across 23 repositories on 15 active days in the last 90 days of public GitHub push activity.
+83 pushes across 23 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Londopy

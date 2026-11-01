@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 2, 4, 16, 31, 15, 31, 3, 11, 5, 4]
+pushes_per_week: [0, 0, 0, 4, 8, 11, 38, 19, 21, 5, 7, 8, 1]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 12
+    pushes_per_repo: 12.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "valor"
     title: "valor"
     description: "career coach for developers"
@@ -99,7 +99,7 @@ repos:
       - "local-first"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-25"
   - name: "cs336-ai-study"
     title: "cs336-ai-study"
     description: "English-first bilingual Stanford CS336 AI tutoring; 299 points; learner progress stays local"

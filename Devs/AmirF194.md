@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [5, 4, 4, 1, 0, 2, 6, 10, 6, 0, 3, 0, 0]
+pushes_per_week: [4, 4, 4, 1, 0, 4, 6, 10, 4, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 29
-    active_days: 24
+    pushes: 40
+    distinct_repos: 28
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7083
-  repo_per_active_day: 1.2083
-  not_owned_ratio: 0.0345
-  basename_concentration: 0.0345
+  push_per_day: 1.7391
+  repo_per_active_day: 1.2174
+  not_owned_ratio: 0.0357
+  basename_concentration: 0.0357
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 29
-    pushes_per_repo: 1.4138
-    active_days: 24
+    pushes: 40
+    distinct_repos: 28
+    pushes_per_repo: 1.4286
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agentic-ai-index"
@@ -116,6 +116,6 @@ repos:
 
 # AmirF194
 
-41 pushes across 29 repositories on 24 active days in the last 90 days of public GitHub push activity.
+40 pushes across 28 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AmirF194

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "16389f32495280ea"
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 8, 4, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 6, 7, 0]
 windows:
   "7d":
     pushes: 3
@@ -79,14 +79,23 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "my-hello-python"
-    title: "my-hello-python"
-    description: null
+  - name: "regression-firewall"
+    title: "regression-firewall"
+    description: "Behavioral regression safety layer for AI coding agents — capture behavior before an AI edit, block unintended regressions after. Deterministic, no LLM in the verdict."
     language: "Python"
-    topics: []
-    stars_fact: 2
+    topics:
+      - "ai-agents"
+      - "ai-safety"
+      - "cli"
+      - "code-review"
+      - "developer-tools"
+      - "llm"
+      - "python"
+      - "regression-testing"
+      - "testing"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-02-26"
+    last_push: "2026-10-26"
   - name: "ai-first-repo"
     title: "ai-first-repo"
     description: "AI专业大一学习仓库"
@@ -94,23 +103,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-03-19"
-  - name: "test-repo"
-    title: "test-repo"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-07"
-  - name: "regression-firewall"
-    title: "regression-firewall"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-25"
   - name: "pi-native-crm"
     title: "pi-native-crm"
     description: "Pi Native CRM — 以真实 CRM 为状态空间的 Agent 原生工作台：自托管、多租户、LGPD by-design，WhatsApp 原生。Open-source AI sales OS (MIT)."
@@ -121,10 +114,25 @@ repos:
       - "mcp"
       - "nextjs"
       - "self-hosted"
-      - "supabase"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-25"
+  - name: "my-hello-python"
+    title: "my-hello-python"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-26"
+  - name: "test-repo"
+    title: "test-repo"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-07"
 ---
 
 # Tong-bit-art

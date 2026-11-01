@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-01T07:04:04.000732+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 7, 0, 0, 0, 0, 2, 3, 9, 9, 4, 4, 1]
+pushes_per_week: [8, 5, 0, 0, 0, 0, 2, 3, 14, 4, 4, 5, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 7
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 24
     distinct_repos: 7
-    pushes_per_repo: 3.8571
-    active_days: 11
+    pushes_per_repo: 3.4286
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,29 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "fedora-rpm-specs"
-    title: "fedora-rpm-specs"
-    description: "Tracking changes to Fedora RPM spec files"
-    language: "Ruby"
+  - name: "MySQLTuner-perl"
+    title: "MySQLTuner-perl"
+    description: "MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability."
+    language: "Perl"
     topics: []
-    stars_fact: 1
+    stars_fact: 9475
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-28"
+  - name: "opencode-mythos-plugin"
+    title: "opencode-mythos-plugin"
+    description: "Unofficial OpenCode V2 plugin that adds a Claude Mythos provider using your ant CLI login. Not affiliated with OpenCode or Anthropic."
+    language: "TypeScript"
+    topics:
+      - "bun"
+      - "claude"
+      - "mythos"
+      - "opencode"
+      - "opencode-plugin"
+      - "typescript"
+      - "unofficial"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "opencode-reviewer"
     title: "opencode-reviewer"
     description: "Fedora 44 container for AI-assisted code reviews with OpenCode V2, GitHub CLI, GitLab CLI, Git, and Python 3.11. Checksum-verified CLI releases, Renovate updates, and tested GHCR publishing."
@@ -92,39 +107,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "MySQLTuner-perl"
-    title: "MySQLTuner-perl"
-    description: "MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability."
-    language: "Perl"
-    topics: []
-    stars_fact: 9474
+    last_push: "2026-10-31"
+  - name: "index-etfs"
+    title: "index-etfs"
+    description: "Tracking changes to various stock market ETFs"
+    language: "Python"
+    topics:
+      - "etf"
+      - "stocks"
+      - "trading"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "gitlab-mcp"
-    title: "gitlab-mcp"
-    description: "Token-efficient MCP server for GitLab merge requests, code reviews, merge trains, and work items, powered by FastMCP."
+    last_push: "2026-10-31"
+  - name: "stocknews"
+    title: "stocknews"
+    description: "Take some stock news and shove it into Discord"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "container-images"
-    title: "container-images"
-    description: null
-    language: "Dockerfile"
+    last_push: "2026-10-31"
+  - name: "tldw"
+    title: "tldw"
+    description: "Too Long; Didn't Watch. A tiny PubSubHubbub subscriber for YouTube channels that prints a one-line summary to your terminal when a followed creator uploads a new video."
+    language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfiles managed by chezmoi"
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
 ---
 
 # major
