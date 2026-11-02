@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 34, 7, 28, 5, 5, 20, 11, 11, 14, 12, 17, 1]
+pushes_per_week: [7, 35, 8, 25, 9, 2, 22, 8, 22, 3, 19, 11, 0]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 49
     distinct_repos: 8
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 171
     distinct_repos: 12
-    active_days: 50
+    active_days: 49
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4600
-  repo_per_active_day: 0.2400
+  push_per_day: 3.4898
+  repo_per_active_day: 0.2449
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 49
     distinct_repos: 8
@@ -65,18 +65,62 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 173
+    pushes: 171
     distinct_repos: 12
-    pushes_per_repo: 14.4167
-    active_days: 50
+    pushes_per_repo: 14.2500
+    active_days: 49
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "strobe"
+    title: "strobe"
+    description: "Measure and explain performance: web pages, Electron apps, Bun/Node, any process. Agent-native CLI + MCP."
+    language: "Rust"
+    topics: []
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "mesh"
+    title: "mesh"
+    description: "Tiny native binary that joins your devices into an opencode mesh"
+    language: "Rust"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "VerticalSliceArchitecture"
+    title: "VerticalSliceArchitecture"
+    description: "Spend less time over-engineering, and more time coding. The template has a focus on convenience, and developer confidence. Vertical Slice Architecture 🎈"
+    language: "C#"
+    topics:
+      - "asp-net-core"
+      - "enterprise"
+      - "fast-endpoints"
+      - "vertical-slice-architecture"
+    stars_fact: 128
+    first_seen: null
+    last_push: "2024-11-13"
+  - name: "opencode-crt"
+    title: "opencode-crt"
+    description: "OpenCode Desktop plugin: a curved CRT monitor filter with scanlines, shadow mask, bloom and flicker"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "opencode-desktop-extensions"
+    title: "opencode-desktop-extensions"
+    description: "Mod loader for OpenCode Desktop"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "dotnet-opencode"
     title: "dotnet-opencode"
     description: "A 1:1 OpenCode V2 port in C# and .NET 11, currently in development."
@@ -85,50 +129,10 @@ repos:
     stars_fact: 79
     first_seen: null
     last_push: "2026-09-05"
-  - name: "mesh"
-    title: "mesh"
-    description: "Tiny native binary that joins your devices into an opencode mesh"
-    language: "Rust"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "Hona"
-    title: "Hona"
-    description: "Profile README.md"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-06-25"
-  - name: "playsrc"
-    title: "playsrc"
-    description: "Play Team Fortress 2 in the browser"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "opencode-desktop-extensions"
-    title: "opencode-desktop-extensions"
-    description: "Mod loader for OpenCode Desktop"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "gpui"
-    title: "gpui"
-    description: "gpui 0.2.2 with a Wayland keymap crash fix, used by anomalyco/hex until upstream fixes it"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
 ---
 
 # Hona
 
-173 pushes across 12 repositories on 50 active days in the last 90 days of public GitHub push activity.
+171 pushes across 12 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

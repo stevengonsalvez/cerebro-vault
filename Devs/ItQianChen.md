@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 1, 1, 1, 0, 0, 2, 0, 1, 4, 2, 0]
+pushes_per_week: [0, 0, 1, 2, 0, 0, 0, 2, 0, 2, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,9 +92,17 @@ repos:
       - "github-cli"
       - "github-flow"
       - "workflow-automation"
-    stars_fact: 13
+    stars_fact: 15
     first_seen: null
     last_push: "2026-10-22"
+  - name: "online-notes"
+    title: "online-notes"
+    description: "一个基于纯静态技术的轻量级笔记博客系统，支持Markdown，PDF，Word，专为GitHub Pages设计。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-12-28"
   - name: "cogninote-agent-design"
     title: "cogninote-agent-design"
     description: "把本地文档沉淀为可检索、可追问、可溯源的个人知识库。"
@@ -135,14 +143,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2025-11-14"
-  - name: "online-notes"
-    title: "online-notes"
-    description: "一个基于纯静态技术的轻量级笔记博客系统，支持Markdown，PDF，Word，专为GitHub Pages设计。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2025-12-28"
 ---
 
 # ItQianChen

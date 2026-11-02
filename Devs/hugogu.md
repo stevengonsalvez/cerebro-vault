@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 4, 3, 0, 3, 8, 5, 14, 5, 3, 0, 0]
+pushes_per_week: [3, 0, 5, 2, 1, 2, 10, 6, 12, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 8
+    pushes_per_repo: 3.2500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "kokoro-say"
+    title: "kokoro-say"
+    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
+    language: "Python"
+    topics:
+      - "cli"
+      - "kokoro"
+      - "onnx"
+      - "say"
+      - "text-to-speech"
+      - "tts"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "orbit"
     title: "orbit"
     description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
@@ -92,7 +106,7 @@ repos:
       - "webgl"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "next-wiki"
     title: "next-wiki"
     description: "An AI native personal knowledge management & sharing platform"
@@ -131,21 +145,7 @@ repos:
       - "swiftui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "kokoro-say"
-    title: "kokoro-say"
-    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
-    language: "Python"
-    topics:
-      - "cli"
-      - "kokoro"
-      - "onnx"
-      - "say"
-      - "text-to-speech"
-      - "tts"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-11-01"
   - name: "md-translate"
     title: "md-translate"
     description: "Zero-loss Markdown & LaTeX translation engine with Apple Silicon (MPS) / CUDA acceleration, CLI, CI/CD, and Model Context Protocol (MCP) for AI Agents."

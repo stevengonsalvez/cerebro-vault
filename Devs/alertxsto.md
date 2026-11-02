@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [1, 6, 18, 0, 0, 0, 2, 1, 0, 1, 0, 3, 0]
+pushes_per_week: [1, 12, 12, 0, 0, 0, 2, 1, 1, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,42 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mangowm-dotfiles"
+    title: "mangowm-dotfiles"
+    description: "Artix Linux MangoWM dotfiles: curated named-palette theming, native Qt desktop tools, and an idempotent installer."
+    language: "C++"
+    topics:
+      - "artix"
+      - "artix-linux"
+      - "dotfiles"
+      - "dwl"
+      - "linux"
+      - "mangowc"
+      - "mangowm"
+      - "openrc"
+      - "palette"
+      - "qml"
+      - "qt"
+      - "ricing"
+      - "rofi"
+      - "shell"
+      - "swaync"
+      - "theming"
+      - "unixporn"
+      - "waybar"
+      - "wayland"
+      - "wayland-compositor"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "mid-exam-MAD"
+    title: "mid-exam-MAD"
+    description: "Android app for Mid Examination IT 2025 Class 2 (case 2): student records stored in SQLite."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "luminary-memory"
     title: "luminary-memory"
     description: "Self-hosted memory layer for AI agents, on PyPI. 4 retrieval strategies fused via RRF, 505+ tests."
@@ -84,7 +120,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-26"
   - name: "omarchy-overview"
     title: "omarchy-overview"
     description: "Live workspace overview plugin for Omarchy's Quickshell shell"
@@ -109,42 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "omarchy-touch-mode"
-    title: "omarchy-touch-mode"
-    description: "Floating touch keyboard, reversible tablet mode, and accelerometer rotation for Omarchy Quattro"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "mangowm-dotfiles"
-    title: "mangowm-dotfiles"
-    description: "Artix Linux MangoWM dotfiles: curated named-palette theming, native Qt desktop tools, and an idempotent installer."
-    language: "QML"
-    topics:
-      - "artix"
-      - "artix-linux"
-      - "dotfiles"
-      - "dwl"
-      - "linux"
-      - "mangowc"
-      - "mangowm"
-      - "openrc"
-      - "palette"
-      - "qml"
-      - "qt"
-      - "ricing"
-      - "rofi"
-      - "shell"
-      - "swaync"
-      - "theming"
-      - "unixporn"
-      - "waybar"
-      - "wayland"
-      - "wayland-compositor"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # alertxsto

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 0, 1, 0, 0, 2, 1, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 2, 1, 0, 0, 0, 2, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -83,9 +83,9 @@ repos:
     description: "GitNexus: The Zero-Server Code Intelligence Engine"
     language: "TypeScript"
     topics: []
-    stars_fact: 48040
+    stars_fact: 48194
     first_seen: "2026-08-29T06:00:06.818585+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "prowl"
     title: "prowl"
     description: "Interactive knowledge graph for codebases, vibe coder companion"

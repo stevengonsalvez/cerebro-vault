@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 10, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 9, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -92,7 +92,7 @@ repos:
       - "model-context-protocol"
       - "nestjs"
       - "react"
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
     last_push: "2026-10-25"
   - name: "chrome-deepseek-enchance-plugin"
@@ -105,7 +105,7 @@ repos:
       - "local-first"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-26"
   - name: "Echo"
     title: "Echo"
     description: "Echo helps you improve expression in your target language while communicating with Claude Code and Codex CLI. Grammar feedback, translation, and back-translation stay in the UI and never enter your active conversation’s model context."

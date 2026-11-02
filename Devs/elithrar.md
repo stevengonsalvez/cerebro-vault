@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 6, 2, 7, 0, 0, 2, 0, 2, 2, 2, 4, 0]
+pushes_per_week: [0, 6, 2, 7, 0, 0, 2, 0, 2, 4, 0, 4, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,28 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zsh-git-to-jj"
+    title: "zsh-git-to-jj"
+    description: "A zsh plugin for learning the Jujutsu (jj) VCS porcelain from your usual git workflow."
+    language: "Shell"
+    topics:
+      - "git"
+      - "jj"
+      - "jujutsu"
+      - "shell"
+      - "zle-widgets"
+      - "zsh"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-01-01"
   - name: "samshush"
     title: "samshush"
     description: "Root your Samsung TV and turn off the microphones, ads & other questionable services."
     language: "Python"
     topics: []
-    stars_fact: 17
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "FindAnUpgrade"
     title: "FindAnUpgrade"
     description: "Find that next upgrade and which quest NPC or chain has it. Filter by zone, level range, dungeon quests and (missing!) slot. Get a waypoint to the NPC, compare vs your equipped items, and find that next weapon upgrade!"
@@ -94,40 +108,17 @@ repos:
       - "world-of-warcraft"
       - "world-of-warcraft-addon"
       - "wow-forever"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "AsTheCrowFlies"
-    title: "AsTheCrowFlies"
-    description: "A World of Warcraft addon for finding the nearest flight path to wherever you need to go. Like Google Maps, but for Azeroth."
-    language: "Lua"
-    topics:
-      - "addon"
-      - "navigation"
-      - "world-of-warcraft"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "XPIsland"
-    title: "XPIsland"
-    description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
-    language: "Lua"
-    topics:
-      - "addon"
-      - "dynamic-island"
-      - "world-of-warcraft"
-      - "wow"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "workers-hono-rate-limit"
-    title: "workers-hono-rate-limit"
-    description: "Hono-compatible middleware for rate limiting requests with Cloudflare Workers."
-    language: "TypeScript"
+    last_push: "2026-10-27"
+  - name: "SomethingNeedDoing"
+    title: "SomethingNeedDoing"
+    description: "A microframework for building World of Warcraft addons. Registration, options panels & window chrome, font handling, slash commands, event handling & logging."
+    language: "Lua"
     topics: []
-    stars_fact: 109
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-10-26"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for my macOS & Linux environments ⌨️"
@@ -140,9 +131,21 @@ repos:
       - "stow"
       - "tmux"
       - "zsh"
-    stars_fact: 221
+    stars_fact: 222
     first_seen: null
     last_push: "2026-10-18"
+  - name: "XPIsland"
+    title: "XPIsland"
+    description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
+    language: "Lua"
+    topics:
+      - "addon"
+      - "dynamic-island"
+      - "world-of-warcraft"
+      - "wow"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # elithrar

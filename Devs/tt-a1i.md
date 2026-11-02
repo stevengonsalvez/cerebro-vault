@@ -11,26 +11,26 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 7, 11, 8, 0, 11, 14, 14, 21, 16, 12, 14, 1]
+pushes_per_week: [1, 7, 14, 5, 2, 10, 13, 17, 24, 10, 13, 14, 0]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 59
-    distinct_repos: 8
-    active_days: 12
-    repos_not_owned: 7
+    pushes: 57
+    distinct_repos: 7
+    active_days: 11
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
     pushes: 130
     distinct_repos: 24
@@ -52,21 +52,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 59
-    distinct_repos: 8
-    pushes_per_repo: 7.3750
-    active_days: 12
-    repos_not_owned: 7
+    pushes: 57
+    distinct_repos: 7
+    pushes_per_repo: 8.1429
+    active_days: 11
+    repos_not_owned: 6
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
     pushes: 130
     distinct_repos: 24
@@ -105,9 +105,29 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 89379
+    stars_fact: 92513
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "hive"
+    title: "hive"
+    description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
+    language: "TypeScript"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "coding-agent"
+      - "developer-tools"
+      - "local-first"
+      - "multi-agent"
+      - "nodejs"
+      - "pty"
+      - "typescript"
+    stars_fact: 582
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "simplify-codebase"
     title: "simplify-codebase"
     description: "Prove and remove accidental codebase complexity without breaking behavior."
@@ -120,80 +140,46 @@ repos:
       - "codex"
       - "developer-tools"
       - "refactoring"
-    stars_fact: 509
+    stars_fact: 510
     first_seen: null
     last_push: "2026-09-04"
-  - name: "hive-site"
-    title: "hive-site"
-    description: "Website for Hive — browser-native hive-mind for CLI coding agents"
-    language: "Astro"
+  - name: "matt-skills-with-to-goal"
+    title: "matt-skills-with-to-goal"
+    description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "developer-tools"
+      - "workflow"
+    stars_fact: 192
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "skillroster"
+    title: "skillroster"
+    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
+    language: "Rust"
     topics:
       - "ai-agents"
-      - "astro"
       - "cli"
-      - "documentation-website"
-      - "hive"
-      - "landing-page"
-      - "multi-agent"
-      - "open-source"
-      - "tailwindcss"
-      - "typescript"
+      - "developer-tools"
+      - "local-first"
+      - "rust"
+      - "skill-management"
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "homebrew-skillroster"
+    title: "homebrew-skillroster"
+    description: "Official Homebrew tap for SkillRoster"
+    language: "Ruby"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "chat_edit"
-    title: "chat_edit"
-    description: "A dual-mode AI application combining chat and rich-text AI editing, powered by Vue 3.5 + TypeScript. Features streaming Markdown rendering, Mermaid diagrams, Quill 2.0 rich-text editor, Monaco diff view, multi-format export (PDF/DOCX/Markdown/HTML), and offline-first IndexedDB storage."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "chat"
-      - "markdown"
-      - "monaco-editor"
-      - "moonshot-ai"
-      - "naive-ui"
-      - "offline-first"
-      - "pinia"
-      - "quill"
-      - "rich-text-editor"
-      - "streaming"
-      - "tailwindcss"
-      - "typescript"
-      - "vite"
-      - "vue3"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-03-01"
-  - name: "coding-cli-guide"
-    title: "coding-cli-guide"
-    description: "Interactive deep-dive into Gemini CLI internals — 150+ illustrated pages, 50+ step-by-step animations, Mermaid diagrams, and source-level walkthroughs. Built with React 19 + TypeScript + Tailwind CSS 4."
-    language: "TypeScript"
-    topics:
-      - "agent-framework"
-      - "ai-tools"
-      - "animations"
-      - "cli-architecture"
-      - "gemini-cli"
-      - "interactive-guide"
-      - "learning-resource"
-      - "mcp"
-      - "mermaid"
-      - "react"
-      - "source-code-analysis"
-      - "tailwindcss"
-      - "typescript"
-      - "vite"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-03-24"
-  - name: "claude-hud"
-    title: "claude-hud"
-    description: "Customized Claude Code HUD statusline plugin (fork of jarrodwatts/claude-hud)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-10-30"
 ---
 
 # tt-a1i

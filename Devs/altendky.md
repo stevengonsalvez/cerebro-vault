@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 0, 0, 0, 0, 2, 9, 7, 1, 9, 18, 2, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 2, 10, 6, 2, 14, 12, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,21 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "carl"
+    title: "carl"
+    description: "Durable Facebook Marketplace research and evaluation for AI agents"
+    language: "Python"
+    topics:
+      - "facebook-marketplace"
+      - "marketplace"
+      - "mcp"
+      - "model-context-protocol"
+      - "python"
+      - "web-research"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "mujou"
     title: "mujou"
     description: "Convert raster images to vector paths for sand tables, pen plotters, and CNC devices"
@@ -99,29 +113,7 @@ repos:
       - "wasm"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "carl"
-    title: "carl"
-    description: "Durable Facebook Marketplace research and evaluation for AI agents"
-    language: "Python"
-    topics:
-      - "facebook-marketplace"
-      - "marketplace"
-      - "mcp"
-      - "model-context-protocol"
-      - "python"
-      - "web-research"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "s_home"
-    title: "s_home"
-    description: "General configuration files"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "dosegoose"
     title: "dosegoose"
     description: "Local-first medication reminder for Android and iOS"
@@ -137,7 +129,7 @@ repos:
       - "uniffi"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-02"
   - name: "hamster-mcp"
     title: "hamster-mcp"
     description: "Full AI debugging and maintenance access to your Home Assistant via MCP"
@@ -152,7 +144,21 @@ repos:
       - "model-context-protocol"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-02"
+  - name: "scansor"
+    title: "scansor"
+    description: "Research toward constrained parametric geometric model fitting with explicit topology and correspondence"
+    language: "Python"
+    topics:
+      - "cad"
+      - "geometry"
+      - "nonlinear-least-squares"
+      - "optimization"
+      - "point-cloud"
+      - "python"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # altendky

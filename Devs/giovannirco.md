@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 14, 1, 4, 0, 1, 2]
+pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 14, 1, 4, 0, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 5
+    pushes: 7
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 5
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "Source of giovanni.dev.br"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "peephole"
     title: "peephole"
     description: "A tiny window into your homelab: a Rust hub renders dashboard pages as frames for small ESP32 screens, with plugins (Prometheus, mempool, UniFi Protect) and browser flashing"
@@ -96,41 +104,33 @@ repos:
       - "homelab"
       - "prometheus"
       - "rust"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "arith-ts"
-    title: "arith-ts"
-    description: "Integer arithmetic over HTTP in TypeScript (Fastify on Node 24): four endpoints, a page, metrics, Helm and Kustomize."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "giovanni-dev-br-public"
     title: "giovanni-dev-br-public"
     description: "A compact Three.js orrery portfolio. Fly between projects, read their dossiers, and talk to COMM about where you are."
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-24"
-  - name: "portfolio"
-    title: "portfolio"
-    description: "Source of giovanni.dev.br"
-    language: "JavaScript"
+  - name: "interview-skills"
+    title: "interview-skills"
+    description: "Agent skills (Claude Code, Codex, Grok Build…) to turn interview recordings into local speaker-labelled transcripts and run interview loops"
+    language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "job-scout"
-    title: "job-scout"
-    description: "Career desk that watches job boards, filters listings, and drafts materials. It does not apply for you."
-    language: "TypeScript"
+    last_push: "2026-10-06"
+  - name: "cpa-prometheus-plugin"
+    title: "cpa-prometheus-plugin"
+    description: "CLIProxyAPI plugin: Prometheus metrics for usage and provider quota"
+    language: "Go"
     topics: []
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-09-23"
 ---
 
 # giovannirco

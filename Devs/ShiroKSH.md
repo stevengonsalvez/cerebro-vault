@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "6d3bd03b49986330"
   - "716cf9e2237ac9db"
@@ -123,7 +123,7 @@ repos:
       - "windows"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-10"
+    last_push: "2026-11-01"
   - name: "viral-moment-clipper"
     title: "viral-moment-clipper"
     description: "Local viral moment clipper for phone-safe Shorts and TikTok rendering"
@@ -159,7 +159,7 @@ repos:
       - "xcode"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-02"
   - name: "ShiroKSH"
     title: "ShiroKSH"
     description: null

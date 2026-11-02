@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
   - "dffbb846389f9a26"
-pushes_per_week: [1, 8, 3, 3, 0, 2, 3, 4, 4, 2, 4, 0, 0]
+pushes_per_week: [1, 11, 1, 2, 1, 1, 5, 4, 2, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -92,15 +92,15 @@ repos:
       - "mem0"
       - "mock-interviews"
       - "technical-interview"
-    stars_fact: 1130
+    stars_fact: 1133
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-27"
   - name: "OpenContextEngine"
     title: "OpenContextEngine"
     description: "An efficient, open-source code context engine. Open source deserves world-class code understanding."
     language: "Python"
     topics: []
-    stars_fact: 53
+    stars_fact: 54
     first_seen: null
     last_push: "2026-10-12"
   - name: "AnnaSuSu"

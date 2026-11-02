@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [6, 18, 1, 2, 0, 2, 5, 7, 6, 8, 7, 5, 2]
+pushes_per_week: [6, 18, 1, 2, 0, 4, 3, 11, 2, 8, 7, 7, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -88,9 +88,9 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 3607
+    stars_fact: 3990
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "zcode-context-insight"
     title: "zcode-context-insight"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 2, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "markindex"
-    title: "markindex"
-    description: "Vectorless, structure-first retrieval over large Markdown libraries for AI agents — a TypeScript take on PageIndex for Markdown (CLI + MCP + AI SDK)"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "bm25"
-      - "markdown"
-      - "mcp"
-      - "pageindex"
-      - "rag"
-      - "typescript"
-      - "vectorless"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "douban-mcp"
     title: "douban-mcp"
     description: "面向 agent 的豆瓣 MCP server + CLI：电影/图书查询、个人收藏管理；同时支持 Claude Desktop (stdio/SSE) 与 Claude Code/OpenClaw 等命令行 agent。"
@@ -106,9 +90,25 @@ repos:
       - "mcp"
       - "model-context-protocol"
       - "typescript"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-07-25"
+    last_push: "2026-11-02"
+  - name: "markindex"
+    title: "markindex"
+    description: "Vectorless, structure-first retrieval over large Markdown libraries for AI agents — a TypeScript take on PageIndex for Markdown (CLI + MCP + AI SDK)"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "bm25"
+      - "markdown"
+      - "mcp"
+      - "pageindex"
+      - "rag"
+      - "typescript"
+      - "vectorless"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "github-trending-analyzer"
     title: "github-trending-analyzer"
     description: null
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-26"
   - name: "ClawForge"
     title: "ClawForge"
     description: "🦞 The Ultimate Resource for OpenClaw: Skills, MCP Servers, and Agentic Intelligence. Powering the next generation of personal AI assistants."

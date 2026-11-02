@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 2, 1, 0, 1, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 1, 0, 2, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.6250
+  push_per_day: 1.2857
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,34 +65,58 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 8
+    pushes_per_repo: 1.8000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_keywords_reply"
+    title: "astrbot_plugin_keywords_reply"
+    description: "一款为 AstrBot 设计的关键词回复插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-26"
   - name: "astrbot_plugin_soushuba"
     title: "astrbot_plugin_soushuba"
     description: "一款为 AstrBot 设计的搜书吧适配插件。"
     language: "Python"
     topics: []
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-25"
+  - name: "astrbot_plugin_anti_revoke"
+    title: "astrbot_plugin_anti_revoke"
+    description: "一款为 AstrBot 设计的 QQ 防撤回插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "astrbot_plugin_video_analysis"
     title: "astrbot_plugin_video_analysis"
     description: "一款为 AstrBot 设计的多平台分享链接解析插件。"
     language: "Python"
     topics: []
-    stars_fact: 9
+    stars_fact: 11
     first_seen: null
     last_push: "2026-10-25"
+  - name: "astrbot_plugin_reminder"
+    title: "astrbot_plugin_reminder"
+    description: "一款为 AstrBot 设计的定时提醒插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "astrbot_plugin_anti_flood"
     title: "astrbot_plugin_anti_flood"
     description: null
@@ -101,34 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "astrbot_plugin_group_backup"
-    title: "astrbot_plugin_group_backup"
-    description: "一款为 AstrBot 设计的 QQ 群数据备份插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "astrbot_plugin_llm_enhancement"
-    title: "astrbot_plugin_llm_enhancement"
-    description: "一款为 AstrBot 设计的 LLM 增强插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "astrbot_plugin_multi_execute"
-    title: "astrbot_plugin_multi_execute"
-    description: "一款为 AstrBot 设计的指令模拟器。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
 ---
 
 # Foolllll-J
 
-10 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 5 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Foolllll-J

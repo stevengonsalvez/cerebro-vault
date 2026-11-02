@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 1, 2, 2, 4, 9, 13, 10, 3, 2, 2]
+pushes_per_week: [0, 0, 1, 0, 2, 2, 4, 11, 15, 8, 1, 4, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
     active_days: 11
     repos_not_owned: 0
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
-    pushes_per_repo: 26.0000
+    pushes_per_repo: 25.0000
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -82,9 +82,25 @@ repos:
     description: "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology."
     language: "Zig"
     topics: []
-    stars_fact: 310
+    stars_fact: 397
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for sushi"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "m5gpu"
+    title: "m5gpu"
+    description: null
+    language: "Objective-C"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "PonyExl3"
     title: "PonyExl3"
     description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
@@ -101,22 +117,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-09"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for sushi"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "m5gpu"
-    title: "m5gpu"
-    description: null
-    language: "Objective-C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-03"
   - name: "opencode2-mlx-serve"
     title: "opencode2-mlx-serve"
     description: "OpenCode 2 CLI plugin: live mlx-serve stats in the sidebar and a turn speed meter in the prompt footer"

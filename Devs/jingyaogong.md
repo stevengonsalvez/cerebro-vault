@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "b03e856411c0697d"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,9 +84,9 @@ repos:
     topics:
       - "artificial-intelligence"
       - "large-language-model"
-    stars_fact: 64424
+    stars_fact: 64754
     first_seen: "2026-09-01T06:00:03.096534+00:00"
-    last_push: "2026-09-22"
+    last_push: "2026-10-27"
   - name: "minimind-o"
     title: "minimind-o"
     description: "🎙️ A 0.1B Omni model trained from scratch, capable of listening, speaking, and seeing!"
@@ -95,9 +95,9 @@ repos:
       - "artificial-intelligence"
       - "chatgpt"
       - "omni"
-    stars_fact: 2678
+    stars_fact: 2693
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-27"
   - name: "minimind-v"
     title: "minimind-v"
     description: "👀 Train a 65M-parameter VLM from scratch in just 2h!"
@@ -106,9 +106,17 @@ repos:
       - "artificial-intelligence"
       - "chatgpt"
       - "vision-language-model"
-    stars_fact: 8790
+    stars_fact: 8812
     first_seen: null
-    last_push: "2026-09-22"
+    last_push: "2026-10-27"
+  - name: "face_rec"
+    title: "face_rec"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2024-01-04"
   - name: "jingyaogong"
     title: "jingyaogong"
     description: null
@@ -116,15 +124,7 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "face_rec"
-    title: "face_rec"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2024-01-04"
+    last_push: "2026-11-02"
   - name: "jingyaogong.github.io"
     title: "jingyaogong.github.io"
     description: "page"

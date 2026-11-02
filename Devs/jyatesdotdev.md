@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 3, 1, 1, 0, 3, 1, 0, 1, 3, 4, 1, 0]
+pushes_per_week: [2, 2, 1, 1, 1, 2, 1, 0, 1, 6, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 9
     distinct_repos: 2
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 9
     distinct_repos: 2
@@ -77,25 +77,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jev-logtriage"
-    title: "jev-logtriage"
-    description: "Jev decides whether a batch of logs is worth acting on. Typed questions, confidence gates, nothing executed."
-    language: "Python"
-    topics:
-      - "grafana"
-      - "jev"
-      - "log-analysis"
-      - "logs"
-      - "loki"
-      - "observability"
-      - "on-call"
-      - "python"
-      - "sre"
-      - "system-one"
-      - "typesafe-ai"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "strix-rdma"
     title: "strix-rdma"
     description: "General RDMA transport between two Strix Halo hosts over Thunderbolt/USB4 NHI DMA rings: a native software-verbs provider with a zero-copy data plane, plus the USB4STREAM backport it builds on"
@@ -115,7 +96,26 @@ repos:
       - "thunderbolt"
       - "usb4"
       - "zero-copy"
-    stars_fact: 5
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "jev-logtriage"
+    title: "jev-logtriage"
+    description: "Jev decides whether a batch of logs is worth acting on. Typed questions, confidence gates, nothing executed."
+    language: "Python"
+    topics:
+      - "grafana"
+      - "jev"
+      - "log-analysis"
+      - "logs"
+      - "loki"
+      - "observability"
+      - "on-call"
+      - "python"
+      - "sre"
+      - "system-one"
+      - "typesafe-ai"
+    stars_fact: 4
     first_seen: null
     last_push: "2026-10-18"
   - name: "swift-comprehensive-template"
@@ -141,7 +141,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-26"
   - name: "jyatesdotdev-frontend"
     title: "jyatesdotdev-frontend"
     description: "React SPA frontend for jyates.dev"
@@ -149,7 +149,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
 ---
 
 # jyatesdotdev

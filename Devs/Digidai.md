@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 4, 0, 0, 0, 1, 4, 4, 4, 4, 0, 3, 0]
+pushes_per_week: [2, 4, 0, 0, 0, 1, 5, 4, 4, 3, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 4
+    pushes: 7
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "metix-reports"
-    title: "metix-reports"
-    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "image-prompt"
     title: "image-prompt"
     description: "A source-attributed AI image prompt atlas: 474 examples, 22 categories, static SEO pages and a read-only agent API."
@@ -97,7 +89,47 @@ repos:
       - "prompts"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "website2markdown"
+    title: "website2markdown"
+    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0. https://md.genedai.me"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cloudflare-workers"
+      - "llms-txt"
+      - "markdown"
+      - "mcp"
+      - "typescript"
+      - "url-to-markdown"
+      - "web-scraping"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "modern-ai-resume-builder"
+    title: "modern-ai-resume-builder"
+    description: "demo: https://genedai.cv/ modern-ai-resume-builder | Built by Gene Dai, Co-Founder of Metix AI （https://metix.ai/）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "genedai.md"
+    title: "genedai.md"
+    description: "Gene Dai — Personal Homepage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -123,33 +155,9 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 192
+    stars_fact: 195
     first_seen: null
     last_push: "2026-04-12"
-  - name: "recruit-ai-framework"
-    title: "recruit-ai-framework"
-    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "project-watchtower"
-    title: "project-watchtower"
-    description: "Bounded health monitoring for Digidai public projects"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "asterweft"
-    title: "asterweft"
-    description: "Independent Cloudflare agent platform: full-parity rewrite research, architecture, and acceptance specifications."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # Digidai

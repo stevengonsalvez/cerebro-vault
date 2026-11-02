@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 4, 1, 0, 0, 0, 1, 3, 1, 3, 1, 1, 0]
+pushes_per_week: [0, 4, 1, 0, 0, 0, 1, 3, 2, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
+    title: "HGDM-Hierarchical-Gated-Delta-Memory"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "snapper"
     title: "snapper"
     description: "Android app that locks Instagram, YouTube, Shorts and Reels until you finish your daily tasks. Pass an AI voice quiz to earn points, spend them to unlock apps; miss a deadline and payment apps lock too. Sleep mode, content filter and an AI gatekeeper. React + Capacitor, Cloudflare Workers, Supabase."
@@ -97,14 +105,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "HGDM-Hierarchical-Gated-Delta-Memory"
-    title: "HGDM-Hierarchical-Gated-Delta-Memory"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-22"
   - name: "NCM"
     title: "NCM"
     description: "Native Cognitive Memory - Tensor-based episodic memory with state-conditioned retrieval for AI systems"

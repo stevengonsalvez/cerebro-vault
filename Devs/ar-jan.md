@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 4, 2, 0, 0, 1, 3, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 4, 2, 0, 1, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,6 +80,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "podman-runit"
+    title: "podman-runit"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "cache22"
+    title: "cache22"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "llm-venice"
     title: "llm-venice"
     description: "LLM plugin for Venice AI"
@@ -93,23 +109,20 @@ repos:
       - "text-generation"
     stars_fact: 29
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "pi-venice"
     title: "pi-venice"
-    description: null
+    description: "Venice AI provider for Pi Coding/Agent Harness"
     language: "TypeScript"
-    topics: []
+    topics:
+      - "agent-harness"
+      - "coding-harness"
+      - "harness-plugin"
+      - "pi"
+      - "venice-ai"
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "cache22"
-    title: "cache22"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "podman-healthcheckd"
     title: "podman-healthcheckd"
     description: "Supervised shell runner for Podman healthchecks on non-systemd systems"
@@ -128,15 +141,7 @@ repos:
       - "zotero"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-02-23"
-  - name: "llm-vertex"
-    title: "llm-vertex"
-    description: "LLM plugin to access models via Google Vertex AI"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-05-19"
+    last_push: "2026-11-01"
 ---
 
 # ar-jan

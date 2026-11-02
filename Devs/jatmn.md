@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [10, 28, 14, 3, 1, 1, 4, 4, 4, 12, 28, 15, 6]
+pushes_per_week: [11, 28, 14, 2, 1, 1, 4, 5, 4, 13, 26, 21, 0]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 6
-    active_days: 2
-    repos_not_owned: 5
-    not_owned_basenames: 1
-    not_owned_owners: 5
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 62
     distinct_repos: 18
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 6
-    pushes_per_repo: 1.6667
-    active_days: 2
-    repos_not_owned: 5
-    not_owned_basenames: 1
-    not_owned_owners: 5
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 62
     distinct_repos: 18
@@ -89,7 +89,18 @@ repos:
       - "discord-moderation-bot"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "yuoki-quinityn"
+    title: "yuoki-quinityn"
+    description: "Factorio 2.1 Space Age planet for Yuoki Industries and Engines: Quinityn, liquid unicomp seas and local industrial progression"
+    language: "Lua"
+    topics:
+      - "factorio"
+      - "factorio-mod"
+      - "factorio-modding"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "jatmn"
     title: "jatmn"
     description: null
@@ -97,41 +108,33 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "yuoki-quinityn"
-    title: "yuoki-quinityn"
-    description: "Factorio 2.1 Space Age planet for Yuoki Industries and Engines: Quinityn, liquid unicomp seas and local industrial progression"
+    last_push: "2026-11-01"
+  - name: "Yuoki-Engines-Factorio-2.x"
+    title: "Yuoki-Engines-Factorio-2.x"
+    description: null
     language: "Lua"
-    topics: []
+    topics:
+      - "factorio"
+      - "factorio-mod"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "Codex-warp"
-    title: "Codex-warp"
-    description: "Tiny Rust proxy that lets Codex CLI talk to OpenAI-compatible providers through a local Responses API surface."
-    language: "Rust"
-    topics:
-      - "codex"
-      - "codex-cli"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "github-runner-buildkite-plugin"
-    title: "github-runner-buildkite-plugin"
-    description: "Ephemeral GitHub Actions runners on existing Buildkite pools, with guided setup and a Pullfrog preset. Experimental."
+    last_push: "2026-10-31"
+  - name: "Factorio-Stone-Ammo"
+    title: "Factorio-Stone-Ammo"
+    description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "InsertersDontNeedPower-Factorio-2.x"
-    title: "InsertersDontNeedPower-Factorio-2.x"
-    description: "Factorio 2.1 fork of Inserters Don’t Need Power by Zedlic. Original source: https://mods.factorio.com/mod/InsertersDontNeedPower2 — currently an unchanged 0.0.2 import."
-    language: "Lua"
+    last_push: "2026-11-01"
+  - name: "basic-robots-factorio"
+    title: "basic-robots-factorio"
+    description: "Basic robots for early game"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-01"
 ---
 
 # jatmn

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [0, 3, 1, 1, 2, 0, 3, 9, 1, 11, 3, 0, 0]
+pushes_per_week: [0, 3, 1, 1, 2, 0, 5, 7, 1, 12, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,9 +92,17 @@ repos:
       - "prompt-engineering"
       - "skill"
       - "tokens"
-    stars_fact: 115109
+    stars_fact: 116777
     first_seen: "2026-07-03T06:00:07.803484+00:00"
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
+  - name: "caveman-browse"
+    title: "caveman-browse"
+    description: "Token-efficient browser automation for coding agents: compressed accessibility snapshots, uid actions, byte-exact recovery. A Playwright MCP alternative."
+    language: "Go"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-09-30"
   - name: "caveman-code"
     title: "caveman-code"
     description: "Frozen — terminal coding agent measured at 1.93× fewer tokens than Codex CLI. Still works; active development moved to JuliusBrussee/caveman (caveman wrap)."
@@ -113,7 +121,7 @@ repos:
       - "skills"
       - "spec-driven-development"
       - "test-driven-development"
-    stars_fact: 1156
+    stars_fact: 1157
     first_seen: null
     last_push: "2026-08-14"
   - name: "cavemem"
@@ -129,29 +137,17 @@ repos:
       - "memory"
       - "rag"
       - "rag-chatbot"
-    stars_fact: 676
+    stars_fact: 675
     first_seen: null
     last_push: "2026-08-14"
-  - name: "the-prompt-library"
-    title: "the-prompt-library"
-    description: "A curated collection of production‑ready AI prompts with MCP integration, organised for humans and machines alike."
-    language: "Python"
-    topics:
-      - "claude"
-      - "gemini"
-      - "mcp"
-      - "prompts"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2025-08-04"
-  - name: "auto-build-in-public"
-    title: "auto-build-in-public"
-    description: "Automatically generate post-ready build-in-public drafts from your git history (and optionally on merged PRs)"
-    language: "TypeScript"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "JavaScript"
     topics: []
-    stars_fact: 6
+    stars_fact: 170
     first_seen: null
-    last_push: "2026-02-02"
+    last_push: "2026-08-07"
 ---
 
 # JuliusBrussee

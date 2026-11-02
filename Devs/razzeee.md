@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [7, 6, 4, 2, 1, 5, 12, 10, 15, 12, 16, 10, 0]
+pushes_per_week: [5, 7, 3, 2, 4, 4, 12, 10, 16, 20, 7, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 12
-    active_days: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 21
-    active_days: 43
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3256
-  repo_per_active_day: 0.4884
+  push_per_day: 2.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 12
-    pushes_per_repo: 4.2500
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 21
-    pushes_per_repo: 4.7619
-    active_days: 43
+    pushes_per_repo: 4.6667
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "script.trakt"
@@ -130,6 +130,6 @@ repos:
 
 # razzeee
 
-100 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
+98 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

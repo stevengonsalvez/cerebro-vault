@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [4, 1, 2, 0, 0, 23, 71, 116, 133, 116, 74, 157, 5]
+pushes_per_week: [3, 2, 1, 0, 1, 22, 74, 125, 148, 116, 68, 141, 0]
 windows:
   "7d":
-    pushes: 34
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 425
+    pushes: 404
     distinct_repos: 4
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 702
+    pushes: 701
     distinct_repos: 5
-    active_days: 49
+    active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 14.3265
-  repo_per_active_day: 0.1020
+  push_per_day: 14.6042
+  repo_per_active_day: 0.1042
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 34
-    distinct_repos: 2
-    pushes_per_repo: 17.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 425
+    pushes: 404
     distinct_repos: 4
-    pushes_per_repo: 106.2500
-    active_days: 20
+    pushes_per_repo: 101.0000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 702
+    pushes: 701
     distinct_repos: 5
-    pushes_per_repo: 140.4000
-    active_days: 49
+    pushes_per_repo: 140.2000
+    active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nvidia-steam-shader-cache"
@@ -89,6 +89,6 @@ repos:
 
 # yotamleo
 
-702 pushes across 5 repositories on 49 active days in the last 90 days of public GitHub push activity.
+701 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yotamleo

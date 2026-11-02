@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [2, 2, 0, 1, 0, 0, 1, 1, 2, 2, 0, 0, 0]
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,42 +89,9 @@ repos:
       - "codex"
       - "cursor"
       - "skills"
-    stars_fact: 110580
+    stars_fact: 112619
     first_seen: "2026-06-19T17:17:12.671343+00:00"
-    last_push: "2026-10-13"
-  - name: "backbone-fundamentals"
-    title: "backbone-fundamentals"
-    description: ":book: A creative-commons book on Backbone.js for beginners and advanced users alike"
-    language: "Rich Text Format"
-    topics: []
-    stars_fact: 9172
-    first_seen: null
-    last_push: "2024-11-30"
-  - name: "clarity"
-    title: "clarity"
-    description: "Clarity - an Agent skill for clearer writing"
-    language: "JavaScript"
-    topics:
-      - "ai-writing"
-      - "ai-writing-assistant"
-      - "writing"
-      - "writing-assistant"
-      - "writing-tools"
-    stars_fact: 314
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "factory"
-    title: "factory"
-    description: "A reference software factory for Claude Code and Codex"
-    language: "Shell"
-    topics:
-      - "agentic-engineering"
-      - "claude-code"
-      - "codex"
-      - "software-factory"
-    stars_fact: 297
-    first_seen: null
-    last_push: "2026-08-21"
+    last_push: "2026-11-01"
   - name: "web-quality-skills"
     title: "web-quality-skills"
     description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
@@ -138,21 +105,49 @@ repos:
       - "skills"
       - "testing"
       - "web-performance"
-    stars_fact: 2990
+    stars_fact: 3024
     first_seen: null
     last_push: "2026-08-24"
-  - name: "squish"
-    title: "squish"
-    description: "Squish - Batch Browser-based Image Compression"
-    language: "TypeScript"
-    topics:
-      - "batch"
-      - "batch-processing"
-      - "image-compression"
-      - "image-processing"
-    stars_fact: 1045
+  - name: "timing.js"
+    title: "timing.js"
+    description: "Navigation Timing API measurement helpers"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1475
     first_seen: null
-    last_push: "2025-01-16"
+    last_push: "2020-04-02"
+  - name: "agent-engineer"
+    title: "agent-engineer"
+    description: "Agent Engineer - a practical course for software engineers"
+    language: null
+    topics:
+      - "agentic-framework"
+      - "ai-agents"
+      - "generative-ai"
+    stars_fact: 531
+    first_seen: null
+    last_push: "2026-07-16"
+  - name: "clarity"
+    title: "clarity"
+    description: "Clarity - an Agent skill for clearer writing"
+    language: "JavaScript"
+    topics:
+      - "ai-writing"
+      - "ai-writing-assistant"
+      - "writing"
+      - "writing-assistant"
+      - "writing-tools"
+    stars_fact: 338
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "backbone-boilerplates"
+    title: "backbone-boilerplates"
+    description: "Backbone.js stack boilerplates demonstrating integration with Express, Ruby, PHP, Grails and more."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 484
+    first_seen: null
+    last_push: "2013-04-02"
 ---
 
 # addyosmani

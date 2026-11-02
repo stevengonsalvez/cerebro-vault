@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [4, 2, 1, 0, 1, 4, 6, 13, 3, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 0, 4, 2, 5, 14, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 13
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6190
-  repo_per_active_day: 0.6190
+  push_per_day: 1.6000
+  repo_per_active_day: 0.6500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -68,18 +68,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 13
-    pushes_per_repo: 2.6154
-    active_days: 21
+    pushes_per_repo: 2.4615
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "oabrowser"
+    title: "oabrowser"
+    description: "WebGL-based anatomy atlas browser"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2018-10-04"
+  - name: "LNQ-citations"
+    title: "LNQ-citations"
+    description: "Citation tree for lymph node quantification in lung cancer staging"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "tractline"
+    title: "tractline"
+    description: "Accelerated modular tractography pipelines."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "haversack"
     title: "haversack"
     description: "Medical-image segmentation models, many families behind one door - TotalSegmentator, MOOSE, MRSegmentator, stock nnU-Net and more - on MPS, CUDA or CPU, with a CLI and a local REST server"
@@ -88,22 +112,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "LNQ-citations"
-    title: "LNQ-citations"
-    description: "Citation tree for lymph node quantification in lung cancer staging"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "oabrowser"
-    title: "oabrowser"
-    description: "WebGL-based anatomy atlas browser"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 36
-    first_seen: null
-    last_push: "2018-10-04"
   - name: "thalweg"
     title: "thalweg"
     description: "Centerlines, branches and wall geometry of tubular structures, read from a segmentation model's field (a field-based vmtk successor)"
@@ -120,18 +128,10 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2017-12-12"
-  - name: "feldglas"
-    title: "feldglas"
-    description: "Embedding fields of medical images: read them, gate them with any mask, and find what is unlike normal tissue. The receiving end of haversack's encoders."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
 ---
 
 # mhalle
 
-34 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
+32 pushes across 13 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mhalle

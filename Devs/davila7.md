@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [3, 3, 1, 2, 0, 2, 5, 5, 10, 5, 2, 8, 1]
+pushes_per_week: [1, 3, 1, 2, 1, 1, 6, 5, 9, 5, 3, 8, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 5
-    active_days: 34
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3824
-  repo_per_active_day: 0.1471
+  push_per_day: 1.3636
+  repo_per_active_day: 0.1515
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 3
-    pushes_per_repo: 7.3333
-    active_days: 14
+    pushes_per_repo: 7.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 5
-    pushes_per_repo: 9.4000
-    active_days: 34
+    pushes_per_repo: 9.0000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-templates"
@@ -86,17 +86,33 @@ repos:
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 32905
+    stars_fact: 33054
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-10-26"
-  - name: "jev-explained"
-    title: "jev-explained"
-    description: "Jev Explained"
-    language: "TypeScript"
+    last_push: "2026-11-02"
+  - name: "drex-cookbook"
+    title: "drex-cookbook"
+    description: "Drex Cookbook"
+    language: "Jupyter Notebook"
     topics: []
-    stars_fact: 36
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-11-01"
+  - name: "danimcp"
+    title: "danimcp"
+    description: "MCP about me"
+    language: "Python"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "fintual_mcp_server"
+    title: "fintual_mcp_server"
+    description: "Fintual MCP Server"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-05-23"
   - name: "chaos-monkey-coding-agents"
     title: "chaos-monkey-coding-agents"
     description: "Chaos Monkey Benchmark for Coding Agents"
@@ -106,27 +122,7 @@ repos:
       - "coding-agent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "claude-managed-agents-cookbook"
-    title: "claude-managed-agents-cookbook"
-    description: "Claude Managed Agents Cookbook"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "claude-code-cli-training"
-    title: "claude-code-cli-training"
-    description: "Claude Code Training"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-code-skills"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-05-11"
+    last_push: "2026-11-01"
   - name: "davila7"
     title: "davila7"
     description: "Profile"
@@ -134,11 +130,11 @@ repos:
     topics: []
     stars_fact: 36
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
 ---
 
 # davila7
 
-47 pushes across 5 repositories on 34 active days in the last 90 days of public GitHub push activity.
+45 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/davila7

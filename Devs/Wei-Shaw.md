@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [5, 13, 7, 5, 2, 6, 7, 9, 12, 3, 3, 2, 0]
+pushes_per_week: [5, 13, 11, 1, 4, 3, 7, 16, 5, 5, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 6
-    active_days: 31
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3871
-  repo_per_active_day: 0.1935
+  push_per_day: 2.4333
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.8333
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 73
     distinct_repos: 6
-    pushes_per_repo: 12.3333
-    active_days: 31
+    pushes_per_repo: 12.1667
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sub2api"
@@ -149,6 +149,6 @@ repos:
 
 # Wei-Shaw
 
-74 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+73 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Wei-Shaw

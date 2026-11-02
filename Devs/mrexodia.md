@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "de6bf05613f3ae04"
-pushes_per_week: [8, 3, 7, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0]
+pushes_per_week: [9, 4, 5, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -93,52 +93,22 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 13157
+    stars_fact: 13281
     first_seen: null
     last_push: "2026-09-26"
-  - name: "perfect-dll-proxy"
-    title: "perfect-dll-proxy"
-    description: "Perfect DLL Proxying using forwards with absolute paths."
-    language: "Python"
+  - name: "TitanHide"
+    title: "TitanHide"
+    description: "Hiding kernel-driver for x86/x64."
+    language: "C"
     topics:
-      - "dll-hijacking"
-      - "redteam-tools"
-      - "reverse-engineering"
-      - "security"
+      - "anti-debugging"
+      - "driver"
+      - "hacktoberfest"
+      - "rootkit"
       - "windows"
-    stars_fact: 376
+    stars_fact: 2934
     first_seen: null
-    last_push: "2025-11-03"
-  - name: "zeromcp"
-    title: "zeromcp"
-    description: "Zero-dependency MCP server implementation."
-    language: "Python"
-    topics:
-      - "mcp"
-      - "mcp-sdk"
-      - "modelcontextprotocol"
-      - "python"
-      - "python-mcp"
-    stars_fact: 92
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "phnt-single-header"
-    title: "phnt-single-header"
-    description: "Single header version of System Informer's phnt library."
-    language: "CMake"
-    topics:
-      - "debugger"
-      - "native"
-      - "processhacker"
-      - "sdk"
-      - "security"
-      - "systeminformer"
-      - "wdk"
-      - "windows"
-      - "windows-internals"
-    stars_fact: 250
-    first_seen: null
-    last_push: "2026-03-27"
+    last_push: "2026-07-18"
   - name: "dumpulator"
     title: "dumpulator"
     description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
@@ -163,22 +133,35 @@ repos:
       - "windows"
       - "windows-internals"
       - "x64"
-    stars_fact: 888
+    stars_fact: 893
     first_seen: null
     last_push: "2024-02-02"
-  - name: "TitanHide"
-    title: "TitanHide"
-    description: "Hiding kernel-driver for x86/x64."
-    language: "C"
+  - name: "toilet-pi"
+    title: "toilet-pi"
+    description: "Control pi sessions across machines with your browser (or mobile PWA)."
+    language: "TypeScript"
     topics:
-      - "anti-debugging"
-      - "driver"
-      - "hacktoberfest"
-      - "rootkit"
-      - "windows"
-    stars_fact: 2914
+      - "pi"
+      - "pi-extension"
+    stars_fact: 40
     first_seen: null
-    last_push: "2026-07-18"
+    last_push: "2026-10-30"
+  - name: "agent-cost-dashboard"
+    title: "agent-cost-dashboard"
+    description: "Interactive web dashboard to monitor and analyze your coding agent API costs."
+    language: "Python"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "claude-marketplace"
+    title: "claude-marketplace"
+    description: "My personal Claude Code marketplace."
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # mrexodia

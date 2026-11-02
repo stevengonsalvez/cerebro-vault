@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 2, 0, 6, 12, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 2, 3, 9, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nailong-share"
+    title: "nailong-share"
+    description: "https://nailong-share.vercel.app/"
+    language: "Astro"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "nailong-bot-experiment"
+    title: "nailong-bot-experiment"
+    description: "Personal Agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "Blog"
     title: "Blog"
     description: "My Blog"
@@ -85,22 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-25"
-  - name: "nailong-bot"
-    title: "nailong-bot"
-    description: "Personal Agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "nailong-share"
-    title: "nailong-share"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "nailong-gallery"
     title: "nailong-gallery"
     description: null

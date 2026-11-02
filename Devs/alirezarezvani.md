@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [8, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [8, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,24 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-code-aso-skill"
+    title: "claude-code-aso-skill"
+    description: "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App"
+    language: "Python"
+    topics:
+      - "aeo"
+      - "agentic-framework"
+      - "android"
+      - "app-store-optimization"
+      - "appstore"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-skill"
+      - "ios"
+      - "playstore"
+    stars_fact: 461
+    first_seen: null
+    last_push: "2026-05-25"
   - name: "claude-skills"
     title: "claude-skills"
     description: "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills."
@@ -103,31 +121,54 @@ repos:
       - "openclaw-plugins"
       - "openclaw-skills"
       - "prompt-engineering"
-    stars_fact: 28730
+    stars_fact: 29143
     first_seen: "2026-08-10T06:00:04.550142+00:00"
-    last_push: "2026-10-23"
-  - name: "alirezarezvani"
-    title: "alirezarezvani"
-    description: "Alireza Rezvani CTO and AI enthusiast - Addicted to Claude Code and Openclaw"
-    language: null
+    last_push: "2026-10-31"
+  - name: "claude-code-github-workflow"
+    title: "claude-code-github-workflow"
+    description: "World-Class GitHub Workflow for Claude Code. This Blueprint for Using Claude Code and Github as your Workflow automation suite and Project Management. Including Fully automated Task Management and Issue Tracking as well as Context Engineering. Turn Your Github Repository to the Second Brain for Your Claude Code."
+    language: "Shell"
     topics:
-      - "anthropic-skills"
-      - "claude-ai"
       - "claude-code"
-      - "claude-code-plugin"
-      - "claude-skills"
-      - "codex"
-      - "codex-cli"
-      - "codex-skills"
-      - "gemini-cli"
-      - "gemini-pro"
-      - "medium-articles"
-      - "openclaw"
-      - "openclaw-security"
-      - "openclaw-skills"
-    stars_fact: 29
+      - "github-actions"
+      - "github-claude-code"
+      - "github-projects"
+      - "github-wiki"
+      - "release-automation"
+      - "release-engineering"
+      - "workflow-automation"
+      - "workflow-reusable"
+    stars_fact: 69
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-03-02"
+  - name: "ClaudeForge"
+    title: "ClaudeForge"
+    description: "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "claude-code"
+      - "claude-skill"
+      - "claude-subagents"
+    stars_fact: 432
+    first_seen: null
+    last_push: "2026-05-19"
+  - name: "claude-code-tresor"
+    title: "claude-code-tresor"
+    description: "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow"
+    language: "Shell"
+    topics:
+      - "agent-development-kit"
+      - "agentic-ai"
+      - "agentic-coding"
+      - "agentic-workflow"
+      - "agents"
+      - "anthropic-claude"
+      - "claude-code"
+    stars_fact: 782
+    first_seen: null
+    last_push: "2026-07-03"
   - name: "claude-code-skill-factory"
     title: "claude-code-skill-factory"
     description: "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
@@ -139,52 +180,9 @@ repos:
       - "claude-code"
       - "claude-skills"
       - "claude-skills-creator"
-    stars_fact: 893
+    stars_fact: 897
     first_seen: null
     last_push: "2025-11-12"
-  - name: "agentx"
-    title: "agentx"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2025-10-20"
-  - name: "claude-code-aso-skill"
-    title: "claude-code-aso-skill"
-    description: "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App"
-    language: "Python"
-    topics:
-      - "aeo"
-      - "agentic-framework"
-      - "android"
-      - "app-store-optimization"
-      - "appstore"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-skill"
-      - "ios"
-      - "playstore"
-    stars_fact: 458
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "claude-cto-team"
-    title: "claude-cto-team"
-    description: "Your personal CTO Team for Claude Code . These Subagents will help you challenging yourself while you plan and execute."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-workflow"
-      - "ai-workflow-automation"
-      - "claude-ai"
-      - "claude-code"
-      - "claude-subagents"
-      - "cto"
-      - "cto-office"
-      - "roadmap"
-    stars_fact: 119
-    first_seen: null
-    last_push: "2025-12-18"
 ---
 
 # alirezarezvani

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 4, 2, 0, 0, 3, 1, 4, 5, 3, 5, 2, 0]
+pushes_per_week: [0, 4, 2, 0, 0, 3, 1, 4, 5, 6, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 7
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
+  - name: "omp-slack"
+    title: "omp-slack"
+    description: "Slack for OMP: lazy xd://slack device and slack:// URLs backed by Slack's hosted MCP server with your own user OAuth"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "omp-prompt-stash"
     title: "omp-prompt-stash"
     description: "Persistent per-session prompt stash plugin for Oh My Pi"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-02-01"
-  - name: "torch-cpu-and-cuda-coexistence"
-    title: "torch-cpu-and-cuda-coexistence"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-06-21"
 ---
 
 # anatoli-tsinovoy

@@ -10,15 +10,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [6, 16, 12, 4, 7, 7, 32, 27, 21, 17, 33, 37, 0]
+pushes_per_week: [6, 22, 8, 2, 7, 8, 32, 35, 12, 28, 29, 30, 0]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 7
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 7
-    pushes_per_repo: 1.7143
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -83,49 +83,49 @@ repos:
     description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 13597
+    stars_fact: 14874
     first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "distrobox-gaming"
     title: "distrobox-gaming"
     description: "Script to create a gaming focused Distrobox with all emulators pre-configured"
     language: "Python"
     topics: []
-    stars_fact: 439
+    stars_fact: 454
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "worldreports"
-    title: "worldreports"
-    description: "Collection of many countries websites consolidating their main official numbers in easy to read slides"
-    language: "Python"
-    topics: []
-    stars_fact: 80
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "ai-book-2026"
-    title: "ai-book-2026"
-    description: "e-book version of the akitaonrails.com blog."
-    language: "Ruby"
-    topics: []
-    stars_fact: 307
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "ai-usagebar"
-    title: "ai-usagebar"
-    description: "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar"
+    last_push: "2026-11-02"
+  - name: "rea-colin-mcrae-3"
+    title: "rea-colin-mcrae-3"
+    description: "Experimental Launcher for Colin McRae 3 to make it work in modern PCs easily"
     language: "Rust"
     topics: []
-    stars_fact: 724
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "akitaonrails.github.io"
-    title: "akitaonrails.github.io"
-    description: "2025 export from my old Rails-based blog AkitaOnRails.com"
-    language: "HTML"
+    last_push: "2026-11-02"
+  - name: "rea-colin-mcrae-4"
+    title: "rea-colin-mcrae-4"
+    description: "Experimental Launcher for Colin McRae 4 to make it work in modern PCs easily"
+    language: "Rust"
     topics: []
-    stars_fact: 226
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
+  - name: "rea-sega-rally-revo"
+    title: "rea-sega-rally-revo"
+    description: "Experimental Launcher for Sega Rally REVO to make it work in modern PCs easily"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "rea-outrun-2006"
+    title: "rea-outrun-2006"
+    description: "Experimental Launcher for Outrun 2006 Coast to Coast to make it work in modern PCs easily"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # akitaonrails

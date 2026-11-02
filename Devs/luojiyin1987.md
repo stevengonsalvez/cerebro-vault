@@ -11,24 +11,24 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [19, 58, 16, 4, 1, 11, 6, 4, 11, 6, 3, 5, 3]
+pushes_per_week: [19, 66, 10, 3, 4, 7, 7, 8, 6, 7, 3, 7, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 12
-    active_days: 14
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -53,18 +53,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 12
-    pushes_per_repo: 1.5833
-    active_days: 14
+    pushes_per_repo: 1.5000
+    active_days: 13
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -86,7 +86,7 @@ repos:
     description: "youtube-dl"
     language: "HTML"
     topics: []
-    stars_fact: 4
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-03"
   - name: "lint-md-moejs"
@@ -121,7 +121,7 @@ repos:
       - "learn"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-31"
   - name: "Agent-Harness-Runtime"
     title: "Agent-Harness-Runtime"
     description: null

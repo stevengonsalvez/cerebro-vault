@@ -10,14 +10,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [10, 4, 1, 0, 0, 16, 47, 31, 27, 0, 0, 4, 0]
+pushes_per_week: [11, 4, 0, 0, 3, 19, 41, 34, 24, 0, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,11 +27,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 140
@@ -62,12 +62,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 6
-    pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 140
@@ -132,7 +132,7 @@ repos:
       - "reproducibility"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-29"
   - name: "csv-quality-gate"
     title: "csv-quality-gate"
     description: "csv-quality-gate is a command-line data quality gate that runs CSV preflight validation, failing fast before an ML or LLM pipeline ingests broken, incomplete, duplicated, or junk input. It checks missing columns, empty files, empty cells, and duplicate rows, returning pass, warn, or fail with matching exit codes. Stdlib-only, CI-ready."

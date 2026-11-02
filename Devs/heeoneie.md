@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 2, 0, 0, 0, 3, 0, 2, 0, 0, 1, 3, 0]
+pushes_per_week: [0, 2, 0, 0, 3, 0, 0, 2, 0, 0, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-30"
+  - name: "cote-is-really-cute-server"
+    title: "cote-is-really-cute-server"
+    description: "🐱 알고리즘 학습·대전 플랫폼 서버"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "algorithm"
     title: "algorithm"
     description: "✏️ 알고리즘 문제 풀기"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "analyze-review"
-    title: "analyze-review"
-    description: "쿠팡·배달앱 리뷰를 LLM으로 분석해 핵심 문제를 진단하고 답글까지 생성하는 서비스 (Python · Docker)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "music-experiment-001"
     title: "music-experiment-001"
     description: "AI 음악 분석·생성 가능성을 7일간 검증한 실험 프로젝트"

@@ -12,13 +12,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [2, 3, 1, 1, 0, 0, 1, 0, 3, 0, 0, 7, 0]
+pushes_per_week: [3, 3, 0, 1, 0, 0, 1, 0, 3, 0, 0, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -28,9 +28,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 5
+    pushes: 8
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -63,10 +63,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -83,6 +83,29 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "free-lunch-lab"
+    title: "free-lunch-lab"
+    description: "There is such a thing as a free lunch. An open, sourced list of apps that pay you basic income, plus a graveyard of the ones that died. 7 languages."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "awesome"
+      - "awesome-list"
+      - "basic-income"
+      - "cloudflare-workers"
+      - "crypto"
+      - "cryptocurrency"
+      - "free-lunch"
+      - "multilingual"
+      - "open-data"
+      - "passive-income"
+      - "proof-of-personhood"
+      - "static-site"
+      - "ubi"
+      - "universal-basic-income"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "awesome-AI-driven-development"
     title: "awesome-AI-driven-development"
     description: "Awesome list of AI-Driven Development."
@@ -102,7 +125,7 @@ repos:
       - "spec-driven-development"
       - "vibe-coding"
       - "vibecoding"
-    stars_fact: 568
+    stars_fact: 571
     first_seen: null
     last_push: "2026-10-12"
   - name: "solpulse"
@@ -110,9 +133,9 @@ repos:
     description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
     language: "HTML"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "translations"
     title: "translations"
     description: "Repository of records of translation."
@@ -123,7 +146,7 @@ repos:
       - "translation"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
   - name: "awesome-molt-ecosystem"
     title: "awesome-molt-ecosystem"
     description: "The brutally honest map of where AI-agent money actually flows. Every number measured, dated, and re-checked — including the ones that turned out to be wrong. Lifetime external income: $2.40. 1 of 18 awesome-list submissions ever merged."
@@ -149,9 +172,9 @@ repos:
       - "usdc"
       - "web3"
       - "x402"
-    stars_fact: 64
+    stars_fact: 66
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-29"
   - name: "eltociear"
     title: "eltociear"
     description: "introduction"
@@ -160,22 +183,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-10-19"
-  - name: "x402-approval-guard"
-    title: "x402-approval-guard"
-    description: "Stop your AI agent from signing dangerous ERC20 approvals. Calls contract-guard (x402) to flag unlimited/risky allowances before approve(). Forkable x402 example agent."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "base"
-      - "erc20"
-      - "mcp"
-      - "security"
-      - "usdc"
-      - "web3"
-      - "x402"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-15"
 ---
 
 # eltociear

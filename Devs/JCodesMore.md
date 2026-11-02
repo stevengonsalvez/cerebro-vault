@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -101,9 +101,25 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 37389
+    stars_fact: 38407
     first_seen: "2026-06-23T06:00:02.599193+00:00"
     last_push: "2026-10-19"
+  - name: "starry-ai-bookmark-search"
+    title: "starry-ai-bookmark-search"
+    description: "Find your bookmarks like a simple Google search. Local, private, and free. It just works."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "bookmarks"
+      - "chrome-extension"
+      - "local-ai"
+      - "manifest-v3"
+      - "privacy"
+      - "semantic-search"
+      - "transformers-js"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-15"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -116,7 +132,7 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 60
+    stars_fact: 61
     first_seen: null
     last_push: "2026-04-30"
   - name: "ai-animated-website"
@@ -143,21 +159,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-09-27"
-  - name: "ai-chrome-extension-template"
-    title: "ai-chrome-extension-template"
-    description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "chrome-extension"
-      - "claude-code"
-      - "codex"
-      - "mv3"
-      - "skills"
-      - "template"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-15"
 ---
 
 # JCodesMore

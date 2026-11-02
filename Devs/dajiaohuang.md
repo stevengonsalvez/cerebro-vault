@@ -8,34 +8,36 @@ provenance_repos:
   - "1jehuang/jcode"
   - "addyosmani/agent-skills"
   - "affaan-m/ECC"
+  - "agavra/tuicr"
   - "akitaonrails/ai-memory"
   - "alchaincyf/huashu-design"
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
+  - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [7, 22, 3, 7, 3, 19, 8, 39, 134, 14, 0, 28, 1]
+pushes_per_week: [7, 22, 3, 7, 4, 21, 6, 43, 136, 7, 3, 26, 0]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 48
-    active_days: 11
+    pushes: 58
+    distinct_repos: 39
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,18 +62,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 9
-    pushes_per_repo: 1.2222
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 48
-    pushes_per_repo: 2.0000
-    active_days: 11
+    pushes: 58
+    distinct_repos: 39
+    pushes_per_repo: 1.4872
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +86,7 @@ facets:
     not_owned_basenames: 15
     not_owned_owners: 1
 reasons:
-  - "provenance: 7 vault signal(s) — pass"
+  - "provenance: 8 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

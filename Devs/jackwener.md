@@ -10,18 +10,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [15, 41, 8, 7, 0, 0, 1, 8, 2, 0, 1, 1, 1]
+pushes_per_week: [14, 39, 14, 1, 0, 0, 1, 10, 0, 0, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 3
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 82
     distinct_repos: 14
-    active_days: 20
+    active_days: 19
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.2500
-  repo_per_active_day: 0.7000
+  push_per_day: 4.3158
+  repo_per_active_day: 0.7368
   not_owned_ratio: 0.7143
   basename_concentration: 0.6429
   shapes:
@@ -66,13 +66,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 3
     distinct_repos: 3
@@ -82,18 +82,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 82
     distinct_repos: 14
-    pushes_per_repo: 6.0714
-    active_days: 20
+    pushes_per_repo: 5.8571
+    active_days: 19
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Kaze"
+    title: "Kaze"
+    description: "A calm, quick browser for macOS, with an agent that works in your tabs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 143
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "OpenCLI"
     title: "OpenCLI"
     description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
@@ -106,53 +114,52 @@ repos:
       - "browser-use"
       - "cli"
       - "playwright"
-    stars_fact: 30650
+    stars_fact: 30824
     first_seen: null
     last_push: "2026-10-26"
-  - name: "boss-cli"
-    title: "boss-cli"
-    description: "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API"
+  - name: "DSH-Android"
+    title: "DSH-Android"
+    description: "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku"
+    language: "Kotlin"
+    topics:
+      - "ai-agent"
+      - "android"
+      - "deepseek"
+      - "deepseek-harness"
+      - "llm"
+      - "phone-agent"
+      - "shizuku"
+    stars_fact: 723
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "xiaohongshu-cli"
+    title: "xiaohongshu-cli"
+    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
     language: "Python"
     topics: []
-    stars_fact: 1015
+    stars_fact: 2714
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-03-21"
   - name: "wx-cli-again"
     title: "wx-cli-again"
     description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
     language: "Rust"
     topics: []
-    stars_fact: 875
+    stars_fact: 891
     first_seen: null
     last_push: "2026-09-14"
-  - name: "KazeBrowser"
-    title: "KazeBrowser"
-    description: "Kaze — a calm browser with an agent that works in your tabs"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "wechat-article-to-markdown"
     title: "wechat-article-to-markdown"
     description: "微信公众号文章抓取 & Markdown 转换工具"
     language: "Python"
     topics: []
-    stars_fact: 1074
+    stars_fact: 1082
     first_seen: null
     last_push: "2026-03-22"
-  - name: "BrowserMCP"
-    title: "BrowserMCP"
-    description: "Connect MCP agents to your logged-in Chrome. Persistent JavaScript workspace, browser automation, and reusable site adapters."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # jackwener
 
-85 pushes across 14 repositories on 20 active days in the last 90 days of public GitHub push activity.
+82 pushes across 14 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

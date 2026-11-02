@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -43,33 +43,33 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [6, 21, 2, 0, 0, 2, 13, 2, 4, 4, 11, 3, 0]
+pushes_per_week: [7, 19, 2, 0, 0, 5, 10, 2, 4, 10, 5, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 15
-    active_days: 11
+    pushes: 19
+    distinct_repos: 14
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 30
-    active_days: 32
+    active_days: 31
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.9375
+  push_per_day: 2.1613
+  repo_per_active_day: 0.9677
   not_owned_ratio: 0.1333
   basename_concentration: 0.0667
   shapes: []
@@ -80,75 +80,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 15
-    pushes_per_repo: 1.3333
-    active_days: 11
+    pushes: 19
+    distinct_repos: 14
+    pushes_per_repo: 1.3571
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 67
     distinct_repos: 30
-    pushes_per_repo: 2.2667
-    active_days: 32
+    pushes_per_repo: 2.2333
+    active_days: 31
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 18 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "scrape-florida-outages"
-    title: "scrape-florida-outages"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "ollama-models-atom-feed"
-    title: "ollama-models-atom-feed"
-    description: "https://ollama.com/search?o=newest"
-    language: "Python"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "usgs-demo"
-    title: "usgs-demo"
-    description: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "battledrones"
-    title: "battledrones"
-    description: "A mobile web RTS"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "scrape-fediverse"
-    title: "scrape-fediverse"
-    description: "Git scrapers for scraping the fediverse"
-    language: null
-    topics:
-      - "git-scraping"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
@@ -157,11 +116,54 @@ repos:
       - "git-scraping"
     stars_fact: 16
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "scrape-florida-outages"
+    title: "scrape-florida-outages"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "llm"
+    title: "llm"
+    description: "Access large language models from the command-line"
+    language: "Python"
+    topics:
+      - "ai"
+      - "llms"
+      - "openai"
+    stars_fact: 12689
+    first_seen: "2026-07-31T06:00:06.780986+00:00"
+    last_push: "2026-10-30"
+  - name: "usgs-scraper"
+    title: "usgs-scraper"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "simonwillisonblog-backup"
+    title: "simonwillisonblog-backup"
+    description: "Backups of the database for simonwillison.net"
+    language: "Python"
+    topics: []
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "ollama-models-atom-feed"
+    title: "ollama-models-atom-feed"
+    description: "https://ollama.com/search?o=newest"
+    language: "Python"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # simonw
 
-68 pushes across 30 repositories on 32 active days in the last 90 days of public GitHub push activity.
+67 pushes across 30 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

@@ -9,41 +9,41 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [1, 0, 0, 0, 0, 4, 2, 0, 7, 1, 3, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 4, 2, 2, 5, 4, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 12
-    active_days: 9
+    pushes: 18
+    distinct_repos: 11
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1111
-  repo_per_active_day: 1.3333
+  push_per_day: 2.2500
+  repo_per_active_day: 1.3750
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,42 +52,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 12
-    pushes_per_repo: 1.5833
-    active_days: 9
+    pushes: 18
+    distinct_repos: 11
+    pushes_per_repo: 1.6364
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nba_data"
-    title: "nba_data"
-    description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "stepback.club"
     title: "stepback.club"
     description: "https://billmill.org/nba/"
@@ -95,23 +87,34 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "netmon"
-    title: "netmon"
-    description: null
+    last_push: "2026-11-01"
+  - name: "pymag-trees"
+    title: "pymag-trees"
+    description: "Code from the article \"Drawing Good-looking Trees\" in Python Magazine"
     language: "Python"
+    topics:
+      - "graphics"
+      - "python"
+      - "trees"
+    stars_fact: 197
+    first_seen: null
+    last_push: "2024-05-28"
+  - name: "nba_data"
+    title: "nba_data"
+    description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "personal_code"
-    title: "personal_code"
-    description: "random code that I have lying around"
-    language: "HTML"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
   - name: "brightlantern"
     title: "brightlantern"
     description: null
@@ -119,23 +122,19 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-10"
-  - name: "limbo"
-    title: "limbo"
-    description: "A simple, clean, easy to modify Slack chatbot"
+    last_push: "2026-10-30"
+  - name: "netmon"
+    title: "netmon"
+    description: null
     language: "Python"
-    topics:
-      - "chatbot"
-      - "docker"
-      - "python"
-      - "slack"
-    stars_fact: 401
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2024-03-17"
+    last_push: "2026-10-29"
 ---
 
 # llimllib
 
-19 pushes across 12 repositories on 9 active days in the last 90 days of public GitHub push activity.
+18 pushes across 11 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/llimllib

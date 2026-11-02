@@ -10,23 +10,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [15, 48, 16, 13, 2, 22, 33, 66, 45, 23, 10, 13, 2]
+pushes_per_week: [16, 51, 15, 10, 5, 24, 30, 73, 47, 18, 6, 13, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 16
-    active_days: 17
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 16
-    pushes_per_repo: 4.0000
-    active_days: 17
+    pushes_per_repo: 3.7500
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
@@ -79,22 +79,6 @@ reasons:
   - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "dotfiles"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "benchmarks-js"
-    title: "benchmarks-js"
-    description: "JS code pattern benchmarks"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "sap-ai-provider"
     title: "sap-ai-provider"
     description: "Vercel AI Provider for running LLMs on SAP BTP using AI Core"
@@ -102,15 +86,31 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "benchmarks-js"
+    title: "benchmarks-js"
+    description: "JS code pattern benchmarks"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "freqai-strategies"
     title: "freqai-strategies"
     description: "Freqtrade FreqAI strategies"
     language: "Python"
     topics: []
-    stars_fact: 61
+    stars_fact: 62
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
   - name: "e-mobility-charging-stations-simulator"
     title: "e-mobility-charging-stations-simulator"
     description: "OCPP-J charging stations simulator"

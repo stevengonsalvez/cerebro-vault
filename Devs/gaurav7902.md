@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 2, 0, 2, 0, 1, 0]
+pushes_per_week: [0, 3, 0, 0, 0, 0, 0, 2, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Digital-Image-Processing"
+    title: "Digital-Image-Processing"
+    description: "Digital Image Processing IIT ISM Notes and Assignments"
+    language: "Jupyter Notebook"
+    topics:
+      - "iit-notes"
+      - "iitdhanbad"
+      - "iitism"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "public-configs"
+    title: "public-configs"
+    description: "My prettier config"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "gmail-shortcuts-plus"
     title: "gmail-shortcuts-plus"
     description: "A lightweight Chrome extension that enhances Gmail mails navigation with arrow keys."
@@ -109,22 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "The-Movies-Hub"
-    title: "The-Movies-Hub"
-    description: "A modern movie search and discovery application built with React and Vite. The Movies Hub allows users to explore popular films and keep track of their favorite movies."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "Hangman-Word-Guess"
-    title: "Hangman-Word-Guess"
-    description: "A hangman word guessing game."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # gaurav7902

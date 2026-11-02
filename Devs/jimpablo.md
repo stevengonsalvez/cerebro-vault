@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 5, 3, 0, 0, 1, 9, 3, 0, 11, 7, 9, 0]
+pushes_per_week: [1, 5, 3, 0, 0, 1, 10, 2, 4, 8, 6, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,23 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcd-host"
-    title: "mcd-host"
-    description: "麦门东道主 · 请客参谋：基于麦当劳中国 MCP 的请客/团餐凑桌工具——自动凑一桌、挑最省的券、算人均，一键生成可分享的请客方案卡。麦当劳程序员节创意开发大赛参赛作品（非官方）"
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai-agent"
-      - "cli"
-      - "mcd"
-      - "mcdonalds"
-      - "mcp"
-      - "python"
-      - "skill"
-      - "workbuddy"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "bootdev-ssg"
     title: "bootdev-ssg"
     description: "Static site generator (Boot.dev course project)"
@@ -134,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-23"
+  - name: "Asteroids"
+    title: "Asteroids"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
 ---
 
 # jimpablo

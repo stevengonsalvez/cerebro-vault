@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 2, 1, 0, 0, 4, 27, 31, 28, 3, 1, 0, 1]
+pushes_per_week: [1, 2, 1, 0, 0, 4, 55, 8, 23, 3, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MAGI-system"
-    title: "MAGI-system"
-    description: "An evidence-driven multi-agent decision engine, inspired by the three Magi in Neon Genesis Evangelion."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "jamespud"
     title: "jamespud"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-08"
+  - name: "stanford-cs149"
+    title: "stanford-cs149"
+    description: "Solutions and experiments for Stanford CS149: Parallel Computing."
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
 ---
 
 # jamespud

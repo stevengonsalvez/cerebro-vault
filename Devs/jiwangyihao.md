@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 36, 7, 5, 1, 24, 34, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 36, 6, 6, 6, 18, 34, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,46 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tern-omp-client-bridge"
+    title: "tern-omp-client-bridge"
+    description: "A Tern/OMP client bridge for native tools, files, and user-driven transfers on Windows and macOS."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "source-j-legado"
     title: "source-j-legado"
     description: "My book source set for legado, mainly focused on light novels and maybe later manga (?)"
     language: "JavaScript"
     topics: []
-    stars_fact: 673
+    stars_fact: 676
     first_seen: null
     last_push: "2026-10-17"
-  - name: "tern-omp-client-bridge"
-    title: "tern-omp-client-bridge"
-    description: "A Tern/OMP client bridge for native tools, files, and user-driven transfers on Windows and macOS."
-    language: null
+  - name: "tern-turn-relay"
+    title: "tern-turn-relay"
+    description: "MPL-2.0 Tern plugin for an authenticated Cloudflare TURN route with private credential onboarding"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-11-01"
+  - name: "trail-cli"
+    title: "trail-cli"
+    description: "Trail CLI for Honkai: Star Rail agent automation"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "omp-timezone"
+    title: "omp-timezone"
+    description: "OMP plugin for process timezone selection and optional injected-date filtering (MPL-2.0)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "new-api"
     title: "new-api"
     description: "Downstream deployment fork of new-api"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-11"
-  - name: "gtp-runtime"
-    title: "gtp-runtime"
-    description: "Evidence-driven Android game translation runtime research"
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "omp-acp"
-    title: "omp-acp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-05-12"
-  - name: "fireworks-pdf-compressor-ml"
-    title: "fireworks-pdf-compressor-ml"
-    description: null
-    language: "PostScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-03-05"
 ---
 
 # jiwangyihao

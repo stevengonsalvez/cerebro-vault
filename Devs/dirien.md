@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 2, 0, 0, 0, 2, 2, 1, 0, 0, 4, 2, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 3, 0, 0, 3, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 6
     distinct_repos: 4
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 6
     distinct_repos: 4
@@ -84,7 +84,48 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "skill-ci"
+    title: "skill-ci"
+    description: "CI for agent skills on Kubernetes: Harbor, NVIDIA SkillEvaluator and Agent Sandbox, triggered by skill pushes and model changes"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "minectl"
+    title: "minectl"
+    description: "minectl 🗺 is a cli for creating Minecraft server on different cloud provider."
+    language: "Go"
+    topics:
+      - "azure"
+      - "civo"
+      - "digitalocean"
+      - "equinix"
+      - "fabricmc"
+      - "gce"
+      - "golang"
+      - "hacktoberfest"
+      - "hetzner"
+      - "hetzner-cloud"
+      - "minecraft"
+      - "oracle-cloud-infrastructure"
+      - "ovh"
+      - "ovhcloud"
+      - "scaleway"
+      - "spigotmc"
+      - "vultr"
+    stars_fact: 179
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "pulumi-events"
+    title: "pulumi-events"
+    description: "MCP server for managing events on Meetup.com via AI assistants"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-16"
   - name: "herdr-sbx-plugin"
     title: "herdr-sbx-plugin"
     description: "Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent"
@@ -94,7 +135,7 @@ repos:
       - "docker-sandboxes"
       - "herdr"
       - "herdr-plugin"
-    stars_fact: 8
+    stars_fact: 10
     first_seen: null
     last_push: "2026-09-13"
   - name: "claude-skills"
@@ -104,38 +145,7 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "backrooms"
-    title: "backrooms"
-    description: "A browser-based backrooms horror game built with Three.js"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "minecraft-prometheus-exporter"
-    title: "minecraft-prometheus-exporter"
-    description: "Minecraft Prometheus exporter"
-    language: "Go"
-    topics:
-      - "go"
-      - "hacktoberfest"
-      - "metrics"
-      - "minecraft"
-      - "minectl"
-      - "prometheus"
-      - "prometheus-exporter"
-    stars_fact: 143
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "homebrew-dirien"
-    title: "homebrew-dirien"
-    description: "Homebrew Tap for dirien"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-28"
 ---
 
 # dirien

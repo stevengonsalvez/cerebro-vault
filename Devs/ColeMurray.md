@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [9, 22, 2, 4, 4, 10, 21, 16, 27, 1, 7, 6, 3]
+pushes_per_week: [10, 21, 5, 2, 6, 9, 20, 20, 22, 1, 7, 9, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 22
     distinct_repos: 1
-    active_days: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 22
     distinct_repos: 1
-    pushes_per_repo: 33.0000
-    active_days: 9
+    pushes_per_repo: 22.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,25 +77,26 @@ reasons:
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "background-agents"
-    title: "background-agents"
-    description: "An open-source background agents coding system"
-    language: "TypeScript"
-    topics:
-      - "background-agents"
-      - "cloud-agents"
-      - "software-factory"
-    stars_fact: 3399
-    first_seen: "2026-07-13T06:00:03.585427+00:00"
-    last_push: "2026-10-26"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 513
+    stars_fact: 520
     first_seen: null
     last_push: "2025-06-17"
+  - name: "moondream-mcp"
+    title: "moondream-mcp"
+    description: "Moondream MCP Server in Python"
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-server"
+      - "moondream"
+      - "python"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2025-07-02"
   - name: "github-actions-injection-demo"
     title: "github-actions-injection-demo"
     description: "Demonstration of GitHub Actions shell injection vulnerability - shows why environment variables don't fix the issue"

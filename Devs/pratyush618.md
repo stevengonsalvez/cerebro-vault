@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 5, 1, 0, 0, 2, 8, 5, 3, 7, 1, 1, 0]
+pushes_per_week: [6, 5, 1, 0, 2, 0, 8, 5, 6, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 8
-    active_days: 27
+    active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4815
-  repo_per_active_day: 0.2963
+  push_per_day: 1.5000
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 40
+    pushes: 39
     distinct_repos: 8
-    pushes_per_repo: 5.0000
-    active_days: 27
+    pushes_per_repo: 4.8750
+    active_days: 26
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-40 pushes across 8 repositories on 27 active days in the last 90 days of public GitHub push activity.
+39 pushes across 8 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

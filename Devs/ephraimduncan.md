@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 1, 1, 5, 1, 1, 1, 2, 4, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 5, 2, 0, 1, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,46 +77,59 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "weekday"
-    title: "weekday"
-    description: "open source google calendar"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 189
+  - name: "hackertube.tv"
+    title: "hackertube.tv"
+    description: "HackerTube for Android TV: the videos Hacker News recommends, played in the YouTube app on your TV."
+    language: "Kotlin"
+    topics:
+      - "android-tv"
+      - "hacker-news"
+      - "jetpack-compose"
+      - "kotlin"
+      - "youtube"
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-09-01"
-  - name: "blocks"
-    title: "blocks"
-    description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1851
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "minimal.so"
-    title: "minimal.so"
-    description: "simple bookmarking for everyone"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 166
-    first_seen: null
-    last_push: "2026-06-12"
-  - name: "shadcn-playground"
-    title: "shadcn-playground"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-07-10"
+    last_push: "2026-11-01"
   - name: "opencode-cursor"
     title: "opencode-cursor"
     description: "Use your cursor subscription in opencode"
     language: "TypeScript"
     topics: []
-    stars_fact: 283
+    stars_fact: 285
     first_seen: null
     last_push: "2026-08-21"
+  - name: "blocks"
+    title: "blocks"
+    description: "An open-source library of UI blocks. Built with React, Tailwind and shadcn/ui"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1856
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "minimal.so"
+    title: "minimal.so"
+    description: "simple bookmarking for everyone"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 168
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "duncan.land"
+    title: "duncan.land"
+    description: "✨ My personal website. Built using Next.js and deployed on Vercel."
+    language: "TypeScript"
+    topics:
+      - "contentlayer"
+      - "mdx"
+      - "nextjs"
+      - "portfolio"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 40
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "mac-download-manager"
     title: "mac-download-manager"
     description: "Open source download manager for Mac"
@@ -132,7 +145,7 @@ repos:
       - "moltix"
       - "swift"
       - "swiftui"
-    stars_fact: 88
+    stars_fact: 89
     first_seen: null
     last_push: "2026-03-24"
 ---

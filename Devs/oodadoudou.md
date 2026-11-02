@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 2, 0, 0, 0, 2, 0, 3, 6, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 0, 2, 0, 5, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Transoria"
+    title: "Transoria"
+    description: "AI desktop toolkit for novel translation, glossary management, and batch text replacement."
+    language: "Python"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "Tools"
+    title: "Tools"
+    description: "perosonal tools"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "pin-image"
     title: "pin-image"
     description: null
@@ -88,14 +104,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-15"
-  - name: "Transoria"
-    title: "Transoria"
-    description: "AI desktop toolkit for novel translation, glossary management, and batch text replacement."
-    language: "Python"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "InkTether"
     title: "InkTether"
     description: null
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-03"
-  - name: "Korean_glossary_AI_review"
-    title: "Korean_glossary_AI_review"
-    description: "AI 术语表复审脚本"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-11-04"
 ---
 
 # oodadoudou

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 4, 0, 2, 0, 2, 2, 1, 4, 1, 0, 0, 0]
+pushes_per_week: [3, 4, 2, 0, 0, 3, 1, 1, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,47 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zaiis2api"
-    title: "zaiis2api"
-    description: "无限使用Nano Banana，Nano Banana Pro，Gemini 3 Pro Preview，Claude Opus 4.5"
+  - name: "typesafe_register"
+    title: "typesafe_register"
+    description: "typesafe.ai注册机，极致优化，无限jev"
     language: "Python"
     topics: []
-    stars_fact: 138
+    stars_fact: 133
     first_seen: null
-    last_push: "2026-01-02"
-  - name: "Free-Fly"
-    title: "Free-Fly"
-    description: "白嫖免费加速ip用于科学上网"
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-06-04"
-  - name: "antigravity_bypass"
-    title: "antigravity_bypass"
-    description: "Google Antigravity MCP tool limit patch: raise local limits to 8192 in Antigravity IDE and the Windows x64 desktop app. MCP 工具数量限制修补，支持自动识别、备份与恢复。"
-    language: "Go"
-    topics:
-      - "antigravity"
-      - "antigravity-desktop"
-      - "antigravity-ide"
-      - "google-antigravity"
-      - "mcp"
-      - "mcp-tool-limit"
-      - "mcp-tools"
-      - "model-context-protocol"
-      - "tool-limit"
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_zanwo"
-    title: "astrbot_plugin_zanwo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-04-16"
+    last_push: "2026-09-21"
   - name: "paperbox-classifier"
     title: "paperbox-classifier"
     description: "纸盒六分类教学项目：PyTorch ResNet18 迁移学习，包含原图、人工标注、按组划分、训练评估和本地预测界面。"
@@ -132,14 +99,47 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "typesafe_register"
-    title: "typesafe_register"
-    description: "typesafe.ai注册机，极致优化，无限jev"
+  - name: "antigravity_bypass"
+    title: "antigravity_bypass"
+    description: "Google Antigravity MCP tool limit patch: raise local limits to 8192 in Antigravity IDE and the Windows x64 desktop app. MCP 工具数量限制修补，支持自动识别、备份与恢复。"
+    language: "Go"
+    topics:
+      - "antigravity"
+      - "antigravity-desktop"
+      - "antigravity-ide"
+      - "google-antigravity"
+      - "mcp"
+      - "mcp-tool-limit"
+      - "mcp-tools"
+      - "model-context-protocol"
+      - "tool-limit"
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "astrbot_plugin_zanwo"
+    title: "astrbot_plugin_zanwo"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 133
+    stars_fact: 30
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-04-16"
+  - name: "astrbot_plugin_custom_menu"
+    title: "astrbot_plugin_custom_menu"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-10-24"
+  - name: "astrbot_plugin_global_status"
+    title: "astrbot_plugin_global_status"
+    description: "AstrBot 全球厂商状态监控插件：官方状态订阅、双语 SVG 图片告警与 aiocqhttp 群推送"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # Futureppo

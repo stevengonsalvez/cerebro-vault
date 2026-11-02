@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 0, 6, 1, 3, 16, 14, 16, 2, 0, 0, 1, 0]
+pushes_per_week: [2, 1, 5, 1, 10, 10, 16, 14, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "declarations of my computing environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "herdr-plugins"
+    title: "herdr-plugins"
+    description: "my herdr plugins"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "mail"
     title: "mail"
     description: null
@@ -101,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-15"
-  - name: "nixos-config"
-    title: "nixos-config"
-    description: "declarations of my computing environment"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "android-dev"
     title: "android-dev"
     description: "isolated android dev environment"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-10"
-  - name: "colak-sh"
-    title: "colak-sh"
-    description: "terminal-native public portfolio. visitor and agent share one browser-local shell."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
 ---
 
 # atacolak

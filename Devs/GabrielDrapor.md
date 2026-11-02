@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 12, 2, 5, 0, 0, 10, 2, 11, 8, 10, 2, 0]
+pushes_per_week: [1, 12, 2, 5, 0, 2, 10, 0, 16, 3, 10, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 23
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 23
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 8
+    pushes_per_repo: 11.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "GabrielDrapor.github.io"
-    title: "GabrielDrapor.github.io"
-    description: "Just some nag"
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "ovid"
     title: "ovid"
     description: "A bilingual Reader. Two languages, one tap."
@@ -95,7 +87,15 @@ repos:
       - "reader"
     stars_fact: 68
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-28"
+  - name: "GabrielDrapor.github.io"
+    title: "GabrielDrapor.github.io"
+    description: "Just some nag"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "GabrielDrapor"
     title: "GabrielDrapor"
     description: "My profile README"

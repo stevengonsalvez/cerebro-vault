@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [25, 20, 15, 2, 3, 13, 32, 82, 66, 79, 30, 29, 3]
+pushes_per_week: [23, 23, 13, 3, 4, 10, 37, 106, 56, 80, 20, 22, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 164
+    pushes: 162
     distinct_repos: 2
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 399
+    pushes: 397
     distinct_repos: 4
-    active_days: 62
+    active_days: 60
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.4355
-  repo_per_active_day: 0.0645
+  push_per_day: 6.6167
+  repo_per_active_day: 0.0667
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 164
+    pushes: 162
     distinct_repos: 2
-    pushes_per_repo: 82.0000
-    active_days: 20
+    pushes_per_repo: 81.0000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 399
+    pushes: 397
     distinct_repos: 4
-    pushes_per_repo: 99.7500
-    active_days: 62
+    pushes_per_repo: 99.2500
+    active_days: 60
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "user-journey-map-template"
+    title: "user-journey-map-template"
+    description: "用户旅程地图使用模板"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2023-03-28"
   - name: "power-yuque"
     title: "power-yuque"
     description: "语雀的增强插件"
@@ -124,18 +132,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-03"
-  - name: "agent-skin-skills"
-    title: "agent-skin-skills"
-    description: "One-click immersive skins for AI agent desktop apps — signature-safe CDP injection for the Codex app (macOS)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # arvinxx
 
-399 pushes across 4 repositories on 62 active days in the last 90 days of public GitHub push activity.
+397 pushes across 4 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

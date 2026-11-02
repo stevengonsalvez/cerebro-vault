@@ -10,25 +10,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [12, 14, 1, 1, 2, 23, 26, 13, 12, 9, 1, 9, 7]
+pushes_per_week: [15, 11, 1, 2, 10, 19, 22, 12, 19, 3, 1, 15, 0]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 8
-    active_days: 2
-    repos_not_owned: 6
-    not_owned_basenames: 3
-    not_owned_owners: 5
+    pushes: 7
+    distinct_repos: 6
+    active_days: 1
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
   "30d":
-    pushes: 37
-    distinct_repos: 11
-    active_days: 12
-    repos_not_owned: 8
+    pushes: 34
+    distinct_repos: 10
+    active_days: 11
+    repos_not_owned: 7
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
     pushes: 130
     distinct_repos: 20
@@ -50,21 +50,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 8
-    pushes_per_repo: 1.3750
-    active_days: 2
-    repos_not_owned: 6
-    not_owned_basenames: 3
-    not_owned_owners: 5
+    pushes: 7
+    distinct_repos: 6
+    pushes_per_repo: 1.1667
+    active_days: 1
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
   "30d":
-    pushes: 37
-    distinct_repos: 11
-    pushes_per_repo: 3.3636
-    active_days: 12
-    repos_not_owned: 8
+    pushes: 34
+    distinct_repos: 10
+    pushes_per_repo: 3.4000
+    active_days: 11
+    repos_not_owned: 7
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
     pushes: 130
     distinct_repos: 20
@@ -89,9 +89,48 @@ repos:
       - "mlx"
       - "skill"
       - "unsloth"
-    stars_fact: 38380
+    stars_fact: 38559
     first_seen: "2026-08-18T06:00:11.656121+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "llmserve"
+    title: "llmserve"
+    description: "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
+    language: "Rust"
+    topics: []
+    stars_fact: 414
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "repo-steward"
+    title: "repo-steward"
+    description: "An autonomous agent for open-source repository management — triages issues, reviews PRs across iterations, watches your sites, and escalates only the decisions that are yours"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "claude-code"
+      - "developer-tools"
+      - "github-automation"
+      - "maintainer-tools"
+      - "open-source-maintenance"
+      - "repository-management"
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "llama-panel"
+    title: "llama-panel"
+    description: "A MacOS llama-server command centre"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 74
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "homebrew-llmfit"
+    title: "homebrew-llmfit"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "rostrum"
     title: "rostrum"
     description: "Push-to-talk voice input for coding agents, driven by a mic's Transmit button"
@@ -100,52 +139,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "gitops-kubernetes-cluster"
-    title: "gitops-kubernetes-cluster"
-    description: "A quick way to build a cluster with ArgoCD then deploy via Applications"
-    language: "Makefile"
-    topics:
-      - "helm"
-      - "kubectl"
-      - "kubernetes"
-      - "scaleway"
-    stars_fact: 42
-    first_seen: null
-    last_push: "2023-06-27"
-  - name: "website"
-    title: "website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "keychron-micro"
-    title: "keychron-micro"
-    description: "Linux: turn a Keychron Q0 Max into a scriptable macropad. Keys run scripts, the board lights up with what they are doing. An open-source take on Codex Micro."
-    language: "Rust"
-    topics:
-      - "claude-code"
-      - "evdev"
-      - "fedora"
-      - "gnome"
-      - "keychron"
-      - "macropad"
-      - "qmk"
-      - "rust"
-      - "via"
-      - "wayland"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-07-16"
-  - name: "logos"
-    title: "logos"
-    description: "A lightweight, local directory-based note tracker you run from the terminal."
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-07-23"
 ---
 
 # AlexsJones

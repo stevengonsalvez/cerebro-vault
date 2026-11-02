@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 13, 1, 0, 0, 0, 0, 0, 1, 0, 5, 0, 0]
+pushes_per_week: [0, 13, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -118,9 +118,9 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 71971
+    stars_fact: 74569
     first_seen: "2026-06-19T17:17:11.400096+00:00"
-    last_push: "2026-10-24"
+    last_push: "2026-10-28"
   - name: "Crucix"
     title: "Crucix"
     description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
@@ -129,9 +129,57 @@ repos:
       - "ai"
       - "intelligence"
       - "osint"
-    stars_fact: 12139
+    stars_fact: 12191
     first_seen: null
     last_push: "2026-05-20"
+  - name: "PhantomReach"
+    title: "PhantomReach"
+    description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "audits"
+      - "business-intelligence"
+      - "claude"
+      - "copilot"
+      - "cursor"
+      - "google-places"
+      - "lead-generation"
+      - "local-business"
+      - "marketing"
+      - "nextjs"
+      - "open-source"
+      - "self-hosted"
+      - "seo"
+      - "sqlite"
+      - "typescript"
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "OpenFusion"
+    title: "OpenFusion"
+    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
+    language: "Python"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "cursor"
+      - "gemini-cli"
+      - "github-copilot"
+      - "llm"
+      - "model-routing"
+      - "multi-model"
+      - "opencode"
+      - "python"
+      - "subagents"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "generative-media-skills"
     title: "generative-media-skills"
     description: "Research-backed agent skills and tools for premium image, video, audio, voice, and generative media production across AI coding assistants."
@@ -157,42 +205,9 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 216
+    stars_fact: 223
     first_seen: null
     last_push: "2026-07-14"
-  - name: "PhantomReach"
-    title: "PhantomReach"
-    description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "ai"
-      - "audits"
-      - "business-intelligence"
-      - "claude"
-      - "copilot"
-      - "cursor"
-      - "google-places"
-      - "lead-generation"
-      - "local-business"
-      - "marketing"
-      - "nextjs"
-      - "open-source"
-      - "self-hosted"
-      - "seo"
-      - "sqlite"
-      - "typescript"
-    stars_fact: 71
-    first_seen: null
-    last_push: "2026-06-27"
-  - name: "BreakoutAnalysis"
-    title: "BreakoutAnalysis"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 280
-    first_seen: null
-    last_push: "2026-02-23"
   - name: "Resonant"
     title: "Resonant"
     description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
@@ -209,7 +224,7 @@ repos:
       - "open-source"
       - "typescript"
       - "windows"
-    stars_fact: 165
+    stars_fact: 170
     first_seen: null
     last_push: "2026-08-07"
 ---

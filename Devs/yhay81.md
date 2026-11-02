@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [112, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2, 24, 4]
+pushes_per_week: [112, 2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 22, 0]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 145
+    pushes: 144
     distinct_repos: 80
-    active_days: 13
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 11.1538
-  repo_per_active_day: 6.1538
+  push_per_day: 12.0000
+  repo_per_active_day: 6.6667
   not_owned_ratio: 0.1125
   basename_concentration: 0.0250
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 1
     pushes_per_repo: 3.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 145
+    pushes: 144
     distinct_repos: 80
-    pushes_per_repo: 1.8125
-    active_days: 13
+    pushes_per_repo: 1.8000
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pyropdf"
@@ -150,6 +150,6 @@ repos:
 
 # yhay81
 
-145 pushes across 80 repositories on 13 active days in the last 90 days of public GitHub push activity.
+144 pushes across 80 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

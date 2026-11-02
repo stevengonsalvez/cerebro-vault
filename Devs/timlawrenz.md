@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [7, 11, 0, 0, 1, 0, 3, 2, 0, 0, 0, 4, 0]
+pushes_per_week: [7, 10, 0, 0, 1, 0, 3, 2, 0, 0, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 5
     active_days: 17
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6471
+  push_per_day: 1.5882
   repo_per_active_day: 0.2941
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 5
-    pushes_per_repo: 5.6000
+    pushes_per_repo: 5.4000
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # timlawrenz
 
-28 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
+27 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/timlawrenz

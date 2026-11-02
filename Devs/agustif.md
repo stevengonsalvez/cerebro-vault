@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -80,14 +80,42 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-copy-continue-on-exit"
+    title: "opencode-copy-continue-on-exit"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "opencode-lmstudio"
     title: "opencode-lmstudio"
     description: "OpenCode plugin for enhanced LM Studio support with auto-detection and dynamic model discovery"
     language: "TypeScript"
     topics: []
-    stars_fact: 154
+    stars_fact: 158
     first_seen: null
     last_push: "2026-09-11"
+  - name: "quicklook-typescript"
+    title: "quicklook-typescript"
+    description: "Native macOS Quick Look previews for TypeScript source with Finder's normal Space key."
+    language: "Python"
+    topics:
+      - "macos"
+      - "quicklook"
+      - "swift"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "cargo-target-clean"
+    title: "cargo-target-clean"
+    description: "Preview and safely clean Cargo build directories; run directly with uvx."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "resume"
     title: "resume"
     description: "Universal coding-agent session interchange CLI (handoff / transplant) — Claude, Codex, Grok, Cursor, OpenCode, Pi on Effect v4"
@@ -95,7 +123,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-31"
   - name: "sandbox-file-transfer-bridge"
     title: "sandbox-file-transfer-bridge"
     description: "Approved file transfer bridge: HTTPS fetch → Actions artifact → ChatGPT sandbox /mnt/data"
@@ -104,32 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "llm-plugin-pdf"
-    title: "llm-plugin-pdf"
-    description: "PDF fragment loader plugin for https://llm.datasette.io/"
-    language: "Python"
-    topics:
-      - "llm"
-      - "llm-plugin"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-04-25"
-  - name: "bun-arcus"
-    title: "bun-arcus"
-    description: "Public, upstream-first Bun patch queue for Arcus CI runtime qualification. No production releases."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "effect-zfs"
-    title: "effect-zfs"
-    description: "Effect v4 library for Linux OpenZFS"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-21"
 ---
 
 # agustif

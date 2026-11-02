@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 0, 1, 1, 1, 0, 2, 1, 0, 2, 0, 1, 0]
+pushes_per_week: [1, 0, 1, 1, 1, 1, 1, 1, 0, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,22 +95,46 @@ repos:
       - "pi-ai"
     stars_fact: 30
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "skills"
-    title: "skills"
-    description: "howill 个人维护的 Agent Skills 合集"
+    last_push: "2026-11-01"
+  - name: "football-mcp"
+    title: "football-mcp"
+    description: "面向 Claude、Codex、Cursor 和 DeepSeek Harness 的足球数据 MCP Server，支持 18 个欧洲联赛、8 个杯赛，以及比赛、积分榜、交锋、赔率和近期状态查询。"
     language: "Python"
     topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "coding-agent"
+      - "ai-agent"
+      - "ai-tools"
+      - "claude"
+      - "codex"
+      - "cursor"
+      - "deepseek"
       - "deepseek-harness"
-      - "llm"
-      - "skills"
-    stars_fact: 9
+      - "dsh-plugin"
+      - "football"
+      - "football-data"
+      - "mcp"
+      - "model-context-protocol"
+      - "npm"
+      - "open-source"
+      - "python"
+      - "soccer"
+      - "soccer-data"
+      - "sports-data"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-08-25"
+  - name: "Sparrow"
+    title: "Sparrow"
+    description: "麻雀虽小。五脏俱全。基于 Decoder-only + MoE 架构的轻量级大语言模型实验项目(196M/A106M)，完整覆盖 Pretrain → SFT → DPO 三阶段训练流程。支持 DeepSpeed ZeRO-1/2/3 分布式训练，提供基于 Reward Model 的自动化评测与 DPO 数据合成方案。"
+    language: "Python"
+    topics:
+      - "deepspeed"
+      - "dpo"
+      - "llm"
+      - "pretraining"
+      - "sft"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-04-09"
   - name: "make-chatgpt-agent"
     title: "make-chatgpt-agent"
     description: "让 ChatGPT 通过 MCP 读写本机代码仓库(devspace + ngrok)｜Let ChatGPT read and write your local code repos via MCP, using devspace and an ngrok tunnel"
@@ -124,9 +148,24 @@ repos:
       - "model-context-protocol"
       - "ngrok"
       - "oauth"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-10-13"
+  - name: "skills"
+    title: "skills"
+    description: "howill 个人维护的 Agent Skills 合集"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agent"
+      - "deepseek-harness"
+      - "llm"
+      - "skills"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "Liar-s-Bar"
     title: "Liar-s-Bar"
     description: "骗子酒馆的简易实现"
@@ -135,28 +174,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2025-01-03"
-  - name: "HOWILLMAKEIT.github.io"
-    title: "HOWILLMAKEIT.github.io"
-    description: "Personal academic homepage built with Hugo and PaperMod"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "glm-subagent-mcp"
-    title: "glm-subagent-mcp"
-    description: "MCP server that lets Claude Code call a GLM model as a sub-agent. 利用本 MCP,可在 Claude Code 中调用 GLM 模型作为 subagent。"
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "glm"
-      - "mcp"
-      - "model-context-protocol"
-      - "sub-agent"
-      - "zhipu"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # HOWILLMAKEIT

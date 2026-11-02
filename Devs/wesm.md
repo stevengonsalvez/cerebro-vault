@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [103, 213, 44, 13, 2, 27, 49, 60, 95, 68, 75, 23, 0]
+pushes_per_week: [113, 207, 34, 11, 15, 17, 53, 69, 85, 97, 41, 22, 0]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 7
-    active_days: 1
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 203
-    distinct_repos: 24
-    active_days: 18
-    repos_not_owned: 23
-    not_owned_basenames: 13
-    not_owned_owners: 7
+    pushes: 182
+    distinct_repos: 21
+    active_days: 17
+    repos_not_owned: 20
+    not_owned_basenames: 12
+    not_owned_owners: 5
   "90d":
-    pushes: 772
+    pushes: 764
     distinct_repos: 48
-    active_days: 67
+    active_days: 66
     repos_not_owned: 46
     not_owned_basenames: 17
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 11.5224
-  repo_per_active_day: 0.7164
+  push_per_day: 11.5758
+  repo_per_active_day: 0.7273
   not_owned_ratio: 0.9583
   basename_concentration: 0.2083
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 1
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 203
-    distinct_repos: 24
-    pushes_per_repo: 8.4583
-    active_days: 18
-    repos_not_owned: 23
-    not_owned_basenames: 13
-    not_owned_owners: 7
+    pushes: 182
+    distinct_repos: 21
+    pushes_per_repo: 8.6667
+    active_days: 17
+    repos_not_owned: 20
+    not_owned_basenames: 12
+    not_owned_owners: 5
   "90d":
-    pushes: 772
+    pushes: 764
     distinct_repos: 48
-    pushes_per_repo: 16.0833
-    active_days: 67
+    pushes_per_repo: 15.9167
+    active_days: 66
     repos_not_owned: 46
     not_owned_basenames: 17
     not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pydata-book"
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-772 pushes across 48 repositories on 67 active days in the last 90 days of public GitHub push activity.
+764 pushes across 48 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

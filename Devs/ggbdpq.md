@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 8, 2, 7, 21, 7, 4, 8, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 5, 2, 12, 18, 6, 3, 8, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 12
+    pushes_per_repo: 2.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "coding-agent"
-    title: "coding-agent"
-    description: "Specification-driven Coding Agent Runtime：一套行为规范（specs/ 七篇 SSOT）在 TS / Python / Go / Rust / C# 五种语言运行时实现，可执行一致性套件以同一 scenario 驱动五 runtime、归一化后跨版比对，输出 PASS / ALLOW_DIFF / DRIFT。亮点：能力线对齐 v0.5.0（九工具、权限三态闸门、40 轮熔断、Plan Mode、apply_patch 原子补丁）；diff 裁决 fail closed，不可归类差异一律判漂移；sha256 构建新鲜度门防陈旧产物假象。核心主张：行为契约比任何一份实现都稳定，期望值只取自 specs，禁止从参考实现抄录。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
   - name: "agent-hub"
     title: "agent-hub"
     description: "Agent 工程演示：巡检多智能体 + 持久化运行时 + MCP/Skill + 混合检索 + 评测"
@@ -112,6 +104,14 @@ repos:
       - "streaming"
       - "zod"
       - "zustand"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "coding-agent"
+    title: "coding-agent"
+    description: "Specification-driven Coding Agent Runtime：一套行为规范（specs/ 七篇 SSOT）在 TS / Python / Go / Rust / C# 五种语言运行时实现，可执行一致性套件以同一 scenario 驱动五 runtime、归一化后跨版比对，输出 PASS / ALLOW_DIFF / DRIFT。亮点：能力线对齐 v0.5.0（九工具、权限三态闸门、40 轮熔断、Plan Mode、apply_patch 原子补丁）；diff 裁决 fail closed，不可归类差异一律判漂移；sha256 构建新鲜度门防陈旧产物假象。核心主张：行为契约比任何一份实现都稳定，期望值只取自 specs，禁止从参考实现抄录。"
+    language: "JavaScript"
+    topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"

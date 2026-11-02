@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 4, 0, 1, 0, 3, 1]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 4, 0, 1, 0, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,38 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Hackintool"
-    title: "Hackintool"
-    description: "The Swiss army knife of vanilla Hackintoshing"
-    language: "C"
-    topics: []
-    stars_fact: 3519
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "OpenSWOS"
     title: "OpenSWOS"
     description: "An open-source C port of Sensible World of Soccer (Amiga), for Windows, macOS, Linux, Amiga and the web, with online multiplayer."
     language: "C"
     topics: []
-    stars_fact: 46
+    stars_fact: 62
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "Hackintool"
+    title: "Hackintool"
+    description: "The Swiss army knife of vanilla Hackintoshing"
+    language: "Swift"
+    topics: []
+    stars_fact: 3534
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "SWOS-RE"
+    title: "SWOS-RE"
+    description: "Reverse engineering of Sensible World of Soccer (Amiga): IDA/Ghidra scripts, annotated disassembly and docs."
+    language: "Assembly"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "Pigtail"
+    title: "Pigtail"
+    description: "Anti-stalker and surveillance detection software"
+    language: "C++"
+    topics: []
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-05-14"
   - name: "jagfx"
     title: "jagfx"
     description: "Atari Jaguar graphics extractor and ROM searcher"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 33
     first_seen: null
     last_push: "2026-04-13"
-  - name: "SWOS-RE"
-    title: "SWOS-RE"
-    description: "Reverse engineering of Sensible World of Soccer (Amiga): IDA/Ghidra scripts, annotated disassembly and docs."
-    language: "Assembly"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "AmigaScope"
-    title: "AmigaScope"
-    description: "A headless, AI-friendly harness for debugging, instrumenting, and profiling real Amiga"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # benbaker76

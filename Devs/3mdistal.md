@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 13, 2, 2, 0, 4, 10, 23, 28, 46, 9, 63, 3]
+pushes_per_week: [4, 12, 2, 2, 0, 5, 9, 23, 40, 41, 11, 57, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 136
+    pushes: 124
     distinct_repos: 2
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 210
+    pushes: 206
     distinct_repos: 4
-    active_days: 44
+    active_days: 43
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7727
-  repo_per_active_day: 0.0909
+  push_per_day: 4.7907
+  repo_per_active_day: 0.0930
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 136
+    pushes: 124
     distinct_repos: 2
-    pushes_per_repo: 68.0000
-    active_days: 18
+    pushes_per_repo: 62.0000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 210
+    pushes: 206
     distinct_repos: 4
-    pushes_per_repo: 52.5000
-    active_days: 44
+    pushes_per_repo: 51.5000
+    active_days: 43
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "bwrb"
+    title: "bwrb"
+    description: "Schema-driven note management for markdown vaults."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "alicealexandra.com"
     title: "alicealexandra.com"
     description: "My personal portfolio, blog, and catch-all project."
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "bwrb"
-    title: "bwrb"
-    description: "Schema-driven note management for markdown vaults."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "css-mcp-server"
     title: "css-mcp-server"
     description: "A demo of how to build an MCP server (without just vibe coding)."
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-210 pushes across 4 repositories on 44 active days in the last 90 days of public GitHub push activity.
+206 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

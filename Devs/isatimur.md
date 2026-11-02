@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 2, 0, 0, 0, 1, 4, 0, 5, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 1, 4, 0, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -100,34 +100,7 @@ repos:
       - "visualization"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "archigram.me"
-    title: "archigram.me"
-    description: "Mermaid Online Tool"
-    language: "TypeScript"
-    topics:
-      - "architecture"
-      - "design"
-      - "systems"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "porto-3d"
-    title: "porto-3d"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "braga-3d"
-    title: "braga-3d"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-11-01"
   - name: "ai-engineering-book-lab"
     title: "ai-engineering-book-lab"
     description: "A source-anchored book on AI engineering, auto-researched from 794 practitioner talks. Every claim links to the exact second of the video it came from; every chapter is graded by a panel of three rival LLMs (no model grades its own style). Live at fromcopilottocolleague.com"
@@ -146,31 +119,42 @@ repos:
       - "source-anchors"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-13"
-  - name: "de-slop"
-    title: "de-slop"
-    description: "Portable Claude Code skill that de-slops AI prose — detect, rewrite to a real point of view, self-score, iterate. Fidelity-first; flags hollow spans instead of faking them."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-slop"
-      - "ai-writing"
-      - "anthropic-claude"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "claude-plugin"
-      - "claude-skill"
-      - "claude-skills"
-      - "cursor"
-      - "de-slop"
-      - "developer-tools"
-      - "humanizer"
-      - "llm"
-      - "prose"
-      - "writing-tools"
-    stars_fact: 4
+    last_push: "2026-10-31"
+  - name: "porto-3d"
+    title: "porto-3d"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-19"
+    last_push: "2026-10-30"
+  - name: "timurisa.com"
+    title: "timurisa.com"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "archigram.me"
+    title: "archigram.me"
+    description: "Mermaid Online Tool"
+    language: "TypeScript"
+    topics:
+      - "architecture"
+      - "design"
+      - "systems"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "barcelos-3d"
+    title: "barcelos-3d"
+    description: "Interactive 3D map of Barcelos, Portugal — single-city fork of the braga-3d engine"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # isatimur

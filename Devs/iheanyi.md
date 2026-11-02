@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 10, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0]
@@ -77,59 +77,62 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "IrishSearch"
-    title: "IrishSearch"
-    description: "Irish Search for Android"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "nexus-w3mm-bridge"
-    title: "nexus-w3mm-bridge"
-    description: "Nexus Mods downloads, live Witcher 3 Mod Manager inventory, and file-specific update review for Windows"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "nexusmods-mcp"
-    title: "nexusmods-mcp"
-    description: "TypeScript MCP server for Nexus Mods with Vortex session reuse and local mod management"
-    language: "TypeScript"
+  - name: "rippr-vst"
+    title: "rippr-vst"
+    description: "VST3 instrument for acquiring, previewing, and dragging DAW-ready samples without leaving your session."
+    language: "Rust"
     topics:
-      - "elysia"
-      - "mcp"
-      - "nexusmods"
-      - "typescript"
-      - "vortex"
-    stars_fact: 0
+      - "ableton-live"
+      - "audio-plugin"
+      - "music-production"
+      - "react"
+      - "rust"
+      - "sampler"
+      - "vst3"
+      - "yt-dlp"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "howlongtobeat-raycast"
-    title: "howlongtobeat-raycast"
-    description: "Native Raycast extension for HowLongToBeat game search and current-game tracking. MIT licensed."
+    last_push: "2026-10-28"
+  - name: "prisma-planetscale-playground"
+    title: "prisma-planetscale-playground"
+    description: "Playground for Prisma and PlanetScale"
     language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2021-11-12"
+  - name: "friendly-spoon"
+    title: "friendly-spoon"
+    description: null
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "grove"
-    title: "grove"
-    description: null
+    last_push: "2020-11-16"
+  - name: "go-tweets"
+    title: "go-tweets"
+    description: "Hopefully gonna get some good data visualizations with Twitter and GoLang."
     language: "Go"
     topics: []
-    stars_fact: 71
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-30"
-  - name: "swift-palettecolor"
-    title: "swift-palettecolor"
-    description: "Swift port of AndroidX Palette (PaletteColor) — reusable SPM package"
-    language: "Swift"
+    last_push: "2023-01-24"
+  - name: "fade-pics-2015"
+    title: "fade-pics-2015"
+    description: "Fading Picture Meme Generator"
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2021-02-11"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfile configurations."
+    language: "Shell"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-05-15"
 ---
 
 # iheanyi

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "0dadaefdea9260e5"
-pushes_per_week: [6, 32, 9, 2, 1, 3, 7, 36, 34, 37, 37, 102, 9]
+pushes_per_week: [11, 30, 7, 2, 0, 3, 8, 46, 29, 46, 30, 103, 0]
 windows:
   "7d":
-    pushes: 37
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 198
+    pushes: 195
     distinct_repos: 4
-    active_days: 20
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 37
-    distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 198
+    pushes: 195
     distinct_repos: 4
-    pushes_per_repo: 49.5000
-    active_days: 20
+    pushes_per_repo: 48.7500
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "3d-model-generator"
+    title: "3d-model-generator"
+    description: "Generate 3D models with AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 271
+    first_seen: null
+    last_push: "2026-02-05"
   - name: "openui"
     title: "openui"
     description: "AI-Native Specification for UIs"
@@ -86,17 +94,9 @@ repos:
       - "openui-specification"
       - "ui"
       - "ui-components"
-    stars_fact: 67
+    stars_fact: 68
     first_seen: null
     last_push: "2025-12-11"
-  - name: "3d-model-generator"
-    title: "3d-model-generator"
-    description: "Generate 3D models with AI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 270
-    first_seen: null
-    last_push: "2026-02-05"
   - name: "halftone-waves"
     title: "halftone-waves"
     description: "Mesmerizing wave patterns using halftone dots"

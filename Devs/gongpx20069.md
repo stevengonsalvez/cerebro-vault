@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 2, 0, 0, 0, 0, 5, 6, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 0, 6, 5, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Turn an old Android phone into an always-ready, voice-first AI companion."
     language: "Kotlin"
     topics: []
-    stars_fact: 39
+    stars_fact: 45
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "android-agent-link"
+    title: "android-agent-link"
+    description: "Android-first ACP client and Python bridge for remote coding agents."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "Postgraduate-408-exam"
     title: "Postgraduate-408-exam"
     description: "这里有从2009年开始的所有408试卷，帮助学弟学妹减少收集资料的时间。"
@@ -99,14 +107,6 @@ repos:
     language: "Kotlin"
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "android-agent-link"
-    title: "android-agent-link"
-    description: "Android-first ACP client and Python bridge for remote coding agents."
-    language: "Python"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
   - name: "ik-llama-cpp-python"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -87,15 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "garmin-quota-watch"
-    title: "garmin-quota-watch"
-    description: "Garmin Connect IQ widgets for AI subscription quotas and Tibo reset announcements."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "skill-forge"
     title: "skill-forge"
     description: "use opus as your brain，and use minimax as your cheap hands。"
@@ -103,7 +95,23 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
+  - name: "dungeon-weaver"
+    title: "dungeon-weaver"
+    description: "Browser dungeon action roguelike: design, reusable technology research, and deterministic debugging contracts."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "garmin-quota-watch"
+    title: "garmin-quota-watch"
+    description: "Garmin Connect IQ widgets for AI subscription quotas and Tibo reset announcements."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "cedar"
     title: "cedar"
     description: "Cedar — vanilla HTML/CSS/JavaScript frontend, FastAPI + uv backend, PostgreSQL"

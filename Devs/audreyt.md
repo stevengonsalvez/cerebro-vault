@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [9, 8, 8, 4, 1, 2, 9, 10, 14, 7, 0, 0, 0]
+pushes_per_week: [9, 9, 8, 3, 2, 4, 8, 9, 15, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.7500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,20 +79,28 @@ reasons:
 repos:
   - name: "ethercalc"
     title: "ethercalc"
-    description: "Node.js port of Multi-user SocialCalc"
+    description: "Web spreadsheet — no sign-up, no install."
     language: "TypeScript"
     topics: []
-    stars_fact: 3056
+    stars_fact: 3061
     first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-11-01"
   - name: "node-webworker-threads"
     title: "node-webworker-threads"
     description: "Lightweight Web Worker API implementation with native threads"
     language: "C++"
     topics: []
-    stars_fact: 2276
+    stars_fact: 2277
     first_seen: null
     last_push: "2021-09-14"
+  - name: "Unicode-EastAsianWidth"
+    title: "Unicode-EastAsianWidth"
+    description: "Release history of Unicode-EastAsianWidth"
+    language: "Perl"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2022-02-10"
   - name: "omo-mnemon"
     title: "omo-mnemon"
     description: "Mnemon long-term memory for omo and other senpi/pi coding agents: recall, remember and link tools plus quiet high-confidence auto-recall."
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-26"
   - name: "lingua-sinica-perlyuyan"
     title: "lingua-sinica-perlyuyan"
     description: "Perl in Classical Chinese in Perl"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 27
     first_seen: null
     last_push: "2026-10-13"
-  - name: "parse-afp"
-    title: "parse-afp"
-    description: "Parser for IBM's Advanced Function Printing document format"
-    language: "Perl"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2015-12-05"
 ---
 
 # audreyt

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -85,7 +85,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 1, 7, 0, 2, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 7, 1, 1, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -150,54 +150,54 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cryptanalysis-tools"
-    title: "cryptanalysis-tools"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "hkt-toolbelt"
     title: "hkt-toolbelt"
     description: "✨Functional and composable type utilities"
     language: "TypeScript"
     topics: []
-    stars_fact: 305
+    stars_fact: 308
     first_seen: null
     last_push: "2026-09-01"
-  - name: "CBL"
-    title: "CBL"
-    description: "A C++ library for manipulating protein imaging data using conventional image processing techniques"
-    language: "C++"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "gpt3-cli"
-    title: "gpt3-cli"
-    description: "Typescript CLI and API to OpenAI's state-of-the-art machine learning platform."
+  - name: "ts-unify"
+    title: "ts-unify"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 64
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "aws-tools"
+    title: "aws-tools"
+    description: "Upload and invoke lambda functions from npm"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-01"
-  - name: "tynogels"
-    title: "tynogels"
-    description: "A modern, await-based DynamoDB data mapper built on runtime types."
+  - name: "rsa-pedagogic"
+    title: "rsa-pedagogic"
+    description: "A pedagogic implementation of RSA in Typescript"
     language: "TypeScript"
     topics: []
-    stars_fact: 12
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-01"
-  - name: "scopey"
-    title: "scopey"
-    description: "Build objects using a type-safe functional chain"
+  - name: "listr-3"
+    title: "listr-3"
+    description: "A dead-simple terminal task list library for Node"
     language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 2
     first_seen: null
-    last_push: "2025-09-11"
+    last_push: "2026-09-01"
+  - name: "vladmake"
+    title: "vladmake"
+    description: "Initialize Typescript packages in V L A D style"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-01"
 ---
 
 # poteat

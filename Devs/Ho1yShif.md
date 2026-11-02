@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [5, 5, 3, 0, 0, 1, 2, 2, 0, 0, 2, 1, 0]
+pushes_per_week: [5, 6, 2, 0, 0, 1, 2, 2, 0, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "interval-audio"
+    title: "interval-audio"
+    description: "Code for interval audio website"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "why-render"
     title: "why-render"
     description: "Created by MARSL"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-11"
-  - name: "interval-audio"
-    title: "interval-audio"
-    description: "Code for interval audio website"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-05"
   - name: "eitan"
     title: "eitan"
     description: "Portfolio website for Eitan"

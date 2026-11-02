@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [4, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "JITTER"
+    title: "JITTER"
+    description: "Root-cause analysis for on-device ML latency, created by Ayush Dubey"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "jitter-android"
+    title: "jitter-android"
+    description: "On-device ML latency root-cause analyzer for Android (Kotlin, Jetpack Compose, LiteRT/TFLite)"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "randomlol"
     title: "randomlol"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-11"
-  - name: "flakerad."
-    title: "flakerad."
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "RAP_CASED"
-    title: "RAP_CASED"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # AyushDubey23

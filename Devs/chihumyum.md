@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 3, 0, 0, 1, 3, 0, 8, 2, 0, 2, 0]
+pushes_per_week: [0, 0, 3, 0, 0, 1, 3, 0, 10, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,41 +77,36 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Persimmon"
-    title: "Persimmon"
-    description: "A lightweight, native-rendered cross-platform EPUB reader."
-    language: "TypeScript"
-    topics:
-      - "epub"
-      - "epub-reader"
-      - "ereader"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "Drifting"
     title: "Drifting"
-    description: "An early-stage writing app, developed in the open."
+    description: "Open-source, local-first novel writing app for Mac: the ease of a Markdown editor, the scaffolding of a classic writing studio, and an AI Agent for the whole book."
     language: "TypeScript"
-    topics: []
-    stars_fact: 2
+    topics:
+      - "ai-agent"
+      - "creative-writing"
+      - "epub"
+      - "fiction-writing"
+      - "local-first"
+      - "macos"
+      - "markdown"
+      - "markdown-editor"
+      - "mcp"
+      - "novel-writing"
+      - "tauri"
+      - "worldbuilding"
+      - "writing-app"
+      - "writing-tool"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
   - name: "My-FFVI"
     title: "My-FFVI"
     description: "Source-driven FFVI Pixel Remaster Web migration, shared game systems, and reproducible validation."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "persimmon-reader"
-    title: "persimmon-reader"
-    description: "Official website for the Persimmon EPUB reader"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
+    last_push: "2026-10-28"
   - name: "react-native-natural-page-turn"
     title: "react-native-natural-page-turn"
     description: "A natural-feeling, paper-like page-turn animation for React Native, powered by Skia."
@@ -124,9 +119,28 @@ repos:
       - "react-native"
       - "react-native-skia"
       - "reader"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-08-13"
+  - name: "Persimmon"
+    title: "Persimmon"
+    description: "A lightweight, native-rendered cross-platform EPUB reader."
+    language: "TypeScript"
+    topics:
+      - "epub"
+      - "epub-reader"
+      - "ereader"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "persimmon-reader"
+    title: "persimmon-reader"
+    description: "Official website for the Persimmon EPUB reader"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
   - name: "AnoDock"
     title: "AnoDock"
     description: "A complementary macOS dock app."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 2, 5, 11, 8, 0, 0, 0]
+pushes_per_week: [0, 3, 0, 0, 0, 0, 2, 8, 10, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 4.3333
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-agent-service"
+    title: "ai-agent-service"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-23"
   - name: "substrate-agents-tco"
     title: "substrate-agents-tco"
     description: "Repo to help calculate the cost of running agents on Substrate"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-15"
-  - name: "ai-agent-service"
-    title: "ai-agent-service"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-23"
 ---
 
 # aditya-shantanu

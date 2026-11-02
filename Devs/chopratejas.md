@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [7, 10, 4, 0, 1, 3, 4, 3, 8, 17, 1, 3, 1]
+pushes_per_week: [4, 11, 3, 0, 1, 3, 4, 3, 8, 17, 1, 4, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 5
-    active_days: 28
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2143
-  repo_per_active_day: 0.1786
+  push_per_day: 2.1852
+  repo_per_active_day: 0.1852
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
   shapes: []
@@ -51,34 +51,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 2
-    pushes_per_repo: 13.0000
-    active_days: 7
+    pushes_per_repo: 12.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 59
     distinct_repos: 5
-    pushes_per_repo: 12.4000
-    active_days: 28
+    pushes_per_repo: 11.8000
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "headroom-workshop-kit"
+    title: "headroom-workshop-kit"
+    description: "Hands-on kit: see what your coding agent sends, and what Headroom removes"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "audio-decode"
+    title: "audio-decode"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "headroom-zed"
     title: "headroom-zed"
     description: "Zed extension for Headroom — context compression for AI agents"
@@ -97,14 +113,6 @@ repos:
     stars_fact: 69
     first_seen: null
     last_push: "2026-03-18"
-  - name: "headroom-workshop-kit"
-    title: "headroom-workshop-kit"
-    description: "Hands-on kit: see what your coding agent sends, and what Headroom removes"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "tokview"
     title: "tokview"
     description: "See where your LLM tokens actually go — down to the individual tool call. A small, local, zero-config proxy + dashboard for token/cost tracking across Claude, OpenAI, Gemini."
@@ -129,18 +137,10 @@ repos:
     stars_fact: 23
     first_seen: null
     last_push: "2026-09-21"
-  - name: "ephemeral-ai"
-    title: "ephemeral-ai"
-    description: "Self-healing AI workbench with warm Droplet pools on DigitalOcean"
-    language: "Python"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-04"
 ---
 
 # chopratejas
 
-62 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
+59 pushes across 5 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

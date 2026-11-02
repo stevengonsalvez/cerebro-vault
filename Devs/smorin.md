@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 9, 10, 1, 0, 5, 15, 17, 10, 0, 2, 2, 0]
+pushes_per_week: [4, 12, 6, 1, 2, 4, 18, 15, 8, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,11 +25,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 74
@@ -60,12 +60,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 74
@@ -80,6 +80,14 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "deterministic-builds-google"
+    title: "deterministic-builds-google"
+    description: "Fork of justincastilla/deterministic-builds-ATO, adapted for a Google talk (2026)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "thothspinner"
     title: "thothspinner"
     description: "Claude Code inspired animation TUI component, a configurable progress indicator library for Python, built on Rich. ThothSpinner provides beautiful, composable terminal UI components including spinners, progress bars, timers, and animated messages with shimmer effects."
@@ -87,7 +95,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-10-27"
   - name: "ito"
     title: "ito"
     description: null
@@ -120,14 +128,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-07-17"
-  - name: "release-proto-a"
-    title: "release-proto-a"
-    description: "Throwaway Design A release-pipeline prototype"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
 ---
 
 # smorin

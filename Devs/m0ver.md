@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 6, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 5, 0, 0, 1, 0]
 windows:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
     pushes: 9
@@ -50,20 +50,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
     pushes: 9
@@ -85,7 +85,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-09-30"
+    last_push: "2026-10-26"
   - name: "tinystruct-examples"
     title: "tinystruct-examples"
     description: "The framework is quite easy to be used, but in order to help you to understand deeply, we prepared some code examples for your reference. It might be helpful for you to hand it easily."

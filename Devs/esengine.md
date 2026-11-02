@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [42, 42, 14, 3, 3, 12, 18, 115, 108, 76, 86, 46, 4]
+pushes_per_week: [48, 38, 11, 3, 6, 8, 23, 125, 102, 81, 78, 44, 0]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 259
+    pushes: 246
     distinct_repos: 7
-    active_days: 21
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 569
+    pushes: 567
     distinct_repos: 7
     active_days: 63
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.0317
+  push_per_day: 9.0000
   repo_per_active_day: 0.1111
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 259
+    pushes: 246
     distinct_repos: 7
-    pushes_per_repo: 37.0000
-    active_days: 21
+    pushes_per_repo: 35.1429
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 569
+    pushes: 567
     distinct_repos: 7
-    pushes_per_repo: 81.2857
+    pushes_per_repo: 81.0000
     active_days: 63
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -97,9 +97,9 @@ repos:
       - "webgl"
       - "webgpu"
       - "wechat-minigame"
-    stars_fact: 695
+    stars_fact: 703
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "DeepSeek-Reasonix"
     title: "DeepSeek-Reasonix"
     description: "A reliable coding agent for complex software engineering tasks."
@@ -123,9 +123,17 @@ repos:
       - "tool-use"
       - "tui"
       - "typescript"
-    stars_fact: 35966
+    stars_fact: 36036
     first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "xiaoban"
+    title: "xiaoban"
+    description: "A local-first everyday assistant for phone and desktop"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "homebrew-reasonix"
     title: "homebrew-reasonix"
     description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
@@ -133,7 +141,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "esengine"
     title: "esengine"
     description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
@@ -153,7 +161,7 @@ repos:
       - "typescript"
       - "wasm"
       - "webgl"
-    stars_fact: 926
+    stars_fact: 927
     first_seen: null
     last_push: "2026-07-30"
   - name: "BehaviourTree-ai"
@@ -167,28 +175,13 @@ repos:
       - "fsm"
       - "laya"
       - "selector"
-    stars_fact: 150
+    stars_fact: 151
     first_seen: null
     last_push: "2026-02-23"
-  - name: "HiveMind"
-    title: "HiveMind"
-    description: "A self-evolving, personalized AI system with federated learning"
-    language: "Python"
-    topics:
-      - "ai"
-      - "federated-learning"
-      - "llm"
-      - "lora"
-      - "machine-learning"
-      - "personalization"
-      - "qwen"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-01-19"
 ---
 
 # esengine
 
-569 pushes across 7 repositories on 63 active days in the last 90 days of public GitHub push activity.
+567 pushes across 7 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

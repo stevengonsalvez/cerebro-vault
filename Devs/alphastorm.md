@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 0, 4, 2, 0, 19, 16, 28, 26, 9, 3, 42, 4]
+pushes_per_week: [1, 0, 4, 2, 0, 19, 18, 27, 27, 7, 3, 46, 0]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 58
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 67
+    pushes: 58
     distinct_repos: 9
-    pushes_per_repo: 7.4444
-    active_days: 13
+    pushes_per_repo: 6.4444
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -89,18 +89,7 @@ repos:
       - "speculative-decoding"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "dotfiles-ng"
-    title: "dotfiles-ng"
-    description: "🔥💯 these are my dotfiles (v2). there are many like them, but these ones are mine."
-    language: "Python"
-    topics:
-      - "dotfiles"
-      - "vim"
-      - "zsh"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "omp-ninfer"
     title: "omp-ninfer"
     description: "Durable local inference for Oh My Pi: NInfer + Qwen3.8 27B on one RTX 3090/4090/5090, with restart-resumable OpenAI Responses state."
@@ -126,9 +115,20 @@ repos:
       - "self-hosted"
       - "speculative-decoding"
       - "stateful-inference"
-    stars_fact: 46
+    stars_fact: 47
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
+  - name: "dotfiles-ng"
+    title: "dotfiles-ng"
+    description: "🔥💯 these are my dotfiles (v2). there are many like them, but these ones are mine."
+    language: "Python"
+    topics:
+      - "dotfiles"
+      - "vim"
+      - "zsh"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "omp-strata"
     title: "omp-strata"
     description: "Stock Oh My Pi on a stock, local Strata inference server: one Windows 11 + RTX host, every component hash-pinned, loopback behind an API key, and real-host acceptance evidence for every claim. Nothing forked, no proxy."
@@ -154,9 +154,9 @@ repos:
       - "self-hosted"
       - "strata"
       - "windows"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "alphastorm.github.io"
     title: "alphastorm.github.io"
     description: "my personal website."
@@ -164,7 +164,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-28"
   - name: "slither-import-breaking"
     title: "slither-import-breaking"
     description: null

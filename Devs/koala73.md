@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [34, 105, 25, 12, 7, 23, 40, 46, 37, 36, 12, 33, 2]
+pushes_per_week: [35, 114, 15, 11, 7, 24, 40, 47, 38, 33, 17, 28, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 1
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 412
+    pushes: 409
     distinct_repos: 8
-    active_days: 68
+    active_days: 67
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.0588
-  repo_per_active_day: 0.1176
+  push_per_day: 6.1045
+  repo_per_active_day: 0.1194
   not_owned_ratio: 0.8750
   basename_concentration: 1.0000
   shapes:
@@ -65,32 +65,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 1
-    pushes_per_repo: 101.0000
-    active_days: 20
+    pushes_per_repo: 96.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 412
+    pushes: 409
     distinct_repos: 8
-    pushes_per_repo: 51.5000
-    active_days: 68
+    pushes_per_repo: 51.1250
+    active_days: 67
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 67 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worldmonitor"
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-412 pushes across 8 repositories on 68 active days in the last 90 days of public GitHub push activity.
+409 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 2, 2, 1, 0, 1, 3, 7, 16, 1, 8, 4, 0]
+pushes_per_week: [2, 2, 2, 1, 0, 1, 3, 8, 15, 5, 5, 3, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 19
+    distinct_repos: 9
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 24
-    distinct_repos: 11
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
   "90d":
-    pushes: 50
-    distinct_repos: 21
-    active_days: 26
+    pushes: 47
+    distinct_repos: 19
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.8077
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.0476
+  push_per_day: 1.8800
+  repo_per_active_day: 0.7600
+  not_owned_ratio: 0.1579
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,61 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 19
+    distinct_repos: 9
+    pushes_per_repo: 2.1111
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 24
-    distinct_repos: 11
-    pushes_per_repo: 2.1818
-    active_days: 11
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
   "90d":
-    pushes: 50
-    distinct_repos: 21
-    pushes_per_repo: 2.3810
-    active_days: 26
+    pushes: 47
+    distinct_repos: 19
+    pushes_per_repo: 2.4737
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "starship-p10k-rainbow"
+    title: "starship-p10k-rainbow"
+    description: "Starship preset that recreates the Powerlevel10k rainbow style"
+    language: "Shell"
+    topics:
+      - "cross-platform"
+      - "developer-tools"
+      - "dotfiles"
+      - "git-prompt"
+      - "nerd-fonts"
+      - "p10k"
+      - "powerlevel10k"
+      - "powerline"
+      - "prompt-theme"
+      - "rainbow-theme"
+      - "shell-prompt"
+      - "starship"
+      - "starship-config"
+      - "starship-prompt"
+      - "terminal"
+      - "terminal-customization"
+      - "terminal-theme"
+      - "toml"
+      - "zsh"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "nanosaas"
     title: "nanosaas"
     description: "Turn Python functions into credit-based services with FastAPI, TaskIQ, and a built-in web UI."
@@ -100,7 +127,7 @@ repos:
       - "webhooks"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-27"
   - name: "ai-url-aggregator"
     title: "ai-url-aggregator"
     description: "Python tool that uses Perplexity and OpenAI to search the internet for relevant URLs, then filters, deduplicates, and verifies each link’s availability, all in one streamlined workflow."
@@ -123,7 +150,7 @@ repos:
       - "web-search"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "fastapi-lowjs-auth"
     title: "fastapi-lowjs-auth"
     description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
@@ -131,7 +158,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "playwright-splash"
     title: "playwright-splash"
     description: "Simple Playwright scraper which receives an URL and returns the website code."
@@ -148,27 +175,10 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-23"
-  - name: "enodia"
-    title: "enodia"
-    description: "Wardriving on foot, without GPS. Offline Wi-Fi positioning from a map you walked yourself."
-    language: "Python"
-    topics:
-      - "geolocation"
-      - "linux"
-      - "offline"
-      - "openstreetmap"
-      - "privacy"
-      - "python"
-      - "radio-fingerprinting"
-      - "wardriving"
-      - "wifi"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-09-29"
 ---
 
 # carlosplanchon
 
-50 pushes across 21 repositories on 26 active days in the last 90 days of public GitHub push activity.
+47 pushes across 19 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

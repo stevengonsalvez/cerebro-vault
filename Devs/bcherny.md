@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -153,14 +153,48 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "bcherny.github.io"
-    title: "bcherny.github.io"
-    description: "My blog"
-    language: "SCSS"
-    topics: []
-    stars_fact: 20
+  - name: "undux"
+    title: "undux"
+    description: "⚡️ Dead simple state for React. Now with Hooks support."
+    language: "TypeScript"
+    topics:
+      - "flux"
+      - "react"
+      - "redux"
+      - "typesafe"
+      - "typescript"
+    stars_fact: 1563
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2025-05-08"
+  - name: "tslint-no-circular-imports"
+    title: "tslint-no-circular-imports"
+    description: "TSLint plugin to detect and warn about circular imports"
+    language: "TypeScript"
+    topics:
+      - "tslint"
+      - "typescript"
+    stars_fact: 90
+    first_seen: null
+    last_push: "2021-08-10"
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3350
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "programming-typescript-answers"
+    title: "programming-typescript-answers"
+    description: "Official answers for exercises from Orielly's Programming TypeScript"
+    language: "TypeScript"
+    topics:
+      - "typescript"
+    stars_fact: 561
+    first_seen: null
+    last_push: "2021-08-10"
   - name: "frontend-interview-questions"
     title: "frontend-interview-questions"
     description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
@@ -170,49 +204,17 @@ repos:
       - "interview-practice"
       - "interview-questions"
       - "javascript"
-    stars_fact: 1145
+    stars_fact: 1144
     first_seen: null
     last_push: "2023-01-21"
-  - name: "flow-to-typescript"
-    title: "flow-to-typescript"
-    description: "Convert Flow-annotated files to TypeScript"
-    language: "TypeScript"
-    topics:
-      - "compiler"
-      - "flow"
-      - "flowtype"
-      - "javascript"
-      - "typescript"
-    stars_fact: 438
-    first_seen: null
-    last_push: "2022-12-06"
-  - name: "draggable"
-    title: "draggable"
-    description: "High performance, fully cross browser, full featured drag and drop in a tiny (2k gzipped), dependency-free package"
-    language: "JavaScript"
-    topics:
-      - "drag-and-drop"
-      - "microlib"
-      - "vanilla-javascript"
-    stars_fact: 204
-    first_seen: null
-    last_push: "2022-12-08"
-  - name: "undux.org"
-    title: "undux.org"
-    description: "Documentation for Undux"
-    language: "TypeScript"
+  - name: "bcherny.github.io"
+    title: "bcherny.github.io"
+    description: "My blog"
+    language: "SCSS"
     topics: []
-    stars_fact: 5
+    stars_fact: 20
     first_seen: null
-    last_push: "2022-12-09"
-  - name: "crdt-demo"
-    title: "crdt-demo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-01-05"
+    last_push: "2026-09-20"
 ---
 
 # bcherny

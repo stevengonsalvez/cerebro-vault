@@ -10,25 +10,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 12, 2, 4, 1, 3, 4, 12, 11, 5, 4, 2, 0]
+pushes_per_week: [2, 13, 3, 2, 3, 1, 5, 12, 13, 2, 4, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
+    pushes: 13
+    distinct_repos: 4
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 62
     distinct_repos: 11
@@ -66,21 +66,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    pushes_per_repo: 3.2000
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
     active_days: 7
-    repos_not_owned: 3
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 62
     distinct_repos: 11
@@ -99,15 +99,15 @@ repos:
     description: "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 63545
+    stars_fact: 65785
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "avazu-ctr"
     title: "avazu-ctr"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 5
+    stars_fact: 8
     first_seen: null
     last_push: "2026-10-26"
   - name: "Machine-Learning-Methods-in-Physics"

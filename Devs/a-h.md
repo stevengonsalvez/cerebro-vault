@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 2, 2, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 4, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,25 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10592
+    stars_fact: 10597
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "parse"
+    title: "parse"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "flakegap"
     title: "flakegap"
     description: "Take a Flake and package it for deployment across an airgap."
@@ -117,22 +133,6 @@ repos:
     stars_fact: 40
     first_seen: null
     last_push: "2023-11-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "kv"
-    title: "kv"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-05"
 ---
 
 # a-h

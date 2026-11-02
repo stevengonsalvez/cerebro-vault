@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [17, 26, 19, 16, 8, 19, 44, 43, 52, 14, 24, 14, 0]
+pushes_per_week: [22, 25, 16, 14, 12, 19, 43, 52, 47, 15, 17, 11, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 63
     distinct_repos: 12
-    active_days: 16
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 296
+    pushes: 293
     distinct_repos: 22
-    active_days: 65
+    active_days: 64
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.5538
-  repo_per_active_day: 0.3385
+  push_per_day: 4.5781
+  repo_per_active_day: 0.3438
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -49,49 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 63
     distinct_repos: 12
-    pushes_per_repo: 5.9167
-    active_days: 16
+    pushes_per_repo: 5.2500
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 296
+    pushes: 293
     distinct_repos: 22
-    pushes_per_repo: 13.4545
-    active_days: 65
+    pushes_per_repo: 13.3182
+    active_days: 64
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "papertrade-recomp"
-    title: "papertrade-recomp"
-    description: "Verified behavior map of Papertrade's unpublished HyperEVM contracts"
-    language: "Python"
-    topics:
-      - "bytecode"
-      - "decompilation"
-      - "evm"
-      - "hyperevm"
-      - "hyperliquid"
-      - "reverse-engineering"
-      - "security-research"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "web3-research-mcp"
     title: "web3-research-mcp"
     description: "Local MCP server for deep crypto token research across CoinGecko, DeFiLlama and web search. Free, no API key."
@@ -107,9 +92,32 @@ repos:
       - "model-context-protocol"
       - "typescript"
       - "web3"
-    stars_fact: 169
+    stars_fact: 171
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-31"
+  - name: "papertrade-recomp"
+    title: "papertrade-recomp"
+    description: "Verified behavior map of Papertrade's unpublished HyperEVM contracts"
+    language: "Python"
+    topics:
+      - "bytecode"
+      - "decompilation"
+      - "evm"
+      - "hyperevm"
+      - "hyperliquid"
+      - "reverse-engineering"
+      - "security-research"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "dprk-fightback"
+    title: "dprk-fightback"
+    description: "Make stolen crypto harder to hide. Open evidence on DPRK crypto theft, service exposure and fee estimates."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "headless-harness-bench"
     title: "headless-harness-bench"
     description: "Benchmark of 9 coding-agent harnesses as headless agent loops driven by a control plane: static source audit /81, live contract tests /21, golden task with cost and time"
@@ -128,43 +136,7 @@ repos:
       - "opencode"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "soldecomp"
-    title: "soldecomp"
-    description: "Local workbench to reverse-engineer, replay, and probe deployed Solana sBPF programs from bytecode, with a labeled bug-detector benchmark"
-    language: "Python"
-    topics:
-      - "blockchain"
-      - "bpf"
-      - "decompiler"
-      - "ebpf"
-      - "ghidra"
-      - "litesvm"
-      - "reverse-engineering"
-      - "sbpf"
-      - "security-research"
-      - "solana"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "tweazy"
-    title: "tweazy"
-    description: "Pay-per-query AI chat app: users pay 0.01 USDC on Base per question with a Smart Wallet or any wallet. Tambo AI + MCP"
-    language: "TypeScript"
-    topics:
-      - "base"
-      - "cdp"
-      - "coinbase"
-      - "mcp"
-      - "nextjs"
-      - "passkeys"
-      - "smartwallet"
-      - "tambo"
-      - "usdc"
-      - "x402"
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-26"
   - name: "openroutercli"
     title: "openroutercli"
     description: "Unofficial CLI for every OpenRouter API endpoint, with OAuth login and --json output for humans and LLM agents."
@@ -180,11 +152,19 @@ repos:
       - "openrouter-integration"
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-29"
+  - name: "3rd-party-audit"
+    title: "3rd-party-audit"
+    description: "Agent skill to inventory and score browser-visible website third parties"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # aaronjmars
 
-296 pushes across 22 repositories on 65 active days in the last 90 days of public GitHub push activity.
+293 pushes across 22 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [5, 0, 1, 0, 0, 1, 0, 2, 3, 1, 0, 0, 0]
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-02"
+  - name: "DiegoC-Harness"
+    title: "DiegoC-Harness"
+    description: "纯提示词驱动的Agent Team Harness"
+    language: "Shell"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "agentscope-eval"
+    title: "agentscope-eval"
+    description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
   - name: "DiegoC-Harness-2.0"
     title: "DiegoC-Harness-2.0"
     description: "Deterministic multi-agent software delivery pipeline built on AgentScope"
@@ -93,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-09"
-  - name: "agentscope-eval"
-    title: "agentscope-eval"
-    description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-19"
   - name: "DiegoC-llmwiki"
     title: "DiegoC-llmwiki"
     description: "A personal knowledge base scaffold built on Karpathy's LLM Wiki concept — let LLMs incrementally build and maintain a persistent, structured, ever-growing wiki."
@@ -109,14 +117,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-29"
-  - name: "DiegoC-Harness"
-    title: "DiegoC-Harness"
-    description: "纯提示词驱动的Agent Team Harness"
-    language: "Shell"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-07-31"
   - name: "iluv7"
     title: "iluv7"
     description: null
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
 ---
 
 # iluv7

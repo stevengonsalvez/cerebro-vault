@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -87,15 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "rails-footnotes"
-    title: "rails-footnotes"
-    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1521
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "feedyour.email"
     title: "feedyour.email"
     description: "(rss) feed your emails"
@@ -103,7 +95,15 @@ repos:
     topics: []
     stars_fact: 49
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "rails-footnotes"
+    title: "rails-footnotes"
+    description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1521
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "andre.arko.net"
     title: "andre.arko.net"
     description: "blog"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 1, 0, 0, 1, 3, 5, 2, 7, 6, 7, 1, 0]
+pushes_per_week: [2, 1, 0, 1, 2, 1, 7, 0, 8, 8, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 7
-    active_days: 10
+    pushes: 17
+    distinct_repos: 6
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
-    distinct_repos: 7
-    pushes_per_repo: 2.8571
-    active_days: 10
+    pushes: 17
+    distinct_repos: 6
+    pushes_per_repo: 2.8333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
   - name: "fuel-ledger-android"
     title: "fuel-ledger-android"
     description: "Offline Android car logbook for fuel, running costs and maintenance reminders. Kotlin, Jetpack Compose and an amber instrument cluster."
@@ -92,7 +92,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
+  - name: "superset-period-compare"
+    title: "superset-period-compare"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "VeloMetric"
+    title: "VeloMetric"
+    description: "VeloMetric 🚴‍♂️ - Precision tracking for your road bike's wear and tear."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "mini-jersey-studio"
     title: "mini-jersey-studio"
     description: "Interactive 3D Cycling Jersey & Shirt Customizer. Real-time SVG-to-WebGL dynamic planar texture projection, custom GLB model import, and Tech Pack production export."
@@ -117,29 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "VeloMetric"
-    title: "VeloMetric"
-    description: "VeloMetric 🚴‍♂️ - Precision tracking for your road bike's wear and tear."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "sir-markov-chain"
-    title: "sir-markov-chain"
-    description: "Simulazione di un modello epidemiologico SIR come catena di Markov a tempo discreto - Progetto universitario Modelli Probabilistici (Unibo)"
-    language: "Jupyter Notebook"
-    topics:
-      - "epidemiology"
-      - "markov-chains"
-      - "monte-carlo"
-      - "probability-models"
-      - "python"
-      - "sir-model"
-      - "stochastic-simulation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
 ---
 
 # FrancescoCastaldi

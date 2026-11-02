@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 5, 1, 1, 2, 0, 1, 5, 1, 1, 2, 3, 0]
+pushes_per_week: [4, 4, 0, 1, 2, 0, 1, 5, 2, 0, 2, 3, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gigioneggiando"
-    title: "gigioneggiando"
-    description: "Luigi Colluto: software projects, research, and a little beyond code."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "argo"
     title: "argo"
     description: "LLM-native static vulnerability detection: point it at a repo and get a reviewable vuln report, the way a human auditor would."
@@ -110,9 +102,17 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "vulnerability-detection"
-    stars_fact: 64
+    stars_fact: 65
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
+  - name: "gigioneggiando"
+    title: "gigioneggiando"
+    description: "Luigi Colluto: software projects, research, and a little beyond code."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "ager-app"
     title: "ager-app"
     description: "AGER — link-first Italian civic news aggregator (web + mobile frontend)"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 18, 20, 9, 5, 19, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 19, 21, 9, 5, 17, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,11 +80,19 @@ repos:
   - name: "codegraph"
     title: "codegraph"
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
-    language: "C"
+    language: "TypeScript"
     topics: []
-    stars_fact: 75360
+    stars_fact: 76189
     first_seen: "2026-10-01T06:00:50.112518+00:00"
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "frontend-audit-skill"
+    title: "frontend-audit-skill"
+    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "shopify-graphql-admin-mcp"
     title: "shopify-graphql-admin-mcp"
     description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
@@ -93,14 +101,6 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2026-03-24"
-  - name: "frontend-audit-skill"
-    title: "frontend-audit-skill"
-    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-05-13"
   - name: "claude-context-menu"
     title: "claude-context-menu"
     description: null

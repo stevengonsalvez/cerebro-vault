@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "745308b2b7085095"
   - "ffccace0ba14fd15"
@@ -79,38 +79,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencode-dynamic-workflows"
-    title: "opencode-dynamic-workflows"
-    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "multi-agent"
-      - "opencode"
-      - "opencode-plugin"
-      - "orchestration"
-      - "subagents"
-      - "typescript"
-      - "workflows"
-    stars_fact: 9
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 21
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "opencode-codex-computer-use"
-    title: "opencode-codex-computer-use"
-    description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
-    language: "TypeScript"
-    topics:
-      - "accessibility"
-      - "automation"
-      - "browser-use"
-      - "codex"
-      - "computer-use"
-      - "macos"
-      - "opencode"
-      - "opencode-plugin"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "opencode-gpt-live"
     title: "opencode-gpt-live"
     description: "Talk to OpenCode out loud: real-time GPT-Live voice calls on your ChatGPT subscription"
@@ -125,9 +101,25 @@ repos:
       - "tui"
       - "voice-assistant"
       - "webrtc"
-    stars_fact: 41
+    stars_fact: 44
     first_seen: null
     last_push: "2026-10-07"
+  - name: "opencode-dynamic-workflows"
+    title: "opencode-dynamic-workflows"
+    description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "multi-agent"
+      - "opencode"
+      - "opencode-plugin"
+      - "orchestration"
+      - "subagents"
+      - "typescript"
+      - "workflows"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "dubstack"
     title: "dubstack"
     description: "The development lifecycle where you and your agents work from the same understanding. 19 agent skills for interviews on interactive pages, goals tracked from idea to merge, outlines, implementation, and pull requests."
@@ -143,15 +135,23 @@ repos:
       - "sdlc"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 21
+    last_push: "2026-10-28"
+  - name: "opencode-codex-computer-use"
+    title: "opencode-codex-computer-use"
+    description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
+    language: "TypeScript"
+    topics:
+      - "accessibility"
+      - "automation"
+      - "browser-use"
+      - "codex"
+      - "computer-use"
+      - "macos"
+      - "opencode"
+      - "opencode-plugin"
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-10-30"
   - name: "opencode-sessions"
     title: "opencode-sessions"
     description: "Session management plugin for OpenCode with multi-agent collaboration support"

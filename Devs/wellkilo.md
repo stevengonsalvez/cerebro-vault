@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 0, 0, 2, 4, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 5, 1, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,14 +78,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "wellkilo"
-    title: "wellkilo"
-    description: "Personal profile"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "embodigen"
     title: "embodigen"
     description: "Task description in, label-exact photorealistic dataset out. An embodied data engine for robot learning."
@@ -99,7 +91,15 @@ repos:
       - "synthetic-data"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-29"
+  - name: "wellkilo"
+    title: "wellkilo"
+    description: "Personal profile"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "codex-jev-preflight"
     title: "codex-jev-preflight"
     description: "Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata."

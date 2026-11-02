@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [1, 0, 0, 0, 0, 3, 0, 2, 2, 4, 0, 1, 0]
@@ -94,63 +94,9 @@ repos:
       - "prompting"
       - "rag"
       - "spec-driven-development"
-    stars_fact: 171
+    stars_fact: 178
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "genai-selenium"
-    title: "genai-selenium"
-    description: "GenAI-assisted development of Selenium tests"
-    language: "Java"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "selenium-examples"
-    title: "selenium-examples"
-    description: "Basic examples using Selenium and Java"
-    language: "Java"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "selenium-webdriver-java"
-    title: "selenium-webdriver-java"
-    description: "Examples of the O'Reilly book \"Hands-On Selenium WebDriver with Java\""
-    language: "Java"
-    topics:
-      - "docker"
-      - "gradle"
-      - "java"
-      - "junit4"
-      - "junit5"
-      - "maven"
-      - "selenium"
-      - "selenium-jupiter"
-      - "selenium-webdriver"
-      - "selenium4"
-      - "testng"
-    stars_fact: 213
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "mastering-junit5"
-    title: "mastering-junit5"
-    description: "Examples of the Packt book \"Mastering Software Testing with JUnit 5: Comprehensive guide to develop high quality Java applications\""
-    language: "Java"
-    topics:
-      - "android"
-      - "appium"
-      - "docker"
-      - "java"
-      - "junit"
-      - "junit5"
-      - "mockito"
-      - "rest"
-      - "selenium"
-      - "spring"
-      - "spring-boot"
-    stars_fact: 430
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "browser-automation-apis"
     title: "browser-automation-apis"
     description: "Basic tests with Selenium, Cypress, Puppeteer, and Playwright"
@@ -158,7 +104,44 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "genai-selenium"
+    title: "genai-selenium"
+    description: "GenAI-assisted development of Selenium tests"
+    language: "Java"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "selenium-examples"
+    title: "selenium-examples"
+    description: "Basic examples using Selenium and Java"
+    language: "Java"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "rust-examples"
+    title: "rust-examples"
+    description: "Small programs written in Rust. Warm up for the upcoming Selenium Manager"
+    language: "Rust"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "job-tracker"
+    title: "job-tracker"
+    description: "Scheduled automated test for daily tracking jobs about Selenium, Cypress, Puppeteer, and Playwright on Linkedin"
+    language: "Java"
+    topics:
+      - "cypress"
+      - "linkedin"
+      - "playwright"
+      - "puppeteer"
+      - "selenium"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # bonigarcia

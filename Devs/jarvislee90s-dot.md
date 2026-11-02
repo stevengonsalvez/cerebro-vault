@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 1, 0, 0, 1, 5, 2, 7, 3, 4, 5, 0]
+pushes_per_week: [0, 1, 1, 0, 0, 2, 4, 2, 7, 4, 3, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
     active_days: 10
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 3.8000
+    pushes_per_repo: 3.4000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "tuvis"
     title: "tuvis"
-    description: "Tuvis — desktop mission control for AI coding agents: live session monitoring, remote injection, Skill/MCP management & usage ledger. One hub for Claude Code, Codex, OpenCode & more."
+    description: "Tuvis(兔维斯) — desktop mission control for AI coding agents: live session monitoring, remote injection, Skill/MCP management & usage ledger. One hub for Claude Code, Codex, OpenCode & more."
     language: "Rust"
     topics:
       - "agent-harness"
@@ -98,9 +98,9 @@ repos:
       - "session-monitoring"
       - "tauri"
       - "usage-tracking"
-    stars_fact: 97
+    stars_fact: 99
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "tuvis-website"
     title: "tuvis-website"
     description: null
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "VideoToDoc-skills"
     title: "VideoToDoc-skills"
     description: "三个协同工作的 Skill，实现从视频到飞书文档的自动化转换。"

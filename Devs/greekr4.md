@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 5, 1, 0, 0, 0, 4, 0, 1, 0, 2, 2, 0]
+pushes_per_week: [5, 0, 1, 0, 0, 0, 4, 0, 1, 0, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7778
-  repo_per_active_day: 0.4444
+  push_per_day: 1.8750
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -65,18 +65,46 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 9
+    pushes_per_repo: 3.7500
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nba-r"
+    title: "nba-r"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "rever-browser"
+    title: "rever-browser"
+    description: "AI agent browser for web reverse engineering"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-agent"
+      - "api-security"
+      - "browser-automation"
+      - "chrome-devtools-protocol"
+      - "cybersecurity"
+      - "deobfuscation"
+      - "devtools"
+      - "hacking"
+      - "mcp"
+      - "reverse-engineering"
+      - "web-scraping"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "playwright-bot-bypass"
     title: "playwright-bot-bypass"
     description: "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)"
@@ -88,44 +116,9 @@ repos:
       - "playwright"
       - "stealth"
       - "web-scraping"
-    stars_fact: 206
+    stars_fact: 205
     first_seen: null
     last_push: "2026-08-27"
-  - name: "rever-browser"
-    title: "rever-browser"
-    description: "AI agent browser for web reverse engineering"
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "api"
-      - "api-security"
-      - "browser-automation"
-      - "chrome-devtools-protocol"
-      - "deobfuscation"
-      - "devtools"
-      - "electron"
-      - "mcp"
-      - "reverse-engineering"
-      - "web-scraping"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "amped-web"
-    title: "amped-web"
-    description: "싱글 겟앰프드(GetAmped 1.0.12)를 CheerpJ+WebGL로 브라우저에서 돌리는 포팅"
-    language: "Java"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "canvas-ui"
-    title: "canvas-ui"
-    description: "HTML-in-Canvas API (drawElementImage) demos & Claude skill"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
   - name: "viruagent-cli"
     title: "viruagent-cli"
     description: "AI agent-powered CLI for blog publishing, Naver Cafe, Instagram, X (Twitter) & Reddit automation"
@@ -150,7 +143,7 @@ repos:
       - "tistory"
       - "twitter"
       - "x-twitter"
-    stars_fact: 42
+    stars_fact: 43
     first_seen: null
     last_push: "2026-09-15"
   - name: "Viruagent"
@@ -158,13 +151,21 @@ repos:
     description: "AI-powered Tistory blog automation from the CLI: an AI Agent handles the entire process from writing and editing to publishing."
     language: "JavaScript"
     topics: []
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
     last_push: "2026-02-20"
+  - name: "shortform-multi-uploader"
+    title: "shortform-multi-uploader"
+    description: "숏폼 멀티 업로더 릴리즈"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # greekr4
 
-16 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/greekr4

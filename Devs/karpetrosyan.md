@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 1, 3, 0, 0, 0, 4, 2, 2, 1, 1, 3, 0]
+pushes_per_week: [0, 1, 3, 0, 0, 1, 3, 2, 3, 1, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 7
+    pushes_per_repo: 1.5000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -95,7 +95,7 @@ repos:
       - "web-caching"
     stars_fact: 417
     first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-11-01"
   - name: "uv-vscode"
     title: "uv-vscode"
     description: "A Visual Studio Code extension with support for the Uv package manager."

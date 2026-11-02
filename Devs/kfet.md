@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [6, 5, 4, 3, 2, 6, 13, 5, 14, 3, 4, 11, 1]
+pushes_per_week: [7, 5, 4, 3, 6, 1, 14, 6, 12, 3, 4, 12, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 7
-    active_days: 11
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,18 +52,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 7
-    pushes_per_repo: 3.0000
-    active_days: 11
+    pushes_per_repo: 2.7143
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -92,7 +92,7 @@ repos:
       - "zulip"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "homebrew-ai"
     title: "homebrew-ai"
     description: "Homebrew tap for fir, poe-acp, slack-acp"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "fir"
     title: "fir"
     description: null
@@ -108,23 +108,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "agent"
-    title: "agent"
-    description: "Small, model-agnostic coding-agent runtime in Go: LLM event loop with retries, steering, follow-ups, abort, thinking-budget clamping, and a standard coding toolbox."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "acp-kit"
-    title: "acp-kit"
-    description: "Reusable Go packages for ACP-backed chat relays (client, skills, attachments, state, sysprompt, log, paths)."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "fir-exts"
     title: "fir-exts"
     description: "fir extensions monorepo"
@@ -132,7 +116,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "acp-router"
+    title: "acp-router"
+    description: "ACP-to-ACP router: one ACP agent upstream, pluggable per-user/policy routing downstream"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "poe-acp"
+    title: "poe-acp"
+    description: "HTTP relay between Poe server bots and ACP-speaking agents"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # kfet

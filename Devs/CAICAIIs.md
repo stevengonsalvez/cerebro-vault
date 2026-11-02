@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 1, 3, 1, 8, 5, 6, 6, 2, 5, 2, 0]
+pushes_per_week: [1, 1, 2, 2, 4, 5, 6, 6, 6, 2, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 2
-    active_days: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 9
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-09-29"
-  - name: "Auto-Scholar"
-    title: "Auto-Scholar"
-    description: "AI-powered literature review generator with human-in-the-loop workflow. Enter a research topic, approve papers, and get well-cited academic reviews in minutes."
-    language: "Python"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-03-11"
+    last_push: "2026-10-31"
   - name: "rag-ingestion-gateway"
     title: "rag-ingestion-gateway"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-09-07"
+  - name: "LLM-issue"
+    title: "LLM-issue"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-26"
 ---
 
 # CAICAIIs

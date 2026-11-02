@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 4, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 4, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,15 +86,15 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "datamesh"
-    title: "datamesh"
-    description: "DataMesh DCIM -- Data Center Infrastructure Management"
-    language: "Python"
+    last_push: "2026-11-02"
+  - name: "resumes"
+    title: "resumes"
+    description: "resumes about my person"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-30"
   - name: "clerk"
     title: "clerk"
     description: "Fast, end-to-end local pipeline for meeting audio/video transcription and structured summary generation using faster-whisper and local Ollama LLMs."
@@ -105,7 +105,23 @@ repos:
       - "transcriptions"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-30"
+  - name: "frequencia-matrix-easy"
+    title: "frequencia-matrix-easy"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "datamesh"
+    title: "datamesh"
+    description: "DataMesh DCIM -- Data Center Infrastructure Management"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "aws-estacionamento"
     title: "aws-estacionamento"
     description: null
@@ -114,22 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-05"
-  - name: "dockerfiles"
-    title: "dockerfiles"
-    description: null
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "sockets_udp_tcp"
-    title: "sockets_udp_tcp"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-12"
 ---
 
 # ArtroxGabriel

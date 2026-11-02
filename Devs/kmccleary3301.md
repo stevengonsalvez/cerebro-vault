@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 18, 7, 7, 2, 1, 2, 10, 3, 0, 6, 3, 0]
+pushes_per_week: [6, 18, 7, 9, 0, 1, 2, 11, 2, 1, 5, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 65
     distinct_repos: 5
     active_days: 28
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4286
+  push_per_day: 2.3214
   repo_per_active_day: 0.1786
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 65
     distinct_repos: 5
-    pushes_per_repo: 13.6000
+    pushes_per_repo: 13.0000
     active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "drift_models"
+    title: "drift_models"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-03-05"
   - name: "stream-mdx"
     title: "stream-mdx"
     description: "A Fast and Fully Configurable MDX Stream Renderer"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-27"
   - name: "nested_learning"
     title: "nested_learning"
     description: "A Reproduction of GDM's Nested Learning Paper"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-03-09"
-  - name: "drift_models"
-    title: "drift_models"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-03-05"
   - name: "transcript_viewer"
     title: "transcript_viewer"
     description: "Generalized offline viewer and static HTML compiler for AI agent traces (OMP, ATIF, Claude Code, Codex, OpenHands, Terminus, Harbor)"
@@ -129,6 +129,6 @@ repos:
 
 # kmccleary3301
 
-68 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
+65 pushes across 5 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kmccleary3301

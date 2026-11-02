@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [8, 4, 0, 4, 1, 0, 2, 6, 5, 5, 6, 0, 0]
+pushes_per_week: [7, 4, 0, 5, 0, 0, 3, 7, 3, 9, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 7
-    active_days: 25
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6400
-  repo_per_active_day: 0.2800
+  push_per_day: 1.6667
+  repo_per_active_day: 0.2917
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 7
-    pushes_per_repo: 5.8571
-    active_days: 25
+    pushes_per_repo: 5.7143
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-hfspace"
@@ -82,7 +82,7 @@ repos:
     description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
     language: "TypeScript"
     topics: []
-    stars_fact: 390
+    stars_fact: 389
     first_seen: null
     last_push: "2025-06-13"
   - name: "fast-agent"
@@ -102,15 +102,15 @@ repos:
       - "python"
       - "skills"
       - "tui"
-    stars_fact: 3949
+    stars_fact: 3954
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "mcp-webcam"
     title: "mcp-webcam"
     description: "Capture live images from your webcam with a tool or resource request"
     language: "TypeScript"
     topics: []
-    stars_fact: 125
+    stars_fact: 126
     first_seen: null
     last_push: "2025-10-22"
   - name: "mcp-miro"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-41 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+40 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

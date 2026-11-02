@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 4, 3, 7, 2, 8, 11, 9, 16, 12, 12, 5, 0]
+pushes_per_week: [5, 5, 5, 4, 6, 5, 10, 9, 18, 16, 6, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
-    distinct_repos: 17
-    active_days: 15
+    pushes: 34
+    distinct_repos: 16
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 28
-    active_days: 42
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2619
-  repo_per_active_day: 0.6667
+  push_per_day: 2.2927
+  repo_per_active_day: 0.6829
   not_owned_ratio: 0.0357
   basename_concentration: 0.0714
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
-    distinct_repos: 17
-    pushes_per_repo: 2.1765
-    active_days: 15
+    pushes: 34
+    distinct_repos: 16
+    pushes_per_repo: 2.1250
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 28
-    pushes_per_repo: 3.3929
-    active_days: 42
+    pushes_per_repo: 3.3571
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RepoWiki"
@@ -176,6 +176,6 @@ repos:
 
 # he-yufeng
 
-95 pushes across 28 repositories on 42 active days in the last 90 days of public GitHub push activity.
+94 pushes across 28 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/he-yufeng

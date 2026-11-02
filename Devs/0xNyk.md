@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [0, 9, 0, 0, 0, 0, 51, 27, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 9, 0, 0, 0, 1, 50, 27, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,38 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lacp"
+    title: "lacp"
+    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
+    language: "Shell"
+    topics:
+      - "agent-harness"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "control-plane"
+      - "hermes"
+      - "local-first"
+    stars_fact: 307
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "0xNyk"
+    title: "0xNyk"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "ai-agents"
+      - "builderz"
+      - "defi"
+      - "github-profile"
+      - "rust"
+      - "solana"
+      - "trading"
+      - "typescript"
+      - "web3"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "council-of-high-intelligence"
     title: "council-of-high-intelligence"
     description: "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode."
@@ -97,9 +129,9 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4708
+    stars_fact: 4737
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "awesome-hermes-agent"
     title: "awesome-hermes-agent"
     description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
@@ -115,43 +147,9 @@ repos:
       - "memory"
       - "nous-research"
       - "skills"
-    stars_fact: 5901
+    stars_fact: 5941
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "0xNyk"
-    title: "0xNyk"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "ai-agents"
-      - "builderz"
-      - "defi"
-      - "github-profile"
-      - "rust"
-      - "solana"
-      - "trading"
-      - "typescript"
-      - "web3"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "awesome-agent-cortex"
-    title: "awesome-agent-cortex"
-    description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
-    language: "JavaScript"
-    topics:
-      - "agent-memory"
-      - "agent-security"
-      - "agentic-ai"
-      - "ai-agents"
-      - "awesome"
-      - "awesome-list"
-      - "knowledge-graphs"
-      - "mcp"
-      - "solana"
-    stars_fact: 229
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-27"
   - name: "agent-security"
     title: "agent-security"
     description: "Deterministic safety gates for repositories touched by coding agents and automation."
@@ -164,26 +162,15 @@ repos:
       - "supply-chain-security"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-09-22"
-  - name: "xint"
-    title: "xint"
-    description: "Local-first X Intelligence CLI for search, monitoring, analysis, exports, OAuth actions, and agent tooling."
+    last_push: "2026-11-01"
+  - name: "llmquota"
+    title: "llmquota"
+    description: "Fun terminal roster for Claude / Codex / Cursor / Grok rate limits"
     language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "bun"
-      - "claude"
-      - "cli"
-      - "openclaw"
-      - "openclaw-skill"
-      - "osint"
-      - "skill"
-      - "twitter"
-      - "typescript"
-      - "x"
-    stars_fact: 255
+    topics: []
+    stars_fact: 55
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-05"
 ---
 
 # 0xNyk

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 4, 2, 4, 3, 2, 9, 6, 27, 6, 2, 3, 0]
+pushes_per_week: [6, 3, 2, 6, 2, 1, 9, 10, 23, 6, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 7
     active_days: 6
     repos_not_owned: 3
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.2857
+    pushes_per_repo: 2.1429
     active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nihongo-ride-app"
+    title: "nihongo-ride-app"
+    description: "Nihongo Ride — Japanese typing-practice app for macOS & iOS (private source)"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "nihongo-ride"
+    title: "nihongo-ride"
+    description: "Nihongo Ride — macOS Japanese typing-practice app. Site, privacy policy & support."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "RoastMate"
     title: "RoastMate"
     description: "RoastMate — On-device AI for witty, safe self-expression"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "stride-site"
     title: "stride-site"
     description: "Stride - Habit Tracker legal and support pages"
@@ -100,23 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "nihongo-ride-app"
-    title: "nihongo-ride-app"
-    description: "Nihongo Ride — Japanese typing-practice app for macOS & iOS (private source)"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "Soundpost"
-    title: "Soundpost"
-    description: "Soundpost — capture how a moment sounds, seal it, and let your future self open it like a postcard. SwiftUI / SwiftData / StoreKit 2 / CloudKit."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-10-26"
 ---
 
 # JasonYeYuhe

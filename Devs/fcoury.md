@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -38,7 +38,7 @@ provenance:
   - "cf565721454d59f8"
   - "e26852201e6f38fc"
   - "f4325bf458dce49e"
-pushes_per_week: [3, 26, 7, 1, 0, 0, 1, 6, 2, 0, 4, 2, 0]
+pushes_per_week: [2, 30, 3, 1, 0, 0, 1, 8, 0, 1, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -55,18 +55,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 7
-    active_days: 18
+    pushes: 51
+    distinct_repos: 6
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 0.3889
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.1429
+  push_per_day: 3.0000
+  repo_per_active_day: 0.3529
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -91,42 +91,26 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
-    distinct_repos: 7
-    pushes_per_repo: 7.4286
-    active_days: 18
+    pushes: 51
+    distinct_repos: 6
+    pushes_per_repo: 8.5000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 27 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "config"
-    title: "config"
+  - name: "quickchat"
+    title: "quickchat"
     description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "tsql"
-    title: "tsql"
-    description: "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
-    language: "Rust"
-    topics: []
-    stars_fact: 466
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "local-models"
-    title: "local-models"
-    description: null
-    language: "Shell"
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-31"
   - name: "oxide"
     title: "oxide"
     description: ":floppy_disk: Teach your PostgreSQL database how to speak MongoDB Wire Protocol"
@@ -139,27 +123,43 @@ repos:
       - "rust"
     stars_fact: 286
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "zmk-config"
-    title: "zmk-config"
+    last_push: "2026-10-30"
+  - name: "tsql"
+    title: "tsql"
+    description: "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
+    language: "Rust"
+    topics: []
+    stars_fact: 467
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "fracturedjson-rs"
+    title: "fracturedjson-rs"
     description: null
-    language: "C"
+    language: "Rust"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-01-17"
+  - name: "config"
+    title: "config"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "local-models"
+    title: "local-models"
+    description: null
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "knuckles"
-    title: "knuckles"
-    description: "An open-source, wireless column-staggered ergonomic keyboard."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-22"
 ---
 
 # fcoury
 
-52 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+51 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

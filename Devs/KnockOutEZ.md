@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [2, 25, 12, 6, 0, 5, 0, 3, 0, 0, 0, 4, 0]
+pushes_per_week: [1, 24, 17, 1, 4, 1, 2, 1, 0, 0, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 2
-    active_days: 19
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.1053
+  push_per_day: 3.2353
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 2
-    pushes_per_repo: 28.5000
-    active_days: 19
+    pushes_per_repo: 27.5000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wigolo"
@@ -153,6 +153,6 @@ repos:
 
 # KnockOutEZ
 
-57 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+55 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/KnockOutEZ

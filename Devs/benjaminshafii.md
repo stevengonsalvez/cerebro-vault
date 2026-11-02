@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [7, 14, 2, 6, 15, 11, 19, 49, 30, 15, 16, 3, 0]
+pushes_per_week: [8, 15, 2, 4, 15, 11, 25, 44, 34, 11, 15, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
+    pushes: 38
     distinct_repos: 1
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
+    pushes: 38
     distinct_repos: 1
-    pushes_per_repo: 49.0000
-    active_days: 15
+    pushes_per_repo: 38.0000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-browser"
+    title: "opencode-browser"
+    description: "Browser automation for OpenCode via Chrome extension. Inspired by Claude in Chrome."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-01-04"
   - name: "digital-empire"
     title: "digital-empire"
     description: "OpenWork config for me and my family"
@@ -88,14 +96,6 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-02-08"
-  - name: "opencode-browser"
-    title: "opencode-browser"
-    description: "Browser automation for OpenCode via Chrome extension. Inspired by Claude in Chrome."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-01-04"
   - name: "mintlify-docs"
     title: "mintlify-docs"
     description: null

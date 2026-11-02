@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 23, 5, 0, 0, 1, 2, 3, 12, 1, 0, 0, 0]
+pushes_per_week: [5, 22, 2, 0, 0, 2, 1, 5, 11, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,19 +80,27 @@ repos:
   - name: "omp-ulw"
     title: "omp-ulw"
     description: "Native ULW workflows and model prompts for OMP"
-    language: "JavaScript"
+    language: "TypeScript"
     topics: []
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "FEX-darwin"
-    title: "FEX-darwin"
-    description: "Darwin/Wine integration of FEX Windows emulation modules for ARM64-native macOS"
+    last_push: "2026-11-01"
+  - name: "opencode-kv-guard"
+    title: "opencode-kv-guard"
+    description: "KV cache pressure mitigation and rolling compaction for OpenCode 1.19.4 with LiteLLM and vLLM"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "D3Dalloy"
+    title: "D3Dalloy"
+    description: "D3D12-to-Metal translator for Wine on macOS"
     language: "C++"
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-01"
   - name: "web-gpt-agent"
     title: "web-gpt-agent"
     description: "Durable desktop agents driven by ChatGPT Web over MCP"
@@ -100,31 +108,23 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-01"
+  - name: "FEX-darwin"
+    title: "FEX-darwin"
+    description: "Darwin/Wine integration of FEX Windows emulation modules for ARM64-native macOS"
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "kiro-native-omp"
     title: "kiro-native-omp"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "muse-discord-gateway"
-    title: "muse-discord-gateway"
-    description: "Isolated Discord gateway deployment (bot + insane-search engine + AI promo scanner)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "dot-gateway"
-    title: "dot-gateway"
-    description: "Source and recovery documentation for the native Go gateway and public-source search tools. Runtime data and credentials excluded."
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-11-01"
 ---
 
 # dbc-hbin

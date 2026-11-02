@@ -9,24 +9,24 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 1, 0, 0, 7, 9, 43, 14, 5, 3, 22, 26]
+pushes_per_week: [0, 1, 1, 0, 5, 4, 11, 43, 11, 5, 2, 48, 0]
 windows:
   "7d":
-    pushes: 42
-    distinct_repos: 2
-    active_days: 2
+    pushes: 8
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 12
-    active_days: 13
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 57
+    distinct_repos: 10
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 131
@@ -49,20 +49,20 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 42
-    distinct_repos: 2
-    pushes_per_repo: 21.0000
-    active_days: 2
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
-    distinct_repos: 12
-    pushes_per_repo: 5.0000
-    active_days: 13
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 57
+    distinct_repos: 10
+    pushes_per_repo: 5.7000
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 131
@@ -84,7 +84,42 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "thio.cc.cd"
+    title: "thio.cc.cd"
+    description: "blog:"
+    language: "Vue"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "AdbPureFlow"
+    title: "AdbPureFlow"
+    description: "Lightweight Go utility to automate Android APK lifecycle: setup ADB, install, auto-detect package ID, and perform clean uninstalls."
+    language: "Go"
+    topics:
+      - "apk"
+      - "go"
+      - "scrcpy"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "tugasnyawit"
+    title: "tugasnyawit"
+    description: "Aplikasi pengatur tugas ringan (buatan claude-ai) dengan menggunakan bahasa pemograman parodi (SawitLang by RedStoneCraftGG)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "ANTO-LTG"
+    title: "ANTO-LTG"
+    description: "Lightweight, dependency-free Frutiger Aero technician platform & software catalog with WinGet generator, driver finder, and guides."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "kontekstual"
     title: "kontekstual"
     description: "Word-based Indonesian programming language. Terinspirasi dari cara penyampaian Tenaga Pendidik kami di SMKN 4 Banjarmasin, Bapak Hidayatullah, S.Kom."
@@ -93,41 +128,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "ANTO-LTG"
-    title: "ANTO-LTG"
-    description: "Lightweight, dependency-free Frutiger Aero technician platform & software catalog with WinGet generator, driver finder, and guides."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "resontune"
-    title: "resontune"
-    description: "Community-driven music platform, without the paywall."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "thio.cc.cd"
-    title: "thio.cc.cd"
-    description: "blog:"
-    language: "Vue"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "NovaUi-Web-Downloads"
-    title: "NovaUi-Web-Downloads"
-    description: "downloader blud"
-    language: "JavaScript"
-    topics:
-      - "geode-sdk"
-      - "geometry-dash"
-      - "texture-pack"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # flessan

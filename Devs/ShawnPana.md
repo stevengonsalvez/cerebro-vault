@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [1, 4, 4, 0, 0, 0, 2, 8, 0, 2, 1, 0, 0]
+pushes_per_week: [4, 1, 4, 0, 0, 0, 2, 8, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,28 +79,30 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "phone-harness"
-    title: "phone-harness"
-    description: "let your agent control your phone"
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "automation"
-      - "developer-tools"
-      - "mobile-ai"
-      - "mobile-development"
-    stars_fact: 3946
+  - name: "aurl"
+    title: "aurl"
+    description: "A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection."
+    language: "Go"
+    topics: []
+    stars_fact: 169
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-03-21"
   - name: "smux"
     title: "smux"
     description: "tmux config with built-in terminal automation and agent-to-agent communication."
     language: "Shell"
     topics: []
-    stars_fact: 1532
+    stars_fact: 1533
     first_seen: null
     last_push: "2026-10-05"
+  - name: "ShawnPana"
+    title: "ShawnPana"
+    description: "profile-maxxing"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "screenstudio-cli"
     title: "screenstudio-cli"
     description: "an agent-ready CLI tool to automate Screen Studio"
@@ -115,14 +117,6 @@ repos:
     language: "JavaScript"
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "ShawnPana"
-    title: "ShawnPana"
-    description: "profile-maxxing"
-    language: null
-    topics: []
-    stars_fact: 2
     first_seen: null
     last_push: "2026-10-12"
   - name: "shanframe"

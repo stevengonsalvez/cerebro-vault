@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [4, 4, 0, 0, 1, 1, 4, 15, 6, 7, 4, 2, 0]
+pushes_per_week: [4, 4, 0, 0, 1, 1, 7, 15, 5, 9, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 6
+    pushes: 15
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 6
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "carimbo"
+    title: "carimbo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "de-la-do-para"
+    title: "de-la-do-para"
+    description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "Gaalbu"
     title: "Gaalbu"
     description: null
@@ -109,22 +125,6 @@ repos:
     last_push: "2026-10-18"
   - name: "conty-views-humanas"
     title: "conty-views-humanas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "conty-rastreio-produto"
-    title: "conty-rastreio-produto"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "conty-origem-cadastro"
-    title: "conty-origem-cadastro"
     description: null
     language: "TypeScript"
     topics: []

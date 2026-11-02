@@ -10,23 +10,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [6, 11, 2, 3, 0, 20, 36, 11, 21, 9, 6, 25, 0]
+pushes_per_week: [8, 9, 3, 2, 5, 28, 27, 7, 29, 2, 9, 21, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 11
-    active_days: 13
+    active_days: 12
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 4
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 11
-    pushes_per_repo: 4.8182
-    active_days: 13
+    pushes_per_repo: 4.6364
+    active_days: 12
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 4
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "yoonmoon"
     title: "yoonmoon"
     description: "한글 AI 글 윤문·탐지 Claude Code 플러그인 — AI가 쓴 한국어를 사람처럼 윤문하고 AI 작성 여부를 진단"
@@ -98,7 +98,7 @@ repos:
       - "humanize"
       - "korean"
       - "llm-detection"
-    stars_fact: 17
+    stars_fact: 18
     first_seen: null
     last_push: "2026-09-11"
   - name: "vercel-action"

@@ -12,7 +12,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "47417b643909abb5"
   - "afe9ef77456d9360"
@@ -86,23 +86,15 @@ repos:
     description: "Codex++ tweak system for the Codex desktop app"
     language: "JavaScript"
     topics: []
-    stars_fact: 3768
+    stars_fact: 3772
     first_seen: "2026-10-16T08:25:05.455247+00:00"
     last_push: "2026-10-15"
-  - name: "codex-apple-watch"
-    title: "codex-apple-watch"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-05-24"
   - name: "codex-subscription-router"
     title: "codex-subscription-router"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 414
+    stars_fact: 413
     first_seen: "2026-09-04T06:00:06.750937+00:00"
     last_push: "2026-10-11"
   - name: "codex-plusplus-ios-simulator"
@@ -110,9 +102,17 @@ repos:
     description: "iOS Simulator tweak for Codex++ — embeds a headless, mirrored simulator in Codex's right panel."
     language: "JavaScript"
     topics: []
-    stars_fact: 571
+    stars_fact: 570
     first_seen: null
     last_push: "2026-05-07"
+  - name: "codex-apple-watch"
+    title: "codex-apple-watch"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-05-24"
   - name: "electron-extensions"
     title: "electron-extensions"
     description: "Signed update feed for Extensions Anywhere for macOS. No public app release is available yet."

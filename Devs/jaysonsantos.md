@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 1, 0, 0, 0, 3, 8, 23, 6, 3, 8, 10, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 2, 8, 23, 7, 5, 5, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "thinwire"
+    title: "thinwire"
+    description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "bunderwar"
+    title: "bunderwar"
+    description: "My up-to date docker images with renovate and arm64/amd64 support"
+    language: "Earthly"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "hermes-deepgram-voice-plugin"
     title: "hermes-deepgram-voice-plugin"
     description: "Deepgram Aura TTS and Nova STT plugin for Hermes Agent"
@@ -85,22 +101,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-06"
-  - name: "thinwire"
-    title: "thinwire"
-    description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "bunderwar"
-    title: "bunderwar"
-    description: "My up-to date docker images with renovate and arm64/amd64 support"
-    language: "Earthly"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "python-binary-memcached"
     title: "python-binary-memcached"
     description: "A pure python module (thread safe) to access memcached via it's binary protocol with SASL auth support."
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 167
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-27"
   - name: "beno-arena"
     title: "beno-arena"
     description: "Multiplayer snake game written in beni, with Cloudflare Workers and Durable Objects."
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
 ---
 
 # jaysonsantos

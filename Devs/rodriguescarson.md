@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 1, 0, 0, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,28 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "inkrepro"
+    title: "inkrepro"
+    description: "How much of an ink prediction survives changing the checkpoint? Full-population reproducibility check over the Vesuvius eligible-scroll atlas. No GPU, no inference."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "refundly"
+    title: "refundly"
+    description: "An AI agent that refunds and cancels through PayPal, and never says done until PayPal's own ledger agrees. PayPal AI Hackathon."
+    language: "HTML"
+    topics:
+      - "agentic-commerce"
+      - "ai-agents"
+      - "google-adk"
+      - "openrouter"
+      - "paypal"
+      - "verification"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "gemma-swe-agent"
     title: "gemma-swe-agent"
     description: null
@@ -85,7 +107,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-30"
+  - name: "earshot"
+    title: "earshot"
+    description: "Live AI audio-described football commentary for blind fans (Inside the Game hackathon)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "headliner"
     title: "headliner"
     description: "Check a live-show offer before you sign it: deterministic deal math, cultural evidence from the Qloo API, and an explicit list of what no data can tell you."
@@ -101,7 +131,7 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-26"
   - name: "attest-fleet"
     title: "attest-fleet"
     description: "Governed multi-agent fleet on Gemini 3.5 + ADK that verifies every claim against the system of record and measures the silent-failure rate. All Things Agentic Hackathon."
@@ -110,30 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "inkrepro"
-    title: "inkrepro"
-    description: "How much of an ink prediction survives changing the checkpoint? Full-population reproducibility check over the Vesuvius eligible-scroll atlas. No GPU, no inference."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "mcp-patterns-icsme2026"
-    title: "mcp-patterns-icsme2026"
-    description: "Replication package for: MCP Server Architecture Patterns for LLM-Integrated Applications (ICSME 2026 Industry Track)"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "scripty"
-    title: "scripty"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # rodriguescarson

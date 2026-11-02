@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 3, 5, 3, 0, 2, 1, 0, 0, 2, 1, 3, 0]
+pushes_per_week: [0, 3, 8, 0, 0, 3, 0, 0, 0, 3, 0, 3, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -100,9 +100,17 @@ repos:
       - "motion-graphics"
       - "typescript"
       - "video-editing"
-    stars_fact: 7
+    stars_fact: 11
     first_seen: null
     last_push: "2026-10-23"
+  - name: "pre-motion"
+    title: "pre-motion"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "ambibulb"
     title: "ambibulb"
     description: null
@@ -110,7 +118,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "dropair"
     title: "dropair"
     description: "A simple file sharing application with CLI support for easy global access. Upload, share, and download files with QR code generation."
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "ps-mcp"
-    title: "ps-mcp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "thecut"
     title: "thecut"
     description: "Agentic video editing new age of software."

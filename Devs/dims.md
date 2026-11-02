@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 4, 2, 0, 0, 1, 2, 31, 7, 3, 19, 13, 0]
+pushes_per_week: [2, 5, 1, 0, 0, 1, 2, 33, 5, 5, 20, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 15
-    active_days: 30
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.8667
-  repo_per_active_day: 0.5000
+  push_per_day: 2.8966
+  repo_per_active_day: 0.5172
   not_owned_ratio: 0.2000
   basename_concentration: 0.0667
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 15
-    pushes_per_repo: 5.7333
-    active_days: 30
+    pushes_per_repo: 5.6000
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "openshell-driver-substrate"
+    title: "openshell-driver-substrate"
+    description: "OpenShell ComputeDriver targeting Agent Substrate (gVisor + checkpoint/restore via runsc) plus the substrate-aware supervisor wrapper binary"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "notepad"
     title: "notepad"
     description: "Classic Windows Notepad in a Chrome tab. One folder, no build step, no dependencies, no network."
@@ -104,15 +112,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "openshell-driver-substrate"
-    title: "openshell-driver-substrate"
-    description: "OpenShell ComputeDriver targeting Agent Substrate (gVisor + checkpoint/restore via runsc) plus the substrate-aware supervisor wrapper binary"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-11-02"
   - name: "skills"
     title: "skills"
     description: null
@@ -133,6 +133,6 @@ repos:
 
 # dims
 
-86 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
+84 pushes across 15 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dims

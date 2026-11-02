@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [23, 19, 0, 1, 0, 0, 3, 2, 3, 1, 1, 2, 0]
+pushes_per_week: [33, 9, 1, 0, 0, 0, 3, 3, 3, 0, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ietf-draft"
+    title: "ietf-draft"
+    description: "IETF draft editor page"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "nat46"
+    title: "nat46"
+    description: "OpenWRT feed with stateless NAT46 kernel module"
+    language: "C"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "vpp-relops"
+    title: "vpp-relops"
+    description: "Random VPP release-relatest stuff"
+    language: "Perl"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "bot-or-not"
+    title: "bot-or-not"
+    description: "An experiment in assessing the LLM-ness of a text"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "checksum"
     title: "checksum"
     description: "test"
@@ -93,38 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-13"
-  - name: "nat46"
-    title: "nat46"
-    description: "OpenWRT feed with stateless NAT46 kernel module"
-    language: "C"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "homegui"
-    title: "homegui"
-    description: "A simple web GUI + automation to work with zigbee2mqtt"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "aycalc"
-    title: "aycalc"
-    description: "A very simple embeddable calculator"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-03-19"
-  - name: "vpp-relops"
-    title: "vpp-relops"
-    description: "Random VPP release-relatest stuff"
-    language: "Perl"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # ayourtch

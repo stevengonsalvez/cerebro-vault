@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 14, 3, 5, 1, 0, 1, 1, 1, 0, 4, 2, 1]
+pushes_per_week: [3, 14, 7, 1, 1, 0, 1, 1, 1, 1, 4, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
+  - name: "cardamom"
+    title: "cardamom"
+    description: "Work tracker for agents with visibility for humans."
+    language: "Go"
     topics: []
-    stars_fact: 0
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "git-spice"
     title: "git-spice"
     description: "Manage stacked Git branches"
@@ -92,9 +92,25 @@ repos:
     topics:
       - "developer-tools"
       - "git"
-    stars_fact: 779
+    stars_fact: 778
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "home"
+    title: "home"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "test-repo"
     title: "test-repo"
     description: "Repository used to test https://github.com/abhinav/git-spice"
@@ -112,24 +128,7 @@ repos:
       - "markdown"
     stars_fact: 34
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "temp.zig"
-    title: "temp.zig"
-    description: "Create temporary files and directories"
-    language: "Zig"
-    topics:
-      - "zig"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "home"
-    title: "home"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
 ---
 
 # abhinav

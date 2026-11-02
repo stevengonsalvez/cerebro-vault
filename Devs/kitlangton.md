@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [21, 72, 7, 17, 2, 0, 11, 2, 18, 16, 15, 106, 13]
+pushes_per_week: [22, 73, 8, 16, 0, 0, 11, 2, 27, 8, 28, 105, 0]
 windows:
   "7d":
-    pushes: 39
-    distinct_repos: 5
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 164
+    pushes: 159
     distinct_repos: 16
-    active_days: 18
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
-    distinct_repos: 5
-    pushes_per_repo: 7.8000
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 164
+    pushes: 159
     distinct_repos: 16
-    pushes_per_repo: 10.2500
-    active_days: 18
+    pushes_per_repo: 9.9375
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
@@ -77,14 +77,6 @@ reasons:
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ghui"
-    title: "ghui"
-    description: "A GitHub TUI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1126
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "scrawl"
     title: "scrawl"
     description: "Show an agent a problem: mark up, record, send"
@@ -99,35 +91,41 @@ repos:
       - "opencode"
       - "rust"
       - "screen-recording"
-    stars_fact: 750
+    stars_fact: 847
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "visual-effect"
-    title: "visual-effect"
-    description: "Interactive Effect Visualizations"
-    language: "TypeScript"
-    topics:
-      - "effect"
-      - "examples"
-      - "tutorial"
-      - "typescript"
-    stars_fact: 1167
-    first_seen: null
-    last_push: "2026-07-06"
-  - name: "stack"
-    title: "stack"
-    description: null
+    last_push: "2026-11-01"
+  - name: "opencode-bloom"
+    title: "opencode-bloom"
+    description: "Generate animated videos of your local OpenCode V2 sessions."
     language: "TypeScript"
     topics: []
-    stars_fact: 542
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-08-28"
+    last_push: "2026-10-06"
+  - name: "skills"
+    title: "skills"
+    description: "Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye."
+    language: null
+    topics:
+      - "effect"
+      - "skills"
+    stars_fact: 354
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "psychopomp"
     title: "psychopomp"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 410
+    stars_fact: 417
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "ghui"
+    title: "ghui"
+    description: "A GitHub TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1131
     first_seen: null
     last_push: "2026-10-25"
   - name: "2password"
@@ -140,7 +138,7 @@ repos:
       - "ai-agents"
       - "cli"
       - "secrets"
-    stars_fact: 312
+    stars_fact: 317
     first_seen: null
     last_push: "2026-10-04"
 ---

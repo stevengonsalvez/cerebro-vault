@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 6, 0, 0, 0, 2, 1, 10, 16, 18, 6, 1, 0]
+pushes_per_week: [2, 6, 0, 0, 0, 2, 1, 12, 17, 18, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 33
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 33
     distinct_repos: 5
-    pushes_per_repo: 7.4000
-    active_days: 10
+    pushes_per_repo: 6.6000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agents"
-    title: "agents"
-    description: "Configurations for LLM Harnesses"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "nurpkgs"
     title: "nurpkgs"
     description: "annt's personal NUR (nixpkgs) repository"
@@ -92,7 +84,52 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "fmike"
+    title: "fmike"
+    description: "Windows tray toggle for a deliberately bad \"funny mic\" via Voicemeeter Banana, plus one-click speaker/headset switching."
+    language: "Python"
+    topics:
+      - "audio"
+      - "discord"
+      - "microphone"
+      - "python"
+      - "tray"
+      - "uv"
+      - "voicemeeter"
+      - "voicemeeter-banana"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "steamctl"
+    title: "steamctl"
+    description: "Control the running Steam desktop client (friends, voice calls, ring loops) from a CLI or native WebView2 window, via Steam's CEF DevTools port. Windows, Bun, Effect."
+    language: "TypeScript"
+    topics:
+      - "automation"
+      - "bun"
+      - "cdp"
+      - "chrome-devtools-protocol"
+      - "cli"
+      - "effect-ts"
+      - "steam"
+      - "steam-client"
+      - "typescript"
+      - "voice-chat"
+      - "webview2"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "agents"
+    title: "agents"
+    description: "Configurations for LLM Harnesses"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "_nixrice"
     title: "_nixrice"
     description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
@@ -102,46 +139,15 @@ repos:
       - "nix"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "aoc-rs"
-    title: "aoc-rs"
-    description: "Advent of Code, in Rust"
-    language: "Rust"
+    last_push: "2026-10-30"
+  - name: "opifex"
+    title: "opifex"
+    description: "Which coding model, at which reasoning effort, is worth the money? An offline chart of Artificial Analysis benchmark data."
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew formulae and casks"
-    language: "Ruby"
-    topics:
-      - "cask"
-      - "homebrew"
-      - "homebrew-cask"
-      - "homebrew-tap"
-      - "macos"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "Melaffeine"
-    title: "Melaffeine"
-    description: "Lightweight native macOS menu-bar utility & CLI to prevent sleep using IOKit assertions. 100% Rust with modern objc2 bindings."
-    language: "Rust"
-    topics:
-      - "appkit"
-      - "caffeine"
-      - "cli"
-      - "iokit"
-      - "macos"
-      - "menu-bar"
-      - "nix"
-      - "objc2"
-      - "rust"
-      - "sleep-prevention"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-29"
 ---
 
 # anntnzrb

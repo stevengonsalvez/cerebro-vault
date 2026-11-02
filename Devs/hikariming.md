@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 9, 5, 1, 1, 3, 6, 11, 17, 2, 4, 2, 0]
+pushes_per_week: [1, 11, 3, 2, 1, 2, 6, 13, 16, 4, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 8
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,25 @@ reasons:
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dshfind"
+    title: "dshfind"
+    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
+    language: "JavaScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+    stars_fact: 350
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "openkoto"
+    title: "openkoto"
+    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
+    language: "Swift"
+    topics: []
+    stars_fact: 470
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "ghfind"
     title: "ghfind"
     description: "Discover the best developers — and become one. Drop a GitHub handle for a 0–100 value & trust score in 30s: see your gaps, discover top devs, get found. Exposes PR farmers, AI bots & fork-hoarders. Deterministic scoring, self-hostable."
@@ -94,28 +113,17 @@ repos:
       - "openai"
       - "roast"
       - "trust-score"
-    stars_fact: 264
+    stars_fact: 280
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "openkoto"
-    title: "openkoto"
-    description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
-    language: "Swift"
+    last_push: "2026-11-01"
+  - name: "dsdock"
+    title: "dsdock"
+    description: "DeepSeek Harness 的外部管理器：DSH 版本管理、插件安全安装、快照回滚与救援"
+    language: "Go"
     topics: []
-    stars_fact: 466
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "dshfind"
-    title: "dshfind"
-    description: "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices"
-    language: "TypeScript"
-    topics:
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-    stars_fact: 324
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
   - name: "AIWolfGame"
     title: "AIWolfGame"
     description: "AI狼人杀"
@@ -135,14 +143,6 @@ repos:
     stars_fact: 1191
     first_seen: null
     last_push: "2025-05-03"
-  - name: "hikariming"
-    title: "hikariming"
-    description: "GitHub profile README for akou — AI builder, product research, and open source projects."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
 ---
 
 # hikariming

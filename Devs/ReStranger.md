@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 2, 3, 1, 1, 0, 5, 3, 8, 4, 1, 1, 0]
+pushes_per_week: [1, 4, 2, 1, 0, 0, 5, 4, 8, 3, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 8
+    pushes: 9
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 7
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3478
-  repo_per_active_day: 0.3043
+  push_per_day: 1.3636
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 4
+    pushes: 9
+    distinct_repos: 3
     pushes_per_repo: 3.0000
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 7
-    pushes_per_repo: 4.4286
-    active_days: 23
+    pushes_per_repo: 4.2857
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nixos-config"
@@ -129,6 +129,6 @@ repos:
 
 # ReStranger
 
-31 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
+30 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReStranger

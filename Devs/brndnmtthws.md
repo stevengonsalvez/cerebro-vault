@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 7, 73, 3, 0, 5, 1, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 4, 4, 74, 2, 0, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -90,9 +90,66 @@ repos:
       - "strategy"
       - "thetagang"
       - "trading-bot"
-    stars_fact: 2755
+    stars_fact: 2763
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-28"
+  - name: "conky"
+    title: "conky"
+    description: "Light-weight system monitor for X, Wayland, and other things, too"
+    language: "C++"
+    topics:
+      - "c-plus-plus"
+      - "cairo"
+      - "conky"
+      - "imlib2"
+      - "linux"
+      - "lua"
+      - "system-monitoring"
+      - "wayland"
+    stars_fact: 8550
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "omp-council"
+    title: "omp-council"
+    description: "Multi-model council for oh-my-pi: several models debate one problem until they unanimously accept and independently verify one proposal"
+    language: "TypeScript"
+    topics:
+      - "consensus"
+      - "llm"
+      - "multi-agent"
+      - "oh-my-pi"
+      - "omp"
+      - "omp-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "omp-referee"
+    title: "omp-referee"
+    description: "Referee for oh-my-pi: a goal loop the agent cannot leave until a second model rules that the objective is met"
+    language: "TypeScript"
+    topics:
+      - "llm"
+      - "multi-agent"
+      - "oh-my-pi"
+      - "omp"
+      - "omp-plugin"
+      - "verification"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "hessboost"
+    title: "hessboost"
+    description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
+    language: "Rust"
+    topics:
+      - "gradient-boosting"
+      - "machine-learning"
+      - "ml"
+      - "rust"
+      - "xgboost"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "optimal-buy-cbpro"
     title: "optimal-buy-cbpro"
     description: "Scheduled buying of BTC, ETH, and LTC from Coinbase Pro, optimally!"
@@ -113,57 +170,9 @@ repos:
       - "get-rich-slowly"
       - "litecoin"
       - "ltc"
-    stars_fact: 334
+    stars_fact: 333
     first_seen: null
     last_push: "2022-08-22"
-  - name: "hessboost"
-    title: "hessboost"
-    description: "Fast, deterministic gradient boosting in Rust (with Python bindings)"
-    language: "Rust"
-    topics:
-      - "gradient-boosting"
-      - "machine-learning"
-      - "ml"
-      - "rust"
-      - "xgboost"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "conky"
-    title: "conky"
-    description: "Light-weight system monitor for X, Wayland, and other things, too"
-    language: "C++"
-    topics:
-      - "c-plus-plus"
-      - "cairo"
-      - "conky"
-      - "imlib2"
-      - "linux"
-      - "lua"
-      - "system-monitoring"
-      - "wayland"
-    stars_fact: 8547
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "idiomatic-rust-book"
-    title: "idiomatic-rust-book"
-    description: "Source code for Idiomatic Rust: Code like a Rustacean"
-    language: "Rust"
-    topics: []
-    stars_fact: 205
-    first_seen: null
-    last_push: "2025-11-27"
-  - name: "code-like-a-pro-in-rust-book"
-    title: "code-like-a-pro-in-rust-book"
-    description: "Source code for Code Like a Pro in Rust"
-    language: "HTML"
-    topics:
-      - "books"
-      - "rust"
-      - "samples"
-    stars_fact: 152
-    first_seen: null
-    last_push: "2025-01-15"
 ---
 
 # brndnmtthws

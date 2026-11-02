@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 2, 0, 0, 4, 1, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 1, 3, 1, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,15 +84,15 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "bai"
     title: "bai"
     description: null
-    language: "Go"
+    language: "TypeScript"
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-28"
   - name: "rowsql"
     title: "rowsql"
     description: "RowSQL is a visual database management tool that lets you create tables, manage rows, and explore data effortlessly. Supports Postgres, MySQL, and SQLite with a clean, modern UI"

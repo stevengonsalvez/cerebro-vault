@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [33, 82, 47, 30, 7, 30, 41, 31, 20, 17, 24, 13, 0]
+pushes_per_week: [39, 85, 42, 27, 11, 28, 43, 30, 16, 25, 15, 13, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 375
+    pushes: 374
     distinct_repos: 2
     active_days: 64
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8594
+  push_per_day: 5.8438
   repo_per_active_day: 0.0312
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 1
-    pushes_per_repo: 66.0000
-    active_days: 15
+    pushes_per_repo: 63.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 375
+    pushes: 374
     distinct_repos: 2
-    pushes_per_repo: 187.5000
+    pushes_per_repo: 187.0000
     active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-375 pushes across 2 repositories on 64 active days in the last 90 days of public GitHub push activity.
+374 pushes across 2 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

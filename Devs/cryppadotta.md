@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [22, 19, 13, 121, 6, 33, 30, 31, 97, 73, 97, 75, 1]
+pushes_per_week: [22, 19, 12, 121, 11, 29, 28, 58, 83, 98, 77, 58, 0]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 255
+    distinct_repos: 2
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 280
-    distinct_repos: 3
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
   "90d":
-    pushes: 618
+    pushes: 616
     distinct_repos: 4
-    active_days: 70
+    active_days: 69
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.8286
-  repo_per_active_day: 0.0571
+  push_per_day: 8.9275
+  repo_per_active_day: 0.0580
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 255
+    distinct_repos: 2
+    pushes_per_repo: 127.5000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 280
-    distinct_repos: 3
-    pushes_per_repo: 93.3333
-    active_days: 19
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
   "90d":
-    pushes: 618
+    pushes: 616
     distinct_repos: 4
-    pushes_per_repo: 154.5000
-    active_days: 70
+    pushes_per_repo: 154.0000
+    active_days: 69
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 70 active days in 90d — pass"
+  - "activity: 69 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "insole-studio"
+    title: "insole-studio"
+    description: "Browser-based parametric insole CAD with local infill controls and PrusaSlicer 3MF export"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "dotta-license"
     title: "dotta-license"
     description: "ERC721-based Software Licensing Framework"
@@ -117,18 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-02-03"
-  - name: "mcp-wizzypedia"
-    title: "mcp-wizzypedia"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-12"
 ---
 
 # cryppadotta
 
-618 pushes across 4 repositories on 70 active days in the last 90 days of public GitHub push activity.
+616 pushes across 4 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

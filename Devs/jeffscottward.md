@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [0, 5, 0, 2, 0, 0, 0, 0, 3, 1, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omp-discord-bot-oss"
+    title: "omp-discord-bot-oss"
+    description: "Discord bridge for OMP coding-agent sessions"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "darkfactory"
     title: "darkfactory"
     description: "A modular, Postgres-first, AI-native application foundation."
@@ -94,7 +102,7 @@ repos:
       - "typescript"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "omarchy-boot"
     title: "omarchy-boot"
     description: "Sanitized documentation for reconstructing Omarchy on x86_64 and Apple Silicon Linux"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 5, 2, 9, 3, 2, 1, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 5, 1, 11, 1, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes_per_repo: 2.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,18 +77,26 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "baba-config"
-    title: "baba-config"
-    description: null
+  - name: "bioxus"
+    title: "bioxus"
+    description: "Shared crates for Dioxus apps: design tokens, widgets, i18n"
     language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-31"
   - name: "grosjeanbaptiste.com"
     title: "grosjeanbaptiste.com"
     description: null
     language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "baba-config"
+    title: "baba-config"
+    description: null
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-09-17"
-  - name: "wallpapers"
-    title: "wallpapers"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-07"
 ---
 
 # grosjeanbaptiste

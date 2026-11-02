@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 1]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -91,9 +91,31 @@ repos:
       - "video-player"
       - "youtube"
       - "youtube-client"
-    stars_fact: 3
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
+  - name: "youtfast-go"
+    title: "youtfast-go"
+    description: "A native YouTube desktop client in Go, with Dear ImGui and libmpv. A port of YouTFast."
+    language: "Go"
+    topics:
+      - "desktop"
+      - "go"
+      - "golang"
+      - "imgui"
+      - "libmpv"
+      - "youtube"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "larablogs"
+    title: "larablogs"
+    description: "Personal blog & RSS feed monitor with instant email notifications (Laravel 13 + Vue 3 + Inertia.js)"
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "TCC"
     title: "TCC"
     description: null
@@ -118,22 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-01"
-  - name: "vim-sudoku"
-    title: "vim-sudoku"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
-  - name: "mcp-gestao-tarefas"
-    title: "mcp-gestao-tarefas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
 ---
 
 # bcosta19

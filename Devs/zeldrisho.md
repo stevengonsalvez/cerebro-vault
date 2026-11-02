@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [6, 7, 9, 3, 0, 1, 8, 8, 10, 2, 2, 4, 0]
+pushes_per_week: [8, 5, 11, 0, 1, 4, 5, 11, 7, 2, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
-    distinct_repos: 18
-    active_days: 32
+    pushes: 59
+    distinct_repos: 17
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.5625
+  push_per_day: 1.9032
+  repo_per_active_day: 0.5484
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 10
+    pushes_per_repo: 1.8333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
-    distinct_repos: 18
-    pushes_per_repo: 3.3333
-    active_days: 32
+    pushes: 59
+    distinct_repos: 17
+    pushes_per_repo: 3.4706
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scoop-bucket"
@@ -121,6 +121,6 @@ repos:
 
 # zeldrisho
 
-60 pushes across 18 repositories on 32 active days in the last 90 days of public GitHub push activity.
+59 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

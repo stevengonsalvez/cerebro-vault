@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 2, 1, 0, 0, 0, 3, 4, 2, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 0, 0, 1, 6, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,31 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "slides"
-    title: "slides"
-    description: "Published presentation slides"
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "planwerk"
     title: "planwerk"
     description: "A local inbox and kanban board for agentic software development"
     language: "TypeScript"
     topics: []
     stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "proto-vibes-playground"
+    title: "proto-vibes-playground"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "prototype"
+      - "ux"
+      - "vscode"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "slides"
+    title: "slides"
+    description: "Published presentation slides"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-23"
   - name: "plugin-marketplace-starter"
@@ -123,17 +134,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-28"
-  - name: "proto-vibes-playground"
-    title: "proto-vibes-playground"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "prototype"
-      - "ux"
-      - "vscode"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-14"
 ---
 
 # digitarald

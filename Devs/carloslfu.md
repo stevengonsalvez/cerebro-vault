@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [0, 2, 2, 1, 0, 4, 1, 6, 13, 11, 1, 6, 4]
+pushes_per_week: [0, 2, 3, 0, 0, 4, 3, 4, 19, 5, 1, 10, 0]
 windows:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 2
     active_days: 8
     repos_not_owned: 0
@@ -49,17 +49,17 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 2
-    pushes_per_repo: 15.5000
+    pushes_per_repo: 14.5000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "slotstream"
     title: "slotstream"
-    description: "Run a 105 GB AI model on a Mac that can't hold it. Slotstream streams Qwen3.8-Flash-Next (125B mixture of experts) from your SSD and caches the busiest experts in memory, so it runs on Macs with 16 to 64 GB. One native Swift binary on MLX and Metal, no Python, offline. Works with Claude Code, Codex and Ollama or OpenAI clients."
+    description: "Run a 105 GB AI model on a Mac that can't hold it. Qwen3.8-Flash-Next 4-bit, streamed from SSD on 16–64 GB Apple Silicon Macs. Fully native Swift, MLX and Metal. Offline, no Python. CLI, Swift library, and Ollama/OpenAI/Anthropic APIs. Works with Claude Code and Codex."
     language: "Swift"
     topics:
       - "apple-silicon"
@@ -100,9 +100,9 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 497
+    stars_fact: 641
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "sevra-app"
     title: "sevra-app"
     description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and Slotstream."
@@ -110,15 +110,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for the VibeCraft CLI (https://vibecraft.so)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-02"
   - name: "db.md"
     title: "db.md"
     description: "Your database is a folder of markdown files, and the agent is the engine. The open standard for databases in plain files. No vector store, ever."
@@ -140,7 +132,7 @@ repos:
       - "plaintext"
       - "rust"
       - "second-brain"
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-10-22"
   - name: "rewire"
@@ -150,7 +142,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-28"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for the VibeCraft CLI (https://vibecraft.so)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "carloslfu"
     title: "carloslfu"
     description: "Carlos Galarza: Executable Rationality and efficient AI."

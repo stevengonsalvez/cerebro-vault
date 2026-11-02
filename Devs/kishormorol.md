@@ -9,23 +9,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 2, 0, 0, 2, 7, 9, 2, 0, 2, 6, 0]
+pushes_per_week: [1, 0, 2, 0, 2, 0, 7, 9, 2, 0, 2, 6, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    active_days: 5
+    pushes: 8
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,14 +78,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "karigor"
-    title: "karigor"
-    description: "Software agents that take an idea to deployed, maintained software, with no human involvement after the idea. Free and open source."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "ResearchScope"
     title: "ResearchScope"
     description: "Open-source research intelligence for CS papers — track what matters, who drives it, what to read first, and where the research gaps are."
@@ -111,7 +103,7 @@ repos:
       - "research-tools"
     stars_fact: 111
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "kishormorol"
     title: "kishormorol"
     description: null
@@ -119,15 +111,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "bangla-multimodal-political-stance"
-    title: "bangla-multimodal-political-stance"
-    description: "Political stance detection in Bangla news from headline and image: dataset pipeline, text and vision-language baselines, and the evaluation protocol behind the paper."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "cli-faq-shortcuts"
     title: "cli-faq-shortcuts"
     description: "Turn repeated Claude Code, Codex, and Cursor prompts into reusable slash commands. Local Python history extractor + Agent Skill."
@@ -153,26 +137,64 @@ repos:
       - "skill"
       - "slash-commands"
       - "workflow-automation"
-    stars_fact: 132
+    stars_fact: 134
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "thinkdiff"
-    title: "thinkdiff"
-    description: "Comparative visualization of LLM reasoning traces — see how Claude, DeepSeek, and GPT think about the same problem"
-    language: "TypeScript"
+    last_push: "2026-10-29"
+  - name: "song2sheet"
+    title: "song2sheet"
+    description: "Any song → readable sheet music, MIDI and playable guitar tab. Built on open models."
+    language: "Python"
     topics:
-      - "chain-of-thought"
-      - "claude"
-      - "deepseek"
-      - "hci"
-      - "llm"
-      - "nextjs"
-      - "openai"
-      - "reasoning"
-      - "visualization"
+      - "audio"
+      - "gradio"
+      - "guitar-tabs"
+      - "huggingface"
+      - "machine-learning"
+      - "midi"
+      - "music-transcription"
+      - "sheet-music"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
+  - name: "agent-command-atlas"
+    title: "agent-command-atlas"
+    description: "A searchable, source-linked atlas of AI coding-agent commands, flags, shortcuts, MCP, permissions, skills, and sessions across Codex, Claude Code, Gemini CLI, Cursor, Copilot CLI, and Muse Code."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "ai-coding-assistant"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "cursor"
+      - "developer-tools"
+      - "documentation"
+      - "gemini-cli"
+      - "github-copilot"
+      - "mcp"
+      - "muse-code"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "SkillsAllYouNeed"
+    title: "SkillsAllYouNeed"
+    description: "A curated directory of every first-party skill, capability, and tool across 13 AI assistant ecosystems — Claude, Claude Code, ChatGPT, Codex, Cursor, Gemini, Copilot and more. Searchable, filterable, deep-linkable."
+    language: "CSS"
+    topics:
+      - "ai"
+      - "ai-tools"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "cursor"
+      - "gemini"
+      - "github-copilot"
+      - "llm"
+      - "openai"
+      - "reference"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-09-18"
 ---
 
 # kishormorol

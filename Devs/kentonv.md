@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
   - "9c15e014464735eb"
-pushes_per_week: [2, 3, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -81,6 +81,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dvorak-qwerty"
+    title: "dvorak-qwerty"
+    description: "\"Dvorak-Qwerty ⌘\" (DQ) keyboard layout for Windows and Unix/Linux/X"
+    language: "C++"
+    topics: []
+    stars_fact: 179
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "lanparty"
     title: "lanparty"
     description: "Netboot a fleet of desktop machines from a single base image"
@@ -113,14 +121,6 @@ repos:
     stars_fact: 40
     first_seen: null
     last_push: "2018-02-04"
-  - name: "dvorak-qwerty"
-    title: "dvorak-qwerty"
-    description: "\"Dvorak-Qwerty ⌘\" (DQ) keyboard layout for Windows and Unix/Linux/X"
-    language: "C++"
-    topics: []
-    stars_fact: 178
-    first_seen: null
-    last_push: "2026-09-16"
   - name: "ssjekyll"
     title: "ssjekyll"
     description: "\"Hacker-CMS\" Sandstorm App mashing up Jekyll, Ace Editor, and jsTree"

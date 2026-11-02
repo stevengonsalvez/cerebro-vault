@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 7, 1, 0, 0, 2, 1, 8, 0, 1, 16, 12, 2]
+pushes_per_week: [2, 6, 1, 0, 1, 1, 2, 7, 0, 2, 15, 14, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -88,7 +88,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "Cedarflake-Nami"
     title: "Cedarflake-Nami"
     description: "Personal edge redirect playground with a database-backed control plane, WebUI, optional analytics, and compile-time adapters for Cloudflare, Vercel, and Netlify."
@@ -108,7 +108,7 @@ repos:
       - "webui"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
   - name: "Cedarflake-Ame"
     title: "Cedarflake-Ame"
     description: "A local-first Windows app for browsing large image collections and finding exact duplicates."
@@ -123,7 +123,7 @@ repos:
       - "windows"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "InFalsusTouch"
     title: "InFalsusTouch"
     description: "把 Android 手机或平板变成 In Falsus 触控手台：通过 USB 连接电脑，在手机上看谱、滑动 Field、点按或长按六键，支持多设备分工合作游玩。"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [2, 25, 7, 3, 0, 0, 3, 14, 22, 2, 5, 0, 0]
+pushes_per_week: [3, 24, 7, 3, 0, 0, 3, 17, 20, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2108
+    stars_fact: 2326
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "raw-motion"
     title: "raw-motion"
     description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."

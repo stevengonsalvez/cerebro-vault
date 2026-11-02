@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 1, 0, 0, 0, 3, 5, 0, 2, 1, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,15 +86,31 @@ repos:
       - "github-config"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "astrbot_plugin_animatedemoji"
-    title: "astrbot_plugin_animatedemoji"
+    last_push: "2026-11-02"
+  - name: "astrbot_plugin_fastbrain_proactive"
+    title: "astrbot_plugin_fastbrain_proactive"
+    description: "AstrBot 主动回复判断插件：FastBrain-9B SystemOne 分类，沿用会话模型，默认观察模式"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "astrbot_plugin_eyewitness_memory"
+    title: "astrbot_plugin_eyewitness_memory"
     description: null
     language: "Python"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-02-25"
+    last_push: "2026-11-01"
+  - name: "FastBrain"
+    title: "FastBrain"
+    description: "FastBrain-9B: Non-autoregressive System-1 structured decision model — inference, training and evaluation code."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "hdu-cs-wiki"
     title: "hdu-cs-wiki"
     description: "HDU 计算机科学讲义 如果对你🫵的学习📚有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！"
@@ -115,33 +131,17 @@ repos:
       - "technical"
       - "typescript"
       - "vitepress"
-    stars_fact: 266
+    stars_fact: 265
     first_seen: null
     last_push: "2026-06-07"
-  - name: "astrbot_plugin_eyewitness_memory"
-    title: "astrbot_plugin_eyewitness_memory"
+  - name: "astrbot_plugin_animatedemoji"
+    title: "astrbot_plugin_animatedemoji"
     description: null
     language: "Python"
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "frontend-interview"
-    title: "frontend-interview"
-    description: "我的前端面经"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2025-03-14"
-  - name: "astrbot-seio-stickers"
-    title: "astrbot-seio-stickers"
-    description: "AstrBot seio娘表情包"
-    language: "Python"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-09-23"
+    last_push: "2026-02-25"
 ---
 
 # camera-2018

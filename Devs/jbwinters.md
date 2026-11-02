@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [0, 3, 0, 0, 0, 1, 1, 9, 6, 4, 0, 0, 1]
+pushes_per_week: [1, 2, 0, 0, 0, 1, 1, 14, 3, 2, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jacquard-host"
-    title: "jacquard-host"
-    description: "Language-neutral host integrations and adapters for Jacquard"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "jacquard-lang"
     title: "jacquard-lang"
     description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
@@ -99,7 +91,15 @@ repos:
       - "programming-language"
     stars_fact: 122
     first_seen: "2026-07-14T06:00:05.414815+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-10-30"
+  - name: "jacquard-host"
+    title: "jacquard-host"
+    description: "Language-neutral host integrations and adapters for Jacquard"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "inkling.nvim"
     title: "inkling.nvim"
     description: "Copilot-style inline completions for Neovim with your choice of model (OpenAI, Anthropic, Ollama) and project-aware context"

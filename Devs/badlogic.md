@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
   - "de6bf05613f3ae04"
-pushes_per_week: [4, 13, 1, 1, 1, 1, 3, 2, 4, 0, 3, 2, 0]
+pushes_per_week: [5, 12, 1, 0, 1, 1, 3, 3, 3, 3, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 2
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5909
-  repo_per_active_day: 0.0909
+  push_per_day: 1.6190
+  repo_per_active_day: 0.0952
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -70,24 +70,32 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 22
+    pushes_per_repo: 17.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sitegeist"
+    title: "sitegeist"
+    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 916
+    first_seen: null
+    last_push: "2026-03-18"
   - name: "pi-subagent"
     title: "pi-subagent"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 244
+    stars_fact: 263
     first_seen: null
     last_push: "2026-09-30"
   - name: "pi-skills"
@@ -95,51 +103,37 @@ repos:
     description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
     language: "JavaScript"
     topics: []
-    stars_fact: 2641
+    stars_fact: 2649
     first_seen: null
     last_push: "2026-06-06"
-  - name: "speech-trainer"
-    title: "speech-trainer"
-    description: "Interactive speech training web app for kids ages 5-10 to practice speech sounds"
+  - name: "pi-telegram"
+    title: "pi-telegram"
+    description: "Telegram DM bridge extension for pi"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 316
     first_seen: null
-    last_push: "2025-08-09"
-  - name: "sitegeist"
-    title: "sitegeist"
-    description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
+    last_push: "2026-04-04"
+  - name: "mariozechner.at"
+    title: "mariozechner.at"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "pi-share-hf"
+    title: "pi-share-hf"
+    description: "Collect, review, and upload redacted pi session files to a Hugging Face dataset"
     language: "TypeScript"
     topics: []
-    stars_fact: 910
+    stars_fact: 259
     first_seen: null
-    last_push: "2026-03-18"
-  - name: "explainer"
-    title: "explainer"
-    description: "Markdown to book-style explainers and in-browser agent walkthroughs (a pi skill). 100% slop."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "r96"
-    title: "r96"
-    description: "Repository for the blog post series \"Rendering like it's 1996\""
-    language: "C"
-    topics:
-      - "emscripten"
-      - "game-development"
-      - "game-engine"
-      - "game-engine-framework"
-      - "graphics-programming"
-      - "webassembly"
-    stars_fact: 172
-    first_seen: null
-    last_push: "2023-01-28"
+    last_push: "2026-04-13"
 ---
 
 # badlogic
 
-35 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+34 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/badlogic

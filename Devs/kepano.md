@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [6, 9, 1, 2, 1, 0, 3, 7, 1, 1, 2, 1, 0]
+pushes_per_week: [6, 8, 3, 0, 1, 0, 3, 7, 1, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 7
-    active_days: 21
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6190
-  repo_per_active_day: 0.3333
+  push_per_day: 1.6500
+  repo_per_active_day: 0.3500
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 21
+    pushes_per_repo: 4.7143
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obsidian-skills"
@@ -99,7 +99,7 @@ repos:
       - "openclaw"
       - "opencode"
       - "skills"
-    stars_fact: 50106
+    stars_fact: 50589
     first_seen: "2026-08-14T06:00:04.068645+00:00"
     last_push: "2026-09-15"
   - name: "defuddle"
@@ -114,29 +114,9 @@ repos:
       - "md"
       - "obsidian"
       - "readability"
-    stars_fact: 9786
+    stars_fact: 9845
     first_seen: null
     last_push: "2026-10-25"
-  - name: "kepano-obsidian"
-    title: "kepano-obsidian"
-    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
-    language: null
-    topics:
-      - "markdown"
-      - "obsidian"
-      - "obsidian-md"
-      - "obsidian-vault"
-    stars_fact: 4680
-    first_seen: null
-    last_push: "2026-01-09"
-  - name: "obsidian-permalink-opener"
-    title: "obsidian-permalink-opener"
-    description: "Obsidian plugin to open URLs based on a permalink or slug in the note properties. For use with Jekyll, Hugo, Eleventy, Astro, Obsidian Publish, and other publishing tools."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-07-31"
   - name: "obsidian-minimal"
     title: "obsidian-minimal"
     description: "A distraction-free and highly customizable theme for Obsidian."
@@ -149,9 +129,21 @@ repos:
       - "obsidian-md"
       - "obsidian-theme"
       - "theme"
-    stars_fact: 5452
+    stars_fact: 5472
     first_seen: null
     last_push: "2026-10-06"
+  - name: "kepano-obsidian"
+    title: "kepano-obsidian"
+    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+      - "obsidian-md"
+      - "obsidian-vault"
+    stars_fact: 4718
+    first_seen: null
+    last_push: "2026-01-09"
   - name: "flexoki"
     title: "flexoki"
     description: "An inky color scheme for prose and code."
@@ -176,13 +168,23 @@ repos:
       - "vscode-theme"
       - "wezterm"
       - "xresources"
-    stars_fact: 3724
+    stars_fact: 3735
     first_seen: null
     last_push: "2026-03-07"
+  - name: "clipper-templates"
+    title: "clipper-templates"
+    description: "Obsidian Web Clipper templates for various sites."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+    stars_fact: 1494
+    first_seen: null
+    last_push: "2026-03-13"
 ---
 
 # kepano
 
-34 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
+33 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [64, 97, 32, 21, 27, 85, 169, 176, 92, 63, 22, 149, 7]
+pushes_per_week: [62, 101, 27, 27, 52, 58, 181, 178, 88, 58, 26, 143, 0]
 windows:
   "7d":
-    pushes: 39
-    distinct_repos: 5
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 281
+    pushes: 272
     distinct_repos: 17
-    active_days: 18
+    active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 6
     not_owned_owners: 11
   "90d":
-    pushes: 1004
+    pushes: 1001
     distinct_repos: 47
     active_days: 71
     repos_not_owned: 33
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 26
 automation:
   state: "clear"
-  push_per_day: 14.1408
+  push_per_day: 14.0986
   repo_per_active_day: 0.6620
   not_owned_ratio: 0.7021
   basename_concentration: 0.5106
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 39
-    distinct_repos: 5
-    pushes_per_repo: 7.8000
-    active_days: 2
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 281
+    pushes: 272
     distinct_repos: 17
-    pushes_per_repo: 16.5294
-    active_days: 18
+    pushes_per_repo: 16.0000
+    active_days: 17
     repos_not_owned: 14
     not_owned_basenames: 6
     not_owned_owners: 11
   "90d":
-    pushes: 1004
+    pushes: 1001
     distinct_repos: 47
-    pushes_per_repo: 21.3617
+    pushes_per_repo: 21.2979
     active_days: 71
     repos_not_owned: 33
     not_owned_basenames: 11
@@ -192,6 +192,6 @@ repos:
 
 # lidge-jun
 
-1004 pushes across 47 repositories on 71 active days in the last 90 days of public GitHub push activity.
+1001 pushes across 47 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

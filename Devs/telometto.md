@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [4, 13, 3, 3, 0, 1, 5, 5, 7, 3, 3, 2, 0]
+pushes_per_week: [3, 14, 2, 3, 1, 1, 5, 6, 5, 5, 1, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 1
     active_days: 29
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6897
+  push_per_day: 1.6552
   repo_per_active_day: 0.0345
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 7
+    pushes_per_repo: 9.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 1
-    pushes_per_repo: 49.0000
+    pushes_per_repo: 48.0000
     active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -130,6 +130,6 @@ repos:
 
 # telometto
 
-49 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
+48 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/telometto

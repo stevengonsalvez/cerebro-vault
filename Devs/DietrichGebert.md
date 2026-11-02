@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "38c3408d933af173"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 6, 6, 5, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 12, 2, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 3
+    pushes: 14
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 18
     distinct_repos: 4
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 6
-    repos_not_owned: 3
+    pushes: 14
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 18
     distinct_repos: 4
@@ -92,9 +92,9 @@ repos:
       - "llm"
       - "prompt-engineering"
       - "yagni"
-    stars_fact: 176397
+    stars_fact: 182351
     first_seen: "2026-08-26T06:00:04.229087+00:00"
-    last_push: "2026-10-18"
+    last_push: "2026-10-29"
   - name: "DietrichGebert"
     title: "DietrichGebert"
     description: null
@@ -102,7 +102,7 @@ repos:
     topics: []
     stars_fact: 43
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
 ---
 
 # DietrichGebert

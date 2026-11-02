@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4f795faf4eede06c"
   - "dc9094c987231bcf"
@@ -92,9 +92,9 @@ repos:
       - "marketing-automation"
       - "open-source"
       - "seo"
-    stars_fact: 21350
+    stars_fact: 25691
     first_seen: "2026-10-26T07:00:48.569334+00:00"
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
   - name: "compass"
     title: "compass"
     description: "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault."
@@ -107,28 +107,53 @@ repos:
       - "obsidian-vault"
       - "pkm"
       - "template"
-    stars_fact: 1016
+    stars_fact: 1039
     first_seen: null
     last_push: "2026-09-13"
-  - name: "claude-ads"
-    title: "claude-ads"
-    description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes."
+  - name: "keywordpro"
+    title: "keywordpro"
+    description: "Local-first keyword research with guided reports, charts, saved sessions, and PDF, CSV, and JSON exports."
+    language: "TypeScript"
+    topics:
+      - "byok"
+      - "dataforseo"
+      - "keyword-research"
+      - "local-first"
+      - "nextjs"
+      - "seo"
+      - "serp-analysis"
+      - "typescript"
+    stars_fact: 285
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "claude-youtube"
+    title: "claude-youtube"
+    description: "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more."
     language: "Python"
     topics:
-      - "agent-skills"
       - "ai"
-      - "ai-marketing"
+      - "ai-content"
       - "claude-code"
       - "claude-code-skill"
-      - "google-ads"
-      - "marketing-automation"
-      - "meta-ads"
+      - "content-creation"
       - "open-source"
-      - "paid-advertising"
-      - "ppc"
-    stars_fact: 10425
+    stars_fact: 634
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-04-10"
+  - name: "claude-shorts"
+    title: "claude-shorts"
+    description: "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping"
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-content"
+      - "claude-code"
+      - "claude-code-skill"
+      - "content-creation"
+      - "open-source"
+    stars_fact: 279
+    first_seen: null
+    last_push: "2026-07-11"
   - name: "claude-obsidian"
     title: "claude-obsidian"
     description: "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
@@ -154,32 +179,9 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 15826
+    stars_fact: 16061
     first_seen: "2026-08-25T06:00:03.138196+00:00"
     last_push: "2026-10-25"
-  - name: "claude-music"
-    title: "claude-music"
-    description: "AI music production skill for Claude Code, powered by ACE-Step 1.5. Generate full songs from a prompt, in your terminal or a local web dashboard."
-    language: "Python"
-    topics:
-      - "ace-step"
-      - "ai-music"
-      - "claude"
-      - "claude-code"
-      - "music-generation"
-      - "skill"
-      - "text-to-music"
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "jev-seo"
-    title: "jev-seo"
-    description: "Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports."
-    language: "Python"
-    topics: []
-    stars_fact: 715
-    first_seen: null
-    last_push: "2026-09-22"
 ---
 
 # AgriciDaniel

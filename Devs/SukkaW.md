@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [24, 32, 7, 4, 0, 2, 6, 10, 8, 3, 2, 6, 0]
+pushes_per_week: [26, 28, 7, 4, 0, 2, 6, 10, 8, 3, 3, 5, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 5
-    active_days: 10
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 23
-    active_days: 45
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3111
-  repo_per_active_day: 0.5111
+  push_per_day: 2.3182
+  repo_per_active_day: 0.5227
   not_owned_ratio: 0.1304
   basename_concentration: 0.0870
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 10
+    pushes_per_repo: 2.6000
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 104
+    pushes: 102
     distinct_repos: 23
-    pushes_per_repo: 4.5217
-    active_days: 45
+    pushes_per_repo: 4.4348
+    active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Make-Bilibili-Great-Than-Ever-Before"
@@ -168,6 +168,6 @@ repos:
 
 # SukkaW
 
-104 pushes across 23 repositories on 45 active days in the last 90 days of public GitHub push activity.
+102 pushes across 23 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

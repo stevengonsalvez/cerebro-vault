@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "ACL4SSR-Luyuyun"
     title: "ACL4SSR-Luyuyun"
     description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
     language: null
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-10-17"
   - name: "knowsense"

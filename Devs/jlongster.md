@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 4, 0, 8, 0, 0, 5, 0, 4, 2, 1, 9, 0]
+pushes_per_week: [1, 4, 0, 8, 0, 0, 5, 1, 4, 2, 0, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "absurd-sql"
+    title: "absurd-sql"
+    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4317
+    first_seen: null
+    last_push: "2023-08-06"
+  - name: "electron-with-server-example"
+    title: "electron-with-server-example"
+    description: "An example Electron app with a backend server all wired up via IPC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1015
+    first_seen: null
+    last_push: "2022-12-09"
+  - name: "transducers.js"
+    title: "transducers.js"
+    description: "A small library for generalized transformation of data (inspired by Clojure's transducers)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1720
+    first_seen: null
+    last_push: "2017-06-12"
+  - name: "unwinder"
+    title: "unwinder"
+    description: "An implementation of continuations in JavaScript"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 305
+    first_seen: null
+    last_push: "2018-08-14"
+  - name: "classifications"
+    title: "classifications"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "opencode-canvas"
     title: "opencode-canvas"
     description: "Infinite review canvas for OpenCode sessions: images, videos, HTML, and conjured session butterflies"
@@ -84,47 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "unwinder"
-    title: "unwinder"
-    description: "An implementation of continuations in JavaScript"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 306
-    first_seen: null
-    last_push: "2018-08-14"
-  - name: "blog"
-    title: "blog"
-    description: "All the sources for my (not powered by React anymore) blog"
-    language: "CSS"
-    topics: []
-    stars_fact: 1206
-    first_seen: null
-    last_push: "2023-01-03"
-  - name: "tigma"
-    title: "tigma"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 563
-    first_seen: null
-    last_push: "2025-12-25"
-  - name: "absurd-sql"
-    title: "absurd-sql"
-    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4319
-    first_seen: null
-    last_push: "2023-08-06"
-  - name: "crdt-example-app"
-    title: "crdt-example-app"
-    description: "A full implementation of CRDTs using hybrid logical clocks and a demo app that uses it"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 662
-    first_seen: null
-    last_push: "2022-12-11"
+    last_push: "2026-10-26"
 ---
 
 # jlongster

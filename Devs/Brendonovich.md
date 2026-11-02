@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 6, 5, 3, 0, 11, 8, 3, 4, 4, 0, 0]
+pushes_per_week: [7, 2, 7, 5, 1, 0, 11, 9, 3, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "futhark"
+    title: "futhark"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "swift-rs"
     title: "swift-rs"
     description: "Call Swift functions from Rust with ease!"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-17"
-  - name: "alchemy-opencode"
-    title: "alchemy-opencode"
-    description: "Host OpenCode inside an Alchemy Cloudflare Durable Object"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # Brendonovich

@@ -11,25 +11,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
   - "de6bf05613f3ae04"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 5, 11, 12, 23, 7, 11, 3, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 6, 10, 16, 24, 5, 8, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -54,18 +54,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.8182
-    active_days: 14
+    pushes_per_repo: 2.6364
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-agent-book"
+    title: "pi-agent-book"
+    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
+    language: "Python"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "Dante-dan"
     title: "Dante-dan"
     description: null
@@ -89,15 +97,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "pi-agent-book"
-    title: "pi-agent-book"
-    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
-    language: "Python"
+    last_push: "2026-11-02"
+  - name: "dayweave"
+    title: "dayweave"
+    description: "Dayweave · 拾日 — An ambient personal secretary: everyday conversations to lasting text archives and thoughtful insights."
+    language: "Kotlin"
     topics: []
-    stars_fact: 21
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-11-01"
   - name: "dan-skills"
     title: "dan-skills"
     description: null
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "glimp-support"
-    title: "glimp-support"
-    description: "Public support, privacy, and release materials for Glimp — a playful macOS S3 & R2 sharing app."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # Dante-dan

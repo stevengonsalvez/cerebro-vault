@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3fbb0d0462685f17"
-pushes_per_week: [7, 6, 2, 3, 1, 1, 6, 10, 18, 13, 13, 8, 3]
+pushes_per_week: [5, 6, 1, 3, 1, 2, 6, 14, 18, 13, 10, 9, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 41
     distinct_repos: 14
-    active_days: 16
+    active_days: 14
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 91
+    pushes: 88
     distinct_repos: 16
-    active_days: 44
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.0682
-  repo_per_active_day: 0.3636
+  push_per_day: 2.0952
+  repo_per_active_day: 0.3810
   not_owned_ratio: 0.6250
   basename_concentration: 0.3125
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 46
+    pushes: 41
     distinct_repos: 14
-    pushes_per_repo: 3.2857
-    active_days: 16
+    pushes_per_repo: 2.9286
+    active_days: 14
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
   "90d":
-    pushes: 91
+    pushes: 88
     distinct_repos: 16
-    pushes_per_repo: 5.6875
-    active_days: 44
+    pushes_per_repo: 5.5000
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zul"
@@ -147,6 +147,6 @@ repos:
 
 # karlseguin
 
-91 pushes across 16 repositories on 44 active days in the last 90 days of public GitHub push activity.
+88 pushes across 16 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/karlseguin

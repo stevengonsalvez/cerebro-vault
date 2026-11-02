@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 0, 2, 0, 0, 3, 1]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 2, 0, 2, 0, 0, 4, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,34 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agent-loop-visualizer"
-    title: "agent-loop-visualizer"
-    description: "This project is for learning: it shows how an agent loop works underneath, in a way more intuitive and visual than reading about it. Behind an agent's chat box runs a loop: step after step, the model proposes an action and the harness carries it out, until it stops."
-    language: "Python"
-    topics:
-      - "agent-loop"
-      - "ai-agents"
-      - "education"
-      - "function-calling"
-      - "gemma"
-      - "huggingface"
-      - "interactive-learning"
-      - "llm-agents"
-      - "llm-visualization"
-      - "local-llm"
-      - "multimodal"
-      - "python"
-      - "pytorch"
-      - "qwen"
-      - "speculative-decoding"
-      - "streamlit"
-      - "tool-calling"
-      - "traditional-chinese"
-      - "transformers"
-      - "visualization"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "cyyeh"
     title: "cyyeh"
     description: null
@@ -112,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-30"
+  - name: "MIT6.031_Software_Construction"
+    title: "MIT6.031_Software_Construction"
+    description: "This repository consists of notes taken from class readings and personal/team-based projects."
+    language: "Java"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2018-11-28"
   - name: "jit-learning-loop"
     title: "jit-learning-loop"
     description: "An Agent Skill for learning what the task needs, while doing the task. It works with any coding agent that supports the Agent Skills spec: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and more."
@@ -129,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-21"
-  - name: "agent-learning-organization"
-    title: "agent-learning-organization"
-    description: "打造 AI Agent 學習型工程團隊"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
   - name: "python-gil-testing"
     title: "python-gil-testing"
     description: "Benchmarks CPython 3.12 (GIL) against 3.14 with the GIL on and the free-threaded 3.14t build (GIL off), and renders a self-contained HTML report that also explains what changed inside the interpreter."
@@ -145,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-12"
+  - name: "chatgpt_netscape_stock_prices"
+    title: "chatgpt_netscape_stock_prices"
+    description: "A side-by-side chart comparing the Nasdaq Composite's performance after Netscape's release (1994-12-19) versus after ChatGPT's release (2022-11-30)."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-19"
 ---
 
 # cyyeh

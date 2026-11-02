@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 4, 1, 3, 1, 1, 2, 18, 28, 18, 3, 17, 1]
+pushes_per_week: [1, 4, 1, 3, 1, 1, 4, 23, 25, 16, 7, 12, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 41
     distinct_repos: 8
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
+    pushes: 41
     distinct_repos: 8
-    pushes_per_repo: 5.8750
-    active_days: 18
+    pushes_per_repo: 5.1250
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,24 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Personal Scoop bucket: ai-usagebar and friends"
-    language: "PowerShell"
-    topics:
-      - "scoop-bucket"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "pinar"
-    title: "pinar"
-    description: "Annotate page elements and copy comments, DOM path, and screenshots to the clipboard."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "edger"
     title: "edger"
     description: "Secure, versioned edge runtime in Rust with Deno, WebAssembly, cPanel observability, and Kubernetes deployment."
@@ -116,7 +99,15 @@ repos:
       - "webassembly"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "dukto"
+    title: "dukto"
+    description: "Cross-platform file transfer app"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "nau"
     title: "nau"
     description: "Two-way bridge between a remote job dispatcher and Herdr nodes (CLI, plugin, skill)"
@@ -124,7 +115,16 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Personal Scoop bucket: ai-usagebar and friends"
+    language: "PowerShell"
+    topics:
+      - "scoop-bucket"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "ai-memory-ui"
     title: "ai-memory-ui"
     description: "Custom SolidJS web UI for ai-memory — read-only knowledge browser over /api/v1, served via --web-ui-dir"

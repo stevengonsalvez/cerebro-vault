@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 7, 2, 4, 1, 1, 5, 4, 4, 0, 2, 0, 0]
+pushes_per_week: [0, 8, 4, 2, 0, 1, 5, 4, 4, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,45 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "AaronZ345.github.io"
-    title: "AaronZ345.github.io"
-    description: "Personal academic homepage"
-    language: "JavaScript"
+  - name: "steam-cli"
+    title: "steam-cli"
+    description: "Steam CLI with browser and Steam App cookie auth, reviews, achievements, prices, MCP and REST"
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "xiaoheihe-cli"
-    title: "xiaoheihe-cli"
-    description: "小黑盒游戏记录、个人评分与短评、社区内容操作 CLI，支持 SDK、REST 和 MCP"
-    language: "Python"
-    topics:
-      - "cli"
-      - "games"
-      - "heybox"
-      - "mcp"
-      - "python"
-      - "xiaoheihe"
-    stars_fact: 63
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "GTSinger"
-    title: "GTSinger"
-    description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
-    language: "Python"
-    topics:
-      - "dataset"
-      - "multilingual"
-      - "music"
-      - "singing"
-      - "singing-voice-synthesis"
-      - "speech-to-sing"
-      - "style-control"
-      - "style-transfer"
-      - "technique-detection"
-    stars_fact: 535
-    first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-10-31"
   - name: "AaronZ345"
     title: "AaronZ345"
     description: null
@@ -123,33 +92,68 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "douban-cli"
-    title: "douban-cli"
-    description: "豆瓣命令行工具：书影查询、豆列、评分与短评管理；提供供 Dots 使用的本地技能和 MCP 接口"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "douban"
-      - "mcp"
-    stars_fact: 59
+    last_push: "2026-10-31"
+  - name: "AaronZ345.github.io"
+    title: "AaronZ345.github.io"
+    description: "Personal academic homepage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "TCSinger"
-    title: "TCSinger"
-    description: "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    last_push: "2026-10-31"
+  - name: "Athena-personal-academic-page"
+    title: "Athena-personal-academic-page"
+    description: "A modern personal academic page framework built with React and Vite."
+    language: "JavaScript"
+    topics:
+      - "academic-portfolio"
+      - "academic-website"
+      - "github-pages"
+      - "personal-website"
+      - "react"
+      - "research"
+      - "typescript"
+      - "vite"
+    stars_fact: 211
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "ISDrama"
+    title: "ISDrama"
+    description: "Dataset and evaluation code of ISDrama(ACM-MM 2025): Immersive Spatial Drama Generation through Multimodal Prompting"
     language: "Python"
     topics:
-      - "cross-lingual"
-      - "singing"
-      - "singing-voice-synthesis"
-      - "speech-to-sing"
-      - "style-control"
-      - "style-transfer"
-      - "zero-shot"
-    stars_fact: 386
+      - "binaural-rendering"
+      - "dataset"
+      - "drama"
+      - "evaluation"
+      - "spatial-audio"
+      - "video"
+    stars_fact: 238
     first_seen: null
-    last_push: "2025-10-07"
+    last_push: "2025-08-20"
+  - name: "codebase-argus"
+    title: "codebase-argus"
+    description: "Multi-agent codebase review for PRs, CI, and downstream fork syncs."
+    language: "TypeScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ci"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "code-review"
+      - "codex"
+      - "developer-tools"
+      - "fork-sync"
+      - "github-actions"
+      - "github-app"
+      - "multi-agent"
+      - "openclaw"
+      - "pull-request"
+      - "skill-md"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-07-24"
 ---
 
 # AaronZ345

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [11, 14, 7, 0, 0, 1, 7, 6, 4, 3, 14, 1, 0]
+pushes_per_week: [12, 9, 7, 0, 0, 1, 7, 7, 5, 2, 13, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 64
     distinct_repos: 9
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5185
-  repo_per_active_day: 0.3333
+  push_per_day: 2.4615
+  repo_per_active_day: 0.3462
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
+    pushes: 64
     distinct_repos: 9
-    pushes_per_repo: 7.5556
-    active_days: 27
+    pushes_per_repo: 7.1111
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "infosys"
@@ -129,6 +129,6 @@ repos:
 
 # MilesCranmerBot
 
-68 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
+64 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MilesCranmerBot

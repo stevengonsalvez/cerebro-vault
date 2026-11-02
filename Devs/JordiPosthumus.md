@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 1, 5, 29, 20, 1, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 8, 23, 20, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -91,20 +91,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-16"
-  - name: "star-gate"
-    title: "star-gate"
-    description: "One stable endpoint for a local fleet of OpenAI-compatible model servers: session affinity, a continuity door for planned restarts, a loopback dashboard, and opt-in telemetry."
-    language: "JavaScript"
-    topics:
-      - "gateway"
-      - "inference"
-      - "llm"
-      - "local-first"
-      - "nodejs"
-      - "openai-compatible"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "pi-quiet-tools"
     title: "pi-quiet-tools"
     description: "4-level tool display for the pi coding agent TUI: name / none / collapsed / full. Cycle with ctrl+shift+o."
@@ -137,6 +123,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-20"
+  - name: "hermes-agent"
+    title: "hermes-agent"
+    description: "Fork of Hermes optimized for running with local AI: long timeouts for self-hosted gateways and no automatic cloud updates."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # JordiPosthumus

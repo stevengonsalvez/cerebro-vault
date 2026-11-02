@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 6, 3, 1, 1, 2, 1, 3]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 8, 2, 0, 1, 2, 4, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -53,8 +53,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
@@ -106,9 +106,9 @@ repos:
       - "reinforcement-learning"
       - "transformers"
       - "tutorial"
-    stars_fact: 1283
+    stars_fact: 1305
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-30"
   - name: "goofish-cli"
     title: "goofish-cli"
     description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
@@ -125,42 +125,9 @@ repos:
       - "typer"
       - "websocket"
       - "xianyu"
-    stars_fact: 365
+    stars_fact: 391
     first_seen: null
     last_push: "2026-10-26"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
-    language: "Python"
-    topics: []
-    stars_fact: 195
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "open-tag"
-    title: "open-tag"
-    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
-    language: "TypeScript"
-    topics:
-      - "agentic-workflows"
-      - "agents"
-      - "ai-agents"
-      - "chatops"
-      - "claude-code"
-      - "claude-tag"
-      - "codex"
-      - "collaboration"
-      - "llm"
-      - "local-first"
-      - "loop-engineering"
-      - "multi-agent"
-      - "openai-codex"
-      - "self-hosted"
-      - "slack-alternative"
-      - "typescript"
-      - "websocket"
-    stars_fact: 213
-    first_seen: null
-    last_push: "2026-08-22"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -186,9 +153,42 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 293
+    stars_fact: 303
     first_seen: null
     last_push: "2026-09-30"
+  - name: "weixin_search_mcp"
+    title: "weixin_search_mcp"
+    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+    language: "Python"
+    topics: []
+    stars_fact: 198
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "open-tag"
+    title: "open-tag"
+    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
+    language: "TypeScript"
+    topics:
+      - "agentic-workflows"
+      - "agents"
+      - "ai-agents"
+      - "chatops"
+      - "claude-code"
+      - "claude-tag"
+      - "codex"
+      - "collaboration"
+      - "llm"
+      - "local-first"
+      - "loop-engineering"
+      - "multi-agent"
+      - "openai-codex"
+      - "self-hosted"
+      - "slack-alternative"
+      - "typescript"
+      - "websocket"
+    stars_fact: 215
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "daily-hot-mcp"
     title: "daily-hot-mcp"
     description: "获取每日最新热点内容，为大模型提供信息获取的mcp服务"

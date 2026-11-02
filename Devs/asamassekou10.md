@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [5, 3, 6, 1, 0, 3, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 4, 5, 1, 2, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,18 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "demo-gitskins"
+    title: "demo-gitskins"
+    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
+    language: null
+    topics:
+      - "contribution-graph"
+      - "github-profile"
+      - "readme"
+      - "svg-animation"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "ship-safe"
     title: "ship-safe"
     description: "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output."
@@ -100,9 +112,25 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "supply-chain-security"
-    stars_fact: 863
+    stars_fact: 870
     first_seen: "2026-08-06T06:00:05.901982+00:00"
     last_push: "2026-10-17"
+  - name: "awesome-gitskins"
+    title: "awesome-gitskins"
+    description: "A curated list of the best GitHub profile READMEs and portfolios made with GitSkins."
+    language: null
+    topics:
+      - "awesome"
+      - "awesome-list"
+      - "github-profile"
+      - "github-readme"
+      - "gitskins"
+      - "portfolio"
+      - "profile-readme"
+      - "readme-template"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "gitskins-pages-test"
     title: "gitskins-pages-test"
     description: "My developer portfolio, built with GitSkins"
@@ -127,30 +155,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2025-12-30"
-  - name: "Vector-Search"
-    title: "Vector-Search"
-    description: "A multi-modal search engine using CLIP and a vector database to power both text-to-image and image-to-image search across a 44,000-item fashion catalog."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-12-11"
-  - name: "AgentChaos"
-    title: "AgentChaos"
-    description: "Safely attack your AI agent before someone else does. Local-first security testing CLI that injects controlled attacks into agent tool responses and verifies security boundaries."
-    language: "TypeScript"
-    topics:
-      - "agent-security"
-      - "ai-agent-security"
-      - "cli"
-      - "llm-security"
-      - "prompt-injection"
-      - "red-team"
-      - "security-testing"
-      - "typescript"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-08"
 ---
 
 # asamassekou10

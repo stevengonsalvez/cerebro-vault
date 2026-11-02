@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [1, 0, 0, 0, 0, 2, 7, 5, 0, 1, 6, 3, 1]
+pushes_per_week: [1, 0, 0, 0, 0, 2, 7, 5, 0, 1, 6, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,19 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dsh-plugin-auto-contrib"
-    title: "dsh-plugin-auto-contrib"
-    description: "AutoContrib: unattended GitHub open-source contributions for DeepSeek Harness"
-    language: "Python"
-    topics:
-      - "auto-contrib"
-      - "deep-harness"
-      - "dsh-plugin"
-      - "github-automation"
-      - "oss-contribution"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "BlueX888"
     title: "BlueX888"
     description: null
@@ -97,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
   - name: "mastra-mcp-media-repro"
     title: "mastra-mcp-media-repro"
     description: "Minimal repro: MCP image tool results reach the AI SDK v5 model prompt as spec-v3 image-data instead of a media part (@mastra/core)"
@@ -130,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-12"
+  - name: "forge-code"
+    title: "forge-code"
+    description: "面向本地工程的个人 AI 编程助手：项目记忆 · Skill 自进化 · 长任务上下文管理 · 权限沙箱"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-14"
 ---
 
 # BlueX888

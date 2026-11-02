@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 2, 2, 0, 7, 7, 13, 12, 14, 1, 25, 0]
+pushes_per_week: [1, 1, 1, 2, 3, 4, 12, 8, 18, 8, 3, 23, 0]
 windows:
   "7d":
-    pushes: 16
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 8
-    active_days: 10
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 16
-    distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 41
+    pushes: 40
     distinct_repos: 8
-    pushes_per_repo: 5.1250
-    active_days: 10
+    pushes_per_repo: 5.0000
+    active_days: 9
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-29"
   - name: "bosphore-1819"
     title: "bosphore-1819"
     description: "An 1819 French map of the Bosphorus with every label read, mapped and translated. French original, Ottoman Turkish, and the names we use today."

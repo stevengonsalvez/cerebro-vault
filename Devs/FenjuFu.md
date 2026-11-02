@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [2, 13, 2, 3, 0, 4, 2, 1, 6, 1, 11, 3, 0]
+pushes_per_week: [3, 14, 1, 2, 2, 2, 2, 3, 4, 4, 10, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,7 +89,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "rtthread-training-site"
+    title: "rtthread-training-site"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "Awesome-Astron-Workflow"
     title: "Awesome-Astron-Workflow"
     description: "A curated collection of Astron workflow examples and user cases for AI-powered applications, featuring real-world implementations including AI Resume Assistant, Translator, Content Writing, Podcast Generator, and Course Generator."
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-23"
-  - name: "aios"
-    title: "aios"
-    description: "Future AI OS."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-21"
 ---
 
 # FenjuFu

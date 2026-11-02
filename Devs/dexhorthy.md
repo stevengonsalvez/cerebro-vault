@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4ff4c21b5a15c319"
   - "6a454934fcba31af"
@@ -81,6 +81,22 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "shannon"
+    title: "shannon"
+    description: "alternative to claude -p that lifecycles interactive sessions in tmux"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 249
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "floater"
+    title: "floater"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-14"
   - name: "slopfiles"
     title: "slopfiles"
     description: "a curation of questionably-useful coding agent plugins"
@@ -97,14 +113,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-04-30"
-  - name: "shannon"
-    title: "shannon"
-    description: "alternative to claude -p that lifecycles interactive sessions in tmux"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 248
-    first_seen: null
-    last_push: "2026-05-13"
   - name: "kustomark-ralph-bash"
     title: "kustomark-ralph-bash"
     description: null
@@ -121,14 +129,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2025-12-27"
-  - name: "multiclaude"
-    title: "multiclaude"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2025-07-07"
 ---
 
 # dexhorthy

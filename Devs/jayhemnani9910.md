@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 2, 1, 0, 0, 1, 0, 0, 1, 4, 5, 4, 1]
+pushes_per_week: [0, 2, 1, 0, 0, 1, 0, 0, 3, 5, 2, 5, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,7 +89,31 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "telegraph-receipts-desk"
+    title: "telegraph-receipts-desk"
+    description: "Telegraph-backed diligence packs and flight refund claims, every answer checked against the official source"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "shiftdrop-rust"
+    title: "shiftdrop-rust"
+    description: "Drag a file, hold Shift, drop it on a format. Local file converter for GNOME on Wayland, in Rust."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "jod-skills"
+    title: "jod-skills"
+    description: "Claude Code skills: codebase audit, Hacker News digest, GitHub trending digest, and open-source status"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "jayhemnani9910"
     title: "jayhemnani9910"
     description: "GitHub profile README"
@@ -97,47 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "revolu-idea"
-    title: "revolu-idea"
-    description: "CAG Deep Research - AI research automation with LangGraph multi-agent orchestration"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "longitudinal-mets-validation"
-    title: "longitudinal-mets-validation"
-    description: "Longitudinal validation of metabolic syndrome risk scores on NHANES Linked Mortality File"
-    language: "R"
-    topics:
-      - "clinical-prediction"
-      - "epidemiology"
-      - "linked-mortality-file"
-      - "metabolic-syndrome"
-      - "nhanes"
-      - "r"
-      - "reproducible-research"
-      - "survival-analysis"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "jod-skills"
-    title: "jod-skills"
-    description: "Claude Code skills: codebase audit, Hacker News digest, GitHub trending digest, and open-source status"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "voxt"
-    title: "voxt"
-    description: "Voice-to-text clipboard tool for Linux"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-11-02"
 ---
 
 # jayhemnani9910

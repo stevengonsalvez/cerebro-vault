@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 4, 0, 0, 0, 0, 2, 0, 2, 0, 2, 4, 0]
+pushes_per_week: [7, 4, 0, 0, 0, 0, 2, 0, 2, 0, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 2
     active_days: 13
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7692
+  push_per_day: 1.6154
   repo_per_active_day: 0.1538
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 11.5000
+    pushes_per_repo: 10.5000
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # jpbetz
 
-23 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+21 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jpbetz

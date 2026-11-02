@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3f220f3536f87a11"
 pushes_per_week: [0, 0, 1, 1, 0, 2, 5, 0, 0, 0, 1, 0, 0]
@@ -77,6 +77,18 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "linkedin-mcpserver"
+    title: "linkedin-mcpserver"
+    description: "A powerful Model Context Protocol server for LinkedIn API integration"
+    language: "TypeScript"
+    topics:
+      - "linkedin"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "typescript"
+    stars_fact: 92
+    first_seen: null
+    last_push: "2025-03-28"
   - name: "awesome-n8n-workflows"
     title: "awesome-n8n-workflows"
     description: "A curated collection of awesome n8n workflows for automation, integration, and productivity. Explore ready-to-use JSON workflows for analytics, communication, CRM, e-commerce, finance, HR, marketing, monitoring, security, and more."
@@ -90,18 +102,6 @@ repos:
     stars_fact: 414
     first_seen: null
     last_push: "2025-08-08"
-  - name: "linkedin-mcpserver"
-    title: "linkedin-mcpserver"
-    description: "A powerful Model Context Protocol server for LinkedIn API integration"
-    language: "TypeScript"
-    topics:
-      - "linkedin"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "typescript"
-    stars_fact: 91
-    first_seen: null
-    last_push: "2025-03-28"
   - name: "tlc-agent-harness"
     title: "tlc-agent-harness"
     description: null

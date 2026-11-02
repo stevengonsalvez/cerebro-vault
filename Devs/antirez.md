@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,54 +80,54 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "ds4"
-    title: "ds4"
-    description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
-    language: "C"
-    topics: []
-    stars_fact: 24090
-    first_seen: "2026-08-04T06:00:05.826189+00:00"
-    last_push: "2026-10-23"
-  - name: "youcam"
-    title: "youcam"
-    description: "Mac video recording with face in a circle for YouTubers"
-    language: "Swift"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "tgterm"
-    title: "tgterm"
-    description: "Control your MacOS terminals via Telegram, for fun coding agents interaction and profit"
-    language: "C"
-    topics: []
-    stars_fact: 227
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "smallchat"
-    title: "smallchat"
-    description: "A minimal programming example for a chat server"
-    language: "C"
-    topics: []
-    stars_fact: 7488
-    first_seen: null
-    last_push: "2024-01-27"
   - name: "h3.c"
     title: "h3.c"
     description: "MiniMax H3 inference engine for Mac computers"
     language: "C"
     topics: []
-    stars_fact: 2960
+    stars_fact: 3000
     first_seen: "2026-08-11T06:00:08.519332+00:00"
     last_push: "2026-08-11"
-  - name: "dump1090"
-    title: "dump1090"
-    description: "Dump1090 is a simple Mode S decoder for RTLSDR devices"
+  - name: "disque"
+    title: "disque"
+    description: "Disque is a distributed message broker"
     language: "C"
     topics: []
-    stars_fact: 2963
+    stars_fact: 8074
     first_seen: null
-    last_push: "2026-02-15"
+    last_push: "2021-03-17"
+  - name: "ds4"
+    title: "ds4"
+    description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
+    language: "C"
+    topics: []
+    stars_fact: 24189
+    first_seen: "2026-08-04T06:00:05.826189+00:00"
+    last_push: "2026-11-01"
+  - name: "neural-redis"
+    title: "neural-redis"
+    description: "Neural networks module for Redis"
+    language: "C"
+    topics: []
+    stars_fact: 2227
+    first_seen: null
+    last_push: "2018-07-23"
+  - name: "aocla"
+    title: "aocla"
+    description: "A small stack based, written to bring Advent of Code 2022 Day 13 puzzle to the extreme consequences"
+    language: "C"
+    topics: []
+    stars_fact: 381
+    first_seen: null
+    last_push: "2023-02-01"
+  - name: "youcam"
+    title: "youcam"
+    description: "Mac video recording with face in a circle for YouTubers"
+    language: "Swift"
+    topics: []
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # antirez

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [29, 61, 3, 5, 1, 60, 2, 14, 66, 8, 37, 25, 0]
+pushes_per_week: [34, 55, 5, 3, 31, 30, 2, 27, 57, 15, 26, 25, 0]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 102
-    distinct_repos: 12
-    active_days: 13
+    pushes: 92
+    distinct_repos: 10
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 311
-    distinct_repos: 30
-    active_days: 43
+    pushes: 310
+    distinct_repos: 29
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.2326
-  repo_per_active_day: 0.6977
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2000
+  push_per_day: 7.3810
+  repo_per_active_day: 0.6905
+  not_owned_ratio: 0.3448
+  basename_concentration: 0.2069
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 102
-    distinct_repos: 12
-    pushes_per_repo: 8.5000
-    active_days: 13
+    pushes: 92
+    distinct_repos: 10
+    pushes_per_repo: 9.2000
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 311
-    distinct_repos: 30
-    pushes_per_repo: 10.3667
-    active_days: 43
+    pushes: 310
+    distinct_repos: 29
+    pushes_per_repo: 10.6897
+    active_days: 42
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "litterbox"
@@ -144,6 +144,6 @@ repos:
 
 # Komzpa
 
-311 pushes across 30 repositories on 43 active days in the last 90 days of public GitHub push activity.
+310 pushes across 29 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

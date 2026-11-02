@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 7, 7, 0, 0, 4, 21, 15, 8, 14, 13, 2, 1]
+pushes_per_week: [4, 6, 7, 0, 0, 12, 13, 18, 13, 9, 11, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 19
-    active_days: 11
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 28
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.8750
+  push_per_day: 3.0645
+  repo_per_active_day: 0.9032
   not_owned_ratio: 0.1786
   basename_concentration: 0.0357
   shapes: []
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 30
     distinct_repos: 19
-    pushes_per_repo: 1.7368
-    active_days: 11
+    pushes_per_repo: 1.5789
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 96
+    pushes: 95
     distinct_repos: 28
-    pushes_per_repo: 3.4286
-    active_days: 32
+    pushes_per_repo: 3.3929
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pyncua"
-    title: "pyncua"
-    description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "jules-mcp"
     title: "jules-mcp"
     description: "MCP server for the Google Jules coding-agent API (12 tools: sessions, activities, scheduling, session-diff)"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "scripts-emporium"
+    title: "scripts-emporium"
+    description: "A collection of standalone utility scripts for sysadmin tasks, web scraping, DNS management, and everyday automation."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "redmine-mcp-workflows"
     title: "redmine-mcp-workflows"
     description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
@@ -100,7 +100,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "pyncua"
+    title: "pyncua"
+    description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "pxe-server"
+    title: "pxe-server"
+    description: "On-demand PXE boot server using dnsmasq (proxyDHCP + TFTP) with netboot.xyz"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -108,34 +124,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "incorrecter"
-    title: "incorrecter"
-    description: "The opposite of autocorrect: a 0.5B LoRA that adds realistic human typos to AI-sounding text. MLX + GGUF + the full training pipeline."
-    language: "Python"
-    topics:
-      - "fine-tune"
-      - "gguf"
-      - "lora"
-      - "mlx"
-      - "ollama"
-      - "qwen25"
-      - "typo-generation"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "flipoff"
-    title: "flipoff"
-    description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-01"
 ---
 
 # Avicennasis
 
-96 pushes across 28 repositories on 32 active days in the last 90 days of public GitHub push activity.
+95 pushes across 28 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

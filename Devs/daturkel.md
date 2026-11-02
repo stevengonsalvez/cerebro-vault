@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
@@ -85,7 +85,7 @@ repos:
     description: "Custom search engines for Google Chrome"
     language: null
     topics: []
-    stars_fact: 120
+    stars_fact: 119
     first_seen: null
     last_push: "2020-05-28"
   - name: "learning-papers"
@@ -95,7 +95,7 @@ repos:
     topics:
       - "machine-learning"
       - "papers"
-    stars_fact: 726
+    stars_fact: 727
     first_seen: null
     last_push: "2026-07-08"
   - name: "dotfiles"

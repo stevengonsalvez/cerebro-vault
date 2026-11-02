@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [17, 12, 2, 0, 0, 0, 0, 4, 1, 1, 1, 4, 7]
+pushes_per_week: [19, 10, 2, 0, 0, 0, 0, 5, 0, 2, 2, 9, 0]
 windows:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,32 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llm-router-go"
-    title: "llm-router-go"
-    description: "GPU-aware reverse proxy router for vLLM and SGlang LLM inference backends."
-    language: "Go"
+  - name: "djdembeck"
+    title: "djdembeck"
+    description: null
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
+  - name: "m4b-merge"
+    title: "m4b-merge"
+    description: "A high-performance Rust CLI to merge audiobooks into consistently tagged M4B files. Zero runtime deps, native chapter embedding, and 10x faster processing."
+    language: "Rust"
+    topics:
+      - "audible"
+      - "audiobooks"
+      - "audnexus"
+      - "cli"
+      - "docker"
+      - "m4a"
+      - "m4b"
+      - "metadata"
+      - "mp3"
+      - "rust"
+    stars_fact: 92
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "bragibooks"
     title: "bragibooks"
     description: "Self-hosted web app for organizing personal audiobook libraries: batch intake, AudiobookDB matching, and queued m4b-merge processing. Built with Go and SvelteKit."
@@ -106,33 +124,7 @@ repos:
       - "sveltekit"
     stars_fact: 217
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "m4b-merge"
-    title: "m4b-merge"
-    description: "A high-performance Rust CLI to merge audiobooks into consistently tagged M4B files. Zero runtime deps, native chapter embedding, and 10x faster processing."
-    language: "Rust"
-    topics:
-      - "audible"
-      - "audiobooks"
-      - "audnexus"
-      - "cli"
-      - "docker"
-      - "m4a"
-      - "m4b"
-      - "metadata"
-      - "mp3"
-      - "rust"
-    stars_fact: 92
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "opencode-nanogpt"
-    title: "opencode-nanogpt"
-    description: "Automated setup scripts for configuring OpenCode with NanoGPT integration, featuring automatic model updates, reasoning model support, and built-in MCP server."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-05-29"
+    last_push: "2026-11-02"
   - name: "annalist"
     title: "annalist"
     description: "Self-hosted AI release notes for GitHub and Forgejo releases"
@@ -150,28 +142,23 @@ repos:
       - "webhooks"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "Audnexus.bundle"
-    title: "Audnexus.bundle"
-    description: "An Audnexus client proof of concept for Plex, providing rich author and audiobook data. Developed in Python, offering enhanced user experiences via Plex's legacy plugin agent system."
-    language: "Python"
-    topics:
-      - "api"
-      - "audiobook"
-      - "audiobook-data"
-      - "audiobooks"
-      - "audnexus"
-      - "client"
-      - "data-aggregation"
-      - "plex"
-      - "plex-agent"
-      - "plex-media-server"
-      - "proof-of-concept"
-      - "python"
-      - "user-experience"
-    stars_fact: 648
+    last_push: "2026-10-31"
+  - name: "forgejo-cli"
+    title: "forgejo-cli"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-02-10"
+    last_push: "2026-10-26"
+  - name: "llm-router-go"
+    title: "llm-router-go"
+    description: "GPU-aware reverse proxy router for vLLM and SGlang LLM inference backends."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # djdembeck

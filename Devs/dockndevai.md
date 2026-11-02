@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 4, 1, 0, 5, 4, 2, 2, 1, 2, 3, 3]
+pushes_per_week: [0, 0, 5, 0, 0, 5, 4, 2, 2, 3, 2, 4, 0]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,20 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp-grafana"
-    title: "mcp-grafana"
-    description: "MCP server for Grafana — search & edit dashboards, query datasources (Prometheus/Loki/SQL), inspect alerts, with safe-by-default access modes."
+  - name: "mcp-clickhouse"
+    title: "mcp-clickhouse"
+    description: "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags."
     language: "TypeScript"
-    topics: []
-    stars_fact: 1
+    topics:
+      - "clickhouse"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "olap"
+      - "sql"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "mcp-kafka"
     title: "mcp-kafka"
     description: "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags."
@@ -98,54 +104,37 @@ repos:
       - "observability"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "mcp-percona-pg"
-    title: "mcp-percona-pg"
-    description: "MCP server for the Percona Operator for PostgreSQL — manage PostgreSQL + PgBouncer, pooling, backups/PITR, and DR with safe-by-default security flags."
+    last_push: "2026-11-02"
+  - name: "mcp-cdp"
+    title: "mcp-cdp"
+    description: null
     language: "TypeScript"
     topics:
+      - "ai"
+      - "browser-automation"
+      - "cdp"
+      - "chrome-devtools-protocol"
+      - "electron"
+      - "mcp"
+      - "model-context-protocol"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "mcp-openshift"
+    title: "mcp-openshift"
+    description: "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth."
+    language: "TypeScript"
+    topics:
+      - "ai"
       - "devops"
+      - "k8s"
       - "kubernetes"
       - "mcp"
       - "model-context-protocol"
-      - "percona"
-      - "pgbouncer"
-      - "postgresql"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "mcp-teams"
-    title: "mcp-teams"
-    description: "Safe-by-default MCP server for Microsoft Teams (Microsoft Graph) — read teams, channels, chats and messages, and post/reply/send, with browser sign-in."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "llm"
-      - "mcp"
-      - "microsoft-365"
-      - "microsoft-graph"
-      - "microsoft-teams"
-      - "model-context-protocol"
-      - "teams"
+      - "openshift"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "mcp-outlook"
-    title: "mcp-outlook"
-    description: "Safe-by-default MCP server for Microsoft Outlook mail (Microsoft Graph) — read, search, draft, send, reply, forward and organize email, with browser sign-in."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "email"
-      - "llm"
-      - "mcp"
-      - "microsoft-365"
-      - "microsoft-graph"
-      - "model-context-protocol"
-      - "outlook"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "mcp-keycloak"
     title: "mcp-keycloak"
     description: "MCP server for Keycloak — multi-realm admin with security modes (read-only/read-write/admin) and access-control flags."
@@ -158,7 +147,21 @@ repos:
       - "model-context-protocol"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "mcp-azure-devops"
+    title: "mcp-azure-devops"
+    description: "MCP server for Azure DevOps — boards, repos, pipelines, projects — with governance controls (access modes, project scoping, protected projects, delete gating, typed confirmation)."
+    language: "TypeScript"
+    topics:
+      - "azure-devops"
+      - "devops"
+      - "governance"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # dockndevai

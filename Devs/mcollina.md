@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 10, 6, 4, 0, 2, 9, 15, 6, 9, 16, 4, 0]
+pushes_per_week: [5, 14, 2, 4, 0, 3, 8, 15, 7, 12, 14, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 12
-    active_days: 11
+    active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 26
-    active_days: 39
+    active_days: 38
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.2308
-  repo_per_active_day: 0.6667
+  push_per_day: 2.2632
+  repo_per_active_day: 0.6842
   not_owned_ratio: 0.7308
   basename_concentration: 0.0769
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 12
-    pushes_per_repo: 2.7500
-    active_days: 11
+    pushes_per_repo: 2.5833
+    active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 26
-    pushes_per_repo: 3.3462
-    active_days: 39
+    pushes_per_repo: 3.3077
+    active_days: 38
     repos_not_owned: 19
     not_owned_basenames: 18
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "githuman"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-87 pushes across 26 repositories on 39 active days in the last 90 days of public GitHub push activity.
+86 pushes across 26 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

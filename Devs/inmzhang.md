@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 6, 2, 0, 0, 0, 0, 0, 0, 3, 0, 8, 0]
+pushes_per_week: [4, 5, 2, 0, 0, 0, 0, 0, 0, 3, 1, 7, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "transession"
-    title: "transession"
-    description: "Translate sessions between claude code and codex"
-    language: "Rust"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-08-18"
   - name: "bloq"
     title: "bloq"
     description: "Dynamic Clifford+T surface code compiler"
@@ -95,7 +87,15 @@ repos:
       - "surface-code"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
+  - name: "transession"
+    title: "transession"
+    description: "Translate sessions between claude code and codex"
+    language: "Rust"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-08-18"
   - name: "website-cloner"
     title: "website-cloner"
     description: "Local replication of staryuki.com with a terminal access flow"
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-29"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for configuration"

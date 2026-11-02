@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 0, 0, 0, 0, 1, 5, 18, 6, 1, 6, 16, 0]
+pushes_per_week: [6, 0, 0, 0, 0, 1, 5, 24, 1, 0, 9, 13, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,17 +86,9 @@ repos:
       - "claude-code"
       - "codex"
       - "opencode"
-    stars_fact: 81
+    stars_fact: 84
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
-    language: null
-    topics: []
-    stars_fact: 3988
-    first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-11-02"
   - name: "applied-math-study-guides"
     title: "applied-math-study-guides"
     description: null
@@ -104,15 +96,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "github-issue-semantic-search"
-    title: "github-issue-semantic-search"
+    last_push: "2026-10-31"
+  - name: "github-semantic-search-pipeline"
+    title: "github-semantic-search-pipeline"
     description: "A durable pipeline that indexes every issue and comment in a GitHub repo."
     language: "Python"
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-31"
+  - name: "awesome-ai-devtools"
+    title: "awesome-ai-devtools"
+    description: "Curated list of AI-powered developer tools."
+    language: null
+    topics: []
+    stars_fact: 3992
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "lean-viewer-demo"
     title: "lean-viewer-demo"
     description: null

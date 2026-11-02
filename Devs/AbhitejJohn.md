@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "5cf3a28e1bfde5ac"
-pushes_per_week: [1, 9, 1, 1, 0, 0, 13, 9, 3, 2, 5, 3, 1]
+pushes_per_week: [0, 9, 1, 1, 0, 1, 12, 9, 5, 2, 3, 4, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 2
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.1000
+  push_per_day: 2.4737
+  repo_per_active_day: 0.1053
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 2
-    pushes_per_repo: 24.0000
-    active_days: 20
+    pushes_per_repo: 23.5000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RemoteTesting"
@@ -97,6 +97,6 @@ repos:
 
 # AbhitejJohn
 
-48 pushes across 2 repositories on 20 active days in the last 90 days of public GitHub push activity.
+47 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AbhitejJohn

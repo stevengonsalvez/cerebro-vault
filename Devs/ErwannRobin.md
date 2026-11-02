@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [2, 3, 1, 0, 0, 1, 0, 4, 8, 1, 2, 3, 0]
+pushes_per_week: [2, 3, 1, 0, 0, 1, 0, 6, 6, 1, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.2500
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,27 @@ repos:
     description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
     language: "JavaScript"
     topics: []
-    stars_fact: 13
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "bg-eraser"
+    title: "bg-eraser"
+    description: "Background Eraser tool fully on device"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "erwann"
+    title: "erwann"
+    description: "Source of my portfolio"
+    language: "TypeScript"
+    topics:
+      - "portfolio"
+      - "portfolio-website"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "gyro"
     title: "gyro"
     description: null
@@ -101,14 +119,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-23"
-  - name: "erwann"
-    title: "erwann"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "TrampoVision"
     title: "TrampoVision"
     description: null
@@ -117,14 +127,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-20"
-  - name: "glowgrid"
-    title: "glowgrid"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # ErwannRobin

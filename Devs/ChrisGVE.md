@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 1, 0, 0, 2, 0, 15, 5, 0, 1, 1, 0, 0]
@@ -102,9 +102,9 @@ repos:
       - "sqlite"
       - "statistics"
       - "time-series"
-    stars_fact: 12
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-08-14"
+    last_push: "2026-11-01"
   - name: "pivot_panes.wezterm"
     title: "pivot_panes.wezterm"
     description: "Simple plugins for Wezterm to rotate the panes in a window"

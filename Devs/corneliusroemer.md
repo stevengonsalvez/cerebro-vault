@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 2, 2, 2, 0, 1, 5, 7, 8, 2, 2, 0, 0]
+pushes_per_week: [2, 4, 0, 2, 1, 1, 4, 8, 7, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,11 +25,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 4
+    distinct_repos: 4
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
     pushes: 33
@@ -60,12 +60,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
     pushes: 33
@@ -80,6 +80,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pango-sequences"
+    title: "pango-sequences"
+    description: "Consensus sequences for each Pango lineage"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "rki-abwasser-reports"
     title: "rki-abwasser-reports"
     description: "Easy to view version of RKI SARS-CoV-2 wastewater surveillance reports"
@@ -92,15 +100,15 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "pango-sequences"
-    title: "pango-sequences"
-    description: "Consensus sequences for each Pango lineage"
+    last_push: "2026-10-30"
+  - name: "pango-designation-dates"
+    title: "pango-designation-dates"
+    description: "Contains dates on which each Pango lineage was designated"
     language: "Python"
     topics: []
-    stars_fact: 25
+    stars_fact: 9
     first_seen: null
-    last_push: "2025-06-27"
+    last_push: "2026-10-28"
   - name: "corneliusroemer"
     title: "corneliusroemer"
     description: null
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-05-19"
-  - name: "pango-designation-dates"
-    title: "pango-designation-dates"
-    description: "Contains dates on which each Pango lineage was designated"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "llm-reports"
     title: "llm-reports"
     description: null

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,32 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xfsr"
-    title: "xfsr"
-    description: "FSR 1.0 for Linux games — wrap a title like `gamemoderun`, get more FPS by rendering lower and upscaling."
+  - name: "edge"
+    title: "edge"
+    description: "EdgeScale (edgerun) — high-performance in-process GPU upscaling and companion iGPU offload for Linux games (native Vulkan, Proton/Wine, and OpenGL)"
     language: "C++"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "amd"
+      - "amd-fsr"
+      - "amd-gpu"
+      - "amdgpu"
+      - "game"
+      - "gaming"
+      - "gpu"
+      - "gpu-acceleration"
+      - "gpu-optimization"
+      - "linux"
+      - "linux-app"
+      - "linux-desktop"
+      - "linux-kernel"
+      - "nvidia"
+      - "nvidia-gpu"
+      - "windows"
+      - "windows-app"
+      - "windows-desktop"
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "epochdb-server"
     title: "epochdb-server"
     description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."

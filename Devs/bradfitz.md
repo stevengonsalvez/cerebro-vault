@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [1, 0, 0, 0, 2, 1, 8, 9, 6, 4, 11, 2, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 2, 8, 8, 6, 7, 8, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "exp-httpclient"
+    title: "exp-httpclient"
+    description: "experimental new HTTP client API for #golang (WIP)"
+    language: "Go"
+    topics: []
+    stars_fact: 583
+    first_seen: null
+    last_push: "2019-01-01"
+  - name: "latlong"
+    title: "latlong"
+    description: "The latlong package maps from a latitude and longitude to a timezone."
+    language: "Go"
+    topics: []
+    stars_fact: 410
+    first_seen: null
+    last_push: "2023-02-17"
+  - name: "goimports"
+    title: "goimports"
+    description: "(old repo) Tool to fix (add, remove) your Go imports automatically."
+    language: "Go"
+    topics: []
+    stars_fact: 1039
+    first_seen: null
+    last_push: "2021-03-31"
+  - name: "tswipoexp"
+    title: "tswipoexp"
+    description: "an experimental & unmaintained & unofficial portable Windows Tailscale client"
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "homelab"
+    title: "homelab"
+    description: "Brad's homelab setup"
+    language: null
+    topics: []
+    stars_fact: 2056
+    first_seen: null
+    last_push: "2020-01-30"
   - name: "resizejpeg"
     title: "resizejpeg"
     description: "fork of Go's image/jpeg that resizes down as it decodes to save memory"
@@ -85,46 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "homelab"
-    title: "homelab"
-    description: "Brad's homelab setup"
-    language: null
-    topics: []
-    stars_fact: 2055
-    first_seen: null
-    last_push: "2020-01-30"
-  - name: "exp-httpclient"
-    title: "exp-httpclient"
-    description: "experimental new HTTP client API for #golang (WIP)"
-    language: "Go"
-    topics: []
-    stars_fact: 584
-    first_seen: null
-    last_push: "2019-01-01"
-  - name: "autocertdelegate"
-    title: "autocertdelegate"
-    description: "Get LetsEncrypt TLS certs for internal-only TLS servers via a delegated golang.org/x/crypto/acme/autocert server."
-    language: "Go"
-    topics: []
-    stars_fact: 252
-    first_seen: null
-    last_push: "2020-03-06"
-  - name: "lesser"
-    title: "lesser"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2020-06-15"
-  - name: "talk-yapc-asia-2015"
-    title: "talk-yapc-asia-2015"
-    description: "talk-yapc-asia-2015"
-    language: "Go"
-    topics: []
-    stars_fact: 711
-    first_seen: null
-    last_push: "2021-03-19"
 ---
 
 # bradfitz

@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 2, 7, 0, 0, 4, 0, 0, 2, 1, 3, 43, 1]
+pushes_per_week: [0, 7, 2, 0, 0, 4, 0, 0, 2, 1, 5, 42, 0]
 windows:
   "7d":
-    pushes: 13
-    distinct_repos: 6
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 13
-    distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CrepuscularIRIS.github.io"
-    title: "CrepuscularIRIS.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "vlm-caption-trajectories"
     title: "vlm-caption-trajectories"
     description: "Evidence-grounded VLM SFT trajectory construction: design, reference code, audited seed results and open questions."
@@ -92,7 +84,52 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "vlm-rl-signal-design"
+    title: "vlm-rl-signal-design"
+    description: "Evidence-grounded VLM RL modeling workspace: protocols, paired outcomes, trajectory audits, literature, and design discussion prompts"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "Embodied-Harness-Daily"
+    title: "Embodied-Harness-Daily"
+    description: "Embodied agent harness research radar: evidence-grounded discovery, pattern cards, and local review"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "arxiv-daily"
+      - "embodied-ai"
+      - "humanoid-robot"
+      - "llm-agents"
+      - "paper-recommendation"
+      - "pattern-mining"
+      - "research-radar"
+      - "robot-learning"
+      - "robot-manipulation"
+      - "vision-language-navigation"
+      - "vla"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "CUA-Daily"
+    title: "CUA-Daily"
+    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
+    language: "Python"
+    topics:
+      - "arxiv"
+      - "awesome-list"
+      - "browser-agents"
+      - "computer-use"
+      - "gui-agents"
+      - "llm-agents"
+      - "mobile-agents"
+      - "research-radar"
+      - "web-agents"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "HarnessRSI-Daily"
     title: "HarnessRSI-Daily"
     description: "Daily radar for harness-level recursive self-improvement (RSI): self-evolving / self-improving LLM agent papers scored with quote-backed evidence, research-pattern cards, and paper posters. arXiv daily · awesome list · 递归自我改进"
@@ -118,46 +155,9 @@ repos:
       - "self-evolving-agents"
       - "self-improving-agents"
       - "skill-library"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "Embodied-Harness-Daily"
-    title: "Embodied-Harness-Daily"
-    description: "Embodied agent harness research radar: evidence-grounded discovery, pattern cards, and local review"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "arxiv-daily"
-      - "embodied-ai"
-      - "humanoid-robot"
-      - "llm-agents"
-      - "paper-recommendation"
-      - "pattern-mining"
-      - "research-radar"
-      - "robot-learning"
-      - "robot-manipulation"
-      - "vision-language-navigation"
-      - "vla"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "CUA-Daily"
-    title: "CUA-Daily"
-    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
-    language: "Python"
-    topics:
-      - "arxiv"
-      - "awesome-list"
-      - "browser-agents"
-      - "computer-use"
-      - "gui-agents"
-      - "llm-agents"
-      - "mobile-agents"
-      - "research-radar"
-      - "web-agents"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "design-card-atlas"
     title: "design-card-atlas"
     description: "Citadel 视觉设计卡：给 3D 场景、镜头与 UI 的参考图册（光 · 尺度 · 材质 · 镜头 · 排版）"
@@ -167,9 +167,9 @@ repos:
       - "threejs"
       - "visual-design"
       - "webgl"
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
 ---
 
 # CrepuscularIRIS

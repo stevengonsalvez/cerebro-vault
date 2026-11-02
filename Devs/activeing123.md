@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 2, 4, 1, 0, 4, 1, 1, 9, 0, 2, 3, 0]
+pushes_per_week: [1, 3, 2, 1, 2, 2, 1, 1, 9, 1, 1, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 6
     distinct_repos: 2
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,32 +80,32 @@ reasons:
 repos:
   - name: "mcptoon"
     title: "mcptoon"
-    description: "One zero-dependency CLI for every MCP server and agent skill. Token optimization, tool discovery and context compression: 71,929 -> 581 tokens (-99.2%, measured), schemas stay out of context. One config for Claude Code, Codex, Cursor, every agent. 341KB, pure Python. | 零依赖 CLI：管所有 MCP 工具与技能，工具发现省 99.2% token。"
+    description: "One zero-dependency MCP gateway CLI for every server and agent skill. Token optimization, tool discovery and context compression: 71,929 -> 581 tokens (-99.2%, measured), schemas stay out of context. One config for Claude Code, Codex, Cursor, every agent. 561KB, pure Python. | 零依赖 CLI：管所有 MCP 工具与技能，工具发现省 99.2% token。"
     language: "Python"
     topics:
       - "agent-skills"
       - "claude"
       - "claude-code"
-      - "cli"
       - "codex"
       - "context-compression"
+      - "context-window"
       - "cursor"
-      - "llm"
       - "mcp"
       - "mcp-cli"
       - "mcp-client"
-      - "mcp-server"
+      - "mcp-gateway"
+      - "mcp-manager"
+      - "mcp-proxy"
       - "mcp-tools"
-      - "model-context-protocol"
-      - "python"
       - "skill-management"
+      - "token-efficiency"
       - "token-optimization"
-      - "windows"
+      - "tool-discovery"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 392
+    stars_fact: 417
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
@@ -113,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-30"
   - name: "toondeck"
     title: "toondeck"
     description: "One deck for every agent — MCP tools, skills, models and API keys. GUI console for mcptoon."

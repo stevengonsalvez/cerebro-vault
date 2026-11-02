@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,20 +77,33 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dirty-window"
-    title: "dirty-window"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "ambershen.github.io"
     title: "ambershen.github.io"
     description: null
     language: "HTML"
     topics: []
     stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "natural-effect"
+    title: "natural-effect"
+    description: "Agent skills for interactive natural materials: water, ice, fog, sand, and snow"
+    language: null
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "creative-coding"
+      - "generative-art"
+      - "interactive-art"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "softmatter"
+    title: "softmatter"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
   - name: "sound-dictionaries"
@@ -117,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-19"
-  - name: "natural-effect"
-    title: "natural-effect"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # ambershen

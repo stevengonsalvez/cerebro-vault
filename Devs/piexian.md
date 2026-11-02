@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 8, 1, 1, 1, 0, 5, 12, 6, 5, 6, 4, 0]
+pushes_per_week: [4, 7, 1, 1, 1, 1, 5, 14, 3, 5, 6, 4, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 15
     distinct_repos: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 20
-    active_days: 35
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5143
-  repo_per_active_day: 0.5714
+  push_per_day: 1.5294
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.1000
   basename_concentration: 0.0500
   shapes: []
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 15
     distinct_repos: 7
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 20
-    pushes_per_repo: 2.6500
-    active_days: 35
+    pushes_per_repo: 2.6000
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_simple_long_memory"
@@ -146,6 +146,6 @@ repos:
 
 # piexian
 
-53 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
+52 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

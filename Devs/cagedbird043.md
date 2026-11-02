@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 6, 0, 0, 0, 2, 1, 2, 0, 2, 0, 2, 0]
+pushes_per_week: [2, 5, 0, 0, 1, 1, 1, 2, 0, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,17 +82,49 @@ repos:
     description: "FCM hosts generator and publisher for direct Google push connectivity."
     language: "Go"
     topics: []
-    stars_fact: 58
+    stars_fact: 59
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "nvrm"
+    title: "nvrm"
+    description: "Rust user-space NVIDIA RM client for open kernel modules: NVDEC/NVENC/copy engine without CUDA"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "waydroid-a17-nvidia"
     title: "waydroid-a17-nvidia"
-    description: null
+    description: "Hardware-accelerated Android 17 in Waydroid on NVIDIA GPUs (NVK, NVDEC/NVENC, KernelSU)"
     language: "Shell"
+    topics:
+      - "android"
+      - "archlinux"
+      - "kernelsu"
+      - "lineageos"
+      - "nvidia"
+      - "nvk"
+      - "vulkan"
+      - "waydroid"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for cagedbird-maintained packages"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "cagedbird.cn"
+    title: "cagedbird.cn"
+    description: "CagedBird's personal engineering blog and lab notes."
+    language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "dingtalk-wayland-screenshare"
     title: "dingtalk-wayland-screenshare"
     description: null
@@ -101,30 +133,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-08-13"
-  - name: "cagedbird.cn"
-    title: "cagedbird.cn"
-    description: "CagedBird's personal engineering blog and lab notes."
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "cagedbird043"
-    title: "cagedbird043"
-    description: "Profile source for CagedBird — systems, games, and upstream work."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "kiro-relay"
-    title: "kiro-relay"
-    description: "Minimal Kiro reverse proxy in Bun and TypeScript"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
 ---
 
 # cagedbird043

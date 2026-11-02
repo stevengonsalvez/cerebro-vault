@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 3, 0, 1, 0, 0, 2, 2, 1, 0, 2, 1, 0]
+pushes_per_week: [4, 3, 0, 1, 0, 1, 1, 2, 1, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "botengyao"
+    title: "botengyao"
+    description: "GitHub profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "botengyao.github.io"
     title: "botengyao.github.io"
     description: "A learning blog"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-27"
   - name: "envoyai"
     title: "envoyai"
     description: "Envoy AI Python SDK"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2020-04-08"
-  - name: "distCache"
-    title: "distCache"
-    description: "Practice for the design of cache system"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-04-03"
 ---
 
 # botengyao

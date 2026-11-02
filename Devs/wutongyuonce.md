@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 6, 3, 1, 0, 8, 10, 11, 4, 2, 4, 4, 0]
+pushes_per_week: [6, 6, 3, 1, 1, 9, 8, 12, 3, 3, 5, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 2.7500
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,34 +89,15 @@ repos:
       - "minimalist"
     stars_fact: 38
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "pi-extensions 集合"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "pi"
-      - "pi-extension"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "Trajex"
     title: "Trajex"
     description: "数万行散落的 Claude Code、Codex 与 Pi JSONL 会话，索引至同一个 SQLite 中： Agent 可通过 CLI 实现毫秒级查询，用户可通过 App 直观浏览｜Past Claude Code, Codex, Pi sessions -- queryable by your agent, browsable by you"
     language: "JavaScript"
     topics: []
-    stars_fact: 125
+    stars_fact: 127
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "wutongyuonce"
-    title: "wutongyuonce"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
   - name: "PlainBlog"
     title: "PlainBlog"
     description: "黑白极简 Astro 静态博客模板"
@@ -125,17 +106,43 @@ repos:
       - "astro"
       - "blog"
       - "template"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-09-29"
-  - name: "FoldBar"
-    title: "FoldBar"
-    description: "A minimal macOS menu bar drawer with persistent icon ordering"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
+  - name: "skills"
+    title: "skills"
+    description: "我的个人 AI Agent Skills 集合，覆盖开发、设计、研究"
+    language: "HTML"
+    topics:
+      - "skills"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-27"
+  - name: "RepoMirror"
+    title: "RepoMirror"
+    description: "一个极简的 macOS 桌面工具，用于将 GitHub 仓库或其子目录镜像同步到本地文件夹树｜A minimal macOS desktop app for mirroring GitHub repositories or repository subdirectories into a local folder tree"
+    language: "Rust"
+    topics:
+      - "github"
+      - "macos"
+      - "macos-app"
+      - "tauri"
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "pr-lifecycle"
+    title: "pr-lifecycle"
+    description: "把 PR 当作持续收敛的契约：覆盖 SPEC、设计、实现、review、测试消融与最终审查的 Agent Skill｜Treat a PR as a converging contract — SPEC, design, implementation, review, and test ablation"
+    language: null
+    topics:
+      - "agent-skill"
+      - "agent-skills"
+      - "claude-code"
+      - "coding-agent"
+      - "pull-request"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # wutongyuonce

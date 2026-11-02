@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [27, 10, 4, 1, 0, 0, 0, 0, 1, 0, 1, 2, 0]
+pushes_per_week: [26, 12, 3, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
     active_days: 13
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5385
+  push_per_day: 3.4615
   repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 6
-    pushes_per_repo: 7.6667
+    pushes_per_repo: 7.5000
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-30"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Setup and dotfiles"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-10-30"
   - name: "uc-steer"
     title: "uc-steer"
     description: "Makes SteerMouse settings work for a mouse used through macOS Universal Control"
@@ -129,6 +129,6 @@ repos:
 
 # andyhite
 
-46 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
+45 pushes across 6 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andyhite

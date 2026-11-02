@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [2, 3, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0]
+pushes_per_week: [3, 2, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,6 +95,14 @@ repos:
     stars_fact: 518
     first_seen: null
     last_push: "2026-01-20"
+  - name: "FreeLlama"
+    title: "FreeLlama"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "octocode"
     title: "octocode"
     description: "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. One toolset, MCP or CLI"
@@ -120,9 +128,9 @@ repos:
       - "octocode"
       - "semantic-search"
       - "vibe-coding"
-    stars_fact: 955
+    stars_fact: 956
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-01"
   - name: "octocode-workshop"
     title: "octocode-workshop"
     description: null
@@ -131,14 +139,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "FreeLlama"
-    title: "FreeLlama"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "naviquest"
     title: "naviquest"
     description: null

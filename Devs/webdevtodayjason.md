@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [3, 2, 4, 0, 0, 8, 32, 11, 9, 1, 6, 0, 0]
+pushes_per_week: [2, 2, 4, 0, 0, 15, 29, 8, 8, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 22
-    active_days: 27
+    active_days: 26
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.8148
-  repo_per_active_day: 0.8148
+  push_per_day: 2.8846
+  repo_per_active_day: 0.8462
   not_owned_ratio: 0.4091
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 76
+    pushes: 75
     distinct_repos: 22
-    pushes_per_repo: 3.4545
-    active_days: 27
+    pushes_per_repo: 3.4091
+    active_days: 26
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aegisrefine"
@@ -146,6 +146,6 @@ repos:
 
 # webdevtodayjason
 
-76 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
+75 pushes across 22 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

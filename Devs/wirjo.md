@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [19, 11, 0, 1, 0, 0, 0, 0, 1, 3, 1, 2, 1]
+pushes_per_week: [15, 9, 1, 0, 0, 0, 0, 0, 1, 3, 1, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
-    distinct_repos: 16
-    active_days: 16
+    pushes: 33
+    distinct_repos: 15
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.4375
+  push_per_day: 2.2000
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1250
+  not_owned_ratio: 0.5333
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
-    distinct_repos: 16
-    pushes_per_repo: 2.4375
-    active_days: 16
+    pushes: 33
+    distinct_repos: 15
+    pushes_per_repo: 2.2000
+    active_days: 15
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sample-herdr-on-agentcore"
@@ -129,6 +129,6 @@ repos:
 
 # wirjo
 
-39 pushes across 16 repositories on 16 active days in the last 90 days of public GitHub push activity.
+33 pushes across 15 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

@@ -9,16 +9,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 6, 1, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,10 +50,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,6 +78,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jwcastillo"
+    title: "jwcastillo"
+    description: "Profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "k6-enterprise-framework"
+    title: "k6-enterprise-framework"
+    description: "Production-grade TypeScript k6 load testing framework — two-layer architecture, helpers, patterns, observability, multi-client isolation"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "k6_workshops"
     title: "k6_workshops"
     description: "Code of k6 workshops"
@@ -94,14 +110,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "jwcastillo"
-    title: "jwcastillo"
-    description: "Profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "performance360-observabilidad-workshop"
     title: "performance360-observabilidad-workshop"
     description: "Repo del workshop de observabilidad de Performance 360"
@@ -132,14 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "Android-DataFramework"
-    title: "Android-DataFramework"
-    description: "Marco de trabajo para datos en Android sobre SQLite. Mediante esta librería se podrá gestionar una base de datos SQLite dentro Android de una manera sencilla. Simplemente tendremos que escribir un archivo XML y la librería se encargará de crear las tablas y ofrecernos una API mediante la cual podremos crear, modificar y eliminar registros de una manera sencilla y eficaz en nuestra aplicación."
-    language: "Java"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2011-03-27"
 ---
 
 # jwcastillo

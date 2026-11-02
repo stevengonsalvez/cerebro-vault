@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 3, 8, 2, 1, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 4, 9, 0, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,24 @@ repos:
     description: "Chat, voz e lives P2P entre amigos, com cara de Discord e sem servidor central"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
+  - name: "animesubs"
+    title: "animesubs"
+    description: "Desktop app to extract, translate and embed subtitles into videos."
+    language: "Rust"
+    topics:
+      - "ai"
+      - "lib"
+      - "library"
+      - "llm"
+      - "python"
+      - "subtitles"
+      - "translation"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-30"
   - name: "openvfs"
     title: "openvfs"
     description: "Layered, pluggable virtual file system for Rust: memory, host dir, mounts and copy-on-write overlays. Zero dependencies, MIT."
@@ -129,14 +144,6 @@ repos:
       - "plugins"
       - "rust"
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "laira"
-    title: "laira"
-    description: "Self-hostable end-to-end encrypted voice and screen/game streaming (SFrame over mediasoup)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
 ---

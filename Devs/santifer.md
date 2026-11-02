@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [4, 28, 9, 4, 3, 1, 20, 18, 17, 13, 11, 1, 1]
+pushes_per_week: [4, 32, 4, 6, 1, 1, 20, 25, 12, 12, 10, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 12
-    active_days: 12
-    repos_not_owned: 11
+    pushes: 27
+    distinct_repos: 11
+    active_days: 11
+    repos_not_owned: 10
     not_owned_basenames: 3
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 130
+    pushes: 129
     distinct_repos: 31
     active_days: 41
     repos_not_owned: 27
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 3.1707
+  push_per_day: 3.1463
   repo_per_active_day: 0.7561
   not_owned_ratio: 0.8710
   basename_concentration: 0.7097
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 12
-    pushes_per_repo: 2.4167
-    active_days: 12
-    repos_not_owned: 11
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 11
+    repos_not_owned: 10
     not_owned_basenames: 3
-    not_owned_owners: 8
+    not_owned_owners: 7
   "90d":
-    pushes: 130
+    pushes: 129
     distinct_repos: 31
-    pushes_per_repo: 4.1935
+    pushes_per_repo: 4.1613
     active_days: 41
     repos_not_owned: 27
     not_owned_basenames: 4
@@ -182,6 +182,6 @@ repos:
 
 # santifer
 
-130 pushes across 31 repositories on 41 active days in the last 90 days of public GitHub push activity.
+129 pushes across 31 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

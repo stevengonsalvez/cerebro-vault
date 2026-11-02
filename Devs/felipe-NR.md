@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 7, 0, 0, 0, 0, 6, 1, 0, 2, 1, 2, 0]
+pushes_per_week: [0, 7, 0, 0, 0, 0, 6, 1, 2, 0, 1, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "judoka-assistant"
+    title: "judoka-assistant"
+    description: "Assistente em pt-BR para técnicas, história e regras do judô (CAG com corpus curado; Claude ou OpenAI)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "plasma-bigscreen-docker"
+    title: "plasma-bigscreen-docker"
+    description: "Plasma Bigscreen, the KDE shell for TVs, in Docker: a nested Wayland session shown fullscreen on a TV over HDMI"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "FluentDev-BR"
     title: "FluentDev-BR"
     description: "Adds an English-tutor capability to your coding agent, without removing its coding abilities — a vendor-neutral Agent Plugins package tuned for Brazilian Portuguese speakers."
@@ -86,15 +102,15 @@ repos:
       - "agent-plugins-spec"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "judoka-assistant"
-    title: "judoka-assistant"
-    description: "Assistente em pt-BR para técnicas, história e regras do judô (Claude + corpus curado)"
-    language: "Python"
+    last_push: "2026-10-28"
+  - name: "felipe-NR"
+    title: "felipe-NR"
+    description: "Profile README"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-28"
   - name: "whisper-rs-voxtype"
     title: "whisper-rs-voxtype"
     description: "whisper-rs 0.16 / whisper.cpp 1.8.3 with a runtime encoder callback (for voxtype's AMD XDNA NPU encoder)"
@@ -103,14 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
-  - name: "felipe-NR"
-    title: "felipe-NR"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
   - name: "pet_tools"
     title: "pet_tools"
     description: null
@@ -119,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-19"
-  - name: "tibia-4-fun"
-    title: "tibia-4-fun"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-17"
 ---
 
 # felipe-NR

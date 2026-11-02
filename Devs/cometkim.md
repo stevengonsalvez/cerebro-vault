@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 3, 6, 2, 0, 4, 7, 0, 3, 0, 1, 0, 0]
+pushes_per_week: [1, 2, 6, 2, 0, 4, 7, 0, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My OS configuration files"
+    language: "Shell"
+    topics:
+      - "dotfiles"
+      - "macos"
+      - "ubuntu"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "cc-monitor-worker"
+    title: "cc-monitor-worker"
+    description: "Claude Code monitoring with Cloudflare Workers & Workers Analytics Engine"
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "cloudflare-workers"
+      - "opentelemetry"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "codebeamer-docker"
+    title: "codebeamer-docker"
+    description: "codeBeamer docker image"
+    language: "Shell"
+    topics:
+      - "codebeamer"
+      - "docker-image"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2020-02-12"
   - name: "op-fast"
     title: "op-fast"
     description: "1Password CLI proxy for instant access to secrets."
@@ -88,7 +120,7 @@ repos:
       - "rust-cli"
     stars_fact: 40
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "unicode-segmenter"
     title: "unicode-segmenter"
     description: "A lightweight implementation of the Unicode Text Segmentation (UAX #29)"
@@ -115,42 +147,6 @@ repos:
     stars_fact: 54
     first_seen: null
     last_push: "2026-10-06"
-  - name: "asdf-bun"
-    title: "asdf-bun"
-    description: "asdf-vm plugin for installing Bun"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "bun"
-      - "bunjs"
-      - "mise"
-    stars_fact: 151
-    first_seen: null
-    last_push: "2025-06-17"
-  - name: "fast-grapheme-segmenter"
-    title: "fast-grapheme-segmenter"
-    description: "Fast, lightweight, forward-only Unicode extended grapheme cluster segmentation (UAX #29)"
-    language: "Rust"
-    topics:
-      - "emoji"
-      - "grapheme"
-      - "uax29"
-      - "unicode"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "cc-monitor-worker"
-    title: "cc-monitor-worker"
-    description: "Claude Code monitoring with Cloudflare Workers & Workers Analytics Engine"
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "cloudflare-workers"
-      - "opentelemetry"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-12"
 ---
 
 # cometkim

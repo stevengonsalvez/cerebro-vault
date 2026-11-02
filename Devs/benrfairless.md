@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [4, 35, 10, 5, 3, 2, 3, 0, 0, 2, 4, 4, 0]
+pushes_per_week: [1, 36, 11, 3, 4, 1, 3, 0, 0, 6, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 72
-    distinct_repos: 29
-    active_days: 22
-    repos_not_owned: 28
-    not_owned_basenames: 27
+    pushes: 69
+    distinct_repos: 26
+    active_days: 20
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2727
-  repo_per_active_day: 1.3182
-  not_owned_ratio: 0.9655
-  basename_concentration: 0.0690
+  push_per_day: 3.4500
+  repo_per_active_day: 1.3000
+  not_owned_ratio: 0.9615
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 72
-    distinct_repos: 29
-    pushes_per_repo: 2.4828
-    active_days: 22
-    repos_not_owned: 28
-    not_owned_basenames: 27
+    pushes: 69
+    distinct_repos: 26
+    pushes_per_repo: 2.6538
+    active_days: 20
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "user-profile-migration"
@@ -93,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-04-07"
-  - name: "gh-actions-missive"
-    title: "gh-actions-missive"
-    description: "A GitHub action that updates issues if a Missive issue is linked"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-05"
   - name: "github-org-audit"
     title: "github-org-audit"
     description: "Github Organisation Audit tool"
@@ -109,6 +101,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-11-05"
+  - name: "gh-actions-missive"
+    title: "gh-actions-missive"
+    description: "A GitHub action that updates issues if a Missive issue is linked"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-05"
   - name: "docs"
     title: "docs"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # benrfairless
 
-72 pushes across 29 repositories on 22 active days in the last 90 days of public GitHub push activity.
+69 pushes across 26 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benrfairless

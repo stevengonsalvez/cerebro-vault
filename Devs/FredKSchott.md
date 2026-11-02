@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,9 +82,17 @@ repos:
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19272
+    stars_fact: 19268
     first_seen: null
     last_push: "2023-03-05"
+  - name: "fflip"
+    title: "fflip"
+    description: "Flexible Feature Flipping/Flagging for Node.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 647
+    first_seen: null
+    last_push: "2020-09-15"
   - name: "astro-skills"
     title: "astro-skills"
     description: "Load and serve Agent Skills from your Astro site, automatically."
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1491
     first_seen: null
     last_push: "2016-01-19"
-  - name: "fflip"
-    title: "fflip"
-    description: "Flexible Feature Flipping/Flagging for Node.js"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 648
-    first_seen: null
-    last_push: "2020-09-15"
   - name: "esm-hmr"
     title: "esm-hmr"
     description: "a Hot Module Replacement (HMR) API for your ESM-based dev server."

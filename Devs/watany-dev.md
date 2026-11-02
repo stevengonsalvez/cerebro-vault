@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-02T07:04:44.444715+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 5, 0, 1, 1, 18, 1, 56, 17, 30, 13, 13, 3]
+pushes_per_week: [0, 5, 0, 1, 12, 7, 1, 60, 29, 16, 11, 16, 0]
 windows:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
+    pushes: 60
     distinct_repos: 1
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,18 +52,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
+    pushes: 60
     distinct_repos: 1
-    pushes_per_repo: 63.0000
-    active_days: 16
+    pushes_per_repo: 60.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -80,14 +80,6 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "chokkin"
-    title: "chokkin"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "local_busmap_tokyo"
     title: "local_busmap_tokyo"
     description: null
@@ -95,7 +87,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "zghalint"
+    title: "zghalint"
+    description: null
+    language: "Zig"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "chokkin"
+    title: "chokkin"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "ptuf"
+    title: "ptuf"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "anhinga"
     title: "anhinga"
     description: null
@@ -104,22 +120,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "ptuf"
-    title: "ptuf"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "zghalint"
-    title: "zghalint"
-    description: null
-    language: "Zig"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "review-codecommit"
     title: "review-codecommit"
     description: null
