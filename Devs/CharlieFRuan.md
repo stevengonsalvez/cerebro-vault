@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "mlc-ai/web-llm"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "e21378f22db2cf25"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 1, 1, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.4000
+  push_per_day: 1.2500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "rl-env-cleaner"
@@ -129,6 +129,6 @@ repos:
 
 # CharlieFRuan
 
-6 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CharlieFRuan

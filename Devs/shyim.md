@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [6, 11, 3, 3, 1, 12, 4, 14, 12, 7, 5, 9, 0]
+pushes_per_week: [6, 10, 3, 3, 2, 12, 4, 14, 13, 6, 8, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 13
-    active_days: 13
+    active_days: 12
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 24
-    active_days: 44
+    active_days: 43
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9773
-  repo_per_active_day: 0.5455
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5581
   not_owned_ratio: 0.6250
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 13
-    pushes_per_repo: 1.8462
-    active_days: 13
+    pushes_per_repo: 1.7692
+    active_days: 12
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 24
-    pushes_per_repo: 3.6250
-    active_days: 44
+    pushes_per_repo: 3.5833
+    active_days: 43
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shyim"
@@ -139,6 +139,6 @@ repos:
 
 # shyim
 
-87 pushes across 24 repositories on 44 active days in the last 90 days of public GitHub push activity.
+86 pushes across 24 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shyim

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 1, 2, 0, 0, 19, 54, 22, 13, 1, 8, 0]
+pushes_per_week: [1, 0, 2, 1, 0, 2, 21, 55, 27, 3, 3, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 9
-    active_days: 11
+    pushes: 24
+    distinct_repos: 8
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 121
     distinct_repos: 13
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.8125
-  repo_per_active_day: 0.4062
+  push_per_day: 3.9032
+  repo_per_active_day: 0.4194
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 9
-    pushes_per_repo: 2.8889
-    active_days: 11
+    pushes: 24
+    distinct_repos: 8
+    pushes_per_repo: 3.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 121
     distinct_repos: 13
-    pushes_per_repo: 9.3846
-    active_days: 32
+    pushes_per_repo: 9.3077
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hex-world"
@@ -139,6 +139,6 @@ repos:
 
 # paulrobello
 
-122 pushes across 13 repositories on 32 active days in the last 90 days of public GitHub push activity.
+121 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

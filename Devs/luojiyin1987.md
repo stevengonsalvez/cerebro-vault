@@ -11,40 +11,40 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [19, 66, 10, 3, 4, 7, 7, 8, 6, 7, 3, 7, 0]
+pushes_per_week: [22, 61, 10, 3, 6, 5, 7, 8, 7, 7, 2, 7, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 12
-    active_days: 13
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 147
-    distinct_repos: 44
-    active_days: 47
+    pushes: 145
+    distinct_repos: 43
+    active_days: 46
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1277
-  repo_per_active_day: 0.9362
-  not_owned_ratio: 0.1364
-  basename_concentration: 0.0455
+  push_per_day: 3.1522
+  repo_per_active_day: 0.9348
+  not_owned_ratio: 0.1395
+  basename_concentration: 0.0465
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -53,32 +53,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 12
-    pushes_per_repo: 1.5000
-    active_days: 13
+    pushes_per_repo: 1.4167
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 147
-    distinct_repos: 44
-    pushes_per_repo: 3.3409
-    active_days: 47
+    pushes: 145
+    distinct_repos: 43
+    pushes_per_repo: 3.3721
+    active_days: 46
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-147 pushes across 44 repositories on 47 active days in the last 90 days of public GitHub push activity.
+145 pushes across 43 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

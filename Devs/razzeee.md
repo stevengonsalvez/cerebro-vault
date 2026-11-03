@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 7, 3, 2, 4, 4, 12, 10, 16, 20, 7, 8, 0]
+pushes_per_week: [4, 7, 3, 2, 5, 3, 14, 8, 16, 22, 9, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 45
     distinct_repos: 12
-    active_days: 13
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 21
-    active_days: 42
+    active_days: 41
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.5000
+  push_per_day: 2.3659
+  repo_per_active_day: 0.5122
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 45
     distinct_repos: 12
-    pushes_per_repo: 4.0000
-    active_days: 13
+    pushes_per_repo: 3.7500
+    active_days: 12
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 98
+    pushes: 97
     distinct_repos: 21
-    pushes_per_repo: 4.6667
-    active_days: 42
+    pushes_per_repo: 4.6190
+    active_days: 41
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "script.trakt"
@@ -130,6 +130,6 @@ repos:
 
 # razzeee
 
-98 pushes across 21 repositories on 42 active days in the last 90 days of public GitHub push activity.
+97 pushes across 21 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

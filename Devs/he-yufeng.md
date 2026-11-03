@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "16389f32495280ea"
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 5, 5, 4, 6, 5, 10, 9, 18, 16, 6, 5, 0]
+pushes_per_week: [2, 7, 5, 3, 5, 6, 9, 10, 21, 17, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 16
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 94
-    distinct_repos: 28
+    pushes: 91
+    distinct_repos: 27
     active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2927
-  repo_per_active_day: 0.6829
-  not_owned_ratio: 0.0357
-  basename_concentration: 0.0714
+  push_per_day: 2.2195
+  repo_per_active_day: 0.6585
+  not_owned_ratio: 0.0370
+  basename_concentration: 0.0741
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,17 +59,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 16
-    pushes_per_repo: 2.1250
-    active_days: 14
+    pushes_per_repo: 1.9375
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 94
-    distinct_repos: 28
-    pushes_per_repo: 3.3571
+    pushes: 91
+    distinct_repos: 27
+    pushes_per_repo: 3.3704
     active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -176,6 +176,6 @@ repos:
 
 # he-yufeng
 
-94 pushes across 28 repositories on 41 active days in the last 90 days of public GitHub push activity.
+91 pushes across 27 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/he-yufeng

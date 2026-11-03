@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [13, 5, 0, 0, 1, 1, 22, 48, 32, 30, 18, 10, 0]
+pushes_per_week: [12, 4, 0, 0, 1, 1, 24, 54, 31, 30, 12, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 74
+    pushes: 65
     distinct_repos: 6
-    active_days: 17
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
+    pushes: 178
     distinct_repos: 8
-    active_days: 44
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0909
-  repo_per_active_day: 0.1818
+  push_per_day: 4.1395
+  repo_per_active_day: 0.1860
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 74
+    pushes: 65
     distinct_repos: 6
-    pushes_per_repo: 12.3333
-    active_days: 17
+    pushes_per_repo: 10.8333
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
+    pushes: 178
     distinct_repos: 8
-    pushes_per_repo: 22.5000
-    active_days: 44
+    pushes_per_repo: 22.2500
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "automaticum"
@@ -129,6 +129,6 @@ repos:
 
 # mann1x
 
-180 pushes across 8 repositories on 44 active days in the last 90 days of public GitHub push activity.
+178 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

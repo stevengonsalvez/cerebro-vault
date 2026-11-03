@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [28, 37, 11, 11, 9, 14, 18, 31, 32, 19, 23, 58, 0]
+pushes_per_week: [30, 32, 16, 6, 9, 15, 17, 37, 29, 25, 29, 41, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 5
-    active_days: 16
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 291
+    pushes: 286
     distinct_repos: 9
-    active_days: 63
+    active_days: 62
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 4.6190
-  repo_per_active_day: 0.1429
+  push_per_day: 4.6129
+  repo_per_active_day: 0.1452
   not_owned_ratio: 0.8889
   basename_concentration: 0.4444
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 106
+    pushes: 105
     distinct_repos: 5
-    pushes_per_repo: 21.2000
-    active_days: 16
+    pushes_per_repo: 21.0000
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 291
+    pushes: 286
     distinct_repos: 9
-    pushes_per_repo: 32.3333
-    active_days: 63
+    pushes_per_repo: 31.7778
+    active_days: 62
     repos_not_owned: 8
     not_owned_basenames: 4
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -137,6 +137,6 @@ repos:
 
 # rekram1-node
 
-291 pushes across 9 repositories on 63 active days in the last 90 days of public GitHub push activity.
+286 pushes across 9 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

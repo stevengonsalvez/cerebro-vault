@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [2, 2, 3, 0, 1, 0, 4, 14, 3, 1, 0, 4, 0]
+pushes_per_week: [1, 1, 3, 0, 1, 0, 7, 12, 2, 1, 0, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 6
-    active_days: 17
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 0.3529
+  repo_per_active_day: 0.3750
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 5.6667
-    active_days: 17
+    pushes_per_repo: 5.3333
+    active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "twishabansal.github.io"
@@ -129,6 +129,6 @@ repos:
 
 # twishabansal
 
-34 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+32 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/twishabansal

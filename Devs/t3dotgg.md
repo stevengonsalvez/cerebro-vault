@@ -10,36 +10,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [50, 10, 3, 8, 13, 10, 6, 36, 32, 84, 51, 72, 0]
+pushes_per_week: [39, 11, 7, 3, 15, 11, 4, 37, 31, 99, 49, 58, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 225
-    distinct_repos: 4
-    active_days: 20
-    repos_not_owned: 3
+    pushes: 217
+    distinct_repos: 3
+    active_days: 19
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 375
+    pushes: 364
     distinct_repos: 7
-    active_days: 54
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.9444
-  repo_per_active_day: 0.1296
+  push_per_day: 7.0000
+  repo_per_active_day: 0.1346
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -50,32 +50,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 225
-    distinct_repos: 4
-    pushes_per_repo: 56.2500
-    active_days: 20
-    repos_not_owned: 3
+    pushes: 217
+    distinct_repos: 3
+    pushes_per_repo: 72.3333
+    active_days: 19
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 375
+    pushes: 364
     distinct_repos: 7
-    pushes_per_repo: 53.5714
-    active_days: 54
+    pushes_per_repo: 52.0000
+    active_days: 52
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tstack"
@@ -136,6 +136,6 @@ repos:
 
 # t3dotgg
 
-375 pushes across 7 repositories on 54 active days in the last 90 days of public GitHub push activity.
+364 pushes across 7 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

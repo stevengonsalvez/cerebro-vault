@@ -11,26 +11,26 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [28, 146, 46, 23, 20, 52, 324, 161, 107, 60, 51, 88, 0]
+pushes_per_week: [33, 153, 34, 23, 23, 70, 312, 154, 127, 64, 36, 77, 0]
 windows:
   "7d":
-    pushes: 9
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 275
-    distinct_repos: 48
-    active_days: 20
-    repos_not_owned: 48
-    not_owned_basenames: 9
-    not_owned_owners: 42
+    pushes: 263
+    distinct_repos: 46
+    active_days: 19
+    repos_not_owned: 46
+    not_owned_basenames: 8
+    not_owned_owners: 41
   "90d":
     pushes: 1106
     distinct_repos: 95
@@ -62,29 +62,29 @@ automation:
     sampled:
       - "0x7s0lt1/hermes-agent"
       - "Adolanium/hermes-agent"
-      - "aidatatools-dev/hermes-agent"
       - "AlphaPerseii3000/hermes-agent"
+      - "amekala/hermes-agent"
       - "AndreasHiltner/hermes-agent"
     upstreams:
       - "NousResearch/hermes-agent"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 9
-    distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 275
-    distinct_repos: 48
-    pushes_per_repo: 5.7292
-    active_days: 20
-    repos_not_owned: 48
-    not_owned_basenames: 9
-    not_owned_owners: 42
+    pushes: 263
+    distinct_repos: 46
+    pushes_per_repo: 5.7174
+    active_days: 19
+    repos_not_owned: 46
+    not_owned_basenames: 8
+    not_owned_owners: 41
   "90d":
     pushes: 1106
     distinct_repos: 95

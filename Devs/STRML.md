@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 9, 0, 4, 0, 4, 14, 35, 36, 3, 3, 9, 0]
+pushes_per_week: [7, 7, 3, 1, 1, 5, 15, 34, 37, 0, 10, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 37
     distinct_repos: 12
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 122
+    pushes: 123
     distinct_repos: 23
-    active_days: 35
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.4857
-  repo_per_active_day: 0.6571
+  push_per_day: 3.4167
+  repo_per_active_day: 0.6389
   not_owned_ratio: 0.2174
   basename_concentration: 0.0870
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 37
     distinct_repos: 12
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.0833
     active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 122
+    pushes: 123
     distinct_repos: 23
-    pushes_per_repo: 5.3043
-    active_days: 35
+    pushes_per_repo: 5.3478
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "quantdiff"
@@ -129,6 +129,6 @@ repos:
 
 # STRML
 
-122 pushes across 23 repositories on 35 active days in the last 90 days of public GitHub push activity.
+123 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/STRML

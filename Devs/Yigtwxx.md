@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [9, 19, 1, 1, 2, 0, 1, 2, 9, 4, 1, 0, 0]
+pushes_per_week: [11, 15, 1, 1, 2, 0, 1, 3, 9, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 10
-    active_days: 6
+    pushes: 9
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 17
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0417
-  repo_per_active_day: 0.7083
+  push_per_day: 2.0435
+  repo_per_active_day: 0.7391
   not_owned_ratio: 0.0000
   basename_concentration: 0.1176
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 10
-    pushes_per_repo: 1.3000
-    active_days: 6
+    pushes: 9
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 17
-    pushes_per_repo: 2.8824
-    active_days: 24
+    pushes_per_repo: 2.7647
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Yigtwxx"
@@ -196,6 +196,6 @@ repos:
 
 # Yigtwxx
 
-49 pushes across 17 repositories on 24 active days in the last 90 days of public GitHub push activity.
+47 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Yigtwxx

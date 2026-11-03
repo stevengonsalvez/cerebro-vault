@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "7216827ad52eded1"
-pushes_per_week: [10, 16, 4, 8, 3, 4, 12, 3, 15, 9, 7, 6, 0]
+pushes_per_week: [10, 16, 4, 8, 5, 2, 14, 1, 16, 11, 3, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 5
-    active_days: 11
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 8
-    active_days: 42
+    active_days: 41
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3095
-  repo_per_active_day: 0.1905
+  push_per_day: 2.3415
+  repo_per_active_day: 0.1951
   not_owned_ratio: 0.8750
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 32
     distinct_repos: 5
-    pushes_per_repo: 6.8000
-    active_days: 11
+    pushes_per_repo: 6.4000
+    active_days: 10
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 8
-    pushes_per_repo: 12.1250
-    active_days: 42
+    pushes_per_repo: 12.0000
+    active_days: 41
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aos-dj"
@@ -129,6 +129,6 @@ repos:
 
 # joshuajbouw
 
-97 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
+96 pushes across 8 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joshuajbouw

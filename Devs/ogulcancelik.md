@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "576c6507cbdd1cf3"
   - "c87b77df69f1bb71"
-pushes_per_week: [15, 13, 8, 2, 1, 5, 3, 6, 6, 2, 2, 0, 0]
+pushes_per_week: [16, 12, 8, 0, 1, 5, 3, 7, 5, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 6
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.9091
-  repo_per_active_day: 0.1818
+  push_per_day: 1.9062
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.8333
   basename_concentration: 0.6667
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 6
-    pushes_per_repo: 10.5000
-    active_days: 33
+    pushes_per_repo: 10.1667
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-extensions"
@@ -144,6 +144,6 @@ repos:
 
 # ogulcancelik
 
-63 pushes across 6 repositories on 33 active days in the last 90 days of public GitHub push activity.
+61 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ogulcancelik

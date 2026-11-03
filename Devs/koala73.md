@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [35, 114, 15, 11, 7, 24, 40, 47, 38, 33, 17, 28, 0]
+pushes_per_week: [30, 119, 5, 10, 8, 27, 49, 43, 42, 25, 18, 22, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
+    pushes: 92
     distinct_repos: 1
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 409
+    pushes: 400
     distinct_repos: 8
     active_days: 67
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 6.1045
+  push_per_day: 5.9701
   repo_per_active_day: 0.1194
   not_owned_ratio: 0.8750
   basename_concentration: 1.0000
@@ -65,25 +65,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
+    pushes: 92
     distinct_repos: 1
-    pushes_per_repo: 96.0000
+    pushes_per_repo: 92.0000
     active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 409
+    pushes: 400
     distinct_repos: 8
-    pushes_per_repo: 51.1250
+    pushes_per_repo: 50.0000
     active_days: 67
     repos_not_owned: 7
     not_owned_basenames: 1
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-409 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
+400 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

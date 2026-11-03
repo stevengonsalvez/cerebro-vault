@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 7, 4, 3, 3, 7, 0, 5, 1, 7, 7, 7, 0]
+pushes_per_week: [8, 3, 6, 1, 5, 5, 0, 5, 4, 7, 4, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 1
-    active_days: 34
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6471
-  repo_per_active_day: 0.0294
+  push_per_day: 1.6667
+  repo_per_active_day: 0.0303
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 1
-    pushes_per_repo: 56.0000
-    active_days: 34
+    pushes_per_repo: 55.0000
+    active_days: 33
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # roboomp
 
-56 pushes across 1 repository on 34 active days in the last 90 days of public GitHub push activity.
+55 pushes across 1 repository on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roboomp

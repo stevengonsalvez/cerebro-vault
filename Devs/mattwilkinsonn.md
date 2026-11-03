@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 5, 7, 6, 1, 0, 4, 7, 6, 29, 16, 4, 0]
+pushes_per_week: [8, 5, 8, 5, 1, 0, 4, 8, 5, 40, 8, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 12
     active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 15
-    active_days: 35
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.4286
+  push_per_day: 2.7353
+  repo_per_active_day: 0.4412
   not_owned_ratio: 0.6667
   basename_concentration: 0.1333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 12
-    pushes_per_repo: 4.4167
+    pushes_per_repo: 4.3333
     active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 15
-    pushes_per_repo: 6.3333
-    active_days: 35
+    pushes_per_repo: 6.2000
+    active_days: 34
     repos_not_owned: 10
     not_owned_basenames: 9
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jj-hooks"
@@ -129,6 +129,6 @@ repos:
 
 # mattwilkinsonn
 
-95 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
+93 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattwilkinsonn

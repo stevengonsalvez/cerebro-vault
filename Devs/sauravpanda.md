@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 5, 5, 1, 0, 0, 0, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 6, 5, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.6667
+  push_per_day: 1.3636
+  repo_per_active_day: 0.7273
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 8
-    pushes_per_repo: 2.0000
-    active_days: 12
+    pushes_per_repo: 1.8750
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "BrowserAI"
@@ -154,6 +154,6 @@ repos:
 
 # sauravpanda
 
-16 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
+15 pushes across 8 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sauravpanda

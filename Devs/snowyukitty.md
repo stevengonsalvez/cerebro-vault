@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [7, 4, 3, 1, 1, 0, 0, 0, 7, 5, 5, 0, 0]
+pushes_per_week: [7, 3, 4, 0, 1, 0, 0, 0, 10, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 16
-    active_days: 24
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3750
-  repo_per_active_day: 0.6667
+  push_per_day: 1.3913
+  repo_per_active_day: 0.6957
   not_owned_ratio: 0.0000
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 16
-    pushes_per_repo: 2.0625
-    active_days: 24
+    pushes_per_repo: 2.0000
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "emojikit"
@@ -181,6 +181,6 @@ repos:
 
 # snowyukitty
 
-33 pushes across 16 repositories on 24 active days in the last 90 days of public GitHub push activity.
+32 pushes across 16 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/snowyukitty

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 15, 0, 0, 0, 0, 2, 23, 1, 0, 1, 0, 0]
+pushes_per_week: [11, 11, 0, 0, 0, 0, 2, 24, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 13
-    active_days: 17
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9412
-  repo_per_active_day: 0.7647
+  push_per_day: 3.0625
+  repo_per_active_day: 0.8125
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 13
-    pushes_per_repo: 3.8462
-    active_days: 17
+    pushes_per_repo: 3.7692
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_galplayer"
@@ -133,6 +133,6 @@ repos:
 
 # clown145
 
-50 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
+49 pushes across 13 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

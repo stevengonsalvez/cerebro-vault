@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 2, 2, 1, 0, 1, 3, 2, 1, 1, 1, 2, 0]
+pushes_per_week: [0, 2, 2, 1, 1, 0, 4, 2, 0, 1, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0625
-  repo_per_active_day: 0.0625
+  push_per_day: 1.0667
+  repo_per_active_day: 0.0667
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 16
+    pushes_per_repo: 16.0000
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "excel-bro"
@@ -98,6 +98,6 @@ repos:
 
 # zhaozhuang521
 
-17 pushes across 1 repository on 16 active days in the last 90 days of public GitHub push activity.
+16 pushes across 1 repository on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zhaozhuang521

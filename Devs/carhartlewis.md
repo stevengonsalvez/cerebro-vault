@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "b110e14124562bc5"
-pushes_per_week: [5, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5714
-  repo_per_active_day: 0.2857
+  push_per_day: 2.8333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 7
+    pushes_per_repo: 8.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lamborghini"
@@ -105,6 +105,6 @@ repos:
 
 # carhartlewis
 
-18 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+17 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carhartlewis

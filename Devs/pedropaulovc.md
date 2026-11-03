@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [10, 17, 34, 0, 26, 36, 57, 182, 45, 87, 53, 85, 0]
+pushes_per_week: [0, 21, 30, 1, 31, 31, 61, 188, 57, 81, 63, 58, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 230
+    pushes: 227
     distinct_repos: 12
     active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 632
-    distinct_repos: 22
-    active_days: 56
+    pushes: 624
+    distinct_repos: 21
+    active_days: 55
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.2857
-  repo_per_active_day: 0.3929
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0455
+  push_per_day: 11.3455
+  repo_per_active_day: 0.3818
+  not_owned_ratio: 0.0952
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 230
+    pushes: 227
     distinct_repos: 12
-    pushes_per_repo: 19.1667
+    pushes_per_repo: 18.9167
     active_days: 16
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 632
-    distinct_repos: 22
-    pushes_per_repo: 28.7273
-    active_days: 56
+    pushes: 624
+    distinct_repos: 21
+    pushes_per_repo: 29.7143
+    active_days: 55
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "harmonic-analyzer"
@@ -129,6 +129,6 @@ repos:
 
 # pedropaulovc
 
-632 pushes across 22 repositories on 56 active days in the last 90 days of public GitHub push activity.
+624 pushes across 21 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pedropaulovc

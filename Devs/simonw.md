@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "1be978947e68d1f2"
@@ -33,6 +33,7 @@ provenance:
   - "8fb5759dbc71eb5a"
   - "97c4e9cb8b163ddb"
   - "98a2deac3e2f9725"
+  - "9d52bf97ae057251"
   - "b949a65ff91f9791"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
@@ -43,7 +44,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [7, 19, 2, 0, 0, 5, 10, 2, 4, 10, 5, 3, 0]
+pushes_per_week: [6, 18, 2, 0, 1, 7, 7, 3, 4, 12, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -60,16 +61,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 30
-    active_days: 31
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1613
-  repo_per_active_day: 0.9677
+  push_per_day: 2.1667
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.1333
   basename_concentration: 0.0667
   shapes: []
@@ -96,16 +97,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 67
+    pushes: 65
     distinct_repos: 30
-    pushes_per_repo: 2.2333
-    active_days: 31
+    pushes_per_repo: 2.1667
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
-  - "provenance: 18 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "provenance: 19 vault signal(s) — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-fema-shelters"
@@ -164,6 +165,6 @@ repos:
 
 # simonw
 
-67 pushes across 30 repositories on 31 active days in the last 90 days of public GitHub push activity.
+65 pushes across 30 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

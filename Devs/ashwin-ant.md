@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -78,6 +78,7 @@ provenance:
   - "d9b88297cf0d952f"
   - "dc8a856f8c6596f8"
   - "dca7cce8dcd1782c"
+  - "ddf42b69c8e05c7b"
   - "e2ea6ef4c9fbfceb"
   - "e75aaf1e12900808"
   - "ed610e0dc54be0b1"
@@ -87,7 +88,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [9, 5, 0, 4, 0, 1, 5, 6, 3, 1, 1, 0, 0]
+pushes_per_week: [10, 3, 2, 2, 0, 1, 5, 6, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -104,16 +105,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 5
-    active_days: 23
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5217
-  repo_per_active_day: 0.2174
+  push_per_day: 1.5455
+  repo_per_active_day: 0.2273
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -140,16 +141,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 5
-    pushes_per_repo: 7.0000
-    active_days: 23
+    pushes_per_repo: 6.8000
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
-  - "provenance: 75 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "provenance: 76 vault signal(s) — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -164,6 +165,6 @@ repos:
 
 # ashwin-ant
 
-35 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+34 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

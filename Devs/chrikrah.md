@@ -9,9 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "97c4e9cb8b163ddb"
+  - "9d52bf97ae057251"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
@@ -25,9 +26,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 4
+    pushes: 5
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -60,10 +61,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 4
+    pushes: 5
+    distinct_repos: 5
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +77,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 5 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

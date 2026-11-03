@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
   - "c45b44d53914aea3"
-pushes_per_week: [103, 86, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [124, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 187
     distinct_repos: 4
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.7857
-  repo_per_active_day: 0.2857
+  push_per_day: 14.3846
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
+    pushes: 187
     distinct_repos: 4
-    pushes_per_repo: 48.2500
-    active_days: 14
+    pushes_per_repo: 46.7500
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "test-claude-plugin"
@@ -101,6 +101,6 @@ repos:
 
 # bryan-anthropic
 
-193 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+187 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bryan-anthropic

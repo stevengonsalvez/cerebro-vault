@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 12, 2, 2, 0, 5, 9, 23, 40, 41, 11, 57, 0]
+pushes_per_week: [6, 10, 2, 1, 0, 5, 9, 30, 48, 28, 30, 36, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 2
-    active_days: 17
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 4
-    active_days: 43
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7907
-  repo_per_active_day: 0.0930
+  push_per_day: 4.8810
+  repo_per_active_day: 0.0952
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 2
-    pushes_per_repo: 62.0000
-    active_days: 17
+    pushes_per_repo: 60.5000
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 4
-    pushes_per_repo: 51.5000
-    active_days: 43
+    pushes_per_repo: 51.2500
+    active_days: 42
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bwrb"
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-206 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
+205 pushes across 4 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

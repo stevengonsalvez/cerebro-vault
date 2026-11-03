@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [6, 5, 1, 0, 2, 0, 8, 5, 6, 5, 0, 1, 0]
+pushes_per_week: [7, 4, 0, 0, 2, 1, 8, 4, 7, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 8
-    active_days: 26
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.3077
+  push_per_day: 1.5200
+  repo_per_active_day: 0.3200
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 9
+    pushes_per_repo: 5.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 8
-    pushes_per_repo: 4.8750
-    active_days: 26
+    pushes_per_repo: 4.7500
+    active_days: 25
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-39 pushes across 8 repositories on 26 active days in the last 90 days of public GitHub push activity.
+38 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

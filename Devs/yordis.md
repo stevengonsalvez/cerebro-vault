@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 13, 3, 2, 1, 45, 25, 32, 35, 29, 19, 24, 0]
+pushes_per_week: [8, 12, 3, 2, 2, 45, 31, 27, 36, 35, 17, 17, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 21
-    active_days: 15
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 81
+    distinct_repos: 20
+    active_days: 13
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 4
   "90d":
-    pushes: 240
-    distinct_repos: 34
-    active_days: 51
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 235
+    distinct_repos: 33
+    active_days: 49
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.7059
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.7647
-  basename_concentration: 0.0588
+  push_per_day: 4.7959
+  repo_per_active_day: 0.6735
+  not_owned_ratio: 0.7576
+  basename_concentration: 0.0606
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 96
-    distinct_repos: 21
-    pushes_per_repo: 4.5714
-    active_days: 15
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 81
+    distinct_repos: 20
+    pushes_per_repo: 4.0500
+    active_days: 13
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 4
   "90d":
-    pushes: 240
-    distinct_repos: 34
-    pushes_per_repo: 7.0588
-    active_days: 51
-    repos_not_owned: 26
-    not_owned_basenames: 25
+    pushes: 235
+    distinct_repos: 33
+    pushes_per_repo: 7.1212
+    active_days: 49
+    repos_not_owned: 25
+    not_owned_basenames: 24
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: ".github"
@@ -109,6 +109,6 @@ repos:
 
 # yordis
 
-240 pushes across 34 repositories on 51 active days in the last 90 days of public GitHub push activity.
+235 pushes across 33 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

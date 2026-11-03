@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "03dc7a9cfb878de8"
-pushes_per_week: [7, 8, 0, 0, 1, 0, 0, 4, 2, 2, 2, 0, 0]
+pushes_per_week: [6, 8, 0, 0, 1, 0, 0, 4, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
     active_days: 17
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5294
+  push_per_day: 1.4706
   repo_per_active_day: 0.0588
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 1
-    pushes_per_repo: 26.0000
+    pushes_per_repo: 25.0000
     active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -137,6 +137,6 @@ repos:
 
 # mitchellh
 
-26 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
+25 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mitchellh

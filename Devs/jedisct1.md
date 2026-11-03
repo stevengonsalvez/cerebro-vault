@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 7, 0, 1, 0, 4, 15, 25, 12, 12, 10, 1, 0]
+pushes_per_week: [6, 4, 0, 1, 0, 5, 16, 24, 11, 18, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 16
-    active_days: 9
-    repos_not_owned: 7
+    pushes: 27
+    distinct_repos: 13
+    active_days: 8
+    repos_not_owned: 6
     not_owned_basenames: 6
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
-    pushes: 91
-    distinct_repos: 51
-    active_days: 31
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 90
+    distinct_repos: 50
+    active_days: 30
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.9355
-  repo_per_active_day: 1.6452
-  not_owned_ratio: 0.3725
-  basename_concentration: 0.0392
+  push_per_day: 3.0000
+  repo_per_active_day: 1.6667
+  not_owned_ratio: 0.3600
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 16
-    pushes_per_repo: 2.0000
-    active_days: 9
-    repos_not_owned: 7
+    pushes: 27
+    distinct_repos: 13
+    pushes_per_repo: 2.0769
+    active_days: 8
+    repos_not_owned: 6
     not_owned_basenames: 6
-    not_owned_owners: 5
+    not_owned_owners: 4
   "90d":
-    pushes: 91
-    distinct_repos: 51
-    pushes_per_repo: 1.7843
-    active_days: 31
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 90
+    distinct_repos: 50
+    pushes_per_repo: 1.8000
+    active_days: 30
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zig-ctsort"
@@ -170,6 +170,6 @@ repos:
 
 # jedisct1
 
-91 pushes across 51 repositories on 31 active days in the last 90 days of public GitHub push activity.
+90 pushes across 50 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

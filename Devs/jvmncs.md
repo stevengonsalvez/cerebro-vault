@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [2, 12, 0, 1, 0, 1, 26, 1, 1, 0, 0, 1, 0]
+pushes_per_week: [4, 9, 1, 0, 0, 1, 26, 1, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2143
-  repo_per_active_day: 0.1429
+  push_per_day: 3.3846
+  repo_per_active_day: 0.1538
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 2
-    pushes_per_repo: 22.5000
-    active_days: 14
+    pushes_per_repo: 22.0000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ParamNoise"
@@ -137,6 +137,6 @@ repos:
 
 # jvmncs
 
-45 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+44 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jvmncs

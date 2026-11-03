@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 1, 1, 2, 3, 4, 12, 8, 18, 8, 3, 23, 0]
+pushes_per_week: [0, 1, 2, 1, 6, 1, 13, 11, 17, 6, 4, 21, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 17
-    active_days: 27
+    active_days: 26
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.6296
+  push_per_day: 3.1923
+  repo_per_active_day: 0.6538
   not_owned_ratio: 0.7647
   basename_concentration: 0.1765
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 83
     distinct_repos: 17
-    pushes_per_repo: 4.9412
-    active_days: 27
+    pushes_per_repo: 4.8824
+    active_days: 26
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "obelisk-390"
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-84 pushes across 17 repositories on 27 active days in the last 90 days of public GitHub push activity.
+83 pushes across 17 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

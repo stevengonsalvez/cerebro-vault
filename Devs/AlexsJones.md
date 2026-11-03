@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [15, 11, 1, 2, 10, 19, 22, 12, 19, 3, 1, 15, 0]
+pushes_per_week: [16, 8, 1, 2, 12, 18, 21, 12, 21, 1, 2, 14, 0]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 1
-    repos_not_owned: 4
-    not_owned_basenames: 1
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 10
-    active_days: 11
+    active_days: 10
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 130
+    pushes: 128
     distinct_repos: 20
     active_days: 42
     repos_not_owned: 16
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.0952
+  push_per_day: 3.0476
   repo_per_active_day: 0.4762
   not_owned_ratio: 0.8000
   basename_concentration: 0.5500
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 1
-    repos_not_owned: 4
-    not_owned_basenames: 1
-    not_owned_owners: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 10
-    pushes_per_repo: 3.4000
-    active_days: 11
+    pushes_per_repo: 2.8000
+    active_days: 10
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 130
+    pushes: 128
     distinct_repos: 20
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 6.4000
     active_days: 42
     repos_not_owned: 16
     not_owned_basenames: 6
@@ -143,6 +143,6 @@ repos:
 
 # AlexsJones
 
-130 pushes across 20 repositories on 42 active days in the last 90 days of public GitHub push activity.
+128 pushes across 20 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

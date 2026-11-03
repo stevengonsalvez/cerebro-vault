@@ -15,7 +15,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "1df6ea1f1256059e"
@@ -25,7 +25,7 @@ provenance:
   - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [7, 22, 3, 7, 4, 21, 6, 43, 136, 7, 3, 26, 0]
+pushes_per_week: [11, 17, 3, 7, 7, 19, 9, 50, 125, 7, 8, 21, 0]
 windows:
   "7d":
     pushes: 0
@@ -35,23 +35,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 39
-    active_days: 10
+    pushes: 52
+    distinct_repos: 37
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 285
+    pushes: 284
     distinct_repos: 95
-    active_days: 46
+    active_days: 45
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.1957
-  repo_per_active_day: 2.0652
+  push_per_day: 6.3111
+  repo_per_active_day: 2.1111
   not_owned_ratio: 0.1579
   basename_concentration: 0.0105
   shapes: []
@@ -70,24 +70,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 39
-    pushes_per_repo: 1.4872
-    active_days: 10
+    pushes: 52
+    distinct_repos: 37
+    pushes_per_repo: 1.4054
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 285
+    pushes: 284
     distinct_repos: 95
-    pushes_per_repo: 3.0000
-    active_days: 46
+    pushes_per_repo: 2.9895
+    active_days: 45
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 1
 reasons:
   - "provenance: 8 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shuiyuan-mcp"
@@ -123,6 +123,6 @@ repos:
 
 # dajiaohuang
 
-285 pushes across 95 repositories on 46 active days in the last 90 days of public GitHub push activity.
+284 pushes across 95 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

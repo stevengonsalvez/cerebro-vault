@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [8, 64, 23, 3, 1, 7, 13, 11, 12, 7, 4, 7, 0]
+pushes_per_week: [10, 71, 15, 1, 1, 8, 14, 12, 14, 3, 5, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 22
     distinct_repos: 9
-    active_days: 12
+    active_days: 11
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 160
-    distinct_repos: 19
+    pushes: 159
+    distinct_repos: 18
     active_days: 48
-    repos_not_owned: 13
+    repos_not_owned: 12
     not_owned_basenames: 4
-    not_owned_owners: 11
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.3958
-  not_owned_ratio: 0.6842
-  basename_concentration: 0.2632
+  push_per_day: 3.3125
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.2778
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,21 +57,21 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 22
     distinct_repos: 9
-    pushes_per_repo: 2.7778
-    active_days: 12
+    pushes_per_repo: 2.4444
+    active_days: 11
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
   "90d":
-    pushes: 160
-    distinct_repos: 19
-    pushes_per_repo: 8.4211
+    pushes: 159
+    distinct_repos: 18
+    pushes_per_repo: 8.8333
     active_days: 48
-    repos_not_owned: 13
+    repos_not_owned: 12
     not_owned_basenames: 4
-    not_owned_owners: 11
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-160 pushes across 19 repositories on 48 active days in the last 90 days of public GitHub push activity.
+159 pushes across 18 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

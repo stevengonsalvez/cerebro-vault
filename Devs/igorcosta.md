@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-03T07:04:47.904249+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 4, 0, 0, 2, 3, 0, 17, 2, 2, 3, 2, 0]
+pushes_per_week: [4, 0, 0, 0, 4, 1, 1, 18, 0, 2, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 11
-    active_days: 18
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.6111
+  push_per_day: 2.0588
+  repo_per_active_day: 0.6471
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 11
-    pushes_per_repo: 3.2727
-    active_days: 18
+    pushes_per_repo: 3.1818
+    active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 11
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "flex-maps"
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-36 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
+35 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta
