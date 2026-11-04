@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [15, 9, 2, 3, 15, 11, 19, 62, 24, 19, 21, 7, 0]
+pushes_per_week: [10, 8, 2, 3, 16, 10, 19, 62, 24, 24, 17, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 201
     distinct_repos: 14
-    active_days: 52
+    active_days: 51
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 3.9808
-  repo_per_active_day: 0.2692
+  push_per_day: 3.9412
+  repo_per_active_day: 0.2745
   not_owned_ratio: 1.0000
   basename_concentration: 0.8571
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 2
-    pushes_per_repo: 30.5000
-    active_days: 17
+    pushes_per_repo: 29.5000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 207
+    pushes: 201
     distinct_repos: 14
-    pushes_per_repo: 14.7857
-    active_days: 52
+    pushes_per_repo: 14.3571
+    active_days: 51
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-207 pushes across 14 repositories on 52 active days in the last 90 days of public GitHub push activity.
+201 pushes across 14 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

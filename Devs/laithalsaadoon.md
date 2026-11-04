@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 3, 17, 8, 19, 3, 6, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 4, 6, 16, 6, 21, 3, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,7 @@ repos:
       - "python"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "ai-gateway"
     title: "ai-gateway"
     description: "AI Gateway: LLM inference gateway on AWS with Cognito M2M auth, ALB JWT validation, ECS Fargate, and CloudWatch observability"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "microvms-agentd"
     title: "microvms-agentd"
     description: "A verified Rust client stack and in-VM daemon for AWS Lambda MicroVMs: typed trap closures, cost reporting, and a live conformance suite"
@@ -113,7 +113,7 @@ repos:
       - "stateright"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "erpaval"
     title: "erpaval"
     description: "ERPAVal — autonomous software development. Six-phase Explore/Research/Plan/Act/Validate/Compound workflow with classifier-driven routing and a compounding lessons store."

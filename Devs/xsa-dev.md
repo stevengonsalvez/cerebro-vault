@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 6, 0]
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "tactics-arena-worlds"
-    title: "tactics-arena-worlds"
-    description: "Deterministic 8x6 squad tactics battle for Solana Mobile (Seeker dApp Store), Web, and Yandex Games"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-04"
   - name: "ai-disrupt-pdlc-coach"
     title: "ai-disrupt-pdlc-coach"
     description: null
@@ -104,15 +96,7 @@ repos:
       - "webist"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "xsa-dev"
-    title: "xsa-dev"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-03"
   - name: "hyperliquid-backtest"
     title: "hyperliquid-backtest"
     description: null
@@ -122,17 +106,33 @@ repos:
       - "genetic-algorithm"
       - "rust"
       - "trading"
-    stars_fact: 23
+    stars_fact: 22
     first_seen: null
     last_push: "2025-11-04"
-  - name: "crypto-breakout-screener"
-    title: "crypto-breakout-screener"
-    description: "Crypto breakout screener"
-    language: "Python"
+  - name: "ai-curator-demo"
+    title: "ai-curator-demo"
+    description: null
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-05"
+    last_push: "2026-11-01"
+  - name: "tactics-arena-worlds"
+    title: "tactics-arena-worlds"
+    description: "Deterministic 8x6 squad tactics battle for Solana Mobile (Seeker dApp Store), Web, and Yandex Games"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "xsa-dev"
+    title: "xsa-dev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # xsa-dev

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 6, 17, 4, 38, 61, 20, 148, 229, 9, 78, 0]
+pushes_per_week: [2, 2, 8, 15, 5, 39, 60, 22, 145, 231, 12, 73, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 394
+    pushes: 324
     distinct_repos: 14
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 394
+    pushes: 324
     distinct_repos: 14
-    pushes_per_repo: 28.1429
-    active_days: 18
+    pushes_per_repo: 23.1429
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "sso"
     title: "sso"
     description: null
@@ -92,17 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "astrbot_plugin_matrix_adapter"
-    title: "astrbot_plugin_matrix_adapter"
-    description: "stevessr🐟 自用的matrix插件，为 astrbot 设计，有问题请提issue"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "matrix"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-11-03"
   - name: "agent-ebpf-filter"
     title: "agent-ebpf-filter"
     description: null
@@ -110,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "Extera"
-    title: "Extera"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-03"
   - name: "bug-v3"
     title: "bug-v3"
     description: "一个有很多bug的表情插件，主要在linux do 测试喵。discourse的网站们应该都可以用"
@@ -128,7 +110,25 @@ repos:
       - "linux-do"
     stars_fact: 15
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
+  - name: "astrbot_plugin_matrix_adapter"
+    title: "astrbot_plugin_matrix_adapter"
+    description: "stevessr🐟 自用的matrix插件，为 astrbot 设计，有问题请提issue"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "matrix"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "Extera"
+    title: "Extera"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # stevessr

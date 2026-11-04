@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 3, 22, 1, 2, 0, 2, 8, 1, 1, 0, 3, 0]
+pushes_per_week: [2, 3, 22, 1, 2, 0, 4, 7, 0, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "openchrome"
+    title: "openchrome"
+    description: "Open-source browser automation MCP server. Control your real Chrome from any AI agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 237
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "opensafari"
     title: "opensafari"
     description: "Smart. Fast. Parallel. iOS Safari automation MCP server via Xcode Simulator."
@@ -100,15 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "openchrome"
-    title: "openchrome"
-    description: "Open-source browser automation MCP server. Control your real Chrome from any AI agent."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 235
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-11-04"
   - name: "suwon"
     title: "suwon"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 3, 0, 0, 4, 1, 2, 20, 32, 23, 17, 18, 0]
+pushes_per_week: [6, 3, 0, 0, 4, 3, 0, 20, 32, 27, 15, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 75
+    pushes: 70
     distinct_repos: 22
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 126
     distinct_repos: 29
-    active_days: 35
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6571
-  repo_per_active_day: 0.8286
+  push_per_day: 3.7059
+  repo_per_active_day: 0.8529
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
   shapes: []
@@ -57,92 +57,83 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 75
+    pushes: 70
     distinct_repos: 22
-    pushes_per_repo: 3.4091
-    active_days: 17
+    pushes_per_repo: 3.1818
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 128
+    pushes: 126
     distinct_repos: 29
-    pushes_per_repo: 4.4138
-    active_days: 35
+    pushes_per_repo: 4.3448
+    active_days: 34
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MinidoracatPackThrowFor42"
-    title: "MinidoracatPackThrowFor42"
-    description: "Project Zomboid B42 — Pack & Throw: pack parked cars into capsules and catch living animals in Pal Spheres, throw to release them with parts, condition, cargo and animal state kept, or throw an empty one to capture (SP/MP)"
-    language: "Lua"
-    topics:
-      - "animals"
-      - "build-42"
-      - "mod"
-      - "project-zomboid"
-      - "vehicle"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "MinidoracatMiniMapModMapsFor42"
     title: "MinidoracatMiniMapModMapsFor42"
     description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
     language: "Lua"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "MinidoracatAutoDriveFor42"
-    title: "MinidoracatAutoDriveFor42"
-    description: "Project Zomboid B42 — item-driven GPS navigation & AutoDrive addon for Minidoracat MiniMap"
-    language: "Lua"
-    topics:
-      - "autodrive"
-      - "build-42"
-      - "mod"
-      - "navigation"
-      - "project-zomboid"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "MinidoracatMiniMapFor42"
-    title: "MinidoracatMiniMapFor42"
-    description: "Project Zomboid B42 遊戲內世界地圖圖片化 MOD（ImagePyramid）——基底全圖＋地圖包 addon 架構、MOD 地圖框線、多語支援"
+    last_push: "2026-11-03"
+  - name: "MinidoracatModLangFor42"
+    title: "MinidoracatModLangFor42"
+    description: "[B42] Project Zomboid 模組翻譯包：1500+ 個 Workshop 模組（2140+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatBuilderFor42"
+    title: "MinidoracatBuilderFor42"
+    description: "Project Zomboid B42 — Build Anything: build with any loaded tile, including other mods' tile packs, plus light switches wired to the lights you pick; materials and placement checked by the server (SP/MP)"
+    language: "Lua"
+    topics:
+      - "build-42"
+      - "building"
+      - "mod"
+      - "project-zomboid"
+      - "tiles"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatTeslaFor42"
+    title: "MinidoracatTeslaFor42"
+    description: "Project Zomboid B42 — Tesla Collection: fan-made, non-commercial Tesla EVs with charging, Sentry/Camp modes and a Tesla-style dashboard"
     language: "Lua"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "MinidoracatSafehouseFor42"
-    title: "MinidoracatSafehouseFor42"
+    last_push: "2026-11-03"
+  - name: "MinidoracatLangFor42"
+    title: "MinidoracatLangFor42"
     description: null
     language: "Lua"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "MinidoracatVehicleSpawnControlFor42"
-    title: "MinidoracatVehicleSpawnControlFor42"
-    description: "Project Zomboid B42 mod: control how many vehicles spawn in each zone and which ones, from an in-game panel or a config file. Vanilla and modded vehicles, singleplayer and multiplayer."
+    last_push: "2026-11-03"
+  - name: "MinidoracatUIFor42"
+    title: "MinidoracatUIFor42"
+    description: "Project Zomboid B42 家族共用 UI 函式庫：版本化 API、深淺雙色系主題、圓角皮膚（NinePatch＋直角退回）"
     language: "Lua"
-    topics:
-      - "build-42"
-      - "mod"
-      - "project-zomboid"
-      - "vehicles"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
 ---
 
 # Minidoracat
 
-128 pushes across 29 repositories on 35 active days in the last 90 days of public GitHub push activity.
+126 pushes across 29 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

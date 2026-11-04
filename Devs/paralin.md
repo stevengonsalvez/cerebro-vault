@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [35, 25, 25, 2, 8, 7, 12, 102, 100, 41, 37, 30, 0]
+pushes_per_week: [42, 10, 25, 2, 8, 7, 33, 84, 97, 72, 16, 20, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 147
-    distinct_repos: 18
-    active_days: 17
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 129
+    distinct_repos: 17
+    active_days: 16
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 3
   "90d":
-    pushes: 424
+    pushes: 416
     distinct_repos: 32
-    active_days: 54
+    active_days: 53
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.8519
-  repo_per_active_day: 0.5926
+  push_per_day: 7.8491
+  repo_per_active_day: 0.6038
   not_owned_ratio: 0.6875
   basename_concentration: 0.0312
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 147
-    distinct_repos: 18
-    pushes_per_repo: 8.1667
-    active_days: 17
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 129
+    distinct_repos: 17
+    pushes_per_repo: 7.5882
+    active_days: 16
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 3
   "90d":
-    pushes: 424
+    pushes: 416
     distinct_repos: 32
-    pushes_per_repo: 13.2500
-    active_days: 54
+    pushes_per_repo: 13.0000
+    active_days: 53
     repos_not_owned: 22
     not_owned_basenames: 22
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlock"
@@ -84,9 +84,25 @@ repos:
     topics:
       - "deadlock"
       - "game"
-    stars_fact: 15
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "hyperline-nix"
+    title: "hyperline-nix"
+    description: "Nix flakes for Hyperline"
+    language: "Nix"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "go-deadlock"
+    title: "go-deadlock"
+    description: "Deadlock game coordinator client for go-steam"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "modlock-sdk"
     title: "modlock-sdk"
     description: "Deadlock Custom Game Tools reconstruction scripts"
@@ -94,7 +110,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
   - name: "go-dota2"
     title: "go-dota2"
     description: "Go implementation of the DOTA2 game-coordinator client."
@@ -102,26 +118,10 @@ repos:
     topics: []
     stars_fact: 184
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-03"
   - name: "s2replay"
     title: "s2replay"
     description: "Modern Source 2 replay parser in Go."
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "hyperline-nix"
-    title: "hyperline-nix"
-    description: "Nix flakes for Hyperline"
-    language: "Nix"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "scratchbuild"
-    title: "scratchbuild"
-    description: "Intelligently build Docker images from scratch for cross-architecture support."
     language: "Go"
     topics: []
     stars_fact: 4
@@ -131,6 +131,6 @@ repos:
 
 # paralin
 
-424 pushes across 32 repositories on 54 active days in the last 90 days of public GitHub push activity.
+416 pushes across 32 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paralin

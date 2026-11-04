@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 8, 4, 0, 1, 2, 16, 6, 17, 0, 0, 0, 0]
+pushes_per_week: [0, 8, 4, 0, 1, 2, 18, 5, 16, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 54
     distinct_repos: 20
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 54
     distinct_repos: 20
@@ -77,6 +77,34 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agentitest"
+    title: "agentitest"
+    description: "Write browser tests in natural language, built on pytest and allure."
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "allure-report"
+      - "browser-use"
+      - "gemini"
+      - "llm"
+      - "playwright"
+      - "pytest"
+      - "qa"
+      - "test-automation"
+      - "testing"
+      - "web-testing"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "agentic-trading"
+    title: "agentic-trading"
+    description: "Sample application to demonstrate Google ADK and A2A interoperability. For informational purposes only."
+    language: "Python"
+    topics: []
+    stars_fact: 254
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "kweinmeister"
     title: "kweinmeister"
     description: null
@@ -92,7 +120,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "toon-mcp"
     title: "toon-mcp"
     description: "MCP server for converting JSON ↔ TOON to reduce LLM token usage."
@@ -109,22 +137,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-10-23"
-  - name: "hono-cars-api"
-    title: "hono-cars-api"
-    description: "A RESTful API for managing car data, built with Hono, TypeScript, and Google Firestore."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "am-i-covered"
-    title: "am-i-covered"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # kweinmeister

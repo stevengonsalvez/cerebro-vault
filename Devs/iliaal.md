@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [5, 8, 4, 3, 2, 0, 19, 42, 46, 37, 8, 9, 0]
+pushes_per_week: [7, 4, 6, 1, 2, 3, 21, 40, 43, 40, 8, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 85
+    pushes: 73
     distinct_repos: 24
-    active_days: 15
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 183
+    pushes: 181
     distinct_repos: 32
-    active_days: 44
+    active_days: 43
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.1591
-  repo_per_active_day: 0.7273
+  push_per_day: 4.2093
+  repo_per_active_day: 0.7442
   not_owned_ratio: 0.1562
   basename_concentration: 0.1562
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 85
+    pushes: 73
     distinct_repos: 24
-    pushes_per_repo: 3.5417
-    active_days: 15
+    pushes_per_repo: 3.0417
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 183
+    pushes: 181
     distinct_repos: 32
-    pushes_per_repo: 5.7188
-    active_days: 44
+    pushes_per_repo: 5.6562
+    active_days: 43
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "codesage"
@@ -182,6 +182,6 @@ repos:
 
 # iliaal
 
-183 pushes across 32 repositories on 44 active days in the last 90 days of public GitHub push activity.
+181 pushes across 32 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/iliaal

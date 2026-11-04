@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [12, 19, 6, 1, 7, 8, 23, 20, 19, 2, 6, 9, 0]
+pushes_per_week: [15, 11, 6, 1, 7, 9, 24, 19, 18, 8, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
+    pushes: 127
     distinct_repos: 2
-    active_days: 47
+    active_days: 46
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8085
-  repo_per_active_day: 0.0426
+  push_per_day: 2.7609
+  repo_per_active_day: 0.0435
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 21.0000
-    active_days: 7
+    pushes_per_repo: 17.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
+    pushes: 127
     distinct_repos: 2
-    pushes_per_repo: 66.0000
-    active_days: 47
+    pushes_per_repo: 63.5000
+    active_days: 46
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-otel"
@@ -145,6 +145,6 @@ repos:
 
 # ColeMurray
 
-132 pushes across 2 repositories on 47 active days in the last 90 days of public GitHub push activity.
+127 pushes across 2 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

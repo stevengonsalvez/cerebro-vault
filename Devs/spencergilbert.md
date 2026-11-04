@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 5, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 5, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,23 +84,36 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-01"
+  - name: "pi-pkg"
+    title: "pi-pkg"
+    description: "Personal Pi package — extensions, skills, prompts, and themes."
+    language: "TypeScript"
+    topics:
+      - "pi"
+      - "pi-coding-agent"
+      - "pi-package"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "pi-telemetry-opentelemetry"
+    title: "pi-telemetry-opentelemetry"
+    description: "OpenTelemetry adapter for pi-telemetry"
+    language: "TypeScript"
+    topics:
+      - "observability"
+      - "opentelemetry"
+      - "pi-telemetry"
+      - "telemetry"
+      - "tracing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "website"
     title: "website"
     description: "Personal site and resume on Astro; the PDF is printed from the site."
     language: "CSS"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "pi-pkg"
-    title: "pi-pkg"
-    description: "Personal Pi package — extensions, skills, prompts, and themes."
-    language: "JavaScript"
-    topics:
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-package"
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
@@ -130,19 +143,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2025-11-20"
-  - name: "asdf-gitsign"
-    title: "asdf-gitsign"
-    description: "Gitsign plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "gitsign"
-      - "sigstore"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-11-21"
 ---
 
 # spencergilbert

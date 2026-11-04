@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 2, 2, 1, 5, 0, 1, 0, 0, 4, 4, 24, 0]
+pushes_per_week: [5, 1, 2, 1, 5, 0, 1, 0, 0, 7, 2, 23, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,14 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nexus"
-    title: "nexus"
-    description: null
+  - name: "dilara-bparty"
+    title: "dilara-bparty"
+    description: "Birthday party quiz web app on Cloudflare Workers and Durable Objects"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Manually managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
   - name: "claude-mods"
     title: "claude-mods"
     description: "Claude Code mods, published as one plugin marketplace"
@@ -100,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "pi-nexus"
     title: "pi-nexus"
     description: "Drive Nexus threads from pi through the nexus CLI"
@@ -108,23 +100,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Archivist"
-    language: "Ruby"
+    last_push: "2026-11-03"
+  - name: "nexus"
+    title: "nexus"
+    description: null
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "macarchy"
-    title: "macarchy"
-    description: null
-    language: "Swift"
+    last_push: "2026-11-03"
+  - name: "home-chat"
+    title: "home-chat"
+    description: "A local-first, mobile-friendly Pi chat UI with a restricted tool profile and isolated backend."
+    language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-03"
+  - name: "nexus-demo"
+    title: "nexus-demo"
+    description: "Demo project built on Bobble Nexus with Claude implementation and Astra reviews."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # ramtinJ95

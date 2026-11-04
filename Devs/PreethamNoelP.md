@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,9 +91,9 @@ repos:
       - "prompt-injection"
       - "security"
       - "static-analysis"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-11-01"
   - name: "PreethamNoelP"
     title: "PreethamNoelP"
     description: "Config files for my GitHub profile."

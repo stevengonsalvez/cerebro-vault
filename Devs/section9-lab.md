@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [3, 4, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 2, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,47 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-work"
+    title: "pi-work"
+    description: "A lightweight native macOS desktop app / GUI for Pi Coding Agent, built with SwiftUI. Pi Coding Agent 原生桌面端，支持 AI 编程、技能扩展与定时任务。"
+    language: "Swift"
+    topics:
+      - "ai-agent"
+      - "ai-coding-assistant"
+      - "coding-agent"
+      - "desktop-app"
+      - "developer-tools"
+      - "llm"
+      - "macos"
+      - "macos-app"
+      - "native-app"
+      - "pi-agent"
+      - "pi-coding-agent"
+      - "pi-desktop"
+      - "pi-gui"
+      - "swift"
+      - "swiftui"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "vibe-hud"
+    title: "vibe-hud"
+    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
+    language: "Swift"
+    topics:
+      - "chatgpt"
+      - "claude-code"
+      - "codex"
+      - "island"
+      - "macos"
+      - "notch"
+      - "notch-app"
+      - "opencode"
+      - "vibe-island"
+      - "vibecoding-tool"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "MyClip"
     title: "MyClip"
     description: "AI screen memory for macOS. Capture your work as searchable Markdown notes and tasks. Let Codex and Claude Code recall saved context through a built-in MCP server."
@@ -91,39 +132,12 @@ repos:
       - "macos"
       - "markdown"
       - "mcp"
-      - "mcp-server"
       - "model-context-protocol"
-      - "ocr"
       - "screen-capture"
       - "screenshot-to-memory"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "DingBell"
-    title: "DingBell"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "vibe-hud"
-    title: "vibe-hud"
-    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
-    language: "Swift"
-    topics:
-      - "chatgpt"
-      - "claude-code"
-      - "codex"
-      - "island"
-      - "macos"
-      - "opencode"
-      - "vibe-island"
-      - "vibecoding-tool"
-      - "workbuddy"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-16"
+    last_push: "2026-11-03"
   - name: "section9-lab"
     title: "section9-lab"
     description: null
@@ -131,25 +145,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "pi-work"
-    title: "pi-work"
-    description: "Your personal coding assistant for macOS"
-    language: "Swift"
-    topics:
-      - "agent"
-      - "agentic"
-      - "agents"
-      - "coding"
-      - "coding-agent"
-      - "office-assistant"
-      - "personal-assistant"
-      - "vibe-coding"
-      - "work"
-      - "workshop"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-11-03"
   - name: "chat-bridge"
     title: "chat-bridge"
     description: "Chat Bridge is a macOS menu bar app that connects WeChat and iMessage to the AI agents on your Mac. Start a task from your phone, continue an existing conversation, and receive the result in the same chat."
@@ -159,9 +155,17 @@ repos:
       - "aiasisstant"
       - "imessage"
       - "wechat-bot"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-11-03"
+  - name: "DingBell"
+    title: "DingBell"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # section9-lab

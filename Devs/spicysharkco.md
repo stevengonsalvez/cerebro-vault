@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 9, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "spicysharkco"
+    title: "spicysharkco"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "spicysharkco.github.io"
+    title: "spicysharkco.github.io"
+    description: "Engineering notes on upstream fixes: what broke, how I measured it, what reviewers changed."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "chess-sim2real-benchmark"
     title: "chess-sim2real-benchmark"
     description: "Render generator and 20,000-image benchmark: what synthetic training data buys a chess-recognition model on real camera images"
@@ -91,22 +107,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-23"
-  - name: "spicysharkco.github.io"
-    title: "spicysharkco.github.io"
-    description: "Engineering notes on upstream fixes: what broke, how I measured it, what reviewers changed."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "spicysharkco"
-    title: "spicysharkco"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "sharkswap"
     title: "sharkswap"
     description: "Claude Code account switcher: switch / swap between Claude Code accounts without logging in again"

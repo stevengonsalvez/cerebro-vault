@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [0, 0, 7, 2, 3, 1, 5, 6, 3, 1, 0, 2, 0]
+pushes_per_week: [0, 2, 6, 1, 3, 3, 6, 3, 3, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -95,9 +95,33 @@ repos:
       - "webrtc"
       - "whisper"
       - "windows"
-    stars_fact: 390
+    stars_fact: 392
     first_seen: null
     last_push: "2026-07-17"
+  - name: "gemini-4-motionbricks"
+    title: "gemini-4-motionbricks"
+    description: "Gemini 4 Argon with MotionBricks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "voice-rtc-bench"
+    title: "voice-rtc-bench"
+    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2025-11-24"
+  - name: "abc-box"
+    title: "abc-box"
+    description: "Interactive ABC-inspired tabletop workcell viewer, bill of materials, and build guide"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "digital-twin-proxy"
     title: "digital-twin-proxy"
     description: "A forward proxy to turn network traffic into personal memory for AI agents"
@@ -125,42 +149,6 @@ repos:
     stars_fact: 269
     first_seen: null
     last_push: "2026-08-11"
-  - name: "gemini-cli-voice-extension"
-    title: "gemini-cli-voice-extension"
-    description: "Voice mode for Gemini CLI"
-    language: "TypeScript"
-    topics:
-      - "gemini-cli"
-      - "gemini-cli-extension"
-      - "gemini-extension"
-      - "gemini-live-api"
-      - "voice"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-03-18"
-  - name: "voice-rtc-bench"
-    title: "voice-rtc-bench"
-    description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2025-11-24"
-  - name: "splatter-mcp-app"
-    title: "splatter-mcp-app"
-    description: "MCP app for generating and viewing 3D models using 3D Gaussian Splatting"
-    language: "TypeScript"
-    topics:
-      - "3dgs"
-      - "chatgpt"
-      - "gaussian-splatting"
-      - "mcp"
-      - "mcp-apps"
-      - "mcp-server"
-      - "threejs"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-02-24"
 ---
 
 # kstonekuan

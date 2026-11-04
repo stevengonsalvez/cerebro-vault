@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 16, 1, 1, 4, 0, 7, 4, 2, 3, 5, 11, 0]
+pushes_per_week: [15, 7, 1, 1, 4, 0, 7, 4, 2, 5, 5, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 12
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9677
-  repo_per_active_day: 0.3871
+  push_per_day: 2.0000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -65,20 +65,20 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 12
-    pushes_per_repo: 5.0833
-    active_days: 31
+    pushes_per_repo: 5.0000
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "SuperWagie-Open"
-    title: "SuperWagie-Open"
+  - name: "SuperWagie"
+    title: "SuperWagie"
     description: "犇马 SuperWagie · 本地 AI 办公与编程智能体。Local AI workbench for office work and coding, with Markdown tasks, a document library, and document/PPT creation for macOS and Windows."
     language: "JavaScript"
     topics:
@@ -96,7 +96,15 @@ repos:
       - "windows"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "UniHub"
+    title: "UniHub"
+    description: "UniHub: headless identity, accounts and billing services for independent products"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "llmrouter"
     title: "llmrouter"
     description: "Private LLM API aggregation and client compatibility platform"
@@ -104,43 +112,35 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "UniHub"
-    title: "UniHub"
-    description: "UniHub: headless identity, accounts and billing services for independent products"
-    language: "Go"
+    last_push: "2026-11-03"
+  - name: "SuperVideo"
+    title: "SuperVideo"
+    description: "轻量视频制作技能：PPT、绘本、网页教程与教学动画，百炼配音、字幕和 BGM。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "inidd"
+    title: "inidd"
+    description: "魂器（inidd）：DeepSeek Harness 的人格化插件集"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "AgentWiki"
-    title: "AgentWiki"
+    last_push: "2026-10-31"
+  - name: "project-taskboard"
+    title: "project-taskboard"
     description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "quukk-site"
-    title: "quukk-site"
-    description: "Quukk bilingual company website, product showcases, brand assets, and deployment documentation"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "WPSComposer"
-    title: "WPSComposer"
-    description: "Agent skill (any agent, Codex plugin packaging included) for generating and editing rich-layout DOCX/PPTX/XLSX/PDF via the real WPS Office engine — COM on Windows, JSAPI bridge on macOS"
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-09-26"
 ---
 
 # NeoMei
 
-61 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+60 pushes across 12 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NeoMei

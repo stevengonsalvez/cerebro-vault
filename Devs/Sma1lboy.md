@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [21, 34, 4, 5, 2, 3, 12, 31, 33, 10, 12, 13, 0]
+pushes_per_week: [28, 23, 4, 5, 2, 3, 13, 32, 31, 10, 17, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 40
     distinct_repos: 5
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
+    pushes: 176
     distinct_repos: 18
     active_days: 48
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.7500
+  push_per_day: 3.6667
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.1667
   basename_concentration: 0.0556
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 40
     distinct_repos: 5
-    pushes_per_repo: 8.8000
-    active_days: 14
+    pushes_per_repo: 8.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 180
+    pushes: 176
     distinct_repos: 18
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.7778
     active_days: 48
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -102,9 +102,41 @@ repos:
       - "terminal"
       - "tui"
       - "typescript"
-    stars_fact: 180
+    stars_fact: 183
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Unlimited-DeepL-Pro"
+    title: "Unlimited-DeepL-Pro"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2023-12-08"
+  - name: "pua-what-game"
+    title: "pua-what-game"
+    description: "PUA话术识别 — 沉浸式微信聊天模拟器，识别9种常见PUA操控手法的互动游戏"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "sma1lboy.me"
+    title: "sma1lboy.me"
+    description: "personal introduction website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "claude-standup"
     title: "claude-standup"
     description: "One panel for every Claude Code session on your machine: what each agent needs from you, and what each one got done."
@@ -116,52 +148,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "sma1lboy.me"
-    title: "sma1lboy.me"
-    description: "personal introduction website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: ".dotfiles"
-    title: ".dotfiles"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "student-skill"
-    title: "student-skill"
-    description: "Claude Code Skill — 学生学术助手：建立写作/代码风格画像、去AI化、CS作业、Essay写作、Canvas集成"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-04-02"
-  - name: "artifact-share"
-    title: "artifact-share"
-    description: "Publish an HTML page, get the verdicts back. One POST turns a self-contained page into a public review link; reviewers decide in the browser, your agent reads the decisions back as JSON. Cloudflare Worker + KV, ~200 lines, no accounts."
-    language: "JavaScript"
-    topics:
-      - "agent-tools"
-      - "ai-agents"
-      - "cloudflare-kv"
-      - "cloudflare-workers"
-      - "code-review"
-      - "edge"
-      - "html"
-      - "self-hosted"
-      - "serverless"
-      - "share"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-08-29"
 ---
 
 # Sma1lboy
 
-180 pushes across 18 repositories on 48 active days in the last 90 days of public GitHub push activity.
+176 pushes across 18 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

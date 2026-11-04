@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "44bf92228a9e42f2"
-pushes_per_week: [36, 59, 17, 5, 8, 21, 71, 84, 79, 80, 60, 89, 0]
+pushes_per_week: [50, 43, 16, 4, 9, 26, 72, 86, 70, 104, 46, 79, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 268
-    distinct_repos: 18
-    active_days: 18
-    repos_not_owned: 16
+    pushes: 251
+    distinct_repos: 17
+    active_days: 17
+    repos_not_owned: 15
     not_owned_basenames: 3
-    not_owned_owners: 16
+    not_owned_owners: 15
   "90d":
-    pushes: 609
-    distinct_repos: 41
-    active_days: 68
+    pushes: 605
+    distinct_repos: 40
+    active_days: 66
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 8.9559
-  repo_per_active_day: 0.6029
-  not_owned_ratio: 0.5854
-  basename_concentration: 0.4634
+  push_per_day: 9.1667
+  repo_per_active_day: 0.6061
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.4750
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 268
-    distinct_repos: 18
-    pushes_per_repo: 14.8889
-    active_days: 18
-    repos_not_owned: 16
+    pushes: 251
+    distinct_repos: 17
+    pushes_per_repo: 14.7647
+    active_days: 17
+    repos_not_owned: 15
     not_owned_basenames: 3
-    not_owned_owners: 16
+    not_owned_owners: 15
   "90d":
-    pushes: 609
-    distinct_repos: 41
-    pushes_per_repo: 14.8537
-    active_days: 68
+    pushes: 605
+    distinct_repos: 40
+    pushes_per_repo: 15.1250
+    active_days: 66
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 68 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "billion-context"
@@ -83,39 +83,39 @@ repos:
     language: "TypeScript"
     topics:
       - "dsh-plugin"
-    stars_fact: 3009
+    stars_fact: 3955
     first_seen: "2026-10-11T06:01:21.365055+00:00"
-    last_push: "2026-10-27"
-  - name: "opencode-acp"
-    title: "opencode-acp"
-    description: "稳定可用Active Context Pruning — model-driven context management for OpenCode ，200K tokens is enough. ，主动压缩上下文，20w token足以"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 274
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-04"
   - name: "ework"
     title: "ework"
     description: "Self-hosted AI development fleet — issue-driven agents (monorepo)"
     language: "TypeScript"
     topics: []
-    stars_fact: 16
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "billion-context-pi"
     title: "billion-context-pi"
     description: "稳定可用 Use billion-context instead .Active Context Pruning for pi ，100K tokens is enough. ，主动压缩上下文，10w 上下文足矣"
     language: "TypeScript"
     topics: []
-    stars_fact: 263
+    stars_fact: 270
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "acp-kernel"
     title: "acp-kernel"
     description: "压缩内核ACP compression & state management engine — standalone, zero runtime dependencies"
     language: "TypeScript"
     topics: []
-    stars_fact: 41
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "opencode-acp"
+    title: "opencode-acp"
+    description: "稳定可用Active Context Pruning — model-driven context management for OpenCode ，200K tokens is enough. ，主动压缩上下文，20w token足以"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 278
     first_seen: null
     last_push: "2026-10-23"
   - name: "billion-context-pi-subagents"
@@ -130,6 +130,6 @@ repos:
 
 # ranxianglei
 
-609 pushes across 41 repositories on 68 active days in the last 90 days of public GitHub push activity.
+605 pushes across 40 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ranxianglei

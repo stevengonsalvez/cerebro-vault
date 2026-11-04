@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [20, 9, 1, 0, 0, 0, 0, 5, 1, 1, 2, 9, 0]
+pushes_per_week: [18, 9, 1, 0, 0, 0, 3, 2, 1, 1, 2, 9, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 11
-    active_days: 20
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.5500
+  push_per_day: 2.5556
+  repo_per_active_day: 0.6111
   not_owned_ratio: 0.1818
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 46
     distinct_repos: 11
-    pushes_per_repo: 4.3636
-    active_days: 20
+    pushes_per_repo: 4.1818
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "djdembeck"
@@ -163,6 +163,6 @@ repos:
 
 # djdembeck
 
-48 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+46 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djdembeck

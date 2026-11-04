@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [23, 26, 4, 1, 2, 4, 15, 6, 18, 7, 7, 4, 1]
+pushes_per_week: [38, 10, 3, 1, 2, 6, 13, 7, 17, 13, 2, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 20
-    active_days: 12
-    repos_not_owned: 18
-    not_owned_basenames: 16
-    not_owned_owners: 6
+    pushes: 25
+    distinct_repos: 17
+    active_days: 11
+    repos_not_owned: 15
+    not_owned_basenames: 13
+    not_owned_owners: 5
   "90d":
-    pushes: 118
-    distinct_repos: 30
-    active_days: 42
-    repos_not_owned: 27
+    pushes: 116
+    distinct_repos: 29
+    active_days: 40
+    repos_not_owned: 26
     not_owned_basenames: 18
-    not_owned_owners: 14
+    not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 2.8095
-  repo_per_active_day: 0.7143
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.2333
+  push_per_day: 2.9000
+  repo_per_active_day: 0.7250
+  not_owned_ratio: 0.8966
+  basename_concentration: 0.2414
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 29
-    distinct_repos: 20
-    pushes_per_repo: 1.4500
-    active_days: 12
-    repos_not_owned: 18
-    not_owned_basenames: 16
-    not_owned_owners: 6
+    pushes: 25
+    distinct_repos: 17
+    pushes_per_repo: 1.4706
+    active_days: 11
+    repos_not_owned: 15
+    not_owned_basenames: 13
+    not_owned_owners: 5
   "90d":
-    pushes: 118
-    distinct_repos: 30
-    pushes_per_repo: 3.9333
-    active_days: 42
-    repos_not_owned: 27
+    pushes: 116
+    distinct_repos: 29
+    pushes_per_repo: 4.0000
+    active_days: 40
+    repos_not_owned: 26
     not_owned_basenames: 18
-    not_owned_owners: 14
+    not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pushpak1300"
+    title: "pushpak1300"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "pushpak1300.me"
     title: "pushpak1300.me"
     description: "Personal Website built from scratch using Nuxt and Tailwind"
@@ -89,23 +97,15 @@ repos:
       - "vue"
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
   - name: "ai-chat"
     title: "ai-chat"
     description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
     language: "PHP"
     topics: []
-    stars_fact: 383
+    stars_fact: 382
     first_seen: null
     last_push: "2026-06-22"
-  - name: "pushpak1300"
-    title: "pushpak1300"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "cypress-mailpit"
     title: "cypress-mailpit"
     description: "Cypress Commands for Mailpit ✉️"
@@ -113,11 +113,11 @@ repos:
     topics: []
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-04"
 ---
 
 # pushpak1300
 
-118 pushes across 30 repositories on 42 active days in the last 90 days of public GitHub push activity.
+116 pushes across 29 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

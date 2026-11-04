@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a48647989fcde575"
 pushes_per_week: [0, 0, 0, 1, 0, 3, 1, 0, 0, 0, 1, 0, 0]
@@ -100,7 +100,7 @@ repos:
       - "swift"
       - "tool"
       - "visionos"
-    stars_fact: 12016
+    stars_fact: 12143
     first_seen: "2026-08-31T06:00:05.900163+00:00"
     last_push: "2026-10-25"
   - name: "libTransLock"

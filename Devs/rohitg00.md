@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "7b553354eb544407"
-pushes_per_week: [4, 12, 11, 4, 1, 0, 0, 17, 21, 10, 5, 11, 0]
+pushes_per_week: [7, 9, 12, 3, 1, 0, 0, 19, 19, 10, 10, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
     active_days: 10
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 3
-    pushes_per_repo: 10.0000
+    pushes_per_repo: 9.6667
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -102,9 +102,9 @@ repos:
       - "transformers"
       - "tutorial"
       - "typescript"
-    stars_fact: 74499
+    stars_fact: 76745
     first_seen: "2026-07-21T06:00:01.973180+00:00"
-    last_push: "2026-10-23"
+    last_push: "2026-11-04"
   - name: "agentmemory"
     title: "agentmemory"
     description: "#1 Persistent memory for AI coding agents based on real-world benchmarks"
@@ -126,26 +126,31 @@ repos:
       - "openclaw"
       - "opencode"
       - "pi"
-    stars_fact: 29926
+    stars_fact: 30123
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "skillkit"
-    title: "skillkit"
-    description: "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more"
-    language: "TypeScript"
+    last_push: "2026-11-04"
+  - name: "awesome-claude-code-toolkit"
+    title: "awesome-claude-code-toolkit"
+    description: "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more."
+    language: "JavaScript"
     topics:
-      - "agent-skills"
-      - "agentskills"
-      - "ai"
-      - "cli"
-      - "codex"
-      - "cursor"
-      - "gemini"
-      - "opencode"
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "claudecode-hooks"
+      - "plugins"
       - "skills"
-    stars_fact: 1565
+    stars_fact: 2811
     first_seen: null
-    last_push: "2026-06-02"
+    last_push: "2026-05-12"
+  - name: "rohitg00"
+    title: "rohitg00"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "awesome-claude-design"
     title: "awesome-claude-design"
     description: "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes."
@@ -160,31 +165,17 @@ repos:
       - "claude-skills"
       - "design-md"
       - "design-system"
-    stars_fact: 1172
+    stars_fact: 1189
     first_seen: null
     last_push: "2026-04-23"
-  - name: "awesome-claude-code-toolkit"
-    title: "awesome-claude-code-toolkit"
-    description: "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more."
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claudecode"
-      - "claudecode-hooks"
-      - "plugins"
-      - "skills"
-    stars_fact: 2773
-    first_seen: null
-    last_push: "2026-05-12"
-  - name: "rohitg00"
-    title: "rohitg00"
-    description: null
-    language: "JavaScript"
+  - name: "DevOps_Books"
+    title: "DevOps_Books"
+    description: "Contribute to Open-Source"
+    language: null
     topics: []
-    stars_fact: 51
+    stars_fact: 2138
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2025-05-29"
 ---
 
 # rohitg00

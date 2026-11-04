@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 8, 1, 1, 0, 4, 3, 3, 1, 0, 1, 1, 0]
+pushes_per_week: [1, 7, 2, 0, 0, 4, 3, 3, 1, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,28 +77,46 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "steepr"
-    title: "steepr"
-    description: "For people who take tea way too seriously 🍵"
-    language: "Makefile"
-    topics:
-      - "ios"
-      - "ios-swift"
-      - "steep"
-      - "swift"
-      - "tea"
-      - "vuejs"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "goggles"
-    title: "goggles"
-    description: "Multi-account social browser"
-    language: "Go"
+  - name: "emozi"
+    title: "emozi"
+    description: "Emoji picker for linux 😎"
+    language: "Vala"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
+  - name: "pixx"
+    title: "pixx"
+    description: "Color picker for Linux"
+    language: "Zig"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "pocket"
+    title: "pocket"
+    description: "Pocket: A lightweight application launcher that gets out of your way"
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "postmoth"
+    title: "postmoth"
+    description: "Your mail, right at home on Linux."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "maskedsyntax"
+    title: "maskedsyntax"
+    description: "My Github README profile!"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "tumble"
     title: "tumble"
     description: "A tiny lock-screen camera that makes you wait to see what you shot."
@@ -106,43 +124,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "raviz"
-    title: "raviz"
-    description: "High-performance audio-reactive 3D visualizer for Linux"
-    language: "C"
-    topics:
-      - "3d"
-      - "audio"
-      - "audio-visualizer"
-      - "c"
-      - "linux"
-      - "opengl"
-      - "opengl3"
-      - "pulseaudio"
-      - "sphere"
-      - "toml"
-      - "wayland"
-      - "x11"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-02-22"
-  - name: "java-interview-handbook"
-    title: "java-interview-handbook"
-    description: "Java Interview Handbook"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "rookwm"
-    title: "rookwm"
-    description: "A minimal, fast, X11 tiling window manager written in Rust."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-10-29"
 ---
 
 # maskedsyntax

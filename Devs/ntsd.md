@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 0, 1, 12, 16, 11, 17, 18, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 17, 13, 10, 16, 18, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 7
-    active_days: 8
+    pushes: 22
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 7
-    pushes_per_repo: 3.5714
-    active_days: 8
+    pushes: 22
+    distinct_repos: 6
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
   - name: "zero-share"
     title: "zero-share"
     description: "A secure P2P file sharing using WebRTC without server-side need."
@@ -101,7 +101,7 @@ repos:
       - "webrtc"
     stars_fact: 151
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "ntsd"
     title: "ntsd"
     description: "My Github Profile"
@@ -111,7 +111,24 @@ repos:
       - "github-profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "vibe-trap"
+    title: "vibe-trap"
+    description: "macOS AFK anti-tamper & jumpscare trap utility. Keeps screen awake, locks workstation on unauthorized touch."
+    language: "Swift"
+    topics:
+      - "anti-tamper"
+      - "caffeinate"
+      - "devchallenge"
+      - "hacktoberfest"
+      - "jumpscare"
+      - "macos"
+      - "nodejs"
+      - "security"
+      - "swift"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "dotai"
     title: "dotai"
     description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
@@ -132,24 +149,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-19"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Cross-platform dotfiles: Make + Stow, Homebrew/asdf, Copilot instruction & chat mode manager."
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "automation"
-      - "copilot"
-      - "dotfiles"
-      - "homebrew"
-      - "linux"
-      - "macos"
-      - "makefile"
-      - "prompts"
-      - "stow"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-16"
 ---
 
 # ntsd

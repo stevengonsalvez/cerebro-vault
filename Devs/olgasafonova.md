@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 16, 0, 1, 0, 1, 0, 2, 3, 3, 4, 0, 0]
+pushes_per_week: [6, 10, 0, 1, 1, 0, 0, 2, 3, 5, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
     active_days: 6
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 5
-    pushes_per_repo: 1.8000
+    pushes_per_repo: 1.6000
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -95,7 +95,19 @@ repos:
       - "wikipedia"
     stars_fact: 23
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "linkedin-rs"
+    title: "linkedin-rs"
+    description: "LinkedIn in the terminal. Inbox, messages, feed, search, jobs, profile audit, network overlap; no browser needed. Fork of eisbaw/linkedin-rs."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "linkedin"
+      - "rust"
+      - "terminal"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "miro-mcp-server"
     title: "miro-mcp-server"
     description: "MCP server for controlling Miro whiteboards with AI assistants"
@@ -114,58 +126,43 @@ repos:
       - "whiteboard"
     stars_fact: 31
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "linkedin-rs"
-    title: "linkedin-rs"
-    description: "LinkedIn in the terminal. Inbox, messages, feed, search, jobs, profile audit, network overlap; no browser needed. Fork of eisbaw/linkedin-rs."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "linkedin"
-      - "rust"
-      - "terminal"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "nordic-registry-mcp-server"
-    title: "nordic-registry-mcp-server"
-    description: "MCP server for Nordic company registries (Norway, Denmark, Finland, Sweden)"
-    language: "Go"
+    last_push: "2026-11-02"
+  - name: "tilbudstrolden-mcp"
+    title: "tilbudstrolden-mcp"
+    description: "MCP server for Nordic grocery deal hunting via the Tjek API (Denmark, Norway, Sweden, Finland)"
+    language: "TypeScript"
     topics:
       - "anthropic"
-      - "brreg"
       - "claude"
-      - "company-registry"
-      - "denmark"
+      - "danish"
+      - "deals"
+      - "etilbudsavis"
       - "finland"
-      - "go"
-      - "golang"
+      - "grocery"
+      - "grocery-deals"
       - "mcp"
       - "mcp-server"
+      - "meal-planning"
       - "model-context-protocol"
+      - "nordic"
       - "norway"
+      - "price-comparison"
+      - "recipe-manager"
+      - "shopping-list"
       - "sweden"
-    stars_fact: 14
+      - "tilbud"
+      - "typescript"
+    stars_fact: 48
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "miro-cli"
-    title: "miro-cli"
-    description: "Single-binary CLI that wraps the Miro REST API as shell commands, with a local SQLite mirror for offline search."
-    language: "Go"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "cobra"
-      - "collaboration"
-      - "go"
-      - "golang"
-      - "miro"
-      - "miro-api"
-      - "whiteboard"
-    stars_fact: 3
+    last_push: "2026-11-02"
+  - name: "kanadojo"
+    title: "kanadojo"
+    description: "KanaDojo — Japanese kana training app with spaced repetition and mnemonic art"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "godojo"
     title: "godojo"
     description: "Learn Go through visual gopher metaphors for abstract concepts, with belts and spaced repetition"
@@ -182,7 +179,7 @@ repos:
       - "vite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
 ---
 
 # olgasafonova

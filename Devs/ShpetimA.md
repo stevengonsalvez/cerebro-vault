@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 4, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
@@ -82,9 +82,17 @@ repos:
     description: "A helpful pi extension to improve file search logic in pi"
     language: "TypeScript"
     topics: []
-    stars_fact: 88
+    stars_fact: 89
     first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-10-29"
+  - name: "open-warden"
+    title: "open-warden"
+    description: "OpenWarden a desktop git client that is fast and works"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "agent-skills"
     title: "agent-skills"
     description: "Portable TypeScript design and workflow skills for coding agents"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-15"
-  - name: "open-warden"
-    title: "open-warden"
-    description: "OpenWarden a desktop git client that is fast and works"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "VimSetup"
     title: "VimSetup"
     description: "My vim setup for vscode"

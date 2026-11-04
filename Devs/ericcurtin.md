@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [11, 6, 6, 1, 7, 7, 11, 49, 52, 31, 10, 2, 0]
+pushes_per_week: [10, 6, 6, 1, 7, 8, 17, 50, 44, 37, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
-    distinct_repos: 20
-    active_days: 14
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 50
+    distinct_repos: 17
+    active_days: 13
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 193
+    pushes: 192
     distinct_repos: 44
-    active_days: 51
+    active_days: 50
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.7843
-  repo_per_active_day: 0.8627
+  push_per_day: 3.8400
+  repo_per_active_day: 0.8800
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 63
-    distinct_repos: 20
-    pushes_per_repo: 3.1500
-    active_days: 14
-    repos_not_owned: 6
-    not_owned_basenames: 5
-    not_owned_owners: 4
+    pushes: 50
+    distinct_repos: 17
+    pushes_per_repo: 2.9412
+    active_days: 13
+    repos_not_owned: 5
+    not_owned_basenames: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 193
+    pushes: 192
     distinct_repos: 44
-    pushes_per_repo: 4.3864
-    active_days: 51
+    pushes_per_repo: 4.3636
+    active_days: 50
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "falabichos"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-193 pushes across 44 repositories on 51 active days in the last 90 days of public GitHub push activity.
+192 pushes across 44 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 4, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.3750
+  push_per_day: 1.2857
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MemeManager"
@@ -88,7 +88,7 @@ repos:
       - "memes"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-02"
   - name: "openwrt-system-monitor"
     title: "openwrt-system-monitor"
     description: "一个由 golang+ebpf+vue3+TailwindCSS4 编写的OpenWrt监控仪表板"
@@ -133,6 +133,6 @@ repos:
 
 # shuiping233
 
-12 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shuiping233

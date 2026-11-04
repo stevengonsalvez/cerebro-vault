@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [4, 8, 1, 1, 0, 1, 5, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 7, 2, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 3
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.2000
+  push_per_day: 1.2857
+  repo_per_active_day: 0.2143
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 6.6667
-    active_days: 15
+    pushes_per_repo: 6.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aihero-software-factories"
+    title: "aihero-software-factories"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "experiments"
+    title: "experiments"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "strava"
     title: "strava"
     description: "Python wrapper for the Strava (http://www.strava.com) API"
@@ -93,14 +109,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2019-07-27"
-  - name: "experiments"
-    title: "experiments"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
   - name: "prairie-pip"
     title: "prairie-pip"
     description: "Prairie Pip — a tiny 2.5D browser adventure about an adorable prairie dog and his jump-yipping town"
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-08-02"
-  - name: "bitfield"
-    title: "bitfield"
-    description: "Python library for representing a set of bits"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2013-11-02"
 ---
 
 # Packetslave
 
-20 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
+18 pushes across 3 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Packetslave

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 7, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "profile"
-    title: "profile"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-06"
   - name: "StockOps"
     title: "StockOps"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2019-06-20"
+  - name: "my-cpp-primer-plus"
+    title: "my-cpp-primer-plus"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-06-04"
 ---
 
 # zhuangzhewei09

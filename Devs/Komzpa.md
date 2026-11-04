@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [37, 51, 5, 3, 60, 1, 2, 32, 55, 29, 20, 14, 0]
+pushes_per_week: [40, 47, 8, 0, 60, 1, 2, 34, 53, 38, 18, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
-    distinct_repos: 10
-    active_days: 11
+    pushes: 68
+    distinct_repos: 9
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 309
+    pushes: 308
     distinct_repos: 29
     active_days: 41
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.5366
+  push_per_day: 7.5122
   repo_per_active_day: 0.7073
   not_owned_ratio: 0.3448
   basename_concentration: 0.2069
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 83
-    distinct_repos: 10
-    pushes_per_repo: 8.3000
-    active_days: 11
+    pushes: 68
+    distinct_repos: 9
+    pushes_per_repo: 7.5556
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 309
+    pushes: 308
     distinct_repos: 29
-    pushes_per_repo: 10.6552
+    pushes_per_repo: 10.6207
     active_days: 41
     repos_not_owned: 10
     not_owned_basenames: 6
@@ -144,6 +144,6 @@ repos:
 
 # Komzpa
 
-309 pushes across 29 repositories on 41 active days in the last 90 days of public GitHub push activity.
+308 pushes across 29 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

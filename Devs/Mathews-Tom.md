@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [15, 24, 1, 1, 3, 3, 25, 4, 1, 25, 10, 9, 0]
+pushes_per_week: [17, 20, 1, 1, 3, 5, 23, 4, 1, 26, 10, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 121
+    pushes: 119
     distinct_repos: 12
-    active_days: 33
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 0.3636
+  push_per_day: 3.7188
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 121
+    pushes: 119
     distinct_repos: 12
-    pushes_per_repo: 10.0833
-    active_days: 33
+    pushes_per_repo: 9.9167
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Enginery"
@@ -89,49 +89,23 @@ repos:
       - "software-engineering"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "archex"
-    title: "archex"
-    description: "Verified code context for agents"
-    language: "Python"
-    topics:
-      - "agents"
-      - "archex"
-      - "ast"
-      - "code-intelligence"
-      - "code-retrieval"
-      - "code-search"
-      - "coding-agents"
-      - "context-engineering"
-      - "context-window-optimization"
-      - "developer-tools"
-      - "local-first"
-      - "mcp"
-      - "pi"
-      - "python"
-      - "retrieval"
-      - "semantic-search"
-      - "token-efficiency"
-      - "tree-sitter"
-    stars_fact: 67
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "Agentic-Design-Patterns"
-    title: "Agentic-Design-Patterns"
-    description: "Agentic Design Patterns"
-    language: null
-    topics: []
-    stars_fact: 1856
-    first_seen: null
-    last_push: "2025-09-05"
-  - name: "offerloom"
-    title: "offerloom"
+    last_push: "2026-11-04"
+  - name: "BonaFides"
+    title: "BonaFides"
     description: "Your job search. Your data. Your AI."
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
+  - name: "LightPROF"
+    title: "LightPROF"
+    description: "LightPROF: A Lightweight Reasoning Framework for LLMs on Knowledge Graphs"
+    language: "Python"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-02-16"
   - name: "armory"
     title: "armory"
     description: "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously."
@@ -142,21 +116,32 @@ repos:
       - "coding-agents"
       - "open-source"
       - "skills"
-    stars_fact: 337
+    stars_fact: 340
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "Tessera"
-    title: "Tessera"
-    description: "Teach it once. Use it anywhere."
+    last_push: "2026-11-01"
+  - name: "ThreadSense"
+    title: "ThreadSense"
+    description: "Turn conversations into actionable insight."
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-10-30"
+  - name: "VaultMind"
+    title: "VaultMind"
+    description: "AI-powered personal knowledge management built on Obsidian"
+    language: "Python"
+    topics:
+      - "ai-powered"
+      - "obsidian"
+      - "personal-knowledge-management"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # Mathews-Tom
 
-121 pushes across 12 repositories on 33 active days in the last 90 days of public GitHub push activity.
+119 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Mathews-Tom

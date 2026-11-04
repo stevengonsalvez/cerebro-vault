@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 6, 2, 1, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "givenergy-simulator"
+    title: "givenergy-simulator"
+    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "home-energy-manager"
     title: "home-energy-manager"
     description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
@@ -92,7 +100,7 @@ repos:
       - "tauri"
     stars_fact: 36
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
   - name: "milsymbol-sidc"
     title: "milsymbol-sidc"
     description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
@@ -115,9 +123,24 @@ repos:
       - "symbology"
       - "tactical-graphics"
       - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "flashlearn"
+    title: "flashlearn"
+    description: "AI-powered flashcard app. Snap photos of notes, AI creates quizzes. Spaced repetition + gamification for students."
+    language: "Python"
+    topics:
+      - "ai"
+      - "education"
+      - "fastapi"
+      - "flashcards"
+      - "ollama"
+      - "spaced-repetition"
+      - "study-app"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "opencv-image-edit"
     title: "opencv-image-edit"
     description: "Mobile-first AI image editor powered by OpenCV 5 — background blur/remove, film grain, AI upscale, color filters. Vanilla HTML/CSS/JS PWA + FastAPI. ~1.3GB Docker image, no torch."
@@ -134,14 +157,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "givenergy-simulator"
-    title: "givenergy-simulator"
-    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "autonomous-booksmith"
     title: "autonomous-booksmith"
     description: null
@@ -150,14 +165,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-16"
-  - name: "Word-Battler"
-    title: "Word-Battler"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
 ---
 
 # psylsph

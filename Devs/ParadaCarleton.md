@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [2, 2, 0, 1, 1, 0, 0, 10, 9, 1, 2, 20, 1]
+pushes_per_week: [1, 1, 0, 1, 1, 0, 0, 10, 9, 1, 6, 16, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 13
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7222
-  repo_per_active_day: 0.7222
+  push_per_day: 2.7647
+  repo_per_active_day: 0.7647
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,26 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 47
     distinct_repos: 13
-    pushes_per_repo: 3.7692
-    active_days: 18
+    pushes_per_repo: 3.6154
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Corset.jl"
     title: "Corset.jl"
-    description: "Project-specific code rules for Julia packages"
+    description: "A linter to strangle your bugs"
     language: "Julia"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "GameTracing"
     title: "GameTracing"
     description: "Homotopy continuation for logit quantal response equilibria"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "Fallout.jl"
     title: "Fallout.jl"
     description: "Test selection for Julia"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
   - name: "generic-ballot-roper-ids"
     title: "generic-ballot-roper-ids"
     description: "A collection of generic ballot questions from Roper's iPoll"
@@ -117,20 +117,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2021-07-05"
-  - name: "ParadaCarleton"
-    title: "ParadaCarleton"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-05-21"
 ---
 
 # ParadaCarleton
 
-49 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+47 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ParadaCarleton

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,49 +82,49 @@ repos:
     description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
     language: "CSS"
     topics: []
-    stars_fact: 37204
+    stars_fact: 47239
     first_seen: "2026-09-04T06:00:17.162493+00:00"
-    last_push: "2026-10-22"
-  - name: "nyc-ai-atlas"
-    title: "nyc-ai-atlas"
-    description: "A 3D map of the top AI startups in New York City"
-    language: "JavaScript"
+    last_push: "2026-11-03"
+  - name: "fontzz"
+    title: "fontzz"
+    description: "36 original fonts"
+    language: "Python"
     topics: []
     stars_fact: 66
     first_seen: null
-    last_push: "2026-08-07"
-  - name: "llamacoder"
-    title: "llamacoder"
-    description: "Open source Claude Artifacts – built with Llama 3.1 405B"
+    last_push: "2026-11-02"
+  - name: "bygga"
+    title: "bygga"
+    description: "IKEA assembly, step by step: animated, manual-style 3D guides. Scan any paper manual with Together AI."
     language: "TypeScript"
     topics: []
-    stars_fact: 7140
+    stars_fact: 579
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "gloss"
-    title: "gloss"
-    description: "A reader that writes answers in the margin. Select any line, ask, and an open model on Together AI answers beside it."
+    last_push: "2026-10-29"
+  - name: "logocreator"
+    title: "logocreator"
+    description: "A free + OSS logo generator powered by Flux on Together AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 315
+    stars_fact: 8915
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "inspo"
-    title: "inspo"
-    description: "Real websites for your coding agent to learn design from, searchable over MCP."
+    last_push: "2026-10-23"
+  - name: "roomGPT"
+    title: "roomGPT"
+    description: "Upload a photo of your room to generate your dream room with AI."
     language: "TypeScript"
     topics: []
-    stars_fact: 938
+    stars_fact: 10708
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2024-04-20"
   - name: "aicommits"
     title: "aicommits"
     description: "A CLI that writes your git commit messages for you with AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 9122
+    stars_fact: 9125
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-27"
 ---
 
 # Nutlope

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [9, 2, 0, 0, 0, 1, 18, 3, 7, 9, 2, 1, 0]
+pushes_per_week: [7, 1, 0, 0, 0, 3, 16, 5, 5, 10, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 9
-    active_days: 26
+    pushes: 49
+    distinct_repos: 8
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3462
+  push_per_day: 1.9600
+  repo_per_active_day: 0.3200
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
-    distinct_repos: 9
-    pushes_per_repo: 5.7778
-    active_days: 26
+    pushes: 49
+    distinct_repos: 8
+    pushes_per_repo: 6.1250
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wcqqq1214"
@@ -156,6 +156,6 @@ repos:
 
 # wcqqq1214
 
-52 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
+49 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wcqqq1214

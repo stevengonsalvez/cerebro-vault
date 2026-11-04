@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 0, 0, 0, 3, 1, 6, 0, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 1, 6, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-04"
   - name: "pyright-python"
     title: "pyright-python"
     description: "Python command line wrapper for pyright, a static type checker"
@@ -94,9 +86,17 @@ repos:
       - "pip"
       - "python"
       - "typechecking"
-    stars_fact: 277
+    stars_fact: 279
     first_seen: null
     last_push: "2026-09-10"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "craigie.dev"
     title: "craigie.dev"
     description: "Personal blog"

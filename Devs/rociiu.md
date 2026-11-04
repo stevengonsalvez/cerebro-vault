@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "5c1db9239c15fa63"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,9 +91,9 @@ repos:
       - "self-hosted"
       - "typescript"
       - "workers-ai"
-    stars_fact: 1391
+    stars_fact: 1437
     first_seen: "2026-10-11T06:01:22.164700+00:00"
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
   - name: "hanzelo-stroke-data"
     title: "hanzelo-stroke-data"
     description: null

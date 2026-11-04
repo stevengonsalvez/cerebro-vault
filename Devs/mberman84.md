@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "33a1a1e413da60e1"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "folio-releases"
-    title: "folio-releases"
-    description: "Downloads and automatic updates for Folio, a simple, clean PDF reader for Windows"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "edu-crew"
     title: "edu-crew"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-08-12"
+  - name: "croq-crew"
+    title: "croq-crew"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-20"
 ---
 
 # mberman84

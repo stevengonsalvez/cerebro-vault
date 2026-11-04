@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 4, 0, 1, 4, 0, 19, 4, 8, 4, 2, 0]
+pushes_per_week: [1, 0, 4, 0, 1, 4, 2, 17, 4, 8, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 15
+    distinct_repos: 4
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 47
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 8
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
     pushes: 47
@@ -77,6 +77,14 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "okf-tools"
+    title: "okf-tools"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "systems"
     title: "systems"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
   - name: "integral"
     title: "integral"
     description: "Integra-7 controller"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-19"
-  - name: "okf-tools"
-    title: "okf-tools"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
   - name: "callctl"
     title: "callctl"
     description: "Control surfaces for video conferencing systems (Google Meet)"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 4, 0, 0, 2, 0, 0, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 0, 0, 2, 0, 1, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gazetteer"
+    title: "gazetteer"
+    description: "Shared shipment monitoring workspace — synthetic demo with Terse Durable Actors and Agent Relay"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "moonlight"
     title: "moonlight"
     description: "Public source mirror of the Moonlight foundation packages published to Hackage, from Pale Meridian."

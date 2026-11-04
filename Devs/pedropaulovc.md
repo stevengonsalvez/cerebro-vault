@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [0, 21, 30, 1, 31, 31, 61, 188, 57, 81, 63, 58, 2]
+pushes_per_week: [0, 23, 28, 1, 31, 32, 76, 178, 51, 94, 87, 21, 2]
 windows:
   "7d":
     pushes: 2
@@ -84,7 +84,28 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "el400"
+    title: "el400"
+    description: "Web simulator for the Electronica EL400, a.k.a. MagXact MX-100M, digital readout"
+    language: "TypeScript"
+    topics:
+      - "digital-readout"
+      - "dro"
+      - "el400"
+      - "electronica"
+      - "simulator"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "cncjs-whb04b6-el400-integration"
+    title: "cncjs-whb04b6-el400-integration"
+    description: "Manual milling with CNCjs, a WHB04B-6 pendant, and an EL400 DRO, with optional GRBL simulation"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Cross-platform (Linux+Windows, bash+pwsh) dotfiles managed with chezmoi"
@@ -92,15 +113,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "agent-plugins"
-    title: "agent-plugins"
-    description: "Coding agents plugin personalized customizations"
-    language: "JavaScript"
+    last_push: "2026-11-03"
+  - name: "prechips"
+    title: "prechips"
+    description: "Checks before chips: turns a part and a short process plan into a validated traveler a machinist can work from — per-setup workholding, DRO zero recipe, coordinates, tools, speeds/feeds and inspections, checked against the shop's inventory, machine ranges, setup geometry, workholding and cut physics."
+    language: "Python"
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-31"
   - name: "agent-sessions-backup"
     title: "agent-sessions-backup"
     description: "Backup, index, search and render AI agent sessions (Claude Code, Codex, ChatGPT/Claude web) across machines — Cloudflare Workers hub + per-machine collectors"
@@ -108,23 +129,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "hindsight"
-    title: "hindsight"
-    description: "Azure deployment for a self-hosted Hindsight memory service"
-    language: "Bicep"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "watch-pr"
-    title: "watch-pr"
-    description: "Remote MCP event hub for GitHub pull requests"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-10-31"
 ---
 
 # pedropaulovc

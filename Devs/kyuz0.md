@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 3, 3, 1, 1, 2, 4, 7, 1, 1, 3, 1, 0]
+pushes_per_week: [6, 3, 2, 1, 1, 2, 5, 6, 1, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,49 +82,49 @@ repos:
     description: null
     language: "Python"
     topics: []
-    stars_fact: 178
+    stars_fact: 199
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "amd-strix-halo-toolboxes"
-    title: "amd-strix-halo-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2005
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "amd-r9700-ai-toolboxes"
-    title: "amd-r9700-ai-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 115
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "amd-r9700-vllm-toolboxes"
     title: "amd-r9700-vllm-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 208
+    stars_fact: 211
     first_seen: null
     last_push: "2026-10-05"
-  - name: "terminal-bench-mini"
-    title: "terminal-bench-mini"
+  - name: "amd-strix-halo-vllm-toolboxes"
+    title: "amd-strix-halo-vllm-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 10
+    stars_fact: 546
     first_seen: null
-    last_push: "2026-09-27"
-  - name: "amd-strix-halo-llm-finetuning"
-    title: "amd-strix-halo-llm-finetuning"
+    last_push: "2026-11-02"
+  - name: "amd-strix-halo-toolboxes"
+    title: "amd-strix-halo-toolboxes"
     description: null
-    language: "Jupyter Notebook"
+    language: "Python"
     topics: []
-    stars_fact: 104
+    stars_fact: 2016
     first_seen: null
-    last_push: "2026-03-08"
+    last_push: "2026-11-02"
+  - name: "intel-b70-ai-toolboxes"
+    title: "intel-b70-ai-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "amd-strix-halo-gfx1151-toolboxes"
+    title: "amd-strix-halo-gfx1151-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 65
+    first_seen: null
+    last_push: "2026-10-19"
 ---
 
 # kyuz0

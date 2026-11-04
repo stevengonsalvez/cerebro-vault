@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "25764ed5c03fca05"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,32 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "cve-mcp-server"
-    title: "cve-mcp-server"
-    description: "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more."
-    language: "Python"
-    topics:
-      - "cisa-kev"
-      - "claude-ai"
-      - "cve"
-      - "cybersecurity"
-      - "devsecops"
-      - "epss"
-      - "fastmcp"
-      - "mcp"
-      - "mitre-attack"
-      - "model-context-protocol"
-      - "nvd"
-      - "osv"
-      - "python"
-      - "security"
-      - "shodan"
-      - "threat-intelligence"
-      - "virustotal"
-      - "vulnerability-management"
-    stars_fact: 1693
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "Anthropic-Cybersecurity-Skills"
     title: "Anthropic-Cybersecurity-Skills"
     description: "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
@@ -128,9 +102,35 @@ repos:
       - "security-automation"
       - "threat-hunting"
       - "threat-intelligence"
-    stars_fact: 35082
+    stars_fact: 35540
     first_seen: "2026-08-19T06:00:14.375290+00:00"
     last_push: "2026-08-31"
+  - name: "cve-mcp-server"
+    title: "cve-mcp-server"
+    description: "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more."
+    language: "Python"
+    topics:
+      - "cisa-kev"
+      - "claude-ai"
+      - "cve"
+      - "cybersecurity"
+      - "devsecops"
+      - "epss"
+      - "fastmcp"
+      - "mcp"
+      - "mitre-attack"
+      - "model-context-protocol"
+      - "nvd"
+      - "osv"
+      - "python"
+      - "security"
+      - "shodan"
+      - "threat-intelligence"
+      - "virustotal"
+      - "vulnerability-management"
+    stars_fact: 1741
+    first_seen: null
+    last_push: "2026-10-01"
   - name: "Privacy-Data-Protection-Skills"
     title: "Privacy-Data-Protection-Skills"
     description: "282+ structured privacy & data protection skills for AI agents. GDPR, CCPA, EU AI Act, HIPAA, LGPD, PIPL, DPDP Act."
@@ -156,9 +156,61 @@ repos:
       - "privacy-by-design"
       - "privacy-engineering"
       - "regulatory-compliance"
-    stars_fact: 321
+    stars_fact: 330
     first_seen: null
     last_push: "2026-03-16"
+  - name: "mcp-windows-automation"
+    title: "mcp-windows-automation"
+    description: "🚀 AI-Powered Windows Automation Server using Model Context Protocol (MCP) | Control Windows apps, automate tasks, and manage systems through natural language commands with Claude, ChatGPT & other AI assistants | 80+ automation tools"
+    language: "Python"
+    topics:
+      - "ai-assistant"
+      - "ai-automation"
+      - "ai-tools"
+      - "anthropic-claude"
+      - "artificial-intelligence"
+      - "automation-framework"
+      - "chatgpt-integration"
+      - "claude-desktop"
+      - "computer-vision"
+      - "mcp"
+      - "model-context-protocol"
+      - "python-automation"
+      - "screen-automation"
+      - "selenium-webdriver"
+      - "spotify-automation"
+      - "system-automation"
+      - "web-automation"
+      - "windows-automation"
+      - "windows-control"
+      - "windows-scripting"
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "Malware-Sandbox-mcp"
+    title: "Malware-Sandbox-mcp"
+    description: "Detonate files & URLs in cloud malware sandboxes (Hybrid Analysis, tria.ge, ANY.RUN) and enrich IOCs across MalwareBazaar, ThreatFox, URLhaus, Feodo, URLScan & VirusTotal — straight from Claude. BYOK, async, MITRE ATT&CK."
+    language: "Python"
+    topics:
+      - "anyrun"
+      - "claude"
+      - "cybersecurity"
+      - "dfir"
+      - "fastmcp"
+      - "hybrid-analysis"
+      - "ioc"
+      - "malware-analysis"
+      - "malwarebazaar"
+      - "mcp"
+      - "mitre-attack"
+      - "model-context-protocol"
+      - "python"
+      - "sandbox"
+      - "security-tools"
+      - "threat-intelligence"
+    stars_fact: 33
+    first_seen: null
+    last_push: "2026-08-05"
   - name: "Threatswarm"
     title: "Threatswarm"
     description: "27 scope-enforced AI agents that run the full pentest kill-chain (recon → exploit → post-ex → DFIR → report) as a one-command Claude Code plugin. Backed by 754 MITRE-mapped skills."
@@ -184,60 +236,9 @@ repos:
       - "red-team"
       - "scope-enforcement"
       - "security-tools"
-    stars_fact: 92
+    stars_fact: 94
     first_seen: null
     last_push: "2026-04-29"
-  - name: "Malware-Sandbox-mcp"
-    title: "Malware-Sandbox-mcp"
-    description: "Detonate files & URLs in cloud malware sandboxes (Hybrid Analysis, tria.ge, ANY.RUN) and enrich IOCs across MalwareBazaar, ThreatFox, URLhaus, Feodo, URLScan & VirusTotal — straight from Claude. BYOK, async, MITRE ATT&CK."
-    language: "Python"
-    topics:
-      - "anyrun"
-      - "claude"
-      - "cybersecurity"
-      - "dfir"
-      - "fastmcp"
-      - "hybrid-analysis"
-      - "ioc"
-      - "malware-analysis"
-      - "malwarebazaar"
-      - "mcp"
-      - "mitre-attack"
-      - "model-context-protocol"
-      - "python"
-      - "sandbox"
-      - "security-tools"
-      - "threat-intelligence"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-08-05"
-  - name: "claude-team-dashboard"
-    title: "claude-team-dashboard"
-    description: "📊 Real-time monitoring dashboard for Claude Code agent teams"
-    language: "JavaScript"
-    topics:
-      - "agent-monitoring"
-      - "agentic-ai"
-      - "ai-agents"
-      - "ai-coding"
-      - "ai-dashboard"
-      - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "dashboard"
-      - "developer-tools"
-      - "javascript"
-      - "llm"
-      - "mcp"
-      - "monitoring"
-      - "nodejs"
-      - "observability"
-      - "open-source"
-      - "real-time"
-      - "websocket"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2026-05-25"
 ---
 
 # mukul975

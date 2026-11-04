@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 2, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,9 +89,25 @@ repos:
       - "claude-skills"
       - "developer-tools"
       - "productivity"
-    stars_fact: 58921
+    stars_fact: 59991
     first_seen: "2026-08-07T06:00:04.662798+00:00"
     last_push: "2026-10-19"
+  - name: "base46.nvim"
+    title: "base46.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "statusline-compose.nvim"
+    title: "statusline-compose.nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "slides"
     title: "slides"
     description: null
@@ -116,22 +132,6 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-04-01"
-  - name: "KATA"
-    title: "KATA"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "ayghri.github.io"
-    title: "ayghri.github.io"
-    description: "Personal Blog"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-10-14"
 ---
 
 # ayghri

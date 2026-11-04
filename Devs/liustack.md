@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [3, 23, 3, 1, 0, 0, 0, 20, 6, 4, 3, 2, 0]
+pushes_per_week: [4, 20, 3, 1, 0, 0, 0, 20, 6, 5, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 9
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4074
-  repo_per_active_day: 0.3333
+  push_per_day: 2.4231
+  repo_per_active_day: 0.3462
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 63
     distinct_repos: 9
-    pushes_per_repo: 7.2222
-    active_days: 27
+    pushes_per_repo: 7.0000
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlens"
@@ -102,9 +102,30 @@ repos:
       - "text-only-llm"
       - "vision"
       - "vision-transformer"
-    stars_fact: 4512
+    stars_fact: 4748
     first_seen: "2026-08-25T06:00:04.386196+00:00"
     last_push: "2026-10-23"
+  - name: "tifa"
+    title: "tifa"
+    description: "Go + QuickJS React SSR framework"
+    language: "Go"
+    topics:
+      - "framework"
+      - "fullstack"
+      - "go"
+      - "golang"
+      - "jsengine"
+      - "quickjs"
+      - "quickjs-runtime"
+      - "react"
+      - "reactjs"
+      - "ssr"
+      - "tanstack"
+      - "tanstack-router"
+      - "typesafe"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "modsearch"
     title: "modsearch"
     description: "🥇 The strongest free web search plugin for DeepSeek Harness, and the search bridge for every model without native web access. Free, no signup, no API key. Ask the web or X, get structured JSON evidence. | 🥇 全网最强的 DeepSeek Harness 免费联网搜索插件，免费免注册免 API key。为不能联网的模型补上搜索，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。"
@@ -129,90 +150,66 @@ repos:
       - "pi-agent"
       - "web-fetch"
       - "web-search"
-    stars_fact: 844
+    stars_fact: 919
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-28"
+  - name: "sqlite"
+    title: "sqlite"
+    description: "Keep SQLite, drop cgo: build with CGO_ENABLED=0 for every target from one machine."
+    language: "C"
+    topics:
+      - "cgo-free"
+      - "database"
+      - "go"
+      - "golang"
+      - "purego"
+      - "sql-driver"
+      - "sqlite"
+      - "sqlite3"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "slowjs"
     title: "slowjs"
-    description: "Fork of modernc.org/quickjs (gitlab.com/cznic/quickjs), maintained for tifa"
-    language: "Go"
+    description: "Run today's npm code unchanged inside one static Go binary. No cgo, no Node."
+    language: "Assembly"
     topics:
-      - "ccgo"
       - "golang"
+      - "javascript-engine"
       - "js-runtime"
       - "jsx-renderer"
       - "purego"
       - "quickjs"
-      - "quickjs-go"
-    stars_fact: 4
+      - "react"
+      - "ssr"
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "pptwise"
-    title: "pptwise"
-    description: "A real PowerPoint, not HTML. Tell your AI what to cover and pptwise builds an editable deck on your own machine. Agent skill + DSH plugin, no account and no API key to render. | 真正的 PPT，不是 HTML。跟 AI 说要讲什么，pptwise 在你自己电脑上做出一份能改的 PPT。Agent skill + DSH 插件，不用注册，渲染不用 API key。"
+    last_push: "2026-11-03"
+  - name: "summono"
+    title: "summono"
+    description: "One click and DeepSeek Harness is running — the free launcher & installer for AI harnesses. 一键安装启动 DeepSeek Harness。"
     language: "TypeScript"
     topics:
-      - "agent-skill"
-      - "agent-skills"
-      - "ai-agent"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "cordis"
-      - "deck-generation"
+      - "ai"
+      - "ai-agents"
       - "deepseek"
-      - "drawingml"
+      - "deepseek-harness"
+      - "desktop-app"
       - "dsh"
       - "dsh-plugin"
-      - "harness"
-      - "powerpoint"
-      - "pptx"
-      - "presentation"
-      - "slides"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "tifa"
-    title: "tifa"
-    description: "Go + QuickJS React SSR framework"
-    language: "Go"
-    topics:
-      - "framework"
-      - "fullstack"
-      - "go"
-      - "golang"
-      - "jsengine"
-      - "quickjs"
-      - "quickjs-runtime"
+      - "electron"
+      - "installer"
+      - "launcher"
+      - "one-click"
       - "react"
-      - "reactjs"
-      - "ssr"
-      - "tanstack"
-      - "tanstack-router"
-      - "typesafe"
-    stars_fact: 3
+      - "typescript"
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "flipbook"
-    title: "flipbook"
-    description: "Agent skill that turns one sentence into a verified MP4 animation: frame-by-frame deterministic rendering, a paper-textured hand-drawn look, music and sound, and automatic checks before delivery. 让 agent 从一句话做出一条验收过的动画。"
-    language: "TypeScript"
-    topics:
-      - "agent-skill"
-      - "animation"
-      - "canvas"
-      - "claude-code"
-      - "codex"
-      - "ffmpeg"
-      - "playwright"
-      - "video"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-08-23"
 ---
 
 # liustack
 
-65 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
+63 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

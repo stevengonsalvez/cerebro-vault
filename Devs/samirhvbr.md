@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 0, 0, 2, 4, 1, 19, 21, 19, 22, 2, 2, 0]
+pushes_per_week: [1, 0, 2, 0, 4, 3, 22, 18, 17, 24, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 7
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 7
-    pushes_per_repo: 4.4286
-    active_days: 11
+    pushes_per_repo: 4.2857
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cicd"
+    title: "cicd"
+    description: "The fleet's self-hosted CI machine: GitHub Actions runners, an act-based watcher, a dashboard and disk cleanup, with a from-zero install guide"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "shvia-desktop"
+    title: "shvia-desktop"
+    description: "ShvIA Desktop"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "tura-notes"
+    title: "tura-notes"
+    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "samirhv-site"
+    title: "samirhv-site"
+    description: "Claude, Grok, Gemma4, GLM, Minimax, GPT"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "ai-benchmark"
     title: "ai-benchmark"
     description: "AI BENCHMARK"
@@ -84,23 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "linux-rpi"
-    title: "linux-rpi"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "prview"
-    title: "prview"
-    description: "A self-hosted, TV-ready dashboard for your open GitHub pull requests. Oldest first, no login screen."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "repodocs"
     title: "repodocs"
     description: "Documentation for new repository"
@@ -108,23 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "b3monitor"
-    title: "b3monitor"
-    description: "Blue3 Monitor"
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "tv"
-    title: "tv"
-    description: "Our own home-screen layout and operating-system customization for smart TVs, starting with LG (webOS)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
 ---
 
 # samirhvbr

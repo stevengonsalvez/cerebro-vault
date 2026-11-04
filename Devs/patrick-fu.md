@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 7, 3, 0, 0, 3, 2, 8, 7, 2, 0, 0, 0]
+pushes_per_week: [2, 7, 3, 0, 0, 4, 1, 8, 7, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 69
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "meetingtape"
+    title: "meetingtape"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "vibekey-elements"
+    title: "vibekey-elements"
+    description: "The ultimate developer-oriented hub for Ulanzi VibeKey (AU05) on macOS"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "frontend-harness-slides"
     title: "frontend-harness-slides"
     description: "Build slide decks as a harness-guarded engineering project — robust, maintainable, and hard to break. A step up from single-file HTML slides."
@@ -107,22 +123,6 @@ repos:
     language: "Python"
     topics: []
     stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "llm-wiki-capture"
-    title: "llm-wiki-capture"
-    description: "Capture explicit sources and AI session knowledge into a Git-backed long-term knowledge base."
-    language: null
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "grok-search-cli"
-    title: "grok-search-cli"
-    description: "Agent-friendly CLI for Grok web and X search using an existing Grok Build session"
-    language: "Go"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-10"
 ---

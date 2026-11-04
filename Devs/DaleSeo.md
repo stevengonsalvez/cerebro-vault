@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [6, 2, 0, 0, 0, 1, 7, 21, 5, 9, 5, 5, 0]
+pushes_per_week: [5, 2, 0, 0, 0, 1, 16, 12, 5, 12, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 13
-    active_days: 13
+    active_days: 12
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 16
-    active_days: 29
+    active_days: 28
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1034
-  repo_per_active_day: 0.5517
+  push_per_day: 2.1429
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.8125
   basename_concentration: 0.1250
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 13
-    pushes_per_repo: 1.7692
-    active_days: 13
+    pushes_per_repo: 1.6154
+    active_days: 12
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 61
+    pushes: 60
     distinct_repos: 16
-    pushes_per_repo: 3.8125
-    active_days: 29
+    pushes_per_repo: 3.7500
+    active_days: 28
     repos_not_owned: 13
     not_owned_basenames: 12
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-61 pushes across 16 repositories on 29 active days in the last 90 days of public GitHub push activity.
+60 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

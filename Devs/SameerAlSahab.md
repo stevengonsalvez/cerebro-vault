@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 0, 0, 0, 1, 15, 2, 5, 3, 1, 2, 4, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 15, 5, 4, 1, 2, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 8
-    active_days: 7
+    pushes: 7
+    distinct_repos: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 8
+    pushes: 7
+    distinct_repos: 7
     pushes_per_repo: 1.0000
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -86,17 +86,17 @@ repos:
       - "esp32"
       - "esp32-deauther"
       - "hydra-esp"
-    stars_fact: 236
+    stars_fact: 250
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "SameerAlSahab"
-    title: "SameerAlSahab"
-    description: "Hello World! Its me"
-    language: "HTML"
+    last_push: "2026-10-27"
+  - name: "InsaneGitStatsGen"
+    title: "InsaneGitStatsGen"
+    description: "Great looking github stats which will make huge impact on your git readme."
+    language: null
     topics: []
-    stars_fact: 3
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-09-07"
   - name: "META-Verse"
     title: "META-Verse"
     description: "A modern Payload for newer Android devices !! (educational purposes only)"
@@ -105,33 +105,37 @@ repos:
       - "androrat"
       - "metavas"
       - "payload"
-    stars_fact: 16
+    stars_fact: 22
     first_seen: null
     last_push: "2026-05-20"
-  - name: "OPWidgetPlus"
-    title: "OPWidgetPlus"
-    description: "OnePlus OG Widget with tons of mods for any Android device 6.0++"
+  - name: "ProjectArcadeX"
+    title: "ProjectArcadeX"
+    description: "Script based rom patcher which downloads firmware , applies ota , patches and create a flashable Samsung ROM zip for all supported devices."
+    language: "Shell"
+    topics:
+      - "astrorom"
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "SameerAlSahab"
+    title: "SameerAlSahab"
+    description: "Hello World! Its me"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "AwesomeAWidgets"
+    title: "AwesomeAWidgets"
+    description: "Original Nothing and OnePlus widgets ported with tons of mod for any device."
     language: "Smali"
-    topics: []
-    stars_fact: 5
+    topics:
+      - "aawidgets"
+      - "nothing-widgets"
+      - "onepluswidget"
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "OPCameraPlus"
-    title: "OPCameraPlus"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "claude-bangla-writing-skills"
-    title: "claude-bangla-writing-skills"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-27"
 ---
 
 # SameerAlSahab

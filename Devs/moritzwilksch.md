@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "61c0da3a99e7cb28"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 2, 0, 4, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 3, 2, 0, 4, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,17 +87,25 @@ repos:
       - "code-review"
       - "diff"
       - "pr-review"
-    stars_fact: 190
+    stars_fact: 197
     first_seen: "2026-10-11T06:01:22.164753+00:00"
-    last_push: "2026-10-27"
+    last_push: "2026-11-02"
   - name: "pydantic-ai-trace"
     title: "pydantic-ai-trace"
     description: null
     language: "TypeScript"
     topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "pi-inlineskill"
+    title: "pi-inlineskill"
+    description: "A pi-extension that enables inline /skill usage"
+    language: "TypeScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-01"
   - name: "moritzwilksch.github.io"
     title: "moritzwilksch.github.io"
     description: null
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-24"
-  - name: "pixi-workspace-demo"
-    title: "pixi-workspace-demo"
-    description: "Demo repo: pixi workspace"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-12"
 ---
 
 # moritzwilksch

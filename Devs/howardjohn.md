@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 10, 1, 1, 0, 4, 3, 8, 12, 11, 7, 3, 1]
+pushes_per_week: [5, 7, 2, 0, 0, 4, 8, 3, 12, 13, 6, 2, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
-    active_days: 11
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 70
+    pushes: 64
     distinct_repos: 8
     active_days: 31
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.2581
+  push_per_day: 2.0645
   repo_per_active_day: 0.2581
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 24
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 11
+    pushes_per_repo: 4.8000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 70
+    pushes: 64
     distinct_repos: 8
-    pushes_per_repo: 8.7500
+    pushes_per_repo: 8.0000
     active_days: 31
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-70 pushes across 8 repositories on 31 active days in the last 90 days of public GitHub push activity.
+64 pushes across 8 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

@@ -8,12 +8,12 @@ discovered_via_all:
 provenance_repos:
   - "agavra/tuicr"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 0, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 1.0000
+  push_per_day: 1.7500
+  repo_per_active_day: 1.2500
   not_owned_ratio: 0.8000
   basename_concentration: 1.0000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 5
+    pushes_per_repo: 1.4000
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "tuicr"
@@ -140,6 +140,6 @@ repos:
 
 # agavra
 
-9 pushes across 5 repositories on 5 active days in the last 90 days of public GitHub push activity.
+7 pushes across 5 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/agavra

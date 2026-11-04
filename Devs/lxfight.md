@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 3, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0]
+pushes_per_week: [2, 2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "astrbot2github"
     title: "astrbot2github"
     description: "为AstrBot实现的基于deno的github加速访问服务"
     language: "TypeScript"
     topics: []
-    stars_fact: 335
+    stars_fact: 344
     first_seen: null
     last_push: "2025-06-06"
   - name: "astrbot_plugin_mnemosyne"
@@ -99,9 +99,25 @@ repos:
     language: "Python"
     topics:
       - "astrbot-plugin"
-    stars_fact: 257
+    stars_fact: 262
     first_seen: null
     last_push: "2026-10-26"
+  - name: "astrbot_plugin_memoir"
+    title: "astrbot_plugin_memoir"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-13"
+  - name: "astrbot-live2d-desktop"
+    title: "astrbot-live2d-desktop"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-08-19"
   - name: "astrbot_plugin_choice_service"
     title: "astrbot_plugin_choice_service"
     description: null
@@ -110,22 +126,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "lxfight.github.io"
-    title: "lxfight.github.io"
-    description: "我的个人主页"
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "astrbot_plugin_live2d_adapter"
-    title: "astrbot_plugin_live2d_adapter"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-06-12"
 ---
 
 # lxfight

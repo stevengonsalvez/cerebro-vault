@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 11, 1, 1, 2, 2, 4, 16, 5, 25, 2, 2, 0]
+pushes_per_week: [12, 6, 1, 1, 3, 1, 7, 14, 4, 26, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 6
-    active_days: 34
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3529
-  repo_per_active_day: 0.1765
+  push_per_day: 2.4375
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.8333
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 6
-    pushes_per_repo: 13.3333
-    active_days: 34
+    pushes_per_repo: 13.0000
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kagent-runtime-benchmark"
@@ -129,6 +129,6 @@ repos:
 
 # EItanya
 
-80 pushes across 6 repositories on 34 active days in the last 90 days of public GitHub push activity.
+78 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EItanya

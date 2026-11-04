@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 1, 1, 2, 0, 2, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 2, 0, 2, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
     language: "TypeScript"
     topics: []
-    stars_fact: 170
+    stars_fact: 178
     first_seen: null
     last_push: "2026-08-27"
+  - name: "GB-emulator"
+    title: "GB-emulator"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "cloud-agent"
     title: "cloud-agent"
     description: null
@@ -107,7 +115,7 @@ repos:
       - "self-hosted"
     stars_fact: 28
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
   - name: "openos"
     title: "openos"
     description: "OpenOS is an open-source AI runtime where every app is generated in real time by large language models. Instead of installing software, users describe what they need, and OpenOS creates the interface, logic, and interactions on demand."

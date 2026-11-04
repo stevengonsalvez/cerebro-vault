@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 8, 18, 24, 3, 6, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 10, 16, 26, 3, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "openbao-credential-broker-demo"
-    title: "openbao-credential-broker-demo"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "siltide"
     title: "siltide"
     description: "Terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds, from utilization down to which pod is using them."
@@ -107,7 +99,40 @@ repos:
       - "tui"
     stars_fact: 36
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
+  - name: "CUDA"
+    title: "CUDA"
+    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
+    language: "Cuda"
+    topics:
+      - "cpp"
+      - "cuda"
+      - "gpu"
+      - "gpu-computing"
+      - "gpu-optimization"
+      - "gpu-programming"
+      - "learning"
+      - "nvidia"
+      - "parallel-computing"
+    stars_fact: 115
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "moezdil"
+    title: "moezdil"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "openbao-credential-broker-demo"
+    title: "openbao-credential-broker-demo"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for siltide, the terminal monitor for GPUs, NPUs, and other AI accelerators"
@@ -131,31 +156,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "CUDA"
-    title: "CUDA"
-    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
-    language: "Cuda"
-    topics:
-      - "cpp"
-      - "cuda"
-      - "gpu"
-      - "gpu-computing"
-      - "gpu-optimization"
-      - "gpu-programming"
-      - "learning"
-      - "nvidia"
-      - "parallel-computing"
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "gpuBook-site"
-    title: "gpuBook-site"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
 ---
 
 # moezdil

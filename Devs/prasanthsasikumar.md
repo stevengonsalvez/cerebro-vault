@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [2, 0, 0, 0, 0, 2, 3, 4, 14, 9, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 4, 1, 5, 13, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 6
+    pushes_per_repo: 3.2000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,62 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "AISEE-BIN"
-    title: "AISEE-BIN"
-    description: "Hands-free indoor navigation for blind and low-vision visitors in botanical greenhouses. ARKit world tracking for position, A* routing, and turn-by-turn guidance by voice and haptics — plus a web map editor for authoring the space."
-    language: "Swift"
-    topics:
-      - "accessibility"
-      - "arkit"
-      - "blind-assistive-technology"
-      - "indoor-navigation"
-      - "ios"
-      - "supabase"
-      - "swift"
-      - "swiftui"
-      - "wayfinding"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "FindCars-NZ"
-    title: "FindCars-NZ"
-    description: "🚗 Automated car auction data scraper and analytics platform for New Zealand's Manheim auctions. Features daily data collection, trend analysis, and interactive dashboards."
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "WASD"
-    title: "WASD"
-    description: "Preview any web app the way it appears on the heads-up display of Meta Ray-Ban Display glasses. Additive waveguide simulation in the browser, no hardware required."
-    language: "JavaScript"
-    topics:
-      - "augmented-reality"
-      - "developer-tools"
-      - "heads-up-display"
-      - "meta-ray-ban-display"
-      - "simulator"
-      - "smart-glasses"
-      - "waveguide"
-      - "web-apps"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "hermes-glasses"
-    title: "hermes-glasses"
-    description: "Voice + vision AI assistant for smart glasses — Meta Ray-Ban and AiSee / Realtek-based glasses: live on-device transcription, glasses camera capture, button mapping, and an optional Hermes Agent bridge."
-    language: "Swift"
-    topics:
-      - "computer-vision"
-      - "ios"
-      - "meta-rayban"
-      - "sidekick"
-      - "smart-glasses"
-      - "swiftui"
-      - "voice-assistant"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "openclicky"
     title: "openclicky"
     description: "Free, open-source voice assistant for macOS: ask about your screen and a pointer shows you where, dictate anywhere (offline by default), hand tasks to a Codex agent. Your own key or a free account. MIT."
@@ -156,9 +100,25 @@ repos:
       - "swift"
       - "voice-assistant"
       - "voice-control"
-    stars_fact: 16
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-02"
+  - name: "FindCars-NZ"
+    title: "FindCars-NZ"
+    description: "🚗 Automated car auction data scraper and analytics platform for New Zealand's Manheim auctions. Features daily data collection, trend analysis, and interactive dashboards."
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "perk"
+    title: "perk"
+    description: "☕ Digital loyalty stamp cards for coffee shops — Apple Wallet & Google Wallet. One poster, one tap, no app."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "dailytimes"
     title: "dailytimes"
     description: "Your AI writes a one-page newspaper about your day. It prints on any printer you own, when you walk up to it. MCP · any printer · private by design."
@@ -179,9 +139,41 @@ repos:
       - "receipt-printer"
       - "supabase"
       - "thermal-printer"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-10-29"
+  - name: "hermes-glasses"
+    title: "hermes-glasses"
+    description: "Voice + vision AI assistant for smart glasses — Meta Ray-Ban and AiSee / Realtek-based glasses: live on-device transcription, glasses camera capture, button mapping, and an optional Hermes Agent bridge."
+    language: "Swift"
+    topics:
+      - "computer-vision"
+      - "ios"
+      - "meta-rayban"
+      - "sidekick"
+      - "smart-glasses"
+      - "swiftui"
+      - "voice-assistant"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "AISEE-BIN"
+    title: "AISEE-BIN"
+    description: "Hands-free indoor navigation for blind and low-vision visitors in botanical greenhouses. ARKit world tracking for position, A* routing, and turn-by-turn guidance by voice and haptics — plus a web map editor for authoring the space."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "arkit"
+      - "blind-assistive-technology"
+      - "indoor-navigation"
+      - "ios"
+      - "supabase"
+      - "swift"
+      - "swiftui"
+      - "wayfinding"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # prasanthsasikumar

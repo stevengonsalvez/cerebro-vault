@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "759119abe3ffdb8f"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -95,9 +95,17 @@ repos:
       - "open-source"
       - "open-source-models"
       - "qlora"
-    stars_fact: 40859
+    stars_fact: 41695
     first_seen: "2026-06-23T06:00:02.600201+00:00"
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "godmodeanimation"
+    title: "godmodeanimation"
+    description: "2D Game Animation in God Mode"
+    language: "Python"
+    topics: []
+    stars_fact: 289
+    first_seen: null
+    last_push: "2025-06-29"
   - name: "train_your_own_sora"
     title: "train_your_own_sora"
     description: null
@@ -106,14 +114,6 @@ repos:
     stars_fact: 230
     first_seen: null
     last_push: "2024-03-07"
-  - name: "godmodeanimation"
-    title: "godmodeanimation"
-    description: "2D Game Animation in God Mode"
-    language: "Python"
-    topics: []
-    stars_fact: 288
-    first_seen: null
-    last_push: "2025-06-29"
   - name: "Anima"
     title: "Anima"
     description: "Moved to here: https://github.com/lyogavin/airllm"

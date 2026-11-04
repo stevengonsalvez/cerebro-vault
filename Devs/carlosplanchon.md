@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 2, 2, 1, 0, 1, 4, 8, 14, 7, 3, 3, 0]
+pushes_per_week: [0, 4, 0, 1, 0, 1, 6, 8, 12, 9, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    active_days: 9
+    pushes: 13
+    distinct_repos: 5
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 19
-    active_days: 25
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8800
-  repo_per_active_day: 0.7600
+  push_per_day: 1.8750
+  repo_per_active_day: 0.7917
   not_owned_ratio: 0.1579
   basename_concentration: 0.0526
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 9
+    pushes: 13
+    distinct_repos: 5
+    pushes_per_repo: 2.6000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 19
-    pushes_per_repo: 2.4737
-    active_days: 25
+    pushes_per_repo: 2.3684
+    active_days: 24
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "starship-p10k-rainbow"
@@ -179,6 +179,6 @@ repos:
 
 # carlosplanchon
 
-47 pushes across 19 repositories on 25 active days in the last 90 days of public GitHub push activity.
+45 pushes across 19 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carlosplanchon

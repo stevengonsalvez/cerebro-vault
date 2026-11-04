@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 1, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "xtui"
+    title: "xtui"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "opencode-iroh"
     title: "opencode-iroh"
     description: "Minimal Node/Bun binding for iroh peer connections used by OpenCode"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 41
     first_seen: null
     last_push: "2026-04-28"
-  - name: "xtui"
-    title: "xtui"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-04"
   - name: "oc-plugin-smoke-test"
     title: "oc-plugin-smoke-test"
     description: null

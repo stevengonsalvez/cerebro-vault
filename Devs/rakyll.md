@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 2, 2, 0, 0, 4, 7, 1, 0, 0, 1, 4, 0]
+pushes_per_week: [2, 0, 2, 0, 0, 4, 7, 1, 0, 0, 1, 4, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 6
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 21
-    distinct_repos: 8
-    active_days: 9
+    pushes: 22
+    distinct_repos: 9
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.8889
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.1250
+  push_per_day: 2.2000
+  repo_per_active_day: 0.9000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 21
-    distinct_repos: 8
-    pushes_per_repo: 2.6250
-    active_days: 9
+    pushes: 22
+    distinct_repos: 9
+    pushes_per_repo: 2.4444
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hey"
@@ -82,25 +82,46 @@ repos:
     description: "HTTP load generator, ApacheBench (ab) replacement"
     language: "Go"
     topics: []
-    stars_fact: 20737
+    stars_fact: 20756
     first_seen: null
     last_push: "2026-01-10"
-  - name: "chiptune"
-    title: "chiptune"
-    description: null
-    language: "HTML"
+  - name: "ax-studio"
+    title: "ax-studio"
+    description: "A desktop studio application for AX"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "ate-env-demo"
+    title: "ate-env-demo"
+    description: "A visual demo of Agent Substrate Environment with Antigravity"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "aep"
-    title: "aep"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
+    last_push: "2026-11-03"
+  - name: "go-hardware"
+    title: "go-hardware"
+    description: "A directory of hardware related libs, tools, and tutorials for Go"
+    language: "Go"
+    topics:
+      - "cgo"
+      - "embedded"
+      - "go"
+      - "hardware"
+      - "tutorials"
+    stars_fact: 1388
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2019-07-31"
+  - name: "gotest"
+    title: "gotest"
+    description: "go test with colors"
+    language: "Go"
+    topics: []
+    stars_fact: 1391
+    first_seen: null
+    last_push: "2026-01-10"
   - name: "statik"
     title: "statik"
     description: "Embed files into a Go executable"
@@ -112,29 +133,13 @@ repos:
       - "http"
       - "http-server"
       - "static"
-    stars_fact: 3825
+    stars_fact: 3829
     first_seen: null
     last_push: "2026-01-10"
-  - name: "fake-it-til-you-make-it"
-    title: "fake-it-til-you-make-it"
-    description: "A program that demonstrates that GitHub contribution graph can be cheated"
-    language: "Go"
-    topics: []
-    stars_fact: 174
-    first_seen: null
-    last_push: "2024-07-26"
-  - name: "log-to-xray"
-    title: "log-to-xray"
-    description: "Write log entries, get X-Ray traces."
-    language: "Go"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2021-06-29"
 ---
 
 # rakyll
 
-21 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
+22 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakyll

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [6, 28, 4, 5, 1, 1, 29, 20, 8, 17, 6, 1, 0]
+pushes_per_week: [9, 25, 4, 5, 1, 1, 30, 20, 7, 22, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -108,7 +108,23 @@ repos:
       - "telemetry"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "jacobo-workflows"
+    title: "jacobo-workflows"
+    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
+    language: null
+    topics:
+      - "ai-agents"
+      - "elevenlabs"
+      - "hitl"
+      - "multi-agent"
+      - "n8n"
+      - "tool-calling"
+      - "voice-ai"
+      - "whatsapp"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "cv-santiago"
     title: "cv-santiago"
     description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
@@ -127,9 +143,23 @@ repos:
       - "typescript"
       - "vercel"
       - "vite"
-    stars_fact: 857
+    stars_fact: 862
     first_seen: null
     last_push: "2026-10-26"
+  - name: "claude-eye"
+    title: "claude-eye"
+    description: "CLI tool that analyzes web animation videos frame-by-frame using Claude Vision"
+    language: "TypeScript"
+    topics:
+      - "animation"
+      - "claude"
+      - "cli"
+      - "css"
+      - "debugging"
+      - "vision-ai"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-01-29"
   - name: "santifer-irepair"
     title: "santifer-irepair"
     description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
@@ -154,30 +184,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2026-10-14"
-  - name: "career-ops-plugin-template"
-    title: "career-ops-plugin-template"
-    description: "Template for a career-ops community plugin (career-ops-plugin-<name>)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "jacobo-workflows"
-    title: "jacobo-workflows"
-    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
-    language: null
-    topics:
-      - "ai-agents"
-      - "elevenlabs"
-      - "hitl"
-      - "multi-agent"
-      - "n8n"
-      - "tool-calling"
-      - "voice-ai"
-      - "whatsapp"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # santifer

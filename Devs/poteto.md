@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "a50d216def4cada3"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 0, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,49 +89,49 @@ repos:
       - "jobs"
       - "tech"
       - "whiteboard"
-    stars_fact: 52924
+    stars_fact: 53115
     first_seen: null
     last_push: "2026-09-24"
-  - name: "how"
-    title: "how"
-    description: "skill for explaining architecture"
-    language: null
-    topics: []
-    stars_fact: 929
-    first_seen: null
-    last_push: "2026-04-14"
-  - name: "verification-skill-example"
-    title: "verification-skill-example"
-    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
-    language: null
-    topics: []
-    stars_fact: 171
-    first_seen: null
-    last_push: "2026-07-30"
-  - name: "brainmaxxing"
-    title: "brainmaxxing"
-    description: "stupid simple persistent memory and skill improvement"
-    language: "Python"
-    topics: []
-    stars_fact: 345
-    first_seen: null
-    last_push: "2026-02-27"
   - name: "noodle"
     title: "noodle"
     description: "Orchestrate agents using skills"
     language: "Go"
     topics: []
-    stars_fact: 554
+    stars_fact: 591
     first_seen: null
     last_push: "2026-03-19"
-  - name: "poteto.github.io"
-    title: "poteto.github.io"
+  - name: "verification-skill-example"
+    title: "verification-skill-example"
+    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
+    language: null
+    topics: []
+    stars_fact: 189
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "how"
+    title: "how"
+    description: "skill for explaining architecture"
+    language: null
+    topics: []
+    stars_fact: 952
+    first_seen: null
+    last_push: "2026-04-14"
+  - name: "poteto"
+    title: "poteto"
     description: null
     language: null
     topics: []
-    stars_fact: 8
+    stars_fact: 44
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2020-08-06"
+  - name: "brainmaxxing"
+    title: "brainmaxxing"
+    description: "stupid simple persistent memory and skill improvement"
+    language: "Python"
+    topics: []
+    stars_fact: 362
+    first_seen: null
+    last_push: "2026-02-27"
 ---
 
 # poteto

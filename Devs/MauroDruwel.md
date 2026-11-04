@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 3, 0, 0, 0, 2, 4, 6, 4, 2, 5, 1, 0]
+pushes_per_week: [1, 3, 0, 0, 0, 2, 4, 6, 4, 3, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 19
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6111
-  repo_per_active_day: 1.0556
+  push_per_day: 1.6471
+  repo_per_active_day: 1.1176
   not_owned_ratio: 0.0000
   basename_concentration: 0.0526
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 19
-    pushes_per_repo: 1.5263
-    active_days: 18
+    pushes_per_repo: 1.4737
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "NIMStats"
@@ -93,33 +93,11 @@ repos:
       - "open-source"
     stars_fact: 57
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "Smartschool-MCP"
-    title: "Smartschool-MCP"
-    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automation"
-      - "education"
-      - "mcp"
-      - "python"
-      - "smartschool"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "convergence"
-    title: "convergence"
-    description: "The autonomous semantic code fabric for 100,000+ concurrent AI agents - branchless AST-CRDT version control on Cloudflare Workers, Durable Objects & Artifacts"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-04"
   - name: "ufora-sync"
     title: "ufora-sync"
     description: "Native background sync service and desktop companion for UGent Ufora (Tauri v2 + Rust)"
-    language: "Python"
+    language: "Rust"
     topics:
       - "brightspace"
       - "desktop-app"
@@ -131,7 +109,7 @@ repos:
       - "ugent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-30"
   - name: "quality-gate"
     title: "quality-gate"
     description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
@@ -146,7 +124,29 @@ repos:
       - "reusable-workflows"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-10-29"
+  - name: "Smartschool-MCP"
+    title: "Smartschool-MCP"
+    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "education"
+      - "mcp"
+      - "python"
+      - "smartschool"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "convergence"
+    title: "convergence"
+    description: "The autonomous semantic code fabric for 100,000+ concurrent AI agents - branchless AST-CRDT version control on Cloudflare Workers, Durable Objects & Artifacts"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "homewizard-cloud-ha"
     title: "homewizard-cloud-ha"
     description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
@@ -160,6 +160,6 @@ repos:
 
 # MauroDruwel
 
-29 pushes across 19 repositories on 18 active days in the last 90 days of public GitHub push activity.
+28 pushes across 19 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MauroDruwel

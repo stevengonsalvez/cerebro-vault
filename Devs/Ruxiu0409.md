@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 5, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 2, 5, 0, 0, 0, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,37 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "llm-council-3D"
+    title: "llm-council-3D"
+    description: "Several AI CLIs on your subscriptions answer, anonymously rank each other, and a chairman writes the verdict, in a live 3D chamber. Ships as a Claude Code skill."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "swiftstudents-tw"
+    title: "swiftstudents-tw"
+    description: "Swift Students Taiwan community website (Astro, deployed on Cloudflare Pages)"
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "ai-audit-trail"
+    title: "ai-audit-trail"
+    description: "Export Claude Code conversations as a verifiable audit package (PDF + raw JSONL + SHA-256) for academic AI-use disclosure | AI 協作紀錄稽核封存 Skill"
+    language: "Python"
+    topics:
+      - "academic"
+      - "ai-disclosure"
+      - "audit-trail"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-skills"
+      - "research-integrity"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "personal-website"
     title: "personal-website"
     description: "Source of tsaicy.dev"
@@ -84,7 +115,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
   - name: "ace-pitch-day"
     title: "ace-pitch-day"
     description: "ACE Club 天使輪路演活動網站與 3D 宣傳影片 · pitch.tsaicy.dev"
@@ -101,36 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "FCU-iOS-Club-Ghost-Call"
-    title: "FCU-iOS-Club-Ghost-Call"
-    description: "FCU iOS Club 茶會演講互動連線 — 台下 400 支手機同時變成一通假來電。Cloudflare Workers + Durable Objects，免費方案撐 400 人同時在線"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "tarot-skill"
-    title: "tarot-skill"
-    description: "🔮 Type /tarot in Claude Code and draw real tarot cards. 78-card deck, reversals, true randomness — work, love, family, or the engineer-only daily dev fortune. Any language."
-    language: "Python"
-    topics:
-      - "claude-code"
-      - "claude-skill"
-      - "cli"
-      - "fun"
-      - "python"
-      - "tarot"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "mobile-frame-studio"
-    title: "mobile-frame-studio"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
 ---
 
 # Ruxiu0409

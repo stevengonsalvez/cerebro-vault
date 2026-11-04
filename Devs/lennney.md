@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 4, 0, 0, 0, 0, 2, 0, 3, 0, 2, 0, 0]
+pushes_per_week: [1, 4, 0, 0, 0, 2, 0, 0, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,9 +97,9 @@ repos:
       - "overengineering"
       - "scope-control"
       - "yagni"
-    stars_fact: 3215
+    stars_fact: 3589
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
   - name: "mcp-slim-guard"
     title: "mcp-slim-guard"
     description: "Context compression for MCP. Same upstream call, exact results recoverable."
@@ -117,7 +117,7 @@ repos:
       - "token-optimization"
       - "tool-discovery"
       - "typescript"
-    stars_fact: 182
+    stars_fact: 180
     first_seen: null
     last_push: "2026-08-14"
   - name: "agent-search-mcp"
@@ -145,9 +145,17 @@ repos:
       - "web-search"
       - "zero-api-key"
       - "zero-config"
-    stars_fact: 112
+    stars_fact: 113
     first_seen: null
-    last_push: "2026-09-21"
+    last_push: "2026-11-03"
+  - name: "account-tracker-tool"
+    title: "account-tracker-tool"
+    description: "社媒账号数据采集工具 — YouTube/TikTok/Instagram/Facebook 多平台追踪，内置多层爬虫降级 + 断点续传"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-29"
   - name: "crawlweaver"
     title: "crawlweaver"
     description: "12-Factor AI Crawler — content extraction, SEO generation, knowledge self-evolution. Multi-source: YouTube, Web, Reddit, Twitter, WeChat, Zhihu."
@@ -171,14 +179,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-15"
-  - name: "account-tracker-tool"
-    title: "account-tracker-tool"
-    description: "社媒账号数据采集工具 — YouTube/TikTok/Instagram/Facebook 多平台追踪，内置多层爬虫降级 + 断点续传"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-29"
 ---
 
 # lennney

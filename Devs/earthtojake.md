@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [12, 35, 2, 1, 0, 2, 13, 15, 28, 8, 0, 5, 0]
+pushes_per_week: [20, 25, 1, 1, 0, 5, 10, 17, 26, 8, 0, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 15
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 118
     distinct_repos: 4
-    active_days: 35
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4571
-  repo_per_active_day: 0.1143
+  push_per_day: 3.4706
+  repo_per_active_day: 0.1176
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 15
     distinct_repos: 1
-    pushes_per_repo: 21.0000
-    active_days: 7
+    pushes_per_repo: 15.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 118
     distinct_repos: 4
-    pushes_per_repo: 30.2500
-    active_days: 35
+    pushes_per_repo: 29.5000
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-121 pushes across 4 repositories on 35 active days in the last 90 days of public GitHub push activity.
+118 pushes across 4 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

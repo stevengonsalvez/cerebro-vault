@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "0b5c4741d1c147be"
-pushes_per_week: [672, 680, 125, 159, 240, 478, 1096, 1204, 917, 1018, 462, 655, 1]
+pushes_per_week: [801, 552, 157, 109, 247, 553, 1144, 1166, 825, 1210, 455, 470, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,29 +22,29 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2414
-    distinct_repos: 125
-    active_days: 20
-    repos_not_owned: 108
+    pushes: 2287
+    distinct_repos: 123
+    active_days: 19
+    repos_not_owned: 106
     not_owned_basenames: 37
-    not_owned_owners: 78
+    not_owned_owners: 76
   "90d":
-    pushes: 7707
-    distinct_repos: 283
-    active_days: 77
-    repos_not_owned: 243
+    pushes: 7690
+    distinct_repos: 281
+    active_days: 76
+    repos_not_owned: 242
     not_owned_basenames: 81
-    not_owned_owners: 156
+    not_owned_owners: 155
 automation:
   state: "clear"
-  push_per_day: 100.0909
-  repo_per_active_day: 3.6753
-  not_owned_ratio: 0.8587
-  basename_concentration: 0.2686
+  push_per_day: 101.1842
+  repo_per_active_day: 3.6974
+  not_owned_ratio: 0.8612
+  basename_concentration: 0.2669
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "100.09 pushes per active day over 90d (7707 pushes / 77 active days), above the 15 review line"
+    - "101.18 pushes per active day over 90d (7690 pushes / 76 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -59,38 +59,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 2414
-    distinct_repos: 125
-    pushes_per_repo: 19.3120
-    active_days: 20
-    repos_not_owned: 108
+    pushes: 2287
+    distinct_repos: 123
+    pushes_per_repo: 18.5935
+    active_days: 19
+    repos_not_owned: 106
     not_owned_basenames: 37
-    not_owned_owners: 78
+    not_owned_owners: 76
   "90d":
-    pushes: 7707
-    distinct_repos: 283
-    pushes_per_repo: 27.2332
-    active_days: 77
-    repos_not_owned: 243
+    pushes: 7690
+    distinct_repos: 281
+    pushes_per_repo: 27.3665
+    active_days: 76
+    repos_not_owned: 242
     not_owned_basenames: 81
-    not_owned_owners: 156
+    not_owned_owners: 155
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 77 active days in 90d — pass"
+  - "activity: 76 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CodexBar"
-    title: "CodexBar"
-    description: "Show usage stats for OpenAI Codex and Claude Code, without having to login."
-    language: "Swift"
-    topics:
-      - "ai"
-      - "claude-code"
-      - "codex"
-      - "swift"
-    stars_fact: 22841
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "summarize"
     title: "summarize"
     description: "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension."
@@ -100,57 +88,64 @@ repos:
       - "cli"
       - "summarize"
       - "typescript"
-    stars_fact: 6752
+    stars_fact: 6784
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for steipete's tools"
-    language: "Ruby"
+    last_push: "2026-11-04"
+  - name: "agent-scripts"
+    title: "agent-scripts"
+    description: "Scripts for agents, shared between my repositories."
+    language: "Shell"
     topics:
-      - "homebrew"
-    stars_fact: 128
+      - "ai-agents"
+    stars_fact: 7441
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "poltergeist"
-    title: "poltergeist"
-    description: "The ghost that keeps your builds fresh - Universal hot reload, file watcher and build automation for any language."
-    language: "TypeScript"
+    last_push: "2026-10-30"
+  - name: "CodexBar"
+    title: "CodexBar"
+    description: "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+    language: "Swift"
     topics:
-      - "automation"
-      - "build"
-      - "filewatcher"
-    stars_fact: 446
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "oracle"
-    title: "oracle"
-    description: "Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files."
-    language: "TypeScript"
-    topics:
-      - "agents"
       - "ai"
-      - "anthropic"
-      - "gemini-pro"
-      - "gpt-5-pro"
-      - "openai"
-      - "opus"
-      - "sonnet"
-    stars_fact: 4060
+      - "claude-code"
+      - "codex"
+      - "swift"
+    stars_fact: 22977
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-10-31"
+  - name: "tmuxwatch"
+    title: "tmuxwatch"
+    description: "A simple TUI to watch tmux sessions"
+    language: "Go"
+    topics:
+      - "go"
+      - "tmux"
+      - "tui"
+    stars_fact: 226
+    first_seen: null
+    last_push: "2026-10-24"
   - name: "birdclaw"
     title: "birdclaw"
     description: "Stores all your tweets nicely claw-able for agents."
     language: "TypeScript"
     topics: []
-    stars_fact: 1671
+    stars_fact: 1675
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "sag"
+    title: "sag"
+    description: "Like the macOS say command, but with a modern voice."
+    language: "Go"
+    topics:
+      - "elevenlabs"
+      - "go"
+      - "say"
+    stars_fact: 582
     first_seen: null
     last_push: "2026-10-24"
 ---
 
 # steipete
 
-7707 pushes across 283 repositories on 77 active days in the last 90 days of public GitHub push activity.
+7690 pushes across 281 repositories on 76 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steipete

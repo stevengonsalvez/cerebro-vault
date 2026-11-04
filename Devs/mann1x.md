@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [12, 4, 0, 0, 1, 1, 24, 54, 31, 30, 12, 9, 0]
+pushes_per_week: [14, 2, 0, 0, 1, 5, 22, 52, 31, 38, 5, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 61
     distinct_repos: 6
     active_days: 15
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 61
     distinct_repos: 6
-    pushes_per_repo: 10.8333
+    pushes_per_repo: 10.1667
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -84,15 +84,39 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "xollama"
     title: "xollama"
     description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
     language: "Go"
     topics: []
-    stars_fact: 7
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
+  - name: "CPUDoc"
+    title: "CPUDoc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 146
+    first_seen: null
+    last_push: "2025-11-01"
+  - name: "claude-hooks"
+    title: "claude-hooks"
+    description: "Cross-platform Claude Code hooks for deterministic memory recall (Qdrant + Memory KG, pgvector, sqlite-vec) with HyDE, attention decay, dedup, instinct extraction, and OpenWolf integration"
+    language: "Python"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "BSManager"
+    title: "BSManager"
+    description: "VR Base Stations Manager for HMD"
+    language: "C#"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "omnimergekit"
     title: "omnimergekit"
     description: "Tools for model merging (omnimerge_v2), Gemma 4 MoE expert pruning, differential competence-map extraction, and GGUF quantization."
@@ -101,30 +125,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-10-25"
-  - name: "BSManager"
-    title: "BSManager"
-    description: "VR Base Stations Manager for HMD"
-    language: "C#"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "osync"
-    title: "osync"
-    description: "Transfer a local ollama model to a remote ollama server"
-    language: "C#"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "CPUDoc"
-    title: "CPUDoc"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 144
-    first_seen: null
-    last_push: "2025-11-01"
 ---
 
 # mann1x

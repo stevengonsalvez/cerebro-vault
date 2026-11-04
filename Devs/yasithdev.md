@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [5, 0, 2, 2, 2, 10, 19, 40, 22, 5, 0, 3, 0]
+pushes_per_week: [4, 0, 2, 2, 2, 21, 14, 36, 20, 5, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 11
-    active_days: 33
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.3333
+  push_per_day: 3.4062
+  repo_per_active_day: 0.3438
   not_owned_ratio: 1.0000
   basename_concentration: 0.1818
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 7
+    pushes_per_repo: 3.3333
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 110
+    pushes: 109
     distinct_repos: 11
-    pushes_per_repo: 10.0000
-    active_days: 33
+    pushes_per_repo: 9.9091
+    active_days: 32
     repos_not_owned: 11
     not_owned_basenames: 10
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "yasithdev.github.io"
@@ -130,6 +130,6 @@ repos:
 
 # yasithdev
 
-110 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+109 pushes across 11 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yasithdev

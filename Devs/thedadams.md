@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 5, 1, 0, 1, 4, 8, 7, 5, 4, 5, 0, 0]
+pushes_per_week: [5, 4, 1, 0, 2, 5, 7, 7, 4, 5, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 8
+    pushes: 10
+    distinct_repos: 5
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 15
-    active_days: 32
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4062
-  repo_per_active_day: 0.4688
+  push_per_day: 1.4194
+  repo_per_active_day: 0.4839
   not_owned_ratio: 0.4000
   basename_concentration: 0.1333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 8
+    pushes: 10
+    distinct_repos: 5
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 44
     distinct_repos: 15
-    pushes_per_repo: 3.0000
-    active_days: 32
+    pushes_per_repo: 2.9333
+    active_days: 31
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zed-comment"
@@ -129,6 +129,6 @@ repos:
 
 # thedadams
 
-45 pushes across 15 repositories on 32 active days in the last 90 days of public GitHub push activity.
+44 pushes across 15 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thedadams

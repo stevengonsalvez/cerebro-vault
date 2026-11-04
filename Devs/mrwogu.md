@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [13, 34, 0, 0, 1, 10, 19, 12, 6, 2, 3, 2, 0]
+pushes_per_week: [15, 29, 0, 0, 1, 12, 19, 11, 5, 2, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 99
     distinct_repos: 10
-    active_days: 37
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7568
-  repo_per_active_day: 0.2703
+  push_per_day: 2.7500
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 102
+    pushes: 99
     distinct_repos: 10
-    pushes_per_repo: 10.2000
-    active_days: 37
+    pushes_per_repo: 9.9000
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "promptscript"
@@ -98,9 +98,9 @@ repos:
       - "promptops"
       - "promptscript"
       - "typescript"
-    stars_fact: 378
+    stars_fact: 380
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
   - name: "xiaomi-smart-fan-card"
     title: "xiaomi-smart-fan-card"
     description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
@@ -112,31 +112,27 @@ repos:
       - "lovelace"
       - "smart-home"
       - "xiaomi"
-    stars_fact: 10
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
   - name: "hassio-addons"
     title: "hassio-addons"
     description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
     language: "Shell"
     topics:
-      - "ai"
-      - "ai-memory"
       - "authentik"
       - "bonds"
       - "gluetun"
       - "hassio"
-      - "hindsight"
       - "home-assistant"
       - "home-assistant-addon"
-      - "llm"
       - "n8n"
       - "stirling-pdf"
       - "traefik"
       - "tududi"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "factory-droid-openai"
     title: "factory-droid-openai"
     description: "Unofficial OpenAI-compatible bridge for Factory Droid"
@@ -155,9 +151,9 @@ repos:
       - "python"
       - "server-sent-events"
       - "tool-calling"
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "logstrip"
     title: "logstrip"
     description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
@@ -178,7 +174,7 @@ repos:
       - "zero-dependency"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "PoolMind"
     title: "PoolMind"
     description: "PoolMind — Open-source computer vision system for pool games."
@@ -191,6 +187,6 @@ repos:
 
 # mrwogu
 
-102 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
+99 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

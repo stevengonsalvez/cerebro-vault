@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "40eb8bc568eaac35"
-pushes_per_week: [1, 0, 0, 2, 0, 0, 0, 2, 3, 3, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 0, 1, 1, 3, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "craps"
-    title: "craps"
+  - name: "survival-prep"
+    title: "survival-prep"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-11-04"
   - name: "Lateos"
     title: "Lateos"
     description: "AWS serverless AI agent with security-first architecture. Eliminates entire attack surface vs. Clawdbot: no persistent processes, API Gateway + Cognito auth, scoped IAM per Lambda, prompt injection detection (21 patterns), Bedrock Guardrails, KMS-encrypted DynamoDB. Cost kill-switch included. Full CDK infrastructure as code. MIT license."

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
-pushes_per_week: [30, 4, 2, 0, 1, 1, 35, 2, 4, 10, 1, 10, 0]
+pushes_per_week: [25, 4, 2, 0, 1, 8, 28, 2, 4, 10, 1, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 95
     distinct_repos: 24
     active_days: 26
     repos_not_owned: 1
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8462
+  push_per_day: 3.6538
   repo_per_active_day: 0.9231
   not_owned_ratio: 0.0417
   basename_concentration: 0.0417
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 100
+    pushes: 95
     distinct_repos: 24
-    pushes_per_repo: 4.1667
+    pushes_per_repo: 3.9583
     active_days: 26
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -183,6 +183,6 @@ repos:
 
 # costajohnt
 
-100 pushes across 24 repositories on 26 active days in the last 90 days of public GitHub push activity.
+95 pushes across 24 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 4, 0, 3, 0, 2, 5, 17, 7, 3, 6, 2, 0]
+pushes_per_week: [5, 1, 2, 1, 0, 2, 5, 17, 7, 7, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "helloworld"
+    title: "helloworld"
+    description: "AstrBot Plugin Template"
+    language: "Python"
+    topics: []
+    stars_fact: 193
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "Soulter"
     title: "Soulter"
     description: null
@@ -85,7 +93,23 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-01"
+  - name: "astrbot_plugin_essential"
+    title: "astrbot_plugin_essential"
+    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
+    language: "Python"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "astrbot_plugin_bilibili"
+    title: "astrbot_plugin_bilibili"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 101
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "one-sponsor-list"
     title: "one-sponsor-list"
     description: null
@@ -94,22 +118,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "helloworld"
-    title: "helloworld"
-    description: "AstrBot Plugin Template"
-    language: "Python"
-    topics: []
-    stars_fact: 187
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "astrbot_plugin_bilibili"
-    title: "astrbot_plugin_bilibili"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 102
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "astrbot_plugin_wake_enhance"
     title: "astrbot_plugin_wake_enhance"
     description: "让 AstrBot 支持正则匹配唤醒、唤醒后持续对话"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2025-02-09"
-  - name: "astrbot_plugin_github_cards"
-    title: "astrbot_plugin_github_cards"
-    description: "根据群聊中 GitHub 相关链接自动发送 GitHub OpenGraph 图片"
-    language: "Python"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-09-07"
 ---
 
 # Soulter

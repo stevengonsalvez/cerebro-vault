@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 3, 4, 0, 2, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 1, 2, 4, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "2D-to-3D-CAD-Reconstruction"
+    title: "2D-to-3D-CAD-Reconstruction"
+    description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "leadflow"
     title: "leadflow"
     description: "Single-screen lead manager: track leads, log discussions, never miss a follow-up. Next.js + FastAPI."
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "2D-to-3D-CAD-Reconstruction"
-    title: "2D-to-3D-CAD-Reconstruction"
-    description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-13"
   - name: "balloonbench"
     title: "balloonbench"
     description: "A synthetic-first benchmark, evaluation harness and geometry-grounded verifier for GD&T extraction from 2D engineering drawings."

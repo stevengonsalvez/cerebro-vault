@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [16, 8, 1, 2, 12, 18, 21, 12, 21, 1, 2, 14, 0]
+pushes_per_week: [16, 6, 1, 2, 12, 19, 20, 12, 21, 1, 4, 12, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 10
-    active_days: 10
+    active_days: 9
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 128
+    pushes: 126
     distinct_repos: 20
-    active_days: 42
+    active_days: 40
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.0476
-  repo_per_active_day: 0.4762
+  push_per_day: 3.1500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.8000
   basename_concentration: 0.5500
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 10
-    pushes_per_repo: 2.8000
-    active_days: 10
+    pushes_per_repo: 2.6000
+    active_days: 9
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 128
+    pushes: 126
     distinct_repos: 20
-    pushes_per_repo: 6.4000
-    active_days: 42
+    pushes_per_repo: 6.3000
+    active_days: 40
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -143,6 +143,6 @@ repos:
 
 # AlexsJones
 
-128 pushes across 20 repositories on 42 active days in the last 90 days of public GitHub push activity.
+126 pushes across 20 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

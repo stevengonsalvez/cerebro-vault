@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 1, 2, 1, 1, 0, 1, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 2, 1, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,16 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
+  - name: "ProxmoxVE-Post-Install-Script"
+    title: "ProxmoxVE-Post-Install-Script"
+    description: "This script is designed to automate the post-installation setup of Proxmox VE. It streamlines the configuration of repositories, high availability, and system updates. Use this script responsibly and ensure your environment is backed up before proceeding."
+    language: "Shell"
+    topics:
+      - "proxmox-ve-post-install-script"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-06-03"
   - name: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
     title: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
     description: null
@@ -119,14 +128,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-08"
-  - name: "mahindra-be6"
-    title: "mahindra-be6"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
 ---
 
 # Lalatenduswain

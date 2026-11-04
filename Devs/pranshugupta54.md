@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [10, 15, 6, 2, 0, 0, 3, 12, 4, 0, 2, 0, 0]
+pushes_per_week: [17, 8, 6, 2, 0, 0, 3, 12, 4, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "site"
+    title: "site"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "pranshugupta54"
     title: "pranshugupta54"
     description: "Config files for my GitHub profile."
@@ -86,7 +94,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-01"
   - name: "hertz"
     title: "hertz"
     description: "📊 A tiny native macOS menu-bar system monitor — CPU, memory, disk, network & battery."
@@ -108,14 +116,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-06-08"
-  - name: "site"
-    title: "site"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-17"
   - name: "skills"
     title: "skills"
     description: "Agent skills for coding agents — install with: npx skills add pranshugupta54/skills"

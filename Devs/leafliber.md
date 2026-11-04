@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 1, 0, 0, 0, 0, 1, 9, 20, 19, 3, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 0, 0, 2, 12, 16, 22, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 4
-    pushes_per_repo: 6.2500
-    active_days: 8
+    pushes_per_repo: 6.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,46 +77,30 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "bellis"
-    title: "bellis"
+  - name: "Protea"
+    title: "Protea"
     description: null
-    language: "TypeScript"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "astrbot_plugin_iris_chat_memory"
     title: "astrbot_plugin_iris_chat_memory"
     description: "For Astrbot, Smart 3 tier long term memory, completed memory circle."
     language: "Python"
     topics: []
-    stars_fact: 22
+    stars_fact: 28
     first_seen: null
     last_push: "2026-09-12"
-  - name: "cortico-world-qq-official"
-    title: "cortico-world-qq-official"
-    description: "QQ Official API World for Cortico: event delivery, messaging, media and QQ bot credential binding"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
   - name: "astrbot_plugin_iris_memory"
     title: "astrbot_plugin_iris_memory"
     description: "A memory plugin for astrbot"
     language: "Python"
     topics: []
-    stars_fact: 35
+    stars_fact: 39
     first_seen: null
     last_push: "2026-10-17"
-  - name: "astrbot_plugin_message_recorder"
-    title: "astrbot_plugin_message_recorder"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-09"
   - name: "hoyo_subscribe"
     title: "hoyo_subscribe"
     description: null
@@ -124,7 +108,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-10-30"
+  - name: "astrbot_plugin_cost_control"
+    title: "astrbot_plugin_cost_control"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "bellis"
+    title: "bellis"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # leafliber

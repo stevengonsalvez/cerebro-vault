@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [5, 0, 3, 0, 1, 9, 2, 1, 3, 4, 0, 0, 0]
@@ -77,6 +77,38 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "AgentGate"
+    title: "AgentGate"
+    description: "Out-of-process authorization proxy and safety gateway for autonomous AI agent tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "Relay"
+    title: "Relay"
+    description: "Self-hostable API gateway built for managing API keys, routing, rate limits, and observability."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "kjhwr"
+    title: "kjhwr"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "ateai-hackathon"
+    title: "ateai-hackathon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "mohitdebian"
     title: "mohitdebian"
     description: null
@@ -85,22 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
-  - name: "Relay"
-    title: "Relay"
-    description: "Self-hostable API gateway built for managing API keys, routing, rate limits, and observability."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "AgentGate"
-    title: "AgentGate"
-    description: "Out-of-process authorization proxy and safety gateway for autonomous AI agent tool execution."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
   - name: "AlgoMerge"
     title: "AlgoMerge"
     description: "Find the best open-source issues to contribute to — with the lowest competition"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-08"
-  - name: "ai-knowledge-hub"
-    title: "ai-knowledge-hub"
-    description: "AI-powered knowledge management platform - Full-stack project covering 50+ concepts: React/Next.js, Express, PostgreSQL, MongoDB, Redis, OpenAI, Stripe, Docker, WebSocket, JWT/OAuth, RAG, Multi-step Agent"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "CRY"
-    title: "CRY"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # mohitdebian

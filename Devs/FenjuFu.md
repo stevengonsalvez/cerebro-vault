@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [6, 10, 2, 1, 4, 0, 2, 4, 3, 4, 10, 1, 0]
+pushes_per_week: [9, 6, 3, 0, 4, 0, 2, 4, 3, 12, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 22
-    active_days: 22
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1364
-  repo_per_active_day: 1.0000
+  push_per_day: 2.1905
+  repo_per_active_day: 1.0476
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 22
-    pushes_per_repo: 2.1364
-    active_days: 22
+    pushes_per_repo: 2.0909
+    active_days: 21
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xhtoken-images"
@@ -135,6 +135,6 @@ repos:
 
 # FenjuFu
 
-47 pushes across 22 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

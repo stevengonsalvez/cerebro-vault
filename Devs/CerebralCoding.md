@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 7, 6, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 0, 0, 0, 9, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,15 +90,15 @@ repos:
       - "mcp"
       - "scheduler"
       - "swift"
-    stars_fact: 5
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-10-31"
   - name: "Silibar"
     title: "Silibar"
     description: "An Apple Silicon metrics and tab bar for Zellij, powered by macmon."
     language: "Rust"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-10-22"
 ---

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [30, 119, 5, 10, 8, 27, 49, 43, 42, 25, 18, 22, 2]
+pushes_per_week: [46, 100, 7, 8, 8, 30, 51, 40, 40, 27, 26, 12, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 83
     distinct_repos: 1
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 400
+    pushes: 397
     distinct_repos: 8
-    active_days: 67
+    active_days: 66
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.9701
-  repo_per_active_day: 0.1194
+  push_per_day: 6.0152
+  repo_per_active_day: 0.1212
   not_owned_ratio: 0.8750
   basename_concentration: 1.0000
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 83
     distinct_repos: 1
-    pushes_per_repo: 92.0000
-    active_days: 19
+    pushes_per_repo: 83.0000
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 400
+    pushes: 397
     distinct_repos: 8
-    pushes_per_repo: 50.0000
-    active_days: 67
+    pushes_per_repo: 49.6250
+    active_days: 66
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worldmonitor"
@@ -110,9 +110,17 @@ repos:
       - "osint"
       - "palantir"
       - "situation"
-    stars_fact: 89617
+    stars_fact: 90123
     first_seen: "2026-08-01T06:00:04.424073+00:00"
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "worldmonitor-plugins"
+    title: "worldmonitor-plugins"
+    description: "World Monitor plugins for AI assistants. Mirrored from koala73/worldmonitor; edit there."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "whoopskill"
     title: "whoopskill"
     description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
@@ -141,6 +149,6 @@ repos:
 
 # koala73
 
-400 pushes across 8 repositories on 67 active days in the last 90 days of public GitHub push activity.
+397 pushes across 8 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

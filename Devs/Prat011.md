@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-31T07:04:37.839675+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "438a9b54b319a0a7"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -99,7 +99,7 @@ repos:
       - "qwen"
       - "qwen-coder"
       - "skills"
-    stars_fact: 1823
+    stars_fact: 1843
     first_seen: null
     last_push: "2026-07-14"
   - name: "free-cluely"
@@ -115,7 +115,7 @@ repos:
       - "interview-coder"
       - "leetcode"
       - "notetaker"
-    stars_fact: 1691
+    stars_fact: 1698
     first_seen: null
     last_push: "2026-04-07"
   - name: "AI-Agents-Academy"

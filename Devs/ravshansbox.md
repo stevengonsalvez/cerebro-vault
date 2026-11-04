@@ -1,5 +1,5 @@
 ---
-login: "stbenjam"
+login: "ravshansbox"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -49,6 +49,7 @@ provenance:
   - "6d9f931d3f4a007e"
   - "7389d4b9c5e1318a"
   - "7728fa2f91b704b5"
+  - "797aba84ba3e9103"
   - "7b1fa515c92a7efc"
   - "7c76a455bae5923b"
   - "8118f11844b1fac6"
@@ -86,35 +87,35 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [13, 5, 1, 7, 0, 0, 4, 12, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 3, 0, 0, 0, 0, 2, 6, 185, 1, 20, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 207
+    distinct_repos: 20
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 12
-    active_days: 18
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 221
+    distinct_repos: 27
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3889
-  repo_per_active_day: 0.6667
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.2500
+  push_per_day: 14.7333
+  repo_per_active_day: 1.8000
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -123,103 +124,101 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 207
+    distinct_repos: 20
+    pushes_per_repo: 10.3500
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 12
-    pushes_per_repo: 3.5833
-    active_days: 18
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 221
+    distinct_repos: 27
+    pushes_per_repo: 8.1852
+    active_days: 15
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
-  - "provenance: 75 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "provenance: 76 vault signal(s) — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skillsaw"
-    title: "skillsaw"
-    description: "Keep your skills sharp. Intelligence for agent context."
-    language: "Python"
+  - name: "next-issue"
+    title: "next-issue"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "pi-opencode-zen"
+    title: "pi-opencode-zen"
+    description: "OpenCode Zen provider extension for pi"
+    language: "TypeScript"
     topics:
-      - "agent"
-      - "agents"
-      - "agents-skills"
-      - "agentskill"
-      - "agentskills"
-      - "agentsmd"
-      - "ai"
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "cursor"
-      - "grok"
-      - "linter"
-      - "muse"
-      - "skill"
-      - "skill-md"
-      - "skills"
-    stars_fact: 69
+      - "pi-extension"
+      - "pi-package"
+      - "provider"
+    stars_fact: 4
     first_seen: null
     last_push: "2026-11-01"
-  - name: "skills"
-    title: "skills"
-    description: "Personal Skills"
-    language: "Python"
-    topics: []
-    stars_fact: 5
+  - name: "pi-prompt-history"
+    title: "pi-prompt-history"
+    description: "Shell-style prompt history extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "prompt-history"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "HyperIcons"
-    title: "HyperIcons"
-    description: "A personal project I use to override HyperOS Icons"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-04-15"
-  - name: "homebrew-arbor"
-    title: "homebrew-arbor"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "arbor"
-    title: "arbor"
-    description: "Git worktree manager (alpha)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "cronex"
-    title: "cronex"
-    description: "Implementation for scheduled tasks in Codex CLI"
-    language: "Go"
-    topics: []
+    last_push: "2026-11-01"
+  - name: "pi-zed"
+    title: "pi-zed"
+    description: "Zed editor context extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "zed"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-11-01"
+  - name: "pi-web"
+    title: "pi-web"
+    description: "Web UI for the pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "pi-package"
+      - "pi-web"
+      - "ui"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "pi-tps"
+    title: "pi-tps"
+    description: "Tokens-per-second notification extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "tps"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
 ---
 
-# stbenjam
+# ravshansbox
 
-43 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
+221 pushes across 27 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/stbenjam
+https://github.com/ravshansbox

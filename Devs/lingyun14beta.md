@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 5, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 4, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_endfield_kb"
+    title: "astrbot_plugin_endfield_kb"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "astrbot_plugin_video_sense"
+    title: "astrbot_plugin_video_sense"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "astrbot-endfield-kb-index"
+    title: "astrbot-endfield-kb-index"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "astrbot_plugin_uapipro_toolbox"
     title: "astrbot_plugin_uapipro_toolbox"
     description: "集成 UApiPro 提供的开放接口，为bot提供可使用的工具。"
@@ -85,22 +109,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-08-30"
-  - name: "astrbot_plugin_endfield_kb"
-    title: "astrbot_plugin_endfield_kb"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "astrbot-endfield-kb-index"
-    title: "astrbot-endfield-kb-index"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "daily-analysis-report-theme"
     title: "daily-analysis-report-theme"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "astrbot_plugin_github_triage"
-    title: "astrbot_plugin_github_triage"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
 ---
 
 # lingyun14beta

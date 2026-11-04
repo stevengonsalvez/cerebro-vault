@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "8cd2b09735411bfb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -90,7 +90,7 @@ repos:
       - "peft"
       - "qlora"
       - "speedrun"
-    stars_fact: 149
+    stars_fact: 151
     first_seen: "2026-07-20T06:00:02.127739+00:00"
     last_push: "2026-09-12"
   - name: "cognivox-record"

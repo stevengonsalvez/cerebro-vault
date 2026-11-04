@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "82a901da1b9bedec"
 pushes_per_week: [1, 1, 0, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "local-todo"
+    title: "local-todo"
+    description: "Minimal Next.js todo list saved in localStorage"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "packtrack"
     title: "packtrack"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-06-16"
-  - name: "gitbench"
-    title: "gitbench"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-11"
 ---
 
 # quuu

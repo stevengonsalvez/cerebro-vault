@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "422d724d1779eadb"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "message_pack"
+    title: "message_pack"
+    description: "MessagePack for Ada, over Ada.Streams"
+    language: "Ada"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "adi2"
     title: "adi2"
     description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
@@ -91,9 +99,17 @@ repos:
       - "toolkit"
       - "ui"
       - "widgets"
-    stars_fact: 55
+    stars_fact: 58
     first_seen: "2026-08-25T06:00:02.050180+00:00"
     last_push: "2026-10-26"
+  - name: "aht"
+    title: "aht"
+    description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
+    language: "Ada"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "thunderchez"
     title: "thunderchez"
     description: "libraries for chez scheme productivity"
@@ -103,22 +119,6 @@ repos:
     stars_fact: 168
     first_seen: null
     last_push: "2024-09-27"
-  - name: "aht"
-    title: "aht"
-    description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
-    language: "Ada"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "message_pack"
-    title: "message_pack"
-    description: "MessagePack for Ada, over Ada.Streams"
-    language: "Ada"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-22"
   - name: "miogui"
     title: "miogui"
     description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"

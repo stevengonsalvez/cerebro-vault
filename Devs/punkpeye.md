@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [6, 7, 4, 1, 34, 17, 44, 21, 1, 21, 1, 2, 0]
+pushes_per_week: [10, 3, 5, 0, 34, 17, 60, 6, 0, 21, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,28 +84,18 @@ repos:
     topics:
       - "ai"
       - "mcp"
-    stars_fact: 96917
+    stars_fact: 97272
     first_seen: "2026-08-31T06:00:05.900744+00:00"
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
   - name: "awesome-remote-mcp-servers"
     title: "awesome-remote-mcp-servers"
     description: "A collection of remote MCP servers."
     language: null
     topics:
       - "mcp"
-    stars_fact: 2037
+    stars_fact: 2549
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "fastmcp"
-    title: "fastmcp"
-    description: "A TypeScript framework for building MCP servers."
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "sse"
-    stars_fact: 3278
-    first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-02"
   - name: "awesome-mcp-clients"
     title: "awesome-mcp-clients"
     description: "A collection of MCP clients."
@@ -113,18 +103,27 @@ repos:
     topics:
       - "clients"
       - "mcp"
-    stars_fact: 6614
+    stars_fact: 6619
     first_seen: null
     last_push: "2026-06-07"
-  - name: "mcp-remote"
-    title: "mcp-remote"
-    description: "Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server."
+  - name: "fastmcp"
+    title: "fastmcp"
+    description: "A TypeScript framework for building MCP servers."
     language: "TypeScript"
     topics:
       - "mcp"
-    stars_fact: 1652
+      - "sse"
+    stars_fact: 3283
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-03"
+  - name: "pipenet"
+    title: "pipenet"
+    description: "Expose your local server to the public internet instantly"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 536
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "mcp-proxy"
     title: "mcp-proxy"
     description: "A TypeScript streamable HTTP and SSE proxy for MCP servers that use stdio transport."
@@ -132,7 +131,7 @@ repos:
     topics: []
     stars_fact: 293
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-03"
 ---
 
 # punkpeye

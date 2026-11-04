@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 4, 2, 2, 1, 2, 3, 4, 1, 7, 1, 2, 0]
+pushes_per_week: [0, 4, 2, 2, 2, 2, 2, 4, 1, 8, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot-launcher-vue"
+    title: "astrbot-launcher-vue"
+    description: "Desktop launcher for AstrBot built with Tauri and Vuetify. / 基于 Tauri 与 Vueitfy 构建的 AstrBot 桌面启动器。"
+    language: "Rust"
+    topics:
+      - "astrbot"
+      - "launcher"
+      - "tauri"
+      - "vueitfy"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "astrbot_plugin_qq_custom_menu"
     title: "astrbot_plugin_qq_custom_menu"
     description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
@@ -84,7 +96,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "astrbot_plugin_qq_custom_command_panel"
     title: "astrbot_plugin_qq_custom_command_panel"
     description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
@@ -92,9 +104,9 @@ repos:
     topics:
       - "astrbot-plugin"
       - "python"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "mantoujun12"
     title: "mantoujun12"
     description: "Helloヾ(•ω•`)o"

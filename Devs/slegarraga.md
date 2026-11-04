@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [11, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [11, 0, 5, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,100 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "json-from-llm"
+    title: "json-from-llm"
+    description: "Extract valid JSON from an LLM response, even when wrapped in reasoning/thinking tags, markdown fences or prose. Zero dependencies."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "deepseek"
+      - "gemini"
+      - "json"
+      - "json-parser"
+      - "llm"
+      - "llm-output"
+      - "openai"
+      - "openai-compatible"
+      - "parser"
+      - "reasoning"
+      - "structured-output"
+      - "tool-calling"
+      - "typescript"
+      - "zero-dependencies"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "llm-errors"
+    title: "llm-errors"
+    description: "Normalize OpenAI, Anthropic and Gemini API errors into one shape: category, retryable flag and Retry-After delay. Zero dependencies."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "api-errors"
+      - "error-handling"
+      - "gemini"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "provider-portability"
+      - "rate-limit"
+      - "retry"
+      - "retry-after"
+      - "typescript"
+      - "zero-dependencies"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "llm-portability-demo"
+    title: "llm-portability-demo"
+    description: "Zero-dependency provider-portability packages for OpenAI-compatible agents working together end to end. Runs offline."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "example"
+      - "gemini"
+      - "llm"
+      - "mcp"
+      - "openai"
+      - "openai-compatible"
+      - "portability"
+      - "provider"
+      - "provider-portability"
+      - "streaming"
+      - "structured-outputs"
+      - "tool-calling"
+      - "typescript"
+      - "zero-dependencies"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "llm-sse"
+    title: "llm-sse"
+    description: "Parse streaming responses from OpenAI, Anthropic and Gemini into one unified event format. Text and tool-call deltas. Zero dependencies."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "gemini"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "provider-portability"
+      - "reasoning"
+      - "sse"
+      - "streaming"
+      - "tool-calling"
+      - "tool-calls"
+      - "typescript"
+      - "zero-dependencies"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "llm-messages"
     title: "llm-messages"
     description: "OpenAI-compatible provider portability: convert chat conversations between OpenAI, Anthropic and Gemini. Tool calls, multimodal parts, zero deps."
@@ -101,7 +195,7 @@ repos:
       - "zero-dependencies"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "tool-schema"
     title: "tool-schema"
     description: "Convert any JSON Schema into a valid tool / function calling schema for OpenAI, Anthropic, Gemini and MCP. Zero dependencies."
@@ -125,101 +219,7 @@ repos:
       - "zero-dependencies"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "json-from-llm"
-    title: "json-from-llm"
-    description: "Extract valid JSON from an LLM response, even when wrapped in reasoning/thinking tags, markdown fences or prose. Zero dependencies."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "deepseek"
-      - "gemini"
-      - "json"
-      - "json-parser"
-      - "llm"
-      - "llm-output"
-      - "openai"
-      - "openai-compatible"
-      - "parser"
-      - "reasoning"
-      - "structured-output"
-      - "tool-calling"
-      - "typescript"
-      - "zero-dependencies"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "llm-errors"
-    title: "llm-errors"
-    description: "Normalize OpenAI, Anthropic and Gemini API errors into one shape: category, retryable flag and Retry-After delay. Zero dependencies."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "api-errors"
-      - "error-handling"
-      - "gemini"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "provider-portability"
-      - "rate-limit"
-      - "retry"
-      - "retry-after"
-      - "typescript"
-      - "zero-dependencies"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "llm-portability-demo"
-    title: "llm-portability-demo"
-    description: "Zero-dependency provider-portability packages for OpenAI-compatible agents working together end to end. Runs offline."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "example"
-      - "gemini"
-      - "llm"
-      - "mcp"
-      - "openai"
-      - "openai-compatible"
-      - "portability"
-      - "provider"
-      - "provider-portability"
-      - "streaming"
-      - "structured-outputs"
-      - "tool-calling"
-      - "typescript"
-      - "zero-dependencies"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "llm-sse"
-    title: "llm-sse"
-    description: "Parse streaming responses from OpenAI, Anthropic and Gemini into one unified event format. Text and tool-call deltas. Zero dependencies."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "gemini"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "provider-portability"
-      - "reasoning"
-      - "sse"
-      - "streaming"
-      - "tool-calling"
-      - "tool-calls"
-      - "typescript"
-      - "zero-dependencies"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-02"
 ---
 
 # slegarraga

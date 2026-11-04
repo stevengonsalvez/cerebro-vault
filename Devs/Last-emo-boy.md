@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 2, 2, 1, 7, 1, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 2, 3, 0, 7, 1, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,9 +88,25 @@ repos:
       - "tauri"
       - "wuthering-waves"
       - "wuwa"
-    stars_fact: 1
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-03"
+  - name: "Swarm"
+    title: "Swarm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "nib"
+    title: "nib"
+    description: "nib: an open design canvas for .pen files, with an MCP server for coding agents and a built-in agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "agent-crucible"
     title: "agent-crucible"
     description: "Agent Crucible (CRUX): verified BSC deployment, bounded all-pay PvP and an installable player Skill."
@@ -115,22 +131,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-05-26"
-  - name: "Multisim-MCP"
-    title: "Multisim-MCP"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "astrbot_plugin_cr4zyThursday"
-    title: "astrbot_plugin_cr4zyThursday"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-05-02"
 ---
 
 # Last-emo-boy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 2, 8, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 2, 8, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,60 +77,22 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "track-b2"
-    title: "track-b2"
-    description: null
+  - name: "agent-memory"
+    title: "agent-memory"
+    description: "Team memory for coding agents: shell + transcript capture, MCP recall, self-hosted TLS sync. Apache-2.0."
     language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "muse-familiar"
-    title: "muse-familiar"
-    description: null
-    language: "Python"
-    topics:
-      - "ai"
-      - "arduino"
-      - "desk-pet"
-      - "iot"
-      - "led-matrix"
-      - "muse"
-      - "muse-gadget"
-      - "qualcomm"
-      - "zephyr"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "lumen"
-    title: "lumen"
-    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "cloudflare-workers"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "nodejs"
-      - "open-source"
-      - "seo"
-      - "seo-audit"
-      - "site-audit"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "lumen-plugin-template"
-    title: "lumen-plugin-template"
-    description: "Starter template for lumen audit-rule plugins."
-    language: "JavaScript"
+    last_push: "2026-11-01"
+  - name: "vdb"
+    title: "vdb"
+    description: "vdb — an idb-style development bridge for Amazon Fire TV Vega OS 2.0: gRPC companion + CLI + MCP server (unofficial, not affiliated with Amazon)"
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-11-01"
   - name: "res-blog"
     title: "res-blog"
     description: "Nitish Personal Portfolio/Blog"
@@ -138,15 +100,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
-  - name: "minimal-editor"
-    title: "minimal-editor"
-    description: "Minimal, fast, VS Code-familiar editor for reviewing code changes. No extensions, no telemetry, no agent upsell."
+    last_push: "2026-10-30"
+  - name: "cpu-enough"
+    title: "cpu-enough"
+    description: "Free-tier CPU LLM-inference benchmark harness (paper: When is a CPU enough?)"
     language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-10-30"
+  - name: "swapgate"
+    title: "swapgate"
+    description: "Open-source model-swap eval gate: traces become evals, candidates must pass before you swap."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "colonyiq"
+    title: "colonyiq"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # nitishagar

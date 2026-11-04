@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [13, 21, 1, 0, 3, 3, 3, 4, 30, 4, 0, 3, 0]
+pushes_per_week: [21, 12, 1, 0, 3, 3, 3, 8, 26, 4, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 22
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 3
-    active_days: 32
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6562
-  repo_per_active_day: 0.0938
+  push_per_day: 2.7097
+  repo_per_active_day: 0.0968
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 14.5000
-    active_days: 8
+    pushes_per_repo: 11.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 3
-    pushes_per_repo: 28.3333
-    active_days: 32
+    pushes_per_repo: 28.0000
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "impeccable"
@@ -134,6 +134,6 @@ repos:
 
 # pbakaus
 
-85 pushes across 3 repositories on 32 active days in the last 90 days of public GitHub push activity.
+84 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

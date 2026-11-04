@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 6, 5, 1, 0, 0, 1, 4, 3, 7, 2, 3, 0]
+pushes_per_week: [4, 5, 5, 1, 0, 0, 5, 0, 3, 9, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 12
+    distinct_repos: 3
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 5
-    active_days: 25
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4400
-  repo_per_active_day: 0.2000
+  push_per_day: 1.4583
+  repo_per_active_day: 0.2083
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 10
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 12
+    distinct_repos: 3
+    pushes_per_repo: 4.0000
+    active_days: 9
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 5
-    pushes_per_repo: 7.2000
-    active_days: 25
+    pushes_per_repo: 7.0000
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opentui-bench"
+    title: "opentui-bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "godis"
     title: "godis"
     description: "godis - an old Redis client for Go"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 86
     first_seen: null
     last_push: "2020-02-17"
-  - name: "opentui-bench"
-    title: "opentui-bench"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-12"
   - name: "opentui-tex"
     title: "opentui-tex"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # simonklee
 
-36 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
+35 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonklee

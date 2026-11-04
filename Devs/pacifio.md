@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4930e4f9e24bb204"
-pushes_per_week: [0, 4, 2, 0, 0, 0, 2, 6, 1, 1, 1, 1, 0]
+pushes_per_week: [2, 2, 2, 0, 0, 0, 4, 5, 0, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gpui-flow"
-    title: "gpui-flow"
-    description: "visual node editor react flow for gpui"
+  - name: "cersei"
+    title: "cersei"
+    description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
     language: "Rust"
-    topics: []
-    stars_fact: 44
+    topics:
+      - "agent"
+      - "antrophic"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "openai"
+      - "opencode"
+      - "rust"
+    stars_fact: 463
     first_seen: null
-    last_push: "2026-03-23"
+    last_push: "2026-08-06"
   - name: "atlas"
     title: "atlas"
     description: "Source control for agents. Use multiple coding agents, track their changes and query them in one place"
@@ -105,9 +113,25 @@ repos:
       - "opencode-skills"
       - "self-hosted"
       - "skills"
-    stars_fact: 9548
+    stars_fact: 9563
     first_seen: "2026-09-03T06:00:04.259291+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
+  - name: "gpui-flow"
+    title: "gpui-flow"
+    description: "visual node editor react flow for gpui"
+    language: "Rust"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-03-23"
+  - name: "noni"
+    title: "noni"
+    description: "Flexible deep learning framework for humans"
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-03-02"
   - name: "libembedding"
     title: "libembedding"
     description: "A C/C++ header-only library for generating text embeddings, sparse embeddings, image embeddings, and document reranking using ONNX Runtime"
@@ -116,22 +140,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-04-01"
-  - name: "cersei"
-    title: "cersei"
-    description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
-    language: "Rust"
-    topics:
-      - "agent"
-      - "antrophic"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "openai"
-      - "opencode"
-      - "rust"
-    stars_fact: 461
-    first_seen: null
-    last_push: "2026-08-06"
   - name: "standards"
     title: "standards"
     description: null
@@ -140,14 +148,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "ui"
-    title: "ui"
-    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 154
-    first_seen: null
-    last_push: "2026-04-24"
 ---
 
 # pacifio

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 1, 0, 0, 0, 0, 5, 27, 6, 5, 4, 4, 0]
+pushes_per_week: [3, 1, 0, 0, 0, 1, 5, 28, 4, 6, 4, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -98,9 +98,9 @@ repos:
       - "revchatgpt"
       - "reverse-engineering"
       - "tongyiqianwen"
-    stars_fact: 934
+    stars_fact: 941
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "revLibs"
     title: "revLibs"
     description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
@@ -112,7 +112,7 @@ repos:
       - "plugin"
       - "qchatgpt"
       - "qq"
-    stars_fact: 200
+    stars_fact: 199
     first_seen: null
     last_push: "2024-01-23"
   - name: "TheMostHandsome"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [10, 0, 1, 0, 0, 9, 24, 1, 11, 27, 8, 8, 0]
+pushes_per_week: [10, 0, 1, 0, 1, 10, 22, 1, 11, 27, 8, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 4
-    active_days: 10
+    pushes: 43
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 51
-    distinct_repos: 4
-    pushes_per_repo: 12.7500
-    active_days: 10
+    pushes: 43
+    distinct_repos: 3
+    pushes_per_repo: 14.3333
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,61 +93,71 @@ repos:
       - "landing-page"
       - "ui-design"
       - "web-design"
-    stars_fact: 103184
+    stars_fact: 109664
     first_seen: "2026-07-07T06:00:04.098731+00:00"
-    last_push: "2026-10-26"
-  - name: "procedural-fire"
-    title: "procedural-fire"
-    description: "A fully procedural, physically based campfire in WebGPU: 3D combustion sim, blackbody rendering and synthesized sound. No assets."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 46
+    last_push: "2026-11-04"
+  - name: "earshot"
+    title: "earshot"
+    description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "audio"
+      - "claude-code"
+      - "mcp"
+      - "sound-design"
+    stars_fact: 3805
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "napali"
-    title: "napali"
-    description: "A drone flight over the Na Pali coast, rendered entirely in code. No textures, images or models."
-    language: "HTML"
+    last_push: "2026-10-22"
+  - name: "golden-temple"
+    title: "golden-temple"
+    description: "A golden-hour Japanese temple built entirely in code with three.js. No models, no textures, no HDRIs. Rendered offline into a 70s 1080p60 film"
+    language: "JavaScript"
     topics:
       - "claude-code"
       - "generative-art"
       - "glsl"
       - "procedural-generation"
-      - "shaders"
-      - "webgl2"
-    stars_fact: 108
+      - "rendering"
+      - "threejs"
+      - "webgl"
+    stars_fact: 135
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "tastecode"
-    title: "tastecode"
-    description: "Personal Harness - a beautiful, adaptive control panel for AI coding agents. Windows-first, design-agent powered."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 413
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "taste-skill-classics"
-    title: "taste-skill-classics"
-    description: "The classic taste-skill styles and earlier versions: soft, minimalist, brutalist, gpt-taste, Stitch, v1 and v2-experimental. Opt-in, run by name."
+    last_push: "2026-10-15"
+  - name: "casa-ocaso"
+    title: "casa-ocaso"
+    description: "Real-time WebGPU recreation of a golden-hour cliffside living room in three.js, built with Claude Code"
     language: "JavaScript"
-    topics: []
-    stars_fact: 20
+    topics:
+      - "archviz"
+      - "claude-code"
+      - "threejs"
+      - "tsl"
+      - "webgpu"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "cinetic"
-    title: "cinetic"
-    description: "Cinematic launch films and motion design from code, directed by your coding agent."
-    language: "Python"
+    last_push: "2026-11-03"
+  - name: "imagegen-skills"
+    title: "imagegen-skills"
+    description: "Design image-generation skills for coding agents: website comps, mobile app screens, brand kits, and image-to-code."
+    language: "JavaScript"
     topics:
       - "agent-skills"
       - "claude-code"
-      - "claude-skills"
-      - "launch-video"
-      - "motion-design"
-      - "remotion"
-    stars_fact: 901
+      - "codex"
+      - "design"
+      - "image-generation"
+    stars_fact: 61
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-19"
+  - name: "claude-of-duty"
+    title: "claude-of-duty"
+    description: "Browser-native tactical FPS on three.js r180. One map, one match, no assets: every texture, sound and cloud is generated at runtime. Hand-built WebGL2 render graph, custom physics, procedural Web Audio."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # Leonxlnx

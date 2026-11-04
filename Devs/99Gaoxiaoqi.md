@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 1, 0, 1, 5, 2, 2, 19, 16, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 1, 5, 2, 3, 18, 16, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 3
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 1
     active_days: 22
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3636
+  push_per_day: 2.2727
   repo_per_active_day: 0.0455
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 1
-    pushes_per_repo: 52.0000
+    pushes_per_repo: 50.0000
     active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # 99Gaoxiaoqi
 
-52 pushes across 1 repository on 22 active days in the last 90 days of public GitHub push activity.
+50 pushes across 1 repository on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/99Gaoxiaoqi

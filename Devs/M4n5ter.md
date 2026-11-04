@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 26, 7, 18, 2, 1, 15, 13, 5, 4, 6, 23, 0]
+pushes_per_week: [18, 17, 20, 5, 2, 1, 19, 9, 5, 5, 12, 16, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-finance"
+    title: "agent-finance"
+    description: "AI-agent-first market intelligence CLI for evidence-driven financial research."
+    language: "Rust"
+    topics:
+      - "ai-agent"
+      - "cli"
+      - "finance"
+      - "market-data"
+      - "rust"
+      - "trading"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-12"
   - name: "sprig"
     title: "sprig"
     description: null
@@ -84,7 +98,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-10-28"
   - name: "sprig-benchmarks"
     title: "sprig-benchmarks"
     description: null
@@ -92,7 +106,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-10-28"
   - name: "skills"
     title: "skills"
     description: null
@@ -128,20 +142,6 @@ repos:
     stars_fact: 19
     first_seen: null
     last_push: "2025-04-04"
-  - name: "agent-finance"
-    title: "agent-finance"
-    description: "AI-agent-first market intelligence CLI for evidence-driven financial research."
-    language: "Rust"
-    topics:
-      - "ai-agent"
-      - "cli"
-      - "finance"
-      - "market-data"
-      - "rust"
-      - "trading"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-12"
 ---
 
 # M4n5ter

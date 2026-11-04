@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 2, 1, 0, 2, 21, 55, 27, 3, 3, 6, 0]
+pushes_per_week: [1, 0, 3, 0, 0, 2, 24, 55, 24, 3, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 8
+    pushes: 23
+    distinct_repos: 7
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 8
-    pushes_per_repo: 3.0000
+    pushes: 23
+    distinct_repos: 7
+    pushes_per_repo: 3.2857
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,14 +77,38 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hex-world"
-    title: "hex-world"
-    description: "Hex World: a WebGPU hex-tile world-building game in Rust/Bevy, hosted at hex-world.pardev.net"
+  - name: "par-term"
+    title: "par-term"
+    description: "Cross-platform GPU-accelerated terminal emulator with inline graphics support (Sixel, iTerm2, Kitty)"
     language: "Rust"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "homebrew-par-term"
+    title: "homebrew-par-term"
+    description: "Homebrew tap for Par Term"
+    language: "Ruby"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "claude-office"
+    title: "claude-office"
+    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 600
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "stable-audio-3-lab"
+    title: "stable-audio-3-lab"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "par-term-emu-core-rust"
     title: "par-term-emu-core-rust"
     description: "Rust terminal emulator library with Python 3.12+ bindings (PyO3). Provides VT100/VT220/VT320/VT420 compatibility with PTY support."
@@ -92,7 +116,7 @@ repos:
     topics: []
     stars_fact: 16
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-02"
   - name: "par-rt-db"
     title: "par-rt-db"
     description: "Self-hosted Convex-inspired realtime document DB in Rust (axum/tokio/Postgres)"
@@ -100,41 +124,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "small-world"
-    title: "small-world"
-    description: "A Three.js terrarium that grows a tiny floating-island world — biome, terrain, flora, creatures, birds, and weather — from a 16-bit seed."
-    language: "JavaScript"
-    topics:
-      - "biome"
-      - "floating-island"
-      - "generative-art"
-      - "procedural-generation"
-      - "seed"
-      - "terrain"
-      - "terrarium"
-      - "threejs"
-      - "voxel"
-      - "webgl"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "par-physics-playground"
-    title: "par-physics-playground"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "zombies-v3"
-    title: "zombies-v3"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
 ---
 
 # paulrobello

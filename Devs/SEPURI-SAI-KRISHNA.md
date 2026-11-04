@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [7, 2, 1, 0, 1, 2, 8, 4, 10, 8, 3, 4, 0]
+pushes_per_week: [7, 1, 1, 0, 1, 4, 6, 5, 9, 10, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 8
-    active_days: 9
+    pushes: 16
+    distinct_repos: 7
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 18
-    active_days: 31
+    pushes: 49
+    distinct_repos: 17
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6129
-  repo_per_active_day: 0.5806
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.0556
+  push_per_day: 1.6333
+  repo_per_active_day: 0.5667
+  not_owned_ratio: 0.1765
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 8
-    pushes_per_repo: 2.3750
-    active_days: 9
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 18
-    pushes_per_repo: 2.7778
-    active_days: 31
+    pushes: 49
+    distinct_repos: 17
+    pushes_per_repo: 2.8824
+    active_days: 30
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Hackathon-Radar"
-    title: "Hackathon-Radar"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "SEPURI-SAI-KRISHNA"
     title: "SEPURI-SAI-KRISHNA"
     description: null
@@ -92,15 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "twolang-lab"
-    title: "twolang-lab"
+    last_push: "2026-11-04"
+  - name: "Hackathon-Radar"
+    title: "Hackathon-Radar"
     description: null
-    language: "Jupyter Notebook"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "streamcase"
     title: "streamcase"
     description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
@@ -108,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
   - name: "importtime-check"
     title: "importtime-check"
     description: "A CI gate for detecting Python import-time regressions."
@@ -116,7 +108,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-31"
+  - name: "twolang-lab"
+    title: "twolang-lab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "til-everything"
     title: "til-everything"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # SEPURI-SAI-KRISHNA
 
-50 pushes across 18 repositories on 31 active days in the last 90 days of public GitHub push activity.
+49 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

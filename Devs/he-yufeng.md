@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "16389f32495280ea"
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 7, 5, 3, 5, 6, 9, 10, 21, 17, 2, 4, 0]
+pushes_per_week: [1, 7, 5, 3, 5, 7, 9, 9, 21, 18, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 16
-    active_days: 13
+    pushes: 29
+    distinct_repos: 15
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 90
     distinct_repos: 27
-    active_days: 41
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2195
-  repo_per_active_day: 0.6585
+  push_per_day: 2.2500
+  repo_per_active_day: 0.6750
   not_owned_ratio: 0.0370
   basename_concentration: 0.0741
   shapes: []
@@ -59,40 +59,40 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 16
-    pushes_per_repo: 1.9375
-    active_days: 13
+    pushes: 29
+    distinct_repos: 15
+    pushes_per_repo: 1.9333
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 91
+    pushes: 90
     distinct_repos: 27
-    pushes_per_repo: 3.3704
-    active_days: 41
+    pushes_per_repo: 3.3333
+    active_days: 40
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "RepoWiki"
-    title: "RepoWiki"
-    description: "Open-source DeepWiki alternative — generate comprehensive wiki documentation for any codebase from terminal or browser"
+  - name: "FindJobs-Agent"
+    title: "FindJobs-Agent"
+    description: "LLM-powered toolkit for skill analysis, AI interviews, resume scoring, and job structuring. Automates professional skill taxonomy and interview processes with adaptive difficulty."
     language: "Python"
     topics:
-      - "cli"
-      - "deepwiki"
-      - "documentation"
+      - "ai-agent"
+      - "crawler"
+      - "interview"
+      - "job-search"
       - "llm"
-      - "pagerank"
       - "python"
       - "react"
-      - "wiki"
-    stars_fact: 301
+      - "resume"
+    stars_fact: 246
     first_seen: null
     last_push: "2026-10-23"
   - name: "CoreCoder"
@@ -110,72 +110,85 @@ repos:
       - "llm"
       - "openai"
       - "python"
-    stars_fact: 1875
+    stars_fact: 1889
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "he-yufeng"
-    title: "he-yufeng"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "core-deepinfer"
-    title: "core-deepinfer"
-    description: "A readable NumPy inference loop: prefill, prefix recovery, verification budgets and speculative KV rollback"
+    last_push: "2026-11-03"
+  - name: "RuleForge"
+    title: "RuleForge"
+    description: "Auto-generate AI assistant rules (CLAUDE.md, .cursorrules, copilot-instructions) from codebase analysis"
     language: "Python"
     topics:
-      - "deepinfer"
-      - "deepseek"
-      - "educational"
-      - "kv-cache"
-      - "llm-inference"
-      - "numpy"
-      - "speculative-decoding"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "ContractGuard"
-    title: "ContractGuard"
-    description: "AI agent that reads the fine print so you don't have to. Upload any contract → get red flags, unfair terms, and plain-English explanations in seconds."
-    language: "Python"
-    topics:
-      - "ai-agent"
+      - "ai-assistant"
+      - "claude-code"
       - "cli"
-      - "contract-review"
-      - "document-analysis"
-      - "legal-tech"
-      - "llm"
-      - "openai"
-      - "pdf"
+      - "code-analysis"
+      - "code-generation"
+      - "copilot"
+      - "cursor"
+      - "cursorrules"
+      - "developer-tools"
       - "python"
-      - "risk-analysis"
-    stars_fact: 160
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "CodeABC"
-    title: "CodeABC"
-    description: "AI-powered code reader for non-programmers | 码上懂 — 不用学编程，也能读懂代码"
+    last_push: "2026-08-24"
+  - name: "GitSense"
+    title: "GitSense"
+    description: "AI-powered open source contribution finder and repo radar"
     language: "Python"
     topics:
       - "ai"
-      - "chinese"
-      - "code-explanation"
-      - "code-reader"
-      - "education"
-      - "fastapi"
+      - "cli"
+      - "contribution"
+      - "developer-tools"
+      - "github"
+      - "good-first-issue"
+      - "issue-finder"
       - "llm"
-      - "non-programmer"
+      - "open-source"
       - "python"
-      - "react"
-    stars_fact: 19
+    stars_fact: 91
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-23"
+  - name: "PromptDiff"
+    title: "PromptDiff"
+    description: "Semantic diff for LLM prompts — compare prompt versions like git diff"
+    language: "Python"
+    topics:
+      - "ci"
+      - "cli"
+      - "diff"
+      - "llm"
+      - "llm-evaluation"
+      - "prompt-engineering"
+      - "prompt-testing"
+      - "python"
+      - "regression-testing"
+      - "semantic-similarity"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-22"
+  - name: "TokenTracker"
+    title: "TokenTracker"
+    description: "Drop-in LLM cost tracker — change one import line, see where your money goes. Supports OpenAI, OpenRouter, Azure, Ollama."
+    language: "Python"
+    topics:
+      - "cli"
+      - "cost-optimization"
+      - "cost-tracking"
+      - "llm"
+      - "monitoring"
+      - "observability"
+      - "ollama"
+      - "openai"
+      - "openrouter"
+      - "python"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # he-yufeng
 
-91 pushes across 27 repositories on 41 active days in the last 90 days of public GitHub push activity.
+90 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/he-yufeng

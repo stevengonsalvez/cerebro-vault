@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [2, 0, 0, 0, 0, 2, 2, 6, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 3, 1, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,6 +88,22 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-09-28"
+  - name: "CLIProxyAPI-secure"
+    title: "CLIProxyAPI-secure"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "Cli-Proxy-API-Management-Center-secure"
+    title: "Cli-Proxy-API-Management-Center-secure"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "chunk-your-tools"
     title: "chunk-your-tools"
     description: "Chunk MCP tools: Tool with required properties; optional Properties and Enums"
@@ -128,29 +144,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2025-01-16"
-  - name: "kubectl-keychain"
-    title: "kubectl-keychain"
-    description: "A kubectl exec plugin that securely stores your kubeconfig credentials in the macOS Keychain and retrieves them on-demand."
-    language: "Python"
-    topics:
-      - "k8s"
-      - "keychain"
-      - "kubectl"
-      - "kubectl-commands"
-      - "kubectl-plugins"
-      - "kubernetes"
-      - "macos"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-02-05"
-  - name: "damien-ai-4friends"
-    title: "damien-ai-4friends"
-    description: "A bootstrap guides in AI for friends from Damien"
-    language: null
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2025-08-20"
 ---
 
 # qdrddr

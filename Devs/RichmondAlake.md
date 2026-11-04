@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 1, 1, 0, 0, 0, 0, 0, 1, 3, 1, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 0, 1, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,9 @@ repos:
       - "oracle-database"
       - "python"
       - "semantic-search"
-    stars_fact: 777
+    stars_fact: 781
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
   - name: "homebrew-memorizz"
     title: "homebrew-memorizz"
     description: "Homebrew tap for the MemoRizz memory-first agent harness"
@@ -100,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "agent_memory_course"
-    title: "agent_memory_course"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-02"
   - name: "agent_harness_course"
     title: "agent_harness_course"
     description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
@@ -119,9 +111,17 @@ repos:
       - "harness-engineering"
       - "langgraph"
       - "python"
-    stars_fact: 36
+    stars_fact: 37
     first_seen: null
     last_push: "2026-09-30"
+  - name: "agent_memory_course"
+    title: "agent_memory_course"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "llmcamp_ai_hub"
     title: "llmcamp_ai_hub"
     description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."

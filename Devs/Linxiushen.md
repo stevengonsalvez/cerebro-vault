@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 7, 11, 2, 1, 0, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 6, 12, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 19
-    active_days: 14
+    pushes: 23
+    distinct_repos: 18
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7143
-  repo_per_active_day: 1.3571
+  push_per_day: 1.7692
+  repo_per_active_day: 1.3846
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 19
-    pushes_per_repo: 1.2632
-    active_days: 14
+    pushes: 23
+    distinct_repos: 18
+    pushes_per_repo: 1.2778
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "frontier-signal-lab"
@@ -92,9 +92,30 @@ repos:
       - "reproducibility"
       - "reproducible-research"
       - "research-tools"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-03"
+  - name: "metis-voc"
+    title: "metis-voc"
+    description: "Evidence-aware product research workspace: market data, VOC, concepts, human review and decision governance on Cloudflare Workers."
+    language: "JavaScript"
+    topics:
+      - "cloudflare-workers"
+      - "ecommerce"
+      - "product-research"
+      - "typescript"
+      - "voice-of-customer"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "MultiAgent-Optimization"
+    title: "MultiAgent-Optimization"
+    description: "Advanced Multi-Agent Optimization System featuring intelligent routing strategies, semantic memory optimization, distributed coordination with failover mechanisms, and AI-powered conflict resolution capabilities"
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-06-29"
   - name: "Linxiushen"
     title: "Linxiushen"
     description: "Independent FDE engineer: AI workflow integrations and merged open-source contributions"
@@ -115,19 +136,6 @@ repos:
     description: "Self-hostable cross-border commerce AI workbench"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "metis-voc"
-    title: "metis-voc"
-    description: "Evidence-aware product research workspace: market data, VOC, concepts, human review and decision governance on Cloudflare Workers."
-    language: "JavaScript"
-    topics:
-      - "cloudflare-workers"
-      - "ecommerce"
-      - "product-research"
-      - "typescript"
-      - "voice-of-customer"
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
@@ -155,27 +163,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "dsh-repro-kit"
-    title: "dsh-repro-kit"
-    description: "Deterministic, privacy-aware minimal repro bundles for DeepSeek Harness sessions"
-    language: "TypeScript"
-    topics:
-      - "agent-debugging"
-      - "agentic-ai"
-      - "cli"
-      - "debugging"
-      - "deepseek"
-      - "deepseek-harness"
-      - "redaction"
-      - "reproducibility"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # Linxiushen
 
-24 pushes across 19 repositories on 14 active days in the last 90 days of public GitHub push activity.
+23 pushes across 18 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Linxiushen

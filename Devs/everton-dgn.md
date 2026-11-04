@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "akitaonrails/ai-memory"
-  - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4138778ebbc75ba6"
-  - "de6bf05613f3ae04"
-pushes_per_week: [3, 3, 1, 0, 0, 2, 3, 11, 7, 7, 5, 7, 0]
+pushes_per_week: [3, 4, 0, 0, 0, 2, 3, 12, 6, 7, 8, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

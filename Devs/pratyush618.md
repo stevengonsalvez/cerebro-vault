@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 4, 0, 0, 2, 1, 8, 4, 7, 4, 1, 0, 0]
+pushes_per_week: [4, 2, 0, 0, 2, 1, 8, 5, 6, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 8
-    active_days: 25
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 33
+    distinct_repos: 5
+    active_days: 24
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5200
-  repo_per_active_day: 0.3200
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.2500
+  push_per_day: 1.3750
+  repo_per_active_day: 0.2083
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 8
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 38
-    distinct_repos: 8
-    pushes_per_repo: 4.7500
-    active_days: 25
-    repos_not_owned: 6
-    not_owned_basenames: 5
+    pushes: 33
+    distinct_repos: 5
+    pushes_per_repo: 6.6000
+    active_days: 24
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pratyush618"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "singularity-fm"
     title: "singularity-fm"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # pratyush618
 
-38 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
+33 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

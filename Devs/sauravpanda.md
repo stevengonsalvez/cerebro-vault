@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 6, 5, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "flarellm"
+    title: "flarellm"
+    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
+    language: "Rust"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "BrowserAI"
     title: "BrowserAI"
     description: "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser"
@@ -94,14 +102,6 @@ repos:
     stars_fact: 1451
     first_seen: null
     last_push: "2026-07-21"
-  - name: "flarellm"
-    title: "flarellm"
-    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "stepback"
     title: "stepback"
     description: "iOS practice tool for learning dance from your own video library. Slow-mo without pitch-shift, loop hard sections, frame-step, and beat-locked step timing. SwiftUI + SwiftData, iOS 17+, zero dependencies."
@@ -133,7 +133,7 @@ repos:
       - "wsdc"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-11-01"
   - name: "find-pickleball-court-sf"
     title: "find-pickleball-court-sf"
     description: null

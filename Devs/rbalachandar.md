@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 7
+    pushes: 7
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1429
-  repo_per_active_day: 0.5714
+  push_per_day: 1.1667
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,52 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 7
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "bionexus"
+    title: "bionexus"
+    description: "BioNexus is an agentic science system that runs experiments end to end — hypothesis portfolios, safety-gated labs (simulated or real instruments), verdicts with confidence intervals against pre-registered criteria, and tamper-evident provenance. Includes an offline eval suite. Domain-agnostic core."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-labs"
+      - "agentic-science"
+      - "autonomous-agents"
+      - "bioinformatics"
+      - "evals"
+      - "laboratory-automation"
+      - "mcp"
+      - "python"
+      - "scientific-method"
+      - "self-driving-labs"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "rbalachandar"
+    title: "rbalachandar"
+    description: "AI & Data Engineering"
+    language: null
+    topics:
+      - "ai"
+      - "context-engineering"
+      - "context-management"
+      - "data-engineering"
+      - "data-science"
+      - "llm-inference"
+      - "llmops"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "rbalachandar.github.io"
     title: "rbalachandar.github.io"
     description: "github.io page"
@@ -94,21 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-15"
-  - name: "rbalachandar"
-    title: "rbalachandar"
-    description: "AI & Data Engineering"
-    language: null
-    topics:
-      - "ai"
-      - "context-engineering"
-      - "context-management"
-      - "data-engineering"
-      - "data-science"
-      - "llm-inference"
-      - "llmops"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
   - name: "llm-learning-sim"
     title: "llm-learning-sim"
     description: null
@@ -130,25 +149,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-27"
-  - name: "autoresearch"
-    title: "autoresearch"
-    description: "General-purpose autonomous research framework for AI agents. Inspired by Andrej Karpathy's autoresearch."
-    language: "Python"
-    topics:
-      - "agent"
-      - "auto-research"
-      - "autoresearch"
-      - "claude"
-      - "claude-code"
-      - "optimization"
-      - "python"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-15"
 ---
 
 # rbalachandar
 
-8 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+7 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rbalachandar

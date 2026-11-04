@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [1, 0, 0, 0, 0, 2, 0, 5, 1, 0, 0, 3, 0]
@@ -77,6 +77,46 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Railgun19457"
+    title: "Railgun19457"
+    description: "Profile page"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "VelocityAuth"
+    title: "VelocityAuth"
+    description: "Velocity 代理端的账号认证插件：账号名独立于游戏 ID，Java 端与基岩端共用同一账号"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "astrbot_plugin_persona_plus"
+    title: "astrbot_plugin_persona_plus"
+    description: "适用于AstrBot的人格设定管理插件"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "astrbot_plugin_velocity_auth"
+    title: "astrbot_plugin_velocity_auth"
+    description: "AstrBot 插件：连接 VelocityAuth（Velocity），群内验证码验证与玩家/服务器信息查询"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "astrbot_plugin_image_generation"
+    title: "astrbot_plugin_image_generation"
+    description: "通用图像生成插件"
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "Dummy"
     title: "Dummy"
     description: "Dummy 是一个面向高版本 Paper 服务端的假人插件，通过服务端真实假玩家实体提供背包、装备、经验、动作、皮肤、持久化和区块加载能力"
@@ -85,46 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "Railgun19457"
-    title: "Railgun19457"
-    description: "Profile page"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "astrbot_plugin_image_generation"
-    title: "astrbot_plugin_image_generation"
-    description: "通用图像生成插件"
-    language: "Python"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "AstrbotScript"
-    title: "AstrbotScript"
-    description: "一个一键部署脚本，适用于Astrbot和Napcat"
-    language: "Shell"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-03-19"
-  - name: "astrbot_plugin_qq_admin"
-    title: "astrbot_plugin_qq_admin"
-    description: "基于 OneBot v11 的 QQ 群管理插件：禁言/踢人/撤回/黑名单/多群分组/进群审核/表格导出，支持指令与 LLM 工具"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "Serveroute"
-    title: "Serveroute"
-    description: "Replace Velocity /server with config-routed internal connect and Transfer, plus public-entry line switching."
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
 ---
 
 # Railgun19457

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [25, 6, 4, 12, 3, 18, 31, 28, 18, 15, 4, 3, 0]
+pushes_per_week: [24, 3, 6, 10, 3, 18, 35, 26, 16, 16, 4, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 9
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 163
     distinct_repos: 49
-    active_days: 54
+    active_days: 53
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0926
-  repo_per_active_day: 0.9074
+  push_per_day: 3.0755
+  repo_per_active_day: 0.9245
   not_owned_ratio: 0.1837
   basename_concentration: 0.0204
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 30
     distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 12
+    pushes_per_repo: 3.3333
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 163
     distinct_repos: 49
-    pushes_per_repo: 3.4082
-    active_days: 54
+    pushes_per_repo: 3.3265
+    active_days: 53
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-theme-liftoff"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-167 pushes across 49 repositories on 54 active days in the last 90 days of public GitHub push activity.
+163 pushes across 49 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

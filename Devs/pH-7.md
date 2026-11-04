@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [3, 2, 2, 0, 1, 1, 5, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [5, 0, 2, 0, 1, 1, 5, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,45 +90,57 @@ repos:
       - "github-profile"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "ifSetOr"
-    title: "ifSetOr"
-    description: "if set function is a useful PHP function"
+    last_push: "2026-11-04"
+  - name: "Simple-Java-Calculator"
+    title: "Simple-Java-Calculator"
+    description: ":1234: Simple calculator is written in Java with Eclipse. This calculator is simple with an easy code to help novices learn how to operate a calculator."
+    language: "Java"
+    topics:
+      - "calculator"
+      - "java"
+      - "java-calculator"
+      - "java-learning"
+      - "java-simple-project"
+      - "java-study"
+      - "java-swing"
+      - "learn"
+      - "learning-java"
+      - "simple-java-calculator"
+      - "teaching"
+    stars_fact: 244
+    first_seen: null
+    last_push: "2024-02-22"
+  - name: "QRCode-Generator-PHP-Class"
+    title: "QRCode-Generator-PHP-Class"
+    description: ":rocket: QRCode PHP class (library). QR Code Generator using vCard 4.0 and the Google Chart API"
     language: "PHP"
     topics:
-      - "ifsetor"
+      - "generator"
       - "php"
-      - "php-6"
-      - "php-rfc"
-      - "php6"
-      - "rfc"
-    stars_fact: 2
+      - "php-qr"
+      - "php-qrcode"
+      - "qr-code"
+      - "qrcode"
+      - "qrcode-generator"
+      - "qrcode-php"
+      - "vcard"
+    stars_fact: 103
     first_seen: null
-    last_push: "2012-04-22"
-  - name: "Thumbnails-Maker"
-    title: "Thumbnails-Maker"
-    description: "📺 YouTube Thumbnails Maker Studio v3 – Create Unlimited YouTube Video Thumbnails Super Easily and Unique. Built with ElectronJS"
-    language: "JavaScript"
+    last_push: "2021-07-20"
+  - name: "pedagogical-video-editor-skill"
+    title: "pedagogical-video-editor-skill"
+    description: "Automatically edit engaging educational videos with intelligent cuts, dynamic zooms, captions, animations, sound effects and music. Optimised for long-form YouTube videos, courses and Shorts, with previews, quality checks and editable exports"
+    language: "Python"
     topics:
-      - "electron-app"
-      - "electronjs"
-      - "thumbnail-generator"
-      - "thumbnail-maker"
-      - "thumbnail-maker-studio"
-      - "video-thumbnail"
-      - "video-thumbnail-generator"
-      - "video-thumbnails"
-      - "video-thumbnails-maker"
-      - "youtube"
-      - "youtube-image"
-      - "youtube-thumbnail"
-      - "youtube-thumbnail-generator"
-      - "youtube-thumbnail-maker"
-      - "youtube-thumbnails"
-      - "yt-thumbnail-maker"
-    stars_fact: 26
+      - "ai-skills"
+      - "ai-video-editor-sdk"
+      - "automated-video-editing"
+      - "codex"
+      - "openai-codex"
+      - "skills"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-12"
+    last_push: "2026-11-02"
   - name: "Download-Simply-Videos-From-YouTube"
     title: "Download-Simply-Videos-From-YouTube"
     description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
@@ -154,50 +166,37 @@ repos:
       - "youtube-to-mp3"
       - "youtube-videos-downloader"
       - "youtube2mp3"
-    stars_fact: 402
+    stars_fact: 404
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "carrots-rabbits-wolves"
-    title: "carrots-rabbits-wolves"
-    description: "🗺 World Simulation Challenge (inspired by Francesco Cesarini’s Erlang programming concepts): The world is inhabited by carrots that grow from the earth, rabbits that feed on carrots, and wolves that hunt rabbits in an intricate food chain."
-    language: "JavaScript"
+    last_push: "2026-10-31"
+  - name: "Simple-Java-Text-Editor"
+    title: "Simple-Java-Text-Editor"
+    description: ":memo: PHNotepad is a simple Java text/code editor (notepad) written in Java. It has also nice features such as Search tool, Find/Replace text/code, Auto-completion, Nice Image Buttons for better UX, etc."
+    language: "Java"
     topics:
-      - "carrots"
-      - "carrots-rabbits"
-      - "carrots-rabbits-wolves"
-      - "coding-challenge"
-      - "javascript-coding-challenges"
-      - "javascript-game"
-      - "problem-solving"
-      - "problem-solving-algorithms"
-      - "problem-solving-exercise"
-      - "rabbits"
-      - "rabbits-wolves"
-      - "wolf"
-      - "wolves"
-      - "world-simulation"
-      - "world-simulation-puzzle"
-    stars_fact: 5
+      - "editor"
+      - "java"
+      - "java-editor"
+      - "java-learning"
+      - "java-note"
+      - "java-simple-project"
+      - "java-simple-text-editor"
+      - "java-study"
+      - "java-text"
+      - "java-text-editor"
+      - "learning-java"
+      - "notepad"
+      - "simple-java-editor"
+      - "simple-java-ide"
+      - "simple-java-text-editor"
+      - "simple-text-editor"
+      - "teaching"
+      - "text-editor"
+      - "text-editor-java"
+      - "texteditor"
+    stars_fact: 175
     first_seen: null
-    last_push: "2025-10-15"
-  - name: "PHP-MVC-Blog-System"
-    title: "PHP-MVC-Blog-System"
-    description: ":fire: Simple PHP blog system application based on the MVC pattern and written in PHP 5.5. This project can be used as a Base MVC \"framework\" to start your PHP project easily under good development patterns and good development practice and organization."
-    language: "PHP"
-    topics:
-      - "blog"
-      - "blog-article"
-      - "mvc"
-      - "mvc-blog"
-      - "mvc-framework"
-      - "mvc-pattern"
-      - "mvcblog"
-      - "php"
-      - "php-blog"
-      - "php-mvc"
-    stars_fact: 153
-    first_seen: null
-    last_push: "2019-04-09"
+    last_push: "2022-06-22"
 ---
 
 # pH-7

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 4, 0, 1, 1, 0, 3, 5, 14, 2, 0, 0, 0]
+pushes_per_week: [1, 4, 0, 1, 1, 0, 3, 6, 13, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -89,9 +89,33 @@ repos:
       - "rust"
       - "torrent"
       - "tui"
-    stars_fact: 43
+    stars_fact: 45
     first_seen: null
     last_push: "2026-10-23"
+  - name: "nexxel.dev"
+    title: "nexxel.dev"
+    description: "my personal website and blog"
+    language: "MDX"
+    topics:
+      - "blog"
+      - "mdx"
+      - "nextjs"
+      - "personal-website"
+      - "redis"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 280
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "oc-pstack"
+    title: "oc-pstack"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "carry"
     title: "carry"
     description: "A font that does arithmetic. Type 128+256= and it draws the 384."
@@ -102,7 +126,7 @@ repos:
       - "harfbuzz"
       - "opentype"
       - "typography"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-10-25"
   - name: "spotify-voice-control"
@@ -128,30 +152,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-21"
-  - name: "oc-pstack"
-    title: "oc-pstack"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "nexxel.dev"
-    title: "nexxel.dev"
-    description: "my personal website and blog"
-    language: "MDX"
-    topics:
-      - "blog"
-      - "mdx"
-      - "nextjs"
-      - "personal-website"
-      - "redis"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 280
-    first_seen: null
-    last_push: "2026-06-23"
 ---
 
 # nexxeln

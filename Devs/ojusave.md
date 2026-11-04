@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 1, 0, 0, 0, 1, 6, 4, 5, 10, 2, 1, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 1, 6, 6, 3, 12, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    active_days: 12
+    pushes: 30
+    distinct_repos: 15
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5833
-  repo_per_active_day: 1.3333
+  push_per_day: 2.7273
+  repo_per_active_day: 1.3636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0625
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
-    distinct_repos: 16
-    pushes_per_repo: 1.9375
-    active_days: 12
+    pushes: 30
+    distinct_repos: 15
+    pushes_per_repo: 2.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "deep-careers"
+    title: "deep-careers"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "coolbikes"
+    title: "coolbikes"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "nimble-proof-agent"
+    title: "nimble-proof-agent"
+    description: "Job research agent using Nimble to find openings, check supporting evidence, and suggest resume additions for review."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "firstlight"
+    title: "firstlight"
+    description: "Research a business idea and build its first website with Nimble Search and Extract, Mastra workflows, and Sapiom model access and approved domain registration."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "nofx-render-template"
     title: "nofx-render-template"
     description: "Personal copy of render-examples/nofx-render-template"
@@ -93,42 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "karakeep-render-template"
-    title: "karakeep-render-template"
-    description: "Personal copy of render-examples/karakeep-render-template"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "imessage-codex-agent-render-template"
-    title: "imessage-codex-agent-render-template"
-    description: "Personal copy of render-examples/imessage-codex-agent-render-template"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "dify-render-template"
-    title: "dify-render-template"
-    description: "Personal copy of render-examples/dify-render-template"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "cursor-cloud-agents-sandboxes"
-    title: "cursor-cloud-agents-sandboxes"
-    description: "Personal copy of render-examples/cursor-cloud-agents-sandboxes"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
 ---
 
 # ojusave
 
-31 pushes across 16 repositories on 12 active days in the last 90 days of public GitHub push activity.
+30 pushes across 15 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ojusave

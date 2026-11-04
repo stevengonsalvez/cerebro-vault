@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [78, 77, 60, 10, 5, 42, 147, 155, 143, 299, 118, 128, 0]
+pushes_per_week: [90, 66, 57, 10, 5, 57, 160, 145, 125, 326, 153, 66, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,29 +22,29 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 569
+    pushes: 551
     distinct_repos: 69
-    active_days: 19
+    active_days: 18
     repos_not_owned: 40
     not_owned_basenames: 37
     not_owned_owners: 5
   "90d":
-    pushes: 1262
+    pushes: 1260
     distinct_repos: 108
-    active_days: 71
+    active_days: 70
     repos_not_owned: 71
     not_owned_basenames: 47
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 17.7746
-  repo_per_active_day: 1.5211
+  push_per_day: 18.0000
+  repo_per_active_day: 1.5429
   not_owned_ratio: 0.6574
   basename_concentration: 0.1574
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "17.77 pushes per active day over 90d (1262 pushes / 71 active days), above the 15 review line"
+    - "18.00 pushes per active day over 90d (1260 pushes / 70 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 569
+    pushes: 551
     distinct_repos: 69
-    pushes_per_repo: 8.2464
-    active_days: 19
+    pushes_per_repo: 7.9855
+    active_days: 18
     repos_not_owned: 40
     not_owned_basenames: 37
     not_owned_owners: 5
   "90d":
-    pushes: 1262
+    pushes: 1260
     distinct_repos: 108
-    pushes_per_repo: 11.6852
-    active_days: 71
+    pushes_per_repo: 11.6667
+    active_days: 70
     repos_not_owned: 71
     not_owned_basenames: 47
     not_owned_owners: 23
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 71 active days in 90d — pass"
+  - "activity: 70 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "teeny"
@@ -84,7 +84,7 @@ repos:
     description: null
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-22"
   - name: "llm-ladder-router"
@@ -131,6 +131,6 @@ repos:
 
 # senamakel
 
-1262 pushes across 108 repositories on 71 active days in the last 90 days of public GitHub push activity.
+1260 pushes across 108 repositories on 70 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

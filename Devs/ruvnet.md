@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [20, 28, 15, 8, 8, 23, 19, 60, 54, 66, 16, 28, 0]
+pushes_per_week: [28, 19, 17, 6, 9, 29, 14, 64, 48, 75, 16, 19, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 133
+    pushes: 117
     distinct_repos: 20
-    active_days: 16
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 345
+    pushes: 344
     distinct_repos: 35
-    active_days: 62
+    active_days: 61
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.5645
-  repo_per_active_day: 0.5645
+  push_per_day: 5.6393
+  repo_per_active_day: 0.5738
   not_owned_ratio: 0.2000
   basename_concentration: 0.1714
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 133
+    pushes: 117
     distinct_repos: 20
-    pushes_per_repo: 6.6500
-    active_days: 16
+    pushes_per_repo: 5.8500
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
   "90d":
-    pushes: 345
+    pushes: 344
     distinct_repos: 35
-    pushes_per_repo: 9.8571
-    active_days: 62
+    pushes_per_repo: 9.8286
+    active_days: 61
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ruflo"
@@ -102,9 +102,37 @@ repos:
       - "swarm"
       - "swarm-intelligence"
       - "typescript"
-    stars_fact: 79619
+    stars_fact: 80821
     first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "ruv-neural"
+    title: "ruv-neural"
+    description: "The open closed-loop OS for gamma-entrainment research — a Rust/WASM/edge harness to measure, adapt & compare 40 Hz multisensory stimulation protocols with signed, reproducible evidence. Research-grade, not a medical device."
+    language: "Rust"
+    topics:
+      - "bci"
+      - "brain-computer-interface"
+      - "brain-mapping"
+      - "closed-loop"
+      - "dsp"
+      - "eeg"
+      - "gamma-entrainment"
+      - "graph-theory"
+      - "magnetometry"
+      - "minimum-cut"
+      - "neural-decoding"
+      - "neurofeedback"
+      - "neuroscience"
+      - "neurotechnology"
+      - "nv-center"
+      - "protocol-optimization"
+      - "real-time"
+      - "rust"
+      - "signal-processing"
+      - "topology"
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-08-09"
   - name: "RuView"
     title: "RuView"
     description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
@@ -130,53 +158,72 @@ repos:
       - "typescript"
       - "wifi"
       - "wifi-security"
-    stars_fact: 99868
+    stars_fact: 102303
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "site-harness"
-    title: "site-harness"
-    description: "Network-layer website reverse engineer with MetaHarness, npx CLI and MCP"
-    language: "TypeScript"
+    last_push: "2026-11-04"
+  - name: "ruvnet"
+    title: "ruvnet"
+    description: "ruvnet."
+    language: "Python"
     topics: []
-    stars_fact: 9
+    stars_fact: 289
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "rGi"
-    title: "rGi"
-    description: "A perpetual agentic runtime for Artificial General Intelligence built on the ruvstack"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "Polymath"
-    title: "Polymath"
-    description: "Rust toolkit for reproducible AI assisted mathematical research: exact certificates, durable evidence, and native RuVector, rGi, and Autogenous."
+    last_push: "2026-11-03"
+  - name: "ruqu"
+    title: "ruqu"
+    description: "High-performance quantum computing in pure Rust + WebAssembly: state-vector circuit simulator with SIMD & noise models, VQE, Grover, QAOA, surface-code error correction, and real-time coherence via dynamic min-cut."
     language: "Rust"
     topics:
-      - "ai-agents"
-      - "formal-verification"
-      - "mathematics"
-      - "number-theory"
-      - "reproducible-research"
-      - "ruflo"
+      - "grovers-algorithm"
+      - "mincut"
+      - "noise-model"
+      - "qaoa"
+      - "quantum"
+      - "quantum-algorithms"
+      - "quantum-chemistry"
+      - "quantum-computing"
+      - "quantum-error-correction"
+      - "quantum-simulator"
       - "rust"
-      - "ruvector"
-    stars_fact: 4
+      - "simd"
+      - "simulator"
+      - "state-vector"
+      - "surface-code"
+      - "vqe"
+      - "wasm"
+      - "webassembly"
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "rune"
-    title: "rune"
-    description: "Rune: the learning toolchain for Rust. Reimagining Cargo with RuVector memory, Agent Booster edits, bounded AI discovery and independently validated builds. Architecture preview."
+    last_push: "2026-10-31"
+  - name: "RuVector"
+    title: "RuVector"
+    description: "RuVector provides High Performance, Real-Time decisions and agent memory , Self-Learning Ai, Vector GNN DB built in Rust."
     language: "Rust"
-    topics: []
-    stars_fact: 3
+    topics:
+      - "ai"
+      - "ai-ocr"
+      - "attention-mechanism"
+      - "gnn"
+      - "gnn-model"
+      - "gnns"
+      - "graph"
+      - "graph-neural-networks"
+      - "llm-inference"
+      - "low-latency"
+      - "mincut"
+      - "neo4j"
+      - "ocr"
+      - "onnx"
+      - "rust"
+      - "vector"
+      - "wasm"
+    stars_fact: 4662
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
 ---
 
 # ruvnet
 
-345 pushes across 35 repositories on 62 active days in the last 90 days of public GitHub push activity.
+344 pushes across 35 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

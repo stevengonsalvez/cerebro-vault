@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 0, 0, 1, 0, 21, 30, 41, 16, 16, 2, 7, 1]
+pushes_per_week: [2, 0, 1, 0, 1, 27, 24, 43, 13, 16, 4, 5, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 11
     active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 137
+    pushes: 138
     distinct_repos: 21
-    active_days: 37
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.7027
-  repo_per_active_day: 0.5676
+  push_per_day: 3.6316
+  repo_per_active_day: 0.5526
   not_owned_ratio: 0.4762
   basename_concentration: 0.0952
   shapes: []
@@ -49,50 +49,47 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.7273
+    pushes_per_repo: 2.6364
     active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 137
+    pushes: 138
     distinct_repos: 21
-    pushes_per_repo: 6.5238
-    active_days: 37
+    pushes_per_repo: 6.5714
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
+  - name: "vtmux"
+    title: "vtmux"
+    description: "tmux on a modern stack: all the baggage, fast and lean, fewer paper cuts, better rendering."
     language: "Rust"
-    topics: []
+    topics:
+      - "ghostty"
+      - "libghostty"
+      - "rust"
+      - "terminal-multiplexer"
+      - "tmux"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "debrief"
-    title: "debrief"
-    description: "Catch up with what your coding agents committed, and answer back."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -100,37 +97,43 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "mdroots"
-    title: "mdroots"
-    description: "A zero-config markdown (and org) language server and Rust library."
+    last_push: "2026-11-03"
+  - name: "ramble"
+    title: "ramble"
+    description: "Read your notes in the terminal, and follow them wherever they link."
     language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "martintrojer"
-    title: "martintrojer"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
+    last_push: "2026-11-03"
+  - name: "debrief"
+    title: "debrief"
+    description: "Catch up with what your coding agents committed, and answer back."
+    language: "Rust"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "carddown"
-    title: "carddown"
-    description: "Spaced repetition for your markdown notes."
+    last_push: "2026-11-03"
+  - name: "vecgrep"
+    title: "vecgrep"
+    description: "Semantic grep — like ripgrep, but with vector search"
     language: "Rust"
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-04-12"
+    last_push: "2026-09-12"
+  - name: "hexclack"
+    title: "hexclack"
+    description: "I have given up on elgato software"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # martintrojer
 
-137 pushes across 21 repositories on 37 active days in the last 90 days of public GitHub push activity.
+138 pushes across 21 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/martintrojer

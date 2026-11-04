@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [13, 10, 5, 5, 0, 4, 5, 7, 21, 5, 5, 0, 0]
+pushes_per_week: [18, 4, 6, 3, 1, 3, 8, 6, 19, 5, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 8
     active_days: 6
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 18
-    active_days: 38
+    active_days: 37
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.1053
-  repo_per_active_day: 0.4737
+  push_per_day: 2.1081
+  repo_per_active_day: 0.4865
   not_owned_ratio: 0.5556
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 20
+    pushes: 17
     distinct_repos: 8
-    pushes_per_repo: 2.5000
+    pushes_per_repo: 2.1250
     active_days: 6
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 18
-    pushes_per_repo: 4.4444
-    active_days: 38
+    pushes_per_repo: 4.3333
+    active_days: 37
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dohnuts"
@@ -90,7 +90,7 @@ repos:
       - "rlcd"
       - "system-one"
       - "typesafe"
-    stars_fact: 37
+    stars_fact: 38
     first_seen: null
     last_push: "2026-10-06"
   - name: "riteraft"
@@ -156,6 +156,6 @@ repos:
 
 # PsiACE
 
-80 pushes across 18 repositories on 38 active days in the last 90 days of public GitHub push activity.
+78 pushes across 18 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

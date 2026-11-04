@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [7, 3, 4, 0, 1, 0, 0, 0, 10, 3, 4, 0, 0]
+pushes_per_week: [8, 2, 4, 0, 1, 0, 0, 0, 10, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 7
-    active_days: 9
+    pushes: 12
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 7
+    pushes: 12
+    distinct_repos: 6
     pushes_per_repo: 2.0000
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-orchestrator"
+    title: "agent-orchestrator"
+    description: "Multi-account desktop workflow orchestrator for local CLI AI agents, with routed profiles, PTY sessions, and signal-aware blocks."
+    language: "JavaScript"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "conpty"
+      - "electron"
+      - "multi-account"
+      - "windows"
+      - "workflow-automation"
+      - "xtermjs"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "emojikit"
     title: "emojikit"
     description: "Turn any character image into a high-quality animated emoji pack (Slack/Discord/Twitch) — 2D puppet engine, auto-rigging, web studio."
@@ -157,26 +173,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-06"
-  - name: "morflo"
-    title: "morflo"
-    description: "Local-first image conversion, compression and resizing for Windows. Built-in image engine; optional local FFmpeg for video. No uploads."
-    language: "Rust"
-    topics:
-      - "batch-conversion"
-      - "desktop-app"
-      - "ffmpeg"
-      - "image-compression"
-      - "image-conversion"
-      - "image-resizer"
-      - "local-first"
-      - "privacy"
-      - "rust"
-      - "tauri"
-      - "video-conversion"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
 ---
 
 # snowyukitty

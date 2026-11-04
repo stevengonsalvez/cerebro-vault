@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 2, 1, 0, 0, 1, 0, 1, 4, 1, 2, 0, 0]
+pushes_per_week: [4, 2, 1, 0, 0, 1, 1, 0, 4, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-github-panel"
+    title: "opencode-github-panel"
+    description: "Git and GitHub side panel for OpenCode Desktop: graph, PRs, reviews, CI, issues, triage, and agent tools with an approval queue"
+    language: "TypeScript"
+    topics:
+      - "code-review"
+      - "git"
+      - "github"
+      - "opencode"
+      - "opencode-plugin"
+      - "triage"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "opentui-math"
     title: "opentui-math"
     description: "Beautiful LaTeX math rendering for OpenTUI"
@@ -90,44 +104,36 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2026-07-30"
-  - name: "opencode-github-browser"
-    title: "opencode-github-browser"
-    description: "Read GitHub issues and pull requests inside the OpenCode TUI"
+  - name: "opentui-browser"
+    title: "opentui-browser"
+    description: "A Chromium browser surface for OpenTUI using the Kitty graphics protocol"
     language: "TypeScript"
     topics: []
-    stars_fact: 9
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-09-06"
-  - name: "opencode-chatgpt-websearch"
-    title: "opencode-chatgpt-websearch"
-    description: "Experimental OpenCode2 web search provider using ChatGPT OAuth"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-08-08"
-  - name: "aevum"
-    title: "aevum"
-    description: "Private, local voice-to-text for Windows"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-11"
+    last_push: "2026-08-01"
   - name: "opencode-browser"
     title: "opencode-browser"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 29
+    stars_fact: 30
     first_seen: null
     last_push: "2026-08-01"
+  - name: "opencode-github-browser"
+    title: "opencode-github-browser"
+    description: "Read GitHub issues and pull requests inside the OpenCode TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-06"
   - name: "compact-plugin"
     title: "compact-plugin"
     description: "Agent-callable session inspection and compaction tools for OpenCode V2."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-09-17"
 ---

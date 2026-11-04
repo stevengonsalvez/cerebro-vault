@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [14, 15, 5, 0, 1, 0, 8, 12, 15, 0, 3, 1, 0]
+pushes_per_week: [16, 14, 4, 0, 1, 2, 6, 13, 14, 0, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,65 +77,61 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "amplifier-app-studio"
-    title: "amplifier-app-studio"
-    description: "Native Tauri 2 studio for parallel Microsoft Amplifier sessions on desktop, mobile, and web"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "amplifier-app-tui"
-    title: "amplifier-app-tui"
-    description: "Full-screen Textual TUI for the Amplifier AI development platform (v3 Cohesive)"
+  - name: "amplifier-capability-arxivchecker"
+    title: "amplifier-capability-arxivchecker"
+    description: "A reusable Amplifier capability for turning completed studies into traceable LaTeX papers and reviewable arXiv source packages."
     language: "Python"
     topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "amplifier-runtime"
-    title: "amplifier-runtime"
-    description: "UI-neutral session runtime shared by Amplifier TUI, Studio, automation, and remote clients"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "amplifier-smart-tool-decisioncraft"
-    title: "amplifier-smart-tool-decisioncraft"
-    description: "Point Decisioncraft at anything (a codebase, meeting notes, a process or a personal choice) and get as-is against to-be, gaps as user stories, and a sticky note from every role. Rigorous decision analysis in plain language."
-    language: "Python"
-    topics:
-      - "amplifier-smart-tool"
-      - "decision-making"
-      - "human-centered-design"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "amplifier-smart-tool-visualizer"
-    title: "amplifier-smart-tool-visualizer"
-    description: "knowledge: one knowledge graph your agents remember with, and you can explore. An Amplifier Smart Tool: provenance, time, paths, contradictions, gaps, live view."
-    language: "HTML"
+    last_push: "2026-11-03"
+  - name: "amplifier-capability-teaserkit"
+    title: "amplifier-capability-teaserkit"
+    description: "Re-shoot your product video from one storyboard, in three formats."
+    language: "Python"
     topics:
-      - "agents"
       - "amplifier"
-      - "graphrag"
-      - "knowledge-graph"
-      - "mcp"
-      - "obsidian"
-      - "python"
+      - "ffmpeg"
+      - "playwright"
+      - "product-demo"
+      - "screen-recording"
       - "smart-tools"
-    stars_fact: 1
+      - "video"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "amplifier-skill-worth-using"
-    title: "amplifier-skill-worth-using"
-    description: "Worth Using: a usefulness rubric with a coach. Scores whether a tool is useful to someone who didn't build it, with evidence on every rating."
+    last_push: "2026-11-02"
+  - name: "amplifier-capability-delivery-packager"
+    title: "amplifier-capability-delivery-packager"
+    description: "Build a bounded local delivery archive from an explicitly reviewed file plan, with integrity and handoff metadata."
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-02"
+  - name: "amplifier-capability-project-handoff"
+    title: "amplifier-capability-project-handoff"
+    description: "Capture, resume and check project handoffs with decisions, evidence, unresolved work and next actions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "amplifier-capability-memory"
+    title: "amplifier-capability-memory"
+    description: "Find the original record without carrying every past session into the current one."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "amplifier-capability-data"
+    title: "amplifier-capability-data"
+    description: "Append-only storage for exact evidence and replaceable views. Independent Python library with a Rust kernel."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # michaeljabbour

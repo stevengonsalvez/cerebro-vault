@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "d2a13eb5e04b724b"
-pushes_per_week: [39, 41, 17, 19, 26, 33, 91, 166, 135, 168, 51, 85, 0]
+pushes_per_week: [43, 32, 25, 11, 30, 35, 128, 131, 127, 183, 48, 73, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 373
-    distinct_repos: 8
-    active_days: 17
+    pushes: 332
+    distinct_repos: 7
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 871
+    pushes: 866
     distinct_repos: 13
-    active_days: 65
+    active_days: 63
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 13.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 13.7460
+  repo_per_active_day: 0.2063
   not_owned_ratio: 0.3846
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 373
-    distinct_repos: 8
-    pushes_per_repo: 46.6250
-    active_days: 17
+    pushes: 332
+    distinct_repos: 7
+    pushes_per_repo: 47.4286
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 871
+    pushes: 866
     distinct_repos: 13
-    pushes_per_repo: 67.0000
-    active_days: 65
+    pushes_per_repo: 66.6154
+    active_days: 63
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worktrunk"
@@ -139,6 +139,6 @@ repos:
 
 # max-sixty
 
-871 pushes across 13 repositories on 65 active days in the last 90 days of public GitHub push activity.
+866 pushes across 13 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/max-sixty

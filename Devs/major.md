@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 2, 0, 0, 0, 0, 2, 3, 15, 7, 1, 4, 0]
+pushes_per_week: [8, 2, 0, 0, 0, 0, 2, 3, 15, 7, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 13
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 10
-    active_days: 21
+    pushes: 42
+    distinct_repos: 9
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0476
-  repo_per_active_day: 0.4762
-  not_owned_ratio: 0.1000
-  basename_concentration: 0.1000
+  push_per_day: 2.1000
+  repo_per_active_day: 0.4500
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 8
+    pushes_per_repo: 2.6000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 10
-    pushes_per_repo: 4.3000
-    active_days: 21
+    pushes: 42
+    distinct_repos: 9
+    pushes_per_repo: 4.6667
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MySQLTuner-perl"
@@ -139,6 +139,6 @@ repos:
 
 # major
 
-43 pushes across 10 repositories on 21 active days in the last 90 days of public GitHub push activity.
+42 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/major

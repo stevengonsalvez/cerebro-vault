@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 3, 0, 0, 0, 0, 5, 2, 0, 0, 14, 2, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 5, 2, 0, 0, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,7 +94,15 @@ repos:
       - "verification"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
+  - name: "governed-agent-autonomy-patterns"
+    title: "governed-agent-autonomy-patterns"
+    description: "This repo is a public, docs-first reference for teams that want agentic coding without chaos. It focuses on the patterns that protect code integrity while still preserving speed: plan, permission, verification, and tool trust."
+    language: "Rust"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "pi-qodo-mini-dark-factory"
     title: "pi-qodo-mini-dark-factory"
     description: "Inspectable Pi multi-agent code-quality workflow with deterministic gates and Qodo review."
@@ -102,7 +110,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
   - name: "software-standards-bootstrap"
     title: "software-standards-bootstrap"
     description: "Software Standards Bootstrap (ssb) is a CLI tool and agent skill for developing repo rules, agent skills, and AGENTS.md inside greenfield repos, making it more agent ready."
@@ -119,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "governed-agent-autonomy-patterns"
-    title: "governed-agent-autonomy-patterns"
-    description: "This repo is a public, docs-first reference for teams that want agentic coding without chaos. It focuses on the patterns that protect code integrity while still preserving speed: plan, permission, verification, and tool trust."
-    language: "Rust"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-16"
   - name: "threadloop"
     title: "threadloop"
     description: "ThreadLoop is a local-first CLI that models an AI-assisted software-delivery task as a governed lifecycle graph."
@@ -134,7 +134,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
 ---
 
 # nnennandukwe

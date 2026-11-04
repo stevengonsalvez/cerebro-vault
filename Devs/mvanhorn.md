@@ -18,7 +18,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
@@ -30,7 +30,7 @@ provenance:
   - "d1946b21c02e5fa5"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [20, 36, 4, 2, 4, 9, 27, 50, 73, 255, 10, 16, 0]
+pushes_per_week: [25, 29, 4, 2, 7, 9, 26, 55, 66, 263, 6, 12, 0]
 windows:
   "7d":
     pushes: 0
@@ -40,14 +40,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 299
-    distinct_repos: 49
-    active_days: 15
+    pushes: 292
+    distinct_repos: 46
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 506
+    pushes: 504
     distinct_repos: 126
     active_days: 55
     repos_not_owned: 2
@@ -55,14 +55,14 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 9.2000
+  push_per_day: 9.1636
   repo_per_active_day: 2.2909
   not_owned_ratio: 0.0159
   basename_concentration: 0.0159
   shapes:
     - "mass_self_repo"
   shape_evidence:
-    - "126 distinct repos, 2 not owned (ratio 0.0159), 9.20 pushes per active day"
+    - "126 distinct repos, 2 not owned (ratio 0.0159), 9.16 pushes per active day"
   cleared_by: "e01-fixer"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -77,17 +77,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 299
-    distinct_repos: 49
-    pushes_per_repo: 6.1020
-    active_days: 15
+    pushes: 292
+    distinct_repos: 46
+    pushes_per_repo: 6.3478
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 506
+    pushes: 504
     distinct_repos: 126
-    pushes_per_repo: 4.0159
+    pushes_per_repo: 4.0000
     active_days: 55
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -183,6 +183,6 @@ repos:
 
 # mvanhorn
 
-506 pushes across 126 repositories on 55 active days in the last 90 days of public GitHub push activity.
+504 pushes across 126 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvanhorn

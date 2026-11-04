@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [1, 0, 2, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "frame-luma"
+    title: "frame-luma"
+    description: "Modular ambient lighting for Android TVs and smart monitors, with device-specific capture adapters and extensible support for LED strips and controllers."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "komari-dash"
     title: "komari-dash"
     description: "A modern server monitoring dashboard theme for Komari, ported from NezhaDash"

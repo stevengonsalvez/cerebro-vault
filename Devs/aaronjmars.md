@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [24, 21, 22, 9, 13, 17, 47, 51, 45, 23, 9, 9, 0]
+pushes_per_week: [22, 21, 21, 9, 13, 17, 56, 46, 41, 24, 9, 8, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 11
-    active_days: 14
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 52
+    distinct_repos: 10
+    active_days: 13
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 290
+    pushes: 287
     distinct_repos: 22
-    active_days: 63
+    active_days: 62
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6032
-  repo_per_active_day: 0.3492
+  push_per_day: 4.6290
+  repo_per_active_day: 0.3548
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 58
-    distinct_repos: 11
-    pushes_per_repo: 5.2727
-    active_days: 14
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 52
+    distinct_repos: 10
+    pushes_per_repo: 5.2000
+    active_days: 13
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 290
+    pushes: 287
     distinct_repos: 22
-    pushes_per_repo: 13.1818
-    active_days: 63
+    pushes_per_repo: 13.0455
+    active_days: 62
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "web3-research-mcp"
@@ -165,6 +165,6 @@ repos:
 
 # aaronjmars
 
-290 pushes across 22 repositories on 63 active days in the last 90 days of public GitHub push activity.
+287 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 18, 121, 142, 84, 11, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 41, 109, 131, 93, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 164
+    pushes: 137
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 164
+    pushes: 137
     distinct_repos: 2
-    pushes_per_repo: 82.0000
-    active_days: 12
+    pushes_per_repo: 68.5000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "week9-pixel-studio"
+    title: "week9-pixel-studio"
+    description: "An illustrated Week 9 p5.js learning studio: seven stages, plain-language code and an interactive guide beside the real editor."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # seathatflowsinourveins

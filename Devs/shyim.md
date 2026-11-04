@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [6, 10, 3, 3, 2, 12, 4, 14, 13, 6, 8, 5, 0]
+pushes_per_week: [9, 9, 2, 2, 4, 10, 12, 7, 12, 8, 6, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 13
-    active_days: 12
+    active_days: 11
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 13
-    pushes_per_repo: 1.7692
-    active_days: 12
+    pushes_per_repo: 1.6154
+    active_days: 11
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 2
@@ -84,7 +84,28 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
+  - name: "composer-transport-oci"
+    title: "composer-transport-oci"
+    description: "Publish Composer packages to OCI registries and install them with Composer."
+    language: "PHP"
+    topics:
+      - "composer"
+      - "composer-plugin"
+      - "ghcr"
+      - "oci"
+      - "php"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "legato"
+    title: "legato"
+    description: "Backward compatibility checker for PHP libraries, implemented in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "mochi"
     title: "mochi"
     description: null
@@ -92,49 +113,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "hakobin"
-    title: "hakobin"
-    description: "Hakobin Package manages DEB and RPM repositories on S3-compatible storage"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "copilot-proxy-action"
-    title: "copilot-proxy-action"
-    description: "GitHub Action exposing Copilot through a local API proxy with per-model token and cost reports"
-    language: "JavaScript"
+    last_push: "2026-11-03"
+  - name: "riff"
+    title: "riff"
+    description: "Riff is a fast, standalone Composer-compatible package manager written in Rust."
+    language: "Rust"
     topics:
-      - "copilot"
-      - "github-actions"
-      - "openai-compatible"
-      - "proxy"
-    stars_fact: 0
+      - "cli"
+      - "composer"
+      - "composer-compatible"
+      - "dependency-manager"
+      - "package-manager"
+      - "php"
+      - "rust"
+      - "symfony"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "agm"
-    title: "agm"
-    description: "Multi-account CLI for Antigravity (agy / IDE / desktop)"
-    language: "Go"
+    last_push: "2026-11-03"
+  - name: "danger-php"
+    title: "danger-php"
+    description: "Danger runs during your CI process, and gives teams the chance to automate common code review chores."
+    language: "PHP"
     topics: []
-    stars_fact: 11
+    stars_fact: 85
     first_seen: null
-    last_push: "2026-07-13"
-  - name: "shopware-hmr-watcher"
-    title: "shopware-hmr-watcher"
-    description: "Standalone Shopware Administration watcher powered by Rspack, with HMR for Twig, Vue, components, overrides, and mixins."
-    language: "JavaScript"
-    topics:
-      - "developer-tools"
-      - "hmr"
-      - "rspack"
-      - "shopware"
-      - "twig"
-      - "vue"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-03"
 ---
 
 # shyim

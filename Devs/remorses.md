@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 4, 5, 2, 1, 2, 2, 6, 0, 3, 1, 0, 0]
+pushes_per_week: [6, 0, 6, 1, 1, 3, 4, 3, 0, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,16 +77,6 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "playwriter"
-    title: "playwriter"
-    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "playwright"
-    stars_fact: 4036
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "gpuix"
     title: "gpuix"
     description: "Node.js & Bun bindings for Zed’s GPUI. Build memory efficient native apps with React or Solid.js"
@@ -96,20 +86,27 @@ repos:
       - "react"
       - "solid"
       - "zed"
-    stars_fact: 2816
+    stars_fact: 2859
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "critique"
-    title: "critique"
-    description: "TUI & website for reviewing git changes"
+    last_push: "2026-11-01"
+  - name: "playwriter"
+    title: "playwriter"
+    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
     language: "TypeScript"
     topics:
-      - "diff"
-      - "opentui"
-      - "tui"
-    stars_fact: 1283
+      - "mcp"
+      - "playwright"
+    stars_fact: 4054
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-03"
+  - name: "errore"
+    title: "errore"
+    description: "Errors as values for TypeScript. Fully type safe error handling."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 286
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "kimaki"
     title: "kimaki"
     description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
@@ -119,20 +116,22 @@ repos:
       - "discord"
       - "openclaw-alternative"
       - "opencode"
-    stars_fact: 1440
+    stars_fact: 1442
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "docker-phobia"
-    title: "docker-phobia"
-    description: "Analyze Docker images size"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 624
+    last_push: "2026-11-03"
+  - name: "traforo"
+    title: "traforo"
+    description: "Expose local servers via tunnels. Supports WebSockets, SSE, password protection, Cloudflare CDN caching"
+    language: "TypeScript"
+    topics:
+      - "localtunnel"
+      - "ngrok"
+    stars_fact: 91
     first_seen: null
-    last_push: "2025-06-25"
+    last_push: "2026-11-03"
   - name: "mdastic"
     title: "mdastic"
-    description: "Markdown and MDX parser in TypeScript. Exact remark mdast output, 17 to 28x faster."
+    description: "Markdown and MDX parser in TypeScript. Exact remark mdast output, 17 to 28x faster. Supports streaming parsing for LLM output."
     language: "TypeScript"
     topics:
       - "commonmark"
@@ -143,9 +142,9 @@ repos:
       - "parser"
       - "remark"
       - "typescript"
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
 ---
 
 # remorses

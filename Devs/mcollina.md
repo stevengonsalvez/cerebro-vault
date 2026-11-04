@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [5, 14, 2, 4, 0, 3, 10, 14, 10, 12, 11, 1, 0]
+pushes_per_week: [4, 12, 3, 3, 1, 3, 11, 13, 9, 20, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 86
-    distinct_repos: 26
-    active_days: 38
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 83
+    distinct_repos: 25
+    active_days: 37
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.2632
-  repo_per_active_day: 0.6842
-  not_owned_ratio: 0.7308
-  basename_concentration: 0.0769
+  push_per_day: 2.2432
+  repo_per_active_day: 0.6757
+  not_owned_ratio: 0.7200
+  basename_concentration: 0.0800
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,70 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 7
   "90d":
-    pushes: 86
-    distinct_repos: 26
-    pushes_per_repo: 3.3077
-    active_days: 38
-    repos_not_owned: 19
-    not_owned_basenames: 18
+    pushes: 83
+    distinct_repos: 25
+    pushes_per_repo: 3.3200
+    active_days: 37
+    repos_not_owned: 18
+    not_owned_basenames: 17
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "githuman"
-    title: "githuman"
-    description: "Keep the Human in the Loop of coding"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 258
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "fastq"
-    title: "fastq"
-    description: "Fast, in memory work queue"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1140
-    first_seen: null
-    last_push: "2026-09-13"
   - name: "skills"
     title: "skills"
     description: "My own collection of skills for modern Node.js development"
     language: "TypeScript"
     topics: []
-    stars_fact: 1960
+    stars_fact: 1963
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-10-27"
+  - name: "sqlite-pool"
+    title: "sqlite-pool"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "autocannon"
     title: "autocannon"
     description: "fast HTTP/1.1 benchmarking tool written in Node.js"
     language: "JavaScript"
     topics: []
-    stars_fact: 8533
+    stars_fact: 8536
     first_seen: null
     last_push: "2026-05-16"
-  - name: "msgpack5"
-    title: "msgpack5"
-    description: "A msgpack v5 implementation for node.js, with extension points / msgpack.org[Node]"
+  - name: "fastq"
+    title: "fastq"
+    description: "Fast, in memory work queue"
     language: "JavaScript"
     topics: []
-    stars_fact: 504
+    stars_fact: 1141
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "pino-roll"
-    title: "pino-roll"
-    description: "A Pino transport that automatically rolls your log files"
+    last_push: "2026-11-03"
+  - name: "nodejs-download-stats"
+    title: "nodejs-download-stats"
+    description: "Node.js Download Statistics"
     language: "JavaScript"
     topics: []
-    stars_fact: 117
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-02-13"
+  - name: "hyperid"
+    title: "hyperid"
+    description: "Uber-fast unique id generation, for Node.js and the browser"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 752
+    first_seen: null
+    last_push: "2026-07-17"
 ---
 
 # mcollina
 
-86 pushes across 26 repositories on 38 active days in the last 90 days of public GitHub push activity.
+83 pushes across 25 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

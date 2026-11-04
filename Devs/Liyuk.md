@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 9, 2, 1, 0, 0, 0, 6, 0, 1, 5, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "liyuk.github.io"
-    title: "liyuk.github.io"
-    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-22"
   - name: "interview-compass"
     title: "interview-compass"
     description: "A bilingual, question-first library for external interviews and internal promotion, organized around intent and evidence."
@@ -107,7 +99,53 @@ repos:
       - "system-design"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-03"
+  - name: "my-resume"
+    title: "my-resume"
+    description: "frontend engineer resume"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "nuska"
+    title: "nuska"
+    description: "Research and experiments on autonomous agents: from human intent to verified delivery."
+    language: "Python"
+    topics:
+      - "agent-evaluation"
+      - "agent-harness"
+      - "ai-agents"
+      - "autonomous-agents"
+      - "human-ai-collaboration"
+      - "multi-agent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "liyuk.github.io"
+    title: "liyuk.github.io"
+    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "Interview-Book"
+    title: "Interview-Book"
+    description: "Frontend interview questions and an engineering knowledge guide, from web fundamentals to systems, frameworks, and career growth."
+    language: null
+    topics:
+      - "career-development"
+      - "computer-science"
+      - "frontend"
+      - "interview"
+      - "interview-questions"
+      - "javascript"
+      - "software-engineering"
+      - "vitepress"
+    stars_fact: 439
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "astro-memory-atlas"
     title: "astro-memory-atlas"
     description: "A bilingual Astro starter for shared memories, with timelines, annual recaps, an illustrated map, and anniversary countdowns."
@@ -124,58 +162,7 @@ repos:
       - "timeline"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "astro-fourfold"
-    title: "astro-fourfold"
-    description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
-    language: "Astro"
-    topics:
-      - "astro"
-      - "astro-blog"
-      - "astro-starter"
-      - "astro-template"
-      - "astro-theme"
-      - "github-pages"
-      - "markdown"
-      - "personal-blog"
-      - "personal-website"
-      - "static-site-generator"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "skills"
-    title: "skills"
-    description: "Personal engineering judgment, leadership and communication methods distilled into reusable AI agent skills. Start with Ask Liyuk."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "decision-making"
-      - "engineering-management"
-      - "knowledge-management"
-      - "leadership"
-      - "personal-knowledge-management"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "engineering-decision-skills"
-    title: "engineering-decision-skills"
-    description: "Five independent Agent Skills for frontline engineering planning, technical review, metric decisions, retrospectives, and evidence-based reporting."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "codex"
-      - "decision-making"
-      - "engineering-management"
-      - "metrics"
-      - "retrospective"
-      - "technical-leadership"
-      - "technical-planning"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-10-27"
 ---
 
 # Liyuk

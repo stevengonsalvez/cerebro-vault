@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 3, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1, 0]
+pushes_per_week: [0, 3, 2, 0, 1, 1, 2, 2, 0, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-skills-central"
+    title: "claude-skills-central"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "pb-hcf"
+    title: "pb-hcf"
+    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "hyva-proxiblue-multimenu"
+    title: "hyva-proxiblue-multimenu"
+    description: "Hyva Theme compatible MultiMenu for Magento 2"
+    language: "HTML"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-06-19"
   - name: "HostingEnvironment"
     title: "HostingEnvironment"
     description: "Base Jelastic Magento 2 Hosting Environment"
@@ -85,22 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "claude-skills-central"
-    title: "claude-skills-central"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "pb-hcf"
-    title: "pb-hcf"
-    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-22"
   - name: "module-base-modules-meta"
     title: "module-base-modules-meta"
     description: "Meta package for my site base modules"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-10-13"
-  - name: "pb-chatroom"
-    title: "pb-chatroom"
-    description: "Self-hosted multi-Claude coordination chatroom. FastAPI + SQLite + MCP tools. Lets host Claude Code sessions, DDEV-container sessions, and their subagents exchange threaded messages — handovers, status, requests — without human relay. All data local; 127.0.0.1 bound only."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # ProxiBlue

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 6, 0, 1, 1, 2, 4, 16, 2, 8, 2, 4, 0]
+pushes_per_week: [6, 5, 0, 1, 1, 2, 4, 16, 2, 9, 2, 3, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 7
-    active_days: 10
+    pushes: 16
+    distinct_repos: 8
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 7
-    pushes_per_repo: 2.1429
-    active_days: 10
+    pushes: 16
+    distinct_repos: 8
+    pushes_per_repo: 2.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,27 +77,14 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_simple_long_memory"
-    title: "astrbot_plugin_simple_long_memory"
-    description: "为 AstrBot 提供简易的长期记忆能力，基于内置知识库实现用户偏好、历史交互和重要事实的记忆存储与召回。"
+  - name: "astrbot_plugin_mmx_cli_tool"
+    title: "astrbot_plugin_mmx_cli_tool"
+    description: "把MiniMax变为AstrBot的多功能工具！"
     language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "memory"
-    stars_fact: 17
+    topics: []
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-09-15"
-  - name: "astrbot_plugin_grok_web_search"
-    title: "astrbot_plugin_grok_web_search"
-    description: "通过 Grok API 进行实时联网搜索，返回综合答案和来源链接，支持指令，LLM Tool和skills调用。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "grok"
-      - "web-search"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-11-03"
   - name: "astrbot_plugin_gemini_image_generation"
     title: "astrbot_plugin_gemini_image_generation"
     description: "图像生成插件，支持生图和改图，可以自动获取头像作为参考等。"
@@ -110,38 +97,43 @@ repos:
       - "image-generation"
       - "openai"
       - "xai-api"
-    stars_fact: 54
+    stars_fact: 55
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "astrbot_plugin_mmx_cli_tool"
-    title: "astrbot_plugin_mmx_cli_tool"
-    description: "把MiniMax变为AstrBot的多功能工具！"
+    last_push: "2026-11-04"
+  - name: "astrbot_plugin_exa_web_search"
+    title: "astrbot_plugin_exa_web_search"
+    description: "把exa.ai接入astrbot"
     language: "Python"
     topics: []
-    stars_fact: 9
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "astrbot_plugin_skills_mcp_manager"
-    title: "astrbot_plugin_skills_mcp_manager"
-    description: "为astrbot提供函数工具和指令来管理 AstrBot Skills 和 MCP 服务器。"
+    last_push: "2026-11-02"
+  - name: "astrbot_plugin_simple_long_memory"
+    title: "astrbot_plugin_simple_long_memory"
+    description: "为 AstrBot 提供简易的长期记忆能力，基于内置知识库实现用户偏好、历史交互和重要事实的记忆存储与召回。"
     language: "Python"
     topics:
       - "astrbot-plugin"
-      - "manger"
-      - "mcp"
-      - "skills"
-      - "tools"
-    stars_fact: 13
+      - "memory"
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "pi-providers-manager"
-    title: "pi-providers-manager"
-    description: "Interactive TUI manager for pi providers, models, and subagents (/providers + /agents)"
-    language: "TypeScript"
+    last_push: "2026-11-01"
+  - name: "image-prompt-hub"
+    title: "image-prompt-hub"
+    description: "图片提示词模板服务：检索、上传与目录同步 API"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-31"
+  - name: "elin-decompile-toolkit"
+    title: "elin-decompile-toolkit"
+    description: "Agent Skill: extract official data from Elin and decompile its source - official Chinese names, mechanics verification, version diffing, RAG knowledge base"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # piexian

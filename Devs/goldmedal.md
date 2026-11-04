@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [4, 0, 0, 1, 2, 0, 5, 4, 7, 4, 6, 1, 0]
+pushes_per_week: [3, 0, 0, 1, 2, 0, 5, 5, 6, 6, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 15
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 3
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8889
-  repo_per_active_day: 0.1667
+  push_per_day: 1.9412
+  repo_per_active_day: 0.1765
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 15
     distinct_repos: 3
-    pushes_per_repo: 5.6667
-    active_days: 8
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 3
-    pushes_per_repo: 11.3333
-    active_days: 18
+    pushes_per_repo: 11.0000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wren-engine-skills"
@@ -130,6 +130,6 @@ repos:
 
 # goldmedal
 
-34 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+33 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/goldmedal

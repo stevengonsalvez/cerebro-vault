@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "fae31da6c227cfde"
 pushes_per_week: [3, 1, 0, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0]
@@ -87,9 +87,25 @@ repos:
       - "llms"
       - "python"
       - "rag"
-    stars_fact: 143192
+    stars_fact: 143860
     first_seen: "2026-07-13T06:00:03.578926+00:00"
     last_push: "2026-10-22"
+  - name: "repotovideo"
+    title: "repotovideo"
+    description: "Turn any GitHub repository into a promo video in just one-click"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "gemini-artboard"
+    title: "gemini-artboard"
+    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
+    language: "HTML"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-02-20"
   - name: "google-memorybank-plugin"
     title: "google-memorybank-plugin"
     description: "Vertex AI Memory Bank Plugin for OpenClaw"
@@ -98,22 +114,6 @@ repos:
     stars_fact: 164
     first_seen: null
     last_push: "2026-10-05"
-  - name: "repotovideo"
-    title: "repotovideo"
-    description: "Turn any GitHub repository into a promo video in just one-click"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "gemini-artboard"
-    title: "gemini-artboard"
-    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
-    language: "HTML"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-02-20"
   - name: "Shubhamsaboo"
     title: "Shubhamsaboo"
     description: null

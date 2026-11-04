@@ -5,19 +5,17 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "abhigyanpatwari/GitNexus"
   - "affaan-m/ECC"
   - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "1df6ea1f1256059e"
-  - "3c90af76cbde0363"
   - "4d1450729e6ff44d"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 8, 14, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 9, 13, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

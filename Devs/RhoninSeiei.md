@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 5, 1, 0, 0, 0, 2, 0, 1, 0, 0, 2, 0]
@@ -77,22 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_codex_oauth_plug"
-    title: "astrbot_plugin_codex_oauth_plug"
-    description: "AstrBot 的 Codex OAuth Provider 插件"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-13"
   - name: "astrbot_plugin_grok_oauth"
     title: "astrbot_plugin_grok_oauth"
     description: "Grok OAuth provider for AstrBot: chat, usage, images and caller-owned video tools. MIT."
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-07"
+    last_push: "2026-11-04"
+  - name: "astrbot_plugin_codex_oauth_plug"
+    title: "astrbot_plugin_codex_oauth_plug"
+    description: "AstrBot 的 Codex OAuth Provider 插件"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "astrbot_plugin_rss_forwarder"
     title: "astrbot_plugin_rss_forwarder"
     description: "AstrBot RSS/RSSHub forwarding and delivery orchestration plugin with persistent dedup and extensible enrichment."
@@ -107,7 +107,7 @@ repos:
       - "rsshub"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-27"
+    last_push: "2026-11-03"
   - name: "codex-powershell-skill"
     title: "codex-powershell-skill"
     description: null

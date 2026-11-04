@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 12, 3, 2, 2, 45, 31, 27, 36, 35, 17, 17, 0]
+pushes_per_week: [5, 12, 3, 2, 2, 47, 31, 26, 35, 40, 15, 14, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 20
     active_days: 13
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 4
   "90d":
-    pushes: 235
+    pushes: 232
     distinct_repos: 33
     active_days: 49
     repos_not_owned: 25
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.7959
+  push_per_day: 4.7347
   repo_per_active_day: 0.6735
   not_owned_ratio: 0.7576
   basename_concentration: 0.0606
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 20
-    pushes_per_repo: 4.0500
+    pushes_per_repo: 4.0000
     active_days: 13
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 4
   "90d":
-    pushes: 235
+    pushes: 232
     distinct_repos: 33
-    pushes_per_repo: 7.1212
+    pushes_per_repo: 7.0303
     active_days: 49
     repos_not_owned: 25
     not_owned_basenames: 24
@@ -109,6 +109,6 @@ repos:
 
 # yordis
 
-235 pushes across 33 repositories on 49 active days in the last 90 days of public GitHub push activity.
+232 pushes across 33 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

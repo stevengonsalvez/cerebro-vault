@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 8, 2, 0, 3, 0, 7, 14, 0, 1, 0, 2, 0]
+pushes_per_week: [9, 4, 2, 0, 3, 1, 7, 13, 0, 1, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 10
-    active_days: 20
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1500
-  repo_per_active_day: 0.5000
+  push_per_day: 2.2105
+  repo_per_active_day: 0.5263
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -65,24 +65,56 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 10
-    pushes_per_repo: 4.3000
-    active_days: 20
+    pushes_per_repo: 4.2000
+    active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Cumulus-music"
+    title: "Cumulus-music"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "ReuleauxCoder"
+    title: "ReuleauxCoder"
+    description: "Reinventing the wheel, but only for those who prefer it non-circular."
+    language: "Python"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "wg-quic"
+    title: "wg-quic"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "command-code-reverse"
+    title: "command-code-reverse"
+    description: "Converts Command Code API to OpenAI chat completions"
+    language: "Go"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "ARTEX"
     title: "ARTEX"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-27"
   - name: "tack"
@@ -93,42 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "ReuleauxCoder"
-    title: "ReuleauxCoder"
-    description: "Reinventing the wheel, but only for those who prefer it non-circular."
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "Cumulus-music"
-    title: "Cumulus-music"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "command-code-reverse"
-    title: "command-code-reverse"
-    description: "Converts Command Code API to OpenAI chat completions"
-    language: "Go"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "wg-quic"
-    title: "wg-quic"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # RC-CHN
 
-43 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
+42 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

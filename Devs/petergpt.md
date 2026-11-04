@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,17 +82,41 @@ repos:
     description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
     language: "Python"
     topics: []
-    stars_fact: 1902
+    stars_fact: 1905
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "3d-prompt-collection"
     title: "3d-prompt-collection"
     description: "A presentation-order collection of 3D prompts for copying and reuse."
     language: null
     topics: []
-    stars_fact: 315
+    stars_fact: 340
     first_seen: null
     last_push: "2026-07-02"
+  - name: "model-survey-evaluation"
+    title: "model-survey-evaluation"
+    description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-20"
+  - name: "codex-speed-monitor"
+    title: "codex-speed-monitor"
+    description: "Native macOS menu-bar monitor for Codex token speed"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-05-12"
+  - name: "Live-YT-Translator"
+    title: "Live-YT-Translator"
+    description: "A Chrome extension for live YouTube translation with OpenAI Realtime."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 62
+    first_seen: null
+    last_push: "2026-05-07"
   - name: "models-learning-chess"
     title: "models-learning-chess"
     description: "Language models learning chess: six runs, games, conversation and tool logs, workspace snapshots, and experiment structure."
@@ -106,30 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-15"
-  - name: "print-dock"
-    title: "print-dock"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-02-10"
-  - name: "painted-rickroll"
-    title: "painted-rickroll"
-    description: "Nocturne in Blue and Gold, the painted Rickroll: a one-minute moving oil painting with its own synthesised soundtrack, drawn entirely in code (WebGL2 + WebAudio)."
-    language: "HTML"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "doomql"
-    title: "doomql"
-    description: "A playable terminal FPS whose simulation and framebuffer are calculated in SQLite."
-    language: "Python"
-    topics: []
-    stars_fact: 64
-    first_seen: "2026-07-14T06:00:04.766426+00:00"
-    last_push: "2026-07-13"
 ---
 
 # petergpt

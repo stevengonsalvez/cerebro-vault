@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-04T07:04:18.299279+00:00"
 provenance:
   - "59f086ad2f833f7e"
-pushes_per_week: [0, 7, 2, 4, 12, 5, 20, 91, 26, 22, 13, 15, 0]
+pushes_per_week: [3, 5, 3, 2, 12, 5, 38, 78, 21, 30, 13, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "biome-anti-slop"
+    title: "biome-anti-slop"
+    description: "Opinionated Biome GritQL rules for rejecting low-evidence TypeScript patterns"
+    language: "TypeScript"
+    topics:
+      - "agent-skills"
+      - "biome"
+      - "gritql"
+      - "linting"
+      - "typescript"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "guard-jev"
     title: "guard-jev"
     description: null
@@ -93,19 +106,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-26"
-  - name: "biome-anti-slop"
-    title: "biome-anti-slop"
-    description: "Opinionated Biome GritQL rules for rejecting low-evidence TypeScript patterns"
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "biome"
-      - "gritql"
-      - "linting"
-      - "typescript"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "timemeet"
     title: "timemeet"
     description: null
