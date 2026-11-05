@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 9, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,7 +90,7 @@ repos:
       - "vps"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-05"
   - name: "cloudbot-templates"
     title: "cloudbot-templates"
     description: "Bot templates for CloudBot. Pick one in the chat or share your own."
@@ -106,7 +106,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-01"
   - name: "claude-voice"
     title: "claude-voice"
     description: "Controle por voz do Claude Code: ditado com faster-whisper na GPU e resposta falada (Fish Audio ou edge-tts), com overlay de espectro e suporte a WSL e Codex CLI"

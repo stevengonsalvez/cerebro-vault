@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [13, 4, 8, 2, 2, 15, 17, 11, 5, 12, 2, 0, 0]
+pushes_per_week: [11, 5, 7, 2, 3, 15, 16, 11, 5, 12, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 91
-    distinct_repos: 24
-    active_days: 37
-    repos_not_owned: 23
+    pushes: 89
+    distinct_repos: 22
+    active_days: 36
+    repos_not_owned: 21
     not_owned_basenames: 10
-    not_owned_owners: 15
+    not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 2.4595
-  repo_per_active_day: 0.6486
-  not_owned_ratio: 0.9583
-  basename_concentration: 0.5833
+  push_per_day: 2.4722
+  repo_per_active_day: 0.6111
+  not_owned_ratio: 0.9545
+  basename_concentration: 0.5455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 91
-    distinct_repos: 24
-    pushes_per_repo: 3.7917
-    active_days: 37
-    repos_not_owned: 23
+    pushes: 89
+    distinct_repos: 22
+    pushes_per_repo: 4.0455
+    active_days: 36
+    repos_not_owned: 21
     not_owned_basenames: 10
-    not_owned_owners: 15
+    not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cluster"
@@ -143,6 +143,6 @@ repos:
 
 # mchmarny
 
-91 pushes across 24 repositories on 37 active days in the last 90 days of public GitHub push activity.
+89 pushes across 22 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mchmarny

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "8a70d410b1973fe6"
-pushes_per_week: [10, 8, 8, 1, 3, 5, 21, 8, 25, 4, 11, 4, 0]
+pushes_per_week: [13, 4, 8, 1, 3, 5, 24, 10, 21, 3, 15, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 21
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
+    pushes: 107
     distinct_repos: 7
-    active_days: 40
+    active_days: 39
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.7000
-  repo_per_active_day: 0.1750
+  push_per_day: 2.7436
+  repo_per_active_day: 0.1795
   not_owned_ratio: 0.7143
   basename_concentration: 0.8571
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
+    pushes: 21
     distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 10
+    pushes_per_repo: 10.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
+    pushes: 107
     distinct_repos: 7
-    pushes_per_repo: 15.4286
-    active_days: 40
+    pushes_per_repo: 15.2857
+    active_days: 39
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "colibri"
@@ -191,6 +191,6 @@ repos:
 
 # JustVugg
 
-108 pushes across 7 repositories on 40 active days in the last 90 days of public GitHub push activity.
+107 pushes across 7 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JustVugg

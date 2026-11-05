@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [1, 3, 0, 0, 0, 2, 1, 4, 3, 4, 0, 0, 0]
@@ -87,9 +87,9 @@ repos:
       - "claude-code-plugin"
       - "github-issues"
       - "worktree"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-05"
   - name: "CarlosDanielDev"
     title: "CarlosDanielDev"
     description: "readme profile"
@@ -97,7 +97,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-01"
+  - name: "projstat"
+    title: "projstat"
+    description: "Project Stats"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "aiacc"
     title: "aiacc"
     description: "AIACC(AI ACCOUNT) - Multiple AI Accounts!"
@@ -130,15 +138,7 @@ repos:
       - "tui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "star-monitor"
-    title: "star-monitor"
-    description: "Evidence-based README playbook built from the 30 most-starred GitHub repos"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-11-01"
 ---
 
 # CarlosDanielDev

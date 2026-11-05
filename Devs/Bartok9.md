@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "dffbb846389f9a26"
-pushes_per_week: [59, 30, 4, 1, 2, 4, 9, 17, 8, 10, 4, 31, 0]
+pushes_per_week: [67, 21, 5, 0, 2, 5, 11, 15, 7, 10, 4, 31, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 15
-    active_days: 8
+    pushes: 45
+    distinct_repos: 14
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 179
+    pushes: 178
     distinct_repos: 27
     active_days: 40
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4750
+  push_per_day: 4.4500
   repo_per_active_day: 0.6750
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 15
-    pushes_per_repo: 3.3333
-    active_days: 8
+    pushes: 45
+    distinct_repos: 14
+    pushes_per_repo: 3.2143
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 179
+    pushes: 178
     distinct_repos: 27
-    pushes_per_repo: 6.6296
+    pushes_per_repo: 6.5926
     active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -113,6 +113,6 @@ repos:
 
 # Bartok9
 
-179 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
+178 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Bartok9

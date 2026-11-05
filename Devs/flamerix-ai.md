@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-29T07:04:36.286910+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "94430ceaa839cbc6"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,7 +82,7 @@ repos:
     description: "Discussions backend for Flamerix Ai — comments only, no source here"
     language: null
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-27"
 ---

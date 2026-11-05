@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [52, 38, 9, 15, 0, 3, 10, 1, 30, 18, 64, 55, 0]
+pushes_per_week: [71, 17, 10, 14, 0, 3, 10, 1, 30, 18, 74, 45, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 143
-    distinct_repos: 14
-    active_days: 15
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    pushes: 138
+    distinct_repos: 12
+    active_days: 14
+    repos_not_owned: 10
+    not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 295
+    pushes: 294
     distinct_repos: 20
     active_days: 44
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.7045
+  push_per_day: 6.6818
   repo_per_active_day: 0.4545
   not_owned_ratio: 0.6000
   basename_concentration: 0.1500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 143
-    distinct_repos: 14
-    pushes_per_repo: 10.2143
-    active_days: 15
-    repos_not_owned: 11
-    not_owned_basenames: 10
+    pushes: 138
+    distinct_repos: 12
+    pushes_per_repo: 11.5000
+    active_days: 14
+    repos_not_owned: 10
+    not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 295
+    pushes: 294
     distinct_repos: 20
-    pushes_per_repo: 14.7500
+    pushes_per_repo: 14.7000
     active_days: 44
     repos_not_owned: 12
     not_owned_basenames: 11
@@ -145,6 +145,6 @@ repos:
 
 # kitlangton
 
-295 pushes across 20 repositories on 44 active days in the last 90 days of public GitHub push activity.
+294 pushes across 20 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

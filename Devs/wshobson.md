@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "31661aae5fd34dec"
-pushes_per_week: [0, 6, 3, 0, 0, 1, 0, 14, 7, 0, 0, 0, 0]
+pushes_per_week: [0, 6, 3, 0, 0, 1, 0, 19, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -102,9 +102,9 @@ repos:
       - "opencode"
       - "pi-coding-agent"
       - "subagents"
-    stars_fact: 41958
+    stars_fact: 42222
     first_seen: "2026-10-21T06:01:17.877066+00:00"
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "maverick-mcp"
     title: "maverick-mcp"
     description: "Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools."
@@ -130,15 +130,15 @@ repos:
       - "stocks"
       - "technical-analysis"
       - "yfinance"
-    stars_fact: 713
+    stars_fact: 719
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-02"
   - name: "wshobson"
     title: "wshobson"
     description: "About Me"
     language: null
     topics: []
-    stars_fact: 26
+    stars_fact: 27
     first_seen: null
     last_push: "2026-10-26"
   - name: "wshobson.github.io"
@@ -146,7 +146,7 @@ repos:
     description: "sethhobson.com — single-page personal site on GitHub Pages"
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
   - name: "financial-chat"

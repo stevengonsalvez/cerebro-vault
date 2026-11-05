@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,20 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ds4-v41-m3ultra"
+    title: "ds4-v41-m3ultra"
+    description: "DeepSeek V4.1 Flash on the Apple M3 Ultra: Metal decode and prefill kernels, DSpark speculative decoding, KV disk store. Built on antirez/ds4 (upstream base bd66c40)."
+    language: "C"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "shorehand"
     title: "shorehand"
     description: "Shorehand — the local answer to ChatGPT's agent containers. Open WebUI ↔ deepseek-harness (dsh) bridge: full agent chats against your own locally hosted DeepSeek V4 on Apple Silicon."
     language: "Python"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "ds4-v41-m3ultra"
-    title: "ds4-v41-m3ultra"
-    description: "DeepSeek V4.1 Flash on the Apple M3 Ultra: Metal decode and prefill kernels, DSpark speculative decoding, KV disk store. Built on antirez/ds4 (upstream base bd66c40)."
-    language: "C"
-    topics: []
-    stars_fact: 9
     first_seen: null
     last_push: "2026-10-25"
   - name: "mafp8800-fingerprint-driver"

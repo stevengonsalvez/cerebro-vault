@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [19, 6, 0, 0, 0, 4, 1, 0, 0, 1, 0, 1, 0]
+pushes_per_week: [20, 4, 0, 0, 2, 2, 1, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 5
     active_days: 14
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2857
+  push_per_day: 2.2143
   repo_per_active_day: 0.3571
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 5
-    pushes_per_repo: 6.4000
+    pushes_per_repo: 6.2000
     active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -141,6 +141,6 @@ repos:
 
 # Nobody-ly
 
-32 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+31 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nobody-ly

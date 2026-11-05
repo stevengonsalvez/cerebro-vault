@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [4, 11, 3, 1, 2, 1, 8, 68, 45, 2, 1, 0, 0]
+pushes_per_week: [3, 11, 3, 1, 2, 2, 7, 107, 6, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 146
-    distinct_repos: 33
-    active_days: 31
+    pushes: 145
+    distinct_repos: 32
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7097
-  repo_per_active_day: 1.0645
-  not_owned_ratio: 0.0606
-  basename_concentration: 0.0303
+  push_per_day: 4.8333
+  repo_per_active_day: 1.0667
+  not_owned_ratio: 0.0625
+  basename_concentration: 0.0312
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 146
-    distinct_repos: 33
-    pushes_per_repo: 4.4242
-    active_days: 31
+    pushes: 145
+    distinct_repos: 32
+    pushes_per_repo: 4.5312
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "devbox"
@@ -147,6 +147,6 @@ repos:
 
 # shoemoney
 
-146 pushes across 33 repositories on 31 active days in the last 90 days of public GitHub push activity.
+145 pushes across 32 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shoemoney

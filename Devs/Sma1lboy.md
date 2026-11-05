@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [28, 23, 4, 5, 2, 3, 13, 32, 31, 10, 17, 8, 0]
+pushes_per_week: [36, 12, 6, 3, 2, 3, 14, 39, 25, 8, 20, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 5
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 176
+    pushes: 173
     distinct_repos: 18
-    active_days: 48
+    active_days: 47
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6667
-  repo_per_active_day: 0.3750
+  push_per_day: 3.6809
+  repo_per_active_day: 0.3830
   not_owned_ratio: 0.1667
   basename_concentration: 0.0556
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 40
+    pushes: 38
     distinct_repos: 5
-    pushes_per_repo: 8.0000
+    pushes_per_repo: 7.6000
     active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 176
+    pushes: 173
     distinct_repos: 18
-    pushes_per_repo: 9.7778
-    active_days: 48
+    pushes_per_repo: 9.6111
+    active_days: 47
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rove"
@@ -152,6 +152,6 @@ repos:
 
 # Sma1lboy
 
-176 pushes across 18 repositories on 48 active days in the last 90 days of public GitHub push activity.
+173 pushes across 18 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

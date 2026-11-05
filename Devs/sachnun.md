@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 2, 6, 6, 4, 9, 26, 13, 20, 12, 3, 2, 0]
+pushes_per_week: [11, 2, 6, 6, 4, 18, 18, 15, 17, 12, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
-    active_days: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 8
-    active_days: 43
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6977
-  repo_per_active_day: 0.1860
+  push_per_day: 2.7143
+  repo_per_active_day: 0.1905
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 17
     distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 10
+    pushes_per_repo: 3.4000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 116
+    pushes: 114
     distinct_repos: 8
-    pushes_per_repo: 14.5000
-    active_days: 43
+    pushes_per_repo: 14.2500
+    active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opendum"
@@ -140,6 +140,6 @@ repos:
 
 # sachnun
 
-116 pushes across 8 repositories on 43 active days in the last 90 days of public GitHub push activity.
+114 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

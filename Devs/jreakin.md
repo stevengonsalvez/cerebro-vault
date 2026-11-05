@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 1, 3, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-03"
   - name: "busybar-mcp"
     title: "busybar-mcp"
     description: "MCP server for building BUSY Bar apps — draw, preview, upload assets, and inspect the device from an AI coding agent."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-03"
   - name: "jreakin"
     title: "jreakin"
     description: null

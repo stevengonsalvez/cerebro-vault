@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 4, 9, 1, 1, 2, 1, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 9, 1, 1, 2, 2, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
       - "prometheus-exporter"
     stars_fact: 65
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "node-exporter-mycloud"
     title: "node-exporter-mycloud"
     description: "Prometheus node_exporter app for the WD My Cloud EX2 Ultra (OS5) — install the .bin via the web UI, set the listen port and collectors from the dashboard."

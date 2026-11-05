@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "5b508e513b9bcb98"
-pushes_per_week: [2, 1, 0, 0, 0, 2, 4, 6, 2, 1, 0, 3, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 2, 4, 6, 2, 1, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,34 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opentartarus"
+    title: "opentartarus"
+    description: "Linux GUI for the Razer Tartarus V2 and Tartarus Pro. Key remapping, per-game profiles, macros, and OpenRazer RGB lighting. A Razer Synapse replacement for the keypad, written in Rust."
+    language: "Rust"
+    topics:
+      - "evdev"
+      - "iced"
+      - "key-remapping"
+      - "keyboard-remapping"
+      - "keypad"
+      - "linux"
+      - "linux-gaming"
+      - "macros"
+      - "openrazer"
+      - "openrgb"
+      - "razer"
+      - "razer-synapse"
+      - "razer-tartarus"
+      - "remapper"
+      - "rgb-lighting"
+      - "rust"
+      - "tartarus"
+      - "tartarus-pro"
+      - "tartarus-v2"
+      - "uinput"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "UOTerm"
     title: "UOTerm"
     description: "UOTerm is a headless Ultima Online client."
@@ -119,34 +147,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-27"
-  - name: "opentartarus"
-    title: "opentartarus"
-    description: "Linux GUI for the Razer Tartarus V2 and Tartarus Pro. Key remapping, per-game profiles, macros, and OpenRazer RGB lighting. A Razer Synapse replacement for the keypad, written in Rust."
-    language: "Rust"
-    topics:
-      - "evdev"
-      - "iced"
-      - "key-remapping"
-      - "keyboard-remapping"
-      - "keypad"
-      - "linux"
-      - "linux-gaming"
-      - "macros"
-      - "openrazer"
-      - "openrgb"
-      - "razer"
-      - "razer-synapse"
-      - "razer-tartarus"
-      - "remapper"
-      - "rgb-lighting"
-      - "rust"
-      - "tartarus"
-      - "tartarus-pro"
-      - "tartarus-v2"
-      - "uinput"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
 ---
 
 # PikkonMG

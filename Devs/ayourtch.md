@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [41, 0, 1, 0, 0, 1, 3, 3, 2, 1, 2, 0, 0]
+pushes_per_week: [39, 0, 1, 0, 0, 2, 2, 3, 2, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 8
     active_days: 18
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0000
+  push_per_day: 2.8889
   repo_per_active_day: 0.4444
   not_owned_ratio: 0.7500
   basename_concentration: 0.1250
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 52
     distinct_repos: 8
-    pushes_per_repo: 6.7500
+    pushes_per_repo: 6.5000
     active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -129,6 +129,6 @@ repos:
 
 # ayourtch
 
-54 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
+52 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayourtch

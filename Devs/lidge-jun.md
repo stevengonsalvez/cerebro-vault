@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [67, 89, 24, 15, 64, 66, 203, 154, 79, 62, 47, 109, 0]
+pushes_per_week: [79, 76, 25, 13, 65, 79, 201, 153, 76, 54, 51, 105, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 234
-    distinct_repos: 17
-    active_days: 15
-    repos_not_owned: 14
+    pushes: 226
+    distinct_repos: 16
+    active_days: 14
+    repos_not_owned: 13
     not_owned_basenames: 6
-    not_owned_owners: 11
+    not_owned_owners: 10
   "90d":
-    pushes: 979
+    pushes: 977
     distinct_repos: 47
     active_days: 68
     repos_not_owned: 33
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 26
 automation:
   state: "clear"
-  push_per_day: 14.3971
+  push_per_day: 14.3676
   repo_per_active_day: 0.6912
   not_owned_ratio: 0.7021
   basename_concentration: 0.5106
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 234
-    distinct_repos: 17
-    pushes_per_repo: 13.7647
-    active_days: 15
-    repos_not_owned: 14
+    pushes: 226
+    distinct_repos: 16
+    pushes_per_repo: 14.1250
+    active_days: 14
+    repos_not_owned: 13
     not_owned_basenames: 6
-    not_owned_owners: 11
+    not_owned_owners: 10
   "90d":
-    pushes: 979
+    pushes: 977
     distinct_repos: 47
-    pushes_per_repo: 20.8298
+    pushes_per_repo: 20.7872
     active_days: 68
     repos_not_owned: 33
     not_owned_basenames: 11
@@ -174,6 +174,6 @@ repos:
 
 # lidge-jun
 
-979 pushes across 47 repositories on 68 active days in the last 90 days of public GitHub push activity.
+977 pushes across 47 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

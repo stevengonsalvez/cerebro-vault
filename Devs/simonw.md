@@ -23,9 +23,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "0726bc457d4dcf89"
+  - "0eec722f11509f67"
   - "1be978947e68d1f2"
   - "3eacb4655aba2497"
   - "481b19745d66d642"
@@ -44,7 +45,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [11, 11, 2, 0, 1, 9, 5, 3, 4, 13, 3, 1, 0]
+pushes_per_week: [19, 2, 2, 0, 1, 9, 7, 2, 4, 12, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -61,18 +62,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 29
-    active_days: 29
+    pushes: 62
+    distinct_repos: 28
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1724
+  push_per_day: 2.2143
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.1379
-  basename_concentration: 0.0690
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -97,16 +98,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 29
-    pushes_per_repo: 2.1724
-    active_days: 29
+    pushes: 62
+    distinct_repos: 28
+    pushes_per_repo: 2.2143
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
-  - "provenance: 19 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "provenance: 20 vault signal(s) — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scrape-fema-shelters"
@@ -165,6 +166,6 @@ repos:
 
 # simonw
 
-63 pushes across 29 repositories on 29 active days in the last 90 days of public GitHub push activity.
+62 pushes across 28 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

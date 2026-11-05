@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 1, 3, 0, 0, 2, 11, 0, 4, 14, 9, 0, 0]
+pushes_per_week: [4, 2, 2, 0, 0, 2, 11, 0, 4, 14, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 17
-    active_days: 6
+    pushes: 23
+    distinct_repos: 14
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 23
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5789
-  repo_per_active_day: 1.2105
+  push_per_day: 2.6667
+  repo_per_active_day: 1.2778
   not_owned_ratio: 0.0000
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 27
-    distinct_repos: 17
-    pushes_per_repo: 1.5882
-    active_days: 6
+    pushes: 23
+    distinct_repos: 14
+    pushes_per_repo: 1.6429
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 23
-    pushes_per_repo: 2.1304
-    active_days: 19
+    pushes_per_repo: 2.0870
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bootdev-ssg"
@@ -129,6 +129,6 @@ repos:
 
 # jimpablo
 
-49 pushes across 23 repositories on 19 active days in the last 90 days of public GitHub push activity.
+48 pushes across 23 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jimpablo

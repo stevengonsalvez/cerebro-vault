@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "dae9f02535f7c22f"
   - "de6bf05613f3ae04"
-pushes_per_week: [25, 42, 18, 6, 3, 11, 30, 57, 69, 61, 31, 8, 3]
+pushes_per_week: [39, 26, 19, 5, 4, 14, 31, 62, 62, 58, 36, 3, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 15
     active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 364
+    pushes: 363
     distinct_repos: 28
     active_days: 64
     repos_not_owned: 10
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.6875
+  push_per_day: 5.6719
   repo_per_active_day: 0.4375
   not_owned_ratio: 0.3571
   basename_concentration: 0.0714
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 112
     distinct_repos: 15
-    pushes_per_repo: 7.6667
+    pushes_per_repo: 7.4667
     active_days: 17
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 364
+    pushes: 363
     distinct_repos: 28
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.9643
     active_days: 64
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -142,6 +142,6 @@ repos:
 
 # andrebrait
 
-364 pushes across 28 repositories on 64 active days in the last 90 days of public GitHub push activity.
+363 pushes across 28 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

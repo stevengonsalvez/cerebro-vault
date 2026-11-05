@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "7269783341f1a205"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0]
@@ -77,14 +77,22 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "go-deepseek-web"
+    title: "go-deepseek-web"
+    description: "DeepSeek web interface client and an OpenAI/Anthropic/Ollama-compatible local proxy, in Go"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "nexus-cli"
     title: "nexus-cli"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 30
+    stars_fact: 32
     first_seen: "2026-10-21T06:01:20.271717+00:00"
-    last_push: "2026-10-28"
+    last_push: "2026-11-01"
   - name: "hamzamon"
     title: "hamzamon"
     description: "Hamzamon — dunyo tarixi O'zbekiston nigohida: interaktiv tarix globusi"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-09-25"
-  - name: "yaproq"
-    title: "yaproq"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
 ---
 
 # xamrayev

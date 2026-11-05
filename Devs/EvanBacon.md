@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "e5d5ae888a47e4c2"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 1, 5, 5, 0, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 1, 10, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 4.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,28 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "expo-apple-targets"
-    title: "expo-apple-targets"
-    description: "Config Plugin to setup Apple targets"
-    language: "JavaScript"
-    topics:
-      - "app-clip"
-      - "app-extension"
-      - "apple-watch"
-      - "expo"
-      - "keyboard-extension"
-      - "live-activity"
-      - "network-extension"
-      - "safari-extension"
-      - "screen-time"
-      - "siri"
-      - "swiftui"
-      - "watchos"
-      - "widget"
-      - "widgetkit"
-    stars_fact: 1407
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "serve-sim"
     title: "serve-sim"
     description: "The `npx serve` of Apple Simulators."
@@ -107,17 +85,46 @@ repos:
       - "agent"
       - "headless"
       - "ios"
-    stars_fact: 2905
+    stars_fact: 2924
     first_seen: null
-    last_push: "2026-10-28"
-  - name: "chat-template"
-    title: "chat-template"
-    description: "Universal chat app template built with Expo Router"
+    last_push: "2026-11-04"
+  - name: "create-symbol"
+    title: "create-symbol"
+    description: "Create SF Symbols from SVGs"
     language: "TypeScript"
     topics: []
-    stars_fact: 330
+    stars_fact: 83
     first_seen: null
-    last_push: "2026-06-19"
+    last_push: "2026-03-23"
+  - name: "App-Store-Connect-OpenAPI-Spec"
+    title: "App-Store-Connect-OpenAPI-Spec"
+    description: "Automatically tracks every copy of the App Store Connect OpenAPI JSON Spec"
+    language: "TypeScript"
+    topics:
+      - "apple"
+      - "appstore"
+      - "appstore-api"
+      - "appstoreconnect"
+      - "appstoreconnectapi"
+    stars_fact: 91
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "app-icon-endpoint"
+    title: "app-icon-endpoint"
+    description: "Cloud function to generate basic icons, splash screens, and favicons."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2023-01-27"
+  - name: "expo-splash-video-example"
+    title: "expo-splash-video-example"
+    description: "Recreation of the \"Universe - Website builder\" animated splash screen effect, using Expo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 170
+    first_seen: null
+    last_push: "2023-07-12"
   - name: "Expo-Crossy-Road"
     title: "Expo-Crossy-Road"
     description: "🐥🚙 Crossy Road game clone made in Expo (iOS, Android, web), THREE.js, Tween, React Native. 🐔"
@@ -138,25 +145,9 @@ repos:
       - "threejs"
       - "tween"
       - "webgl"
-    stars_fact: 1165
+    stars_fact: 1166
     first_seen: null
     last_push: "2026-03-26"
-  - name: "expo-imessage-keyboard"
-    title: "expo-imessage-keyboard"
-    description: "replication of imessage keyboard handling in Expo Router on iOS"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2025-09-15"
-  - name: "app-that-builds-apps"
-    title: "app-that-builds-apps"
-    description: "An app and website that can build truly native apps and websites. Built with Expo Router and AI SDK"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 129
-    first_seen: null
-    last_push: "2025-06-19"
 ---
 
 # EvanBacon

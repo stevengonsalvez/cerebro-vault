@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [6, 4, 1, 0, 2, 8, 11, 24, 11, 22, 1, 0, 0]
+pushes_per_week: [7, 2, 1, 0, 2, 10, 9, 26, 10, 21, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 90
-    distinct_repos: 50
-    active_days: 30
-    repos_not_owned: 18
-    not_owned_basenames: 17
-    not_owned_owners: 10
+    pushes: 89
+    distinct_repos: 49
+    active_days: 29
+    repos_not_owned: 17
+    not_owned_basenames: 16
+    not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 1.6667
-  not_owned_ratio: 0.3600
-  basename_concentration: 0.0400
+  push_per_day: 3.0690
+  repo_per_active_day: 1.6897
+  not_owned_ratio: 0.3469
+  basename_concentration: 0.0408
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 90
-    distinct_repos: 50
-    pushes_per_repo: 1.8000
-    active_days: 30
-    repos_not_owned: 18
-    not_owned_basenames: 17
-    not_owned_owners: 10
+    pushes: 89
+    distinct_repos: 49
+    pushes_per_repo: 1.8163
+    active_days: 29
+    repos_not_owned: 17
+    not_owned_basenames: 16
+    not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zig-ctsort"
@@ -170,6 +170,6 @@ repos:
 
 # jedisct1
 
-90 pushes across 50 repositories on 30 active days in the last 90 days of public GitHub push activity.
+89 pushes across 49 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

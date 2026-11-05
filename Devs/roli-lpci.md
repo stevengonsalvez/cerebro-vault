@@ -10,15 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
+  - "0eec722f11509f67"
   - "3cb7ff1cdcf97c6b"
   - "97c4e9cb8b163ddb"
   - "9d52bf97ae057251"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [6, 3, 0, 0, 3, 27, 44, 40, 7, 0, 4, 0, 0]
+pushes_per_week: [3, 3, 0, 0, 3, 31, 44, 39, 4, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -35,18 +36,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 134
-    distinct_repos: 46
-    active_days: 28
-    repos_not_owned: 34
-    not_owned_basenames: 34
+    pushes: 131
+    distinct_repos: 45
+    active_days: 27
+    repos_not_owned: 33
+    not_owned_basenames: 33
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.7857
-  repo_per_active_day: 1.6429
-  not_owned_ratio: 0.7391
-  basename_concentration: 0.0435
+  push_per_day: 4.8519
+  repo_per_active_day: 1.6667
+  not_owned_ratio: 0.7333
+  basename_concentration: 0.0444
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -71,16 +72,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 134
-    distinct_repos: 46
-    pushes_per_repo: 2.9130
-    active_days: 28
-    repos_not_owned: 34
-    not_owned_basenames: 34
+    pushes: 131
+    distinct_repos: 45
+    pushes_per_repo: 2.9111
+    active_days: 27
+    repos_not_owned: 33
+    not_owned_basenames: 33
     not_owned_owners: 1
 reasons:
-  - "provenance: 6 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "provenance: 7 vault signal(s) — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "roli-lpci"
@@ -222,6 +223,6 @@ repos:
 
 # roli-lpci
 
-134 pushes across 46 repositories on 28 active days in the last 90 days of public GitHub push activity.
+131 pushes across 45 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roli-lpci

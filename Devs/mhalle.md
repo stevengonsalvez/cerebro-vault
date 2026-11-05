@@ -9,8 +9,9 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
+  - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
   - "9d52bf97ae057251"
   - "c7515e0fa4368a55"
@@ -77,7 +78,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 5 vault signal(s) — pass"
+  - "provenance: 6 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

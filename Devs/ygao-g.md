@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [12, 13, 0, 1, 0, 8, 7, 1, 0, 1, 7, 2, 0]
+pushes_per_week: [20, 4, 1, 0, 0, 12, 3, 1, 0, 1, 8, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 1
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4762
-  repo_per_active_day: 0.0476
+  push_per_day: 2.5500
+  repo_per_active_day: 0.0500
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 1
-    pushes_per_repo: 52.0000
-    active_days: 21
+    pushes_per_repo: 51.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # ygao-g
 
-52 pushes across 1 repository on 21 active days in the last 90 days of public GitHub push activity.
+51 pushes across 1 repository on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ygao-g

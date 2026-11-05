@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 29, 18, 14, 8, 4, 22, 8, 21, 13, 11, 8, 0]
+pushes_per_week: [25, 13, 25, 7, 8, 7, 25, 5, 18, 13, 11, 8, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 7
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 171
     distinct_repos: 12
-    active_days: 48
+    active_days: 47
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4792
-  repo_per_active_day: 0.2500
+  push_per_day: 3.6383
+  repo_per_active_day: 0.2553
   not_owned_ratio: 0.1667
   basename_concentration: 0.1667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 37
+    pushes: 38
     distinct_repos: 7
-    pushes_per_repo: 5.2857
-    active_days: 12
+    pushes_per_repo: 5.4286
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 171
     distinct_repos: 12
-    pushes_per_repo: 13.9167
-    active_days: 48
+    pushes_per_repo: 14.2500
+    active_days: 47
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "strobe"
@@ -133,6 +133,6 @@ repos:
 
 # Hona
 
-167 pushes across 12 repositories on 48 active days in the last 90 days of public GitHub push activity.
+171 pushes across 12 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

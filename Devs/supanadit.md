@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "59baa2731025f811"
-pushes_per_week: [2, 1, 2, 0, 0, 0, 0, 0, 6, 5, 0, 2, 0]
+pushes_per_week: [2, 1, 2, 0, 0, 0, 0, 0, 6, 5, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,47 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "morse"
+    title: "morse"
+    description: "A comfortable GUI for the Pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "nestjs"
+      - "opencode"
+      - "opencode-v2"
+      - "pi"
+    stars_fact: 14
+    first_seen: "2026-10-21T06:01:21.528026+00:00"
+    last_push: "2026-11-01"
+  - name: "phpv"
+    title: "phpv"
+    description: "PHP Version Manager"
+    language: "Go"
+    topics:
+      - "bash"
+      - "php"
+      - "posix-compliant"
+      - "shell"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "supanadit"
+    title: "supanadit"
+    description: "Github Secret"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "containers-docs"
+    title: "containers-docs"
+    description: "Documentation for the Containers Collection"
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "containers"
     title: "containers"
     description: "Specialized and Custom Made Containers"
@@ -86,18 +127,7 @@ repos:
       - "docker"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "morse"
-    title: "morse"
-    description: "A comfortable GUI for the Pi coding agent"
-    language: "TypeScript"
-    topics:
-      - "angular"
-      - "nestjs"
-      - "pi"
-    stars_fact: 13
-    first_seen: "2026-10-21T06:01:21.528026+00:00"
-    last_push: "2026-10-28"
+    last_push: "2026-11-01"
   - name: "ezx"
     title: "ezx"
     description: "Eazy Executor ?"
@@ -112,34 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "forge"
-    title: "forge"
-    description: "Deterministic build system"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "phpv"
-    title: "phpv"
-    description: "PHP Version Manager"
-    language: "Go"
-    topics:
-      - "bash"
-      - "php"
-      - "posix-compliant"
-      - "shell"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "docker-flutter"
-    title: "docker-flutter"
-    description: "Flutter in Docker, it useful for automation CI/CD and release build"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
 ---
 
 # supanadit

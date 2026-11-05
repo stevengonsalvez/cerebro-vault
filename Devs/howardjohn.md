@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 7, 2, 0, 0, 4, 8, 3, 12, 13, 6, 2, 2]
+pushes_per_week: [9, 2, 2, 0, 1, 3, 8, 10, 8, 10, 7, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 5
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 8
-    active_days: 31
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0645
-  repo_per_active_day: 0.2581
+  push_per_day: 2.1000
+  repo_per_active_day: 0.2667
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 4.8000
-    active_days: 12
+    pushes_per_repo: 4.6000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 8
-    pushes_per_repo: 8.0000
-    active_days: 31
+    pushes_per_repo: 7.8750
+    active_days: 30
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "registry-redirector"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-64 pushes across 8 repositories on 31 active days in the last 90 days of public GitHub push activity.
+63 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

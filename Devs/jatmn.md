@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [19, 19, 11, 1, 0, 1, 5, 6, 3, 35, 8, 16, 0]
+pushes_per_week: [19, 16, 11, 1, 0, 1, 5, 6, 8, 30, 9, 15, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 18
-    active_days: 15
+    pushes: 60
+    distinct_repos: 17
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 124
+    pushes: 122
     distinct_repos: 24
     active_days: 40
     repos_not_owned: 8
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.1000
+  push_per_day: 3.0500
   repo_per_active_day: 0.6000
   not_owned_ratio: 0.3333
   basename_concentration: 0.3750
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 61
-    distinct_repos: 18
-    pushes_per_repo: 3.3889
-    active_days: 15
+    pushes: 60
+    distinct_repos: 17
+    pushes_per_repo: 3.5294
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 124
+    pushes: 122
     distinct_repos: 24
-    pushes_per_repo: 5.1667
+    pushes_per_repo: 5.0833
     active_days: 40
     repos_not_owned: 8
     not_owned_basenames: 1
@@ -139,6 +139,6 @@ repos:
 
 # jatmn
 
-124 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
+122 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

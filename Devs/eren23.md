@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 2, 0, 0, 1, 0, 4, 5, 5, 9, 1, 5, 0]
+pushes_per_week: [3, 1, 0, 0, 1, 0, 6, 3, 5, 9, 2, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -98,9 +98,9 @@ repos:
       - "self-hosted"
       - "typescript"
       - "vision-model"
-    stars_fact: 210
+    stars_fact: 213
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
   - name: "attocode"
     title: "attocode"
     description: "A series of lessons, 0 to hero ai coding agent building guide."
@@ -122,7 +122,7 @@ repos:
       - "tutorial"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-04"
   - name: "telepath"
     title: "telepath"
     description: "Memory-aware visualizer for the Hermes Agent Creative Hackathon. Vague intent in → polished chart, diagram, or slide out. Powered by Kimi K2 + Hermes Agent."

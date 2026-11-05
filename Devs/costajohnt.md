@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
-pushes_per_week: [25, 4, 2, 0, 1, 8, 28, 2, 4, 10, 1, 10, 0]
+pushes_per_week: [23, 4, 2, 0, 1, 10, 26, 2, 5, 9, 1, 10, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 24
-    active_days: 26
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6538
-  repo_per_active_day: 0.9231
+  push_per_day: 3.7200
+  repo_per_active_day: 0.9600
   not_owned_ratio: 0.0417
   basename_concentration: 0.0417
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 93
     distinct_repos: 24
-    pushes_per_repo: 3.9583
-    active_days: 26
+    pushes_per_repo: 3.8750
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "devhud"
@@ -183,6 +183,6 @@ repos:
 
 # costajohnt
 
-95 pushes across 24 repositories on 26 active days in the last 90 days of public GitHub push activity.
+93 pushes across 24 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

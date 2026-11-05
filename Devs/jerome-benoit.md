@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [30, 36, 16, 8, 6, 28, 33, 76, 36, 21, 7, 9, 0]
+pushes_per_week: [40, 25, 17, 7, 8, 27, 34, 79, 31, 21, 11, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
-    distinct_repos: 13
-    active_days: 14
+    pushes: 37
+    distinct_repos: 12
+    active_days: 13
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 306
+    pushes: 305
     distinct_repos: 19
-    active_days: 63
+    active_days: 62
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.8571
-  repo_per_active_day: 0.3016
+  push_per_day: 4.9194
+  repo_per_active_day: 0.3065
   not_owned_ratio: 0.4211
   basename_concentration: 0.1579
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 47
-    distinct_repos: 13
-    pushes_per_repo: 3.6154
-    active_days: 14
+    pushes: 37
+    distinct_repos: 12
+    pushes_per_repo: 3.0833
+    active_days: 13
     repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 306
+    pushes: 305
     distinct_repos: 19
-    pushes_per_repo: 16.1053
-    active_days: 63
+    pushes_per_repo: 16.0526
+    active_days: 62
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sap-ai-provider"
@@ -135,6 +135,6 @@ repos:
 
 # jerome-benoit
 
-306 pushes across 19 repositories on 63 active days in the last 90 days of public GitHub push activity.
+305 pushes across 19 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

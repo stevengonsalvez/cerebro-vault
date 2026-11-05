@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 2, 0, 1, 2, 2, 3, 7, 1, 0, 16, 2, 0]
+pushes_per_week: [1, 1, 0, 1, 2, 2, 3, 7, 1, 0, 17, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 11
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9474
-  repo_per_active_day: 0.5789
+  push_per_day: 2.0000
+  repo_per_active_day: 0.6111
   not_owned_ratio: 0.0909
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 11
-    pushes_per_repo: 3.3636
-    active_days: 19
+    pushes_per_repo: 3.2727
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "adi-IL"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-01"
+  - name: "omarchy-moon-knight-theme"
+    title: "omarchy-moon-knight-theme"
+    description: "Moon Knight theme for Omarchy: noir black & violet palette with Mr. Knight and Marc Spector macro wallpapers"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "hq-jr"
     title: "hq-jr"
     description: "Self-hosted GitHub App that reviews PRs with Vertex AI, remembers past findings, and can reproduce bugs in a sandbox before it speaks."
@@ -104,7 +112,7 @@ repos:
       - "vertex-ai"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-31"
   - name: "omarchy-gcp-credits"
     title: "omarchy-gcp-credits"
     description: "Google Cloud credit balances and per-credit panel in the Omarchy bar (Hyprland + Quickshell), fetched from the billing console via an isolated headless Chromium profile."
@@ -167,25 +175,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-08"
-  - name: "bad_apple_rs"
-    title: "bad_apple_rs"
-    description: "Rust CLI that plays Bad Apple!! as ASCII art in your terminal, scaled and centered to the window."
-    language: "Rust"
-    topics:
-      - "animation"
-      - "ascii-art"
-      - "bad-apple"
-      - "cli"
-      - "rust"
-      - "terminal"
-      - "touhou"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # adi-IL
 
-37 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/adi-IL

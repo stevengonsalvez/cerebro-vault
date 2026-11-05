@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "de6bf05613f3ae04"
 pushes_per_week: [8, 0, 1, 0, 0, 0, 3, 1, 1, 2, 1, 0, 0]
@@ -77,22 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tern-awui"
-    title: "tern-awui"
-    description: "Phone and browser companion for omp agents running in Tern, over Tailscale"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "omp-stretch"
     title: "omp-stretch"
     description: "Stretchtext replies for omp in Tern: read each reply's gist, click a phrase to grow its detail in place"
     language: "TypeScript"
     topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "tern-awui"
+    title: "tern-awui"
+    description: "Phone and browser companion for omp agents running in Tern, over Tailscale"
+    language: "TypeScript"
+    topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-04"
   - name: "codexbar-agentview"
     title: "codexbar-agentview"
     description: "Multi-provider AI usage and coding-agent session monitor for KDE Plasma and Tern, powered by CodexBar."
@@ -108,7 +108,7 @@ repos:
       - "plasmoid"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-03"
   - name: "hikvision-live"
     title: "hikvision-live"
     description: "KDE Plasma 6 widget for live Hikvision NVR/DVR cameras, with a local proxy that decrypts Hik-Connect encrypted RTSP streams"

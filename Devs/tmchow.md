@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [21, 61, 12, 0, 1, 8, 14, 12, 14, 4, 7, 2, 0]
+pushes_per_week: [36, 47, 11, 0, 2, 8, 14, 13, 13, 3, 7, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 7
-    active_days: 10
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 156
+    pushes: 157
     distinct_repos: 18
-    active_days: 46
+    active_days: 47
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.3913
-  repo_per_active_day: 0.3913
+  push_per_day: 3.3404
+  repo_per_active_day: 0.3830
   not_owned_ratio: 0.6667
   basename_concentration: 0.2778
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 14
     distinct_repos: 7
-    pushes_per_repo: 2.8571
-    active_days: 10
+    pushes_per_repo: 2.0000
+    active_days: 9
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 156
+    pushes: 157
     distinct_repos: 18
-    pushes_per_repo: 8.6667
-    active_days: 46
+    pushes_per_repo: 8.7222
+    active_days: 47
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "energon"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-156 pushes across 18 repositories on 46 active days in the last 90 days of public GitHub push activity.
+157 pushes across 18 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

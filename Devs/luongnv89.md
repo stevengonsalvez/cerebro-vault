@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [15, 4, 30, 6, 15, 32, 63, 30, 20, 26, 13, 2, 2]
+pushes_per_week: [13, 4, 32, 4, 15, 39, 63, 29, 16, 24, 13, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 20
-    active_days: 15
+    pushes: 51
+    distinct_repos: 18
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 258
+    pushes: 256
     distinct_repos: 46
-    active_days: 58
+    active_days: 57
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.4483
-  repo_per_active_day: 0.7931
+  push_per_day: 4.4912
+  repo_per_active_day: 0.8070
   not_owned_ratio: 0.1957
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 56
-    distinct_repos: 20
-    pushes_per_repo: 2.8000
-    active_days: 15
+    pushes: 51
+    distinct_repos: 18
+    pushes_per_repo: 2.8333
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 258
+    pushes: 256
     distinct_repos: 46
-    pushes_per_repo: 5.6087
-    active_days: 58
+    pushes_per_repo: 5.5652
+    active_days: 57
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "news"
@@ -141,6 +141,6 @@ repos:
 
 # luongnv89
 
-258 pushes across 46 repositories on 58 active days in the last 90 days of public GitHub push activity.
+256 pushes across 46 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

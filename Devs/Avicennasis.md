@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 6, 7, 0, 0, 16, 17, 11, 13, 18, 1, 2, 0]
+pushes_per_week: [3, 6, 7, 0, 3, 15, 15, 11, 13, 18, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 18
-    active_days: 9
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 22
+    distinct_repos: 17
+    active_days: 8
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 28
-    active_days: 31
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0645
-  repo_per_active_day: 0.9032
+  push_per_day: 3.1333
+  repo_per_active_day: 0.9333
   not_owned_ratio: 0.1786
   basename_concentration: 0.0357
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 18
-    pushes_per_repo: 1.3889
-    active_days: 9
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 22
+    distinct_repos: 17
+    pushes_per_repo: 1.2941
+    active_days: 8
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
   "90d":
-    pushes: 95
+    pushes: 94
     distinct_repos: 28
-    pushes_per_repo: 3.3929
-    active_days: 31
+    pushes_per_repo: 3.3571
+    active_days: 30
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jules-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # Avicennasis
 
-95 pushes across 28 repositories on 31 active days in the last 90 days of public GitHub push activity.
+94 pushes across 28 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

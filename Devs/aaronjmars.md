@@ -5,14 +5,16 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "alibaba/open-code-review"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [22, 21, 21, 9, 13, 17, 56, 46, 41, 24, 9, 8, 0]
+  - "c489e6fb5febf2ab"
+pushes_per_week: [22, 19, 22, 8, 13, 23, 54, 53, 33, 21, 12, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
-    distinct_repos: 10
-    active_days: 13
+    pushes: 42
+    distinct_repos: 9
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 287
+    pushes: 285
     distinct_repos: 22
-    active_days: 62
+    active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6290
-  repo_per_active_day: 0.3548
+  push_per_day: 4.6721
+  repo_per_active_day: 0.3607
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
-    distinct_repos: 10
-    pushes_per_repo: 5.2000
-    active_days: 13
+    pushes: 42
+    distinct_repos: 9
+    pushes_per_repo: 4.6667
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 287
+    pushes: 285
     distinct_repos: 22
-    pushes_per_repo: 13.0455
-    active_days: 62
+    pushes_per_repo: 12.9545
+    active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "web3-research-mcp"
@@ -165,6 +167,6 @@ repos:
 
 # aaronjmars
 
-287 pushes across 22 repositories on 62 active days in the last 90 days of public GitHub push activity.
+285 pushes across 22 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 12, 2, 2, 1, 5, 4, 16, 12, 5, 1, 1, 0]
+pushes_per_week: [1, 11, 3, 1, 1, 6, 8, 19, 4, 5, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.8788
-  repo_per_active_day: 0.2424
+  push_per_day: 1.9062
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 1
+    pushes_per_repo: 7.0000
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
-    pushes_per_repo: 7.7500
-    active_days: 33
+    pushes_per_repo: 7.6250
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dshfind"
@@ -147,6 +147,6 @@ repos:
 
 # hikariming
 
-62 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
+61 pushes across 8 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

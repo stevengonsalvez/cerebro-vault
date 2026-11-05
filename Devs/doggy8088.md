@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 3, 5, 2, 2, 8, 6, 13, 3, 19, 8, 2, 0]
+pushes_per_week: [3, 2, 7, 0, 2, 8, 6, 13, 3, 19, 8, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-05"
   - name: "holidaybook"
     title: "holidaybook"
     description: "Holidaybook - 台灣假日速查"
@@ -92,15 +92,7 @@ repos:
     topics: []
     stars_fact: 15
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "Learn-Git-in-30-days"
-    title: "Learn-Git-in-30-days"
-    description: "這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！"
-    language: null
-    topics: []
-    stars_fact: 4472
-    first_seen: null
-    last_push: "2025-11-15"
+    last_push: "2026-11-05"
   - name: "mhtml"
     title: "mhtml"
     description: "Convert Markdown to a beautiful, self-contained HTML page — instant browser preview, light/dark themes, custom CSS & config file. Rust CLI with an npm wrapper."
@@ -113,25 +105,29 @@ repos:
       - "markdown-to-html"
       - "npm"
       - "rust"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "WinSnake"
-    title: "WinSnake"
-    description: "Windows 原生貪食蛇遊戲：以 WinUI 3 / Windows App SDK 打造，提供免安裝的單檔可攜版。"
-    language: "C#"
+    last_push: "2026-11-04"
+  - name: "ado-html-preview"
+    title: "ado-html-preview"
+    description: "Chrome extension: preview HTML files in Azure DevOps Repos with JavaScript enabled, inline or full-screen, inside an isolated sandbox."
+    language: "JavaScript"
     topics:
-      - "csharp"
-      - "dotnet"
-      - "portable"
-      - "snake-game"
-      - "windows-app-sdk"
-      - "windows-desktop"
-      - "winui3"
-      - "zh-tw"
-    stars_fact: 6
+      - "azure-devops"
+      - "chrome-extension"
+      - "html-preview"
+      - "tampermonkey"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-04"
+  - name: "TampermonkeyUserscripts"
+    title: "TampermonkeyUserscripts"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 289
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "Paste-to-Markdown"
     title: "Paste-to-Markdown"
     description: "Paste to Markdown - Easily Ctrl+V to paste HTML in the clipboard and get Markdown instantly."
@@ -139,7 +135,7 @@ repos:
     topics: []
     stars_fact: 92
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-04"
 ---
 
 # doggy8088

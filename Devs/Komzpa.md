@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [40, 47, 8, 0, 60, 1, 2, 34, 53, 38, 18, 7, 0]
+pushes_per_week: [34, 36, 8, 0, 60, 1, 4, 40, 45, 38, 20, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 68
+    pushes: 64
     distinct_repos: 9
-    active_days: 10
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 308
+    pushes: 291
     distinct_repos: 29
-    active_days: 41
+    active_days: 40
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.5122
-  repo_per_active_day: 0.7073
+  push_per_day: 7.2750
+  repo_per_active_day: 0.7250
   not_owned_ratio: 0.3448
   basename_concentration: 0.2069
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 68
+    pushes: 64
     distinct_repos: 9
-    pushes_per_repo: 7.5556
-    active_days: 10
+    pushes_per_repo: 7.1111
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 308
+    pushes: 291
     distinct_repos: 29
-    pushes_per_repo: 10.6207
-    active_days: 41
+    pushes_per_repo: 10.0345
+    active_days: 40
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "litterbox"
@@ -144,6 +144,6 @@ repos:
 
 # Komzpa
 
-308 pushes across 29 repositories on 41 active days in the last 90 days of public GitHub push activity.
+291 pushes across 29 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

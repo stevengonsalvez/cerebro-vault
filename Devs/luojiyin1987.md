@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [20, 56, 9, 3, 7, 5, 6, 8, 7, 8, 3, 5, 0]
+pushes_per_week: [49, 23, 9, 3, 7, 5, 8, 9, 6, 6, 3, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,25 +26,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 12
-    active_days: 12
+    pushes: 16
+    distinct_repos: 11
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 137
-    distinct_repos: 41
-    active_days: 45
+    pushes: 133
+    distinct_repos: 39
+    active_days: 43
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0444
-  repo_per_active_day: 0.9111
-  not_owned_ratio: 0.1463
-  basename_concentration: 0.0488
+  push_per_day: 3.0930
+  repo_per_active_day: 0.9070
+  not_owned_ratio: 0.1538
+  basename_concentration: 0.0513
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -61,24 +61,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 12
-    pushes_per_repo: 1.4167
-    active_days: 12
+    pushes: 16
+    distinct_repos: 11
+    pushes_per_repo: 1.4545
+    active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 137
-    distinct_repos: 41
-    pushes_per_repo: 3.3415
-    active_days: 45
+    pushes: 133
+    distinct_repos: 39
+    pushes_per_repo: 3.4103
+    active_days: 43
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-137 pushes across 41 repositories on 45 active days in the last 90 days of public GitHub push activity.
+133 pushes across 39 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

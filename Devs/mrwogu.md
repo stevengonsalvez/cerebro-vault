@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [15, 29, 0, 0, 1, 12, 19, 11, 5, 2, 3, 2, 0]
+pushes_per_week: [17, 27, 0, 0, 3, 14, 17, 10, 6, 0, 4, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 10
-    active_days: 36
+    active_days: 37
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7500
-  repo_per_active_day: 0.2778
+  push_per_day: 2.7027
+  repo_per_active_day: 0.2703
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 6
-    pushes_per_repo: 1.8333
+    pushes_per_repo: 1.6667
     active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 100
     distinct_repos: 10
-    pushes_per_repo: 9.9000
-    active_days: 36
+    pushes_per_repo: 10.0000
+    active_days: 37
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "promptscript"
@@ -187,6 +187,6 @@ repos:
 
 # mrwogu
 
-99 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+100 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

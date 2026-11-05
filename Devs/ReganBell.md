@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [0, 23, 0, 0, 1, 13, 34, 12, 36, 36, 31, 31, 0]
+pushes_per_week: [23, 0, 0, 0, 1, 16, 34, 16, 33, 32, 33, 29, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 107
+    pushes: 101
     distinct_repos: 1
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 220
     distinct_repos: 1
-    active_days: 29
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.4828
-  repo_per_active_day: 0.0345
+  push_per_day: 7.3333
+  repo_per_active_day: 0.0333
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 107
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 107.0000
+    pushes_per_repo: 3.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 101
+    distinct_repos: 1
+    pushes_per_repo: 101.0000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 217
+    pushes: 220
     distinct_repos: 1
-    pushes_per_repo: 217.0000
-    active_days: 29
+    pushes_per_repo: 220.0000
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "iOS"
@@ -129,6 +129,6 @@ repos:
 
 # ReganBell
 
-217 pushes across 1 repository on 29 active days in the last 90 days of public GitHub push activity.
+220 pushes across 1 repository on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReganBell

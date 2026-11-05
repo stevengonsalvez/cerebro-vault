@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-05T07:04:53.510161+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [62, 49, 13, 6, 5, 34, 151, 175, 66, 25, 47, 37, 1]
+pushes_per_week: [90, 20, 13, 5, 7, 52, 150, 208, 28, 11, 53, 31, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 47
-    active_days: 16
+    active_days: 15
     repos_not_owned: 46
     not_owned_basenames: 44
     not_owned_owners: 3
   "90d":
-    pushes: 671
+    pushes: 669
     distinct_repos: 102
-    active_days: 63
+    active_days: 62
     repos_not_owned: 96
     not_owned_basenames: 92
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.6508
-  repo_per_active_day: 1.6190
+  push_per_day: 10.7903
+  repo_per_active_day: 1.6452
   not_owned_ratio: 0.9412
   basename_concentration: 0.0196
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 47
-    pushes_per_repo: 2.6383
-    active_days: 16
+    pushes_per_repo: 2.5745
+    active_days: 15
     repos_not_owned: 46
     not_owned_basenames: 44
     not_owned_owners: 3
   "90d":
-    pushes: 671
+    pushes: 669
     distinct_repos: 102
-    pushes_per_repo: 6.5784
-    active_days: 63
+    pushes_per_repo: 6.5588
+    active_days: 62
     repos_not_owned: 96
     not_owned_basenames: 92
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CybotTM"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-671 pushes across 102 repositories on 63 active days in the last 90 days of public GitHub push activity.
+669 pushes across 102 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM
