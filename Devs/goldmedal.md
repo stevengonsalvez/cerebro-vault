@@ -3,14 +3,13 @@ login: "goldmedal"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "Canner/WrenAI"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "dffbb846389f9a26"
 pushes_per_week: [3, 0, 1, 0, 2, 0, 8, 2, 8, 4, 5, 0, 0]

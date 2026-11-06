@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -33,6 +33,7 @@ provenance:
   - "a8d513fb104884f5"
   - "b28a06ef950a1f61"
   - "b6ce910accbcbcac"
+  - "b8ddb6db7e02a2ca"
   - "bca8f082890e2800"
   - "bd138645120f03ef"
   - "c6b4a874521ceb02"
@@ -40,35 +41,35 @@ provenance:
   - "e26852201e6f38fc"
   - "f4325bf458dce49e"
   - "f8edf485bd740dbb"
-pushes_per_week: [12, 22, 2, 0, 0, 0, 1, 8, 0, 4, 2, 0, 0]
+pushes_per_week: [22, 12, 2, 0, 0, 0, 1, 8, 0, 4, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 6
-    active_days: 17
+    pushes: 52
+    distinct_repos: 7
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.3529
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.1667
+  push_per_day: 2.8889
+  repo_per_active_day: 0.3889
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -77,32 +78,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 7
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 6
-    pushes_per_repo: 8.5000
-    active_days: 17
+    pushes: 52
+    distinct_repos: 7
+    pushes_per_repo: 7.4286
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 29 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "provenance: 30 vault signal(s) — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "quickchat"
@@ -162,6 +163,6 @@ repos:
 
 # fcoury
 
-51 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+52 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

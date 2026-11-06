@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 0, 2, 1, 0, 3, 4, 18, 6, 7, 3, 1, 0]
+pushes_per_week: [4, 0, 2, 1, 0, 3, 7, 17, 5, 6, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 2
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 1
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 4
-    active_days: 24
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1250
-  repo_per_active_day: 0.1667
+  push_per_day: 2.2273
+  repo_per_active_day: 0.1818
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 8
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 1
+    pushes_per_repo: 11.0000
+    active_days: 7
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 4
-    pushes_per_repo: 12.7500
-    active_days: 24
+    pushes_per_repo: 12.2500
+    active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "helloworld"
@@ -130,6 +130,6 @@ repos:
 
 # Soulter
 
-51 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
+49 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

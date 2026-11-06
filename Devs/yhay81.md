@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6, 0]
+pushes_per_week: [114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    active_days: 7
+    pushes: 31
+    distinct_repos: 5
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 144
-    distinct_repos: 80
-    active_days: 12
+    pushes: 145
+    distinct_repos: 81
+    active_days: 13
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 12.0000
-  repo_per_active_day: 6.6667
-  not_owned_ratio: 0.1125
-  basename_concentration: 0.0250
+  push_per_day: 11.1538
+  repo_per_active_day: 6.2308
+  not_owned_ratio: 0.1111
+  basename_concentration: 0.0247
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 7
+    pushes: 31
+    distinct_repos: 5
+    pushes_per_repo: 6.2000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 144
-    distinct_repos: 80
-    pushes_per_repo: 1.8000
-    active_days: 12
+    pushes: 145
+    distinct_repos: 81
+    pushes_per_repo: 1.7901
+    active_days: 13
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pyropdf"
@@ -150,6 +150,6 @@ repos:
 
 # yhay81
 
-144 pushes across 80 repositories on 12 active days in the last 90 days of public GitHub push activity.
+145 pushes across 81 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

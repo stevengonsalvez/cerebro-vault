@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "406a85b388590eb0"
-pushes_per_week: [4, 8, 6, 0, 1, 7, 8, 8, 31, 1, 3, 3, 0]
+pushes_per_week: [7, 3, 6, 0, 1, 8, 8, 13, 25, 1, 3, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 17
-    active_days: 35
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 78
+    distinct_repos: 15
+    active_days: 34
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2857
-  repo_per_active_day: 0.4857
-  not_owned_ratio: 0.7647
-  basename_concentration: 0.1176
+  push_per_day: 2.2941
+  repo_per_active_day: 0.4412
+  not_owned_ratio: 0.8000
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 80
-    distinct_repos: 17
-    pushes_per_repo: 4.7059
-    active_days: 35
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 78
+    distinct_repos: 15
+    pushes_per_repo: 5.2000
+    active_days: 34
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "devoxx-demo"
@@ -129,6 +129,6 @@ repos:
 
 # johnsonr
 
-80 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
+78 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnsonr

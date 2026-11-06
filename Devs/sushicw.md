@@ -6,12 +6,14 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "google/agents-cli"
+  - "google/skills"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "3e957fd6543f31bd"
+  - "ad904a51b1769854"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:

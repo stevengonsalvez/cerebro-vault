@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [7, 7, 4, 2, 6, 14, 15, 33, 16, 26, 11, 1, 0]
+pushes_per_week: [8, 5, 4, 2, 8, 17, 14, 31, 14, 26, 11, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 4
-    active_days: 10
+    pushes: 38
+    distinct_repos: 3
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 11
-    active_days: 47
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.0213
-  repo_per_active_day: 0.2340
+  push_per_day: 3.0652
+  repo_per_active_day: 0.2391
   not_owned_ratio: 0.4545
   basename_concentration: 0.5455
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
-    distinct_repos: 4
-    pushes_per_repo: 10.5000
-    active_days: 10
+    pushes: 38
+    distinct_repos: 3
+    pushes_per_repo: 12.6667
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 11
-    pushes_per_repo: 12.9091
-    active_days: 47
+    pushes_per_repo: 12.8182
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soup"
@@ -166,6 +166,6 @@ repos:
 
 # MakazhanAlpamys
 
-142 pushes across 11 repositories on 47 active days in the last 90 days of public GitHub push activity.
+141 pushes across 11 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MakazhanAlpamys

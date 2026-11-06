@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "3fbb0d0462685f17"
-pushes_per_week: [6, 3, 4, 0, 1, 5, 11, 10, 20, 15, 7, 4, 0]
+pushes_per_week: [6, 1, 4, 0, 1, 7, 9, 13, 17, 15, 7, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 8
-    active_days: 12
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 16
-    active_days: 40
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.1500
-  repo_per_active_day: 0.4000
+  push_per_day: 2.1538
+  repo_per_active_day: 0.4103
   not_owned_ratio: 0.6250
   basename_concentration: 0.3125
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 8
-    pushes_per_repo: 3.7500
-    active_days: 12
+    pushes_per_repo: 3.6250
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 86
+    pushes: 84
     distinct_repos: 16
-    pushes_per_repo: 5.3750
-    active_days: 40
+    pushes_per_repo: 5.2500
+    active_days: 39
     repos_not_owned: 10
     not_owned_basenames: 5
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zul"
@@ -147,6 +147,6 @@ repos:
 
 # karlseguin
 
-86 pushes across 16 repositories on 40 active days in the last 90 days of public GitHub push activity.
+84 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/karlseguin

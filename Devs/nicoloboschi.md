@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [41, 23, 6, 6, 18, 8, 35, 21, 39, 17, 12, 3, 0]
+pushes_per_week: [38, 19, 6, 5, 20, 12, 38, 22, 30, 16, 12, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
-    distinct_repos: 9
-    active_days: 13
-    repos_not_owned: 4
+    pushes: 36
+    distinct_repos: 8
+    active_days: 12
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 229
+    pushes: 221
     distinct_repos: 24
-    active_days: 55
+    active_days: 54
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 4.1636
-  repo_per_active_day: 0.4364
+  push_per_day: 4.0926
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.6250
   basename_concentration: 0.5417
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
-    distinct_repos: 9
-    pushes_per_repo: 5.4444
-    active_days: 13
-    repos_not_owned: 4
+    pushes: 36
+    distinct_repos: 8
+    pushes_per_repo: 4.5000
+    active_days: 12
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 229
+    pushes: 221
     distinct_repos: 24
-    pushes_per_repo: 9.5417
-    active_days: 55
+    pushes_per_repo: 9.2083
+    active_days: 54
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aiagentmemory-site"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-229 pushes across 24 repositories on 55 active days in the last 90 days of public GitHub push activity.
+221 pushes across 24 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

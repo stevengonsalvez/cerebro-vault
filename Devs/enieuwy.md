@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [9, 7, 4, 2, 5, 1, 6, 3, 0, 8, 3, 7, 0]
+pushes_per_week: [13, 2, 4, 2, 5, 1, 7, 2, 1, 7, 3, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 14
     active_days: 25
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2000
+  push_per_day: 2.1600
   repo_per_active_day: 0.5600
   not_owned_ratio: 0.3571
   basename_concentration: 0.0714
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 55
+    pushes: 54
     distinct_repos: 14
-    pushes_per_repo: 3.9286
+    pushes_per_repo: 3.8571
     active_days: 25
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -162,6 +162,6 @@ repos:
 
 # enieuwy
 
-55 pushes across 14 repositories on 25 active days in the last 90 days of public GitHub push activity.
+54 pushes across 14 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/enieuwy

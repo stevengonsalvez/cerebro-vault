@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 2, 1, 0, 1, 0, 2, 4, 7, 1, 3, 1, 0]
+pushes_per_week: [3, 1, 1, 0, 1, 0, 2, 6, 5, 1, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 6
     active_days: 18
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3889
+  push_per_day: 1.3333
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 4.1667
+    pushes_per_repo: 4.0000
     active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -131,6 +131,6 @@ repos:
 
 # ErwannRobin
 
-25 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ErwannRobin

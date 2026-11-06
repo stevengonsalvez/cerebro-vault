@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "44bf92228a9e42f2"
-pushes_per_week: [64, 26, 17, 3, 11, 26, 73, 95, 65, 97, 52, 73, 0]
+pushes_per_week: [67, 20, 15, 3, 12, 32, 82, 88, 64, 89, 52, 73, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 241
+    pushes: 229
     distinct_repos: 16
-    active_days: 16
+    active_days: 15
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 602
+    pushes: 597
     distinct_repos: 40
     active_days: 65
     repos_not_owned: 24
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 23
 automation:
   state: "clear"
-  push_per_day: 9.2615
+  push_per_day: 9.1846
   repo_per_active_day: 0.6154
   not_owned_ratio: 0.6000
   basename_concentration: 0.4750
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 241
+    pushes: 229
     distinct_repos: 16
-    pushes_per_repo: 15.0625
-    active_days: 16
+    pushes_per_repo: 14.3125
+    active_days: 15
     repos_not_owned: 14
     not_owned_basenames: 2
     not_owned_owners: 14
   "90d":
-    pushes: 602
+    pushes: 597
     distinct_repos: 40
-    pushes_per_repo: 15.0500
+    pushes_per_repo: 14.9250
     active_days: 65
     repos_not_owned: 24
     not_owned_basenames: 4
@@ -130,6 +130,6 @@ repos:
 
 # ranxianglei
 
-602 pushes across 40 repositories on 65 active days in the last 90 days of public GitHub push activity.
+597 pushes across 40 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ranxianglei

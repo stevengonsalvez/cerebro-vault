@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [7, 1, 1, 0, 1, 4, 7, 6, 7, 10, 1, 4, 0]
+pushes_per_week: [6, 1, 1, 0, 1, 4, 9, 7, 6, 8, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 7
-    active_days: 8
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 17
-    active_days: 30
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6333
-  repo_per_active_day: 0.5667
+  push_per_day: 1.6552
+  repo_per_active_day: 0.5862
   not_owned_ratio: 0.1765
   basename_concentration: 0.0588
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 8
+    pushes_per_repo: 2.1429
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 17
-    pushes_per_repo: 2.8824
-    active_days: 30
+    pushes_per_repo: 2.8235
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "SEPURI-SAI-KRISHNA"
@@ -129,6 +129,6 @@ repos:
 
 # SEPURI-SAI-KRISHNA
 
-49 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
+48 pushes across 17 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

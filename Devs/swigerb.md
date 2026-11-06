@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [41, 8, 4, 0, 0, 0, 8, 51, 262, 57, 37, 0, 0]
+pushes_per_week: [44, 4, 3, 0, 0, 0, 13, 52, 303, 10, 37, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 151
+    pushes: 124
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 468
+    pushes: 466
     distinct_repos: 10
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.6486
-  repo_per_active_day: 0.2703
+  push_per_day: 12.9444
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 151
+    pushes: 124
     distinct_repos: 4
-    pushes_per_repo: 37.7500
-    active_days: 11
+    pushes_per_repo: 31.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 468
+    pushes: 466
     distinct_repos: 10
-    pushes_per_repo: 46.8000
-    active_days: 37
+    pushes_per_repo: 46.6000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "squad-pod"
@@ -140,6 +140,6 @@ repos:
 
 # swigerb
 
-468 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
+466 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

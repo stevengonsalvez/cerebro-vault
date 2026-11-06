@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 3, 6, 0, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 7, 2, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
-    distinct_repos: 3
-    active_days: 9
+    pushes: 13
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8571
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
-    distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 9
+    pushes: 13
+    distinct_repos: 2
+    pushes_per_repo: 6.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "revil"
@@ -143,6 +143,6 @@ repos:
 
 # TemRevil
 
-15 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
+13 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TemRevil

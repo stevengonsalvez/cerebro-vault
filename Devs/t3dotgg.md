@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [42, 5, 9, 1, 15, 14, 2, 40, 36, 105, 60, 32, 0]
+pushes_per_week: [38, 3, 9, 1, 15, 14, 13, 30, 37, 103, 61, 31, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 361
+    pushes: 355
     distinct_repos: 7
-    active_days: 51
+    active_days: 50
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.0784
-  repo_per_active_day: 0.1373
+  push_per_day: 7.1000
+  repo_per_active_day: 0.1400
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 361
+    pushes: 355
     distinct_repos: 7
-    pushes_per_repo: 51.5714
-    active_days: 51
+    pushes_per_repo: 50.7143
+    active_days: 50
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tstack"
@@ -136,6 +136,6 @@ repos:
 
 # t3dotgg
 
-361 pushes across 7 repositories on 51 active days in the last 90 days of public GitHub push activity.
+355 pushes across 7 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

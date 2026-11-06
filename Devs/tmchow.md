@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [36, 47, 11, 0, 2, 8, 14, 13, 13, 3, 7, 2, 1]
+pushes_per_week: [40, 44, 7, 0, 3, 11, 11, 12, 13, 3, 7, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 157
+    pushes: 154
     distinct_repos: 18
-    active_days: 47
+    active_days: 45
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 3.3404
-  repo_per_active_day: 0.3830
+  push_per_day: 3.4222
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.6667
   basename_concentration: 0.2778
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 157
+    pushes: 154
     distinct_repos: 18
-    pushes_per_repo: 8.7222
-    active_days: 47
+    pushes_per_repo: 8.5556
+    active_days: 45
     repos_not_owned: 12
     not_owned_basenames: 4
     not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "energon"
@@ -140,6 +140,6 @@ repos:
 
 # tmchow
 
-157 pushes across 18 repositories on 47 active days in the last 90 days of public GitHub push activity.
+154 pushes across 18 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tmchow

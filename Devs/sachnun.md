@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 2, 6, 6, 4, 18, 18, 15, 17, 12, 3, 2, 0]
+pushes_per_week: [9, 0, 8, 4, 4, 20, 18, 14, 16, 12, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 8
+    pushes: 110
+    distinct_repos: 7
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.1905
+  push_per_day: 2.6190
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 114
-    distinct_repos: 8
-    pushes_per_repo: 14.2500
+    pushes: 110
+    distinct_repos: 7
+    pushes_per_repo: 15.7143
     active_days: 42
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -140,6 +140,6 @@ repos:
 
 # sachnun
 
-114 pushes across 8 repositories on 42 active days in the last 90 days of public GitHub push activity.
+110 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [57, 13, 3, 0, 11, 10, 18, 31, 49, 1, 15, 3, 2]
+pushes_per_week: [47, 13, 1, 0, 12, 12, 24, 47, 25, 0, 15, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 213
+    pushes: 201
     distinct_repos: 9
-    active_days: 47
+    active_days: 45
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 4.5319
-  repo_per_active_day: 0.1915
+  push_per_day: 4.4667
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.8889
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 10
+    pushes_per_repo: 11.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 213
+    pushes: 201
     distinct_repos: 9
-    pushes_per_repo: 23.6667
-    active_days: 47
+    pushes_per_repo: 22.3333
+    active_days: 45
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bb-plugins"
@@ -148,6 +148,6 @@ repos:
 
 # ymichael
 
-213 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+201 pushes across 9 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

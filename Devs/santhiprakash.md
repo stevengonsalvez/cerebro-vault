@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [17, 13, 15, 1, 0, 3, 4, 4, 7, 0, 0, 0, 0]
+pushes_per_week: [19, 11, 14, 1, 0, 4, 3, 5, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 25
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0645
-  repo_per_active_day: 0.8065
+  push_per_day: 2.1000
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0400
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 25
-    pushes_per_repo: 2.5600
-    active_days: 31
+    pushes_per_repo: 2.5200
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "santhiprakash"
@@ -129,6 +129,6 @@ repos:
 
 # santhiprakash
 
-64 pushes across 25 repositories on 31 active days in the last 90 days of public GitHub push activity.
+63 pushes across 25 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santhiprakash

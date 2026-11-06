@@ -8,12 +8,12 @@ discovered_via_all:
 provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 2, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,17 +30,17 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.8000
-  not_owned_ratio: 0.7500
+  push_per_day: 1.2500
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.6667
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
-    distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "i-have-adhd"
@@ -136,6 +136,6 @@ repos:
 
 # ayghri
 
-6 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ayghri

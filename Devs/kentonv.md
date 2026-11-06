@@ -9,14 +9,14 @@ provenance_repos:
   - "cloudflare/computer"
   - "cloudflare/security-audit-skill"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
   - "9c15e014464735eb"
-pushes_per_week: [5, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.6000
+  push_per_day: 1.2500
+  repo_per_active_day: 0.7500
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 5
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "dvorak-qwerty"
@@ -133,6 +133,6 @@ repos:
 
 # kentonv
 
-7 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kentonv

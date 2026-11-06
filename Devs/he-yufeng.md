@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "16389f32495280ea"
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 7, 7, 1, 5, 10, 10, 10, 19, 15, 4, 1, 0]
+pushes_per_week: [1, 7, 7, 1, 5, 11, 10, 14, 16, 13, 4, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 13
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
-    distinct_repos: 27
-    active_days: 40
+    pushes: 91
+    distinct_repos: 28
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.6750
-  not_owned_ratio: 0.0370
-  basename_concentration: 0.0741
+  push_per_day: 2.2195
+  repo_per_active_day: 0.6829
+  not_owned_ratio: 0.0357
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 13
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.8462
     active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 90
-    distinct_repos: 27
-    pushes_per_repo: 3.3333
-    active_days: 40
+    pushes: 91
+    distinct_repos: 28
+    pushes_per_repo: 3.2500
+    active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "FindJobs-Agent"
@@ -189,6 +189,6 @@ repos:
 
 # he-yufeng
 
-90 pushes across 27 repositories on 40 active days in the last 90 days of public GitHub push activity.
+91 pushes across 28 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/he-yufeng

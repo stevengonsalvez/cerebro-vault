@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [8, 6, 1, 0, 3, 6, 10, 12, 0, 0, 2, 0, 0]
+pushes_per_week: [8, 5, 1, 0, 4, 5, 10, 12, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 4
-    active_days: 20
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 2.4737
+  repo_per_active_day: 0.2105
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 4
-    pushes_per_repo: 12.0000
-    active_days: 20
+    pushes_per_repo: 11.7500
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "programmer-soft-skills"
@@ -133,6 +133,6 @@ repos:
 
 # forrestchang
 
-48 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
+47 pushes across 4 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

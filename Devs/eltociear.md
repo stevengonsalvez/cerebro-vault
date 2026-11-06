@@ -8,17 +8,15 @@ provenance_repos:
   - "abi/screenshot-to-code"
   - "anthropics/anthropic-sdk-python"
   - "anthropics/claude-cookbooks"
-  - "Canner/WrenAI"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
-  - "dffbb846389f9a26"
   - "ef17663e884139a8"
-pushes_per_week: [3, 3, 1, 0, 0, 0, 1, 1, 2, 0, 1, 6, 0]
+pushes_per_week: [4, 2, 1, 0, 0, 0, 1, 2, 1, 0, 1, 6, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,7 +77,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

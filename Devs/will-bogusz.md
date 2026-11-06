@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [1, 2, 0, 0, 0, 7, 2, 16, 32, 82, 182, 11, 6]
+pushes_per_week: [2, 1, 0, 0, 0, 7, 6, 13, 31, 82, 182, 11, 8]
 windows:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 281
+    pushes: 283
     distinct_repos: 1
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 341
+    pushes: 343
     distinct_repos: 3
     active_days: 31
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.0000
+  push_per_day: 11.0645
   repo_per_active_day: 0.0968
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes_per_repo: 8.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 281
+    pushes: 283
     distinct_repos: 1
-    pushes_per_repo: 281.0000
+    pushes_per_repo: 283.0000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 341
+    pushes: 343
     distinct_repos: 3
-    pushes_per_repo: 113.6667
+    pushes_per_repo: 114.3333
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # will-bogusz
 
-341 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
+343 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/will-bogusz

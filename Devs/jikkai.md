@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [8, 2, 4, 0, 0, 2, 5, 2, 1, 2, 0, 0, 0]
+pushes_per_week: [6, 1, 4, 0, 0, 2, 5, 2, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 6
     active_days: 16
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6250
+  push_per_day: 1.4375
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 6
-    pushes_per_repo: 4.3333
+    pushes_per_repo: 3.8333
     active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -131,6 +131,6 @@ repos:
 
 # jikkai
 
-26 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
+23 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jikkai

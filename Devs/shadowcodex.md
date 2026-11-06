@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [16, 3, 3, 0, 0, 0, 4, 2, 1, 4, 18, 7, 1]
+pushes_per_week: [12, 3, 3, 0, 0, 2, 2, 2, 2, 3, 18, 7, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 55
     distinct_repos: 9
-    active_days: 23
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5652
-  repo_per_active_day: 0.3913
+  push_per_day: 2.5000
+  repo_per_active_day: 0.4091
   not_owned_ratio: 1.0000
   basename_concentration: 0.2222
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 55
     distinct_repos: 9
-    pushes_per_repo: 6.5556
-    active_days: 23
+    pushes_per_repo: 6.1111
+    active_days: 22
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "c9.ide.desktop"
@@ -145,6 +145,6 @@ repos:
 
 # shadowcodex
 
-59 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+55 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shadowcodex

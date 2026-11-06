@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [19, 8, 4, 0, 1, 0, 0, 1, 1, 11, 36, 4, 0]
+pushes_per_week: [14, 8, 4, 0, 1, 0, 0, 1, 2, 10, 36, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 6
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 13
-    active_days: 26
+    pushes: 80
+    distinct_repos: 12
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2692
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.0769
-  basename_concentration: 0.0769
+  push_per_day: 3.2000
+  repo_per_active_day: 0.4800
+  not_owned_ratio: 0.0833
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 14
+    pushes_per_repo: 8.5000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 85
-    distinct_repos: 13
-    pushes_per_repo: 6.5385
-    active_days: 26
+    pushes: 80
+    distinct_repos: 12
+    pushes_per_repo: 6.6667
+    active_days: 25
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Zephyr"
@@ -168,6 +168,6 @@ repos:
 
 # Juwan-Hwang
 
-85 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
+80 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Juwan-Hwang

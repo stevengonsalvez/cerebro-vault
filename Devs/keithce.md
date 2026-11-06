@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 1, 0, 0, 1, 1, 2, 6, 4, 9, 11, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 1, 1, 2, 8, 2, 9, 11, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 6
     active_days: 18
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1667
+  push_per_day: 2.1111
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 6
-    pushes_per_repo: 6.5000
+    pushes_per_repo: 6.3333
     active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -105,6 +105,6 @@ repos:
 
 # keithce
 
-39 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+38 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithce

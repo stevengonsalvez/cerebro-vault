@@ -6,17 +6,19 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
+  - "agavra/tuicr"
   - "alirezarezvani/claude-skills"
   - "anomalyco/opencode"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
+  - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,7 +79,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 4 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

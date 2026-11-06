@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [71, 17, 10, 14, 0, 3, 10, 1, 30, 18, 74, 45, 1]
+pushes_per_week: [75, 6, 20, 3, 0, 7, 6, 9, 23, 17, 74, 45, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 294
+    pushes: 286
     distinct_repos: 20
     active_days: 44
     repos_not_owned: 12
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.6818
+  push_per_day: 6.5000
   repo_per_active_day: 0.4545
   not_owned_ratio: 0.6000
   basename_concentration: 0.1500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 294
+    pushes: 286
     distinct_repos: 20
-    pushes_per_repo: 14.7000
+    pushes_per_repo: 14.3000
     active_days: 44
     repos_not_owned: 12
     not_owned_basenames: 11
@@ -145,6 +145,6 @@ repos:
 
 # kitlangton
 
-294 pushes across 20 repositories on 44 active days in the last 90 days of public GitHub push activity.
+286 pushes across 20 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

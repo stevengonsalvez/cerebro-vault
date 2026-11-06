@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [8, 5, 2, 0, 1, 4, 4, 3, 7, 5, 2, 1, 0]
+pushes_per_week: [11, 2, 2, 0, 1, 4, 4, 5, 6, 4, 2, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    active_days: 9
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 1
-    active_days: 31
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3548
-  repo_per_active_day: 0.0323
+  push_per_day: 1.3438
+  repo_per_active_day: 0.0312
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 10
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 9
+    pushes_per_repo: 10.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 43
     distinct_repos: 1
-    pushes_per_repo: 42.0000
-    active_days: 31
+    pushes_per_repo: 43.0000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-best-practice"
@@ -209,6 +209,6 @@ repos:
 
 # shanraisshan
 
-42 pushes across 1 repository on 31 active days in the last 90 days of public GitHub push activity.
+43 pushes across 1 repository on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

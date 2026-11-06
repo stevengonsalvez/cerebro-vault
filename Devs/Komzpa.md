@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "de6bf05613f3ae04"
-pushes_per_week: [34, 36, 8, 0, 60, 1, 4, 40, 45, 38, 20, 5, 0]
+pushes_per_week: [54, 11, 8, 0, 60, 1, 12, 48, 29, 38, 20, 5, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 65
     distinct_repos: 9
     active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 291
-    distinct_repos: 29
+    pushes: 288
+    distinct_repos: 28
     active_days: 40
     repos_not_owned: 10
     not_owned_basenames: 6
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 7.2750
-  repo_per_active_day: 0.7250
-  not_owned_ratio: 0.3448
-  basename_concentration: 0.2069
+  push_per_day: 7.2000
+  repo_per_active_day: 0.7000
+  not_owned_ratio: 0.3571
+  basename_concentration: 0.2143
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 65
     distinct_repos: 9
-    pushes_per_repo: 7.1111
+    pushes_per_repo: 7.2222
     active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 291
-    distinct_repos: 29
-    pushes_per_repo: 10.0345
+    pushes: 288
+    distinct_repos: 28
+    pushes_per_repo: 10.2857
     active_days: 40
     repos_not_owned: 10
     not_owned_basenames: 6
@@ -144,6 +144,6 @@ repos:
 
 # Komzpa
 
-291 pushes across 29 repositories on 40 active days in the last 90 days of public GitHub push activity.
+288 pushes across 28 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Komzpa

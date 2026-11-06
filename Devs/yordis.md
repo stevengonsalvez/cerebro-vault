@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 12, 3, 2, 3, 56, 25, 24, 36, 37, 15, 14, 0]
+pushes_per_week: [3, 12, 3, 2, 5, 58, 24, 22, 38, 34, 15, 14, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 12
     not_owned_owners: 4
   "90d":
-    pushes: 231
+    pushes: 230
     distinct_repos: 33
-    active_days: 48
+    active_days: 47
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.8125
-  repo_per_active_day: 0.6875
+  push_per_day: 4.8936
+  repo_per_active_day: 0.7021
   not_owned_ratio: 0.7576
   basename_concentration: 0.0606
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 12
     not_owned_owners: 4
   "90d":
-    pushes: 231
+    pushes: 230
     distinct_repos: 33
-    pushes_per_repo: 7.0000
-    active_days: 48
+    pushes_per_repo: 6.9697
+    active_days: 47
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: ".github"
@@ -109,6 +109,6 @@ repos:
 
 # yordis
 
-231 pushes across 33 repositories on 48 active days in the last 90 days of public GitHub push activity.
+230 pushes across 33 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

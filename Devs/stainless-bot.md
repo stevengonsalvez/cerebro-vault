@@ -18,7 +18,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-06T07:05:09.991843+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -36,6 +36,7 @@ provenance:
   - "11a9e9aebb65d4c7"
   - "11bfb616c2334a07"
   - "13d96f6971fff698"
+  - "199af8aea5b61129"
   - "199f1aeef5f0463c"
   - "1be978947e68d1f2"
   - "1f4559e41bf13b35"
@@ -78,6 +79,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
   - "b624a9cbfe8c4465"
   - "b7b96dd0ccd56642"
@@ -104,7 +106,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -121,18 +123,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.0000
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 1.0000
-  basename_concentration: 1.0000
+  push_per_day: 0.0000
+  repo_per_active_day: 0.0000
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -157,22 +159,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
-  - "provenance: 84 vault signal(s) — pass"
-  - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "provenance: 86 vault signal(s) — pass"
+  - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []
 ---
 
 # stainless-bot
 
-1 push across 1 repository on 1 active day in the last 90 days of public GitHub push activity.
+no pushes attributed in the last 90 days of public GitHub push activity.
 
 https://github.com/stainless-bot
