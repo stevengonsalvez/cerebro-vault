@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [27, 16, 0, 0, 3, 17, 14, 10, 6, 0, 4, 1, 1]
+pushes_per_week: [32, 9, 0, 0, 3, 20, 15, 6, 6, 0, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 10
-    active_days: 37
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6757
-  repo_per_active_day: 0.2703
+  push_per_day: 2.6944
+  repo_per_active_day: 0.2778
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 99
+    pushes: 97
     distinct_repos: 10
-    pushes_per_repo: 9.9000
-    active_days: 37
+    pushes_per_repo: 9.7000
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "promptscript"
@@ -187,6 +187,6 @@ repos:
 
 # mrwogu
 
-99 pushes across 10 repositories on 37 active days in the last 90 days of public GitHub push activity.
+97 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

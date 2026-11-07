@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [38, 3, 9, 1, 15, 14, 13, 30, 37, 103, 61, 31, 0]
+pushes_per_week: [12, 2, 10, 2, 13, 14, 32, 26, 29, 96, 66, 26, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 3
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 355
+    pushes: 328
     distinct_repos: 7
-    active_days: 50
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.1000
-  repo_per_active_day: 0.1400
+  push_per_day: 6.6939
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 206
+    pushes: 205
     distinct_repos: 3
-    pushes_per_repo: 68.6667
+    pushes_per_repo: 68.3333
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 355
+    pushes: 328
     distinct_repos: 7
-    pushes_per_repo: 50.7143
-    active_days: 50
+    pushes_per_repo: 46.8571
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tstack"
@@ -136,6 +136,6 @@ repos:
 
 # t3dotgg
 
-355 pushes across 7 repositories on 50 active days in the last 90 days of public GitHub push activity.
+328 pushes across 7 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

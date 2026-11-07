@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [17, 0, 7, 1, 1, 0, 1, 1, 1, 4, 1, 2, 0]
+pushes_per_week: [14, 1, 6, 1, 1, 1, 1, 1, 0, 4, 1, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 5
-    active_days: 19
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8947
-  repo_per_active_day: 0.2632
+  push_per_day: 1.9412
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 5
-    pushes_per_repo: 7.2000
-    active_days: 19
+    pushes_per_repo: 6.6000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cardamom"
@@ -133,6 +133,6 @@ repos:
 
 # abhinav
 
-36 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+33 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhinav

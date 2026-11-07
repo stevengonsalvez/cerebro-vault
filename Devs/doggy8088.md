@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 2, 7, 0, 4, 6, 6, 14, 3, 18, 8, 2, 0]
+pushes_per_week: [3, 2, 6, 0, 5, 7, 6, 13, 5, 15, 9, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 28
-    active_days: 37
+    pushes: 72
+    distinct_repos: 27
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9730
-  repo_per_active_day: 0.7568
-  not_owned_ratio: 0.0357
-  basename_concentration: 0.0714
+  push_per_day: 2.0000
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.0370
+  basename_concentration: 0.0741
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 28
-    pushes_per_repo: 2.6071
-    active_days: 37
+    pushes: 72
+    distinct_repos: 27
+    pushes_per_repo: 2.6667
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grok-bot-learn"
@@ -140,6 +140,6 @@ repos:
 
 # doggy8088
 
-73 pushes across 28 repositories on 37 active days in the last 90 days of public GitHub push activity.
+72 pushes across 27 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/doggy8088

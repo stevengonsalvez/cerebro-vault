@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [81, 52, 27, 11, 72, 104, 196, 139, 77, 40, 51, 105, 0]
+pushes_per_week: [82, 46, 21, 15, 73, 167, 159, 118, 69, 35, 96, 60, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 218
-    distinct_repos: 13
+    pushes: 215
+    distinct_repos: 12
     active_days: 13
-    repos_not_owned: 11
-    not_owned_basenames: 6
+    repos_not_owned: 10
+    not_owned_basenames: 5
     not_owned_owners: 8
   "90d":
-    pushes: 955
+    pushes: 941
     distinct_repos: 46
-    active_days: 67
+    active_days: 66
     repos_not_owned: 33
     not_owned_basenames: 11
     not_owned_owners: 26
 automation:
   state: "clear"
-  push_per_day: 14.2537
-  repo_per_active_day: 0.6866
+  push_per_day: 14.2576
+  repo_per_active_day: 0.6970
   not_owned_ratio: 0.7174
   basename_concentration: 0.5217
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 218
-    distinct_repos: 13
-    pushes_per_repo: 16.7692
+    pushes: 215
+    distinct_repos: 12
+    pushes_per_repo: 17.9167
     active_days: 13
-    repos_not_owned: 11
-    not_owned_basenames: 6
+    repos_not_owned: 10
+    not_owned_basenames: 5
     not_owned_owners: 8
   "90d":
-    pushes: 955
+    pushes: 941
     distinct_repos: 46
-    pushes_per_repo: 20.7609
-    active_days: 67
+    pushes_per_repo: 20.4565
+    active_days: 66
     repos_not_owned: 33
     not_owned_basenames: 11
     not_owned_owners: 26
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencodex"
@@ -174,6 +174,6 @@ repos:
 
 # lidge-jun
 
-955 pushes across 46 repositories on 67 active days in the last 90 days of public GitHub push activity.
+941 pushes across 46 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

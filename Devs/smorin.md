@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [11, 11, 0, 1, 3, 5, 17, 22, 0, 2, 0, 2, 0]
+pushes_per_week: [9, 11, 0, 1, 3, 12, 16, 16, 0, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 21
-    active_days: 31
+    active_days: 30
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.3871
-  repo_per_active_day: 0.6774
+  push_per_day: 2.4000
+  repo_per_active_day: 0.7000
   not_owned_ratio: 0.9048
   basename_concentration: 0.0476
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 74
+    pushes: 72
     distinct_repos: 21
-    pushes_per_repo: 3.5238
-    active_days: 31
+    pushes_per_repo: 3.4286
+    active_days: 30
     repos_not_owned: 19
     not_owned_basenames: 19
     not_owned_owners: 2
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deterministic-builds-google"
@@ -134,6 +134,6 @@ repos:
 
 # smorin
 
-74 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
+72 pushes across 21 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

@@ -11,45 +11,45 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [111, 77, 46, 7, 28, 157, 282, 118, 111, 65, 34, 68, 4]
+pushes_per_week: [118, 48, 47, 6, 34, 239, 213, 109, 106, 60, 47, 55, 7]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 181
-    distinct_repos: 32
-    active_days: 17
-    repos_not_owned: 32
+    pushes: 184
+    distinct_repos: 33
+    active_days: 18
+    repos_not_owned: 33
     not_owned_basenames: 4
-    not_owned_owners: 30
+    not_owned_owners: 31
   "90d":
-    pushes: 1108
-    distinct_repos: 95
-    active_days: 67
-    repos_not_owned: 93
+    pushes: 1089
+    distinct_repos: 96
+    active_days: 66
+    repos_not_owned: 94
     not_owned_basenames: 12
-    not_owned_owners: 85
+    not_owned_owners: 86
 automation:
   state: "clear"
-  push_per_day: 16.5373
-  repo_per_active_day: 1.4179
-  not_owned_ratio: 0.9789
-  basename_concentration: 0.8105
+  push_per_day: 16.5000
+  repo_per_active_day: 1.4545
+  not_owned_ratio: 0.9792
+  basename_concentration: 0.8021
   shapes:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "16.54 pushes per active day over 90d (1108 pushes / 67 active days), above the 15 review line"
-    - "basename concentration 0.8105 (77 of 95 repos share one basename), 93 not owned across 12 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
+    - "16.50 pushes per active day over 90d (1089 pushes / 66 active days), above the 15 review line"
+    - "basename concentration 0.8021 (77 of 96 repos share one basename), 94 not owned across 12 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -62,40 +62,40 @@ automation:
     sampled:
       - "0x7s0lt1/hermes-agent"
       - "Adolanium/hermes-agent"
+      - "aidatatools-dev/hermes-agent"
       - "AlphaPerseii3000/hermes-agent"
       - "AndreasHiltner/hermes-agent"
-      - "anpicasso/hermes-agent"
     upstreams:
       - "NousResearch/hermes-agent"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 181
-    distinct_repos: 32
-    pushes_per_repo: 5.6562
-    active_days: 17
-    repos_not_owned: 32
+    pushes: 184
+    distinct_repos: 33
+    pushes_per_repo: 5.5758
+    active_days: 18
+    repos_not_owned: 33
     not_owned_basenames: 4
-    not_owned_owners: 30
+    not_owned_owners: 31
   "90d":
-    pushes: 1108
-    distinct_repos: 95
-    pushes_per_repo: 11.6632
-    active_days: 67
-    repos_not_owned: 93
+    pushes: 1089
+    distinct_repos: 96
+    pushes_per_repo: 11.3438
+    active_days: 66
+    repos_not_owned: 94
     not_owned_basenames: 12
-    not_owned_owners: 85
+    not_owned_owners: 86
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-pixel-office"
@@ -160,6 +160,6 @@ repos:
 
 # teknium1
 
-1108 pushes across 95 repositories on 67 active days in the last 90 days of public GitHub push activity.
+1089 pushes across 96 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

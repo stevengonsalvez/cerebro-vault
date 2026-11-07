@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "d2a13eb5e04b724b"
-pushes_per_week: [58, 14, 32, 4, 32, 66, 121, 141, 102, 172, 53, 68, 1]
+pushes_per_week: [45, 15, 32, 2, 43, 72, 124, 136, 106, 153, 56, 65, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 305
+    pushes: 304
     distinct_repos: 7
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 864
-    distinct_repos: 13
-    active_days: 63
+    pushes: 850
+    distinct_repos: 12
+    active_days: 62
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 13.7143
-  repo_per_active_day: 0.2063
-  not_owned_ratio: 0.3846
-  basename_concentration: 0.1538
+  push_per_day: 13.7097
+  repo_per_active_day: 0.1935
+  not_owned_ratio: 0.4167
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 305
+    pushes: 304
     distinct_repos: 7
-    pushes_per_repo: 43.5714
+    pushes_per_repo: 43.4286
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 864
-    distinct_repos: 13
-    pushes_per_repo: 66.4615
-    active_days: 63
+    pushes: 850
+    distinct_repos: 12
+    pushes_per_repo: 70.8333
+    active_days: 62
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worktrunk"
@@ -139,6 +139,6 @@ repos:
 
 # max-sixty
 
-864 pushes across 13 repositories on 63 active days in the last 90 days of public GitHub push activity.
+850 pushes across 12 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/max-sixty

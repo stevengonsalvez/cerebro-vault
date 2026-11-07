@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -53,6 +53,7 @@ provenance:
   - "797aba84ba3e9103"
   - "7b1fa515c92a7efc"
   - "7c76a455bae5923b"
+  - "7cf21137c37e547b"
   - "8118f11844b1fac6"
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
@@ -89,7 +90,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [28, 2, 0, 0, 0, 4, 1, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [27, 2, 0, 0, 0, 5, 0, 1, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -106,16 +107,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.7143
-  repo_per_active_day: 0.1429
+  push_per_day: 2.8462
+  repo_per_active_day: 0.1538
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -142,16 +143,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 2
-    pushes_per_repo: 19.0000
-    active_days: 14
+    pushes_per_repo: 18.5000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 78 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "provenance: 79 vault signal(s) — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-xtras"
@@ -204,6 +205,6 @@ repos:
 
 # rquintino
 
-38 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
+37 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

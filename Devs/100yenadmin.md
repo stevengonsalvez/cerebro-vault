@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [22, 21, 56, 4, 6, 7, 21, 53, 48, 55, 48, 8, 2]
+pushes_per_week: [28, 17, 53, 4, 6, 7, 26, 52, 49, 50, 50, 6, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 351
+    pushes: 350
     distinct_repos: 24
-    active_days: 60
+    active_days: 59
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8500
-  repo_per_active_day: 0.4000
+  push_per_day: 5.9322
+  repo_per_active_day: 0.4068
   not_owned_ratio: 0.4167
   basename_concentration: 0.0417
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 351
+    pushes: 350
     distinct_repos: 24
-    pushes_per_repo: 14.6250
-    active_days: 60
+    pushes_per_repo: 14.5833
+    active_days: 59
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-plan-mode"
@@ -162,6 +162,6 @@ repos:
 
 # 100yenadmin
 
-351 pushes across 24 repositories on 60 active days in the last 90 days of public GitHub push activity.
+350 pushes across 24 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

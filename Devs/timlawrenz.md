@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [13, 0, 0, 0, 1, 1, 4, 0, 0, 0, 3, 1, 0]
+pushes_per_week: [12, 0, 0, 0, 1, 2, 3, 0, 0, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 5
-    active_days: 14
+    pushes: 22
+    distinct_repos: 4
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6429
-  repo_per_active_day: 0.3571
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 1.6923
+  repo_per_active_day: 0.3077
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 14
+    pushes: 22
+    distinct_repos: 4
+    pushes_per_repo: 5.5000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "eidolon"
@@ -129,6 +129,6 @@ repos:
 
 # timlawrenz
 
-23 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+22 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/timlawrenz

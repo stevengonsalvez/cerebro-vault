@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [114, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6, 1]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 6, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 145
-    distinct_repos: 81
-    active_days: 13
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    pushes: 35
+    distinct_repos: 7
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 11.1538
-  repo_per_active_day: 6.2308
-  not_owned_ratio: 0.1111
-  basename_concentration: 0.0247
+  push_per_day: 2.9167
+  repo_per_active_day: 0.5833
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 145
-    distinct_repos: 81
-    pushes_per_repo: 1.7901
-    active_days: 13
-    repos_not_owned: 9
-    not_owned_basenames: 8
-    not_owned_owners: 4
+    pushes: 35
+    distinct_repos: 7
+    pushes_per_repo: 5.0000
+    active_days: 12
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pyropdf"
@@ -150,6 +150,6 @@ repos:
 
 # yhay81
 
-145 pushes across 81 repositories on 13 active days in the last 90 days of public GitHub push activity.
+35 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yhay81

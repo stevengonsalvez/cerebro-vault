@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
-  - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "dae9f02535f7c22f"
-  - "de6bf05613f3ae04"
-pushes_per_week: [44, 19, 19, 2, 4, 25, 24, 78, 44, 56, 36, 3, 6]
+pushes_per_week: [44, 18, 15, 2, 6, 23, 30, 87, 32, 53, 36, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 360
+    pushes: 355
     distinct_repos: 28
-    active_days: 64
+    active_days: 63
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.6250
-  repo_per_active_day: 0.4375
+  push_per_day: 5.6349
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.3571
   basename_concentration: 0.0714
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 360
+    pushes: 355
     distinct_repos: 28
-    pushes_per_repo: 12.8571
-    active_days: 64
+    pushes_per_repo: 12.6786
+    active_days: 63
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "integration-ci"
@@ -142,6 +140,6 @@ repos:
 
 # andrebrait
 
-360 pushes across 28 repositories on 64 active days in the last 90 days of public GitHub push activity.
+355 pushes across 28 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

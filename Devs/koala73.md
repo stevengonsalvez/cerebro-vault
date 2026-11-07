@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [90, 47, 7, 8, 14, 31, 59, 33, 42, 17, 27, 11, 3]
+pushes_per_week: [98, 33, 9, 7, 20, 33, 52, 35, 40, 14, 31, 7, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
+    pushes: 382
     distinct_repos: 7
-    active_days: 66
+    active_days: 65
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.8939
-  repo_per_active_day: 0.1061
+  push_per_day: 5.8769
+  repo_per_active_day: 0.1077
   not_owned_ratio: 0.8571
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 389
+    pushes: 382
     distinct_repos: 7
-    pushes_per_repo: 55.5714
-    active_days: 66
+    pushes_per_repo: 54.5714
+    active_days: 65
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 66 active days in 90d — pass"
+  - "activity: 65 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worldmonitor"
@@ -133,6 +133,6 @@ repos:
 
 # koala73
 
-389 pushes across 7 repositories on 66 active days in the last 90 days of public GitHub push activity.
+382 pushes across 7 repositories on 65 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

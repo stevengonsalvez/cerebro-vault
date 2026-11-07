@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [107, 32, 41, 7, 43, 89, 89, 147, 130, 119, 117, 97, 0]
+pushes_per_week: [105, 36, 35, 7, 44, 134, 69, 164, 92, 113, 132, 82, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 340
+    pushes: 338
     distinct_repos: 7
     active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 1018
+    pushes: 1013
     distinct_repos: 33
-    active_days: 72
+    active_days: 71
     repos_not_owned: 32
     not_owned_basenames: 4
     not_owned_owners: 30
 automation:
   state: "clear"
-  push_per_day: 14.1389
-  repo_per_active_day: 0.4583
+  push_per_day: 14.2676
+  repo_per_active_day: 0.4648
   not_owned_ratio: 0.9697
   basename_concentration: 0.9091
   shapes:
@@ -76,24 +76,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 340
+    pushes: 338
     distinct_repos: 7
-    pushes_per_repo: 48.5714
+    pushes_per_repo: 48.2857
     active_days: 16
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 1018
+    pushes: 1013
     distinct_repos: 33
-    pushes_per_repo: 30.8485
-    active_days: 72
+    pushes_per_repo: 30.6970
+    active_days: 71
     repos_not_owned: 32
     not_owned_basenames: 4
     not_owned_owners: 30
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chain-trigger"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-1018 pushes across 33 repositories on 72 active days in the last 90 days of public GitHub push activity.
+1013 pushes across 33 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

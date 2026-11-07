@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [40, 6, 12, 5, 16, 26, 55, 113, 55, 44, 35, 81, 3]
+pushes_per_week: [34, 5, 13, 3, 16, 36, 62, 111, 44, 39, 44, 72, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 491
+    pushes: 482
     distinct_repos: 7
-    active_days: 62
+    active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 7.9194
-  repo_per_active_day: 0.1129
+  push_per_day: 7.9016
+  repo_per_active_day: 0.1148
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 491
+    pushes: 482
     distinct_repos: 7
-    pushes_per_repo: 70.1429
-    active_days: 62
+    pushes_per_repo: 68.8571
+    active_days: 61
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-interrogation"
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-491 pushes across 7 repositories on 62 active days in the last 90 days of public GitHub push activity.
+482 pushes across 7 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

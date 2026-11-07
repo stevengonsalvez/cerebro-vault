@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [30, 5, 6, 3, 13, 17, 39, 31, 24, 10, 9, 13, 1]
+pushes_per_week: [28, 5, 6, 2, 14, 26, 33, 33, 23, 5, 11, 11, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 6
     active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 201
+    pushes: 198
     distinct_repos: 23
-    active_days: 57
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5263
-  repo_per_active_day: 0.4035
+  push_per_day: 3.5357
+  repo_per_active_day: 0.4107
   not_owned_ratio: 0.2174
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 37
+    pushes: 36
     distinct_repos: 6
-    pushes_per_repo: 6.1667
+    pushes_per_repo: 6.0000
     active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 201
+    pushes: 198
     distinct_repos: 23
-    pushes_per_repo: 8.7391
-    active_days: 57
+    pushes_per_repo: 8.6087
+    active_days: 56
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-agent-7777"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-201 pushes across 23 repositories on 57 active days in the last 90 days of public GitHub push activity.
+198 pushes across 23 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [53, 20, 9, 2, 8, 4, 8, 10, 6, 5, 3, 5, 0]
+pushes_per_week: [57, 17, 5, 2, 8, 9, 4, 10, 6, 4, 3, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,7 +33,7 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 39
     active_days: 43
     repos_not_owned: 6
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0930
+  push_per_day: 3.0233
   repo_per_active_day: 0.9070
   not_owned_ratio: 0.1538
   basename_concentration: 0.0513
@@ -69,9 +69,9 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 133
+    pushes: 130
     distinct_repos: 39
-    pushes_per_repo: 3.4103
+    pushes_per_repo: 3.3333
     active_days: 43
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-133 pushes across 39 repositories on 43 active days in the last 90 days of public GitHub push activity.
+130 pushes across 39 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [10, 2, 11, 0, 1, 6, 5, 12, 4, 3, 3, 1, 0]
+pushes_per_week: [6, 2, 11, 0, 1, 8, 6, 10, 3, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 17
-    active_days: 30
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9333
-  repo_per_active_day: 0.5667
+  push_per_day: 1.9286
+  repo_per_active_day: 0.6071
   not_owned_ratio: 0.0000
   basename_concentration: 0.0588
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 58
+    pushes: 54
     distinct_repos: 17
-    pushes_per_repo: 3.4118
-    active_days: 30
+    pushes_per_repo: 3.1765
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scoop-bucket"
@@ -121,6 +121,6 @@ repos:
 
 # zeldrisho
 
-58 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
+54 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

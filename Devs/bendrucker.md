@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [8, 6, 5, 0, 9, 12, 29, 22, 10, 12, 18, 0, 0]
+pushes_per_week: [7, 7, 4, 0, 11, 17, 28, 16, 10, 12, 18, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 3
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 130
     distinct_repos: 8
-    active_days: 37
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5405
-  repo_per_active_day: 0.2162
+  push_per_day: 3.6111
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 3
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.6667
     active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 130
     distinct_repos: 8
-    pushes_per_repo: 16.3750
-    active_days: 37
+    pushes_per_repo: 16.2500
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -133,6 +133,6 @@ repos:
 
 # bendrucker
 
-131 pushes across 8 repositories on 37 active days in the last 90 days of public GitHub push activity.
+130 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

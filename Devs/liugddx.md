@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [12, 6, 3, 1, 1, 1, 0, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [14, 3, 3, 1, 1, 1, 0, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 3
     active_days: 15
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8000
+  push_per_day: 1.7333
   repo_per_active_day: 0.2000
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 3
-    pushes_per_repo: 9.0000
+    pushes_per_repo: 8.6667
     active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -134,6 +134,6 @@ repos:
 
 # liugddx
 
-27 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
+26 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liugddx

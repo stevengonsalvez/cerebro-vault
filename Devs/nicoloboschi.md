@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [38, 19, 6, 5, 20, 12, 38, 22, 30, 16, 12, 3, 0]
+pushes_per_week: [38, 12, 6, 5, 20, 14, 37, 21, 30, 16, 13, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 221
+    pushes: 214
     distinct_repos: 24
-    active_days: 54
+    active_days: 53
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 4.0926
-  repo_per_active_day: 0.4444
+  push_per_day: 4.0377
+  repo_per_active_day: 0.4528
   not_owned_ratio: 0.6250
   basename_concentration: 0.5417
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 221
+    pushes: 214
     distinct_repos: 24
-    pushes_per_repo: 9.2083
-    active_days: 54
+    pushes_per_repo: 8.9167
+    active_days: 53
     repos_not_owned: 15
     not_owned_basenames: 3
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aiagentmemory-site"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-221 pushes across 24 repositories on 54 active days in the last 90 days of public GitHub push activity.
+214 pushes across 24 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

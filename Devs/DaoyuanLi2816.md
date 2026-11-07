@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "16389f32495280ea"
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [9, 2, 0, 0, 1, 0, 2, 0, 4, 1, 0, 0, 0]
+pushes_per_week: [9, 1, 0, 0, 1, 1, 1, 2, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5833
-  repo_per_active_day: 0.5833
+  push_per_day: 1.6364
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 12
+    pushes_per_repo: 2.5714
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mini-verl"
@@ -206,6 +206,6 @@ repos:
 
 # DaoyuanLi2816
 
-19 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
+18 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaoyuanLi2816

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [26, 9, 22, 3, 2, 3, 20, 11, 0, 5, 18, 10, 0]
+pushes_per_week: [24, 9, 20, 2, 2, 9, 14, 11, 0, 5, 19, 9, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 5
-    active_days: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 129
+    pushes: 125
     distinct_repos: 16
-    active_days: 39
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.3077
-  repo_per_active_day: 0.4103
+  push_per_day: 3.2895
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.6250
   basename_concentration: 0.3750
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 33
+    pushes: 34
     distinct_repos: 5
-    pushes_per_repo: 6.6000
-    active_days: 8
+    pushes_per_repo: 6.8000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 129
+    pushes: 125
     distinct_repos: 16
-    pushes_per_repo: 8.0625
-    active_days: 39
+    pushes_per_repo: 7.8125
+    active_days: 38
     repos_not_owned: 10
     not_owned_basenames: 3
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-finance"
@@ -146,6 +146,6 @@ repos:
 
 # M4n5ter
 
-129 pushes across 16 repositories on 39 active days in the last 90 days of public GitHub push activity.
+125 pushes across 16 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

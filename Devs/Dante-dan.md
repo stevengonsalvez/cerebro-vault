@@ -7,17 +7,15 @@ discovered_via_all:
 provenance_repos:
   - "affaan-m/ECC"
   - "apache/maka"
-  - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
-  - "de6bf05613f3ae04"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 12, 9, 22, 14, 11, 3, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 13, 10, 25, 7, 11, 3, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

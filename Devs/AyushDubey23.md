@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
     active_days: 5
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4000
+  push_per_day: 1.0000
   repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.7500
+    pushes_per_repo: 1.2500
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # AyushDubey23
 
-7 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+5 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AyushDubey23

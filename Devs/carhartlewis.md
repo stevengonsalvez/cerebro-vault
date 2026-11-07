@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "trycompai/crm"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "b110e14124562bc5"
-pushes_per_week: [13, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.4000
+  push_per_day: 3.2500
+  repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 5
+    pushes_per_repo: 6.5000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "lamborghini"
@@ -105,6 +105,6 @@ repos:
 
 # carhartlewis
 
-14 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
+13 pushes across 2 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carhartlewis

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [3, 2, 4, 12, 31, 12, 32, 20, 4, 8, 9, 2, 0]
+pushes_per_week: [2, 2, 13, 8, 28, 14, 34, 14, 5, 7, 10, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 139
+    pushes: 138
     distinct_repos: 3
-    active_days: 44
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1591
-  repo_per_active_day: 0.0682
+  push_per_day: 3.2093
+  repo_per_active_day: 0.0698
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 139
+    pushes: 138
     distinct_repos: 3
-    pushes_per_repo: 46.3333
-    active_days: 44
+    pushes_per_repo: 46.0000
+    active_days: 43
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "trace-mcp"
@@ -133,6 +133,6 @@ repos:
 
 # nikolai-vysotskyi
 
-139 pushes across 3 repositories on 44 active days in the last 90 days of public GitHub push activity.
+138 pushes across 3 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nikolai-vysotskyi

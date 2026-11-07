@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [92, 12, 14, 3, 9, 86, 123, 199, 32, 7, 53, 31, 3]
+pushes_per_week: [93, 10, 11, 3, 16, 93, 127, 181, 33, 6, 57, 27, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 112
-    distinct_repos: 42
+    pushes: 109
+    distinct_repos: 39
     active_days: 16
-    repos_not_owned: 41
-    not_owned_basenames: 39
+    repos_not_owned: 38
+    not_owned_basenames: 36
     not_owned_owners: 3
   "90d":
-    pushes: 664
-    distinct_repos: 102
-    active_days: 63
-    repos_not_owned: 96
-    not_owned_basenames: 92
+    pushes: 660
+    distinct_repos: 101
+    active_days: 62
+    repos_not_owned: 95
+    not_owned_basenames: 91
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.5397
-  repo_per_active_day: 1.6190
-  not_owned_ratio: 0.9412
-  basename_concentration: 0.0196
+  push_per_day: 10.6452
+  repo_per_active_day: 1.6290
+  not_owned_ratio: 0.9406
+  basename_concentration: 0.0198
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 112
-    distinct_repos: 42
-    pushes_per_repo: 2.6667
+    pushes: 109
+    distinct_repos: 39
+    pushes_per_repo: 2.7949
     active_days: 16
-    repos_not_owned: 41
-    not_owned_basenames: 39
+    repos_not_owned: 38
+    not_owned_basenames: 36
     not_owned_owners: 3
   "90d":
-    pushes: 664
-    distinct_repos: 102
-    pushes_per_repo: 6.5098
-    active_days: 63
-    repos_not_owned: 96
-    not_owned_basenames: 92
+    pushes: 660
+    distinct_repos: 101
+    pushes_per_repo: 6.5347
+    active_days: 62
+    repos_not_owned: 95
+    not_owned_basenames: 91
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CybotTM"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-664 pushes across 102 repositories on 63 active days in the last 90 days of public GitHub push activity.
+660 pushes across 101 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 0, 6, 1, 1, 4, 4, 2, 2, 1, 1, 0, 0]
+pushes_per_week: [5, 0, 7, 0, 1, 4, 4, 2, 2, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 16
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4737
-  repo_per_active_day: 0.8421
+  push_per_day: 1.5000
+  repo_per_active_day: 0.8889
   not_owned_ratio: 0.0625
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 16
-    pushes_per_repo: 1.7500
-    active_days: 19
+    pushes_per_repo: 1.6875
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gpuix"
@@ -149,6 +149,6 @@ repos:
 
 # remorses
 
-28 pushes across 16 repositories on 19 active days in the last 90 days of public GitHub push activity.
+27 pushes across 16 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/remorses

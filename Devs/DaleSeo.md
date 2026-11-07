@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 2, 0, 0, 0, 5, 17, 7, 5, 12, 4, 3, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 7, 16, 6, 6, 11, 6, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 15
-    active_days: 27
+    active_days: 26
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1111
-  repo_per_active_day: 0.5556
+  push_per_day: 2.1538
+  repo_per_active_day: 0.5769
   not_owned_ratio: 0.8000
   basename_concentration: 0.1333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 3
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 15
-    pushes_per_repo: 3.8000
-    active_days: 27
+    pushes_per_repo: 3.7333
+    active_days: 26
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "korean-skills"
@@ -132,6 +132,6 @@ repos:
 
 # DaleSeo
 
-57 pushes across 15 repositories on 27 active days in the last 90 days of public GitHub push activity.
+56 pushes across 15 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DaleSeo

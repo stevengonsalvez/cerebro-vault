@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [3, 1, 0, 0, 0, 4, 5, 10, 21, 0, 2, 7, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 4, 5, 10, 21, 0, 2, 7, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 13
-    active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 50
+    distinct_repos: 12
+    active_days: 15
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1176
-  repo_per_active_day: 0.7647
-  not_owned_ratio: 0.3846
-  basename_concentration: 0.2308
+  push_per_day: 3.3333
+  repo_per_active_day: 0.8000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
-    distinct_repos: 13
-    pushes_per_repo: 4.0769
-    active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 50
+    distinct_repos: 12
+    pushes_per_repo: 4.1667
+    active_days: 15
+    repos_not_owned: 4
+    not_owned_basenames: 3
+    not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openduet-launch"
@@ -138,6 +138,6 @@ repos:
 
 # jerelvelarde
 
-53 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
+50 pushes across 12 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde

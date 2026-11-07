@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [16, 1, 0, 0, 0, 0, 5, 21, 0, 1, 0, 0, 0]
+pushes_per_week: [15, 0, 0, 0, 0, 1, 16, 9, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 12
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1429
-  repo_per_active_day: 0.8571
+  push_per_day: 3.2308
+  repo_per_active_day: 0.9231
   not_owned_ratio: 0.2500
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 12
-    pushes_per_repo: 3.6667
-    active_days: 14
+    pushes_per_repo: 3.5000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qflarebot-plugin-agent"
@@ -134,6 +134,6 @@ repos:
 
 # clown145
 
-44 pushes across 12 repositories on 14 active days in the last 90 days of public GitHub push activity.
+42 pushes across 12 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

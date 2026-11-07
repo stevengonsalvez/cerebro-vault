@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 1, 3, 0, 5, 0, 1, 0, 0, 7, 2, 23, 2]
+pushes_per_week: [3, 1, 3, 0, 5, 0, 1, 0, 1, 6, 3, 22, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 9
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1818
-  repo_per_active_day: 0.4091
+  push_per_day: 2.2381
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 9
-    pushes_per_repo: 5.3333
-    active_days: 22
+    pushes_per_repo: 5.2222
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dilara-bparty"
@@ -129,6 +129,6 @@ repos:
 
 # ramtinJ95
 
-48 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+47 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 1, 1, 0, 1, 16, 20, 43, 25, 6, 28, 2, 1]
+pushes_per_week: [0, 1, 1, 0, 1, 16, 22, 41, 25, 6, 28, 2, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 19
-    active_days: 10
+    active_days: 11
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 3
   "90d":
-    pushes: 144
+    pushes: 145
     distinct_repos: 30
-    active_days: 30
+    active_days: 31
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.8000
-  repo_per_active_day: 1.0000
+  push_per_day: 4.6774
+  repo_per_active_day: 0.9677
   not_owned_ratio: 0.8667
   basename_concentration: 0.0667
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 47
+    pushes: 48
     distinct_repos: 19
-    pushes_per_repo: 2.4737
-    active_days: 10
+    pushes_per_repo: 2.5263
+    active_days: 11
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 3
   "90d":
-    pushes: 144
+    pushes: 145
     distinct_repos: 30
-    pushes_per_repo: 4.8000
-    active_days: 30
+    pushes_per_repo: 4.8333
+    active_days: 31
     repos_not_owned: 26
     not_owned_basenames: 26
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grafana-orgswitch-repro"
@@ -129,6 +129,6 @@ repos:
 
 # QuentinBisson
 
-144 pushes across 30 repositories on 30 active days in the last 90 days of public GitHub push activity.
+145 pushes across 30 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/QuentinBisson

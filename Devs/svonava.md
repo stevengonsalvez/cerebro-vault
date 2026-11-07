@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "623376f479d42fb7"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 9, 14, 2, 8, 7, 1, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 0, 9, 14, 6, 4, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 2
     active_days: 18
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4444
+  push_per_day: 2.3889
   repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 22.0000
+    pushes_per_repo: 21.5000
     active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -113,6 +113,6 @@ repos:
 
 # svonava
 
-44 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/svonava

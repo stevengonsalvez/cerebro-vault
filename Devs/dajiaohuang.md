@@ -15,7 +15,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "1df6ea1f1256059e"
@@ -25,7 +25,7 @@ provenance:
   - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [28, 1, 6, 3, 19, 8, 25, 128, 37, 0, 17, 12, 0]
+pushes_per_week: [22, 2, 6, 3, 18, 8, 33, 129, 28, 0, 17, 12, 0]
 windows:
   "7d":
     pushes: 0
@@ -42,18 +42,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 284
-    distinct_repos: 95
-    active_days: 45
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 278
+    distinct_repos: 94
+    active_days: 44
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.3111
-  repo_per_active_day: 2.1111
-  not_owned_ratio: 0.1579
-  basename_concentration: 0.0105
+  push_per_day: 6.3182
+  repo_per_active_day: 2.1364
+  not_owned_ratio: 0.1489
+  basename_concentration: 0.0106
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -78,16 +78,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 284
-    distinct_repos: 95
-    pushes_per_repo: 2.9895
-    active_days: 45
-    repos_not_owned: 15
-    not_owned_basenames: 15
+    pushes: 278
+    distinct_repos: 94
+    pushes_per_repo: 2.9574
+    active_days: 44
+    repos_not_owned: 14
+    not_owned_basenames: 14
     not_owned_owners: 1
 reasons:
   - "provenance: 8 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "shuiyuan-mcp"
@@ -123,6 +123,6 @@ repos:
 
 # dajiaohuang
 
-284 pushes across 95 repositories on 45 active days in the last 90 days of public GitHub push activity.
+278 pushes across 94 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [60, 26, 54, 8, 6, 49, 86, 32, 48, 18, 16, 31, 0]
+pushes_per_week: [54, 23, 55, 7, 7, 62, 71, 41, 38, 18, 18, 29, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 71
     distinct_repos: 1
-    active_days: 13
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 434
+    pushes: 424
     distinct_repos: 3
     active_days: 64
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.7812
+  push_per_day: 6.6250
   repo_per_active_day: 0.0469
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 71
     distinct_repos: 1
-    pushes_per_repo: 70.0000
-    active_days: 13
+    pushes_per_repo: 71.0000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 434
+    pushes: 424
     distinct_repos: 3
-    pushes_per_repo: 144.6667
+    pushes_per_repo: 141.3333
     active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-434 pushes across 3 repositories on 64 active days in the last 90 days of public GitHub push activity.
+424 pushes across 3 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

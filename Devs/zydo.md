@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [8, 4, 5, 4, 139, 2, 17, 16, 6, 4, 9, 1, 0]
+pushes_per_week: [7, 8, 1, 7, 136, 7, 24, 4, 7, 3, 9, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 215
-    distinct_repos: 21
-    active_days: 35
+    pushes: 214
+    distinct_repos: 20
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 6.1429
-  repo_per_active_day: 0.6000
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0952
+  push_per_day: 6.2941
+  repo_per_active_day: 0.5882
+  not_owned_ratio: 0.3500
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 215
-    distinct_repos: 21
-    pushes_per_repo: 10.2381
-    active_days: 35
+    pushes: 214
+    distinct_repos: 20
+    pushes_per_repo: 10.7000
+    active_days: 34
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -196,6 +196,6 @@ repos:
 
 # zydo
 
-215 pushes across 21 repositories on 35 active days in the last 90 days of public GitHub push activity.
+214 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zydo

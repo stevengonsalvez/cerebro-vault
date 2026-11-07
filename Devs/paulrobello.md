@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 3, 0, 0, 2, 37, 51, 16, 2, 5, 4, 0]
+pushes_per_week: [0, 0, 3, 0, 0, 4, 46, 41, 15, 2, 6, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 13
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.9032
-  repo_per_active_day: 0.4194
+  push_per_day: 4.0000
+  repo_per_active_day: 0.4333
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 13
-    pushes_per_repo: 9.3077
-    active_days: 31
+    pushes_per_repo: 9.2308
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "par-term"
@@ -129,6 +129,6 @@ repos:
 
 # paulrobello
 
-121 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+120 pushes across 13 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulrobello

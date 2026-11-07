@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [22, 3, 6, 1, 11, 8, 27, 23, 8, 8, 4, 5, 0]
+pushes_per_week: [22, 3, 5, 2, 10, 11, 25, 25, 5, 8, 4, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 126
+    pushes: 125
     distinct_repos: 2
-    active_days: 45
+    active_days: 44
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8000
-  repo_per_active_day: 0.0444
+  push_per_day: 2.8409
+  repo_per_active_day: 0.0455
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 126
+    pushes: 125
     distinct_repos: 2
-    pushes_per_repo: 63.0000
-    active_days: 45
+    pushes_per_repo: 62.5000
+    active_days: 44
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-otel"
@@ -145,6 +145,6 @@ repos:
 
 # ColeMurray
 
-126 pushes across 2 repositories on 45 active days in the last 90 days of public GitHub push activity.
+125 pushes across 2 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

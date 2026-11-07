@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 2, 1, 0, 2, 9, 7, 5, 3, 4, 4, 0, 0]
+pushes_per_week: [7, 2, 0, 0, 4, 7, 7, 5, 3, 4, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 15
-    active_days: 31
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4194
-  repo_per_active_day: 0.4839
+  push_per_day: 1.4333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.4000
   basename_concentration: 0.1333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 15
-    pushes_per_repo: 2.9333
-    active_days: 31
+    pushes_per_repo: 2.8667
+    active_days: 30
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zed-comment"
@@ -129,6 +129,6 @@ repos:
 
 # thedadams
 
-44 pushes across 15 repositories on 31 active days in the last 90 days of public GitHub push activity.
+43 pushes across 15 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thedadams

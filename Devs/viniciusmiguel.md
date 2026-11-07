@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [4, 1, 3, 0, 0, 0, 1, 0, 0, 42, 3, 8, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 0, 1, 0, 10, 32, 6, 5, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 10
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 58
+    distinct_repos: 7
+    active_days: 13
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4286
-  repo_per_active_day: 0.7143
+  push_per_day: 4.4615
+  repo_per_active_day: 0.5385
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 10
-    pushes_per_repo: 6.2000
-    active_days: 14
-    repos_not_owned: 10
-    not_owned_basenames: 9
+    pushes: 58
+    distinct_repos: 7
+    pushes_per_repo: 8.2857
+    active_days: 13
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "OpenVTOLPlane"
@@ -129,6 +129,6 @@ repos:
 
 # viniciusmiguel
 
-62 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
+58 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusmiguel

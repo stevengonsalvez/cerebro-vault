@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [42, 10, 1, 1, 0, 5, 5, 11, 1, 3, 0, 0, 0]
+pushes_per_week: [37, 7, 1, 1, 2, 3, 5, 11, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 71
     distinct_repos: 13
-    active_days: 28
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.8214
-  repo_per_active_day: 0.4643
+  push_per_day: 2.6296
+  repo_per_active_day: 0.4815
   not_owned_ratio: 0.3077
   basename_concentration: 0.2308
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 79
+    pushes: 71
     distinct_repos: 13
-    pushes_per_repo: 6.0769
-    active_days: 28
+    pushes_per_repo: 5.4615
+    active_days: 27
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "boardcast"
@@ -139,6 +139,6 @@ repos:
 
 # HsiangNianian
 
-79 pushes across 13 repositories on 28 active days in the last 90 days of public GitHub push activity.
+71 pushes across 13 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

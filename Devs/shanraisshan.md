@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [11, 2, 2, 0, 1, 4, 4, 5, 6, 4, 2, 1, 1]
+pushes_per_week: [11, 2, 1, 0, 1, 4, 4, 5, 6, 4, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 1
-    active_days: 32
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3438
-  repo_per_active_day: 0.0312
+  push_per_day: 1.3548
+  repo_per_active_day: 0.0323
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 10
+    pushes_per_repo: 9.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 1
-    pushes_per_repo: 43.0000
-    active_days: 32
+    pushes_per_repo: 42.0000
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-best-practice"
@@ -209,6 +209,6 @@ repos:
 
 # shanraisshan
 
-43 pushes across 1 repository on 32 active days in the last 90 days of public GitHub push activity.
+42 pushes across 1 repository on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

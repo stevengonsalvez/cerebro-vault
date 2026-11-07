@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anomalyco/opencode"
-  - "can1357/oh-my-pi"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-07T07:04:55.898902+00:00"
 provenance:
-  - "de6bf05613f3ae04"
   - "ffccace0ba14fd15"
-pushes_per_week: [45, 17, 16, 6, 10, 32, 42, 72, 23, 21, 11, 5, 1]
+pushes_per_week: [49, 10, 18, 2, 21, 29, 58, 56, 18, 18, 12, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 301
+    pushes: 296
     distinct_repos: 19
-    active_days: 62
+    active_days: 61
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.8548
-  repo_per_active_day: 0.3065
+  push_per_day: 4.8525
+  repo_per_active_day: 0.3115
   not_owned_ratio: 0.4211
   basename_concentration: 0.1579
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 301
+    pushes: 296
     distinct_repos: 19
-    pushes_per_repo: 15.8421
-    active_days: 62
+    pushes_per_repo: 15.5789
+    active_days: 61
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sap-ai-provider"
@@ -135,6 +133,6 @@ repos:
 
 # jerome-benoit
 
-301 pushes across 19 repositories on 62 active days in the last 90 days of public GitHub push activity.
+296 pushes across 19 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit
