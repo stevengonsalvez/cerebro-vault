@@ -7,13 +7,15 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "akitaonrails/ai-memory"
+  - "andrewboldi/tmux-restore"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [15, 9, 8, 4, 10, 24, 30, 26, 15, 33, 26, 14, 0]
+  - "f135712f91f710c6"
+pushes_per_week: [22, 8, 2, 7, 8, 32, 35, 12, 28, 29, 30, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 84
-    distinct_repos: 24
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 2
-    not_owned_owners: 7
+    pushes: 73
+    distinct_repos: 20
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 1
+    not_owned_owners: 6
   "90d":
-    pushes: 214
+    pushes: 213
     distinct_repos: 35
-    active_days: 53
+    active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.0377
-  repo_per_active_day: 0.6604
+  push_per_day: 4.0962
+  repo_per_active_day: 0.6731
   not_owned_ratio: 0.2857
   basename_concentration: 0.2571
   shapes: []
@@ -58,78 +60,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 84
-    distinct_repos: 24
-    pushes_per_repo: 3.5000
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 2
-    not_owned_owners: 7
+    pushes: 73
+    distinct_repos: 20
+    pushes_per_repo: 3.6500
+    active_days: 11
+    repos_not_owned: 6
+    not_owned_basenames: 1
+    not_owned_owners: 6
   "90d":
-    pushes: 214
+    pushes: 213
     distinct_repos: 35
-    pushes_per_repo: 6.1143
-    active_days: 53
+    pushes_per_repo: 6.0857
+    active_days: 52
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ai-memory"
-    title: "ai-memory"
-    description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
-    language: "Rust"
-    topics: []
-    stars_fact: 14874
-    first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-11-01"
-  - name: "distrobox-gaming"
-    title: "distrobox-gaming"
-    description: "Script to create a gaming focused Distrobox with all emulators pre-configured"
-    language: "Python"
-    topics: []
-    stars_fact: 454
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "rea-colin-mcrae-3"
     title: "rea-colin-mcrae-3"
     description: "Experimental Launcher for Colin McRae 3 to make it work in modern PCs easily"
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "rea-colin-mcrae-4"
     title: "rea-colin-mcrae-4"
     description: "Experimental Launcher for Colin McRae 4 to make it work in modern PCs easily"
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "rea-sega-rally-revo"
-    title: "rea-sega-rally-revo"
-    description: "Experimental Launcher for Sega Rally REVO to make it work in modern PCs easily"
+    last_push: "2026-11-09"
+  - name: "rea-colin-mcrae-2005"
+    title: "rea-colin-mcrae-2005"
+    description: "Experimental Launcher for Colin McRae 2005 to make it work in modern PCs easily"
+    language: "Shell"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "rea-launcher-sdk"
+    title: "rea-launcher-sdk"
+    description: "Framework to build retrogame launchers"
     language: "Rust"
     topics: []
-    stars_fact: 1
+    stars_fact: 48
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "rea-outrun-2006"
-    title: "rea-outrun-2006"
-    description: "Experimental Launcher for Outrun 2006 Coast to Coast to make it work in modern PCs easily"
+    last_push: "2026-11-09"
+  - name: "ai-memory"
+    title: "ai-memory"
+    description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 15510
+    first_seen: "2026-08-18T06:00:11.655353+00:00"
+    last_push: "2026-11-09"
+  - name: "ai-book-2026"
+    title: "ai-book-2026"
+    description: "e-book version of the akitaonrails.com blog."
+    language: "Ruby"
+    topics: []
+    stars_fact: 375
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-10-25"
 ---
 
 # akitaonrails
 
-214 pushes across 35 repositories on 53 active days in the last 90 days of public GitHub push activity.
+213 pushes across 35 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

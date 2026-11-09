@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 8, 4, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 6, 6, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    active_days: 8
+    pushes: 15
+    distinct_repos: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 8
+    pushes: 15
+    distinct_repos: 7
+    pushes_per_repo: 2.1429
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -95,7 +95,7 @@ repos:
       - "testing"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-01"
   - name: "ai-first-repo"
     title: "ai-first-repo"
     description: "AI专业大一学习仓库"
@@ -116,7 +116,7 @@ repos:
       - "self-hosted"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-08"
   - name: "my-hello-python"
     title: "my-hello-python"
     description: null

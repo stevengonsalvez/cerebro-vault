@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [8, 1, 1, 0, 0, 1, 3, 0, 6, 0, 3, 0, 0]
+pushes_per_week: [7, 0, 1, 0, 1, 0, 3, 0, 6, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.5000
+  push_per_day: 1.9091
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,26 +57,43 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 6
-    pushes_per_repo: 3.8333
-    active_days: 12
+    pushes_per_repo: 3.5000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "explorations-in-documentation"
+    title: "explorations-in-documentation"
+    description: "[ENG]A research inquiry and agent skill on information architecture, cognitive engineering, and evidence-based technical documentation / [JPN]認知工学・形式論理学・説得工学の知見に基づくドキュメント設計原則の探求とエージェントスキル"
+    language: null
+    topics:
+      - "agent-skill"
+      - "cognitive-load"
+      - "documentation"
+      - "guidelines"
+      - "information-architecture"
+      - "llm"
+      - "readme"
+      - "research"
+      - "technical-writing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "i-hate-decimal-calc"
     title: "i-hate-decimal-calc"
     description: "[ENG] A strict CAS calculator CLI that completely rejects decimal approximations, converting all decimals to exact fractions. / [JPN] 小数を一切許さず、すべての小数を即座に分数化して厳密計算するCAS電卓CLIツール。"
@@ -94,7 +111,7 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "local-issues-skill"
     title: "local-issues-skill"
     description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
@@ -102,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-02"
   - name: "fuck-agy-skills"
     title: "fuck-agy-skills"
     description: "[ENG]CLI tool that synchronizes Agent Skills (~/.agents/skills) to Google Antigravity (~/.gemini/config/skills) via physical copying. / [JPN]Agent Skills（~/.agents/skills）をGoogle Antigravity（~/.gemini/config/skills）へ物理コピーで同期するCLIツール。"
@@ -146,24 +163,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-09"
-  - name: "Yuzuko-TRPG-house-rules"
-    title: "Yuzuko-TRPG-house-rules"
-    description: "【TRPG】ユズコ卓のハウスルールおよびセッション用推奨フォーマット管理リポジトリ"
-    language: null
-    topics:
-      - "coc"
-      - "house-rules"
-      - "markdown"
-      - "tabletop-rpg"
-      - "trpg"
-      - "ttrpg"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
 ---
 
 # DovahkiinYuzuko
 
-23 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
+21 pushes across 6 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DovahkiinYuzuko

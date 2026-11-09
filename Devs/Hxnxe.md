@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "CyberSentinel AI 是一个自动化安全监控与AI分析系统"
     language: "Python"
     topics: []
-    stars_fact: 110
+    stars_fact: 111
     first_seen: null
     last_push: "2026-06-06"
   - name: "code-security-audit-skills"

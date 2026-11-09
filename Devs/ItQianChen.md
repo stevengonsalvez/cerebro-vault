@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 1, 1, 0, 0, 1, 1, 1, 4, 2, 0, 0]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 2, 0, 2, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,9 +92,9 @@ repos:
       - "github-cli"
       - "github-flow"
       - "workflow-automation"
-    stars_fact: 15
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-05"
   - name: "online-notes"
     title: "online-notes"
     description: "一个基于纯静态技术的轻量级笔记博客系统，支持Markdown，PDF，Word，专为GitHub Pages设计。"

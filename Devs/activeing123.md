@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [2, 4, 1, 0, 4, 1, 1, 8, 1, 2, 3, 0, 0]
+pushes_per_week: [3, 2, 1, 2, 2, 1, 1, 9, 1, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 4
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.2222
+  push_per_day: 1.5294
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 4
-    pushes_per_repo: 6.7500
-    active_days: 18
+    pushes_per_repo: 6.5000
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcptoon"
@@ -103,9 +103,9 @@ repos:
       - "tool-discovery"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 417
+    stars_fact: 428
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-10-31"
+    last_push: "2026-11-08"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
@@ -113,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-08"
   - name: "toondeck"
     title: "toondeck"
     description: "One deck for every agent — MCP tools, skills, models and API keys. GUI console for mcptoon."
@@ -170,6 +170,6 @@ repos:
 
 # activeing123
 
-27 pushes across 4 repositories on 18 active days in the last 90 days of public GitHub push activity.
+26 pushes across 4 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/activeing123

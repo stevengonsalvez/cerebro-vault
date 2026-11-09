@@ -8,11 +8,11 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 3, 0, 0, 2, 1, 5, 4, 5, 2, 5, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 1, 6, 5, 4, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 8
-    active_days: 6
+    pushes: 7
+    distinct_repos: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 19
-    active_days: 17
+    pushes: 27
+    distinct_repos: 18
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6471
-  repo_per_active_day: 1.1176
+  push_per_day: 1.6875
+  repo_per_active_day: 1.1250
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0526
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,109 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 8
+    pushes: 7
+    distinct_repos: 7
     pushes_per_repo: 1.0000
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 19
-    pushes_per_repo: 1.4737
-    active_days: 17
+    pushes: 27
+    distinct_repos: 18
+    pushes_per_repo: 1.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "NIMStats"
-    title: "NIMStats"
-    description: "📊 Automated hourly benchmarks for 20+ NVIDIA NIM models — interactive dashboard, zero infra, self-hostable. Open-source & community-driven."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "benchmark"
-      - "dashboard"
-      - "github-actions"
-      - "llm"
-      - "machine-learning"
-      - "nim"
-      - "nvidia"
-      - "open-source"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "ufora-sync"
-    title: "ufora-sync"
-    description: "Native background sync service and desktop companion for UGent Ufora (Tauri v2 + Rust)"
-    language: "Rust"
-    topics:
-      - "brightspace"
-      - "desktop-app"
-      - "rust"
-      - "sync"
-      - "tauri"
-      - "typescript"
-      - "ufora"
-      - "ugent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "quality-gate"
-    title: "quality-gate"
-    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
-    language: "Python"
-    topics:
-      - "ci-cd"
-      - "developer-tools"
-      - "engineering-standards"
-      - "forge"
-      - "openapi"
-      - "quality-gate"
-      - "reusable-workflows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "Smartschool-MCP"
-    title: "Smartschool-MCP"
-    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automation"
-      - "education"
-      - "mcp"
-      - "python"
-      - "smartschool"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "convergence"
-    title: "convergence"
-    description: "The autonomous semantic code fabric for 100,000+ concurrent AI agents - branchless AST-CRDT version control on Cloudflare Workers, Durable Objects & Artifacts"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "homewizard-cloud-ha"
-    title: "homewizard-cloud-ha"
-    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
-    language: "Python"
-    topics:
-      - "home-assistant-integration"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # MauroDruwel
 
-28 pushes across 19 repositories on 17 active days in the last 90 days of public GitHub push activity.
+27 pushes across 18 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MauroDruwel

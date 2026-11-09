@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 1, 0, 0, 0, 1, 6, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 1, 6, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,49 +77,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "planwerk"
-    title: "planwerk"
-    description: "A local inbox and kanban board for agentic software development"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "proto-vibes-playground"
-    title: "proto-vibes-playground"
-    description: null
-    language: "TypeScript"
-    topics:
-      - "prototype"
-      - "ux"
-      - "vscode"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "slides"
-    title: "slides"
-    description: "Published presentation slides"
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "plugin-marketplace-starter"
-    title: "plugin-marketplace-starter"
-    description: "A starter template for team plugin marketplaces using Agent Plugins 1.0 and GitHub Copilot extensions."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "mcp-apps-playground"
-    title: "mcp-apps-playground"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 74
-    first_seen: null
-    last_push: "2026-01-28"
   - name: "mx-keypad-ahp-bridge"
     title: "mx-keypad-ahp-bridge"
     description: "Direct-HID Logitech MX Creative Keypad console for Agent Host Protocol sessions"
@@ -131,9 +88,52 @@ repos:
       - "logitech"
       - "macos"
       - "typescript"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-28"
+  - name: "agent-parts-bin"
+    title: "agent-parts-bin"
+    description: "Rough agent-plugin experiments. No evals, no promises. Inspect before use."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "agent-reproach"
+    title: "agent-reproach"
+    description: "A local feedback button for coding agents, with a compact review canvas."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "planwerk"
+    title: "planwerk"
+    description: "A local inbox and kanban board for agentic software development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "agent-toolbelt"
+    title: "agent-toolbelt"
+    description: "Personal agent plugins that earn their place in the toolbelt."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "proto-vibes-playground"
+    title: "proto-vibes-playground"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "prototype"
+      - "ux"
+      - "vscode"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # digitarald

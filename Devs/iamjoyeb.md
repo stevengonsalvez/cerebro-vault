@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [4, 2, 1, 0, 0, 2, 0, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [6, 0, 1, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Vibe-Builder"
-    title: "Vibe-Builder"
-    description: "An Light Wieght Website Ai Builder"
+  - name: "minicoder"
+    title: "minicoder"
+    description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-09"
   - name: "programs"
     title: "programs"
     description: null

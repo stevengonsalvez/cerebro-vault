@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 1, 0, 0, 1, 2, 1, 0, 5, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 2, 1, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "usbutils"
-    title: "usbutils"
-    description: "USB utilities for Linux, including lsusb"
-    language: "C"
-    topics: []
-    stars_fact: 464
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "gregkh-linux"
-    title: "gregkh-linux"
-    description: "My ~/linux/ directory framework"
-    language: "Yacc"
-    topics: []
-    stars_fact: 104
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "kernel-development"
-    title: "kernel-development"
-    description: "Presentation on how the Linux kernel is developed"
-    language: "TeX"
-    topics: []
-    stars_fact: 693
-    first_seen: null
-    last_push: "2026-10-29"
   - name: "linux"
     title: "linux"
     description: "Linux kernel stable tree mirror"
@@ -108,15 +84,31 @@ repos:
     topics:
       - "kernel"
       - "linux"
-    stars_fact: 730
+    stars_fact: 734
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-06"
+  - name: "gregkh-linux"
+    title: "gregkh-linux"
+    description: "My ~/linux/ directory framework"
+    language: "Yacc"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "usbutils"
+    title: "usbutils"
+    description: "USB utilities for Linux, including lsusb"
+    language: "C"
+    topics: []
+    stars_fact: 464
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "kernel-tutorial"
     title: "kernel-tutorial"
     description: "Basic \"How to write a Linux kernel patch and submit it\" tutorial"
     language: null
     topics: []
-    stars_fact: 1261
+    stars_fact: 1264
     first_seen: null
     last_push: "2021-03-26"
   - name: "kdbus"
@@ -124,9 +116,17 @@ repos:
     description: "Kernel \"dbus-like\" code for the Linux kernel"
     language: "C"
     topics: []
-    stars_fact: 262
+    stars_fact: 261
     first_seen: null
     last_push: "2017-01-19"
+  - name: "kernel-development"
+    title: "kernel-development"
+    description: "Presentation on how the Linux kernel is developed"
+    language: "TeX"
+    topics: []
+    stars_fact: 693
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # gregkh

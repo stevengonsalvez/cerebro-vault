@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 5, 6, 3, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 3, 7, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Axiom-Office"
-    title: "Axiom-Office"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "genVideo"
-    title: "genVideo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "pdftrans"
-    title: "pdftrans"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "aidev"
-    title: "aidev"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "computer-remote"
-    title: "computer-remote"
-    description: "computer-remote"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "Open-Knowledge"
-    title: "Open-Knowledge"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-21"
+repos: []
 ---
 
 # rgb-vgx

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
   - "c45b44d53914aea3"
-pushes_per_week: [109, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [59, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +33,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
-    distinct_repos: 4
-    active_days: 9
+    pushes: 63
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.2222
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.2500
+  push_per_day: 10.5000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,18 +69,32 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 119
-    distinct_repos: 4
-    pushes_per_repo: 29.7500
-    active_days: 9
+    pushes: 63
+    distinct_repos: 3
+    pushes_per_repo: 21.0000
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "movie-to-3d-showcase"
+    title: "movie-to-3d-showcase"
+    description: "Personal GPU demo: movie-to-3D conversion, vision-language evaluation, and local model serving."
+    language: "Python"
+    topics:
+      - "computer-vision"
+      - "depth-estimation"
+      - "gpu"
+      - "model-evaluation"
+      - "python"
+      - "vision-language-models"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "test-claude-plugin"
     title: "test-claude-plugin"
     description: "Test Claude Code plugin for e2e testing"
@@ -101,6 +115,6 @@ repos:
 
 # bryan-anthropic
 
-119 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+63 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bryan-anthropic

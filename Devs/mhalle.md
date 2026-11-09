@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 1, 0, 1, 4, 5, 10, 6, 1, 0, 0, 0, 1]
+pushes_per_week: [1, 1, 0, 4, 2, 5, 14, 2, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 13
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6316
-  repo_per_active_day: 0.6842
+  push_per_day: 1.6667
+  repo_per_active_day: 0.7222
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -70,18 +70,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 13
-    pushes_per_repo: 2.3846
-    active_days: 19
+    pushes_per_repo: 2.3077
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "LNQ-citations"
+    title: "LNQ-citations"
+    description: "Citation tree for lymph node quantification in lung cancer staging"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "qtilab"
+    title: "qtilab"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "oabrowser"
     title: "oabrowser"
     description: "WebGL-based anatomy atlas browser"
@@ -90,14 +106,6 @@ repos:
     stars_fact: 37
     first_seen: null
     last_push: "2018-10-04"
-  - name: "LNQ-citations"
-    title: "LNQ-citations"
-    description: "Citation tree for lymph node quantification in lung cancer staging"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "tractline"
     title: "tractline"
     description: "Accelerated modular tractography pipelines."
@@ -122,18 +130,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-08"
-  - name: "spl-brain-atlas"
-    title: "spl-brain-atlas"
-    description: "Draft of the SPL Multi-modal brain atlas"
-    language: null
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2017-12-12"
 ---
 
 # mhalle
 
-31 pushes across 13 repositories on 19 active days in the last 90 days of public GitHub push activity.
+30 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mhalle

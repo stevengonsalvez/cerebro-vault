@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 5, 0, 1, 1, 2, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [2, 3, 1, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "claude-agent-sdk-java"
+    title: "claude-agent-sdk-java"
+    description: "Java SDK for Claude Code — Build AI agents with Claude. Feature-complete, aligned with the official TypeScript SDK. Java 11+, minimal dependencies."
+    language: "Java"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-05-07"
   - name: "codex-tare"
     title: "codex-tare"
     description: null
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"
-  - name: "claude-agent-sdk-java"
-    title: "claude-agent-sdk-java"
-    description: "Java SDK for Claude Code — Build AI agents with Claude. Feature-complete, aligned with the official TypeScript SDK. Java 11+, minimal dependencies."
-    language: "Java"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-05-07"
   - name: "opencode-sdk-java"
     title: "opencode-sdk-java"
     description: null

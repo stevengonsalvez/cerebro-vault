@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 10, 27, 3, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 12, 28, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -103,9 +103,17 @@ repos:
       - "typescript"
       - "web-security"
       - "webauthn"
-    stars_fact: 13
+    stars_fact: 15
     first_seen: null
     last_push: "2026-09-19"
+  - name: "solos"
+    title: "solos"
+    description: "SOLOS: large AI models, compressed to about 2 bits per weight, on one server."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "Learn-programing-Web"
     title: "Learn-programing-Web"
     description: null

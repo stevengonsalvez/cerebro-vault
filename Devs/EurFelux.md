@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 1, 0, 1, 3, 1, 0, 3, 0, 0, 2, 0, 0]
+pushes_per_week: [1, 1, 1, 3, 0, 1, 0, 3, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 5
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4444
-  repo_per_active_day: 0.5556
+  push_per_day: 1.5000
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 9
+    pushes_per_repo: 2.4000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for EurFelux's apps — Lyrisland, Marginalia"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "marginalia"
     title: "marginalia"
     description: "Talk to AI in the margins of your ebooks — local‑first, bilingual ePub/PDF reader with contextual assistants."
@@ -92,7 +100,7 @@ repos:
       - "typescript"
     stars_fact: 10
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-11-08"
   - name: "Lyrisland"
     title: "Lyrisland"
     description: "A macOS Dynamic Island-style floating widget that displays real-time synced lyrics for Spotify. No login required."
@@ -103,7 +111,7 @@ repos:
       - "lyrics"
       - "macos-app"
       - "spotify"
-    stars_fact: 16
+    stars_fact: 15
     first_seen: null
     last_push: "2026-09-16"
   - name: "github-drafts"
@@ -114,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for EurFelux's apps — Lyrisland, Marginalia"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
   - name: "anki-connect"
     title: "anki-connect"
     description: "AnkiConnect mirror with local patches for Anki 25.x (upstream: git.sr.ht/~foosoft/anki-connect, GPL-3.0)"
@@ -142,6 +142,6 @@ repos:
 
 # EurFelux
 
-13 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
+12 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/EurFelux

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 6, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,26 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Hunyuan3D-2.1-Complete-Install-Guide"
+    title: "Hunyuan3D-2.1-Complete-Install-Guide"
+    description: "A comprehensive step-by-step installation guide for Hunyuan3D-2.1 with ComfyUI on Windows"
+    language: "PowerShell"
+    topics:
+      - "3d-generation"
+      - "ai-3d"
+      - "comfyui"
+      - "generative-ai"
+      - "hunyuan3d"
+      - "hunyuan3d-2-1"
+      - "image-to-3d"
+      - "installation-guide"
+      - "local-ai"
+      - "text-to-3d"
+      - "tutorial"
+      - "windows"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-12"
   - name: "cheryls-caramels-storefront"
     title: "cheryls-caramels-storefront"
     description: "Custom storefront for a family caramel shop: Square checkout on Cloudflare Workers, live at cherylscaramels.com. Overview and architecture; source is private client work."
@@ -150,14 +170,6 @@ repos:
       - "physics"
       - "simulation"
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "virtual-world"
-    title: "virtual-world"
-    description: "Track editor for NeuroRacer: draw a track, check it against the trainer's own measurements, export it"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-09-28"
 ---

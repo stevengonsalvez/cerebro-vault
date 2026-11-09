@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 2, 1, 0, 1, 5, 6, 14, 4, 10, 7, 1, 2]
+pushes_per_week: [10, 1, 1, 0, 1, 5, 8, 13, 10, 5, 6, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 5
-    active_days: 11
+    pushes: 20
+    distinct_repos: 4
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 8
-    active_days: 30
+    active_days: 29
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.1000
-  repo_per_active_day: 0.2667
+  push_per_day: 2.1379
+  repo_per_active_day: 0.2759
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 11
+    pushes: 20
+    distinct_repos: 4
+    pushes_per_repo: 5.0000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 8
-    pushes_per_repo: 7.8750
-    active_days: 30
+    pushes_per_repo: 7.7500
+    active_days: 29
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gateway-api-bench"
+    title: "gateway-api-bench"
+    description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
+    language: "Go"
+    topics: []
+    stars_fact: 856
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "registry-redirector"
     title: "registry-redirector"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-29"
-  - name: "gateway-api-bench"
-    title: "gateway-api-bench"
-    description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
-    language: "Go"
-    topics: []
-    stars_fact: 836
-    first_seen: null
-    last_push: "2025-12-29"
   - name: "pilot-load"
     title: "pilot-load"
     description: "Deploys many lightweight XDS clients to generate load on an XDS server (Pilot)"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-63 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
+62 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

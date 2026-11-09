@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 2, 3, 4, 1, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 5, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,71 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "emoubarak.github.io"
+    title: "emoubarak.github.io"
+    description: null
+    language: "Astro"
+    topics:
+      - "astro"
+      - "cv"
+      - "personal-website"
+      - "portfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "polymarket-updown-lab"
+    title: "polymarket-updown-lab"
+    description: "6 weeks of algorithmic edge research on Polymarket crypto prediction markets — Python paper trading, Go HFT market maker, scientific method and honest falsifications"
+    language: "Python"
+    topics:
+      - "case-study"
+      - "golang"
+      - "market-making"
+      - "polymarket"
+      - "prediction-markets"
+      - "python"
+      - "quantitative-finance"
+      - "trading"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "signal-bot"
+    title: "signal-bot"
+    description: "An LLM bot for Signal groups: call it by name to summarize the chat, explain a message, transcribe voice notes, make or edit images, search the web and set reminders. OpenRouter or a local model."
+    language: "Python"
+    topics:
+      - "chatbot"
+      - "docker"
+      - "llm"
+      - "local-llm"
+      - "openrouter"
+      - "signal"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "strata-flash-next-egpu"
+    title: "strata-flash-next-egpu"
+    description: "Qwen3.8-Flash-Next 180B (Strata Q2_0) on RTX 3060 Ti 8 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
+    language: "Python"
+    topics:
+      - "benchmark"
+      - "egpu"
+      - "llama-cpp"
+      - "local-llm"
+      - "moe"
+      - "oculink"
+      - "qwen"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "strata-flash-next-rtx3080-20gb"
+    title: "strata-flash-next-rtx3080-20gb"
+    description: "Qwen3.8-Flash-Next 180B (Strata 0.2.9, Q2_0) on RTX 3080 20 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "jev-check"
     title: "jev-check"
     description: "AI browser agent testing for staging apps: sign in as a real account state (free, paid, lapsed, team), follow a plain-English goal, verify against the database. Agent skill for Claude Code, Codex."
@@ -97,77 +162,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-04"
-  - name: "signal-bot"
-    title: "signal-bot"
-    description: null
-    language: "Python"
-    topics:
-      - "chatbot"
-      - "docker"
-      - "llm"
-      - "local-llm"
-      - "openrouter"
-      - "signal"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "jev-voice"
-    title: "jev-voice"
-    description: "Talk to your browser: Claude plans the command, Jev carries it out in your own Chromium profile. A side-panel extension with no chrome.debugger and no remote-debugging port."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-automation"
-      - "chrome-extension"
-      - "claude-code"
-      - "jev"
-      - "native-messaging"
-      - "speech-to-text"
-      - "voice-control"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "emoubarak.github.io"
-    title: "emoubarak.github.io"
-    description: null
-    language: "Astro"
-    topics:
-      - "astro"
-      - "cv"
-      - "personal-website"
-      - "portfolio"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "strata-flash-next-egpu"
-    title: "strata-flash-next-egpu"
-    description: "Qwen3.8-Flash-Next 180B (Strata Q2_0) on RTX 3060 Ti 8 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "egpu"
-      - "llama-cpp"
-      - "local-llm"
-      - "moe"
-      - "oculink"
-      - "qwen"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "prompt-to-short-video-generator"
-    title: "prompt-to-short-video-generator"
-    description: null
-    language: "Python"
-    topics:
-      - "ai-video"
-      - "elevenlabs"
-      - "flask"
-      - "openai"
-      - "text-to-video"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-01-19"
 ---
 
 # emoubarak

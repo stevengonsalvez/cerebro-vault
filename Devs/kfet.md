@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [4, 3, 5, 1, 7, 11, 5, 16, 3, 4, 5, 7, 0]
+pushes_per_week: [5, 4, 3, 6, 1, 14, 6, 12, 3, 4, 12, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 7
-    active_days: 9
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 13
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9189
-  repo_per_active_day: 0.3514
+  push_per_day: 1.9444
+  repo_per_active_day: 0.3611
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -60,26 +60,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 9
+    pushes_per_repo: 2.2857
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 13
-    pushes_per_repo: 5.4615
-    active_days: 37
+    pushes_per_repo: 5.3846
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "homebrew-ai"
+    title: "homebrew-ai"
+    description: "Homebrew tap for fir, poe-acp, slack-acp"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "fir"
+    title: "fir"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "zulip-acp"
     title: "zulip-acp"
     description: "Zulip relay for ACP coding agents — bridges a self-hosted Zulip server to fir/Claude Code over stdio"
@@ -92,23 +108,23 @@ repos:
       - "zulip"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "homebrew-ai"
-    title: "homebrew-ai"
-    description: "Homebrew tap for fir, poe-acp, slack-acp"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "fir"
-    title: "fir"
-    description: null
-    language: "Go"
+    last_push: "2026-11-09"
+  - name: "fir-dist"
+    title: "fir-dist"
+    description: "Public binary distribution for fir — https://github.com/kfet/fir"
+    language: "Shell"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "tui"
+    title: "tui"
+    description: "Small, dependency-light terminal UI toolkit in Go: ANSI parsing, grapheme-aware wrapping, key/keybinding parsing (legacy + Kitty), inline images, overlay render loop."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "fir-exts"
     title: "fir-exts"
     description: "fir extensions monorepo"
@@ -116,27 +132,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "acp-router"
-    title: "acp-router"
-    description: "ACP-to-ACP router: one ACP agent upstream, pluggable per-user/policy routing downstream"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "poe-acp"
-    title: "poe-acp"
-    description: "HTTP relay between Poe server bots and ACP-speaking agents"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-08"
 ---
 
 # kfet
 
-71 pushes across 13 repositories on 37 active days in the last 90 days of public GitHub push activity.
+70 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

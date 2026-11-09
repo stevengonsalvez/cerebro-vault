@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 2, 0, 6, 12, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 2, 3, 9, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 14.0000
-    active_days: 4
+    pushes_per_repo: 12.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nailong-gallery"
+    title: "nailong-gallery"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "nailong-share"
     title: "nailong-share"
     description: "https://nailong-share.vercel.app/"
     language: "Astro"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-11-09"
   - name: "nailong-bot-experiment"
     title: "nailong-bot-experiment"
     description: "Personal Agent"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-25"
-  - name: "nailong-gallery"
-    title: "nailong-gallery"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-06"
   - name: "explain-anything"
     title: "explain-anything"
     description: "根据理解障碍选择文字、图解或交互演示的 Agent Skill；支持中文与英文。"

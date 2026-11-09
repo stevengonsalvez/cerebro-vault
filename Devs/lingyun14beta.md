@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [5, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_endfield_kb"
-    title: "astrbot_plugin_endfield_kb"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "astrbot_plugin_video_sense"
-    title: "astrbot_plugin_video_sense"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "astrbot-endfield-kb-index"
-    title: "astrbot-endfield-kb-index"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "astrbot_plugin_uapipro_toolbox"
-    title: "astrbot_plugin_uapipro_toolbox"
-    description: "集成 UApiPro 提供的开放接口，为bot提供可使用的工具。"
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-08-30"
-  - name: "daily-analysis-report-theme"
-    title: "daily-analysis-report-theme"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-06"
-  - name: "ASTR_TEST"
-    title: "ASTR_TEST"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
+repos: []
 ---
 
 # lingyun14beta

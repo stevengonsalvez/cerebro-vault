@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [3, 0, 3, 0, 1, 5, 6, 7, 6, 4, 6, 3, 0]
+pushes_per_week: [3, 1, 2, 1, 1, 6, 5, 9, 5, 3, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 3
-    active_days: 11
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 13
     distinct_repos: 3
-    pushes_per_repo: 5.3333
-    active_days: 11
+    pushes_per_repo: 4.3333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,50 +79,38 @@ reasons:
 repos:
   - name: "claude-code-templates"
     title: "claude-code-templates"
-    description: "CLI tool for configuring and monitoring Claude Code"
+    description: "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods"
     language: "Python"
     topics:
+      - "agent-skills"
+      - "ai-agents"
       - "anthropic"
       - "anthropic-claude"
       - "claude"
       - "claude-code"
-    stars_fact: 33054
+      - "claude-code-plugins"
+      - "cli"
+      - "mcp"
+      - "registry"
+    stars_fact: 33241
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-11-02"
-  - name: "drex-cookbook"
-    title: "drex-cookbook"
-    description: "Drex Cookbook"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "danimcp"
-    title: "danimcp"
-    description: "MCP about me"
+    last_push: "2026-11-09"
+  - name: "AyudaChileGPT"
+    title: "AyudaChileGPT"
+    description: "Agente IA experto en centros de Ayuda para emergencias en Chile"
     language: "Python"
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "fintual_mcp_server"
-    title: "fintual_mcp_server"
-    description: "Fintual MCP Server"
-    language: "Python"
+    last_push: "2024-02-08"
+  - name: "jev-explained"
+    title: "jev-explained"
+    description: "Jev Explained"
+    language: "TypeScript"
     topics: []
-    stars_fact: 24
+    stars_fact: 40
     first_seen: null
-    last_push: "2025-05-23"
-  - name: "chaos-monkey-coding-agents"
-    title: "chaos-monkey-coding-agents"
-    description: "Chaos Monkey Benchmark for Coding Agents"
-    language: "Python"
-    topics:
-      - "benchmark"
-      - "coding-agent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-09-20"
   - name: "davila7"
     title: "davila7"
     description: "Profile"
@@ -130,7 +118,23 @@ repos:
     topics: []
     stars_fact: 36
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
+  - name: "claude-code-en-espanol"
+    title: "claude-code-en-espanol"
+    description: "Claude Code en Español Github Repos"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "RAG"
+    title: "RAG"
+    description: "Embedding semantic search with Cohere"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2024-07-12"
 ---
 
 # davila7

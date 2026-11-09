@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 3, 1, 7, 5, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 3, 6, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,85 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "blockchain-with-go"
-    title: "blockchain-with-go"
-    description: "Old personal learning project on blockchain in Go, now a pilot for AI-agent tooling (Paperclip). Recent changes are AI-generated suggestions. Educational only, not production code, unrelated to my employer or clients."
-    language: "Go"
-    topics:
-      - "blockchain"
-      - "educational"
-      - "ginkgo"
-      - "go"
-      - "golang"
-      - "gomega"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "petersonsalme"
-    title: "petersonsalme"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "microservices-for-java-developers"
-    title: "microservices-for-java-developers"
-    description: "A polyglot microservices ecosystem featuring Spring Boot, Apache Camel, Microprofile, and Node.js to showcase modern backend system design."
-    language: "Java"
-    topics:
-      - "apache-camel"
-      - "api-gateway"
-      - "java"
-      - "microprofile"
-      - "microservices"
-      - "nodejs"
-      - "spring-boot"
-      - "system-design"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "bulletin-api"
-    title: "bulletin-api"
-    description: "A high-performance RESTful API built with Go and the Gin framework, featuring database migrations, Docker, and Kubernetes orchestration."
-    language: "Go"
-    topics:
-      - "docker"
-      - "gin-framework"
-      - "go"
-      - "golang"
-      - "k8s"
-      - "kubernetes"
-      - "postgresql"
-      - "rest-api"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "rest-api-with-jwt"
-    title: "rest-api-with-jwt"
-    description: "A RESTful API built with Go showcasing JWT authentication."
-    language: "Go"
-    topics:
-      - "authentication"
-      - "go"
-      - "golang"
-      - "jwt"
-      - "rest-api"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "grpc-microservices"
-    title: "grpc-microservices"
-    description: "A demonstration of microservices architecture using gRPC and Go."
-    language: "Go"
-    topics:
-      - "go"
-      - "grpc"
-      - "microservices"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
+repos: []
 ---
 
 # petersonsalme

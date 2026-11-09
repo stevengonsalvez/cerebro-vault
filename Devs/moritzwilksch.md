@@ -8,11 +8,11 @@ provenance_repos:
   - "moritzwilksch/diffle"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "61c0da3a99e7cb28"
-pushes_per_week: [0, 0, 0, 0, 2, 2, 2, 1, 3, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 2, 0, 4, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "diffle"
-    title: "diffle"
-    description: "A keyboard-first diff viewer with LSP support and GitHub integration."
-    language: "TypeScript"
-    topics:
-      - "agentic-coding"
-      - "agents"
-      - "code-review"
-      - "diff"
-      - "pr-review"
-    stars_fact: 197
-    first_seen: "2026-10-11T06:01:22.164753+00:00"
-    last_push: "2026-11-02"
-  - name: "pydantic-ai-trace"
-    title: "pydantic-ai-trace"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "pi-inlineskill"
-    title: "pi-inlineskill"
-    description: "A pi-extension that enables inline /skill usage"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "moritzwilksch.github.io"
-    title: "moritzwilksch.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "DataScienceEducation"
-    title: "DataScienceEducation"
-    description: "Educational content from books and various online courses"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2022-09-16"
-  - name: "building-agents-workshop"
-    title: "building-agents-workshop"
-    description: null
-    language: "Typst"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
+repos: []
 ---
 
 # moritzwilksch

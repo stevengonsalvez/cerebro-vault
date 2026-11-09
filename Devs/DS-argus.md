@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 1, 0, 0, 0, 11, 5, 3, 1, 1, 0, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 1, 11, 5, 2, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 10
-    active_days: 19
+    pushes: 25
+    distinct_repos: 9
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4211
-  repo_per_active_day: 0.5263
+  push_per_day: 1.3889
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
-    distinct_repos: 10
-    pushes_per_repo: 2.7000
-    active_days: 19
+    pushes: 25
+    distinct_repos: 9
+    pushes_per_repo: 2.7778
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "argus-quartz"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-08"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Nord macOS dotfiles with Ghostty, tmux, Neovim, AeroSpace, and SketchyBar."
@@ -148,6 +148,6 @@ repos:
 
 # DS-argus
 
-27 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
+25 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/DS-argus

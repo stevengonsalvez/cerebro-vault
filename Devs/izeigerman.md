@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "daa338753d6df9fd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -87,6 +87,14 @@ repos:
     stars_fact: 241
     first_seen: "2026-07-24T06:00:05.187645+00:00"
     last_push: "2026-07-27"
+  - name: "agent-shell-gc"
+    title: "agent-shell-gc"
+    description: null
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "agent-shell-skill"
     title: "agent-shell-skill"
     description: null
@@ -103,14 +111,6 @@ repos:
     stars_fact: 62
     first_seen: null
     last_push: "2017-02-01"
-  - name: "agent-shell-gc"
-    title: "agent-shell-gc"
-    description: null
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "parsecat"
     title: "parsecat"
     description: "Pure functional parser combinator library which supports both applicative and monadic styles of parsing."

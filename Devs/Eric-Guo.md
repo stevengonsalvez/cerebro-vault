@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [28, 5, 6, 2, 14, 26, 33, 33, 23, 5, 11, 11, 1]
+pushes_per_week: [19, 5, 5, 11, 10, 29, 38, 27, 18, 4, 21, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 6
-    active_days: 13
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 198
-    distinct_repos: 23
-    active_days: 56
+    pushes: 188
+    distinct_repos: 22
+    active_days: 53
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5357
-  repo_per_active_day: 0.4107
-  not_owned_ratio: 0.2174
-  basename_concentration: 0.0435
+  push_per_day: 3.5472
+  repo_per_active_day: 0.4151
+  not_owned_ratio: 0.2273
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 30
     distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 13
+    pushes_per_repo: 5.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 198
-    distinct_repos: 23
-    pushes_per_repo: 8.6087
-    active_days: 56
+    pushes: 188
+    distinct_repos: 22
+    pushes_per_repo: 8.5455
+    active_days: 53
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencode-agent-7777"
-    title: "opencode-agent-7777"
-    description: "Chat UI for Agentic Agent, backend using opencode serve"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "coreui4-rails-starter"
     title: "coreui4-rails-starter"
     description: "The CoreUI 5 Rails starter"
@@ -93,9 +85,26 @@ repos:
       - "coreui"
       - "rails"
       - "template"
-    stars_fact: 13
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "opencode-agent-7777"
+    title: "opencode-agent-7777"
+    description: "Chat UI for Agentic Agent, backend using opencode serve"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "opencode-db-viewer"
+    title: "opencode-db-viewer"
+    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
+    language: "Ruby"
+    topics:
+      - "opencode"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "wechat"
     title: "wechat"
     description: "API, command and message handling for WeChat in Rails"
@@ -108,15 +117,6 @@ repos:
     stars_fact: 1349
     first_seen: null
     last_push: "2026-07-03"
-  - name: "opencode-db-viewer"
-    title: "opencode-db-viewer"
-    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
-    language: "Ruby"
-    topics:
-      - "opencode"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "vali-admin-rails"
     title: "vali-admin-rails"
     description: "Starting using vali-admin, an Free Bootstrap 4 Admin Template in Rails 5.2"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-198 pushes across 23 repositories on 56 active days in the last 90 days of public GitHub push activity.
+188 pushes across 22 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

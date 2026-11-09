@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 2, 3, 0, 2, 4, 3, 1, 0, 5, 1, 1, 0]
+pushes_per_week: [6, 1, 2, 1, 1, 4, 3, 1, 2, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 7
-    active_days: 24
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.2917
+  push_per_day: 1.2381
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -67,18 +67,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 7
-    pushes_per_repo: 4.2857
-    active_days: 24
+    pushes_per_repo: 3.7143
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Totoro-qaq"
+    title: "Totoro-qaq"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "dsh-plugin-bridge"
     title: "dsh-plugin-bridge"
     description: "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched."
@@ -93,7 +101,7 @@ repos:
       - "session-migration"
     stars_fact: 165
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-06"
   - name: "dsh-plugin-index"
     title: "dsh-plugin-index"
     description: "Author-maintained DeepSeek Harness plugin index for Jot and Bridge."
@@ -101,7 +109,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-06"
   - name: "hermes-jot"
     title: "hermes-jot"
     description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
@@ -118,14 +126,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-10-15"
-  - name: "Totoro-qaq"
-    title: "Totoro-qaq"
-    description: "GitHub profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "dsh-jot"
     title: "dsh-jot"
     description: "Human-editable notes, todos and documents for DeepSeek Harness, with search, tables, attachments, export and optional agent collaboration."
@@ -167,6 +167,6 @@ repos:
 
 # Totoro-qaq
 
-30 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+26 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Totoro-qaq

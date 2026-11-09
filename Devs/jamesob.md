@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "fda2072231b00dde"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "local-llm"
-    title: "local-llm"
-    description: "Everything I know about running LLMs locally"
-    language: "Shell"
-    topics: []
-    stars_fact: 1879
-    first_seen: "2026-07-04T06:00:03.825011+00:00"
-    last_push: "2026-07-10"
   - name: "delving-bitcoin-archive"
     title: "delving-bitcoin-archive"
     description: "A public archive of delvingbitcoin.org"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "local-llm"
+    title: "local-llm"
+    description: "Everything I know about running LLMs locally"
+    language: "Shell"
+    topics: []
+    stars_fact: 1885
+    first_seen: "2026-07-04T06:00:03.825011+00:00"
+    last_push: "2026-07-10"
   - name: "desk"
     title: "desk"
     description: "A lightweight workspace manager for the shell"

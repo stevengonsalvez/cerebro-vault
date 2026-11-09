@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [15, 1, 4, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
+pushes_per_week: [12, 1, 3, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 20
     distinct_repos: 10
-    active_days: 9
+    active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.1111
+  push_per_day: 2.8571
+  repo_per_active_day: 1.4286
   not_owned_ratio: 0.8000
   basename_concentration: 0.1000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 20
     distinct_repos: 10
-    pushes_per_repo: 2.4000
-    active_days: 9
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "t0kubetsu"
@@ -127,6 +127,6 @@ repos:
 
 # t0kubetsu
 
-24 pushes across 10 repositories on 9 active days in the last 90 days of public GitHub push activity.
+20 pushes across 10 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t0kubetsu

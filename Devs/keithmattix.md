@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 2, 3, 0, 2, 2, 2, 0, 1, 0, 1, 2, 0]
+pushes_per_week: [5, 2, 1, 0, 3, 2, 1, 0, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "substrate-nginx"
-    title: "substrate-nginx"
-    description: "Substrate ingress + egress implemented via nginx"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "keithmattix.github.io"
-    title: "keithmattix.github.io"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "krt-demos"
-    title: "krt-demos"
-    description: "Demo examples of Istio's krt (Kubernetes Declarative Controller Runtime) framework"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-17"
-  - name: "istio-multicluster-inference-demo"
-    title: "istio-multicluster-inference-demo"
-    description: "A script to test GAIE Body-Based-Router demo with Istio"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-12-15"
-  - name: "istio-wasm-demo"
-    title: "istio-wasm-demo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2023-09-06"
-  - name: "windows-redirection-test"
-    title: "windows-redirection-test"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-09-13"
+repos: []
 ---
 
 # keithmattix

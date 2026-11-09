@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 4, 17, 3, 15, 79, 22, 68, 129, 189, 28, 57, 3]
+pushes_per_week: [1, 7, 16, 4, 27, 72, 15, 152, 171, 64, 83, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 318
+    pushes: 277
     distinct_repos: 15
-    active_days: 16
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 617
+    pushes: 615
     distinct_repos: 24
-    active_days: 57
+    active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 10.8246
-  repo_per_active_day: 0.4211
+  push_per_day: 10.9821
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.0417
   shapes: []
@@ -57,82 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 318
+    pushes: 277
     distinct_repos: 15
-    pushes_per_repo: 21.2000
-    active_days: 16
+    pushes_per_repo: 18.4667
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 617
+    pushes: 615
     distinct_repos: 24
-    pushes_per_repo: 25.7083
-    active_days: 57
+    pushes_per_repo: 25.6250
+    active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "custom_lib_build"
-    title: "custom_lib_build"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "sso"
-    title: "sso"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "agent-ebpf-filter"
-    title: "agent-ebpf-filter"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "bug-v3"
-    title: "bug-v3"
-    description: "一个有很多bug的表情插件，主要在linux do 测试喵。discourse的网站们应该都可以用"
-    language: "TypeScript"
-    topics:
-      - "discourse"
-      - "linux-do"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "astrbot_plugin_matrix_adapter"
-    title: "astrbot_plugin_matrix_adapter"
-    description: "stevessr🐟 自用的matrix插件，为 astrbot 设计，有问题请提issue"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "matrix"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "Extera"
-    title: "Extera"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+repos: []
 ---
 
 # stevessr
 
-617 pushes across 24 repositories on 57 active days in the last 90 days of public GitHub push activity.
+615 pushes across 24 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

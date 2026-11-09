@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [2, 6, 1, 0, 4, 0, 0, 2, 1, 2, 30, 15, 0]
+pushes_per_week: [7, 2, 0, 0, 4, 0, 0, 2, 1, 5, 42, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,23 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vlm-caption-trajectories"
-    title: "vlm-caption-trajectories"
-    description: "Evidence-grounded VLM SFT trajectory construction: design, reference code, audited seed results and open questions."
+  - name: "CUA-Daily"
+    title: "CUA-Daily"
+    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
     language: "Python"
-    topics: []
+    topics:
+      - "arxiv"
+      - "awesome-list"
+      - "browser-agents"
+      - "computer-use"
+      - "gui-agents"
+      - "llm-agents"
+      - "mobile-agents"
+      - "research-radar"
+      - "web-agents"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "vlm-rl-signal-design"
-    title: "vlm-rl-signal-design"
-    description: "Evidence-grounded VLM RL modeling workspace: protocols, paired outcomes, trajectory audits, literature, and design discussion prompts"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "Embodied-Harness-Daily"
     title: "Embodied-Harness-Daily"
     description: "Embodied agent harness research radar: evidence-grounded discovery, pattern cards, and local review"
@@ -112,24 +113,7 @@ repos:
       - "vla"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "CUA-Daily"
-    title: "CUA-Daily"
-    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
-    language: "Python"
-    topics:
-      - "arxiv"
-      - "awesome-list"
-      - "browser-agents"
-      - "computer-use"
-      - "gui-agents"
-      - "llm-agents"
-      - "mobile-agents"
-      - "research-radar"
-      - "web-agents"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "HarnessRSI-Daily"
     title: "HarnessRSI-Daily"
     description: "Daily radar for harness-level recursive self-improvement (RSI): self-evolving / self-improving LLM agent papers scored with quote-backed evidence, research-pattern cards, and paper posters. arXiv daily · awesome list · 递归自我改进"
@@ -157,7 +141,7 @@ repos:
       - "skill-library"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "design-card-atlas"
     title: "design-card-atlas"
     description: "Citadel 视觉设计卡：给 3D 场景、镜头与 UI 的参考图册（光 · 尺度 · 材质 · 镜头 · 排版）"
@@ -167,9 +151,25 @@ repos:
       - "threejs"
       - "visual-design"
       - "webgl"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "open-scientist"
+    title: "open-scientist"
+    description: "Open Scientist 0.4: ResearchStudio idea_spark backbone + research-taste selection layers (innovation lens, gap-code filter, problem selection) for Claude Code"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "CrepuscularIRIS.github.io"
+    title: "CrepuscularIRIS.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # CrepuscularIRIS

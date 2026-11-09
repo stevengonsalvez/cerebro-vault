@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 0, 0, 2, 4, 0, 1, 0, 2, 2, 2]
+pushes_per_week: [1, 0, 0, 0, 0, 2, 4, 0, 1, 0, 4, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -82,49 +82,49 @@ repos:
     description: "An open-source C port of Sensible World of Soccer (Amiga), for Windows, macOS, Linux, Amiga and the web, with online multiplayer."
     language: "C"
     topics: []
-    stars_fact: 62
+    stars_fact: 75
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "Hackintool"
     title: "Hackintool"
     description: "The Swiss army knife of vanilla Hackintoshing"
     language: "Swift"
     topics: []
-    stars_fact: 3534
+    stars_fact: 3544
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "SWOS-RE"
-    title: "SWOS-RE"
-    description: "Reverse engineering of Sensible World of Soccer (Amiga): IDA/Ghidra scripts, annotated disassembly and docs."
-    language: "Assembly"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "Pigtail"
-    title: "Pigtail"
-    description: "Anti-stalker and surveillance detection software"
-    language: "C++"
-    topics: []
-    stars_fact: 61
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "jagfx"
-    title: "jagfx"
-    description: "Atari Jaguar graphics extractor and ROM searcher"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "Gfx2Next"
-    title: "Gfx2Next"
-    description: "ZX Spectrum Next graphics conversion tool."
+    last_push: "2026-11-09"
+  - name: "femto8"
+    title: "femto8"
+    description: "femto8 is an open-source reimplementation of the PICO-8 fantasy console, designed specifically for embedded systems."
     language: "C"
     topics: []
-    stars_fact: 33
+    stars_fact: 55
     first_seen: null
-    last_push: "2026-04-13"
+    last_push: "2026-10-21"
+  - name: "swosgfx"
+    title: "swosgfx"
+    description: "C++ port of SwosGfx"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "PinConfigurator"
+    title: "PinConfigurator"
+    description: "HDA Audio Codec verb configuration application"
+    language: "Objective-C"
+    topics: []
+    stars_fact: 88
+    first_seen: null
+    last_push: "2025-10-09"
+  - name: "linux-acs-override"
+    title: "linux-acs-override"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2025-05-28"
 ---
 
 # benbaker76

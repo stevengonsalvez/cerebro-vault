@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 3, 2, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 5, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,43 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "quack"
+    title: "quack"
+    description: "The API client that minds its own business. Fast, open source, offline. No account, no cloud, no telemetry."
+    language: "TypeScript"
+    topics:
+      - "api-client"
+      - "desktop-app"
+      - "http-client"
+      - "insomnia-alternative"
+      - "local-first"
+      - "offline-first"
+      - "openapi"
+      - "postman-alternative"
+      - "privacy"
+      - "rest-client"
+      - "tauri"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "madeenan"
+    title: "madeenan"
+    description: "Quran and Hadith API clients (TypeScript, Python) and MCP server for Madeenan: search Quran, Hadith, Tafsir and duas with citations."
+    language: "Python"
+    topics:
+      - "api"
+      - "hadith"
+      - "islam"
+      - "islamic"
+      - "mcp"
+      - "mcp-server"
+      - "quran"
+      - "rag"
+      - "sdk"
+      - "tafsir"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "tile-stakes"
     title: "tile-stakes"
     description: null

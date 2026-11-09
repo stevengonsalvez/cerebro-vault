@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [25, 2, 9, 0, 0, 2, 14, 23, 2, 5, 0, 0, 0]
+pushes_per_week: [22, 7, 3, 0, 0, 3, 17, 20, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 78
     distinct_repos: 6
-    active_days: 27
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.0370
-  repo_per_active_day: 0.2222
+  push_per_day: 3.2500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 5.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 78
     distinct_repos: 6
-    pushes_per_repo: 13.6667
-    active_days: 27
+    pushes_per_repo: 13.0000
+    active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2326
+    stars_fact: 2490
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "raw-motion"
     title: "raw-motion"
     description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."
@@ -116,7 +116,7 @@ repos:
       - "javascript"
       - "motion-graphics"
       - "video"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-27"
   - name: "linkedinpostgenerator"
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-82 pushes across 6 repositories on 27 active days in the last 90 days of public GitHub push activity.
+78 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

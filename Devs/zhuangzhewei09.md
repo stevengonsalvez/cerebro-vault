@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 4, 0, 2, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 7, 0, 2, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "StockOps"
-    title: "StockOps"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "golearn"
-    title: "golearn"
-    description: "learn of go"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-07-22"
-  - name: "my-app"
-    title: "my-app"
-    description: "learning react demo"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-09-08"
-  - name: "rust-learn"
-    title: "rust-learn"
-    description: "learn for rust"
-    language: "Makefile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-07-26"
-  - name: "cpp-primer-exercise"
-    title: "cpp-primer-exercise"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-06-20"
-  - name: "my-cpp-primer-plus"
-    title: "my-cpp-primer-plus"
-    description: null
-    language: "C++"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-06-04"
+repos: []
 ---
 
 # zhuangzhewei09

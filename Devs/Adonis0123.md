@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 1, 0, 1, 0, 2, 1, 4, 1, 2, 4, 0]
+pushes_per_week: [0, 1, 0, 1, 0, 0, 2, 3, 2, 2, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 2.3333
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,9 +93,17 @@ repos:
       - "machine-learning"
       - "mcp"
       - "skills"
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-07"
+  - name: "Adonis0123"
+    title: "Adonis0123"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "sideby"
     title: "sideby"
     description: "Run work, personal and API-key accounts side by side without config drift. Claude Code, Codex, Grok Build, pi."
@@ -118,15 +126,7 @@ repos:
       - "usage-monitor"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "ai-code-video-prompts"
-    title: "ai-code-video-prompts"
-    description: "用一段提示词让 AI 写代码做视频：30 秒剪辑短片 1:1 复刻 + WorkBuddy 五步教程"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-09"
   - name: "gemini-chrome-autoinstall"
     title: "gemini-chrome-autoinstall"
     description: "Self-healing wrapper that keeps Gemini-in-Chrome working after Chrome updates: watches for version changes and repairs Local State only when it is safe to write. macOS & Windows."
@@ -140,17 +140,17 @@ repos:
       - "macos"
       - "shell-script"
       - "windows"
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-28"
-  - name: "Adonis0123"
-    title: "Adonis0123"
-    description: null
-    language: "JavaScript"
+  - name: "ai-code-video-prompts"
+    title: "ai-code-video-prompts"
+    description: "用一段提示词让 AI 写代码做视频：30 秒剪辑短片 1:1 复刻 + WorkBuddy 五步教程"
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-10-29"
   - name: "mcd-cooldown"
     title: "mcd-cooldown"
     description: "终端里的麦当劳 MCP 安全网关：AI 额度冷却、饭点提醒，只核价，确认后才下单 · M-CODE 2026"

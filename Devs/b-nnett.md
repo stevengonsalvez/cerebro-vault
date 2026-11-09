@@ -12,7 +12,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "47417b643909abb5"
   - "afe9ef77456d9360"
@@ -26,9 +26,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,10 +61,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -86,9 +86,25 @@ repos:
     description: "Codex++ tweak system for the Codex desktop app"
     language: "JavaScript"
     topics: []
-    stars_fact: 3772
+    stars_fact: 3773
     first_seen: "2026-10-16T08:25:05.455247+00:00"
     last_push: "2026-10-15"
+  - name: "codex-apple-watch"
+    title: "codex-apple-watch"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 108
+    first_seen: null
+    last_push: "2026-05-24"
+  - name: "arcodex"
+    title: "arcodex"
+    description: "Open source Codex browser extension for Chrome and Arc"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-06-17"
   - name: "codex-subscription-router"
     title: "codex-subscription-router"
     description: null
@@ -105,14 +121,6 @@ repos:
     stars_fact: 570
     first_seen: null
     last_push: "2026-05-07"
-  - name: "codex-apple-watch"
-    title: "codex-apple-watch"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 107
-    first_seen: null
-    last_push: "2026-05-24"
   - name: "electron-extensions"
     title: "electron-extensions"
     description: "Signed update feed for Extensions Anywhere for macOS. No public app release is available yet."
@@ -121,14 +129,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-13"
-  - name: "appstore-monitor"
-    title: "appstore-monitor"
-    description: "Tool for tracking updates to apps on the Apple App Store and Google Play Store. Notifies via Discord."
-    language: "Go"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-06"
 ---
 
 # b-nnett

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,15 +87,15 @@ repos:
       - "code-review"
       - "rust"
       - "tui"
-    stars_fact: 3498
+    stars_fact: 3552
     first_seen: "2026-07-31T06:00:07.664216+00:00"
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "yuzudraw"
     title: "yuzudraw"
     description: "visual ASCII editor for both humans and agents"
     language: "Swift"
     topics: []
-    stars_fact: 52
+    stars_fact: 56
     first_seen: null
     last_push: "2026-03-24"
   - name: "compression-golf"

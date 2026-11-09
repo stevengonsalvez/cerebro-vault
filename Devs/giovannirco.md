@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 14, 1, 1, 3, 0, 3, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 0, 14, 1, 4, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,49 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "latchkey"
+    title: "latchkey"
+    description: "Owner-only control of TTLock smart locks from ESP32 boards: pairing, every lock feature, hardening and a web UI, with no cloud and no phone."
+    language: "C++"
+    topics:
+      - "ble"
+      - "esp-idf"
+      - "esp32"
+      - "home-automation"
+      - "security"
+      - "smart-lock"
+      - "ttlock"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "platen"
+    title: "platen"
+    description: "Your printer and scanner for people, programs and AI agents: web UI, REST API and a built-in MCP server. Prints PDFs on raster-only printers, scans to Paperless-ngx. One Go binary, no CUPS."
+    language: "Go"
+    topics:
+      - "airprint"
+      - "escl"
+      - "golang"
+      - "homelab"
+      - "ipp"
+      - "mcp"
+      - "mcp-server"
+      - "paperless-ngx"
+      - "printing"
+      - "scanner"
+      - "self-hosted"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "arith-ts"
+    title: "arith-ts"
+    description: "Integer arithmetic over HTTP in TypeScript (Fastify on Node 24): four endpoints, a page, metrics, Helm and Kustomize."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "portfolio"
     title: "portfolio"
     description: "Source of giovanni.dev.br"
@@ -107,30 +149,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
-  - name: "giovanni-dev-br-public"
-    title: "giovanni-dev-br-public"
-    description: "A compact Three.js orrery portfolio. Fly between projects, read their dossiers, and talk to COMM about where you are."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "interview-skills"
-    title: "interview-skills"
-    description: "Agent skills (Claude Code, Codex, Grok Build…) to turn interview recordings into local speaker-labelled transcripts and run interview loops"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "cpa-prometheus-plugin"
-    title: "cpa-prometheus-plugin"
-    description: "CLIProxyAPI plugin: Prometheus metrics for usage and provider quota"
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # giovannirco

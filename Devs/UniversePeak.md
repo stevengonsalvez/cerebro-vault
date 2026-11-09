@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 3, 1, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 3, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,41 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Supervisor.skill"
-    title: "Supervisor.skill"
-    description: "导师skill，让导师再次伟大！Make Supervisor Great Again！Inspired by colleague-skill（同事skill）and ex-skill (前任skill)"
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai-skill"
-      - "ai-skills"
-      - "automation"
-      - "mentor"
-      - "mentor-skill"
-      - "skill"
-      - "skill-engine"
-      - "skills"
-      - "supervisor-skill"
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "evyni"
-    title: "evyni"
-    description: "Open architecture for companion agents that evolve with you."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "basket"
-    title: "basket"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-10-25"
+repos: []
 ---
 
 # UniversePeak

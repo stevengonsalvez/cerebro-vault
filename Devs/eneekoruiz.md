@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 0, 0, 9, 3, 13, 7, 9, 3, 5, 2, 1]
+pushes_per_week: [0, 1, 0, 3, 7, 7, 10, 11, 5, 3, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 6
-    active_days: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 10
+    pushes_per_repo: 1.8333
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,46 +78,19 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ana-peluquera"
-    title: "ana-peluquera"
-    description: "Next.js booking website and content dashboard for a local hair and beauty salon."
-    language: "TypeScript"
+  - name: "gallery_organizer"
+    title: "gallery_organizer"
+    description: "Local Streamlit tool for indexing, searching, and reviewing photo and video collections."
+    language: "Python"
     topics:
-      - "booking-system"
-      - "firebase"
-      - "google-calendar"
-      - "nextjs"
-      - "typescript"
+      - "computer-vision"
+      - "photo-management"
+      - "python"
+      - "sqlite"
+      - "streamlit"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "portfolio"
-    title: "portfolio"
-    description: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP."
-    language: "TypeScript"
-    topics:
-      - "gsap"
-      - "nextjs"
-      - "portfolio"
-      - "tailwindcss"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "revista"
-    title: "revista"
-    description: "Interactive digital magazine and community platform built with Next.js, React Three Fiber (3D), and Sanity.io CMS."
-    language: "TypeScript"
-    topics:
-      - "3d"
-      - "magazine"
-      - "nextjs"
-      - "react-three-fiber"
-      - "sanity-cms"
-      - "tailwindcss"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "recordatorios"
     title: "recordatorios"
     description: "Offline-first productivity and reminder PWA built with React, TypeScript, Dexie.js (IndexedDB), and PostgreSQL sync."
@@ -133,7 +106,28 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "RKA_P3_Overleaf"
+    title: "RKA_P3_Overleaf"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "passwordmanager"
+    title: "passwordmanager"
+    description: "Offline-first password vault experiment built with React, TypeScript, IndexedDB, and optional Firebase sync."
+    language: "TypeScript"
+    topics:
+      - "firebase"
+      - "indexeddb"
+      - "password-manager"
+      - "react"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "eneekoruiz"
     title: "eneekoruiz"
     description: "Software engineer focused on full-stack applications and automation tools."
@@ -144,20 +138,19 @@ repos:
       - "software-engineer"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "gallery_organizer"
-    title: "gallery_organizer"
-    description: "Local Streamlit tool for indexing, searching, and reviewing photo and video collections."
-    language: "TypeScript"
+    last_push: "2026-11-09"
+  - name: "moodlecrawler"
+    title: "moodlecrawler"
+    description: "Python CLI for downloading and organizing course resources from eGela and Moodle."
+    language: "Python"
     topics:
-      - "computer-vision"
-      - "photo-management"
+      - "cli"
+      - "moodle"
       - "python"
-      - "sqlite"
-      - "streamlit"
+      - "web-scraping"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
 ---
 
 # eneekoruiz

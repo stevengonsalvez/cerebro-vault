@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [9, 0, 0, 0, 0, 50, 28, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 0, 1, 50, 27, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 36
-    active_days: 13
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 6.8462
-  repo_per_active_day: 2.7692
+  push_per_day: 7.3333
+  repo_per_active_day: 3.0000
   not_owned_ratio: 0.2500
   basename_concentration: 0.0278
   shapes: []
@@ -66,33 +66,36 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 36
-    pushes_per_repo: 2.4722
-    active_days: 13
+    pushes_per_repo: 2.4444
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "lacp"
-    title: "lacp"
-    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
-    language: "Shell"
+  - name: "awesome-hermes-agent"
+    title: "awesome-hermes-agent"
+    description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
+    language: null
     topics:
-      - "agent-harness"
+      - "agent-skills"
       - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "control-plane"
-      - "hermes"
-      - "local-first"
-    stars_fact: 307
+      - "ai-tools"
+      - "awesome"
+      - "awesome-list"
+      - "hermes-agent"
+      - "mcp"
+      - "memory"
+      - "nous-research"
+      - "skills"
+    stars_fact: 5989
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-10-27"
   - name: "0xNyk"
     title: "0xNyk"
     description: "Config files for my GitHub profile."
@@ -109,7 +112,22 @@ repos:
       - "web3"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "lacp"
+    title: "lacp"
+    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
+    language: "Shell"
+    topics:
+      - "agent-harness"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "control-plane"
+      - "hermes"
+      - "local-first"
+    stars_fact: 309
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "council-of-high-intelligence"
     title: "council-of-high-intelligence"
     description: "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode."
@@ -129,52 +147,35 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4737
+    stars_fact: 4824
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-11-02"
-  - name: "awesome-hermes-agent"
-    title: "awesome-hermes-agent"
-    description: "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent."
-    language: null
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-tools"
-      - "awesome"
-      - "awesome-list"
-      - "hermes-agent"
-      - "mcp"
-      - "memory"
-      - "nous-research"
-      - "skills"
-    stars_fact: 5941
+    last_push: "2026-11-09"
+  - name: "obsidian-curator"
+    title: "obsidian-curator"
+    description: "The 4th layer of the Claude+Obsidian memory stack — deterministic knowledge-graph maintenance (rename/link/prune), dry-run by default, zero dependencies."
+    language: "Python"
+    topics: []
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "agent-security"
-    title: "agent-security"
-    description: "Deterministic safety gates for repositories touched by coding agents and automation."
+    last_push: "2026-08-25"
+  - name: "hermes-buzz"
+    title: "hermes-buzz"
+    description: "Hermes Agent × Buzz starter kit (buzz-acp + hermes-acp onboarding)"
     language: "Shell"
     topics:
-      - "agent-security"
-      - "github-cli"
-      - "prompt-injection"
-      - "secret-scanning"
-      - "supply-chain-security"
-    stars_fact: 7
+      - "acp"
+      - "agent"
+      - "buzz"
+      - "hermes"
+      - "onboarding"
+      - "template"
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "llmquota"
-    title: "llmquota"
-    description: "Fun terminal roster for Claude / Codex / Cursor / Grok rate limits"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-10-05"
+    last_push: "2026-08-25"
 ---
 
 # 0xNyk
 
-89 pushes across 36 repositories on 13 active days in the last 90 days of public GitHub push activity.
+88 pushes across 36 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xNyk

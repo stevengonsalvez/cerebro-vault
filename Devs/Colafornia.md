@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 6, 1, 0, 0, 1, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 6, 1, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.3750
+  push_per_day: 1.7143
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,26 +57,47 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 4.3333
-    active_days: 8
+    pushes_per_repo: 4.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "seiton"
+    title: "seiton"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "little-robot"
+    title: "little-robot"
+    description: "⏲️ 定时任务脚本，推送前端资讯到微信/Telegram"
+    language: "JavaScript"
+    topics:
+      - "docker"
+      - "koa2"
+      - "node"
+      - "telegram"
+      - "wechat"
+    stars_fact: 87
+    first_seen: null
+    last_push: "2019-04-03"
   - name: "hats"
     title: "hats"
     description: "Run Claude Code, Codex, and other command-line AI tools with different providers concurrently — without switching shared configuration."
@@ -117,26 +138,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2020-01-19"
-  - name: "seiton"
-    title: "seiton"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "Colafornia.github.io"
-    title: "Colafornia.github.io"
-    description: "技术博客，只写不会的"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-13"
 ---
 
 # Colafornia
 
-13 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+12 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Colafornia

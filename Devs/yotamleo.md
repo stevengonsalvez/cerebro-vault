@@ -8,23 +8,23 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [2, 1, 1, 0, 5, 79, 93, 138, 99, 117, 109, 55, 2]
+pushes_per_week: [2, 1, 0, 1, 22, 74, 125, 148, 116, 68, 141, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 313
+    pushes: 284
     distinct_repos: 4
-    active_days: 16
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 313
+    pushes: 284
     distinct_repos: 4
-    pushes_per_repo: 78.2500
-    active_days: 16
+    pushes_per_repo: 71.0000
+    active_days: 14
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nvidia-steam-shader-cache"
-    title: "nvidia-steam-shader-cache"
-    description: "Diagnostic toolkit for Steam's NVIDIA shader-cache merge bug on Linux (4 GiB TOC wrap, steam-for-linux#13622)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+repos: []
 ---
 
 # yotamleo

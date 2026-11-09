@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,14 +78,59 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "inkrepro"
-    title: "inkrepro"
-    description: "How much of an ink prediction survives changing the checkpoint? Full-population reproducibility check over the Vesuvius eligible-scroll atlas. No GPU, no inference."
+  - name: "gemma-swe-agent"
+    title: "gemma-swe-agent"
+    description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
+  - name: "arc-prize-2026"
+    title: "arc-prize-2026"
+    description: "Carson Rodrigues' paper, code and data for the ARC Prize 2026 Paper Track: what should an ARC-AGI-3 agent carry from one level to the next, plan or mechanics? A winning plan replayed verbatim completes 0 of 1,186 testable next-level pairs in 340 human replays"
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "arc-agi"
+      - "arc-agi-3"
+      - "arc-prize"
+      - "arc-prize-2026"
+      - "continual-learning"
+      - "kaggle"
+      - "llm-agents"
+      - "python"
+      - "reproducible-research"
+      - "research-paper"
+      - "world-models"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "arc-agi-3"
+    title: "arc-agi-3"
+    description: "Carson Rodrigues' LLM agent for ARC-AGI-3 (ARC Prize 2026, Kaggle): Qwen3.8-Flash-Next on SGLang in the Duck / Franzen Milestone-2 harness, with level memory, reliability fixes and a daily submission scheduler"
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "agentic-ai"
+      - "ai-agents"
+      - "arc-agi"
+      - "arc-agi-3"
+      - "arc-prize"
+      - "arc-prize-2026"
+      - "benchmark"
+      - "kaggle"
+      - "kaggle-competition"
+      - "llm"
+      - "llm-agents"
+      - "python"
+      - "qwen"
+      - "reasoning"
+      - "sglang"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "refundly"
     title: "refundly"
     description: "An AI agent that refunds and cancels through PayPal, and never says done until PayPal's own ledger agrees. PayPal AI Hackathon."
@@ -99,15 +144,15 @@ repos:
       - "verification"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "gemma-swe-agent"
-    title: "gemma-swe-agent"
-    description: null
+    last_push: "2026-11-02"
+  - name: "inkrepro"
+    title: "inkrepro"
+    description: "How much of an ink prediction survives changing the checkpoint? Full-population reproducibility check over the Vesuvius eligible-scroll atlas. No GPU, no inference."
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-02"
   - name: "earshot"
     title: "earshot"
     description: "Live AI audio-described football commentary for blind fans (Inside the Game hackathon)"
@@ -116,30 +161,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
-  - name: "headliner"
-    title: "headliner"
-    description: "Check a live-show offer before you sign it: deterministic deal math, cultural evidence from the Qloo API, and an explicit list of what no data can tell you."
-    language: "TypeScript"
-    topics:
-      - "hackathon"
-      - "live-events"
-      - "mcp"
-      - "nextjs"
-      - "qloo"
-      - "shadcn-ui"
-      - "supabase"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "attest-fleet"
-    title: "attest-fleet"
-    description: "Governed multi-agent fleet on Gemini 3.5 + ADK that verifies every claim against the system of record and measures the silent-failure rate. All Things Agentic Hackathon."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
 ---
 
 # rodriguescarson

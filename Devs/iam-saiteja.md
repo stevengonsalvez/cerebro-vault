@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 1, 1, 0, 0, 0, 1, 4, 1, 3, 1, 0, 0]
+pushes_per_week: [4, 1, 0, 0, 0, 1, 3, 2, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,29 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Compute-Pool"
+    title: "Compute-Pool"
+    description: "Pool several Kaggle accounts into one GPU cluster from a CLI. Independent, data-parallel, and pipeline-parallel training over SSH. Rust CLI, Python training runtime."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "cluster"
+      - "data-parallelism"
+      - "deep-learning"
+      - "distributed-computing"
+      - "distributed-training"
+      - "gpu"
+      - "kaggle"
+      - "llm"
+      - "machine-learning"
+      - "mlops"
+      - "pipeline-parallelism"
+      - "pytorch"
+      - "rust"
+      - "ssh"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "HGDM-Hierarchical-Gated-Delta-Memory"
     title: "HGDM-Hierarchical-Gated-Delta-Memory"
     description: null
@@ -84,7 +107,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-03"
   - name: "snapper"
     title: "snapper"
     description: "Android app that locks Instagram, YouTube, Shorts and Reels until you finish your daily tasks. Pass an AI voice quiz to earn points, spend them to unlock apps; miss a deadline and payment apps lock too. Sleep mode, content filter and an AI gatekeeper. React + Capacitor, Cloudflare Workers, Supabase."
@@ -129,29 +152,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "Compute-Pool"
-    title: "Compute-Pool"
-    description: "Pool several Kaggle accounts into one GPU cluster from a CLI. Independent, data-parallel, and pipeline-parallel training over SSH. Rust CLI, Python training runtime."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "cluster"
-      - "data-parallelism"
-      - "deep-learning"
-      - "distributed-computing"
-      - "distributed-training"
-      - "gpu"
-      - "kaggle"
-      - "llm"
-      - "machine-learning"
-      - "mlops"
-      - "pipeline-parallelism"
-      - "pytorch"
-      - "rust"
-      - "ssh"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
 ---
 
 # iam-saiteja

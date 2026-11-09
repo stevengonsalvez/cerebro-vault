@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [24, 16, 6, 1, 1, 1, 7, 4, 12, 25, 12, 12, 1]
+pushes_per_week: [22, 14, 2, 1, 1, 4, 5, 4, 13, 26, 21, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
-    distinct_repos: 17
-    active_days: 14
+    pushes: 50
+    distinct_repos: 13
+    active_days: 11
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 122
+    pushes: 114
     distinct_repos: 24
-    active_days: 40
+    active_days: 37
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.0500
-  repo_per_active_day: 0.6000
+  push_per_day: 3.0811
+  repo_per_active_day: 0.6486
   not_owned_ratio: 0.3333
   basename_concentration: 0.3750
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 58
-    distinct_repos: 17
-    pushes_per_repo: 3.4118
-    active_days: 14
+    pushes: 50
+    distinct_repos: 13
+    pushes_per_repo: 3.8462
+    active_days: 11
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 122
+    pushes: 114
     distinct_repos: 24
-    pushes_per_repo: 5.0833
-    active_days: 40
+    pushes_per_repo: 4.7500
+    active_days: 37
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jModGuard"
@@ -89,18 +89,7 @@ repos:
       - "discord-moderation-bot"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "yuoki-quinityn"
-    title: "yuoki-quinityn"
-    description: "Factorio 2.1 Space Age planet for Yuoki Industries and Engines: Quinityn, liquid unicomp seas and local industrial progression"
-    language: "Lua"
-    topics:
-      - "factorio"
-      - "factorio-mod"
-      - "factorio-modding"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "jatmn"
     title: "jatmn"
     description: null
@@ -108,37 +97,54 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "Yuoki-Engines-Factorio-2.x"
-    title: "Yuoki-Engines-Factorio-2.x"
-    description: null
-    language: "Lua"
+    last_push: "2026-11-09"
+  - name: "jatz-distribution"
+    title: "jatz-distribution"
+    description: "Jat'z Distribution: automated freight trucks and depots for Factorio (in development)"
+    language: "HTML"
     topics:
       - "factorio"
       - "factorio-mod"
+      - "factorio-modding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "Factorio-Stone-Ammo"
-    title: "Factorio-Stone-Ammo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-11-09"
+  - name: "Codex-warp"
+    title: "Codex-warp"
+    description: "Tiny Rust proxy that lets Codex CLI talk to OpenAI-compatible providers through a local Responses API surface."
+    language: "Rust"
+    topics:
+      - "codex"
+      - "codex-cli"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "basic-robots-factorio"
     title: "basic-robots-factorio"
     description: "Basic robots for early game"
     language: "Python"
-    topics: []
+    topics:
+      - "factorio"
+      - "factorio-mod"
+      - "factorio-modding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "Deneb"
+    title: "Deneb"
+    description: "Deneb is a community firmware-mod project for the UltiMaker 2+ Connect. The goal is to make the printer more local-first, more responsive, and less resource-taxed while preserving safety-critical behavior and a path back to official UltiMaker firmware."
+    language: "C"
+    topics:
+      - "3dprinter"
+      - "firmware"
+      - "ultimaker"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # jatmn
 
-122 pushes across 24 repositories on 40 active days in the last 90 days of public GitHub push activity.
+114 pushes across 24 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

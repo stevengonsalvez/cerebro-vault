@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 0, 1, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 1, 1, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1250
-  repo_per_active_day: 0.3750
+  push_per_day: 1.1429
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 8
+    pushes_per_repo: 2.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skills"
@@ -89,9 +89,21 @@ repos:
       - "codex"
       - "cursor"
       - "skills"
-    stars_fact: 112619
+    stars_fact: 114563
     first_seen: "2026-06-19T17:17:12.671343+00:00"
     last_push: "2026-11-01"
+  - name: "factory"
+    title: "factory"
+    description: "A reference software factory for Claude Code and Codex"
+    language: "Shell"
+    topics:
+      - "agentic-engineering"
+      - "claude-code"
+      - "codex"
+      - "software-factory"
+    stars_fact: 335
+    first_seen: null
+    last_push: "2026-08-21"
   - name: "web-quality-skills"
     title: "web-quality-skills"
     description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
@@ -105,53 +117,43 @@ repos:
       - "skills"
       - "testing"
       - "web-performance"
-    stars_fact: 3024
+    stars_fact: 3062
     first_seen: null
     last_push: "2026-08-24"
+  - name: "critical-path-css-demo"
+    title: "critical-path-css-demo"
+    description: "Above-the-fold CSS generation + inlining using Critical & Gulp"
+    language: "ApacheConf"
+    topics: []
+    stars_fact: 531
+    first_seen: null
+    last_push: "2021-04-26"
+  - name: "critical"
+    title: "critical"
+    description: "Extract & Inline Critical-path CSS in HTML pages"
+    language: "JavaScript"
+    topics:
+      - "critical-css"
+      - "critical-path-css"
+      - "critical-path-styles"
+      - "css"
+      - "inline-css"
+      - "inline-styles"
+    stars_fact: 10298
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "timing.js"
     title: "timing.js"
     description: "Navigation Timing API measurement helpers"
     language: "JavaScript"
     topics: []
-    stars_fact: 1475
+    stars_fact: 1474
     first_seen: null
     last_push: "2020-04-02"
-  - name: "agent-engineer"
-    title: "agent-engineer"
-    description: "Agent Engineer - a practical course for software engineers"
-    language: null
-    topics:
-      - "agentic-framework"
-      - "ai-agents"
-      - "generative-ai"
-    stars_fact: 531
-    first_seen: null
-    last_push: "2026-07-16"
-  - name: "clarity"
-    title: "clarity"
-    description: "Clarity - an Agent skill for clearer writing"
-    language: "JavaScript"
-    topics:
-      - "ai-writing"
-      - "ai-writing-assistant"
-      - "writing"
-      - "writing-assistant"
-      - "writing-tools"
-    stars_fact: 338
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "backbone-boilerplates"
-    title: "backbone-boilerplates"
-    description: "Backbone.js stack boilerplates demonstrating integration with Express, Ruby, PHP, Grails and more."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 484
-    first_seen: null
-    last_push: "2013-04-02"
 ---
 
 # addyosmani
 
-9 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/addyosmani

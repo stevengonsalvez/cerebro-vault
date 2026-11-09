@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 2, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 2, 0, 1, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "gemini-teacher"
-    title: "gemini-teacher"
-    description: "English pronunciation correction teacher built with gemini"
-    language: "Python"
-    topics: []
-    stars_fact: 1208
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "moss"
-    title: "moss"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "pow-erc20"
-    title: "pow-erc20"
-    description: "A minter for PowerERC20 by rust"
-    language: "Rust"
-    topics: []
-    stars_fact: 130
-    first_seen: null
-    last_push: "2023-12-12"
-  - name: "blitz-harness"
-    title: "blitz-harness"
-    description: "A harness for monad blitz"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "fomomo"
-    title: "fomomo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "neurom"
-    title: "neurom"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-30"
+repos: []
 ---
 
 # nishuzumi

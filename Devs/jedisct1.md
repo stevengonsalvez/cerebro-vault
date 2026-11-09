@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [7, 1, 1, 0, 2, 10, 27, 11, 8, 20, 1, 0, 0]
+pushes_per_week: [4, 0, 1, 0, 4, 15, 25, 12, 12, 10, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 12
-    active_days: 7
+    active_days: 5
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 88
-    distinct_repos: 48
-    active_days: 28
-    repos_not_owned: 16
-    not_owned_basenames: 15
-    not_owned_owners: 8
+    pushes: 84
+    distinct_repos: 45
+    active_days: 26
+    repos_not_owned: 14
+    not_owned_basenames: 13
+    not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.1429
-  repo_per_active_day: 1.7143
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.0417
+  push_per_day: 3.2308
+  repo_per_active_day: 1.7308
+  not_owned_ratio: 0.3111
+  basename_concentration: 0.0444
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,98 +57,59 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 12
-    pushes_per_repo: 1.9167
-    active_days: 7
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 4
   "90d":
-    pushes: 88
-    distinct_repos: 48
-    pushes_per_repo: 1.8333
-    active_days: 28
-    repos_not_owned: 16
-    not_owned_basenames: 15
-    not_owned_owners: 8
+    pushes: 84
+    distinct_repos: 45
+    pushes_per_repo: 1.8667
+    active_days: 26
+    repos_not_owned: 14
+    not_owned_basenames: 13
+    not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zig-ctsort"
-    title: "zig-ctsort"
-    description: "djbsort: fast, data-oblivious sorting algorithm."
-    language: "Zig"
+  - name: "whatsmyresolver"
+    title: "whatsmyresolver"
+    description: "A tiny DNS server that returns the client (resolver) IP"
+    language: "Go"
     topics:
-      - "djb"
-      - "djbsort"
-      - "sort"
-      - "sorting"
-      - "zig"
-      - "zig-package"
-    stars_fact: 18
+      - "dns"
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-10-28"
-  - name: "libsodium"
-    title: "libsodium"
-    description: "A modern, portable, easy to use crypto library."
-    language: "C"
+    last_push: "2025-08-09"
+  - name: "wasmcop"
+    title: "wasmcop"
+    description: "A side-channel leakage analyzer for WebAssembly modules."
+    language: "Rust"
     topics:
-      - "c"
-      - "crypto"
       - "cryptography"
-      - "zig-package"
-    stars_fact: 14037
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "minisign"
-    title: "minisign"
-    description: "A dead simple tool to sign files and verify digital signatures."
-    language: "C"
-    topics:
-      - "crypto"
-      - "cryptography"
-      - "ed25519"
-      - "gpg"
-      - "pgp"
-      - "signatures"
-      - "zig-package"
-    stars_fact: 2874
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "turbocrypt"
-    title: "turbocrypt"
-    description: "A fast, easy-to-use, and secure command-line tool for encrypting and decrypting files , git repositories and directory trees."
-    language: "Zig"
-    topics:
-      - "crypt"
-      - "encryption"
-      - "file"
-      - "file-encryption"
-      - "git"
-      - "repositories"
-      - "turbo"
-      - "turbocrypt"
-      - "zig-package"
-      - "ziglang"
-    stars_fact: 134
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "libsodium.js"
-    title: "libsodium.js"
-    description: "libsodium compiled to Webassembly and pure JavaScript, with convenient wrappers."
-    language: "HTML"
-    topics:
-      - "crypto"
-      - "cryptography"
-      - "javascript"
-      - "libsodium"
+      - "kyberslash"
+      - "side-channel"
+      - "side-channel-analysis"
+      - "side-channel-attacks"
+      - "wasmcop"
+      - "wasmer"
       - "webassembly"
-    stars_fact: 1163
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-09"
+  - name: "jedisct1"
+    title: "jedisct1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "libhydrogen"
     title: "libhydrogen"
     description: "A lightweight, secure, easy-to-use crypto library suitable for constrained environments."
@@ -163,13 +124,33 @@ repos:
       - "embedded"
       - "embedded-systems"
       - "gimli"
-    stars_fact: 794
+    stars_fact: 797
     first_seen: null
     last_push: "2026-09-28"
+  - name: "libsodium"
+    title: "libsodium"
+    description: "A modern, portable, easy to use crypto library."
+    language: "C"
+    topics:
+      - "c"
+      - "crypto"
+      - "cryptography"
+      - "zig-package"
+    stars_fact: 14051
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "rust-hctr2"
+    title: "rust-hctr2"
+    description: "Rust implementation of HCTR2, HCTR3, and their beyond-birthday-bound secure variants (CHCTR2, HCTR2-TwKD), plus format-preserving variants."
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # jedisct1
 
-88 pushes across 48 repositories on 28 active days in the last 90 days of public GitHub push activity.
+84 pushes across 45 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [12, 0, 1, 0, 0, 0, 0, 1, 0, 4, 2, 1, 0]
+pushes_per_week: [6, 1, 0, 0, 0, 0, 0, 1, 3, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 21
-    distinct_repos: 13
-    active_days: 13
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 15
+    distinct_repos: 9
+    active_days: 10
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6154
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.1538
+  push_per_day: 1.5000
+  repo_per_active_day: 0.9000
+  not_owned_ratio: 0.5556
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 21
-    distinct_repos: 13
-    pushes_per_repo: 1.6154
-    active_days: 13
-    repos_not_owned: 7
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 15
+    distinct_repos: 9
+    pushes_per_repo: 1.6667
+    active_days: 10
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sample-herdr-on-agentcore"
-    title: "sample-herdr-on-agentcore"
-    description: "Run herdr on AWS Bedrock AgentCore Runtime — code sample + remote-attach client"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-12"
-  - name: "sample-claude-for-industries"
-    title: "sample-claude-for-industries"
-    description: "Sample Claude for Industries"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-03"
-  - name: "voice-ai-benchmarks"
-    title: "voice-ai-benchmarks"
-    description: "Compare STT and LLM providers for voice agents"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "slides"
-    title: "slides"
-    description: "Slide decks"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "sample-agentic-gpu-capacity"
-    title: "sample-agentic-gpu-capacity"
-    description: "Read-only multi-agent GPU capacity planner on Amazon Bedrock AgentCore"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "pipecat-turn-detection-demo"
-    title: "pipecat-turn-detection-demo"
-    description: "Simple pipecat examples demonstrating barge-in and turn detection with Cartesia STT/TTS and Amazon Bedrock"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-25"
+repos: []
 ---
 
 # wirjo
 
-21 pushes across 13 repositories on 13 active days in the last 90 days of public GitHub push activity.
+15 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wirjo

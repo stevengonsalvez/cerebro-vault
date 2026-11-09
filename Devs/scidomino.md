@@ -8,8 +8,8 @@ provenance_repos:
   - "google-gemini/gemini-cli"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-10-27T07:04:59.524400+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "24684c1ecca249c0"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "pippop"
-    title: "pippop"
-    description: "A bubble physics simulation game"
-    language: "Rust"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-06-08"
+repos: []
 ---
 
 # scidomino

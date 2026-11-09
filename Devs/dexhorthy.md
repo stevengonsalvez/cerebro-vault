@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4ff4c21b5a15c319"
   - "6a454934fcba31af"
@@ -26,12 +26,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 3
     distinct_repos: 3
@@ -61,13 +61,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 3
     distinct_repos: 3
@@ -81,12 +81,28 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "slopfiles"
+    title: "slopfiles"
+    description: "a curation of questionably-useful coding agent plugins"
+    language: "HTML"
+    topics: []
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-03-18"
+  - name: "better-github"
+    title: "better-github"
+    description: "github but better"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-04-30"
   - name: "shannon"
     title: "shannon"
     description: "alternative to claude -p that lifecycles interactive sessions in tmux"
     language: "TypeScript"
     topics: []
-    stars_fact: 249
+    stars_fact: 250
     first_seen: null
     last_push: "2026-05-13"
   - name: "floater"
@@ -97,22 +113,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-09-14"
-  - name: "slopfiles"
-    title: "slopfiles"
-    description: "a curation of questionably-useful coding agent plugins"
-    language: "HTML"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-03-18"
-  - name: "better-github"
-    title: "better-github"
-    description: "github but better"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-04-30"
   - name: "kustomark-ralph-bash"
     title: "kustomark-ralph-bash"
     description: null

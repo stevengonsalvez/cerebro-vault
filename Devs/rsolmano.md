@@ -8,11 +8,11 @@ provenance_repos:
   - "JetBrains/thinkrail"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0acf196572ceb07e"
-pushes_per_week: [0, 1, 4, 0, 0, 1, 2, 7, 1, 10, 0, 0, 0]
+pushes_per_week: [0, 1, 4, 0, 0, 1, 4, 6, 2, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,15 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "datagen-intellij-plugin"
-    title: "datagen-intellij-plugin"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-07-17"
+repos: []
 ---
 
 # rsolmano

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [4, 5, 2, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 5, 1, 2, 1, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 5
-    active_days: 13
+    pushes: 15
+    distinct_repos: 4
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3077
-  repo_per_active_day: 0.3846
+  push_per_day: 1.3636
+  repo_per_active_day: 0.3636
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,30 +66,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
-    distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 13
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "demo-gitskins"
-    title: "demo-gitskins"
-    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
-    language: null
-    topics:
-      - "contribution-graph"
-      - "github-profile"
-      - "readme"
-      - "svg-animation"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "ship-safe"
     title: "ship-safe"
     description: "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output."
@@ -112,9 +100,21 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "supply-chain-security"
-    stars_fact: 870
+    stars_fact: 872
     first_seen: "2026-08-06T06:00:05.901982+00:00"
     last_push: "2026-10-17"
+  - name: "demo-gitskins"
+    title: "demo-gitskins"
+    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
+    language: null
+    topics:
+      - "contribution-graph"
+      - "github-profile"
+      - "readme"
+      - "svg-animation"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "awesome-gitskins"
     title: "awesome-gitskins"
     description: "A curated list of the best GitHub profile READMEs and portfolios made with GitSkins."
@@ -159,6 +159,6 @@ repos:
 
 # asamassekou10
 
-17 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

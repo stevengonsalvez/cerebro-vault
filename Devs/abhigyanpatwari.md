@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 1, 0, 0, 2, 1, 1, 0, 0, 0, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 2, 1, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2500
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GitNexus"
@@ -83,15 +83,15 @@ repos:
     description: "GitNexus: The Zero-Server Code Intelligence Engine"
     language: "TypeScript"
     topics: []
-    stars_fact: 48194
+    stars_fact: 48372
     first_seen: "2026-08-29T06:00:06.818585+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "prowl"
     title: "prowl"
     description: "Interactive knowledge graph for codebases, vibe coder companion"
     language: null
     topics: []
-    stars_fact: 17
+    stars_fact: 18
     first_seen: null
     last_push: "2026-02-27"
   - name: "Medical-Research-Assistant"
@@ -130,6 +130,6 @@ repos:
 
 # abhigyanpatwari
 
-8 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+7 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhigyanpatwari

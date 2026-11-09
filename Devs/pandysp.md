@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 1, 0, 0, 0, 3, 9, 20, 26, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 3, 9, 41, 8, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 6
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7647
-  repo_per_active_day: 0.3529
+  push_per_day: 3.9375
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 6
-    pushes_per_repo: 10.6667
-    active_days: 17
+    pushes_per_repo: 10.5000
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "openclaw-staging-workspace"
-    title: "openclaw-staging-workspace"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "openclaw-infra"
-    title: "openclaw-infra"
-    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "pi-idle-compact"
-    title: "pi-idle-compact"
-    description: "Compacts a pi session once its prompt cache has expired, never while pi's cache warming keeps it alive"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "pi-fast-models"
-    title: "pi-fast-models"
-    description: "Fast-mode virtual models for pi, with allowance-adjusted cost estimates"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "claude-plugins"
-    title: "claude-plugins"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "django-chatbot-lambda"
-    title: "django-chatbot-lambda"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-04-15"
+repos: []
 ---
 
 # pandysp
 
-64 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
+63 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pandysp

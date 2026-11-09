@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 0, 0, 0, 0, 2, 5, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 2, 8, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-memory"
-    title: "agent-memory"
-    description: "Team memory for coding agents: shell + transcript capture, MCP recall, self-hosted TLS sync. Apache-2.0."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "vdb"
-    title: "vdb"
-    description: "vdb — an idb-style development bridge for Amazon Fire TV Vega OS 2.0: gRPC companion + CLI + MCP server (unofficial, not affiliated with Amazon)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "res-blog"
-    title: "res-blog"
-    description: "Nitish Personal Portfolio/Blog"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "cpu-enough"
-    title: "cpu-enough"
-    description: "Free-tier CPU LLM-inference benchmark harness (paper: When is a CPU enough?)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "swapgate"
-    title: "swapgate"
-    description: "Open-source model-swap eval gate: traces become evals, candidates must pass before you swap."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "colonyiq"
-    title: "colonyiq"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
+repos: []
 ---
 
 # nitishagar

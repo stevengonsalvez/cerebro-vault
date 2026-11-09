@@ -7,14 +7,16 @@ discovered_via_all:
 provenance_repos:
   - "agavra/tuicr"
   - "akitaonrails/ai-memory"
+  - "calesthio/OpenMontage"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 12, 5, 0, 6, 0, 7, 1, 0, 0, 0, 0, 0]
+  - "6d3bd03b49986330"
+pushes_per_week: [14, 3, 5, 6, 0, 2, 5, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -75,7 +77,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []

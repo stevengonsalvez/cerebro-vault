@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [15, 0, 1, 1, 8, 44, 18, 17, 85, 4, 3, 1, 0]
+pushes_per_week: [12, 0, 1, 7, 4, 55, 18, 81, 10, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,23 +27,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 7
+    pushes: 8
+    distinct_repos: 4
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 197
+    pushes: 194
     distinct_repos: 25
-    active_days: 37
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.3243
-  repo_per_active_day: 0.6757
+  push_per_day: 5.5429
+  repo_per_active_day: 0.7143
   not_owned_ratio: 0.0000
   basename_concentration: 0.0400
   shapes: []
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 7
+    pushes: 8
+    distinct_repos: 4
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 197
+    pushes: 194
     distinct_repos: 25
-    pushes_per_repo: 7.8800
-    active_days: 37
+    pushes_per_repo: 7.7600
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "context-m"
@@ -107,7 +107,7 @@ repos:
       - "zep"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "startups-co-ke"
     title: "startups-co-ke"
     description: "startups.co.ke — Kenya Startup Ecosystem & Business Intelligence Hub. Single-file app (no build step) + Supabase backend. Deployed via GitHub Pages."
@@ -115,65 +115,58 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "git-identity"
-    title: "git-identity"
-    description: "?? Forensic CLI for Git commit metadata, author attribution vs verified signatures, and identity audit."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "commit-signing"
-      - "forensics"
-      - "git"
-      - "github-attribution"
-      - "gpg"
-      - "rust"
-      - "security"
-      - "ssh"
-      - "supply-chain-security"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "ssmurfgg04-gif"
-    title: "ssmurfgg04-gif"
-    description: "❄ the ice shelf — arctic tuxedo profile (animated hero · tux loop · daily contribution snake)"
-    language: "Python"
+    last_push: "2026-11-09"
+  - name: "pos-system"
+    title: "pos-system"
+    description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "cairn"
-    title: "cairn"
-    description: "Cairn v4 - content-addressed chunked sync & storage engine for professional video teams (Rust)"
-    language: "Rust"
+    last_push: "2026-11-07"
+  - name: "jiji-marketplace-archive"
+    title: "jiji-marketplace-archive"
+    description: null
+    language: "Python"
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "falling-sand"
-    title: "falling-sand"
-    description: "An entire falling-sand physics playground in a single HTML file — sand, water, lava, fire, plants, gunpowder, acid. No build, no dependencies, 60fps."
-    language: "HTML"
+    last_push: "2026-11-07"
+  - name: "smart-vat-kenya"
+    title: "smart-vat-kenya"
+    description: "SmartVAT Kenya — Kenya VAT & eTIMS guidance, calculators and open data: VAT registration, iTax filing deadlines, KRA penalties, amnesty 2026. Maintains the vatkenya npm library. https://smartvatkenya.co.ke"
+    language: "TypeScript"
     topics:
-      - "canvas"
-      - "cellular-automata"
-      - "falling-sand"
-      - "game"
-      - "generative-art"
+      - "astro"
+      - "east-africa"
+      - "etims"
+      - "fintech"
+      - "invoicing"
+      - "itax"
       - "javascript"
-      - "particle-simulation"
-      - "physics"
-      - "sandbox"
-      - "simulation"
-      - "single-file"
-      - "zero-dependencies"
-    stars_fact: 2
+      - "kenya"
+      - "kra"
+      - "open-data"
+      - "penalty-calculator"
+      - "tax"
+      - "tax-calculator"
+      - "typescript"
+      - "vat"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2026-11-04"
+  - name: "misc-notes-data"
+    title: "misc-notes-data"
+    description: "private data attachments for misc-notes (no public redistribution)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # ssmurfgg04-gif
 
-197 pushes across 25 repositories on 37 active days in the last 90 days of public GitHub push activity.
+194 pushes across 25 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

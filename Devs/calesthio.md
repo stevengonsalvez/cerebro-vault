@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 1, 0, 0, 0, 0, 0, 1, 0, 5, 0, 0, 0]
+pushes_per_week: [13, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -43,15 +43,15 @@ automation:
   not_owned_ratio: 0.9000
   basename_concentration: 1.0000
   shapes:
-    - "fork_farm_own_upstream"
+    - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 1.0000 (10 of 10 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: calesthio/OpenMontage"
+    - "basename concentration 1.0000 (10 of 10 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: OpenMontageInc/OpenMontage"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
     checked: 5
-    own_upstream: 5
-    third_party: 0
+    own_upstream: 0
+    third_party: 5
     no_upstream: 0
     unresolved: 0
     truncated: false
@@ -62,7 +62,7 @@ automation:
       - "ikohu-66/OpenMontage"
       - "MoltyHeyworth/OpenMontage"
     upstreams:
-      - "calesthio/OpenMontage"
+      - "OpenMontageInc/OpenMontage"
   prefilter: "rest_verified"
 facets:
   "7d":
@@ -94,33 +94,6 @@ reasons:
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "OpenMontage"
-    title: "OpenMontage"
-    description: "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
-    language: "Python"
-    topics:
-      - "agent"
-      - "agentic-ai"
-      - "ai"
-      - "claude"
-      - "copilot"
-      - "cursor"
-      - "elevenlabs"
-      - "ffmpeg"
-      - "flux"
-      - "image-generation"
-      - "open-source"
-      - "openai"
-      - "python"
-      - "remotion"
-      - "stable-diffusion"
-      - "text-to-speech"
-      - "text-to-video"
-      - "video-generation"
-      - "video-production"
-    stars_fact: 74569
-    first_seen: "2026-06-19T17:17:11.400096+00:00"
-    last_push: "2026-10-28"
   - name: "Crucix"
     title: "Crucix"
     description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
@@ -129,57 +102,9 @@ repos:
       - "ai"
       - "intelligence"
       - "osint"
-    stars_fact: 12191
+    stars_fact: 12205
     first_seen: null
     last_push: "2026-05-20"
-  - name: "PhantomReach"
-    title: "PhantomReach"
-    description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "ai"
-      - "audits"
-      - "business-intelligence"
-      - "claude"
-      - "copilot"
-      - "cursor"
-      - "google-places"
-      - "lead-generation"
-      - "local-business"
-      - "marketing"
-      - "nextjs"
-      - "open-source"
-      - "self-hosted"
-      - "seo"
-      - "sqlite"
-      - "typescript"
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-06-27"
-  - name: "OpenFusion"
-    title: "OpenFusion"
-    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
-    language: "Python"
-    topics:
-      - "agent-orchestration"
-      - "ai-agents"
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "cursor"
-      - "gemini-cli"
-      - "github-copilot"
-      - "llm"
-      - "model-routing"
-      - "multi-model"
-      - "opencode"
-      - "python"
-      - "subagents"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-29"
   - name: "generative-media-skills"
     title: "generative-media-skills"
     description: "Research-backed agent skills and tools for premium image, video, audio, voice, and generative media production across AI coding assistants."
@@ -205,9 +130,40 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 223
+    stars_fact: 238
     first_seen: null
     last_push: "2026-07-14"
+  - name: "OpenFusion"
+    title: "OpenFusion"
+    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
+    language: "Python"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "cursor"
+      - "gemini-cli"
+      - "github-copilot"
+      - "llm"
+      - "model-routing"
+      - "multi-model"
+      - "opencode"
+      - "python"
+      - "subagents"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "BreakoutAnalysis"
+    title: "BreakoutAnalysis"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 284
+    first_seen: null
+    last_push: "2026-02-23"
   - name: "Resonant"
     title: "Resonant"
     description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
@@ -224,9 +180,34 @@ repos:
       - "open-source"
       - "typescript"
       - "windows"
-    stars_fact: 170
+    stars_fact: 177
     first_seen: null
     last_push: "2026-08-07"
+  - name: "PhantomReach"
+    title: "PhantomReach"
+    description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "audits"
+      - "business-intelligence"
+      - "claude"
+      - "copilot"
+      - "cursor"
+      - "google-places"
+      - "lead-generation"
+      - "local-business"
+      - "marketing"
+      - "nextjs"
+      - "open-source"
+      - "self-hosted"
+      - "seo"
+      - "sqlite"
+      - "typescript"
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-06-27"
 ---
 
 # calesthio

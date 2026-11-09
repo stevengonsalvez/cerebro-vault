@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [2, 0, 2, 0, 0, 0, 3, 1, 2, 4, 0, 1, 0]
+pushes_per_week: [1, 0, 2, 0, 0, 2, 2, 0, 2, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1538
-  repo_per_active_day: 0.1538
+  push_per_day: 1.1667
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 13
+    pushes_per_repo: 7.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nvim"
-    title: "nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "clotho"
-    title: "clotho"
-    description: "Clotho is a Go swarm orchestration runtime that decomposes complex work into replayable tasks and runs them reliably across agents using NATS JetStream (KV/Streams/ObjectStore)."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-06"
-  - name: "clawteam"
-    title: "clawteam"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-02-14"
-  - name: "vibe-kanban"
-    title: "vibe-kanban"
-    description: "Get 10X more out of Claude Code, Codex or any coding agent"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-23"
-  - name: "planka-integration"
-    title: "planka-integration"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-01-12"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-10"
+repos: []
 ---
 
 # Zhaoyikaiii
 
-15 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+14 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Zhaoyikaiii

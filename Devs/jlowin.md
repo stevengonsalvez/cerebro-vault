@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "2bd11e9b6557176e"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 2, 25, 0, 0, 7, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 21, 6, 0, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 6
-    active_days: 3
-    repos_not_owned: 6
-    not_owned_basenames: 2
-    not_owned_owners: 5
+    pushes: 7
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
     pushes: 35
     distinct_repos: 9
@@ -73,13 +73,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 3
-    repos_not_owned: 6
-    not_owned_basenames: 2
-    not_owned_owners: 5
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 1
+    not_owned_owners: 3
   "90d":
     pushes: 35
     distinct_repos: 9
@@ -93,14 +93,50 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jlowin"
-    title: "jlowin"
+  - name: "ai-labeler"
+    title: "ai-labeler"
     description: null
-    language: null
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2024-12-03"
+  - name: "git-sync"
+    title: "git-sync"
+    description: "A command for periodically syncing a git repository"
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2023-10-20"
+  - name: "prefect-experiments"
+    title: "prefect-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2024-04-22"
+  - name: "claude-wt"
+    title: "claude-wt"
+    description: "🌴 Simple utility for managing parallel Claude Code instances"
+    language: "Python"
+    topics:
+      - "agent"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-07-07"
+  - name: "wmata_mcp"
+    title: "wmata_mcp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-08-21"
   - name: "vibecheck"
     title: "vibecheck"
     description: "✨✅ The easiest decisions your code will ever make."
@@ -111,49 +147,9 @@ repos:
       - "jev"
       - "llm"
       - "python"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "aimages"
-    title: "aimages"
-    description: "Generate images with hidden text"
-    language: "Python"
-    topics: []
-    stars_fact: 87
-    first_seen: null
-    last_push: "2024-03-25"
-  - name: "copychat"
-    title: "copychat"
-    description: "📋💬 Simple code-to-context utility"
-    language: "Python"
-    topics:
-      - "ai"
-      - "aiengineering"
-      - "llm"
-      - "prompt"
-    stars_fact: 57
-    first_seen: null
-    last_push: "2025-06-19"
-  - name: "claude-wt"
-    title: "claude-wt"
-    description: "🌴 Simple utility for managing parallel Claude Code instances"
-    language: "Python"
-    topics:
-      - "agent"
-      - "claude"
-      - "claude-ai"
-      - "claude-code"
     stars_fact: 44
     first_seen: null
-    last_push: "2025-07-07"
-  - name: "ai-labeler"
-    title: "ai-labeler"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2024-12-03"
+    last_push: "2026-09-24"
 ---
 
 # jlowin

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [11, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 9
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.6667
+  push_per_day: 1.8000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 13
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 6
+    pushes_per_repo: 2.2500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "WorlditorMCP"
-    title: "WorlditorMCP"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "astrbot_plugin_testbench"
-    title: "astrbot_plugin_testbench"
-    description: "面向 AstrBot 的测试工具平台"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "astrbot_plugin_worlditor"
-    title: "astrbot_plugin_worlditor"
-    description: "世界编辑器、世界观察者"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-17"
-  - name: "astrbot_plugin_flowbar"
-    title: "astrbot_plugin_flowbar"
-    description: "滑动、动态、灵活的状态栏"
-    language: "Batchfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-03"
-  - name: "astrbot_plugin_ssh_execute_shell"
-    title: "astrbot_plugin_ssh_execute_shell"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "HotkeyCommand"
-    title: "HotkeyCommand"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-07-31"
+repos: []
 ---
 
 # Rail1bc
 
-13 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Rail1bc

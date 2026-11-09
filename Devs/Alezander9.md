@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Flowline"
+    title: "Flowline"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2026-08-19"
   - name: "BeeWork"
     title: "BeeWork"
     description: null
@@ -85,14 +93,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-02-15"
-  - name: "Flowline"
-    title: "Flowline"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-08-19"
   - name: "AGI"
     title: "AGI"
     description: null

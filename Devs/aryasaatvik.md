@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 6, 4, 4, 18, 13, 16, 20, 4, 7, 3, 0]
+pushes_per_week: [2, 3, 6, 4, 2, 21, 13, 30, 4, 6, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 4
+    active_days: 9
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 97
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 9
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
     pushes: 97
@@ -77,14 +77,6 @@ reasons:
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "frankensearch"
-    title: "frankensearch"
-    description: "Personal frankensearch source fork for cass integration"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "wt"
     title: "wt"
     description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
@@ -99,13 +91,13 @@ repos:
       - "worktree"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "Pi extension for running Executor tools inside Pi"
-    language: "TypeScript"
+    last_push: "2026-11-09"
+  - name: "frankensearch"
+    title: "frankensearch"
+    description: "Personal frankensearch source fork for cass integration"
+    language: "Rust"
     topics: []
-    stars_fact: 3
+    stars_fact: 2
     first_seen: null
     last_push: "2026-10-27"
   - name: "pagegraph"
@@ -123,17 +115,25 @@ repos:
       - "tanstack-router"
       - "typescript"
       - "vite"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-03"
   - name: "CapsuleDB"
     title: "CapsuleDB"
     description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-05"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Pi extension for running Executor tools inside Pi"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "opencode-codex-control"
     title: "opencode-codex-control"
     description: "OpenCode plugin exposing Codex Computer Use and Chrome as native tools"

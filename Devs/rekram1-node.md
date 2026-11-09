@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [36, 14, 17, 2, 13, 23, 27, 33, 15, 25, 54, 12, 2]
+pushes_per_week: [30, 11, 11, 9, 14, 18, 31, 32, 19, 23, 58, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 97
+    pushes: 93
     distinct_repos: 5
-    active_days: 15
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 273
+    pushes: 258
     distinct_repos: 8
-    active_days: 60
+    active_days: 57
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.5500
-  repo_per_active_day: 0.1333
+  push_per_day: 4.5263
+  repo_per_active_day: 0.1404
   not_owned_ratio: 0.8750
   basename_concentration: 0.5000
   shapes: []
@@ -57,86 +57,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 97
+    pushes: 93
     distinct_repos: 5
-    pushes_per_repo: 19.4000
-    active_days: 15
+    pushes_per_repo: 18.6000
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 273
+    pushes: 258
     distinct_repos: 8
-    pushes_per_repo: 34.1250
-    active_days: 60
+    pushes_per_repo: 32.2500
+    active_days: 57
     repos_not_owned: 7
     not_owned_basenames: 4
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Chezmoi + Brew to replicate my development setup easily"
-    language: "Shell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "blinkgo"
-    title: "blinkgo"
-    description: "Simple SDK for interacting with blink cameras, mainly: authentication, listing devices/networks/clips, and downloading clips from local storage"
-    language: "Go"
-    topics:
-      - "blink"
-      - "blinkpy"
-      - "camera"
-      - "golang-library"
-      - "home-automation"
-      - "sdk"
-      - "sdk-go"
-      - "security-camera"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2023-01-18"
-  - name: "vscode-settings"
-    title: "vscode-settings"
-    description: "vs code config files so that I can easily replicate my developer environment"
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-07-19"
-  - name: "text-processor"
-    title: "text-processor"
-    description: "NLP utility library to interact with text. Initially this is to process English documents, essays, etc"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-01-29"
-  - name: "plagiarism-detection-backend"
-    title: "plagiarism-detection-backend"
-    description: "TAMU HACK 2023"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-01-29"
+repos: []
 ---
 
 # rekram1-node
 
-273 pushes across 8 repositories on 60 active days in the last 90 days of public GitHub push activity.
+258 pushes across 8 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rekram1-node

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 2, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,28 +78,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tailnet-sentry"
-    title: "tailnet-sentry"
-    description: "Scan your own tailnet, mark known devices healthy, flag the anomaly, quarantine it. Defensive Go CLI over the Tailscale API."
-    language: "Go"
-    topics:
-      - "cli"
-      - "devsecops"
-      - "go"
-      - "security"
-      - "tailscale"
-      - "zero-trust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "montjeffrey"
-    title: "montjeffrey"
-    description: "Profile: SecDevOps, agent infrastructure, REST automation. A flag is hidden in here."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "agent-harness"
     title: "agent-harness"
     description: "Portable memory & token-efficiency harness for coding agents — queryable code graphs, human-approval gates, and one-command install for Claude Code, Codex, and Gemini."
@@ -110,9 +88,17 @@ repos:
       - "developer-tools"
       - "mcp"
       - "memory"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "montjeffrey"
+    title: "montjeffrey"
+    description: "Profile: SecDevOps, agent infrastructure, REST automation. A flag is hidden in here."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "thegenzmama"
     title: "thegenzmama"
     description: "Website for The Gen Z Mama, childcare and newborn care in Wharton NJ: Next.js and Sanity on Netlify."
@@ -122,7 +108,7 @@ repos:
       - "website"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-09"
   - name: "portfolio"
     title: "portfolio"
     description: "My portfolio — an animated Next.js site with a Three.js hero, Framer Motion transitions, and a Supabase-backed contact form."
@@ -138,17 +124,38 @@ repos:
       - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "elevate-hrg"
-    title: "elevate-hrg"
-    description: "Website for Elevate HRG, a home exterior contractor in Wallington NJ: Next.js on Netlify with tested lead capture."
-    language: "TypeScript"
+    last_push: "2026-11-06"
+  - name: "compute-pool"
+    title: "compute-pool"
+    description: "Share CPU between your own devices over Tailscale: run commands on the least-loaded device, fan out tasks, live dashboard"
+    language: "Go"
     topics:
-      - "client-work"
-      - "website"
+      - "cli"
+      - "developer-tools"
+      - "distributed-computing"
+      - "go"
+      - "homelab"
+      - "tailscale"
+      - "task-runner"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-04"
+  - name: "landfirst"
+    title: "landfirst"
+    description: "Which branch do I merge first? A live merge planner for repos with parallel local work - ranks branches by merge order, predicts conflicts between them, and knows about worktrees."
+    language: "Go"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "git"
+      - "git-worktree"
+      - "go"
+      - "merge-conflicts"
+      - "tui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # montjeffrey

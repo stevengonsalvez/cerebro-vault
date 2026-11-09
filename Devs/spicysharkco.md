@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 16, 9, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 10, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "spicysharkco"
-    title: "spicysharkco"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "spicysharkco.github.io"
-    title: "spicysharkco.github.io"
-    description: "Engineering notes on upstream fixes: what broke, how I measured it, what reviewers changed."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "chess-sim2real-benchmark"
-    title: "chess-sim2real-benchmark"
-    description: "Render generator and 20,000-image benchmark: what synthetic training data buys a chess-recognition model on real camera images"
-    language: "TeX"
-    topics:
-      - "benchmark"
-      - "chess"
-      - "computer-vision"
-      - "robotics"
-      - "sim-to-real"
-      - "synthetic-data"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "sharkswap"
-    title: "sharkswap"
-    description: "Claude Code account switcher: switch / swap between Claude Code accounts without logging in again"
-    language: "Rust"
-    topics:
-      - "account-switcher"
-      - "claude"
-      - "claude-code"
-      - "claude-swap"
-      - "claude-switch"
-      - "cli"
-      - "multi-account"
-      - "rust"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "sharkline"
-    title: "sharkline"
-    description: "Fast Claude Code statusline (status line) in Rust: git, model, rate limits, context, session time"
-    language: "Rust"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "rust"
-      - "status-line"
-      - "statusline"
-      - "terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-20"
+repos: []
 ---
 
 # spicysharkco

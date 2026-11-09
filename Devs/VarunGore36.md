@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 4, 6, 5, 3, 5, 6, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 6, 6, 5, 3, 8, 1, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 6
-    pushes_per_repo: 2.1667
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -83,9 +83,25 @@ repos:
     description: "Local-first runtime for securely executing AI agent tools, with capability-based authorization, credential isolation, controlled network egress, and tamper-evident audit logs."
     language: "Rust"
     topics: []
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "VarunGore36"
+    title: "VarunGore36"
+    description: "GitHub Readme"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "AstralProject"
+    title: "AstralProject"
+    description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "DepLens"
     title: "DepLens"
     description: "DepLens is an investigation into dependency-change impact prediction. The objective is not to assume that reliable prediction is possible, but to determine how far it can be pushed using empirical evidence."
@@ -102,22 +118,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "AstralProject"
-    title: "AstralProject"
-    description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "VarunGore36"
-    title: "VarunGore36"
-    description: "GitHub Readme"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "ENAMEL-Extended"
     title: "ENAMEL-Extended"
     description: "Reimplementation and extension of ENAMEL, an ICLR 2025 benchmark for rigorously evaluating the efficiency of LLM-generated code"

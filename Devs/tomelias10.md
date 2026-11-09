@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "745308b2b7085095"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 1, 0, 0, 0, 4, 9, 4, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 11, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 9
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 1.0000
+  push_per_day: 2.3750
+  repo_per_active_day: 1.1250
   not_owned_ratio: 0.1111
   basename_concentration: 0.2222
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 19
     distinct_repos: 9
-    pushes_per_repo: 2.2222
-    active_days: 9
+    pushes_per_repo: 2.1111
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tomelias10.github.io"
@@ -149,6 +149,6 @@ repos:
 
 # tomelias10
 
-20 pushes across 9 repositories on 9 active days in the last 90 days of public GitHub push activity.
+19 pushes across 9 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tomelias10

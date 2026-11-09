@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 7, 0, 0, 3, 22, 11, 12, 12, 15, 2, 1, 0]
+pushes_per_week: [6, 7, 0, 0, 12, 13, 18, 13, 9, 11, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 16
-    active_days: 7
+    pushes: 18
+    distinct_repos: 15
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 91
     distinct_repos: 28
-    active_days: 29
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2069
-  repo_per_active_day: 0.9655
+  push_per_day: 3.3704
+  repo_per_active_day: 1.0370
   not_owned_ratio: 0.1786
   basename_concentration: 0.0357
   shapes: []
@@ -57,42 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 16
-    pushes_per_repo: 1.3125
-    active_days: 7
+    pushes: 18
+    distinct_repos: 15
+    pushes_per_repo: 1.2000
+    active_days: 6
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 93
+    pushes: 91
     distinct_repos: 28
-    pushes_per_repo: 3.3214
-    active_days: 29
+    pushes_per_repo: 3.2500
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jules-mcp"
-    title: "jules-mcp"
-    description: "MCP server for the Google Jules coding-agent API (12 tools: sessions, activities, scheduling, session-diff)"
-    language: "TypeScript"
+  - name: "BluePaper"
+    title: "BluePaper"
+    description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
+    language: "Kotlin"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "scripts-emporium"
-    title: "scripts-emporium"
-    description: "A collection of standalone utility scripts for sysadmin tasks, web scraping, DNS management, and everyday automation."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "redmine-mcp-workflows"
     title: "redmine-mcp-workflows"
     description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
@@ -100,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
   - name: "pyncua"
     title: "pyncua"
     description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
@@ -108,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "pxe-server"
-    title: "pxe-server"
-    description: "On-demand PXE boot server using dnsmasq (proxyDHCP + TFTP) with netboot.xyz"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -124,11 +108,27 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
+  - name: "link-scrubber"
+    title: "link-scrubber"
+    description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "flipoff"
+    title: "flipoff"
+    description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
 ---
 
 # Avicennasis
 
-93 pushes across 28 repositories on 29 active days in the last 90 days of public GitHub push activity.
+91 pushes across 28 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

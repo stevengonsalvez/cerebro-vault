@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 0, 1, 2, 2, 4, 1, 0, 0, 7, 2]
+pushes_per_week: [0, 1, 0, 0, 1, 2, 6, 0, 1, 0, 7, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 4.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "AstrCode"
+    title: "AstrCode"
+    description: "🚀 AstrBot Agent Orchestration Engine + Skill Development System + Execution Optimization Layer"
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-05-10"
   - name: "EterUee"
     title: "EterUee"
     description: "EterUee is an Android APP that supports for multiple LLM providers."
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 34
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-08"
   - name: "A10_KnowledgeGraph"
     title: "A10_KnowledgeGraph"
     description: "A10 课程知识图谱智能构建与学习导航系统 (Next.js 全栈 + Vercel AI SDK + Neo4j)"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-27"
-  - name: "astrbot_plugin_hctrl"
-    title: "astrbot_plugin_hctrl"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-23"
 ---
 
 # EterUltimate

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 2, 2, 0, 1, 5, 3, 12, 2, 2, 0, 0, 0]
+pushes_per_week: [4, 0, 2, 1, 1, 4, 8, 7, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,11 +27,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 31
@@ -62,12 +62,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
     pushes: 31
@@ -89,7 +89,7 @@ repos:
     topics: []
     stars_fact: 24
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "rki-abwasser-reports"
     title: "rki-abwasser-reports"
     description: "Easy to view version of RKI SARS-CoV-2 wastewater surveillance reports"
@@ -102,7 +102,7 @@ repos:
       - "wastewater-surveillance"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-07"
   - name: "pango-designation-dates"
     title: "pango-designation-dates"
     description: "Contains dates on which each Pango lineage was designated"

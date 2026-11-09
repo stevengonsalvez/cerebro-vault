@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 4, 7, 2, 1, 11, 8, 3, 3, 5, 0, 0, 0]
+pushes_per_week: [2, 7, 5, 1, 0, 11, 9, 3, 3, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 3
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1364
-  repo_per_active_day: 0.1364
+  push_per_day: 2.1429
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -57,42 +57,44 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 3
-    pushes_per_repo: 15.6667
-    active_days: 22
+    pushes_per_repo: 15.0000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cf-effect-experiment"
-    title: "cf-effect-experiment"
-    description: null
+  - name: "MacroGraph"
+    title: "MacroGraph"
+    description: "Visual programming for streamers"
     language: "TypeScript"
-    topics: []
-    stars_fact: 1
+    topics:
+      - "discord"
+      - "midi"
+      - "obs-studio"
+      - "obs-websocket"
+      - "rust"
+      - "solid-start"
+      - "solidjs"
+      - "tauri"
+      - "twitch"
+      - "vtube-studio"
+    stars_fact: 304
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "futhark"
-    title: "futhark"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-08-28"
   - name: "swift-rs"
     title: "swift-rs"
     description: "Call Swift functions from Rust with ease!"
@@ -101,6 +103,30 @@ repos:
     stars_fact: 343
     first_seen: null
     last_push: "2026-10-10"
+  - name: "cf-effect-experiment"
+    title: "cf-effect-experiment"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "vite-plugin-opencode"
+    title: "vite-plugin-opencode"
+    description: "Select UI elements in a Vite app and send contextual feedback to OpenCode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "futhark"
+    title: "futhark"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "apps"
     title: "apps"
     description: "vibe coded personal apps"
@@ -109,30 +135,10 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-10-23"
-  - name: "sceneify"
-    title: "sceneify"
-    description: "The simplest way to control OBS from JavaScript"
-    language: "TypeScript"
-    topics:
-      - "javascript"
-      - "obs"
-      - "obs-websocket"
-      - "typescript"
-    stars_fact: 93
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "vite-plugin-opencode"
-    title: "vite-plugin-opencode"
-    description: "Select UI elements in a Vite app and send contextual feedback to OpenCode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-17"
 ---
 
 # Brendonovich
 
-47 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+45 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

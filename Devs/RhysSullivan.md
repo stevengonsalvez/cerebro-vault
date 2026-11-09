@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 11, 7, 1, 4, 22, 29, 31, 25, 10, 1, 8, 0]
+pushes_per_week: [7, 7, 7, 0, 6, 25, 32, 27, 30, 1, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 3
-    active_days: 9
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 9
+    pushes_per_repo: 6.3333
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "shiptalkers"
-    title: "shiptalkers"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 794
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "twitter-account-location-in-username"
-    title: "twitter-account-location-in-username"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 326
-    first_seen: null
-    last_push: "2025-11-23"
-  - name: "create-epoch-app"
-    title: "create-epoch-app"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 106
-    first_seen: null
-    last_push: "2026-01-11"
-  - name: "use-cache-testing"
-    title: "use-cache-testing"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-14"
-  - name: "ppr-testing"
-    title: "ppr-testing"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-09-02"
-  - name: "broadcast-mcp"
-    title: "broadcast-mcp"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2025-05-18"
+repos: []
 ---
 
 # RhysSullivan

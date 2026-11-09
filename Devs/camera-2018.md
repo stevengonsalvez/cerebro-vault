@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 0, 8, 0, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 3, 5, 0, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,7 +86,7 @@ repos:
       - "github-config"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "astrbot_plugin_fastbrain_proactive"
     title: "astrbot_plugin_fastbrain_proactive"
     description: "AstrBot 主动回复判断插件：FastBrain-9B SystemOne 分类，沿用会话模型，默认观察模式"
@@ -94,7 +94,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "astrbot_plugin_eyewitness_memory"
     title: "astrbot_plugin_eyewitness_memory"
     description: null

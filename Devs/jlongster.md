@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 0, 8, 0, 0, 5, 0, 4, 2, 1, 9, 0, 0]
+pushes_per_week: [4, 0, 8, 0, 0, 5, 1, 4, 2, 0, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 10
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 33
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 10
+    distinct_repos: 3
+    pushes_per_repo: 3.3333
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 33
@@ -77,54 +77,54 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "absurd-sql"
-    title: "absurd-sql"
-    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
+  - name: "tigma"
+    title: "tigma"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 562
+    first_seen: null
+    last_push: "2025-12-25"
+  - name: "prepack-revived"
+    title: "prepack-revived"
+    description: "Experimental revival of Facebook's archived Prepack JS partial evaluator, driven by AI coding agents"
     language: "JavaScript"
     topics: []
-    stars_fact: 4317
+    stars_fact: 16
     first_seen: null
-    last_push: "2023-08-06"
+    last_push: "2026-11-05"
   - name: "electron-with-server-example"
     title: "electron-with-server-example"
     description: "An example Electron app with a backend server all wired up via IPC"
     language: "JavaScript"
     topics: []
-    stars_fact: 1015
+    stars_fact: 1013
     first_seen: null
     last_push: "2022-12-09"
-  - name: "transducers.js"
-    title: "transducers.js"
-    description: "A small library for generalized transformation of data (inspired by Clojure's transducers)"
+  - name: "freezedry"
+    title: "freezedry"
+    description: "Run JS initialization at build time in V8, capture the heap via the inspector, and emit plain JS that rebuilds it — with guarded environment assumptions, volatile-read bailouts, a heap-isomorphism verifier, and a trace-based React SSR specializer"
     language: "JavaScript"
     topics: []
-    stars_fact: 1720
+    stars_fact: 2
     first_seen: null
-    last_push: "2017-06-12"
-  - name: "unwinder"
-    title: "unwinder"
-    description: "An implementation of continuations in JavaScript"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 305
-    first_seen: null
-    last_push: "2018-08-14"
-  - name: "classifications"
-    title: "classifications"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-11-05"
   - name: "opencode-canvas"
     title: "opencode-canvas"
     description: "Infinite review canvas for OpenCode sessions: images, videos, HTML, and conjured session butterflies"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
+  - name: "opencode-ui-blocks"
+    title: "opencode-ui-blocks"
+    description: "Interactive UI blocks for the OpenCode TUI: models write small Lua widgets that render live"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # jlongster

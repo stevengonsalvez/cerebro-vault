@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 3, 1, 15, 4, 3, 2]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 3, 2, 14, 7, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,70 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opensend"
-    title: "opensend"
-    description: "self-hosted transactional & marketing email layer on top of aws ses"
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "email-marketing"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 158
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "pgrok"
-    title: "pgrok"
-    description: "Personal ngrok alternative. Expose local ports to the internet with automatic HTTPS via SSH tunnels + Caddy."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1170
-    first_seen: null
-    last_push: "2026-02-11"
-  - name: "superlocal"
-    title: "superlocal"
-    description: "An email client & provider gateway so you can build your best email experience."
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "fast"
-      - "local-first"
-    stars_fact: 230
-    first_seen: null
-    last_push: "2026-09-08"
-  - name: "hark"
-    title: "hark"
-    description: "iPhone notifications, approvals, Live Activities, on-call paging and signed-in mini apps for developers and their agents."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "ios"
-      - "mcp"
-      - "notifications"
-      - "on-call"
-      - "webhooks"
-    stars_fact: 209
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "opencode.cafe"
-    title: "opencode.cafe"
-    description: "A plugin and extension cafe for OpenCode."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "cafe"
-      - "community"
-      - "opencode"
-    stars_fact: 203
-    first_seen: null
-    last_push: "2026-05-21"
+repos: []
 ---
 
 # R44VC0RP

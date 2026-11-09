@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,17 +100,17 @@ repos:
       - "windows"
       - "windows-app"
       - "windows-desktop"
-    stars_fact: 4
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "epochdb-server"
     title: "epochdb-server"
     description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
     language: "Python"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-07"
   - name: "epochdb"
     title: "epochdb"
     description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
@@ -118,7 +118,7 @@ repos:
     topics: []
     stars_fact: 24
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-07"
   - name: "the-office-crewai"
     title: "the-office-crewai"
     description: "A 3d office with agents that do actual work."

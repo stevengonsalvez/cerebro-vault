@@ -9,11 +9,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 0, 2, 1, 1, 2, 3, 1, 0, 2, 1, 1, 0]
+pushes_per_week: [2, 2, 1, 0, 1, 3, 2, 1, 1, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,23 +77,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "excel-bro"
-    title: "excel-bro"
-    description: "An intelligent AI agent for Excel spreadsheets, hoping to be helpful to everyone."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "boke"
-    title: "boke"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-10-07"
+repos: []
 ---
 
 # zhaozhuang521

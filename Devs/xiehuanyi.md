@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 8, 16, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 16, 7, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 16
-    active_days: 7
+    pushes: 18
+    distinct_repos: 14
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 16
-    pushes_per_repo: 1.3125
-    active_days: 7
+    pushes: 18
+    distinct_repos: 14
+    pushes_per_repo: 1.2857
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,6 +78,22 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ZOMoE-release"
+    title: "ZOMoE-release"
+    description: "Zeroth-order fine-tuning of sparse MoE language models with one-sided estimation and index-only expert replay."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "pi-rsi"
+    title: "pi-rsi"
+    description: "Auto-research harness: tree search + handoffs + frozen evaluators around headless coding agents (pi, Grok CLI)"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "ngrove-viz"
     title: "ngrove-viz"
     description: "nGrove results dashboard and research-trajectory analysis skill"
@@ -86,14 +102,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "pi-rsi"
-    title: "pi-rsi"
-    description: "Auto-research harness: tree search + handoffs + frozen evaluators around headless coding agents (pi, Grok CLI)"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-22"
   - name: "autotrain-bench-viz"
     title: "autotrain-bench-viz"
     description: "Moved to xiehuanyi/ngrove-viz; keeps the old dashboard address redirecting"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-04-03"
-  - name: "nanoSGLang"
-    title: "nanoSGLang"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-06-11"
 ---
 
 # xiehuanyi

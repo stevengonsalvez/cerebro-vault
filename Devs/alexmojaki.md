@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [3, 4, 1, 0, 0, 0, 0, 1, 2, 1, 6, 0, 0]
+pushes_per_week: [7, 0, 1, 0, 0, 0, 0, 1, 2, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 4
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -86,9 +86,23 @@ repos:
       - "learning"
       - "learning-by-doing"
       - "python"
-    stars_fact: 1550
+    stars_fact: 1554
     first_seen: null
     last_push: "2026-05-09"
+  - name: "birdseye"
+    title: "birdseye"
+    description: "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    language: "JavaScript"
+    topics:
+      - "ast"
+      - "birdseye"
+      - "debugger"
+      - "debugging"
+      - "python"
+      - "python-debugger"
+    stars_fact: 1774
+    first_seen: null
+    last_push: "2026-01-11"
   - name: "funcfinder"
     title: "funcfinder"
     description: "A tool for automatically solving problems of the form \"I need a python function that does X.\""
@@ -119,20 +133,6 @@ repos:
     stars_fact: 403
     first_seen: null
     last_push: "2026-10-29"
-  - name: "birdseye"
-    title: "birdseye"
-    description: "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
-    language: "JavaScript"
-    topics:
-      - "ast"
-      - "birdseye"
-      - "debugger"
-      - "debugging"
-      - "python"
-      - "python-debugger"
-    stars_fact: 1776
-    first_seen: null
-    last_push: "2026-01-11"
   - name: "heartrate"
     title: "heartrate"
     description: "Simple real time visualisation of the execution of a Python program."

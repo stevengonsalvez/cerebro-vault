@@ -8,11 +8,11 @@ provenance_repos:
   - "twostraws/SwiftUI-Agent-Skill"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1ee39ec6496bfca4"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "Swift-Agent-Skills"
-    title: "Swift-Agent-Skills"
-    description: "A curated directory of open-source AI agent skills for Swift and Apple platform development."
-    language: null
-    topics: []
-    stars_fact: 2961
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "SwiftData-Agent-Skill"
-    title: "SwiftData-Agent-Skill"
-    description: "SwiftData agent skill for Claude Code, Codex, and other AI tools."
-    language: null
-    topics: []
-    stars_fact: 457
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "Swift-Testing-Agent-Skill"
-    title: "Swift-Testing-Agent-Skill"
-    description: "Swift Testing agent skill for Claude Code, Codex, and other AI tools."
-    language: null
-    topics: []
-    stars_fact: 472
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "Swift-Concurrency-Agent-Skill"
-    title: "Swift-Concurrency-Agent-Skill"
-    description: "Swift Concurrency agent skill for Claude Code, Codex, and other AI tools."
-    language: null
-    topics: []
-    stars_fact: 578
-    first_seen: null
-    last_push: "2026-05-17"
-  - name: "SwiftUI-Agent-Skill"
-    title: "SwiftUI-Agent-Skill"
-    description: "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
-    language: null
-    topics: []
-    stars_fact: 6427
-    first_seen: "2026-10-10T06:01:25.363111+00:00"
-    last_push: "2026-10-26"
-  - name: "SwiftAgents"
-    title: "SwiftAgents"
-    description: "An AGENTS.md file for Swift and SwiftUI projects."
-    language: null
-    topics: []
-    stars_fact: 1478
-    first_seen: null
-    last_push: "2026-03-05"
+repos: []
 ---
 
 # twostraws

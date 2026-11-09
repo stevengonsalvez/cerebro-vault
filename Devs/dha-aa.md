@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 5, 4, 0, 0, 3, 0, 0, 2, 1, 1, 2, 0]
+pushes_per_week: [3, 8, 0, 0, 3, 0, 0, 0, 3, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,20 +79,21 @@ reasons:
 repos:
   - name: "ae-motion"
     title: "ae-motion"
-    description: "MCP server that lets Claude and other AI assistants build, animate, preview and render motion graphics in a live Adobe After Effects project: 77 tools for comps, layers, keyframes, springs, text reveals, transitions, masks, effects, layout, 3D cameras, beat-synced audio and checked aerender renders."
+    description: "MCP server that lets Claude and other AI assistants build, animate, preview and render motion graphics in a live Adobe After Effects project: 79 tools for comps, layers, keyframes, springs, text reveals, transitions, masks, effects, layout, 3D cameras, beat-synced audio and checked aerender renders."
     language: "TypeScript"
     topics:
       - "adobe"
       - "adobe-after-effects"
-      - "aerender"
       - "after-effects"
-      - "ai-agent"
+      - "ai-agents"
       - "ai-tools"
       - "animation"
-      - "cep"
+      - "anthropic"
+      - "automation"
       - "claude"
       - "claude-code"
       - "extendscript"
+      - "generative-ai"
       - "mcp"
       - "mcp-server"
       - "model-context-protocol"
@@ -100,9 +101,10 @@ repos:
       - "motion-graphics"
       - "typescript"
       - "video-editing"
-    stars_fact: 11
+      - "video-production"
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-04"
   - name: "pre-motion"
     title: "pre-motion"
     description: null

@@ -9,11 +9,11 @@ provenance_repos:
   - "Shubhamsaboo/awesome-llm-apps"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "fae31da6c227cfde"
-pushes_per_week: [4, 0, 0, 0, 1, 2, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 7
+    pushes: 7
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.4286
+  push_per_day: 1.1667
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,74 +66,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 7
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "awesome-llm-apps"
-    title: "awesome-llm-apps"
-    description: "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
-    language: "Python"
-    topics:
-      - "agents"
-      - "llms"
-      - "python"
-      - "rag"
-    stars_fact: 143860
-    first_seen: "2026-07-13T06:00:03.578926+00:00"
-    last_push: "2026-10-22"
-  - name: "repotovideo"
-    title: "repotovideo"
-    description: "Turn any GitHub repository into a promo video in just one-click"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "gemini-artboard"
-    title: "gemini-artboard"
-    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
-    language: "HTML"
-    topics: []
-    stars_fact: 76
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "google-memorybank-plugin"
-    title: "google-memorybank-plugin"
-    description: "Vertex AI Memory Bank Plugin for OpenClaw"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 164
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "Shubhamsaboo"
-    title: "Shubhamsaboo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "ai-teleprompter"
-    title: "ai-teleprompter"
-    description: "Voice-following teleprompter — browser + Gemini Live hybrid speech tracking, glass UI"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-07-25"
+repos: []
 ---
 
 # Shubhamsaboo
 
-10 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+7 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Shubhamsaboo

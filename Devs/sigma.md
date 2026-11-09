@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 4, 0, 2, 3, 16, 5, 5, 5, 6, 0, 0]
+pushes_per_week: [0, 4, 0, 1, 4, 0, 18, 5, 6, 6, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 8
-    active_days: 21
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.3810
+  push_per_day: 2.3000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.6250
   basename_concentration: 0.1250
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 7
+    pushes_per_repo: 3.6667
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 8
-    pushes_per_repo: 5.8750
-    active_days: 21
+    pushes_per_repo: 5.7500
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "okf-tools"
-    title: "okf-tools"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "systems"
-    title: "systems"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "integral"
-    title: "integral"
-    description: "Integra-7 controller"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "gh.el"
-    title: "gh.el"
-    description: "GitHub API library for Emacs"
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 286
-    first_seen: null
-    last_push: "2026-02-10"
-  - name: "via_hacks"
-    title: "via_hacks"
-    description: "'cause VIA is a bit limiting, let's generate those keymaps properly"
-    language: "Jsonnet"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "callctl"
-    title: "callctl"
-    description: "Control surfaces for video conferencing systems (Google Meet)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-23"
+repos: []
 ---
 
 # sigma
 
-47 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+46 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sigma

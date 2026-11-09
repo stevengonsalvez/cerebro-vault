@@ -8,11 +8,11 @@ provenance_repos:
   - "yc-software/qm"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [23, 0, 0, 0, 1, 35, 15, 27, 23, 31, 33, 29, 3]
+pushes_per_week: [23, 0, 0, 1, 1, 39, 15, 40, 10, 29, 59, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 1
-    active_days: 12
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 101
+    pushes: 96
     distinct_repos: 1
-    pushes_per_repo: 101.0000
-    active_days: 12
+    pushes_per_repo: 96.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "iOS"
-    title: "iOS"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2016-01-10"
-  - name: "inductionviz-frontend"
-    title: "inductionviz-frontend"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "mita"
-    title: "mita"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "toytransformers"
-    title: "toytransformers"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-11"
-  - name: "inductionviz-backend"
-    title: "inductionviz-backend"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "inductionheads"
-    title: "inductionheads"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-22"
+repos: []
 ---
 
 # ReganBell

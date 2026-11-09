@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 7, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,27 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Rekordbox_OBS_Reading"
+    title: "Rekordbox_OBS_Reading"
+    description: "read last song and track history"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-21"
+  - name: "Iceberg"
+    title: "Iceberg"
+    description: "This is an example of use to the hybrid auralization method with VBAP and Ambisonics (1st order)"
+    language: "MATLAB"
+    topics:
+      - "ambisonics"
+      - "audiological"
+      - "auralization"
+      - "iceberg"
+      - "vbap"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "iceberg-cpp"
     title: "iceberg-cpp"
     description: "Iceberg: loudspeaker-based room auralization for auditory research, as a C++ library and a standalone app for macOS, Windows and Linux"
@@ -94,19 +115,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-10-30"
-  - name: "Iceberg"
-    title: "Iceberg"
-    description: "This is an example of use to the hybrid auralization method with VBAP and Ambisonics (1st order)"
-    language: "MATLAB"
-    topics:
-      - "ambisonics"
-      - "audiological"
-      - "auralization"
-      - "iceberg"
-      - "vbap"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "golden"
     title: "golden"
     description: null
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "Rekordbox_OBS_Reading"
-    title: "Rekordbox_OBS_Reading"
-    description: "read last song and track history"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-21"
   - name: "readGenreAi"
     title: "readGenreAi"
     description: null

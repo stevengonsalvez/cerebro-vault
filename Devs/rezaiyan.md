@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 4, 3, 4, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 4, 5, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    active_days: 5
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 5
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,6 +78,30 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-plugins"
+    title: "claude-plugins"
+    description: "Central Claude Code plugin marketplace by rezaiyan — skillfetch, claude-token-guard, and more"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Lexicon"
+    title: "Lexicon"
+    description: "Lexicon: Kotlin Multiplatform vocabulary learning app"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "lexicon.server"
+    title: "lexicon.server"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "PassKi"
     title: "PassKi"
     description: "Passkeys for Kotlin Multiplatform"
@@ -94,22 +118,6 @@ repos:
       - "passkeys"
       - "webauthn"
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "Lexicon"
-    title: "Lexicon"
-    description: "Lexicon: Kotlin Multiplatform vocabulary learning app"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "lexicon.server"
-    title: "lexicon.server"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 1
     first_seen: null
     last_push: "2026-11-01"
   - name: "rezaiyan"
@@ -131,14 +139,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-10"
-  - name: "kalendar-android"
-    title: "kalendar-android"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-08-31"
 ---
 
 # rezaiyan

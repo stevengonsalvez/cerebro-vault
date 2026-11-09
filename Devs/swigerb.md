@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [34, 1, 3, 0, 0, 0, 15, 56, 298, 9, 37, 0, 0]
+pushes_per_week: [15, 1, 3, 0, 0, 3, 46, 186, 135, 10, 35, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 46
     distinct_repos: 4
-    active_days: 10
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 453
+    pushes: 434
     distinct_repos: 10
-    active_days: 35
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.9429
-  repo_per_active_day: 0.2857
+  push_per_day: 13.1515
+  repo_per_active_day: 0.3030
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 123
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 30.7500
-    active_days: 10
+    pushes_per_repo: 11.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 453
+    pushes: 434
     distinct_repos: 10
-    pushes_per_repo: 45.3000
-    active_days: 35
+    pushes_per_repo: 43.4000
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "squad-pod"
@@ -83,9 +83,25 @@ repos:
     description: "Pixel art office where your Squad AI agents come to life as animated characters — adapted from pixel-agents for Brady Gaster's Squad"
     language: "TypeScript"
     topics: []
-    stars_fact: 11
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "podwin.app"
+    title: "podwin.app"
+    description: "The website and documentation for PodWin, a native Windows 11 WSLc container manager."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "squad-on-aca"
+    title: "squad-on-aca"
+    description: "Run Brady Gaster's Squad remotely on Azure Container Apps with ACA Jobs, Ralph scheduling, GitHub remote sessions, and Aspire telemetry."
+    language: "Shell"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-20"
   - name: "squad-hub"
     title: "squad-hub"
     description: "One place to see and control GitHub Copilot Squad sessions across every substrate: laptop, dev box, Azure Container Apps, AKS."
@@ -111,7 +127,7 @@ repos:
       - "voice-assistant"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-05"
   - name: "retail-pulse"
     title: "retail-pulse"
     description: "AI-powered brand analytics for retail & CPG — built with .NET Aspire, MAF, and MCP"
@@ -120,26 +136,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-23"
-  - name: "squad-on-aca"
-    title: "squad-on-aca"
-    description: "Run Brady Gaster's Squad remotely on Azure Container Apps with ACA Jobs, Ralph scheduling, GitHub remote sessions, and Aspire telemetry."
-    language: "Shell"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "MediaMatch"
-    title: "MediaMatch"
-    description: "Modern open-source successor to FileBot — .NET 10, WinUI 3, Fluent 2"
-    language: "C#"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # swigerb
 
-453 pushes across 10 repositories on 35 active days in the last 90 days of public GitHub push activity.
+434 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

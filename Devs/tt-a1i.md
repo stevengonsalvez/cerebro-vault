@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [7, 4, 13, 2, 10, 10, 15, 11, 30, 12, 1, 14, 0]
+pushes_per_week: [5, 14, 5, 2, 10, 13, 17, 24, 10, 13, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 27
     distinct_repos: 6
-    active_days: 8
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 23
-    active_days: 40
+    active_days: 39
     repos_not_owned: 18
     not_owned_basenames: 3
     not_owned_owners: 17
 automation:
   state: "clear"
-  push_per_day: 3.2250
-  repo_per_active_day: 0.5750
+  push_per_day: 3.2564
+  repo_per_active_day: 0.5897
   not_owned_ratio: 0.7826
   basename_concentration: 0.4783
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 27
     distinct_repos: 6
-    pushes_per_repo: 6.0000
-    active_days: 8
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
   "90d":
-    pushes: 129
+    pushes: 127
     distinct_repos: 23
-    pushes_per_repo: 5.6087
-    active_days: 40
+    pushes_per_repo: 5.5217
+    active_days: 39
     repos_not_owned: 18
     not_owned_basenames: 3
     not_owned_owners: 17
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -105,9 +105,9 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 92513
+    stars_fact: 95048
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "hive"
     title: "hive"
     description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
@@ -125,24 +125,17 @@ repos:
       - "nodejs"
       - "pty"
       - "typescript"
-    stars_fact: 582
+    stars_fact: 585
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "simplify-codebase"
-    title: "simplify-codebase"
-    description: "Prove and remove accidental codebase complexity without breaking behavior."
-    language: "HTML"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "code-quality"
-      - "codebase"
-      - "codex"
-      - "developer-tools"
-      - "refactoring"
-    stars_fact: 510
+    last_push: "2026-11-06"
+  - name: "hive-desktop"
+    title: "hive-desktop"
+    description: "Hive desktop client with unified agent chat and multi-agent collaboration"
+    language: null
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-11-09"
   - name: "matt-skills-with-to-goal"
     title: "matt-skills-with-to-goal"
     description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
@@ -155,35 +148,44 @@ repos:
       - "coding-agents"
       - "developer-tools"
       - "workflow"
-    stars_fact: 192
+    stars_fact: 195
     first_seen: null
     last_push: "2026-10-30"
-  - name: "skillroster"
-    title: "skillroster"
-    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
-    language: "Rust"
+  - name: "simplify-codebase"
+    title: "simplify-codebase"
+    description: "Prove and remove accidental codebase complexity without breaking behavior."
+    language: "HTML"
     topics:
+      - "agent-skills"
       - "ai-agents"
-      - "cli"
+      - "code-quality"
+      - "codebase"
+      - "codex"
       - "developer-tools"
-      - "local-first"
-      - "rust"
-      - "skill-management"
-    stars_fact: 55
+      - "refactoring"
+    stars_fact: 514
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "homebrew-skillroster"
-    title: "homebrew-skillroster"
-    description: "Official Homebrew tap for SkillRoster"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
+    last_push: "2026-09-04"
+  - name: "codex-field-guide"
+    title: "codex-field-guide"
+    description: "从零理解 OpenAI Codex Coding Agent：Agent Loop、Runtime、Context、Tool、安全边界与源码实现。"
+    language: "MDX"
+    topics:
+      - "astro"
+      - "codex"
+      - "codex-cli"
+      - "coding-agent"
+      - "developer-tools"
+      - "documentation"
+      - "mdx"
+      - "typescript"
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-07-26"
 ---
 
 # tt-a1i
 
-129 pushes across 23 repositories on 40 active days in the last 90 days of public GitHub push activity.
+127 pushes across 23 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 1, 1, 0, 6, 16, 20, 23, 11, 5, 2, 1, 1]
+pushes_per_week: [4, 1, 1, 3, 7, 12, 31, 21, 5, 2, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 91
     distinct_repos: 12
-    active_days: 40
+    active_days: 39
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3500
-  repo_per_active_day: 0.3000
+  push_per_day: 2.3333
+  repo_per_active_day: 0.3077
   not_owned_ratio: 0.5833
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 9
+    pushes_per_repo: 1.8000
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 94
+    pushes: 91
     distinct_repos: 12
-    pushes_per_repo: 7.8333
-    active_days: 40
+    pushes_per_repo: 7.5833
+    active_days: 39
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -85,9 +85,17 @@ repos:
       - "ai-agents"
       - "context-management"
       - "memory"
-    stars_fact: 129
+    stars_fact: 133
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "switchyard"
+    title: "switchyard"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
   - name: "model-tides"
     title: "model-tides"
     description: "Private, offline model-usage timelines with local imports and shareable images"
@@ -95,7 +103,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-03"
   - name: "docker-volume-cache-action"
     title: "docker-volume-cache-action"
     description: "A GitHub Action to cache and restore Docker Volumes"
@@ -123,18 +131,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-21"
-  - name: "fossilize"
-    title: "fossilize"
-    description: "Create Node SEA binaries across platforms with ease"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-09-19"
 ---
 
 # BYK
 
-94 pushes across 12 repositories on 40 active days in the last 90 days of public GitHub push activity.
+91 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

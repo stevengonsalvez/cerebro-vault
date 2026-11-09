@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [1, 2, 0, 0, 2, 2, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 3, 1, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,24 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dripwriter-origin"
-    title: "dripwriter-origin"
-    description: "Dripwriter Origin browser extension: Simulates human typing on any website — Google Docs, Canvas, and more: natural speed, realistic typos, false starts, and breaks."
-    language: "TypeScript"
-    topics:
-      - "api"
-      - "browser"
-      - "chrome-extension"
-      - "dripwriter"
-      - "extension"
-      - "monorepo"
-      - "mv3"
-      - "redirect"
-      - "stealth"
-      - "typer"
-    stars_fact: 19
+  - name: "acropolis.sh"
+    title: "acropolis.sh"
+    description: "Acropolis Technologies LLC website"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "gizmo-ai-unlimited"
     title: "gizmo-ai-unlimited"
     description: "Browser extension for unlimited Gizmo quizzes"
@@ -110,9 +100,9 @@ repos:
       - "gizmo-ai"
       - "hack"
       - "mod"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "ics-calendar-dxt"
     title: "ics-calendar-dxt"
     description: "iCloud Calendar MCP / Integration for Claude Desktop on MacOS"
@@ -120,7 +110,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "deskview-mcp"
     title: "deskview-mcp"
     description: "MacOS Desk view plugin for Claude Chat, Cowork, Code (Desktop Extension)"
@@ -128,23 +118,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "gaia-ai"
-    title: "gaia-ai"
-    description: "GAIA Code - Most powerful Perplexity Assistant for any software development. Agentic coding capabilities like Claude Code."
-    language: "Markdown"
-    topics:
-      - "ai"
-      - "code"
-      - "harness"
-      - "mcp"
-      - "perplexity"
-      - "prompts"
-      - "spaces"
-      - "trending"
-    stars_fact: 54
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "terminal-dxt"
     title: "terminal-dxt"
     description: "Claude Desktop extension exposing a run_command MCP tool: execute a bash command in a working directory and get back stdout, stderr, and exit code. Local only."
@@ -152,7 +126,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "ics-plugin"
+    title: "ics-plugin"
+    description: "Claude Code plugin for iCal / ICS Calendar"
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # alexey-max-fedorov

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 6, 29, 13, 8, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 8, 23, 20, 1, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "quiet-tools"
+    title: "quiet-tools"
+    description: "Quiet, scannable tool rows for Pi."
+    language: "TypeScript"
+    topics:
+      - "developer-tools"
+      - "pi-extension"
+      - "pi-package"
+      - "terminal-ui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "drama3-mac"
     title: "drama3-mac"
     description: "Fish Audio Drama 3 (35B MoE TTS) ported to Apple Silicon — MLX backbone + audio tower, PyTorch DAC codec, fully local. First open Mac/MLX port."
@@ -123,14 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-20"
-  - name: "hermes-agent"
-    title: "hermes-agent"
-    description: "Fork of Hermes optimized for running with local AI: long timeouts for self-hosted gateways and no automatic cloud updates."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
 ---
 
 # JordiPosthumus

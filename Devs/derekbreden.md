@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [54, 23, 55, 7, 7, 62, 71, 41, 38, 18, 18, 29, 1]
+pushes_per_week: [58, 39, 25, 4, 17, 89, 43, 59, 19, 11, 45, 0, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 68
     distinct_repos: 1
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 424
+    pushes: 412
     distinct_repos: 3
     active_days: 64
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.6250
+  push_per_day: 6.4375
   repo_per_active_day: 0.0469
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 71
+    pushes: 68
     distinct_repos: 1
-    pushes_per_repo: 71.0000
+    pushes_per_repo: 68.0000
     active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 424
+    pushes: 412
     distinct_repos: 3
-    pushes_per_repo: 141.3333
+    pushes_per_repo: 137.3333
     active_days: 64
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -80,11 +80,11 @@ repos:
   - name: "homesodamachine"
     title: "homesodamachine"
     description: "Soda flavor injector to be paired with cold carbonated water machine to make soda"
-    language: "Python"
+    language: "Rust"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "claude-code-setup"
     title: "claude-code-setup"
     description: "My Claude Code customizations: guardrail hooks, the jsonl2md session-relay tool, the /relay command, and the Salon Protocol."
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-424 pushes across 3 repositories on 64 active days in the last 90 days of public GitHub push activity.
+412 pushes across 3 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

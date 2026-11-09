@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 1, 2, 1, 1, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 0, 0, 1, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "memorizz"
-    title: "memorizz"
-    description: "MemoRizz: A Python library serving as a memory layer for AI applications. Leverages popular databases and storage solutions to optimize memory usage. Provides utility classes and methods for efficient data management."
-    language: "Python"
-    topics:
-      - "ai"
-      - "artificial-intelligence"
-      - "data-management"
-      - "mongodb"
-      - "oracle"
-      - "oracle-database"
-      - "python"
-      - "semantic-search"
-    stars_fact: 781
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "homebrew-memorizz"
-    title: "homebrew-memorizz"
-    description: "Homebrew tap for the MemoRizz memory-first agent harness"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "agent_harness_course"
-    title: "agent_harness_course"
-    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
-    language: "Jupyter Notebook"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "harness-engineering"
-      - "langgraph"
-      - "python"
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "agent_memory_course"
-    title: "agent_memory_course"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "llmcamp_ai_hub"
-    title: "llmcamp_ai_hub"
-    description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "maven_classes"
-    title: "maven_classes"
-    description: "Private cohort materials for Maven agent memory classes, including executed notebooks and an interactive appbook."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-02"
+repos: []
 ---
 
 # RichmondAlake

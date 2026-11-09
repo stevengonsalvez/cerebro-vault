@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 13, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 9, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "CODING — 一款以本地优先为核心的AI编程代理，支持基于代码仓库的规划、执行、验证与交付。"
     language: "Python"
     topics: []
-    stars_fact: 199
+    stars_fact: 200
     first_seen: null
     last_push: "2026-10-02"
   - name: "Guo-Yixin"

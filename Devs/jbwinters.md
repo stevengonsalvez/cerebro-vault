@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "322930b634f9932d"
-pushes_per_week: [3, 0, 0, 0, 1, 1, 7, 7, 5, 0, 0, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 1, 14, 3, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 3
-    active_days: 13
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.2308
+  push_per_day: 2.0909
+  repo_per_active_day: 0.2727
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,41 +65,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
+    pushes: 23
     distinct_repos: 3
-    pushes_per_repo: 8.3333
-    active_days: 13
+    pushes_per_repo: 7.6667
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jacquard-lang"
-    title: "jacquard-lang"
-    description: "Jacquard is a small programming language designed for a regime in which most code is written by machine-learning models and reviewed by people."
-    language: "OCaml"
-    topics:
-      - "algebraic-effects"
-      - "capability-security"
-      - "content-addressing"
-      - "language-design"
-      - "ocaml"
-      - "probabilistic-programming"
-      - "programming-language"
-    stars_fact: 122
-    first_seen: "2026-07-14T06:00:05.414815+00:00"
-    last_push: "2026-10-30"
-  - name: "jacquard-host"
-    title: "jacquard-host"
-    description: "Language-neutral host integrations and adapters for Jacquard"
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
   - name: "inkling.nvim"
     title: "inkling.nvim"
     description: "Copilot-style inline completions for Neovim with your choice of model (OpenAI, Anthropic, Ollama) and project-aware context"
@@ -144,10 +121,29 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-25"
+  - name: "acoustic-event-locator"
+    title: "acoustic-event-locator"
+    description: "Acoustic event localization system using Time Difference of Arrival (TDOA) multilateration from unsynchronized videos. Locates gunshots, explosions & impulsive sounds with 4+ microphones. WIP"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "tmuxcontrollib"
+    title: "tmuxcontrollib"
+    description: "Python Library and MCP server enabling agents to control and communicate with Tmux sessions"
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-server"
+      - "tmux"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-06-13"
 ---
 
 # jbwinters
 
-25 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+23 pushes across 3 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jbwinters

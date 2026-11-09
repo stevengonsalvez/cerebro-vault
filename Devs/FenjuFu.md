@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [13, 2, 3, 0, 4, 2, 0, 7, 1, 11, 3, 0, 0]
+pushes_per_week: [10, 1, 2, 2, 2, 2, 3, 4, 4, 10, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,25 +27,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 10
-    active_days: 5
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 22
-    active_days: 21
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 2
+    pushes: 41
+    distinct_repos: 18
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1905
-  repo_per_active_day: 1.0476
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0909
+  push_per_day: 2.1579
+  repo_per_active_day: 0.9474
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -62,42 +62,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 10
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes_per_repo: 1.4000
+    active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 22
-    pushes_per_repo: 2.0909
-    active_days: 21
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 2
+    pushes: 41
+    distinct_repos: 18
+    pushes_per_repo: 2.2778
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xhtoken-images"
-    title: "xhtoken-images"
-    description: "Public image library for xhtoken-trending-content distribution (file name = title, model picks images by content)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "rtthread-training-site"
-    title: "rtthread-training-site"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "Awesome-Astron-Workflow"
     title: "Awesome-Astron-Workflow"
     description: "A curated collection of Astron workflow examples and user cases for AI-powered applications, featuring real-world implementations including AI Resume Assistant, Translator, Content Writing, Podcast Generator, and Course Generator."
@@ -106,7 +90,7 @@ repos:
       - "agent"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-09"
   - name: "astron-images"
     title: "astron-images"
     description: null
@@ -114,7 +98,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-09"
+  - name: "xhtoken-images"
+    title: "xhtoken-images"
+    description: "Public image library for xhtoken-trending-content distribution (file name = title, model picks images by content)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "FenjuFu"
     title: "FenjuFu"
     description: "GitHub profile README"
@@ -122,7 +114,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-05"
+  - name: "rtthread-training-site"
+    title: "rtthread-training-site"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "skillhub-website"
     title: "skillhub-website"
     description: "Official website and documentation for Astron SkillHub"
@@ -135,6 +135,6 @@ repos:
 
 # FenjuFu
 
-46 pushes across 22 repositories on 21 active days in the last 90 days of public GitHub push activity.
+41 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

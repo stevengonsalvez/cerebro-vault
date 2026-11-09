@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,9 +82,25 @@ repos:
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19268
+    stars_fact: 19264
     first_seen: null
     last_push: "2023-03-05"
+  - name: "slackey"
+    title: "slackey"
+    description: "The simple, easy-to-use JavaScript SDK for Slack"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2023-01-03"
+  - name: "the-node-way"
+    title: "the-node-way"
+    description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1491
+    first_seen: null
+    last_push: "2016-01-19"
   - name: "fflip"
     title: "fflip"
     description: "Flexible Feature Flipping/Flagging for Node.js"
@@ -101,14 +117,6 @@ repos:
     stars_fact: 44
     first_seen: null
     last_push: "2026-07-09"
-  - name: "the-node-way"
-    title: "the-node-way"
-    description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1491
-    first_seen: null
-    last_push: "2016-01-19"
   - name: "esm-hmr"
     title: "esm-hmr"
     description: "a Hot Module Replacement (HMR) API for your ESM-based dev server."
@@ -120,14 +128,6 @@ repos:
     stars_fact: 432
     first_seen: null
     last_push: "2024-06-17"
-  - name: "rollup-plugin-polyfill-node"
-    title: "rollup-plugin-polyfill-node"
-    description: "A modern Node.js polyfill for your Rollup bundle."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 193
-    first_seen: null
-    last_push: "2024-05-27"
 ---
 
 # FredKSchott

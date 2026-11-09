@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 0, 4, 2, 0, 1, 1, 0, 15, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 6, 0, 0, 1, 1, 2, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 14
-    active_days: 7
+    active_days: 6
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
+    pushes: 18
     distinct_repos: 14
-    pushes_per_repo: 1.3571
-    active_days: 7
+    pushes_per_repo: 1.2857
+    active_days: 6
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 5
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "transformers"
+    title: "transformers"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 596
+    first_seen: null
+    last_push: "2023-10-30"
   - name: "pointman-youtube"
     title: "pointman-youtube"
     description: "Message Board behaviour: research, titles, description, chapters, tags and thumbnails for a YouTube upload"
@@ -113,14 +121,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-28"
-  - name: "transformers"
-    title: "transformers"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 596
-    first_seen: null
-    last_push: "2023-10-30"
   - name: "pointman-karpathy"
     title: "pointman-karpathy"
     description: "Message Board behaviour: seven rules for how agents work, after Karpathy's notes on coding agents"

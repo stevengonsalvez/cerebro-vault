@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 4, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 4, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,27 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10597
+    stars_fact: 10603
     first_seen: null
     last_push: "2026-10-30"
+  - name: "dynamocapacity"
+    title: "dynamocapacity"
+    description: "Compare cost of DynamoDB On Demand versus your current Provisioned Capacity setup."
+    language: "Go"
+    topics: []
+    stars_fact: 67
+    first_seen: null
+    last_push: "2019-05-10"
+  - name: "min"
+    title: "min"
+    description: "A Gemini browser (https://gemini.circumlunar.space)"
+    language: "Go"
+    topics:
+      - "gemini"
+      - "gemini-protocol"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2021-07-21"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -117,22 +135,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2026-08-18"
-  - name: "generate"
-    title: "generate"
-    description: "Generates Go (golang) Structs from JSON schema."
-    language: "Go"
-    topics: []
-    stars_fact: 450
-    first_seen: null
-    last_push: "2024-04-02"
-  - name: "pico_usb_kbd_mouse"
-    title: "pico_usb_kbd_mouse"
-    description: "Minimal example of a Raspberry Pi Pico as a USB host accepting keboard and mouse input."
-    language: "C"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2023-11-27"
 ---
 
 # a-h

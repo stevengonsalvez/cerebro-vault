@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [15, 2, 2, 0, 4, 7, 10, 43, 41, 15, 58, 8, 1]
+pushes_per_week: [9, 2, 2, 0, 5, 9, 23, 40, 41, 11, 57, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 95
+    pushes: 82
     distinct_repos: 2
-    active_days: 14
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 206
-    distinct_repos: 4
-    active_days: 43
+    pushes: 200
+    distinct_repos: 3
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7907
-  repo_per_active_day: 0.0930
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.7500
+  push_per_day: 5.0000
+  repo_per_active_day: 0.0750
+  not_owned_ratio: 0.6667
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 95
+    pushes: 82
     distinct_repos: 2
-    pushes_per_repo: 47.5000
-    active_days: 14
+    pushes_per_repo: 41.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 206
-    distinct_repos: 4
-    pushes_per_repo: 51.5000
-    active_days: 43
+    pushes: 200
+    distinct_repos: 3
+    pushes_per_repo: 66.6667
+    active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bwrb"
@@ -82,9 +82,9 @@ repos:
     description: "Schema-driven note management for markdown vaults."
     language: "TypeScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "alicealexandra.com"
     title: "alicealexandra.com"
     description: "My personal portfolio, blog, and catch-all project."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-09"
   - name: "css-mcp-server"
     title: "css-mcp-server"
     description: "A demo of how to build an MCP server (without just vibe coding)."
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-206 pushes across 4 repositories on 43 active days in the last 90 days of public GitHub push activity.
+200 pushes across 3 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

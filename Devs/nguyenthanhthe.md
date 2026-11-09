@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 6, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SparkAgent"
-    title: "SparkAgent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "uet-robotic-arm"
-    title: "uet-robotic-arm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "android-device"
-    title: "android-device"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "astral"
-    title: "astral"
-    description: "Astral — High-performance, zero-dependency Windows desktop app for autonomous Discord Quests & Rich Presence (Tauri v2 + Rust, <4MB binary)."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "bluebook-investigation"
-    title: "bluebook-investigation"
-    description: "Bluebook 0.9.725 won't start: root cause (32-bit Electron GPU process dies inside the user profile), reverse engineering notes, and a verified environment fix"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "his-autofill-extension"
-    title: "his-autofill-extension"
-    description: "Tiện ích Chrome hỗ trợ tự động điền nhanh hồ sơ tiếp đón và kết quả khám sức khỏe định kỳ trên hệ thống Quản lý Y tế Cơ sở (HIS V20 - v20.ytecoso.vn) theo Thông tư 32/2023/TT-BYT."
-    language: "JavaScript"
-    topics:
-      - "autofill"
-      - "chrome-extension"
-      - "healthcare-automation"
-      - "his-v20"
-      - "kham-suc-khoe"
-      - "medical-records"
-      - "ytecoso"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-14"
+repos: []
 ---
 
 # nguyenthanhthe

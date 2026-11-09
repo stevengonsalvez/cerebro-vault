@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 1, 3, 0, 5, 0, 1, 0, 1, 6, 3, 22, 2]
+pushes_per_week: [2, 1, 2, 2, 3, 1, 0, 0, 2, 6, 24, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 7
-    active_days: 11
+    pushes: 33
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 9
-    active_days: 21
+    pushes: 45
+    distinct_repos: 8
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.4286
+  push_per_day: 2.2500
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 11
+    pushes: 33
+    distinct_repos: 6
+    pushes_per_repo: 5.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 9
-    pushes_per_repo: 5.2222
-    active_days: 21
+    pushes: 45
+    distinct_repos: 8
+    pushes_per_repo: 5.6250
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dilara-bparty"
-    title: "dilara-bparty"
-    description: "Birthday party quiz web app on Cloudflare Workers and Durable Objects"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "claude-mods"
-    title: "claude-mods"
-    description: "Claude Code mods, published as one plugin marketplace"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "pi-nexus"
-    title: "pi-nexus"
-    description: "Drive Nexus threads from pi through the nexus CLI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "nexus"
-    title: "nexus"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "home-chat"
-    title: "home-chat"
-    description: "A local-first, mobile-friendly Pi chat UI with a restricted tool profile and isolated backend."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "nexus-demo"
-    title: "nexus-demo"
-    description: "Demo project built on Bobble Nexus with Claude implementation and Astra reviews."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+repos: []
 ---
 
 # ramtinJ95
 
-47 pushes across 9 repositories on 21 active days in the last 90 days of public GitHub push activity.
+45 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

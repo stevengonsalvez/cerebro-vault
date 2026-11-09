@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 2, 13, 10, 25, 7, 11, 3, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 6, 10, 16, 24, 5, 8, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,14 +80,6 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-agent-book"
-    title: "pi-agent-book"
-    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
-    language: "Python"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "Dante-dan"
     title: "Dante-dan"
     description: null
@@ -95,7 +87,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "pi-agent-book"
+    title: "pi-agent-book"
+    description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
+    language: "Python"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "dayweave"
     title: "dayweave"
     description: "Dayweave · 拾日 — An ambient personal secretary: everyday conversations to lasting text archives and thoughtful insights."

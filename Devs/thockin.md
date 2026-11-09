@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 3, 1, 1, 0, 0, 0, 0, 4, 2, 1, 0, 0]
+pushes_per_week: [2, 3, 1, 0, 0, 0, 0, 2, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "go-build-template"
-    title: "go-build-template"
-    description: "A Makefile/Dockerfile example for Go projects."
-    language: "Makefile"
-    topics: []
-    stars_fact: 3332
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfiles"
-    language: "Vim Script"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "exploding-clusters-online"
-    title: "exploding-clusters-online"
-    description: "exploding-clusters-online"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "homebins"
-    title: "homebins"
-    description: "Accumulated stuff I keep in $HOME/bin"
-    language: "Perl"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-23"
-  - name: "work-in-progress"
-    title: "work-in-progress"
-    description: "Random stuff I don't want to lose"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-07-25"
-  - name: "micro-demos"
-    title: "micro-demos"
-    description: "Scripted automation for live CLI demos"
-    language: "Shell"
-    topics: []
-    stars_fact: 191
-    first_seen: null
-    last_push: "2024-08-01"
+repos: []
 ---
 
 # thockin

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 3, 8, 2, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 4, 4, 9, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,57 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lain"
+    title: "lain"
+    description: "Local-first media server in Go: replaceable plugins over a tiny core, embedded SPA, direct-play streaming, metadata enrichment and ffmpeg thumbnails."
+    language: "Rust"
+    topics:
+      - "go"
+      - "home-media"
+      - "local-first"
+      - "media-server"
+      - "plugin-architecture"
+      - "self-hosted"
+      - "streaming"
+      - "svelte"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "accela"
+    title: "accela"
+    description: "A fast, GPU-rendered terminal for Linux with its own VT core: kitty keyboard and graphics, sixel, tabs and splits, 0 wakeups when idle."
+    language: "Rust"
+    topics:
+      - "gpu"
+      - "gpui"
+      - "kitty-graphics"
+      - "linux"
+      - "rust"
+      - "sixel"
+      - "terminal"
+      - "terminal-emulator"
+      - "wayland"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "enrell"
+    title: "enrell"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "nexo"
     title: "nexo"
     description: "Chat, voz e lives P2P entre amigos, com cara de Discord e sem servidor central"
     language: "TypeScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-08"
   - name: "animesubs"
     title: "animesubs"
     description: "Desktop app to extract, translate and embed subtitles into videos."
@@ -99,7 +142,7 @@ repos:
       - "translation"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-11-09"
   - name: "openvfs"
     title: "openvfs"
     description: "Layered, pluggable virtual file system for Rust: memory, host dir, mounts and copy-on-write overlays. Zero dependencies, MIT."
@@ -107,45 +150,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "nebula"
-    title: "nebula"
-    description: "Native Qt Quick workspace for terminal AI agents (Claude Code, Codex, opencode...) with a built-in operator"
-    language: "C++"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "omarchy"
-      - "qml"
-      - "qt6"
-      - "terminal"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "audio-enhancer"
-    title: "audio-enhancer"
-    description: "Advanced audio reconstruction pipeline with neural super-resolution and denoising"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-02-07"
-  - name: "matrix"
-    title: "matrix"
-    description: "Rust kernel for spatiotemporal component composition, with language-independent plugins and local or remote execution"
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "components"
-      - "composition"
-      - "distributed-systems"
-      - "kernel"
-      - "plugins"
-      - "rust"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-11-08"
 ---
 
 # enrell

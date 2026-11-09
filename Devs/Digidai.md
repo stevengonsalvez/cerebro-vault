@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 1, 0, 0, 0, 4, 3, 6, 4, 0, 0, 3, 1]
+pushes_per_week: [4, 0, 0, 0, 1, 5, 4, 4, 3, 0, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,22 +77,41 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "image-prompt"
-    title: "image-prompt"
-    description: "A source-attributed AI image prompt atlas: 474 examples, 22 categories, static SEO pages and a read-only agent API."
+  - name: "recruit-ai-framework"
+    title: "recruit-ai-framework"
+    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
     language: "JavaScript"
-    topics:
-      - "agent-api"
-      - "cloudflare-workers"
-      - "image-generation"
-      - "open-source"
-      - "prompts"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "modern-ai-resume-builder"
+    title: "modern-ai-resume-builder"
+    description: "demo: https://genedai.cv/ modern-ai-resume-builder | Built by Gene Dai, Co-Founder of Metix AI （https://metix.ai/）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "genedai.md"
+    title: "genedai.md"
+    description: "Gene Dai — Personal Homepage"
+    language: "JavaScript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "website2markdown"
     title: "website2markdown"
-    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0. https://md.genedai.me"
+    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0. https://mdget.dev"
     language: "TypeScript"
     topics:
       - "ai-agents"
@@ -105,31 +124,7 @@ repos:
       - "web-scraping"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "metix-reports"
-    title: "metix-reports"
-    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "modern-ai-resume-builder"
-    title: "modern-ai-resume-builder"
-    description: "demo: https://genedai.cv/ modern-ai-resume-builder | Built by Gene Dai, Co-Founder of Metix AI （https://metix.ai/）"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "genedai.md"
-    title: "genedai.md"
-    description: "Gene Dai — Personal Homepage"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -155,7 +150,7 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 195
+    stars_fact: 201
     first_seen: null
     last_push: "2026-04-12"
 ---

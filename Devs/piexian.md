@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 2, 1, 0, 1, 4, 10, 9, 5, 5, 3, 2, 1]
+pushes_per_week: [5, 1, 1, 1, 1, 5, 14, 3, 5, 6, 4, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    active_days: 10
+    pushes: 11
+    distinct_repos: 7
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 19
-    active_days: 33
+    pushes: 47
+    distinct_repos: 17
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5455
-  repo_per_active_day: 0.5758
-  not_owned_ratio: 0.1053
-  basename_concentration: 0.0526
+  push_per_day: 1.5667
+  repo_per_active_day: 0.5667
+  not_owned_ratio: 0.1176
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,87 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 8
-    pushes_per_repo: 1.8750
-    active_days: 10
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 51
-    distinct_repos: 19
-    pushes_per_repo: 2.6842
-    active_days: 33
+    pushes: 47
+    distinct_repos: 17
+    pushes_per_repo: 2.7647
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_mmx_cli_tool"
-    title: "astrbot_plugin_mmx_cli_tool"
-    description: "把MiniMax变为AstrBot的多功能工具！"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "astrbot_plugin_gemini_image_generation"
-    title: "astrbot_plugin_gemini_image_generation"
-    description: "图像生成插件，支持生图和改图，可以自动获取头像作为参考等。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "doubao"
-      - "gemimi"
-      - "grok"
-      - "image-generation"
-      - "openai"
-      - "xai-api"
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "astrbot_plugin_exa_web_search"
-    title: "astrbot_plugin_exa_web_search"
-    description: "把exa.ai接入astrbot"
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "astrbot_plugin_simple_long_memory"
-    title: "astrbot_plugin_simple_long_memory"
-    description: "为 AstrBot 提供简易的长期记忆能力，基于内置知识库实现用户偏好、历史交互和重要事实的记忆存储与召回。"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "memory"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "image-prompt-hub"
-    title: "image-prompt-hub"
-    description: "图片提示词模板服务：检索、上传与目录同步 API"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "elin-decompile-toolkit"
-    title: "elin-decompile-toolkit"
-    description: "Agent Skill: extract official data from Elin and decompile its source - official Chinese names, mechanics verification, version diffing, RAG knowledge base"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
+repos: []
 ---
 
 # piexian
 
-51 pushes across 19 repositories on 33 active days in the last 90 days of public GitHub push activity.
+47 pushes across 17 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

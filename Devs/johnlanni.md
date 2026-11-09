@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "820d99afe5e883a3"
-pushes_per_week: [21, 0, 0, 0, 1, 0, 3, 23, 10, 13, 28, 7, 3]
+pushes_per_week: [17, 0, 0, 0, 1, 2, 11, 20, 7, 13, 31, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 51
     distinct_repos: 3
-    active_days: 15
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 105
     distinct_repos: 10
-    active_days: 30
+    active_days: 28
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6333
-  repo_per_active_day: 0.3333
+  push_per_day: 3.7500
+  repo_per_active_day: 0.3571
   not_owned_ratio: 0.8000
   basename_concentration: 0.3000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 54
+    pushes: 51
     distinct_repos: 3
-    pushes_per_repo: 18.0000
-    active_days: 15
+    pushes_per_repo: 17.0000
+    active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 109
+    pushes: 105
     distinct_repos: 10
-    pushes_per_repo: 10.9000
-    active_days: 30
+    pushes_per_repo: 10.5000
+    active_days: 28
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GameServer"
@@ -129,6 +129,6 @@ repos:
 
 # johnlanni
 
-109 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+105 pushes across 10 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/johnlanni

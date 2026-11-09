@@ -8,11 +8,11 @@ provenance_repos:
   - "xamrayev/nexus-cli"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "7269783341f1a205"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,56 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "go-deepseek-web"
-    title: "go-deepseek-web"
-    description: "DeepSeek web interface client and an OpenAI/Anthropic/Ollama-compatible local proxy, in Go"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "nexus-cli"
-    title: "nexus-cli"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 32
-    first_seen: "2026-10-21T06:01:20.271717+00:00"
-    last_push: "2026-11-01"
-  - name: "hamzamon"
-    title: "hamzamon"
-    description: "Hamzamon — dunyo tarixi O'zbekiston nigohida: interaktiv tarix globusi"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "ai-text-cleaner"
-    title: "ai-text-cleaner"
-    description: "Word add-in that removes hidden characters, curly quotes, dashes and Markdown leftovers from AI-generated text"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "lexbot"
-    title: "lexbot"
-    description: "NazarAI Lab - UBS oliy ta'lim muassasasi Sun'iy intellekt laboratoriyasi"
-    language: "Python"
-    topics:
-      - "rag-pipeline"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "xamrayev"
-    title: "xamrayev"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-25"
+repos: []
 ---
 
 # xamrayev

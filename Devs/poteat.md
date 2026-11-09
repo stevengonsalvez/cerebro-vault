@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -65,6 +65,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
   - "b624a9cbfe8c4465"
@@ -90,7 +91,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 1, 7, 0, 1, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 7, 1, 1, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -151,16 +152,40 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 79 vault signal(s) — pass"
+  - "provenance: 80 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lean-workflows"
+    title: "lean-workflows"
+    description: "Reusable GitHub Actions workflows for Lean 4 packages"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-06"
+  - name: "personal-web"
+    title: "personal-web"
+    description: "Personal portfolio website repository, built on Hugo."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "poteat.github.io"
+    title: "poteat.github.io"
+    description: "Personal website about programming and other things"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "hkt-toolbelt"
     title: "hkt-toolbelt"
     description: "✨Functional and composable type utilities"
     language: "TypeScript"
     topics: []
-    stars_fact: 308
+    stars_fact: 307
     first_seen: null
     last_push: "2026-09-01"
   - name: "ts-unify"
@@ -175,30 +200,6 @@ repos:
     title: "aws-tools"
     description: "Upload and invoke lambda functions from npm"
     language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "rsa-pedagogic"
-    title: "rsa-pedagogic"
-    description: "A pedagogic implementation of RSA in Typescript"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "listr-3"
-    title: "listr-3"
-    description: "A dead-simple terminal task list library for Node"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "vladmake"
-    title: "vladmake"
-    description: "Initialize Typescript packages in V L A D style"
-    language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null

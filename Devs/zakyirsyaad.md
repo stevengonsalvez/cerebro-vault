@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 2, 0, 0, 1, 0, 0, 3, 7, 1, 6, 3, 1]
+pushes_per_week: [2, 0, 0, 1, 0, 0, 3, 7, 1, 1, 8, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 7
-    active_days: 13
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 24
+    distinct_repos: 6
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9231
-  repo_per_active_day: 0.5385
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.1429
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,18 +66,52 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 7
-    pushes_per_repo: 3.5714
-    active_days: 13
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 24
+    distinct_repos: 6
+    pushes_per_repo: 4.0000
+    active_days: 12
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "foundling"
+    title: "foundling"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "antigravity-bridge"
+    title: "antigravity-bridge"
+    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "zorvo"
+    title: "zorvo"
+    description: "A free, open-source Mac app for Claude Code, Codex, Qwen Code and every ACP agent. Compare agents on one prompt and review their diffs."
+    language: "TypeScript"
+    topics:
+      - "agent-client-protocol"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "desktop-app"
+      - "macos"
+      - "qwen-code"
+      - "react"
+      - "rust"
+      - "tauri"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "sp1a-wasm"
     title: "sp1a-wasm"
     description: null
@@ -85,15 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "ai-perpetual-trading"
-    title: "ai-perpetual-trading"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-06"
   - name: "zakyirsyaad"
     title: "zakyirsyaad"
     description: null
@@ -110,26 +136,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-03"
-  - name: "growfi-fix"
-    title: "growfi-fix"
-    description: "GrowFi — Solana farming GameFi with Phaser 3, marketplace, trades, and an Anchor economy"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "monagent"
-    title: "monagent"
-    description: "MetaMask Agent Wallet Plugin for Monad A2A Commerce & Trust"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
 ---
 
 # zakyirsyaad
 
-25 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zakyirsyaad

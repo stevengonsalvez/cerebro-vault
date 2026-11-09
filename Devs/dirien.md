@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 0, 0, 0, 1, 3, 1, 0, 0, 4, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 3, 0, 0, 3, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 9
-    active_days: 10
+    pushes: 11
+    distinct_repos: 8
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3000
-  repo_per_active_day: 0.9000
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.1111
+  push_per_day: 1.2222
+  repo_per_active_day: 0.8889
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,67 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 9
-    pushes_per_repo: 1.4444
-    active_days: 10
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dirien"
-    title: "dirien"
-    description: "All about Engin Diri"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "skill-ci"
     title: "skill-ci"
     description: "CI for agent skills on Kubernetes: Harbor, NVIDIA SkillEvaluator and Agent Sandbox, triggered by skill pushes and model changes"
     language: "Go"
     topics: []
-    stars_fact: 0
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "minectl"
-    title: "minectl"
-    description: "minectl 🗺 is a cli for creating Minecraft server on different cloud provider."
-    language: "Go"
-    topics:
-      - "azure"
-      - "civo"
-      - "digitalocean"
-      - "equinix"
-      - "fabricmc"
-      - "gce"
-      - "golang"
-      - "hacktoberfest"
-      - "hetzner"
-      - "hetzner-cloud"
-      - "minecraft"
-      - "oracle-cloud-infrastructure"
-      - "ovh"
-      - "ovhcloud"
-      - "scaleway"
-      - "spigotmc"
-      - "vultr"
-    stars_fact: 179
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "pulumi-events"
-    title: "pulumi-events"
-    description: "MCP server for managing events on Meetup.com via AI assistants"
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-16"
+    last_push: "2026-11-09"
   - name: "herdr-sbx-plugin"
     title: "herdr-sbx-plugin"
     description: "Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent"
@@ -135,21 +94,57 @@ repos:
       - "docker-sandboxes"
       - "herdr"
       - "herdr-plugin"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "Custom Claude Code skills for Pulumi infrastructure as code"
-    language: "Python"
-    topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-09-13"
+  - name: "dirien"
+    title: "dirien"
+    description: "All about Engin Diri"
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "jev-router"
+    title: "jev-router"
+    description: "Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model"
+    language: "JavaScript"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "jev"
+      - "llm-gateway"
+      - "model-router"
+      - "ollama"
+      - "typesafe"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "my-claude-apm-setup"
+    title: "my-claude-apm-setup"
+    description: "A self-contained APM-managed Claude Code + Codex setup — pinned skills, agents, guardrail hooks, MCP, LSP, and single-source generated context."
+    language: "Shell"
+    topics:
+      - "agent-package-manager"
+      - "ai-agents"
+      - "apm"
+      - "claude-code"
+      - "codex"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "infrastructure-sandbox-kit"
+    title: "infrastructure-sandbox-kit"
+    description: "Docker Sandboxes template + kit: an IaC (Pulumi/Terraform/OpenTofu + AWS/Azure/GCP CLIs) Claude Code workstation with APM baked into the agent home."
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # dirien
 
-13 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
+11 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dirien

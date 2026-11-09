@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -68,6 +68,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
   - "b624a9cbfe8c4465"
@@ -93,7 +94,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -154,10 +155,32 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 80 vault signal(s) — pass"
+  - "provenance: 81 vault signal(s) — pass"
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "frontend-interview-questions"
+    title: "frontend-interview-questions"
+    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
+    language: "JavaScript"
+    topics:
+      - "frontend"
+      - "interview-practice"
+      - "interview-questions"
+      - "javascript"
+    stars_fact: 1145
+    first_seen: null
+    last_push: "2023-01-21"
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3351
+    first_seen: null
+    last_push: "2026-09-07"
   - name: "undux"
     title: "undux"
     description: "⚡️ Dead simple state for React. Now with Hooks support."
@@ -168,7 +191,7 @@ repos:
       - "redux"
       - "typesafe"
       - "typescript"
-    stars_fact: 1563
+    stars_fact: 1561
     first_seen: null
     last_push: "2025-05-08"
   - name: "tslint-no-circular-imports"
@@ -181,16 +204,6 @@ repos:
     stars_fact: 90
     first_seen: null
     last_push: "2021-08-10"
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3350
-    first_seen: null
-    last_push: "2026-09-07"
   - name: "programming-typescript-answers"
     title: "programming-typescript-answers"
     description: "Official answers for exercises from Orielly's Programming TypeScript"
@@ -200,18 +213,6 @@ repos:
     stars_fact: 561
     first_seen: null
     last_push: "2021-08-10"
-  - name: "frontend-interview-questions"
-    title: "frontend-interview-questions"
-    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
-    language: "JavaScript"
-    topics:
-      - "frontend"
-      - "interview-practice"
-      - "interview-questions"
-      - "javascript"
-    stars_fact: 1144
-    first_seen: null
-    last_push: "2023-01-21"
   - name: "bcherny.github.io"
     title: "bcherny.github.io"
     description: "My blog"

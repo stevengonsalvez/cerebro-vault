@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [6, 0, 0, 0, 1, 2, 5, 6, 12, 5, 3, 0, 1]
+pushes_per_week: [4, 0, 0, 1, 0, 3, 6, 10, 9, 3, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 3
-    active_days: 8
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 6
-    active_days: 22
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8636
-  repo_per_active_day: 0.2727
+  push_per_day: 1.8571
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -49,70 +49,70 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 6
-    pushes_per_repo: 6.8333
-    active_days: 22
+    pushes_per_repo: 6.5000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "health-skill"
-    title: "health-skill"
-    description: "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last."
-    language: "Python"
+  - name: "LLMessenger"
+    title: "LLMessenger"
+    description: "Notification firewall for your Mac — AI briefs for iMessage, Signal, Telegram & Slack. On-device AI, no server, no telemetry. Free & open source."
+    language: "Swift"
     topics:
-      - "anthropic"
-      - "care-navigation"
-      - "claude"
-      - "claude-code"
-      - "claude-code-skill"
-      - "family-health"
-      - "health"
+      - "ai"
+      - "apple-intelligence"
+      - "imessage"
+      - "llm"
       - "local-first"
-      - "longevity"
+      - "macos"
+      - "menubar-app"
+      - "notifications"
+      - "ollama"
+      - "privacy"
       - "productivity"
-      - "wearables"
-    stars_fact: 16
+      - "signal"
+      - "slack"
+      - "swift"
+      - "swiftui"
+      - "telegram"
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "proton-drive-mcp"
-    title: "proton-drive-mcp"
-    description: "MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and manage your end-to-end encrypted files without leaving the conversation."
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "cli"
-      - "mcp"
-      - "proton"
-      - "protondrive"
-    stars_fact: 3
+    last_push: "2026-11-09"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "proton-mail-bridge-client"
     title: "proton-mail-bridge-client"
     description: "Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize mail from Claude Desktop, Claude Code or any MCP client. 96 tools, read-only and send-to-self modes."
-    language: "TypeScript"
+    language: "JavaScript"
     topics:
       - "ai-agents"
       - "claude"
@@ -134,47 +134,74 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 85
+    stars_fact: 87
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "googlarz"
-    title: "googlarz"
-    description: "GitHub profile README"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "finance-assistant"
-    title: "finance-assistant"
-    description: "Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo FIRE. claude.ai · Claude Code · Cowork. Open source, free."
+    last_push: "2026-11-09"
+  - name: "signal-mcp"
+    title: "signal-mcp"
+    description: "Signal for AI assistants: an MCP server + CLI with searchable local message history, groups, polls, @mentions and 80+ tools on top of signal-cli. 100% local, read-only mode available."
     language: "Python"
     topics:
-      - "anthropic"
-      - "budgeting"
+      - "ai-agents"
+      - "claude"
       - "claude-code"
-      - "claude-cowork"
-      - "claude-skill"
+      - "claude-desktop"
+      - "cli"
+      - "fts5"
+      - "llm-tools"
+      - "local-first"
       - "mcp"
-      - "personal-finance"
-      - "productivity"
-      - "skill"
-      - "tax"
-    stars_fact: 50
+      - "messaging"
+      - "model-context-protocol"
+      - "privacy"
+      - "python"
+      - "signal"
+      - "signal-cli"
+      - "signal-messenger"
+      - "sqlite"
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
+  - name: "vinted-mcp-cli"
+    title: "vinted-mcp-cli"
+    description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "ecommerce"
+      - "marketplace"
+      - "mcp"
+      - "model-context-protocol"
+      - "secondhand"
+      - "vinted"
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "proton-drive-mcp"
+    title: "proton-drive-mcp"
+    description: "MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and manage your end-to-end encrypted files without leaving the conversation."
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "claude-desktop"
+      - "cli"
+      - "end-to-end-encryption"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "ocr"
+      - "proton"
+      - "proton-drive"
+      - "protondrive"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # googlarz
 
-41 pushes across 6 repositories on 22 active days in the last 90 days of public GitHub push activity.
+39 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/googlarz

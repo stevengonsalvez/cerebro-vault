@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1437405ffd8a6211"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -89,23 +89,23 @@ repos:
       - "merge-queue"
       - "monorepo-tooling"
       - "parallel-agents"
-    stars_fact: 130
+    stars_fact: 131
     first_seen: "2026-07-30T06:00:04.087790+00:00"
     last_push: "2026-08-24"
+  - name: "react-auth-client"
+    title: "react-auth-client"
+    description: "Social authentication with React and Node"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 262
+    first_seen: null
+    last_push: "2026-07-13"
   - name: "react-confirm-email"
     title: "react-confirm-email"
     description: "Email confirmation with React and Node"
     language: "TypeScript"
     topics: []
     stars_fact: 96
-    first_seen: null
-    last_push: "2026-07-13"
-  - name: "react-auth-client"
-    title: "react-auth-client"
-    description: "Social authentication with React and Node"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 263
     first_seen: null
     last_push: "2026-07-13"
   - name: "gemini-batch-reshape"

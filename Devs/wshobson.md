@@ -8,11 +8,11 @@ provenance_repos:
   - "wshobson/agents"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "31661aae5fd34dec"
-pushes_per_week: [2, 6, 1, 0, 0, 1, 11, 8, 2, 0, 0, 0, 0]
+pushes_per_week: [5, 4, 0, 0, 1, 0, 12, 9, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,119 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agents"
-    title: "agents"
-    description: "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "agentic-ai"
-      - "ai-agents"
-      - "anthropic"
-      - "antigravity"
-      - "claude"
-      - "claude-code"
-      - "claude-code-marketplace"
-      - "claude-code-plugin"
-      - "claude-skills"
-      - "codex"
-      - "coding-agents"
-      - "cursor"
-      - "cursor-rules"
-      - "github-copilot"
-      - "mcp"
-      - "multi-agent"
-      - "opencode"
-      - "pi-coding-agent"
-      - "subagents"
-    stars_fact: 42222
-    first_seen: "2026-10-21T06:01:17.877066+00:00"
-    last_push: "2026-11-02"
-  - name: "maverick-mcp"
-    title: "maverick-mcp"
-    description: "Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "anthropic"
-      - "backtesting"
-      - "claude"
-      - "fastmcp"
-      - "finance"
-      - "financial-analysis"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "portfolio-tracking"
-      - "python"
-      - "quantitative-finance"
-      - "stock-analysis"
-      - "stock-market"
-      - "stock-screening"
-      - "stocks"
-      - "technical-analysis"
-      - "yfinance"
-    stars_fact: 719
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "wshobson"
-    title: "wshobson"
-    description: "About Me"
-    language: null
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "wshobson.github.io"
-    title: "wshobson.github.io"
-    description: "sethhobson.com — single-page personal site on GitHub Pages"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "financial-chat"
-    title: "financial-chat"
-    description: "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus."
-    language: "Python"
-    topics:
-      - "ai"
-      - "chatbot"
-      - "claude-3"
-      - "equities"
-      - "etfs"
-      - "finance"
-      - "financial-analysis"
-      - "fundamental-analysis"
-      - "indexes"
-      - "langchain"
-      - "langgraph"
-      - "openbb"
-      - "performance-analysis"
-      - "python"
-      - "sector-analysis"
-      - "stock-market"
-      - "streamlit"
-      - "technical-analysis"
-    stars_fact: 236
-    first_seen: null
-    last_push: "2025-08-10"
-  - name: "minimax-dgx-spark"
-    title: "minimax-dgx-spark"
-    description: "MiniMax M2 inference server for NVIDIA DGX Spark"
-    language: "Jinja"
-    topics:
-      - "dgx-spark"
-      - "llamacpp"
-      - "minimax"
-      - "nvidia"
-      - "nvidia-gpu"
-      - "opencode"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-01-24"
+repos: []
 ---
 
 # wshobson

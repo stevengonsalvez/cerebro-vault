@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: "Nushell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "0xferrous.github.io"
+    title: "0xferrous.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "my-nix"
+    title: "my-nix"
+    description: "My public nix config, with some reusable modules"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "CodexBar-flake"
+    title: "CodexBar-flake"
+    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "warren"
     title: "warren"
     description: null
@@ -85,38 +117,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "0xferrous.github.io"
-    title: "0xferrous.github.io"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: ".github"
-    title: ".github"
-    description: null
-    language: "Nushell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "my-nix"
-    title: "my-nix"
-    description: "My public nix config, with some reusable modules"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "CodexBar-flake"
-    title: "CodexBar-flake"
-    description: "Nix flake packaging the Linux CodexBar CLI, with automated updates from upstream GitHub releases."
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "agent-box"
     title: "agent-box"
     description: "Sandboxed containers for AI coding agents with disposable Git/Jujutsu workspaces"

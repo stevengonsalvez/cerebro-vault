@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 1, 1, 0, 0, 4, 5, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 1, 0, 0, 5, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,35 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "analytics"
-    title: "analytics"
-    description: "Lightweight analytics abstraction layer for tracking page views, custom events, & identifying visitors"
+  - name: "awesome-stoicism"
+    title: "awesome-stoicism"
+    description: "💆‍♂️ Stoic philosophy resources"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 142
+    first_seen: null
+    last_push: "2023-09-13"
+  - name: "stars"
+    title: "stars"
+    description: "Automatically indexed GitHub stars"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "netlify-functions-workshop"
+    title: "netlify-functions-workshop"
+    description: "Netlify Serverless Functions Workshop"
     language: "JavaScript"
     topics:
-      - "analytics"
-      - "analytics-utils"
-      - "gdpr-compliant"
-      - "metrics"
-      - "telemetry"
-      - "wired"
-    stars_fact: 2669
+      - "functions"
+      - "netlify"
+      - "netlify-functions"
+      - "serverless"
+      - "workshop"
+    stars_fact: 341
     first_seen: null
-    last_push: "2026-06-27"
+    last_push: "2021-03-11"
   - name: "configorama"
     title: "configorama"
     description: "⚙️ ${variable} support for config files"
@@ -99,40 +114,23 @@ repos:
       - "wired"
     stars_fact: 25
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "packages"
-    title: "packages"
-    description: "Public Packages & React Components"
-    language: "JavaScript"
-    topics:
-      - "wired"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "stars"
-    title: "stars"
-    description: "Automatically indexed GitHub stars"
-    language: "JavaScript"
+    last_push: "2026-11-06"
+  - name: "claude-runner-public-test"
+    title: "claude-runner-public-test"
+    description: "Throwaway test of claude-runner-action on a public repo"
+    language: null
     topics: []
-    stars_fact: 37
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "git-split-diffs"
-    title: "git-split-diffs"
-    description: "Fork of git-split-diffs with clickable editor links"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "isomorphic-react-example"
-    title: "isomorphic-react-example"
-    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
+    last_push: "2026-11-06"
+  - name: "claude-runner-action"
+    title: "claude-runner-action"
+    description: "Run Claude Code from @claude mentions on Issues and PRs, or workflow_dispatch, and open PRs for its changes"
     language: "JavaScript"
     topics: []
-    stars_fact: 1667
+    stars_fact: 0
     first_seen: null
-    last_push: "2017-10-30"
+    last_push: "2026-11-06"
 ---
 
 # DavidWells

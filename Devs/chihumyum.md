@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 2, 1, 0, 1, 2, 1, 6, 4, 0, 2, 0, 0]
+pushes_per_week: [0, 3, 0, 0, 1, 3, 0, 10, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "Drifting"
     title: "Drifting"
-    description: "Open-source, local-first novel writing app for Mac: the ease of a Markdown editor, the scaffolding of a classic writing studio, and an AI Agent for the whole book."
+    description: "Drifting is a cross-platform, AI-native novel-writing app. With the ease of a Markdown editor, the scaffolding of a classic writing studio, and an AI agent for the whole book, it's built to help you write your first bestseller. Drifting 是一款跨平台的 AI 原生小说写作应用。兼具 Markdown 编辑器的轻快、经典写作工坊的创作框架，以及贯穿全书的 AI Agent，助你写出人生第一部畅销书。"
     language: "TypeScript"
     topics:
       - "ai-agent"
@@ -96,9 +96,28 @@ repos:
       - "worldbuilding"
       - "writing-app"
       - "writing-tool"
-    stars_fact: 3
+    stars_fact: 33
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "persimmon-reader"
+    title: "persimmon-reader"
+    description: "Official website for the Persimmon EPUB reader"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "Persimmon"
+    title: "Persimmon"
+    description: "A lightweight, native-rendered cross-platform EPUB reader."
+    language: "TypeScript"
+    topics:
+      - "epub"
+      - "epub-reader"
+      - "ereader"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "My-FFVI"
     title: "My-FFVI"
     description: "Source-driven FFVI Pixel Remaster Web migration, shared game systems, and reproducible validation."
@@ -122,25 +141,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-08-13"
-  - name: "Persimmon"
-    title: "Persimmon"
-    description: "A lightweight, native-rendered cross-platform EPUB reader."
-    language: "TypeScript"
-    topics:
-      - "epub"
-      - "epub-reader"
-      - "ereader"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "persimmon-reader"
-    title: "persimmon-reader"
-    description: "Official website for the Persimmon EPUB reader"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
   - name: "AnoDock"
     title: "AnoDock"
     description: "A complementary macOS dock app."

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [12, 3, 1, 1, 0, 0, 8, 2, 0, 0, 2, 1, 0]
+pushes_per_week: [13, 3, 1, 0, 0, 1, 9, 0, 0, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -81,6 +81,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Gujiassh"
+    title: "Gujiassh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "sceneweave"
     title: "sceneweave"
     description: "Open-source, self-hosted editor and runtime for data-driven Three.js scenes, digital twins, IoT visualization, and embeddable WebGL viewers."
@@ -105,14 +113,6 @@ repos:
     title: "citeframe"
     description: "Citeframe is a self-hosted multimodal AI knowledge workspace for organizing heterogeneous assets, asking evidence-grounded questions, conducting research, and preserving traceable knowledge."
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "Gujiassh"
-    title: "Gujiassh"
-    description: null
-    language: null
     topics: []
     stars_fact: 0
     first_seen: null

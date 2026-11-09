@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [74, 50, 37, 5, 23, 42, 31, 24, 15, 31, 8, 5, 0]
+pushes_per_week: [76, 42, 27, 11, 28, 43, 30, 16, 25, 15, 13, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
+    pushes: 44
     distinct_repos: 1
-    active_days: 10
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 345
+    pushes: 326
     distinct_repos: 2
-    active_days: 59
+    active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8475
-  repo_per_active_day: 0.0339
+  push_per_day: 5.8214
+  repo_per_active_day: 0.0357
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 49
+    pushes: 44
     distinct_repos: 1
-    pushes_per_repo: 49.0000
-    active_days: 10
+    pushes_per_repo: 44.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 345
+    pushes: 326
     distinct_repos: 2
-    pushes_per_repo: 172.5000
-    active_days: 59
+    pushes_per_repo: 163.0000
+    active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -102,9 +102,17 @@ repos:
       - "self-hosted"
       - "token-optimization"
       - "yagni"
-    stars_fact: 44
+    stars_fact: 47
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "anthony-chaudhary.github.io"
+    title: "anthony-chaudhary.github.io"
+    description: "Anthony Chaudhary — personal site (GitHub Pages root)"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-07"
   - name: "dos-kernel"
     title: "dos-kernel"
     description: "Catch your AI agents when they lie about what they shipped — verifies claims against git instead of believing the agent."
@@ -129,7 +137,7 @@ repos:
       - "python"
       - "trust"
       - "verification"
-    stars_fact: 20
+    stars_fact: 22
     first_seen: null
     last_push: "2026-10-27"
   - name: "deployprompt"
@@ -156,18 +164,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2016-11-09"
-  - name: "sdc-p10-mpc-linux"
-    title: "sdc-p10-mpc-linux"
-    description: "sdc-p10-mpc-linux"
-    language: "C++"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2017-05-25"
 ---
 
 # anthony-chaudhary
 
-345 pushes across 2 repositories on 59 active days in the last 90 days of public GitHub push activity.
+326 pushes across 2 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

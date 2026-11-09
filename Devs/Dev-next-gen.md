@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 1, 0, 1, 4, 2, 1, 2, 6, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 5, 2, 2, 0, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,24 +78,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "defect-hunting-pipeline"
-    title: "defect-hunting-pipeline"
-    description: "A defect-hunting pipeline: proves each defect with a reproduction that fails before the patch and passes after, then opens the fix upstream under the receiving project's rules."
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "Dev-next-gen"
-    title: "Dev-next-gen"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "orodruin"
     title: "orodruin"
     description: "Orodruin — open-source intelligence platform. A self-hostable Palantir Gotham alternative: dozens of live global data sources on a 2D/3D map + actor graph, with an AI analyst that drives the UI."
@@ -116,7 +98,7 @@ repos:
       - "react"
       - "threat-analysis"
       - "threat-intelligence"
-    stars_fact: 71
+    stars_fact: 70
     first_seen: null
     last_push: "2026-09-11"
   - name: "excalibur"
@@ -135,9 +117,27 @@ repos:
       - "rust"
       - "security"
       - "threat-intelligence"
-    stars_fact: 12
+    stars_fact: 11
     first_seen: null
     last_push: "2026-09-04"
+  - name: "defect-hunting-pipeline"
+    title: "defect-hunting-pipeline"
+    description: "A defect-hunting pipeline: proves each defect with a reproduction that fails before the patch and passes after, then opens the fix upstream under the receiving project's rules."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "Dev-next-gen"
+    title: "Dev-next-gen"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "flux-amd-rocm"
     title: "flux-amd-rocm"
     description: "FLUX.1-dev on AMD Radeon consumer GPUs — fast, low-VRAM, and shippable. Backport patches + benchmarks for torchao + diffusers group_offload on ROCm."

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [10, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfile configurations."
+    language: "Shell"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "rippr-vst"
     title: "rippr-vst"
     description: "VST3 instrument for acquiring, previewing, and dragging DAW-ready samples without leaving your session."
@@ -125,14 +133,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2021-02-11"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfile configurations."
-    language: "Shell"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-05-15"
 ---
 
 # iheanyi

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 3, 0, 9, 5, 6, 6, 2, 5, 2, 0, 0]
+pushes_per_week: [1, 2, 2, 4, 5, 6, 6, 6, 2, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,12 +77,20 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "caicaiis.cc-releases"
+    title: "caicaiis.cc-releases"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-25"
   - name: "CAICAIIs"
     title: "CAICAIIs"
     description: null
     language: null
     topics: []
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
     last_push: "2026-10-31"
   - name: "rag-ingestion-gateway"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-03-06"
-  - name: "caicaiis.cc-releases"
-    title: "caicaiis.cc-releases"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-25"
   - name: "25-HOMEWORK-1-FE"
     title: "25-HOMEWORK-1-FE"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [10, 3, 1, 0, 4, 5, 15, 7, 0, 0, 2, 0, 0]
+pushes_per_week: [13, 1, 0, 1, 4, 6, 20, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gptlang"
+    title: "gptlang"
+    description: "A new programming language implemented by GPT-4."
+    language: "Python"
+    topics: []
+    stars_fact: 345
+    first_seen: null
+    last_push: "2023-03-15"
   - name: "programmer-soft-skills"
     title: "programmer-soft-skills"
     description: "程序员的软技能"
@@ -97,14 +105,6 @@ repos:
     stars_fact: 23
     first_seen: null
     last_push: "2021-12-20"
-  - name: "gptlang"
-    title: "gptlang"
-    description: "A new programming language implemented by GPT-4."
-    language: "Python"
-    topics: []
-    stars_fact: 346
-    first_seen: null
-    last_push: "2023-03-15"
   - name: "practical-python-programming-cn"
     title: "practical-python-programming-cn"
     description: "翻译 Practical Python Programming https://dabeaz-course.github.io/practical-python/"

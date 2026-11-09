@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 0, 0, 1, 8, 10, 8, 4, 8, 2, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 1, 18, 1, 8, 6, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.5000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,82 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wcqqq1214"
-    title: "wcqqq1214"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "astrbot_plugin_openai_oauth"
-    title: "astrbot_plugin_openai_oauth"
-    description: "用 ChatGPT 订阅聊天的 AstrBot 插件，无需 API Key。 | An AstrBot plugin for chatting with your ChatGPT subscription—no API key needed."
-    language: "Python"
-    topics:
-      - "astrbot"
-      - "astrbot-plugin"
-      - "chatgpt"
-      - "codex"
-      - "oauth"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "gxu-campus-3d"
-    title: "gxu-campus-3d"
-    description: "广西大学三维校园地图 An interactive 3D campus map of Guangxi University."
-    language: "Python"
-    topics:
-      - "3d-campus"
-      - "blender"
-      - "guangxi-university"
-      - "gxu"
-      - "openstreetmap"
-      - "threejs"
-      - "virtual-tour"
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "ragdoll-progress"
-    title: "ragdoll-progress"
-    description: "Fanqie the ragdoll on your video progress bar. A Chrome extension for YouTube, Bilibili, Douyin, and TikTok."
-    language: "JavaScript"
-    topics:
-      - "bilibili"
-      - "chrome-extension"
-      - "douyin"
-      - "progress-bar"
-      - "ragdoll-cat"
-      - "tiktok"
-      - "youtube"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "codex-dot-send-motion"
-    title: "codex-dot-send-motion"
-    description: "Reusable React message-send animation inspired by Codex Dot."
-    language: "TypeScript"
-    topics:
-      - "animation"
-      - "chat-ui"
-      - "react"
-      - "web-animations-api"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "abceed-ai-translator"
-    title: "abceed-ai-translator"
-    description: "为 abceed 提供 AI 日文翻译、英文查词与发音、听力快捷键。"
-    language: "JavaScript"
-    topics:
-      - "abceed"
-      - "ai-translation"
-      - "tampermonkey"
-      - "toeic"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
+repos: []
 ---
 
 # wcqqq1214

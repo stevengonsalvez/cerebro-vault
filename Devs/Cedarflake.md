@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 1, 0, 0, 2, 1, 8, 0, 1, 12, 12, 6, 0]
+pushes_per_week: [5, 1, 0, 1, 1, 2, 7, 0, 2, 15, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 3
-    active_days: 10
+    pushes: 30
+    distinct_repos: 2
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 3
-    active_days: 23
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1739
-  repo_per_active_day: 0.1304
+  push_per_day: 2.2857
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,58 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
-    distinct_repos: 3
-    pushes_per_repo: 10.3333
-    active_days: 10
+    pushes: 30
+    distinct_repos: 2
+    pushes_per_repo: 15.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 3
-    pushes_per_repo: 16.6667
-    active_days: 23
+    pushes_per_repo: 16.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Cedarflake-Lab"
-    title: "Cedarflake-Lab"
-    description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
-    language: "TypeScript"
-    topics:
-      - "monorepo"
-      - "python"
-      - "tools"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "Cedarflake-Nami"
-    title: "Cedarflake-Nami"
-    description: "Personal edge redirect playground with a database-backed control plane, WebUI, optional analytics, and compile-time adapters for Cloudflare, Vercel, and Netlify."
-    language: "TypeScript"
-    topics:
-      - "analytics"
-      - "cloudflare-workers"
-      - "edge-computing"
-      - "gitops"
-      - "netlify"
-      - "nextjs"
-      - "personal-project"
-      - "redirects"
-      - "typescript"
-      - "url-shortener"
-      - "vercel"
-      - "webui"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "Cedarflake-Ame"
     title: "Cedarflake-Ame"
     description: "A local-first Windows app for browsing large image collections and finding exact duplicates."
@@ -121,9 +89,29 @@ repos:
       - "photo-management"
       - "rust"
       - "windows"
-    stars_fact: 13
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "Cedarflake-Lab"
+    title: "Cedarflake-Lab"
+    description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
+    language: "TypeScript"
+    topics:
+      - "monorepo"
+      - "python"
+      - "tools"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "Cedarflake"
+    title: "Cedarflake"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "InFalsusTouch"
     title: "InFalsusTouch"
     description: "把 Android 手机或平板变成 In Falsus 触控手台：通过 USB 连接电脑，在手机上看谱、滑动 Field、点按或长按六键，支持多设备分工合作游玩。"
@@ -148,18 +136,30 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
-  - name: "Cedarflake"
-    title: "Cedarflake"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
+  - name: "Cedarflake-Nami"
+    title: "Cedarflake-Nami"
+    description: "Personal edge redirect playground with a database-backed control plane, WebUI, optional analytics, and compile-time adapters for Cloudflare, Vercel, and Netlify."
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "cloudflare-workers"
+      - "edge-computing"
+      - "gitops"
+      - "netlify"
+      - "nextjs"
+      - "personal-project"
+      - "redirects"
+      - "typescript"
+      - "url-shortener"
+      - "vercel"
+      - "webui"
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-10-31"
 ---
 
 # Cedarflake
 
-50 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+48 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

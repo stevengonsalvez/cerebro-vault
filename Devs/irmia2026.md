@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,17 @@ repos:
     description: "IRMIA — Individual Resident Mind & Identity Agent: a resident, local-first agent with its own identity, memory and capability boundary."
     language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-08"
+  - name: "deskhand-mcp"
+    title: "deskhand-mcp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "astrbot_plugin_deskhand"
     title: "astrbot_plugin_deskhand"
     description: null
@@ -93,14 +101,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-16"
-  - name: "deskhand-mcp"
-    title: "deskhand-mcp"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "irmia-onebot11-mcp"
     title: "irmia-onebot11-mcp"
     description: "适配 I.R.M.I.A 框架的 OneBot 协议功能补充 MCP —— 目前仅适配 SnowLuma"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-06"
   - name: "irmia_devkit_open"
     title: "irmia_devkit_open"
     description: null

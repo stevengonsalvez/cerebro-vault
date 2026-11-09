@@ -8,11 +8,11 @@ provenance_repos:
   - "ghostty-org/ghostty"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "03dc7a9cfb878de8"
-pushes_per_week: [5, 3, 0, 0, 1, 0, 3, 2, 1, 4, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 1, 0, 0, 4, 2, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "go-grpc-net-conn"
-    title: "go-grpc-net-conn"
-    description: "Turn any gRPC stream into a Go `net.Conn` implementation."
-    language: "Go"
-    topics: []
-    stars_fact: 88
-    first_seen: null
-    last_push: "2023-03-08"
-  - name: "vouch"
-    title: "vouch"
-    description: "A community trust management system based on explicit vouches to participate."
-    language: "Nushell"
-    topics: []
-    stars_fact: 5152
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "zig-overlay"
-    title: "zig-overlay"
-    description: "Nix flake for the Zig compiler."
-    language: "Nix"
-    topics: []
-    stars_fact: 560
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "nixos-config"
-    title: "nixos-config"
-    description: "My NixOS configurations."
-    language: "Nix"
-    topics: []
-    stars_fact: 3117
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "libxev"
-    title: "libxev"
-    description: "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API."
-    language: "Zig"
-    topics:
-      - "async"
-      - "c"
-      - "epoll"
-      - "io-uring"
-      - "kqueue"
-      - "wasi"
-      - "webassembly"
-      - "zig"
-    stars_fact: 3601
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "vim-misc"
-    title: "vim-misc"
-    description: "My Vim configuration files."
-    language: "Vim Script"
-    topics: []
-    stars_fact: 135
-    first_seen: null
-    last_push: "2025-04-13"
+repos: []
 ---
 
 # mitchellh

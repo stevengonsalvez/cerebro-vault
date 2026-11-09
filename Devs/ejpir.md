@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 0, 2, 0, 0, 2, 5, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 2, 0, 0, 4, 3, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "uponor-virtual-thermostat"
+    title: "uponor-virtual-thermostat"
+    description: "uponor-virtual-thermostat"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "pig"
+    title: "pig"
+    description: "Pi Gui"
+    language: "Rust"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "CVE-2025-55182-research"
+    title: "CVE-2025-55182-research"
+    description: "CVE-2025-55182 POC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 789
+    first_seen: null
+    last_push: "2025-12-08"
   - name: "gantry"
     title: "gantry"
     description: "lightweight VMs in Go"
@@ -85,22 +109,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-27"
-  - name: "pig"
-    title: "pig"
-    description: "Pi Gui"
-    language: "Rust"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "CVE-2025-55182-research"
-    title: "CVE-2025-55182-research"
-    description: "CVE-2025-55182 POC"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 790
-    first_seen: null
-    last_push: "2025-12-08"
   - name: "php8-uaf-poc"
     title: "php8-uaf-poc"
     description: "php8-uaf-poc"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-04-17"
-  - name: "pi-envoy-route-cluster-upsert"
-    title: "pi-envoy-route-cluster-upsert"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-18"
 ---
 
 # ejpir

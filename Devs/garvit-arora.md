@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 2, 3, 3, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 1, 2, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,33 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-07"
+  - name: "spatial-ql"
+    title: "spatial-ql"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "whif-ide"
+    title: "whif-ide"
+    description: "WHIF IDE is an automated IDE powered by Wisper Flow voice dictate."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "garvit-arora"
+    title: "garvit-arora"
+    description: "Config files for my GitHub profile."
+    language: "Python"
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "qr-generator"
     title: "qr-generator"
     description: null
@@ -101,30 +127,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-11"
-  - name: "Portfolio-Main"
-    title: "Portfolio-Main"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "agentmaxxing"
-    title: "agentmaxxing"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "sovereign-frontend"
-    title: "sovereign-frontend"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
 ---
 
 # garvit-arora

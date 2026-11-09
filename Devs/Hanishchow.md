@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 1, 1, 0, 2, 5, 0, 1, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 6, 1, 1, 0, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,15 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "Dex"
-    title: "Dex"
-    description: "Dex: a gothic, monochrome desktop build of Mornye (LGPL-3.0). Based on Mornye by zarzet and contributors."
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "boom"
     title: "boom"
     description: "Celure AI skin-analysis app - Base44 entity schemas for skin profiles, routines, procedures and clinic referrals"
@@ -103,7 +95,7 @@ repos:
       - "skincare"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-07"
   - name: "cityshield-v2"
     title: "cityshield-v2"
     description: null
@@ -111,7 +103,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-04"
+  - name: "Mika"
+    title: "Mika"
+    description: "Queue work to an always-on Hermes/opencode pair over SSH, with the right agent picked automatically per task."
+    language: "Shell"
+    topics:
+      - "agent-orchestration"
+      - "claude-code"
+      - "hermes-agent"
+      - "llm-agents"
+      - "opencode"
+      - "self-hosted"
+      - "ssh"
+      - "task-queue"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Dex"
+    title: "Dex"
+    description: "Dex: a gothic, monochrome desktop build of Mornye (LGPL-3.0). Based on Mornye by zarzet and contributors."
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "cityshield"
     title: "cityshield"
     description: "One emergency incident record that every responding agency in Bengaluru attaches to. React PWA + Fastify API. Prototype."
@@ -120,14 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "Hanishchow"
-    title: "Hanishchow"
-    description: "Profile README for Hanish Chowdary N"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # Hanishchow

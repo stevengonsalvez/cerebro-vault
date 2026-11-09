@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "softmatter"
+    title: "softmatter"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ambershen"
+    title: "ambershen"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "natural-effect"
     title: "natural-effect"
     description: "Agent skills for interactive natural materials: water, ice, fog, sand, and snow"
@@ -98,14 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "softmatter"
-    title: "softmatter"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "sound-dictionaries"
     title: "sound-dictionaries"
     description: null
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "talking-dictionary"
-    title: "talking-dictionary"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
 ---
 
 # ambershen

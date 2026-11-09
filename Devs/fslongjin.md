@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [5, 1, 4, 3, 2, 3, 6, 5, 4, 6, 12, 0, 0]
+pushes_per_week: [4, 1, 6, 0, 2, 7, 3, 4, 8, 4, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    active_days: 10
-    repos_not_owned: 4
+    pushes: 18
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 8
-    active_days: 30
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.2667
+  push_per_day: 1.6897
+  repo_per_active_day: 0.2759
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 10
-    repos_not_owned: 4
+    pushes: 18
+    distinct_repos: 5
+    pushes_per_repo: 3.6000
+    active_days: 8
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 4
+    not_owned_owners: 3
   "90d":
-    pushes: 51
+    pushes: 49
     distinct_repos: 8
-    pushes_per_repo: 6.3750
-    active_days: 30
+    pushes_per_repo: 6.1250
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "This-repo-has-1426-stars"
@@ -84,7 +84,7 @@ repos:
     description: "这个仓库有1426个star，不信你试试"
     language: "Python"
     topics: []
-    stars_fact: 1417
+    stars_fact: 1414
     first_seen: null
     last_push: "2022-09-13"
   - name: "My-Easy-Pic-Bed"
@@ -131,6 +131,6 @@ repos:
 
 # fslongjin
 
-51 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
+49 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fslongjin

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "1f49d0119cedbc84"
   - "ef17663e884139a8"
-pushes_per_week: [2, 2, 1, 0, 0, 1, 0, 3, 0, 0, 3, 4, 1]
+pushes_per_week: [3, 0, 1, 0, 0, 1, 0, 3, 0, 0, 7, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 9
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3077
-  repo_per_active_day: 0.6923
+  push_per_day: 1.3333
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -69,18 +69,53 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 9
-    pushes_per_repo: 1.8889
-    active_days: 13
+    pushes_per_repo: 1.7778
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pypi-supply-scan"
+    title: "pypi-supply-scan"
+    description: "Catch install-time PyPI malware before pip install runs it. Zero-dep setup.py scanner + typosquat hunter, six signatures with a documented false-positive taxonomy, calibrated over a 259-package scan."
+    language: "Python"
+    topics:
+      - "devsecops"
+      - "malware-detection"
+      - "pypi"
+      - "python"
+      - "security"
+      - "static-analysis"
+      - "supply-chain"
+      - "typosquatting"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-02"
+  - name: "solpulse"
+    title: "solpulse"
+    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "translations"
+    title: "translations"
+    description: "Repository of records of translation."
+    language: "Python"
+    topics:
+      - "list"
+      - "record"
+      - "translation"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "free-lunch-lab"
     title: "free-lunch-lab"
     description: "There is such a thing as a free lunch. An open, sourced list of apps that pay you basic income, plus a graveyard of the ones that died. 7 languages."
@@ -101,9 +136,9 @@ repos:
       - "static-site"
       - "ubi"
       - "universal-basic-income"
-    stars_fact: 2
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "awesome-AI-driven-development"
     title: "awesome-AI-driven-development"
     description: "Awesome list of AI-Driven Development."
@@ -123,56 +158,9 @@ repos:
       - "spec-driven-development"
       - "vibe-coding"
       - "vibecoding"
-    stars_fact: 571
+    stars_fact: 574
     first_seen: null
-    last_push: "2026-10-12"
-  - name: "solpulse"
-    title: "solpulse"
-    description: "SolPulse — auto-updating Solana ecosystem dashboard (network, validators, TVL, economics, anomalies). No API keys."
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "translations"
-    title: "translations"
-    description: "Repository of records of translation."
-    language: "Python"
-    topics:
-      - "list"
-      - "record"
-      - "translation"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "awesome-molt-ecosystem"
-    title: "awesome-molt-ecosystem"
-    description: "The brutally honest map of where AI-agent money actually flows. Every number measured, dated, and re-checked — including the ones that turned out to be wrong. Lifetime external income: $2.40. 1 of 18 awesome-list submissions ever merged."
-    language: "Dockerfile"
-    topics:
-      - "agent-economy"
-      - "ai-agent"
-      - "ai-agents"
-      - "aiagent"
-      - "awesome"
-      - "awesome-list"
-      - "bug-bounty"
-      - "ecosystem"
-      - "marketplace"
-      - "mcp"
-      - "moltbook"
-      - "moltbot"
-      - "molty"
-      - "openclaw"
-      - "polar-sh"
-      - "skill-audit-mcp"
-      - "story-protocol"
-      - "usdc"
-      - "web3"
-      - "x402"
-    stars_fact: 66
-    first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-09"
   - name: "eltociear"
     title: "eltociear"
     description: "introduction"
@@ -180,11 +168,11 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-07"
 ---
 
 # eltociear
 
-17 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 9 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eltociear

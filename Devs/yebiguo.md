@@ -8,11 +8,11 @@ provenance_repos:
   - "yebiguo/ProofRun"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "e9354947ee51a8e9"
-pushes_per_week: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,32 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "ProofRun"
-    title: "ProofRun"
-    description: "A local verification receipt for AI coding agents"
-    language: "Go"
-    topics:
-      - "ai-coding"
-      - "cli"
-      - "coding-agents"
-      - "developer-tools"
-      - "github-actions"
-      - "golang"
-      - "verification"
-    stars_fact: 15
-    first_seen: "2026-08-16T06:00:11.578127+00:00"
-    last_push: "2026-08-30"
-  - name: "yebiguo"
-    title: "yebiguo"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-15"
+repos: []
 ---
 
 # yebiguo

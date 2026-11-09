@@ -8,11 +8,11 @@ provenance_repos:
   - "Orkas-AI/Orkas"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c876a536f70a15e7"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,107 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "Orkas"
-    title: "Orkas"
-    description: "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys."
-    language: "JavaScript"
-    topics:
-      - "agent-collaboration"
-      - "agent-harness"
-      - "agent-orchestration"
-      - "agent-team"
-      - "agent-workflow"
-      - "ai-assistant"
-      - "ai-automation"
-      - "ai-employee"
-      - "ai-productivity"
-      - "ai-team"
-      - "ai-workflow"
-      - "autonomous-agents"
-      - "claude-code-gui"
-      - "claude-cowork"
-      - "desktop-agent"
-      - "local-first"
-      - "multi-agent"
-      - "multi-agent-system"
-      - "self-evolving-agents"
-      - "task-automation"
-    stars_fact: 6907
-    first_seen: "2026-11-01T07:00:37.933063+00:00"
-    last_push: "2026-11-01"
-  - name: "Orkas-Awesome-AgentSkills"
-    title: "Orkas-Awesome-AgentSkills"
-    description: "Curated Orkas agents and skills for education, product development, content creation, data analysis, office automation, and e-commerce workflows."
-    language: "Python"
-    topics:
-      - "agent-framework"
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-tools"
-      - "automation"
-      - "awesome-list"
-      - "content-creation"
-      - "data-analysis"
-      - "ecommerce"
-      - "education"
-      - "generative-ai"
-      - "llm-agents"
-      - "office-automation"
-      - "open-source"
-      - "orkas"
-      - "product-management"
-      - "prompt-engineering"
-      - "prompt-library"
-      - "software-development"
-      - "workflow-automation"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-07-08"
-  - name: "Orkas-VideoStudio"
-    title: "Orkas-VideoStudio"
-    description: "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "ai-video"
-      - "cli"
-      - "coding-agents"
-      - "ffmpeg"
-      - "generative-ai"
-      - "hyperframes"
-      - "local-first"
-      - "mcp-server"
-      - "motion-graphics"
-      - "open-source"
-      - "subtitles"
-      - "text-to-video"
-      - "tts"
-      - "typescript"
-      - "video-automation"
-      - "video-composition"
-      - "video-editing"
-      - "video-generation"
-      - "whisper-cpp"
-    stars_fact: 336
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "Orkas-Docs"
-    title: "Orkas-Docs"
-    description: "Official Orkas guides for AI agents, multi-agent workflows, use cases, and practical automation playbooks."
-    language: null
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "Orkas-AI"
-    title: "Orkas-AI"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-29"
+repos: []
 ---
 
 # Orkas-AI

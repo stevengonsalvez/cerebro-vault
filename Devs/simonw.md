@@ -23,7 +23,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "0eec722f11509f67"
@@ -45,7 +45,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [21, 2, 0, 0, 2, 12, 3, 3, 5, 10, 3, 1, 0]
+pushes_per_week: [18, 2, 0, 0, 5, 10, 2, 4, 10, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -55,25 +55,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 13
-    active_days: 8
+    pushes: 14
+    distinct_repos: 11
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 28
-    active_days: 28
+    pushes: 59
+    distinct_repos: 26
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2143
+  push_per_day: 2.2692
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.0714
+  not_owned_ratio: 0.1538
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -90,26 +90,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 13
-    pushes_per_repo: 1.3077
-    active_days: 8
+    pushes: 14
+    distinct_repos: 11
+    pushes_per_repo: 1.2727
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
-    distinct_repos: 28
-    pushes_per_repo: 2.2143
-    active_days: 28
+    pushes: 59
+    distinct_repos: 26
+    pushes_per_repo: 2.2692
+    active_days: 26
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 20 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scrape-florida-outages"
+    title: "scrape-florida-outages"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "scrape-fema-shelters"
     title: "scrape-fema-shelters"
     description: null
@@ -118,54 +126,45 @@ repos:
       - "git-scraping"
     stars_fact: 16
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "scrape-florida-outages"
-    title: "scrape-florida-outages"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "llm"
-    title: "llm"
-    description: "Access large language models from the command-line"
-    language: "Python"
-    topics:
-      - "ai"
-      - "llms"
-      - "openai"
-    stars_fact: 12689
-    first_seen: "2026-07-31T06:00:06.780986+00:00"
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "usgs-scraper"
     title: "usgs-scraper"
     description: null
     language: null
     topics: []
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "simonwillisonblog-backup"
-    title: "simonwillisonblog-backup"
-    description: "Backups of the database for simonwillison.net"
+    last_push: "2026-11-09"
+  - name: "pge-outages"
+    title: "pge-outages"
+    description: "Tracking PG&E power outages"
     language: "Python"
-    topics: []
-    stars_fact: 50
+    topics:
+      - "git-scraping"
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "ollama-models-atom-feed"
-    title: "ollama-models-atom-feed"
-    description: "https://ollama.com/search?o=newest"
-    language: "Python"
+    last_push: "2026-11-09"
+  - name: "llm-prices"
+    title: "llm-prices"
+    description: "Prices of various LLMs"
+    language: "HTML"
     topics: []
-    stars_fact: 37
+    stars_fact: 197
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "scrape-roads-dot-ca-gov"
+    title: "scrape-roads-dot-ca-gov"
+    description: "Scrape highway information from https://roads.dot.ca.gov/"
+    language: "HTML"
+    topics:
+      - "git-scraping"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # simonw
 
-62 pushes across 28 repositories on 28 active days in the last 90 days of public GitHub push activity.
+59 pushes across 26 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [6, 2, 5, 1, 1, 1, 4, 8, 0, 2, 0, 0, 0]
+pushes_per_week: [7, 4, 2, 0, 1, 5, 4, 4, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 7
-    active_days: 17
+    pushes: 29
+    distinct_repos: 6
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.4118
+  push_per_day: 1.8125
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,99 +65,76 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 7
-    pushes_per_repo: 4.2857
-    active_days: 17
+    pushes: 29
+    distinct_repos: 6
+    pushes_per_repo: 4.8333
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "xiaoheihe-cli"
+    title: "xiaoheihe-cli"
+    description: "小黑盒游戏记录、个人评分与短评、社区内容操作 CLI，支持 SDK、REST 和 MCP"
+    language: "Python"
+    topics:
+      - "cli"
+      - "games"
+      - "heybox"
+      - "mcp"
+      - "python"
+      - "xiaoheihe"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "steam-cli"
     title: "steam-cli"
     description: "Steam CLI with browser and Steam App cookie auth, reviews, achievements, prices, MCP and REST"
     language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 59
     first_seen: null
     last_push: "2026-10-31"
-  - name: "AaronZ345"
-    title: "AaronZ345"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "AaronZ345.github.io"
-    title: "AaronZ345.github.io"
-    description: "Personal academic homepage"
-    language: "JavaScript"
+  - name: "ISDramaDemo"
+    title: "ISDramaDemo"
+    description: "Demo page of ISDrama"
+    language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "Athena-personal-academic-page"
-    title: "Athena-personal-academic-page"
-    description: "A modern personal academic page framework built with React and Vite."
-    language: "JavaScript"
-    topics:
-      - "academic-portfolio"
-      - "academic-website"
-      - "github-pages"
-      - "personal-website"
-      - "react"
-      - "research"
-      - "typescript"
-      - "vite"
-    stars_fact: 211
+    last_push: "2026-11-09"
+  - name: "GTSingerDemo"
+    title: "GTSingerDemo"
+    description: "Demo page of GTSinger"
+    language: "HTML"
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "ISDrama"
-    title: "ISDrama"
-    description: "Dataset and evaluation code of ISDrama(ACM-MM 2025): Immersive Spatial Drama Generation through Multimodal Prompting"
-    language: "Python"
-    topics:
-      - "binaural-rendering"
-      - "dataset"
-      - "drama"
-      - "evaluation"
-      - "spatial-audio"
-      - "video"
-    stars_fact: 238
+    last_push: "2026-11-09"
+  - name: "VersBandDemo"
+    title: "VersBandDemo"
+    description: "Demo page of VersBand"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2025-08-20"
-  - name: "codebase-argus"
-    title: "codebase-argus"
-    description: "Multi-agent codebase review for PRs, CI, and downstream fork syncs."
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "ci"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "code-review"
-      - "codex"
-      - "developer-tools"
-      - "fork-sync"
-      - "github-actions"
-      - "github-app"
-      - "multi-agent"
-      - "openclaw"
-      - "pull-request"
-      - "skill-md"
-    stars_fact: 59
+    last_push: "2026-11-09"
+  - name: "ConanDemo"
+    title: "ConanDemo"
+    description: "Demo page of Conan"
+    language: "SCSS"
+    topics: []
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-07-24"
+    last_push: "2026-11-09"
 ---
 
 # AaronZ345
 
-30 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 6 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

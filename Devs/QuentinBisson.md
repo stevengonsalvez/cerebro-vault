@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 1, 1, 0, 1, 16, 22, 41, 25, 6, 28, 2, 2]
+pushes_per_week: [1, 1, 0, 0, 2, 17, 28, 42, 16, 10, 26, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 48
-    distinct_repos: 19
-    active_days: 11
+    pushes: 38
+    distinct_repos: 17
+    active_days: 9
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 48
-    distinct_repos: 19
-    pushes_per_repo: 2.5263
-    active_days: 11
+    pushes: 38
+    distinct_repos: 17
+    pushes_per_repo: 2.2353
+    active_days: 9
     repos_not_owned: 15
     not_owned_basenames: 15
     not_owned_owners: 3
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "grafana-orgswitch-repro"
-    title: "grafana-orgswitch-repro"
-    description: "Minimal reproduction for grafana#120942: JWT org-switch redirect bug in header-mode JWT setups (Teleport-style proxies)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-06"
-  - name: "node-label-controller"
-    title: "node-label-controller"
-    description: "Kubernetes custom controller used to label container linux containers"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2019-06-20"
-  - name: "click-count-devops"
-    title: "click-count-devops"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-05-05"
-  - name: "bank-account-kata"
-    title: "bank-account-kata"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-10-12"
-  - name: "CAeSAR"
-    title: "CAeSAR"
-    description: "Gestionnaire de ressources"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2013-05-30"
-  - name: "training-java"
-    title: "training-java"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2017-08-11"
+repos: []
 ---
 
 # QuentinBisson

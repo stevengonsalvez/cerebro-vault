@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [12, 4, 5, 0, 0, 4, 12, 0, 10, 5, 0, 0, 0]
+pushes_per_week: [10, 7, 2, 0, 1, 8, 7, 8, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 2
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 9
-    active_days: 26
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.3462
+  push_per_day: 2.0833
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 9
-    pushes_per_repo: 5.7778
-    active_days: 26
+    pushes_per_repo: 5.5556
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xcross"
@@ -93,9 +93,9 @@ repos:
       - "wsl"
       - "xcode"
       - "xtool"
-    stars_fact: 148
+    stars_fact: 156
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-07"
   - name: "xcross_gen_snapshot"
     title: "xcross_gen_snapshot"
     description: "Prebuilt iOS AOT gen_snapshot compilers for Linux and Windows hosts, used by xcross"
@@ -155,6 +155,6 @@ repos:
 
 # arxdeus
 
-52 pushes across 9 repositories on 26 active days in the last 90 days of public GitHub push activity.
+50 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arxdeus

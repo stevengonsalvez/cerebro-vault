@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 1, 3, 0, 0, 4, 2, 2, 1, 1, 3, 0, 0]
+pushes_per_week: [1, 3, 0, 0, 1, 3, 2, 3, 1, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,76 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "hishel"
-    title: "hishel"
-    description: "Elegant HTTP Caching for Python"
-    language: "Python"
-    topics:
-      - "caching"
-      - "http"
-      - "http-cache"
-      - "httpcore-cache"
-      - "httpcore-caching"
-      - "httpx-cache"
-      - "httpx-caching"
-      - "python"
-      - "web"
-      - "web-cache"
-      - "web-caching"
-    stars_fact: 417
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "uv-vscode"
-    title: "uv-vscode"
-    description: "A Visual Studio Code extension with support for the Uv package manager."
-    language: "TypeScript"
-    topics:
-      - "package-management"
-      - "uv"
-      - "vscode"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "rfcparser"
-    title: "rfcparser"
-    description: "Rfcparser is a Python tool that makes it easy to parse common RFC syntaxes. Rfcparser takes a raw string as input, parses, validates, and returns Python objects to simplify the processing of RFC syntaxes."
-    language: "Python"
-    topics:
-      - "parsing"
-      - "rfc"
-      - "validator"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2023-02-18"
-  - name: "httpx-aiohttp"
-    title: "httpx-aiohttp"
-    description: "aiohttp-powered httpx client"
-    language: "Python"
-    topics:
-      - "aiohttp"
-      - "http"
-      - "http-client"
-      - "httpx"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "ry"
-    title: "ry"
-    description: "repeat yourself more elegantly"
-    language: "Rust"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-18"
-  - name: "http-snapshot"
-    title: "http-snapshot"
-    description: "pytest plugin that snapshots requests made with popular Python HTTP clients."
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-02-24"
+repos: []
 ---
 
 # karpetrosyan

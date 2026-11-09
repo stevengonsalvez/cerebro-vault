@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 3, 0, 1, 1, 28, 8, 2, 12, 1, 1, 10, 0]
+pushes_per_week: [4, 2, 0, 1, 1, 35, 2, 1, 13, 1, 10, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 11
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 12
+    distinct_repos: 8
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 70
     distinct_repos: 24
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4545
-  repo_per_active_day: 1.0909
+  push_per_day: 3.3333
+  repo_per_active_day: 1.1429
   not_owned_ratio: 0.0417
   basename_concentration: 0.0417
   shapes: []
@@ -59,42 +59,77 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 11
-    pushes_per_repo: 1.9091
-    active_days: 5
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 76
+    pushes: 70
     distinct_repos: 24
-    pushes_per_repo: 3.1667
-    active_days: 22
+    pushes_per_repo: 2.9167
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "devhud"
-    title: "devhud"
-    description: "Local dashboard for Jira cards and GitHub PRs: Node server, Preact SPA, CLI and MCP server"
-    language: "TypeScript"
-    topics:
-      - "dashboard"
-      - "github"
-      - "jira"
-      - "mcp"
-      - "preact"
+  - name: "costajohnt"
+    title: "costajohnt"
+    description: "Profile README"
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
+  - name: "costajohnt.github.io"
+    title: "costajohnt.github.io"
+    description: "Source for jcosta.tech, my blog"
+    language: "HTML"
+    topics:
+      - "blog"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "rbcop"
+    title: "rbcop"
+    description: "RuboCop rewritten in Rust: identical output, about 14x faster in CI"
+    language: "Rust"
+    topics:
+      - "linter"
+      - "prism"
+      - "rubocop"
+      - "ruby"
+      - "rust"
+      - "static-analysis"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "fleetview"
+    title: "fleetview"
+    description: "One screen for all your background coding agents. Claude Code's agent view, ported to opencode, claude, and copilot"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai-agents"
+      - "claude-code"
+      - "copilot"
+      - "ink"
+      - "opencode"
+      - "terminal"
+      - "tui"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "oss-autopilot"
     title: "oss-autopilot"
-    description: "Claude Code plugin — AI-powered autopilot for managing open source contributions. Track PRs, respond to maintainers, discover issues, maintain velocity."
+    description: "Claude Code plugin: AI-powered autopilot for managing open source contributions. Track PRs, respond to maintainers, discover issues, maintain velocity."
     language: "TypeScript"
     topics:
       - "ai-agent"
@@ -107,82 +142,32 @@ repos:
       - "github"
       - "github-automation"
       - "issue-discovery"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
       - "open-source"
       - "pr-management"
       - "typescript"
-    stars_fact: 25
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "ink-scrollable-box"
-    title: "ink-scrollable-box"
-    description: "Scrollable container component for Ink with keyboard navigation, vim bindings, and auto-follow"
+    last_push: "2026-11-08"
+  - name: "mermaid-to-pdf-vscode"
+    title: "mermaid-to-pdf-vscode"
+    description: "CLI and MCP tool to convert Markdown files with Mermaid diagrams to PDF"
     language: "TypeScript"
     topics:
       - "cli"
-      - "ink"
-      - "react"
-      - "scroll"
-      - "terminal"
-      - "tui"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "ink-file-picker"
-    title: "ink-file-picker"
-    description: "Filesystem navigation and file selection component for Ink (React for CLI)"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "file-picker"
-      - "filesystem"
-      - "ink"
-      - "nodejs"
-      - "react"
-      - "terminal"
-      - "tui"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "ink-tree-view"
-    title: "ink-tree-view"
-    description: "Tree view component for Ink with expand/collapse, keyboard navigation, and selection"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "ink"
-      - "nodejs"
-      - "react"
-      - "terminal"
-      - "tree"
-      - "treeview"
-      - "tui"
-      - "typescript"
+      - "markdown"
+      - "mcp"
+      - "mermaid"
+      - "pdf"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "ink-json-viewer"
-    title: "ink-json-viewer"
-    description: "Interactive, collapsible JSON tree viewer for Ink (React for CLI)"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "ink"
-      - "json"
-      - "nodejs"
-      - "react"
-      - "terminal"
-      - "tree"
-      - "tui"
-      - "typescript"
-      - "viewer"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-08"
 ---
 
 # costajohnt
 
-76 pushes across 24 repositories on 22 active days in the last 90 days of public GitHub push activity.
+70 pushes across 24 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

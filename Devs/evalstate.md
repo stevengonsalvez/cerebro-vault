@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 1, 4, 1, 0, 2, 5, 6, 4, 7, 0, 0, 0]
+pushes_per_week: [4, 0, 5, 0, 0, 3, 7, 3, 9, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 2
-    active_days: 6
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 5.5000
-    active_days: 6
+    pushes_per_repo: 3.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp-hfspace"
-    title: "mcp-hfspace"
-    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 389
-    first_seen: null
-    last_push: "2025-06-13"
   - name: "fast-agent"
     title: "fast-agent"
     description: "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support"
@@ -102,9 +94,25 @@ repos:
       - "python"
       - "skills"
       - "tui"
-    stars_fact: 3954
+    stars_fact: 3962
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "miscellany"
+    title: "miscellany"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "mcp-hfspace"
+    title: "mcp-hfspace"
+    description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 388
+    first_seen: null
+    last_push: "2025-06-13"
   - name: "mcp-webcam"
     title: "mcp-webcam"
     description: "Capture live images from your webcam with a tool or resource request"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 113
     first_seen: null
     last_push: "2024-12-23"
-  - name: "miscellany"
-    title: "miscellany"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "fast-agent-docs"
     title: "fast-agent-docs"
     description: "Documentation site for fast-agent"

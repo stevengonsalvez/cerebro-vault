@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [44, 6, 9, 0, 0, 0, 7, 4, 0, 1, 1, 1, 0]
+pushes_per_week: [10, 14, 1, 0, 0, 1, 10, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 13
-    active_days: 18
+    pushes: 39
+    distinct_repos: 12
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 3
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.0556
-  repo_per_active_day: 0.7222
-  not_owned_ratio: 0.6923
-  basename_concentration: 0.6154
+  push_per_day: 2.4375
+  repo_per_active_day: 0.7500
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.6667
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.6154 (8 of 13 repos share one basename), 9 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.6667 (8 of 12 repos share one basename), 9 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -82,41 +82,18 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 13
-    pushes_per_repo: 5.6154
-    active_days: 18
+    pushes: 39
+    distinct_repos: 12
+    pushes_per_repo: 3.2500
+    active_days: 16
     repos_not_owned: 9
     not_owned_basenames: 3
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Kaze"
-    title: "Kaze"
-    description: "A calm, quick browser for macOS, with an agent that works in your tabs."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 143
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "OpenCLI"
-    title: "OpenCLI"
-    description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
-    language: "JavaScript"
-    topics:
-      - "ai-agent"
-      - "ai-agents"
-      - "ai-tools"
-      - "browser-automation"
-      - "browser-use"
-      - "cli"
-      - "playwright"
-    stars_fact: 30824
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "DSH-Android"
     title: "DSH-Android"
     description: "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku"
@@ -129,37 +106,60 @@ repos:
       - "llm"
       - "phone-agent"
       - "shizuku"
-    stars_fact: 723
+    stars_fact: 897
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "xiaohongshu-cli"
-    title: "xiaohongshu-cli"
-    description: "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API"
+    last_push: "2026-11-06"
+  - name: "tg-cli"
+    title: "tg-cli"
+    description: "A CLI for Telegram — local-first sync, search, export via MTProto"
     language: "Python"
     topics: []
-    stars_fact: 2714
+    stars_fact: 297
     first_seen: null
-    last_push: "2026-03-21"
+    last_push: "2026-03-15"
+  - name: "Kaze"
+    title: "Kaze"
+    description: "A calm, quick browser for macOS, with an agent that works in your tabs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 185
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "OpenCLI"
+    title: "OpenCLI"
+    description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "ai-agents"
+      - "ai-tools"
+      - "browser-automation"
+      - "browser-use"
+      - "cli"
+      - "playwright"
+    stars_fact: 30986
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "wx-cli-again"
     title: "wx-cli-again"
     description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
     language: "Rust"
     topics: []
-    stars_fact: 891
+    stars_fact: 909
     first_seen: null
     last_push: "2026-09-14"
-  - name: "wechat-article-to-markdown"
-    title: "wechat-article-to-markdown"
-    description: "微信公众号文章抓取 & Markdown 转换工具"
-    language: "Python"
+  - name: "BrowserMCP"
+    title: "BrowserMCP"
+    description: "Connect MCP agents to your logged-in Chrome. Persistent JavaScript workspace, browser automation, and reusable site adapters."
+    language: "TypeScript"
     topics: []
-    stars_fact: 1082
+    stars_fact: 142
     first_seen: null
-    last_push: "2026-03-22"
+    last_push: "2026-11-09"
 ---
 
 # jackwener
 
-73 pushes across 13 repositories on 18 active days in the last 90 days of public GitHub push activity.
+39 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

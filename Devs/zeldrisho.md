@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [6, 2, 11, 0, 1, 8, 6, 10, 3, 3, 4, 0, 0]
+pushes_per_week: [5, 11, 0, 1, 4, 5, 11, 7, 2, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 17
-    active_days: 28
+    pushes: 51
+    distinct_repos: 15
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9286
-  repo_per_active_day: 0.6071
+  push_per_day: 1.8889
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0588
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,62 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
-    distinct_repos: 17
-    pushes_per_repo: 3.1765
-    active_days: 28
+    pushes: 51
+    distinct_repos: 15
+    pushes_per_repo: 3.4000
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Yet another Scoop bucket"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "morphe-patches"
-    title: "morphe-patches"
-    description: "Yet another Morphe Patches"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "pi-packages"
-    title: "pi-packages"
-    description: "Yet another Pi packages"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "UnityVietnameseFontSync"
-    title: "UnityVietnameseFontSync"
-    description: "BepInEx 5 plugin for Vietnamese glyph fallback and targeted TextMeshPro font replacement in Unity Mono games."
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "fedora-copr"
-    title: "fedora-copr"
-    description: "Yet another Fedora COPR"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
+repos: []
 ---
 
 # zeldrisho
 
-54 pushes across 17 repositories on 28 active days in the last 90 days of public GitHub push activity.
+51 pushes across 15 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeldrisho

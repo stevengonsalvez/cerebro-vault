@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 3, 3, 20, 31, 58, 5]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 3, 5, 21, 86, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 117
+    pushes: 114
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 117
+    pushes: 114
     distinct_repos: 3
-    pushes_per_repo: 39.0000
-    active_days: 14
+    pushes_per_repo: 38.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,59 +77,9 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "AndreKurait"
-    title: "AndreKurait"
-    description: "Search infrastructure, distributed systems, and developer tooling — Andre Kurait"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "claude-marketplace-test"
-    title: "claude-marketplace-test"
-    description: "Test marketplace for aws-databases plugin (symlinked skills)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "opensearch-migrations-demo"
-    title: "opensearch-migrations-demo"
-    description: "Interactive Ratatui TUI that provisions a test environment for the OpenSearch Migration Assistant, then launches it"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
-  - name: "action-gh-release-repro"
-    title: "action-gh-release-repro"
-    description: "Reproducer for softprops/action-gh-release v3 untagged-... asset URL bug"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-04"
-  - name: "snap-version"
-    title: "snap-version"
-    description: "Edit the recorded version inside an OpenSearch / Elasticsearch S3 snapshot so a lower-version cluster can restore it. Decodes Smile + Lucene CodecUtil framing, rewrites version_id, recomputes CRC32."
-    language: "Java"
-    topics:
-      - "backup-restore"
-      - "cli"
-      - "devtools"
-      - "elasticsearch"
-      - "jackson"
-      - "opensearch"
-      - "s3"
-      - "smile"
-      - "snapshot"
-      - "version-downgrade"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-21"
   - name: "acp-traces"
     title: "acp-traces"
-    description: "Add OpenTelemetry tracing to any ACP agent with zero code changes. OTel GenAI semconv-compliant proxy for Agent Client Protocol."
+    description: "Proof of concept: a Rust proxy adding OpenTelemetry traces and metrics to Agent Client Protocol traffic."
     language: "Rust"
     topics:
       - "acp"
@@ -137,12 +87,71 @@ repos:
       - "observability"
       - "opentelemetry"
       - "otlp"
+      - "proof-of-concept"
       - "rust"
       - "tracing"
-      - "zed"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-05-01"
+    last_push: "2026-11-02"
+  - name: "AndreKurait"
+    title: "AndreKurait"
+    description: "AWS emulation, distributed systems, and developer tooling — Andre Kurait"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for acp-traces"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "snap-version"
+    title: "snap-version"
+    description: "Inspect and rewrite OpenSearch/Elasticsearch snapshot version metadata in local or S3 repositories. Metadata changes do not establish restore compatibility."
+    language: "Java"
+    topics:
+      - "cli"
+      - "elasticsearch"
+      - "java"
+      - "opensearch"
+      - "s3"
+      - "smile"
+      - "snapshot"
+      - "snapshot-metadata"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "opensearch-migrations-demo"
+    title: "opensearch-migrations-demo"
+    description: "Rust CLI/TUI for provisioning local and AWS test environments for OpenSearch Migration Assistant."
+    language: "Rust"
+    topics:
+      - "demo"
+      - "kubernetes"
+      - "migration"
+      - "opensearch"
+      - "ratatui"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "jira-mcp-skill"
+    title: "jira-mcp-skill"
+    description: "CLI for configuring Jira/Confluence MCP clients with optional project context."
+    language: "JavaScript"
+    topics:
+      - "cli"
+      - "confluence"
+      - "jira"
+      - "mcp"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # AndreKurait

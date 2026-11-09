@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 2, 9, 0, 0, 5, 3, 5, 2, 2, 2, 0, 0]
+pushes_per_week: [8, 10, 1, 0, 1, 7, 2, 3, 3, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 6
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0526
-  repo_per_active_day: 0.3158
+  push_per_day: 2.1111
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -57,26 +57,38 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 6
-    pushes_per_repo: 6.5000
-    active_days: 19
+    pushes_per_repo: 6.3333
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "build-an-efficient-pwn-environment"
+    title: "build-an-efficient-pwn-environment"
+    description: "How to build an efficient pwn development environment in 2020"
+    language: "Shell"
+    topics:
+      - "ctf"
+      - "gdb"
+      - "pwn"
+      - "pwntools"
+    stars_fact: 268
+    first_seen: null
+    last_push: "2021-01-21"
   - name: "nur-packages"
     title: "nur-packages"
     description: null
@@ -84,7 +96,21 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-07"
+  - name: "gdbserver"
+    title: "gdbserver"
+    description: "A tiny debugger implement the GDB Remote Serial Protocol. Can work on i386, x86_64, ARM and PowerPC."
+    language: "C"
+    topics:
+      - "arm"
+      - "debugger"
+      - "gdb"
+      - "gdbserver"
+      - "powerpc"
+      - "x86"
+    stars_fact: 184
+    first_seen: null
+    last_push: "2026-02-23"
   - name: "hyperpwn"
     title: "hyperpwn"
     description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
@@ -125,18 +151,6 @@ repos:
     stars_fact: 436
     first_seen: null
     last_push: "2026-07-27"
-  - name: "build-an-efficient-pwn-environment"
-    title: "build-an-efficient-pwn-environment"
-    description: "How to build an efficient pwn development environment in 2020"
-    language: "Shell"
-    topics:
-      - "ctf"
-      - "gdb"
-      - "pwn"
-      - "pwntools"
-    stars_fact: 269
-    first_seen: null
-    last_push: "2021-01-21"
   - name: "wemeet-flatpak"
     title: "wemeet-flatpak"
     description: "Flatpak packaging and repository for Tencent Meeting (wemeet)"
@@ -145,24 +159,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-25"
-  - name: "gdbserver"
-    title: "gdbserver"
-    description: "A tiny debugger implement the GDB Remote Serial Protocol. Can work on i386, x86_64, ARM and PowerPC."
-    language: "C"
-    topics:
-      - "arm"
-      - "debugger"
-      - "gdb"
-      - "gdbserver"
-      - "powerpc"
-      - "x86"
-    stars_fact: 185
-    first_seen: null
-    last_push: "2026-02-23"
 ---
 
 # bet4it
 
-39 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+38 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bet4it

@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 4, 2, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 6, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,95 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "givenergy-simulator"
-    title: "givenergy-simulator"
-    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "home-energy-manager"
-    title: "home-energy-manager"
-    description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
-    language: "Rust"
-    topics:
-      - "battery"
-      - "energy-monitoring"
-      - "givenergy"
-      - "home-automation"
-      - "inverter"
-      - "modbus"
-      - "solar"
-      - "tauri"
-    stars_fact: 36
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "milsymbol-sidc"
-    title: "milsymbol-sidc"
-    description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
-    language: "TypeScript"
-    topics:
-      - "app-6"
-      - "app6"
-      - "builder"
-      - "c2"
-      - "fluent-api"
-      - "joint-military-symbology"
-      - "mil-std-2525"
-      - "military"
-      - "military-symbology"
-      - "milstd2525e"
-      - "milsymbol"
-      - "nato"
-      - "sidc"
-      - "symbol-identification-code"
-      - "symbology"
-      - "tactical-graphics"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "flashlearn"
-    title: "flashlearn"
-    description: "AI-powered flashcard app. Snap photos of notes, AI creates quizzes. Spaced repetition + gamification for students."
-    language: "Python"
-    topics:
-      - "ai"
-      - "education"
-      - "fastapi"
-      - "flashcards"
-      - "ollama"
-      - "spaced-repetition"
-      - "study-app"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "opencv-image-edit"
-    title: "opencv-image-edit"
-    description: "Mobile-first AI image editor powered by OpenCV 5 — background blur/remove, film grain, AI upscale, color filters. Vanilla HTML/CSS/JS PWA + FastAPI. ~1.3GB Docker image, no torch."
-    language: "Python"
-    topics:
-      - "ai"
-      - "computer-vision"
-      - "docker"
-      - "fastapi"
-      - "image-processing"
-      - "opencv"
-      - "pwa"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "autonomous-booksmith"
-    title: "autonomous-booksmith"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-16"
+repos: []
 ---
 
 # psylsph

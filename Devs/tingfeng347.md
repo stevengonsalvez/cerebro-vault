@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 4, 3, 0, 0, 2, 2, 2, 2, 1, 2, 1, 0]
+pushes_per_week: [1, 7, 0, 0, 1, 2, 2, 2, 2, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 15
-    active_days: 18
+    pushes: 20
+    distinct_repos: 14
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1667
-  repo_per_active_day: 0.8333
+  push_per_day: 1.1765
+  repo_per_active_day: 0.8235
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,91 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 15
-    pushes_per_repo: 1.4000
-    active_days: 18
+    pushes: 20
+    distinct_repos: 14
+    pushes_per_repo: 1.4286
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tingfeng347"
-    title: "tingfeng347"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "windvim"
-    title: "windvim"
-    description: "WindVim 是基于 LazyVim 的个人定制 Neovim 配置，面向习惯终端开发、希望使用中文界面并结合 AI 编程工具的用户。沿用 LazyVim 的插件生态、语言支持与快捷键，再加入一套可以直接使用的界面与工作区配置。"
-    language: "Lua"
-    topics:
-      - "code"
-      - "lazyvim"
-      - "nvim"
-      - "terminal"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "windshell"
-    title: "windshell"
-    description: "WindShell 是面向 SSH 的 Rust 终端工作区：左侧远端文件树、右侧本地/SSH 终端与只读预览，使用系统 OpenSSH 与 SFTP。"
-    language: "Rust"
-    topics:
-      - "developer-tools"
-      - "ratatui"
-      - "rust"
-      - "sftp"
-      - "ssh"
-      - "terminal"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "windwiki"
-    title: "windwiki"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "dsh-vscode-workbench"
-    title: "dsh-vscode-workbench"
-    description: "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "dsh-plugin-market"
-      - "vscode-theme"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "zst_agent"
-    title: "zst_agent"
-    description: "基于 FastAPI + Vue 3 构建的智能客服系统，具备 RAG（检索增强生成）与 AI Agent 核心能力，可为企业提供高效、可扩展的智能客服解决方案。"
-    language: "Vue"
-    topics:
-      - "agent"
-      - "fastapi"
-      - "rag"
-      - "vue3"
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-07-04"
+repos: []
 ---
 
 # tingfeng347
 
-21 pushes across 15 repositories on 18 active days in the last 90 days of public GitHub push activity.
+20 pushes across 14 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tingfeng347

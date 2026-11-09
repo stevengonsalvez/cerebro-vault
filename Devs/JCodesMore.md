@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.3333
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "ai-website-cloner-template"
@@ -101,9 +101,61 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 38407
+    stars_fact: 38919
     first_seen: "2026-06-23T06:00:02.599193+00:00"
     last_push: "2026-10-19"
+  - name: "youtube-for-ai-agents"
+    title: "youtube-for-ai-agents"
+    description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "mcp"
+      - "plugin"
+      - "youtube"
+    stars_fact: 65
+    first_seen: null
+    last_push: "2026-04-30"
+  - name: "ai-chrome-extension-template"
+    title: "ai-chrome-extension-template"
+    description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "chrome-extension"
+      - "claude-code"
+      - "codex"
+      - "mv3"
+      - "skills"
+      - "template"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "discord-for-ai-agents"
+    title: "discord-for-ai-agents"
+    description: "Connect your AI agent to Discord - create servers, moderate, and more"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "claude-code"
+      - "discord"
+      - "mcp"
+      - "plugin"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "agent-recall"
+    title: "agent-recall"
+    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-27"
   - name: "starry-ai-bookmark-search"
     title: "starry-ai-bookmark-search"
     description: "Find your bookmarks like a simple Google search. Local, private, and free. It just works."
@@ -120,49 +172,10 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-08-15"
-  - name: "youtube-for-ai-agents"
-    title: "youtube-for-ai-agents"
-    description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "mcp"
-      - "plugin"
-      - "youtube"
-    stars_fact: 61
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "ai-animated-website"
-    title: "ai-animated-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-01-22"
-  - name: "movies-for-ai-agents"
-    title: "movies-for-ai-agents"
-    description: "Your personal AI movie buddy"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "agent-recall"
-    title: "agent-recall"
-    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # JCodesMore
 
-3 pushes across 1 repository on 3 active days in the last 90 days of public GitHub push activity.
+2 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JCodesMore

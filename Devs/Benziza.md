@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 2, 0, 0, 0, 2, 1, 2, 0, 2, 0, 1, 0]
+pushes_per_week: [2, 2, 0, 0, 1, 2, 0, 2, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Benziza"
-    title: "Benziza"
-    description: null
-    language: "Python"
+  - name: "AtlasPixels"
+    title: "AtlasPixels"
+    description: "A Moroccan top-down pixel art game inspired by Stardew Valley, built with Godot."
+    language: "GDScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "zidni"
     title: "zidni"
     description: "A small reading app for discovering random Wikipedia articles."
@@ -92,7 +92,15 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-08"
+  - name: "Benziza"
+    title: "Benziza"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "benziza.github.io"
     title: "benziza.github.io"
     description: "My portfolio"
@@ -130,15 +138,7 @@ repos:
       - "testing"
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "WhyConfig.NET"
-    title: "WhyConfig.NET"
-    description: "Explain why a .NET configuration key has its effective value"
-    language: "C#"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-17"
+    last_push: "2026-11-09"
 ---
 
 # Benziza

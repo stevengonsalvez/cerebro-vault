@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "e21378f22db2cf25"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 1, 1, 2, 0, 0, 0, 0]
@@ -82,9 +82,9 @@ repos:
     description: "Cleaning/hardening RL agent environments (MiMo SWE on Harbor, ...)"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-05"
   - name: "skyrl-wheels"
     title: "skyrl-wheels"
     description: "Prebuilt CUDA extension wheels for SkyRL (torch 2.13 + CUDA 13.0), stopgap until Astral publishes torch.2.13 builds"

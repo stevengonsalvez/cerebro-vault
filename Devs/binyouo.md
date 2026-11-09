@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 3, 7, 10, 26, 17, 15, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 5, 9, 12, 23, 29, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 60
+    pushes: 58
     distinct_repos: 4
-    pushes_per_repo: 15.0000
-    active_days: 11
+    pushes_per_repo: 14.5000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -89,9 +89,22 @@ repos:
       - "mcp"
       - "memory"
       - "typescript"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
+  - name: "Maccy-MyGo"
+    title: "Maccy-MyGo"
+    description: "Unofficial Maccy rewrite in Go, powered by MyGo native UI."
+    language: "Go"
+    topics:
+      - "clipboard-manager"
+      - "go"
+      - "maccy"
+      - "macos"
+      - "mygo"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "biny-web"
     title: "biny-web"
     description: "Biny 官网：产品介绍、macOS 下载、使用文档与交互演示。"
@@ -99,7 +112,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-04"
   - name: "Thinkya1.github.io"
     title: "Thinkya1.github.io"
     description: "个人博客"
@@ -124,14 +137,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-28"
-  - name: "boj-sandbox"
-    title: "boj-sandbox"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-07"
 ---
 
 # binyouo

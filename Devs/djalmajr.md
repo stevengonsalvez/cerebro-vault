@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [4, 1, 2, 2, 1, 1, 18, 28, 13, 9, 13, 5, 1]
+pushes_per_week: [4, 1, 3, 1, 1, 4, 23, 25, 16, 7, 12, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 7
-    active_days: 14
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
+    pushes: 28
     distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 14
+    pushes_per_repo: 4.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "soho"
-    title: "soho"
-    description: "Role-based coding agents in Herdr with an optional local plugin"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "edger"
     title: "edger"
     description: "Secure, versioned edge runtime in Rust with Deno, WebAssembly, cPanel observability, and Kubernetes deployment."
@@ -99,23 +91,7 @@ repos:
       - "webassembly"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "dukto"
-    title: "dukto"
-    description: "Cross-platform file transfer app"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "nau"
-    title: "nau"
-    description: "Two-way bridge between a remote job dispatcher and Herdr nodes (CLI, plugin, skill)"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "scoop-bucket"
     title: "scoop-bucket"
     description: "Personal Scoop bucket: ai-usagebar and friends"
@@ -124,15 +100,39 @@ repos:
       - "scoop-bucket"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "ai-memory-ui"
-    title: "ai-memory-ui"
-    description: "Custom SolidJS web UI for ai-memory — read-only knowledge browser over /api/v1, served via --web-ui-dir"
-    language: "TypeScript"
+    last_push: "2026-11-07"
+  - name: "soho"
+    title: "soho"
+    description: "Role-based coding agents in Herdr with an optional local plugin"
+    language: "Go"
     topics: []
-    stars_fact: 9
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-11-08"
+  - name: "openpencil-capture"
+    title: "openpencil-capture"
+    description: "Capture rendered web UI as editable OpenPencil layers"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "nau"
+    title: "nau"
+    description: "Two-way bridge between a remote job dispatcher and Herdr nodes (CLI, plugin, skill)"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "dukto"
+    title: "dukto"
+    description: "Cross-platform file transfer app"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # djalmajr

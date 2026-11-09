@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 2, 7, 0, 0, 0, 2, 0, 2, 4, 0, 4, 0]
+pushes_per_week: [6, 2, 7, 0, 0, 2, 0, 2, 4, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,28 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zsh-git-to-jj"
-    title: "zsh-git-to-jj"
-    description: "A zsh plugin for learning the Jujutsu (jj) VCS porcelain from your usual git workflow."
-    language: "Shell"
-    topics:
-      - "git"
-      - "jj"
-      - "jujutsu"
-      - "shell"
-      - "zle-widgets"
-      - "zsh"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-01-01"
-  - name: "samshush"
-    title: "samshush"
-    description: "Root your Samsung TV and turn off the microphones, ads & other questionable services."
-    language: "Python"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "FindAnUpgrade"
     title: "FindAnUpgrade"
     description: "Find that next upgrade and which quest NPC or chain has it. Filter by zone, level range, dungeon quests and (missing!) slot. Get a waypoint to the NPC, compare vs your equipped items, and find that next weapon upgrade!"
@@ -110,7 +88,15 @@ repos:
       - "wow-forever"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-09"
+  - name: "samshush"
+    title: "samshush"
+    description: "Root your Samsung TV and turn off the microphones, ads & other questionable services."
+    language: "Python"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "SomethingNeedDoing"
     title: "SomethingNeedDoing"
     description: "A microframework for building World of Warcraft addons. Registration, options panels & window chrome, font handling, slash commands, event handling & logging."
@@ -118,22 +104,18 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "dotfiles for my macOS & Linux environments ⌨️"
-    language: "Shell"
+    last_push: "2026-11-07"
+  - name: "agent-skills-discovery-rfc"
+    title: "agent-skills-discovery-rfc"
+    description: "A micro-RFC for solving skills discovery from agents."
+    language: null
     topics:
-      - "dotfiles"
-      - "linux"
-      - "macos"
-      - "shell"
-      - "stow"
-      - "tmux"
-      - "zsh"
-    stars_fact: 222
+      - "agent-skills"
+      - "agents"
+      - "rfc"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-01-19"
   - name: "XPIsland"
     title: "XPIsland"
     description: "A WoW addon that displays an expandable, dynamic-island like experience (XP) bar with useful stats and accurate time-to-next-level estimates."
@@ -145,7 +127,18 @@ repos:
       - "wow"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-06"
+  - name: "AsTheCrowFlies"
+    title: "AsTheCrowFlies"
+    description: "A World of Warcraft addon for finding the nearest flight path to wherever you need to go. Like Google Maps, but for Azeroth."
+    language: "Lua"
+    topics:
+      - "addon"
+      - "navigation"
+      - "world-of-warcraft"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
 ---
 
 # elithrar

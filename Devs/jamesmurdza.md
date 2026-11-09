@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 1, 23, 1, 4, 11, 7, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 5, 24, 1, 0, 9, 13, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,9 +86,17 @@ repos:
       - "claude-code"
       - "codex"
       - "opencode"
-    stars_fact: 84
+    stars_fact: 88
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "awesome-ai-devtools"
+    title: "awesome-ai-devtools"
+    description: "Curated list of AI-powered developer tools."
+    language: null
+    topics: []
+    stars_fact: 3998
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "applied-math-study-guides"
     title: "applied-math-study-guides"
     description: null
@@ -96,7 +104,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "github-semantic-search-pipeline"
     title: "github-semantic-search-pipeline"
     description: "A durable pipeline that indexes every issue and comment in a GitHub repo."
@@ -105,14 +113,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-31"
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
-    language: null
-    topics: []
-    stars_fact: 3992
-    first_seen: null
-    last_push: "2026-08-27"
   - name: "lean-viewer-demo"
     title: "lean-viewer-demo"
     description: null

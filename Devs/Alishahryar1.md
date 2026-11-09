@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [13, 2, 3, 1, 4, 2, 10, 14, 4, 6, 0, 2, 0]
+pushes_per_week: [12, 3, 2, 3, 1, 5, 12, 13, 2, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 11
-    active_days: 33
+    active_days: 31
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.8485
-  repo_per_active_day: 0.3333
+  push_per_day: 1.9032
+  repo_per_active_day: 0.3548
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 11
-    pushes_per_repo: 5.5455
-    active_days: 33
+    pushes_per_repo: 5.3636
+    active_days: 31
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -99,23 +99,15 @@ repos:
     description: "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 65785
+    stars_fact: 67618
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-10-31"
-  - name: "avazu-ctr"
-    title: "avazu-ctr"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-09"
   - name: "Machine-Learning-Methods-in-Physics"
     title: "Machine-Learning-Methods-in-Physics"
     description: null
     language: null
     topics: []
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
     last_push: "2023-08-20"
   - name: "gpu-ops-platform"
@@ -126,10 +118,18 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-02-15"
+  - name: "avazu-ctr"
+    title: "avazu-ctr"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Alishahryar1
 
-61 pushes across 11 repositories on 33 active days in the last 90 days of public GitHub push activity.
+59 pushes across 11 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

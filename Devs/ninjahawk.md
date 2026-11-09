@@ -8,11 +8,11 @@ provenance_repos:
   - "ninjahawk/livenerf"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [0, 0, 0, 0, 0, 7, 2, 2, 1, 0, 3, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 2, 3, 0, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "crypto"
-    title: "crypto"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "livenerf"
-    title: "livenerf"
-    description: "Benchmark for tracking model capability after release."
-    language: "Python"
-    topics: []
-    stars_fact: 1637
-    first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-10-31"
-  - name: "S-and-Poke-500"
-    title: "S-and-Poke-500"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "Subtext"
-    title: "Subtext"
-    description: "To know what models don't say out loud."
-    language: "HTML"
-    topics:
-      - "interpretability"
-      - "llm"
-      - "mechanistic-interpretability"
-      - "pytorch"
-      - "qwen"
-      - "transformers"
-      - "visualization"
-    stars_fact: 247
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "research-plan"
-    title: "research-plan"
-    description: "Technical AI Safety research action plan"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "hollow-agentOS"
-    title: "hollow-agentOS"
-    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
-    language: "Python"
-    topics: []
-    stars_fact: 310
-    first_seen: null
-    last_push: "2026-10-14"
+repos: []
 ---
 
 # ninjahawk

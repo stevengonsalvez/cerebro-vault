@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 2, 6, 0, 5, 7, 6, 13, 5, 15, 9, 1, 0]
+pushes_per_week: [3, 4, 3, 1, 8, 3, 14, 5, 15, 6, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 13
-    active_days: 11
+    pushes: 25
+    distinct_repos: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 27
-    active_days: 36
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.7500
+  push_per_day: 2.0286
+  repo_per_active_day: 0.7714
   not_owned_ratio: 0.0370
   basename_concentration: 0.0741
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 29
-    distinct_repos: 13
-    pushes_per_repo: 2.2308
-    active_days: 11
+    pushes: 25
+    distinct_repos: 10
+    pushes_per_repo: 2.5000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 27
-    pushes_per_repo: 2.6667
-    active_days: 36
+    pushes_per_repo: 2.6296
+    active_days: 35
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "grok-bot-learn"
@@ -140,6 +140,6 @@ repos:
 
 # doggy8088
 
-72 pushes across 27 repositories on 36 active days in the last 90 days of public GitHub push activity.
+71 pushes across 27 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/doggy8088

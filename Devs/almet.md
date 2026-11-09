@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 2, 0, 0, 0, 2, 0, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "web2mp3"
+    title: "web2mp3"
+    description: "Firefox Webextension to convert web resources to mp3 files (including shazam tags)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-25"
   - name: "copanier"
     title: "copanier"
     description: "A minimalist collective buying software."
@@ -130,14 +138,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2022-06-01"
-  - name: "gnome-background-generator"
-    title: "gnome-background-generator"
-    description: "Utilities to manage gnome wallpapers"
-    language: "Python"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2021-08-29"
 ---
 
 # almet

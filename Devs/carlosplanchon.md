@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 2, 1, 0, 1, 0, 10, 15, 1, 9, 3, 1, 0]
+pushes_per_week: [2, 2, 1, 0, 1, 3, 8, 15, 5, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nanosaas"
+    title: "nanosaas"
+    description: "Turn Python functions into credit-based services with FastAPI, TaskIQ, and a built-in web UI."
+    language: "Python"
+    topics:
+      - "alpinejs"
+      - "api"
+      - "asyncio"
+      - "background-task"
+      - "fastapi"
+      - "microservices"
+      - "open-source"
+      - "postgresql"
+      - "python"
+      - "redis"
+      - "saas"
+      - "self-hosted"
+      - "task-queue"
+      - "taskiq"
+      - "usage-based-billing"
+      - "webhooks"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "fastapi-lowjs-auth"
+    title: "fastapi-lowjs-auth"
+    description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "fastapi-ai-assistant"
+    title: "fastapi-ai-assistant"
+    description: "A minimal FastAPI application demonstrating a streaming AI chatbot with OpenAI’s Code Interpreter and a simple Alpine.js front end."
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "starship-p10k-rainbow"
     title: "starship-p10k-rainbow"
     description: "Starship preset that recreates the Powerlevel10k rainbow style"
@@ -104,30 +144,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-11-01"
-  - name: "nanosaas"
-    title: "nanosaas"
-    description: "Turn Python functions into credit-based services with FastAPI, TaskIQ, and a built-in web UI."
-    language: "Python"
-    topics:
-      - "alpinejs"
-      - "api"
-      - "asyncio"
-      - "background-task"
-      - "fastapi"
-      - "microservices"
-      - "open-source"
-      - "postgresql"
-      - "python"
-      - "redis"
-      - "saas"
-      - "self-hosted"
-      - "task-queue"
-      - "taskiq"
-      - "usage-based-billing"
-      - "webhooks"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "ai-url-aggregator"
     title: "ai-url-aggregator"
     description: "Python tool that uses Perplexity and OpenAI to search the internet for relevant URLs, then filters, deduplicates, and verifies each link’s availability, all in one streamlined workflow."
@@ -151,28 +167,12 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-01"
-  - name: "fastapi-lowjs-auth"
-    title: "fastapi-lowjs-auth"
-    description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "playwright-splash"
     title: "playwright-splash"
     description: "Simple Playwright scraper which receives an URL and returns the website code."
     language: "JavaScript"
     topics: []
     stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "webscreencap"
-    title: "webscreencap"
-    description: "A microservice for capturing full-page screenshots and HTML from any URL asynchronously using FastAPI, TaskIQ, and Node.js (Patchright with Google Chrome). Results are uploaded to an S3-compatible storage."
-    language: "Python"
-    topics: []
-    stars_fact: 7
     first_seen: null
     last_push: "2026-10-23"
 ---

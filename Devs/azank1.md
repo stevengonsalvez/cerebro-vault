@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 2, 1, 1, 1, 2, 4, 2, 12, 1, 0, 1, 0]
+pushes_per_week: [0, 2, 2, 1, 0, 4, 2, 2, 12, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,12 +23,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 27
     distinct_repos: 6
@@ -58,13 +58,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 27
     distinct_repos: 6
@@ -78,26 +78,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "commit-city"
-    title: "commit-city"
-    description: "Your GitHub, as a living 3D city. Swap github.com → commit.city on any user, org or repo and watch a year of commits build it."
-    language: "HTML"
-    topics:
-      - "3d"
-      - "code-city"
-      - "data-visualization"
-      - "developer-tools"
-      - "git"
-      - "github"
-      - "github-actions"
-      - "open-source"
-      - "threejs"
-      - "time-lapse"
-      - "vercel"
-      - "visualization"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "seamkit"
     title: "seamkit"
     description: "Deterministic production checks for teams whose code is mostly written by AI agents"
@@ -105,15 +85,27 @@ repos:
     topics:
       - "ai-agents"
       - "ci"
+      - "cicd"
       - "cli"
+      - "continuous-deployment"
       - "deployment"
+      - "deployment-verification"
+      - "deterministic"
       - "devops"
+      - "github-action"
       - "github-actions"
+      - "nodejs"
       - "production"
+      - "release-engineering"
+      - "reproducibility"
+      - "rollback"
+      - "sre"
+      - "typescript"
+      - "vercel"
       - "verification"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-08"
   - name: "azank1"
     title: "azank1"
     description: null
@@ -121,53 +113,58 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "bizopsmap"
-    title: "bizopsmap"
-    description: "Map a business or a codebase on one page: layers, lanes, links and measures, from spreadsheets or the repo itself. Plain words for a business, field terms for engineers. Runs locally, no dependencies. Invented samples: bizopsmap-preview-nu.vercel.app"
-    language: "JavaScript"
-    topics:
-      - "business-operations"
-      - "cli"
-      - "codebase-visualization"
-      - "csv"
-      - "docker-compose"
-      - "local-first"
-      - "nodejs"
-      - "opentelemetry"
-      - "process-mapping"
-      - "small-business"
-      - "software-architecture"
-      - "spreadsheet"
-      - "visualization"
-      - "zero-dependency"
+    last_push: "2026-11-04"
+  - name: "sdca-raqqr"
+    title: "sdca-raqqr"
+    description: "Bitcoin valuation and DCA backtest library. Implements the RAQQR asymmetric tail-curvature rainbow model to score market risk (0–100) and simulate accumulation/distribution strategies against historical price data."
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-01"
-  - name: "code-desk-cli"
-    title: "code-desk-cli"
-    description: "Run an office of AI coding sessions from your terminal: named desks, two hats, gated handoffs, and a token meter. WIP"
+    last_push: "2026-06-24"
+  - name: "agent-exposure"
+    title: "agent-exposure"
+    description: "agent-check: flags risky AI-agent setup committed to a repo, CI agents that outside issue or PR text can drive, and Supabase tables and policies open to anyone with your app's public key. GitHub Action, plus a Supabase check that runs in your browser."
     language: "Python"
     topics:
       - "ai-agents"
       - "claude-code"
-      - "cli"
       - "codex"
-      - "coding-agents"
-      - "cursor"
-      - "developer-tools"
-      - "python"
-    stars_fact: 1
+      - "devsecops"
+      - "gemini-cli"
+      - "github-actions"
+      - "mcp"
+      - "postgresql"
+      - "rls"
+      - "row-level-security"
+      - "security"
+      - "supabase"
+      - "supabase-security"
+      - "supply-chain-security"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "PoS-Restarage-linux"
-    title: "PoS-Restarage-linux"
-    description: "Restarage POS - Linux desktop variant"
-    language: "TypeScript"
+    last_push: "2026-10-31"
+  - name: "offer-site"
+    title: "offer-site"
+    description: "Fixed-price AI-agent security work: exposure reviews, Claude Code team setup with guardrails, fix PRs for agent-check findings."
+    language: "HTML"
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-07-29"
+    last_push: "2026-10-31"
+  - name: "guardrails-kit"
+    title: "guardrails-kit"
+    description: "Fail-closed Claude Code hooks for team repos: no pushes to main, no destructive commands, no secrets in files, plus a redacted audit log."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "guardrails"
+      - "hooks"
+      - "security"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # azank1

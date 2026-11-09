@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "6725a773cbcfd0fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 4, 6, 6, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 9, 1, 6, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 9
+    pushes_per_repo: 7.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,9 +77,17 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "guregodevo.github.io"
+    title: "guregodevo.github.io"
+    description: "Guregodevo Home page"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "memdoor"
     title: "memdoor"
-    description: "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows."
+    description: "The CLI coding agent with Team Mode: cheap models, frontier results."
     language: "Go"
     topics:
       - "agentic-workflows"
@@ -92,41 +100,37 @@ repos:
       - "terminal"
       - "tui"
       - "workflow"
-    stars_fact: 63
+    stars_fact: 382
     first_seen: "2026-11-01T07:00:46.615373+00:00"
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "swe-bench"
+    title: "swe-bench"
+    description: "swe-bench"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "mario"
     title: "mario"
     description: "Task Orchestration Engine"
     language: "Go"
     topics: []
-    stars_fact: 1
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "memdoor-demos"
-    title: "memdoor-demos"
-    description: null
-    language: "Python"
-    topics: []
+    last_push: "2026-11-08"
+  - name: "memdoor-action"
+    title: "memdoor-action"
+    description: "Review PRs, write tests, explain CI failures, triage issues and more with an AI agent: on your key, or with no key on a local model inside the runner"
+    language: null
+    topics:
+      - "ai"
+      - "code-review"
+      - "github-actions"
+      - "local-llm"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "guregodevo.github.io"
-    title: "guregodevo.github.io"
-    description: "Guregodevo Home page"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "janis"
-    title: "janis"
-    description: "LLM Local inference in pure Go"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-08"
   - name: "llamafit"
     title: "llamafit"
     description: "LLM Server"
@@ -134,7 +138,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-05"
 ---
 
 # guregodevo

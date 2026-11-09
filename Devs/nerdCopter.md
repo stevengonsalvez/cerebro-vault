@@ -8,37 +8,37 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 3, 0, 2, 2, 9, 12, 12, 8, 13, 6, 5, 1]
+pushes_per_week: [12, 0, 1, 1, 5, 8, 15, 11, 13, 5, 10, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 25
     distinct_repos: 8
-    active_days: 11
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 82
     distinct_repos: 19
-    active_days: 35
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.5429
+  push_per_day: 2.4118
+  repo_per_active_day: 0.5588
   not_owned_ratio: 0.2105
   basename_concentration: 0.1053
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 25
     distinct_repos: 8
-    pushes_per_repo: 3.5000
-    active_days: 11
+    pushes_per_repo: 3.1250
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 84
+    pushes: 82
     distinct_repos: 19
-    pushes_per_repo: 4.4211
-    active_days: 35
+    pushes_per_repo: 4.3158
+    active_days: 34
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "blackbox_analyzer"
-    title: "blackbox_analyzer"
-    description: "Blackbox log (BBL/BFL/CSV) step-response, filter, vibration and PID analysis for Betaflight/EmuFlight"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "SPRACINGH7EF"
-    title: "SPRACINGH7EF"
-    description: "Backup, repair, restore and flashing knowledge for the SP Racing H7EF flight controller (owned hardware): flash map, bootloader, scripts, factory data, case study."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "target-convert"
-    title: "target-convert"
-    description: "bf to ef target converter script"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "multirotor-esc-handbook"
-    title: "multirotor-esc-handbook"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "powershell-git-prompt"
-    title: "powershell-git-prompt"
-    description: null
-    language: "PowerShell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "PuterJS-UI"
-    title: "PuterJS-UI"
-    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # nerdCopter
 
-84 pushes across 19 repositories on 35 active days in the last 90 days of public GitHub push activity.
+82 pushes across 19 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nerdCopter

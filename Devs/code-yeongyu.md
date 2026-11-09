@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [62, 29, 11, 11, 60, 61, 94, 268, 111, 116, 133, 66, 18]
+pushes_per_week: [54, 17, 17, 21, 67, 52, 182, 223, 136, 77, 153, 0, 23]
 windows:
   "7d":
-    pushes: 18
+    pushes: 23
     distinct_repos: 5
-    active_days: 4
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 364
-    distinct_repos: 18
-    active_days: 20
-    repos_not_owned: 8
+    pushes: 338
+    distinct_repos: 17
+    active_days: 19
+    repos_not_owned: 7
     not_owned_basenames: 5
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 1040
+    pushes: 1022
     distinct_repos: 42
-    active_days: 73
+    active_days: 72
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 21
 automation:
   state: "clear"
-  push_per_day: 14.2466
-  repo_per_active_day: 0.5753
+  push_per_day: 14.1944
+  repo_per_active_day: 0.5833
   not_owned_ratio: 0.6667
   basename_concentration: 0.2619
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 18
+    pushes: 23
     distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 4
+    pushes_per_repo: 4.6000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 364
-    distinct_repos: 18
-    pushes_per_repo: 20.2222
-    active_days: 20
-    repos_not_owned: 8
+    pushes: 338
+    distinct_repos: 17
+    pushes_per_repo: 19.8824
+    active_days: 19
+    repos_not_owned: 7
     not_owned_basenames: 5
-    not_owned_owners: 6
+    not_owned_owners: 5
   "90d":
-    pushes: 1040
+    pushes: 1022
     distinct_repos: 42
-    pushes_per_repo: 24.7619
-    active_days: 73
+    pushes_per_repo: 24.3333
+    active_days: 72
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 21
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 73 active days in 90d — pass"
+  - "activity: 72 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oh-my-openagent"
@@ -97,44 +97,9 @@ repos:
       - "orchestration"
       - "tui"
       - "typescript"
-    stars_fact: 70589
+    stars_fact: 70802
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "senpi"
-    title: "senpi"
-    description: "pi had nothing (nothing), so I made something (something) — sorry mariozechner-senpai, I went ahead and lovingly soiled your pure pi for you. opinionated fork of badlogic/pi-mono with extension-first additions. ganbare ganbare senpi 頑張れ頑張れ先輩"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai-agent"
-      - "cli"
-      - "coding-agent"
-      - "llm"
-      - "llm-tools"
-      - "monorepo"
-      - "multi-provider"
-      - "pi-mono"
-      - "senpi"
-      - "tui"
-      - "typescript"
-    stars_fact: 505
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "codex-lsp"
-    title: "codex-lsp"
-    description: "Codex plugin that exposes Language Server Protocol diagnostics and MCP tools"
-    language: "TypeScript"
-    topics:
-      - "codex"
-      - "codex-plugin"
-      - "diagnostics"
-      - "language-server-protocol"
-      - "lsp"
-      - "mcp"
-      - "typescript"
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-07-25"
+    last_push: "2026-11-09"
   - name: "lazycodex"
     title: "lazycodex"
     description: "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex."
@@ -154,13 +119,33 @@ repos:
       - "openai"
       - "orchestration"
       - "typescript"
-    stars_fact: 3863
+    stars_fact: 3895
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "senpi"
+    title: "senpi"
+    description: "pi had nothing (nothing), so I made something (something) — sorry mariozechner-senpai, I went ahead and lovingly soiled your pure pi for you. opinionated fork of badlogic/pi-mono with extension-first additions. ganbare ganbare senpi 頑張れ頑張れ先輩"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai-agent"
+      - "cli"
+      - "coding-agent"
+      - "llm"
+      - "llm-tools"
+      - "monorepo"
+      - "multi-provider"
+      - "pi-mono"
+      - "senpi"
+      - "tui"
+      - "typescript"
+    stars_fact: 515
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "omowright"
     title: "omowright"
     description: "Playwright, but built for AI agents: the browser API models already know, token-efficient a11y snapshots, and scroll-driven collection over the network. Zero-port CDP underneath."
-    language: "JavaScript"
+    language: "TypeScript"
     topics:
       - "accessibility-tree"
       - "agent-browser"
@@ -177,21 +162,34 @@ repos:
       - "llm"
       - "omowright"
       - "web-automation"
-    stars_fact: 12
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "ultimate-web-search-skill"
-    title: "ultimate-web-search-skill"
-    description: "LLM-neutral web search skill for AI coding agents. 12 providers behind one CLI - cross-platform, stdlib-only Python, with sequential fallback chain."
+    last_push: "2026-11-09"
+  - name: "sisyphus-private"
+    title: "sisyphus-private"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 12
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-06-12"
+    last_push: "2026-10-15"
+  - name: "TrackPurchase"
+    title: "TrackPurchase"
+    description: "단 몇줄의 코드로 다양한 쇼핑 플랫폼에서 결제 내역을 긁어오자!"
+    language: "TypeScript"
+    topics:
+      - "crawlwer"
+      - "puppeteer"
+      - "webcrawler"
+      - "webscraper"
+      - "webscraping"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2022-02-10"
 ---
 
 # code-yeongyu
 
-1040 pushes across 42 repositories on 73 active days in the last 90 days of public GitHub push activity.
+1022 pushes across 42 repositories on 72 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

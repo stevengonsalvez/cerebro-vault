@@ -10,13 +10,13 @@ workflow_tags: []
 source: rss
 url: https://github.com/anthropics/claude-code/releases/tag/v2.1.310
 score: 0.80
-reason: "Claude Code release; Monitor tool, direct changelog."
+reason: "Claude Code changelog: Monitor tool, Bedrock and Vertex support"
 captured: 2026-10-24T06:00:36.285759+00:00
 rating:
 ---
 # v2.1.310
 
-> Claude Code release; Monitor tool, direct changelog.
+> Claude Code changelog: Monitor tool, Bedrock and Vertex support
 
 <h2>What's changed</h2>
 <ul>

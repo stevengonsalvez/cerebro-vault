@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 1, 0, 0, 1, 0, 2, 3, 1, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "DiegoC-Harness"
     title: "DiegoC-Harness"
     description: "纯提示词驱动的Agent Team Harness"
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
 ---
 
 # iluv7

@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [57, 17, 5, 2, 8, 9, 4, 10, 6, 4, 3, 5, 0]
+pushes_per_week: [61, 10, 3, 4, 7, 7, 8, 6, 7, 3, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,25 +26,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 11
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 12
+    distinct_repos: 9
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 39
-    active_days: 43
+    pushes: 123
+    distinct_repos: 37
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0233
-  repo_per_active_day: 0.9070
-  not_owned_ratio: 0.1538
-  basename_concentration: 0.0513
+  push_per_day: 3.0000
+  repo_per_active_day: 0.9024
+  not_owned_ratio: 0.1622
+  basename_concentration: 0.0541
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -61,24 +61,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 11
-    pushes_per_repo: 1.4545
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 12
+    distinct_repos: 9
+    pushes_per_repo: 1.3333
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 130
-    distinct_repos: 39
-    pushes_per_repo: 3.3333
-    active_days: 43
+    pushes: 123
+    distinct_repos: 37
+    pushes_per_repo: 3.3243
+    active_days: 41
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-130 pushes across 39 repositories on 43 active days in the last 90 days of public GitHub push activity.
+123 pushes across 37 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

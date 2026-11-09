@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 0, 1, 0, 1, 1, 4, 13, 6, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 1, 0, 1, 7, 14, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
-    active_days: 17
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8235
-  repo_per_active_day: 0.1176
+  push_per_day: 1.8750
+  repo_per_active_day: 0.1250
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,105 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 2
-    pushes_per_repo: 15.5000
-    active_days: 17
+    pushes_per_repo: 15.0000
+    active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "torrential"
-    title: "torrential"
-    description: "Search and download torrents from your terminal, or ask your coding agent to."
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "bittorrent"
-      - "cli"
-      - "libtorrent"
-      - "rust"
-      - "torrent"
-      - "tui"
-    stars_fact: 45
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "nexxel.dev"
-    title: "nexxel.dev"
-    description: "my personal website and blog"
-    language: "MDX"
-    topics:
-      - "blog"
-      - "mdx"
-      - "nextjs"
-      - "personal-website"
-      - "redis"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 280
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "oc-pstack"
-    title: "oc-pstack"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "carry"
-    title: "carry"
-    description: "A font that does arithmetic. Type 128+256= and it draws the 384."
-    language: "Python"
-    topics:
-      - "arithmetic"
-      - "font"
-      - "harfbuzz"
-      - "opentype"
-      - "typography"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "spotify-voice-control"
-    title: "spotify-voice-control"
-    description: "Voice control for Spotify through the terminal"
-    language: "Python"
-    topics:
-      - "music"
-      - "python"
-      - "speech-recognition"
-      - "spotify"
-      - "spotify-api"
-      - "voice-commands"
-      - "voice-recognition"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2022-09-23"
-  - name: "jgrep"
-    title: "jgrep"
-    description: "semantic search for code with jev"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
+repos: []
 ---
 
 # nexxeln
 
-31 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
+30 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nexxeln

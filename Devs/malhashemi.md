@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 3, 1, 0, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 3, 1, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,14 +79,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "opencode-gpt-live"
     title: "opencode-gpt-live"
     description: "Talk to OpenCode out loud: real-time GPT-Live voice calls on your ChatGPT subscription"
@@ -101,7 +93,7 @@ repos:
       - "tui"
       - "voice-assistant"
       - "webrtc"
-    stars_fact: 44
+    stars_fact: 45
     first_seen: null
     last_push: "2026-10-07"
   - name: "opencode-dynamic-workflows"
@@ -117,9 +109,17 @@ repos:
       - "subagents"
       - "typescript"
       - "workflows"
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
     last_push: "2026-10-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "dubstack"
     title: "dubstack"
     description: "The development lifecycle where you and your agents work from the same understanding. 19 agent skills for interviews on interactive pages, goals tracked from idea to merge, outlines, implementation, and pull requests."
@@ -135,7 +135,7 @@ repos:
       - "sdlc"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-02"
   - name: "opencode-codex-computer-use"
     title: "opencode-codex-computer-use"
     description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"

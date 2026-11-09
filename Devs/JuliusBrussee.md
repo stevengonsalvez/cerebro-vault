@@ -8,11 +8,11 @@ provenance_repos:
   - "JuliusBrussee/caveman"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [2, 2, 1, 0, 2, 1, 11, 1, 9, 5, 0, 0, 0]
+pushes_per_week: [3, 1, 1, 2, 0, 5, 7, 1, 12, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,78 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "caveman"
-    title: "caveman"
-    description: "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
-    language: "Go"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "llm"
-      - "meme"
-      - "prompt-engineering"
-      - "skill"
-      - "tokens"
-    stars_fact: 116777
-    first_seen: "2026-07-03T06:00:07.803484+00:00"
-    last_push: "2026-11-02"
-  - name: "caveman-browse"
-    title: "caveman-browse"
-    description: "Token-efficient browser automation for coding agents: compressed accessibility snapshots, uid actions, byte-exact recovery. A Playwright MCP alternative."
-    language: "Go"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "caveman-code"
-    title: "caveman-code"
-    description: "Frozen — terminal coding agent measured at 1.93× fewer tokens than Codex CLI. Still works; active development moved to JuliusBrussee/caveman (caveman wrap)."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 944
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "cavekit"
-    title: "cavekit"
-    description: "Frozen — compressed spec-driven development plugin for Claude Code. Still works; active development moved to JuliusBrussee/caveman."
-    language: null
-    topics:
-      - "claude-code"
-      - "parallel-agents"
-      - "skills"
-      - "spec-driven-development"
-      - "test-driven-development"
-    stars_fact: 1157
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "cavemem"
-    title: "cavemem"
-    description: "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "compress"
-      - "memory"
-      - "rag"
-      - "rag-chatbot"
-    stars_fact: 675
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-08-07"
+repos: []
 ---
 
 # JuliusBrussee

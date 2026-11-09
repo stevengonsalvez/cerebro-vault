@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 1, 0, 0, 5, 9, 26, 33, 2, 6, 3, 45, 0]
+pushes_per_week: [1, 1, 0, 5, 4, 11, 43, 11, 5, 2, 48, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
-    distinct_repos: 9
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 54
+    distinct_repos: 8
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 131
     distinct_repos: 24
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 55
-    distinct_repos: 9
-    pushes_per_repo: 6.1111
-    active_days: 10
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 54
+    distinct_repos: 8
+    pushes_per_repo: 6.7500
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 131
     distinct_repos: 24
@@ -77,14 +77,18 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "flessan"
-    title: "flessan"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
+  - name: "mimit"
+    title: "mimit"
+    description: "A Progressive Web App (PWA) for creating memes. with bunch of feature! (georapbox/meme-generator fork)"
+    language: "JavaScript"
+    topics:
+      - "meme-generator"
+      - "meme-maker"
+      - "memes"
+      - "web"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "thio.cc.cd"
     title: "thio.cc.cd"
     description: "blog:"
@@ -92,34 +96,35 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "AdbPureFlow"
-    title: "AdbPureFlow"
-    description: "Lightweight Go utility to automate Android APK lifecycle: setup ADB, install, auto-detect package ID, and perform clean uninstalls."
-    language: "Go"
+    last_push: "2026-11-09"
+  - name: "stubuika"
+    title: "stubuika"
+    description: "Android/iOS translation layer for the desktop, intended for use within Android functions - (yui0/Lunaria Fork)"
+    language: "C"
     topics:
       - "apk"
-      - "go"
-      - "scrcpy"
+      - "dvm"
+      - "layer"
+      - "linux"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "flessan"
+    title: "flessan"
+    description: null
+    language: "HTML"
+    topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "tugasnyawit"
-    title: "tugasnyawit"
-    description: "Aplikasi pengatur tugas ringan (buatan claude-ai) dengan menggunakan bahasa pemograman parodi (SawitLang by RedStoneCraftGG)"
-    language: "Shell"
+    last_push: "2026-11-09"
+  - name: "Ultimate-GRUB-Themes"
+    title: "Ultimate-GRUB-Themes"
+    description: "Collection of all Community-made GRUB themes. Contributions welcome! (jacksaur/Gorgeous-GRUB fork)"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "ANTO-LTG"
-    title: "ANTO-LTG"
-    description: "Lightweight, dependency-free Frutiger Aero technician platform & software catalog with WinGet generator, driver finder, and guides."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-09"
   - name: "kontekstual"
     title: "kontekstual"
     description: "Word-based Indonesian programming language. Terinspirasi dari cara penyampaian Tenaga Pendidik kami di SMKN 4 Banjarmasin, Bapak Hidayatullah, S.Kom."
@@ -127,7 +132,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-09"
 ---
 
 # flessan

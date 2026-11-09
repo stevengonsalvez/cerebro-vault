@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 4, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 0, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 8
     distinct_repos: 4
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 8
     distinct_repos: 4
@@ -76,49 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "DiscordBabel"
-    title: "DiscordBabel"
-    description: "Unofficial Manifest V3 Chrome/Edge extension for real-time Discord translation. Free Google/Edge engines, DeepL & OpenAI-compatible AI (TokenDance, Kimi, Zhipu, MiniMax…). Keys stay local. Not affiliated with Discord Inc."
-    language: "JavaScript"
-    topics:
-      - "browser-extension"
-      - "chrome-extension"
-      - "discord"
-      - "edge-extension"
-      - "i18n"
-      - "manifest-v3"
-      - "mit"
-      - "openai-compatible"
-      - "tokendance"
-      - "translation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "tufty-arm-create"
-    title: "tufty-arm-create"
-    description: "Arm Create conference firmware for the Pimoroni Tufty 2350 only. The with-filesystem image of MicroPython bw-1.28.0-3 restores the firmware plus the badge apps and pictures. Not the stock release from pimoroni/tufty2350."
-    language: "Python"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "dotfield"
-    title: "dotfield"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "vyrnsynx"
-    title: "vyrnsynx"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
+repos: []
 ---
 
 # vyrnsynx

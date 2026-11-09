@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 11, 17, 20, 4, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 14, 25, 9, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    active_days: 11
-    repos_not_owned: 9
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 27
+    distinct_repos: 11
+    active_days: 8
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 2
   "90d":
     pushes: 59
     distinct_repos: 22
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    pushes_per_repo: 2.3571
-    active_days: 11
-    repos_not_owned: 9
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 27
+    distinct_repos: 11
+    pushes_per_repo: 2.4545
+    active_days: 8
+    repos_not_owned: 6
+    not_owned_basenames: 5
+    not_owned_owners: 2
   "90d":
     pushes: 59
     distinct_repos: 22
@@ -76,86 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "siltide"
-    title: "siltide"
-    description: "Terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds, from utilization down to which pod is using them."
-    language: "Go"
-    topics:
-      - "accelerators"
-      - "amd"
-      - "apple-silicon"
-      - "cli"
-      - "go"
-      - "gpu"
-      - "kubernetes"
-      - "monitoring"
-      - "npu"
-      - "nvidia"
-      - "observability"
-      - "prometheus"
-      - "slurm"
-      - "terminal"
-      - "tui"
-    stars_fact: 36
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "CUDA"
-    title: "CUDA"
-    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
-    language: "Cuda"
-    topics:
-      - "cpp"
-      - "cuda"
-      - "gpu"
-      - "gpu-computing"
-      - "gpu-optimization"
-      - "gpu-programming"
-      - "learning"
-      - "nvidia"
-      - "parallel-computing"
-    stars_fact: 115
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "moezdil"
-    title: "moezdil"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "openbao-credential-broker-demo"
-    title: "openbao-credential-broker-demo"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for siltide, the terminal monitor for GPUs, NPUs, and other AI accelerators"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "mcp-gpu-server"
-    title: "mcp-gpu-server"
-    description: "MCP server that exposes NVIDIA GPU metrics (utilization, VRAM, temperature) as read-only tools via NVML or nvidia-smi"
-    language: "Python"
-    topics:
-      - "gpu"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "nvidia"
-      - "nvidia-smi"
-      - "nvml"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+repos: []
 ---
 
 # moezdil

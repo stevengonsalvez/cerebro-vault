@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a8880d67c967e370"
-pushes_per_week: [4, 1, 2, 0, 0, 13, 10, 50, 47, 30, 49, 19, 2]
+pushes_per_week: [4, 0, 2, 0, 3, 10, 24, 63, 35, 23, 60, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 108
-    distinct_repos: 9
-    active_days: 16
-    repos_not_owned: 2
+    pushes: 101
+    distinct_repos: 5
+    active_days: 14
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 227
     distinct_repos: 12
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 108
-    distinct_repos: 9
-    pushes_per_repo: 12.0000
-    active_days: 16
-    repos_not_owned: 2
+    pushes: 101
+    distinct_repos: 5
+    pushes_per_repo: 20.2000
+    active_days: 14
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 227
     distinct_repos: 12
@@ -102,9 +102,9 @@ repos:
       - "tui"
       - "window-manager"
       - "zellij-alternative"
-    stars_fact: 6262
+    stars_fact: 6475
     first_seen: "2026-10-06T06:00:56.718163+00:00"
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "tuios-5k"
     title: "tuios-5k"
     description: "tuios hit 5,000 stars. A night sky with one star per stargazer. Find yours: go run github.com/Gaurav-Gosain/tuios-5k@latest"
@@ -117,39 +117,51 @@ repos:
       - "tuios"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for TUIOS - Terminal UI Operating System"
-    language: "Ruby"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "dash-em"
-    title: "dash-em"
-    description: "Enterprise-Grade Em-Dash Removal Infrastructure — Leveraging Advanced SIMD Vectorization for Optimal Character Stream Processing"
-    language: "C"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "tuios-docs"
     title: "tuios-docs"
     description: "Docs Website for TUIOS"
     language: "MDX"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "youterm"
-    title: "youterm"
-    description: null
-    language: "Go"
+    last_push: "2026-11-09"
+  - name: "city"
+    title: "city"
+    description: "procedural infinite 3D city in the browser"
+    language: "TypeScript"
     topics: []
-    stars_fact: 8
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-05-17"
+    last_push: "2026-05-03"
+  - name: "vtgl"
+    title: "vtgl"
+    description: "WebGL2 glyph-atlas terminal renderer driven by a pluggable read-only VT source, with a Canvas2D fallback"
+    language: "TypeScript"
+    topics:
+      - "renderer"
+      - "terminal"
+      - "terminal-emulator"
+      - "typescript"
+      - "webgl"
+      - "webgl2"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "tuitest"
+    title: "tuitest"
+    description: "Headless testing harness for terminal programs: real PTY, VT emulator, deterministic waits, and golden screen snapshots"
+    language: "Go"
+    topics:
+      - "golang"
+      - "pty"
+      - "terminal"
+      - "test-automation"
+      - "testing"
+      - "tui"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # Gaurav-Gosain

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 3, 4, 1, 0, 0, 2, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 3, 5, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "metabolomic_pipeline"
+    title: "metabolomic_pipeline"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "gram-polar-factors"
+    title: "gram-polar-factors"
+    description: "Code and archived results for 'Gram-based polar factors in finite and mixed precision: a sharp criterion, and an application to matrix-orthogonalizing optimizers'"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "DockerQuestion"
+    title: "DockerQuestion"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "META-RAG"
     title: "META-RAG"
     description: "Metadata-aware retrieval-augmented generation for library discovery. LIBRA-Eval: two-sided benchmark (1,200 discovery questions, 600 cataloging records) showing LLM cataloging closes the metadata gap."
@@ -110,30 +134,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-06"
-  - name: "WMFail-Gate"
-    title: "WMFail-Gate"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "SDAE"
-    title: "SDAE"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "UAV-mission-planning"
-    title: "UAV-mission-planning"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
 ---
 
 # Ahmet-Kaplan

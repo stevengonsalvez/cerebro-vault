@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 2, 0, 1, 1, 5, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 1, 0, 2, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_video_analysis"
+    title: "astrbot_plugin_video_analysis"
+    description: "一款为 AstrBot 设计的多平台分享链接解析插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "astrbot_plugin_magnet_preview"
+    title: "astrbot_plugin_magnet_preview"
+    description: "一款为 AstrBot 设计的磁链预览插件。"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "astrbot_plugin_keywords_reply"
     title: "astrbot_plugin_keywords_reply"
     description: "一款为 AstrBot 设计的关键词回复插件。"
@@ -100,15 +116,7 @@ repos:
     topics: []
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "astrbot_plugin_video_analysis"
-    title: "astrbot_plugin_video_analysis"
-    description: "一款为 AstrBot 设计的多平台分享链接解析插件。"
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-02"
   - name: "astrbot_plugin_reminder"
     title: "astrbot_plugin_reminder"
     description: "一款为 AstrBot 设计的定时提醒插件。"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-10-29"
-  - name: "astrbot_plugin_anti_flood"
-    title: "astrbot_plugin_anti_flood"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # Foolllll-J

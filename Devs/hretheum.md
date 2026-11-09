@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 14, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 0, 3, 12, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "librus-watch"
+    title: "librus-watch"
+    description: "Powiadomienia o odstępstwach od normalnego dnia szkolnego na podstawie Librusa"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "exocortex-public"
     title: "exocortex-public"
     description: "Exocortex engine and lab: public record of AI R&D (PL/EN). Private until the publishing gate is proven."
@@ -85,7 +93,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "recipe-shopping-list"
+    title: "recipe-shopping-list"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "ds-demo-tokens"
     title: "ds-demo-tokens"
     description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
@@ -110,22 +126,6 @@ repos:
     title: "ai_oracle"
     description: null
     language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "dataplatform-demo"
-    title: "dataplatform-demo"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "vector-wave-ideas"
-    title: "vector-wave-ideas"
-    description: "Ideas bank and creative concepts for content generation"
-    language: null
     topics: []
     stars_fact: 0
     first_seen: null

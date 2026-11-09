@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-01T07:04:04.000732+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "14444dc7b4eca899"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -94,9 +94,9 @@ repos:
       - "indie-game-dev"
       - "unity"
       - "unreal-engine"
-    stars_fact: 31387
+    stars_fact: 37532
     first_seen: "2026-11-01T07:00:37.930588+00:00"
-    last_push: "2026-10-19"
+    last_push: "2026-11-09"
 ---
 
 # Donchitos

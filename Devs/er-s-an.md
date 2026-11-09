@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 2, 0, 0, 2, 3, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 2, 0, 2, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,30 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "incidentroom"
+    title: "incidentroom"
+    description: "IncidentRoom — on-call incident closeout in Switch chat (Flip the Switch Track 01)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "hybridcopilot"
+    title: "hybridcopilot"
+    description: "HybridCopilot — Firebase AI Logic hybrid field assistant (#BuildHybridAI 2026 pre-Build)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "tabsplit"
+    title: "tabsplit"
+    description: "TabSplit — bill/tab split Mini App for Nimiq Pay (Cycle III · Pay). USDT + NIM. MIT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "meterbuy"
     title: "meterbuy"
     description: "Personal desk that buys ranked Telegraph intelligence and uses the quote."
@@ -101,30 +125,6 @@ repos:
   - name: "epochswitch"
     title: "epochswitch"
     description: "EpochSwitch: idle MUSD epoch policy agent (Mezo Soft Wave1 demo)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "hybridcopilot"
-    title: "hybridcopilot"
-    description: "HybridCopilot — Firebase AI Logic hybrid field assistant (#BuildHybridAI 2026 pre-Build)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "ashabrief"
-    title: "ashabrief"
-    description: "AshaBrief — vernacular ASHA visit notes → structured care briefs (Code for a Billion / Health). MIT."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "streamops-pair"
-    title: "streamops-pair"
-    description: "StreamOps Pair — TwitchCon Codex demo: sandbox desk for chat-cue proposals"
     language: "TypeScript"
     topics: []
     stars_fact: 0

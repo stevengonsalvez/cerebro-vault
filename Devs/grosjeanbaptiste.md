@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 1, 0, 0, 5, 2, 9, 3, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 5, 1, 11, 1, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "repo"
+    title: "repo"
+    description: "Repo tool"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "actautoma"
+    title: "actautoma"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "Actit"
+    title: "Actit"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "Actname"
+    title: "Actname"
+    description: "Name your repos"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "bioxus"
     title: "bioxus"
     description: "Shared crates for Dioxus apps: design tokens, widgets, i18n"
@@ -93,38 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "baba-config"
-    title: "baba-config"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "grosjeanbaptiste"
-    title: "grosjeanbaptiste"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "jsonresume-theme-grosjeanbaptiste"
-    title: "jsonresume-theme-grosjeanbaptiste"
-    description: "Json Resume Theme."
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "ORSolver"
-    title: "ORSolver"
-    description: "RO solver."
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # grosjeanbaptiste

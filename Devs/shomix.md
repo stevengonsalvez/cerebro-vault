@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 1, 0, 1, 0, 3, 4, 1, 4, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 0, 0, 4, 4, 0, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "simple-hash-router"
-    title: "simple-hash-router"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-08-21"
-  - name: "github-actions-playground"
-    title: "github-actions-playground"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-05-20"
-  - name: "testing-cloning"
-    title: "testing-cloning"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-04-18"
-  - name: "test-renaming"
-    title: "test-renaming"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-08"
-  - name: "next-sph-template"
-    title: "next-sph-template"
-    description: null
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-03-07"
+repos: []
 ---
 
 # shomix

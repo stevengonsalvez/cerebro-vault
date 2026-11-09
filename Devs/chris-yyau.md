@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [27, 8, 7, 2, 3, 5, 5, 10, 3, 8, 8, 1, 0]
+pushes_per_week: [13, 9, 6, 2, 1, 6, 9, 6, 5, 7, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 71
     distinct_repos: 4
-    active_days: 40
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1750
-  repo_per_active_day: 0.1000
+  push_per_day: 1.9189
+  repo_per_active_day: 0.1081
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 1
-    pushes_per_repo: 18.0000
-    active_days: 9
+    pushes_per_repo: 17.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 71
     distinct_repos: 4
-    pushes_per_repo: 21.7500
-    active_days: 40
+    pushes_per_repo: 17.7500
+    active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -85,15 +85,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "helmet"
-    title: "helmet"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-09"
   - name: "seatbelt"
     title: "seatbelt"
     description: "Zero-config security scanning for vibe coders. Claude Code plugin bundling gitleaks, checkov, trivy, and zizmor as pre-commit hooks."
@@ -101,7 +93,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-27"
+    last_push: "2026-11-07"
+  - name: "helmet"
+    title: "helmet"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "buddy-generator"
     title: "buddy-generator"
     description: "Re-roll your Claude Code /buddy companion"
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-87 pushes across 4 repositories on 40 active days in the last 90 days of public GitHub push activity.
+71 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

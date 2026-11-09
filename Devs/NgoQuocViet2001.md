@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "NgoQuocViet2001"
-    title: "NgoQuocViet2001"
-    description: "GitHub profile README for Ngo Quoc Viet"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "codex-observatory"
-    title: "codex-observatory"
-    description: "Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends."
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "astro-glob-hash-filenames"
-    title: "astro-glob-hash-filenames"
-    description: "Minimal reproduction: Astro glob() loader skips content files with # in their names"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "astro-trailing-slash-redirect-body"
-    title: "astro-trailing-slash-redirect-body"
-    description: "Minimal reproduction: Astro trailing-slash redirect body points at the requested URL"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "codex-keyring"
-    title: "codex-keyring"
-    description: "Native multi-account manager for Codex with manual alias switching and auto-switch failover."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-04-06"
-  - name: "campus-booking-ai-agent-workshop"
-    title: "campus-booking-ai-agent-workshop"
-    description: "Workshop repo for disciplined vibe coding with AI Agent, Rule, Skill, MCP, seeded data and one-command Docker startup."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
+repos: []
 ---
 
 # NgoQuocViet2001

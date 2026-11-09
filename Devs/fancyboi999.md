@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 0, 0, 1, 4, 5, 1, 1, 2, 1, 3, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 8, 2, 0, 1, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,9 +26,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,10 +61,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 4
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -106,28 +106,9 @@ repos:
       - "reinforcement-learning"
       - "transformers"
       - "tutorial"
-    stars_fact: 1305
+    stars_fact: 1322
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "goofish-cli"
-    title: "goofish-cli"
-    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "automation"
-      - "claude"
-      - "cli"
-      - "goofish"
-      - "mcp"
-      - "mcp-server"
-      - "python"
-      - "typer"
-      - "websocket"
-      - "xianyu"
-    stars_fact: 391
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-09"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -153,15 +134,34 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 303
+    stars_fact: 312
     first_seen: null
     last_push: "2026-09-30"
+  - name: "goofish-cli"
+    title: "goofish-cli"
+    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "cli"
+      - "goofish"
+      - "mcp"
+      - "mcp-server"
+      - "python"
+      - "typer"
+      - "websocket"
+      - "xianyu"
+    stars_fact: 445
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "weixin_search_mcp"
     title: "weixin_search_mcp"
     description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
     language: "Python"
     topics: []
-    stars_fact: 198
+    stars_fact: 204
     first_seen: null
     last_push: "2026-08-17"
   - name: "open-tag"

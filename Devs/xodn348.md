@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [1, 1, 0, 0, 1, 0, 2, 2, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 2, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2222
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,78 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 4.5000
-    active_days: 9
+    pushes_per_repo: 4.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "xodn348.github.io"
-    title: "xodn348.github.io"
-    description: "Personal website"
-    language: "HTML"
-    topics:
-      - "portfolio"
-      - "website"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "xodn348"
-    title: "xodn348"
-    description: "readme"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "destiny"
-    title: "destiny"
-    description: "Daily fortune-telling plugin for Claude Code."
-    language: "Python"
-    topics: []
-    stars_fact: 69
-    first_seen: null
-    last_push: "2026-05-29"
-  - name: "han"
-    title: "han"
-    description: "A compiled programming language with Korean keywords, written in Rust"
-    language: "Rust"
-    topics:
-      - "compiler"
-      - "hangul"
-      - "korean"
-      - "llvm"
-      - "programming-language"
-      - "rust"
-    stars_fact: 183
-    first_seen: null
-    last_push: "2026-07-31"
-  - name: "computermoney"
-    title: "computermoney"
-    description: "Autonomous payments between AI agents"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-19"
-  - name: "readhn"
-    title: "readhn"
-    description: "AI-native HackerNews MCP Server with EigenTrust expert ranking and explainable quality signals"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-03-11"
+repos: []
 ---
 
 # xodn348
 
-9 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xodn348

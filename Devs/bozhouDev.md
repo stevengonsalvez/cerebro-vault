@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-02T07:04:44.444715+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "122530937a82ec1d"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,35 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "codex-orange-book"
+    title: "codex-orange-book"
+    description: "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）"
+    language: "HTML"
+    topics: []
+    stars_fact: 3509
+    first_seen: "2026-06-26T06:00:06.940894+00:00"
+    last_push: "2026-08-14"
+  - name: "video-skills-toolkit"
+    title: "video-skills-toolkit"
+    description: "Video skills toolkit for Remotion talking-head, sketch story, and audio-to-subtitles workflows."
+    language: "JavaScript"
+    topics:
+      - "ai-skills"
+      - "remotion"
+      - "subtitles"
+      - "tts"
+      - "video"
+    stars_fact: 162
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "finding-unknowns-skills"
+    title: "finding-unknowns-skills"
+    description: "Unknown-discovery guidelines for Claude Code, derived from Thariq's (Anthropic) 'A Field Guide to Fable: Finding Your Unknowns'"
+    language: null
+    topics: []
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-07-06"
   - name: "shuaiguo"
     title: "shuaiguo"
     description: null
@@ -85,15 +114,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "codex-orange-book"
-    title: "codex-orange-book"
-    description: "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）"
-    language: "HTML"
-    topics: []
-    stars_fact: 3500
-    first_seen: "2026-06-26T06:00:06.940894+00:00"
-    last_push: "2026-08-14"
+    last_push: "2026-11-05"
   - name: "xhs-article-to-images"
     title: "xhs-article-to-images"
     description: "Agent-assisted Markdown article to Xiaohongshu image cards workflow"
@@ -110,27 +131,6 @@ repos:
     stars_fact: 157
     first_seen: null
     last_push: "2026-08-07"
-  - name: "video-skills-toolkit"
-    title: "video-skills-toolkit"
-    description: "Video skills toolkit for Remotion talking-head, sketch story, and audio-to-subtitles workflows."
-    language: "JavaScript"
-    topics:
-      - "ai-skills"
-      - "remotion"
-      - "subtitles"
-      - "tts"
-      - "video"
-    stars_fact: 155
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "finding-unknowns-skills"
-    title: "finding-unknowns-skills"
-    description: "Unknown-discovery guidelines for Claude Code, derived from Thariq's (Anthropic) 'A Field Guide to Fable: Finding Your Unknowns'"
-    language: null
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2026-07-06"
 ---
 
 # bozhouDev

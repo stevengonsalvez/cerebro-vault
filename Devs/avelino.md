@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 2, 1, 0, 1, 0, 0, 2, 2, 12, 7, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 1, 0, 0, 4, 5, 12, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,17 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp"
+    title: "mcp"
+    description: "CLI that turns MCP servers into terminal commands, single binary"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "mcp"
+      - "mcp-server"
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "awesome-go"
     title: "awesome-go"
     description: "A curated list of awesome Go frameworks, libraries and software"
@@ -88,9 +99,9 @@ repos:
       - "golang"
       - "golang-library"
       - "hacktoberfest"
-    stars_fact: 191417
+    stars_fact: 193000
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-06"
   - name: "avelino.run"
     title: "avelino.run"
     description: "My personal blog"
@@ -101,7 +112,20 @@ repos:
       - "personal-website"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "mads"
+    title: "mads"
+    description: "Describe your business in a TOML file. mads asks an LLM to plan the account and build the campaigns, checks every limit Google enforces, and writes the CSV files you upload in Google Ads."
+    language: "Rust"
+    topics:
+      - "ad-management"
+      - "ad-manager"
+      - "ads"
+      - "campaign-management"
+      - "google-ads"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "jbundle"
     title: "jbundle"
     description: "Package JVM applications (Clojure, Java) into self-contained binaries. No JVM installation required to run the output."
@@ -113,42 +137,20 @@ repos:
       - "jlink"
       - "jvm"
       - "rust"
-    stars_fact: 181
+    stars_fact: 185
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "airtraffic"
-    title: "airtraffic"
-    description: "Automatic URL routing for Firefox containers and Chrome tab groups. Define URL patterns, assign them to a destination, and tabs land in the right place automatically"
-    language: "TypeScript"
+    last_push: "2026-11-06"
+  - name: "avelino"
+    title: "avelino"
+    description: "Hey, I'm Avelino! 👋"
+    language: null
     topics:
-      - "chrome"
-      - "chrome-extension"
-      - "chromium"
-      - "firefox"
-      - "firefox-addon"
-      - "zen-browser"
-    stars_fact: 20
+      - "avelino"
+      - "readme"
+      - "readme-profile"
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "outl-plugin-ouraring"
-    title: "outl-plugin-ouraring"
-    description: "An outl plugin that syncs your Oura Ring health metrics into daily pages"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "mcp"
-    title: "mcp"
-    description: "CLI that turns MCP servers into terminal commands, single binary"
-    language: "Rust"
-    topics:
-      - "cli"
-      - "mcp"
-      - "mcp-server"
-    stars_fact: 72
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-04-01"
 ---
 
 # avelino

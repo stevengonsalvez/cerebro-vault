@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -65,6 +65,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
   - "b624a9cbfe8c4465"
@@ -90,7 +91,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [27, 2, 0, 0, 0, 5, 0, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [24, 0, 0, 0, 0, 5, 0, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,23 +101,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    active_days: 13
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8462
-  repo_per_active_day: 0.1538
+  push_per_day: 3.2000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -135,26 +136,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 13
+    pushes_per_repo: 16.0000
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 79 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "provenance: 80 vault signal(s) — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "talks"
+    title: "talks"
+    description: "My Talk Resources and Links"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "claude-code-xtras"
     title: "claude-code-xtras"
     description: "🤖 tools & skills I use daily, plus a few experimental ones 🧪"
@@ -205,6 +214,6 @@ repos:
 
 # rquintino
 
-37 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+32 pushes across 2 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

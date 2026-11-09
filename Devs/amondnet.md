@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0b22ca37fd3884c9"
   - "c489e6fb5febf2ab"
-pushes_per_week: [10, 3, 3, 0, 20, 35, 12, 16, 14, 6, 23, 2, 0]
+pushes_per_week: [9, 3, 2, 5, 28, 27, 7, 29, 2, 9, 21, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 9
-    active_days: 9
+    active_days: 8
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 144
+    pushes: 142
     distinct_repos: 18
-    active_days: 40
+    active_days: 39
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.6000
-  repo_per_active_day: 0.4500
+  push_per_day: 3.6410
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.9444
   basename_concentration: 0.1111
   shapes: []
@@ -59,34 +59,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 9
-    pushes_per_repo: 3.5556
-    active_days: 9
+    pushes_per_repo: 3.4444
+    active_days: 8
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 144
+    pushes: 142
     distinct_repos: 18
-    pushes_per_repo: 8.0000
-    active_days: 40
+    pushes_per_repo: 7.8889
+    active_days: 39
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 5
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "amondnet"
-    title: "amondnet"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "yoonmoon"
     title: "yoonmoon"
     description: "한글 AI 글 윤문·탐지 Claude Code 플러그인 — AI가 쓴 한국어를 사람처럼 윤문하고 AI 작성 여부를 진단"
@@ -98,9 +90,17 @@ repos:
       - "humanize"
       - "korean"
       - "llm-detection"
-    stars_fact: 18
+    stars_fact: 21
     first_seen: null
     last_push: "2026-09-11"
+  - name: "amondnet"
+    title: "amondnet"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "vercel-action"
     title: "vercel-action"
     description: "This action make a deployment with github actions instead of Vercel builder."
@@ -140,6 +140,6 @@ repos:
 
 # amondnet
 
-144 pushes across 18 repositories on 40 active days in the last 90 days of public GitHub push activity.
+142 pushes across 18 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/amondnet

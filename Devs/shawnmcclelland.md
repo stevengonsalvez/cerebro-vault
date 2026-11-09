@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 1, 2, 0, 4, 4, 7, 13, 6, 6, 4, 4, 1]
+pushes_per_week: [2, 1, 2, 0, 4, 4, 12, 13, 7, 1, 7, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skills"
-    title: "skills"
-    description: "A collection of agent skills I use on a regular basis"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-03"
-  - name: "claude-skill-finder"
-    title: "claude-skill-finder"
-    description: "A skill that allows users to quickly and easily find and install skills for Claude"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-27"
-  - name: "fastsearch"
-    title: "fastsearch"
-    description: "Fast, instant, client side search and navigation for Hugo"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-05-21"
-  - name: "shortcut-manager"
-    title: "shortcut-manager"
-    description: "Framer prototype of the Unity shortcut manager"
-    language: "CoffeeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-10-27"
+repos: []
 ---
 
 # shawnmcclelland

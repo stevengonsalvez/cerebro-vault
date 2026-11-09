@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "593d8a1dc9504a09"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 5, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 6, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,53 +77,6 @@ reasons:
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "easy-dataset"
-    title: "easy-dataset"
-    description: "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval"
-    language: "JavaScript"
-    topics:
-      - "dataset"
-      - "fine-tuning"
-      - "javascript"
-      - "llm"
-      - "rag"
-    stars_fact: 15069
-    first_seen: null
-    last_push: "2026-05-01"
-  - name: "garden-skills"
-    title: "garden-skills"
-    description: "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more."
-    language: "JavaScript"
-    topics:
-      - "agent"
-      - "claude"
-      - "gpt-image-2"
-      - "rag"
-      - "skills"
-      - "web-design"
-    stars_fact: 13475
-    first_seen: "2026-08-27T06:00:05.568199+00:00"
-    last_push: "2026-10-25"
-  - name: "easy-llm-cli"
-    title: "easy-llm-cli"
-    description: "An open-source AI agent that is compatible with multiple LLM models"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1319
-    first_seen: null
-    last_push: "2026-02-05"
-  - name: "ConardLi.github.io"
-    title: "ConardLi.github.io"
-    description: "ConardLi blogs"
-    language: "Stylus"
-    topics:
-      - "blog"
-      - "javascript"
-      - "react"
-      - "security"
-    stars_fact: 1158
-    first_seen: null
-    last_push: "2024-07-14"
   - name: "easy-agent"
     title: "easy-agent"
     description: "Production-ready open source terminal coding agent with readable, layered code: permission rules, OS sandboxing, MCP, skills, sub-agents, and Anthropic, OpenAI-compatible, Gemini, or local models."
@@ -142,17 +95,64 @@ repos:
       - "sandbox"
       - "terminal"
       - "typescript"
-    stars_fact: 1020
+    stars_fact: 1025
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "awesome-coding-js"
-    title: "awesome-coding-js"
-    description: "Algorithms and data structures implemented in JavaScript, with detailed explanations and tutorials"
-    language: null
+    last_push: "2026-11-08"
+  - name: "garden-skills"
+    title: "garden-skills"
+    description: "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more."
+    language: "JavaScript"
+    topics:
+      - "agent"
+      - "claude"
+      - "gpt-image-2"
+      - "rag"
+      - "skills"
+      - "web-design"
+    stars_fact: 14807
+    first_seen: "2026-08-27T06:00:05.568199+00:00"
+    last_push: "2026-11-08"
+  - name: "easy-dataset"
+    title: "easy-dataset"
+    description: "A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval"
+    language: "JavaScript"
+    topics:
+      - "dataset"
+      - "fine-tuning"
+      - "javascript"
+      - "llm"
+      - "rag"
+    stars_fact: 15103
+    first_seen: null
+    last_push: "2026-05-01"
+  - name: "easy-learn-ai"
+    title: "easy-learn-ai"
+    description: "Easy-to-understand AI learning resources for beginners."
+    language: "HTML"
     topics: []
-    stars_fact: 3280
+    stars_fact: 1445
     first_seen: null
-    last_push: "2024-01-10"
+    last_push: "2026-07-12"
+  - name: "rag-skill"
+    title: "rag-skill"
+    description: "A Skill dedicated to local knowledge base retrieval"
+    language: "Python"
+    topics: []
+    stars_fact: 727
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "ConardLi.github.io"
+    title: "ConardLi.github.io"
+    description: "ConardLi blogs"
+    language: "Stylus"
+    topics:
+      - "blog"
+      - "javascript"
+      - "react"
+      - "security"
+    stars_fact: 1159
+    first_seen: null
+    last_push: "2024-07-14"
 ---
 
 # ConardLi

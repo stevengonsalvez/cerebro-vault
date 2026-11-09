@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 3, 0, 6, 1, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 2, 1, 1, 5, 3, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,94 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Bortlesboat"
-    title: "Bortlesboat"
-    description: "Profile README"
-    language: "Python"
-    topics:
-      - "developer-portfolio"
-      - "github-profile"
-      - "profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "x402-seller-testkit"
-    title: "x402-seller-testkit"
-    description: "Seller-side x402 conformance and regression harness."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "conformance"
-      - "harness"
-      - "payments"
-      - "seller"
-      - "testing"
-      - "typescript"
-      - "x402"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "Bortlesboat.github.io"
-    title: "Bortlesboat.github.io"
-    description: "Personal website — FP&A + Bitcoin developer"
-    language: "JavaScript"
-    topics:
-      - "bitcoin"
-      - "fp-and-a"
-      - "github-pages"
-      - "personal-website"
-      - "portfolio"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "tv-viz"
-    title: "tv-viz"
-    description: "Beat-synced music visualizer that overlays Spotify's Now Playing on Google TV / Android TV. Real-time beat tracking, 6 GPU styles, measured not eyeballed."
-    language: "Java"
+  - name: "firstcut"
+    title: "firstcut"
+    description: "First Cut public website and publishing policies."
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-09"
+  - name: "paypal-402"
+    title: "paypal-402"
+    description: "HTTP 402 for AI agents, settled through PayPal: per-call API payments with spending policies"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "espn-fantasy-mods"
+    title: "espn-fantasy-mods"
+    description: "Userscripts that fix things ESPN Fantasy Football gets wrong (corrected Chance to Win, more coming)"
+    language: "JavaScript"
+    topics:
+      - "espn"
+      - "fantasy-football"
+      - "sports-analytics"
+      - "tampermonkey"
+      - "userscript"
+      - "violentmonkey"
+      - "win-probability"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "bitcoin-api"
+    title: "bitcoin-api"
+    description: "Self-hostable Bitcoin fee intelligence API with optional MCP and x402 integrations. Former public hosting is paused."
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "bitcoin"
+      - "bitcoin-api"
+      - "bitcoin-core"
+      - "bitcoin-node"
+      - "cryptocurrency"
+      - "docker"
+      - "fastapi"
+      - "fee-estimation"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "mempool"
+      - "model-context-protocol"
+      - "python"
+      - "rest-api"
+      - "rpc"
+      - "self-hosted"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "bitcoin-api-x402"
+    title: "bitcoin-api-x402"
+    description: "x402 stablecoin micropayment extension for Satoshi API"
+    language: "Python"
+    topics:
+      - "bitcoin"
+      - "fastapi"
+      - "payments"
+      - "satoshi-api"
+      - "stablecoin"
+      - "x402"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "carry"
+    title: "carry"
+    description: "Carry is the open portability profile for AI."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "ai-memory"
+      - "identity"
+      - "interoperability"
+      - "portability"
+      - "privacy"
+      - "standards"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # Bortlesboat

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 4, 1, 1, 6, 9, 4, 1, 0, 1, 1, 0]
+pushes_per_week: [1, 0, 5, 0, 3, 6, 7, 4, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -41,7 +41,7 @@ provenance:
   - "e26852201e6f38fc"
   - "f4325bf458dce49e"
   - "f8edf485bd740dbb"
-pushes_per_week: [27, 7, 2, 0, 0, 1, 4, 4, 0, 4, 2, 0, 1]
+pushes_per_week: [30, 3, 1, 0, 0, 1, 8, 0, 1, 3, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -58,16 +58,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 7
-    active_days: 18
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8889
-  repo_per_active_day: 0.3889
+  push_per_day: 2.9412
+  repo_per_active_day: 0.4118
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -94,55 +94,47 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 50
     distinct_repos: 7
-    pushes_per_repo: 7.4286
-    active_days: 18
+    pushes_per_repo: 7.1429
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 30 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "quickchat"
-    title: "quickchat"
-    description: null
+  - name: "hoshi"
+    title: "hoshi"
+    description: "Open-source SSH and Mosh terminal for iPhone and iPad, built for checking on coding agents. Ghostty rendering, tmux and Herdr built in, Mosh written in Swift."
     language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "oxide"
-    title: "oxide"
-    description: ":floppy_disk: Teach your PostgreSQL database how to speak MongoDB Wire Protocol"
-    language: "Rust"
     topics:
-      - "database"
-      - "mongodb"
-      - "postgres"
-      - "postgresql"
-      - "rust"
-    stars_fact: 286
+      - "coding-agents"
+      - "ghostty"
+      - "herdr"
+      - "ios"
+      - "ipad"
+      - "libghostty"
+      - "mosh"
+      - "ssh"
+      - "swift"
+      - "swiftui"
+      - "terminal"
+      - "terminal-emulator"
+      - "tmux"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "tsql"
-    title: "tsql"
-    description: "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
-    language: "Rust"
-    topics: []
-    stars_fact: 467
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "fracturedjson-rs"
-    title: "fracturedjson-rs"
+    last_push: "2026-11-09"
+  - name: "conductor"
+    title: "conductor"
     description: null
-    language: "Rust"
+    language: null
     topics: []
-    stars_fact: 42
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-01-17"
+    last_push: "2025-12-23"
   - name: "config"
     title: "config"
     description: null
@@ -150,19 +142,35 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
-  - name: "local-models"
-    title: "local-models"
+    last_push: "2026-11-08"
+  - name: "husk"
+    title: "husk"
+    description: "🌳 Inspired by Rust, Complies to JS"
+    language: "Rust"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "quickchat"
+    title: "quickchat"
     description: null
-    language: "Shell"
+    language: "Swift"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-04"
+  - name: "tsql"
+    title: "tsql"
+    description: "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
+    language: "Rust"
+    topics: []
+    stars_fact: 468
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # fcoury
 
-52 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
+50 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fcoury

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 5, 0, 5, 4, 1, 3, 1, 2, 3, 3, 0]
+pushes_per_week: [0, 5, 0, 0, 5, 4, 2, 2, 3, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 7
-    active_days: 5
+    pushes: 8
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 7
-    pushes_per_repo: 1.2857
-    active_days: 5
+    pushes: 8
+    distinct_repos: 6
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,20 +77,45 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp-clickhouse"
-    title: "mcp-clickhouse"
-    description: "MCP server for ClickHouse — explore, query, and manage with SQL-classification-based security modes and access-control flags."
-    language: "TypeScript"
+  - name: "dockndevai.github.io"
+    title: "dockndevai.github.io"
+    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "laya-guard"
+    title: "laya-guard"
+    description: null
+    language: "Python"
     topics:
-      - "clickhouse"
-      - "llm"
+      - "ai-safety"
+      - "guardrails"
+      - "laya"
+      - "mcp"
+      - "policy"
+      - "python"
+      - "security"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "mcp-laya"
+    title: "mcp-laya"
+    description: "Safe-by-default MCP server for Laya — fast, local, non-autoregressive typed decisions (classify / score / yes-no) for AI agents, in 100+ languages."
+    language: "Python"
+    topics:
+      - "ai"
+      - "classification"
+      - "laya"
       - "mcp"
       - "model-context-protocol"
-      - "olap"
-      - "sql"
-    stars_fact: 3
+      - "nlp"
+      - "python"
+      - "triage"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "mcp-kafka"
     title: "mcp-kafka"
     description: "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags."
@@ -104,64 +129,36 @@ repos:
       - "observability"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "mcp-cdp"
-    title: "mcp-cdp"
-    description: null
+    last_push: "2026-11-09"
+  - name: "mcp-azure"
+    title: "mcp-azure"
+    description: "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation)."
     language: "TypeScript"
     topics:
-      - "ai"
-      - "browser-automation"
-      - "cdp"
-      - "chrome-devtools-protocol"
-      - "electron"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "mcp-openshift"
-    title: "mcp-openshift"
-    description: "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "devops"
-      - "k8s"
-      - "kubernetes"
-      - "mcp"
-      - "model-context-protocol"
-      - "openshift"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "mcp-keycloak"
-    title: "mcp-keycloak"
-    description: "MCP server for Keycloak — multi-realm admin with security modes (read-only/read-write/admin) and access-control flags."
-    language: "TypeScript"
-    topics:
-      - "iam"
-      - "keycloak"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "mcp-azure-devops"
-    title: "mcp-azure-devops"
-    description: "MCP server for Azure DevOps — boards, repos, pipelines, projects — with governance controls (access modes, project scoping, protected projects, delete gating, typed confirmation)."
-    language: "TypeScript"
-    topics:
-      - "azure-devops"
-      - "devops"
+      - "azure"
+      - "cloud"
       - "governance"
       - "llm"
       - "mcp"
       - "model-context-protocol"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "mcp-oci"
+    title: "mcp-oci"
+    description: "MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with security modes and access-control flags."
+    language: "TypeScript"
+    topics:
+      - "iac"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "oci"
+      - "oracle-cloud"
+      - "terraform"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # dockndevai

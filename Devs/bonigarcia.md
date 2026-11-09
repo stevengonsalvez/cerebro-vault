@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 2, 2, 4, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 0, 2, 2, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,9 +94,9 @@ repos:
       - "prompting"
       - "rag"
       - "spec-driven-development"
-    stars_fact: 178
+    stars_fact: 186
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "browser-automation-apis"
     title: "browser-automation-apis"
     description: "Basic tests with Selenium, Cypress, Puppeteer, and Playwright"
@@ -104,23 +104,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "genai-selenium"
-    title: "genai-selenium"
-    description: "GenAI-assisted development of Selenium tests"
-    language: "Java"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "selenium-examples"
-    title: "selenium-examples"
-    description: "Basic examples using Selenium and Java"
-    language: "Java"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "rust-examples"
     title: "rust-examples"
     description: "Small programs written in Rust. Warm up for the upcoming Selenium Manager"
@@ -128,20 +112,53 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "job-tracker"
-    title: "job-tracker"
-    description: "Scheduled automated test for daily tracking jobs about Selenium, Cypress, Puppeteer, and Playwright on Linkedin"
+    last_push: "2026-11-09"
+  - name: "selenium-webdriver-java"
+    title: "selenium-webdriver-java"
+    description: "Examples of the O'Reilly book \"Hands-On Selenium WebDriver with Java\""
     language: "Java"
     topics:
-      - "cypress"
-      - "linkedin"
-      - "playwright"
-      - "puppeteer"
+      - "docker"
+      - "gradle"
+      - "java"
+      - "junit4"
+      - "junit5"
+      - "maven"
       - "selenium"
-    stars_fact: 14
+      - "selenium-jupiter"
+      - "selenium-webdriver"
+      - "selenium4"
+      - "testng"
+    stars_fact: 213
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "webdrivermanager"
+    title: "webdrivermanager"
+    description: "Automated driver management and other helper features for Selenium WebDriver in Java"
+    language: "Java"
+    topics:
+      - "chromedriver"
+      - "docker"
+      - "geckodriver"
+      - "java"
+      - "maven"
+      - "selenium"
+      - "selenium-webdriver"
+      - "webdriver"
+    stars_fact: 2691
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "dualsub"
+    title: "dualsub"
+    description: "DualSub: bilingual subtitles maker"
+    language: "Java"
+    topics:
+      - "desktop-app"
+      - "java"
+      - "srt-subtitles"
+    stars_fact: 218
+    first_seen: null
+    last_push: "2022-10-30"
 ---
 
 # bonigarcia

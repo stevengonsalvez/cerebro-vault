@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [15, 18, 21, 1, 10, 8, 17, 18, 31, 10, 6, 4, 2]
+pushes_per_week: [24, 13, 10, 9, 7, 3, 21, 43, 12, 1, 9, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 161
+    pushes: 154
     distinct_repos: 3
-    active_days: 42
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8333
-  repo_per_active_day: 0.0714
+  push_per_day: 3.7561
+  repo_per_active_day: 0.0732
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 9
+    pushes_per_repo: 11.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 161
+    pushes: 154
     distinct_repos: 3
-    pushes_per_repo: 53.6667
-    active_days: 42
+    pushes_per_repo: 51.3333
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-c64"
@@ -86,7 +86,7 @@ repos:
       - "c64"
       - "mcp-server"
       - "repl"
-    stars_fact: 18
+    stars_fact: 17
     first_seen: null
     last_push: "2025-08-13"
   - name: "puzzlebox"
@@ -94,7 +94,7 @@ repos:
     description: "An MCP server that hosts finite state machines as dynamic resources that multiple clients can subscribe to and be updated when their state changes."
     language: "TypeScript"
     topics: []
-    stars_fact: 32
+    stars_fact: 33
     first_seen: null
     last_push: "2025-08-24"
   - name: "node-multi-server-chat"
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-161 pushes across 3 repositories on 42 active days in the last 90 days of public GitHub push activity.
+154 pushes across 3 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall

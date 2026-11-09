@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [11, 3, 2, 0, 3, 5, 33, 14, 5, 16, 6, 2, 0]
+pushes_per_week: [6, 0, 2, 1, 4, 9, 34, 8, 4, 16, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 92
     distinct_repos: 5
-    active_days: 29
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4483
-  repo_per_active_day: 0.1724
+  push_per_day: 3.5385
+  repo_per_active_day: 0.1923
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 3
-    pushes_per_repo: 8.3333
-    active_days: 7
+    pushes_per_repo: 8.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 92
     distinct_repos: 5
-    pushes_per_repo: 20.0000
-    active_days: 29
+    pushes_per_repo: 18.4000
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai_interview"
@@ -130,6 +130,6 @@ repos:
 
 # gumwoo
 
-100 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+92 pushes across 5 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gumwoo

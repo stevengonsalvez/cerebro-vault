@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [14, 1, 5, 2, 7, 11, 22, 62, 28, 32, 4, 2, 0]
+pushes_per_week: [6, 3, 4, 6, 7, 9, 39, 64, 23, 17, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
-    distinct_repos: 16
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 38
+    distinct_repos: 14
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 190
+    pushes: 182
     distinct_repos: 43
-    active_days: 48
+    active_days: 46
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 3.9583
-  repo_per_active_day: 0.8958
+  push_per_day: 3.9565
+  repo_per_active_day: 0.9348
   not_owned_ratio: 0.2791
   basename_concentration: 0.0930
   shapes: []
@@ -57,26 +57,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
-    distinct_repos: 16
-    pushes_per_repo: 2.6875
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 38
+    distinct_repos: 14
+    pushes_per_repo: 2.7143
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 190
+    pushes: 182
     distinct_repos: 43
-    pushes_per_repo: 4.4186
-    active_days: 48
+    pushes_per_repo: 4.2326
+    active_days: 46
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "algoclerk"
+    title: "algoclerk"
+    description: "AlgoClerk: a Human Resource Machine-style puzzle game for practising interview algorithms, in Rust. Shows your solution as C, C++ and Rust. macOS, Linux, Windows, Android, iOS. Apache-2.0."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "vllm-vulkan"
+    title: "vllm-vulkan"
+    description: "Community maintained hardware plugin for vLLM via Vulkan"
+    language: "Rust"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-10-16"
   - name: "falabichos"
     title: "falabichos"
     description: "Falabichos: a Pokemon Red/Blue-style game that teaches European Portuguese to English speakers. Rust, Bevy, open source."
@@ -84,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "vllm-vulkan"
-    title: "vllm-vulkan"
-    description: "Community maintained hardware plugin for vLLM via Vulkan"
-    language: "Rust"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-03"
   - name: "nvsystemd"
     title: "nvsystemd"
     description: "NVRC-style GPU microVM init built from stock systemd unit files (Fedora and CentOS Stream 10 bases), benchmarked against NVIDIA/nvrc"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 52
     first_seen: null
     last_push: "2026-03-18"
-  - name: "agenticlinux"
-    title: "agenticlinux"
-    description: "An agentic distro with OpenClaw, llmman, Docker Sandboxes and Docker Engine pre-installed"
-    language: "Rust"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "sesame"
     title: "sesame"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-190 pushes across 43 repositories on 48 active days in the last 90 days of public GitHub push activity.
+182 pushes across 43 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [16, 2, 5, 11, 4, 26, 34, 21, 13, 15, 6, 0, 0]
+pushes_per_week: [5, 4, 9, 6, 12, 25, 33, 21, 12, 11, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 7
-    active_days: 9
+    pushes: 21
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
+    pushes: 142
     distinct_repos: 44
-    active_days: 51
+    active_days: 48
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.8627
+  push_per_day: 2.9583
+  repo_per_active_day: 0.9167
   not_owned_ratio: 0.0909
   basename_concentration: 0.0227
   shapes: []
@@ -59,78 +59,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 7
-    pushes_per_repo: 3.1429
-    active_days: 9
+    pushes: 21
+    distinct_repos: 6
+    pushes_per_repo: 3.5000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
+    pushes: 142
     distinct_repos: 44
-    pushes_per_repo: 3.4773
-    active_days: 51
+    pushes_per_repo: 3.2273
+    active_days: 48
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 51 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omarchy-theme-liftoff"
-    title: "omarchy-theme-liftoff"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 90
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "omarchy-plugin-grokbot-desktop"
     title: "omarchy-plugin-grokbot-desktop"
     description: null
-    language: "JavaScript"
+    language: "Python"
     topics: []
-    stars_fact: 13
+    stars_fact: 25
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "build-omarchy-plugins"
     title: "build-omarchy-plugins"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 105
+    stars_fact: 125
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "grokbot-physical"
-    title: "grokbot-physical"
-    description: "Hands-free countertop voice orb for Grok Bot — local wake word, sub-400ms xAI Realtime voice, agent webhook dispatch, and a 3D-printable 110mm Raspberry Pi Zero 2 W / ReSpeaker enclosure"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "omarchy-theme-tokyo-liftoff"
-    title: "omarchy-theme-tokyo-liftoff"
+    last_push: "2026-11-08"
+  - name: "omarchy-badges"
+    title: "omarchy-badges"
     description: null
-    language: "JavaScript"
+    language: null
     topics: []
-    stars_fact: 31
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-06"
+  - name: "omarchy-plugin-familiar-desktop"
+    title: "omarchy-plugin-familiar-desktop"
+    description: "Retiring Familiar Desktop for Omarchy. Feature development has ended; source and releases remain available. Read the EOL and migration guide before changing an existing installation. Core replacement availability depends on your Omarchy version/channel."
+    language: "QML"
+    topics: []
+    stars_fact: 84
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "omarchy-theme-liftoff"
+    title: "omarchy-theme-liftoff"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "omarchy-theme-bluechip"
     title: "omarchy-theme-bluechip"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 5
+    stars_fact: 11
     first_seen: null
     last_push: "2026-10-29"
 ---
 
 # tcballard
 
-153 pushes across 44 repositories on 51 active days in the last 90 days of public GitHub push activity.
+142 pushes across 44 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

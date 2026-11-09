@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 1, 0, 1, 0, 2, 0, 0, 2, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 1, 2, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,19 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Brohammad"
-    title: "Brohammad"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
+  - name: "BugSathi"
+    title: "BugSathi"
+    description: "Local-first bug reporting — Go API, ordered Kafka pipeline, MinIO, ffmpeg, AI reports. 116 tests, 35 ADRs."
+    language: "Go"
+    topics:
+      - "distributed-systems"
+      - "go"
+      - "kafka"
+      - "opentelemetry"
+      - "postgresql"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-09"
   - name: "VoxForge"
     title: "VoxForge"
     description: "Open-source voice AI infrastructure — unified pipeline, RAG, evaluation, replay, handoff. Self-hostable in one command."
@@ -102,39 +107,41 @@ repos:
       - "voice-ai"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-09"
+  - name: "Arden"
+    title: "Arden"
+    description: "Upcoming distributed job scheduler in Go — design phase. Postgres leasing, fencing tokens, DLQ."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "Brohammad"
+    title: "Brohammad"
+    description: "GitHub profile — backend, distributed systems, AI infrastructure."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "Portfolio"
+    title: "Portfolio"
+    description: "Personal site — brohammad.tech (Next.js portfolio and case studies)."
+    language: "TypeScript"
+    topics:
+      - "nextjs"
+      - "portfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "payment-state-machine"
     title: "payment-state-machine"
-    description: null
+    description: "Haskell learning project — payment state machine experiment."
     language: "Haskell"
     topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "BugSathi"
-    title: "BugSathi"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "MicroManus"
-    title: "MicroManus"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-01"
-  - name: "PaintCRM"
-    title: "PaintCRM"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-30"
 ---
 
 # Brohammad

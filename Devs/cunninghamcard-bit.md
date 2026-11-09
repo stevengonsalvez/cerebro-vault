@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 2, 3, 0, 0, 0, 6, 19, 5, 30, 25, 22, 3]
+pushes_per_week: [4, 4, 0, 0, 0, 0, 14, 12, 21, 19, 41, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 4
-    pushes_per_repo: 20.2500
-    active_days: 12
+    pushes_per_repo: 20.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dsh-auto-research"
-    title: "dsh-auto-research"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "attention"
     title: "attention"
     description: "desktop agent workbench"
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "dsh-auto-research"
+    title: "dsh-auto-research"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "nehir-niri-dual-monitor"
     title: "nehir-niri-dual-monitor"
     description: "Niri-style Nehir configuration for two side-by-side macOS displays"

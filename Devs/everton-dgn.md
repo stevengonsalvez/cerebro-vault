@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 2, 0, 0, 1, 2, 11, 9, 0, 7, 8, 4, 0]
+pushes_per_week: [2, 2, 0, 0, 2, 3, 11, 7, 6, 4, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 14
-    active_days: 24
+    pushes: 46
+    distinct_repos: 13
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0417
-  repo_per_active_day: 0.5833
+  push_per_day: 2.0909
+  repo_per_active_day: 0.5909
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,44 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 14
-    pushes_per_repo: 3.5000
-    active_days: 24
+    pushes: 46
+    distinct_repos: 13
+    pushes_per_repo: 3.5385
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "carreira-guiada"
+    title: "carreira-guiada"
+    description: "Automatize sua busca de emprego com IA: currículo, pesquisa de vagas, formulários, candidaturas e retornos por e-mail. Use seu modelo preferido, com execução por objetivo (goal) em ferramentas compatíveis."
+    language: "Python"
+    topics:
+      - "agentes-de-ia"
+      - "ai-assistant"
+      - "automacao"
+      - "busca-de-emprego"
+      - "candidaturas"
+      - "career"
+      - "carreira"
+      - "curriculo"
+      - "emprego"
+      - "inteligencia-artificial"
+      - "job-search"
+      - "open-source"
+      - "portuguese"
+      - "pt-br"
+      - "python"
+      - "resume"
+      - "trabalho"
+      - "vagas"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "llm-router"
     title: "llm-router"
     description: "Local OpenCode router for MiniMax, GLM, Claude, and Codex with adaptive routing and configurable tool policies"
@@ -93,7 +119,7 @@ repos:
       - "opencode"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "boilerplate_solidjs"
     title: "boilerplate_solidjs"
     description: "Boilerplate SolidJS 2 com TypeScript, Vite+, SSR e funções de servidor. Inclui Nitro, testes com Vitest e Playwright, lint com Oxlint, formatação com Oxfmt e deploy na Vercel."
@@ -114,7 +140,15 @@ repos:
       - "vitest"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "vitest-env-undefined-repro"
+    title: "vitest-env-undefined-repro"
+    description: "Reproduction: undefined values in test.env become the string \"undefined\""
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "content-lens"
     title: "content-lens"
     description: "Local-first browser extension that filters algorithmic feeds with explicit, explainable rules — no account, no backend, no model required. Adapters for YouTube, LinkedIn, X, Reddit and Hacker News."
@@ -151,38 +185,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
-  - name: "cdxt"
-    title: "cdxt"
-    description: "Interactive on/off toggle for MCP servers and plugins in the Codex CLI config (~/.codex/config.toml)"
-    language: "Shell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "vault-search-mcp"
-    title: "vault-search-mcp"
-    description: "Local-first MCP server for hybrid search across Obsidian vaults and Markdown knowledge bases."
-    language: "Python"
-    topics:
-      - "full-text-search"
-      - "knowledge-graph"
-      - "lancedb"
-      - "local-first"
-      - "markdown"
-      - "mcp"
-      - "model-context-protocol"
-      - "obsidian"
-      - "python"
-      - "rag"
-      - "semantic-search"
-      - "vector-search"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-02"
 ---
 
 # everton-dgn
 
-49 pushes across 14 repositories on 24 active days in the last 90 days of public GitHub push activity.
+46 pushes across 13 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-04T07:04:18.299279+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -93,15 +93,7 @@ repos:
       - "webgpu"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "missing-eval-audit"
-    title: "missing-eval-audit"
-    description: "Offline fixed-plan evaluation coverage and missing-outcome bounds. Python standard library; missing results are not failures."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "dsh-big-whale"
     title: "dsh-big-whale"
     description: "大鲸鱼 / Big Whale / 大クジラ — a trilingual DSH desktop companion with lip sync, expressions, idle motions and context-compaction rice."
@@ -115,6 +107,30 @@ repos:
       - "mesh-avatar"
       - "trilingual"
       - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "temp-cleanup-audit"
+    title: "temp-cleanup-audit"
+    description: "Offline Python AST checks for cleanup rooted in the shared temporary directory."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "Aliciawque"
+    title: "Aliciawque"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "missing-eval-audit"
+    title: "missing-eval-audit"
+    description: "Offline fixed-plan evaluation coverage and missing-outcome bounds. Python standard library; missing results are not failures."
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
@@ -126,22 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-29"
-  - name: "input-tree-digest"
-    title: "input-tree-digest"
-    description: "Fail-closed fingerprints and explainable diffs for explicitly required build inputs. Python standard library only."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "pr-head-audit"
-    title: "pr-head-audit"
-    description: "Read-only, dependency-free Python CLI for exact-head CI evidence across external pull requests."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
 ---
 
 # Aliciawque

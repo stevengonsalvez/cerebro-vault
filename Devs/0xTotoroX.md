@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 0, 0, 0, 0, 1, 2, 0, 1, 3, 0, 3, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 2, 0, 1, 3, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 3
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,20 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "soota"
-    title: "soota"
-    description: "Content collection, captions, and Markdown bundles powered by OpenCLI and TikHub."
-    language: "Python"
-    topics: []
+  - name: "vorsmate"
+    title: "vorsmate"
+    description: "A native Mac menu bar app for input sources, audio priorities, fan control, and local–Pacific time."
+    language: "Swift"
+    topics:
+      - "audio"
+      - "fan-control"
+      - "macos"
+      - "menu-bar"
+      - "swift"
+      - "swiftui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "lorelab"
-    title: "lorelab"
-    description: "LoreLab canonical source and component distribution"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "palboo"
     title: "palboo"
     description: "A desktop companion for Codex: answer outlines, next-step suggestions, and floating panels."
@@ -100,38 +98,42 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "openlist-oauth-info"
-    title: "openlist-oauth-info"
-    description: "Personal OpenList Google Drive OAuth information pages"
-    language: "HTML"
+    last_push: "2026-11-09"
+  - name: "lorelab"
+    title: "lorelab"
+    description: "LoreLab canonical source and component distribution"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "myoncode"
-    title: "myoncode"
-    description: "知见 / MyOncode — Cancer care management for patients and families."
-    language: "TypeScript"
-    topics:
-      - "ai-assistant"
-      - "healthcare"
-      - "patient-records"
-    stars_fact: 3
+    last_push: "2026-11-09"
+  - name: "soota"
+    title: "soota"
+    description: "Content collection, captions, and Markdown bundles powered by OpenCLI and TikHub."
+    language: "Python"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
-  - name: "model-deck"
-    title: "model-deck"
-    description: "A hover model matrix and preset switcher for Codex++."
+    last_push: "2026-11-09"
+  - name: "magpie-antigravity-switch"
+    title: "magpie-antigravity-switch"
+    description: "Antigravity Switch: manage local Antigravity desktop, CLI and Magpie accounts on macOS"
     language: "JavaScript"
     topics:
-      - "codex"
-      - "codexplusplus"
-      - "model-switcher"
-      - "user-script"
-    stars_fact: 5
+      - "antigravity"
+      - "magpie-page"
+      - "magpie-plugin"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-11-07"
+  - name: "typeless-dictionary-transfer"
+    title: "typeless-dictionary-transfer"
+    description: "Export, edit, preview, sync, and transfer Typeless dictionaries across accounts, beyond official bulk import."
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-05-14"
 ---
 
 # 0xTotoroX

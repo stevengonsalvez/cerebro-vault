@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AIC-LifeOS"
-    title: "AIC-LifeOS"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "LifeOS-Agent"
-    title: "LifeOS-Agent"
-    description: "A hackathon project focusing on Agent Harness, aimed at following one's growth."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "deeptutor_with_jellyfin"
-    title: "deeptutor_with_jellyfin"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-05"
-  - name: "Systematically_learn_and_do"
-    title: "Systematically_learn_and_do"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-02"
-  - name: "Aholo_Art_Gallery_Escape_Game"
-    title: "Aholo_Art_Gallery_Escape_Game"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "RolePlay-AI-Chat-platform"
-    title: "RolePlay-AI-Chat-platform"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-01"
+repos: []
 ---
 
 # yubr-zzh

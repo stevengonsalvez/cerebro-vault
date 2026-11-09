@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 1, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.1667
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,62 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "oytech"
-    title: "oytech"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "simplecv"
-    title: "simplecv"
-    description: "Minimalistic template for creating CV with Markdown and LaTeX"
-    language: "TeX"
-    topics:
-      - "cv"
-      - "latex"
-      - "markdown"
-      - "resume"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
-  - name: "github-contributions"
-    title: "github-contributions"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-26"
-  - name: "PortStatus"
-    title: "PortStatus"
-    description: "PoC macOS menu bar app showing status of installed MacPorts packages (ports)"
-    language: "Swift"
-    topics:
-      - "macos"
-      - "macports"
-      - "swift"
-      - "swiftui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-09"
+repos: []
 ---
 
 # oytech
 
-6 pushes across 1 repository on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/oytech

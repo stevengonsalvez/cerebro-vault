@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 0, 2, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 3, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,29 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "kaoyan-english-assistant"
+    title: "kaoyan-english-assistant"
+    description: "考研英语 AI 助手｜作文批改、RAG 追问、长难句与真题解析"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "crm-agent-lab"
+    title: "crm-agent-lab"
+    description: "Pi Native CRM source and interactive agent workbench demo"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "crm"
+      - "github-pages"
+      - "nextjs"
+      - "self-hosted"
+      - "supabase"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "agent-reliability-repros"
     title: "agent-reliability-repros"
     description: "Minimal, runnable reproductions of agent SDK reliability issues."

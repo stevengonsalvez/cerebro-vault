@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 1, 0, 0, 0, 0, 3, 0, 1, 2, 1, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 0, 1, 2, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,7 +100,7 @@ repos:
       - "x402-protocol"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-03"
   - name: "anchor-x402-safe-pay"
     title: "anchor-x402-safe-pay"
     description: "Screen a recipient before your agent sends funds — anchor-x402 risk pre-flight (allow/review/block) as a one-line wrapper around any send."

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [7, 4, 3, 0, 0, 6, 6, 3, 3, 0, 1, 0, 0]
+pushes_per_week: [4, 5, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 19
-    active_days: 20
+    pushes: 28
+    distinct_repos: 17
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 8
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.6500
-  repo_per_active_day: 0.9500
-  not_owned_ratio: 0.5263
-  basename_concentration: 0.1579
+  push_per_day: 1.5556
+  repo_per_active_day: 0.9444
+  not_owned_ratio: 0.5882
+  basename_concentration: 0.1765
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,113 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 33
-    distinct_repos: 19
-    pushes_per_repo: 1.7368
-    active_days: 20
+    pushes: 28
+    distinct_repos: 17
+    pushes_per_repo: 1.6471
+    active_days: 18
     repos_not_owned: 10
     not_owned_basenames: 8
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ida-pro-mcp"
-    title: "ida-pro-mcp"
-    description: "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP."
-    language: "Python"
-    topics:
-      - "ai"
-      - "aiagent"
-      - "binary-analysis"
-      - "ida-plugin"
-      - "ida-pro"
-      - "mcp"
-      - "mcp-server"
-      - "modelcontextprotocol"
-      - "reverse-engineering"
-    stars_fact: 13281
-    first_seen: null
-    last_push: "2026-09-26"
-  - name: "TitanHide"
-    title: "TitanHide"
-    description: "Hiding kernel-driver for x86/x64."
-    language: "C"
-    topics:
-      - "anti-debugging"
-      - "driver"
-      - "hacktoberfest"
-      - "rootkit"
-      - "windows"
-    stars_fact: 2934
-    first_seen: null
-    last_push: "2026-07-18"
-  - name: "dumpulator"
-    title: "dumpulator"
-    description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
-    language: "C"
-    topics:
-      - "cross-platform"
-      - "debugging-tools"
-      - "easy-to-use"
-      - "emulator"
-      - "hacktoberfest"
-      - "malware"
-      - "malware-analysis"
-      - "malware-analyzer"
-      - "malware-research"
-      - "minidump"
-      - "python"
-      - "python3"
-      - "reverse-engineering"
-      - "sandbox"
-      - "unicorn"
-      - "unpacking"
-      - "windows"
-      - "windows-internals"
-      - "x64"
-    stars_fact: 893
-    first_seen: null
-    last_push: "2024-02-02"
-  - name: "toilet-pi"
-    title: "toilet-pi"
-    description: "Control pi sessions across machines with your browser (or mobile PWA)."
-    language: "TypeScript"
-    topics:
-      - "pi"
-      - "pi-extension"
-    stars_fact: 40
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "agent-cost-dashboard"
-    title: "agent-cost-dashboard"
-    description: "Interactive web dashboard to monitor and analyze your coding agent API costs."
-    language: "Python"
-    topics: []
-    stars_fact: 36
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "claude-marketplace"
-    title: "claude-marketplace"
-    description: "My personal Claude Code marketplace."
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-28"
+repos: []
 ---
 
 # mrexodia
 
-33 pushes across 19 repositories on 20 active days in the last 90 days of public GitHub push activity.
+28 pushes across 17 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

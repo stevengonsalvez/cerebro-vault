@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 2, 5, 0, 6, 8, 13, 8, 14, 20, 12, 0, 1]
+pushes_per_week: [7, 3, 2, 4, 4, 12, 10, 16, 20, 7, 8, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 12
-    active_days: 11
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 36
+    pushes: 33
     distinct_repos: 12
-    pushes_per_repo: 3.0000
-    active_days: 11
+    pushes_per_repo: 2.7500
+    active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
@@ -76,56 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "window-switching-redux"
-    title: "window-switching-redux"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "flathub-activitypub"
-    title: "flathub-activitypub"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "flathub-health"
-    title: "flathub-health"
-    description: "https://razzeee.github.io/flathub-health/"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "flatpak-sbom"
-    title: "flatpak-sbom"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "aileron"
-    title: "aileron"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "flatpak-smoke"
-    title: "flatpak-smoke"
-    description: null
-    language: "Rust"
-    topics:
-      - "flatpak"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+repos: []
 ---
 
 # razzeee

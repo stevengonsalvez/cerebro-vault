@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 4, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "一个面向长视频内容理解的 Video Agent 平台"
     language: "Java"
     topics: []
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-10-05"
   - name: "jjj-n"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 3, 4, 0, 3, 6, 7, 10, 6, 5, 1, 0, 0]
+pushes_per_week: [0, 5, 2, 1, 2, 10, 6, 12, 4, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,20 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "kokoro-say"
-    title: "kokoro-say"
-    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
-    language: "Python"
-    topics:
-      - "cli"
-      - "kokoro"
-      - "onnx"
-      - "say"
-      - "text-to-speech"
-      - "tts"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
   - name: "orbit"
     title: "orbit"
     description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
@@ -106,7 +92,7 @@ repos:
       - "webgl"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-08"
   - name: "next-wiki"
     title: "next-wiki"
     description: "An AI native personal knowledge management & sharing platform"
@@ -114,15 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "ai-training"
-    title: "ai-training"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-06"
   - name: "herbert"
     title: "herbert"
     description: "Native SwiftUI H puzzles and Herbert Benchmark for iPhone, iPad and Mac. 30 original MIT lessons, 1,769 community puzzles, parallel AI evaluation with native judging, offline play, and English/中文/日本語."
@@ -145,7 +123,29 @@ repos:
       - "swiftui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-04"
+  - name: "kokoro-say"
+    title: "kokoro-say"
+    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
+    language: "Python"
+    topics:
+      - "cli"
+      - "kokoro"
+      - "onnx"
+      - "say"
+      - "text-to-speech"
+      - "tts"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "ai-training"
+    title: "ai-training"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "md-translate"
     title: "md-translate"
     description: "Zero-loss Markdown & LaTeX translation engine with Apple Silicon (MPS) / CUDA acceleration, CLI, CI/CD, and Model Context Protocol (MCP) for AI Agents."

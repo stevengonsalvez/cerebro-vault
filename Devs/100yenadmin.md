@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [28, 17, 53, 4, 6, 7, 26, 52, 49, 50, 50, 6, 2]
+pushes_per_week: [29, 55, 12, 3, 8, 4, 45, 67, 30, 47, 43, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 108
     distinct_repos: 16
-    active_days: 16
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 350
+    pushes: 345
     distinct_repos: 24
-    active_days: 59
+    active_days: 56
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.9322
-  repo_per_active_day: 0.4068
+  push_per_day: 6.1607
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.4167
   basename_concentration: 0.0417
   shapes: []
@@ -49,76 +49,56 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
+    pushes: 108
     distinct_repos: 16
-    pushes_per_repo: 7.1250
-    active_days: 16
+    pushes_per_repo: 6.7500
+    active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 350
+    pushes: 345
     distinct_repos: 24
-    pushes_per_repo: 14.5833
-    active_days: 59
+    pushes_per_repo: 14.3750
+    active_days: 56
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hermes-plan-mode"
-    title: "hermes-plan-mode"
-    description: "Claude Code-style plan mode for Hermes Agent: enforced read-only planning, then approval through Hermes' own approval prompt on every interactive surface."
+  - name: "hermes-personal-assistant"
+    title: "hermes-personal-assistant"
+    description: "Your Hermes agent runs errands on the real sites, fills every field, and stops at the last button until you say yes."
     language: "Python"
     topics:
-      - "ai-agents"
+      - "ai-agent"
       - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
-      - "plan-mode"
-    stars_fact: 92
+      - "personal-assistant"
+      - "travel"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
-  - name: "agent-skill-debloater"
-    title: "agent-skill-debloater"
-    description: "Installing packs of skills bloats context and waste tokens. Turn them into searchable skill libraries!"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "glasses-platform"
-    title: "glasses-platform"
-    description: "Smart glasses as a Hermes Agent channel: talk to your own agent from Meta Ray-Ban, Ray-Ban Display, Even G2 and Mentra glasses, with photos, streaming and pushes."
-    language: "Python"
-    topics:
-      - "ai-glasses"
-      - "hermes-agent"
-      - "hermes-plugin"
-      - "ray-ban-meta"
-      - "smart-glasses"
-      - "voice-assistant"
-      - "wearables"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-09"
   - name: "fish-audio-hermes"
     title: "fish-audio-hermes"
-    description: "Official Fish Audio plugin for Hermes Agent: expressive text-to-speech, speech-to-text, voice library, cloning and voice design."
+    description: "Your Hermes agent speaks and listens with Fish Audio: expressive voices in 80+ languages, voice design, live dictation."
     language: "Python"
     topics:
+      - "ai-agent"
       - "fish-audio"
+      - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
       - "speech-to-text"
@@ -126,42 +106,76 @@ repos:
       - "text-to-speech"
       - "tts"
       - "voice-cloning"
-    stars_fact: 112
+    stars_fact: 68
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "hermes-teammates"
     title: "hermes-teammates"
-    description: "Named subagent teammates for Hermes Agent: an operator-defined roster, context-carried follow-ups, live steering and a Kanban teammates lane. Stock Hermes; no patched core."
+    description: "Give your Hermes agent a fixed team: named teammates with roles, follow-ups that keep context, and a Kanban review lane."
     language: "Python"
     topics:
+      - "ai-agent"
       - "ai-agents"
+      - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
       - "kanban"
       - "multi-agent"
       - "subagents"
-    stars_fact: 94
+    stars_fact: 59
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-09"
   - name: "ai-emotion-chip"
     title: "ai-emotion-chip"
-    description: "AI Emotion Chip: the Hermes Emotion Chip plugin. Agent-authored expressive delivery for ElevenLabs v4 and Fish Audio, grounded in research on emotion concepts in Claude."
+    description: "Your Hermes agent decides how to say it: the sighs, whispers and pauses it writes, voiced by ElevenLabs or Fish Audio."
     language: "Python"
     topics:
+      - "ai-agent"
       - "elevenlabs"
       - "emotion"
       - "fish-audio"
+      - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
       - "tts"
       - "voice"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
+  - name: "boardstate-hermes-plugin"
+    title: "boardstate-hermes-plugin"
+    description: "From one ask, your Hermes agent builds a live board of KPIs, tables and charts, and keeps it current as plans change."
+    language: "JavaScript"
+    topics:
+      - "agent"
+      - "ai-agent"
+      - "dashboard"
+      - "hermes"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "mcp"
+      - "widgets"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "hermes-plan-mode"
+    title: "hermes-plan-mode"
+    description: "Plan mode for Hermes Agent: it explores read-only and writes a plan, and its edit tools stay blocked until you approve."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "ai-agents"
+      - "hermes"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "plan-mode"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # 100yenadmin
 
-350 pushes across 24 repositories on 59 active days in the last 90 days of public GitHub push activity.
+345 pushes across 24 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

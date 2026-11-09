@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 0, 7, 0, 4, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 2, 2, 5, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,25 +80,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "stepback.club"
-    title: "stepback.club"
-    description: "https://billmill.org/nba/"
-    language: "HTML"
+  - name: "yarapm"
+    title: "yarapm"
+    description: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "pymag-trees"
-    title: "pymag-trees"
-    description: "Code from the article \"Drawing Good-looking Trees\" in Python Magazine"
-    language: "Python"
-    topics:
-      - "graphics"
-      - "python"
-      - "trees"
-    stars_fact: 197
-    first_seen: null
-    last_push: "2024-05-28"
+    last_push: "2026-11-09"
   - name: "nba_data"
     title: "nba_data"
     description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
@@ -106,31 +95,39 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
+    last_push: "2026-11-09"
+  - name: "stepback.club"
+    title: "stepback.club"
+    description: "https://billmill.org/nba/"
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-08"
+  - name: "ytgif"
+    title: "ytgif"
+    description: "Create a gif from a youtube video with subtitles enabled, using yt-dlp and ffmpeg"
+    language: "Shell"
+    topics: []
+    stars_fact: 63
+    first_seen: null
+    last_push: "2025-06-05"
+  - name: "git-ls"
+    title: "git-ls"
+    description: "list files and git status in a repository"
+    language: "HTML"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-06-11"
   - name: "brightlantern"
     title: "brightlantern"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-10-30"
-  - name: "netmon"
-    title: "netmon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
 ---
 
 # llimllib

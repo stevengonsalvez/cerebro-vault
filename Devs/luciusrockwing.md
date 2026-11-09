@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 3, 3, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [2, 4, 1, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,29 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Termux-Android-pipeline-template"
-    title: "Termux-Android-pipeline-template"
-    description: "Build any GitHub project as a native Termux aarch64 .deb with GitHub Actions."
-    language: "Python"
-    topics:
-      - "aarch64"
-      - "android"
-      - "ci"
-      - "deb"
-      - "github-actions"
-      - "termux"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "skyspire"
-    title: "skyspire"
-    description: null
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
+repos: []
 ---
 
 # luciusrockwing

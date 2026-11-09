@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 4, 3, 0, 0, 0, 5, 1, 0, 1, 5, 0, 0]
+pushes_per_week: [9, 2, 1, 0, 0, 0, 6, 0, 0, 1, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,93 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "interview-compass"
-    title: "interview-compass"
-    description: "A bilingual, question-first library for external interviews and internal promotion, organized around intent and evidence."
-    language: "TypeScript"
-    topics:
-      - "ai-engineering"
-      - "astro"
-      - "bilingual"
-      - "career-development"
-      - "career-framework"
-      - "engineering"
-      - "github-pages"
-      - "hiring"
-      - "interview-preparation"
-      - "interview-questions"
-      - "management"
-      - "product-management"
-      - "promotion"
-      - "question-bank"
-      - "system-design"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "my-resume"
-    title: "my-resume"
-    description: "frontend engineer resume"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "nuska"
-    title: "nuska"
-    description: "Research and experiments on autonomous agents: from human intent to verified delivery."
-    language: "Python"
-    topics:
-      - "agent-evaluation"
-      - "agent-harness"
-      - "ai-agents"
-      - "autonomous-agents"
-      - "human-ai-collaboration"
-      - "multi-agent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "liyuk.github.io"
-    title: "liyuk.github.io"
-    description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "Interview-Book"
-    title: "Interview-Book"
-    description: "Frontend interview questions and an engineering knowledge guide, from web fundamentals to systems, frameworks, and career growth."
-    language: null
-    topics:
-      - "career-development"
-      - "computer-science"
-      - "frontend"
-      - "interview"
-      - "interview-questions"
-      - "javascript"
-      - "software-engineering"
-      - "vitepress"
-    stars_fact: 439
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "astro-memory-atlas"
-    title: "astro-memory-atlas"
-    description: "A bilingual Astro starter for shared memories, with timelines, annual recaps, an illustrated map, and anniversary countdowns."
-    language: "JavaScript"
-    topics:
-      - "astro"
-      - "astro-starter"
-      - "astro-theme"
-      - "bilingual"
-      - "github-pages"
-      - "leaflet"
-      - "memory-book"
-      - "static-site"
-      - "timeline"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-27"
+repos: []
 ---
 
 # Liyuk

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4f795faf4eede06c"
   - "dc9094c987231bcf"
-pushes_per_week: [14, 0, 2, 0, 2, 0, 0, 0, 0, 1, 3, 0, 0]
+pushes_per_week: [14, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,68 +92,9 @@ repos:
       - "marketing-automation"
       - "open-source"
       - "seo"
-    stars_fact: 25691
+    stars_fact: 27707
     first_seen: "2026-10-26T07:00:48.569334+00:00"
     last_push: "2026-11-01"
-  - name: "compass"
-    title: "compass"
-    description: "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault."
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "journaling"
-      - "life-os"
-      - "obsidian"
-      - "obsidian-vault"
-      - "pkm"
-      - "template"
-    stars_fact: 1039
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "keywordpro"
-    title: "keywordpro"
-    description: "Local-first keyword research with guided reports, charts, saved sessions, and PDF, CSV, and JSON exports."
-    language: "TypeScript"
-    topics:
-      - "byok"
-      - "dataforseo"
-      - "keyword-research"
-      - "local-first"
-      - "nextjs"
-      - "seo"
-      - "serp-analysis"
-      - "typescript"
-    stars_fact: 285
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "claude-youtube"
-    title: "claude-youtube"
-    description: "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-content"
-      - "claude-code"
-      - "claude-code-skill"
-      - "content-creation"
-      - "open-source"
-    stars_fact: 634
-    first_seen: null
-    last_push: "2026-04-10"
-  - name: "claude-shorts"
-    title: "claude-shorts"
-    description: "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping"
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-content"
-      - "claude-code"
-      - "claude-code-skill"
-      - "content-creation"
-      - "open-source"
-    stars_fact: 279
-    first_seen: null
-    last_push: "2026-07-11"
   - name: "claude-obsidian"
     title: "claude-obsidian"
     description: "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern."
@@ -179,9 +120,83 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 16061
+    stars_fact: 16298
     first_seen: "2026-08-25T06:00:03.138196+00:00"
     last_push: "2026-10-25"
+  - name: "obsidian-herdr"
+    title: "obsidian-herdr"
+    description: "Run Claude Code, Codex, Antigravity and OpenCode in persistent Herdr terminals inside Obsidian, with Mission Control and a safe, undoable vault bridge (CLI + MCP)."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "herdr"
+      - "mcp"
+      - "obsidian"
+      - "obsidian-plugin"
+      - "terminal"
+      - "xterm"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "web-obs"
+    title: "web-obs"
+    description: "Capture a website into your Obsidian vault as Markdown notes and explore it as an interactive 3D site globe. Runs locally, no AI or API keys."
+    language: "Python"
+    topics:
+      - "3d"
+      - "knowledge-graph"
+      - "llms-txt"
+      - "local-first"
+      - "markdown"
+      - "obsidian"
+      - "obsidian-plugin"
+      - "privacy"
+      - "robots-txt"
+      - "seo"
+      - "site-audit"
+      - "sitemap"
+      - "technical-seo"
+      - "website-crawler"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "claude-ads"
+    title: "claude-ads"
+    description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-code-skill"
+      - "google-ads"
+      - "marketing-automation"
+      - "meta-ads"
+      - "open-source"
+      - "paid-advertising"
+      - "ppc"
+    stars_fact: 10890
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "claude-canvas"
+    title: "claude-canvas"
+    description: "AI-orchestrated visual production for Obsidian Canvas. Create presentations, flowcharts, mood boards, knowledge graphs, and galleries with intelligent layout and AI-generated content."
+    language: "Python"
+    topics:
+      - "ai"
+      - "claude-code"
+      - "claude-code-skill"
+      - "knowledge-management"
+      - "obsidian"
+      - "open-source"
+      - "second-brain"
+    stars_fact: 305
+    first_seen: null
+    last_push: "2026-04-10"
 ---
 
 # AgriciDaniel

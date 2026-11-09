@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 0, 1, 0, 0, 2, 2, 1, 0, 2, 1, 0, 0]
+pushes_per_week: [3, 0, 1, 0, 1, 1, 2, 1, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 3
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.0769
-  repo_per_active_day: 0.2308
+  push_per_day: 1.0000
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -65,30 +65,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 13
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "botengyao"
-    title: "botengyao"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "botengyao.github.io"
     title: "botengyao.github.io"
     description: "A learning blog"
     language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "botengyao"
+    title: "botengyao"
+    description: "GitHub profile README"
+    language: null
     topics: []
     stars_fact: 0
     first_seen: null
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-11-08"
   - name: "cs_basics"
     title: "cs_basics"
     description: "Computer Science knowledge, including OS, Network, database, distributed system, and system design"
@@ -132,6 +132,6 @@ repos:
 
 # botengyao
 
-14 pushes across 3 repositories on 13 active days in the last 90 days of public GitHub push activity.
+12 pushes across 3 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/botengyao

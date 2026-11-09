@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 2, 8, 7, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 2, 2, 14, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "atom"
-    title: "atom"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "movie-noti"
-    title: "movie-noti"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "cpdown"
-    title: "cpdown"
-    description: "📥 cpdown - Copy to clipboard any webpage content/youtube subtitle as clean markdown with one click or shortcut"
-    language: "TypeScript"
-    topics:
-      - "extension"
-      - "llm"
-      - "markdown"
-      - "productivity"
-      - "react"
-      - "subtitle"
-      - "wxt"
-      - "youtube"
-    stars_fact: 582
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "wachi"
-    title: "wachi"
-    description: "Subscribe any link and get notified on change"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "opencode-translate"
-    title: "opencode-translate"
-    description: "Use opencode in your native language. LLM always hears English."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "oc-discord"
-    title: "oc-discord"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
+repos: []
 ---
 
 # ysm-dev

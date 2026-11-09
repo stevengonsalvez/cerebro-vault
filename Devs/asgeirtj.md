@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "716cf9e2237ac9db"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 1, 6, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 0, 1, 2, 4, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 3
-    active_days: 8
+    pushes: 11
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.3750
+  push_per_day: 1.5714
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,21 +66,21 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 3
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes: 11
+    distinct_repos: 2
+    pushes_per_repo: 5.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "system_prompts_leaks"
     title: "system_prompts_leaks"
-    description: "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
+    description: "Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily."
     language: "Python"
     topics:
       - "ai"
@@ -103,13 +103,13 @@ repos:
       - "prompt-engineering"
       - "system-prompt"
       - "system-prompts"
-    stars_fact: 70619
+    stars_fact: 71083
     first_seen: "2026-07-14T06:00:06.632654+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
 ---
 
 # asgeirtj
 
-12 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asgeirtj

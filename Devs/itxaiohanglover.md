@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "d1946b21c02e5fa5"
-pushes_per_week: [8, 3, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+pushes_per_week: [9, 1, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4286
-  repo_per_active_day: 0.2857
+  push_per_day: 2.6667
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -67,18 +67,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 7
+    pushes_per_repo: 8.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "big_screen_employee_manage"
+    title: "big_screen_employee_manage"
+    description: "可视化员工管理系统大屏：SpingBoot+Vue2，附10W字从0到1教程"
+    language: "Vue"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2024-04-18"
   - name: "mcp-codestyle-server"
     title: "mcp-codestyle-server"
     description: "MCP Codestyle Server 是一个基于 Spring AI 实现的 Model Context Protocol (MCP) 服务器，为 IDE 和 AI 代理提供代码模板搜索和检索工具。该服务从本地缓存查找模板，并在缺失时自动从远程仓库下载元数据和文件进行修复。"
@@ -127,19 +135,11 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "patent-writing"
-    title: "patent-writing"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-16"
+    last_push: "2026-11-09"
 ---
 
 # itxaiohanglover
 
-17 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+16 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/itxaiohanglover

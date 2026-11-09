@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [12, 2, 5, 0, 0, 10, 2, 8, 11, 10, 2, 0, 0]
+pushes_per_week: [11, 2, 5, 0, 2, 10, 0, 16, 3, 10, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 7
-    active_days: 23
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6957
-  repo_per_active_day: 0.3043
+  push_per_day: 2.7727
+  repo_per_active_day: 0.3182
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 6.5000
-    active_days: 4
+    pushes_per_repo: 6.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 7
-    pushes_per_repo: 8.8571
-    active_days: 23
+    pushes_per_repo: 8.7143
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ovid"
@@ -85,9 +85,9 @@ repos:
       - "bilingual-reader"
       - "bilingualism"
       - "reader"
-    stars_fact: 68
+    stars_fact: 67
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-09"
   - name: "GabrielDrapor.github.io"
     title: "GabrielDrapor.github.io"
     description: "Just some nag"
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-08"
   - name: "GabrielDrapor"
     title: "GabrielDrapor"
     description: "My profile README"
@@ -103,7 +103,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-02"
+    last_push: "2026-11-03"
   - name: "jcores"
     title: "jcores"
     description: "Easily discover and enjoy classic podcast episodes on Gcores"
@@ -132,6 +132,6 @@ repos:
 
 # GabrielDrapor
 
-62 pushes across 7 repositories on 23 active days in the last 90 days of public GitHub push activity.
+61 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GabrielDrapor

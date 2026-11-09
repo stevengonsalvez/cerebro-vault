@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 3, 35, 9, 5, 19, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 19, 21, 9, 5, 17, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 2
-    pushes_per_repo: 12.5000
-    active_days: 8
+    pushes_per_repo: 12.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -82,9 +82,33 @@ repos:
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
     language: "TypeScript"
     topics: []
-    stars_fact: 76189
+    stars_fact: 77203
     first_seen: "2026-10-01T06:00:50.112518+00:00"
     last_push: "2026-11-01"
+  - name: "shopify-graphql-admin-mcp"
+    title: "shopify-graphql-admin-mcp"
+    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-03-24"
+  - name: "claude-context-menu"
+    title: "claude-context-menu"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-02-19"
+  - name: "n8n-gcp-firebase"
+    title: "n8n-gcp-firebase"
+    description: "Deploy an n8n instance to Cloud Run"
+    language: "Shell"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-04-03"
   - name: "frontend-audit-skill"
     title: "frontend-audit-skill"
     description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
@@ -93,30 +117,6 @@ repos:
     stars_fact: 25
     first_seen: null
     last_push: "2026-05-13"
-  - name: "shopify-graphql-admin-mcp"
-    title: "shopify-graphql-admin-mcp"
-    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-03-24"
-  - name: "claude-context-menu"
-    title: "claude-context-menu"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-02-19"
-  - name: "n8n-gcp-firebase"
-    title: "n8n-gcp-firebase"
-    description: "Deploy an n8n instance to Cloud Run"
-    language: "Shell"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2025-04-03"
   - name: "portfolio-legacy-2023"
     title: "portfolio-legacy-2023"
     description: null

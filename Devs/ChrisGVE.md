@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 0, 1, 1, 5, 15, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 15, 5, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,25 @@ repos:
       - "sqlite"
       - "statistics"
       - "time-series"
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "taskforge-core"
+    title: "taskforge-core"
+    description: "Engine for taskforge: one task model across Taskwarrior, OmniFocus and code TODOs"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "taskforge-mcp"
+    title: "taskforge-mcp"
+    description: "Model Context Protocol (MCP) server for OmniFocus on macOS, with Rust, Python, and TypeScript implementations"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "pivot_panes.wezterm"
     title: "pivot_panes.wezterm"
     description: "Simple plugins for Wezterm to rotate the panes in a window"
@@ -162,22 +178,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-09-27"
-  - name: "mathlex"
-    title: "mathlex"
-    description: "Mathematical expression parser for LaTeX and plain text notation, producing a language-agnostic AST"
-    language: "Rust"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-05-26"
-  - name: "LuaSwift"
-    title: "LuaSwift"
-    description: "Lightweight Swift wrapper for Lua 5.1-5.5 (default 5.4) with optional extensions"
-    language: "Swift"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-06-10"
 ---
 
 # ChrisGVE

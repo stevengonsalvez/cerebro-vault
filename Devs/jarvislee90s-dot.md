@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 1, 0, 0, 1, 3, 4, 6, 2, 6, 4, 1, 0]
+pushes_per_week: [1, 1, 0, 0, 2, 4, 2, 7, 4, 3, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tuvis-website"
+    title: "tuvis-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "tuvis"
     title: "tuvis"
     description: "Tuvis(兔维斯) — desktop mission control for AI coding agents: live session monitoring, remote injection, Skill/MCP management & usage ledger. One hub for Claude Code, Codex, OpenCode & more."
@@ -98,17 +106,9 @@ repos:
       - "session-monitoring"
       - "tauri"
       - "usage-tracking"
-    stars_fact: 99
+    stars_fact: 100
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "tuvis-website"
-    title: "tuvis-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-06"
   - name: "VideoToDoc-skills"
     title: "VideoToDoc-skills"
     description: "三个协同工作的 Skill，实现从视频到飞书文档的自动化转换。"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2026-11-02"
   - name: "dsh-foxbell-pet"
     title: "dsh-foxbell-pet"
     description: "Foxbell 桌宠：DSH Web 右下角可拖拽小狐狸，多项目状态监控 + 完成语音提醒 + 显隐开关"

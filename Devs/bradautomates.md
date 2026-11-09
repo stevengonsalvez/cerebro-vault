@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "cc2152070c02e2ab"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -83,7 +83,7 @@ repos:
     description: "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude."
     language: "Python"
     topics: []
-    stars_fact: 19694
+    stars_fact: 20354
     first_seen: "2026-07-29T08:03:12.868339+00:00"
     last_push: "2026-09-25"
   - name: "head-of-content"
@@ -91,7 +91,7 @@ repos:
     description: "Social media content research and marketing skills for Claude Code and Cowork"
     language: "Python"
     topics: []
-    stars_fact: 292
+    stars_fact: 309
     first_seen: null
     last_push: "2026-01-23"
   - name: "second-brain"
@@ -99,7 +99,7 @@ repos:
     description: null
     language: "Python"
     topics: []
-    stars_fact: 229
+    stars_fact: 232
     first_seen: null
     last_push: "2026-03-29"
   - name: "company-skills-marketplace-template"
@@ -107,7 +107,7 @@ repos:
     description: "Fork-and-go template for a private team skills marketplace usable from Claude Code and Codex CLI"
     language: null
     topics: []
-    stars_fact: 80
+    stars_fact: 82
     first_seen: null
     last_push: "2026-05-10"
   - name: "content-ideas"
@@ -128,7 +128,7 @@ repos:
       - "tiktok"
       - "trends"
       - "youtube"
-    stars_fact: 148
+    stars_fact: 153
     first_seen: null
     last_push: "2026-05-30"
   - name: "focus-group"
@@ -136,7 +136,7 @@ repos:
     description: "Clone your customers from real sales-call transcripts and run them as a standing focus group — /focus-group Agent Skill for Claude Code, Codex, Cursor, and more"
     language: "Python"
     topics: []
-    stars_fact: 31
+    stars_fact: 32
     first_seen: null
     last_push: "2026-07-09"
 ---

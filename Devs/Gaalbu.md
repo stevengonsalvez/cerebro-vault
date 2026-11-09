@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [5, 1, 0, 1, 0, 1, 19, 6, 7, 4, 2, 0, 0]
+pushes_per_week: [4, 0, 0, 1, 1, 7, 15, 5, 9, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    active_days: 17
+    pushes: 44
+    distinct_repos: 14
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.7059
-  repo_per_active_day: 0.8824
+  push_per_day: 2.7500
+  repo_per_active_day: 0.8750
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0667
+  basename_concentration: 0.0714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
-    distinct_repos: 15
-    pushes_per_repo: 3.0667
-    active_days: 17
+    pushes: 44
+    distinct_repos: 14
+    pushes_per_repo: 3.1429
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "carimbo"
@@ -84,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "contatos-api"
+    title: "contatos-api"
+    description: "API REST de contatos em Node.js, Express, TypeScript e MySQL"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ff-mcp-bridge"
+    title: "ff-mcp-bridge"
+    description: "Firefox extension + local MCP server so Claude Code (or any MCP client) can control Firefox"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "de-la-do-para"
     title: "de-la-do-para"
     description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
@@ -92,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-09"
   - name: "Gaalbu"
     title: "Gaalbu"
     description: null
@@ -109,32 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "algebra-tiles"
-    title: "algebra-tiles"
-    description: "Interactive algebra-learning environment built with React and TypeScript using draggable algebra tiles."
-    language: "TypeScript"
-    topics:
-      - "algebra"
-      - "drag-and-drop"
-      - "education"
-      - "react"
-      - "typescript"
-      - "vite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "conty-views-humanas"
-    title: "conty-views-humanas"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
 ---
 
 # Gaalbu
 
-46 pushes across 15 repositories on 17 active days in the last 90 days of public GitHub push activity.
+44 pushes across 14 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gaalbu

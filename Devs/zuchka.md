@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 1, 5, 6, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 1, 9, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 15
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 15
@@ -76,58 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "railway-prometheus"
-    title: "railway-prometheus"
-    description: "one-click deployment of Prometheus to Railway"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "free-design-md"
-    title: "free-design-md"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "remove-markdown"
-    title: "remove-markdown"
-    description: "Strip Markdown stuff from text"
-    language: "JavaScript"
-    topics:
-      - "javascript"
-      - "markdown"
-      - "nodejs"
-    stars_fact: 379
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "mars-fan-scout"
-    title: "mars-fan-scout"
-    description: "Roboflow-assisted Mars polar fan discovery, review, and historical dust-direction demo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "zuchka.dev"
-    title: "zuchka.dev"
-    description: "Personal portfolio and blog at zuchka.dev. Hand-written HTML, no build step."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "mcp-doctor"
-    title: "mcp-doctor"
-    description: "A deterministic quality lab for MCP server interfaces"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+repos: []
 ---
 
 # zuchka

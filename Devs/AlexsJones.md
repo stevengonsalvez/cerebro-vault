@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [18, 1, 1, 1, 20, 22, 20, 7, 15, 1, 5, 11, 1]
+pushes_per_week: [8, 1, 2, 10, 19, 22, 12, 19, 3, 1, 15, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 123
+    pushes: 113
     distinct_repos: 20
-    active_days: 40
+    active_days: 37
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.0750
-  repo_per_active_day: 0.5000
+  push_per_day: 3.0541
+  repo_per_active_day: 0.5405
   not_owned_ratio: 0.8000
   basename_concentration: 0.5500
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 6
   "90d":
-    pushes: 123
+    pushes: 113
     distinct_repos: 20
-    pushes_per_repo: 6.1500
-    active_days: 40
+    pushes_per_repo: 5.6500
+    active_days: 37
     repos_not_owned: 16
     not_owned_basenames: 6
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llmfit"
@@ -89,17 +89,33 @@ repos:
       - "mlx"
       - "skill"
       - "unsloth"
-    stars_fact: 38559
+    stars_fact: 38859
     first_seen: "2026-08-18T06:00:11.656121+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "llmserve"
     title: "llmserve"
     description: "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
     language: "Rust"
     topics: []
-    stars_fact: 414
+    stars_fact: 417
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
+  - name: "website"
+    title: "website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "axjns-k8s-local-llm"
+    title: "axjns-k8s-local-llm"
+    description: "From zero to serving a model on Kubernetes, on your own machine: kind, llmfit, Ollama, GPUs (Intel Arc, NVIDIA, AMD) and k8sgpt. Tested, with real output."
+    language: "HTML"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "repo-steward"
     title: "repo-steward"
     description: "An autonomous agent for open-source repository management — triages issues, reviews PRs across iterations, watches your sites, and escalates only the decisions that are yours"
@@ -112,17 +128,9 @@ repos:
       - "maintainer-tools"
       - "open-source-maintenance"
       - "repository-management"
-    stars_fact: 31
+    stars_fact: 32
     first_seen: null
     last_push: "2026-10-15"
-  - name: "llama-panel"
-    title: "llama-panel"
-    description: "A MacOS llama-server command centre"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 74
-    first_seen: null
-    last_push: "2026-09-25"
   - name: "homebrew-llmfit"
     title: "homebrew-llmfit"
     description: null
@@ -130,19 +138,11 @@ repos:
     topics: []
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-28"
-  - name: "rostrum"
-    title: "rostrum"
-    description: "Push-to-talk voice input for coding agents, driven by a mic's Transmit button"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-03"
 ---
 
 # AlexsJones
 
-123 pushes across 20 repositories on 40 active days in the last 90 days of public GitHub push activity.
+113 pushes across 20 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

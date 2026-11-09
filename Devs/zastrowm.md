@@ -8,11 +8,11 @@ provenance_repos:
   - "strands-agents/harness-sdk"
 admitted: true
 low_n: true
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "aee9f0d16c69308f"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos:
-  - name: "Win32Interop.WinHandles"
-    title: "Win32Interop.WinHandles"
-    description: "Provides an abstraction on-top of IntPtr for Win32 windows, and provides methods for interacting with Win32 windows"
-    language: "C#"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2021-03-01"
-  - name: "yoto-mage"
-    title: "yoto-mage"
-    description: "App for managing your yoto library"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "mono-example"
-    title: "mono-example"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-15"
-  - name: "docs-2"
-    title: "docs-2"
-    description: "A duplicate of the docs repository"
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-09"
-  - name: "system"
-    title: "system"
-    description: "System & OS scripts"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-08"
-  - name: "sdk-typescript-private"
-    title: "sdk-typescript-private"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-12-03"
+repos: []
 ---
 
 # zastrowm

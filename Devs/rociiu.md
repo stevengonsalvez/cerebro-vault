@@ -8,11 +8,11 @@ provenance_repos:
   - "rociiu/talorys"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "5c1db9239c15fa63"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,64 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "talorys"
-    title: "talorys"
-    description: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "cloudflare"
-      - "cloudflare-workers"
-      - "durable-objects"
-      - "personal-assistant"
-      - "react"
-      - "self-hosted"
-      - "typescript"
-      - "workers-ai"
-    stars_fact: 1437
-    first_seen: "2026-10-11T06:01:22.164700+00:00"
-    last_push: "2026-11-03"
-  - name: "hanzelo-stroke-data"
-    title: "hanzelo-stroke-data"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "webvet"
-    title: "webvet"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "mcploom"
-    title: "mcploom"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "minimum-agent"
-    title: "minimum-agent"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "rociiu.github.io"
-    title: "rociiu.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-05"
+repos: []
 ---
 
 # rociiu

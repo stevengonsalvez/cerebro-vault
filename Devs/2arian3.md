@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 1, 0, 1, 2, 2, 1, 1, 1, 1, 2, 0]
+pushes_per_week: [0, 0, 1, 1, 1, 2, 1, 1, 1, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,18 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "neetcode-submissions"
-    title: "neetcode-submissions"
-    description: "My NeetCode.io problem submissions"
-    language: "C++"
-    topics: []
-    stars_fact: 0
+  - name: "2arian3.github.io"
+    title: "2arian3.github.io"
+    description: "This repo contains and hosts all of my personal website documents."
+    language: "HTML"
+    topics:
+      - "css"
+      - "html"
+      - "js"
+      - "personal-website"
+    stars_fact: 11
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
   - name: "2arian3"
     title: "2arian3"
     description: null
@@ -92,7 +96,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "BSc-Thesis"
     title: "BSc-Thesis"
     description: null
@@ -120,14 +132,6 @@ repos:
       - "react"
       - "vllm"
     stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "T15-A4I2026"
-    title: "T15-A4I2026"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
 ---

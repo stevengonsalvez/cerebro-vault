@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [5, 3, 0, 0, 0, 8, 5, 0, 4, 14, 9, 0, 0]
+pushes_per_week: [5, 3, 0, 0, 1, 10, 2, 4, 8, 6, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,23 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "personal-site"
+    title: "personal-site"
+    description: "Personal website and blog of Pablo — built with Next.js, TypeScript and Tailwind CSS"
+    language: "TypeScript"
+    topics:
+      - "blog"
+      - "mdx"
+      - "nextjs"
+      - "personal-website"
+      - "portfolio"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "bootdev-ssg"
     title: "bootdev-ssg"
     description: "Static site generator (Boot.dev course project)"
@@ -117,14 +134,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-23"
-  - name: "Asteroids"
-    title: "Asteroids"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-11"
 ---
 
 # jimpablo

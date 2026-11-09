@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 0, 0, 0, 5, 0, 8, 11, 0, 4, 3, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 3, 0, 17, 2, 2, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 11
     active_days: 17
     repos_not_owned: 11
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0588
+  push_per_day: 1.8824
   repo_per_active_day: 0.6471
   not_owned_ratio: 1.0000
   basename_concentration: 0.0909
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 11
-    pushes_per_repo: 3.1818
+    pushes_per_repo: 2.9091
     active_days: 17
     repos_not_owned: 11
     not_owned_basenames: 11
@@ -113,6 +113,6 @@ repos:
 
 # igorcosta
 
-35 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+32 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/igorcosta

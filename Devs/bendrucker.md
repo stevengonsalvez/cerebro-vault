@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 7, 4, 0, 11, 17, 28, 16, 10, 12, 18, 0, 0]
+pushes_per_week: [6, 6, 4, 9, 3, 16, 43, 1, 13, 22, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 30
     distinct_repos: 3
-    active_days: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
+    pushes: 128
     distinct_repos: 8
-    active_days: 36
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.6111
-  repo_per_active_day: 0.2222
+  push_per_day: 3.7647
+  repo_per_active_day: 0.2353
   not_owned_ratio: 0.1250
   basename_concentration: 0.1250
   shapes: []
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 30
     distinct_repos: 3
-    pushes_per_repo: 12.6667
-    active_days: 9
+    pushes_per_repo: 10.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
+    pushes: 128
     distinct_repos: 8
-    pushes_per_repo: 16.2500
-    active_days: 36
+    pushes_per_repo: 16.0000
+    active_days: 34
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "angular-credit-cards"
+    title: "angular-credit-cards"
+    description: "Angular directives for parsing and validating credit card inputs"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 331
+    first_seen: null
+    last_push: "2022-05-09"
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles for zsh / macOS"
@@ -84,41 +92,7 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "terraform-provider-pkcs12"
-    title: "terraform-provider-pkcs12"
-    description: "Terraform provider for working with PKCS12 archives"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "azure-blob-to-s3"
-    title: "azure-blob-to-s3"
-    description: "Batch copy files from Azure Blob Storage to Amazon S3"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "find-terraform-modules"
-    title: "find-terraform-modules"
-    description: "GitHub Action to find all Terraform module directories in a monorepo"
-    language: "TypeScript"
-    topics:
-      - "github-actions"
-      - "terraform"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "fast-luhn"
-    title: "fast-luhn"
-    description: "A fast Luhn algorithm for validating credit cards"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 78
-    first_seen: null
-    last_push: "2025-08-13"
+    last_push: "2026-11-09"
   - name: "claude"
     title: "claude"
     description: "My personal plugin marketplace and settings for Claude Code"
@@ -128,11 +102,35 @@ repos:
       - "claude-code-plugin"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-09"
+  - name: "honeycomb-cli"
+    title: "honeycomb-cli"
+    description: "CLI for interacting with the Honeycomb API"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "activity-hub"
+    title: "activity-hub"
+    description: "System of record for my activity data: Strava + Wahoo ingest, R2 raw archive, DuckDB lake, website feed"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "logbook"
+    title: "logbook"
+    description: "Stores public code contribution data in Cloudflare for batch analytics"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # bendrucker
 
-130 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
+128 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-03T07:04:47.904249+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "f467fac388ed8e8c"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -77,20 +77,6 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "awesome-ai-web-scraping"
-    title: "awesome-ai-web-scraping"
-    description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
-    language: null
-    topics:
-      - "ai"
-      - "awesome"
-      - "awesome-list"
-      - "llm"
-      - "scraping"
-      - "web-scraping"
-    stars_fact: 118
-    first_seen: null
-    last_push: "2026-05-18"
   - name: "obscura"
     title: "obscura"
     description: "The headless browser for AI agents and web scraping"
@@ -105,17 +91,23 @@ repos:
       - "playwright"
       - "puppeteer"
       - "rust"
-    stars_fact: 29994
+    stars_fact: 31671
     first_seen: "2026-08-09T06:00:06.171858+00:00"
-    last_push: "2026-11-01"
-  - name: "obscura-benchmark"
-    title: "obscura-benchmark"
-    description: "Obscura browser benchmark"
-    language: "Python"
-    topics: []
-    stars_fact: 11
+    last_push: "2026-11-09"
+  - name: "awesome-ai-web-scraping"
+    title: "awesome-ai-web-scraping"
+    description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
+    language: null
+    topics:
+      - "ai"
+      - "awesome"
+      - "awesome-list"
+      - "llm"
+      - "scraping"
+      - "web-scraping"
+    stars_fact: 124
     first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-05-18"
   - name: "reCaptchaV3-Invisible-Solver"
     title: "reCaptchaV3-Invisible-Solver"
     description: "reCaptcha V3 Invisible Solver"
@@ -124,9 +116,17 @@ repos:
       - "captcha"
       - "recaptcha"
       - "solver"
-    stars_fact: 62
+    stars_fact: 64
     first_seen: null
     last_push: "2026-04-04"
+  - name: "obscura-benchmark"
+    title: "obscura-benchmark"
+    description: "Obscura browser benchmark"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "h4ckf0r0day"
     title: "h4ckf0r0day"
     description: null

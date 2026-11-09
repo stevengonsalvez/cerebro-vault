@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 1, 0, 0, 6, 6, 1, 2, 0, 3, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 11, 0, 1, 2, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "promptster-cli"
-    title: "promptster-cli"
-    description: "Promptster CLI — candidate environment setup, repo cloning, and AI coding session capture (Claude Code, Cursor, Codex)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "promptster-teams-cli"
-    title: "promptster-teams-cli"
-    description: "On-device, auditable AI-coding capture for internal engineering teams"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "promptster-vscode"
-    title: "promptster-vscode"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "promptster-docs"
-    title: "promptster-docs"
-    description: "Documentation for the Promptster platform."
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "promptster-setup"
-    title: "promptster-setup"
-    description: "Promptster enrollment installer for Claude Code and Codex telemetry — readable before you run it"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "cc-audit"
-    title: "cc-audit"
-    description: "Local-first CLI that audits Claude Code transcripts for spend by model, avoidable context-carry waste, always-on config cost, and AI-fluency signals. Runs fully offline by default; opt-in tiers gate any egress."
-    language: "TypeScript"
-    topics:
-      - "ai-fluency"
-      - "anthropic"
-      - "claude-code"
-      - "cli"
-      - "cost-analysis"
-      - "developer-tools"
-      - "local-first"
-      - "observability"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-16"
+repos: []
 ---
 
 # pa-arth

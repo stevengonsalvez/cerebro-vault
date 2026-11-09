@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "dae9f02535f7c22f"
-pushes_per_week: [3, 2, 0, 0, 0, 2, 8, 3, 0, 0, 1, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 4, 6, 3, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 11
-    active_days: 13
+    pushes: 17
+    distinct_repos: 10
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4615
-  repo_per_active_day: 0.8462
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.1818
+  push_per_day: 1.5455
+  repo_per_active_day: 0.9091
+  not_owned_ratio: 0.1000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,18 +67,55 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 13
+    pushes: 17
+    distinct_repos: 10
+    pushes_per_repo: 1.7000
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "justonce"
+    title: "justonce"
+    description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
+    language: "Python"
+    topics:
+      - "deduplication"
+      - "distributed-systems"
+      - "exactly-once"
+      - "fintech"
+      - "idempotency"
+      - "payments"
+      - "postgres"
+      - "python"
+      - "reconciliation"
+      - "reliability"
+      - "retry"
+      - "sqlite"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "distributed-systems-skills"
+    title: "distributed-systems-skills"
+    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "distributed-systems"
+      - "exactly-once"
+      - "idempotency"
+      - "payments"
+      - "reliability"
+      - "site-reliability-engineering"
+      - "skills"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "abhisheksharma2411.github.io"
     title: "abhisheksharma2411.github.io"
     description: null
@@ -111,26 +148,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "gcp-failure-driven-operations-lab"
-    title: "gcp-failure-driven-operations-lab"
-    description: "Runnable labs for Failure-Driven Architecture on Google Cloud: safe global releases, an out-of-band recovery plane, tested disaster recovery, a zero-trust landing zone, and money-movement observability. Zero runtime dependencies, no cloud project required."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "gcp-transaction-correctness-lab"
-    title: "gcp-transaction-correctness-lab"
-    description: "Runnable labs for transaction correctness on Google Cloud: retry safety, idempotency, durable state, ledger invariants, event lineage, and reconciliation."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
 ---
 
 # abhisheksharma2411
 
-19 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
+17 pushes across 10 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/abhisheksharma2411

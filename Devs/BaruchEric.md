@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [5, 0, 0, 0, 0, 28, 0, 1, 3, 1, 0, 1, 0]
+pushes_per_week: [5, 0, 0, 0, 24, 4, 0, 2, 3, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,28 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
+  - name: "scan-it"
+    title: "scan-it"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "camwall"
+    title: "camwall"
+    description: "A browser video wall for RTSP cameras and recorders: layouts, groups, saved views, ONVIF discovery"
+    language: "TypeScript"
+    topics:
+      - "cctv"
+      - "go2rtc"
+      - "nvr"
+      - "onvif"
+      - "rtsp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "atlas"
     title: "atlas"
     description: "An interactive map of a home network: drawn sheets on one canvas, live status from Prometheus"
@@ -116,32 +137,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "whisperlog"
-    title: "whisperlog"
-    description: "Local-first audio transcription pipeline (Whisper + SQLite/FTS5, optional Claude/Ollama enrichment, MCP). Auto-detects Sony ICD-UX570; works with any audio source."
-    language: "Python"
-    topics:
-      - "anthropic"
-      - "claude"
-      - "local-first"
-      - "mcp"
-      - "ollama"
-      - "privacy"
-      - "sony-icd-ux570"
-      - "sqlite-fts5"
-      - "transcription"
-      - "whisper"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-19"
-  - name: "memgov-bakeoff-store"
-    title: "memgov-bakeoff-store"
-    description: "memgov Phase 0 bake-off store, synthetic and throwaway"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-18"
 ---
 
 # BaruchEric

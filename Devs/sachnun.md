@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 0, 11, 1, 6, 20, 18, 12, 17, 11, 3, 2, 0]
+pushes_per_week: [2, 6, 6, 3, 4, 25, 20, 19, 8, 6, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 7
-    active_days: 41
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5854
-  repo_per_active_day: 0.1707
+  push_per_day: 2.7105
+  repo_per_active_day: 0.1842
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -57,89 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 5
-    pushes_per_repo: 3.4000
-    active_days: 8
+    pushes_per_repo: 3.2000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 106
+    pushes: 103
     distinct_repos: 7
-    pushes_per_repo: 15.1429
-    active_days: 41
+    pushes_per_repo: 14.7143
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opendum"
-    title: "opendum"
-    description: "Your dummy, one proxy."
-    language: "TypeScript"
-    topics:
-      - "anthropic"
-      - "openai"
-      - "proxy"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Personal dotfiles."
-    language: "TypeScript"
-    topics:
-      - "chezmoi"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "nimeplay"
-    title: "nimeplay"
-    description: "Minimal anime streaming."
-    language: "TypeScript"
-    topics:
-      - "cloudflare"
-      - "nuxt"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "rctiplus"
-    title: "rctiplus"
-    description: "RCTI+ streaming."
-    language: "TypeScript"
-    topics:
-      - "iptv"
-      - "m3u8"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "pi-opendum"
-    title: "pi-opendum"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "unroxy"
-    title: "unroxy"
-    description: "Universal rotating proxy."
-    language: "Rust"
-    topics:
-      - "proxy"
-      - "psiphon-core"
-      - "rust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
+repos: []
 ---
 
 # sachnun
 
-106 pushes across 7 repositories on 41 active days in the last 90 days of public GitHub push activity.
+103 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sachnun

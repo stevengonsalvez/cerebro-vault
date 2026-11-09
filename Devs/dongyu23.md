@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vivo-notes-migrator"
+    title: "vivo-notes-migrator"
+    description: "vivo 原子笔记 → Mac 备忘录/JSON/Markdown 一键迁移工具（CDP + webpack 注入，零依赖 Node CLI）"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "bilibili-copy-subtitles"
     title: "bilibili-copy-subtitles"
     description: "Bilibili 一键复制纯文字字幕的 Tampermonkey 用户脚本"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-05"
   - name: "ACL4SSR-Luyuyun"
     title: "ACL4SSR-Luyuyun"
     description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-04-11"
-  - name: "ai-driven-develop-skills"
-    title: "ai-driven-develop-skills"
-    description: "让 Claude Code 像一支纪律严明的工程团队，从需求到部署分步推进、每步验收，可靠交付完整项目。"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-11"
 ---
 
 # dongyu23

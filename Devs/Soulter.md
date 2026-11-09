@@ -9,11 +9,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 0, 2, 1, 2, 5, 5, 15, 6, 5, 4, 0, 0]
+pushes_per_week: [4, 0, 3, 0, 2, 5, 16, 4, 6, 7, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 7
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,55 +77,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "helloworld"
-    title: "helloworld"
-    description: "AstrBot Plugin Template"
-    language: "Python"
-    topics: []
-    stars_fact: 193
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "Soulter"
-    title: "Soulter"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "astrbot_plugin_essential"
-    title: "astrbot_plugin_essential"
-    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
-    language: "Python"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "astrbot_plugin_bilibili"
-    title: "astrbot_plugin_bilibili"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 101
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "one-sponsor-list"
-    title: "one-sponsor-list"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "astrbot_plugin_wake_enhance"
-    title: "astrbot_plugin_wake_enhance"
-    description: "让 AstrBot 支持正则匹配唤醒、唤醒后持续对话"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-02-09"
+repos: []
 ---
 
 # Soulter

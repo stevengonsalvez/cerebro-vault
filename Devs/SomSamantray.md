@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+repos_populated: false
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [12, 4, 0, 1, 2, 3, 3, 1, 2, 9, 1, 0, 0]
+pushes_per_week: [11, 3, 1, 0, 2, 4, 2, 3, 4, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 18
-    active_days: 25
+    pushes: 36
+    distinct_repos: 17
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5200
-  repo_per_active_day: 0.7200
+  push_per_day: 1.5652
+  repo_per_active_day: 0.7391
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0556
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,56 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
-    distinct_repos: 18
-    pushes_per_repo: 2.1111
-    active_days: 25
+    pushes: 36
+    distinct_repos: 17
+    pushes_per_repo: 2.1176
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SomSamantray"
-    title: "SomSamantray"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "JS-Animation-Webpage"
-    title: "JS-Animation-Webpage"
-    description: "Claude Code skill for adding stunning JavaScript animations to any web project. Covers GSAP, Three.js, anime.js, Motion.dev, and 30+ libraries with production-ready code recipes."
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-02-25"
-  - name: "ai-canvas-branching"
-    title: "ai-canvas-branching"
-    description: "Infinite canvas for branching AI conversations with dynamic node positioning and multi-canvas support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-26"
-  - name: "mac-storage-doctor"
-    title: "mac-storage-doctor"
-    description: "Claude Code skill: deep macOS disk-space analysis with safe, confirm-before-delete cleanup recommendations"
-    language: null
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-22"
+repos: []
 ---
 
 # SomSamantray
 
-38 pushes across 18 repositories on 25 active days in the last 90 days of public GitHub push activity.
+36 pushes across 17 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SomSamantray

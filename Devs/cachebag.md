@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "9612918e3494c974"
-pushes_per_week: [4, 0, 2, 1, 0, 1, 3, 5, 1, 5, 1, 0, 1]
+pushes_per_week: [2, 1, 1, 1, 0, 1, 4, 5, 4, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 24
-    distinct_repos: 14
-    active_days: 18
+    pushes: 22
+    distinct_repos: 13
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.7778
-  not_owned_ratio: 0.2143
-  basename_concentration: 0.0714
+  push_per_day: 1.2941
+  repo_per_active_day: 0.7647
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,26 +65,34 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 24
-    distinct_repos: 14
-    pushes_per_repo: 1.7143
-    active_days: 18
+    pushes: 22
+    distinct_repos: 13
+    pushes_per_repo: 1.6923
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "payme"
-    title: "payme"
-    description: "Personal finance tracking application."
+  - name: "relay"
+    title: "relay"
+    description: "Job scheduler for volunteer compute pools built from consumer hardware."
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "blurs"
+    title: "blurs"
+    description: "A tiny Bluetooth applet for Wayland."
     language: "Rust"
     topics: []
-    stars_fact: 387
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-08-12"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -92,7 +100,15 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-08"
+  - name: "payme"
+    title: "payme"
+    description: "Personal finance tracking application."
+    language: "Rust"
+    topics: []
+    stars_fact: 386
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "wallpapers"
     title: "wallpapers"
     description: null
@@ -109,26 +125,10 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-06-06"
-  - name: "spools"
-    title: "spools"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "wedding-rsvp"
-    title: "wedding-rsvp"
-    description: "Website to host my wedding RSVP and registry."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # cachebag
 
-24 pushes across 14 repositories on 18 active days in the last 90 days of public GitHub push activity.
+22 pushes across 13 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cachebag

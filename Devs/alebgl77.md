@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-07T07:04:55.898902+00:00"
+generated_at: "2026-11-09T23:36:02.931621+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [2, 0, 1, 0, 3, 0, 3, 5, 5, 7, 5, 0, 0]
+pushes_per_week: [2, 0, 1, 3, 0, 0, 4, 7, 8, 1, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,50 +77,6 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "open-shadow-ai"
-    title: "open-shadow-ai"
-    description: "Self-hosted Shadow AI discovery and governance. Evidence-first visibility across network, endpoints, Active Directory and Entra ID."
-    language: "Python"
-    topics:
-      - "active-directory"
-      - "ai-compliance"
-      - "ai-governance"
-      - "ai-inventory"
-      - "ai-security"
-      - "cybersecurity"
-      - "docker"
-      - "entra-id"
-      - "eu-ai-act"
-      - "fastapi"
-      - "generative-ai"
-      - "iso-42001"
-      - "kubernetes"
-      - "react"
-      - "self-hosted"
-      - "shadow-ai"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "generative-engine-monitor"
-    title: "generative-engine-monitor"
-    description: "Measure brand visibility in provider API responses with explainable scoring, confidence intervals and replay from stored responses."
-    language: "TypeScript"
-    topics:
-      - "aeo"
-      - "ai-search"
-      - "anthropic"
-      - "brand-monitoring"
-      - "geo"
-      - "llm"
-      - "nextjs"
-      - "openai"
-      - "perplexity"
-      - "postgresql"
-      - "prisma"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "awesome-ai-architect"
     title: "awesome-ai-architect"
     description: "A self-updating, auto-classified map of the GenAI engineering stack: agents, MCP, memory, RAG, evals, LLMOps, AI security"
@@ -138,7 +94,7 @@ repos:
       - "rag"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "ftp-deploy-mcp"
     title: "ftp-deploy-mcp"
     description: "MCP server for FTP/FTPS/SFTP deployment, inspection and transfer. Local confinement, host-key pinning, read-only mode and dry runs; optional durable workflow with verified promotion, confirmation and rollback. EN/FR."
@@ -166,25 +122,7 @@ repos:
       - "windsurf"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "design-md-viewer"
-    title: "design-md-viewer"
-    description: "Client-side design-system explorer. Import Markdown, CSS, JSON, HTML/SVG, image palettes and PDF text; inspect tokens, run a health audit and export code."
-    language: "TypeScript"
-    topics:
-      - "accessibility"
-      - "design-md"
-      - "design-system"
-      - "design-tokens"
-      - "markdown"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "vite"
-      - "wcag"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "grafana-llmops-forge"
     title: "grafana-llmops-forge"
     description: "Grafana-native LLMOps dashboards for FinOps, agents, quality and AI governance. Automated query and deployment checks, with a separate optional visual review."
@@ -212,7 +150,76 @@ repos:
       - "vllm"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "ai-factory"
+    title: "ai-factory"
+    description: "Open-source control plane for enterprise AI operations, agent governance, human approvals, and hybrid model routing."
+    language: "Python"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "ai-governance"
+      - "digital-twin"
+      - "enterprise-ai"
+      - "fastapi"
+      - "human-in-the-loop"
+      - "kubernetes"
+      - "llmops"
+      - "model-context-protocol"
+      - "observability"
+      - "threejs"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "open-shadow-ai"
+    title: "open-shadow-ai"
+    description: "Self-hosted Shadow AI discovery and governance. Evidence-first visibility across network, endpoints, Active Directory and Entra ID."
+    language: "Python"
+    topics:
+      - "active-directory"
+      - "ai-compliance"
+      - "ai-governance"
+      - "ai-inventory"
+      - "ai-security"
+      - "cybersecurity"
+      - "docker"
+      - "entra-id"
+      - "eu-ai-act"
+      - "fastapi"
+      - "generative-ai"
+      - "iso-42001"
+      - "kubernetes"
+      - "react"
+      - "self-hosted"
+      - "shadow-ai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "tierdecay"
+    title: "tierdecay"
+    description: "Per-repo learning layer for AI coding model routers: learns which task classes can safely run on a cheaper tier. Native for Claude Code, Codex, Antigravity · MCP server · zero deps."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "agents-md"
+      - "ai-agents"
+      - "ai-coding"
+      - "claude-code"
+      - "cost-optimization"
+      - "developer-tools"
+      - "finops"
+      - "generative-ai"
+      - "google-antigravity"
+      - "llm"
+      - "llm-finops"
+      - "llmops"
+      - "mcp"
+      - "model-context-protocol"
+      - "model-routing"
+      - "openai-codex"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # alebgl77
