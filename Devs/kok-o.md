@@ -8,11 +8,11 @@ provenance_repos:
   - "AGGIB/Stroq"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "24e1aea537d2f659"
-pushes_per_week: [1, 0, 1, 0, 1, 9, 11, 8, 4, 9, 2, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 1, 10, 11, 9, 6, 5, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,90 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "soup-kernel-lab"
+    title: "soup-kernel-lab"
+    description: "Independent Soup training experiments with a GitHub-fed Kaggle notebook and preserved qualified baseline"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "contextos-agents"
+    title: "contextos-agents"
+    description: "Deterministic context and policy compiler for supported AI coding agents."
+    language: "JavaScript"
+    topics:
+      - "ai-coding-agents"
+      - "claude"
+      - "context-compiler"
+      - "context-governance"
+      - "contextos"
+      - "copilot"
+      - "cursor"
+      - "developer-tools"
+      - "mcp"
+      - "prompt-engineering"
+      - "zed"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "my-site"
+    title: "my-site"
+    description: "My website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "moondrop-listening-collection"
+    title: "moondrop-listening-collection"
+    description: "MOONDROP fan concept built with Next.js, TypeScript, GSAP and real brand assets"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "agent-motion-studio"
+    title: "agent-motion-studio"
+    description: "Local video studio for AI agents. Create MP4s, revise scenes, and keep editable projects with history. Experimental developer preview."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "ffmpeg"
+      - "local-first"
+      - "motion-design"
+      - "typescript"
+      - "video-editor"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "story-forecaster"
+    title: "story-forecaster"
+    description: "Predict story developments and write leak-free fanfic continuations with AI."
+    language: "Python"
+    topics:
+      - "bm25"
+      - "computational-narratology"
+      - "creative-writing"
+      - "creative-writing-ai"
+      - "fanfiction"
+      - "fastapi"
+      - "gemini"
+      - "llm"
+      - "model-agnostic"
+      - "narrative-intelligence"
+      - "narrative-structure"
+      - "neuro-symbolic"
+      - "nlp"
+      - "pydantic"
+      - "python"
+      - "rag"
+      - "story-generation"
+      - "theory-of-mind"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # kok-o

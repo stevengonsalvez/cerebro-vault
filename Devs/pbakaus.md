@@ -8,11 +8,11 @@ provenance_repos:
   - "pbakaus/impeccable"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [19, 3, 0, 2, 3, 4, 2, 30, 4, 2, 3, 0, 0]
+pushes_per_week: [21, 1, 0, 3, 3, 3, 4, 30, 4, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "impeccable"
+    title: "impeccable"
+    description: "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+    language: "Rust"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "anti-slop"
+      - "design"
+      - "slop"
+    stars_fact: 107076
+    first_seen: "2026-10-25T07:00:44.509744+00:00"
+    last_push: "2026-11-10"
+  - name: "impeccable-talks"
+    title: "impeccable-talks"
+    description: "Talks for the Impeccable project."
+    language: "HTML"
+    topics: []
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "radiant"
+    title: "radiant"
+    description: "A curated collection of generative shader art"
+    language: "HTML"
+    topics: []
+    stars_fact: 1036
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "agent-reviews"
+    title: "agent-reviews"
+    description: "Token efficient, automated Github review workflows and bug fixing."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 318
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "scroller"
+    title: "scroller"
+    description: "Accelerated panning and zooming for HTML and Canvas"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3928
+    first_seen: null
+    last_push: "2025-11-21"
+  - name: "burn-after-login"
+    title: "burn-after-login"
+    description: "Self-destructing skill to solve browser automation login pain."
+    language: "Svelte"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-03-11"
 ---
 
 # pbakaus

@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 2, 1, 0, 3, 2, 1, 0, 1, 0, 3, 0, 0]
+pushes_per_week: [3, 3, 0, 0, 3, 2, 1, 0, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    active_days: 13
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3846
-  repo_per_active_day: 0.3077
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 13
+    pushes_per_repo: 4.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "substrate-nginx"
+    title: "substrate-nginx"
+    description: "Substrate ingress + egress implemented via nginx"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-20"
+  - name: "keithmattix.github.io"
+    title: "keithmattix.github.io"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "krt-demos"
+    title: "krt-demos"
+    description: "Demo examples of Istio's krt (Kubernetes Declarative Controller Runtime) framework"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-17"
+  - name: "istio-multicluster-inference-demo"
+    title: "istio-multicluster-inference-demo"
+    description: "A script to test GAIE Body-Based-Router demo with Istio"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-12-15"
+  - name: "istio-wasm-demo"
+    title: "istio-wasm-demo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-09-06"
+  - name: "windows-redirection-test"
+    title: "windows-redirection-test"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-13"
 ---
 
 # keithmattix
 
-18 pushes across 4 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/keithmattix

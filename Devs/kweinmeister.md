@@ -8,11 +8,11 @@ provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [6, 2, 4, 1, 2, 15, 7, 17, 0, 0, 0, 0, 1]
+pushes_per_week: [8, 4, 0, 1, 2, 16, 6, 17, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agentitest"
+    title: "agentitest"
+    description: "Write browser tests in natural language, built on pytest and allure."
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "allure-report"
+      - "browser-use"
+      - "gemini"
+      - "llm"
+      - "playwright"
+      - "pytest"
+      - "qa"
+      - "test-automation"
+      - "testing"
+      - "web-testing"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "agentic-trading"
+    title: "agentic-trading"
+    description: "Sample application to demonstrate Google ADK and A2A interoperability. For informational purposes only."
+    language: "Python"
+    topics: []
+    stars_fact: 254
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "kweinmeister"
+    title: "kweinmeister"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "ai-audio-engineer-app"
+    title: "ai-audio-engineer-app"
+    description: "AI Audio Engineer App"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "toon-mcp"
+    title: "toon-mcp"
+    description: "MCP server for converting JSON ↔ TOON to reduce LLM token usage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "onnx-inference"
+    title: "onnx-inference"
+    description: "ONNX-based LLM inference server"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # kweinmeister

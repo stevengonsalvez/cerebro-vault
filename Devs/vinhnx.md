@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 3, 0, 1, 2, 1, 2, 6, 3, 0, 3, 0, 0]
+pushes_per_week: [1, 3, 0, 1, 2, 2, 2, 6, 2, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,101 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VTCode"
+    title: "VTCode"
+    description: "A local-first AI coding agent for your terminal and desktop."
+    language: "Rust"
+    topics:
+      - "agent"
+      - "agentclientprotocol"
+      - "agentplugins"
+      - "agentskills"
+      - "ai"
+      - "artificial-intelligence"
+      - "cargo"
+      - "cli"
+      - "codingagent"
+      - "crossterm"
+      - "mcp"
+      - "ratatui"
+      - "rust"
+      - "terminal"
+      - "tui"
+    stars_fact: 906
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "My homebrew tap formula"
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "Shift"
+    title: "Shift"
+    description: "Light-weight & concurrent EventKit wrapper"
+    language: "Swift"
+    topics:
+      - "async-await"
+      - "asynchronous"
+      - "calendar"
+      - "combine"
+      - "concurrency"
+      - "eventkit"
+      - "ios"
+      - "swift"
+      - "swift-package-manager"
+      - "swift5"
+      - "swiftui"
+      - "wrapper"
+      - "xcode"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2025-03-20"
+  - name: "Clendar"
+    title: "Clendar"
+    description: "Clendar - Minimal Calendar app. Written in SwiftUI."
+    language: "Swift"
+    topics:
+      - "apple"
+      - "calendar"
+      - "catalyst"
+      - "eventkit"
+      - "fastlane"
+      - "github-actions"
+      - "ios"
+      - "ipad"
+      - "iphone"
+      - "macos"
+      - "siri"
+      - "swift"
+      - "swift-package-manager"
+      - "swiftformat"
+      - "swiftlint"
+      - "swiftui"
+      - "watchos"
+      - "widget"
+    stars_fact: 742
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "vitesse-helix"
+    title: "vitesse-helix"
+    description: "Vitesse Black theme for the Helix editor — a port of antfu's Vitesse"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "helix-config"
+    title: "helix-config"
+    description: "My Helix editor config with VS Code keybindings"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # vinhnx

@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 2, 0, 3, 8, 20, 40, 22, 7, 0, 3, 0, 1]
+pushes_per_week: [0, 2, 2, 2, 10, 19, 40, 22, 5, 0, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
     pushes: 106
     distinct_repos: 11
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
   "90d":
     pushes: 106
     distinct_repos: 11
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yasithdev"
+    title: "yasithdev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "yasithdev.github.io"
+    title: "yasithdev.github.io"
+    description: "My Personal Web Page"
+    language: "HTML"
+    topics:
+      - "jekyll"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "slurmrest"
+    title: "slurmrest"
+    description: "Docker-Compose SLURM Cluster Accounting, REST Features"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "airavata-nextjs-portal"
+    title: "airavata-nextjs-portal"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-24"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-15"
+  - name: "goldlinetyre.lk"
+    title: "goldlinetyre.lk"
+    description: "Website for Gold Line Tyre Center, Dehiwala, Sri Lanka"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-12-04"
 ---
 
 # yasithdev

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 0, 4, 1, 2, 20, 27, 24, 19, 20, 0, 0]
+pushes_per_week: [3, 0, 0, 4, 1, 2, 20, 32, 23, 17, 18, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 18
+    pushes: 48
+    distinct_repos: 17
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
-    distinct_repos: 18
-    pushes_per_repo: 2.7778
+    pushes: 48
+    distinct_repos: 17
+    pushes_per_repo: 2.8235
     active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "MinidoracatMiniMapModMapsFor42"
+    title: "MinidoracatMiniMapModMapsFor42"
+    description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatModLangFor42"
+    title: "MinidoracatModLangFor42"
+    description: "[B42] Project Zomboid 模組翻譯包：1500+ 個 Workshop 模組（2140+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatBuilderFor42"
+    title: "MinidoracatBuilderFor42"
+    description: "Project Zomboid B42 — Build Anything: build with any loaded tile, including other mods' tile packs, plus light switches wired to the lights you pick; materials and placement checked by the server (SP/MP)"
+    language: "Lua"
+    topics:
+      - "build-42"
+      - "building"
+      - "mod"
+      - "project-zomboid"
+      - "tiles"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatTeslaFor42"
+    title: "MinidoracatTeslaFor42"
+    description: "Project Zomboid B42 — Tesla Collection: fan-made, non-commercial Tesla EVs with charging, Sentry/Camp modes and a Tesla-style dashboard"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatLangFor42"
+    title: "MinidoracatLangFor42"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "MinidoracatUIFor42"
+    title: "MinidoracatUIFor42"
+    description: "Project Zomboid B42 家族共用 UI 函式庫：版本化 API、深淺雙色系主題、圓角皮膚（NinePatch＋直角退回）"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # Minidoracat

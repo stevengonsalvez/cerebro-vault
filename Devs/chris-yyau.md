@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [13, 9, 6, 2, 1, 6, 9, 6, 5, 7, 7, 0, 0]
+pushes_per_week: [13, 10, 4, 3, 0, 8, 7, 7, 5, 8, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 4
     active_days: 37
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9189
+  push_per_day: 1.8919
   repo_per_active_day: 0.1081
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 4
-    pushes_per_repo: 17.7500
+    pushes_per_repo: 17.5000
     active_days: 37
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-71 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
+70 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

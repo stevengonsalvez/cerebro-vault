@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 0, 7, 7, 0, 2, 2, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 6, 7, 0, 4, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "workbuddy-skills"
+    title: "workbuddy-skills"
+    description: "200+ 个中文 Agent 技能（SkillHub @indiv-captain）：秋招、考研报名、保研、竞选稿、奖学金申请、国庆攻略、请假条、检讨书、开题报告、降AI味等日常任务；腾讯生态（企微机器人、腾讯会议纪要、腾讯问卷、小程序审核）；另有上线体检等研发工具。WorkBuddy / OpenClaw / Claude Code 通用，开源。"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agent"
+      - "chinese"
+      - "claude-code"
+      - "devops"
+      - "education"
+      - "engineering-productivity"
+      - "incident-response"
+      - "job-hunting"
+      - "office-automation"
+      - "openclaw"
+      - "productivity"
+      - "release-management"
+      - "skillhub"
+      - "skills"
+      - "students"
+      - "tencent"
+      - "wecom"
+      - "workbuddy"
+      - "writing-assistant"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "dsh-har-triage"
+    title: "dsh-har-triage"
+    description: "Offline HAR diagnostics with minimal evidence for DeepSeek Harness"
+    language: "JavaScript"
+    topics:
+      - "dsh-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "dsh-sheet-diff"
+    title: "dsh-sheet-diff"
+    description: "Read-only CSV/XLSX change review for DeepSeek Harness: align business keys, inspect values and formulas, and export review comments."
+    language: "JavaScript"
+    topics:
+      - "dsh-plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "dsh-spring-inspector"
+    title: "dsh-spring-inspector"
+    description: "Unofficial DeepSeek Harness plugin for bounded, read-only Spring Boot Actuator diagnostics on local applications."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "po-et"
+    title: "po-et"
+    description: "AI Builder on the way."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "dsh-http-probe"
+    title: "dsh-http-probe"
+    description: "DeepSeek Harness plugin: http_probe tool — check status, latency and headers of any HTTP endpoint."
+    language: "JavaScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # po-et

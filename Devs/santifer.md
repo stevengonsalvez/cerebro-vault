@@ -8,11 +8,11 @@ provenance_repos:
   - "santifer/career-ops"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [27, 4, 6, 1, 1, 20, 25, 12, 12, 10, 2, 0, 0]
+pushes_per_week: [28, 4, 5, 1, 1, 29, 20, 8, 17, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,98 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "warpchart"
+    title: "warpchart"
+    description: "Growth telemetry for any GitHub repository. A live star chart of your repo's journey through the worldwide ranking, with sound."
+    language: "TypeScript"
+    topics:
+      - "dashboard"
+      - "github-actions"
+      - "github-stars"
+      - "nextjs"
+      - "self-hosted"
+      - "star-history"
+      - "svg"
+      - "telemetry"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "jacobo-workflows"
+    title: "jacobo-workflows"
+    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
+    language: null
+    topics:
+      - "ai-agents"
+      - "elevenlabs"
+      - "hitl"
+      - "multi-agent"
+      - "n8n"
+      - "tool-calling"
+      - "voice-ai"
+      - "whatsapp"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "cv-santiago"
+    title: "cv-santiago"
+    description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
+    language: "HTML"
+    topics:
+      - "ai"
+      - "chatbot"
+      - "claude"
+      - "langfuse"
+      - "llm"
+      - "llmops"
+      - "observability"
+      - "portfolio"
+      - "react"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+      - "vite"
+    stars_fact: 862
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "claude-eye"
+    title: "claude-eye"
+    description: "CLI tool that analyzes web animation videos frame-by-frame using Claude Vision"
+    language: "TypeScript"
+    topics:
+      - "animation"
+      - "claude"
+      - "cli"
+      - "css"
+      - "debugging"
+      - "vision-ai"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "santifer-irepair"
+    title: "santifer-irepair"
+    description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
+    language: "Astro"
+    topics:
+      - "airtable"
+      - "astro"
+      - "nodejs"
+      - "programmatic-seo"
+      - "seo"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "santifer"
+    title: "santifer"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # santifer

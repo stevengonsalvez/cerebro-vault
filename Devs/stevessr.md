@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 7, 16, 4, 27, 72, 15, 152, 171, 64, 83, 0, 3]
+pushes_per_week: [2, 6, 17, 4, 38, 61, 20, 148, 229, 9, 78, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 277
-    distinct_repos: 15
+    pushes: 265
+    distinct_repos: 14
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 277
-    distinct_repos: 15
-    pushes_per_repo: 18.4667
+    pushes: 265
+    distinct_repos: 14
+    pushes_per_repo: 18.9286
     active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "custom_lib_build"
+    title: "custom_lib_build"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "sso"
+    title: "sso"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "agent-ebpf-filter"
+    title: "agent-ebpf-filter"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "bug-v3"
+    title: "bug-v3"
+    description: "一个有很多bug的表情插件，主要在linux do 测试喵。discourse的网站们应该都可以用"
+    language: "TypeScript"
+    topics:
+      - "discourse"
+      - "linux-do"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "astrbot_plugin_matrix_adapter"
+    title: "astrbot_plugin_matrix_adapter"
+    description: "stevessr🐟 自用的matrix插件，为 astrbot 设计，有问题请提issue"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "matrix"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "Extera"
+    title: "Extera"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # stevessr

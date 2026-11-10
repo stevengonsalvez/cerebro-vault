@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 2, 0, 0, 4, 7, 1, 0, 0, 0, 5, 0, 1]
+pushes_per_week: [2, 2, 0, 0, 4, 7, 1, 0, 0, 1, 4, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hey"
+    title: "hey"
+    description: "HTTP load generator, ApacheBench (ab) replacement"
+    language: "Go"
+    topics: []
+    stars_fact: 20756
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "ax-studio"
+    title: "ax-studio"
+    description: "A desktop studio application for AX"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "ate-env-demo"
+    title: "ate-env-demo"
+    description: "A visual demo of Agent Substrate Environment with Antigravity"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "go-hardware"
+    title: "go-hardware"
+    description: "A directory of hardware related libs, tools, and tutorials for Go"
+    language: "Go"
+    topics:
+      - "cgo"
+      - "embedded"
+      - "go"
+      - "hardware"
+      - "tutorials"
+    stars_fact: 1388
+    first_seen: null
+    last_push: "2019-07-31"
+  - name: "gotest"
+    title: "gotest"
+    description: "go test with colors"
+    language: "Go"
+    topics: []
+    stars_fact: 1391
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "statik"
+    title: "statik"
+    description: "Embed files into a Go executable"
+    language: "Go"
+    topics:
+      - "files"
+      - "go"
+      - "golang"
+      - "http"
+      - "http-server"
+      - "static"
+    stars_fact: 3829
+    first_seen: null
+    last_push: "2026-01-10"
 ---
 
 # rakyll

@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 3, 1, 1, 1, 4, 8, 13, 15, 5, 1, 0, 1]
+pushes_per_week: [4, 3, 1, 1, 1, 6, 8, 14, 13, 4, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 7
-    active_days: 30
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9333
-  repo_per_active_day: 0.2333
+  push_per_day: 1.9655
+  repo_per_active_day: 0.2414
   not_owned_ratio: 0.4286
   basename_concentration: 0.2857
   shapes: []
@@ -65,22 +65,82 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 58
+    pushes: 57
     distinct_repos: 7
-    pushes_per_repo: 8.2857
-    active_days: 30
+    pushes_per_repo: 8.1429
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rpeft"
+    title: "rpeft"
+    description: "RPEFT brings LoRA fine-tuning of large language models to Ruby."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "minifyrb"
+    title: "minifyrb"
+    description: "A minifier of Ruby files."
+    language: "Ruby"
+    topics:
+      - "minify"
+      - "minify-ruby"
+      - "ruby"
+      - "uglify"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-01-02"
+  - name: "rubocop-faker"
+    title: "rubocop-faker"
+    description: "A RuboCop extension for Faker."
+    language: "Ruby"
+    topics:
+      - "converter"
+      - "faker"
+      - "linter"
+      - "rubocop"
+      - "ruby"
+      - "static-code-analysis"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-02-18"
+  - name: "ruby_ast_visualizer"
+    title: "ruby_ast_visualizer"
+    description: ":evergreen_tree: Ruby AST Visualizer. Based on Parser."
+    language: "Ruby"
+    topics:
+      - "ast"
+      - "ruby"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2018-03-23"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "koic's dotfiles"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2024-12-18"
+  - name: "rubocop-oracle"
+    title: "rubocop-oracle"
+    description: "A RuboCop extension for Active Record Oracle enhanced adapter."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-04-05"
 ---
 
 # koic
 
-58 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+57 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

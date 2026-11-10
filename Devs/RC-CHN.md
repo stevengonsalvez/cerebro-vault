@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [8, 2, 0, 3, 0, 4, 17, 0, 0, 1, 2, 0, 1]
+pushes_per_week: [6, 2, 0, 3, 0, 7, 14, 0, 1, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 11
     active_days: 19
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0000
+  push_per_day: 1.8947
   repo_per_active_day: 0.5789
   not_owned_ratio: 0.1818
   basename_concentration: 0.1818
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 36
     distinct_repos: 11
-    pushes_per_repo: 3.4545
+    pushes_per_repo: 3.2727
     active_days: 19
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Cumulus-music"
+    title: "Cumulus-music"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "ReuleauxCoder"
+    title: "ReuleauxCoder"
+    description: "Reinventing the wheel, but only for those who prefer it non-circular."
+    language: "Python"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "wg-quic"
+    title: "wg-quic"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "command-code-reverse"
+    title: "command-code-reverse"
+    description: "Converts Command Code API to OpenAI chat completions"
+    language: "Go"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "ARTEX"
+    title: "ARTEX"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "tack"
+    title: "tack"
+    description: "A fast TCP/UDP tunnel over HTTP with shell exec"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # RC-CHN
 
-38 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

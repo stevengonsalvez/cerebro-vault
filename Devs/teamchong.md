@@ -8,11 +8,11 @@ provenance_repos:
   - "teamchong/pxpipe"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1320ae46b426dee5"
-pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 0, 1, 0, 0, 2, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pxpipe"
+    title: "pxpipe"
+    description: "cut Claude Code token usage by rendering text context as images"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7590
+    first_seen: "2026-07-06T06:00:04.675243+00:00"
+    last_push: "2026-11-07"
+  - name: "turboquant-wasm"
+    title: "turboquant-wasm"
+    description: "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)"
+    language: "Zig"
+    topics: []
+    stars_fact: 324
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "capnstruct"
+    title: "capnstruct"
+    description: "Read and mutate Uint8Array and WebAssembly.Memory buffers like plain TypeScript objects, with zero-copy TypedArray columns and C/Rust #[repr(C)] layout"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "doppler-geo"
+    title: "doppler-geo"
+    description: "Find where and when a recording was made from the Doppler shift of small planes, matched against ADS-B flight history. Runs in the browser."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "json-literal-types"
+    title: "json-literal-types"
+    description: "TypeScript library for validating and parsing JSON string literals"
+    language: "TypeScript"
+    topics:
+      - "typescript-library"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-06-22"
+  - name: "teamchong"
+    title: "teamchong"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-05-24"
 ---
 
 # teamchong

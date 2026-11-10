@@ -8,8 +8,8 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [2, 2, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dragon-credit-map"
+    title: "dragon-credit-map"
+    description: "Unofficial map of how NCSSM courses and AP scores become college credit at UNC-Chapel Hill and NC State. Runs entirely in the browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "yetval"
+    title: "yetval"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "Deca_Practice_App"
+    title: "Deca_Practice_App"
+    description: "Upload any official DECA exam PDF to get started. The app creates an interactive practice session where you can track your progress, review missed questions, and simulate timed testing conditions."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-19"
+  - name: "spoofer"
+    title: "spoofer"
+    description: "Spoof Your IOS!"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "dermasnap-archive"
+    title: "dermasnap-archive"
+    description: "Archived Dermasnap models and superseded checkpoints"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "AS4052FinalProject"
+    title: "AS4052FinalProject"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-08"
 ---
 
 # yetval

@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 9, 10, 5, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 12, 6, 6, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lihongyuan99"
+    title: "lihongyuan99"
+    description: "Open-source contributions, automatically updated."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "xiaoying-knowledge-agent"
+    title: "xiaoying-knowledge-agent"
+    description: "Enterprise knowledge QA agent with ReAct, grounded citations, and real-model evaluation"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "intentforge"
+    title: "intentforge"
+    description: "Reproducible post-training pipeline for agent intent / tool routing on Apple Silicon: 3 public benchmarks, one fixed eval protocol, keyword-router -> TF-IDF -> zero-shot -> LoRA compared on the same machine."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "InterviewTutor"
+    title: "InterviewTutor"
+    description: "Personalized technical interview training agent for AI Agent and LLM application engineering roles."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "ds5003project"
+    title: "ds5003project"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-10"
 ---
 
 # lihongyuan99

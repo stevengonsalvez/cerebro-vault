@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 18, 8, 11, 17, 2, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 18, 7, 15, 14, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0

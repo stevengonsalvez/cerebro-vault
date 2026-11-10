@@ -9,13 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
+  - "9a8fde6cfa9ab68c"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [5, 4, 3, 6, 1, 14, 6, 12, 3, 4, 12, 0, 0]
+pushes_per_week: [4, 5, 2, 6, 4, 12, 6, 11, 7, 3, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 13
-    active_days: 36
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9444
-  repo_per_active_day: 0.3611
+  push_per_day: 1.9714
+  repo_per_active_day: 0.3714
   not_owned_ratio: 0.0000
   basename_concentration: 0.0769
   shapes: []
@@ -68,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 70
+    pushes: 69
     distinct_repos: 13
-    pushes_per_repo: 5.3846
-    active_days: 36
+    pushes_per_repo: 5.3077
+    active_days: 35
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "provenance: 5 vault signal(s) — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-ai"
@@ -137,6 +138,6 @@ repos:
 
 # kfet
 
-70 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
+69 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kfet

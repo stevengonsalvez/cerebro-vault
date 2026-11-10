@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 9, 5, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 11, 2, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,93 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "frontier-signal-lab"
+    title: "frontier-signal-lab"
+    description: "SaveScope: audit PyTorch saved-tensor compression against gradients and actual AdamW updates. Reproducible CPU experiments and an interactive report."
+    language: "Python"
+    topics:
+      - "activation-compression"
+      - "adamw"
+      - "agents"
+      - "ai-research"
+      - "attention"
+      - "autograd"
+      - "pytorch"
+      - "reproducibility"
+      - "reproducible-research"
+      - "research-tools"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "metis-voc"
+    title: "metis-voc"
+    description: "Evidence-aware product research workspace: market data, VOC, concepts, human review and decision governance on Cloudflare Workers."
+    language: "JavaScript"
+    topics:
+      - "cloudflare-workers"
+      - "ecommerce"
+      - "product-research"
+      - "typescript"
+      - "voice-of-customer"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "MultiAgent-Optimization"
+    title: "MultiAgent-Optimization"
+    description: "Advanced Multi-Agent Optimization System featuring intelligent routing strategies, semantic memory optimization, distributed coordination with failover mechanisms, and AI-powered conflict resolution capabilities"
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "Linxiushen"
+    title: "Linxiushen"
+    description: "Independent FDE engineer: AI workflow integrations and merged open-source contributions"
+    language: null
+    topics:
+      - "ai-workflows"
+      - "engineering-portfolio"
+      - "fde-engineering"
+      - "mcp"
+      - "open-source-contributions"
+      - "python"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "cross-border-ai-workbench"
+    title: "cross-border-ai-workbench"
+    description: "Self-hostable cross-border commerce AI workbench"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "harnesslab"
+    title: "harnesslab"
+    description: "Record, diff, and gate agent harness behavior as an executable Trace Contract. CI regression tests for lifecycle, tools, approvals, MCP, and adapters."
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "agent-observability"
+      - "agent-runtime"
+      - "agent-testing"
+      - "ai-agents"
+      - "conformance-testing"
+      - "deepseek"
+      - "developer-tools"
+      - "fastapi"
+      - "llm-agents"
+      - "mcp"
+      - "observability"
+      - "python"
+      - "regression-testing"
+      - "replay"
+      - "trace"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # Linxiushen

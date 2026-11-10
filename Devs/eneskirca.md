@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [22, 7, 3, 0, 0, 3, 17, 20, 6, 0, 0, 0, 0]
+pushes_per_week: [19, 8, 2, 0, 0, 4, 21, 15, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 75
     distinct_repos: 6
     active_days: 24
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.2500
+  push_per_day: 3.1250
   repo_per_active_day: 0.2500
   not_owned_ratio: 0.8333
   basename_concentration: 0.8333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 75
     distinct_repos: 6
-    pushes_per_repo: 13.0000
+    pushes_per_repo: 12.5000
     active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 2
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-78 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
+75 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

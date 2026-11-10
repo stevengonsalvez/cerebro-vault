@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [19, 5, 2, 6, 9, 20, 20, 22, 1, 7, 9, 0, 0]
+pushes_per_week: [13, 6, 1, 7, 8, 23, 20, 19, 2, 6, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 114
     distinct_repos: 2
     active_days: 41
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9268
+  push_per_day: 2.7805
   repo_per_active_day: 0.0488
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 114
     distinct_repos: 2
-    pushes_per_repo: 60.0000
+    pushes_per_repo: 57.0000
     active_days: 41
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -141,6 +141,6 @@ repos:
 
 # ColeMurray
 
-120 pushes across 2 repositories on 41 active days in the last 90 days of public GitHub push activity.
+114 pushes across 2 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

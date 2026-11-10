@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bionexus"
+    title: "bionexus"
+    description: "BioNexus is an agentic science system that runs experiments end to end — hypothesis portfolios, safety-gated labs (simulated or real instruments), verdicts with confidence intervals against pre-registered criteria, and tamper-evident provenance. Includes an offline eval suite. Domain-agnostic core."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-labs"
+      - "agentic-science"
+      - "autonomous-agents"
+      - "bioinformatics"
+      - "evals"
+      - "laboratory-automation"
+      - "mcp"
+      - "python"
+      - "scientific-method"
+      - "self-driving-labs"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "rbalachandar"
+    title: "rbalachandar"
+    description: "AI & Data Engineering"
+    language: null
+    topics:
+      - "ai"
+      - "context-engineering"
+      - "context-management"
+      - "data-engineering"
+      - "data-science"
+      - "llm-inference"
+      - "llmops"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "rbalachandar.github.io"
+    title: "rbalachandar.github.io"
+    description: "github.io page"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "artificial-senescence"
+    title: "artificial-senescence"
+    description: "Designing AI that learns, forgets, and ages"
+    language: null
+    topics:
+      - "artificial-intelligence"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-15"
+  - name: "llm-learning-sim"
+    title: "llm-learning-sim"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-16"
+  - name: "vetgeno"
+    title: "vetgeno"
+    description: "A Python CLI tool for veterinary professionals and researchers to analyze tumor DNA sequences, search veterinary literature, and generate comprehensive evidence-based reports using AI-powered agentic workflows."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "genome-analysis"
+      - "pubmed"
+      - "vep"
+      - "veterinary"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-27"
 ---
 
 # rbalachandar

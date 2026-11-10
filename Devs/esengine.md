@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [35, 11, 3, 6, 8, 23, 125, 102, 81, 78, 44, 0, 2]
+pushes_per_week: [34, 7, 3, 6, 8, 30, 137, 94, 116, 44, 32, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 177
+    pushes: 166
     distinct_repos: 6
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 518
+    pushes: 513
     distinct_repos: 7
     active_days: 57
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.0877
+  push_per_day: 9.0000
   repo_per_active_day: 0.1228
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 177
+    pushes: 166
     distinct_repos: 6
-    pushes_per_repo: 29.5000
+    pushes_per_repo: 27.6667
     active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 518
+    pushes: 513
     distinct_repos: 7
-    pushes_per_repo: 74.0000
+    pushes_per_repo: 73.2857
     active_days: 57
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -182,6 +182,6 @@ repos:
 
 # esengine
 
-518 pushes across 7 repositories on 57 active days in the last 90 days of public GitHub push activity.
+513 pushes across 7 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [2, 0, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "investTemplate"
+    title: "investTemplate"
+    description: "个股分析标准模版"
+    language: "Python"
+    topics: []
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "SunCode"
+    title: "SunCode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "doc-ask-rag"
+    title: "doc-ask-rag"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "hexo-sources"
+    title: "hexo-sources"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-01"
+  - name: "xiaoshuo"
+    title: "xiaoshuo"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-28"
 ---
 
 # sunheyi6

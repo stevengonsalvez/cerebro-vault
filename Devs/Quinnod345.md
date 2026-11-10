@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 10, 2, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 10, 5, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,48 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ponder"
+    title: "ponder"
+    description: "Convergent deliberation loop for coding agents: multi-pass, coverage-gated, append-only ledger review and planning. Claude Code, Codex, OpenClaw."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-code-mod"
+      - "claude-code-skill"
+      - "claude-skills"
+      - "code-review"
+      - "codex"
+      - "developer-tools"
+      - "gemini-cli-extension"
+      - "llm-agents"
+      - "openclaw"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "aisso"
+    title: "aisso"
+    description: "Your Mac, at a dart. Computer use at the speed of thought."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "apple-silicon"
+      - "computer-use"
+      - "macos"
+      - "swiftui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Official Homebrew tap for Ponder (coverage-gated multi-pass deliberation engine for coding agents)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # Quinnod345

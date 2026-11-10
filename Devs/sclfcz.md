@@ -8,11 +8,11 @@ provenance_repos:
   - "bytedance/deer-flow"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 7, 3, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 6, 9, 2, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sclfcz"
+    title: "sclfcz"
+    description: "IronMurphy · AI Agent / Full-stack Engineer · TypeScript · Python · MCP · Electron"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "Orbit"
+    title: "Orbit"
+    description: "Orbit is a self-hosted personal agent workspace that coordinates coding agents across your computers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "growth-os"
+    title: "growth-os"
+    description: "Self-hosted personal growth workspace for study planning, fitness, mindfulness, budgeting, and daily reflection."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "health-miniprogram"
+    title: "health-miniprogram"
+    description: "康养日记 · 老人用药提醒与健康记录小程序（微信云开发）｜患者到点提醒 + 连续漏服家属预警"
+    language: "JavaScript"
+    topics:
+      - "cloudbase"
+      - "healthcare"
+      - "serverless"
+      - "wechat-miniprogram"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "commerceagent"
+    title: "commerceagent"
+    description: "CommerceAgent：面向电商场景的智能运营工作台，支持商品、订单、客户与自动化协同。"
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "claude-code"
+      - "ecommerce"
+      - "electron"
+      - "mcp"
+      - "react"
+      - "self-hosted"
+      - "typescript"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # sclfcz

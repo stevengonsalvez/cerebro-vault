@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 0, 1, 4, 0, 18, 5, 6, 6, 2, 0, 0]
+pushes_per_week: [0, 4, 0, 1, 4, 0, 19, 4, 8, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "okf-tools"
+    title: "okf-tools"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "systems"
+    title: "systems"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "integral"
+    title: "integral"
+    description: "Integra-7 controller"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "gh.el"
+    title: "gh.el"
+    description: "GitHub API library for Emacs"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 286
+    first_seen: null
+    last_push: "2026-02-10"
+  - name: "via_hacks"
+    title: "via_hacks"
+    description: "'cause VIA is a bit limiting, let's generate those keymaps properly"
+    language: "Jsonnet"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-19"
+  - name: "callctl"
+    title: "callctl"
+    description: "Control surfaces for video conferencing systems (Google Meet)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # sigma

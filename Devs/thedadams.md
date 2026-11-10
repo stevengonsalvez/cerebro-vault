@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 1, 0, 1, 3, 9, 6, 6, 2, 5, 2, 0, 0]
+pushes_per_week: [5, 1, 0, 1, 4, 8, 7, 5, 4, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ember-one"
+    title: "ember-one"
+    description: "A theme collection based on my personal color scheme derived from the Atom One palette"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "website"
+    title: "website"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "fresh-copilot"
+    title: "fresh-copilot"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "zed-comment"
+    title: "zed-comment"
+    description: "A comment extension for the Zed editor"
+    language: "Tree-sitter Query"
+    topics: []
+    stars_fact: 187
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "fresh-permalink"
+    title: "fresh-permalink"
+    description: "Get remote permalinks in the fresh editor"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # thedadams

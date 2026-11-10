@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [2, 3, 1, 0, 2, 3, 12, 6, 5, 0, 3, 0, 0]
+pushes_per_week: [3, 3, 0, 1, 1, 3, 13, 5, 5, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,107 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "keyalesce"
+    title: "keyalesce"
+    description: "🔑 Get the same key for the same sequence of values!"
+    language: "TypeScript"
+    topics:
+      - "finalizationregistry"
+      - "hashing"
+      - "idempotent"
+      - "key-value"
+      - "map"
+      - "set"
+      - "weakmap"
+      - "weakref"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "profiler-md"
+    title: "profiler-md"
+    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "markdown"
+      - "performance"
+      - "performance-analysis"
+      - "performance-optimization"
+      - "profiler-data"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "mmmm"
+    title: "mmmm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "spotify-true-random"
+    title: "spotify-true-random"
+    description: "🔀 An application for unbiased truly random playlist and library shuffling with Spotify."
+    language: "TypeScript"
+    topics:
+      - "api"
+      - "audio"
+      - "css"
+      - "css3"
+      - "html"
+      - "html-css"
+      - "html-css-javascript"
+      - "html5"
+      - "javascript"
+      - "library-shuffling"
+      - "music"
+      - "random"
+      - "shuffle"
+      - "shuffle-array"
+      - "spotify"
+      - "spotify-api"
+      - "spotify-playlist"
+      - "spotify-plugin"
+      - "spotify-web-api"
+      - "website"
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "website"
+    title: "website"
+    description: "My website!"
+    language: "TypeScript"
+    topics:
+      - "blog"
+      - "portfolio"
+      - "portfolio-website"
+      - "software-engineering"
+      - "web-development"
+      - "website"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "lfi"
+    title: "lfi"
+    description: "🦥 A lazy functional iteration library supporting sync, async, and concurrent iteration."
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrent"
+      - "functional-programming"
+      - "generator"
+      - "iterable"
+      - "iterator"
+      - "javascript"
+      - "lazy"
+      - "npm-module"
+      - "npm-package"
+      - "promise"
+      - "sync"
+    stars_fact: 351
+    first_seen: null
+    last_push: "2025-12-16"
 ---
 
 # TomerAberbach

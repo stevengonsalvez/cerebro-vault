@@ -8,11 +8,11 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [2, 2, 0, 0, 0, 3, 3, 5, 3, 0, 3, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 0, 3, 3, 5, 3, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel source tree"
+    language: "C"
+    topics: []
+    stars_fact: 255065
+    first_seen: "2026-08-23T06:00:01.522669+00:00"
+    last_push: "2026-11-10"
+  - name: "AudioNoise"
+    title: "AudioNoise"
+    description: "Random digital audio effects"
+    language: "C"
+    topics: []
+    stars_fact: 4532
+    first_seen: null
+    last_push: "2026-05-08"
+  - name: "uemacs"
+    title: "uemacs"
+    description: "Random version of microemacs with my private modificatons"
+    language: "C"
+    topics: []
+    stars_fact: 2198
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "GuitarPedal"
+    title: "GuitarPedal"
+    description: "Linus learns analog circuits"
+    language: "C"
+    topics: []
+    stars_fact: 2490
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "HunspellColorize"
+    title: "HunspellColorize"
+    description: "Wrapper around 'less' to colorize spelling mistakes using Hunspell"
+    language: "C"
+    topics: []
+    stars_fact: 402
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "test-tlb"
+    title: "test-tlb"
+    description: "Stupid memory latency and TLB tester"
+    language: "C"
+    topics: []
+    stars_fact: 1082
+    first_seen: null
+    last_push: "2024-08-19"
 ---
 
 # torvalds

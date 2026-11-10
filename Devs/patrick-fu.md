@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [7, 3, 0, 0, 3, 2, 7, 8, 2, 0, 0, 0, 0]
+pushes_per_week: [7, 3, 0, 0, 3, 2, 8, 7, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-skills"
+    title: "awesome-skills"
+    description: "Patrick's excellent publicly shareable skills."
+    language: "Python"
+    topics: []
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "meetingtape"
+    title: "meetingtape"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "vibekey-elements"
+    title: "vibekey-elements"
+    description: "The ultimate developer-oriented hub for Ulanzi VibeKey (AU05) on macOS"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "frontend-harness-slides"
+    title: "frontend-harness-slides"
+    description: "Build slide decks as a harness-guarded engineering project — robust, maintainable, and hard to break. A step up from single-file HTML slides."
+    language: null
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "coaster-tycoon-3d"
+    title: "coaster-tycoon-3d"
+    description: "A 3D theme park management game exploring RollerCoaster Tycoon 2 gameplay."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "parallel-goal-workflows"
+    title: "parallel-goal-workflows"
+    description: "Goal-driven workflows for orchestrated multi-agent delegation."
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-10"
 ---
 
 # patrick-fu

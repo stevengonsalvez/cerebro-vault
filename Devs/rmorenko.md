@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [4, 6, 2, 5, 7, 16, 13, 18, 9, 6, 5, 0, 0]
+pushes_per_week: [5, 5, 2, 5, 7, 17, 14, 16, 13, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oxidelica"
+    title: "oxidelica"
+    description: "A modern cross-platform physical modeling environment in Rust, compatible with the Modelica language"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "thulr"
+    title: "thulr"
+    description: "A workspace index that answers the questions grep cannot: plain-English search across several repositories, settings traced from config to code across spellings, and definitions traced to the commits that wrote them."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "wsindex"
+    title: "wsindex"
+    description: "WSIndex — a learning-first Python CLI that indexes a developer workspace (code/configs via AST, docs as text) using Tensorus v1 as the vector DB."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "holofs"
+    title: "holofs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "auto-mapper"
+    title: "auto-mapper"
+    description: "This project is designed to automatically generate mappers for data classes with KSP"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-10-06"
+  - name: "amplify-react-graphql"
+    title: "amplify-react-graphql"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-02-04"
 ---
 
 # rmorenko

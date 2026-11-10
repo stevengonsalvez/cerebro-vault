@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 4, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [1, 4, 1, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
     active_days: 10
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2000
+  push_per_day: 1.1000
   repo_per_active_day: 0.4000
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 4
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.7500
     active_days: 10
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,11 +76,43 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moreduomoreduogreen"
+    title: "moreduomoreduogreen"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "TRSSLauncher-Setup"
+    title: "TRSSLauncher-Setup"
+    description: "在Windows上可以直接使用的TRSS-yunzai安装器，无需linux指令"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-09-16"
+  - name: "koishi-plugin-iirose-welcome"
+    title: "koishi-plugin-iirose-welcome"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-06"
+  - name: "koishi-plugin-meter-image"
+    title: "koishi-plugin-meter-image"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-03"
 ---
 
 # shangxueink
 
-12 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+11 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shangxueink

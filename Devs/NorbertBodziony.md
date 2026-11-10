@@ -8,11 +8,11 @@ provenance_repos:
   - "nightly-labs/openbot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "59f086ad2f833f7e"
-pushes_per_week: [7, 2, 3, 11, 7, 14, 87, 24, 32, 10, 20, 0, 0]
+pushes_per_week: [7, 2, 4, 12, 5, 20, 91, 26, 22, 13, 15, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "biome-anti-slop"
+    title: "biome-anti-slop"
+    description: "Opinionated Biome GritQL rules for rejecting low-evidence TypeScript patterns"
+    language: "TypeScript"
+    topics:
+      - "agent-skills"
+      - "biome"
+      - "gritql"
+      - "linting"
+      - "typescript"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "guard-jev"
+    title: "guard-jev"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "bb-media"
+    title: "bb-media"
+    description: "Strona BB Media (Bartosz Bińczycki, montaż wideo). Astro + Bun, nawigacja jako oś czasu w DaVinci Resolve."
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "timemeet"
+    title: "timemeet"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-11"
+  - name: "swachta-landing"
+    title: "swachta-landing"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-04"
+  - name: "synthetify-liquidator"
+    title: "synthetify-liquidator"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-05-06"
 ---
 
 # NorbertBodziony

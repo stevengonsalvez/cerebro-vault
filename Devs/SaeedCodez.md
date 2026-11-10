@@ -8,8 +8,8 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "745308b2b7085095"
 pushes_per_week: [0, 0, 3, 0, 0, 0, 1, 3, 3, 2, 0, 0, 0]
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "v2dock"
+    title: "v2dock"
+    description: "Route chosen Docker containers through V2Ray/Xray to keep servers online during internet shutdowns. Coolify-ready, CLI for AI agents."
+    language: "Go"
+    topics:
+      - "coolify"
+      - "docker"
+      - "iran"
+      - "transparent-proxy"
+      - "v2ray"
+      - "xray"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "VPN-Topology"
+    title: "VPN-Topology"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "fyldo"
+    title: "fyldo"
+    description: "A settings-page framework for WordPress plugin developers."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "restic-golang"
+    title: "restic-golang"
+    description: "A local web app for managing restic-based incremental backups."
+    language: "Go"
+    topics:
+      - "backup"
+      - "golang"
+      - "restic"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "mikrotik-xray-manager"
+    title: "mikrotik-xray-manager"
+    description: "A self-hosted, mobile-first web app for managing Xray-core proxy configurations."
+    language: "Go"
+    topics:
+      - "golang"
+      - "mikrotik"
+      - "xray"
+      - "xray-core"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "zhayon-funnel"
+    title: "zhayon-funnel"
+    description: null
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
 ---
 
 # SaeedCodez

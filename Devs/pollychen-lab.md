@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 2, 1, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -76,7 +76,34 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tops-templates"
+    title: "tops-templates"
+    description: "Template DSL, Ink CLI, browser editor, VS Code extension and agent skills"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "TheraSync"
+    title: "TheraSync"
+    description: "WebMCP-enabled therapist matching and intake booking demo with human-in-the-loop consent."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "devpost"
+      - "healthcare"
+      - "mental-health"
+      - "nodejs"
+      - "postgresql"
+      - "react"
+      - "scheduling"
+      - "therapist-matching"
+      - "typescript"
+      - "webmcp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # pollychen-lab

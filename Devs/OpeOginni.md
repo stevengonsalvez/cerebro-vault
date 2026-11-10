@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 1, 0, 0, 0, 2, 5, 1, 1, 1, 1, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gitterm"
+    title: "gitterm"
+    description: "an open-source, self-hostable control plane for running coding agents on your own cloud, with your own keys."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "opeoginni-portfolio"
+    title: "opeoginni-portfolio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "oc-triage"
+    title: "oc-triage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "oc-plugins"
+    title: "oc-plugins"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "opencode-copilot-auto"
+    title: "opencode-copilot-auto"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "tui-invaders"
+    title: "tui-invaders"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
 ---
 
 # OpeOginni

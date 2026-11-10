@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [3, 1, 16, 27, 8, 23, 34, 3, 7, 9, 7, 0, 0]
+pushes_per_week: [3, 1, 16, 30, 7, 24, 33, 1, 9, 7, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "trace-mcp"
+    title: "trace-mcp"
+    description: "Framework-aware code intelligence MCP server — 91 framework integrations, 81 languages, 72.7% fewer input tokens to review a pull request, comprehension at parity"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-code-skill"
+      - "claude-desktop"
+      - "claude-skills"
+      - "code-graph"
+      - "code-intelligence"
+      - "codex"
+      - "codex-skill"
+      - "dependency-graph"
+      - "developer-tools"
+      - "knowledge-graph"
+      - "mcp"
+      - "mcp-server"
+      - "rag"
+      - "static-analysis"
+      - "token-savings"
+    stars_fact: 202
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "nikolai-vysotskyi.github.io"
+    title: "nikolai-vysotskyi.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-02-04"
+  - name: "voted-space"
+    title: "voted-space"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-12"
+  - name: "redux-store"
+    title: "redux-store"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-12-13"
 ---
 
 # nikolai-vysotskyi

@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 5, 1, 0, 0, 2, 0, 23, 8, 11, 7, 0, 0]
+pushes_per_week: [2, 6, 0, 0, 0, 2, 7, 16, 12, 11, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 5
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.4000
-  repo_per_active_day: 0.2000
+  push_per_day: 2.4583
+  repo_per_active_day: 0.2083
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 59
     distinct_repos: 5
-    pushes_per_repo: 12.0000
-    active_days: 25
+    pushes_per_repo: 11.8000
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cpay"
+    title: "cpay"
+    description: "cpay payments on Breez SDK (Spark)"
+    language: "PLpgSQL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # parvezmosharafvu
 
-60 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
+59 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/parvezmosharafvu

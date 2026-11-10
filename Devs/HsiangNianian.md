@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [30, 0, 2, 0, 2, 5, 10, 5, 1, 2, 0, 0, 0]
+pushes_per_week: [28, 0, 2, 0, 3, 4, 12, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 13
     active_days: 24
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.3750
+  push_per_day: 2.2917
   repo_per_active_day: 0.5417
   not_owned_ratio: 0.3077
   basename_concentration: 0.2308
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 55
     distinct_repos: 13
-    pushes_per_repo: 4.3846
+    pushes_per_repo: 4.2308
     active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
@@ -148,6 +148,6 @@ repos:
 
 # HsiangNianian
 
-57 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
+55 pushes across 13 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

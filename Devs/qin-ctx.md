@@ -8,11 +8,11 @@ provenance_repos:
   - "volcengine/OpenViking"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [1, 4, 2, 0, 4, 10, 9, 2, 4, 2, 1, 0, 0]
+pushes_per_week: [3, 3, 1, 3, 3, 9, 10, 0, 4, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "qin-ctx"
+    title: "qin-ctx"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "openviking-browser-extension"
+    title: "openviking-browser-extension"
+    description: "Browser extension for saving the current page URL to OpenViking resources"
+    language: "HTML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-03"
+  - name: "openviking-blog"
+    title: "openviking-blog"
+    description: "Standalone OpenViking blog site"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-15"
+  - name: "github-feishu-topic-sync"
+    title: "github-feishu-topic-sync"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-25"
 ---
 
 # qin-ctx

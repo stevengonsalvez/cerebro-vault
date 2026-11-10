@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [10, 2, 3, 1, 1, 5, 6, 5, 5, 1, 2, 0, 2]
+pushes_per_week: [10, 3, 2, 1, 1, 8, 4, 4, 6, 0, 2, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,56 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nix-config"
+    title: "nix-config"
+    description: "Personal Nix repo. Claude was introduced May 2026."
+    language: "Nix"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "homelab-apps"
+    title: "homelab-apps"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "telometto"
+    title: "telometto"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-15"
+  - name: "libvibrant"
+    title: "libvibrant"
+    description: null
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-08-21"
+  - name: "ansible-personal"
+    title: "ansible-personal"
+    description: "Personal ansible setup to get up and running hassle-free."
+    language: null
+    topics:
+      - "ansible"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-06-30"
+  - name: "HelloWorld"
+    title: "HelloWorld"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-18"
 ---
 
 # telometto

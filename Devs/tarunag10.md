@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 17, 1, 0, 0, 0, 10, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [0, 18, 0, 0, 0, 0, 10, 0, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "conveyancing-legal-skill"
+    title: "conveyancing-legal-skill"
+    description: "Evidence-gated England and Wales conveyancing toolkit for qualified practitioners, with a Python CLI for validation and calculations. Human legal review required."
+    language: "Python"
+    topics:
+      - "conveyancing"
+      - "england-and-wales"
+      - "legal-tech"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "open-access-uk"
+    title: "open-access-uk"
+    description: "Open Access UK suite workspace linking the seven project repos"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "open-access-uk-site"
+    title: "open-access-uk-site"
+    description: "Open Access UK: open-access-uk-site"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "ai-switchboard"
+    title: "ai-switchboard"
+    description: "Local-first Mac AI work switchboard for Headroom, RTK, Codex, Claude Code, MarkItDown, Ponytail, and Repo Intelligence"
+    language: "Rust"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "headroom"
+      - "local-first"
+      - "macos"
+      - "markitdown"
+      - "ponytail"
+      - "repo-intelligence"
+      - "rtk"
+      - "tauri"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "universal-copy"
+    title: "universal-copy"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "legal-templates"
+    title: "legal-templates"
+    description: "Open Access UK: legal-templates"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # tarunag10

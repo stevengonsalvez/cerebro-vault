@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 0, 4, 2, 2, 1, 4, 2, 0, 3, 4, 0, 0]
+pushes_per_week: [3, 2, 2, 3, 1, 2, 4, 1, 0, 3, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yocto-test-durations"
+    title: "yocto-test-durations"
+    description: "Test result and duration tracker for https://git.yoctoproject.org/yocto-testresults/"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "threexc"
+    title: "threexc"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "labgrid-boardkit"
+    title: "labgrid-boardkit"
+    description: "A collection of board fixtures, strategies, and test suites for use with Labgrid"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "boardgarden"
+    title: "boardgarden"
+    description: "tgamblin's boardfarm repo, built for testing RISC-V development boards with Labgrid and Forgejo Actions"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "meta-testv"
+    title: "meta-testv"
+    description: "Yocto-based testing distro for (meta-)riscv, because Poky is a reference"
+    language: "BitBake"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "typst-poster-template"
+    title: "typst-poster-template"
+    description: "An A0-size poster template for Typst, meant for conference use"
+    language: "Typst"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # threexc

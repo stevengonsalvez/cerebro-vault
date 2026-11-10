@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 3, 9, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 2, 9, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "BudsMouse"
+    title: "BudsMouse"
+    description: "Turn the Samsung Galaxy Buds3 Pro case into a wireless air mouse for Windows 11 - software only (Python, Bluetooth)."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "ai-support-assistant"
+    title: "ai-support-assistant"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "local-ai-coding-assistant"
+    title: "local-ai-coding-assistant"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "Porta-seguro"
+    title: "Porta-seguro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "auth-api"
+    title: "auth-api"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "jarvis-pc-assistant"
+    title: "jarvis-pc-assistant"
+    description: "Jarvis para PC: assistente que abre apps, sites e controla conversas (WhatsApp/Telegram/Discord) por voz ou texto."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # TMseabra

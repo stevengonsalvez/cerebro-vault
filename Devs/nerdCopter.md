@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [12, 0, 1, 1, 5, 8, 15, 11, 13, 5, 10, 1, 0]
+pushes_per_week: [12, 0, 1, 1, 6, 8, 17, 9, 16, 2, 9, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "blackbox_analyzer"
+    title: "blackbox_analyzer"
+    description: "Blackbox log (BBL/BFL/CSV) step-response, filter, vibration and PID analysis for Betaflight/EmuFlight"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "SPRACINGH7EF"
+    title: "SPRACINGH7EF"
+    description: "Backup, repair, restore and flashing knowledge for the SP Racing H7EF flight controller (owned hardware): flash map, bootloader, scripts, factory data, case study."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "target-convert"
+    title: "target-convert"
+    description: "bf to ef target converter script"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "multirotor-esc-handbook"
+    title: "multirotor-esc-handbook"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "powershell-git-prompt"
+    title: "powershell-git-prompt"
+    description: null
+    language: "PowerShell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "PuterJS-UI"
+    title: "PuterJS-UI"
+    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # nerdCopter

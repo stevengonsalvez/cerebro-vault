@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 1, 0, 17, 25, 48, 18, 15, 2, 8, 1, 1]
+pushes_per_week: [0, 0, 1, 0, 21, 30, 41, 16, 16, 2, 7, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vtmux"
+    title: "vtmux"
+    description: "tmux on a modern stack: all the baggage, fast and lean, fewer paper cuts, better rendering."
+    language: "Rust"
+    topics:
+      - "ghostty"
+      - "libghostty"
+      - "rust"
+      - "terminal-multiplexer"
+      - "tmux"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "ramble"
+    title: "ramble"
+    description: "Read your notes in the terminal, and follow them wherever they link."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "debrief"
+    title: "debrief"
+    description: "Catch up with what your coding agents committed, and answer back."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "vecgrep"
+    title: "vecgrep"
+    description: "Semantic grep — like ripgrep, but with vector search"
+    language: "Rust"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-09-12"
+  - name: "hexclack"
+    title: "hexclack"
+    description: "I have given up on elgato software"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # martintrojer

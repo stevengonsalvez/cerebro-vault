@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 6, 6, 3, 4, 25, 20, 19, 8, 6, 4, 0, 0]
+pushes_per_week: [2, 6, 6, 4, 7, 26, 15, 20, 11, 2, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
     active_days: 7
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 5
-    pushes_per_repo: 3.2000
+    pushes_per_repo: 3.0000
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opendum"
+    title: "opendum"
+    description: "Your dummy, one proxy."
+    language: "TypeScript"
+    topics:
+      - "anthropic"
+      - "openai"
+      - "proxy"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal dotfiles."
+    language: "TypeScript"
+    topics:
+      - "chezmoi"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "nimeplay"
+    title: "nimeplay"
+    description: "Minimal anime streaming."
+    language: "TypeScript"
+    topics:
+      - "cloudflare"
+      - "nuxt"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "rctiplus"
+    title: "rctiplus"
+    description: "RCTI+ streaming."
+    language: "TypeScript"
+    topics:
+      - "iptv"
+      - "m3u8"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "pi-opendum"
+    title: "pi-opendum"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "unroxy"
+    title: "unroxy"
+    description: "Universal rotating proxy."
+    language: "Rust"
+    topics:
+      - "proxy"
+      - "psiphon-core"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # sachnun

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [59, 8, 16, 0, 0, 11, 2, 27, 8, 28, 105, 0, 1]
+pushes_per_week: [49, 8, 16, 0, 1, 11, 1, 31, 13, 41, 83, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 136
-    distinct_repos: 11
-    active_days: 12
+    pushes: 135
+    distinct_repos: 10
+    active_days: 11
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 265
-    distinct_repos: 20
+    pushes: 255
+    distinct_repos: 19
     active_days: 40
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.6250
-  repo_per_active_day: 0.5000
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.1500
+  push_per_day: 6.3750
+  repo_per_active_day: 0.4750
+  not_owned_ratio: 0.6316
+  basename_concentration: 0.1579
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 136
-    distinct_repos: 11
-    pushes_per_repo: 12.3636
-    active_days: 12
+    pushes: 135
+    distinct_repos: 10
+    pushes_per_repo: 13.5000
+    active_days: 11
     repos_not_owned: 9
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 265
-    distinct_repos: 20
-    pushes_per_repo: 13.2500
+    pushes: 255
+    distinct_repos: 19
+    pushes_per_repo: 13.4211
     active_days: 40
     repos_not_owned: 12
     not_owned_basenames: 11
@@ -76,11 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-bloom"
+    title: "opencode-bloom"
+    description: "Generate animated videos of your local OpenCode V2 sessions."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "scrawl"
+    title: "scrawl"
+    description: "Show an agent a problem: mark up, record, send"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agents"
+      - "developer-tools"
+      - "gpui"
+      - "macos"
+      - "opencode"
+      - "rust"
+      - "screen-recording"
+    stars_fact: 904
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "ios-kit"
+    title: "ios-kit"
+    description: "iOS 26 (Liquid Glass) in the browser, for prototyping native app UI before building it"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "psychopomp"
+    title: "psychopomp"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 423
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "motel"
+    title: "motel"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 306
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "visual-effect"
+    title: "visual-effect"
+    description: "Interactive Effect Visualizations"
+    language: "TypeScript"
+    topics:
+      - "effect"
+      - "examples"
+      - "tutorial"
+      - "typescript"
+    stars_fact: 1170
+    first_seen: null
+    last_push: "2026-07-06"
 ---
 
 # kitlangton
 
-265 pushes across 20 repositories on 40 active days in the last 90 days of public GitHub push activity.
+255 pushes across 19 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

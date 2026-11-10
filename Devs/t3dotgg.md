@@ -9,11 +9,11 @@ provenance_repos:
   - "t3dotgg/tstack"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [10, 3, 8, 13, 10, 6, 36, 32, 84, 51, 72, 0, 0]
+pushes_per_week: [11, 7, 3, 15, 11, 4, 37, 31, 99, 49, 58, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,7 +23,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 188
+    pushes: 180
     distinct_repos: 3
     active_days: 13
     repos_not_owned: 2
@@ -58,9 +58,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 188
+    pushes: 180
     distinct_repos: 3
-    pushes_per_repo: 62.6667
+    pushes_per_repo: 60.0000
     active_days: 13
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -77,7 +77,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tstack"
+    title: "tstack"
+    description: "The agent skills I use every day. Works with Claude Code and Codex."
+    language: "Python"
+    topics: []
+    stars_fact: 3403
+    first_seen: "2026-10-24T06:00:35.391503+00:00"
+    last_push: "2026-10-28"
+  - name: "stripe-recommendations"
+    title: "stripe-recommendations"
+    description: "How to implement Stripe without going mad"
+    language: null
+    topics:
+      - "fullstack"
+      - "nextjs"
+      - "node"
+      - "payments"
+      - "stripe"
+      - "typescript"
+    stars_fact: 6463
+    first_seen: null
+    last_push: "2025-02-07"
+  - name: "quickpic"
+    title: "quickpic"
+    description: "Turn SVGs into high resolution PNGs in 2 clicks"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1307
+    first_seen: null
+    last_push: "2024-11-24"
+  - name: "lust-lang"
+    title: "lust-lang"
+    description: "lust: a Rust-subset compiler with an incremental daemon (fast dev checks for ts-rust)"
+    language: "Rust"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "slotslop"
+    title: "slotslop"
+    description: "A Vegas-style CLI slot machine that rolls your AI coding harness, model, and effort, then runs the command."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-05-29"
+  - name: "t3dotgg"
+    title: "t3dotgg"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 67
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # t3dotgg

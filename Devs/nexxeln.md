@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 0, 1, 1, 0, 1, 7, 14, 2, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 1, 0, 3, 5, 14, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,82 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "torrential"
+    title: "torrential"
+    description: "Search and download torrents from your terminal, or ask your coding agent to."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "bittorrent"
+      - "cli"
+      - "libtorrent"
+      - "rust"
+      - "torrent"
+      - "tui"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "nexxel.dev"
+    title: "nexxel.dev"
+    description: "my personal website and blog"
+    language: "MDX"
+    topics:
+      - "blog"
+      - "mdx"
+      - "nextjs"
+      - "personal-website"
+      - "redis"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 280
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "oc-pstack"
+    title: "oc-pstack"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "carry"
+    title: "carry"
+    description: "A font that does arithmetic. Type 128+256= and it draws the 384."
+    language: "Python"
+    topics:
+      - "arithmetic"
+      - "font"
+      - "harfbuzz"
+      - "opentype"
+      - "typography"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "spotify-voice-control"
+    title: "spotify-voice-control"
+    description: "Voice control for Spotify through the terminal"
+    language: "Python"
+    topics:
+      - "music"
+      - "python"
+      - "speech-recognition"
+      - "spotify"
+      - "spotify-api"
+      - "voice-commands"
+      - "voice-recognition"
+    stars_fact: 78
+    first_seen: null
+    last_push: "2022-09-23"
+  - name: "jgrep"
+    title: "jgrep"
+    description: "semantic search for code with jev"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-21"
 ---
 
 # nexxeln

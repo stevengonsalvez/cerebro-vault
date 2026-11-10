@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [23, 33, 9, 3, 10, 43, 47, 2, 2, 4, 1, 0, 0]
+pushes_per_week: [25, 30, 9, 3, 14, 41, 45, 2, 4, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 176
     distinct_repos: 7
     active_days: 44
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0227
+  push_per_day: 4.0000
   repo_per_active_day: 0.1591
   not_owned_ratio: 0.4286
   basename_concentration: 0.2857
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 176
     distinct_repos: 7
-    pushes_per_repo: 25.2857
+    pushes_per_repo: 25.1429
     active_days: 44
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -182,6 +182,6 @@ repos:
 
 # Astro-Han
 
-177 pushes across 7 repositories on 44 active days in the last 90 days of public GitHub push activity.
+176 pushes across 7 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

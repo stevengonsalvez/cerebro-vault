@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 1]
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AI-llm-werewolf-arena-"
+    title: "AI-llm-werewolf-arena-"
+    description: "DeepSeek 单 API 多角色狼人杀模拟器 （后续会改多api）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "script-to-video-skill"
+    title: "script-to-video-skill"
+    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "browser-use-docs"
+    title: "browser-use-docs"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # ninglinLiu

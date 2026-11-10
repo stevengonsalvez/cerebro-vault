@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [10, 14, 1, 0, 0, 1, 10, 0, 0, 1, 2, 0, 0]
+pushes_per_week: [0, 15, 0, 0, 0, 3, 8, 0, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
-    distinct_repos: 12
-    active_days: 16
-    repos_not_owned: 9
-    not_owned_basenames: 3
-    not_owned_owners: 9
+    pushes: 29
+    distinct_repos: 11
+    active_days: 14
+    repos_not_owned: 8
+    not_owned_basenames: 2
+    not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.4375
-  repo_per_active_day: 0.7500
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.6667
+  push_per_day: 2.0714
+  repo_per_active_day: 0.7857
+  not_owned_ratio: 0.7273
+  basename_concentration: 0.7273
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.6667 (8 of 12 repos share one basename), 9 not owned across 3 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
+    - "basename concentration 0.7273 (8 of 11 repos share one basename), 8 not owned across 2 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: jackwener/OpenCLI"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 39
-    distinct_repos: 12
-    pushes_per_repo: 3.2500
-    active_days: 16
-    repos_not_owned: 9
-    not_owned_basenames: 3
-    not_owned_owners: 9
+    pushes: 29
+    distinct_repos: 11
+    pushes_per_repo: 2.6364
+    active_days: 14
+    repos_not_owned: 8
+    not_owned_basenames: 2
+    not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DSH-Android"
@@ -160,6 +160,6 @@ repos:
 
 # jackwener
 
-39 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
+29 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jackwener

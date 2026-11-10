@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [3, 0, 1, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0]

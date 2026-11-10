@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [1, 0, 0, 1, 0, 2, 0, 0, 0, 2, 7, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openspec-snap"
+    title: "openspec-snap"
+    description: "Snap packaging for OpenSpec, a spec-driven development tool for AI coding assistants."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "ruview-snap"
+    title: "ruview-snap"
+    description: "Snap packaging for RuView, a Wi-Fi sensing server and web dashboard."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "comfy-desktop-snap"
+    title: "comfy-desktop-snap"
+    description: "Snap packaging for Comfy Desktop, a desktop application for ComfyUI generative AI workflows."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "oxfmt-snap"
+    title: "oxfmt-snap"
+    description: "Snap packaging for Oxfmt, a JavaScript and TypeScript formatter."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "moli-snap"
+    title: "moli-snap"
+    description: "Snap packaging for Moli, a lightweight headless browser for AI agents and automation."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "freevideo-snap"
+    title: "freevideo-snap"
+    description: "Snap packaging for FreeVideo, a local AI video and audio generator with a ComfyUI workspace and timeline editor."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # sidalit

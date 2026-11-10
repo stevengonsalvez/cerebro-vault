@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -20,6 +20,7 @@ provenance:
   - "311c4544be952c28"
   - "3509861ced217170"
   - "396d5f6b9bc0a0f2"
+  - "52161e6fadd6edbd"
   - "546861447eb67d73"
   - "6d91f7c55a55a1dc"
   - "785d6f65b1beb1f0"
@@ -102,7 +103,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 30 vault signal(s) — pass"
+  - "provenance: 31 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []

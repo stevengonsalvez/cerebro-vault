@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [5, 4, 9, 6, 12, 25, 33, 21, 12, 11, 4, 0, 0]
+pushes_per_week: [5, 4, 12, 3, 18, 31, 28, 18, 15, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 44
     active_days: 48
     repos_not_owned: 4
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9583
+  push_per_day: 2.9375
   repo_per_active_day: 0.9167
   not_owned_ratio: 0.0909
   basename_concentration: 0.0227
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 44
-    pushes_per_repo: 3.2273
+    pushes_per_repo: 3.2045
     active_days: 48
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-142 pushes across 44 repositories on 48 active days in the last 90 days of public GitHub push activity.
+141 pushes across 44 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

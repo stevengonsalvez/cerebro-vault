@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 0, 0, 1, 1, 4, 2, 0, 1, 7, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 3, 1, 2, 0, 3, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,98 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ps4-injection-lab"
+    title: "ps4-injection-lab"
+    description: "Complete PS4 injection framework - 19 entry points (CMD_PROC_ELF, SPRX, ptrace, ring-0, DMA, BT spoof), FW 14.00 GoldHEN, game-agnostic. Apex Legends / R6S / Fortnite and any PS4 title."
+    language: "C"
+    topics:
+      - "apex-legends"
+      - "gamehacking"
+      - "goldhen"
+      - "jailbreak"
+      - "ps4"
+      - "reverse-engineering"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "omniwire"
+    title: "omniwire"
+    description: "Infrastructure for AI agent swarms - 88 MCP tools, A2A, mesh VPN, CDP browser, 2FA"
+    language: "TypeScript"
+    topics:
+      - "a2a"
+      - "ai-agents"
+      - "devops"
+      - "infrastructure"
+      - "mcp"
+      - "model-context-protocol"
+      - "npm"
+      - "typescript"
+      - "wireguard"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "NetVar1337"
+    title: "NetVar1337"
+    description: "Security research, reverse engineering, AI/ML and Web3 - autonomous security agents, detection engineering, and open-source tooling."
+    language: "Python"
+    topics:
+      - "anti-cheat"
+      - "detection-engineering"
+      - "game-security"
+      - "reverse-engineering"
+      - "security-research"
+      - "windows-internals"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "claude-for-firefox"
+    title: "claude-for-firefox"
+    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
+    language: "JavaScript"
+    topics:
+      - "ai-assistant"
+      - "browser-extension"
+      - "claude"
+      - "firefox"
+      - "javascript"
+      - "webextension"
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "Kevlar"
+    title: "Kevlar"
+    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
+    language: "C++"
+    topics:
+      - "cpp"
+      - "driver"
+      - "emulation"
+      - "kernel"
+      - "malware-analysis"
+      - "reverse-engineering"
+      - "security-research"
+      - "unicorn"
+      - "windows"
+      - "windows-internals"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "EchoDebug"
+    title: "EchoDebug"
+    description: "Windows reverse-engineering workbench (Tauri + React) with a WebSocket relay and MCP server, backed by Echo's Universal API"
+    language: "TypeScript"
+    topics:
+      - "debugger"
+      - "mcp"
+      - "memory-analysis"
+      - "reverse-engineering"
+      - "tauri"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # NetVar1337

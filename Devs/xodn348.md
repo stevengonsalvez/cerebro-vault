@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 2, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 1, 1, 2, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xodn348.github.io"
+    title: "xodn348.github.io"
+    description: "Personal website"
+    language: "HTML"
+    topics:
+      - "portfolio"
+      - "website"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "xodn348"
+    title: "xodn348"
+    description: "readme"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "destiny"
+    title: "destiny"
+    description: "Daily fortune-telling plugin for Claude Code."
+    language: "Python"
+    topics: []
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-05-29"
+  - name: "han"
+    title: "han"
+    description: "A compiled programming language with Korean keywords, written in Rust"
+    language: "Rust"
+    topics:
+      - "compiler"
+      - "hangul"
+      - "korean"
+      - "llvm"
+      - "programming-language"
+      - "rust"
+    stars_fact: 183
+    first_seen: null
+    last_push: "2026-07-31"
+  - name: "computermoney"
+    title: "computermoney"
+    description: "Autonomous payments between AI agents"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-19"
+  - name: "readhn"
+    title: "readhn"
+    description: "AI-native HackerNews MCP Server with EigenTrust expert ranking and explainable quality signals"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-11"
 ---
 
 # xodn348

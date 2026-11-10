@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 1, 1, 0, 1, 5, 8, 13, 10, 5, 6, 1, 1]
+pushes_per_week: [9, 1, 1, 0, 4, 3, 8, 12, 11, 7, 3, 2, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
     active_days: 29
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.1379
+  push_per_day: 2.1034
   repo_per_active_day: 0.2759
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 8
-    pushes_per_repo: 7.7500
+    pushes_per_repo: 7.6250
     active_days: 29
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-62 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+61 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

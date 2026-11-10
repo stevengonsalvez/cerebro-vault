@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [41, 6, 4, 1, 37, 8, 13, 2, 0, 0, 11, 0, 1]
+pushes_per_week: [43, 2, 3, 1, 37, 9, 12, 2, 0, 1, 10, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 28
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2759
-  repo_per_active_day: 0.9655
+  push_per_day: 4.3214
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0357
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 124
+    pushes: 121
     distinct_repos: 28
-    pushes_per_repo: 4.4286
-    active_days: 29
+    pushes_per_repo: 4.3214
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -155,6 +155,6 @@ repos:
 
 # kevin9327
 
-124 pushes across 28 repositories on 29 active days in the last 90 days of public GitHub push activity.
+121 pushes across 28 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

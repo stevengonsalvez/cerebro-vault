@@ -8,11 +8,11 @@ provenance_repos:
   - "juggler-ai/juggler"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [3, 3, 2, 0, 2, 1, 6, 7, 4, 3, 3, 0, 0]
+pushes_per_week: [3, 3, 2, 0, 2, 1, 7, 8, 2, 3, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "GLADriver"
+    title: "GLADriver"
+    description: "GLA device driver"
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-29"
 ---
 
 # julianstorer

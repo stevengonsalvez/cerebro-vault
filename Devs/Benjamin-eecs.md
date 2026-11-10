@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 0, 11, 0, 3, 22, 1, 0, 0, 0, 1, 7]
+pushes_per_week: [1, 0, 0, 11, 1, 5, 20, 0, 0, 0, 0, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 5
+    pushes: 46
+    distinct_repos: 4
     active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3571
-  repo_per_active_day: 0.3571
-  not_owned_ratio: 0.6000
-  basename_concentration: 0.4000
+  push_per_day: 3.2857
+  repo_per_active_day: 0.2857
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 5
-    pushes_per_repo: 9.4000
+    pushes: 46
+    distinct_repos: 4
+    pushes_per_repo: 11.5000
     active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
@@ -97,6 +97,6 @@ repos:
 
 # Benjamin-eecs
 
-47 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
+46 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Benjamin-eecs

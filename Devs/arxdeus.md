@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [10, 7, 2, 0, 1, 8, 7, 8, 6, 1, 0, 0, 0]
+pushes_per_week: [9, 7, 2, 0, 2, 7, 7, 8, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 9
     active_days: 24
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0833
+  push_per_day: 2.0417
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 50
+    pushes: 49
     distinct_repos: 9
-    pushes_per_repo: 5.5556
+    pushes_per_repo: 5.4444
     active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -155,6 +155,6 @@ repos:
 
 # arxdeus
 
-50 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
+49 pushes across 9 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arxdeus

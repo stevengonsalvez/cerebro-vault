@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [12, 6, 10, 2, 3, 2, 1, 23, 5, 7, 5, 0, 2]
+pushes_per_week: [11, 10, 6, 3, 2, 2, 5, 19, 5, 7, 5, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 4
-    active_days: 8
+    pushes: 17
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 5
     active_days: 30
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6000
+  push_per_day: 2.5667
   repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 4
-    pushes_per_repo: 4.5000
-    active_days: 8
+    pushes: 17
+    distinct_repos: 3
+    pushes_per_repo: 5.6667
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 5
-    pushes_per_repo: 15.6000
+    pushes_per_repo: 15.4000
     active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "shell_rc"
+    title: "shell_rc"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "ai"
+    title: "ai"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "deb"
+    title: "deb"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "lab"
+    title: "lab"
+    description: "We have cloud at home"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "sad"
+    title: "sad"
+    description: "CLI search and replace | Space Age seD"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "command-line"
+      - "diff"
+      - "editing"
+      - "fzf"
+      - "rust"
+      - "sed"
+      - "terminal"
+      - "tui"
+    stars_fact: 2050
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "homebrew-sad"
+    title: "homebrew-sad"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # ms-jpq
 
-78 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
+77 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ms-jpq

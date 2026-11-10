@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 9, 3, 4, 1, 4, 14, 4, 0, 3, 0, 0, 0]
+pushes_per_week: [10, 7, 3, 4, 2, 6, 14, 1, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "echo-ui"
+    title: "echo-ui"
+    description: null
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-25"
+  - name: "echo"
+    title: "echo"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-25"
+  - name: "cola"
+    title: "cola"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-08-17"
+  - name: "gouge"
+    title: "gouge"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-23"
+  - name: "slurm-client"
+    title: "slurm-client"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-24"
+  - name: "forge"
+    title: "forge"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-26"
 ---
 
 # me2seeks

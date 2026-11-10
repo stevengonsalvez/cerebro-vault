@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 1, 0, 1, 3, 1, 12, 0, 5, 3, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 3, 1, 12, 5, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,104 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "har-trace-viewer"
+    title: "har-trace-viewer"
+    description: "HAR analyzer and viewer: see how a page load travels through CDN, origin and third parties, with cache analysis and Core Web Vitals. Terminal, HTML and JSON."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cache"
+      - "cdn"
+      - "chrome-trace"
+      - "cli"
+      - "core-web-vitals"
+      - "har"
+      - "har-analyzer"
+      - "har-viewer"
+      - "web-performance"
+      - "webpagetest"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "webperf-snippets"
+    title: "webperf-snippets"
+    description: "Tested JavaScript snippets that measure and debug web performance. Your AI agent runs them for you, or you run them yourself in DevTools: the same code every time."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "chrome-devtools"
+      - "claude-code"
+      - "cli"
+      - "cls"
+      - "core-web-vitals"
+      - "inp"
+      - "lcp"
+      - "performance"
+      - "performance-analysis"
+      - "performance-metrics"
+      - "playwright"
+      - "snippets"
+      - "webperf"
+      - "webperformance"
+      - "webvitals"
+    stars_fact: 1456
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "harness-engineering-biznagafest"
+    title: "harness-engineering-biznagafest"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "People-You-Should-Follow-on-CodePen"
+    title: "People-You-Should-Follow-on-CodePen"
+    description: "People You Should Follow on CodePen"
+    language: "JavaScript"
+    topics:
+      - "animation"
+      - "canvas"
+      - "codepen"
+      - "creative-coding"
+      - "css"
+      - "hacktoberfest"
+      - "interaction"
+      - "p5js"
+      - "svg"
+      - "webgl"
+    stars_fact: 713
+    first_seen: null
+    last_push: "2021-01-02"
+  - name: "MDNSearchDoc"
+    title: "MDNSearchDoc"
+    description: "Sublime Text MDN Search Doc"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2016-10-12"
+  - name: "image-tools"
+    title: "image-tools"
+    description: "Reproducible toolbox and harness for comparing image codecs (JPEG XL, AVIF, WebP, jpegli, mozjpeg, HEIC) at equal perceptual quality."
+    language: "HTML"
+    topics:
+      - "avif"
+      - "docker"
+      - "heic"
+      - "image-codecs"
+      - "image-compression"
+      - "jpeg-xl"
+      - "jpegli"
+      - "mozjpeg"
+      - "ssimulacra2"
+      - "web-performance"
+      - "webp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # nucliweb

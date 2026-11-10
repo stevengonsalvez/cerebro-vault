@@ -8,11 +8,11 @@ provenance_repos:
   - "KnockOutEZ/wigolo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [14, 17, 1, 4, 1, 2, 1, 0, 0, 0, 4, 0, 0]
+pushes_per_week: [15, 16, 1, 5, 0, 2, 1, 0, 0, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,79 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wigolo"
+    title: "wigolo"
+    description: "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-agent"
+      - "claude"
+      - "developer-tools"
+      - "exa-alternative"
+      - "firecrawl-alternative"
+      - "local-first"
+      - "mcp"
+      - "mcp-server"
+      - "metasearch"
+      - "model-context-protocol"
+      - "privacy"
+      - "rag"
+      - "search"
+      - "search-engine"
+      - "tavily-alternative"
+      - "web-crawler"
+      - "web-scraping"
+      - "web-search"
+    stars_fact: 5527
+    first_seen: "2026-07-19T06:00:06.180682+00:00"
+    last_push: "2026-11-04"
+  - name: "KnockOutEZ"
+    title: "KnockOutEZ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "auto-content-downloader"
+    title: "auto-content-downloader"
+    description: "Very simple script for downloading massive amount of data automatically. You just drop in all the links you scraped and proxies (optional)."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-02"
+  - name: "diffdeck"
+    title: "diffdeck"
+    description: "DiffDeck: 🚀 Streamline Code Reviews and Collaboration with Smart Diffs, Security Scans, and AI-Ready Outputs!"
+    language: "Go"
+    topics:
+      - "ai"
+      - "go"
+      - "golang"
+      - "llm"
+    stars_fact: 51
+    first_seen: null
+    last_push: "2024-12-30"
+  - name: "homebrew-wigolo"
+    title: "homebrew-wigolo"
+    description: "Homebrew tap for wigolo"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "pocket-tts-alignment"
+    title: "pocket-tts-alignment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-29"
 ---
 
 # KnockOutEZ

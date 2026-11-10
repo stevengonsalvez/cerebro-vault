@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [4, 0, 1, 0, 0, 4, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 0, 0, 4, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agentreview"
+    title: "agentreview"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-03-05"
+  - name: "csci402-checklist"
+    title: "csci402-checklist"
+    description: "Allows you track lectures and discussion videos you have seen, for USC's CSCI 402: Operating Systems course!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-04-11"
+  - name: "tempemail-backend"
+    title: "tempemail-backend"
+    description: "Backed code for a API Driven 10-min email server powered by AWS."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-08-02"
+  - name: "Portfolio"
+    title: "Portfolio"
+    description: "Go check it out at :"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-10-08"
+  - name: "MalariaDetection"
+    title: "MalariaDetection"
+    description: "Using deeplearning to detect cells infected with malaria"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2019-03-08"
+  - name: "blog"
+    title: "blog"
+    description: "Repository for my blog and website in Hugo"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-12-11"
 ---
 
 # tejaskash

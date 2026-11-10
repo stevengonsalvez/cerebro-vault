@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [13, 4, 1, 2, 2, 6, 5, 2, 3, 4, 12, 0, 0]
+pushes_per_week: [16, 1, 1, 4, 0, 7, 4, 2, 3, 5, 11, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SuperWagie"
+    title: "SuperWagie"
+    description: "犇马 SuperWagie · 本地 AI 办公与编程智能体。Local AI workbench for office work and coding, with Markdown tasks, a document library, and document/PPT creation for macOS and Windows."
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "benma"
+      - "coding-agent"
+      - "knowledge-base"
+      - "local-first"
+      - "macos"
+      - "markdown"
+      - "office-automation"
+      - "opencode"
+      - "productivity"
+      - "superwagie"
+      - "windows"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "UniHub"
+    title: "UniHub"
+    description: "UniHub: headless identity, accounts and billing services for independent products"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "llmrouter"
+    title: "llmrouter"
+    description: "Private LLM API aggregation and client compatibility platform"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "SuperVideo"
+    title: "SuperVideo"
+    description: "轻量视频制作技能：PPT、绘本、网页教程与教学动画，百炼配音、字幕和 BGM。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "inidd"
+    title: "inidd"
+    description: "魂器（inidd）：DeepSeek Harness 的人格化插件集"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "project-taskboard"
+    title: "project-taskboard"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
 ---
 
 # NeoMei

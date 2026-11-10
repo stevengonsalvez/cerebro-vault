@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 4, 0, 0, 15, 29, 8, 8, 6, 1, 0, 0, 0]
+pushes_per_week: [2, 4, 0, 0, 18, 28, 9, 5, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,74 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tiinyengineer"
+    title: "tiinyengineer"
+    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "subctl"
+    title: "subctl"
+    description: "Subscription Central — unified CLI/TUI/dashboard for AI subscriptions you're paying for. Multi-account, rate-limit-aware, tmux team launcher, web dashboard. Phase 1: Anthropic Claude."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "ai-cli"
+      - "ai-tools"
+      - "claude-code"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "aegisrefine"
+    title: "aegisrefine"
+    description: "Hermes Agent-operated dataset refinery: capped Stripe quotes, NVIDIA/Nemotron governance, Aegis-14B, Connect spend verification, and signed AAR proof."
+    language: "HTML"
+    topics:
+      - "aegis-14b"
+      - "agent-attestation"
+      - "agent-economy"
+      - "ai-agents"
+      - "dataset-refinery"
+      - "dgx-spark"
+      - "fastapi"
+      - "frontier-infra"
+      - "hermes-agent"
+      - "huggingface"
+      - "nemotron"
+      - "nous-research"
+      - "nvidia"
+      - "stripe"
+      - "stripe-connect"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-01"
+  - name: "udder-releases"
+    title: "udder-releases"
+    description: "Official preview installers and release notes for Udder voice dictation"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "turn-clock"
+    title: "turn-clock"
+    description: "Hermes plugin: a re-entry brief (elapsed time + behavior cue) when a session resumes after a gap. Silent during a continuous conversation."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "titanium-plugins"
+    title: "titanium-plugins"
+    description: "Professional Claude Code plugins with voice-enhanced AI workflows"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-01-31"
 ---
 
 # webdevtodayjason

@@ -8,11 +8,11 @@ provenance_repos:
   - "ninjahawk/livenerf"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [0, 0, 0, 0, 0, 7, 2, 3, 0, 3, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 8, 1, 3, 0, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "livenerf"
+    title: "livenerf"
+    description: "Benchmark for tracking model capability after release."
+    language: "Python"
+    topics: []
+    stars_fact: 1853
+    first_seen: "2026-09-30T06:02:10.916514+00:00"
+    last_push: "2026-11-09"
+  - name: "S-and-Poke-500"
+    title: "S-and-Poke-500"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "crypto"
+    title: "crypto"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "T-Finance"
+    title: "T-Finance"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "earned-or-claimed"
+    title: "earned-or-claimed"
+    description: "Can a monitor tell when an AI agent has actually finished its task? Apart Swarm Alignment sprint, Track 4"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "fairlittlegoods-site"
+    title: "fairlittlegoods-site"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # ninjahawk

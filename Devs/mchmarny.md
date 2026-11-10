@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 5, 5, 2, 11, 15, 14, 7, 8, 7, 0, 0, 1]
+pushes_per_week: [10, 6, 4, 2, 11, 19, 12, 6, 9, 5, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,69 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "disco"
+    title: "disco"
+    description: "Utility for bulk image, license, package, and vulnerability discovery in containerize workloads on GCP. Includes CLI and Service with custom metrics and BigQuery data exports."
+    language: "Go"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2024-02-15"
+  - name: "cluster"
+    title: "cluster"
+    description: "Collection of Kubernetes cluster deployment tools for multiple cloud platforms and local development."
+    language: "HCL"
+    topics:
+      - "aks"
+      - "eks"
+      - "gke"
+      - "kind"
+      - "kubernetes"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "vimp"
+    title: "vimp"
+    description: "Aggregate vulnerability scans from multiple container image scanners to identify discrepancies and get comprehensive exposure analysis."
+    language: "Go"
+    topics:
+      - "artifact"
+      - "container"
+      - "cve"
+      - "gcp"
+      - "grype"
+      - "registry"
+      - "snyk"
+      - "trivy"
+      - "vulnerability"
+    stars_fact: 86
+    first_seen: null
+    last_push: "2026-07-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap project"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "aicrme"
+    title: "aicrme"
+    description: "AI Cluster Runtime Configurer"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
+  - name: "mchmarny"
+    title: "mchmarny"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-18"
 ---
 
 # mchmarny

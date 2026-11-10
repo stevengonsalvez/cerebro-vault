@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [1, 23, 4, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "zhiiw.github.io"
+    title: "zhiiw.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "scrap_imdb"
+    title: "scrap_imdb"
+    description: "scrap the imdb and tmdb"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-12-30"
+  - name: "CodingHelper"
+    title: "CodingHelper"
+    description: "It 's atime helper for code"
+    language: "Java"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2020-12-16"
+  - name: "private-bustdb"
+    title: "private-bustdb"
+    description: "this is the practise of cmu15445"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-02"
+  - name: "standford-CS251"
+    title: "standford-CS251"
+    description: "The answer of st cs251"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-11-10"
+  - name: "scra"
+    title: "scra"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-06"
 ---
 
 # zhiiw

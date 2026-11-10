@@ -8,11 +8,11 @@ provenance_repos:
   - "supanadit/morse"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "59baa2731025f811"
-pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 6, 4, 1, 2, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 0, 0, 6, 5, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 2
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "morse"
+    title: "morse"
+    description: "A comfortable GUI for the Pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "nestjs"
+      - "opencode"
+      - "opencode-v2"
+      - "pi"
+    stars_fact: 14
+    first_seen: "2026-10-21T06:01:21.528026+00:00"
+    last_push: "2026-11-01"
+  - name: "phpv"
+    title: "phpv"
+    description: "PHP Version Manager"
+    language: "Go"
+    topics:
+      - "bash"
+      - "php"
+      - "posix-compliant"
+      - "shell"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "supanadit"
+    title: "supanadit"
+    description: "Github Secret"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "containers-docs"
+    title: "containers-docs"
+    description: "Documentation for the Containers Collection"
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "containers"
+    title: "containers"
+    description: "Specialized and Custom Made Containers"
+    language: "JavaScript"
+    topics:
+      - "containers"
+      - "docker"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "ezx"
+    title: "ezx"
+    description: "Eazy Executor ?"
+    language: "Go"
+    topics:
+      - "docker"
+      - "docker-container"
+      - "init"
+      - "init-system"
+      - "linux"
+      - "pid1"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # supanadit

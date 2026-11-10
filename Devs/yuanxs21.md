@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [1, 1, 0, 1, 1, 2, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "CSB-dataset"
+    title: "CSB-dataset"
+    description: "A dataset for causal strength classification"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-03-09"
 ---
 
 # yuanxs21

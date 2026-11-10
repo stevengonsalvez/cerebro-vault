@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 0, 0, 0, 2, 3, 15, 3, 5, 4, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 2, 3, 15, 7, 1, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ldap-mcp"
+    title: "ldap-mcp"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "octodns-porkbun"
+    title: "octodns-porkbun"
+    description: "Porkbun DNS provider for octoDNS, powered by oinker"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "tickerscope"
+    title: "tickerscope"
+    description: "Unofficial async Python client for the MarketSurge stock research API"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "major.io"
+    title: "major.io"
+    description: "Source code for major.io"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "jira-mcp"
+    title: "jira-mcp"
+    description: "Token-efficient, read-only MCP server for Jira Cloud tickets, search, comments, custom fields, and user discovery, powered by FastMCP."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "gitlab-mcp"
+    title: "gitlab-mcp"
+    description: "Token-efficient MCP server for GitLab merge requests, code reviews, merge trains, and work items, powered by FastMCP."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # major

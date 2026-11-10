@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 0, 0, 0, 0, 2, 0, 2, 0, 2, 4, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 0, 2, 1, 1, 2, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "subspace"
+    title: "subspace"
+    description: "Lightweight vector and matrix math library for OpenGL programming in Scala."
+    language: "Scala"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2015-07-31"
+  - name: "dice"
+    title: "dice"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "synthesis.js"
+    title: "synthesis.js"
+    description: "A content synthesis library for for WebGL and three.js."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2015-01-30"
+  - name: "atepg-change-feed-perf"
+    title: "atepg-change-feed-perf"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "apiserver-storm"
+    title: "apiserver-storm"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "validation-gen"
+    title: "validation-gen"
+    description: "Dev branch for declarative validation"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-20"
 ---
 
 # jpbetz

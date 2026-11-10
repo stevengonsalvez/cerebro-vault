@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [70, 25, 5, 1, 9, 40, 31, 39, 21, 19, 62, 0, 2]
+pushes_per_week: [79, 12, 6, 2, 7, 45, 30, 42, 19, 33, 43, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 11
     not_owned_owners: 1
   "90d":
-    pushes: 324
+    pushes: 320
     distinct_repos: 75
     active_days: 55
     repos_not_owned: 21
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8909
+  push_per_day: 5.8182
   repo_per_active_day: 1.3636
   not_owned_ratio: 0.2800
   basename_concentration: 0.0267
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 11
     not_owned_owners: 1
   "90d":
-    pushes: 324
+    pushes: 320
     distinct_repos: 75
-    pushes_per_repo: 4.3200
+    pushes_per_repo: 4.2667
     active_days: 55
     repos_not_owned: 21
     not_owned_basenames: 21
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kabe"
+    title: "kabe"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "gh-ignore-bot"
+    title: "gh-ignore-bot"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "painless-ghicon"
+    title: "painless-ghicon"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "span-tester"
+    title: "span-tester"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "playwright-grpc"
+    title: "playwright-grpc"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "takumi3488"
+    title: "takumi3488"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # takumi3488
 
-324 pushes across 75 repositories on 55 active days in the last 90 days of public GitHub push activity.
+320 pushes across 75 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

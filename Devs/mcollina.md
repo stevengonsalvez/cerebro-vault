@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [14, 2, 4, 0, 3, 8, 15, 7, 12, 14, 2, 0, 0]
+pushes_per_week: [14, 2, 4, 0, 3, 10, 14, 10, 12, 11, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: "My own collection of skills for modern Node.js development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1963
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "sqlite-pool"
+    title: "sqlite-pool"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "autocannon"
+    title: "autocannon"
+    description: "fast HTTP/1.1 benchmarking tool written in Node.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8536
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "fastq"
+    title: "fastq"
+    description: "Fast, in memory work queue"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1141
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "nodejs-download-stats"
+    title: "nodejs-download-stats"
+    description: "Node.js Download Statistics"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-02-13"
+  - name: "hyperid"
+    title: "hyperid"
+    description: "Uber-fast unique id generation, for Node.js and the browser"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 752
+    first_seen: null
+    last_push: "2026-07-17"
 ---
 
 # mcollina

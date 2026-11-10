@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 2, 1, 4, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 3, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "BargainProxy"
+    title: "BargainProxy"
+    description: "个人自用的统一模型网关：聚合 Google Antigravity / WorkBuddy / Trae CN / ZCode / AutoClaw / Qoder / OpenCode 免费模型。纯 AI 制作，致敬 agentpoints、AIClient2API、magpie、sub2api、CLIProxyAPI。"
+    language: "Go"
+    topics:
+      - "agentpoints"
+      - "aiclient2api"
+      - "anthropic"
+      - "api-gateway"
+      - "gemini"
+      - "golang"
+      - "llm-gateway"
+      - "openai-proxy"
+      - "self-hosted"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "opencode2zcode"
+    title: "opencode2zcode"
+    description: "把 OpenCode Zen 的匿名免费模型接进 ZCode / Use OpenCode Zen's anonymous free models in ZCode — Rust loopback proxy, zero dependencies for end users. Port of JasonYu0822/opencode2pi-desktop."
+    language: "JavaScript"
+    topics:
+      - "free-models"
+      - "llm"
+      - "opencode"
+      - "proxy"
+      - "rust"
+      - "zcode"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "3r-waterline"
+    title: "3r-waterline"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "provider-fetcher"
+    title: "provider-fetcher"
+    description: "Local helper for AI Agent newcomers: fetch a supplier's current model IDs and fill third-party provider forms."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "quarkdownloaderpro"
+    title: "quarkdownloaderpro"
+    description: "夸克网盘分享链接批量下载工具（非官方）· Tauri 2 + React 19 + Rust"
+    language: "TypeScript"
+    topics:
+      - "downloader"
+      - "pan"
+      - "quark"
+      - "react"
+      - "rust"
+      - "tauri"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # YahooYuan666

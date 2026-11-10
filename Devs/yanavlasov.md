@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [4, 0, 0, 0, 2, 1, 6, 6, 2, 3, 3, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 1, 7, 7, 2, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 5
     active_days: 21
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2857
+  push_per_day: 1.2381
   repo_per_active_day: 0.2381
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 5
-    pushes_per_repo: 5.4000
+    pushes_per_repo: 5.2000
     active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,11 +76,19 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "envoy-dataplane"
+    title: "envoy-dataplane"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # yanavlasov
 
-27 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+26 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yanavlasov

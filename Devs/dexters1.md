@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [28, 0, 0, 1, 3, 10, 4, 15, 3, 2, 4, 0, 0]
+pushes_per_week: [26, 0, 0, 2, 2, 10, 8, 14, 1, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 70
+    pushes: 68
     distinct_repos: 2
     active_days: 25
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8000
+  push_per_day: 2.7200
   repo_per_active_day: 0.0800
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 70
+    pushes: 68
     distinct_repos: 2
-    pushes_per_repo: 35.0000
+    pushes_per_repo: 34.0000
     active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -129,6 +129,6 @@ repos:
 
 # dexters1
 
-70 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
+68 pushes across 2 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dexters1

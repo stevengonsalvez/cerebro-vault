@@ -8,8 +8,8 @@ provenance_repos:
   - "petergpt/doomql"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bullshit-benchmark"
+    title: "bullshit-benchmark"
+    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
+    language: "Python"
+    topics: []
+    stars_fact: 1905
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "3d-prompt-collection"
+    title: "3d-prompt-collection"
+    description: "A presentation-order collection of 3D prompts for copying and reuse."
+    language: null
+    topics: []
+    stars_fact: 340
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "model-survey-evaluation"
+    title: "model-survey-evaluation"
+    description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-20"
+  - name: "codex-speed-monitor"
+    title: "codex-speed-monitor"
+    description: "Native macOS menu-bar monitor for Codex token speed"
+    language: "Python"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-05-12"
+  - name: "Live-YT-Translator"
+    title: "Live-YT-Translator"
+    description: "A Chrome extension for live YouTube translation with OpenAI Realtime."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 62
+    first_seen: null
+    last_push: "2026-05-07"
+  - name: "models-learning-chess"
+    title: "models-learning-chess"
+    description: "Language models learning chess: six runs, games, conversation and tool logs, workspace snapshots, and experiment structure."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "benchmark"
+      - "chess"
+      - "dataset"
+      - "language-models"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # petergpt

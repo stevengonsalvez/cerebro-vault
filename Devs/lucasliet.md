@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 2, 0, 0, 1, 5, 13, 6, 2, 3, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 1, 7, 14, 3, 2, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ps5-custom-payloads"
+    title: "ps5-custom-payloads"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "opencode-mem"
+    title: "opencode-mem"
+    description: "Memory persistence between sessions in project scope for opencode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "chatgpt-openai-proxy"
+    title: "chatgpt-openai-proxy"
+    description: "Use your chatgpt plan as an openai compatible api"
+    language: "Python"
+    topics:
+      - "api"
+      - "chatgpt"
+      - "openai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "arrmate"
+    title: "arrmate"
+    description: "A companion app for Radarr and Sonarr instances."
+    language: "Dart"
+    topics:
+      - "app"
+      - "arr"
+      - "companion"
+      - "flutter"
+      - "radarr"
+      - "rudarr"
+      - "sonarr"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "llm-telegram-bot"
+    title: "llm-telegram-bot"
+    description: "Telegram bot to chat with LLMs"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "bot"
+      - "llm"
+      - "telegram"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "opencode-openai-proxy"
+    title: "opencode-openai-proxy"
+    description: "docker image to expose openai compatible api from opencode"
+    language: "JavaScript"
+    topics:
+      - "docker"
+      - "openai"
+      - "opencode"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-07-22"
 ---
 
 # lucasliet

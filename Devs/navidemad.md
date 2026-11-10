@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 0, 0, 10, 7, 52, 42, 11, 4, 8, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 10, 9, 52, 46, 5, 11, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "capybara-lightpanda"
+    title: "capybara-lightpanda"
+    description: "Run Capybara system tests on Lightpanda — the ultra-fast headless browser built in Zig."
+    language: "Ruby"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "pi-navrness"
+    title: "pi-navrness"
+    description: "Personal Pi harness extensions: pi-subagents orchestration with Herdr visibility"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "pixel-rules"
+    title: "pixel-rules"
+    description: "Mandatory agent rules for pixel — the deterministic retrieval + git engine that replaces gitpixel and usable-git"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "navidemad.github.io"
+    title: "navidemad.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-05"
+  - name: "navidemad"
+    title: "navidemad"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
+  - name: "md2slack"
+    title: "md2slack"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-03-06"
 ---
 
 # navidemad

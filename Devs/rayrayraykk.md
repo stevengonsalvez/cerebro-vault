@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 1, 2, 0, 1, 8, 7, 0, 4, 5, 5, 0, 0]
+pushes_per_week: [2, 1, 2, 1, 1, 7, 7, 0, 6, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homepage"
+    title: "homepage"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "rayrayraykk"
+    title: "rayrayraykk"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-20"
+  - name: "aone"
+    title: "aone"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-27"
+  - name: "test_comment"
+    title: "test_comment"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-28"
+  - name: "star"
+    title: "star"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-28"
+  - name: "local_llama"
+    title: "local_llama"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-11"
 ---
 
 # rayrayraykk

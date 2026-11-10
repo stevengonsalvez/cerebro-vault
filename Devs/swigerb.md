@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [15, 1, 3, 0, 0, 3, 46, 186, 135, 10, 35, 0, 0]
+pushes_per_week: [14, 1, 3, 0, 0, 5, 45, 241, 81, 37, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,7 +30,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 434
+    pushes: 433
     distinct_repos: 10
     active_days: 33
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 13.1515
+  push_per_day: 13.1212
   repo_per_active_day: 0.3030
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
@@ -66,9 +66,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 434
+    pushes: 433
     distinct_repos: 10
-    pushes_per_repo: 43.4000
+    pushes_per_repo: 43.3000
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -140,6 +140,6 @@ repos:
 
 # swigerb
 
-434 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
+433 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

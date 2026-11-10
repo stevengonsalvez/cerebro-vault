@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [24, 4, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [25, 3, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "app-support-pages"
+    title: "app-support-pages"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "fasteye-support"
+    title: "fasteye-support"
+    description: "Support and privacy pages for the FastEye iOS app"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "duo_calculator-"
+    title: "duo_calculator-"
+    description: "calculadora especifica para el; iphone duo de iphone"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "ai_cat-"
+    title: "ai_cat-"
+    description: "un gato ensena a tus hijos lo que es y como funciona la inteligencia artificial"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "samantha-key"
+    title: "samantha-key"
+    description: "Premium iOS voice translation keyboard powered by OpenAI Realtime"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "blog-assets"
+    title: "blog-assets"
+    description: "Static assets for Ingeniero Mitre's blogs (images, figures)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # mitre88

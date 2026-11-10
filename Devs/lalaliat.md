@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [3, 0, 0, 0, 1, 2, 0, 0, 1, 1, 1, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 1, 0, 0, 1, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Agent-Oriented-Planning"
+    title: "Agent-Oriented-Planning"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2025-02-28"
 ---
 
 # lalaliat

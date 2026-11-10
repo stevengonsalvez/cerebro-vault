@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 0, 1, 1, 22, 48, 32, 30, 18, 10, 0, 1]
+pushes_per_week: [4, 0, 0, 1, 1, 24, 54, 31, 30, 12, 9, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "automaticum"
+    title: "automaticum"
+    description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "xollama"
+    title: "xollama"
+    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
+    language: "Go"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "CPUDoc"
+    title: "CPUDoc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 146
+    first_seen: null
+    last_push: "2025-11-01"
+  - name: "claude-hooks"
+    title: "claude-hooks"
+    description: "Cross-platform Claude Code hooks for deterministic memory recall (Qdrant + Memory KG, pgvector, sqlite-vec) with HyDE, attention decay, dedup, instinct extraction, and OpenWolf integration"
+    language: "Python"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "BSManager"
+    title: "BSManager"
+    description: "VR Base Stations Manager for HMD"
+    language: "C#"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "omnimergekit"
+    title: "omnimergekit"
+    description: "Tools for model merging (omnimerge_v2), Gemma 4 MoE expert pruning, differential competence-map extraction, and GGUF quantization."
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # mann1x

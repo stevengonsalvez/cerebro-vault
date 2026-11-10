@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [84, 39, 18, 25, 57, 119, 104, 167, 60, 121, 180, 0, 1]
+pushes_per_week: [87, 38, 12, 33, 56, 113, 110, 179, 65, 114, 161, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -25,14 +25,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 328
+    pushes: 325
     distinct_repos: 7
     active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 975
+    pushes: 969
     distinct_repos: 33
     active_days: 69
     repos_not_owned: 32
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 30
 automation:
   state: "clear"
-  push_per_day: 14.1304
+  push_per_day: 14.0435
   repo_per_active_day: 0.4783
   not_owned_ratio: 0.9697
   basename_concentration: 0.9091
@@ -76,17 +76,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 328
+    pushes: 325
     distinct_repos: 7
-    pushes_per_repo: 46.8571
+    pushes_per_repo: 46.4286
     active_days: 14
     repos_not_owned: 6
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 975
+    pushes: 969
     distinct_repos: 33
-    pushes_per_repo: 29.5455
+    pushes_per_repo: 29.3636
     active_days: 69
     repos_not_owned: 32
     not_owned_basenames: 4
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-975 pushes across 33 repositories on 69 active days in the last 90 days of public GitHub push activity.
+969 pushes across 33 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

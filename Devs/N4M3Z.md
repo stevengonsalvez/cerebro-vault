@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [23, 2, 5, 0, 2, 17, 8, 1, 0, 2, 4, 0, 1]
+pushes_per_week: [23, 2, 5, 0, 4, 18, 5, 1, 0, 3, 3, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "rust-cache"
+    title: "rust-cache"
+    description: "Prune stale cargo build output every night, including leftover macOS debug objects"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "lsrules"
+    title: "lsrules"
+    description: "Little Snitch policy references and offline validators."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "openpgpkey"
+    title: "openpgpkey"
+    description: "Web Key Directory for martinzeman.net: keys.yaml rendered into the served tree on openpgpkey.martinzeman.net"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "forge-provision"
+    title: "forge-provision"
+    description: "Best-practice provisioning for developer machines — macOS, Linux, Windows"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
 ---
 
 # N4M3Z

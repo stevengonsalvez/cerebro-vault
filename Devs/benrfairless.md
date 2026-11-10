@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [33, 11, 3, 4, 1, 3, 0, 0, 6, 0, 4, 0, 0]
+pushes_per_week: [28, 6, 2, 4, 1, 3, 0, 0, 6, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 26
-    active_days: 18
-    repos_not_owned: 25
-    not_owned_basenames: 24
+    pushes: 54
+    distinct_repos: 22
+    active_days: 17
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6111
-  repo_per_active_day: 1.4444
-  not_owned_ratio: 0.9615
-  basename_concentration: 0.0769
+  push_per_day: 3.1765
+  repo_per_active_day: 1.2941
+  not_owned_ratio: 0.9545
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 65
-    distinct_repos: 26
-    pushes_per_repo: 2.5000
-    active_days: 18
-    repos_not_owned: 25
-    not_owned_basenames: 24
+    pushes: 54
+    distinct_repos: 22
+    pushes_per_repo: 2.4545
+    active_days: 17
+    repos_not_owned: 21
+    not_owned_basenames: 20
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "user-profile-migration"
@@ -129,6 +129,6 @@ repos:
 
 # benrfairless
 
-65 pushes across 26 repositories on 18 active days in the last 90 days of public GitHub push activity.
+54 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benrfairless

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 1, 0, 1, 0, 1, 4, 1, 2, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 1, 0, 1, 4, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-github-panel"
+    title: "opencode-github-panel"
+    description: "Git and GitHub side panel for OpenCode Desktop: graph, PRs, reviews, CI, issues, triage, and agent tools with an approval queue"
+    language: "TypeScript"
+    topics:
+      - "code-review"
+      - "git"
+      - "github"
+      - "opencode"
+      - "opencode-plugin"
+      - "triage"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "opentui-math"
+    title: "opentui-math"
+    description: "Beautiful LaTeX math rendering for OpenTUI"
+    language: "TypeScript"
+    topics:
+      - "latex"
+      - "math"
+      - "opentui"
+      - "terminal"
+      - "tui"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "opentui-browser"
+    title: "opentui-browser"
+    description: "A Chromium browser surface for OpenTUI using the Kitty graphics protocol"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "opencode-browser"
+    title: "opencode-browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-08-01"
+  - name: "opencode-github-browser"
+    title: "opencode-github-browser"
+    description: "Read GitHub issues and pull requests inside the OpenCode TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "compact-plugin"
+    title: "compact-plugin"
+    description: "Agent-callable session inspection and compaction tools for OpenCode V2."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-17"
 ---
 
 # neriousy

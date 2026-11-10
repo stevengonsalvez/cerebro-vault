@@ -8,11 +8,11 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [1, 3, 2, 0, 0, 3, 0, 2, 2, 1, 3, 0, 0]
+pushes_per_week: [3, 2, 1, 0, 0, 3, 0, 3, 1, 1, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ub-mode"
+    title: "ub-mode"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 7487
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "swarm-forge"
+    title: "swarm-forge"
+    description: "A simple tool for coordinating several AI agents."
+    language: "Clojure"
+    topics: []
+    stars_fact: 4098
+    first_seen: "2026-08-09T06:00:06.430133+00:00"
+    last_push: "2026-09-07"
+  - name: "scriptwriter"
+    title: "scriptwriter"
+    description: "A plain screenplay editor."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "bookwriter"
+    title: "bookwriter"
+    description: "A small writing application for one long book"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 95
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "skillBoard"
+    title: "skillBoard"
+    description: "Skill Aviation flight schedule board."
+    language: "Clojure"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "crapper"
+    title: "crapper"
+    description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
+    language: "Python"
+    topics: []
+    stars_fact: 222
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # unclebob

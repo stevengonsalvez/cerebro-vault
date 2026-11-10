@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 4, 1, 2, 1, 0, 5, 3, 0, 2, 6, 0, 0]
+pushes_per_week: [2, 4, 1, 3, 0, 1, 4, 3, 0, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,35 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "base-x-rs"
+    title: "base-x-rs"
+    description: "Encode/decode any base"
+    language: "Rust"
+    topics:
+      - "base-x"
+      - "rust"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "git-review"
+    title: "git-review"
+    description: "Git reviews for local network"
+    language: "Go"
+    topics:
+      - "code-review"
+      - "git"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-21"
+  - name: "chromedriver-bug-repro"
+    title: "chromedriver-bug-repro"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-04"
 ---
 
 # OrKoN

@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [2, 1, 2, 0, 0, 4, 0, 2, 3, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 2, 0, 0, 4, 0, 2, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,100 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scout"
+    title: "scout"
+    description: "Plans outdoor shoots around sun, weather, and crowds."
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "mcp-server"
+      - "photography"
+      - "services"
+      - "typescript"
+      - "weather"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "alkindix"
+    title: "alkindix"
+    description: "Personal portfolio and engineering site: systems, numerical correctness, and open source."
+    language: "HTML"
+    topics:
+      - "html"
+      - "personal-website"
+      - "portfolio"
+      - "static-site"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "mohammedalkindi"
+    title: "mohammedalkindi"
+    description: "Profile README"
+    language: null
+    topics:
+      - "github-profile"
+      - "profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ridge"
+    title: "ridge"
+    description: "Spreadsheet analysis. Ridge computes statistics in deterministic code with no model involved. Only the optional explanation step calls an LLM."
+    language: "JavaScript"
+    topics:
+      - "anthropic"
+      - "csv"
+      - "data-analysis"
+      - "data-quality"
+      - "data-visualization"
+      - "excel"
+      - "express"
+      - "llm"
+      - "nodejs"
+      - "spreadsheet-analysis"
+      - "statistics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "proofx"
+    title: "proofx"
+    description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
+    language: "Python"
+    topics:
+      - "computational-mathematics"
+      - "conjectures"
+      - "formal-verification"
+      - "lean4"
+      - "mathematics"
+      - "number-theory"
+      - "python"
+      - "reproducible-research"
+      - "research-tool"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "switchyard"
+    title: "switchyard"
+    description: "Run many AI coding agents on one repo. Each gets its own git worktree, and Switchyard detects collisions between agents before you merge."
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "developer-tools"
+      - "git-worktree"
+      - "nodejs"
+      - "npm-package"
+      - "orchestration"
+      - "typescript"
+      - "worktree"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
 ---
 
 # MohammedAlkindi

@@ -8,8 +8,8 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 6, 0, 0]
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xsa-dev.github.io"
+    title: "xsa-dev.github.io"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "ai-disrupt-pdlc-coach"
+    title: "ai-disrupt-pdlc-coach"
+    description: null
+    language: "HTML"
+    topics:
+      - "ai"
+      - "course"
+      - "pdlc"
+      - "webist"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "hyperliquid-backtest"
+    title: "hyperliquid-backtest"
+    description: null
+    language: "Rust"
+    topics:
+      - "backtesting"
+      - "genetic-algorithm"
+      - "rust"
+      - "trading"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2025-11-04"
+  - name: "ai-curator-demo"
+    title: "ai-curator-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "tactics-arena-worlds"
+    title: "tactics-arena-worlds"
+    description: "Deterministic 8x6 squad tactics battle for Solana Mobile (Seeker dApp Store), Web, and Yandex Games"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "xsa-dev"
+    title: "xsa-dev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # xsa-dev

@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 1, 1, 1, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 3, 0, 1, 1, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-promptkit"
+    title: "dsh-promptkit"
+    description: "Turn rough ideas into prompts that work, from guided questions to project context and reusable templates. 把零散想法变成好用的提示词，涵盖追问澄清、项目上下文和模板复用。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "dsh-chat-manager"
+    title: "dsh-chat-manager"
+    description: "DeepSeek Harness 会话管理插件"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ryzenadj-gui"
+    title: "ryzenadj-gui"
+    description: "Windows GUI for RyzenAdj — tune power/temperature limits, monitor in real time, switch presets."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "mydemo"
+    title: "mydemo"
+    description: "这是一个简单的项目"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-12"
 ---
 
 # nk33-dev

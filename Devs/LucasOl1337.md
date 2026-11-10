@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [3, 1, 1, 0, 9, 4, 18, 12, 0, 5, 13, 0, 0]
+pushes_per_week: [3, 1, 1, 0, 9, 5, 18, 11, 0, 5, 13, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pontape"
+    title: "pontape"
+    description: "ONG open source: acha quem quer mudar de vida, dá o básico, conecta com trabalho e IA, com transparência ao vivo. (nome provisório)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "omarchy-device-pulse"
+    title: "omarchy-device-pulse"
+    description: "Bateria e configurações de mouse, teclado e fone na barra do Omarchy. Histórico, alertas, DPI e polling rate nos modelos suportados."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "omarchy-agent-bench"
+    title: "omarchy-agent-bench"
+    description: "Nested X11 benches for AI agents on Omarchy/Hyprland. Agents get their own display, Chromium, and CDP. You keep workspaces 1–5."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "ponte"
+    title: "ponte"
+    description: "Android touch controls and live monitor views for an Omarchy desktop, over Tailscale. English by default, Portuguese optional."
+    language: "JavaScript"
+    topics:
+      - "android"
+      - "hyprland"
+      - "omarchy"
+      - "remote-control"
+      - "tailscale"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "the-last-arrow-web"
+    title: "the-last-arrow-web"
+    description: "The Last Arrow refeito do zero no navegador: PvP de arco estilo TowerFall em Three.js + TypeScript"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "omarchy-machines-radar"
+    title: "omarchy-machines-radar"
+    description: "Radar de máquinas (PC, notebook e VPS) na barra do Omarchy: CPU, RAM, disco, containers e avisos por SSH"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
 ---
 
 # LucasOl1337

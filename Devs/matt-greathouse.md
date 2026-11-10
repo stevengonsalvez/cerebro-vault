@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [3, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bible-reading-plan"
+    title: "bible-reading-plan"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "gobii-api-swift"
+    title: "gobii-api-swift"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-06-25"
+  - name: "breakout-helper"
+    title: "breakout-helper"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "mattgreat.house"
+    title: "mattgreat.house"
+    description: "My Site"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-26"
+  - name: "gobii-different-ios"
+    title: "gobii-different-ios"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-07-12"
+  - name: "ollama-tls"
+    title: "ollama-tls"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-26"
 ---
 
 # matt-greathouse

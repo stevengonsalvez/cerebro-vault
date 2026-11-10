@@ -8,8 +8,8 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [1, 0, 0, 0, 0, 7, 3, 2, 0, 1, 0, 0, 0]
@@ -76,7 +76,84 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cve_search_mcp"
+    title: "cve_search_mcp"
+    description: "MCP server for querying CVE vulnerabilities via CIRCL API — browse vendors/products, search CVEs, fetch CVSS scores"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Cod3xplo1t"
+    title: "Cod3xplo1t"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "EverydayRSS"
+    title: "EverydayRSS"
+    description: "让 AI 帮你读完今天的互联网 · 抓取 → 摘要 → 日报 → 推送,一条命令搞定"
+    language: "Rust"
+    topics:
+      - "news"
+      - "newspaper"
+      - "rss"
+      - "rss-feed"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "code-audit-system"
+    title: "code-audit-system"
+    description: "A CVE-oriented multi-agent code audit system implemented as a Claude Code skill. It orchestrates parallel subagents to discover exploitable vulnerabilities in git repositories, write weaponized POCs, verify them against live deployments, and generate CVE-ready reports."
+    language: "Python"
+    topics:
+      - "claude-code"
+      - "claudecode"
+      - "code-audit"
+      - "cve"
+      - "cve-scanning"
+      - "skill"
+      - "subagents"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-06-08"
+  - name: "LdapHound"
+    title: "LdapHound"
+    description: "Parser for Active Directory Security Descriptors — read ADExplorer .dat snapshots offline, no domain controller required. Ships with both a GUI and a CLI."
+    language: "Rust"
+    topics:
+      - "acl"
+      - "active-directory"
+      - "adexplorer"
+      - "ldap"
+      - "parser"
+      - "rust"
+      - "security-tools"
+      - "windows"
+      - "windows-security"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "stepwise-build"
+    title: "stepwise-build"
+    description: "A generic agent skill for learning software development by building projects one small, verifiable step at a time."
+    language: null
+    topics:
+      - "agent-skill"
+      - "ai-coding"
+      - "code-review"
+      - "developer-education"
+      - "guided-development"
+      - "learning-by-doing"
+      - "project-based-learning"
+      - "software-mentoring"
+      - "step-by-step"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # UserB1ank

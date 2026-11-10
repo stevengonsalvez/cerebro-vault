@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [76, 42, 27, 11, 28, 43, 30, 16, 25, 15, 13, 0, 0]
+pushes_per_week: [86, 33, 25, 17, 22, 51, 23, 19, 33, 3, 13, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 1
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 326
+    pushes: 325
     distinct_repos: 2
     active_days: 56
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8214
+  push_per_day: 5.8036
   repo_per_active_day: 0.0357
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 42
     distinct_repos: 1
-    pushes_per_repo: 44.0000
+    pushes_per_repo: 42.0000
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 326
+    pushes: 325
     distinct_repos: 2
-    pushes_per_repo: 163.0000
+    pushes_per_repo: 162.5000
     active_days: 56
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-326 pushes across 2 repositories on 56 active days in the last 90 days of public GitHub push activity.
+325 pushes across 2 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

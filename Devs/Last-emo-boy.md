@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 3, 2, 5, 1, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "wuwa-tappo-mac"
+    title: "wuwa-tappo-mac"
+    description: "Wuwa Tappo 国服非官方 macOS 适配：完整资源打包、Apple Silicon 原生后端与自动构建"
+    language: "JavaScript"
+    topics:
+      - "desktop-pet"
+      - "macos"
+      - "rust"
+      - "tauri"
+      - "wuthering-waves"
+      - "wuwa"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Swarm"
+    title: "Swarm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "nib"
+    title: "nib"
+    description: "nib: an open design canvas for .pen files, with an MCP server for coding agents and a built-in agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "agent-crucible"
+    title: "agent-crucible"
+    description: "Agent Crucible (CRUX): verified BSC deployment, bounded all-pay PvP and an installable player Skill."
+    language: "Solidity"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "mactoys"
+    title: "mactoys"
+    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "oai-skills"
+    title: "oai-skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-26"
 ---
 
 # Last-emo-boy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [46, 17, 18, 13, 24, 107, 247, 94, 90, 55, 57, 0, 6]
+pushes_per_week: [44, 20, 15, 17, 20, 128, 238, 92, 114, 29, 48, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 168
+    pushes: 159
     distinct_repos: 17
     active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 774
+    pushes: 771
     distinct_repos: 59
     active_days: 67
     repos_not_owned: 30
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.5522
+  push_per_day: 11.5075
   repo_per_active_day: 0.8806
   not_owned_ratio: 0.5085
   basename_concentration: 0.0169
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 168
+    pushes: 159
     distinct_repos: 17
-    pushes_per_repo: 9.8824
+    pushes_per_repo: 9.3529
     active_days: 16
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 774
+    pushes: 771
     distinct_repos: 59
-    pushes_per_repo: 13.1186
+    pushes_per_repo: 13.0678
     active_days: 67
     repos_not_owned: 30
     not_owned_basenames: 30
@@ -149,6 +149,6 @@ repos:
 
 # avifenesh
 
-774 pushes across 59 repositories on 67 active days in the last 90 days of public GitHub push activity.
+771 pushes across 59 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

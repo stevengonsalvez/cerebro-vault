@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 2, 2, 3, 1, 0, 0, 2, 6, 24, 0, 2]
+pushes_per_week: [2, 2, 1, 5, 0, 1, 0, 0, 4, 4, 24, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dilara-bparty"
+    title: "dilara-bparty"
+    description: "Birthday party quiz web app on Cloudflare Workers and Durable Objects"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "claude-mods"
+    title: "claude-mods"
+    description: "Claude Code mods, published as one plugin marketplace"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "pi-nexus"
+    title: "pi-nexus"
+    description: "Drive Nexus threads from pi through the nexus CLI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "nexus"
+    title: "nexus"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "home-chat"
+    title: "home-chat"
+    description: "A local-first, mobile-friendly Pi chat UI with a restricted tool profile and isolated backend."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "nexus-demo"
+    title: "nexus-demo"
+    description: "Demo project built on Bobble Nexus with Claude implementation and Astra reviews."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # ramtinJ95

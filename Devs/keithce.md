@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 0, 0, 0, 2, 2, 0, 10, 6, 4, 10, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 2, 2, 8, 8, 11, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "notion-voice-notes"
+    title: "notion-voice-notes"
+    description: "CLI tool to transcribe audio files and create Notion pages with AI summaries"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "declination-living"
+    title: "declination-living"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "keithce"
+    title: "keithce"
+    description: "Profile Repository"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-19"
 ---
 
 # keithce

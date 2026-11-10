@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 0, 3, 2, 1, 2, 3, 0, 0, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 5, 1, 0, 2, 3, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agenthook"
+    title: "agenthook"
+    description: "A webhook inbox for coding agents. Runs locally & remotely."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "skyfallsin.github.io"
+    title: "skyfallsin.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "pi-boss"
+    title: "pi-boss"
+    description: "Spawn and manage sub-agents in visible tmux panes — the orchestrator that makes multi-agent boss mode work for pi coding agent."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "boss-mode"
+      - "multi-agent"
+      - "orchestration"
+      - "parallel-agents"
+      - "pi-coding-agent"
+      - "sub-agent"
+      - "tmux"
+      - "typescript"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-04-25"
+  - name: "jev-browser"
+    title: "jev-browser"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "flyiverse"
+    title: "flyiverse"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "pi-projects"
+    title: "pi-projects"
+    description: "Self-contained project directories for the pi coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # skyfallsin

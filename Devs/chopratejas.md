@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [8, 3, 0, 1, 3, 4, 3, 8, 17, 1, 4, 0, 0]
+pushes_per_week: [6, 2, 0, 1, 3, 4, 4, 7, 18, 0, 4, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 5
     active_days: 23
     repos_not_owned: 4
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2609
+  push_per_day: 2.1304
   repo_per_active_day: 0.2174
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 5
-    pushes_per_repo: 10.4000
+    pushes_per_repo: 9.8000
     active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 2
@@ -141,6 +141,6 @@ repos:
 
 # chopratejas
 
-52 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+49 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

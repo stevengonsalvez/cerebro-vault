@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 11, 0, 0, 0, 4, 3, 7, 2, 2, 1, 0, 0]
+pushes_per_week: [1, 10, 0, 0, 0, 4, 4, 8, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "spellbot"
+    title: "spellbot"
+    description: "The Discord bot for Webcam Magic"
+    language: "Python"
+    topics:
+      - "convoke"
+      - "discord-bot"
+      - "gaming"
+      - "magic"
+      - "magic-the-gathering"
+      - "matchmaking"
+    stars_fact: 38
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "lexicalunit"
+    title: "lexicalunit"
+    description: "About me"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Install applications and development environment on a macOS or Linux machine."
+    language: "Shell"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "yeti-mute"
+    title: "yeti-mute"
+    description: "Mute passthru audio from Yeti Blue microphones"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "landcalc"
+    title: "landcalc"
+    description: "Recommend how many lands a Commander deck should run."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "mtgir"
+    title: "mtgir"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-12"
 ---
 
 # lexicalunit

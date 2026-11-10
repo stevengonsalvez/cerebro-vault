@@ -8,11 +8,11 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [15, 1, 1, 2, 0, 1, 2, 9, 4, 1, 0, 0, 0]
+pushes_per_week: [15, 1, 1, 2, 0, 1, 3, 9, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,148 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-rag-production"
+    title: "awesome-rag-production"
+    description: "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems."
+    language: "Python"
+    topics:
+      - "ai"
+      - "ai-engineering"
+      - "artificial-intelligence"
+      - "awesome"
+      - "awesome-list"
+      - "curated-list"
+      - "embeddings"
+      - "generative-ai"
+      - "langchain"
+      - "large-language-models"
+      - "list"
+      - "llm"
+      - "llmops"
+      - "machine-learning"
+      - "mlops"
+      - "production"
+      - "python"
+      - "rag"
+      - "retrieval-augmented-generation"
+      - "vector-database"
+    stars_fact: 292
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "swale"
+    title: "swale"
+    description: "Turn any moment of a video into a live wallpaper, or a crisp 4K still, on macOS and Windows."
+    language: null
+    topics:
+      - "ffmpeg"
+      - "live-wallpaper"
+      - "macos"
+      - "open-source"
+      - "tauri"
+      - "video-wallpaper"
+      - "wallpaper"
+      - "windows"
+      - "yt-dlp"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "Yigtwxx"
+    title: "Yigtwxx"
+    description: null
+    language: null
+    topics:
+      - "deep-learning"
+      - "docker"
+      - "llm"
+      - "machine-learning"
+      - "nlp"
+      - "pandas"
+      - "python"
+      - "pytorch"
+      - "rag"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "tagnewspaper"
+    title: "tagnewspaper"
+    description: "Martı TAG için bağımsız haber, dava takibi ve veri gazetesi. Next.js + Python, otomatik ve kaynaklı."
+    language: "TypeScript"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "data-visualization"
+      - "gsap"
+      - "llm"
+      - "marti"
+      - "marti-tag"
+      - "mongodb"
+      - "news"
+      - "newspaper"
+      - "nextjs"
+      - "open-data"
+      - "python"
+      - "rss"
+      - "turkey"
+      - "turkish"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "sepia"
+    title: "sepia"
+    description: "Describe a picture and watch it appear as colored text in a second terminal window."
+    language: "Python"
+    topics:
+      - "ai-art"
+      - "ansi-art"
+      - "anthropic"
+      - "ascii-art"
+      - "claude"
+      - "cli"
+      - "flux"
+      - "generative-art"
+      - "image-generation"
+      - "llm"
+      - "macos"
+      - "pollinations"
+      - "python"
+      - "terminal"
+      - "terminal-art"
+      - "text-to-image"
+      - "windows-terminal"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Maestro"
+    title: "Maestro"
+    description: "Orchestrate armies of AI agents from a single prompt. Open-core, bring-your-own-key, and self-hostable — Orchestrator routes, specialists execute, a reviewer keeps them honest."
+    language: "Python"
+    topics:
+      - "agent-framework"
+      - "agent-orchestration"
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "ai-agents"
+      - "anthropic"
+      - "byok"
+      - "fastapi"
+      - "gemini"
+      - "llm"
+      - "multi-agent-systems"
+      - "nextjs"
+      - "ollama"
+      - "orchestration"
+      - "python"
+      - "qdrant"
+      - "rag"
+      - "self-hosted"
+      - "typescript"
+      - "websocket"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # Yigtwxx

@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 1, 0, 2, 0, 8, 5, 6, 5, 0, 1, 0, 0]
+pushes_per_week: [4, 0, 0, 2, 1, 8, 4, 7, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pratyush618"
+    title: "pratyush618"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "singularity-fm"
+    title: "singularity-fm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "Fidget-Spinner"
+    title: "Fidget-Spinner"
+    description: "RGB coloured fidget spinner"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-11-11"
+  - name: "pyfs-watcher"
+    title: "pyfs-watcher"
+    description: "Rust based watchdog"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "doc_loader"
+    title: "doc_loader"
+    description: "Document loader for AI agents"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-30"
+  - name: "scripts"
+    title: "scripts"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-24"
 ---
 
 # pratyush618

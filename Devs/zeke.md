@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 3, 0, 0, 2, 4, 5, 5, 4, 2, 3, 0, 0]
+pushes_per_week: [5, 2, 0, 0, 3, 3, 5, 8, 3, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 11
-    active_days: 26
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3462
-  repo_per_active_day: 0.4231
+  push_per_day: 1.2800
+  repo_per_active_day: 0.4400
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 11
-    pushes_per_repo: 3.1818
-    active_days: 26
+    pushes_per_repo: 2.9091
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "swiss-design-skill"
+    title: "swiss-design-skill"
+    description: "A Swiss International Style design system skill for AI agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 164
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "faster-chrome-devtools-skill"
+    title: "faster-chrome-devtools-skill"
+    description: "Agent skill that makes Chrome DevTools faster"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 171
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "small-app-gardener"
+    title: "small-app-gardener"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "canvas-polygon"
+    title: "canvas-polygon"
+    description: "Create polygons with the Canvas API"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 23
+    first_seen: null
+    last_push: "2022-05-25"
+  - name: "all-the-cloudflare-ai-models"
+    title: "all-the-cloudflare-ai-models"
+    description: "A static JSON array of Cloudflare Workers AI and AI Gateway catalog models, updated daily"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "404_color_bars"
+    title: "404_color_bars"
+    description: "The interweb equivalent of an off-air television."
+    language: null
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2022-05-25"
 ---
 
 # zeke
 
-35 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+32 pushes across 11 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

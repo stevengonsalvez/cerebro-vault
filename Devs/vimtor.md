@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 4, 3, 2, 3, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 6, 1, 5, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-plugins"
+    title: "opencode-plugins"
+    description: "My personal OpenCode plugins."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "eleventy-plugin-external-links"
+    title: "eleventy-plugin-external-links"
+    description: "Eleventy plugin to make all external links open securely in a new tab"
+    language: "JavaScript"
+    topics:
+      - "eleventy"
+      - "eleventy-plugin"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2024-12-31"
+  - name: "action-zip"
+    title: "action-zip"
+    description: "🗄️ Action for zipping files easily"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-03-19"
+  - name: "pulumi-cloudflare-upgrade-bug"
+    title: "pulumi-cloudflare-upgrade-bug"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-18"
+  - name: "terraform-cloudflare-placement-bug"
+    title: "terraform-cloudflare-placement-bug"
+    description: null
+    language: "HCL"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-18"
+  - name: "gh-vet"
+    title: "gh-vet"
+    description: "GitHub CLI extension for GitHub contribution stats"
+    language: "TypeScript"
+    topics:
+      - "github-cli"
+      - "open-source"
+      - "pull-requests"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-02-06"
 ---
 
 # vimtor

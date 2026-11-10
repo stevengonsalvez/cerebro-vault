@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [24, 13, 10, 9, 7, 3, 21, 43, 12, 1, 9, 0, 2]
+pushes_per_week: [21, 16, 7, 10, 6, 3, 27, 38, 11, 3, 7, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 154
+    pushes: 151
     distinct_repos: 3
     active_days: 41
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7561
+  push_per_day: 3.6829
   repo_per_active_day: 0.0732
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 154
+    pushes: 151
     distinct_repos: 3
-    pushes_per_repo: 51.3333
+    pushes_per_repo: 50.3333
     active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-154 pushes across 3 repositories on 41 active days in the last 90 days of public GitHub push activity.
+151 pushes across 3 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall

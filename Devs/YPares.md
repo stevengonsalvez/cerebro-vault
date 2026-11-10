@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 1, 0, 2, 0, 1, 1, 2, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,92 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rigup.nix"
+    title: "rigup.nix"
+    description: "AI agents and Nix: parametrable skills/instructions and tools, packaged together in a reproducible and modular fashion"
+    language: "Nix"
+    topics:
+      - "agent-rig-system"
+      - "ai-agents"
+      - "claude-code"
+      - "claude-skills"
+      - "harness"
+      - "llm-agents"
+      - "nix"
+      - "nix-flake"
+      - "nix-modules"
+      - "opencode"
+      - "pi"
+      - "riglets"
+      - "skills"
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "toptle"
+    title: "toptle"
+    description: "Monitor processes from your terminal title"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Various skills for AI coding assistants"
+    language: "Shell"
+    topics:
+      - "agent-rig-system"
+      - "claude"
+      - "jj"
+      - "nix"
+      - "skills"
+      - "typst"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "nushellWith"
+    title: "nushellWith"
+    description: "Isolated nushell envs with specific plugins and libraries (with Nix)"
+    language: "Nix"
+    topics:
+      - "nix"
+      - "nix-flakes"
+      - "nu"
+      - "nushell"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "nih-faust-jit"
+    title: "nih-faust-jit"
+    description: "Rust VST3/CLAP plugin to load Faust DSP scripts"
+    language: "Rust"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2024-11-10"
+  - name: "monurepo"
+    title: "monurepo"
+    description: "Collection of Nushell libraries"
+    language: "Nushell"
+    topics:
+      - "defer"
+      - "deferred"
+      - "deferred-execution"
+      - "fzf"
+      - "jj"
+      - "jujutsu"
+      - "monorepo"
+      - "nu"
+      - "nushell"
+      - "nushell-config"
+      - "prompt"
+      - "resources"
+      - "scoped"
+      - "vcs"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-06"
 ---
 
 # YPares

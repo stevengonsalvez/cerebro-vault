@@ -8,11 +8,11 @@ provenance_repos:
   - "ghostty-org/ghostty"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "03dc7a9cfb878de8"
-pushes_per_week: [8, 0, 0, 1, 0, 0, 4, 2, 2, 2, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 1, 0, 0, 4, 2, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "My NixOS configurations."
+    language: "Nix"
+    topics: []
+    stars_fact: 3124
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "vouch"
+    title: "vouch"
+    description: "A community trust management system based on explicit vouches to participate."
+    language: "Nushell"
+    topics: []
+    stars_fact: 5165
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "zig-overlay"
+    title: "zig-overlay"
+    description: "Nix flake for the Zig compiler."
+    language: "Nix"
+    topics: []
+    stars_fact: 561
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "libxev"
+    title: "libxev"
+    description: "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API."
+    language: "Zig"
+    topics:
+      - "async"
+      - "c"
+      - "epoll"
+      - "io-uring"
+      - "kqueue"
+      - "wasi"
+      - "webassembly"
+      - "zig"
+    stars_fact: 3602
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "go-libghostty"
+    title: "go-libghostty"
+    description: "[Mirror] Go bindings for libghostty-vt. Source of truth: https://tangled.org/mitchellh.com/go-libghostty"
+    language: "Go"
+    topics:
+      - "ghostty"
+      - "libghostty"
+    stars_fact: 160
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "zig-graph"
+    title: "zig-graph"
+    description: "Directed graph data structure for Zig"
+    language: "Zig"
+    topics: []
+    stars_fact: 123
+    first_seen: null
+    last_push: "2022-09-13"
 ---
 
 # mitchellh

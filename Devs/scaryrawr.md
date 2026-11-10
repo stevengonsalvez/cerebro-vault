@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 0, 1, 12, 37, 12, 14, 3, 1, 2, 0, 0]
+pushes_per_week: [5, 3, 0, 2, 12, 38, 10, 15, 2, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "copilot-sdk-zig"
+    title: "copilot-sdk-zig"
+    description: "Unofficial Zig SDK for GitHub Copilot CLI"
+    language: "Zig"
+    topics:
+      - "copilot"
+      - "json-rpc"
+      - "sdk"
+      - "zig"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "scarypilot"
+    title: "scarypilot"
+    description: "Copilot CLI Plugin Marketplace"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "homebrew-formulae"
+    title: "homebrew-formulae"
+    description: "homebrew tap for personal projects/forks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "winwal"
+    title: "winwal"
+    description: "A PowerShell wrapper around the pywal tool"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "scaryrawr.github.io"
+    title: "scaryrawr.github.io"
+    description: "github page for scaryrawr"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "scarydex"
+    title: "scarydex"
+    description: "personal codex marketplace"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # scaryrawr

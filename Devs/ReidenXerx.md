@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [10, 6, 6, 5, 1, 11, 61, 44, 10, 1, 2, 0, 0]
+pushes_per_week: [11, 7, 4, 5, 1, 13, 62, 42, 9, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rog-ally-steam-os"
+    title: "rog-ally-steam-os"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-09-27"
+  - name: "omarchy-tactile"
+    title: "omarchy-tactile"
+    description: "Tune your touchpad and mouse by feel on Omarchy: changes undo themselves unless kept, custom acceleration curves, gestures with a finger map, per-app settings and a live finger view."
+    language: "QML"
+    topics:
+      - "hyprland"
+      - "omarchy"
+      - "omarchy-plugin"
+      - "quickshell"
+      - "touchpad"
+      - "wayland"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "fo4-anatomy"
+    title: "fo4-anatomy"
+    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "omarchy-aerial"
+    title: "omarchy-aerial"
+    description: "Mission Control for Omarchy: a window overview that follows your fingers. Three-finger swipe, live thumbnails, type to narrow, drag between desktops."
+    language: "QML"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "fo4-overture"
+    title: "fo4-overture"
+    description: "Overture - walk up to someone and try. A Fallout 4 approach-and-dialogue mod built on Rapport."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Event-Horizon"
+    title: "Event-Horizon"
+    description: "Vortex extension that installs a collection exactly as its curator built it — every archive checked by SHA-256, the load order pinned — and keeps it that way. Skyrim SE, Fallout 4, Fallout 3, New Vegas, Starfield."
+    language: "TypeScript"
+    topics:
+      - "bethesda"
+      - "collections"
+      - "electron"
+      - "fallout-new-vegas"
+      - "fallout3"
+      - "fallout4"
+      - "load-order"
+      - "loot"
+      - "mod-manager"
+      - "modding"
+      - "nexusmods"
+      - "skyrim"
+      - "skyrim-special-edition"
+      - "starfield"
+      - "typescript"
+      - "vortex"
+      - "vortex-extension"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # ReidenXerx

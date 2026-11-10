@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 5, 3, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 1, 7, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "stamppot"
+    title: "stamppot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "trakoo"
+    title: "trakoo"
+    description: "A highly typed, zero-dependency, provider-agnostic analytics library for TypeScript"
+    language: "TypeScript"
+    topics:
+      - "analytics"
+      - "analytics-tracking"
+      - "tracking"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "po-genie"
+    title: "po-genie"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "reword"
+    title: "reword"
+    description: "Click text on any live page, edit it in place, copy one prompt your coding agent can apply."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "better-auth-ui-svelte"
+    title: "better-auth-ui-svelte"
+    description: "Beautiful shadcn/ui components in Svelte built for better-auth."
+    language: "Svelte"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "eve-studio"
+    title: "eve-studio"
+    description: "Visual observability workspace for Eve agents: inspect live sessions, messages, tool calls, steps, and usage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-07-29"
 ---
 
 # multiplehats

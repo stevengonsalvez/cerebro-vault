@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [2, 2, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0]
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VladimirBrejcha"
+    title: "VladimirBrejcha"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "Rise"
+    title: "Rise"
+    description: "Smart Sleep Companion"
+    language: "Swift"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2023-08-26"
+  - name: "SelectableStackView"
+    title: "SelectableStackView"
+    description: "SelectableStackView is a customizable and easy to use UI element for showing and managing selectable elements in a stack written in Swift"
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2020-08-03"
+  - name: "PodlodkaPetProjectChallenge"
+    title: "PodlodkaPetProjectChallenge"
+    description: "Challenging each other to complete pet projects!"
+    language: "Swift"
+    topics:
+      - "challenge"
+      - "pet-project"
+      - "swift"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-11-13"
+  - name: "LoadingView"
+    title: "LoadingView"
+    description: "Easy to use, highly customisable, animated view to display a loading"
+    language: "Swift"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2022-11-25"
+  - name: "LoadingViewExample"
+    title: "LoadingViewExample"
+    description: "an example of LoadingView library usage"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-11-25"
 ---
 
 # VladimirBrejcha

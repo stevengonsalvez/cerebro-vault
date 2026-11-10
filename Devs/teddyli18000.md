@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 5, 4, 0, 0, 0, 5, 18, 13, 8, 19, 0, 3]
+pushes_per_week: [7, 7, 2, 0, 0, 0, 5, 22, 13, 18, 5, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "mimo-web2api"
+    title: "mimo-web2api"
+    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
+    language: "Go"
+    topics:
+      - "ai-gateway"
+      - "anthropic-api"
+      - "golang"
+      - "llm"
+      - "mimo"
+      - "openai-api"
+      - "proxy"
+      - "xiaomi"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "teddyli18000"
+    title: "teddyli18000"
+    description: "A living GitHub profile README."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "app-pages"
+    title: "app-pages"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "baidu-drive-mover"
+    title: "baidu-drive-mover"
+    description: "Windows CLI tool for moving arbitrary Baidu Netdisk share links to Google Drive with resumable staged transfer."
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "uu-cli"
+    title: "uu-cli"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # teddyli18000

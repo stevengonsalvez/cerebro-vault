@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0]
+pushes_per_week: [1, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xtui"
+    title: "xtui"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "opencode-iroh"
+    title: "opencode-iroh"
+    description: "Minimal Node/Bun binding for iroh peer connections used by OpenCode"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "tts-lab"
+    title: "tts-lab"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "oc-plugin-vault-tec"
+    title: "oc-plugin-vault-tec"
+    description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 182
+    first_seen: null
+    last_push: "2026-05-13"
+  - name: "bun-webgpu"
+    title: "bun-webgpu"
+    description: "WebGPU (Dawn) FFI bindings for bun."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 41
+    first_seen: null
+    last_push: "2026-04-28"
+  - name: "oc-plugin-smoke-test"
+    title: "oc-plugin-smoke-test"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-03"
 ---
 
 # kommander

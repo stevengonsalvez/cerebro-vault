@@ -8,11 +8,11 @@ provenance_repos:
   - "Sparticle62ops/pssa"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 11, 1, 0, 0, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 12, 0, 0, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "horizon-commandkeys"
+    title: "horizon-commandkeys"
+    description: "Horizon client port"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "horizon-simple-voice-chat"
+    title: "horizon-simple-voice-chat"
+    description: "Horizon client port"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "horizon-shield-statuses"
+    title: "horizon-shield-statuses"
+    description: "Port of shield-statuses to Horizon (Rust Minecraft client): 1:1 source port, entry for the Horizon mods registry"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "horizon-pvp-music"
+    title: "horizon-pvp-music"
+    description: "Port of pvp-music to Horizon (Rust Minecraft client): 1:1 source port, entry for the Horizon mods registry"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "horizon-smooth-f5"
+    title: "horizon-smooth-f5"
+    description: "Horizon client port"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "horizon-show-me-what-you-got"
+    title: "horizon-show-me-what-you-got"
+    description: "show-me-what-you-got ported to Horizon as a native Rust mod (slice 1: share-item core). Upstream MIT (c) 2022 apace100."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
 ---
 
 # Sparticle62ops

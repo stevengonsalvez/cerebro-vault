@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [45, 15, 12, 5, 1, 12, 17, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [45, 19, 10, 3, 2, 19, 9, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

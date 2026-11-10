@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 3, 0, 0, 0, 4, 2, 0, 2, 3, 25, 0, 1]
+pushes_per_week: [4, 3, 0, 0, 0, 4, 2, 1, 1, 12, 16, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 8
-    active_days: 19
+    active_days: 18
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4737
-  repo_per_active_day: 0.4211
+  push_per_day: 2.4444
+  repo_per_active_day: 0.4444
   not_owned_ratio: 1.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,22 +65,86 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 8
-    pushes_per_repo: 5.8750
-    active_days: 19
+    pushes_per_repo: 5.5000
+    active_days: 18
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "c9.ide.desktop"
+    title: "c9.ide.desktop"
+    description: "Adds a desktop GUI to cloud9's ide using x11"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 60
+    first_seen: null
+    last_push: "2020-09-14"
+  - name: "agentic-loop-todotxt"
+    title: "agentic-loop-todotxt"
+    description: "Use todotxt plus some nifty claude commands to loop until done with good stuff."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-29"
+  - name: "data-theory"
+    title: "data-theory"
+    description: "Data science and theory implemented in JavaScript."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "vibe-coder-docs"
+    title: "vibe-coder-docs"
+    description: "Engineering wisdom and best practices for vibe coders."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-10"
+  - name: "codex-ui"
+    title: "codex-ui"
+    description: ":icecream: Vanilla Bootstrap Components. :electric_plug: Plug and Play, Copy and Paste."
+    language: "HTML"
+    topics:
+      - "bootstrap"
+      - "codex-ui"
+      - "components"
+      - "copy-paste"
+      - "css"
+      - "font"
+      - "font-awesome"
+      - "html"
+      - "icons"
+      - "kit"
+      - "mit-license"
+      - "plug"
+      - "plug-n-play"
+      - "ui"
+      - "vanilla"
+      - "vanilla-bootstrap"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2021-01-20"
+  - name: "c9.ide.pigments"
+    title: "c9.ide.pigments"
+    description: "A plugin to mark color codes with pigments."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2020-09-14"
 ---
 
 # shadowcodex
 
-47 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
+44 pushes across 8 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shadowcodex

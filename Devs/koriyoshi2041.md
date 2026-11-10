@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 0, 0, 0, 4, 2, 0, 3, 2, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 4, 2, 3, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xenia"
+    title: "xenia"
+    description: "Gas for humans. An admission protocol for open communities, using refundable bonds and portable contribution records to protect human attention."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "anistrang"
+    title: "anistrang"
+    description: "How much mammoth is actually in a mammoth meatball? De-extinction and cultivated meat: a fact-checked report, plus three packages that compute the numbers nobody published."
+    language: "Python"
+    topics:
+      - "ancient-dna"
+      - "bioinformatics"
+      - "cellular-agriculture"
+      - "computational-biology"
+      - "cultivated-meat"
+      - "de-extinction"
+      - "mammoth"
+      - "proteomics"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "fateweaver"
+    title: "fateweaver"
+    description: "Oraculum Mutationis — a Tzeentchian oracle-instrument (WH40K fan work): quantum-entropy divination CLI, a zero-dependency web oracle, and the Liber Mutationis"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-22"
+  - name: "cc-learning-hooks"
+    title: "cc-learning-hooks"
+    description: "Automatically generate beginner-friendly learning notes from your Claude Code sessions. Logs every action, explains what happened and why."
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-15"
+  - name: "vibecoder-app"
+    title: "vibecoder-app"
+    description: "VibeCoder Learn - Interactive learning app for AI-era software builders"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-17"
+  - name: "forth-journey"
+    title: "forth-journey"
+    description: "An AI and its engineering team learn Forth from scratch, in one night."
+    language: "Forth"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-01-27"
 ---
 
 # koriyoshi2041

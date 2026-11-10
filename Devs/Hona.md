@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [30, 8, 25, 9, 2, 22, 8, 22, 3, 19, 11, 0, 7]
+pushes_per_week: [31, 7, 25, 8, 4, 21, 8, 22, 9, 13, 10, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 13
-    active_days: 47
+    active_days: 46
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5319
-  repo_per_active_day: 0.2766
+  push_per_day: 3.5870
+  repo_per_active_day: 0.2826
   not_owned_ratio: 0.2308
   basename_concentration: 0.1538
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 166
+    pushes: 165
     distinct_repos: 13
-    pushes_per_repo: 12.7692
-    active_days: 47
+    pushes_per_repo: 12.6923
+    active_days: 46
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openeval"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-166 pushes across 13 repositories on 47 active days in the last 90 days of public GitHub push activity.
+165 pushes across 13 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

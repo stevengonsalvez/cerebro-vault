@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+repos_populated: true
+generated_at: "2026-11-10T07:05:03.755742+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 0, 5, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 0, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-wallpapers"
+    title: "opencode-wallpapers"
+    description: "Animated wallpapers for the OpenCode terminal UI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "nakamura-case-file"
+    title: "nakamura-case-file"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "kora"
+    title: "kora"
+    description: "Modern NoSQL + Graph database that facilitates real-time data syncing between online or offline devices and servers. Eliminates the need for API servers between database and client"
+    language: "Elixir"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2017-11-27"
+  - name: "opencode-themes"
+    title: "opencode-themes"
+    description: "Independent community themes for OpenCode"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "gloop-mode"
+    title: "gloop-mode"
+    description: "A breathing, flubbery 90s-organic mode for OpenCode."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "opencode-instructions"
+    title: "opencode-instructions"
+    description: "Personal opencode instruction files for careful, simple software engineering"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-10"
 ---
 
 # vaprdev
