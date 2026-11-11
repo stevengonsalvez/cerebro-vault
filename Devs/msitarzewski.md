@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0b6244279772ea4c"
 pushes_per_week: [1, 0, 0, 0, 3, 0, 5, 2, 2, 0, 0, 0, 0]
@@ -82,25 +82,17 @@ repos:
     description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
     language: "Shell"
     topics: []
-    stars_fact: 166387
+    stars_fact: 167699
     first_seen: "2026-08-14T06:00:04.069258+00:00"
-    last_push: "2026-10-25"
-  - name: "openstudio"
-    title: "openstudio"
-    description: "OpenStudio is a self-hosted, open-source virtual broadcast studio that puts power back in the hands of creators. Run live call-in shows, multi-host podcasts, and community radio—all from infrastructure you control."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 142
-    first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-11-09"
   - name: "agency-agents-app"
     title: "agency-agents-app"
     description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
     language: "TypeScript"
     topics: []
-    stars_fact: 897
+    stars_fact: 948
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-09"
   - name: "GlassPowerTools"
     title: "GlassPowerTools"
     description: "Terminals, databases, remote desktops and an editor for every machine you work on. Native on Apple Vision Pro, Mac, iPad and iPhone."
@@ -108,13 +100,13 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "brew-browser"
     title: "brew-browser"
     description: "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI."
     language: "Rust"
     topics: []
-    stars_fact: 1074
+    stars_fact: 1078
     first_seen: null
     last_push: "2026-10-12"
   - name: "duh"
@@ -122,9 +114,17 @@ repos:
     description: "Multi-model consensus engine — because one LLM opinion isn't enough"
     language: "Python"
     topics: []
-    stars_fact: 76
+    stars_fact: 77
     first_seen: null
     last_push: "2026-11-01"
+  - name: "dentist-landing"
+    title: "dentist-landing"
+    description: "Feast Dental, a demo landing page built by an Agency Agents team, and It's the prompt: three AI-built dentist pages compared"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # msitarzewski

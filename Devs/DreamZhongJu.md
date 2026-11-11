@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [2, 2, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "eduardo27b-isolated-eval"
+    title: "eduardo27b-isolated-eval"
+    description: "Isolated evaluation code and basic CUDA environment"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "dsh-llm-smart-model-router"
     title: "dsh-llm-smart-model-router"
     description: "Task-aware model routing and cross-provider fallback plugin for DeepSeek Harness"
@@ -115,14 +123,6 @@ repos:
     language: "Java"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "jiaowuSystem"
-    title: "jiaowuSystem"
-    description: "Course project · Vue3 + SpringBoot + Dameng DB"
-    language: "Vue"
-    topics: []
-    stars_fact: 3
     first_seen: null
     last_push: "2026-08-24"
 ---

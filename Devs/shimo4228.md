@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [11, 5, 1, 0, 1, 5, 16, 12, 19, 0, 10, 0, 0]
+pushes_per_week: [11, 4, 1, 0, 2, 6, 14, 12, 19, 2, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,14 +23,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
+    pushes: 12
+    distinct_repos: 5
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 29
     active_days: 27
     repos_not_owned: 0
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.9630
+  push_per_day: 2.9259
   repo_per_active_day: 1.0741
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
@@ -58,17 +58,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
+    pushes: 12
+    distinct_repos: 5
+    pushes_per_repo: 2.4000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
+    pushes: 79
     distinct_repos: 29
-    pushes_per_repo: 2.7586
+    pushes_per_repo: 2.7241
     active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -195,6 +195,6 @@ repos:
 
 # shimo4228
 
-80 pushes across 29 repositories on 27 active days in the last 90 days of public GitHub push activity.
+79 pushes across 29 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shimo4228

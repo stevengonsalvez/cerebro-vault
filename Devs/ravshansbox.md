@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -92,19 +92,19 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 3, 0, 0, 0, 0, 2, 6, 157, 29, 20, 1, 0]
+pushes_per_week: [3, 3, 0, 0, 0, 0, 2, 6, 185, 1, 20, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 183
-    distinct_repos: 18
-    active_days: 9
+    pushes: 72
+    distinct_repos: 15
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -129,18 +129,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 183
-    distinct_repos: 18
-    pushes_per_repo: 10.1667
-    active_days: 9
+    pushes: 72
+    distinct_repos: 15
+    pushes_per_repo: 4.8000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -157,6 +157,25 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-anthropic"
+    title: "pi-anthropic"
+    description: "Anthropic system prompt sanitiser extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "system-prompt"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "pi-rust"
+    title: "pi-rust"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "next-issue"
     title: "next-issue"
     description: null
@@ -164,7 +183,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-05"
+  - name: "pi-loop"
+    title: "pi-loop"
+    description: "Run pi in a loop with a shared context file"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "pi-opencode-zen"
     title: "pi-opencode-zen"
     description: "OpenCode Zen provider extension for pi"
@@ -175,7 +202,7 @@ repos:
       - "provider"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "pi-prompt-history"
     title: "pi-prompt-history"
     description: "Shell-style prompt history extension for pi"
@@ -186,40 +213,7 @@ repos:
       - "prompt-history"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "pi-zed"
-    title: "pi-zed"
-    description: "Zed editor context extension for pi"
-    language: "TypeScript"
-    topics:
-      - "pi-extension"
-      - "pi-package"
-      - "zed"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "pi-web"
-    title: "pi-web"
-    description: "Web UI for the pi coding agent"
-    language: "TypeScript"
-    topics:
-      - "pi-package"
-      - "pi-web"
-      - "ui"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "pi-tps"
-    title: "pi-tps"
-    description: "Tokens-per-second notification extension for pi"
-    language: "TypeScript"
-    topics:
-      - "pi-extension"
-      - "pi-package"
-      - "tps"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-06"
 ---
 
 # ravshansbox

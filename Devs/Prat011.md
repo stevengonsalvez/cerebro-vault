@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "438a9b54b319a0a7"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -99,7 +99,7 @@ repos:
       - "qwen"
       - "qwen-coder"
       - "skills"
-    stars_fact: 1843
+    stars_fact: 1853
     first_seen: null
     last_push: "2026-07-14"
   - name: "free-cluely"
@@ -115,9 +115,17 @@ repos:
       - "interview-coder"
       - "leetcode"
       - "notetaker"
-    stars_fact: 1698
+    stars_fact: 1703
     first_seen: null
     last_push: "2026-04-07"
+  - name: "open-hubspot"
+    title: "open-hubspot"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-11"
   - name: "AI-Agents-Academy"
     title: "AI-Agents-Academy"
     description: null
@@ -147,14 +155,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-03-31"
-  - name: "free-interview-coder"
-    title: "free-interview-coder"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 69
-    first_seen: null
-    last_push: "2026-07-24"
 ---
 
 # Prat011

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [3, 1, 1, 1, 1, 3, 3, 2, 4, 3, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 1, 2, 3, 2, 2, 4, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
+    pushes: 6
+    distinct_repos: 2
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 8
-    active_days: 17
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2941
-  repo_per_active_day: 0.4706
+  push_per_day: 1.2667
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
     active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 19
     distinct_repos: 8
-    pushes_per_repo: 2.7500
-    active_days: 17
+    pushes_per_repo: 2.3750
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "threadmark"
@@ -102,6 +102,6 @@ repos:
 
 # ktsoator
 
-22 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+19 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ktsoator

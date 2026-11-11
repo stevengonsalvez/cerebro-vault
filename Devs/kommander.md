@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [1, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "oc-plugin-vault-tec"
+    title: "oc-plugin-vault-tec"
+    description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 181
+    first_seen: null
+    last_push: "2026-05-13"
   - name: "xtui"
     title: "xtui"
     description: null
@@ -101,14 +109,6 @@ repos:
     stars_fact: 34
     first_seen: null
     last_push: "2026-08-12"
-  - name: "oc-plugin-vault-tec"
-    title: "oc-plugin-vault-tec"
-    description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 182
-    first_seen: null
-    last_push: "2026-05-13"
   - name: "bun-webgpu"
     title: "bun-webgpu"
     description: "WebGPU (Dawn) FFI bindings for bun."

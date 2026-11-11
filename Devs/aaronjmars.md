@@ -5,14 +5,16 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "alibaba/open-code-review"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [21, 22, 9, 13, 17, 47, 51, 45, 23, 9, 9, 0, 1]
+  - "c489e6fb5febf2ab"
+pushes_per_week: [20, 21, 9, 13, 17, 56, 46, 41, 24, 9, 8, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 10
     active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 267
+    pushes: 265
     distinct_repos: 21
-    active_days: 57
+    active_days: 56
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.6842
-  repo_per_active_day: 0.3684
+  push_per_day: 4.7321
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.2857
   basename_concentration: 0.0952
   shapes: []
@@ -57,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 10
-    pushes_per_repo: 3.9000
+    pushes_per_repo: 3.8000
     active_days: 11
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 267
+    pushes: 265
     distinct_repos: 21
-    pushes_per_repo: 12.7143
-    active_days: 57
+    pushes_per_repo: 12.6190
+    active_days: 56
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openroutercli"
@@ -183,6 +185,6 @@ repos:
 
 # aaronjmars
 
-267 pushes across 21 repositories on 57 active days in the last 90 days of public GitHub push activity.
+265 pushes across 21 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

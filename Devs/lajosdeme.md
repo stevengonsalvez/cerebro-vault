@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "5a94dd163bfbe84d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "watchtower"
+    title: "watchtower"
+    description: "A clean, minimal, terminal-based global intelligence dashboard."
+    language: "Go"
+    topics: []
+    stars_fact: 335
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "mole"
+    title: "mole"
+    description: "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data."
+    language: "Go"
+    topics: []
+    stars_fact: 318
+    first_seen: "2026-08-15T06:00:07.075101+00:00"
+    last_push: "2026-11-08"
   - name: "xcclear"
     title: "xcclear"
     description: "Simple and easy to use command line application written in Go for cleaning unnecessary XCode files."
@@ -85,22 +101,6 @@ repos:
     stars_fact: 114
     first_seen: null
     last_push: "2021-06-11"
-  - name: "mole"
-    title: "mole"
-    description: "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data."
-    language: "Go"
-    topics: []
-    stars_fact: 318
-    first_seen: "2026-08-15T06:00:07.075101+00:00"
-    last_push: "2026-11-01"
-  - name: "watchtower"
-    title: "watchtower"
-    description: "A clean, minimal, terminal-based global intelligence dashboard."
-    language: "Go"
-    topics: []
-    stars_fact: 330
-    first_seen: null
-    last_push: "2026-03-04"
   - name: "polymarket-go-api"
     title: "polymarket-go-api"
     description: null

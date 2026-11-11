@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [4, 0, 1, 0, 5, 16, 24, 11, 18, 4, 1, 0, 0]
+pushes_per_week: [3, 1, 0, 2, 8, 11, 24, 11, 22, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 12
-    active_days: 5
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 15
+    distinct_repos: 10
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 84
-    distinct_repos: 45
+    pushes: 83
+    distinct_repos: 44
     active_days: 26
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.2308
-  repo_per_active_day: 1.7308
-  not_owned_ratio: 0.3111
-  basename_concentration: 0.0444
+  push_per_day: 3.1923
+  repo_per_active_day: 1.6923
+  not_owned_ratio: 0.3182
+  basename_concentration: 0.0455
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 12
-    pushes_per_repo: 1.7500
-    active_days: 5
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 15
+    distinct_repos: 10
+    pushes_per_repo: 1.5000
+    active_days: 4
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
   "90d":
-    pushes: 84
-    distinct_repos: 45
-    pushes_per_repo: 1.8667
+    pushes: 83
+    distinct_repos: 44
+    pushes_per_repo: 1.8864
     active_days: 26
     repos_not_owned: 14
     not_owned_basenames: 13
@@ -151,6 +151,6 @@ repos:
 
 # jedisct1
 
-84 pushes across 45 repositories on 26 active days in the last 90 days of public GitHub push activity.
+83 pushes across 44 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

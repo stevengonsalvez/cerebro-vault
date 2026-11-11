@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "7b553354eb544407"
-pushes_per_week: [12, 11, 4, 1, 0, 0, 17, 21, 10, 5, 11, 0, 0]
+pushes_per_week: [9, 12, 3, 1, 0, 0, 19, 19, 10, 10, 6, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 89
     distinct_repos: 8
-    active_days: 34
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7059
-  repo_per_active_day: 0.2353
+  push_per_day: 2.6970
+  repo_per_active_day: 0.2424
   not_owned_ratio: 0.3750
   basename_concentration: 0.2500
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 92
+    pushes: 89
     distinct_repos: 8
-    pushes_per_repo: 11.5000
-    active_days: 34
+    pushes_per_repo: 11.1250
+    active_days: 33
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch"
@@ -183,6 +183,6 @@ repos:
 
 # rohitg00
 
-92 pushes across 8 repositories on 34 active days in the last 90 days of public GitHub push activity.
+89 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 7, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 1, 8, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "paseo-needs-you"
+    title: "paseo-needs-you"
+    description: "A Paseo sidebar list of every agent waiting on you: open questions, permission prompts and failures."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "paseo"
+      - "paseo-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "paseo-spaces"
+    title: "paseo-spaces"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "stamppot"
     title: "stamppot"
     description: null
@@ -95,7 +114,7 @@ repos:
       - "tracking"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "po-genie"
     title: "po-genie"
     description: null
@@ -112,22 +131,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-25"
-  - name: "better-auth-ui-svelte"
-    title: "better-auth-ui-svelte"
-    description: "Beautiful shadcn/ui components in Svelte built for better-auth."
-    language: "Svelte"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-07-02"
-  - name: "eve-studio"
-    title: "eve-studio"
-    description: "Visual observability workspace for Eve agents: inspect live sessions, messages, tool calls, steps, and usage."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-29"
 ---
 
 # multiplehats

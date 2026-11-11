@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [34, 0, 0, 1, 10, 19, 12, 6, 2, 3, 2, 0, 1]
+pushes_per_week: [29, 0, 0, 1, 12, 19, 11, 5, 2, 3, 2, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 85
     distinct_repos: 10
-    active_days: 34
+    active_days: 33
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6471
-  repo_per_active_day: 0.2941
+  push_per_day: 2.5758
+  repo_per_active_day: 0.3030
   not_owned_ratio: 0.4000
   basename_concentration: 0.1000
   shapes: []
@@ -65,18 +65,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 85
     distinct_repos: 10
-    pushes_per_repo: 9.0000
-    active_days: 34
+    pushes_per_repo: 8.5000
+    active_days: 33
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hassio-addons"
+    title: "hassio-addons"
+    description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
+    language: "Shell"
+    topics:
+      - "authentik"
+      - "bonds"
+      - "gluetun"
+      - "hassio"
+      - "home-assistant"
+      - "home-assistant-addon"
+      - "n8n"
+      - "stirling-pdf"
+      - "traefik"
+      - "tududi"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "xiaomi-smart-fan-card"
+    title: "xiaomi-smart-fan-card"
+    description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
+    language: "TypeScript"
+    topics:
+      - "fan"
+      - "hacs"
+      - "home-assistant"
+      - "lovelace"
+      - "smart-home"
+      - "xiaomi"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "promptscript"
     title: "promptscript"
     description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
@@ -98,62 +130,9 @@ repos:
       - "promptops"
       - "promptscript"
       - "typescript"
-    stars_fact: 380
+    stars_fact: 344
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "xiaomi-smart-fan-card"
-    title: "xiaomi-smart-fan-card"
-    description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
-    language: "TypeScript"
-    topics:
-      - "fan"
-      - "hacs"
-      - "home-assistant"
-      - "lovelace"
-      - "smart-home"
-      - "xiaomi"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "hassio-addons"
-    title: "hassio-addons"
-    description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
-    language: "Shell"
-    topics:
-      - "authentik"
-      - "bonds"
-      - "gluetun"
-      - "hassio"
-      - "home-assistant"
-      - "home-assistant-addon"
-      - "n8n"
-      - "stirling-pdf"
-      - "traefik"
-      - "tududi"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "factory-droid-openai"
-    title: "factory-droid-openai"
-    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
-    language: "Python"
-    topics:
-      - "api-bridge"
-      - "chat-completions"
-      - "droid-sdk"
-      - "factory-ai"
-      - "factory-droid"
-      - "fastapi"
-      - "function-calling"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "python"
-      - "server-sent-events"
-      - "tool-calling"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "logstrip"
     title: "logstrip"
     description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
@@ -174,6 +153,27 @@ repos:
       - "zero-dependency"
     stars_fact: 7
     first_seen: null
+    last_push: "2026-11-09"
+  - name: "factory-droid-openai"
+    title: "factory-droid-openai"
+    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
+    language: "Python"
+    topics:
+      - "api-bridge"
+      - "chat-completions"
+      - "droid-sdk"
+      - "factory-ai"
+      - "factory-droid"
+      - "fastapi"
+      - "function-calling"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "python"
+      - "server-sent-events"
+      - "tool-calling"
+    stars_fact: 12
+    first_seen: null
     last_push: "2026-11-02"
   - name: "PoolMind"
     title: "PoolMind"
@@ -187,6 +187,6 @@ repos:
 
 # mrwogu
 
-90 pushes across 10 repositories on 34 active days in the last 90 days of public GitHub push activity.
+85 pushes across 10 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrwogu

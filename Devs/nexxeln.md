@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 0, 1, 1, 0, 3, 5, 14, 2, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 1, 1, 0, 3, 6, 13, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,27 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nostakes"
+    title: "nostakes"
+    description: "Poker night with friends, in the browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "carry"
+    title: "carry"
+    description: "A font that does arithmetic. Type 128+256= and it draws the 384."
+    language: "Python"
+    topics:
+      - "arithmetic"
+      - "font"
+      - "harfbuzz"
+      - "opentype"
+      - "typography"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-25"
   - name: "torrential"
     title: "torrential"
     description: "Search and download torrents from your terminal, or ask your coding agent to."
@@ -89,9 +110,29 @@ repos:
       - "rust"
       - "torrent"
       - "tui"
-    stars_fact: 45
+    stars_fact: 73
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-08"
+  - name: "frameless"
+    title: "frameless"
+    description: "A frameless browser for beautiful screenshots"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 38
+    first_seen: null
+    last_push: "2022-08-31"
+  - name: "license-generator"
+    title: "license-generator"
+    description: "Create licenses for your projects right from your terminal!"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "license"
+      - "productivity"
+      - "rust"
+    stars_fact: 211
+    first_seen: null
+    last_push: "2024-03-31"
   - name: "nexxel.dev"
     title: "nexxel.dev"
     description: "my personal website and blog"
@@ -108,50 +149,6 @@ repos:
     stars_fact: 280
     first_seen: null
     last_push: "2026-11-01"
-  - name: "oc-pstack"
-    title: "oc-pstack"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "carry"
-    title: "carry"
-    description: "A font that does arithmetic. Type 128+256= and it draws the 384."
-    language: "Python"
-    topics:
-      - "arithmetic"
-      - "font"
-      - "harfbuzz"
-      - "opentype"
-      - "typography"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "spotify-voice-control"
-    title: "spotify-voice-control"
-    description: "Voice control for Spotify through the terminal"
-    language: "Python"
-    topics:
-      - "music"
-      - "python"
-      - "speech-recognition"
-      - "spotify"
-      - "spotify-api"
-      - "voice-commands"
-      - "voice-recognition"
-    stars_fact: 78
-    first_seen: null
-    last_push: "2022-09-23"
-  - name: "jgrep"
-    title: "jgrep"
-    description: "semantic search for code with jev"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-21"
 ---
 
 # nexxeln

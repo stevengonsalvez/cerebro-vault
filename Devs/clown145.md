@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [11, 0, 0, 0, 0, 2, 24, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [8, 0, 0, 0, 0, 2, 24, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 35
     distinct_repos: 12
-    active_days: 12
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1667
-  repo_per_active_day: 1.0000
+  push_per_day: 3.1818
+  repo_per_active_day: 1.0909
   not_owned_ratio: 0.2500
   basename_concentration: 0.0833
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 38
+    pushes: 35
     distinct_repos: 12
-    pushes_per_repo: 3.1667
-    active_days: 12
+    pushes_per_repo: 2.9167
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "qflarebot-plugin-schedule"
+    title: "qflarebot-plugin-schedule"
+    description: "QFlareBot 课表插件，支持 ICS 导入、QQ 私聊查询与课程提醒"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "qflarebot-plugin-agent"
     title: "qflarebot-plugin-agent"
     description: "QFlareBot 的 Agent 插件：带工具调用的多轮对话、会话记忆、联网查资料、动态定时任务"
@@ -121,19 +129,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-30"
-  - name: "qflarebot-plugin-meme"
-    title: "qflarebot-plugin-meme"
-    description: "QFlareBot 表情包制作与图片工具插件（对接 meme-generator-rs）"
-    language: "TypeScript"
-    topics:
-      - "qflarebot-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # clown145
 
-38 pushes across 12 repositories on 12 active days in the last 90 days of public GitHub push activity.
+35 pushes across 12 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/clown145

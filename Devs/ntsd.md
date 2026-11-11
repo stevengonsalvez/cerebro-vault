@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 1, 12, 16, 11, 17, 18, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 17, 13, 10, 16, 18, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 77
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 5
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 77
@@ -77,14 +77,43 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zerocoach"
-    title: "zerocoach"
-    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
+  - name: "cross-clipboard"
+    title: "cross-clipboard"
+    description: "An open source cross-platform clipboard sharing."
+    language: "Go"
+    topics:
+      - "clipboard"
+      - "golang"
+      - "hacktoberfest"
+      - "libp2p"
+      - "p2p"
+      - "tview"
+    stars_fact: 56
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2025-05-17"
+  - name: "ntsd"
+    title: "ntsd"
+    description: "My Github Profile"
+    language: null
+    topics:
+      - "github-profile"
+      - "github-profile-readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ntsd.dev"
+    title: "ntsd.dev"
+    description: "My website created by Jekyll and Tailwind"
+    language: "Astro"
+    topics:
+      - "blog"
+      - "giscus"
+      - "gulp"
+      - "jekyll"
+      - "tailwind"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "zero-share"
     title: "zero-share"
     description: "A secure P2P file sharing using WebRTC without server-side need."
@@ -101,54 +130,32 @@ repos:
       - "webrtc"
     stars_fact: 151
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "ntsd"
-    title: "ntsd"
-    description: "My Github Profile"
-    language: null
-    topics:
-      - "github-profile"
-      - "github-profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "vibe-trap"
-    title: "vibe-trap"
-    description: "macOS AFK anti-tamper & jumpscare trap utility. Keeps screen awake, locks workstation on unauthorized touch."
-    language: "Swift"
-    topics:
-      - "anti-tamper"
-      - "caffeinate"
-      - "devchallenge"
-      - "hacktoberfest"
-      - "jumpscare"
-      - "macos"
-      - "nodejs"
-      - "security"
-      - "swift"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "dotai"
-    title: "dotai"
-    description: "Local VLLM on Nvidia DGX Spark and hermes agent on any Linux or Reaspberry PI setup"
-    language: "Makefile"
-    topics:
-      - "dgx-spark"
-      - "hermes"
-      - "local-llm"
-      - "vllm"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "systemd-web"
-    title: "systemd-web"
-    description: "Systemd Web UI dashboard"
-    language: null
+    last_push: "2026-11-07"
+  - name: "zerocoach"
+    title: "zerocoach"
+    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
+    language: "TypeScript"
     topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "pomodoro-chad"
+    title: "pomodoro-chad"
+    description: "The Uncompromising GigaChad Pomodoro + Zero-Latency Git Voice Vault"
+    language: "Astro"
+    topics:
+      - "astro"
+      - "chadmodoro"
+      - "deep-work"
+      - "elevenlabs"
+      - "focus-timer"
+      - "gigachad"
+      - "pomodoro"
+      - "productivity"
+      - "render"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-06"
 ---
 
 # ntsd

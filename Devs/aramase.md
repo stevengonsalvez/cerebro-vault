@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 2, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "aramase.github.io"
+    title: "aramase.github.io"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "canvas"
     title: "canvas"
     description: null
@@ -103,14 +111,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-06-28"
-  - name: "aramase.github.io"
-    title: "aramase.github.io"
-    description: null
-    language: "SCSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "kubecon-eu-2021"
     title: "kubecon-eu-2021"
     description: "Kubecon EU 2021 demo"

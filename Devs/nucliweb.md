@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 1, 0, 1, 3, 1, 12, 5, 0, 3, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 3, 4, 9, 5, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -95,7 +95,15 @@ repos:
       - "webpagetest"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "image-element"
+    title: "image-element"
+    description: "Repository to curated best practices for web images 🏞"
+    language: null
+    topics: []
+    stars_fact: 435
+    first_seen: null
+    last_push: "2026-04-19"
   - name: "webperf-snippets"
     title: "webperf-snippets"
     description: "Tested JavaScript snippets that measure and debug web performance. Your AI agent runs them for you, or you run them yourself in DevTools: the same code every time."
@@ -120,15 +128,23 @@ repos:
       - "webvitals"
     stars_fact: 1456
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "harness-engineering-biznagafest"
-    title: "harness-engineering-biznagafest"
+    last_push: "2026-11-10"
+  - name: "agent-first-perf-audits"
+    title: "agent-first-perf-audits"
     description: null
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "harness-engineering-biznagafest"
+    title: "harness-engineering-biznagafest"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "People-You-Should-Follow-on-CodePen"
     title: "People-You-Should-Follow-on-CodePen"
     description: "People You Should Follow on CodePen"
@@ -144,36 +160,9 @@ repos:
       - "p5js"
       - "svg"
       - "webgl"
-    stars_fact: 713
+    stars_fact: 715
     first_seen: null
     last_push: "2021-01-02"
-  - name: "MDNSearchDoc"
-    title: "MDNSearchDoc"
-    description: "Sublime Text MDN Search Doc"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2016-10-12"
-  - name: "image-tools"
-    title: "image-tools"
-    description: "Reproducible toolbox and harness for comparing image codecs (JPEG XL, AVIF, WebP, jpegli, mozjpeg, HEIC) at equal perceptual quality."
-    language: "HTML"
-    topics:
-      - "avif"
-      - "docker"
-      - "heic"
-      - "image-codecs"
-      - "image-compression"
-      - "jpeg-xl"
-      - "jpegli"
-      - "mozjpeg"
-      - "ssimulacra2"
-      - "web-performance"
-      - "webp"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # nucliweb

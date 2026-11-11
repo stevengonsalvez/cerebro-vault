@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 1, 2, 1, 2, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 3, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "otlpeek"
     title: "otlpeek"
     description: "otlpeek is an OpenTelemetry exporter that lets you peek into your otlp streams."

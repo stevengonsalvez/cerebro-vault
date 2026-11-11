@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 5, 3, 5, 6, 9, 10, 21, 17, 2, 4, 0, 1]
+pushes_per_week: [7, 5, 3, 5, 7, 9, 9, 21, 18, 3, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,22 +79,6 @@ reasons:
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "FindJobs-Agent"
-    title: "FindJobs-Agent"
-    description: "LLM-powered toolkit for skill analysis, AI interviews, resume scoring, and job structuring. Automates professional skill taxonomy and interview processes with adaptive difficulty."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "crawler"
-      - "interview"
-      - "job-search"
-      - "llm"
-      - "python"
-      - "react"
-      - "resume"
-    stars_fact: 246
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "CoreCoder"
     title: "CoreCoder"
     description: "Minimal AI coding agent (~1,000 lines of Python) inspired by Claude Code. Works with any LLM. Think NanoGPT for coding agents. Formerly NanoCoder."
@@ -110,27 +94,33 @@ repos:
       - "llm"
       - "openai"
       - "python"
-    stars_fact: 1889
+    stars_fact: 1906
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "RuleForge"
-    title: "RuleForge"
-    description: "Auto-generate AI assistant rules (CLAUDE.md, .cursorrules, copilot-instructions) from codebase analysis"
+    last_push: "2026-11-10"
+  - name: "RepoWiki"
+    title: "RepoWiki"
+    description: "Open-source DeepWiki alternative — generate comprehensive wiki documentation for any codebase from terminal or browser"
     language: "Python"
     topics:
-      - "ai-assistant"
-      - "claude-code"
       - "cli"
-      - "code-analysis"
-      - "code-generation"
-      - "copilot"
-      - "cursor"
-      - "cursorrules"
-      - "developer-tools"
+      - "deepwiki"
+      - "documentation"
+      - "llm"
+      - "pagerank"
       - "python"
-    stars_fact: 9
+      - "react"
+      - "wiki"
+    stars_fact: 305
     first_seen: null
-    last_push: "2026-08-24"
+    last_push: "2026-10-23"
+  - name: "he-yufeng"
+    title: "he-yufeng"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "GitSense"
     title: "GitSense"
     description: "AI-powered open source contribution finder and repo radar"
@@ -146,45 +136,37 @@ repos:
       - "llm"
       - "open-source"
       - "python"
-    stars_fact: 91
+    stars_fact: 89
     first_seen: null
     last_push: "2026-10-23"
-  - name: "PromptDiff"
-    title: "PromptDiff"
-    description: "Semantic diff for LLM prompts — compare prompt versions like git diff"
+  - name: "TrajBias"
+    title: "TrajBias"
+    description: "TrajBias: Structural Biases in LLM-as-Judge Evaluation of Agent Trajectories"
     language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "IslandEscape"
+    title: "IslandEscape"
+    description: "2D pixel-art survival trading game — four LLM-powered AI agents compete to escape the island"
+    language: "TypeScript"
     topics:
-      - "ci"
-      - "cli"
-      - "diff"
+      - "ai-agents"
+      - "deepseek"
+      - "fastify"
+      - "game"
+      - "generative-agents"
       - "llm"
-      - "llm-evaluation"
-      - "prompt-engineering"
-      - "prompt-testing"
-      - "python"
-      - "regression-testing"
-      - "semantic-similarity"
+      - "llm-agents"
+      - "multi-agent"
+      - "pixijs"
+      - "simulation"
+      - "typescript"
+      - "vue3"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-07-22"
-  - name: "TokenTracker"
-    title: "TokenTracker"
-    description: "Drop-in LLM cost tracker — change one import line, see where your money goes. Supports OpenAI, OpenRouter, Azure, Ollama."
-    language: "Python"
-    topics:
-      - "cli"
-      - "cost-optimization"
-      - "cost-tracking"
-      - "llm"
-      - "monitoring"
-      - "observability"
-      - "ollama"
-      - "openai"
-      - "openrouter"
-      - "python"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-08-04"
 ---
 
 # he-yufeng

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 6, 17, 4, 38, 61, 20, 148, 229, 9, 78, 0, 3]
+pushes_per_week: [2, 8, 15, 5, 39, 60, 22, 145, 231, 12, 73, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 265
-    distinct_repos: 14
-    active_days: 13
+    pushes: 174
+    distinct_repos: 10
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 265
-    distinct_repos: 14
-    pushes_per_repo: 18.9286
-    active_days: 13
+    pushes: 174
+    distinct_repos: 10
+    pushes_per_repo: 17.4000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
+  - name: "hspice"
+    title: "hspice"
+    description: null
+    language: "Typst"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "sso"
     title: "sso"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "bug-v3"
     title: "bug-v3"
     description: "一个有很多bug的表情插件，主要在linux do 测试喵。discourse的网站们应该都可以用"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 24
     first_seen: null
     last_push: "2026-09-03"
-  - name: "Extera"
-    title: "Extera"
-    description: null
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
 ---
 
 # stevessr

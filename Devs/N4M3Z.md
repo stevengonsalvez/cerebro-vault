@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [23, 2, 5, 0, 4, 18, 5, 1, 0, 3, 3, 0, 1]
+pushes_per_week: [17, 5, 2, 0, 4, 21, 2, 1, 0, 4, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 59
     distinct_repos: 10
-    active_days: 23
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8261
-  repo_per_active_day: 0.4348
+  push_per_day: 2.6818
+  repo_per_active_day: 0.4545
   not_owned_ratio: 0.5000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 65
+    pushes: 59
     distinct_repos: 10
-    pushes_per_repo: 6.5000
-    active_days: 23
+    pushes_per_repo: 5.9000
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "rust-cache"
     title: "rust-cache"
     description: "Prune stale cargo build output every night, including leftover macOS debug objects"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-01"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "chezmoi-managed dotfiles"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "lsrules"
     title: "lsrules"
     description: "Little Snitch policy references and offline validators."
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-65 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+59 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

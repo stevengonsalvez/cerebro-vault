@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [22, 2, 1, 0, 3, 5, 8, 5, 1, 3, 3, 0, 0]
+pushes_per_week: [14, 1, 0, 3, 0, 6, 8, 4, 2, 2, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 43
     distinct_repos: 2
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4091
-  repo_per_active_day: 0.0909
+  push_per_day: 2.0476
+  repo_per_active_day: 0.0952
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,31 +65,18 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 26.5000
-    active_days: 22
+    pushes_per_repo: 21.5000
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CardSlider"
-    title: "CardSlider"
-    description: "Tinder cards with a twist"
-    language: "Swift"
-    topics:
-      - "cards"
-      - "ios"
-      - "swift"
-      - "tinder"
-      - "tinder-ui"
-    stars_fact: 1194
-    first_seen: null
-    last_push: "2022-06-13"
   - name: "DynamicJSON"
     title: "DynamicJSON"
     description: "Access JSON properties dynamically like JavaScript using Swift 4.2's new @dynamicMemberLookup feature"
@@ -103,9 +90,22 @@ repos:
       - "swift4-2"
       - "tvos"
       - "watchos"
-    stars_fact: 708
+    stars_fact: 709
     first_seen: null
     last_push: "2022-04-03"
+  - name: "CardSlider"
+    title: "CardSlider"
+    description: "Tinder cards with a twist"
+    language: "Swift"
+    topics:
+      - "cards"
+      - "ios"
+      - "swift"
+      - "tinder"
+      - "tinder-ui"
+    stars_fact: 1192
+    first_seen: null
+    last_push: "2022-06-13"
   - name: "Disk"
     title: "Disk"
     description: "Easily persist structs, images, and data on iOS"
@@ -119,7 +119,7 @@ repos:
       - "swift"
       - "swift4"
       - "xcode"
-    stars_fact: 3111
+    stars_fact: 3110
     first_seen: null
     last_push: "2024-08-08"
   - name: "Dance"
@@ -159,6 +159,6 @@ repos:
 
 # saoudrizwan
 
-53 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saoudrizwan

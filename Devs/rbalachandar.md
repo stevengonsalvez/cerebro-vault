@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,21 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rbalachandar"
+    title: "rbalachandar"
+    description: "AI & Data Engineering"
+    language: null
+    topics:
+      - "ai"
+      - "context-engineering"
+      - "context-management"
+      - "data-engineering"
+      - "data-science"
+      - "llm-inference"
+      - "llmops"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "bionexus"
     title: "bionexus"
     description: "BioNexus is an agentic science system that runs experiments end to end — hypothesis portfolios, safety-gated labs (simulated or real instruments), verdicts with confidence intervals against pre-registered criteria, and tamper-evident provenance. Includes an offline eval suite. Domain-agnostic core."
@@ -96,21 +111,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "rbalachandar"
-    title: "rbalachandar"
-    description: "AI & Data Engineering"
-    language: null
-    topics:
-      - "ai"
-      - "context-engineering"
-      - "context-management"
-      - "data-engineering"
-      - "data-science"
-      - "llm-inference"
-      - "llmops"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "rbalachandar.github.io"
     title: "rbalachandar.github.io"
     description: "github.io page"

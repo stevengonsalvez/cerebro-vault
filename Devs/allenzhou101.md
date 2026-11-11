@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1f49d0119cedbc84"
   - "82a901da1b9bedec"
-pushes_per_week: [7, 0, 0, 0, 1, 0, 0, 4, 4, 1, 1, 0, 0]
+pushes_per_week: [6, 0, 0, 0, 1, 0, 0, 4, 5, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
-    distinct_repos: 4
+    pushes: 17
+    distinct_repos: 3
     active_days: 8
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.5000
+  push_per_day: 2.1250
+  repo_per_active_day: 0.3750
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,12 +67,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 18
-    distinct_repos: 4
-    pushes_per_repo: 4.5000
+    pushes: 17
+    distinct_repos: 3
+    pushes_per_repo: 5.6667
     active_days: 8
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
@@ -131,6 +131,6 @@ repos:
 
 # allenzhou101
 
-18 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
+17 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/allenzhou101

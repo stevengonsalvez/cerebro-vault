@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 16, 0, 1, 1, 0, 8, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 16, 0, 1, 1, 0, 10, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -128,7 +128,7 @@ repos:
       - "vite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-08"
   - name: "CquAutoLogin"
     title: "CquAutoLogin"
     description: "Windows tray utility for CQU portal sign-in assistance"

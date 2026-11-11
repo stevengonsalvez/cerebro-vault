@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [6, 0, 4, 0, 10, 19, 4, 0, 4, 1, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Shipmates CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "shipmates"
     title: "shipmates"
     description: "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request autonomously. Multi-harness."
@@ -102,7 +110,7 @@ repos:
       - "workflow-automation"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "better-mtplx-ui"
     title: "better-mtplx-ui"
     description: "A lightweight, parallel-first desktop GUI for MTPLX — browse packs, launch multiple models on their own ports, watch them side by side."
@@ -115,14 +123,6 @@ repos:
       - "react"
       - "rust"
       - "tauri"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Shipmates CLI"
-    language: "Ruby"
-    topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"

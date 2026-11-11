@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a8880d67c967e370"
-pushes_per_week: [4, 0, 2, 0, 5, 8, 31, 66, 29, 29, 50, 0, 3]
+pushes_per_week: [3, 0, 2, 0, 8, 9, 30, 63, 40, 34, 34, 1, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 100
+    pushes: 90
     distinct_repos: 5
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 226
     distinct_repos: 12
     active_days: 39
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.8205
+  push_per_day: 5.7949
   repo_per_active_day: 0.3077
   not_owned_ratio: 0.1667
   basename_concentration: 0.2500
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 100
+    pushes: 90
     distinct_repos: 5
-    pushes_per_repo: 20.0000
-    active_days: 14
+    pushes_per_repo: 18.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 226
     distinct_repos: 12
-    pushes_per_repo: 18.9167
+    pushes_per_repo: 18.8333
     active_days: 39
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -166,6 +166,6 @@ repos:
 
 # Gaurav-Gosain
 
-227 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
+226 pushes across 12 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gaurav-Gosain

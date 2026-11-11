@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [28, 58, 10, 4, 7, 7, 42, 74, 41, 41, 30, 1, 1]
+pushes_per_week: [27, 58, 8, 6, 6, 10, 41, 71, 56, 43, 13, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 108
-    distinct_repos: 16
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 97
+    distinct_repos: 15
+    active_days: 13
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 344
+    pushes: 341
     distinct_repos: 24
-    active_days: 56
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.1429
-  repo_per_active_day: 0.4286
+  push_per_day: 6.2000
+  repo_per_active_day: 0.4364
   not_owned_ratio: 0.4167
   basename_concentration: 0.0417
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 108
-    distinct_repos: 16
-    pushes_per_repo: 6.7500
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 97
+    distinct_repos: 15
+    pushes_per_repo: 6.4667
+    active_days: 13
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 344
+    pushes: 341
     distinct_repos: 24
-    pushes_per_repo: 14.3333
-    active_days: 56
+    pushes_per_repo: 14.2083
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "hermes-personal-assistant"
@@ -176,6 +176,6 @@ repos:
 
 # 100yenadmin
 
-344 pushes across 24 repositories on 56 active days in the last 90 days of public GitHub push activity.
+341 pushes across 24 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/100yenadmin

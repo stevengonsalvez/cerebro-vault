@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [10, 0, 1, 5, 6, 7, 3, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [7, 0, 1, 7, 5, 6, 3, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 9
-    active_days: 17
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.5294
+  push_per_day: 1.9375
+  repo_per_active_day: 0.5625
   not_owned_ratio: 0.4444
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 34
+    pushes: 31
     distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 17
+    pushes_per_repo: 3.4444
+    active_days: 16
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "auto-green"
@@ -129,6 +129,6 @@ repos:
 
 # yangchuansheng
 
-34 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
+31 pushes across 9 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yangchuansheng

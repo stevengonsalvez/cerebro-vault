@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
-pushes_per_week: [9, 2, 4, 4, 6, 5, 5, 8, 1, 0, 1, 0, 0]
+pushes_per_week: [7, 5, 1, 4, 6, 8, 2, 8, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 29
-    active_days: 25
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 1.1600
+  push_per_day: 1.7917
+  repo_per_active_day: 1.2083
   not_owned_ratio: 0.0345
   basename_concentration: 0.0345
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 29
-    pushes_per_repo: 1.5517
-    active_days: 25
+    pushes_per_repo: 1.4828
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "course-02-project-blockchain-spec"
@@ -143,6 +143,6 @@ repos:
 
 # wakqasahmed
 
-45 pushes across 29 repositories on 25 active days in the last 90 days of public GitHub push activity.
+43 pushes across 29 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wakqasahmed

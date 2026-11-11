@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 3, 0, 2, 12, 38, 10, 15, 2, 2, 1, 0, 0]
+pushes_per_week: [6, 1, 0, 3, 11, 38, 10, 15, 3, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 13
+    pushes: 89
+    distinct_repos: 12
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.9032
-  repo_per_active_day: 0.4194
+  push_per_day: 2.8710
+  repo_per_active_day: 0.3871
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0769
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
-    distinct_repos: 13
-    pushes_per_repo: 6.9231
+    pushes: 89
+    distinct_repos: 12
+    pushes_per_repo: 7.4167
     active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,18 +77,6 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "copilot-sdk-zig"
-    title: "copilot-sdk-zig"
-    description: "Unofficial Zig SDK for GitHub Copilot CLI"
-    language: "Zig"
-    topics:
-      - "copilot"
-      - "json-rpc"
-      - "sdk"
-      - "zig"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "scarypilot"
     title: "scarypilot"
     description: "Copilot CLI Plugin Marketplace"
@@ -96,7 +84,23 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
+  - name: "pi-mono"
+    title: "pi-mono"
+    description: "Vibe coded pi related projects"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "scarydex"
+    title: "scarydex"
+    description: "personal codex marketplace"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "homebrew-formulae"
     title: "homebrew-formulae"
     description: "homebrew tap for personal projects/forks"
@@ -104,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-04"
   - name: "winwal"
     title: "winwal"
     description: "A PowerShell wrapper around the pywal tool"
@@ -121,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-28"
-  - name: "scarydex"
-    title: "scarydex"
-    description: "personal codex marketplace"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
 ---
 
 # scaryrawr
 
-90 pushes across 13 repositories on 31 active days in the last 90 days of public GitHub push activity.
+89 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

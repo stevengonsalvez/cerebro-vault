@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 3, 0, 2, 5, 17, 7, 3, 6, 2, 0, 0]
+pushes_per_week: [1, 2, 1, 0, 2, 5, 17, 7, 7, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 4
-    active_days: 22
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1364
-  repo_per_active_day: 0.1818
+  push_per_day: 2.1905
+  repo_per_active_day: 0.1905
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -66,18 +66,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 11.7500
-    active_days: 22
+    pushes_per_repo: 11.5000
+    active_days: 21
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_essential"
+    title: "astrbot_plugin_essential"
+    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
+    language: "Python"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-01-19"
   - name: "helloworld"
     title: "helloworld"
     description: "AstrBot Plugin Template"
@@ -86,6 +94,22 @@ repos:
     stars_fact: 193
     first_seen: null
     last_push: "2026-04-12"
+  - name: "astrbot_plugin_rss"
+    title: "astrbot_plugin_rss"
+    description: "AstrBot 插件 | 群聊/私聊 RSS 订阅推送"
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2025-08-24"
+  - name: "astrbot_plugin_bilibili"
+    title: "astrbot_plugin_bilibili"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 102
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "Soulter"
     title: "Soulter"
     description: null
@@ -94,22 +118,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-11-01"
-  - name: "astrbot_plugin_essential"
-    title: "astrbot_plugin_essential"
-    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
-    language: "Python"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "astrbot_plugin_bilibili"
-    title: "astrbot_plugin_bilibili"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 101
-    first_seen: null
-    last_push: "2026-10-09"
   - name: "one-sponsor-list"
     title: "one-sponsor-list"
     description: null
@@ -118,18 +126,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-26"
-  - name: "astrbot_plugin_wake_enhance"
-    title: "astrbot_plugin_wake_enhance"
-    description: "让 AstrBot 支持正则匹配唤醒、唤醒后持续对话"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-02-09"
 ---
 
 # Soulter
 
-47 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

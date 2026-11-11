@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [76, 60, 10, 5, 42, 147, 155, 143, 299, 118, 128, 0, 0]
+pushes_per_week: [62, 57, 10, 5, 57, 160, 145, 125, 326, 153, 66, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,29 +22,29 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 447
-    distinct_repos: 66
-    active_days: 13
-    repos_not_owned: 38
-    not_owned_basenames: 35
+    pushes: 319
+    distinct_repos: 60
+    active_days: 12
+    repos_not_owned: 34
+    not_owned_basenames: 31
     not_owned_owners: 4
   "90d":
-    pushes: 1183
+    pushes: 1166
     distinct_repos: 105
-    active_days: 64
+    active_days: 63
     repos_not_owned: 68
     not_owned_basenames: 45
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 18.4844
-  repo_per_active_day: 1.6406
+  push_per_day: 18.5079
+  repo_per_active_day: 1.6667
   not_owned_ratio: 0.6476
   basename_concentration: 0.1619
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "18.48 pushes per active day over 90d (1183 pushes / 64 active days), above the 15 review line"
+    - "18.51 pushes per active day over 90d (1166 pushes / 63 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 447
-    distinct_repos: 66
-    pushes_per_repo: 6.7727
-    active_days: 13
-    repos_not_owned: 38
-    not_owned_basenames: 35
+    pushes: 319
+    distinct_repos: 60
+    pushes_per_repo: 5.3167
+    active_days: 12
+    repos_not_owned: 34
+    not_owned_basenames: 31
     not_owned_owners: 4
   "90d":
-    pushes: 1183
+    pushes: 1166
     distinct_repos: 105
-    pushes_per_repo: 11.2667
-    active_days: 64
+    pushes_per_repo: 11.1048
+    active_days: 63
     repos_not_owned: 68
     not_owned_basenames: 45
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "teeny"
@@ -86,7 +86,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-10"
   - name: "llm-ladder-router"
     title: "llm-ladder-router"
     description: "A very simple ladder router that caps the prices of various LLM providers and routes to the best rates possible. For max tokenmaxing"
@@ -131,6 +131,6 @@ repos:
 
 # senamakel
 
-1183 pushes across 105 repositories on 64 active days in the last 90 days of public GitHub push activity.
+1166 pushes across 105 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

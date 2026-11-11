@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 0, 5, 27, 6, 5, 4, 4, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 5, 28, 4, 6, 4, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "kenshi-map"
+    title: "kenshi-map"
+    description: "Kenshi 中文互动地图 · Kenshi interactive map (Chinese) — kenshi.rcpd.cc"
+    language: "TypeScript"
+    topics:
+      - "game-map"
+      - "interactive-map"
+      - "kenshi"
+      - "openlayers"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "free-one-api"
     title: "free-one-api"
     description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
@@ -98,9 +110,17 @@ repos:
       - "revchatgpt"
       - "reverse-engineering"
       - "tongyiqianwen"
-    stars_fact: 941
+    stars_fact: 945
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
+  - name: "TheMostHandsome"
+    title: "TheMostHandsome"
+    description: "LangBot 插件，世界上最帅的人是谁？"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2023-05-16"
   - name: "revLibs"
     title: "revLibs"
     description: "【已弃用】ChatGPT、Claude QQ 机器人，以插件形式为 QChatGPT 项目接入ChatGPT、Claude、Bard、gpt4free等接口的逆向工程库"
@@ -115,14 +135,6 @@ repos:
     stars_fact: 199
     first_seen: null
     last_push: "2024-01-23"
-  - name: "TheMostHandsome"
-    title: "TheMostHandsome"
-    description: "LangBot 插件，世界上最帅的人是谁？"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2023-05-16"
   - name: "RockChinQ"
     title: "RockChinQ"
     description: null
@@ -139,17 +151,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2024-10-20"
-  - name: "WebwlkrPlugin"
-    title: "WebwlkrPlugin"
-    description: "LangBot 项目的WebPilot插件，为其提供联网支持 | 让 ChatGPT 联网"
-    language: "Python"
-    topics:
-      - "chatgpt"
-      - "plugin"
-      - "webpilot"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2023-08-11"
 ---
 
 # RockChinQ

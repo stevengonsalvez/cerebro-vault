@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 1, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 12
-    active_days: 8
+    active_days: 7
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 1.5000
+  push_per_day: 1.8571
+  repo_per_active_day: 1.7143
   not_owned_ratio: 0.8333
   basename_concentration: 0.0833
   shapes: []
@@ -65,18 +65,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 12
-    pushes_per_repo: 1.1667
-    active_days: 8
+    pushes_per_repo: 1.0833
+    active_days: 7
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Swarm"
+    title: "Swarm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "mactoys"
+    title: "mactoys"
+    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "wuwa-tappo-mac"
     title: "wuwa-tappo-mac"
     description: "Wuwa Tappo 国服非官方 macOS 适配：完整资源打包、Apple Silicon 原生后端与自动构建"
@@ -88,17 +104,9 @@ repos:
       - "tauri"
       - "wuthering-waves"
       - "wuwa"
-    stars_fact: 13
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "Swarm"
-    title: "Swarm"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-06"
   - name: "nib"
     title: "nib"
     description: "nib: an open design canvas for .pen files, with an MCP server for coding agents and a built-in agent"
@@ -115,14 +123,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "mactoys"
-    title: "mactoys"
-    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "oai-skills"
     title: "oai-skills"
     description: null
@@ -135,6 +135,6 @@ repos:
 
 # Last-emo-boy
 
-14 pushes across 12 repositories on 8 active days in the last 90 days of public GitHub push activity.
+13 pushes across 12 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 0, 0, 1, 0, 1, 4, 1, 2, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 1, 1, 0, 4, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opentui-math"
+    title: "opentui-math"
+    description: "Beautiful LaTeX math rendering for OpenTUI"
+    language: "TypeScript"
+    topics:
+      - "latex"
+      - "math"
+      - "opentui"
+      - "terminal"
+      - "tui"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-07-30"
   - name: "opencode-github-panel"
     title: "opencode-github-panel"
     description: "Git and GitHub side panel for OpenCode Desktop: graph, PRs, reviews, CI, issues, triage, and agent tools with an approval queue"
@@ -88,22 +101,9 @@ repos:
       - "opencode"
       - "opencode-plugin"
       - "triage"
-    stars_fact: 22
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "opentui-math"
-    title: "opentui-math"
-    description: "Beautiful LaTeX math rendering for OpenTUI"
-    language: "TypeScript"
-    topics:
-      - "latex"
-      - "math"
-      - "opentui"
-      - "terminal"
-      - "tui"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-11-05"
   - name: "opentui-browser"
     title: "opentui-browser"
     description: "A Chromium browser surface for OpenTUI using the Kitty graphics protocol"

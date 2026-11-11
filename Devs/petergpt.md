@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,28 +77,28 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "bullshit-benchmark"
-    title: "bullshit-benchmark"
-    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
-    language: "Python"
-    topics: []
-    stars_fact: 1905
-    first_seen: null
-    last_push: "2026-11-04"
   - name: "3d-prompt-collection"
     title: "3d-prompt-collection"
     description: "A presentation-order collection of 3D prompts for copying and reuse."
     language: null
     topics: []
-    stars_fact: 340
+    stars_fact: 353
     first_seen: null
     last_push: "2026-07-02"
+  - name: "bullshit-benchmark"
+    title: "bullshit-benchmark"
+    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
+    language: "Python"
+    topics: []
+    stars_fact: 1909
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "model-survey-evaluation"
     title: "model-survey-evaluation"
     description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
     language: "Python"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-07-20"
   - name: "codex-speed-monitor"

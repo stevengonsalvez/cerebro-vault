@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [4, 0, 0, 0, 0, 2, 0, 3, 0, 2, 0, 0, 0]
+pushes_per_week: [4, 0, 0, 0, 2, 0, 0, 3, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,29 +97,9 @@ repos:
       - "overengineering"
       - "scope-control"
       - "yagni"
-    stars_fact: 3589
+    stars_fact: 3803
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "mcp-slim-guard"
-    title: "mcp-slim-guard"
-    description: "Context compression for MCP. Same upstream call, exact results recoverable."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "compression"
-      - "context-compression"
-      - "mcp"
-      - "mcp-compression"
-      - "model-context-protocol"
-      - "nodejs"
-      - "payload-compression"
-      - "schema-compression"
-      - "token-optimization"
-      - "tool-discovery"
-      - "typescript"
-    stars_fact: 180
-    first_seen: null
-    last_push: "2026-08-14"
+    last_push: "2026-11-10"
   - name: "agent-search-mcp"
     title: "agent-search-mcp"
     description: "Free-first Chinese and English web search MCP using zero-key sources and inspectable evidence."
@@ -147,7 +127,7 @@ repos:
       - "zero-config"
     stars_fact: 113
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "account-tracker-tool"
     title: "account-tracker-tool"
     description: "社媒账号数据采集工具 — YouTube/TikTok/Instagram/Facebook 多平台追踪，内置多层爬虫降级 + 断点续传"
@@ -156,21 +136,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-07-29"
-  - name: "crawlweaver"
-    title: "crawlweaver"
-    description: "12-Factor AI Crawler — content extraction, SEO generation, knowledge self-evolution. Multi-source: YouTube, Web, Reddit, Twitter, WeChat, Zhihu."
-    language: "Python"
-    topics:
-      - "12-factor-agents"
-      - "ai"
-      - "content-generation"
-      - "crawler"
-      - "fastapi"
-      - "python"
-      - "seo"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-01"
   - name: "lennney"
     title: "lennney"
     description: "lennney's profile"
@@ -179,6 +144,25 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-15"
+  - name: "dsh-hermeslike"
+    title: "dsh-hermeslike"
+    description: "Hermes-style learning for DeepSeek Harness: automatic cross-session Memory and agent-owned Skills."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "agent-workspace-refarch"
+    title: "agent-workspace-refarch"
+    description: "AI agent multi-project workspace: AGENTS.md + HANDOVER.md + lifecycle hooks"
+    language: "JavaScript"
+    topics:
+      - "agent"
+      - "template"
+      - "workspace"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-02"
 ---
 
 # lennney

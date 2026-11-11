@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [42, 15, 11, 3, 7, 31, 53, 76, 56, 27, 17, 3, 3]
+pushes_per_week: [38, 18, 6, 3, 11, 30, 57, 69, 61, 31, 8, 4, 2]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 96
-    distinct_repos: 15
-    active_days: 14
+    pushes: 77
+    distinct_repos: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 344
+    pushes: 338
     distinct_repos: 28
-    active_days: 60
+    active_days: 59
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.7333
-  repo_per_active_day: 0.4667
+  push_per_day: 5.7288
+  repo_per_active_day: 0.4746
   not_owned_ratio: 0.3571
   basename_concentration: 0.0714
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 96
-    distinct_repos: 15
-    pushes_per_repo: 6.4000
-    active_days: 14
+    pushes: 77
+    distinct_repos: 14
+    pushes_per_repo: 5.5000
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 344
+    pushes: 338
     distinct_repos: 28
-    pushes_per_repo: 12.2857
-    active_days: 60
+    pushes_per_repo: 12.0714
+    active_days: 59
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "1g1r-romset-generator"
@@ -140,6 +140,6 @@ repos:
 
 # andrebrait
 
-344 pushes across 28 repositories on 60 active days in the last 90 days of public GitHub push activity.
+338 pushes across 28 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

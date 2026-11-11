@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [67, 19, 46, 3, 291, 974, 607, 102, 128, 49, 47, 0, 1]
+pushes_per_week: [51, 29, 34, 9, 371, 995, 514, 88, 140, 48, 36, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -23,29 +23,29 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 153
+    pushes: 135
     distinct_repos: 3
-    active_days: 14
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2334
+    pushes: 2316
     distinct_repos: 5
-    active_days: 63
+    active_days: 62
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 37.0476
-  repo_per_active_day: 0.0794
+  push_per_day: 37.3548
+  repo_per_active_day: 0.0806
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "37.05 pushes per active day over 90d (2334 pushes / 63 active days), above the 15 review line"
+    - "37.35 pushes per active day over 90d (2316 pushes / 62 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 153
+    pushes: 135
     distinct_repos: 3
-    pushes_per_repo: 51.0000
-    active_days: 14
+    pushes_per_repo: 45.0000
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2334
+    pushes: 2316
     distinct_repos: 5
-    pushes_per_repo: 466.8000
-    active_days: 63
+    pushes_per_repo: 463.2000
+    active_days: 62
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-browser-benchmark"
@@ -132,6 +132,6 @@ repos:
 
 # steve8708
 
-2334 pushes across 5 repositories on 63 active days in the last 90 days of public GitHub push activity.
+2316 pushes across 5 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

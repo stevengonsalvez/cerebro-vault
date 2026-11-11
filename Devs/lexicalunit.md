@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [1, 10, 0, 0, 0, 4, 4, 8, 0, 2, 1, 0, 0]
+pushes_per_week: [1, 10, 0, 0, 0, 4, 4, 8, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lexicalunit"
+    title: "lexicalunit"
+    description: "About me"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "spellbot"
     title: "spellbot"
     description: "The Discord bot for Webcam Magic"
@@ -90,15 +98,7 @@ repos:
       - "matchmaking"
     stars_fact: 38
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "lexicalunit"
-    title: "lexicalunit"
-    description: "About me"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Install applications and development environment on a macOS or Linux machine."
@@ -106,7 +106,7 @@ repos:
     topics: []
     stars_fact: 15
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-09"
   - name: "yeti-mute"
     title: "yeti-mute"
     description: "Mute passthru audio from Yeti Blue microphones"

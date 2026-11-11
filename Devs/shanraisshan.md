@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [8, 1, 1, 1, 3, 4, 4, 6, 5, 2, 2, 0, 1]
+pushes_per_week: [5, 2, 0, 1, 4, 4, 3, 6, 6, 1, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 35
     distinct_repos: 1
-    active_days: 28
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3571
-  repo_per_active_day: 0.0357
+  push_per_day: 1.2963
+  repo_per_active_day: 0.0370
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 7
+    pushes_per_repo: 6.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 38
+    pushes: 35
     distinct_repos: 1
-    pushes_per_repo: 38.0000
-    active_days: 28
+    pushes_per_repo: 35.0000
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-best-practice"
@@ -102,9 +102,9 @@ repos:
       - "pakistan"
       - "pakistani-developer"
       - "vibe-coding"
-    stars_fact: 68519
+    stars_fact: 68959
     first_seen: "2026-06-26T06:00:06.940898+00:00"
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "codex-cli-best-practice"
     title: "codex-cli-best-practice"
     description: "from vibe coding to agentic engineering - practice makes codex perfect"
@@ -130,85 +130,85 @@ repos:
       - "pakistan"
       - "pakistani-developer"
       - "vibe-coding"
-    stars_fact: 1022
+    stars_fact: 1028
     first_seen: null
     last_push: "2026-06-04"
-  - name: "agentic-engineering"
-    title: "agentic-engineering"
-    description: "does code matter?"
+  - name: "ralph-wiggum-self-evolving-loop"
+    title: "ralph-wiggum-self-evolving-loop"
+    description: "a ralph wiggum self evolving loop that generates questions designed to break modern LLMs"
     language: "Python"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-05-02"
+  - name: "claude-code-hooks"
+    title: "claude-code-hooks"
+    description: "claude code hooks - adding voice on each hook"
+    language: "HTML"
     topics:
       - "agentic-ai"
+      - "agentic-coding"
       - "agentic-engineering"
       - "agentic-workflow"
       - "ai"
+      - "ai-agents"
       - "anthropic"
-      - "chatgpt"
       - "claude"
+      - "claude-ai"
       - "claude-code"
-      - "codex"
-      - "composer"
-      - "cursor"
-      - "gemini"
-      - "google"
-      - "gpt"
-      - "openai"
-      - "opus"
+      - "claude-code-agents"
+      - "claude-code-best-practices"
+      - "claude-code-commands"
+      - "claude-code-skills"
+      - "claude-hooks"
+      - "context-engineering"
+      - "hooks"
       - "pakistan"
       - "pakistani-developer"
-      - "sonnet"
       - "vibe-coding"
-    stars_fact: 25
+    stars_fact: 570
     first_seen: null
-    last_push: "2026-05-08"
-  - name: "claude-code-status-line"
-    title: "claude-code-status-line"
-    description: "A custom status line script for Claude Code that displays context window usage, git status, and model information."
-    language: "Shell"
-    topics:
-      - "agentic-development"
-      - "agents"
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "pakistan"
-    stars_fact: 65
-    first_seen: null
-    last_push: "2026-05-22"
-  - name: "draw-json-architecture-skill"
-    title: "draw-json-architecture-skill"
-    description: "A skill that explains any code architecture as an interactive viewer — Graph + JSON + HTML, 100% driven by JSON — and saves the self-contained `.html` to your repo's root `architecture/` folder."
-    language: "HTML"
-    topics:
-      - "ai"
-      - "ai-skills"
-      - "claude"
-      - "claude-code"
-      - "codex"
-      - "codex-cli"
-      - "pakistan"
-      - "skilla"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-06-01"
-  - name: "gemini-cli-best-practice"
-    title: "gemini-cli-best-practice"
-    description: "from vibe coding to agentic engineering - practice makes gemini perfect"
+    last_push: "2026-06-04"
+  - name: "shanraisshan"
+    title: "shanraisshan"
+    description: "Software Architect @ disrupt.com | Agentic Workflows - Claude Code / Codex CLI | AI-First Spec-Driven Development | GCP (Firebase, Cloud Run, Cloud Functions, Pub/Sub) | Mobile (React Native, Kotlin)"
     language: "Python"
     topics:
       - "agentic-ai"
-      - "agentic-engineering"
-      - "agentic-workflows"
+      - "agentic-coding"
+      - "agentic-development"
+      - "agentic-workflow"
       - "ai"
+      - "ai-agents"
+      - "ai-development"
+      - "ai-engineer"
+      - "backend"
+      - "claude-code-best-practice"
+      - "claude-code-hooks"
+      - "codex-cli-best-practice"
+      - "codex-cli-hooks"
+      - "firebase"
+      - "mobile"
       - "pakistan"
-      - "vibe-coding"
-    stars_fact: 80
+      - "pakistan-developer"
+      - "product-engineering"
+      - "pyhton"
+      - "spec-driven-development"
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-05-26"
+    last_push: "2026-08-05"
+  - name: "Android-Custom-Intent-List"
+    title: "Android-Custom-Intent-List"
+    description: "Create a intent chooser that display your desired component/activities."
+    language: "Java"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2017-08-29"
 ---
 
 # shanraisshan
 
-38 pushes across 1 repository on 28 active days in the last 90 days of public GitHub push activity.
+35 pushes across 1 repository on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shanraisshan

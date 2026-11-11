@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ddd7486148a91958"
-pushes_per_week: [14, 5, 6, 9, 4, 16, 28, 25, 38, 10, 20, 0, 2]
+pushes_per_week: [12, 8, 3, 11, 6, 16, 27, 22, 38, 20, 10, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
-    distinct_repos: 3
+    pushes: 56
+    distinct_repos: 2
     active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 175
     distinct_repos: 5
-    active_days: 43
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1163
-  repo_per_active_day: 0.1163
+  push_per_day: 4.1667
+  repo_per_active_day: 0.1190
   not_owned_ratio: 0.8000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 63
-    distinct_repos: 3
-    pushes_per_repo: 21.0000
+    pushes: 56
+    distinct_repos: 2
+    pushes_per_repo: 28.0000
     active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 177
+    pushes: 175
     distinct_repos: 5
-    pushes_per_repo: 35.4000
-    active_days: 43
+    pushes_per_repo: 35.0000
+    active_days: 42
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "anticodeguy-video-editing-studio"
@@ -134,6 +134,6 @@ repos:
 
 # sidorovanthon
 
-177 pushes across 5 repositories on 43 active days in the last 90 days of public GitHub push activity.
+175 pushes across 5 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sidorovanthon

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-11"
   - name: "codex-observatory"
     title: "codex-observatory"
     description: "Local observability and usage analytics for Codex sessions, tokens, prompts, and model trends."

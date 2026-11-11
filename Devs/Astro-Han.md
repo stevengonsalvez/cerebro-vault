@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [25, 30, 9, 3, 14, 41, 45, 2, 4, 2, 1, 0, 0]
+pushes_per_week: [21, 30, 7, 3, 22, 44, 34, 2, 6, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 176
+    pushes: 170
     distinct_repos: 7
-    active_days: 44
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.1591
+  push_per_day: 3.9535
+  repo_per_active_day: 0.1628
   not_owned_ratio: 0.4286
   basename_concentration: 0.2857
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 176
+    pushes: 170
     distinct_repos: 7
-    pushes_per_repo: 25.1429
-    active_days: 44
+    pushes_per_repo: 24.2857
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -182,6 +182,6 @@ repos:
 
 # Astro-Han
 
-176 pushes across 7 repositories on 44 active days in the last 90 days of public GitHub push activity.
+170 pushes across 7 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

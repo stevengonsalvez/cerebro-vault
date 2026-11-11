@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 5, 4, 5, 1, 21, 16, 27, 6, 4, 6, 0, 0]
+pushes_per_week: [0, 5, 4, 5, 1, 23, 14, 27, 6, 5, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 20
-    active_days: 38
+    active_days: 36
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5526
-  repo_per_active_day: 0.5263
+  push_per_day: 2.6389
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.3000
   basename_concentration: 0.0500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 8
+    pushes_per_repo: 3.0000
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 97
+    pushes: 95
     distinct_repos: 20
-    pushes_per_repo: 4.8500
-    active_days: 38
+    pushes_per_repo: 4.7500
+    active_days: 36
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wt"
@@ -146,6 +146,6 @@ repos:
 
 # aryasaatvik
 
-97 pushes across 20 repositories on 38 active days in the last 90 days of public GitHub push activity.
+95 pushes across 20 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

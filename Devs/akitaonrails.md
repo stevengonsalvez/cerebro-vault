@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "f135712f91f710c6"
-pushes_per_week: [18, 8, 2, 8, 8, 33, 35, 13, 40, 15, 29, 0, 0]
+pushes_per_week: [15, 9, 1, 8, 10, 39, 29, 11, 44, 14, 26, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 66
     distinct_repos: 20
-    active_days: 11
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 209
+    pushes: 206
     distinct_repos: 35
-    active_days: 52
+    active_days: 51
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.0192
-  repo_per_active_day: 0.6731
+  push_per_day: 4.0392
+  repo_per_active_day: 0.6863
   not_owned_ratio: 0.2857
   basename_concentration: 0.2571
   shapes: []
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 66
     distinct_repos: 20
-    pushes_per_repo: 3.6000
-    active_days: 11
+    pushes_per_repo: 3.3000
+    active_days: 10
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
   "90d":
-    pushes: 209
+    pushes: 206
     distinct_repos: 35
-    pushes_per_repo: 5.9714
-    active_days: 52
+    pushes_per_repo: 5.8857
+    active_days: 51
     repos_not_owned: 10
     not_owned_basenames: 2
     not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rea-colin-mcrae-3"
@@ -132,6 +132,6 @@ repos:
 
 # akitaonrails
 
-209 pushes across 35 repositories on 52 active days in the last 90 days of public GitHub push activity.
+206 pushes across 35 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

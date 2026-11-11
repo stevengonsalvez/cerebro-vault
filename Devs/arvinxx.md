@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [27, 7, 4, 3, 14, 41, 102, 66, 69, 21, 18, 0, 0]
+pushes_per_week: [24, 7, 4, 4, 14, 44, 98, 66, 74, 20, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 90
+    pushes: 56
     distinct_repos: 2
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 372
+    pushes: 369
     distinct_repos: 4
-    active_days: 54
+    active_days: 53
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.8889
-  repo_per_active_day: 0.0741
+  push_per_day: 6.9623
+  repo_per_active_day: 0.0755
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 90
+    pushes: 56
     distinct_repos: 2
-    pushes_per_repo: 45.0000
-    active_days: 12
+    pushes_per_repo: 28.0000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 372
+    pushes: 369
     distinct_repos: 4
-    pushes_per_repo: 93.0000
-    active_days: 54
+    pushes_per_repo: 92.2500
+    active_days: 53
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dumi-theme-antd-style"
@@ -141,6 +141,6 @@ repos:
 
 # arvinxx
 
-372 pushes across 4 repositories on 54 active days in the last 90 days of public GitHub push activity.
+369 pushes across 4 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

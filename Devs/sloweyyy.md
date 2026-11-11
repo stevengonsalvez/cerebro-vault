@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 1, 1, 0, 0, 0, 16, 0, 2, 1, 13, 0, 0]
+pushes_per_week: [2, 1, 1, 0, 0, 0, 16, 0, 3, 1, 12, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "cloud-native-ecommerce-platform"
     title: "cloud-native-ecommerce-platform"
     description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
@@ -112,7 +112,7 @@ repos:
       - "terraform"
     stars_fact: 23
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "Trustify-Frontend"
     title: "Trustify-Frontend"
     description: "This repository contains the frontend code for Trustify, a platform for online notarization services that leverages blockchain and NFT for document storage. This frontend interacts with the provided backend to facilitate the user experience."

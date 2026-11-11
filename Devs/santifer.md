@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [28, 4, 5, 1, 1, 29, 20, 8, 17, 6, 1, 0, 0]
+pushes_per_week: [21, 4, 5, 1, 1, 30, 20, 7, 22, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 6
-    active_days: 6
-    repos_not_owned: 5
+    pushes: 13
+    distinct_repos: 4
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 120
+    pushes: 113
     distinct_repos: 30
-    active_days: 38
+    active_days: 37
     repos_not_owned: 27
     not_owned_basenames: 4
     not_owned_owners: 24
 automation:
   state: "clear"
-  push_per_day: 3.1579
-  repo_per_active_day: 0.7895
+  push_per_day: 3.0541
+  repo_per_active_day: 0.8108
   not_owned_ratio: 0.9000
   basename_concentration: 0.7333
   shapes:
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 6
-    pushes_per_repo: 3.0000
-    active_days: 6
-    repos_not_owned: 5
+    pushes: 13
+    distinct_repos: 4
+    pushes_per_repo: 3.2500
+    active_days: 5
+    repos_not_owned: 3
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 1
   "90d":
-    pushes: 120
+    pushes: 113
     distinct_repos: 30
-    pushes_per_repo: 4.0000
-    active_days: 38
+    pushes_per_repo: 3.7667
+    active_days: 37
     repos_not_owned: 27
     not_owned_basenames: 4
     not_owned_owners: 24
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -106,25 +106,9 @@ repos:
       - "star-history"
       - "svg"
       - "telemetry"
-    stars_fact: 18
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "jacobo-workflows"
-    title: "jacobo-workflows"
-    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
-    language: null
-    topics:
-      - "ai-agents"
-      - "elevenlabs"
-      - "hitl"
-      - "multi-agent"
-      - "n8n"
-      - "tool-calling"
-      - "voice-ai"
-      - "whatsapp"
-    stars_fact: 169
-    first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-11-10"
   - name: "cv-santiago"
     title: "cv-santiago"
     description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
@@ -143,23 +127,9 @@ repos:
       - "typescript"
       - "vercel"
       - "vite"
-    stars_fact: 862
+    stars_fact: 867
     first_seen: null
     last_push: "2026-10-26"
-  - name: "claude-eye"
-    title: "claude-eye"
-    description: "CLI tool that analyzes web animation videos frame-by-frame using Claude Vision"
-    language: "TypeScript"
-    topics:
-      - "animation"
-      - "claude"
-      - "cli"
-      - "css"
-      - "debugging"
-      - "vision-ai"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-01-29"
   - name: "santifer-irepair"
     title: "santifer-irepair"
     description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
@@ -173,21 +143,53 @@ repos:
       - "tailwindcss"
       - "typescript"
       - "vercel"
-    stars_fact: 41
+    stars_fact: 43
     first_seen: null
     last_push: "2026-08-27"
-  - name: "santifer"
-    title: "santifer"
-    description: "Profile README"
-    language: null
+  - name: "career-ops-plugin-template"
+    title: "career-ops-plugin-template"
+    description: "Template for a career-ops community plugin (career-ops-plugin-<name>)"
+    language: "JavaScript"
     topics: []
-    stars_fact: 14
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-06-29"
+  - name: "watermark-remover"
+    title: "watermark-remover"
+    description: "CLI tool to remove watermarks from images using YOLO detection + LaMa inpainting"
+    language: "Python"
+    topics:
+      - "ai"
+      - "cli"
+      - "image-processing"
+      - "inpainting"
+      - "lama"
+      - "python"
+      - "watermark-removal"
+      - "yolo"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "jacobo-workflows"
+    title: "jacobo-workflows"
+    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
+    language: null
+    topics:
+      - "ai-agents"
+      - "elevenlabs"
+      - "hitl"
+      - "multi-agent"
+      - "n8n"
+      - "tool-calling"
+      - "voice-ai"
+      - "whatsapp"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-08-27"
 ---
 
 # santifer
 
-120 pushes across 30 repositories on 38 active days in the last 90 days of public GitHub push activity.
+113 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

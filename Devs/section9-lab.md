@@ -7,12 +7,12 @@ discovered_via_all:
 provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [4, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8000
-  repo_per_active_day: 0.8000
+  push_per_day: 1.7500
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 5
+    pushes_per_repo: 1.7500
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "pi-work"
@@ -99,25 +99,7 @@ repos:
       - "swiftui"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "vibe-hud"
-    title: "vibe-hud"
-    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
-    language: "Swift"
-    topics:
-      - "chatgpt"
-      - "claude-code"
-      - "codex"
-      - "island"
-      - "macos"
-      - "notch"
-      - "notch-app"
-      - "opencode"
-      - "vibe-island"
-      - "vibecoding-tool"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "MyClip"
     title: "MyClip"
     description: "AI screen memory for macOS. Capture your work as searchable Markdown notes and tasks. Let Codex and Claude Code recall saved context through a built-in MCP server."
@@ -137,7 +119,33 @@ repos:
       - "screenshot-to-memory"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "vibe-hud"
+    title: "vibe-hud"
+    description: "A macOS notch overlay for Claude Code that keeps your sessions, approvals, replies, and updates within reach."
+    language: "Swift"
+    topics:
+      - "chatgpt"
+      - "claude-code"
+      - "codex"
+      - "island"
+      - "macos"
+      - "notch"
+      - "notch-app"
+      - "opencode"
+      - "vibe-island"
+      - "vibecoding-tool"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "DingBell"
+    title: "DingBell"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "section9-lab"
     title: "section9-lab"
     description: null
@@ -158,18 +166,10 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-11-03"
-  - name: "DingBell"
-    title: "DingBell"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
 ---
 
 # section9-lab
 
-9 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+7 pushes across 4 repositories on 4 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/section9-lab

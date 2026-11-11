@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 3, 1, 1, 1, 6, 8, 14, 13, 4, 1, 0, 1]
+pushes_per_week: [3, 3, 1, 1, 1, 6, 9, 13, 16, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 4
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 7
     active_days: 29
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.9655
+  push_per_day: 1.9310
   repo_per_active_day: 0.2414
   not_owned_ratio: 0.4286
   basename_concentration: 0.2857
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 4.2500
-    active_days: 7
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 7
-    pushes_per_repo: 8.1429
+    pushes_per_repo: 8.0000
     active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-09"
   - name: "minifyrb"
     title: "minifyrb"
     description: "A minifier of Ruby files."
@@ -141,6 +141,6 @@ repos:
 
 # koic
 
-57 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+56 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koic

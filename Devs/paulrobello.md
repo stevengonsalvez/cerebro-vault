@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 1, 0, 2, 21, 55, 27, 3, 3, 6, 0, 0]
+pushes_per_week: [0, 3, 0, 0, 2, 24, 55, 24, 3, 4, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,46 +77,42 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "par-term"
-    title: "par-term"
-    description: "Cross-platform GPU-accelerated terminal emulator with inline graphics support (Sixel, iTerm2, Kitty)"
-    language: "Rust"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "homebrew-par-term"
-    title: "homebrew-par-term"
-    description: "Homebrew tap for Par Term"
-    language: "Ruby"
+  - name: "gogh-xr"
+    title: "gogh-xr"
+    description: "Walk inside Van Gogh's paintings on Meta Quest 3: a WebXR experience in three.js with living, shader-driven brushstrokes"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
+  - name: "par-storygen"
+    title: "par-storygen"
+    description: "AI-driven TUI choose-your-own-adventure"
+    language: "Python"
+    topics:
+      - "ai"
+      - "choose-your-own-adventure"
+      - "gemini"
+      - "interactive-fiction"
+      - "llm"
+      - "ollama"
+      - "openai"
+      - "openrouter"
+      - "python"
+      - "terminal"
+      - "textual"
+      - "tui"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "claude-office"
     title: "claude-office"
     description: "Real-time pixel art office simulation that visualizes Claude Code operations"
     language: "TypeScript"
     topics: []
-    stars_fact: 600
+    stars_fact: 615
     first_seen: null
-    last_push: "2026-10-16"
-  - name: "stable-audio-3-lab"
-    title: "stable-audio-3-lab"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "par-term-emu-core-rust"
-    title: "par-term-emu-core-rust"
-    description: "Rust terminal emulator library with Python 3.12+ bindings (PyO3). Provides VT100/VT220/VT320/VT420 compatibility with PTY support."
-    language: "Rust"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-05"
   - name: "par-rt-db"
     title: "par-rt-db"
     description: "Self-hosted Convex-inspired realtime document DB in Rust (axum/tokio/Postgres)"
@@ -124,7 +120,32 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-10"
+  - name: "roku-fishtank"
+    title: "roku-fishtank"
+    description: null
+    language: "Brightscript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "parllama"
+    title: "parllama"
+    description: "TUI for Ollama and other LLM providers"
+    language: "Python"
+    topics:
+      - "ai"
+      - "anthropic"
+      - "gemini"
+      - "ollama"
+      - "ollama-tui"
+      - "openai"
+      - "python"
+      - "terminal"
+      - "tui"
+    stars_fact: 496
+    first_seen: null
+    last_push: "2026-10-16"
 ---
 
 # paulrobello

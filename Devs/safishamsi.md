@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c290a2acf859c75b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 3, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "safishamsi"
+    title: "safishamsi"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-05-03"
+  - name: "mycetoma-kg-rag"
+    title: "mycetoma-kg-rag"
+    description: "Multi Modal Knowledge Graph Augmented Retrieval for Explainable Mycetoma Diagnosis - MICAD 2025"
+    language: "Python"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2025-10-29"
   - name: "FirstSight"
     title: "FirstSight"
     description: "Meta Ray-Ban first-aid guidance: contactless heart rate (rPPG), facial droop detection, and Gemini voice agent with JRCALC 2022 clinical GraphRAG. 🏆 3rd place UnicornMafia To The Americas 2026."
@@ -95,14 +111,6 @@ repos:
     stars_fact: 32
     first_seen: null
     last_push: "2026-04-27"
-  - name: "safishamsi"
-    title: "safishamsi"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-05-03"
   - name: "Knowledge-Graph-Based-Hybrid-RAG-System"
     title: "Knowledge-Graph-Based-Hybrid-RAG-System"
     description: "Knowledge Graph-RAG system using Neo4j, LangChain, LangGraph, Claude-3.5-Sonnet. Hybrid retrieval: SBERT embeddings + graph traversal + BM25. 61K papers, 190K authors from Scopus. 50% NDCG improvement, 57% bias reduction. Includes notebooks, evaluation scripts, benchmark queries. Python/Jupyter."
@@ -119,14 +127,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2025-10-06"
-  - name: "mycetoma-kg-rag"
-    title: "mycetoma-kg-rag"
-    description: "Multi Modal Knowledge Graph Augmented Retrieval for Explainable Mycetoma Diagnosis - MICAD 2025"
-    language: "Python"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2025-10-29"
   - name: "penpax.ai"
     title: "penpax.ai"
     description: null

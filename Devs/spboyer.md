@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [7, 0, 5, 0, 0, 1, 5, 5, 11, 4, 1, 0, 1]
+pushes_per_week: [7, 3, 2, 0, 0, 1, 5, 5, 13, 2, 1, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "azure-deploy"
-    title: "azure-deploy"
-    description: "Copilot/Claude Skill for deploying applications to Azure (App Service, Functions, Static Web Apps)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "sensei"
     title: "sensei"
     description: "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern"
@@ -98,7 +90,15 @@ repos:
       - "testing-tools"
     stars_fact: 60
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-08"
+  - name: "azure-deploy"
+    title: "azure-deploy"
+    description: "Copilot/Claude Skill for deploying applications to Azure (App Service, Functions, Static Web Apps)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "pycontainer-build"
     title: "pycontainer-build"
     description: "Docker-free OCI image builder for Python projects"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 1, 1, 2, 0, 2, 2, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 2, 0, 2, 2, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
     language: "TypeScript"
     topics: []
-    stars_fact: 178
+    stars_fact: 182
     first_seen: null
     last_push: "2026-08-27"
   - name: "GB-emulator"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-06"
   - name: "cloud-agent"
     title: "cloud-agent"
     description: null
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 18
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-06"
   - name: "openapp"
     title: "openapp"
     description: "Open-source control plane for turning existing single-user web apps into independent multi-user workspaces through versioned Adapters."

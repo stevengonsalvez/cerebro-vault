@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 1, 0, 2, 0, 5, 4, 0, 7, 11, 13, 0, 0]
+pushes_per_week: [2, 0, 0, 2, 0, 6, 3, 0, 13, 9, 9, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 3
-    active_days: 21
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.1429
+  push_per_day: 2.2000
+  repo_per_active_day: 0.1500
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 2
-    pushes_per_repo: 15.0000
-    active_days: 9
+    pushes_per_repo: 14.5000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 44
     distinct_repos: 3
-    pushes_per_repo: 15.6667
-    active_days: 21
+    pushes_per_repo: 14.6667
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Cedarflake-Ame"
@@ -160,6 +160,6 @@ repos:
 
 # Cedarflake
 
-47 pushes across 3 repositories on 21 active days in the last 90 days of public GitHub push activity.
+44 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

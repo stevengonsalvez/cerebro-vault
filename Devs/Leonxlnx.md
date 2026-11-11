@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [0, 1, 0, 0, 9, 24, 1, 11, 27, 8, 8, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 10, 22, 1, 11, 27, 8, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 34
     distinct_repos: 3
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 34
     distinct_repos: 3
-    pushes_per_repo: 14.0000
-    active_days: 7
+    pushes_per_repo: 11.3333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,9 +93,25 @@ repos:
       - "landing-page"
       - "ui-design"
       - "web-design"
-    stars_fact: 109664
+    stars_fact: 113112
     first_seen: "2026-07-07T06:00:04.098731+00:00"
-    last_push: "2026-11-04"
+    last_push: "2026-11-08"
+  - name: "tastecode"
+    title: "tastecode"
+    description: "One desktop app for your coding agents, made for creative work. Early beta, Windows and macOS."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "creative-coding"
+      - "cursor"
+      - "design"
+      - "electron"
+      - "grok"
+    stars_fact: 516
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "earshot"
     title: "earshot"
     description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
@@ -106,58 +122,40 @@ repos:
       - "claude-code"
       - "mcp"
       - "sound-design"
-    stars_fact: 3805
+    stars_fact: 4467
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "golden-temple"
-    title: "golden-temple"
-    description: "A golden-hour Japanese temple built entirely in code with three.js. No models, no textures, no HDRIs. Rendered offline into a 70s 1080p60 film"
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "generative-art"
-      - "glsl"
-      - "procedural-generation"
-      - "rendering"
-      - "threejs"
-      - "webgl"
-    stars_fact: 135
+    last_push: "2026-11-06"
+  - name: "escapement"
+    title: "escapement"
+    description: "A 36s cinematic short film made by Claude Code (Opus 5.5) driving Blender 5.2 headless from Python"
+    language: "Python"
+    topics: []
+    stars_fact: 118
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "casa-ocaso"
-    title: "casa-ocaso"
-    description: "Real-time WebGPU recreation of a golden-hour cliffside living room in three.js, built with Claude Code"
-    language: "JavaScript"
-    topics:
-      - "archviz"
-      - "claude-code"
-      - "threejs"
-      - "tsl"
-      - "webgpu"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "imagegen-skills"
-    title: "imagegen-skills"
-    description: "Design image-generation skills for coding agents: website comps, mobile app screens, brand kits, and image-to-code."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "design"
-      - "image-generation"
-    stars_fact: 61
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "claude-of-duty"
-    title: "claude-of-duty"
-    description: "Browser-native tactical FPS on three.js r180. One map, one match, no assets: every texture, sound and cloud is generated at runtime. Hand-built WebGL2 render graph, custom physics, procedural Web Audio."
+    last_push: "2026-11-08"
+  - name: "athenaion"
+    title: "athenaion"
+    description: "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)"
     language: "JavaScript"
     topics: []
-    stars_fact: 48
+    stars_fact: 700
     first_seen: null
-    last_push: "2026-08-09"
+    last_push: "2026-10-17"
+  - name: "unlazy"
+    title: "unlazy"
+    description: "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "llm"
+      - "productivity"
+      - "prompt-engineering"
+      - "skill"
+    stars_fact: 4346
+    first_seen: null
+    last_push: "2026-09-03"
 ---
 
 # Leonxlnx

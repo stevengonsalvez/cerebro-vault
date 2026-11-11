@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,49 +82,49 @@ repos:
     description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
     language: "CSS"
     topics: []
-    stars_fact: 47239
+    stars_fact: 52829
     first_seen: "2026-09-04T06:00:17.162493+00:00"
-    last_push: "2026-11-03"
-  - name: "fontzz"
-    title: "fontzz"
-    description: "36 original fonts"
-    language: "Python"
-    topics: []
-    stars_fact: 66
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "bygga"
-    title: "bygga"
-    description: "IKEA assembly, step by step: animated, manual-style 3D guides. Scan any paper manual with Together AI."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 579
-    first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-10"
   - name: "logocreator"
     title: "logocreator"
     description: "A free + OSS logo generator powered by Flux on Together AI"
     language: "TypeScript"
     topics: []
-    stars_fact: 8915
+    stars_fact: 8932
     first_seen: null
     last_push: "2026-10-23"
-  - name: "roomGPT"
-    title: "roomGPT"
-    description: "Upload a photo of your room to generate your dream room with AI."
+  - name: "llamatutor"
+    title: "llamatutor"
+    description: "An AI personal tutor built with Llama 3.1"
     language: "TypeScript"
     topics: []
-    stars_fact: 10708
+    stars_fact: 2053
     first_seen: null
-    last_push: "2024-04-20"
-  - name: "aicommits"
-    title: "aicommits"
-    description: "A CLI that writes your git commit messages for you with AI"
+    last_push: "2026-10-23"
+  - name: "jev-fraud"
+    title: "jev-fraud"
+    description: "Use Jev with Kimi K3 for hard classification"
     language: "TypeScript"
     topics: []
-    stars_fact: 9125
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-09-20"
+  - name: "bygga"
+    title: "bygga"
+    description: "IKEA assembly, step by step: animated, manual-style 3D guides. Scan any paper manual with Together AI."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 676
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "turboseek"
+    title: "turboseek"
+    description: "An AI search engine inspired by Perplexity"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1662
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # Nutlope

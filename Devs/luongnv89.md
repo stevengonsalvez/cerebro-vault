@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [6, 28, 11, 14, 24, 68, 34, 20, 21, 15, 5, 2, 0]
+pushes_per_week: [4, 30, 6, 15, 32, 63, 30, 20, 26, 13, 2, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 14
-    active_days: 10
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 248
+    pushes: 243
     distinct_repos: 46
-    active_days: 53
+    active_days: 52
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6792
-  repo_per_active_day: 0.8679
+  push_per_day: 4.6731
+  repo_per_active_day: 0.8846
   not_owned_ratio: 0.1957
   basename_concentration: 0.0435
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 14
-    pushes_per_repo: 2.3571
-    active_days: 10
+    pushes_per_repo: 2.2857
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 248
+    pushes: 243
     distinct_repos: 46
-    pushes_per_repo: 5.3913
-    active_days: 53
+    pushes_per_repo: 5.2826
+    active_days: 52
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "news"
-    title: "news"
-    description: "The AI Gazette: sourced AI news in a vintage newspaper, published twice daily"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
   - name: "claude-howto"
     title: "claude-howto"
     description: "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
@@ -93,54 +85,53 @@ repos:
       - "claude-code"
       - "guide"
       - "tutorial"
-    stars_fact: 46474
+    stars_fact: 46924
     first_seen: "2026-06-28T06:00:06.755641+00:00"
     last_push: "2026-11-03"
-  - name: "asm"
-    title: "asm"
-    description: "The universal skill manager for AI coding agents."
-    language: "TypeScript"
-    topics:
-      - "agents"
-      - "ai"
-      - "aiagents"
-      - "coding"
-      - "skills"
-    stars_fact: 965
+  - name: "buildwiz-ai-show-media"
+    title: "buildwiz-ai-show-media"
+    description: "Episode audio for Build Wiz AI Show on luongnv.com/podcast (release assets)"
+    language: null
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-11"
+  - name: "once-upon-a-time-vi-media"
+    title: "once-upon-a-time-vi-media"
+    description: "Episode audio for Once Upon a Time Show (Vietnamese) on luongnv.com/podcast (release assets)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "once-upon-a-time-fr-media"
+    title: "once-upon-a-time-fr-media"
+    description: "Episode audio for Once Upon a Time Show (French) on luongnv.com/podcast (release assets)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "once-upon-a-time-en-media"
+    title: "once-upon-a-time-en-media"
+    description: "Episode audio for Once Upon a Time Show (English) on luongnv.com/podcast (release assets)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "job-alerts"
     title: "job-alerts"
     description: "Daily evidence-backed AI engineering job alerts"
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "freetokens"
-    title: "freetokens"
-    description: "Free AI Credits — aggregated, hand-verified free AI token/credit offers"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "music-cli"
-    title: "music-cli"
-    description: "A command-line music player for coders. Background daemon with radio streaming, local MP3s, and AI-generated music."
-    language: "Python"
-    topics:
-      - "coder"
-      - "music-player"
-      - "programming"
-      - "terminal"
-    stars_fact: 87
-    first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-11"
 ---
 
 # luongnv89
 
-248 pushes across 46 repositories on 53 active days in the last 90 days of public GitHub push activity.
+243 pushes across 46 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

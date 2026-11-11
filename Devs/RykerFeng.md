@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 4, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 6, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,46 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rykerFengMe"
+    title: "rykerFengMe"
+    description: "my personal nextjs project"
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-05-07"
+  - name: "ts-axios"
+    title: "ts-axios"
+    description: "使用 TS 实现 axios"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-03-19"
+  - name: "greedySnake"
+    title: "greedySnake"
+    description: "a Typescript game"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-09-01"
+  - name: "npm-ryker-tools"
+    title: "npm-ryker-tools"
+    description: "a useless tools, but i use it publish my npm package throughtly. It's meaningful."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2022-08-15"
+  - name: "vite-vue-backtable"
+    title: "vite-vue-backtable"
+    description: "基于Vite-Vue3的前端练手项目"
+    language: "CSS"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-07-22"
   - name: "the-way-here-codex"
     title: "the-way-here-codex"
     description: "Session-scoped local evidence library for Codex: import ZIPs, notes, and public websites without global configuration."
@@ -89,46 +129,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-09-16"
-  - name: "i-think-in-pictures"
-    title: "i-think-in-pictures"
-    description: "I think in pictures. A skill for clear visual explanations of connections, processes, and changes."
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "18062706139fcz.github.io"
-    title: "18062706139fcz.github.io"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "editorial-blog"
-    title: "editorial-blog"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-30"
-  - name: "18062706139fcz"
-    title: "18062706139fcz"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-26"
-  - name: "npm-ryker-tools"
-    title: "npm-ryker-tools"
-    description: "a useless tools, but i use it publish my npm package throughtly. It's meaningful."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2022-08-15"
 ---
 
 # RykerFeng

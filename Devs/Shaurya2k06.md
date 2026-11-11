@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 1, 0, 4, 2, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 6, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "verbatim"
+    title: "verbatim"
+    description: null
+    language: "Solidity"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "mern-miniproject"
     title: "mern-miniproject"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-10-05"
-  - name: "LEASH"
-    title: "LEASH"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # Shaurya2k06

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "422d724d1779eadb"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "message_pack"
-    title: "message_pack"
-    description: "MessagePack for Ada, over Ada.Streams"
-    language: "Ada"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-22"
   - name: "adi2"
     title: "adi2"
     description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
@@ -99,9 +91,26 @@ repos:
       - "toolkit"
       - "ui"
       - "widgets"
-    stars_fact: 58
+    stars_fact: 59
     first_seen: "2026-08-25T06:00:02.050180+00:00"
     last_push: "2026-10-26"
+  - name: "thunderchez"
+    title: "thunderchez"
+    description: "libraries for chez scheme productivity"
+    language: "Common Lisp"
+    topics:
+      - "scheme"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2024-09-27"
+  - name: "message_pack"
+    title: "message_pack"
+    description: "MessagePack for Ada, over Ada.Streams"
+    language: "Ada"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-22"
   - name: "aht"
     title: "aht"
     description: "Ada HTTP/1.1 and WebSocket client with TLS via OpenSSL or mbedTLS"
@@ -110,15 +119,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-09-07"
-  - name: "thunderchez"
-    title: "thunderchez"
-    description: "libraries for chez scheme productivity"
-    language: "Common Lisp"
-    topics:
-      - "scheme"
-    stars_fact: 168
-    first_seen: null
-    last_push: "2024-09-27"
   - name: "miogui"
     title: "miogui"
     description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"

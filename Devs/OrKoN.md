@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [2, 4, 1, 3, 0, 1, 4, 3, 0, 5, 3, 0, 0]
+pushes_per_week: [1, 5, 0, 3, 0, 4, 2, 2, 1, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 7
-    active_days: 16
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 1.6250
-  repo_per_active_day: 0.4375
+  push_per_day: 1.6667
+  repo_per_active_day: 0.4667
   not_owned_ratio: 1.0000
   basename_concentration: 0.5714
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 26
+    pushes: 25
     distinct_repos: 7
-    pushes_per_repo: 3.7143
-    active_days: 16
+    pushes_per_repo: 3.5714
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "base-x-rs"
@@ -109,6 +109,6 @@ repos:
 
 # OrKoN
 
-26 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+25 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/OrKoN

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 3, 1, 0, 0, 1, 7, 14, 3, 2, 3, 0, 0]
+pushes_per_week: [0, 3, 1, 0, 0, 2, 7, 13, 5, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 2.6667
-    active_days: 4
+    pushes_per_repo: 2.3333
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,29 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "arrmate"
+    title: "arrmate"
+    description: "A companion app for Radarr and Sonarr instances."
+    language: "Dart"
+    topics:
+      - "app"
+      - "arr"
+      - "companion"
+      - "flutter"
+      - "radarr"
+      - "rudarr"
+      - "sonarr"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "ps5-custom-payloads"
     title: "ps5-custom-payloads"
     description: null
-    language: "JavaScript"
+    language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "opencode-mem"
     title: "opencode-mem"
     description: "Memory persistence between sessions in project scope for opencode"
@@ -104,21 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "arrmate"
-    title: "arrmate"
-    description: "A companion app for Radarr and Sonarr instances."
-    language: "Dart"
-    topics:
-      - "app"
-      - "arr"
-      - "companion"
-      - "flutter"
-      - "radarr"
-      - "rudarr"
-      - "sonarr"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "llm-telegram-bot"
     title: "llm-telegram-bot"
     description: "Telegram bot to chat with LLMs"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4c4e9e4faa27af44"
-pushes_per_week: [27, 13, 1, 0, 4, 9, 58, 33, 59, 5, 10, 0, 0]
+pushes_per_week: [18, 13, 1, 0, 9, 8, 54, 33, 61, 5, 8, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 51
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 219
+    pushes: 210
     distinct_repos: 3
-    active_days: 37
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.9189
-  repo_per_active_day: 0.0811
+  push_per_day: 5.8333
+  repo_per_active_day: 0.0833
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 65
+    pushes: 51
     distinct_repos: 2
-    pushes_per_repo: 32.5000
-    active_days: 8
+    pushes_per_repo: 25.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 219
+    pushes: 210
     distinct_repos: 3
-    pushes_per_repo: 73.0000
-    active_days: 37
+    pushes_per_repo: 70.0000
+    active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -157,6 +157,6 @@ repos:
 
 # hervenivon
 
-219 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
+210 pushes across 3 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hervenivon

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [7, 8, 0, 0, 0, 6, 5, 0, 7, 2, 0, 0, 0]
+pushes_per_week: [7, 7, 0, 0, 0, 10, 1, 0, 8, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 6
     active_days: 21
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
+  push_per_day: 1.6190
   repo_per_active_day: 0.2857
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 34
     distinct_repos: 6
-    pushes_per_repo: 5.8333
+    pushes_per_repo: 5.6667
     active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -97,6 +97,6 @@ repos:
 
 # suantea
 
-35 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
+34 pushes across 6 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/suantea

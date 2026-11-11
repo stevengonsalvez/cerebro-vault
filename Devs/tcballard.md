@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [5, 4, 12, 3, 18, 31, 28, 18, 15, 4, 3, 0, 0]
+pushes_per_week: [2, 6, 10, 3, 18, 35, 26, 16, 16, 4, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,25 +24,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    active_days: 8
+    pushes: 15
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 141
-    distinct_repos: 44
-    active_days: 48
+    pushes: 138
+    distinct_repos: 43
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.9375
-  repo_per_active_day: 0.9167
-  not_owned_ratio: 0.0909
-  basename_concentration: 0.0227
+  push_per_day: 3.0000
+  repo_per_active_day: 0.9348
+  not_owned_ratio: 0.0930
+  basename_concentration: 0.0233
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 8
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 141
-    distinct_repos: 44
-    pushes_per_repo: 3.2045
-    active_days: 48
+    pushes: 138
+    distinct_repos: 43
+    pushes_per_repo: 3.2093
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-grokbot-desktop"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-141 pushes across 44 repositories on 48 active days in the last 90 days of public GitHub push activity.
+138 pushes across 43 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

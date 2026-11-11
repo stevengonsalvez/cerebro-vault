@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 2, 0, 0, 0, 2, 14, 7, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 0, 0, 0, 6, 10, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 7.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "family-matrix-server"
     title: "family-matrix-server"
     description: "Private family Matrix homeserver: E2EE chat, Element Call group video, WhatsApp bridge — closed-federation, one-command setup, docker compose"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-11"
   - name: "aws-containers"
     title: "aws-containers"
     description: null
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "astro-6.4.4-popover-persist-bug"
     title: "astro-6.4.4-popover-persist-bug"
     description: null

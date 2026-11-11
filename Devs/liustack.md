@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "6df1aababb3856e0"
-pushes_per_week: [22, 3, 1, 0, 0, 0, 20, 6, 4, 3, 2, 0, 1]
+pushes_per_week: [20, 3, 1, 0, 0, 0, 20, 6, 5, 3, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 10
-    active_days: 26
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3846
-  repo_per_active_day: 0.3846
+  push_per_day: 2.4000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 60
     distinct_repos: 10
-    pushes_per_repo: 6.2000
-    active_days: 26
+    pushes_per_repo: 6.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "modlens"
@@ -102,30 +102,9 @@ repos:
       - "text-only-llm"
       - "vision"
       - "vision-transformer"
-    stars_fact: 4748
+    stars_fact: 4898
     first_seen: "2026-08-25T06:00:04.386196+00:00"
-    last_push: "2026-10-23"
-  - name: "tifa"
-    title: "tifa"
-    description: "Go + QuickJS React SSR framework"
-    language: "Go"
-    topics:
-      - "framework"
-      - "fullstack"
-      - "go"
-      - "golang"
-      - "jsengine"
-      - "quickjs"
-      - "quickjs-runtime"
-      - "react"
-      - "reactjs"
-      - "ssr"
-      - "tanstack"
-      - "tanstack-router"
-      - "typesafe"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-07"
   - name: "modsearch"
     title: "modsearch"
     description: "🥇 The strongest free web search plugin for DeepSeek Harness, and the search bridge for every model without native web access. Free, no signup, no API key. Ask the web or X, get structured JSON evidence. | 🥇 全网最强的 DeepSeek Harness 免费联网搜索插件，免费免注册免 API key。为不能联网的模型补上搜索，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。"
@@ -150,13 +129,13 @@ repos:
       - "pi-agent"
       - "web-fetch"
       - "web-search"
-    stars_fact: 919
+    stars_fact: 970
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-07"
   - name: "sqlite"
     title: "sqlite"
-    description: "Keep SQLite, drop cgo: build with CGO_ENABLED=0 for every target from one machine."
-    language: "C"
+    description: "The fastest cgo-free SQLite driver for Go's database/sql. It builds with CGO_ENABLED=0, and on most workloads it beats the cgo driver too."
+    language: "Assembly"
     topics:
       - "cgo-free"
       - "database"
@@ -166,12 +145,12 @@ repos:
       - "sql-driver"
       - "sqlite"
       - "sqlite3"
-    stars_fact: 2
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "slowjs"
-    title: "slowjs"
-    description: "Run today's npm code unchanged inside one static Go binary. No cgo, no Node."
+    last_push: "2026-11-08"
+  - name: "quickjs"
+    title: "quickjs"
+    description: "The fastest pure Go JavaScript engine for rendering React."
     language: "Assembly"
     topics:
       - "golang"
@@ -182,9 +161,36 @@ repos:
       - "quickjs"
       - "react"
       - "ssr"
-    stars_fact: 17
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
+  - name: "tifa"
+    title: "tifa"
+    description: "The full-stack Go framework for Gophers."
+    language: "Go"
+    topics:
+      - "fullstack"
+      - "go"
+      - "go-framework"
+      - "golang"
+      - "javascript-engine"
+      - "markdown"
+      - "nextjs-alternative"
+      - "quickjs"
+      - "react"
+      - "self-hosted"
+      - "server-side-rendering"
+      - "single-binary"
+      - "ssr"
+      - "tanstack-router"
+      - "typesafe"
+      - "typescript"
+      - "vite"
+      - "vps"
+      - "web-framework"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "summono"
     title: "summono"
     description: "One click and DeepSeek Harness is running — the free launcher & installer for AI harnesses. 一键安装启动 DeepSeek Harness。"
@@ -203,13 +209,13 @@ repos:
       - "one-click"
       - "react"
       - "typescript"
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-08-23"
 ---
 
 # liustack
 
-62 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
+60 pushes across 10 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/liustack

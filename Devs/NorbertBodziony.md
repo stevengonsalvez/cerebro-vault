@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "59f086ad2f833f7e"
-pushes_per_week: [7, 2, 4, 12, 5, 20, 91, 26, 22, 13, 15, 0, 0]
+pushes_per_week: [5, 3, 2, 12, 5, 38, 78, 21, 30, 13, 7, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 37
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 217
+    pushes: 214
     distinct_repos: 5
-    active_days: 39
+    active_days: 38
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.5641
-  repo_per_active_day: 0.1282
+  push_per_day: 5.6316
+  repo_per_active_day: 0.1316
   not_owned_ratio: 0.6000
   basename_concentration: 0.6000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 42
+    pushes: 37
     distinct_repos: 2
-    pushes_per_repo: 21.0000
-    active_days: 8
+    pushes_per_repo: 18.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 217
+    pushes: 214
     distinct_repos: 5
-    pushes_per_repo: 43.4000
-    active_days: 39
+    pushes_per_repo: 42.8000
+    active_days: 38
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "biome-anti-slop"
@@ -87,9 +87,9 @@ repos:
       - "gritql"
       - "linting"
       - "typescript"
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "guard-jev"
     title: "guard-jev"
     description: null
@@ -134,6 +134,6 @@ repos:
 
 # NorbertBodziony
 
-217 pushes across 5 repositories on 39 active days in the last 90 days of public GitHub push activity.
+214 pushes across 5 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NorbertBodziony

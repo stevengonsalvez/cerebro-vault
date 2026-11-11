@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 1, 18, 7, 15, 14, 1, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 7, 15, 4, 15, 14, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nocturn"
+    title: "nocturn"
+    description: "Sleepless Multi-Agent Control Plane & Loop Engineering Runtime (Dual-Layer Coordinator/Worker, Thread Green-Channel & Structured Verdict Loop)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
 ---
 
 # poijygfdyy

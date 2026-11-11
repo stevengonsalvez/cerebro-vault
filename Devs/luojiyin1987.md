@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [56, 10, 3, 6, 5, 7, 8, 7, 7, 2, 7, 0, 0]
+pushes_per_week: [26, 9, 3, 7, 5, 6, 8, 7, 8, 3, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,25 +26,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
-    active_days: 8
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 118
-    distinct_repos: 37
-    active_days: 41
+    pushes: 87
+    distinct_repos: 34
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.8780
-  repo_per_active_day: 0.9024
-  not_owned_ratio: 0.1622
-  basename_concentration: 0.0541
+  push_per_day: 2.1750
+  repo_per_active_day: 0.8500
+  not_owned_ratio: 0.1765
+  basename_concentration: 0.0588
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -61,24 +61,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 11
     distinct_repos: 9
-    pushes_per_repo: 1.3333
-    active_days: 8
+    pushes_per_repo: 1.2222
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 118
-    distinct_repos: 37
-    pushes_per_repo: 3.1892
-    active_days: 41
+    pushes: 87
+    distinct_repos: 34
+    pushes_per_repo: 2.5588
+    active_days: 40
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +134,6 @@ repos:
 
 # luojiyin1987
 
-118 pushes across 37 repositories on 41 active days in the last 90 days of public GitHub push activity.
+87 pushes across 34 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

@@ -6,14 +6,16 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "affaan-m/ECC"
+  - "BuilderIO/agent-native"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1df6ea1f1256059e"
+  - "745308b2b7085095"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 23, 4, 9, 9, 0, 0, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 25, 4, 7, 9, 0, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -74,7 +76,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

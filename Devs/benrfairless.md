@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [28, 6, 2, 4, 1, 3, 0, 0, 6, 3, 1, 0, 0]
+pushes_per_week: [23, 8, 0, 4, 4, 0, 0, 0, 6, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 22
     active_days: 17
     repos_not_owned: 21
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1765
+  push_per_day: 2.8824
   repo_per_active_day: 1.2941
   not_owned_ratio: 0.9545
   basename_concentration: 0.0909
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.7500
     active_days: 3
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 22
-    pushes_per_repo: 2.4545
+    pushes_per_repo: 2.2273
     active_days: 17
     repos_not_owned: 21
     not_owned_basenames: 20
@@ -129,6 +129,6 @@ repos:
 
 # benrfairless
 
-54 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
+49 pushes across 22 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benrfairless

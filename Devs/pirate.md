@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [76, 0, 9, 3, 2, 160, 142, 65, 97, 17, 21, 0, 0]
+pushes_per_week: [56, 2, 7, 3, 5, 183, 117, 64, 98, 16, 21, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
-    distinct_repos: 10
-    active_days: 8
+    pushes: 103
+    distinct_repos: 9
+    active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 592
-    distinct_repos: 27
-    active_days: 43
+    pushes: 572
+    distinct_repos: 25
+    active_days: 42
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.7674
-  repo_per_active_day: 0.6279
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.0370
+  push_per_day: 13.6190
+  repo_per_active_day: 0.5952
+  not_owned_ratio: 0.7200
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 124
-    distinct_repos: 10
-    pushes_per_repo: 12.4000
-    active_days: 8
+    pushes: 103
+    distinct_repos: 9
+    pushes_per_repo: 11.4444
+    active_days: 7
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
   "90d":
-    pushes: 592
-    distinct_repos: 27
-    pushes_per_repo: 21.9259
-    active_days: 43
+    pushes: 572
+    distinct_repos: 25
+    pushes_per_repo: 22.8800
+    active_days: 42
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "security-growler"
@@ -208,6 +208,6 @@ repos:
 
 # pirate
 
-592 pushes across 27 repositories on 43 active days in the last 90 days of public GitHub push activity.
+572 pushes across 25 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

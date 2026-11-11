@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [15, 6, 2, 0, 0, 3, 12, 4, 0, 2, 0, 0, 0]
+pushes_per_week: [7, 6, 2, 0, 0, 3, 12, 4, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 36
     distinct_repos: 3
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3158
-  repo_per_active_day: 0.1579
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 44
+    pushes: 36
     distinct_repos: 3
-    pushes_per_repo: 14.6667
-    active_days: 19
+    pushes_per_repo: 12.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "site"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "pranshugupta54"
     title: "pranshugupta54"
     description: "Config files for my GitHub profile."
@@ -144,6 +144,6 @@ repos:
 
 # pranshugupta54
 
-44 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
+36 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pranshugupta54

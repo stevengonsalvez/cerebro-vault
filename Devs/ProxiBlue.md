@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1, 0, 0]
+pushes_per_week: [3, 2, 0, 1, 1, 2, 2, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Claude skills (experimentation)"
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "claude-skills-central"
     title: "claude-skills-central"
     description: null
@@ -84,7 +92,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "HostingEnvironment"
+    title: "HostingEnvironment"
+    description: "Base Jelastic Magento 2 Hosting Environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "pb-hcf"
     title: "pb-hcf"
     description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
@@ -101,14 +117,6 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2025-06-19"
-  - name: "HostingEnvironment"
-    title: "HostingEnvironment"
-    description: "Base Jelastic Magento 2 Hosting Environment"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "module-base-modules-meta"
     title: "module-base-modules-meta"
     description: "Meta package for my site base modules"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-22"
-  - name: "claude-skills"
-    title: "claude-skills"
-    description: "Claude skills (experimentation)"
-    language: null
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-13"
 ---
 
 # ProxiBlue

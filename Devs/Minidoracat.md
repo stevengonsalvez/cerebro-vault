@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 0, 4, 1, 2, 20, 32, 23, 17, 18, 0, 0]
+pushes_per_week: [2, 0, 0, 4, 3, 0, 20, 32, 27, 15, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 40
     distinct_repos: 17
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 29
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.9667
+  push_per_day: 4.1034
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0345
   shapes: []
@@ -57,42 +57,42 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
+    pushes: 40
     distinct_repos: 17
-    pushes_per_repo: 2.8235
-    active_days: 11
+    pushes_per_repo: 2.3529
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 29
-    pushes_per_repo: 4.1379
-    active_days: 30
+    pushes_per_repo: 4.1034
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MinidoracatMiniMapModMapsFor42"
-    title: "MinidoracatMiniMapModMapsFor42"
-    description: "Minidoracat 小地圖的地圖包 addon——多張地圖 MOD 的小地圖圖資（pyramid）與範圍框線資料"
+  - name: "MinidoracatLangFor42"
+    title: "MinidoracatLangFor42"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "MinidoracatFixesFor42"
+    title: "MinidoracatFixesFor42"
+    description: null
     language: "Lua"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "MinidoracatModLangFor42"
-    title: "MinidoracatModLangFor42"
-    description: "[B42] Project Zomboid 模組翻譯包：1500+ 個 Workshop 模組（2140+ 個模組 ID）的繁體/簡體中文翻譯（如一漢化組授權繁中版）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "MinidoracatBuilderFor42"
     title: "MinidoracatBuilderFor42"
     description: "Project Zomboid B42 — Build Anything: build with any loaded tile, including other mods' tile packs, plus light switches wired to the lights you pick; materials and placement checked by the server (SP/MP)"
@@ -105,35 +105,35 @@ repos:
       - "tiles"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "MinidoracatTeslaFor42"
-    title: "MinidoracatTeslaFor42"
-    description: "Project Zomboid B42 — Tesla Collection: fan-made, non-commercial Tesla EVs with charging, Sentry/Camp modes and a Tesla-style dashboard"
+    last_push: "2026-11-11"
+  - name: "MinidoracatMiniMapFor42"
+    title: "MinidoracatMiniMapFor42"
+    description: "Project Zomboid B42 遊戲內世界地圖圖片化 MOD（ImagePyramid）——基底全圖＋地圖包 addon 架構、MOD 地圖框線、多語支援"
     language: "Lua"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "MinidoracatLangFor42"
-    title: "MinidoracatLangFor42"
+    last_push: "2026-11-11"
+  - name: "MinidoracatMiniMapZonesFor42"
+    title: "MinidoracatMiniMapZonesFor42"
     description: null
     language: "Lua"
     topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "MinidoracatUIFor42"
-    title: "MinidoracatUIFor42"
-    description: "Project Zomboid B42 家族共用 UI 函式庫：版本化 API、深淺雙色系主題、圓角皮膚（NinePatch＋直角退回）"
-    language: "Lua"
-    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-11"
+  - name: "ai-code-usage-vscode"
+    title: "ai-code-usage-vscode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-07"
 ---
 
 # Minidoracat
 
-120 pushes across 29 repositories on 30 active days in the last 90 days of public GitHub push activity.
+119 pushes across 29 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Minidoracat

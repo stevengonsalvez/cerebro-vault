@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [31, 7, 25, 8, 4, 21, 8, 22, 9, 13, 10, 0, 7]
+pushes_per_week: [18, 18, 14, 8, 4, 22, 8, 21, 13, 11, 8, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 8
-    active_days: 11
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 165
+    pushes: 152
     distinct_repos: 13
-    active_days: 46
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5870
-  repo_per_active_day: 0.2826
+  push_per_day: 3.3778
+  repo_per_active_day: 0.2889
   not_owned_ratio: 0.2308
   basename_concentration: 0.1538
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 38
+    pushes: 37
     distinct_repos: 8
-    pushes_per_repo: 4.7500
-    active_days: 11
+    pushes_per_repo: 4.6250
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 165
+    pushes: 152
     distinct_repos: 13
-    pushes_per_repo: 12.6923
-    active_days: 46
+    pushes_per_repo: 11.6923
+    active_days: 45
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openeval"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-165 pushes across 13 repositories on 46 active days in the last 90 days of public GitHub push activity.
+152 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 23, 4, 1, 0, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 22, 4, 1, 0, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "lagent"
     title: "lagent"
     description: "Local-first ReAct tool-use agent with a measured scaffold ablation: identical behaviour-cloned weights, four harnesses, ground-truth verifier. CPU-only tiny transformer."

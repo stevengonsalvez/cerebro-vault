@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [79, 12, 6, 2, 7, 45, 30, 42, 19, 33, 43, 0, 2]
+pushes_per_week: [74, 12, 6, 3, 6, 46, 32, 39, 20, 47, 28, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 88
-    distinct_repos: 28
-    active_days: 13
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 84
+    distinct_repos: 26
+    active_days: 12
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 320
+    pushes: 315
     distinct_repos: 75
-    active_days: 55
+    active_days: 54
     repos_not_owned: 21
     not_owned_basenames: 21
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.8182
-  repo_per_active_day: 1.3636
+  push_per_day: 5.8333
+  repo_per_active_day: 1.3889
   not_owned_ratio: 0.2800
   basename_concentration: 0.0267
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 88
-    distinct_repos: 28
-    pushes_per_repo: 3.1429
-    active_days: 13
-    repos_not_owned: 11
-    not_owned_basenames: 11
+    pushes: 84
+    distinct_repos: 26
+    pushes_per_repo: 3.2308
+    active_days: 12
+    repos_not_owned: 10
+    not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 320
+    pushes: 315
     distinct_repos: 75
-    pushes_per_repo: 4.2667
-    active_days: 55
+    pushes_per_repo: 4.2000
+    active_days: 54
     repos_not_owned: 21
     not_owned_basenames: 21
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kabe"
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-320 pushes across 75 repositories on 55 active days in the last 90 days of public GitHub push activity.
+315 pushes across 75 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

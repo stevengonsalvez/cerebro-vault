@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [49, 8, 16, 0, 1, 11, 1, 31, 13, 41, 83, 0, 1]
+pushes_per_week: [32, 9, 15, 0, 3, 10, 1, 30, 18, 64, 55, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 255
-    distinct_repos: 19
-    active_days: 40
+    pushes: 238
+    distinct_repos: 18
+    active_days: 39
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.3750
-  repo_per_active_day: 0.4750
-  not_owned_ratio: 0.6316
-  basename_concentration: 0.1579
+  push_per_day: 6.1026
+  repo_per_active_day: 0.4615
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 3
   "90d":
-    pushes: 255
-    distinct_repos: 19
-    pushes_per_repo: 13.4211
-    active_days: 40
+    pushes: 238
+    distinct_repos: 18
+    pushes_per_repo: 13.2222
+    active_days: 39
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-bloom"
@@ -142,6 +142,6 @@ repos:
 
 # kitlangton
 
-255 pushes across 19 repositories on 40 active days in the last 90 days of public GitHub push activity.
+238 pushes across 18 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

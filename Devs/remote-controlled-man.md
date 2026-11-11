@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 2, 0, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 2, 1, 2, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "remote-controlled-man.github.io"
+    title: "remote-controlled-man.github.io"
+    description: "Steven Huang — projects, agent harnesses, evaluation, and notes"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "remote-controlled-man"
     title: "remote-controlled-man"
     description: "Steven Huang | Agent systems, evaluation, and LLM post-training | HKU"
@@ -89,7 +97,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-09"
   - name: "skillfit"
     title: "skillfit"
     description: "A/B testing for agent configuration: paired evaluation of Skills, rules and MCP setups, with deterministic verifiers and replayable evidence."
@@ -105,17 +113,9 @@ repos:
       - "evals"
       - "kimi-code"
       - "mcp"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "llm-paper-wiki"
-    title: "llm-paper-wiki"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-11-09"
   - name: "device-agent-arena"
     title: "device-agent-arena"
     description: "Auditable benchmark, post-training pipeline, and compound-agent harness for stateful Chinese tool-use agents."
@@ -128,9 +128,17 @@ repos:
       - "python"
       - "qlora"
       - "tool-use"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-10"
+  - name: "llm-paper-wiki"
+    title: "llm-paper-wiki"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
   - name: "agent-context-memory-guide"
     title: "agent-context-memory-guide"
     description: "learning guidance of popular agent memory system and context management"
@@ -142,14 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-18"
-  - name: "CathyHackathon"
-    title: "CathyHackathon"
-    description: "HYVIS‘s Hackathon competition program"
-    language: "Vue"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-11-16"
 ---
 
 # remote-controlled-man

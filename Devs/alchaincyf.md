@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
 pushes_per_week: [0, 1, 0, 0, 0, 1, 1, 4, 8, 1, 1, 0, 0]
@@ -85,7 +85,9 @@ repos:
     topics:
       - "agent-skills"
       - "ai-design"
+      - "animation"
       - "claude-code"
+      - "claude-code-skills"
       - "claude-skills"
       - "codex"
       - "cursor"
@@ -93,56 +95,80 @@ repos:
       - "design"
       - "dsh-plugin"
       - "html"
+      - "huashu-skills"
+      - "infographic"
       - "pptx"
+      - "presentation"
       - "prototype"
-    stars_fact: 28626
+      - "skills"
+      - "slides"
+      - "ui-design"
+    stars_fact: 29171
     first_seen: "2026-10-27T07:00:53.776131+00:00"
-    last_push: "2026-11-04"
+    last_push: "2026-11-10"
   - name: "nuwa-skill"
     title: "nuwa-skill"
     description: "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks."
     language: "Python"
     topics:
-      - "deepseek-harness"
-      - "dsh-plugin"
-    stars_fact: 37427
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "darwin-skill"
-    title: "darwin-skill"
-    description: "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert."
-    language: "HTML"
-    topics: []
-    stars_fact: 6791
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "huashu-art-motion"
-    title: "huashu-art-motion"
-    description: "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6172
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "huashu-skills"
-    title: "huashu-skills"
-    description: "花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制"
-    language: "Python"
-    topics:
       - "agent-skills"
       - "ai-agents"
-      - "claude"
       - "claude-code"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "codex"
+      - "cursor"
+      - "decision-making"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "gemini-cli"
+      - "hermes-agent"
+      - "huashu-skills"
+      - "mental-models"
+      - "nuwa-skill"
+      - "openclaw"
+      - "opencode"
+      - "persona"
+      - "prompt-engineering"
       - "skills"
-    stars_fact: 2196
+    stars_fact: 38023
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
+  - name: "zhangxuefeng-skill"
+    title: "zhangxuefeng-skill"
+    description: "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。"
+    language: null
+    topics:
+      - "agent-skills"
+      - "career-planning"
+      - "claude-code"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "codex"
+      - "cursor"
+      - "decision-making"
+      - "education"
+      - "gaokao"
+      - "gemini-cli"
+      - "hermes-agent"
+      - "huashu-skills"
+      - "mental-models"
+      - "nuwa-skill"
+      - "openclaw"
+      - "opencode"
+      - "persona"
+      - "prompt-engineering"
+      - "skills"
+    stars_fact: 10742
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "huashu-bird-sticker"
     title: "huashu-bird-sticker"
-    description: "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data"
+    description: "花叔开源的全球鸟类贴纸库 · AI-generated stickers for all 11,011 bird species in AviList v2026, CC BY 4.0, with names in 43 languages and structured data"
     language: null
     topics:
       - "ai-generated"
+      - "avilist"
       - "biodiversity"
       - "birding"
       - "birds"
@@ -151,15 +177,56 @@ repos:
       - "codex"
       - "dataset"
       - "illustration"
-      - "ioc-world-bird-list"
       - "multilingual"
       - "open-data"
       - "ornithology"
       - "stickers"
       - "taxonomy"
-    stars_fact: 633
+    stars_fact: 720
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-08"
+  - name: "huashu-art-motion"
+    title: "huashu-art-motion"
+    description: "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "animation"
+      - "claude-code"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "codex"
+      - "explainer-video"
+      - "generative-art"
+      - "huashu-skills"
+      - "motion-graphics"
+      - "skills"
+      - "video"
+    stars_fact: 6709
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "darwin-skill"
+    title: "darwin-skill"
+    description: "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert."
+    language: "HTML"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "autoresearch"
+      - "claude-code"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "codex"
+      - "evaluation"
+      - "huashu-skills"
+      - "llm"
+      - "openclaw"
+      - "prompt-optimization"
+      - "self-improving"
+      - "skills"
+    stars_fact: 6882
+    first_seen: null
+    last_push: "2026-09-18"
 ---
 
 # alchaincyf

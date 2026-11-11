@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [60, 16, 4, 12, 22, 60, 21, 19, 14, 14, 25, 0, 4]
+pushes_per_week: [59, 17, 2, 12, 27, 57, 21, 17, 18, 21, 14, 1, 3]
 windows:
   "7d":
     pushes: 4
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 271
+    pushes: 269
     distinct_repos: 5
     active_days: 53
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.1132
+  push_per_day: 5.0755
   repo_per_active_day: 0.0943
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 271
+    pushes: 269
     distinct_repos: 5
-    pushes_per_repo: 54.2000
+    pushes_per_repo: 53.8000
     active_days: 53
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -137,6 +137,6 @@ repos:
 
 # dylan-conway
 
-271 pushes across 5 repositories on 53 active days in the last 90 days of public GitHub push activity.
+269 pushes across 5 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dylan-conway

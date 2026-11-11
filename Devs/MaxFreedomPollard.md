@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 1, 2, 4, 3, 4, 0, 1, 0, 1, 1, 0, 0]
+pushes_per_week: [3, 2, 1, 4, 3, 4, 1, 0, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "MaxFreedomPollard"
+    title: "MaxFreedomPollard"
+    description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "Compartment"
     title: "Compartment"
     description: "Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval."
@@ -102,9 +110,9 @@ repos:
       - "python"
       - "semantic-search"
       - "vector-database"
-    stars_fact: 580
+    stars_fact: 569
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-09"
   - name: "livemap-legal"
     title: "livemap-legal"
     description: "Offline GPS LiveMap: privacy policy, terms of use and demo video"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-29"
-  - name: "MaxFreedomPollard"
-    title: "MaxFreedomPollard"
-    description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
   - name: "artificial-knowledge-collection-6.0"
     title: "artificial-knowledge-collection-6.0"
     description: "Knowledge of special interest to AI: nine datasets of concepts, relationships, constants and measurements, each one clean file, aligned into a single 544,279-node map, plus a reasoning benchmark. Artificial knowledge for artificial intelligence."

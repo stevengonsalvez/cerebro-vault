@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "876fe6c1edb8596c"
-pushes_per_week: [3, 3, 1, 3, 3, 9, 10, 0, 4, 3, 0, 0, 0]
+pushes_per_week: [2, 3, 1, 3, 5, 11, 6, 0, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 5
-    active_days: 19
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.0526
-  repo_per_active_day: 0.2632
+  push_per_day: 2.1111
+  repo_per_active_day: 0.2778
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 39
+    pushes: 38
     distinct_repos: 5
-    pushes_per_repo: 7.8000
-    active_days: 19
+    pushes_per_repo: 7.6000
+    active_days: 18
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qin-ctx"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "openviking-browser-extension"
     title: "openviking-browser-extension"
     description: "Browser extension for saving the current page URL to OpenViking resources"
@@ -113,6 +113,6 @@ repos:
 
 # qin-ctx
 
-39 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
+38 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/qin-ctx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 0, 0, 1, 1, 24, 54, 31, 30, 12, 9, 0, 1]
+pushes_per_week: [2, 0, 0, 1, 5, 22, 52, 31, 38, 5, 8, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 36
     distinct_repos: 6
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 8
-    active_days: 39
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2821
-  repo_per_active_day: 0.2051
+  push_per_day: 4.3421
+  repo_per_active_day: 0.2105
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -57,26 +57,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 43
+    pushes: 36
     distinct_repos: 6
-    pushes_per_repo: 7.1667
-    active_days: 11
+    pushes_per_repo: 6.0000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 8
-    pushes_per_repo: 20.8750
-    active_days: 39
+    pushes_per_repo: 20.6250
+    active_days: 38
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "xollama"
+    title: "xollama"
+    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
+    language: "Go"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "BSManager"
+    title: "BSManager"
+    description: "VR Base Stations Manager for HMD"
+    language: "C#"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "foo_dsd_trellis"
+    title: "foo_dsd_trellis"
+    description: "foobar2000 DSD Trellis SDM DSP plugin — C/MSVC/Windows"
+    language: "C"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-04-08"
   - name: "automaticum"
     title: "automaticum"
     description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
@@ -84,15 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "xollama"
-    title: "xollama"
-    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
-    language: "Go"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-09"
   - name: "CPUDoc"
     title: "CPUDoc"
     description: null
@@ -108,27 +124,11 @@ repos:
     topics: []
     stars_fact: 27
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "BSManager"
-    title: "BSManager"
-    description: "VR Base Stations Manager for HMD"
-    language: "C#"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "omnimergekit"
-    title: "omnimergekit"
-    description: "Tools for model merging (omnimerge_v2), Gemma 4 MoE expert pruning, differential competence-map extraction, and GGUF quantization."
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-08"
 ---
 
 # mann1x
 
-167 pushes across 8 repositories on 39 active days in the last 90 days of public GitHub push activity.
+165 pushes across 8 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

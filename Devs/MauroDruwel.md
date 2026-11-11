@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [3, 0, 0, 0, 2, 4, 6, 4, 2, 5, 1, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 4, 6, 4, 3, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,25 +91,23 @@ repos:
       - "nim"
       - "nvidia"
       - "open-source"
-    stars_fact: 57
+    stars_fact: 58
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "ufora-sync"
-    title: "ufora-sync"
-    description: "Native background sync service and desktop companion for UGent Ufora (Tauri v2 + Rust)"
-    language: "Rust"
+    last_push: "2026-11-11"
+  - name: "Swimrankings"
+    title: "Swimrankings"
+    description: "🏊‍♂️ SwimRankings is a lightweight yet powerful Python library designed to streamline access to competitive swimming data from swimrankings.net. Whether you're a coach, athlete, analyst, or developer, this tool empowers you to retrieve race results, swimmer profiles, meet details, and performance times with just a few lines of code."
+    language: "Python"
     topics:
-      - "brightspace"
-      - "desktop-app"
-      - "rust"
-      - "sync"
-      - "tauri"
-      - "typescript"
-      - "ufora"
-      - "ugent"
-    stars_fact: 0
+      - "api"
+      - "automation"
+      - "python"
+      - "sports-data"
+      - "swimming"
+      - "web-scraper"
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-10-19"
   - name: "quality-gate"
     title: "quality-gate"
     description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
@@ -124,7 +122,7 @@ repos:
       - "reusable-workflows"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-09"
   - name: "Smartschool-MCP"
     title: "Smartschool-MCP"
     description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
@@ -138,24 +136,38 @@ repos:
       - "smartschool"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "convergence"
-    title: "convergence"
-    description: "The autonomous semantic code fabric for 100,000+ concurrent AI agents - branchless AST-CRDT version control on Cloudflare Workers, Durable Objects & Artifacts"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "homewizard-cloud-ha"
-    title: "homewizard-cloud-ha"
-    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
-    language: "Python"
+    last_push: "2026-11-09"
+  - name: "WakeOverESP"
+    title: "WakeOverESP"
+    description: "Wake up PC via USB, esp32 and WiFi"
+    language: "C++"
     topics:
-      - "home-assistant-integration"
-    stars_fact: 1
+      - "arduino"
+      - "cpp"
+      - "esp32"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-09"
+  - name: "TunnelDashDesktop"
+    title: "TunnelDashDesktop"
+    description: "Desktop sidekick for Cloudflare Tunnels — proxy SSH/TCP/HTTP routes to local ports, launch native SSH sessions via ~/.ssh/config key auth, and manage Zero Trust access from a clean macOS/Windows/Linux GUI."
+    language: "TypeScript"
+    topics:
+      - "api"
+      - "cloudflare"
+      - "cloudflare-tunnel"
+      - "desktop-app"
+      - "react"
+      - "rust"
+      - "ssh"
+      - "tauri"
+      - "tunnel"
+      - "typescript"
+      - "vite"
+      - "zero-trust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # MauroDruwel

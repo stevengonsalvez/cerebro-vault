@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [16, 2, 0, 0, 1, 6, 9, 15, 1, 2, 2, 0, 0]
+pushes_per_week: [11, 2, 0, 0, 2, 6, 8, 15, 2, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 9
-    active_days: 23
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3478
-  repo_per_active_day: 0.3913
+  push_per_day: 2.2273
+  repo_per_active_day: 0.4091
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 54
+    pushes: 49
     distinct_repos: 9
-    pushes_per_repo: 6.0000
-    active_days: 23
+    pushes_per_repo: 5.4444
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wu21-web"
@@ -130,6 +130,6 @@ repos:
 
 # wu21-web
 
-54 pushes across 9 repositories on 23 active days in the last 90 days of public GitHub push activity.
+49 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wu21-web

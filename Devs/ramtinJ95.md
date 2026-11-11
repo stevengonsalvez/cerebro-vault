@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 2, 1, 5, 0, 1, 0, 0, 4, 4, 24, 0, 2]
+pushes_per_week: [1, 2, 1, 5, 0, 1, 0, 0, 7, 2, 23, 1, 1]
 windows:
   "7d":
     pushes: 2
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 6
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 8
-    active_days: 20
+    pushes: 44
+    distinct_repos: 7
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.4000
+  push_per_day: 2.3158
+  repo_per_active_day: 0.3684
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1250
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,50 +57,47 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 6
-    pushes_per_repo: 5.5000
-    active_days: 10
+    pushes_per_repo: 5.3333
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
-    distinct_repos: 8
-    pushes_per_repo: 5.6250
-    active_days: 20
+    pushes: 44
+    distinct_repos: 7
+    pushes_per_repo: 6.2857
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dilara-bparty"
-    title: "dilara-bparty"
-    description: "Birthday party quiz web app on Cloudflare Workers and Durable Objects"
-    language: "TypeScript"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Manually managed dotfiles"
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "claude-mods"
-    title: "claude-mods"
-    description: "Claude Code mods, published as one plugin marketplace"
+    last_push: "2026-11-10"
+  - name: "opencode-tokenscope"
+    title: "opencode-tokenscope"
+    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "ai-tools"
+      - "cost-tracking"
+      - "developer-tools"
+      - "opencode"
+      - "opencode-plugins"
+    stars_fact: 282
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "pi-nexus"
-    title: "pi-nexus"
-    description: "Drive Nexus threads from pi through the nexus CLI"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "nexus"
     title: "nexus"
     description: null
@@ -108,27 +105,35 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "home-chat"
-    title: "home-chat"
-    description: "A local-first, mobile-friendly Pi chat UI with a restricted tool profile and isolated backend."
+    last_push: "2026-11-10"
+  - name: "inkline"
+    title: "inkline"
+    description: "zsh-style autosuggestions and syntax highlighting for bash, as a readline add-on"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Archivist"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "claude-mods"
+    title: "claude-mods"
+    description: "Claude Code mods, published as one plugin marketplace"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "nexus-demo"
-    title: "nexus-demo"
-    description: "Demo project built on Bobble Nexus with Claude implementation and Astra reviews."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-10"
 ---
 
 # ramtinJ95
 
-45 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
+44 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

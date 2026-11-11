@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [4, 1, 1, 1, 1, 7, 8, 4, 4, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 1, 2, 6, 9, 3, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 31
-    distinct_repos: 8
-    active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 29
+    distinct_repos: 7
+    active_days: 16
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8235
-  repo_per_active_day: 0.4706
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.1250
+  push_per_day: 1.8125
+  repo_per_active_day: 0.4375
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 31
-    distinct_repos: 8
-    pushes_per_repo: 3.8750
-    active_days: 17
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 4
+    pushes: 29
+    distinct_repos: 7
+    pushes_per_repo: 4.1429
+    active_days: 16
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pango-sequences"
@@ -140,6 +140,6 @@ repos:
 
 # corneliusroemer
 
-31 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+29 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

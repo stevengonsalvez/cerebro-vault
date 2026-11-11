@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 1, 0, 21, 30, 41, 16, 16, 2, 7, 2, 0]
+pushes_per_week: [0, 1, 0, 1, 27, 24, 43, 13, 16, 4, 5, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 9
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 9
-    pushes_per_repo: 1.4444
-    active_days: 9
+    pushes_per_repo: 1.3333
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 3
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "vtmux"
     title: "vtmux"
-    description: "tmux on a modern stack: all the baggage, fast and lean, fewer paper cuts, better rendering."
+    description: "Drop-in tmux replacement. Modern stack. Better rendering. Live upgrades."
     language: "Rust"
     topics:
       - "ghostty"
@@ -89,7 +89,7 @@ repos:
       - "tmux"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -97,15 +97,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "debrief"
     title: "debrief"
     description: "Catch up with what your coding agents committed, and answer back."
@@ -113,7 +105,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "ramble"
+    title: "ramble"
+    description: "Read your notes in the terminal, and follow them wherever they link."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "mdroots"
+    title: "mdroots"
+    description: "A zero-config markdown (and org) language server and Rust library."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "vecgrep"
     title: "vecgrep"
     description: "Semantic grep — like ripgrep, but with vector search"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-09-12"
-  - name: "hexclack"
-    title: "hexclack"
-    description: "I have given up on elgato software"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
 ---
 
 # martintrojer

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [8, 4, 0, 1, 2, 16, 6, 17, 0, 0, 0, 0, 1]
+pushes_per_week: [8, 4, 0, 1, 2, 18, 5, 16, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,34 +77,14 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agentitest"
-    title: "agentitest"
-    description: "Write browser tests in natural language, built on pytest and allure."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "allure-report"
-      - "browser-use"
-      - "gemini"
-      - "llm"
-      - "playwright"
-      - "pytest"
-      - "qa"
-      - "test-automation"
-      - "testing"
-      - "web-testing"
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "agentic-trading"
-    title: "agentic-trading"
-    description: "Sample application to demonstrate Google ADK and A2A interoperability. For informational purposes only."
+  - name: "scripts"
+    title: "scripts"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 254
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "kweinmeister"
     title: "kweinmeister"
     description: null
@@ -112,15 +92,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "ai-audio-engineer-app"
-    title: "ai-audio-engineer-app"
-    description: "AI Audio Engineer App"
-    language: "TypeScript"
+    last_push: "2026-11-10"
+  - name: "voting-agent"
+    title: "voting-agent"
+    description: "Agent and UI example showcasing best-of-n pattern, memory, and sessions"
+    language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
+  - name: "vllm-gke-terraform"
+    title: "vllm-gke-terraform"
+    description: "Terraform module to deploy vLLM on GKE for high-performance LLM inference. Supports speculative decoding."
+    language: "HCL"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "toon-mcp"
     title: "toon-mcp"
     description: "MCP server for converting JSON ↔ TOON to reduce LLM token usage."
@@ -128,15 +116,15 @@ repos:
     topics: []
     stars_fact: 14
     first_seen: null
-    last_push: "2026-10-24"
-  - name: "onnx-inference"
-    title: "onnx-inference"
-    description: "ONNX-based LLM inference server"
+    last_push: "2026-11-10"
+  - name: "text-to-sql-agent"
+    title: "text-to-sql-agent"
+    description: "Natural language to text agent built with Google's Python ADK"
     language: "Python"
     topics: []
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-10"
 ---
 
 # kweinmeister

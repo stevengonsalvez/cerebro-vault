@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [2, 0, 0, 0, 0, 2, 8, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,49 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lumen"
+    title: "lumen"
+    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "cloudflare-workers"
+      - "developer-tools"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "mcp-tools"
+      - "model-context-protocol"
+      - "nodejs"
+      - "open-source"
+      - "seo"
+      - "seo-audit"
+      - "site-audit"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "hybridlens"
+    title: "hybridlens"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "applair"
+    title: "applair"
+    description: "Source for applair.in — AppLair mobile app consulting + privacy policies for published Android apps"
+    language: "HTML"
+    topics:
+      - "cloudflare-pages"
+      - "mobile-consulting"
+      - "privacy-policy"
+      - "static-site"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "agent-memory"
     title: "agent-memory"
     description: "Team memory for coding agents: shell + transcript capture, MCP recall, self-hosted TLS sync. Apache-2.0."
@@ -101,30 +144,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
-  - name: "cpu-enough"
-    title: "cpu-enough"
-    description: "Free-tier CPU LLM-inference benchmark harness (paper: When is a CPU enough?)"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "swapgate"
-    title: "swapgate"
-    description: "Open-source model-swap eval gate: traces become evals, candidates must pass before you swap."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "colonyiq"
-    title: "colonyiq"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
 ---
 
 # nitishagar

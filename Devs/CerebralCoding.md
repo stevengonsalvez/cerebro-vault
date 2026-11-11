@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 7, 6, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 9, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -92,7 +92,7 @@ repos:
       - "swift"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-04"
   - name: "Silibar"
     title: "Silibar"
     description: "An Apple Silicon metrics and tab bar for Zellij, powered by macmon."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,13 +84,13 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "astrbot2github"
     title: "astrbot2github"
     description: "为AstrBot实现的基于deno的github加速访问服务"
     language: "TypeScript"
     topics: []
-    stars_fact: 344
+    stars_fact: 349
     first_seen: null
     last_push: "2025-06-06"
   - name: "astrbot_plugin_mnemosyne"
@@ -99,7 +99,7 @@ repos:
     language: "Python"
     topics:
       - "astrbot-plugin"
-    stars_fact: 262
+    stars_fact: 259
     first_seen: null
     last_push: "2026-10-26"
   - name: "astrbot_plugin_memoir"

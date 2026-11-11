@@ -9,23 +9,25 @@ provenance_repos:
   - "addyosmani/agent-skills"
   - "affaan-m/ECC"
   - "agavra/tuicr"
+  - "AgriciDaniel/claude-seo"
   - "alchaincyf/huashu-design"
   - "AlexsJones/llmfit"
   - "calesthio/OpenMontage"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
   - "2a7f0fddd2dac162"
   - "4a45ac7a449df20e"
+  - "4f795faf4eede06c"
   - "6d3bd03b49986330"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [17, 3, 7, 7, 19, 9, 50, 125, 7, 8, 21, 0, 0]
+pushes_per_week: [9, 2, 7, 11, 15, 20, 43, 121, 7, 15, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -42,18 +44,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 273
-    distinct_repos: 92
-    active_days: 43
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 264
+    distinct_repos: 88
+    active_days: 42
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.3488
-  repo_per_active_day: 2.1395
-  not_owned_ratio: 0.1304
-  basename_concentration: 0.0109
+  push_per_day: 6.2857
+  repo_per_active_day: 2.0952
+  not_owned_ratio: 0.0909
+  basename_concentration: 0.0114
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -78,16 +80,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 273
-    distinct_repos: 92
-    pushes_per_repo: 2.9674
-    active_days: 43
-    repos_not_owned: 12
-    not_owned_basenames: 12
+    pushes: 264
+    distinct_repos: 88
+    pushes_per_repo: 3.0000
+    active_days: 42
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
-  - "provenance: 8 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "provenance: 9 vault signal(s) — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "repostew"
@@ -115,6 +117,6 @@ repos:
 
 # dajiaohuang
 
-273 pushes across 92 repositories on 43 active days in the last 90 days of public GitHub push activity.
+264 pushes across 88 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "b6bb9341088f0954"
 pushes_per_week: [2, 0, 1, 0, 0, 3, 1, 0, 0, 0, 2, 0, 0]
@@ -99,9 +99,9 @@ repos:
       - "web-scraper"
       - "xiaohongshu"
       - "youtube-transcript"
-    stars_fact: 108535
+    stars_fact: 110971
     first_seen: "2026-08-03T06:00:03.956190+00:00"
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
   - name: "Panniantong"
     title: "Panniantong"
     description: null
@@ -109,7 +109,7 @@ repos:
     topics: []
     stars_fact: 23
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "agent-vault-backup"
     title: "agent-vault-backup"
     description: "🔐 Automated backup for OpenClaw agents. One sentence to set up, runs forever."

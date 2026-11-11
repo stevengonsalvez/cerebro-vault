@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [9, 1, 1, 0, 4, 3, 8, 12, 11, 7, 3, 2, 0]
+pushes_per_week: [7, 2, 0, 0, 4, 8, 3, 12, 13, 6, 2, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 8
-    active_days: 29
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.1034
-  repo_per_active_day: 0.2759
+  push_per_day: 2.1071
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 61
+    pushes: 59
     distinct_repos: 8
-    pushes_per_repo: 7.6250
-    active_days: 29
+    pushes_per_repo: 7.3750
+    active_days: 28
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gateway-api-bench"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-61 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+59 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

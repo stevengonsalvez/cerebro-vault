@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "335e94a0914635a1"
-pushes_per_week: [5, 1, 9, 0, 2, 15, 10, 9, 8, 14, 0, 0, 0]
+pushes_per_week: [4, 1, 9, 0, 2, 16, 10, 8, 14, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 6
-    active_days: 4
+    active_days: 3
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 10
     active_days: 26
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8077
+  push_per_day: 2.7692
   repo_per_active_day: 0.3846
   not_owned_ratio: 1.0000
   basename_concentration: 0.1000
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 18
     distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 10
-    pushes_per_repo: 7.3000
+    pushes_per_repo: 7.2000
     active_days: 26
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -137,6 +137,6 @@ repos:
 
 # NathanFlurry
 
-73 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
+72 pushes across 10 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NathanFlurry

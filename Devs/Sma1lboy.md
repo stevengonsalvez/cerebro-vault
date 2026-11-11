@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [33, 4, 5, 2, 3, 12, 31, 33, 10, 12, 13, 0, 1]
+pushes_per_week: [13, 4, 5, 2, 3, 13, 32, 31, 10, 17, 8, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 5
-    active_days: 11
+    pushes: 31
+    distinct_repos: 4
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 17
-    active_days: 44
+    pushes: 139
+    distinct_repos: 16
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.6136
-  repo_per_active_day: 0.3864
-  not_owned_ratio: 0.1765
-  basename_concentration: 0.0588
+  push_per_day: 3.2326
+  repo_per_active_day: 0.3721
+  not_owned_ratio: 0.1875
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,29 +57,29 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 5
-    pushes_per_repo: 6.8000
-    active_days: 11
+    pushes: 31
+    distinct_repos: 4
+    pushes_per_repo: 7.7500
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 159
-    distinct_repos: 17
-    pushes_per_repo: 9.3529
-    active_days: 44
+    pushes: 139
+    distinct_repos: 16
+    pushes_per_repo: 8.6875
+    active_days: 43
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rove"
     title: "rove"
-    description: "Rove — the agent multiplexer for your terminal. Run coding agents on parallel tasks with isolated worktrees and persistent sessions."
+    description: "All your coding agents, in one place. Claude Code, Codex, Copilot and more, side by side in your terminal."
     language: "TypeScript"
     topics:
       - "agentic-ai"
@@ -102,9 +102,9 @@ repos:
       - "terminal"
       - "tui"
       - "typescript"
-    stars_fact: 183
+    stars_fact: 184
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: ".dotfiles"
     title: ".dotfiles"
     description: null
@@ -112,13 +112,13 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "Unlimited-DeepL-Pro"
     title: "Unlimited-DeepL-Pro"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 23
+    stars_fact: 24
     first_seen: null
     last_push: "2023-12-08"
   - name: "pua-what-game"
@@ -152,6 +152,6 @@ repos:
 
 # Sma1lboy
 
-159 pushes across 17 repositories on 44 active days in the last 90 days of public GitHub push activity.
+139 pushes across 16 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [2, 4, 1, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [2, 5, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "api"
+    title: "api"
+    description: "bitwardren fork to api endpoint inly"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "Termux-Android-pipeline-template"
     title: "Termux-Android-pipeline-template"
     description: "Build any GitHub project as a native Termux aarch64 .deb with GitHub Actions."

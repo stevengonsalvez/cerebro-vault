@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,9 +89,25 @@ repos:
       - "claude-skills"
       - "developer-tools"
       - "productivity"
-    stars_fact: 59991
+    stars_fact: 60796
     first_seen: "2026-08-07T06:00:04.662798+00:00"
     last_push: "2026-10-19"
+  - name: "pgcuts"
+    title: "pgcuts"
+    description: "Probabilistic Graph Cuts - PyTorch implementation"
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "gpuwork"
+    title: "gpuwork"
+    description: null
+    language: "TeX"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-04-08"
   - name: "base46.nvim"
     title: "base46.nvim"
     description: null
@@ -116,22 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "overleaf-mcp"
-    title: "overleaf-mcp"
-    description: "Overleaf MCP: let AI agents operate on your Overleaf projects as real-time collaborators."
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "pgcuts"
-    title: "pgcuts"
-    description: "Probabilistic Graph Cuts - PyTorch implementation"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-04-01"
 ---
 
 # ayghri

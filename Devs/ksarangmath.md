@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a1ee33a52509d445"
-pushes_per_week: [11, 1, 1, 0, 2, 7, 5, 3, 2, 1, 1, 0, 1]
+pushes_per_week: [7, 1, 1, 0, 3, 9, 2, 3, 2, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 1
-    active_days: 22
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5909
-  repo_per_active_day: 0.0455
+  push_per_day: 1.4762
+  repo_per_active_day: 0.0476
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 31
     distinct_repos: 1
-    pushes_per_repo: 35.0000
-    active_days: 22
+    pushes_per_repo: 31.0000
+    active_days: 21
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-world"
@@ -121,6 +121,6 @@ repos:
 
 # ksarangmath
 
-35 pushes across 1 repository on 22 active days in the last 90 days of public GitHub push activity.
+31 pushes across 1 repository on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ksarangmath

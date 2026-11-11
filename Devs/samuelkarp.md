@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 0, 0, 1, 1, 2, 0, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 0, 2, 1, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,23 +88,23 @@ repos:
       - "jails"
       - "oci"
       - "open-containers"
-    stars_fact: 674
+    stars_fact: 673
     first_seen: null
     last_push: "2026-09-25"
+  - name: "better-ghsa"
+    title: "better-ghsa"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-12"
   - name: "skills"
     title: "skills"
     description: null
     language: "Python"
     topics: []
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "better-ghsa"
-    title: "better-ghsa"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
     first_seen: null
     last_push: "2026-10-12"
   - name: "git-ghsa"

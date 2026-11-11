@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [22, 13, 1, 0, 1, 5, 6, 3, 23, 17, 19, 0, 1]
+pushes_per_week: [16, 11, 1, 0, 1, 5, 6, 3, 35, 8, 16, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
-    distinct_repos: 13
-    active_days: 11
+    pushes: 48
+    distinct_repos: 12
+    active_days: 10
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 111
-    distinct_repos: 24
-    active_days: 37
-    repos_not_owned: 8
+    pushes: 103
+    distinct_repos: 23
+    active_days: 35
+    repos_not_owned: 7
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.6486
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.3750
+  push_per_day: 2.9429
+  repo_per_active_day: 0.6571
+  not_owned_ratio: 0.3043
+  basename_concentration: 0.3478
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 50
-    distinct_repos: 13
-    pushes_per_repo: 3.8462
-    active_days: 11
+    pushes: 48
+    distinct_repos: 12
+    pushes_per_repo: 4.0000
+    active_days: 10
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 111
-    distinct_repos: 24
-    pushes_per_repo: 4.6250
-    active_days: 37
-    repos_not_owned: 8
+    pushes: 103
+    distinct_repos: 23
+    pushes_per_repo: 4.4783
+    active_days: 35
+    repos_not_owned: 7
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jModGuard"
@@ -145,6 +145,6 @@ repos:
 
 # jatmn
 
-111 pushes across 24 repositories on 37 active days in the last 90 days of public GitHub push activity.
+103 pushes across 23 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

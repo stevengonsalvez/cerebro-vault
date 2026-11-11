@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [26, 2, 2, 6, 7, 2, 6, 6, 10, 4, 4, 0, 0]
+pushes_per_week: [22, 3, 0, 6, 7, 4, 4, 6, 10, 6, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 10
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 75
+    pushes: 70
     distinct_repos: 12
-    active_days: 29
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5862
-  repo_per_active_day: 0.4138
+  push_per_day: 2.5000
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.1667
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 10
     distinct_repos: 5
-    pushes_per_repo: 2.8000
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 75
+    pushes: 70
     distinct_repos: 12
-    pushes_per_repo: 6.2500
-    active_days: 29
+    pushes_per_repo: 5.8333
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "zero-bridge-desktop"
@@ -129,6 +129,6 @@ repos:
 
 # FabioLeitao
 
-75 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
+70 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FabioLeitao

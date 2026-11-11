@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 15, 2, 5, 3, 1, 2, 4, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 15, 5, 4, 1, 2, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "AppsPorter"
+    title: "AppsPorter"
+    description: "Tool for porting OEM specific apps on every devices (Manual + AI Agents)"
+    language: "Smali"
+    topics:
+      - "oem"
+      - "oem-apps-port"
+      - "port"
+    stars_fact: 113
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "SameerAlSahab"
+    title: "SameerAlSahab"
+    description: "Hello World! Its me"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "Hydra-ESP"
     title: "Hydra-ESP"
     description: "HydraESP - A Wi-Fi and BT testing firmware for ESP32"
@@ -86,7 +105,7 @@ repos:
       - "esp32"
       - "esp32-deauther"
       - "hydra-esp"
-    stars_fact: 250
+    stars_fact: 256
     first_seen: null
     last_push: "2026-10-27"
   - name: "InsaneGitStatsGen"
@@ -97,45 +116,22 @@ repos:
     stars_fact: 19
     first_seen: null
     last_push: "2026-09-07"
-  - name: "META-Verse"
-    title: "META-Verse"
-    description: "A modern Payload for newer Android devices !! (educational purposes only)"
-    language: "Smali"
-    topics:
-      - "androrat"
-      - "metavas"
-      - "payload"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-05-20"
-  - name: "ProjectArcadeX"
-    title: "ProjectArcadeX"
-    description: "Script based rom patcher which downloads firmware , applies ota , patches and create a flashable Samsung ROM zip for all supported devices."
-    language: "Shell"
-    topics:
-      - "astrorom"
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "SameerAlSahab"
-    title: "SameerAlSahab"
-    description: "Hello World! Its me"
-    language: "HTML"
+  - name: "twentysixification"
+    title: "twentysixification"
+    description: null
+    language: null
     topics: []
-    stars_fact: 3
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "AwesomeAWidgets"
-    title: "AwesomeAWidgets"
-    description: "Original Nothing and OnePlus widgets ported with tons of mod for any device."
-    language: "Smali"
-    topics:
-      - "aawidgets"
-      - "nothing-widgets"
-      - "onepluswidget"
-    stars_fact: 16
+    last_push: "2026-11-08"
+  - name: "nothinglauncherplus"
+    title: "nothinglauncherplus"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-07"
 ---
 
 # SameerAlSahab

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [54, 41, 22, 4, 20, 86, 43, 63, 22, 7, 41, 0, 3]
+pushes_per_week: [41, 45, 17, 6, 27, 101, 21, 61, 23, 10, 37, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 1
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 406
+    pushes: 392
     distinct_repos: 3
-    active_days: 63
+    active_days: 62
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.4444
-  repo_per_active_day: 0.0476
+  push_per_day: 6.3226
+  repo_per_active_day: 0.0484
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 64
+    pushes: 60
     distinct_repos: 1
-    pushes_per_repo: 64.0000
-    active_days: 14
+    pushes_per_repo: 60.0000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 406
+    pushes: 392
     distinct_repos: 3
-    pushes_per_repo: 135.3333
-    active_days: 63
+    pushes_per_repo: 130.6667
+    active_days: 62
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homesodamachine"
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-406 pushes across 3 repositories on 63 active days in the last 90 days of public GitHub push activity.
+392 pushes across 3 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 0, 0, 0, 0, 2, 1, 6, 2, 1, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "givenergy-simulator"
-    title: "givenergy-simulator"
-    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-03"
   - name: "home-energy-manager"
     title: "home-energy-manager"
     description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
@@ -100,7 +92,15 @@ repos:
       - "tauri"
     stars_fact: 36
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
+  - name: "givenergy-simulator"
+    title: "givenergy-simulator"
+    description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "milsymbol-sidc"
     title: "milsymbol-sidc"
     description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
@@ -125,7 +125,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-04"
   - name: "flashlearn"
     title: "flashlearn"
     description: "AI-powered flashcard app. Snap photos of notes, AI creates quizzes. Spaced repetition + gamification for students."

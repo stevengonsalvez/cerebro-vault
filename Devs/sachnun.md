@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 6, 6, 4, 7, 26, 15, 20, 11, 2, 4, 0, 0]
+pushes_per_week: [2, 6, 6, 4, 9, 26, 13, 20, 12, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 5
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 2.4000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -87,16 +87,7 @@ repos:
       - "proxy"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Personal dotfiles."
-    language: "TypeScript"
-    topics:
-      - "chezmoi"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "nimeplay"
     title: "nimeplay"
     description: "Minimal anime streaming."
@@ -106,7 +97,25 @@ repos:
       - "nuxt"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-08"
+  - name: "unroxy"
+    title: "unroxy"
+    description: "Universal rotating proxy."
+    language: "Rust"
+    topics:
+      - "ip"
+      - "proxy"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "gphoto"
+    title: "gphoto"
+    description: "Google Photo CLI."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "rctiplus"
     title: "rctiplus"
     description: "RCTI+ streaming."
@@ -125,17 +134,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-21"
-  - name: "unroxy"
-    title: "unroxy"
-    description: "Universal rotating proxy."
-    language: "Rust"
-    topics:
-      - "proxy"
-      - "psiphon-core"
-      - "rust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
 ---
 
 # sachnun

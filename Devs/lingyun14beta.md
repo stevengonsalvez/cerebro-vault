@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [4, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot-endfield-kb-index"
+    title: "astrbot-endfield-kb-index"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "astrbot_plugin_endfield_kb"
     title: "astrbot_plugin_endfield_kb"
     description: null
@@ -84,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-07"
+  - name: "daily-analysis-report-theme"
+    title: "daily-analysis-report-theme"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "astrbot_plugin_video_sense"
     title: "astrbot_plugin_video_sense"
     description: null
@@ -93,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-01"
-  - name: "astrbot-endfield-kb-index"
-    title: "astrbot-endfield-kb-index"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "astrbot_plugin_uapipro_toolbox"
     title: "astrbot_plugin_uapipro_toolbox"
     description: "集成 UApiPro 提供的开放接口，为bot提供可使用的工具。"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-08-30"
-  - name: "daily-analysis-report-theme"
-    title: "daily-analysis-report-theme"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-06"
   - name: "ASTR_TEST"
     title: "ASTR_TEST"
     description: null

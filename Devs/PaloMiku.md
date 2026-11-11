@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-09"
   - name: "astrbot_plugin_searxng"
     title: "astrbot_plugin_searxng"
     description: null

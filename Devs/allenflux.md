@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -27,9 +27,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -62,10 +62,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ComfyUI-Video-Subtitle-Remover"
+    title: "ComfyUI-Video-Subtitle-Remover"
+    description: "ComfyUI nodes for removing hardcoded subtitles and watermarks from video frames."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "ComfyUI-Video-Subtitle-Remover-Models"
+    title: "ComfyUI-Video-Subtitle-Remover-Models"
+    description: "Model assets for ComfyUI Video Subtitle Remover."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "foya-worker"
+    title: "foya-worker"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "ComfyUI-DOGE-Session"
     title: "ComfyUI-DOGE-Session"
     description: "Explicit ComfyUI GPU mining sessions with a new-DOGE target, cancellation, persistent progress and process guards"
@@ -98,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-03"
-  - name: "foya-worker"
-    title: "foya-worker"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "flowbridge"
     title: "flowbridge"
     description: null
@@ -114,22 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "holmesJpt"
-    title: "holmesJpt"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "fuck-clocking-in"
-    title: "fuck-clocking-in"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
 ---
 
 # allenflux

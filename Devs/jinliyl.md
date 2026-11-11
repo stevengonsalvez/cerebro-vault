@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [12, 2, 0, 0, 3, 7, 4, 11, 13, 1, 7, 0, 0]
+pushes_per_week: [6, 1, 0, 0, 4, 9, 2, 10, 14, 2, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 5
-    active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 15
+    distinct_repos: 4
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 60
+    pushes: 53
     distinct_repos: 8
-    active_days: 29
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.0690
-  repo_per_active_day: 0.2759
+  push_per_day: 1.8929
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.6250
   basename_concentration: 0.3750
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
-    distinct_repos: 5
-    pushes_per_repo: 3.6000
-    active_days: 7
-    repos_not_owned: 4
-    not_owned_basenames: 3
+    pushes: 15
+    distinct_repos: 4
+    pushes_per_repo: 3.7500
+    active_days: 6
+    repos_not_owned: 3
+    not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 60
+    pushes: 53
     distinct_repos: 8
-    pushes_per_repo: 7.5000
-    active_days: 29
+    pushes_per_repo: 6.6250
+    active_days: 28
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YahooCrawler"
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-60 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+53 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

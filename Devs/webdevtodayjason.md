@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [2, 4, 0, 0, 18, 28, 9, 5, 7, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 0, 0, 21, 25, 9, 5, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 5
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 21
-    active_days: 24
-    repos_not_owned: 9
-    not_owned_basenames: 9
-    not_owned_owners: 3
+    pushes: 71
+    distinct_repos: 19
+    active_days: 22
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.0417
-  repo_per_active_day: 0.8750
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.0476
+  push_per_day: 3.2273
+  repo_per_active_day: 0.8636
+  not_owned_ratio: 0.4211
+  basename_concentration: 0.0526
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 5
-    pushes_per_repo: 1.2000
+    pushes_per_repo: 1.0000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
-    distinct_repos: 21
-    pushes_per_repo: 3.4762
-    active_days: 24
-    repos_not_owned: 9
-    not_owned_basenames: 9
-    not_owned_owners: 3
+    pushes: 71
+    distinct_repos: 19
+    pushes_per_repo: 3.7368
+    active_days: 22
+    repos_not_owned: 8
+    not_owned_basenames: 8
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tiinyengineer"
@@ -148,6 +148,6 @@ repos:
 
 # webdevtodayjason
 
-73 pushes across 21 repositories on 24 active days in the last 90 days of public GitHub push activity.
+71 pushes across 19 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/webdevtodayjason

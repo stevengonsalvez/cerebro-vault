@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [10, 6, 4, 2, 11, 19, 12, 6, 9, 5, 0, 0, 1]
+pushes_per_week: [4, 8, 2, 2, 15, 17, 11, 5, 12, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 85
+    pushes: 79
     distinct_repos: 22
-    active_days: 34
+    active_days: 33
     repos_not_owned: 21
     not_owned_basenames: 10
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.6471
+  push_per_day: 2.3939
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.9545
   basename_concentration: 0.5455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 4
   "90d":
-    pushes: 85
+    pushes: 79
     distinct_repos: 22
-    pushes_per_repo: 3.8636
-    active_days: 34
+    pushes_per_repo: 3.5909
+    active_days: 33
     repos_not_owned: 21
     not_owned_basenames: 10
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "disco"
@@ -143,6 +143,6 @@ repos:
 
 # mchmarny
 
-85 pushes across 22 repositories on 34 active days in the last 90 days of public GitHub push activity.
+79 pushes across 22 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mchmarny

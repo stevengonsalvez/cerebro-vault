@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 3, 13, 2, 7, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 2, 15, 0, 7, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 5
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 24
     distinct_repos: 5
@@ -77,43 +77,6 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opensend"
-    title: "opensend"
-    description: "self-hosted transactional & marketing email layer on top of aws ses"
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "email-marketing"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 158
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "pgrok"
-    title: "pgrok"
-    description: "Personal ngrok alternative. Expose local ports to the internet with automatic HTTPS via SSH tunnels + Caddy."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1170
-    first_seen: null
-    last_push: "2026-02-11"
-  - name: "superlocal"
-    title: "superlocal"
-    description: "An email client & provider gateway so you can build your best email experience."
-    language: "TypeScript"
-    topics:
-      - "email"
-      - "fast"
-      - "local-first"
-    stars_fact: 230
-    first_seen: null
-    last_push: "2026-09-08"
   - name: "hark"
     title: "hark"
     description: "iPhone notifications, approvals, Live Activities, on-call paging and signed-in mini apps for developers and their agents."
@@ -125,9 +88,39 @@ repos:
       - "notifications"
       - "on-call"
       - "webhooks"
-    stars_fact: 209
+    stars_fact: 211
     first_seen: null
     last_push: "2026-11-02"
+  - name: "glassx"
+    title: "glassx"
+    description: "A fully native X client for macOS 27, built with SwiftUI and Liquid Glass."
+    language: "Swift"
+    topics:
+      - "liquid-glass"
+      - "macos"
+      - "macos-app"
+      - "swiftui"
+      - "twitter"
+      - "x"
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "claude-agent"
+    title: "claude-agent"
+    description: "OpenCode Claude Agent plugin: fast mode, account rotation and usage-limit cooldown"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "imgen"
+    title: "imgen"
+    description: "Agent-friendly OpenAI image generation, Responses API workflows, and reusable character references"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
   - name: "opencode.cafe"
     title: "opencode.cafe"
     description: "A plugin and extension cafe for OpenCode."
@@ -137,9 +130,17 @@ repos:
       - "cafe"
       - "community"
       - "opencode"
-    stars_fact: 203
+    stars_fact: 204
     first_seen: null
     last_push: "2026-05-21"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 161
+    first_seen: null
+    last_push: "2026-11-01"
 ---
 
 # R44VC0RP

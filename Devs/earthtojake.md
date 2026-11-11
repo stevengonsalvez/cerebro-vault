@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [33, 2, 1, 0, 2, 13, 15, 28, 8, 0, 5, 0, 1]
+pushes_per_week: [25, 1, 1, 0, 5, 10, 17, 26, 8, 0, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
+    pushes: 99
     distinct_repos: 5
-    active_days: 31
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4839
-  repo_per_active_day: 0.1613
+  push_per_day: 3.3000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.4000
   basename_concentration: 0.6000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 108
+    pushes: 99
     distinct_repos: 5
-    pushes_per_repo: 21.6000
-    active_days: 31
+    pushes_per_repo: 19.8000
+    active_days: 30
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-108 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+99 pushes across 5 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

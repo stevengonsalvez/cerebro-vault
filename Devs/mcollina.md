@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [14, 2, 4, 0, 3, 10, 14, 10, 12, 11, 1, 0, 0]
+pushes_per_week: [12, 3, 3, 1, 3, 11, 13, 9, 20, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 81
-    distinct_repos: 25
-    active_days: 36
+    pushes: 79
+    distinct_repos: 24
+    active_days: 35
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.6944
-  not_owned_ratio: 0.7200
-  basename_concentration: 0.0800
+  push_per_day: 2.2571
+  repo_per_active_day: 0.6857
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 81
-    distinct_repos: 25
-    pushes_per_repo: 3.2400
-    active_days: 36
+    pushes: 79
+    distinct_repos: 24
+    pushes_per_repo: 3.2917
+    active_days: 35
     repos_not_owned: 18
     not_owned_basenames: 17
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -82,17 +82,17 @@ repos:
     description: "My own collection of skills for modern Node.js development"
     language: "TypeScript"
     topics: []
-    stars_fact: 1963
+    stars_fact: 1968
     first_seen: null
     last_push: "2026-10-27"
-  - name: "sqlite-pool"
-    title: "sqlite-pool"
-    description: null
-    language: "TypeScript"
+  - name: "nodejs-download-stats"
+    title: "nodejs-download-stats"
+    description: "Node.js Download Statistics"
+    language: "JavaScript"
     topics: []
-    stars_fact: 30
+    stars_fact: 19
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-02-13"
   - name: "autocannon"
     title: "autocannon"
     description: "fast HTTP/1.1 benchmarking tool written in Node.js"
@@ -100,35 +100,35 @@ repos:
     topics: []
     stars_fact: 8536
     first_seen: null
-    last_push: "2026-05-16"
-  - name: "fastq"
-    title: "fastq"
-    description: "Fast, in memory work queue"
-    language: "JavaScript"
+    last_push: "2026-11-06"
+  - name: "pi-self-learning"
+    title: "pi-self-learning"
+    description: null
+    language: "TypeScript"
     topics: []
-    stars_fact: 1141
+    stars_fact: 138
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "nodejs-download-stats"
-    title: "nodejs-download-stats"
-    description: "Node.js Download Statistics"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-02-13"
+    last_push: "2026-06-15"
   - name: "hyperid"
     title: "hyperid"
     description: "Uber-fast unique id generation, for Node.js and the browser"
     language: "JavaScript"
     topics: []
-    stars_fact: 752
+    stars_fact: 753
     first_seen: null
     last_push: "2026-07-17"
+  - name: "modular_monolith"
+    title: "modular_monolith"
+    description: "Example of the \"Building a Modular Monolith with Fastify\" talk"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 71
+    first_seen: null
+    last_push: "2024-11-02"
 ---
 
 # mcollina
 
-81 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
+79 pushes across 24 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

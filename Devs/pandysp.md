@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [2, 0, 0, 0, 0, 3, 9, 42, 7, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-hydra"
+    title: "pi-hydra"
+    description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
+    language: "TypeScript"
+    topics:
+      - "code-review"
+      - "pi"
+      - "pi-coding-agent"
+      - "pi-extension"
+      - "pi-package"
+      - "prompt-caching"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-13"
   - name: "openclaw-staging-workspace"
     title: "openclaw-staging-workspace"
     description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
@@ -116,15 +130,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-10-20"
-  - name: "django-chatbot-lambda"
-    title: "django-chatbot-lambda"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2024-04-15"
+    last_push: "2026-11-09"
 ---
 
 # pandysp

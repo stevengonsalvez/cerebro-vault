@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 3, 0, 3, 3, 25, 10, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 0, 3, 7, 21, 10, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,7 @@ repos:
       - "mock-exam"
       - "pdf"
       - "taiwan"
-    stars_fact: 20
+    stars_fact: 21
     first_seen: null
     last_push: "2026-09-29"
   - name: "niansia"
@@ -107,7 +107,20 @@ repos:
       - "vision-language-models"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-05"
+  - name: "niansia.github.io"
+    title: "niansia.github.io"
+    description: "Personal research portfolio for graduate applications, built with Quarto."
+    language: "HTML"
+    topics:
+      - "academic-website"
+      - "github-pages"
+      - "multilingual"
+      - "quarto"
+      - "research-portfolio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "okyaku-day"
     title: "okyaku-day"
     description: "奧客的一天：像素風奧客生存模擬，奧客說的每一句都是真的"
@@ -141,25 +154,7 @@ repos:
       - "tensorrt"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "LumiGrid"
-    title: "LumiGrid"
-    description: "Luminance-guided curve grids for low-light image enhancement (Zero-DCE curves in a bilateral grid + NAFNet refiner) — 24.6 dB on held-out NTIRE 2025 LLIE pairs"
-    language: "Python"
-    topics:
-      - "bilateral-grid"
-      - "computer-vision"
-      - "image-enhancement"
-      - "low-light-image-enhancement"
-      - "nafnet"
-      - "ntire-2025"
-      - "onnx"
-      - "pytorch"
-      - "webgpu"
-      - "zero-dce"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
+    last_push: "2026-11-07"
 ---
 
 # niansia

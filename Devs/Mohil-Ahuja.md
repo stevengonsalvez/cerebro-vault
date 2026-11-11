@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 3, 4, 0, 2, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 2, 4, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
+  - name: "ci-scratch"
+    title: "ci-scratch"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "2D-to-3D-CAD-Reconstruction"
     title: "2D-to-3D-CAD-Reconstruction"
     description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-31"
-  - name: "Steward"
-    title: "Steward"
-    description: "An authorization and audit framework for LLM agents built on the Model Context Protocol, enforcing per-action permission scopes with a policy engine and evaluation pipelines to test agent behavior under varying constraints."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
 ---
 
 # Mohil-Ahuja

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [0, 7, 2, 3, 1, 5, 6, 3, 1, 0, 2, 0, 0]
+pushes_per_week: [2, 6, 1, 3, 3, 6, 3, 3, 1, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gemini-4-motionbricks"
+    title: "gemini-4-motionbricks"
+    description: "Gemini 4 Argon with MotionBricks"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "tambourine-voice"
     title: "tambourine-voice"
     description: "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation. Open source alternative to Wispr Flow."
@@ -95,17 +103,32 @@ repos:
       - "webrtc"
       - "whisper"
       - "windows"
-    stars_fact: 392
+    stars_fact: 393
     first_seen: null
     last_push: "2026-07-17"
-  - name: "gemini-4-motionbricks"
-    title: "gemini-4-motionbricks"
-    description: "Gemini 4 Argon with MotionBricks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
+  - name: "simple-chromium-ai"
+    title: "simple-chromium-ai"
+    description: "TypeScript library for Local LLM in Chromium browsers"
+    language: "TypeScript"
+    topics:
+      - "browser-extension"
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "gemini-nano-in-chrome"
+      - "local-llm"
+      - "typescript"
+    stars_fact: 268
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-08-11"
+  - name: "init-project-skill"
+    title: "init-project-skill"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "voice-rtc-bench"
     title: "voice-rtc-bench"
     description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."
@@ -122,33 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-22"
-  - name: "digital-twin-proxy"
-    title: "digital-twin-proxy"
-    description: "A forward proxy to turn network traffic into personal memory for AI agents"
-    language: "Rust"
-    topics:
-      - "context"
-      - "memory"
-      - "proxy"
-      - "rust"
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-03-30"
-  - name: "simple-chromium-ai"
-    title: "simple-chromium-ai"
-    description: "TypeScript library for Local LLM in Chromium browsers"
-    language: "TypeScript"
-    topics:
-      - "browser-extension"
-      - "chrome"
-      - "chrome-extension"
-      - "chromium"
-      - "gemini-nano-in-chrome"
-      - "local-llm"
-      - "typescript"
-    stars_fact: 269
-    first_seen: null
-    last_push: "2026-08-11"
 ---
 
 # kstonekuan

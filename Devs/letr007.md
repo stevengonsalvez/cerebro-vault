@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0]
@@ -90,9 +90,9 @@ repos:
       - "qt6"
       - "web-scraping"
       - "windows"
-    stars_fact: 746
+    stars_fact: 759
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-07"
   - name: "letcode"
     title: "letcode"
     description: "A Coding Agent written in Rust."
@@ -104,7 +104,7 @@ repos:
       - "rust"
     stars_fact: 10
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-09"
   - name: "SleepDown"
     title: "SleepDown"
     description: "本地课程表 · Android · Kotlin Multiplatform, Jetpack Compose"
@@ -112,7 +112,7 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-11-05"
   - name: "letr007.github.io"
     title: "letr007.github.io"
     description: "个人博客Pages托管页"

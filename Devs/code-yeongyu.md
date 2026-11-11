@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [59, 12, 18, 34, 57, 68, 190, 213, 134, 81, 133, 1, 22]
+pushes_per_week: [38, 9, 17, 40, 65, 75, 187, 195, 149, 101, 98, 2, 21]
 windows:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 331
-    distinct_repos: 17
-    active_days: 19
-    repos_not_owned: 7
+    pushes: 286
+    distinct_repos: 16
+    active_days: 18
+    repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 1022
+    pushes: 997
     distinct_repos: 42
-    active_days: 72
+    active_days: 71
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 21
 automation:
   state: "clear"
-  push_per_day: 14.1944
-  repo_per_active_day: 0.5833
+  push_per_day: 14.0423
+  repo_per_active_day: 0.5915
   not_owned_ratio: 0.6667
   basename_concentration: 0.2619
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 6
+    pushes_per_repo: 4.4000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 331
-    distinct_repos: 17
-    pushes_per_repo: 19.4706
-    active_days: 19
-    repos_not_owned: 7
+    pushes: 286
+    distinct_repos: 16
+    pushes_per_repo: 17.8750
+    active_days: 18
+    repos_not_owned: 6
     not_owned_basenames: 5
     not_owned_owners: 5
   "90d":
-    pushes: 1022
+    pushes: 997
     distinct_repos: 42
-    pushes_per_repo: 24.3333
-    active_days: 72
+    pushes_per_repo: 23.7381
+    active_days: 71
     repos_not_owned: 28
     not_owned_basenames: 9
     not_owned_owners: 21
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 72 active days in 90d — pass"
+  - "activity: 71 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oh-my-openagent"
@@ -190,6 +190,6 @@ repos:
 
 # code-yeongyu
 
-1022 pushes across 42 repositories on 72 active days in the last 90 days of public GitHub push activity.
+997 pushes across 42 repositories on 71 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

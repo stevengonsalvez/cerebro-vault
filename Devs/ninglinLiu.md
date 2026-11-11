@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ninglinLiu"
+    title: "ninglinLiu"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "script-to-video-skill"
+    title: "script-to-video-skill"
+    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "infent-agent"
+    title: "infent-agent"
+    description: "Financial research agent with RAG, bounded tool calling, streaming responses, verifiable tool traces and MCP. Built with TypeScript / Next.js, with a bilingual live demo."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "AI-llm-werewolf-arena-"
     title: "AI-llm-werewolf-arena-"
     description: "DeepSeek 单 API 多角色狼人杀模拟器 （后续会改多api）"
@@ -85,22 +109,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-01-12"
-  - name: "script-to-video-skill"
-    title: "script-to-video-skill"
-    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "browser-use-docs"
-    title: "browser-use-docs"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # ninglinLiu

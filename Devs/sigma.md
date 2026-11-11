@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 0, 1, 4, 0, 19, 4, 8, 4, 2, 0, 0]
+pushes_per_week: [0, 4, 0, 1, 4, 2, 17, 4, 8, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,22 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "okf-tools"
-    title: "okf-tools"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "systems"
-    title: "systems"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "integral"
     title: "integral"
     description: "Integra-7 controller"
@@ -100,23 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "gh.el"
-    title: "gh.el"
-    description: "GitHub API library for Emacs"
-    language: "Emacs Lisp"
-    topics: []
-    stars_fact: 286
-    first_seen: null
-    last_push: "2026-02-10"
-  - name: "via_hacks"
-    title: "via_hacks"
-    description: "'cause VIA is a bit limiting, let's generate those keymaps properly"
-    language: "Jsonnet"
+    last_push: "2026-11-10"
+  - name: "systems"
+    title: "systems"
+    description: null
+    language: "Nix"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-19"
+    last_push: "2026-11-10"
   - name: "callctl"
     title: "callctl"
     description: "Control surfaces for video conferencing systems (Google Meet)"
@@ -124,7 +100,31 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-23"
+    last_push: "2026-11-09"
+  - name: "sd-mux"
+    title: "sd-mux"
+    description: "Stream Deck attention button for herdr and Rex agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "marshal.el"
+    title: "marshal.el"
+    description: null
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2022-07-24"
+  - name: "logito"
+    title: "logito"
+    description: "tiny logging framework for Emacs"
+    language: "Emacs Lisp"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2020-12-26"
 ---
 
 # sigma

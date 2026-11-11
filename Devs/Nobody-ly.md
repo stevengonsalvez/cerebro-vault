@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [8, 0, 0, 0, 4, 1, 0, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [5, 0, 0, 0, 4, 1, 0, 0, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 3
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.3000
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,18 +65,42 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 5.0000
-    active_days: 10
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "linqi-dialogue-agent"
+    title: "linqi-dialogue-agent"
+    description: "Linqi personalized dialogue agent: Demo V2 public development workspace"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "deepseek-search-skill"
+    title: "deepseek-search-skill"
+    description: "Model-independent Agent Skill and MCP server for DeepSeek official Search and Fetch APIs."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "api-client"
+      - "deepseek"
+      - "deepseek-search"
+      - "mcp"
+      - "mcp-server"
+      - "search-api"
+      - "web-search"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "simple-fill-image-edit"
     title: "simple-fill-image-edit"
     description: "Semantic local image editing with SAM3, native-mask image editing, and Inpaint Anything crop restoration."
@@ -121,26 +145,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-06"
-  - name: "Gatito-agent"
-    title: "Gatito-agent"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "user-profile-demo"
-    title: "user-profile-demo"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-28"
 ---
 
 # Nobody-ly
 
-15 pushes across 3 repositories on 10 active days in the last 90 days of public GitHub push activity.
+12 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Nobody-ly

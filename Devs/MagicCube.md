@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [3, 0, 0, 0, 2, 2, 1, 0, 0, 0, 0, 0, 0]
@@ -78,14 +78,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agentara"
-    title: "agentara"
-    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 517
-    first_seen: null
-    last_push: "2026-05-11"
   - name: "helixent"
     title: "helixent"
     description: "Helixent is a small library for building ReAct-style AI agent loops based on the Bun stack."
@@ -101,30 +93,6 @@ repos:
     stars_fact: 687
     first_seen: null
     last_push: "2026-05-21"
-  - name: "dayring-mono"
-    title: "dayring-mono"
-    description: "PaperMono application platform"
-    language: "C++"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "cli-gpt"
-    title: "cli-gpt"
-    description: "Translate human language to command line using ChatGPT."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 119
-    first_seen: null
-    last_push: "2023-03-15"
-  - name: "lang-lens"
-    title: "lang-lens"
-    description: "Yet another UI built for LangGraph."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2025-11-12"
   - name: "tensorflow-rex-run"
     title: "tensorflow-rex-run"
     description: "A TensorFlow.js based AI player platform for T-Rex Runner. T-Rex Runner is originally an easter egg game inside chrome."
@@ -140,9 +108,53 @@ repos:
       - "t-rex-runner"
       - "tensorflow"
       - "tensorflow-js"
-    stars_fact: 673
+    stars_fact: 674
     first_seen: null
     last_push: "2023-03-07"
+  - name: "agentara"
+    title: "agentara"
+    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 520
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "air-charger"
+    title: "air-charger"
+    description: "AirCharger is an ESP32 based QI wireless charger. With Bluetooth connectivity, you can always check the battery level and other useful information from the built-in display."
+    language: "C++"
+    topics:
+      - "arduino"
+      - "battery"
+      - "ble"
+      - "bluetooth"
+      - "charger"
+      - "esp32"
+      - "iot"
+      - "oled"
+      - "platformio"
+      - "power"
+      - "qi"
+      - "wireless"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2019-09-17"
+  - name: "lang-lens"
+    title: "lang-lens"
+    description: "Yet another UI built for LangGraph."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2025-11-12"
+  - name: "dayring-mono"
+    title: "dayring-mono"
+    description: "PaperMono application platform"
+    language: "C++"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-22"
 ---
 
 # MagicCube

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 6, 0, 0]
@@ -77,14 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xsa-dev.github.io"
-    title: "xsa-dev.github.io"
+  - name: "meeting-analyzer"
+    title: "meeting-analyzer"
     description: null
-    language: "SCSS"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-08"
   - name: "ai-disrupt-pdlc-coach"
     title: "ai-disrupt-pdlc-coach"
     description: null
@@ -96,7 +96,15 @@ repos:
       - "webist"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-09"
+  - name: "xsa-dev.github.io"
+    title: "xsa-dev.github.io"
+    description: null
+    language: "SCSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "hyperliquid-backtest"
     title: "hyperliquid-backtest"
     description: null
@@ -125,14 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-24"
-  - name: "xsa-dev"
-    title: "xsa-dev"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-23"
 ---
 
 # xsa-dev

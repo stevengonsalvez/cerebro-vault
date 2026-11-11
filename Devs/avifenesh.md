@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [44, 20, 15, 17, 20, 128, 238, 92, 114, 29, 48, 0, 6]
+pushes_per_week: [25, 23, 12, 21, 17, 168, 204, 85, 122, 34, 35, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 159
+    pushes: 130
     distinct_repos: 17
-    active_days: 16
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 771
-    distinct_repos: 59
-    active_days: 67
+    pushes: 752
+    distinct_repos: 57
+    active_days: 66
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.5075
-  repo_per_active_day: 0.8806
-  not_owned_ratio: 0.5085
-  basename_concentration: 0.0169
+  push_per_day: 11.3939
+  repo_per_active_day: 0.8636
+  not_owned_ratio: 0.5263
+  basename_concentration: 0.0175
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 159
+    pushes: 130
     distinct_repos: 17
-    pushes_per_repo: 9.3529
-    active_days: 16
+    pushes_per_repo: 7.6471
+    active_days: 15
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 771
-    distinct_repos: 59
-    pushes_per_repo: 13.0678
-    active_days: 67
+    pushes: 752
+    distinct_repos: 57
+    pushes_per_repo: 13.1930
+    active_days: 66
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 67 active days in 90d — pass"
+  - "activity: 66 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "memra"
@@ -149,6 +149,6 @@ repos:
 
 # avifenesh
 
-771 pushes across 59 repositories on 67 active days in the last 90 days of public GitHub push activity.
+752 pushes across 57 repositories on 66 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

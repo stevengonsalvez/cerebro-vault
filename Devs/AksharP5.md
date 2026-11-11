@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 1, 1, 0, 1, 3, 12, 26, 7, 1, 16, 0, 0]
+pushes_per_week: [6, 1, 1, 0, 1, 6, 12, 23, 8, 0, 16, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
-    distinct_repos: 16
-    active_days: 26
+    pushes: 74
+    distinct_repos: 15
+    active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9615
-  repo_per_active_day: 0.6154
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1875
+  push_per_day: 2.9600
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1333
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 77
-    distinct_repos: 16
-    pushes_per_repo: 4.8125
-    active_days: 26
+    pushes: 74
+    distinct_repos: 15
+    pushes_per_repo: 4.9333
+    active_days: 25
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skillsync"
@@ -137,6 +137,6 @@ repos:
 
 # AksharP5
 
-77 pushes across 16 repositories on 26 active days in the last 90 days of public GitHub push activity.
+74 pushes across 15 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AksharP5

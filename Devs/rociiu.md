@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "5c1db9239c15fa63"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -91,9 +91,25 @@ repos:
       - "self-hosted"
       - "typescript"
       - "workers-ai"
-    stars_fact: 1437
+    stars_fact: 1460
     first_seen: "2026-10-11T06:01:22.164700+00:00"
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "harmune"
+    title: "harmune"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
   - name: "hanzelo-stroke-data"
     title: "hanzelo-stroke-data"
     description: null
@@ -118,22 +134,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-08-28"
-  - name: "minimum-agent"
-    title: "minimum-agent"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-26"
-  - name: "rociiu.github.io"
-    title: "rociiu.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-05"
 ---
 
 # rociiu

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -78,6 +78,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "secretops-sentinel"
+    title: "secretops-sentinel"
+    description: "Secret scanning, redaction, rotation workflow, and pre-commit helper for local repositories"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-25"
   - name: "vortex"
     title: "vortex"
     description: "The new beginning"
@@ -94,14 +102,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-04"
-  - name: "secretops-sentinel"
-    title: "secretops-sentinel"
-    description: "Secret scanning, redaction, rotation workflow, and pre-commit helper for local repositories"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-25"
   - name: "pasmud"
     title: "pasmud"
     description: null

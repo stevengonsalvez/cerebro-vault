@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 2, 5, 0, 1, 2, 0, 0]
+pushes_per_week: [2, 0, 0, 1, 0, 1, 1, 5, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -128,7 +128,7 @@ repos:
       - "sveltekit"
     stars_fact: 673
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-09"
   - name: "the-blog-of-alexandria"
     title: "the-blog-of-alexandria"
     description: "The Blog of Alexandria, a never ending source of information"

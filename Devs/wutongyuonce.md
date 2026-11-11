@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [6, 2, 1, 4, 6, 9, 12, 3, 3, 6, 0, 0, 0]
+pushes_per_week: [6, 1, 1, 4, 8, 7, 12, 3, 5, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 14
-    active_days: 31
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6774
-  repo_per_active_day: 0.4516
+  push_per_day: 1.7000
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0714
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 14
-    pushes_per_repo: 3.7143
-    active_days: 31
+    pushes_per_repo: 3.6429
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YuBlog"
@@ -141,6 +141,6 @@ repos:
 
 # wutongyuonce
 
-52 pushes across 14 repositories on 31 active days in the last 90 days of public GitHub push activity.
+51 pushes across 14 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wutongyuonce

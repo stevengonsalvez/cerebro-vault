@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [10, 2, 1, 4, 0, 2, 4, 3, 4, 10, 1, 0, 0]
+pushes_per_week: [6, 3, 0, 4, 0, 2, 4, 3, 12, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,23 +27,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 10
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 7
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 37
     distinct_repos: 18
-    active_days: 19
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1579
-  repo_per_active_day: 0.9474
+  push_per_day: 2.0556
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.1667
   basename_concentration: 0.1111
   shapes: []
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 10
-    pushes_per_repo: 1.4000
-    active_days: 4
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 7
+    pushes_per_repo: 1.5714
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 41
+    pushes: 37
     distinct_repos: 18
-    pushes_per_repo: 2.2778
-    active_days: 19
+    pushes_per_repo: 2.0556
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Awesome-Astron-Workflow"
@@ -135,6 +135,6 @@ repos:
 
 # FenjuFu
 
-41 pushes across 18 repositories on 19 active days in the last 90 days of public GitHub push activity.
+37 pushes across 18 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 2, 0, 0, 3, 3, 5, 8, 3, 0, 3, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 3, 4, 4, 8, 3, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 11
-    active_days: 25
+    pushes: 29
+    distinct_repos: 10
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2800
-  repo_per_active_day: 0.4400
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0909
+  push_per_day: 1.2609
+  repo_per_active_day: 0.4348
+  not_owned_ratio: 0.3000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 11
-    pushes_per_repo: 2.9091
-    active_days: 25
+    pushes: 29
+    distinct_repos: 10
+    pushes_per_repo: 2.9000
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "swiss-design-skill"
@@ -129,6 +129,6 @@ repos:
 
 # zeke
 
-32 pushes across 11 repositories on 25 active days in the last 90 days of public GitHub push activity.
+29 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zeke

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [3, 1, 16, 30, 7, 24, 33, 1, 9, 7, 7, 0, 0]
+pushes_per_week: [3, 1, 16, 31, 10, 28, 26, 0, 12, 8, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 1
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 18
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 18.0000
-    active_days: 9
+    pushes_per_repo: 16.0000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,9 @@ repos:
       - "rag"
       - "static-analysis"
       - "token-savings"
-    stars_fact: 202
+    stars_fact: 203
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "nikolai-vysotskyi.github.io"
     title: "nikolai-vysotskyi.github.io"
     description: null

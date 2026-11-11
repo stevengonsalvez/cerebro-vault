@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [6, 5, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "flarellm"
-    title: "flarellm"
-    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "BrowserAI"
     title: "BrowserAI"
     description: "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser"
@@ -102,6 +94,22 @@ repos:
     stars_fact: 1451
     first_seen: null
     last_push: "2026-07-21"
+  - name: "forge-llm"
+    title: "forge-llm"
+    description: "Rust-native AOT compiler for small LLMs. Turns GGUF weights into optimized self-contained binaries — CPU SIMD, Metal, WASM, no interpreter."
+    language: "Rust"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "flarellm"
+    title: "flarellm"
+    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
+    language: "Rust"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "stepback"
     title: "stepback"
     description: "iOS practice tool for learning dance from your own video library. Slow-mo without pitch-shift, loop hard sections, frame-step, and beat-locked step timing. SwiftUI + SwiftData, iOS 17+, zero dependencies."
@@ -142,14 +150,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2025-06-08"
-  - name: "video-use"
-    title: "video-use"
-    description: "A library to convert your video recording to browser automation"
-    language: "Python"
-    topics: []
-    stars_fact: 19
-    first_seen: null
-    last_push: "2025-06-13"
 ---
 
 # sauravpanda

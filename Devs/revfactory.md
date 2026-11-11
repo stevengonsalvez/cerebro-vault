@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "7def51b1549aee4a"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0]
@@ -77,36 +77,28 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "claude-code-mastering"
+    title: "claude-code-mastering"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 777
+    first_seen: null
+    last_push: "2026-01-22"
   - name: "revfactory"
     title: "revfactory"
     description: null
     language: null
     topics: []
-    stars_fact: 37
+    stars_fact: 38
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "satang"
-    title: "satang"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-03-17"
-  - name: "webtoon-harness"
-    title: "webtoon-harness"
-    description: "트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스"
-    language: "HTML"
-    topics: []
-    stars_fact: 330
-    first_seen: null
-    last_push: "2026-06-28"
+    last_push: "2026-11-11"
   - name: "patent-harness"
     title: "patent-harness"
     description: "특허 발굴·출원 하네스: Claude Code 에이전트 15개와 스킬 11개"
     language: "Python"
     topics: []
-    stars_fact: 21
+    stars_fact: 42
     first_seen: null
     last_push: "2026-11-01"
   - name: "harness"
@@ -118,27 +110,25 @@ repos:
       - "claude-code-plugin"
       - "harness"
       - "harness-engineering"
-    stars_fact: 9317
+    stars_fact: 9349
     first_seen: "2026-06-25T06:00:02.443471+00:00"
     last_push: "2026-09-28"
-  - name: "showreel"
-    title: "showreel"
-    description: "Claude Code skill that produces Korean motion-graphics videos end to end: brief, research, script, ElevenLabs narration, music, images, deterministic HTML render, mix and automated QA."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "claude-skills"
-      - "elevenlabs"
-      - "ffmpeg"
-      - "korean"
-      - "motion-graphics"
-      - "playwright"
-      - "showreel"
-      - "video-generation"
-    stars_fact: 65
+  - name: "harness-100"
+    title: "harness-100"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1326
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-03-22"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 163
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # revfactory

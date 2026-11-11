@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [2, 0, 1, 1, 1, 7, 2, 5, 6, 1, 3, 0, 0]
+pushes_per_week: [2, 0, 1, 1, 1, 8, 1, 5, 6, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 5
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 4
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -86,9 +86,58 @@ repos:
       - "idiomatic"
       - "idiomatic-rust"
       - "rust"
-    stars_fact: 7906
+    stars_fact: 7910
     first_seen: null
     last_push: "2026-02-12"
+  - name: "cargo-inspect"
+    title: "cargo-inspect"
+    description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
+    language: "Rust"
+    topics:
+      - "desugar"
+      - "inspect"
+      - "static-analysis"
+      - "syntactic-sugar"
+      - "unpretty"
+    stars_fact: 384
+    first_seen: null
+    last_push: "2023-02-27"
+  - name: "thundervim"
+    title: "thundervim"
+    description: "Native VIM keybindings for Thunderbird; compose text with your favorite editor shortcuts."
+    language: "TypeScript"
+    topics:
+      - "editing"
+      - "thunderbird"
+      - "vim"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-09"
+  - name: "endler.dev"
+    title: "endler.dev"
+    description: "My personal website"
+    language: "HTML"
+    topics: []
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "futures-batch"
+    title: "futures-batch"
+    description: "An adapter for futures, which chunks up elements and flushes them after a timeout — or when the buffer is full. (Formerly known as tokio-batch.)"
+    language: "Rust"
+    topics:
+      - "adaptor"
+      - "async"
+      - "async-std"
+      - "buffer"
+      - "chunk"
+      - "flush"
+      - "futures"
+      - "timeout"
+      - "tokio-rs"
+    stars_fact: 83
+    first_seen: null
+    last_push: "2025-12-02"
   - name: "rate-limits"
     title: "rate-limits"
     description: "Parse HTTP Rate-Limit headers of different vendors"
@@ -101,51 +150,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-05-30"
-  - name: "teapot"
-    title: "teapot"
-    description: "🫖 A super simple dummy server for testing HTTP clients. No dependencies. The little brother of https://github.com/mufeedvh/binserve."
-    language: "Rust"
-    topics:
-      - "dummy"
-      - "mock"
-      - "webserver"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "oxitrack"
-    title: "oxitrack"
-    description: "Self-hosted, privacy-respecting website traffic tracker"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "timelapse"
-    title: "timelapse"
-    description: "A native macOS menu-bar app for recording screen timelapses. Swift, local-only, with incremental video encoding."
-    language: "Swift"
-    topics:
-      - "macos"
-      - "screen-recorder"
-      - "screencapturekit"
-      - "swift"
-      - "swiftui"
-      - "timelapse"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "the-coding-interview"
-    title: "the-coding-interview"
-    description: "Programming exercises, code katas and puzzles for your job interview training - or just for fun."
-    language: "Python"
-    topics:
-      - "coding-interview"
-      - "interview-practice"
-      - "interview-test-task"
-      - "language-learning"
-    stars_fact: 1746
-    first_seen: null
-    last_push: "2023-10-30"
 ---
 
 # mre

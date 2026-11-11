@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [9, 6, 0, 2, 1, 10, 8, 4, 1, 2, 1, 0, 0]
+pushes_per_week: [9, 6, 0, 2, 1, 10, 9, 3, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "inkpi-desktop"
     title: "inkpi-desktop"
     description: "Cross-Platform AI-Powered Creative Writing Workstation built with Tauri 2 and React"
@@ -101,7 +101,7 @@ repos:
       - "tiptap"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "inkpi"
     title: "inkpi"
     description: "InkPi - Extensible AI Agent Harness & Workstation Platform"
@@ -122,7 +122,7 @@ repos:
       - "tui"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "opencontrib"
     title: "opencontrib"
     description: "The Agent-Native Open Source Contribution Engine — 6-Dimension Weapon Arsenal, 24-Command CLI, Top-K Smart Pointer Triage, 20 MCP Tools & Worktree Sandbox"

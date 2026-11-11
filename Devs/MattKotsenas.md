@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [6, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-11"
+  - name: "uplink"
+    title: "uplink"
+    description: "GitHub Copilot CLI remote control using ACP and devtunnels"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 47
+    first_seen: null
+    last_push: "2026-03-17"
   - name: "agent-plugins"
     title: "agent-plugins"
     description: null
@@ -93,14 +101,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-16"
-  - name: "uplink"
-    title: "uplink"
-    description: "GitHub Copilot CLI remote control using ACP and devtunnels"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 46
-    first_seen: null
-    last_push: "2026-03-17"
   - name: "desknav"
     title: "desknav"
     description: "Keyboard-first Windows desktop navigation with Kanata, Komorebi, UI Automation, and .NET."

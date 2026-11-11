@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [8, 1, 1, 0, 4, 3, 3, 1, 0, 1, 1, 0, 0]
+pushes_per_week: [7, 2, 0, 0, 4, 3, 3, 1, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    active_days: 19
+    pushes: 22
+    distinct_repos: 9
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.2105
-  repo_per_active_day: 0.5263
-  not_owned_ratio: 0.3000
-  basename_concentration: 0.1000
+  push_per_day: 1.2222
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,58 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 23
-    distinct_repos: 10
-    pushes_per_repo: 2.3000
-    active_days: 19
+    pushes: 22
+    distinct_repos: 9
+    pushes_per_repo: 2.4444
+    active_days: 18
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rook"
+    title: "rook"
+    description: "A window manager for macOS with keyboard shortcuts"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "pocket"
+    title: "pocket"
+    description: "Pocket: A lightweight application launcher that gets out of your way"
+    language: "Swift"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "sprout"
+    title: "sprout"
+    description: "A fast, interactive CLI for generating Spring Boot projects directly from your terminal, powered by Spring Initializr."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "pomme"
+    title: "pomme"
+    description: "A lightweight TUI for tracking App Store analytics right from your terminal."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "goggles"
+    title: "goggles"
+    description: "Multi-account social browser"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "emozi"
     title: "emozi"
     description: "Emoji picker for linux 😎"
@@ -85,50 +125,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-03"
-  - name: "pixx"
-    title: "pixx"
-    description: "Color picker for Linux"
-    language: "Zig"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "pocket"
-    title: "pocket"
-    description: "Pocket: A lightweight application launcher that gets out of your way"
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "postmoth"
-    title: "postmoth"
-    description: "Your mail, right at home on Linux."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "maskedsyntax"
-    title: "maskedsyntax"
-    description: "My Github README profile!"
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "tumble"
-    title: "tumble"
-    description: "A tiny lock-screen camera that makes you wait to see what you shot."
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-29"
 ---
 
 # maskedsyntax
 
-23 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
+22 pushes across 9 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/maskedsyntax

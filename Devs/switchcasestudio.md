@@ -1,18 +1,18 @@
 ---
-login: "SHRUTI6991"
+login: "switchcasestudio"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "agent-substrate/substrate"
+  - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
-  - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 0, 0, 0, 0, 1, 1, 0, 5, 1, 0, 0, 0]
+  - "4f795faf4eede06c"
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,15 +22,15 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 9
-    distinct_repos: 1
+    distinct_repos: 7
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.8000
-  repo_per_active_day: 0.2000
+  repo_per_active_day: 1.4000
   not_owned_ratio: 0.0000
-  basename_concentration: 1.0000
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 9
-    distinct_repos: 1
-    pushes_per_repo: 9.0000
+    distinct_repos: 7
+    pushes_per_repo: 1.2857
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,58 +77,62 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "module5-solution"
-    title: "module5-solution"
+  - name: "prodani-miami"
+    title: "prodani-miami"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "switch-case-studio"
+    title: "switch-case-studio"
+    description: "the studio site. react on vite, statically pre-rendered to 36 routes so it loads fast and google can read it without running any javascript."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "fl-energy-savings-assistance-program"
+    title: "fl-energy-savings-assistance-program"
     description: null
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2019-01-17"
-  - name: "module3-solution"
-    title: "module3-solution"
-    description: null
-    language: "HTML"
+    last_push: "2026-11-10"
+  - name: "unhurried"
+    title: "unhurried"
+    description: "Unhurried: a calm, editorial WordPress block theme by Switch Case Studio"
+    language: "PHP"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2019-01-16"
-  - name: "mod4-solution"
-    title: "mod4-solution"
+    last_push: "2026-11-09"
+  - name: "renewedbodyworks-website"
+    title: "renewedbodyworks-website"
     description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "portfolio2024"
+    title: "portfolio2024"
+    description: "My portfolio repo"
     language: "JavaScript"
-    topics: []
+    topics:
+      - "javascript"
+      - "portfolio"
+      - "react"
+      - "sass"
     stars_fact: 0
     first_seen: null
-    last_push: "2019-01-14"
-  - name: "module2-solution"
-    title: "module2-solution"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2019-01-10"
-  - name: "coursera-test"
-    title: "coursera-test"
-    description: "Coursera Test Repository"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-12-31"
-  - name: "Multivariate-Image-Data-Set-Visualization"
-    title: "Multivariate-Image-Data-Set-Visualization"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-09-23"
+    last_push: "2026-10-30"
 ---
 
-# SHRUTI6991
+# switchcasestudio
 
-9 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
+9 pushes across 7 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/SHRUTI6991
+https://github.com/switchcasestudio

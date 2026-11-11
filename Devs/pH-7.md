@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [2, 2, 0, 1, 1, 5, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 1, 5, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 8
-    active_days: 7
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 6
+    pushes: 10
+    distinct_repos: 7
+    active_days: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7143
-  repo_per_active_day: 1.1429
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.1250
+  push_per_day: 1.6667
+  repo_per_active_day: 1.1667
+  not_owned_ratio: 0.7143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,82 +65,64 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 8
-    pushes_per_repo: 1.5000
-    active_days: 7
-    repos_not_owned: 6
-    not_owned_basenames: 6
-    not_owned_owners: 6
+    pushes: 10
+    distinct_repos: 7
+    pushes_per_repo: 1.4286
+    active_days: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pH-7"
-    title: "pH-7"
-    description: "I build context-aware AI systems that help ambitious people think clearly and act decisively."
-    language: "Python"
-    topics:
-      - "about"
-      - "about-me"
-      - "about-me-website"
-      - "bio"
-      - "github"
-      - "github-profile"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "Simple-Java-Calculator"
-    title: "Simple-Java-Calculator"
-    description: ":1234: Simple calculator is written in Java with Eclipse. This calculator is simple with an easy code to help novices learn how to operate a calculator."
-    language: "Java"
-    topics:
-      - "calculator"
-      - "java"
-      - "java-calculator"
-      - "java-learning"
-      - "java-simple-project"
-      - "java-study"
-      - "java-swing"
-      - "learn"
-      - "learning-java"
-      - "simple-java-calculator"
-      - "teaching"
-    stars_fact: 244
-    first_seen: null
-    last_push: "2024-02-22"
-  - name: "QRCode-Generator-PHP-Class"
-    title: "QRCode-Generator-PHP-Class"
-    description: ":rocket: QRCode PHP class (library). QR Code Generator using vCard 4.0 and the Google Chart API"
+  - name: "Html2Text"
+    title: "Html2Text"
+    description: "A very simple (but efficient) \"HTML to plain text\" converter ✍️"
     language: "PHP"
     topics:
-      - "generator"
+      - "converter"
+      - "convertor"
+      - "email-text-parsing"
+      - "html"
+      - "html-converter"
+      - "html-convertor"
+      - "html-text-conversion"
+      - "html2text"
+      - "html2text-converter"
+      - "htmltotext"
       - "php"
-      - "php-qr"
-      - "php-qrcode"
-      - "qr-code"
-      - "qrcode"
-      - "qrcode-generator"
-      - "qrcode-php"
-      - "vcard"
-    stars_fact: 103
+      - "php7"
+      - "plain-text"
+      - "symfony-mailer"
+      - "text"
+      - "text-converter"
+      - "text-convertor"
+    stars_fact: 14
     first_seen: null
-    last_push: "2021-07-20"
-  - name: "pedagogical-video-editor-skill"
-    title: "pedagogical-video-editor-skill"
-    description: "Automatically edit engaging educational videos with intelligent cuts, dynamic zooms, captions, animations, sound effects and music. Optimised for long-form YouTube videos, courses and Shorts, with previews, quality checks and editable exports"
-    language: "Python"
+    last_push: "2026-09-07"
+  - name: "Obfuscator-Class"
+    title: "Obfuscator-Class"
+    description: ":man_technologist: Simple and effective Obfuscator PHP class (this is not a stupid base64 encoding script, but a real and effective obfuscation script)"
+    language: "PHP"
     topics:
-      - "ai-skills"
-      - "ai-video-editor-sdk"
-      - "automated-video-editing"
-      - "codex"
-      - "openai-codex"
-      - "skills"
-    stars_fact: 1
+      - "code-obfuscator"
+      - "encode"
+      - "encryption"
+      - "hide-code"
+      - "obfuscate"
+      - "obfuscate-code"
+      - "obfuscation"
+      - "obfuscator"
+      - "php"
+      - "php-encoder"
+      - "php-encryption"
+      - "php-obfuscation"
+      - "php-obfuscator"
+    stars_fact: 371
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2021-05-10"
   - name: "Download-Simply-Videos-From-YouTube"
     title: "Download-Simply-Videos-From-YouTube"
     description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
@@ -166,41 +148,69 @@ repos:
       - "youtube-to-mp3"
       - "youtube-videos-downloader"
       - "youtube2mp3"
-    stars_fact: 404
+    stars_fact: 406
     first_seen: null
     last_push: "2026-10-31"
-  - name: "Simple-Java-Text-Editor"
-    title: "Simple-Java-Text-Editor"
-    description: ":memo: PHNotepad is a simple Java text/code editor (notepad) written in Java. It has also nice features such as Search tool, Find/Replace text/code, Auto-completion, Nice Image Buttons for better UX, etc."
+  - name: "Simple-Java-Calculator"
+    title: "Simple-Java-Calculator"
+    description: ":1234: Simple calculator is written in Java with Eclipse. This calculator is simple with an easy code to help novices learn how to operate a calculator."
     language: "Java"
     topics:
-      - "editor"
+      - "calculator"
       - "java"
-      - "java-editor"
+      - "java-calculator"
       - "java-learning"
-      - "java-note"
       - "java-simple-project"
-      - "java-simple-text-editor"
       - "java-study"
-      - "java-text"
-      - "java-text-editor"
+      - "java-swing"
+      - "learn"
       - "learning-java"
-      - "notepad"
-      - "simple-java-editor"
-      - "simple-java-ide"
-      - "simple-java-text-editor"
-      - "simple-text-editor"
+      - "simple-java-calculator"
       - "teaching"
-      - "text-editor"
-      - "text-editor-java"
-      - "texteditor"
-    stars_fact: 175
+    stars_fact: 244
     first_seen: null
-    last_push: "2022-06-22"
+    last_push: "2024-02-22"
+  - name: "pH-7"
+    title: "pH-7"
+    description: "I build context-aware AI systems that help ambitious people think clearly and act decisively."
+    language: "Python"
+    topics:
+      - "about"
+      - "about-me"
+      - "about-me-website"
+      - "bio"
+      - "freelance-website"
+      - "github"
+      - "github-profile"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "CompaniesLookup"
+    title: "CompaniesLookup"
+    description: ":office: Simple and fast tool to find companies from Companies House database (with their Company Number or Company Name)."
+    language: "PHP"
+    topics:
+      - "companies-house"
+      - "companies-house-api"
+      - "companieshouse"
+      - "companieshouse-api"
+      - "companieshouse-lookup"
+      - "company-lookup"
+      - "console"
+      - "lookup"
+      - "php"
+      - "php-7"
+      - "search-companies-house"
+      - "uk-companies-lookup"
+      - "uk-companies-search"
+      - "uk-company-lookup"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2017-01-23"
 ---
 
 # pH-7
 
-12 pushes across 8 repositories on 7 active days in the last 90 days of public GitHub push activity.
+10 pushes across 7 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pH-7

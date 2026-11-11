@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 0, 1, 6, 0, 0, 0, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 5, 0, 0, 0, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,36 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llm-council-3D"
-    title: "llm-council-3D"
-    description: "Several AI CLIs on your subscriptions answer, anonymously rank each other, and a chairman writes the verdict, in a live 3D chamber. Ships as a Claude Code skill."
-    language: "JavaScript"
+  - name: "personal-website"
+    title: "personal-website"
+    description: "Source of tsaicy.dev"
+    language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
   - name: "swiftstudents-tw"
     title: "swiftstudents-tw"
     description: "Swift Students Taiwan community website (Astro, deployed on Cloudflare Pages)"
     language: "Astro"
     topics: []
     stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "BarHopping"
+    title: "BarHopping"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "llm-council-3D"
+    title: "llm-council-3D"
+    description: "Several AI CLIs on your subscriptions answer, anonymously rank each other, and a chairman writes the verdict, in a live 3D chamber. Ships as a Claude Code skill."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
     first_seen: null
     last_push: "2026-11-02"
   - name: "ai-audit-trail"
@@ -108,14 +124,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "personal-website"
-    title: "personal-website"
-    description: "Source of tsaicy.dev"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "ace-pitch-day"
     title: "ace-pitch-day"
     description: "ACE Club 天使輪路演活動網站與 3D 宣傳影片 · pitch.tsaicy.dev"
@@ -124,14 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-16"
-  - name: "LumaStage"
-    title: "LumaStage"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-26"
 ---
 
 # Ruxiu0409

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 0, 0, 0, 0, 7, 3, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 8, 3, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "UserB1ank"
+    title: "UserB1ank"
+    description: "A little corner for code, curiosity, and a tiny cat."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "cve_search_mcp"
     title: "cve_search_mcp"
     description: "MCP server for querying CVE vulnerabilities via CIRCL API — browse vendors/products, search CVEs, fetch CVSS scores"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-19"
+    last_push: "2026-11-09"
   - name: "EverydayRSS"
     title: "EverydayRSS"
     description: "让 AI 帮你读完今天的互联网 · 抓取 → 摘要 → 日报 → 推送,一条命令搞定"
@@ -137,23 +145,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-11"
-  - name: "stepwise-build"
-    title: "stepwise-build"
-    description: "A generic agent skill for learning software development by building projects one small, verifiable step at a time."
-    language: null
-    topics:
-      - "agent-skill"
-      - "ai-coding"
-      - "code-review"
-      - "developer-education"
-      - "guided-development"
-      - "learning-by-doing"
-      - "project-based-learning"
-      - "software-mentoring"
-      - "step-by-step"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
 ---
 
 # UserB1ank

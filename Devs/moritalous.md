@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-11T07:04:01.224448+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [1, 0, 1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "cost-widget-mac"
     title: "cost-widget-mac"
     description: null
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
   - name: "claude-managed-agents-workshop-202607"
     title: "claude-managed-agents-workshop-202607"
     description: null
