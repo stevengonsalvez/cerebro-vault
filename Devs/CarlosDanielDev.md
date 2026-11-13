@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 0, 0, 0, 2, 1, 4, 3, 4, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 2, 6, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "maestro"
+    title: "maestro"
+    description: "Maestro spawns and monitors multiple AI agent sessions working on the same project simultaneously — real-time visibility, costs, and conflict-free coordination from a single TUI. Landing page: https://carlosdanieldev.github.io/maestro/"
+    language: "Rust"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "setwave"
     title: "setwave"
     description: "Drive a GitHub epic to merged PRs wave by wave with Claude Code: one agent per git worktree, verification before relaying, merge only on your OK."
@@ -87,9 +95,17 @@ repos:
       - "claude-code-plugin"
       - "github-issues"
       - "worktree"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "aiacc"
+    title: "aiacc"
+    description: "AIACC(AI ACCOUNT) - Multiple AI Accounts!"
+    language: "Go"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-11"
   - name: "CarlosDanielDev"
     title: "CarlosDanielDev"
     description: "readme profile"
@@ -97,7 +113,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-08"
+  - name: "google-hacking-search-builder"
+    title: "google-hacking-search-builder"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "projstat"
     title: "projstat"
     description: "Project Stats"
@@ -106,39 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-31"
-  - name: "aiacc"
-    title: "aiacc"
-    description: "AIACC(AI ACCOUNT) - Multiple AI Accounts!"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "maestro"
-    title: "maestro"
-    description: "Maestro spawns and monitors multiple AI agent sessions working on the same project simultaneously — real-time visibility, costs, and conflict-free coordination from a single TUI. Landing page: https://carlosdanieldev.github.io/maestro/"
-    language: "Rust"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "aimon"
-    title: "aimon"
-    description: "Tiny TUI that watches what terminal coding agents spawn and kills orphaned workers before memory pressure drowns your machine"
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli"
-      - "devtools"
-      - "macos"
-      - "memory-pressure"
-      - "process-monitor"
-      - "rust"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
 ---
 
 # CarlosDanielDev

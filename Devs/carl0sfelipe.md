@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 1, 1, 0, 0, 2, 3, 2, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 1, 1, 0, 1, 2, 2, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "llms.surf"
+    title: "llms.surf"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "medusa-latam"
     title: "medusa-latam"
     description: "Medusa v2 plugins for Latin American stores — Brazil first (PIX, CPF/LGPD, Correios, pt-BR emails)"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "llms.surf"
-    title: "llms.surf"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "moe-anywhere"
     title: "moe-anywhere"
     description: "Run giant MoE models on the GPU you already have. Expert offloading, caching and prefetching on consumer GPUs. Sponsored by bestmodel.run"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 5, 0, 2, 1, 20, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 5, 0, 2, 1, 25, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-13"
+  - name: "maimai-knowledge-skill"
+    title: "maimai-knowledge-skill"
+    description: "🎵 舞萌DX歌曲知识库 - 支持查分/封面图/拟合难度/歌曲推荐"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-03"
   - name: "dsh-audio-rail-macos"
     title: "dsh-audio-rail-macos"
     description: "macOS only: the DSH conversation rail pulses with whatever the Mac is playing — a real 12-band spectrum that only changes bar length."
@@ -127,14 +135,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-01"
-  - name: "ngpc-scroll-tests"
-    title: "ngpc-scroll-tests"
-    description: "Original NGPC diagnostic ROMs for scanline scroll updates, with source and reference observations"
-    language: "Assembly"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
 ---
 
 # Blueteemo

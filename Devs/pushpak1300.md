@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [9, 3, 1, 2, 6, 13, 7, 17, 13, 2, 3, 1, 0]
+pushes_per_week: [3, 4, 0, 3, 13, 10, 4, 15, 13, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 12
-    active_days: 8
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 4
+    pushes: 12
+    distinct_repos: 10
+    active_days: 6
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 2
   "90d":
-    pushes: 77
-    distinct_repos: 28
-    active_days: 34
-    repos_not_owned: 25
+    pushes: 71
+    distinct_repos: 26
+    active_days: 32
+    repos_not_owned: 23
     not_owned_basenames: 18
-    not_owned_owners: 12
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 2.2647
-  repo_per_active_day: 0.8235
-  not_owned_ratio: 0.8929
-  basename_concentration: 0.2143
+  push_per_day: 2.2188
+  repo_per_active_day: 0.8125
+  not_owned_ratio: 0.8846
+  basename_concentration: 0.1538
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 12
-    pushes_per_repo: 1.3333
-    active_days: 8
-    repos_not_owned: 12
-    not_owned_basenames: 10
-    not_owned_owners: 4
+    pushes: 12
+    distinct_repos: 10
+    pushes_per_repo: 1.2000
+    active_days: 6
+    repos_not_owned: 10
+    not_owned_basenames: 9
+    not_owned_owners: 2
   "90d":
-    pushes: 77
-    distinct_repos: 28
-    pushes_per_repo: 2.7500
-    active_days: 34
-    repos_not_owned: 25
+    pushes: 71
+    distinct_repos: 26
+    pushes_per_repo: 2.7308
+    active_days: 32
+    repos_not_owned: 23
     not_owned_basenames: 18
-    not_owned_owners: 12
+    not_owned_owners: 10
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pushpak1300"
@@ -118,6 +118,6 @@ repos:
 
 # pushpak1300
 
-77 pushes across 28 repositories on 34 active days in the last 90 days of public GitHub push activity.
+71 pushes across 26 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

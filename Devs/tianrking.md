@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [2, 1, 1, 1, 23, 5, 34, 39, 6, 9, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 1, 27, 1, 43, 33, 3, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 20
-    active_days: 26
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6538
-  repo_per_active_day: 0.7692
+  push_per_day: 4.8000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.0500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 20
-    pushes_per_repo: 6.0500
-    active_days: 26
+    pushes_per_repo: 6.0000
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "stm32_microros"
@@ -129,6 +129,6 @@ repos:
 
 # tianrking
 
-121 pushes across 20 repositories on 26 active days in the last 90 days of public GitHub push activity.
+120 pushes across 20 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tianrking

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [13, 1, 1, 2, 6, 17, 15, 7, 2, 0, 2, 0, 0]
+pushes_per_week: [11, 0, 1, 3, 5, 17, 22, 0, 2, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,23 +27,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 19
-    active_days: 26
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5385
-  repo_per_active_day: 0.7308
+  push_per_day: 2.6250
+  repo_per_active_day: 0.7917
   not_owned_ratio: 0.8947
   basename_concentration: 0.0526
   shapes: []
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 66
+    pushes: 63
     distinct_repos: 19
-    pushes_per_repo: 3.4737
-    active_days: 26
+    pushes_per_repo: 3.3158
+    active_days: 24
     repos_not_owned: 17
     not_owned_basenames: 17
     not_owned_owners: 2
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deterministic-builds-google"
@@ -134,6 +134,6 @@ repos:
 
 # smorin
 
-66 pushes across 19 repositories on 26 active days in the last 90 days of public GitHub push activity.
+63 pushes across 19 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

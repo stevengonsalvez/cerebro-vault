@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [8, 3, 2, 3, 3, 0, 5, 5, 6, 0, 0, 0, 0]
+pushes_per_week: [5, 3, 2, 3, 3, 4, 6, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 14
-    active_days: 14
+    active_days: 13
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 1.0000
+  push_per_day: 2.4615
+  repo_per_active_day: 1.0769
   not_owned_ratio: 0.7143
   basename_concentration: 0.3571
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 14
-    pushes_per_repo: 2.5000
-    active_days: 14
+    pushes_per_repo: 2.2857
+    active_days: 13
     repos_not_owned: 10
     not_owned_basenames: 4
     not_owned_owners: 7
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sensor-calibration"
@@ -132,6 +132,6 @@ repos:
 
 # MagMueller
 
-35 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
+32 pushes across 14 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MagMueller

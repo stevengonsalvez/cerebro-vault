@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [16, 1, 0, 0, 0, 4, 3, 8, 4, 0, 1, 0, 0]
+pushes_per_week: [8, 0, 0, 0, 2, 3, 6, 4, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 19
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    pushes: 28
+    distinct_repos: 18
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.0556
-  repo_per_active_day: 1.0556
-  not_owned_ratio: 0.4211
-  basename_concentration: 0.1053
+  push_per_day: 1.7500
+  repo_per_active_day: 1.1250
+  not_owned_ratio: 0.3889
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 37
-    distinct_repos: 19
-    pushes_per_repo: 1.9474
-    active_days: 18
-    repos_not_owned: 8
-    not_owned_basenames: 8
-    not_owned_owners: 3
+    pushes: 28
+    distinct_repos: 18
+    pushes_per_repo: 1.5556
+    active_days: 16
+    repos_not_owned: 7
+    not_owned_basenames: 7
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-oci-kill-switch-demo"
@@ -129,6 +129,6 @@ repos:
 
 # fede-kamel
 
-37 pushes across 19 repositories on 18 active days in the last 90 days of public GitHub push activity.
+28 pushes across 18 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

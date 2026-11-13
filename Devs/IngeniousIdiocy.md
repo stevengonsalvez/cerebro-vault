@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 1, 3, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 3, 0, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "DeepSeek V4.1 Flash on the Apple M3 Ultra: Metal decode and prefill kernels, DSpark speculative decoding, KV disk store. Built on antirez/ds4 (upstream base bd66c40)."
     language: "C"
     topics: []
-    stars_fact: 10
+    stars_fact: 12
     first_seen: null
     last_push: "2026-11-02"
+  - name: "LocalLLMMailScreener"
+    title: "LocalLLMMailScreener"
+    description: "Node.js (ESM) service that polls Gmail, sends each new email to a local OpenAI-compatible LLM, and optionally forwards summarized mobile notifications based on the LLMs assessment of importance via Twilio SMS or Pushover (emergency mode). Includes a lightweight dashboard and JSON status API."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-02-23"
   - name: "shorehand"
     title: "shorehand"
     description: "Shorehand — the local answer to ChatGPT's agent containers. Open WebUI ↔ deepseek-harness (dsh) bridge: full agent chats against your own locally hosted DeepSeek V4 on Apple Silicon."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-12-14"
-  - name: "libfprint-mafp"
-    title: "libfprint-mafp"
-    description: "Open-source Linux fingerprint driver for the Microarray MAFP8800 SPI sensor (GPD MicroPC 2 and others)"
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # IngeniousIdiocy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 0, 1, 0, 0, 4, 8, 8, 4, 1, 3, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 1, 5, 10, 7, 1, 2, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 4
-    active_days: 21
+    pushes: 30
+    distinct_repos: 3
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5238
-  repo_per_active_day: 0.1905
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.2500
+  push_per_day: 1.5000
+  repo_per_active_day: 0.1500
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 32
-    distinct_repos: 4
-    pushes_per_repo: 8.0000
-    active_days: 21
+    pushes: 30
+    distinct_repos: 3
+    pushes_per_repo: 10.0000
+    active_days: 20
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "healthkit-cli"
@@ -137,6 +137,6 @@ repos:
 
 # rakshith48
 
-32 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
+30 pushes across 3 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rakshith48

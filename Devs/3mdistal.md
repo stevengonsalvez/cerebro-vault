@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [7, 3, 0, 0, 7, 11, 28, 46, 28, 42, 24, 1, 0]
+pushes_per_week: [2, 2, 0, 0, 11, 9, 38, 41, 21, 52, 14, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,24 +22,24 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 73
-    distinct_repos: 2
-    active_days: 10
-    repos_not_owned: 2
+    pushes: 67
+    distinct_repos: 1
+    active_days: 8
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 197
-    distinct_repos: 3
-    active_days: 39
+    pushes: 191
+    distinct_repos: 2
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.0513
-  repo_per_active_day: 0.0769
-  not_owned_ratio: 0.6667
+  push_per_day: 5.1622
+  repo_per_active_day: 0.0541
+  not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 73
-    distinct_repos: 2
-    pushes_per_repo: 36.5000
-    active_days: 10
-    repos_not_owned: 2
+    pushes: 67
+    distinct_repos: 1
+    pushes_per_repo: 67.0000
+    active_days: 8
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 197
-    distinct_repos: 3
-    pushes_per_repo: 65.6667
-    active_days: 39
+    pushes: 191
+    distinct_repos: 2
+    pushes_per_repo: 95.5000
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bwrb"
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-197 pushes across 3 repositories on 39 active days in the last 90 days of public GitHub push activity.
+191 pushes across 2 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

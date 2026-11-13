@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 0, 1, 0, 1, 1, 5, 0, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 1, 5, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 8
-    active_days: 9
+    active_days: 8
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.4444
-  repo_per_active_day: 0.8889
+  push_per_day: 1.3750
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.8750
   basename_concentration: 0.3750
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 13
+    pushes: 11
     distinct_repos: 8
-    pushes_per_repo: 1.6250
-    active_days: 9
+    pushes_per_repo: 1.3750
+    active_days: 8
     repos_not_owned: 7
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sveltekit-view-transition"
@@ -141,6 +141,6 @@ repos:
 
 # paoloricciuti
 
-13 pushes across 8 repositories on 9 active days in the last 90 days of public GitHub push activity.
+11 pushes across 8 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paoloricciuti

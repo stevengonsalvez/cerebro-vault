@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [25, 2, 1, 2, 0, 1, 0, 2, 28, 5, 13, 0, 1]
+pushes_per_week: [22, 0, 1, 2, 0, 1, 1, 1, 28, 5, 13, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 9
-    active_days: 22
+    pushes: 76
+    distinct_repos: 8
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6364
-  repo_per_active_day: 0.4091
+  push_per_day: 3.6190
+  repo_per_active_day: 0.3810
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1111
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 26
     distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 8
+    pushes_per_repo: 6.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 80
-    distinct_repos: 9
-    pushes_per_repo: 8.8889
-    active_days: 22
+    pushes: 76
+    distinct_repos: 8
+    pushes_per_repo: 9.5000
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "erainfra"
@@ -148,6 +148,6 @@ repos:
 
 # Fanzzzd
 
-80 pushes across 9 repositories on 22 active days in the last 90 days of public GitHub push activity.
+76 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Fanzzzd

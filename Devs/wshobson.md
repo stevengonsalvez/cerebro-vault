@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "31661aae5fd34dec"
-pushes_per_week: [6, 3, 0, 0, 1, 0, 14, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [6, 3, 0, 0, 1, 3, 16, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,7 +79,7 @@ reasons:
 repos:
   - name: "agents"
     title: "agents"
-    description: "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+    description: "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals."
     language: "Python"
     topics:
       - "agent-skills"
@@ -102,9 +102,9 @@ repos:
       - "opencode"
       - "pi-coding-agent"
       - "subagents"
-    stars_fact: 42222
+    stars_fact: 42463
     first_seen: "2026-10-21T06:01:17.877066+00:00"
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "maverick-mcp"
     title: "maverick-mcp"
     description: "Stock market MCP server for Yahoo Finance data, technical analysis, portfolio tracking, and Python backtesting. Runs locally with no API key for core tools."
@@ -130,9 +130,9 @@ repos:
       - "stocks"
       - "technical-analysis"
       - "yfinance"
-    stars_fact: 719
+    stars_fact: 726
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-09"
   - name: "wshobson"
     title: "wshobson"
     description: "About Me"
@@ -140,7 +140,7 @@ repos:
     topics: []
     stars_fact: 27
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-06"
   - name: "wshobson.github.io"
     title: "wshobson.github.io"
     description: "sethhobson.com — single-page personal site on GitHub Pages"
@@ -148,7 +148,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-06"
   - name: "financial-chat"
     title: "financial-chat"
     description: "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus."
@@ -172,7 +172,7 @@ repos:
       - "stock-market"
       - "streamlit"
       - "technical-analysis"
-    stars_fact: 236
+    stars_fact: 235
     first_seen: null
     last_push: "2025-08-10"
   - name: "minimax-dgx-spark"

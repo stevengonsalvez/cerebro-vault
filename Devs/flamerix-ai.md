@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-05T07:04:53.510161+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "94430ceaa839cbc6"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,26 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "gerda"
+    title: "gerda"
+    description: "Gerda — open-source autonomous Minecraft (+GregTech/Monifactory) bot and jsMacros bot harness, by Flamerix AI"
+    language: "TypeScript"
+    topics:
+      - "automation"
+      - "forge"
+      - "graaljs"
+      - "gregtech"
+      - "gtceu"
+      - "jsmacros"
+      - "mcp"
+      - "minecraft"
+      - "minecraft-bot"
+      - "monifactory"
+      - "pathfinding"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "flamerix-comments"
     title: "flamerix-comments"
     description: "Discussions backend for Flamerix Ai — comments only, no source here"

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "0eec722f11509f67"
   - "3cb7ff1cdcf97c6b"
@@ -19,7 +19,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [3, 0, 0, 3, 27, 44, 40, 7, 0, 4, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 3, 49, 29, 39, 1, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -36,16 +36,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 128
+    pushes: 127
     distinct_repos: 44
-    active_days: 24
+    active_days: 23
     repos_not_owned: 32
     not_owned_basenames: 32
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.3333
-  repo_per_active_day: 1.8333
+  push_per_day: 5.5217
+  repo_per_active_day: 1.9130
   not_owned_ratio: 0.7273
   basename_concentration: 0.0455
   shapes: []
@@ -72,16 +72,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 128
+    pushes: 127
     distinct_repos: 44
-    pushes_per_repo: 2.9091
-    active_days: 24
+    pushes_per_repo: 2.8864
+    active_days: 23
     repos_not_owned: 32
     not_owned_basenames: 32
     not_owned_owners: 1
 reasons:
   - "provenance: 7 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "roli-lpci"
@@ -223,6 +223,6 @@ repos:
 
 # roli-lpci
 
-128 pushes across 44 repositories on 24 active days in the last 90 days of public GitHub push activity.
+127 pushes across 44 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/roli-lpci

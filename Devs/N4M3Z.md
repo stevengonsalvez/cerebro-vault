@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [17, 5, 2, 0, 4, 21, 2, 1, 0, 4, 2, 0, 1]
+pushes_per_week: [1, 6, 0, 0, 4, 22, 1, 1, 0, 4, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 42
     distinct_repos: 10
-    active_days: 22
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6818
-  repo_per_active_day: 0.4545
+  push_per_day: 2.1000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.5000
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 59
+    pushes: 42
     distinct_repos: 10
-    pushes_per_repo: 5.9000
-    active_days: 22
+    pushes_per_repo: 4.2000
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -129,6 +129,6 @@ repos:
 
 # N4M3Z
 
-59 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
+42 pushes across 10 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

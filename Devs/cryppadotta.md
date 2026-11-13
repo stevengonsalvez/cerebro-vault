@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [15, 9, 122, 17, 28, 36, 67, 70, 146, 58, 18, 2, 9]
+pushes_per_week: [11, 47, 81, 22, 30, 34, 92, 68, 118, 60, 16, 10, 2]
 windows:
   "7d":
-    pushes: 11
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 184
+    pushes: 96
     distinct_repos: 2
-    active_days: 14
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 597
+    pushes: 591
     distinct_repos: 4
-    active_days: 65
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.1846
-  repo_per_active_day: 0.0615
+  push_per_day: 9.2344
+  repo_per_active_day: 0.0625
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 184
+    pushes: 96
     distinct_repos: 2
-    pushes_per_repo: 92.0000
-    active_days: 14
+    pushes_per_repo: 48.0000
+    active_days: 13
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 597
+    pushes: 591
     distinct_repos: 4
-    pushes_per_repo: 149.2500
-    active_days: 65
+    pushes_per_repo: 147.7500
+    active_days: 64
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 64 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "insole-studio"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-597 pushes across 4 repositories on 65 active days in the last 90 days of public GitHub push activity.
+591 pushes across 4 repositories on 64 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [21, 30, 7, 3, 22, 44, 34, 2, 6, 0, 1, 0, 0]
+pushes_per_week: [13, 28, 5, 4, 33, 45, 21, 2, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 170
+    pushes: 158
     distinct_repos: 7
-    active_days: 43
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.9535
-  repo_per_active_day: 0.1628
+  push_per_day: 3.8537
+  repo_per_active_day: 0.1707
   not_owned_ratio: 0.4286
   basename_concentration: 0.2857
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 170
+    pushes: 158
     distinct_repos: 7
-    pushes_per_repo: 24.2857
-    active_days: 43
+    pushes_per_repo: 22.5714
+    active_days: 41
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -182,6 +182,6 @@ repos:
 
 # Astro-Han
 
-170 pushes across 7 repositories on 43 active days in the last 90 days of public GitHub push activity.
+158 pushes across 7 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

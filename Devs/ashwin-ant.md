@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -57,6 +57,7 @@ provenance:
   - "7c76a455bae5923b"
   - "7cf21137c37e547b"
   - "8118f11844b1fac6"
+  - "8427d4fee9a7d1b9"
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
@@ -94,7 +95,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [2, 2, 2, 0, 1, 6, 5, 4, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 0, 0, 3, 7, 4, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -104,23 +105,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 5
-    active_days: 16
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4375
-  repo_per_active_day: 0.3125
+  push_per_day: 1.5000
+  repo_per_active_day: 0.3571
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -139,24 +140,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 16
+    pushes_per_repo: 4.2000
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
-  - "provenance: 82 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "provenance: 83 vault signal(s) — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -171,6 +172,6 @@ repos:
 
 # ashwin-ant
 
-23 pushes across 5 repositories on 16 active days in the last 90 days of public GitHub push activity.
+21 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 1, 5, 28, 4, 6, 4, 3, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 8, 27, 2, 4, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 3
-    active_days: 7
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 6
-    active_days: 24
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1667
-  repo_per_active_day: 0.2500
+  push_per_day: 2.2174
+  repo_per_active_day: 0.2609
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 7
+    pushes_per_repo: 2.6667
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 6
-    pushes_per_repo: 8.6667
-    active_days: 24
+    pushes_per_repo: 8.5000
+    active_days: 23
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kenshi-map"
@@ -155,6 +155,6 @@ repos:
 
 # RockChinQ
 
-52 pushes across 6 repositories on 24 active days in the last 90 days of public GitHub push activity.
+51 pushes across 6 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RockChinQ

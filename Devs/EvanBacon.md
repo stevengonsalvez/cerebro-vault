@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "e5d5ae888a47e4c2"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 5, 5, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 10, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,69 +85,103 @@ repos:
       - "agent"
       - "headless"
       - "ios"
-    stars_fact: 2924
+    stars_fact: 2944
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "create-symbol"
-    title: "create-symbol"
-    description: "Create SF Symbols from SVGs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 83
-    first_seen: null
-    last_push: "2026-03-23"
-  - name: "App-Store-Connect-OpenAPI-Spec"
-    title: "App-Store-Connect-OpenAPI-Spec"
-    description: "Automatically tracks every copy of the App Store Connect OpenAPI JSON Spec"
-    language: "TypeScript"
+    last_push: "2026-11-12"
+  - name: "expo-apple-targets"
+    title: "expo-apple-targets"
+    description: "Config Plugin to setup Apple targets"
+    language: "JavaScript"
     topics:
-      - "apple"
-      - "appstore"
-      - "appstore-api"
-      - "appstoreconnect"
-      - "appstoreconnectapi"
-    stars_fact: 91
+      - "app-clip"
+      - "app-extension"
+      - "apple-watch"
+      - "expo"
+      - "keyboard-extension"
+      - "live-activity"
+      - "network-extension"
+      - "safari-extension"
+      - "screen-time"
+      - "siri"
+      - "swiftui"
+      - "watchos"
+      - "widget"
+      - "widgetkit"
+    stars_fact: 1411
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "app-icon-endpoint"
-    title: "app-icon-endpoint"
-    description: "Cloud function to generate basic icons, splash screens, and favicons."
+    last_push: "2026-11-08"
+  - name: "expo-ai"
+    title: "expo-ai"
+    description: "AI chat app built with Expo Router"
     language: "TypeScript"
     topics: []
-    stars_fact: 21
+    stars_fact: 861
     first_seen: null
-    last_push: "2023-01-27"
-  - name: "expo-splash-video-example"
-    title: "expo-splash-video-example"
-    description: "Recreation of the \"Universe - Website builder\" animated splash screen effect, using Expo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 170
-    first_seen: null
-    last_push: "2023-07-12"
-  - name: "Expo-Crossy-Road"
-    title: "Expo-Crossy-Road"
-    description: "🐥🚙 Crossy Road game clone made in Expo (iOS, Android, web), THREE.js, Tween, React Native. 🐔"
-    language: "TypeScript"
+    last_push: "2025-12-09"
+  - name: "expo-doodle-jump"
+    title: "expo-doodle-jump"
+    description: null
+    language: "JavaScript"
     topics:
-      - "android"
       - "clone"
-      - "cross-platform"
-      - "crossy-road"
+      - "doodle-jump"
       - "expo"
       - "game"
+      - "javascript"
+      - "native"
+      - "react-native"
+      - "web"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2019-04-23"
+  - name: "snake"
+    title: "snake"
+    description: "🐍🎮 Snake game made with Expo & PIXI.js 👾 iOS, Android, and Web"
+    language: "JavaScript"
+    topics:
+      - "android"
+      - "expo"
+      - "game"
+      - "game-development"
       - "ios"
       - "javascript"
-      - "opengl"
+      - "pixijs"
       - "react-native"
-      - "react-navigation"
       - "reactjs"
-      - "threejs"
-      - "tween"
-      - "webgl"
-    stars_fact: 1166
+      - "snake"
+      - "snake-game"
+      - "tutorial"
+    stars_fact: 98
     first_seen: null
-    last_push: "2026-03-26"
+    last_push: "2021-08-11"
+  - name: "firebase-instagram"
+    title: "firebase-instagram"
+    description: "📸 Instagram clone with Firebase Cloud Firestore, Expo, and React Native 😁😍"
+    language: "JavaScript"
+    topics:
+      - "android"
+      - "auth"
+      - "camera"
+      - "clone"
+      - "database"
+      - "example"
+      - "expo"
+      - "firebase"
+      - "firestore"
+      - "instagram"
+      - "ios"
+      - "javascript"
+      - "mobile"
+      - "native"
+      - "nodejs"
+      - "react-native"
+      - "reactjs"
+      - "social-network"
+      - "storage"
+      - "tutorial"
+    stars_fact: 444
+    first_seen: null
+    last_push: "2019-10-05"
 ---
 
 # EvanBacon

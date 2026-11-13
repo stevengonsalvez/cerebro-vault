@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [8, 4, 2, 5, 13, 13, 30, 23, 26, 9, 3, 0, 0]
+pushes_per_week: [5, 4, 2, 8, 17, 14, 31, 14, 26, 11, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 19
     distinct_repos: 3
-    active_days: 9
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 133
     distinct_repos: 11
-    active_days: 43
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.1628
-  repo_per_active_day: 0.2558
+  push_per_day: 3.2439
+  repo_per_active_day: 0.2683
   not_owned_ratio: 0.4545
   basename_concentration: 0.5455
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 12.6667
-    active_days: 9
+    pushes_per_repo: 6.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 136
+    pushes: 133
     distinct_repos: 11
-    pushes_per_repo: 12.3636
-    active_days: 43
+    pushes_per_repo: 12.0909
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soup"
@@ -167,6 +167,6 @@ repos:
 
 # MakazhanAlpamys
 
-136 pushes across 11 repositories on 43 active days in the last 90 days of public GitHub push activity.
+133 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MakazhanAlpamys

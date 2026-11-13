@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [4, 30, 6, 15, 32, 63, 30, 20, 26, 13, 2, 2, 0]
+pushes_per_week: [4, 32, 3, 15, 57, 50, 24, 22, 18, 13, 2, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    active_days: 9
+    pushes: 20
+    distinct_repos: 10
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 242
     distinct_repos: 46
-    active_days: 52
+    active_days: 51
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.6731
-  repo_per_active_day: 0.8846
+  push_per_day: 4.7451
+  repo_per_active_day: 0.9020
   not_owned_ratio: 0.1957
   basename_concentration: 0.0435
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 9
+    pushes: 20
+    distinct_repos: 10
+    pushes_per_repo: 2.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 242
     distinct_repos: 46
-    pushes_per_repo: 5.2826
-    active_days: 52
+    pushes_per_repo: 5.2609
+    active_days: 51
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-howto"
@@ -132,6 +132,6 @@ repos:
 
 # luongnv89
 
-243 pushes across 46 repositories on 52 active days in the last 90 days of public GitHub push activity.
+242 pushes across 46 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

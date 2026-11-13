@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [11, 0, 2, 6, 9, 53, 16, 84, 8, 3, 1, 0, 0]
+pushes_per_week: [0, 0, 2, 7, 33, 30, 17, 85, 4, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,25 +27,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
-    distinct_repos: 25
-    active_days: 34
+    pushes: 182
+    distinct_repos: 21
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.6765
-  repo_per_active_day: 0.7353
+  push_per_day: 5.8710
+  repo_per_active_day: 0.6774
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0400
+  basename_concentration: 0.0476
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -62,24 +62,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 5
+    pushes_per_repo: 1.6667
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 193
-    distinct_repos: 25
-    pushes_per_repo: 7.7200
-    active_days: 34
+    pushes: 182
+    distinct_repos: 21
+    pushes_per_repo: 8.6667
+    active_days: 31
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "context-m"
@@ -167,6 +167,6 @@ repos:
 
 # ssmurfgg04-gif
 
-193 pushes across 25 repositories on 34 active days in the last 90 days of public GitHub push activity.
+182 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

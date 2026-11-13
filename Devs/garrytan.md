@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "31b3468471cae2ac"
   - "b321d228efd2bc14"
-pushes_per_week: [28, 2, 4, 2, 4, 12, 33, 197, 126, 53, 74, 3, 1]
+pushes_per_week: [16, 4, 2, 2, 4, 23, 43, 209, 93, 63, 64, 4, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 196
+    pushes: 133
     distinct_repos: 5
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 539
+    pushes: 528
     distinct_repos: 7
-    active_days: 49
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 11.0000
-  repo_per_active_day: 0.1429
+  repo_per_active_day: 0.1458
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 196
+    pushes: 133
     distinct_repos: 5
-    pushes_per_repo: 39.2000
-    active_days: 15
+    pushes_per_repo: 26.6000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 539
+    pushes: 528
     distinct_repos: 7
-    pushes_per_repo: 77.0000
-    active_days: 49
+    pushes_per_repo: 75.4286
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gbrain"
@@ -131,6 +131,6 @@ repos:
 
 # garrytan
 
-539 pushes across 7 repositories on 49 active days in the last 90 days of public GitHub push activity.
+528 pushes across 7 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

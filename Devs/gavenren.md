@@ -1,0 +1,139 @@
+---
+login: "gavenren"
+name: null
+discovered_via: "fanout"
+discovered_via_all:
+  - "fanout"
+provenance_repos:
+  - "simonw/llm"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-11-13T07:04:39.147320+00:00"
+provenance:
+  - "0eec722f11509f67"
+  - "97c4e9cb8b163ddb"
+  - "9d52bf97ae057251"
+  - "c7515e0fa4368a55"
+  - "d3abe74726b22711"
+  - "e7c647c4d0689526"
+pushes_per_week: [0, 0, 0, 1, 0, 1, 4, 0, 10, 2, 1, 0, 0]
+windows:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 19
+    distinct_repos: 6
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+automation:
+  state: "clear"
+  push_per_day: 2.1111
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.0000
+  basename_concentration: 0.1667
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 19
+    distinct_repos: 6
+    pushes_per_repo: 3.1667
+    active_days: 9
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+reasons:
+  - "provenance: 6 vault signal(s) — pass"
+  - "activity: 9 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "ai-safety-research"
+    title: "ai-safety-research"
+    description: "AI safety research with source checks, repeatable methods, and clear statements of AI use and research limits."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "mechanistic-interpretability-research"
+    title: "mechanistic-interpretability-research"
+    description: "Reproducible mechanistic interpretability studies with explicit evidence limits, code, results, and AI review."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "we-solve-reproducibility"
+    title: "we-solve-reproducibility"
+    description: "Exact reproduction programs for selected We-Solve contributions; Apache-2.0."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "ai-policy-governance-research"
+    title: "ai-policy-governance-research"
+    description: "Reproducible AI policy and governance studies with dated public sources, transparent methods, and explicit AI review status."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "qsite-2026-horizonroute-phaseguard"
+    title: "qsite-2026-horizonroute-phaseguard"
+    description: "Q-SITE 2026 Quantum Coalition projects: verified qubit routing and ANNNI phase detection under gate noise."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "neetcode-submissions"
+    title: "neetcode-submissions"
+    description: "My NeetCode.io problem submissions"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+---
+
+# gavenren
+
+19 pushes across 6 repositories on 9 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/gavenren

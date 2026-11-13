@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "9d67ce648f6a8919"
   - "c489e6fb5febf2ab"
-pushes_per_week: [20, 21, 9, 13, 17, 56, 46, 41, 24, 9, 8, 0, 1]
+pushes_per_week: [15, 24, 6, 15, 31, 50, 53, 27, 21, 12, 5, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
-    distinct_repos: 10
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 18
+    distinct_repos: 5
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 260
     distinct_repos: 21
-    active_days: 56
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.7321
-  repo_per_active_day: 0.3750
+  push_per_day: 4.8148
+  repo_per_active_day: 0.3889
   not_owned_ratio: 0.2857
   basename_concentration: 0.0952
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 38
-    distinct_repos: 10
-    pushes_per_repo: 3.8000
-    active_days: 11
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 18
+    distinct_repos: 5
+    pushes_per_repo: 3.6000
+    active_days: 8
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 265
+    pushes: 260
     distinct_repos: 21
-    pushes_per_repo: 12.6190
-    active_days: 56
+    pushes_per_repo: 12.3810
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openroutercli"
@@ -185,6 +185,6 @@ repos:
 
 # aaronjmars
 
-265 pushes across 21 repositories on 56 active days in the last 90 days of public GitHub push activity.
+260 pushes across 21 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

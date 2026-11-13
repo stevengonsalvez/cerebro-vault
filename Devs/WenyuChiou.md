@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [5, 8, 3, 1, 0, 8, 11, 26, 22, 16, 15, 0, 0]
+pushes_per_week: [1, 8, 3, 1, 2, 9, 11, 32, 13, 17, 14, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 7
-    active_days: 10
+    pushes: 31
+    distinct_repos: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 111
     distinct_repos: 11
-    active_days: 38
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0263
-  repo_per_active_day: 0.2895
+  push_per_day: 3.0833
+  repo_per_active_day: 0.3056
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 34
-    distinct_repos: 7
-    pushes_per_repo: 4.8571
-    active_days: 10
+    pushes: 31
+    distinct_repos: 4
+    pushes_per_repo: 7.7500
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 111
     distinct_repos: 11
-    pushes_per_repo: 10.4545
-    active_days: 38
+    pushes_per_repo: 10.0909
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-agentic-ai-zh"
@@ -168,6 +168,6 @@ repos:
 
 # WenyuChiou
 
-115 pushes across 11 repositories on 38 active days in the last 90 days of public GitHub push activity.
+111 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WenyuChiou

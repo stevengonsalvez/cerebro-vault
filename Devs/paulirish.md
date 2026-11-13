@@ -6,41 +6,43 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "GoogleChrome/modern-web-guidance"
+  - "GoogleChrome/modern-web-guidance-src"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
+  - "301f2d14985e5303"
   - "a4978faa7e166cdb"
-pushes_per_week: [3, 1, 1, 1, 1, 0, 2, 5, 7, 8, 0, 1, 1]
+pushes_per_week: [1, 1, 1, 1, 1, 1, 4, 2, 7, 8, 0, 2, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    active_days: 20
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 29
+    distinct_repos: 6
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5500
-  repo_per_active_day: 0.3500
-  not_owned_ratio: 0.5714
-  basename_concentration: 0.1429
+  push_per_day: 1.5263
+  repo_per_active_day: 0.3158
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 7
+    pushes_per_repo: 6.5000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
-    distinct_repos: 7
-    pushes_per_repo: 4.4286
-    active_days: 20
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 3
+    pushes: 29
+    distinct_repos: 6
+    pushes_per_repo: 4.8333
+    active_days: 19
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "chrome-capture"
@@ -133,6 +135,6 @@ repos:
 
 # paulirish
 
-31 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
+29 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulirish

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [32, 9, 15, 0, 3, 10, 1, 30, 18, 64, 55, 1, 0]
+pushes_per_week: [4, 20, 3, 0, 7, 6, 9, 23, 17, 74, 45, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 135
-    distinct_repos: 10
-    active_days: 11
-    repos_not_owned: 9
-    not_owned_basenames: 8
+    pushes: 124
+    distinct_repos: 9
+    active_days: 9
+    repos_not_owned: 8
+    not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 238
-    distinct_repos: 18
-    active_days: 39
+    pushes: 209
+    distinct_repos: 17
+    active_days: 37
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.1026
-  repo_per_active_day: 0.4615
-  not_owned_ratio: 0.6667
-  basename_concentration: 0.1667
+  push_per_day: 5.6486
+  repo_per_active_day: 0.4595
+  not_owned_ratio: 0.7059
+  basename_concentration: 0.1765
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 135
-    distinct_repos: 10
-    pushes_per_repo: 13.5000
-    active_days: 11
-    repos_not_owned: 9
-    not_owned_basenames: 8
+    pushes: 124
+    distinct_repos: 9
+    pushes_per_repo: 13.7778
+    active_days: 9
+    repos_not_owned: 8
+    not_owned_basenames: 7
     not_owned_owners: 3
   "90d":
-    pushes: 238
-    distinct_repos: 18
-    pushes_per_repo: 13.2222
-    active_days: 39
+    pushes: 209
+    distinct_repos: 17
+    pushes_per_repo: 12.2941
+    active_days: 37
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-bloom"
@@ -142,6 +142,6 @@ repos:
 
 # kitlangton
 
-238 pushes across 18 repositories on 39 active days in the last 90 days of public GitHub push activity.
+209 pushes across 17 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

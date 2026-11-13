@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [18, 17, 6, 9, 29, 14, 64, 48, 75, 16, 19, 0, 2]
+pushes_per_week: [9, 21, 2, 13, 32, 8, 77, 43, 66, 18, 17, 2, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
-    distinct_repos: 17
+    pushes: 48
+    distinct_repos: 15
     active_days: 10
-    repos_not_owned: 7
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
-    pushes: 317
-    distinct_repos: 34
+    pushes: 310
+    distinct_repos: 35
     active_days: 56
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.6607
-  repo_per_active_day: 0.6071
-  not_owned_ratio: 0.2059
-  basename_concentration: 0.1765
+  push_per_day: 5.5357
+  repo_per_active_day: 0.6250
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,22 +52,22 @@ facets:
     pushes: 2
     distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
-    distinct_repos: 17
-    pushes_per_repo: 4.5882
+    pushes: 48
+    distinct_repos: 15
+    pushes_per_repo: 3.2000
     active_days: 10
-    repos_not_owned: 7
+    repos_not_owned: 6
     not_owned_basenames: 3
-    not_owned_owners: 7
+    not_owned_owners: 6
   "90d":
-    pushes: 317
-    distinct_repos: 34
-    pushes_per_repo: 9.3235
+    pushes: 310
+    distinct_repos: 35
+    pushes_per_repo: 8.8571
     active_days: 56
     repos_not_owned: 7
     not_owned_basenames: 3
@@ -190,6 +190,6 @@ repos:
 
 # ruvnet
 
-317 pushes across 34 repositories on 56 active days in the last 90 days of public GitHub push activity.
+310 pushes across 35 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [6, 2, 2, 3, 2, 6, 14, 9, 6, 0, 2, 0, 0]
+pushes_per_week: [2, 2, 2, 3, 3, 6, 14, 8, 6, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 48
     distinct_repos: 11
-    active_days: 29
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.3793
+  push_per_day: 1.7778
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -74,24 +74,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 48
     distinct_repos: 11
-    pushes_per_repo: 4.7273
-    active_days: 29
+    pushes_per_repo: 4.3636
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-52 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+48 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [13, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,46 +23,30 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 7
     distinct_repos: 2
-    active_days: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 20
-    distinct_repos: 10
-    active_days: 4
-    repos_not_owned: 9
-    not_owned_basenames: 1
-    not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 5.0000
-  repo_per_active_day: 2.5000
-  not_owned_ratio: 0.9000
+  push_per_day: 2.3333
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.5000
   basename_concentration: 1.0000
-  shapes:
-    - "fork_farm_third_party"
-  shape_evidence:
-    - "basename concentration 1.0000 (10 of 10 repos share one basename), 9 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: OpenMontageInc/OpenMontage"
+  shapes: []
+  shape_evidence: []
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
-  fork_provenance:
-    checked: 5
-    own_upstream: 0
-    third_party: 5
-    no_upstream: 0
-    unresolved: 0
-    truncated: false
-    sampled:
-      - "abdel-darwish-27/OpenMontage"
-      - "amartya-dev/OpenMontage"
-      - "clarkhjc/OpenMontage"
-      - "ikohu-66/OpenMontage"
-      - "MoltyHeyworth/OpenMontage"
-    upstreams:
-      - "OpenMontageInc/OpenMontage"
+  fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
@@ -74,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 1
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "90d":
-    pushes: 20
-    distinct_repos: 10
-    pushes_per_repo: 2.0000
-    active_days: 4
-    repos_not_owned: 9
-    not_owned_basenames: 1
-    not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "Crucix"
@@ -212,6 +196,6 @@ repos:
 
 # calesthio
 
-20 pushes across 10 repositories on 4 active days in the last 90 days of public GitHub push activity.
+7 pushes across 2 repositories on 3 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

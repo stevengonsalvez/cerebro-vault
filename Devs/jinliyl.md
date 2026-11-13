@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [6, 1, 0, 0, 4, 9, 2, 10, 14, 2, 5, 0, 0]
+pushes_per_week: [2, 1, 0, 1, 5, 7, 7, 6, 13, 2, 5, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 8
     distinct_repos: 4
-    active_days: 6
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 53
-    distinct_repos: 8
-    active_days: 28
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 49
+    distinct_repos: 7
+    active_days: 26
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8929
-  repo_per_active_day: 0.2857
-  not_owned_ratio: 0.6250
-  basename_concentration: 0.3750
+  push_per_day: 1.8846
+  repo_per_active_day: 0.2692
+  not_owned_ratio: 0.5714
+  basename_concentration: 0.4286
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 3.7500
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 53
-    distinct_repos: 8
-    pushes_per_repo: 6.6250
-    active_days: 28
-    repos_not_owned: 5
-    not_owned_basenames: 4
+    pushes: 49
+    distinct_repos: 7
+    pushes_per_repo: 7.0000
+    active_days: 26
+    repos_not_owned: 4
+    not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YahooCrawler"
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-53 pushes across 8 repositories on 28 active days in the last 90 days of public GitHub push activity.
+49 pushes across 7 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [2, 10, 0, 1, 4, 23, 17, 7, 5, 5, 4, 0, 0]
+pushes_per_week: [0, 10, 0, 1, 8, 26, 12, 5, 5, 6, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 9
+    distinct_repos: 2
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 15
-    active_days: 32
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.4375
-  repo_per_active_day: 0.4688
+  push_per_day: 2.4516
+  repo_per_active_day: 0.4839
   not_owned_ratio: 0.3333
   basename_concentration: 0.2667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 3
-    pushes_per_repo: 4.6667
-    active_days: 7
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 5
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 15
-    pushes_per_repo: 5.2000
-    active_days: 32
+    pushes_per_repo: 5.0667
+    active_days: 31
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "freellmapi"
@@ -160,6 +160,6 @@ repos:
 
 # tashfeenahmed
 
-78 pushes across 15 repositories on 32 active days in the last 90 days of public GitHub push activity.
+76 pushes across 15 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tashfeenahmed

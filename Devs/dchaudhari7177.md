@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 2, 2, 2, 9, 6, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 0, 2, 10, 5, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 16
-    active_days: 16
+    pushes: 24
+    distinct_repos: 15
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5625
+  push_per_day: 1.6000
   repo_per_active_day: 1.0000
-  not_owned_ratio: 0.0625
-  basename_concentration: 0.0625
+  not_owned_ratio: 0.0667
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 25
-    distinct_repos: 16
-    pushes_per_repo: 1.5625
-    active_days: 16
+    pushes: 24
+    distinct_repos: 15
+    pushes_per_repo: 1.6000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "platform-pulse"
@@ -105,6 +105,6 @@ repos:
 
 # dchaudhari7177
 
-25 pushes across 16 repositories on 16 active days in the last 90 days of public GitHub push activity.
+24 pushes across 15 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dchaudhari7177

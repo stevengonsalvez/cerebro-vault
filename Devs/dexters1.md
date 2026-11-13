@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "d399d99ef4e490b6"
-pushes_per_week: [21, 0, 0, 3, 3, 10, 7, 13, 2, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 3, 11, 3, 13, 6, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 43
     distinct_repos: 2
-    active_days: 24
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6250
-  repo_per_active_day: 0.0833
+  push_per_day: 1.9545
+  repo_per_active_day: 0.0909
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 31.5000
-    active_days: 24
+    pushes_per_repo: 21.5000
+    active_days: 22
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Task-Scheduling-Based-on-Genetic-Algorithms"
@@ -129,6 +129,6 @@ repos:
 
 # dexters1
 
-63 pushes across 2 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dexters1

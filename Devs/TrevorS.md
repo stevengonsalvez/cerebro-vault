@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 5, 0, 0, 1, 53, 17, 13, 7, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 0, 0, 4, 55, 21, 5, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 4
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2174
-  repo_per_active_day: 0.1739
+  push_per_day: 4.3636
+  repo_per_active_day: 0.1818
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 97
+    pushes: 96
     distinct_repos: 4
-    pushes_per_repo: 24.2500
-    active_days: 23
+    pushes_per_repo: 24.0000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gemma-4-abliteration"
@@ -152,6 +152,6 @@ repos:
 
 # TrevorS
 
-97 pushes across 4 repositories on 23 active days in the last 90 days of public GitHub push activity.
+96 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TrevorS

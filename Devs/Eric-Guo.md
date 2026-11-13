@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 5, 5, 10, 14, 36, 31, 29, 14, 7, 15, 0, 1]
+pushes_per_week: [4, 6, 3, 13, 17, 39, 31, 24, 10, 9, 13, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 6
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 180
+    pushes: 170
     distinct_repos: 22
-    active_days: 52
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4615
-  repo_per_active_day: 0.4231
+  push_per_day: 3.4694
+  repo_per_active_day: 0.4490
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
+    pushes: 23
     distinct_repos: 6
-    pushes_per_repo: 4.3333
-    active_days: 9
+    pushes_per_repo: 3.8333
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 180
+    pushes: 170
     distinct_repos: 22
-    pushes_per_repo: 8.1818
-    active_days: 52
+    pushes_per_repo: 7.7273
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "coreui4-rails-starter"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-180 pushes across 22 repositories on 52 active days in the last 90 days of public GitHub push activity.
+170 pushes across 22 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

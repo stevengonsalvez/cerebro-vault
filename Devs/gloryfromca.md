@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "c1958731fdb78e2d"
-pushes_per_week: [6, 0, 0, 1, 2, 25, 6, 0, 3, 2, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 1, 5, 28, 0, 0, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 41
     distinct_repos: 3
-    active_days: 18
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 2.5625
+  repo_per_active_day: 0.1875
   not_owned_ratio: 1.0000
   basename_concentration: 0.6667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 2
+    distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 41
     distinct_repos: 3
-    pushes_per_repo: 15.0000
-    active_days: 18
+    pushes_per_repo: 13.6667
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "EverMemOS-v1"
@@ -129,6 +129,6 @@ repos:
 
 # gloryfromca
 
-45 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+41 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gloryfromca

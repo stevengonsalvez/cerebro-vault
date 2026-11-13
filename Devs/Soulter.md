@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 2, 1, 0, 2, 5, 17, 7, 7, 3, 1, 0, 0]
+pushes_per_week: [0, 2, 1, 0, 3, 7, 17, 5, 6, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
-    active_days: 21
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1905
-  repo_per_active_day: 0.1905
+  push_per_day: 2.2500
+  repo_per_active_day: 0.2000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 6
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 5
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 4
-    pushes_per_repo: 11.5000
-    active_days: 21
+    pushes_per_repo: 11.2500
+    active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_essential"
@@ -130,6 +130,6 @@ repos:
 
 # Soulter
 
-46 pushes across 4 repositories on 21 active days in the last 90 days of public GitHub push activity.
+45 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

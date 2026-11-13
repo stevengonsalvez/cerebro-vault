@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [21, 4, 5, 1, 1, 30, 20, 7, 22, 1, 1, 0, 0]
+pushes_per_week: [8, 5, 2, 1, 20, 14, 20, 8, 18, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,29 +22,29 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 7
     distinct_repos: 4
-    active_days: 5
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 113
-    distinct_repos: 30
-    active_days: 37
-    repos_not_owned: 27
+    pushes: 98
+    distinct_repos: 27
+    active_days: 35
+    repos_not_owned: 24
     not_owned_basenames: 4
-    not_owned_owners: 24
+    not_owned_owners: 21
 automation:
   state: "clear"
-  push_per_day: 3.0541
-  repo_per_active_day: 0.8108
-  not_owned_ratio: 0.9000
-  basename_concentration: 0.7333
+  push_per_day: 2.8000
+  repo_per_active_day: 0.7714
+  not_owned_ratio: 0.8889
+  basename_concentration: 0.7037
   shapes:
     - "fork_farm_third_party"
   shape_evidence:
-    - "basename concentration 0.7333 (22 of 30 repos share one basename), 27 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
+    - "basename concentration 0.7037 (19 of 27 repos share one basename), 24 not owned across 4 basenames — 5 of 5 sampled repos resolved; 4 fork somebody else's repo; 1 are not forks at all; upstreams: career-ops-hq/career-ops"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -55,11 +55,11 @@ automation:
     unresolved: 0
     truncated: false
     sampled:
-      - "abankar1/career-ops"
       - "AdilAzhariOmsan/career-ops"
       - "career-ops-hq/career-ops"
       - "d-ulker/career-ops"
-      - "gunjanjaswal/career-ops"
+      - "IaroslavMazur/career-ops"
+      - "ilyakanevskiy/career-ops"
     upstreams:
       - "career-ops-hq/career-ops"
   prefilter: "rest_verified"
@@ -73,24 +73,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 5
+    pushes_per_repo: 1.7500
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 113
-    distinct_repos: 30
-    pushes_per_repo: 3.7667
-    active_days: 37
-    repos_not_owned: 27
+    pushes: 98
+    distinct_repos: 27
+    pushes_per_repo: 3.6296
+    active_days: 35
+    repos_not_owned: 24
     not_owned_basenames: 4
-    not_owned_owners: 24
+    not_owned_owners: 21
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "warpchart"
@@ -190,6 +190,6 @@ repos:
 
 # santifer
 
-113 pushes across 30 repositories on 37 active days in the last 90 days of public GitHub push activity.
+98 pushes across 27 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

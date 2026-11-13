@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 1, 0, 3, 11, 38, 10, 15, 3, 1, 1, 0, 0]
+pushes_per_week: [3, 1, 0, 4, 29, 21, 19, 5, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 12
-    active_days: 31
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.8710
-  repo_per_active_day: 0.3871
+  push_per_day: 2.9655
+  repo_per_active_day: 0.4138
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 12
-    pushes_per_repo: 7.4167
-    active_days: 31
+    pushes_per_repo: 7.1667
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scarypilot"
@@ -129,6 +129,6 @@ repos:
 
 # scaryrawr
 
-89 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+86 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

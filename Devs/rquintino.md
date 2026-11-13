@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -55,6 +55,7 @@ provenance:
   - "7c76a455bae5923b"
   - "7cf21137c37e547b"
   - "8118f11844b1fac6"
+  - "8427d4fee9a7d1b9"
   - "85ddda4d481a7d84"
   - "860864df5583b9ff"
   - "8eafdf1e65e79a0b"
@@ -92,7 +93,7 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [14, 0, 0, 0, 0, 5, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 4, 1, 1, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -109,16 +110,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 10
     distinct_repos: 2
-    active_days: 9
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4444
-  repo_per_active_day: 0.2222
+  push_per_day: 1.4286
+  repo_per_active_day: 0.2857
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -145,16 +146,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 11.0000
-    active_days: 9
+    pushes_per_repo: 5.0000
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 81 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "provenance: 82 vault signal(s) — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "talks"
@@ -215,6 +216,6 @@ repos:
 
 # rquintino
 
-22 pushes across 2 repositories on 9 active days in the last 90 days of public GitHub push activity.
+10 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rquintino

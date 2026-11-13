@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 2, 1, 2, 1, 4, 3, 0, 5, 1, 1, 0, 0]
+pushes_per_week: [2, 3, 0, 2, 3, 3, 2, 0, 5, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
-    active_days: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 7
-    active_days: 20
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1500
-  repo_per_active_day: 0.3500
+  push_per_day: 1.1579
+  repo_per_active_day: 0.3684
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 7
-    pushes_per_repo: 3.2857
-    active_days: 20
+    pushes_per_repo: 3.1429
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Totoro-qaq"
@@ -167,6 +167,6 @@ repos:
 
 # Totoro-qaq
 
-23 pushes across 7 repositories on 20 active days in the last 90 days of public GitHub push activity.
+22 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Totoro-qaq

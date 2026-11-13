@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "7269783341f1a205"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "commandor"
+    title: "commandor"
+    description: "Cross-platform two-panel (orthodox) file manager in Rust + egui — early development"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "go-deepseek-web"
     title: "go-deepseek-web"
     description: "DeepSeek web interface client and an OpenAI/Anthropic/Ollama-compatible local proxy, in Go"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-05"
   - name: "nexus-cli"
     title: "nexus-cli"
     description: null
@@ -118,14 +126,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-08"
-  - name: "xamrayev"
-    title: "xamrayev"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-25"
 ---
 
 # xamrayev

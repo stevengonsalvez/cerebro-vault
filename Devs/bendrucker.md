@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [9, 4, 1, 9, 6, 18, 39, 1, 21, 14, 4, 0, 0]
+pushes_per_week: [6, 5, 0, 9, 12, 29, 22, 10, 12, 18, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 18
     distinct_repos: 3
-    active_days: 7
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 126
-    distinct_repos: 8
-    active_days: 33
+    pushes: 123
+    distinct_repos: 7
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8182
-  repo_per_active_day: 0.2424
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 3.9677
+  repo_per_active_day: 0.2258
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
+    pushes: 18
     distinct_repos: 3
-    pushes_per_repo: 10.0000
-    active_days: 7
+    pushes_per_repo: 6.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 126
-    distinct_repos: 8
-    pushes_per_repo: 15.7500
-    active_days: 33
+    pushes: 123
+    distinct_repos: 7
+    pushes_per_repo: 17.5714
+    active_days: 31
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "angular-credit-cards"
@@ -131,6 +131,6 @@ repos:
 
 # bendrucker
 
-126 pushes across 8 repositories on 33 active days in the last 90 days of public GitHub push activity.
+123 pushes across 7 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

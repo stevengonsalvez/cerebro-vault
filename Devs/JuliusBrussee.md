@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [3, 0, 1, 2, 1, 5, 6, 8, 7, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 2, 1, 5, 7, 7, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 3
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0625
-  repo_per_active_day: 0.1875
+  push_per_day: 2.1333
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 32
     distinct_repos: 3
-    pushes_per_repo: 11.0000
-    active_days: 16
+    pushes_per_repo: 10.6667
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "caveman"
@@ -155,6 +155,6 @@ repos:
 
 # JuliusBrussee
 
-33 pushes across 3 repositories on 16 active days in the last 90 days of public GitHub push activity.
+32 pushes across 3 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JuliusBrussee

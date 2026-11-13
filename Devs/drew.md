@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "6eb73169f84ce43f"
   - "98255810d4c42dd8"
-pushes_per_week: [5, 3, 0, 3, 21, 14, 11, 5, 2, 9, 0, 0, 0]
+pushes_per_week: [3, 1, 0, 6, 25, 14, 7, 2, 2, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 6
-    active_days: 30
+    active_days: 28
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.4333
-  repo_per_active_day: 0.2000
+  push_per_day: 2.4643
+  repo_per_active_day: 0.2143
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -59,24 +59,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 11.0000
-    active_days: 4
+    pushes_per_repo: 9.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 6
-    pushes_per_repo: 12.1667
-    active_days: 30
+    pushes_per_repo: 11.5000
+    active_days: 28
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "literate-engine"
@@ -99,6 +99,6 @@ repos:
 
 # drew
 
-73 pushes across 6 repositories on 30 active days in the last 90 days of public GitHub push activity.
+69 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/drew

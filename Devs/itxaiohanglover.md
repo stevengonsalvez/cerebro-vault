@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "d1946b21c02e5fa5"
-pushes_per_week: [9, 0, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+pushes_per_week: [3, 0, 4, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 9
     distinct_repos: 2
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5000
-  repo_per_active_day: 0.3333
+  push_per_day: 1.8000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 6
+    pushes_per_repo: 4.5000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "big_screen_employee_manage"
@@ -140,6 +140,6 @@ repos:
 
 # itxaiohanglover
 
-15 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 2 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/itxaiohanglover

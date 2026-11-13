@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [5, 2, 0, 1, 4, 10, 33, 11, 17, 4, 4, 0, 0]
+pushes_per_week: [5, 2, 0, 1, 6, 19, 29, 5, 16, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 3
-    active_days: 6
+    pushes: 18
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
-    distinct_repos: 3
-    pushes_per_repo: 8.0000
-    active_days: 6
+    pushes: 18
+    distinct_repos: 2
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,18 +78,26 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ai_interview"
-    title: "ai_interview"
-    description: "매일 정해진 시간에 AI가 전화를 걸어 기술 면접을 진행하는 개인 맞춤형 AI 학습 서비스"
-    language: "Kotlin"
+  - name: "order-fulfillment-sync"
+    title: "order-fulfillment-sync"
+    description: null
+    language: "Java"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-13"
   - name: "first_come-first_served"
     title: "first_come-first_served"
     description: "선착순 티켓 예매 프로그램"
     language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "ai_interview"
+    title: "ai_interview"
+    description: "매일 정해진 시간에 AI가 전화를 걸어 기술 면접을 진행하는 개인 맞춤형 AI 학습 서비스"
+    language: "Kotlin"
     topics: []
     stars_fact: 0
     first_seen: null
@@ -109,7 +117,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-10"
   - name: "stock"
     title: "stock"
     description: "기술적·재무·뉴스 데이터를 활용한 개인 투자 의사결정 지원 및 포트폴리오 관리 시스템"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "codesprint-agent"
-    title: "codesprint-agent"
-    description: "사용자의 코딩테스트 실력과 문제 풀이 과정, 오답 패턴을 분석해 부족한 Skill을 찾아내고, 개인별 수준에 맞는 문제와 학습 순서를 제공하여 코딩테스트 전 유형을 가장 효율적인 경로로 익힐 수 있도록 돕는 AI 학습 에이전트"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
 ---
 
 # gumwoo

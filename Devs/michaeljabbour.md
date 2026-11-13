@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-13T07:04:39.147320+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [13, 4, 0, 1, 2, 6, 13, 14, 0, 3, 1, 0, 0]
+pushes_per_week: [3, 3, 0, 1, 4, 11, 10, 10, 0, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 12
-    active_days: 22
+    pushes: 46
+    distinct_repos: 11
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5909
-  repo_per_active_day: 0.5455
-  not_owned_ratio: 0.0833
-  basename_concentration: 0.0833
+  push_per_day: 2.3000
+  repo_per_active_day: 0.5500
+  not_owned_ratio: 0.0909
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 57
-    distinct_repos: 12
-    pushes_per_repo: 4.7500
-    active_days: 22
+    pushes: 46
+    distinct_repos: 11
+    pushes_per_repo: 4.1818
+    active_days: 20
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "amplifier-capability-unslopper"
@@ -136,6 +136,6 @@ repos:
 
 # michaeljabbour
 
-57 pushes across 12 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michaeljabbour
