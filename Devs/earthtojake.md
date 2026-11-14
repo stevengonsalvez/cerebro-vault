@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "05a74004d0aa7653"
-pushes_per_week: [12, 1, 1, 0, 10, 5, 28, 22, 1, 3, 2, 0, 1]
+pushes_per_week: [6, 1, 1, 0, 14, 2, 33, 16, 1, 3, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 80
     distinct_repos: 4
-    active_days: 28
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0714
-  repo_per_active_day: 0.1429
+  push_per_day: 2.9630
+  repo_per_active_day: 0.1481
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
+    pushes: 80
     distinct_repos: 4
-    pushes_per_repo: 21.5000
-    active_days: 28
+    pushes_per_repo: 20.0000
+    active_days: 27
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "text-to-cad"
@@ -151,6 +151,6 @@ repos:
 
 # earthtojake
 
-86 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
+80 pushes across 4 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/earthtojake

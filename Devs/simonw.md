@@ -19,11 +19,12 @@ provenance_repos:
   - "simonw/llm-openrouter"
   - "simonw/python-lib-template-repository"
   - "simonw/research"
+  - "simonw/tools"
   - "simonw/ttok"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "0eec722f11509f67"
@@ -31,6 +32,7 @@ provenance:
   - "3eacb4655aba2497"
   - "481b19745d66d642"
   - "4d3291c25d56323b"
+  - "669c695badc4b0d0"
   - "8fb5759dbc71eb5a"
   - "97c4e9cb8b163ddb"
   - "98a2deac3e2f9725"
@@ -46,7 +48,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [1, 1, 0, 2, 8, 7, 3, 5, 10, 3, 1, 0, 0]
+pushes_per_week: [2, 0, 0, 2, 12, 3, 3, 5, 10, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -107,7 +109,7 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
-  - "provenance: 21 vault signal(s) — pass"
+  - "provenance: 22 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

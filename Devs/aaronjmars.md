@@ -5,16 +5,14 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "alibaba/open-code-review"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "9d67ce648f6a8919"
-  - "c489e6fb5febf2ab"
-pushes_per_week: [15, 24, 6, 15, 31, 50, 53, 27, 21, 12, 5, 1, 0]
+pushes_per_week: [15, 21, 5, 14, 40, 48, 53, 20, 21, 13, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 260
+    pushes: 255
     distinct_repos: 21
-    active_days: 54
+    active_days: 53
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.8148
-  repo_per_active_day: 0.3889
+  push_per_day: 4.8113
+  repo_per_active_day: 0.3962
   not_owned_ratio: 0.2857
   basename_concentration: 0.0952
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 260
+    pushes: 255
     distinct_repos: 21
-    pushes_per_repo: 12.3810
-    active_days: 54
+    pushes_per_repo: 12.1429
+    active_days: 53
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openroutercli"
@@ -185,6 +183,6 @@ repos:
 
 # aaronjmars
 
-260 pushes across 21 repositories on 54 active days in the last 90 days of public GitHub push activity.
+255 pushes across 21 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

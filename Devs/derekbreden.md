@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [22, 54, 8, 6, 49, 86, 32, 48, 18, 16, 31, 1, 3]
+pushes_per_week: [16, 55, 7, 7, 62, 71, 41, 38, 18, 18, 29, 1, 3]
 windows:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 374
-    distinct_repos: 3
-    active_days: 61
+    pushes: 366
+    distinct_repos: 2
+    active_days: 60
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.1311
-  repo_per_active_day: 0.0492
+  push_per_day: 6.1000
+  repo_per_active_day: 0.0333
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 374
-    distinct_repos: 3
-    pushes_per_repo: 124.6667
-    active_days: 61
+    pushes: 366
+    distinct_repos: 2
+    pushes_per_repo: 183.0000
+    active_days: 60
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 60 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homesodamachine"
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-374 pushes across 3 repositories on 61 active days in the last 90 days of public GitHub push activity.
+366 pushes across 2 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

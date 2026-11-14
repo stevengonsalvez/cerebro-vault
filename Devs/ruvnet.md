@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [9, 21, 2, 13, 32, 8, 77, 43, 66, 18, 17, 2, 2]
+pushes_per_week: [12, 16, 3, 12, 32, 42, 52, 37, 62, 26, 9, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
-    distinct_repos: 15
-    active_days: 10
-    repos_not_owned: 6
-    not_owned_basenames: 3
-    not_owned_owners: 6
+    pushes: 39
+    distinct_repos: 11
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 310
-    distinct_repos: 35
-    active_days: 56
+    pushes: 307
+    distinct_repos: 34
+    active_days: 55
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.5357
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.1714
+  push_per_day: 5.5818
+  repo_per_active_day: 0.6182
+  not_owned_ratio: 0.2059
+  basename_concentration: 0.1765
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 48
-    distinct_repos: 15
-    pushes_per_repo: 3.2000
-    active_days: 10
-    repos_not_owned: 6
-    not_owned_basenames: 3
-    not_owned_owners: 6
+    pushes: 39
+    distinct_repos: 11
+    pushes_per_repo: 3.5455
+    active_days: 9
+    repos_not_owned: 3
+    not_owned_basenames: 2
+    not_owned_owners: 3
   "90d":
-    pushes: 310
-    distinct_repos: 35
-    pushes_per_repo: 8.8571
-    active_days: 56
+    pushes: 307
+    distinct_repos: 34
+    pushes_per_repo: 9.0294
+    active_days: 55
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RuView"
@@ -190,6 +190,6 @@ repos:
 
 # ruvnet
 
-310 pushes across 35 repositories on 56 active days in the last 90 days of public GitHub push activity.
+307 pushes across 34 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

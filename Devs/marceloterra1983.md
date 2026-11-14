@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [17, 24, 4, 4, 1, 23, 5, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [17, 23, 3, 4, 2, 26, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 5
-    active_days: 25
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1200
-  repo_per_active_day: 0.2000
+  push_per_day: 3.1667
+  repo_per_active_day: 0.2083
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
+    pushes: 76
     distinct_repos: 5
-    pushes_per_repo: 15.6000
-    active_days: 25
+    pushes_per_repo: 15.2000
+    active_days: 24
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jumba"
+    title: "jumba"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # marceloterra1983
 
-78 pushes across 5 repositories on 25 active days in the last 90 days of public GitHub push activity.
+76 pushes across 5 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/marceloterra1983

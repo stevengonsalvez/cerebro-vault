@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [3, 1, 0, 1, 13, 28, 12, 3, 11, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 1, 30, 11, 13, 7, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 5
-    active_days: 23
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.1739
-  repo_per_active_day: 0.2174
+  push_per_day: 3.2727
+  repo_per_active_day: 0.2273
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 72
     distinct_repos: 5
-    pushes_per_repo: 14.6000
-    active_days: 23
+    pushes_per_repo: 14.4000
+    active_days: 22
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aryeh-stark"
@@ -91,6 +91,6 @@ repos:
 
 # aryeh-stark
 
-73 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
+72 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryeh-stark

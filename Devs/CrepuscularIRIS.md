@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [8, 1, 0, 4, 0, 0, 2, 1, 2, 27, 18, 0, 0]
+pushes_per_week: [6, 1, 0, 4, 0, 0, 2, 1, 2, 30, 15, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 11
-    active_days: 17
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7059
-  repo_per_active_day: 0.6471
+  push_per_day: 3.8125
+  repo_per_active_day: 0.6875
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
+    pushes: 61
     distinct_repos: 11
-    pushes_per_repo: 5.7273
-    active_days: 17
+    pushes_per_repo: 5.5455
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CUA-Daily"
@@ -174,6 +174,6 @@ repos:
 
 # CrepuscularIRIS
 
-63 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+61 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CrepuscularIRIS

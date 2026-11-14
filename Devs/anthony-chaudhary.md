@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [48, 45, 4, 20, 35, 43, 19, 16, 35, 7, 6, 0, 1]
+pushes_per_week: [44, 37, 5, 23, 42, 31, 24, 15, 31, 8, 5, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 266
     distinct_repos: 2
-    active_days: 54
+    active_days: 53
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.1667
-  repo_per_active_day: 0.0370
+  push_per_day: 5.0189
+  repo_per_active_day: 0.0377
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 6
+    pushes_per_repo: 14.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 279
+    pushes: 266
     distinct_repos: 2
-    pushes_per_repo: 139.5000
-    active_days: 54
+    pushes_per_repo: 133.0000
+    active_days: 53
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -168,6 +168,6 @@ repos:
 
 # anthony-chaudhary
 
-279 pushes across 2 repositories on 54 active days in the last 90 days of public GitHub push activity.
+266 pushes across 2 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

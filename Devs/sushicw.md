@@ -6,13 +6,15 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "google/agents-cli"
+  - "google/elephant-goldfish-model"
   - "google/skills"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-06T07:05:09.991843+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "3e957fd6543f31bd"
+  - "5b77ba33d5d838fc"
   - "ad904a51b1769854"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
@@ -75,7 +77,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:

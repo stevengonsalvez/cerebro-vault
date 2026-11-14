@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [22, 11, 5, 5, 20, 43, 40, 25, 13, 57, 18, 1, 1]
+pushes_per_week: [21, 11, 5, 6, 27, 41, 39, 22, 11, 62, 13, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 23
-    active_days: 10
+    active_days: 9
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 261
+    pushes: 260
     distinct_repos: 64
-    active_days: 52
+    active_days: 51
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.0192
-  repo_per_active_day: 1.2308
+  push_per_day: 5.0980
+  repo_per_active_day: 1.2549
   not_owned_ratio: 0.3125
   basename_concentration: 0.0156
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 78
+    pushes: 77
     distinct_repos: 23
-    pushes_per_repo: 3.3913
-    active_days: 10
+    pushes_per_repo: 3.3478
+    active_days: 9
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
   "90d":
-    pushes: 261
+    pushes: 260
     distinct_repos: 64
-    pushes_per_repo: 4.0781
-    active_days: 52
+    pushes_per_repo: 4.0625
+    active_days: 51
     repos_not_owned: 20
     not_owned_basenames: 20
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kabe"
@@ -129,6 +129,6 @@ repos:
 
 # takumi3488
 
-261 pushes across 64 repositories on 52 active days in the last 90 days of public GitHub push activity.
+260 pushes across 64 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/takumi3488

@@ -3,17 +3,16 @@ login: "calesthio"
 name: null
 discovered_via: "vault"
 discovered_via_all:
-  - "fanout"
   - "vault"
 provenance_repos:
   - "calesthio/OpenMontage"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 0, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

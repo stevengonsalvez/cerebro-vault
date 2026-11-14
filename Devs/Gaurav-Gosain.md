@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "a8880d67c967e370"
-pushes_per_week: [1, 2, 0, 0, 11, 12, 43, 53, 31, 45, 23, 2, 4]
+pushes_per_week: [0, 2, 0, 0, 13, 10, 50, 47, 30, 49, 19, 2, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 74
     distinct_repos: 6
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 226
     distinct_repos: 13
-    active_days: 38
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.9737
-  repo_per_active_day: 0.3421
+  push_per_day: 6.1081
+  repo_per_active_day: 0.3514
   not_owned_ratio: 0.1538
   basename_concentration: 0.2308
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 81
+    pushes: 74
     distinct_repos: 6
-    pushes_per_repo: 13.5000
-    active_days: 12
+    pushes_per_repo: 12.3333
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 227
+    pushes: 226
     distinct_repos: 13
-    pushes_per_repo: 17.4615
-    active_days: 38
+    pushes_per_repo: 17.3846
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "tuios"
@@ -166,6 +166,6 @@ repos:
 
 # Gaurav-Gosain
 
-227 pushes across 13 repositories on 38 active days in the last 90 days of public GitHub push activity.
+226 pushes across 13 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gaurav-Gosain

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "0388a4f55f4206c8"
   - "0577669e18ed3998"
@@ -44,7 +44,7 @@ provenance:
   - "e26852201e6f38fc"
   - "f4325bf458dce49e"
   - "f8edf485bd740dbb"
-pushes_per_week: [1, 8, 2, 1, 13, 12, 64, 65, 50, 79, 42, 3, 0]
+pushes_per_week: [2, 6, 2, 1, 15, 19, 79, 44, 47, 87, 34, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -54,25 +54,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 126
+    pushes: 124
     distinct_repos: 19
-    active_days: 12
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 340
-    distinct_repos: 31
-    active_days: 43
+    pushes: 339
+    distinct_repos: 30
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.9070
-  repo_per_active_day: 0.7209
-  not_owned_ratio: 0.1613
-  basename_concentration: 0.0645
+  push_per_day: 8.0714
+  repo_per_active_day: 0.7143
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -89,24 +89,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 126
+    pushes: 124
     distinct_repos: 19
-    pushes_per_repo: 6.6316
-    active_days: 12
+    pushes_per_repo: 6.5263
+    active_days: 11
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 340
-    distinct_repos: 31
-    pushes_per_repo: 10.9677
-    active_days: 43
+    pushes: 339
+    distinct_repos: 30
+    pushes_per_repo: 11.3000
+    active_days: 42
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 33 vault signal(s) — pass"
-  - "activity: 43 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "public-inbox"
@@ -129,6 +129,6 @@ repos:
 
 # tamird
 
-340 pushes across 31 repositories on 43 active days in the last 90 days of public GitHub push activity.
+339 pushes across 30 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tamird

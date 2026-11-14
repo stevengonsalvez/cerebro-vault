@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "24e1aea537d2f659"
 pushes_per_week: [0, 0, 0, 2, 1, 7, 1, 2, 8, 4, 0, 0, 0]
@@ -23,12 +23,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 25
     distinct_repos: 2
@@ -58,13 +58,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 25
     distinct_repos: 2
@@ -98,9 +98,9 @@ repos:
       - "prompt-injection"
       - "secret-scanning"
       - "typescript"
-    stars_fact: 129
+    stars_fact: 250
     first_seen: "2026-11-06T07:00:54.836294+00:00"
-    last_push: "2026-11-06"
+    last_push: "2026-11-13"
   - name: "stroq-action"
     title: "stroq-action"
     description: "Fails a pull request that adds hooks, MCP servers, editor tasks or settings that an AI coding agent or editor runs by itself."
@@ -124,7 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-14"
   - name: "halyk-covenant"
     title: "halyk-covenant"
     description: "Covenant compliance pipeline for the Halyk AI Challenge — reads messy financial documents and decides breach / actual / evidence per covenant. 35/36 on the public set."

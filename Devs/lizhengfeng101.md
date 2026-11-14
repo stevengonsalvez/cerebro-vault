@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "c489e6fb5febf2ab"
   - "d1946b21c02e5fa5"
-pushes_per_week: [2, 2, 1, 0, 5, 6, 4, 1, 2, 2, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 0, 6, 5, 4, 1, 2, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 6
-    active_days: 19
+    active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.3158
-  repo_per_active_day: 0.3158
+  push_per_day: 1.3333
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 25
+    pushes: 24
     distinct_repos: 6
-    pushes_per_repo: 4.1667
-    active_days: 19
+    pushes_per_repo: 4.0000
+    active_days: 18
     repos_not_owned: 6
     not_owned_basenames: 1
     not_owned_owners: 6
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lizhengfeng101"
@@ -100,6 +100,6 @@ repos:
 
 # lizhengfeng101
 
-25 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
+24 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lizhengfeng101

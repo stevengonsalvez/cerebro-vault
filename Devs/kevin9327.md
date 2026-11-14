@@ -5,16 +5,18 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "addyosmani/agent-skills"
   - "akitaonrails/ai-memory"
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
-pushes_per_week: [42, 2, 3, 1, 42, 10, 6, 2, 0, 5, 6, 1, 0]
+  - "dae9f02535f7c22f"
+pushes_per_week: [40, 2, 2, 1, 42, 10, 6, 2, 0, 8, 3, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +33,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 117
     distinct_repos: 28
-    active_days: 27
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4444
-  repo_per_active_day: 1.0370
+  push_per_day: 4.5000
+  repo_per_active_day: 1.0769
   not_owned_ratio: 0.0000
   basename_concentration: 0.0357
   shapes: []
@@ -67,16 +69,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 117
     distinct_repos: 28
-    pushes_per_repo: 4.2857
-    active_days: 27
+    pushes_per_repo: 4.1786
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "provenance: 3 vault signal(s) — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -155,6 +157,6 @@ repos:
 
 # kevin9327
 
-120 pushes across 28 repositories on 27 active days in the last 90 days of public GitHub push activity.
+117 pushes across 28 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

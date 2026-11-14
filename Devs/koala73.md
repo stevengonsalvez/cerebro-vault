@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [39, 7, 8, 14, 31, 59, 33, 42, 17, 27, 11, 3, 2]
+pushes_per_week: [30, 9, 7, 20, 33, 52, 35, 40, 14, 31, 7, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 1
-    active_days: 12
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 293
+    pushes: 283
     distinct_repos: 5
-    active_days: 60
+    active_days: 59
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 4.8833
-  repo_per_active_day: 0.0833
+  push_per_day: 4.7966
+  repo_per_active_day: 0.0847
   not_owned_ratio: 0.8000
   basename_concentration: 1.0000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 44
+    pushes: 43
     distinct_repos: 1
-    pushes_per_repo: 44.0000
-    active_days: 12
+    pushes_per_repo: 43.0000
+    active_days: 11
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 293
+    pushes: 283
     distinct_repos: 5
-    pushes_per_repo: 58.6000
-    active_days: 60
+    pushes_per_repo: 56.6000
+    active_days: 59
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worldmonitor"
@@ -141,6 +141,6 @@ repos:
 
 # koala73
 
-293 pushes across 5 repositories on 60 active days in the last 90 days of public GitHub push activity.
+283 pushes across 5 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

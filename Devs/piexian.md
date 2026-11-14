@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 1, 0, 1, 2, 9, 12, 3, 7, 2, 3, 1, 0]
+pushes_per_week: [2, 1, 0, 1, 4, 10, 9, 5, 5, 3, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    active_days: 6
+    pushes: 6
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 16
-    active_days: 28
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6071
-  repo_per_active_day: 0.5714
+  push_per_day: 1.5926
+  repo_per_active_day: 0.5926
   not_owned_ratio: 0.1250
   basename_concentration: 0.0625
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
-    active_days: 6
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 16
-    pushes_per_repo: 2.8125
-    active_days: 28
+    pushes_per_repo: 2.6875
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_mmx_cli_tool"
@@ -141,6 +141,6 @@ repos:
 
 # piexian
 
-45 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
+43 pushes across 16 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

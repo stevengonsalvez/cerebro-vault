@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 1, 3, 34, 6, 1, 2, 0, 2, 0, 1]
+pushes_per_week: [1, 0, 0, 2, 7, 29, 6, 1, 2, 0, 2, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2

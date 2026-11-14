@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [51, 36, 4, 21, 32, 49, 107, 59, 106, 8, 17, 0, 0]
+pushes_per_week: [49, 23, 2, 24, 43, 50, 103, 53, 101, 13, 12, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    active_days: 7
-    repos_not_owned: 13
+    pushes: 25
+    distinct_repos: 12
+    active_days: 6
+    repos_not_owned: 11
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 490
+    pushes: 473
     distinct_repos: 38
-    active_days: 55
+    active_days: 54
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 8.9091
-  repo_per_active_day: 0.6909
+  push_per_day: 8.7593
+  repo_per_active_day: 0.7037
   not_owned_ratio: 0.9737
   basename_concentration: 0.2105
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 33
-    distinct_repos: 14
-    pushes_per_repo: 2.3571
-    active_days: 7
-    repos_not_owned: 13
+    pushes: 25
+    distinct_repos: 12
+    pushes_per_repo: 2.0833
+    active_days: 6
+    repos_not_owned: 11
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 490
+    pushes: 473
     distinct_repos: 38
-    pushes_per_repo: 12.8947
-    active_days: 55
+    pushes_per_repo: 12.4474
+    active_days: 54
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pydata-book"
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-490 pushes across 38 repositories on 55 active days in the last 90 days of public GitHub push activity.
+473 pushes across 38 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

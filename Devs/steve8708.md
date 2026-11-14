@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [42, 50, 12, 58, 716, 902, 254, 103, 84, 55, 29, 1, 0]
+pushes_per_week: [33, 45, 5, 76, 992, 682, 193, 104, 70, 62, 22, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 3
     active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2306
+    pushes: 2286
     distinct_repos: 5
     active_days: 60
     repos_not_owned: 5
@@ -38,39 +38,39 @@ windows:
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 38.4333
+  push_per_day: 38.1000
   repo_per_active_day: 0.0833
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "38.43 pushes per active day over 90d (2306 pushes / 60 active days), above the 15 review line"
+    - "38.10 pushes per active day over 90d (2286 pushes / 60 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 89
+    pushes: 86
     distinct_repos: 3
-    pushes_per_repo: 29.6667
+    pushes_per_repo: 28.6667
     active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2306
+    pushes: 2286
     distinct_repos: 5
-    pushes_per_repo: 461.2000
+    pushes_per_repo: 457.2000
     active_days: 60
     repos_not_owned: 5
     not_owned_basenames: 1
@@ -132,6 +132,6 @@ repos:
 
 # steve8708
 
-2306 pushes across 5 repositories on 60 active days in the last 90 days of public GitHub push activity.
+2286 pushes across 5 repositories on 60 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

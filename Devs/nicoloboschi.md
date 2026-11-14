@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [17, 6, 5, 20, 12, 38, 22, 30, 16, 12, 3, 0, 0]
+pushes_per_week: [9, 6, 5, 20, 14, 37, 21, 30, 16, 13, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 4
-    active_days: 8
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 181
-    distinct_repos: 22
-    active_days: 47
+    pushes: 173
+    distinct_repos: 21
+    active_days: 45
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 12
 automation:
   state: "clear"
-  push_per_day: 3.8511
-  repo_per_active_day: 0.4681
-  not_owned_ratio: 0.6364
-  basename_concentration: 0.5455
+  push_per_day: 3.8444
+  repo_per_active_day: 0.4667
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.5714
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 15
     distinct_repos: 4
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.7500
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 181
-    distinct_repos: 22
-    pushes_per_repo: 8.2273
-    active_days: 47
+    pushes: 173
+    distinct_repos: 21
+    pushes_per_repo: 8.2381
+    active_days: 45
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 12
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sheepit"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-181 pushes across 22 repositories on 47 active days in the last 90 days of public GitHub push activity.
+173 pushes across 21 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

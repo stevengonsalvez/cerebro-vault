@@ -7,17 +7,15 @@ discovered_via_all:
 provenance_repos:
   - "affaan-m/ECC"
   - "apache/maka"
-  - "calesthio/OpenMontage"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
-  - "6d3bd03b49986330"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 13, 7, 3, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 2, 13, 7, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

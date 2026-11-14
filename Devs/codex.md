@@ -7,15 +7,13 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
-  - "calesthio/OpenMontage"
   - "get-bb/bb"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-09-03T13:56:17.862335+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "5296c7a0f81cc1ae"
-  - "6d3bd03b49986330"
   - "90688bf127241ceb"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
@@ -78,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos: []

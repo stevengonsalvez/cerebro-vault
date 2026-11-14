@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [3, 0, 0, 0, 31, 47, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 50, 28, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
-    distinct_repos: 35
-    active_days: 11
+    pushes: 80
+    distinct_repos: 34
+    active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 7.5455
-  repo_per_active_day: 3.1818
-  not_owned_ratio: 0.2571
-  basename_concentration: 0.0286
+  push_per_day: 8.0000
+  repo_per_active_day: 3.4000
+  not_owned_ratio: 0.2647
+  basename_concentration: 0.0294
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 83
-    distinct_repos: 35
-    pushes_per_repo: 2.3714
-    active_days: 11
+    pushes: 80
+    distinct_repos: 34
+    pushes_per_repo: 2.3529
+    active_days: 10
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-hermes-agent"
@@ -176,6 +176,6 @@ repos:
 
 # 0xNyk
 
-83 pushes across 35 repositories on 11 active days in the last 90 days of public GitHub push activity.
+80 pushes across 34 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/0xNyk

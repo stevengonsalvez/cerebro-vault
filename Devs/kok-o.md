@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "24e1aea537d2f659"
-pushes_per_week: [1, 1, 0, 0, 6, 7, 11, 8, 7, 5, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 7, 8, 12, 6, 6, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 4
+    pushes_per_repo: 1.6667
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "soup-kernel-lab"
-    title: "soup-kernel-lab"
-    description: "Independent Soup training experiments with a GitHub-fed Kaggle notebook and preserved qualified baseline"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
   - name: "contextos-agents"
     title: "contextos-agents"
     description: "Deterministic context and policy compiler for supported AI coding agents."
@@ -103,7 +95,23 @@ repos:
       - "zed"
     stars_fact: 10
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-10"
+  - name: "cqa-hackathon-2026"
+    title: "cqa-hackathon-2026"
+    description: "SetW | AI-оценка диалогов RU/KZ/EN: 8 критериев, доказательства, апелляции и экспорт DEV/PROD. React, FastAPI, SQLite. Freedom Broker CQA Hackathon 2026."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "soup-kernel-lab"
+    title: "soup-kernel-lab"
+    description: "Independent Soup training experiments with a GitHub-fed Kaggle notebook and preserved qualified baseline"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "my-site"
     title: "my-site"
     description: "My website"
@@ -134,32 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "story-forecaster"
-    title: "story-forecaster"
-    description: "Predict story developments and write leak-free fanfic continuations with AI."
-    language: "Python"
-    topics:
-      - "bm25"
-      - "computational-narratology"
-      - "creative-writing"
-      - "creative-writing-ai"
-      - "fanfiction"
-      - "fastapi"
-      - "gemini"
-      - "llm"
-      - "model-agnostic"
-      - "narrative-intelligence"
-      - "narrative-structure"
-      - "neuro-symbolic"
-      - "nlp"
-      - "pydantic"
-      - "python"
-      - "rag"
-      - "story-generation"
-      - "theory-of-mind"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-20"
 ---
 
 # kok-o

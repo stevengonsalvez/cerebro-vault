@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [11, 14, 3, 9, 86, 123, 199, 32, 7, 53, 31, 3, 0]
+pushes_per_week: [10, 11, 3, 16, 93, 127, 181, 33, 6, 57, 27, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 31
     not_owned_owners: 3
   "90d":
-    pushes: 571
+    pushes: 567
     distinct_repos: 99
-    active_days: 56
+    active_days: 55
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.1964
-  repo_per_active_day: 1.7679
+  push_per_day: 10.3091
+  repo_per_active_day: 1.8000
   not_owned_ratio: 0.9394
   basename_concentration: 0.0202
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 31
     not_owned_owners: 3
   "90d":
-    pushes: 571
+    pushes: 567
     distinct_repos: 99
-    pushes_per_repo: 5.7677
-    active_days: 56
+    pushes_per_repo: 5.7273
+    active_days: 55
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CybotTM"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-571 pushes across 99 repositories on 56 active days in the last 90 days of public GitHub push activity.
+567 pushes across 99 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

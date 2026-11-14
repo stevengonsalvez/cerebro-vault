@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [6, 6, 1, 0, 6, 6, 12, 3, 4, 5, 1, 0, 0]
+pushes_per_week: [6, 5, 0, 2, 5, 7, 12, 2, 3, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 12
-    active_days: 34
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4706
-  repo_per_active_day: 0.3529
+  push_per_day: 1.5000
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.2500
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
+    pushes: 48
     distinct_repos: 12
-    pushes_per_repo: 4.1667
-    active_days: 34
+    pushes_per_repo: 4.0000
+    active_days: 32
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Make-Bilibili-Great-Than-Ever-Before"
@@ -158,6 +158,6 @@ repos:
 
 # SukkaW
 
-50 pushes across 12 repositories on 34 active days in the last 90 days of public GitHub push activity.
+48 pushes across 12 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

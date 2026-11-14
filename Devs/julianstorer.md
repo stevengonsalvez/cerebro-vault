@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "ffbd582f5e4111de"
-pushes_per_week: [1, 4, 1, 0, 3, 2, 8, 6, 3, 3, 1, 0, 0]
+pushes_per_week: [1, 4, 0, 1, 2, 2, 9, 5, 3, 3, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 3
-    active_days: 24
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.1250
+  push_per_day: 1.3478
+  repo_per_active_day: 0.1304
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 32
+    pushes: 31
     distinct_repos: 3
-    pushes_per_repo: 10.6667
-    active_days: 24
+    pushes_per_repo: 10.3333
+    active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GLADriver"
@@ -89,6 +89,6 @@ repos:
 
 # julianstorer
 
-32 pushes across 3 repositories on 24 active days in the last 90 days of public GitHub push activity.
+31 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/julianstorer

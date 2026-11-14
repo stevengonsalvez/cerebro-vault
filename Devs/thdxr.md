@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 2, 1, 1, 7, 6, 0, 1, 7, 6, 4, 2, 2]
+pushes_per_week: [3, 2, 1, 2, 10, 2, 0, 1, 7, 7, 3, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 5
-    active_days: 8
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 4
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 8
-    active_days: 26
+    active_days: 25
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6538
-  repo_per_active_day: 0.3077
+  push_per_day: 1.6800
+  repo_per_active_day: 0.3200
   not_owned_ratio: 1.0000
   basename_concentration: 0.1250
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 8
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 4
+    pushes_per_repo: 3.5000
+    active_days: 7
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 8
-    pushes_per_repo: 5.3750
-    active_days: 26
+    pushes_per_repo: 5.2500
+    active_days: 25
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "environment"
@@ -130,6 +130,6 @@ repos:
 
 # thdxr
 
-43 pushes across 8 repositories on 26 active days in the last 90 days of public GitHub push activity.
+42 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/thdxr

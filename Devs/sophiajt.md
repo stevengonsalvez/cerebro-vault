@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "b5545247abc68902"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "rustyjit"
+    title: "rustyjit"
+    description: "A JIT experiment in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 146
+    first_seen: null
+    last_push: "2024-06-30"
   - name: "nu_app"
     title: "nu_app"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 21
     first_seen: null
     last_push: "2011-02-04"
-  - name: "jaktnesmonster"
-    title: "jaktnesmonster"
-    description: null
-    language: "CMake"
-    topics: []
-    stars_fact: 79
-    first_seen: null
-    last_push: "2025-03-30"
 ---
 
 # sophiajt

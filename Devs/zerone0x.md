@@ -9,14 +9,16 @@ provenance_repos:
   - "agavra/tuicr"
   - "alirezarezvani/claude-skills"
   - "anomalyco/opencode"
+  - "backnotprop/plannotator"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
+  - "e6357f1e7e944cc8"
   - "ffccace0ba14fd15"
 pushes_per_week: [1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]
 windows:
@@ -79,7 +81,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 5 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 3, 0, 0, 0, 13, 52, 303, 10, 37, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 0, 0, 15, 56, 298, 9, 37, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 420
+    pushes: 419
     distinct_repos: 10
-    active_days: 30
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 14.0000
-  repo_per_active_day: 0.3333
+  push_per_day: 14.4483
+  repo_per_active_day: 0.3448
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 420
+    pushes: 419
     distinct_repos: 10
-    pushes_per_repo: 42.0000
-    active_days: 30
+    pushes_per_repo: 41.9000
+    active_days: 29
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "squad-pod"
@@ -140,6 +140,6 @@ repos:
 
 # swigerb
 
-420 pushes across 10 repositories on 30 active days in the last 90 days of public GitHub push activity.
+419 pushes across 10 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [16, 10, 1, 0, 1, 8, 3, 12, 26, 9, 15, 1, 1]
+pushes_per_week: [12, 6, 1, 1, 1, 7, 4, 12, 25, 12, 12, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 11
-    active_days: 10
+    active_days: 9
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 103
+    pushes: 95
     distinct_repos: 23
-    active_days: 36
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.8611
-  repo_per_active_day: 0.6389
+  push_per_day: 2.7143
+  repo_per_active_day: 0.6571
   not_owned_ratio: 0.3043
   basename_concentration: 0.3478
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
+    pushes: 26
     distinct_repos: 11
-    pushes_per_repo: 2.5455
-    active_days: 10
+    pushes_per_repo: 2.3636
+    active_days: 9
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 103
+    pushes: 95
     distinct_repos: 23
-    pushes_per_repo: 4.4783
-    active_days: 36
+    pushes_per_repo: 4.1304
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jModGuard"
@@ -145,6 +145,6 @@ repos:
 
 # jatmn
 
-103 pushes across 23 repositories on 36 active days in the last 90 days of public GitHub push activity.
+95 pushes across 23 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

@@ -11,28 +11,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-14T07:04:52.615903+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [31, 41, 7, 43, 89, 89, 147, 130, 119, 117, 97, 0, 2]
+pushes_per_week: [31, 35, 7, 44, 134, 69, 164, 92, 113, 132, 82, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 243
+    pushes: 217
     distinct_repos: 8
     active_days: 12
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 912
+    pushes: 906
     distinct_repos: 33
     active_days: 67
     repos_not_owned: 32
@@ -40,7 +40,7 @@ windows:
     not_owned_owners: 30
 automation:
   state: "clear"
-  push_per_day: 13.6119
+  push_per_day: 13.5224
   repo_per_active_day: 0.4925
   not_owned_ratio: 0.9697
   basename_concentration: 0.9091
@@ -68,25 +68,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "30d":
-    pushes: 243
+    pushes: 217
     distinct_repos: 8
-    pushes_per_repo: 30.3750
+    pushes_per_repo: 27.1250
     active_days: 12
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 5
   "90d":
-    pushes: 912
+    pushes: 906
     distinct_repos: 33
-    pushes_per_repo: 27.6364
+    pushes_per_repo: 27.4545
     active_days: 67
     repos_not_owned: 32
     not_owned_basenames: 4
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-912 pushes across 33 repositories on 67 active days in the last 90 days of public GitHub push activity.
+906 pushes across 33 repositories on 67 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker
