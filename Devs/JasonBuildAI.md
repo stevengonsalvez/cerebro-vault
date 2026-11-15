@@ -8,17 +8,15 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
   - "alibaba/open-code-review"
   - "apache/maka"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "4d1450729e6ff44d"
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 1, 2, 6, 5, 29, 7, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 1, 4, 4, 22, 13, 6, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,7 +77,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 4 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

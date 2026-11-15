@@ -9,16 +9,16 @@ artifact_tags: [cerebro/signal]
 workflow_tags: []
 source: github
 url: https://github.com/anthropics/skills
-score: 0.90
-reason: "Official Claude Agent Skills repo, core agent mechanics"
+score: 0.75
+reason: "Official agent skills repo, core to coding-agent workflows."
 repo: "anthropics/skills"
-stars: "295"
+stars: "6,220"
 captured: 2026-08-12T06:00:08.419954+00:00
 rating:
 ---
 # anthropics/skills: Public repository for Agent Skills
 
-> Official Claude Agent Skills repo, core agent mechanics
+> Official agent skills repo, core to coding-agent workflows.
 
 Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io.
 Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.

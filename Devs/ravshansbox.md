@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -94,33 +94,33 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 3, 0, 0, 0, 0, 8, 24, 161, 6, 15, 1, 0]
+pushes_per_week: [3, 3, 0, 0, 0, 2, 6, 84, 101, 18, 3, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 12
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 221
+    pushes: 223
     distinct_repos: 27
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 14.7333
-  repo_per_active_day: 1.8000
+  push_per_day: 13.9375
+  repo_per_active_day: 1.6875
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -131,32 +131,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 12
-    pushes_per_repo: 1.8333
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 221
+    pushes: 223
     distinct_repos: 27
-    pushes_per_repo: 8.1852
-    active_days: 15
+    pushes_per_repo: 8.2593
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 83 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-anthropic"
@@ -220,6 +220,6 @@ repos:
 
 # ravshansbox
 
-221 pushes across 27 repositories on 15 active days in the last 90 days of public GitHub push activity.
+223 pushes across 27 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

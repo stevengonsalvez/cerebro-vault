@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 26, 3, 9, 16, 15, 6, 18, 12, 11, 8, 6, 1]
+pushes_per_week: [5, 28, 5, 5, 20, 11, 11, 14, 12, 17, 1, 6, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
-    distinct_repos: 6
-    active_days: 8
+    pushes: 28
+    distinct_repos: 7
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 138
-    distinct_repos: 13
+    distinct_repos: 14
     active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 3.2857
-  repo_per_active_day: 0.3095
-  not_owned_ratio: 0.2308
-  basename_concentration: 0.1538
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.2143
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
-    distinct_repos: 6
-    pushes_per_repo: 4.3333
-    active_days: 8
+    pushes: 28
+    distinct_repos: 7
+    pushes_per_repo: 4.0000
+    active_days: 9
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 138
-    distinct_repos: 13
-    pushes_per_repo: 10.6154
+    distinct_repos: 14
+    pushes_per_repo: 9.8571
     active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-138 pushes across 13 repositories on 42 active days in the last 90 days of public GitHub push activity.
+138 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

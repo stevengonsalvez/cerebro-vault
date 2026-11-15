@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "59f086ad2f833f7e"
-pushes_per_week: [2, 2, 4, 11, 9, 67, 53, 20, 22, 14, 6, 0, 0]
+pushes_per_week: [2, 2, 7, 12, 14, 80, 31, 25, 17, 20, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 2
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 210
+    pushes: 212
     distinct_repos: 4
-    active_days: 37
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.6757
-  repo_per_active_day: 0.1081
+  push_per_day: 5.5789
+  repo_per_active_day: 0.1053
   not_owned_ratio: 0.5000
   basename_concentration: 0.7500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 10.0000
-    active_days: 4
+    pushes_per_repo: 11.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 210
+    pushes: 212
     distinct_repos: 4
-    pushes_per_repo: 52.5000
-    active_days: 37
+    pushes_per_repo: 53.0000
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "biome-anti-slop"
@@ -134,6 +134,6 @@ repos:
 
 # NorbertBodziony
 
-210 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
+212 pushes across 4 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NorbertBodziony

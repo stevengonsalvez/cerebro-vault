@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 2, 0, 4, 7, 10, 43, 41, 15, 58, 8, 1, 0]
+pushes_per_week: [2, 2, 0, 4, 10, 23, 28, 46, 9, 63, 3, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
-    distinct_repos: 1
-    active_days: 8
+    pushes: 68
+    distinct_repos: 2
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 191
-    distinct_repos: 2
-    active_days: 37
+    pushes: 192
+    distinct_repos: 3
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.1622
-  repo_per_active_day: 0.0541
-  not_owned_ratio: 1.0000
-  basename_concentration: 1.0000
+  push_per_day: 5.0526
+  repo_per_active_day: 0.0789
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 67
-    distinct_repos: 1
-    pushes_per_repo: 67.0000
-    active_days: 8
+    pushes: 68
+    distinct_repos: 2
+    pushes_per_repo: 34.0000
+    active_days: 9
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 191
-    distinct_repos: 2
-    pushes_per_repo: 95.5000
-    active_days: 37
+    pushes: 192
+    distinct_repos: 3
+    pushes_per_repo: 64.0000
+    active_days: 38
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "bwrb"
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-191 pushes across 2 repositories on 37 active days in the last 90 days of public GitHub push activity.
+192 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

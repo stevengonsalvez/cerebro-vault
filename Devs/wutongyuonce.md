@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "apache/maka"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 1, 1, 6, 11, 9, 7, 2, 4, 4, 0, 0, 0]
+pushes_per_week: [3, 1, 0, 8, 10, 11, 4, 2, 4, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

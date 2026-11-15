@@ -7,16 +7,14 @@ discovered_via_all:
 provenance_repos:
   - "AlexsJones/llmfit"
   - "apache/maka"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [17, 5, 2, 8, 9, 4, 10, 6, 4, 3, 5, 0, 0]
+pushes_per_week: [15, 4, 1, 11, 6, 4, 11, 6, 3, 5, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 27
-    active_days: 37
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.9730
-  repo_per_active_day: 0.7297
+  push_per_day: 1.9167
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.1852
   basename_concentration: 0.0741
   shapes: []
@@ -69,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 73
+    pushes: 69
     distinct_repos: 27
-    pushes_per_repo: 2.7037
-    active_days: 37
+    pushes_per_repo: 2.5556
+    active_days: 36
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "youtube-download"
@@ -134,6 +132,6 @@ repos:
 
 # luojiyin1987
 
-73 pushes across 27 repositories on 37 active days in the last 90 days of public GitHub push activity.
+69 pushes across 27 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

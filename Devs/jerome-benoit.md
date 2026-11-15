@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [10, 18, 2, 21, 29, 58, 56, 18, 18, 12, 4, 1, 1]
+pushes_per_week: [16, 13, 2, 22, 33, 66, 45, 23, 10, 13, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 248
+    pushes: 247
     distinct_repos: 19
-    active_days: 55
+    active_days: 54
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.5091
-  repo_per_active_day: 0.3455
+  push_per_day: 4.5741
+  repo_per_active_day: 0.3519
   not_owned_ratio: 0.4211
   basename_concentration: 0.1579
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 3
   "90d":
-    pushes: 248
+    pushes: 247
     distinct_repos: 19
-    pushes_per_repo: 13.0526
-    active_days: 55
+    pushes_per_repo: 13.0000
+    active_days: 54
     repos_not_owned: 8
     not_owned_basenames: 7
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dotfiles"
@@ -133,6 +133,6 @@ repos:
 
 # jerome-benoit
 
-248 pushes across 19 repositories on 55 active days in the last 90 days of public GitHub push activity.
+247 pushes across 19 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

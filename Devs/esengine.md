@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [16, 5, 1, 9, 18, 79, 130, 56, 123, 41, 11, 2, 0]
+pushes_per_week: [13, 3, 3, 12, 18, 115, 108, 76, 86, 46, 4, 2, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 2
-    active_days: 11
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 491
+    pushes: 488
     distinct_repos: 7
     active_days: 53
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.2642
+  push_per_day: 9.2075
   repo_per_active_day: 0.1321
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 56
     distinct_repos: 2
-    pushes_per_repo: 27.0000
-    active_days: 11
+    pushes_per_repo: 28.0000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 491
+    pushes: 488
     distinct_repos: 7
-    pushes_per_repo: 70.1429
+    pushes_per_repo: 69.7143
     active_days: 53
     repos_not_owned: 4
     not_owned_basenames: 1
@@ -182,6 +182,6 @@ repos:
 
 # esengine
 
-491 pushes across 7 repositories on 53 active days in the last 90 days of public GitHub push activity.
+488 pushes across 7 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

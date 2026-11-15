@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [11, 7, 1, 4, 22, 29, 31, 25, 10, 1, 8, 0, 0]
+pushes_per_week: [10, 8, 0, 6, 21, 30, 31, 29, 4, 6, 3, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 11
-    active_days: 41
+    active_days: 40
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.6341
-  repo_per_active_day: 0.2683
+  push_per_day: 3.7000
+  repo_per_active_day: 0.2750
   not_owned_ratio: 0.8182
   basename_concentration: 0.4545
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 148
     distinct_repos: 11
-    pushes_per_repo: 13.5455
-    active_days: 41
+    pushes_per_repo: 13.4545
+    active_days: 40
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "personal-site"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-149 pushes across 11 repositories on 41 active days in the last 90 days of public GitHub push activity.
+148 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

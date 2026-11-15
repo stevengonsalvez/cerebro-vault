@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 1, 0, 1, 28, 37, 21, 12, 14, 4, 3, 1, 2]
+pushes_per_week: [0, 1, 0, 4, 33, 31, 27, 14, 4, 7, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 5
-    active_days: 33
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.7879
-  repo_per_active_day: 0.1515
+  push_per_day: 3.8750
+  repo_per_active_day: 0.1562
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 125
+    pushes: 124
     distinct_repos: 5
-    pushes_per_repo: 25.0000
-    active_days: 33
+    pushes_per_repo: 24.8000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cq-toolkit"
@@ -129,6 +129,6 @@ repos:
 
 # camerontaylor
 
-125 pushes across 5 repositories on 33 active days in the last 90 days of public GitHub push activity.
+124 pushes across 5 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/camerontaylor

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [49, 23, 2, 24, 43, 50, 103, 53, 101, 13, 12, 0, 0]
+pushes_per_week: [38, 13, 2, 27, 49, 60, 95, 68, 75, 23, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 473
+    pushes: 450
     distinct_repos: 38
-    active_days: 54
+    active_days: 53
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 8.7593
-  repo_per_active_day: 0.7037
+  push_per_day: 8.4906
+  repo_per_active_day: 0.7170
   not_owned_ratio: 0.9737
   basename_concentration: 0.2105
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 473
+    pushes: 450
     distinct_repos: 38
-    pushes_per_repo: 12.4474
-    active_days: 54
+    pushes_per_repo: 11.8421
+    active_days: 53
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pydata-book"
@@ -129,6 +129,6 @@ repos:
 
 # wesm
 
-473 pushes across 38 repositories on 54 active days in the last 90 days of public GitHub push activity.
+450 pushes across 38 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

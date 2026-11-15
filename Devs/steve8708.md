@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [33, 45, 5, 76, 992, 682, 193, 104, 70, 62, 22, 1, 1]
+pushes_per_week: [27, 42, 5, 147, 1016, 628, 152, 119, 57, 78, 4, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,22 +30,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2286
+    pushes: 2277
     distinct_repos: 5
-    active_days: 60
+    active_days: 59
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 38.1000
-  repo_per_active_day: 0.0833
+  push_per_day: 38.5932
+  repo_per_active_day: 0.0847
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "38.10 pushes per active day over 90d (2286 pushes / 60 active days), above the 15 review line"
+    - "38.59 pushes per active day over 90d (2277 pushes / 59 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 3
   "90d":
-    pushes: 2286
+    pushes: 2277
     distinct_repos: 5
-    pushes_per_repo: 457.2000
-    active_days: 60
+    pushes_per_repo: 455.4000
+    active_days: 59
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-browser-benchmark"
@@ -132,6 +132,6 @@ repos:
 
 # steve8708
 
-2286 pushes across 5 repositories on 60 active days in the last 90 days of public GitHub push activity.
+2277 pushes across 5 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 9, 1, 4, 6, 44, 59, 15, 3, 2, 1, 0, 0]
+pushes_per_week: [8, 6, 3, 3, 10, 59, 45, 9, 4, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 151
+    pushes: 149
     distinct_repos: 20
     active_days: 35
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3143
+  push_per_day: 4.2571
   repo_per_active_day: 0.5714
   not_owned_ratio: 0.1000
   basename_concentration: 0.0500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 151
+    pushes: 149
     distinct_repos: 20
-    pushes_per_repo: 7.5500
+    pushes_per_repo: 7.4500
     active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -160,6 +160,6 @@ repos:
 
 # ReidenXerx
 
-151 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
+149 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

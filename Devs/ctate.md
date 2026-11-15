@@ -11,29 +11,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "0dadaefdea9260e5"
   - "23746973c38c4e68"
   - "401c6af5b51d16a5"
-pushes_per_week: [11, 3, 1, 2, 7, 33, 33, 39, 35, 76, 40, 2, 0]
+pushes_per_week: [7, 2, 1, 3, 7, 36, 34, 37, 37, 102, 9, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 118
+    pushes: 119
     distinct_repos: 2
-    active_days: 10
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 278
     distinct_repos: 9
     active_days: 47
     repos_not_owned: 9
@@ -41,7 +41,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0000
+  push_per_day: 5.9149
   repo_per_active_day: 0.1915
   not_owned_ratio: 1.0000
   basename_concentration: 0.1111
@@ -53,25 +53,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 118
+    pushes: 119
     distinct_repos: 2
-    pushes_per_repo: 59.0000
-    active_days: 10
+    pushes_per_repo: 59.5000
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 282
+    pushes: 278
     distinct_repos: 9
-    pushes_per_repo: 31.3333
+    pushes_per_repo: 30.8889
     active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -142,6 +142,6 @@ repos:
 
 # ctate
 
-282 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+278 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ctate

@@ -6,16 +6,14 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "affaan-m/ECC"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 0, 0, 0, 9, 2, 0, 0, 5, 0, 0, 1]
+pushes_per_week: [2, 0, 0, 0, 0, 9, 2, 0, 0, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +74,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

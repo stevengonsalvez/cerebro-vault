@@ -10,29 +10,29 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 0, 1, 1, 28, 8, 2, 12, 1, 1, 10, 0, 0]
+pushes_per_week: [2, 0, 1, 1, 29, 7, 2, 13, 0, 11, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 2
+    pushes: 12
+    distinct_repos: 8
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 67
-    distinct_repos: 24
+    distinct_repos: 25
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -40,9 +40,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 3.5263
-  repo_per_active_day: 1.2632
-  not_owned_ratio: 0.0417
-  basename_concentration: 0.0417
+  repo_per_active_day: 1.3158
+  not_owned_ratio: 0.0400
+  basename_concentration: 0.0400
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 2
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 67
-    distinct_repos: 24
-    pushes_per_repo: 2.7917
+    distinct_repos: 25
+    pushes_per_repo: 2.6800
     active_days: 19
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -168,6 +168,6 @@ repos:
 
 # costajohnt
 
-67 pushes across 24 repositories on 19 active days in the last 90 days of public GitHub push activity.
+67 pushes across 25 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/costajohnt

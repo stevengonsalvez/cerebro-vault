@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 3, 0, 0, 0, 6, 19, 5, 30, 25, 22, 3, 0]
+pushes_per_week: [1, 3, 0, 0, 0, 9, 17, 13, 21, 45, 2, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 115
-    distinct_repos: 5
-    active_days: 29
+    pushes: 114
+    distinct_repos: 4
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.9655
-  repo_per_active_day: 0.1724
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.4000
+  push_per_day: 4.0714
+  repo_per_active_day: 0.1429
+  not_owned_ratio: 0.5000
+  basename_concentration: 0.5000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 115
-    distinct_repos: 5
-    pushes_per_repo: 23.0000
-    active_days: 29
+    pushes: 114
+    distinct_repos: 4
+    pushes_per_repo: 28.5000
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "attention"
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-115 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+114 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

@@ -7,16 +7,14 @@ discovered_via_all:
 provenance_repos:
   - "abhigyanpatwari/GitNexus"
   - "alibaba/page-agent"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [3, 1, 1, 0, 0, 8, 2, 0, 0, 2, 1, 0, 0]
+pushes_per_week: [3, 1, 1, 0, 1, 7, 2, 0, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

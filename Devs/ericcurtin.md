@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 5, 2, 7, 11, 22, 62, 28, 32, 4, 2, 0, 0]
+pushes_per_week: [1, 6, 2, 8, 11, 29, 69, 21, 24, 4, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 5
-    active_days: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 176
+    pushes: 177
     distinct_repos: 42
-    active_days: 44
+    active_days: 45
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.9545
+  push_per_day: 3.9333
+  repo_per_active_day: 0.9333
   not_owned_ratio: 0.2857
   basename_concentration: 0.0952
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 5
+    pushes_per_repo: 1.4000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 176
+    pushes: 177
     distinct_repos: 42
-    pushes_per_repo: 4.1905
-    active_days: 44
+    pushes_per_repo: 4.2143
+    active_days: 45
     repos_not_owned: 12
     not_owned_basenames: 8
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "algoclerk"
@@ -129,6 +129,6 @@ repos:
 
 # ericcurtin
 
-176 pushes across 42 repositories on 44 active days in the last 90 days of public GitHub push activity.
+177 pushes across 42 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ericcurtin

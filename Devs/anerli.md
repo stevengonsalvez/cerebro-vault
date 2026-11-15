@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "0241e600b90d751e"
-pushes_per_week: [2, 0, 0, 2, 0, 3, 5, 1, 3, 0, 1, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 3, 6, 1, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3077
-  repo_per_active_day: 0.1538
+  push_per_day: 1.3333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 13
+    pushes_per_repo: 8.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "effect-mini-harness"
@@ -129,6 +129,6 @@ repos:
 
 # anerli
 
-17 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anerli

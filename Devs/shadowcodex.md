@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 2, 0, 0, 3, 1, 2, 2, 3, 18, 7, 1, 0]
+pushes_per_week: [4, 0, 0, 0, 3, 2, 1, 2, 3, 20, 5, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
-    distinct_repos: 8
+    pushes: 41
+    distinct_repos: 7
     active_days: 17
-    repos_not_owned: 8
+    repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5294
-  repo_per_active_day: 0.4706
+  push_per_day: 2.4118
+  repo_per_active_day: 0.4118
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,11 +65,11 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
-    distinct_repos: 8
-    pushes_per_repo: 5.3750
+    pushes: 41
+    distinct_repos: 7
+    pushes_per_repo: 5.8571
     active_days: 17
-    repos_not_owned: 8
+    repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 2
 reasons:
@@ -145,6 +145,6 @@ repos:
 
 # shadowcodex
 
-43 pushes across 8 repositories on 17 active days in the last 90 days of public GitHub push activity.
+41 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shadowcodex

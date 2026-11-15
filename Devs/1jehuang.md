@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [4, 10, 0, 1, 17, 50, 20, 12, 75, 40, 10, 2, 1]
+pushes_per_week: [6, 6, 1, 0, 28, 53, 9, 27, 58, 42, 7, 3, 0]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 242
+    pushes: 240
     distinct_repos: 11
-    active_days: 40
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0500
-  repo_per_active_day: 0.2750
+  push_per_day: 6.1538
+  repo_per_active_day: 0.2821
   not_owned_ratio: 0.0909
   basename_concentration: 0.1818
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 242
+    pushes: 240
     distinct_repos: 11
-    pushes_per_repo: 22.0000
-    active_days: 40
+    pushes_per_repo: 21.8182
+    active_days: 39
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jcode"
@@ -148,6 +148,6 @@ repos:
 
 # 1jehuang
 
-242 pushes across 11 repositories on 40 active days in the last 90 days of public GitHub push activity.
+240 pushes across 11 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/1jehuang

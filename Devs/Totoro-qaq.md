@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "apache/maka"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 3, 0, 2, 4, 3, 1, 0, 5, 1, 1, 0, 0]
+pushes_per_week: [0, 3, 0, 2, 4, 3, 1, 1, 4, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 7
-    active_days: 19
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1579
-  repo_per_active_day: 0.3684
+  push_per_day: 1.1111
+  repo_per_active_day: 0.3889
   not_owned_ratio: 0.0000
   basename_concentration: 0.1429
   shapes: []
@@ -67,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 22
+    pushes: 20
     distinct_repos: 7
-    pushes_per_repo: 3.1429
-    active_days: 19
+    pushes_per_repo: 2.8571
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Totoro-qaq"
@@ -167,6 +165,6 @@ repos:
 
 # Totoro-qaq
 
-22 pushes across 7 repositories on 19 active days in the last 90 days of public GitHub push activity.
+20 pushes across 7 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Totoro-qaq

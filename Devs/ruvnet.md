@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [12, 16, 3, 12, 32, 42, 52, 37, 62, 26, 9, 2, 2]
+pushes_per_week: [13, 11, 2, 24, 21, 50, 52, 47, 43, 35, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 307
+    pushes: 302
     distinct_repos: 34
-    active_days: 55
+    active_days: 53
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.5818
-  repo_per_active_day: 0.6182
+  push_per_day: 5.6981
+  repo_per_active_day: 0.6415
   not_owned_ratio: 0.2059
   basename_concentration: 0.1765
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 307
+    pushes: 302
     distinct_repos: 34
-    pushes_per_repo: 9.0294
-    active_days: 55
+    pushes_per_repo: 8.8824
+    active_days: 53
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "RuView"
@@ -190,6 +190,6 @@ repos:
 
 # ruvnet
 
-307 pushes across 34 repositories on 55 active days in the last 90 days of public GitHub push activity.
+302 pushes across 34 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

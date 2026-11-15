@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "24e1aea537d2f659"
-pushes_per_week: [1, 1, 0, 0, 7, 8, 12, 6, 6, 5, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 10, 9, 10, 4, 7, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 8
-    active_days: 25
+    pushes: 45
+    distinct_repos: 7
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8400
-  repo_per_active_day: 0.3200
-  not_owned_ratio: 0.1250
-  basename_concentration: 0.1250
+  push_per_day: 1.8750
+  repo_per_active_day: 0.2917
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.1429
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 8
-    pushes_per_repo: 5.7500
-    active_days: 25
+    pushes: 45
+    distinct_repos: 7
+    pushes_per_repo: 6.4286
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "contextos-agents"
@@ -146,6 +146,6 @@ repos:
 
 # kok-o
 
-46 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
+45 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kok-o

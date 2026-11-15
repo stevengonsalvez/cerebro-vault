@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 0, 2, 16, 34, 41, 27, 29, 9, 4, 1, 0]
+pushes_per_week: [0, 0, 0, 2, 17, 52, 26, 29, 23, 13, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 164
+    pushes: 163
     distinct_repos: 8
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.4324
-  repo_per_active_day: 0.2162
+  push_per_day: 4.5278
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 164
+    pushes: 163
     distinct_repos: 8
-    pushes_per_repo: 20.5000
-    active_days: 37
+    pushes_per_repo: 20.3750
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "xollama"
@@ -129,6 +129,6 @@ repos:
 
 # mann1x
 
-164 pushes across 8 repositories on 37 active days in the last 90 days of public GitHub push activity.
+163 pushes across 8 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mann1x

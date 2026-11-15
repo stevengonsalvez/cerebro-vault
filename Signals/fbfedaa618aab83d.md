@@ -2,21 +2,21 @@
 title: "v2.1.314"
 category: coding-agents-llm
 tags: [ai/agents, cerebro/signal, release-notes]
-topic_tags: [release-notes, ai/agents]
+topic_tags: [ai/agents, release-notes]
 source_tags: []
 entity_tags: []
 artifact_tags: [cerebro/signal]
 workflow_tags: []
 source: rss
 url: https://github.com/anthropics/claude-code/releases/tag/v2.1.314
-score: 0.85
-reason: "Claude Code release: write-path permission controls, core agent tooling"
+score: 0.95
+reason: "Claude Code changelog: write-path restriction permission setting."
 captured: 2026-10-31T07:00:36.161916+00:00
 rating:
 ---
 # v2.1.314
 
-> Claude Code release: write-path permission controls, core agent tooling
+> Claude Code changelog: write-path restriction permission setting.
 
 <h2>What's changed</h2>
 <ul>

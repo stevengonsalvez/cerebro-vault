@@ -6,13 +6,11 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "alibaba/open-code-review"
-  - "bytedance/deer-flow"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
-  - "16389f32495280ea"
   - "c489e6fb5febf2ab"
 pushes_per_week: [1, 2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

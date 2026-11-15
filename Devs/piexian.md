@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 1, 0, 1, 4, 10, 9, 5, 5, 3, 2, 1, 0]
+pushes_per_week: [1, 1, 1, 0, 5, 12, 6, 5, 6, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 16
-    active_days: 27
+    active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.5926
-  repo_per_active_day: 0.5926
+  push_per_day: 1.6154
+  repo_per_active_day: 0.6154
   not_owned_ratio: 0.1250
   basename_concentration: 0.0625
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 16
-    pushes_per_repo: 2.6875
-    active_days: 27
+    pushes_per_repo: 2.6250
+    active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_mmx_cli_tool"
@@ -141,6 +141,6 @@ repos:
 
 # piexian
 
-43 pushes across 16 repositories on 27 active days in the last 90 days of public GitHub push activity.
+42 pushes across 16 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/piexian

@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-15T07:04:32.881787+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 2, 0, 7, 7, 10, 15, 14, 1, 9, 16, 0, 1]
+pushes_per_week: [2, 2, 0, 7, 7, 13, 12, 14, 1, 25, 0, 1, 1]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 5
-    active_days: 6
+    pushes: 27
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 17
-    active_days: 27
+    pushes: 85
+    distinct_repos: 18
+    active_days: 28
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.1111
-  repo_per_active_day: 0.6296
-  not_owned_ratio: 0.7647
-  basename_concentration: 0.1765
+  push_per_day: 3.0357
+  repo_per_active_day: 0.6429
+  not_owned_ratio: 0.7222
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 6
+    pushes: 27
+    distinct_repos: 6
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 84
-    distinct_repos: 17
-    pushes_per_repo: 4.9412
-    active_days: 27
+    pushes: 85
+    distinct_repos: 18
+    pushes_per_repo: 4.7222
+    active_days: 28
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rical-1876"
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-84 pushes across 17 repositories on 27 active days in the last 90 days of public GitHub push activity.
+85 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda
