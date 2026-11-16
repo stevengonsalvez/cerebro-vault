@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "fae7e9e22c64821d"
-pushes_per_week: [2, 6, 15, 11, 19, 49, 30, 15, 16, 3, 0, 0, 1]
+pushes_per_week: [2, 4, 15, 11, 25, 44, 34, 11, 15, 3, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 1
-    active_days: 44
+    active_days: 43
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7955
-  repo_per_active_day: 0.0227
+  push_per_day: 3.8372
+  repo_per_active_day: 0.0233
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 1
-    pushes_per_repo: 167.0000
-    active_days: 44
+    pushes_per_repo: 165.0000
+    active_days: 43
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "opencode-browser"
@@ -132,6 +132,6 @@ repos:
 
 # benjaminshafii
 
-167 pushes across 1 repository on 44 active days in the last 90 days of public GitHub push activity.
+165 pushes across 1 repository on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/benjaminshafii

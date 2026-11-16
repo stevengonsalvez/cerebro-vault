@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "cb8f252ccaaf10b0"
-pushes_per_week: [10, 14, 1, 13, 5, 18, 24, 24, 10, 10, 0, 2, 0]
+pushes_per_week: [13, 10, 9, 7, 3, 21, 43, 12, 1, 9, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 130
     distinct_repos: 3
-    active_days: 38
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4474
-  repo_per_active_day: 0.0789
+  push_per_day: 3.5135
+  repo_per_active_day: 0.0811
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 130
     distinct_repos: 3
-    pushes_per_repo: 43.6667
-    active_days: 38
+    pushes_per_repo: 43.3333
+    active_days: 37
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mcp-c64"
@@ -144,6 +144,6 @@ repos:
 
 # cliffhall
 
-131 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
+130 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cliffhall

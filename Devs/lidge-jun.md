@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [28, 21, 27, 85, 169, 176, 92, 63, 22, 149, 7, 1, 6]
+pushes_per_week: [17, 27, 52, 58, 181, 178, 88, 58, 26, 143, 0, 1, 10]
 windows:
   "7d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 163
+    pushes: 167
     distinct_repos: 5
-    active_days: 11
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 846
+    pushes: 839
     distinct_repos: 44
     active_days: 62
     repos_not_owned: 32
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 25
 automation:
   state: "clear"
-  push_per_day: 13.6452
+  push_per_day: 13.5323
   repo_per_active_day: 0.7097
   not_owned_ratio: 0.7273
   basename_concentration: 0.5455
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 3.5000
+    pushes_per_repo: 5.0000
     active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 163
+    pushes: 167
     distinct_repos: 5
-    pushes_per_repo: 32.6000
-    active_days: 11
+    pushes_per_repo: 33.4000
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
   "90d":
-    pushes: 846
+    pushes: 839
     distinct_repos: 44
-    pushes_per_repo: 19.2273
+    pushes_per_repo: 19.0682
     active_days: 62
     repos_not_owned: 32
     not_owned_basenames: 10
@@ -177,6 +177,6 @@ repos:
 
 # lidge-jun
 
-846 pushes across 44 repositories on 62 active days in the last 90 days of public GitHub push activity.
+839 pushes across 44 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/lidge-jun

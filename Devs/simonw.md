@@ -24,7 +24,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "0eec722f11509f67"
@@ -48,7 +48,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [2, 0, 0, 2, 13, 2, 4, 4, 11, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 5, 10, 2, 4, 10, 5, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0

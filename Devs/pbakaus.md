@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [3, 0, 1, 3, 4, 1, 13, 22, 3, 3, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 3, 4, 2, 30, 4, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    active_days: 23
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3043
-  repo_per_active_day: 0.1304
+  push_per_day: 2.3182
+  repo_per_active_day: 0.1364
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 51
     distinct_repos: 3
-    pushes_per_repo: 17.6667
-    active_days: 23
+    pushes_per_repo: 17.0000
+    active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "impeccable"
@@ -134,6 +134,6 @@ repos:
 
 # pbakaus
 
-53 pushes across 3 repositories on 23 active days in the last 90 days of public GitHub push activity.
+51 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

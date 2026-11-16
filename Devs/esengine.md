@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [13, 3, 3, 12, 18, 115, 108, 76, 86, 46, 4, 2, 2]
+pushes_per_week: [7, 3, 6, 8, 23, 125, 102, 81, 78, 44, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 488
+    pushes: 481
     distinct_repos: 7
-    active_days: 53
+    active_days: 51
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.2075
-  repo_per_active_day: 0.1321
+  push_per_day: 9.4314
+  repo_per_active_day: 0.1373
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 488
+    pushes: 481
     distinct_repos: 7
-    pushes_per_repo: 69.7143
-    active_days: 53
+    pushes_per_repo: 68.7143
+    active_days: 51
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DeepSeek-Reasonix"
@@ -182,6 +182,6 @@ repos:
 
 # esengine
 
-488 pushes across 7 repositories on 53 active days in the last 90 days of public GitHub push activity.
+481 pushes across 7 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

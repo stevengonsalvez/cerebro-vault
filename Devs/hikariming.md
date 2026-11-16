@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 1, 1, 3, 6, 11, 17, 2, 4, 2, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 2, 6, 13, 16, 4, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 8
-    active_days: 29
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.7931
-  repo_per_active_day: 0.2759
+  push_per_day: 1.8148
+  repo_per_active_day: 0.2963
   not_owned_ratio: 0.6250
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 52
+    pushes: 49
     distinct_repos: 8
-    pushes_per_repo: 6.5000
-    active_days: 29
+    pushes_per_repo: 6.1250
+    active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 2
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dshfind"
@@ -135,6 +135,6 @@ repos:
 
 # hikariming
 
-52 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+49 pushes across 8 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hikariming

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 0, 2, 0, 4, 1, 1, 6, 5, 7, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 4, 2, 1, 5, 6, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 8
-    active_days: 16
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6875
-  repo_per_active_day: 0.5000
+  push_per_day: 1.7333
+  repo_per_active_day: 0.5333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 8
-    pushes_per_repo: 3.3750
-    active_days: 16
+    pushes_per_repo: 3.2500
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "trukenza"
@@ -129,6 +129,6 @@ repos:
 
 # n3tf4c3
 
-27 pushes across 8 repositories on 16 active days in the last 90 days of public GitHub push activity.
+26 pushes across 8 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/n3tf4c3

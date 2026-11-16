@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "31b3468471cae2ac"
   - "b321d228efd2bc14"
-pushes_per_week: [1, 6, 1, 1, 7, 23, 109, 167, 69, 97, 27, 4, 3]
+pushes_per_week: [1, 6, 2, 0, 7, 29, 178, 116, 52, 117, 0, 4, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 7
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 515
+    pushes: 516
     distinct_repos: 9
     active_days: 47
     repos_not_owned: 1
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 10.9574
+  push_per_day: 10.9787
   repo_per_active_day: 0.1915
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 134
+    pushes: 135
     distinct_repos: 7
-    pushes_per_repo: 19.1429
+    pushes_per_repo: 19.2857
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 515
+    pushes: 516
     distinct_repos: 9
-    pushes_per_repo: 57.2222
+    pushes_per_repo: 57.3333
     active_days: 47
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -131,6 +131,6 @@ repos:
 
 # garrytan
 
-515 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
+516 pushes across 9 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

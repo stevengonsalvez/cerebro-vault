@@ -6,15 +6,17 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "NVIDIA/OpenShell"
+  - "NVIDIA/SkillEvaluator"
   - "NVIDIA/SkillSpector"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "6eb73169f84ce43f"
   - "98255810d4c42dd8"
-pushes_per_week: [3, 1, 3, 5, 27, 11, 7, 1, 2, 9, 0, 0, 0]
+  - "d17b0500bab017de"
+pushes_per_week: [3, 1, 3, 16, 16, 13, 5, 1, 2, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -75,7 +77,7 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

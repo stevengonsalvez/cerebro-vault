@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [3, 3, 8, 11, 22, 23, 35, 19, 9, 23, 4, 1, 1]
+pushes_per_week: [2, 5, 7, 12, 20, 25, 35, 23, 2, 27, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 162
+    pushes: 160
     distinct_repos: 10
-    active_days: 47
+    active_days: 46
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4468
-  repo_per_active_day: 0.2128
+  push_per_day: 3.4783
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.8000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 162
+    pushes: 160
     distinct_repos: 10
-    pushes_per_repo: 16.2000
-    active_days: 47
+    pushes_per_repo: 16.0000
+    active_days: 46
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "b4"
@@ -132,6 +132,6 @@ repos:
 
 # blove
 
-162 pushes across 10 repositories on 47 active days in the last 90 days of public GitHub push activity.
+160 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blove

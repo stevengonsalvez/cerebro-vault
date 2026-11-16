@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 11, 106, 109, 97, 51, 3, 0, 0, 10]
+pushes_per_week: [0, 0, 0, 0, 14, 112, 140, 80, 28, 3, 0, 0, 16]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 4
+    pushes: 16
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 6
+    pushes: 19
+    distinct_repos: 6
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 387
-    distinct_repos: 6
-    active_days: 31
+    pushes: 393
+    distinct_repos: 7
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.4839
-  repo_per_active_day: 0.1935
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.3333
+  push_per_day: 12.2812
+  repo_per_active_day: 0.2188
+  not_owned_ratio: 0.1429
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 4
+    pushes: 16
+    distinct_repos: 5
+    pushes_per_repo: 3.2000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 6
+    pushes: 19
+    distinct_repos: 6
+    pushes_per_repo: 3.1667
+    active_days: 7
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 387
-    distinct_repos: 6
-    pushes_per_repo: 64.5000
-    active_days: 31
+    pushes: 393
+    distinct_repos: 7
+    pushes_per_repo: 56.1429
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sextant"
@@ -113,6 +113,6 @@ repos:
 
 # seathatflowsinourveins
 
-387 pushes across 6 repositories on 31 active days in the last 90 days of public GitHub push activity.
+393 pushes across 7 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/seathatflowsinourveins

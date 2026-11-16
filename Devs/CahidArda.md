@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [2, 2, 0, 7, 7, 13, 12, 14, 1, 25, 0, 1, 1]
+pushes_per_week: [1, 2, 3, 4, 12, 8, 18, 8, 3, 23, 0, 1, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 18
-    active_days: 28
+    active_days: 27
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0357
-  repo_per_active_day: 0.6429
+  push_per_day: 3.1111
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.7222
   basename_concentration: 0.1667
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 85
+    pushes: 84
     distinct_repos: 18
-    pushes_per_repo: 4.7222
-    active_days: 28
+    pushes_per_repo: 4.6667
+    active_days: 27
     repos_not_owned: 13
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rical-1876"
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-85 pushes across 18 repositories on 28 active days in the last 90 days of public GitHub push activity.
+84 pushes across 18 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

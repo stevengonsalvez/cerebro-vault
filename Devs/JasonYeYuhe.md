@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 4, 3, 2, 9, 6, 27, 6, 2, 3, 0, 0, 0]
+pushes_per_week: [1, 6, 2, 1, 9, 10, 23, 6, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 12
-    active_days: 24
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 0.5000
+  push_per_day: 2.7391
+  repo_per_active_day: 0.5217
   not_owned_ratio: 0.3333
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 64
+    pushes: 63
     distinct_repos: 12
-    pushes_per_repo: 5.3333
-    active_days: 24
+    pushes_per_repo: 5.2500
+    active_days: 23
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Stride"
@@ -129,6 +129,6 @@ repos:
 
 # JasonYeYuhe
 
-64 pushes across 12 repositories on 24 active days in the last 90 days of public GitHub push activity.
+63 pushes across 12 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JasonYeYuhe

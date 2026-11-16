@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [7, 1, 4, 16, 9, 29, 18, 10, 27, 11, 0, 0, 1]
+pushes_per_week: [5, 3, 3, 15, 9, 30, 23, 16, 16, 10, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
+    pushes: 131
     distinct_repos: 10
-    active_days: 41
+    active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 3.2439
-  repo_per_active_day: 0.2439
+  push_per_day: 3.2750
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.4000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
+    pushes: 131
     distinct_repos: 10
-    pushes_per_repo: 13.3000
-    active_days: 41
+    pushes_per_repo: 13.1000
+    active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Soup"
@@ -167,6 +167,6 @@ repos:
 
 # MakazhanAlpamys
 
-133 pushes across 10 repositories on 41 active days in the last 90 days of public GitHub push activity.
+131 pushes across 10 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MakazhanAlpamys

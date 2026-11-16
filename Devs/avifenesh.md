@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [14, 21, 6, 28, 92, 262, 82, 85, 69, 63, 2, 6, 2]
+pushes_per_week: [17, 18, 13, 24, 107, 247, 94, 90, 55, 57, 0, 6, 3]
 windows:
   "7d":
     pushes: 3
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 77
+    pushes: 78
     distinct_repos: 16
     active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 732
+    pushes: 731
     distinct_repos: 57
-    active_days: 64
+    active_days: 63
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.4375
-  repo_per_active_day: 0.8906
+  push_per_day: 11.6032
+  repo_per_active_day: 0.9048
   not_owned_ratio: 0.5263
   basename_concentration: 0.0175
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 3
     distinct_repos: 2
     pushes_per_repo: 1.5000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 77
+    pushes: 78
     distinct_repos: 16
-    pushes_per_repo: 4.8125
+    pushes_per_repo: 4.8750
     active_days: 14
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 732
+    pushes: 731
     distinct_repos: 57
-    pushes_per_repo: 12.8421
-    active_days: 64
+    pushes_per_repo: 12.8246
+    active_days: 63
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "memra"
@@ -149,6 +149,6 @@ repos:
 
 # avifenesh
 
-732 pushes across 57 repositories on 64 active days in the last 90 days of public GitHub push activity.
+731 pushes across 57 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

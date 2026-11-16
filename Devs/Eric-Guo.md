@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 5, 5, 16, 25, 32, 37, 18, 3, 18, 4, 1, 2]
+pushes_per_week: [3, 5, 11, 10, 29, 38, 27, 18, 4, 21, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 171
+    pushes: 169
     distinct_repos: 22
-    active_days: 49
+    active_days: 48
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.4898
-  repo_per_active_day: 0.4490
+  push_per_day: 3.5208
+  repo_per_active_day: 0.4583
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 171
+    pushes: 169
     distinct_repos: 22
-    pushes_per_repo: 7.7727
-    active_days: 49
+    pushes_per_repo: 7.6818
+    active_days: 48
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "coreui4-rails-starter"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-171 pushes across 22 repositories on 49 active days in the last 90 days of public GitHub push activity.
+169 pushes across 22 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

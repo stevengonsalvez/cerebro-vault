@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [2, 0, 0, 1, 0, 4, 0, 1, 0, 2, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 4, 1, 0, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.4000
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 10
+    pushes_per_repo: 2.2500
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 10 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -142,6 +142,6 @@ repos:
 
 # fabriziosestito
 
-10 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fabriziosestito

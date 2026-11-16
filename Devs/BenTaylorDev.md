@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [2, 3, 0, 2, 6, 5, 11, 9, 3, 1, 0, 0, 0]
+pushes_per_week: [1, 2, 1, 2, 6, 9, 11, 7, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 1
-    active_days: 24
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.0417
+  push_per_day: 1.7391
+  repo_per_active_day: 0.0435
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,22 +65,22 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 1
-    pushes_per_repo: 42.0000
-    active_days: 24
+    pushes_per_repo: 40.0000
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos: []
 ---
 
 # BenTaylorDev
 
-42 pushes across 1 repository on 24 active days in the last 90 days of public GitHub push activity.
+40 pushes across 1 repository on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BenTaylorDev

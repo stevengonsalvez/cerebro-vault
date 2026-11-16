@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 0, 0, 0, 3, 0, 1, 0, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1667
-  repo_per_active_day: 0.6667
+  push_per_day: 1.2000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 6
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_comic_parser"
@@ -129,6 +129,6 @@ repos:
 
 # XTsat
 
-7 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
+6 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/XTsat

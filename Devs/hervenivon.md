@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4c4e9e4faa27af44"
-pushes_per_week: [15, 1, 0, 2, 10, 56, 18, 41, 38, 13, 0, 0, 0]
+pushes_per_week: [13, 1, 0, 2, 10, 59, 25, 53, 16, 13, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 194
+    pushes: 192
     distinct_repos: 3
-    active_days: 32
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.0625
-  repo_per_active_day: 0.0938
+  push_per_day: 6.1935
+  repo_per_active_day: 0.0968
   not_owned_ratio: 1.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 194
+    pushes: 192
     distinct_repos: 3
-    pushes_per_repo: 64.6667
-    active_days: 32
+    pushes_per_repo: 64.0000
+    active_days: 31
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -157,6 +157,6 @@ repos:
 
 # hervenivon
 
-194 pushes across 3 repositories on 32 active days in the last 90 days of public GitHub push activity.
+192 pushes across 3 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hervenivon

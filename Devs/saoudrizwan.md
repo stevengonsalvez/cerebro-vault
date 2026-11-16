@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [6, 1, 0, 3, 4, 9, 5, 0, 2, 4, 1, 0, 0]
+pushes_per_week: [3, 1, 0, 3, 4, 9, 5, 0, 2, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 2
-    active_days: 19
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8421
-  repo_per_active_day: 0.1053
+  push_per_day: 1.7778
+  repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 35
+    pushes: 32
     distinct_repos: 2
-    pushes_per_repo: 17.5000
-    active_days: 19
+    pushes_per_repo: 16.0000
+    active_days: 18
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DynamicJSON"
@@ -159,6 +159,6 @@ repos:
 
 # saoudrizwan
 
-35 pushes across 2 repositories on 19 active days in the last 90 days of public GitHub push activity.
+32 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/saoudrizwan

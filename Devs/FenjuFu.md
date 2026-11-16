@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [2, 3, 0, 4, 2, 1, 6, 1, 11, 3, 0, 0, 0]
+pushes_per_week: [1, 2, 2, 2, 2, 3, 4, 4, 10, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 18
-    active_days: 16
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0625
-  repo_per_active_day: 1.1250
+  push_per_day: 2.0667
+  repo_per_active_day: 1.2000
   not_owned_ratio: 0.1667
   basename_concentration: 0.1111
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 33
+    pushes: 31
     distinct_repos: 18
-    pushes_per_repo: 1.8333
-    active_days: 16
+    pushes_per_repo: 1.7222
+    active_days: 15
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Awesome-Astron-Workflow"
@@ -135,6 +135,6 @@ repos:
 
 # FenjuFu
 
-33 pushes across 18 repositories on 16 active days in the last 90 days of public GitHub push activity.
+31 pushes across 18 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

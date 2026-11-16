@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [39, 35, 3, 38, 138, 128, 180, 217, 127, 197, 10, 0, 2]
+pushes_per_week: [50, 20, 4, 42, 133, 140, 170, 252, 119, 177, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 25
     not_owned_owners: 3
   "90d":
-    pushes: 1114
+    pushes: 1109
     distinct_repos: 105
-    active_days: 61
+    active_days: 59
     repos_not_owned: 68
     not_owned_basenames: 45
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 18.2623
-  repo_per_active_day: 1.7213
+  push_per_day: 18.7966
+  repo_per_active_day: 1.7797
   not_owned_ratio: 0.6476
   basename_concentration: 0.1619
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "18.26 pushes per active day over 90d (1114 pushes / 61 active days), above the 15 review line"
+    - "18.80 pushes per active day over 90d (1109 pushes / 59 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 25
     not_owned_owners: 3
   "90d":
-    pushes: 1114
+    pushes: 1109
     distinct_repos: 105
-    pushes_per_repo: 10.6095
-    active_days: 61
+    pushes_per_repo: 10.5619
+    active_days: 59
     repos_not_owned: 68
     not_owned_basenames: 45
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 61 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "teeny"
@@ -131,6 +131,6 @@ repos:
 
 # senamakel
 
-1114 pushes across 105 repositories on 61 active days in the last 90 days of public GitHub push activity.
+1109 pushes across 105 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

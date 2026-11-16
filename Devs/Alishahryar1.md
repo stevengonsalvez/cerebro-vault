@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 4, 1, 3, 4, 12, 11, 5, 4, 2, 0, 0, 1]
+pushes_per_week: [3, 2, 3, 1, 5, 12, 13, 2, 4, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 11
-    active_days: 28
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 1.7500
-  repo_per_active_day: 0.3929
+  push_per_day: 1.7778
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.7273
   basename_concentration: 0.8182
   shapes:
@@ -82,16 +82,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
+    pushes: 48
     distinct_repos: 11
-    pushes_per_repo: 4.4545
-    active_days: 28
+    pushes_per_repo: 4.3636
+    active_days: 27
     repos_not_owned: 8
     not_owned_basenames: 1
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-49 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
+48 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

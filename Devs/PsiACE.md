@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 6, 1, 3, 3, 6, 15, 14, 1, 5, 0, 0, 0]
+pushes_per_week: [4, 5, 1, 4, 5, 6, 17, 9, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 17
-    active_days: 31
+    pushes: 57
+    distinct_repos: 16
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.9032
-  repo_per_active_day: 0.5484
-  not_owned_ratio: 0.5882
-  basename_concentration: 0.1176
+  push_per_day: 1.9655
+  repo_per_active_day: 0.5517
+  not_owned_ratio: 0.6250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 59
-    distinct_repos: 17
-    pushes_per_repo: 3.4706
-    active_days: 31
+    pushes: 57
+    distinct_repos: 16
+    pushes_per_repo: 3.5625
+    active_days: 29
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "databend-internals"
@@ -156,6 +156,6 @@ repos:
 
 # PsiACE
 
-59 pushes across 17 repositories on 31 active days in the last 90 days of public GitHub push activity.
+57 pushes across 16 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

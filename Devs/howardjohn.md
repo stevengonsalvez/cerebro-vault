@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 1, 0, 1, 5, 7, 13, 4, 10, 7, 1, 2, 0]
+pushes_per_week: [1, 1, 0, 1, 5, 8, 13, 10, 5, 6, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 8
-    active_days: 26
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0385
-  repo_per_active_day: 0.3077
+  push_per_day: 2.0800
+  repo_per_active_day: 0.3200
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 53
+    pushes: 52
     distinct_repos: 8
-    pushes_per_repo: 6.6250
-    active_days: 26
+    pushes_per_repo: 6.5000
+    active_days: 25
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gateway-api-bench"
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-53 pushes across 8 repositories on 26 active days in the last 90 days of public GitHub push activity.
+52 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

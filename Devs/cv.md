@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [13, 25, 2, 6, 27, 18, 9, 25, 9, 14, 0, 0, 1]
+pushes_per_week: [24, 9, 2, 7, 26, 20, 10, 23, 15, 7, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 144
     distinct_repos: 13
     active_days: 47
     repos_not_owned: 7
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.1702
+  push_per_day: 3.0638
   repo_per_active_day: 0.2766
   not_owned_ratio: 0.5385
   basename_concentration: 0.4615
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 149
+    pushes: 144
     distinct_repos: 13
-    pushes_per_repo: 11.4615
+    pushes_per_repo: 11.0769
     active_days: 47
     repos_not_owned: 7
     not_owned_basenames: 2
@@ -139,6 +139,6 @@ repos:
 
 # cv
 
-149 pushes across 13 repositories on 47 active days in the last 90 days of public GitHub push activity.
+144 pushes across 13 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cv

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 0, 1, 2, 31, 7, 3, 19, 13, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 33, 5, 5, 20, 10, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
-    distinct_repos: 14
-    active_days: 23
+    pushes: 76
+    distinct_repos: 13
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3913
-  repo_per_active_day: 0.6087
-  not_owned_ratio: 0.2143
-  basename_concentration: 0.0714
+  push_per_day: 3.6190
+  repo_per_active_day: 0.6190
+  not_owned_ratio: 0.2308
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 78
-    distinct_repos: 14
-    pushes_per_repo: 5.5714
-    active_days: 23
+    pushes: 76
+    distinct_repos: 13
+    pushes_per_repo: 5.8462
+    active_days: 21
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openshell-driver-substrate"
@@ -133,6 +133,6 @@ repos:
 
 # dims
 
-78 pushes across 14 repositories on 23 active days in the last 90 days of public GitHub push activity.
+76 pushes across 13 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dims

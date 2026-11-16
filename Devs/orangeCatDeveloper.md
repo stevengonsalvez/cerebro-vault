@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4d1450729e6ff44d"
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [7, 2, 2, 7, 0, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 4, 5, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 15
     distinct_repos: 4
-    active_days: 11
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8182
-  repo_per_active_day: 0.3636
+  push_per_day: 1.5000
+  repo_per_active_day: 0.4000
   not_owned_ratio: 0.2500
   basename_concentration: 0.5000
   shapes: []
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
+    pushes: 15
     distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 11
+    pushes_per_repo: 3.7500
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orangeCatDeveloper"
@@ -99,6 +99,6 @@ repos:
 
 # orangeCatDeveloper
 
-20 pushes across 4 repositories on 11 active days in the last 90 days of public GitHub push activity.
+15 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/orangeCatDeveloper

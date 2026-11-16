@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [2, 8, 1, 4, 139, 133, 82, 30, 86, 26, 7, 0, 6]
+pushes_per_week: [0, 9, 2, 2, 151, 152, 61, 59, 47, 33, 0, 0, 9]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
+    pushes: 9
+    distinct_repos: 3
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 6
+    pushes: 46
+    distinct_repos: 7
     active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 524
+    pushes: 525
     distinct_repos: 23
-    active_days: 40
+    active_days: 38
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.1000
-  repo_per_active_day: 0.5750
+  push_per_day: 13.8158
+  repo_per_active_day: 0.6053
   not_owned_ratio: 0.7826
   basename_concentration: 0.0435
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 43
-    distinct_repos: 6
-    pushes_per_repo: 7.1667
+    pushes: 46
+    distinct_repos: 7
+    pushes_per_repo: 6.5714
     active_days: 6
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    repos_not_owned: 7
+    not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 524
+    pushes: 525
     distinct_repos: 23
-    pushes_per_repo: 22.7826
-    active_days: 40
+    pushes_per_repo: 22.8261
+    active_days: 38
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "security-growler"
@@ -208,6 +208,6 @@ repos:
 
 # pirate
 
-524 pushes across 23 repositories on 40 active days in the last 90 days of public GitHub push activity.
+525 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

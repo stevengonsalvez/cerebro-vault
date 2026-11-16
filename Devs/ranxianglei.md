@@ -9,20 +9,20 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "44bf92228a9e42f2"
-pushes_per_week: [14, 7, 5, 24, 62, 77, 71, 64, 68, 78, 46, 0, 4]
+pushes_per_week: [17, 5, 9, 18, 66, 82, 73, 72, 65, 108, 0, 0, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 13
     active_days: 11
     repos_not_owned: 10
@@ -30,7 +30,7 @@ windows:
     not_owned_owners: 10
   "90d":
     pushes: 520
-    distinct_repos: 33
+    distinct_repos: 32
     active_days: 58
     repos_not_owned: 19
     not_owned_basenames: 4
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 8.9655
-  repo_per_active_day: 0.5690
-  not_owned_ratio: 0.5758
-  basename_concentration: 0.5152
+  repo_per_active_day: 0.5517
+  not_owned_ratio: 0.5938
+  basename_concentration: 0.5312
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes_per_repo: 2.5000
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 13
-    pushes_per_repo: 9.9231
+    pushes_per_repo: 10.0000
     active_days: 11
     repos_not_owned: 10
     not_owned_basenames: 1
     not_owned_owners: 10
   "90d":
     pushes: 520
-    distinct_repos: 33
-    pushes_per_repo: 15.7576
+    distinct_repos: 32
+    pushes_per_repo: 16.2500
     active_days: 58
     repos_not_owned: 19
     not_owned_basenames: 4
@@ -130,6 +130,6 @@ repos:
 
 # ranxianglei
 
-520 pushes across 33 repositories on 58 active days in the last 90 days of public GitHub push activity.
+520 pushes across 32 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ranxianglei

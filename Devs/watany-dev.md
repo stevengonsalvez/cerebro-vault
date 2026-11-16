@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,35 +17,35 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 1, 1, 18, 1, 56, 17, 30, 13, 13, 3, 0, 0]
+pushes_per_week: [0, 1, 12, 7, 1, 60, 29, 16, 11, 16, 0, 0, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 6
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 1
-    active_days: 5
+    pushes: 22
+    distinct_repos: 2
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 5
-    active_days: 31
+    pushes: 159
+    distinct_repos: 6
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.9355
-  repo_per_active_day: 0.1613
+  push_per_day: 4.9688
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -54,32 +54,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 6
+    distinct_repos: 1
+    pushes_per_repo: 6.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 1
-    pushes_per_repo: 16.0000
-    active_days: 5
+    pushes: 22
+    distinct_repos: 2
+    pushes_per_repo: 11.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 153
-    distinct_repos: 5
-    pushes_per_repo: 30.6000
-    active_days: 31
+    pushes: 159
+    distinct_repos: 6
+    pushes_per_repo: 26.5000
+    active_days: 32
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wisp-and-lantern"
@@ -134,6 +134,6 @@ repos:
 
 # watany-dev
 
-153 pushes across 5 repositories on 31 active days in the last 90 days of public GitHub push activity.
+159 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/watany-dev

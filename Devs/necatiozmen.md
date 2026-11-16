@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "ccc01d626405ebd7"
   - "f9df08c201fdc4c7"
-pushes_per_week: [3, 0, 1, 0, 0, 2, 3, 7, 3, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 0, 0, 4, 3, 6, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 22
-    distinct_repos: 12
-    active_days: 14
-    repos_not_owned: 12
-    not_owned_basenames: 8
+    pushes: 21
+    distinct_repos: 11
+    active_days: 13
+    repos_not_owned: 11
+    not_owned_basenames: 7
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 1.5714
-  repo_per_active_day: 0.8571
+  push_per_day: 1.6154
+  repo_per_active_day: 0.8462
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 22
-    distinct_repos: 12
-    pushes_per_repo: 1.8333
-    active_days: 14
-    repos_not_owned: 12
-    not_owned_basenames: 8
+    pushes: 21
+    distinct_repos: 11
+    pushes_per_repo: 1.9091
+    active_days: 13
+    repos_not_owned: 11
+    not_owned_basenames: 7
     not_owned_owners: 7
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "one-page-website"
@@ -168,6 +168,6 @@ repos:
 
 # necatiozmen
 
-22 pushes across 12 repositories on 14 active days in the last 90 days of public GitHub push activity.
+21 pushes across 11 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/necatiozmen

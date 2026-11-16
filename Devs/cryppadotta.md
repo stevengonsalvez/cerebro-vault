@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [13, 121, 6, 33, 30, 31, 97, 73, 97, 75, 1, 11, 4]
+pushes_per_week: [11, 121, 11, 29, 28, 58, 83, 98, 77, 58, 0, 11, 5]
 windows:
   "7d":
     pushes: 5
     distinct_repos: 1
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 91
+    pushes: 92
     distinct_repos: 2
     active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 592
+    pushes: 590
     distinct_repos: 4
-    active_days: 64
+    active_days: 63
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.2500
-  repo_per_active_day: 0.0625
+  push_per_day: 9.3651
+  repo_per_active_day: 0.0635
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -52,29 +52,29 @@ facets:
     pushes: 5
     distinct_repos: 1
     pushes_per_repo: 5.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 91
+    pushes: 92
     distinct_repos: 2
-    pushes_per_repo: 45.5000
+    pushes_per_repo: 46.0000
     active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 592
+    pushes: 590
     distinct_repos: 4
-    pushes_per_repo: 148.0000
-    active_days: 64
+    pushes_per_repo: 147.5000
+    active_days: 63
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 64 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "insole-studio"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-592 pushes across 4 repositories on 64 active days in the last 90 days of public GitHub push activity.
+590 pushes across 4 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

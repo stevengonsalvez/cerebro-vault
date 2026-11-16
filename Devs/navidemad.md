@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 0, 9, 6, 49, 33, 25, 4, 8, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 10, 7, 52, 42, 11, 4, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 136
-    distinct_repos: 4
+    pushes: 135
+    distinct_repos: 3
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.2308
-  repo_per_active_day: 0.1538
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  push_per_day: 5.1923
+  repo_per_active_day: 0.1154
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 136
-    distinct_repos: 4
-    pushes_per_repo: 34.0000
+    pushes: 135
+    distinct_repos: 3
+    pushes_per_repo: 45.0000
     active_days: 26
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -129,6 +129,6 @@ repos:
 
 # navidemad
 
-136 pushes across 4 repositories on 26 active days in the last 90 days of public GitHub push activity.
+135 pushes across 3 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/navidemad

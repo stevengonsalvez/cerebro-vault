@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "e6357f1e7e944cc8"
-pushes_per_week: [6, 4, 3, 9, 16, 39, 5, 10, 14, 16, 0, 0, 0]
+pushes_per_week: [3, 4, 9, 3, 16, 43, 1, 13, 22, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,7 +31,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 119
     distinct_repos: 7
     active_days: 30
     repos_not_owned: 1
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0667
+  push_per_day: 3.9667
   repo_per_active_day: 0.2333
   not_owned_ratio: 0.1429
   basename_concentration: 0.1429
@@ -67,9 +67,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 119
     distinct_repos: 7
-    pushes_per_repo: 17.4286
+    pushes_per_repo: 17.0000
     active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -133,6 +133,6 @@ repos:
 
 # bendrucker
 
-122 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
+119 pushes across 7 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bendrucker

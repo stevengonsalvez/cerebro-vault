@@ -6,17 +6,19 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "addyosmani/agent-skills"
+  - "AgriciDaniel/claude-seo"
   - "akitaonrails/ai-memory"
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4138778ebbc75ba6"
+  - "4f795faf4eede06c"
   - "c489e6fb5febf2ab"
   - "dae9f02535f7c22f"
-pushes_per_week: [9, 4, 1, 36, 9, 7, 8, 0, 0, 10, 1, 1, 0]
+pushes_per_week: [1, 4, 1, 37, 8, 13, 2, 0, 0, 11, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,18 +35,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 28
-    active_days: 25
+    pushes: 78
+    distinct_repos: 27
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.4400
-  repo_per_active_day: 1.1200
+  push_per_day: 3.3913
+  repo_per_active_day: 1.1739
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0357
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -69,16 +71,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 86
-    distinct_repos: 28
-    pushes_per_repo: 3.0714
-    active_days: 25
+    pushes: 78
+    distinct_repos: 27
+    pushes_per_repo: 2.8889
+    active_days: 23
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "provenance: 4 vault signal(s) — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "kevin9327"
@@ -157,6 +159,6 @@ repos:
 
 # kevin9327
 
-86 pushes across 28 repositories on 25 active days in the last 90 days of public GitHub push activity.
+78 pushes across 27 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kevin9327

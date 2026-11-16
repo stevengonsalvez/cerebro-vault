@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 1, 2, 1, 4, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 2, 1, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    active_days: 7
+    pushes: 9
+    distinct_repos: 3
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.5714
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.2500
+  push_per_day: 1.5000
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
-    active_days: 7
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 6
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "myvelop"
@@ -130,6 +130,6 @@ repos:
 
 # pythonstrup
 
-10 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pythonstrup

@@ -7,38 +7,38 @@ discovered_via_all:
 provenance_repos:
   - "citrolabs/ego-lite"
 admitted: true
-low_n: true
+low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.0000
+  push_per_day: 1.4000
+  repo_per_active_day: 0.8000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.7500
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-work"
@@ -170,6 +170,6 @@ repos:
 
 # section9-lab
 
-6 pushes across 4 repositories on 4 active days in the last 90 days of public GitHub push activity.
+7 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/section9-lab

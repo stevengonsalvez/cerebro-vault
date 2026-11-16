@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [4, 3, 2, 0, 0, 5, 11, 20, 7, 20, 0, 3, 3]
+pushes_per_week: [5, 4, 0, 0, 0, 5, 18, 13, 8, 19, 0, 3, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 2
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 3
-    active_days: 7
+    pushes: 28
+    distinct_repos: 4
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 11
-    active_days: 23
+    pushes: 80
+    distinct_repos: 12
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.3913
-  repo_per_active_day: 0.4783
+  push_per_day: 3.2000
+  repo_per_active_day: 0.4800
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 7
+    pushes: 28
+    distinct_repos: 4
+    pushes_per_repo: 7.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 78
-    distinct_repos: 11
-    pushes_per_repo: 7.0909
-    active_days: 23
+    pushes: 80
+    distinct_repos: 12
+    pushes_per_repo: 6.6667
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "web-ingest"
@@ -137,6 +137,6 @@ repos:
 
 # teddyli18000
 
-78 pushes across 11 repositories on 23 active days in the last 90 days of public GitHub push activity.
+80 pushes across 12 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teddyli18000

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [9, 1, 0, 5, 15, 17, 10, 0, 2, 2, 0, 0, 1]
+pushes_per_week: [1, 1, 2, 4, 18, 15, 8, 2, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 19
-    active_days: 24
-    repos_not_owned: 17
-    not_owned_basenames: 17
+    pushes: 54
+    distinct_repos: 18
+    active_days: 22
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.5833
-  repo_per_active_day: 0.7917
-  not_owned_ratio: 0.8947
-  basename_concentration: 0.0526
+  push_per_day: 2.4545
+  repo_per_active_day: 0.8182
+  not_owned_ratio: 0.8889
+  basename_concentration: 0.0556
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 62
-    distinct_repos: 19
-    pushes_per_repo: 3.2632
-    active_days: 24
-    repos_not_owned: 17
-    not_owned_basenames: 17
+    pushes: 54
+    distinct_repos: 18
+    pushes_per_repo: 3.0000
+    active_days: 22
+    repos_not_owned: 16
+    not_owned_basenames: 16
     not_owned_owners: 2
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "deterministic-builds-google"
@@ -134,6 +134,6 @@ repos:
 
 # smorin
 
-62 pushes across 19 repositories on 24 active days in the last 90 days of public GitHub push activity.
+54 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

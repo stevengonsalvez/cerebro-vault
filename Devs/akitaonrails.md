@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "f135712f91f710c6"
-pushes_per_week: [8, 4, 7, 7, 32, 27, 21, 17, 33, 37, 0, 0, 0]
+pushes_per_week: [8, 2, 7, 8, 32, 35, 12, 28, 29, 30, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 193
+    pushes: 191
     distinct_repos: 34
-    active_days: 48
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 4.0208
-  repo_per_active_day: 0.7083
+  push_per_day: 4.0638
+  repo_per_active_day: 0.7234
   not_owned_ratio: 0.2647
   basename_concentration: 0.2647
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 4
   "90d":
-    pushes: 193
+    pushes: 191
     distinct_repos: 34
-    pushes_per_repo: 5.6765
-    active_days: 48
+    pushes_per_repo: 5.6176
+    active_days: 47
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 9
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rea-colin-mcrae-3"
@@ -132,6 +132,6 @@ repos:
 
 # akitaonrails
 
-193 pushes across 34 repositories on 48 active days in the last 90 days of public GitHub push activity.
+191 pushes across 34 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

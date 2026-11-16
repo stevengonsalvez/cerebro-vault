@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [18, 16, 8, 19, 44, 43, 52, 14, 24, 14, 0, 1, 0]
+pushes_per_week: [15, 14, 12, 19, 43, 52, 47, 15, 17, 11, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 253
-    distinct_repos: 21
-    active_days: 52
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 246
+    distinct_repos: 20
+    active_days: 50
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.8654
-  repo_per_active_day: 0.4038
-  not_owned_ratio: 0.2857
-  basename_concentration: 0.0952
+  push_per_day: 4.9200
+  repo_per_active_day: 0.4000
+  not_owned_ratio: 0.2500
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 253
-    distinct_repos: 21
-    pushes_per_repo: 12.0476
-    active_days: 52
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 246
+    distinct_repos: 20
+    pushes_per_repo: 12.3000
+    active_days: 50
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openroutercli"
@@ -183,6 +183,6 @@ repos:
 
 # aaronjmars
 
-253 pushes across 21 repositories on 52 active days in the last 90 days of public GitHub push activity.
+246 pushes across 20 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

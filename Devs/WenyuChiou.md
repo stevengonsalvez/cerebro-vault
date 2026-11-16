@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [4, 6, 3, 0, 3, 10, 21, 26, 7, 26, 5, 0, 4]
+pushes_per_week: [7, 3, 2, 0, 4, 14, 27, 20, 3, 30, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 11
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.1081
-  repo_per_active_day: 0.2973
+  push_per_day: 3.1667
+  repo_per_active_day: 0.3056
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 115
+    pushes: 114
     distinct_repos: 11
-    pushes_per_repo: 10.4545
-    active_days: 37
+    pushes_per_repo: 10.3636
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-agentic-ai-zh"
@@ -168,6 +168,6 @@ repos:
 
 # WenyuChiou
 
-115 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
+114 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/WenyuChiou

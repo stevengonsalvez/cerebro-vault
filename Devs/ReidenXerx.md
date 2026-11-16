@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [8, 6, 3, 3, 10, 59, 45, 9, 4, 2, 0, 0, 0]
+pushes_per_week: [6, 6, 5, 1, 11, 61, 44, 10, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 147
     distinct_repos: 20
-    active_days: 35
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2571
-  repo_per_active_day: 0.5714
+  push_per_day: 4.3235
+  repo_per_active_day: 0.5882
   not_owned_ratio: 0.1000
   basename_concentration: 0.0500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 147
     distinct_repos: 20
-    pushes_per_repo: 7.4500
-    active_days: 35
+    pushes_per_repo: 7.3500
+    active_days: 34
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Event-Horizon"
@@ -160,6 +160,6 @@ repos:
 
 # ReidenXerx
 
-149 pushes across 20 repositories on 35 active days in the last 90 days of public GitHub push activity.
+147 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

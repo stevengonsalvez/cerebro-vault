@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 0, 0, 2, 7, 9, 2, 0, 2, 6, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 7, 9, 2, 0, 2, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 14
-    active_days: 16
+    pushes: 28
+    distinct_repos: 13
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.8750
+  push_per_day: 1.8667
+  repo_per_active_day: 0.8667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
-    distinct_repos: 14
-    pushes_per_repo: 2.1429
-    active_days: 16
+    pushes: 28
+    distinct_repos: 13
+    pushes_per_repo: 2.1538
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karigor"
@@ -164,6 +164,6 @@ repos:
 
 # kishormorol
 
-30 pushes across 14 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 13 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kishormorol

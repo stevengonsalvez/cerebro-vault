@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 2, 0, 1, 5, 7, 8, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 1, 4, 8, 7, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 7
-    active_days: 16
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.8125
-  repo_per_active_day: 0.4375
+  push_per_day: 1.8000
+  repo_per_active_day: 0.4667
   not_owned_ratio: 0.7143
   basename_concentration: 0.1429
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 27
     distinct_repos: 7
-    pushes_per_repo: 4.1429
-    active_days: 16
+    pushes_per_repo: 3.8571
+    active_days: 15
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pango-sequences"
@@ -140,6 +140,6 @@ repos:
 
 # corneliusroemer
 
-29 pushes across 7 repositories on 16 active days in the last 90 days of public GitHub push activity.
+27 pushes across 7 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/corneliusroemer

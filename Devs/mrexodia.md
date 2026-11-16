@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [7, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [5, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 17
-    active_days: 17
+    active_days: 16
     repos_not_owned: 10
     not_owned_basenames: 8
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.5294
-  repo_per_active_day: 1.0000
+  push_per_day: 1.5000
+  repo_per_active_day: 1.0625
   not_owned_ratio: 0.5882
   basename_concentration: 0.1765
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 26
+    pushes: 24
     distinct_repos: 17
-    pushes_per_repo: 1.5294
-    active_days: 17
+    pushes_per_repo: 1.4118
+    active_days: 16
     repos_not_owned: 10
     not_owned_basenames: 8
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ida-pro-mcp"
@@ -181,6 +181,6 @@ repos:
 
 # mrexodia
 
-26 pushes across 17 repositories on 17 active days in the last 90 days of public GitHub push activity.
+24 pushes across 17 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

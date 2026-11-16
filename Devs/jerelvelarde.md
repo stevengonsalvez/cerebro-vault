@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-16T07:03:52.735992+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [1, 0, 0, 0, 4, 5, 22, 9, 0, 3, 6, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 6, 30, 0, 1, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 12
-    active_days: 15
+    pushes: 49
+    distinct_repos: 11
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3333
-  repo_per_active_day: 0.8000
-  not_owned_ratio: 0.3333
-  basename_concentration: 0.2500
+  push_per_day: 3.5000
+  repo_per_active_day: 0.7857
+  not_owned_ratio: 0.3636
+  basename_concentration: 0.2727
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 50
-    distinct_repos: 12
-    pushes_per_repo: 4.1667
-    active_days: 15
+    pushes: 49
+    distinct_repos: 11
+    pushes_per_repo: 4.4545
+    active_days: 14
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "functional-copilots"
@@ -141,6 +141,6 @@ repos:
 
 # jerelvelarde
 
-50 pushes across 12 repositories on 15 active days in the last 90 days of public GitHub push activity.
+49 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerelvelarde
