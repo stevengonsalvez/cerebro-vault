@@ -8,11 +8,11 @@ provenance_repos:
   - "santifer/career-ops"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [3, 6, 1, 1, 20, 25, 12, 12, 10, 2, 0, 0, 0]
+pushes_per_week: [4, 5, 1, 1, 29, 20, 8, 17, 6, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,100 +92,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "warpchart"
-    title: "warpchart"
-    description: "Growth telemetry for any GitHub repository. A live star chart of your repo's journey through the worldwide ranking, with sound."
-    language: "TypeScript"
-    topics:
-      - "dashboard"
-      - "github-actions"
-      - "github-stars"
-      - "nextjs"
-      - "self-hosted"
-      - "star-history"
-      - "svg"
-      - "telemetry"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "cv-santiago"
-    title: "cv-santiago"
-    description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
-    language: "HTML"
-    topics:
-      - "ai"
-      - "chatbot"
-      - "claude"
-      - "langfuse"
-      - "llm"
-      - "llmops"
-      - "observability"
-      - "portfolio"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-      - "vite"
-    stars_fact: 867
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "santifer-irepair"
-    title: "santifer-irepair"
-    description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
-    language: "Astro"
-    topics:
-      - "airtable"
-      - "astro"
-      - "nodejs"
-      - "programmatic-seo"
-      - "seo"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "career-ops-plugin-template"
-    title: "career-ops-plugin-template"
-    description: "Template for a career-ops community plugin (career-ops-plugin-<name>)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "watermark-remover"
-    title: "watermark-remover"
-    description: "CLI tool to remove watermarks from images using YOLO detection + LaMa inpainting"
-    language: "Python"
-    topics:
-      - "ai"
-      - "cli"
-      - "image-processing"
-      - "inpainting"
-      - "lama"
-      - "python"
-      - "watermark-removal"
-      - "yolo"
-    stars_fact: 30
-    first_seen: null
-    last_push: "2026-01-29"
-  - name: "jacobo-workflows"
-    title: "jacobo-workflows"
-    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
-    language: null
-    topics:
-      - "ai-agents"
-      - "elevenlabs"
-      - "hitl"
-      - "multi-agent"
-      - "n8n"
-      - "tool-calling"
-      - "voice-ai"
-      - "whatsapp"
-    stars_fact: 169
-    first_seen: null
-    last_push: "2026-08-27"
+repos: []
 ---
 
 # santifer

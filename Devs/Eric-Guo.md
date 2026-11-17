@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 5, 11, 10, 29, 38, 27, 18, 4, 21, 0, 1, 2]
+pushes_per_week: [5, 5, 10, 12, 30, 36, 32, 14, 4, 18, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -87,7 +87,7 @@ repos:
       - "template"
     stars_fact: 14
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "opencode-agent-7777"
     title: "opencode-agent-7777"
     description: "Chat UI for Agentic Agent, backend using opencode serve"
@@ -95,16 +95,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "opencode-db-viewer"
-    title: "opencode-db-viewer"
-    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
-    language: "Ruby"
-    topics:
-      - "opencode"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
   - name: "wechat"
     title: "wechat"
     description: "API, command and message handling for WeChat in Rails"
@@ -116,7 +107,16 @@ repos:
       - "wechat-sdk"
     stars_fact: 1349
     first_seen: null
-    last_push: "2026-07-03"
+    last_push: "2026-11-10"
+  - name: "opencode-db-viewer"
+    title: "opencode-db-viewer"
+    description: ".local/share/opencode/opencode.db Viewer in Rails 7.2"
+    language: "Ruby"
+    topics:
+      - "opencode"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "vali-admin-rails"
     title: "vali-admin-rails"
     description: "Starting using vali-admin, an Free Bootstrap 4 Admin Template in Rails 5.2"

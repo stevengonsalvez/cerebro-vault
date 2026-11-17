@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [1, 1, 0, 3, 3, 3, 2, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 3, 4, 2, 2, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,21 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "GallaDev_workspace"
+    title: "GallaDev_workspace"
+    description: "GallaDev Workspace — CRM to review, qualify and manage leads for asesorias y gestorias. Supabase (PostgreSQL) is the source of truth (Notion legacy); n8n prospecting, web ingest with Resend emails."
+    language: "TypeScript"
+    topics:
+      - "crm"
+      - "n8n"
+      - "nextjs"
+      - "resend"
+      - "supabase"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "dsmora-aie-pt-02resume-clase"
     title: "dsmora-aie-pt-02resume-clase"
     description: "Esto es un resume de las clases en 4Geeks"
@@ -101,21 +116,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-27"
-  - name: "GallaDev_workspace"
-    title: "GallaDev_workspace"
-    description: "GallaDev Workspace — CRM to review, qualify and manage leads for asesorias y gestorias. Supabase (PostgreSQL) is the source of truth (Notion legacy); n8n prospecting, web ingest with Resend emails."
-    language: "TypeScript"
-    topics:
-      - "crm"
-      - "n8n"
-      - "nextjs"
-      - "resend"
-      - "supabase"
-      - "tailwindcss"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "Dwell_Havanna"
     title: "Dwell_Havanna"
     description: "Revista editorial digital sobre arquitectura y casas de La Habana. Next.js 16 + Supabase, con moderación humana."

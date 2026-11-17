@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -78,14 +78,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gemma-swe-agent"
-    title: "gemma-swe-agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
   - name: "arc-prize-2026"
     title: "arc-prize-2026"
     description: "Carson Rodrigues' paper, code and data for the ARC Prize 2026 Paper Track: what should an ARC-AGI-3 agent carry from one level to the next, plan or mechanics? A winning plan replayed verbatim completes 0 of 1,186 testable next-level pairs in 340 human replays"
@@ -106,7 +98,7 @@ repos:
       - "world-models"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-11"
   - name: "arc-agi-3"
     title: "arc-agi-3"
     description: "Carson Rodrigues' LLM agent for ARC-AGI-3 (ARC Prize 2026, Kaggle): Qwen3.8-Flash-Next on SGLang in the Duck / Franzen Milestone-2 harness, with level memory, reliability fixes and a daily submission scheduler"
@@ -130,7 +122,15 @@ repos:
       - "sglang"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-11"
+  - name: "gemma-swe-agent"
+    title: "gemma-swe-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
   - name: "refundly"
     title: "refundly"
     description: "An AI agent that refunds and cancels through PayPal, and never says done until PayPal's own ledger agrees. PayPal AI Hackathon."

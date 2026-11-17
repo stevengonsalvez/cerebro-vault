@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [2, 2, 0, 5, 9, 23, 40, 41, 11, 57, 0, 1, 1]
+pushes_per_week: [2, 1, 0, 5, 9, 30, 48, 28, 30, 36, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 192
+    pushes: 191
     distinct_repos: 3
-    active_days: 38
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.0526
-  repo_per_active_day: 0.0789
+  push_per_day: 5.1622
+  repo_per_active_day: 0.0811
   not_owned_ratio: 0.6667
   basename_concentration: 0.6667
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 192
+    pushes: 191
     distinct_repos: 3
-    pushes_per_repo: 64.0000
-    active_days: 38
+    pushes_per_repo: 63.6667
+    active_days: 37
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "alicealexandra.com"
+    title: "alicealexandra.com"
+    description: "My personal portfolio, blog, and catch-all project."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "bwrb"
     title: "bwrb"
     description: "Schema-driven note management for markdown vaults."
@@ -85,14 +93,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-08"
-  - name: "alicealexandra.com"
-    title: "alicealexandra.com"
-    description: "My personal portfolio, blog, and catch-all project."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "css-mcp-server"
     title: "css-mcp-server"
     description: "A demo of how to build an MCP server (without just vibe coding)."
@@ -129,6 +129,6 @@ repos:
 
 # 3mdistal
 
-192 pushes across 3 repositories on 38 active days in the last 90 days of public GitHub push activity.
+191 pushes across 3 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/3mdistal

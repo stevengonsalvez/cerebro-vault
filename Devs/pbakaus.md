@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [1, 0, 2, 3, 4, 2, 30, 4, 2, 3, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 3, 3, 4, 30, 4, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,23 +87,15 @@ repos:
       - "anti-slop"
       - "design"
       - "slop"
-    stars_fact: 107076
+    stars_fact: 111579
     first_seen: "2026-10-25T07:00:44.509744+00:00"
-    last_push: "2026-11-10"
-  - name: "impeccable-talks"
-    title: "impeccable-talks"
-    description: "Talks for the Impeccable project."
-    language: "HTML"
-    topics: []
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-07-01"
+    last_push: "2026-11-17"
   - name: "radiant"
     title: "radiant"
     description: "A curated collection of generative shader art"
     language: "HTML"
     topics: []
-    stars_fact: 1036
+    stars_fact: 1043
     first_seen: null
     last_push: "2026-09-10"
   - name: "agent-reviews"
@@ -111,25 +103,33 @@ repos:
     description: "Token efficient, automated Github review workflows and bug fixing."
     language: "JavaScript"
     topics: []
-    stars_fact: 318
+    stars_fact: 328
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-16"
+  - name: "impeccable-talks"
+    title: "impeccable-talks"
+    description: "Talks for the Impeccable project."
+    language: "HTML"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-07-01"
   - name: "scroller"
     title: "scroller"
     description: "Accelerated panning and zooming for HTML and Canvas"
     language: "JavaScript"
     topics: []
-    stars_fact: 3928
+    stars_fact: 3930
     first_seen: null
     last_push: "2025-11-21"
-  - name: "burn-after-login"
-    title: "burn-after-login"
-    description: "Self-destructing skill to solve browser automation login pain."
-    language: "Svelte"
+  - name: "epubslicer"
+    title: "epubslicer"
+    description: "This utility has the ability to remove sections/chapters from an epub (e.g. to create a preview epub)"
+    language: "JavaScript"
     topics: []
-    stars_fact: 55
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-03-11"
+    last_push: "2023-03-04"
 ---
 
 # pbakaus

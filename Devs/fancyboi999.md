@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 1, 0, 8, 2, 0, 1, 2, 4, 0, 0, 2]
+pushes_per_week: [0, 0, 1, 0, 8, 2, 0, 3, 0, 4, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -104,9 +104,44 @@ repos:
       - "reinforcement-learning"
       - "transformers"
       - "tutorial"
-    stars_fact: 1322
+    stars_fact: 1344
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
+  - name: "goofish-cli"
+    title: "goofish-cli"
+    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "cli"
+      - "goofish"
+      - "mcp"
+      - "mcp-server"
+      - "python"
+      - "typer"
+      - "websocket"
+      - "xianyu"
+    stars_fact: 492
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "self-hosted-vpn"
+    title: "self-hosted-vpn"
+    description: "Domainless single-tenant VPS proxy skill (VLESS Reality + Hysteria2, Let's Encrypt IP cert subscriptions, and slot-decoupled desktop/mobile routing)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "weixin_search_mcp"
+    title: "weixin_search_mcp"
+    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+    language: "Python"
+    topics: []
+    stars_fact: 206
+    first_seen: null
+    last_push: "2026-08-17"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -132,36 +167,9 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 312
+    stars_fact: 319
     first_seen: null
     last_push: "2026-09-30"
-  - name: "goofish-cli"
-    title: "goofish-cli"
-    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "automation"
-      - "claude"
-      - "cli"
-      - "goofish"
-      - "mcp"
-      - "mcp-server"
-      - "python"
-      - "typer"
-      - "websocket"
-      - "xianyu"
-    stars_fact: 445
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
-    language: "Python"
-    topics: []
-    stars_fact: 204
-    first_seen: null
-    last_push: "2026-08-17"
   - name: "open-tag"
     title: "open-tag"
     description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
@@ -184,17 +192,9 @@ repos:
       - "slack-alternative"
       - "typescript"
       - "websocket"
-    stars_fact: 215
+    stars_fact: 216
     first_seen: null
     last_push: "2026-08-22"
-  - name: "daily-hot-mcp"
-    title: "daily-hot-mcp"
-    description: "获取每日最新热点内容，为大模型提供信息获取的mcp服务"
-    language: "Python"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2025-07-06"
 ---
 
 # fancyboi999

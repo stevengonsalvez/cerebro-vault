@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 0, 4, 2, 1, 5, 6, 6, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 4, 2, 1, 7, 5, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,51 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "tokenbar"
+    title: "tokenbar"
+    description: "Cota das assinaturas Claude, Codex e Antigravity na bandeja do Windows"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "system-tray"
+      - "typescript"
+      - "windows"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "n3tf4c3"
+    title: "n3tf4c3"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "bytehalt"
+    title: "bytehalt"
+    description: "Windows Drive & Folder Security"
+    language: "Rust"
+    topics:
+      - "bitlocker"
+      - "rust"
+      - "security"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "netlane"
+    title: "netlane"
+    description: "Diagnóstico de rede com IA para Windows"
+    language: "Rust"
+    topics:
+      - "ai"
+      - "networking"
+      - "pcap"
+      - "rust"
+      - "windows"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "trukenza"
     title: "trukenza"
     description: "Trukenza: truco multijogador no navegador"
@@ -84,15 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "netlane"
-    title: "netlane"
-    description: "Your apps. Your routes."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "riscote"
     title: "riscote"
     description: "Jogo pincelado"
@@ -100,31 +137,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "tokenbar"
-    title: "tokenbar"
-    description: "Aplicativo para acompanhamento de tokens de IA"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "afetilu"
-    title: "afetilu"
-    description: "Registrar a rotina dos autistas"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "bytehalth"
-    title: "bytehalth"
-    description: "Windows Drive & Folder Security"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-12"
 ---
 
 # n3tf4c3

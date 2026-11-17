@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 0, 0, 0, 6, 5, 6, 0, 6, 6, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 7, 5, 5, 2, 9, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,75 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cc-stretch"
-    title: "cc-stretch"
-    description: "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 438
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "agent-dice"
-    title: "agent-dice"
-    description: "Probabilistic dice triggers for coding agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-07-23"
-  - name: "wezterm-attention"
-    title: "wezterm-attention"
-    description: "WezTerm plugin: file-based attention markers turn tabs into a notification surface for AI agents, builds, and scripts"
-    language: "Rust"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "vne"
-    title: "vne"
-    description: "vne lets your coding agent work on .env files it is blocked from reading. It finds keys, checks what's missing, copies them between files and runs commands with them loaded, and hands you a command only when a secret has to be typed in or moved to another folder."
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "coding-agents"
-      - "dotenv"
-      - "env"
-      - "environment-variables"
-      - "macos"
-      - "rust"
-      - "secrets"
-      - "tauri"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "designer"
-    title: "designer"
-    description: "MCP / CLI for Claude Design"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 61
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "githud"
-    title: "githud"
-    description: "A calm macOS menu-bar HUD that answers one question: does GitHub need me right now?"
-    language: "Swift"
-    topics:
-      - "appkit"
-      - "developer-tools"
-      - "github-notifications"
-      - "hud"
-      - "macos"
-      - "menu-bar-app"
-      - "menubar"
-      - "swift"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
+repos: []
 ---
 
 # pro-vi

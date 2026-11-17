@@ -14,7 +14,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "1df6ea1f1256059e"
@@ -23,7 +23,7 @@ provenance:
   - "4f795faf4eede06c"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [3, 7, 4, 21, 6, 43, 136, 7, 3, 26, 0, 0, 1]
+pushes_per_week: [2, 7, 7, 19, 9, 50, 125, 7, 8, 21, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -40,18 +40,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 257
-    distinct_repos: 87
-    active_days: 41
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 256
+    distinct_repos: 86
+    active_days: 40
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.2683
-  repo_per_active_day: 2.1220
-  not_owned_ratio: 0.0690
-  basename_concentration: 0.0115
+  push_per_day: 6.4000
+  repo_per_active_day: 2.1500
+  not_owned_ratio: 0.0581
+  basename_concentration: 0.0116
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -76,16 +76,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 257
-    distinct_repos: 87
-    pushes_per_repo: 2.9540
-    active_days: 41
-    repos_not_owned: 6
-    not_owned_basenames: 6
+    pushes: 256
+    distinct_repos: 86
+    pushes_per_repo: 2.9767
+    active_days: 40
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 7 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "repostew"
@@ -98,7 +98,7 @@ repos:
       - "github"
       - "open-source"
       - "repository-maintenance"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
     last_push: "2026-11-06"
   - name: "dajiaohuang"
@@ -108,11 +108,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-11"
 ---
 
 # dajiaohuang
 
-257 pushes across 87 repositories on 41 active days in the last 90 days of public GitHub push activity.
+256 pushes across 86 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dajiaohuang

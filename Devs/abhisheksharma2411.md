@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 0, 0, 4, 6, 3, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 6, 3, 3, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -81,6 +81,23 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "distributed-systems-skills"
+    title: "distributed-systems-skills"
+    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "distributed-systems"
+      - "exactly-once"
+      - "idempotency"
+      - "payments"
+      - "reliability"
+      - "site-reliability-engineering"
+      - "skills"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "justonce"
     title: "justonce"
     description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
@@ -100,24 +117,7 @@ repos:
       - "sqlite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "distributed-systems-skills"
-    title: "distributed-systems-skills"
-    description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "distributed-systems"
-      - "exactly-once"
-      - "idempotency"
-      - "payments"
-      - "reliability"
-      - "site-reliability-engineering"
-      - "skills"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
   - name: "abhisheksharma2411.github.io"
     title: "abhisheksharma2411.github.io"
     description: null

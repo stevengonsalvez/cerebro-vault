@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "51d6155061d60774"
-pushes_per_week: [9, 3, 4, 10, 37, 106, 56, 80, 20, 22, 0, 0, 5]
+pushes_per_week: [7, 4, 3, 14, 41, 102, 66, 69, 21, 18, 0, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 352
+    pushes: 350
     distinct_repos: 4
-    active_days: 52
+    active_days: 51
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 6.7692
-  repo_per_active_day: 0.0769
+  push_per_day: 6.8627
+  repo_per_active_day: 0.0784
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 352
+    pushes: 350
     distinct_repos: 4
-    pushes_per_repo: 88.0000
-    active_days: 52
+    pushes_per_repo: 87.5000
+    active_days: 51
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dumi-theme-antd-style"
@@ -141,6 +141,6 @@ repos:
 
 # arvinxx
 
-352 pushes across 4 repositories on 52 active days in the last 90 days of public GitHub push activity.
+350 pushes across 4 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/arvinxx

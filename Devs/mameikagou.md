@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,22 +82,30 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mameikagou"
-    title: "mameikagou"
-    description: null
+  - name: "garmin-quota-watch"
+    title: "garmin-quota-watch"
+    description: "Garmin Connect IQ widgets for AI subscription quotas and Tibo reset announcements."
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-10-30"
   - name: "skill-forge"
     title: "skill-forge"
     description: "use opus as your brain，and use minimax as your cheap hands。"
     language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-15"
+  - name: "mameikagou"
+    title: "mameikagou"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "dungeon-weaver"
     title: "dungeon-weaver"
     description: "Browser dungeon action roguelike: design, reusable technology research, and deterministic debugging contracts."
@@ -106,14 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-28"
-  - name: "garmin-quota-watch"
-    title: "garmin-quota-watch"
-    description: "Garmin Connect IQ widgets for AI subscription quotas and Tibo reset announcements."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "cedar"
     title: "cedar"
     description: "Cedar — vanilla HTML/CSS/JavaScript frontend, FastAPI + uv backend, PostgreSQL"

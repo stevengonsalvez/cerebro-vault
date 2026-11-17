@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "epochdb"
+    title: "epochdb"
+    description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
+    language: "Python"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "edge"
     title: "edge"
     description: "EdgeScale (edgerun) — high-performance in-process GPU upscaling and companion iGPU offload for Linux games (native Vulkan, Proton/Wine, and OpenGL)"
@@ -102,7 +110,7 @@ repos:
       - "windows-desktop"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
   - name: "epochdb-server"
     title: "epochdb-server"
     description: "EpochDB Distributed Server is an asynchronous, high-concurrency memory and vector database server designed for agentic workloads. It supports multi-node clustering with automatic horizontal sharding, consistent hashing write distribution, and direct prefix-based routing."
@@ -110,15 +118,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "epochdb"
-    title: "epochdb"
-    description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
-    language: "Python"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-14"
   - name: "the-office-crewai"
     title: "the-office-crewai"
     description: "A 3d office with agents that do actual work."

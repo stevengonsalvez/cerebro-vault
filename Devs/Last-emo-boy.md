@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 3, 2, 5, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 12
-    active_days: 7
+    pushes: 12
+    distinct_repos: 11
+    active_days: 6
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8571
-  repo_per_active_day: 1.7143
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.0833
+  push_per_day: 2.0000
+  repo_per_active_day: 1.8333
+  not_owned_ratio: 0.9091
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
-    distinct_repos: 12
-    pushes_per_repo: 1.0833
-    active_days: 7
+    pushes: 12
+    distinct_repos: 11
+    pushes_per_repo: 1.0909
+    active_days: 6
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Swarm"
@@ -135,6 +135,6 @@ repos:
 
 # Last-emo-boy
 
-13 pushes across 12 repositories on 7 active days in the last 90 days of public GitHub push activity.
+12 pushes across 11 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

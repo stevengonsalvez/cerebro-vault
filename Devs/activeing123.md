@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "69d1a861b67c373a"
-pushes_per_week: [0, 1, 2, 2, 1, 1, 9, 1, 1, 3, 0, 0, 0]
+pushes_per_week: [0, 1, 4, 0, 1, 2, 8, 2, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -103,9 +103,41 @@ repos:
       - "tool-discovery"
       - "windsurf"
       - "zero-dependencies"
-    stars_fact: 428
+    stars_fact: 436
     first_seen: "2026-08-11T06:00:08.519377+00:00"
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
+  - name: "scoop-mcptoon"
+    title: "scoop-mcptoon"
+    description: "Scoop bucket for mcptoon - zero-dependency MCP gateway CLI that keeps tool and skill schemas out of your context window."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "zhanting-hero-720"
+    title: "zhanting-hero-720"
+    description: "样板间展厅可拖动展示(用确认的透视效果图)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "banzhan-720"
+    title: "banzhan-720"
+    description: "样板间展厅 720 全景"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "qj-720"
+    title: "qj-720"
+    description: "whole-house custom cabinetry 720 tour"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "homebrew-mcptoon"
     title: "homebrew-mcptoon"
     description: "Homebrew tap for mcptoon — MCP client with token-efficient tool manifests"
@@ -113,59 +145,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "toondeck"
-    title: "toondeck"
-    description: "One deck for every agent — MCP tools, skills, models and API keys. GUI console for mcptoon."
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "dashboard"
-      - "fastapi"
-      - "gui"
-      - "keyring"
-      - "llm"
-      - "mcp"
-      - "mcptoon"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "dsh-mcptoon"
-    title: "dsh-mcptoon"
-    description: "DeepSeek Harness bundle: mount mcptoon as an MCP server in one command. Tool discovery 71,929 -> 581 tokens across 255 tools (-99.2%, measured); encoding is lossless."
-    language: "JavaScript"
-    topics:
-      - "cordis"
-      - "deepseek-harness"
-      - "dsh-plugin"
-      - "mcptoon"
-      - "model-context-protocol"
-      - "token-compression"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "choco-mcptoon"
-    title: "choco-mcptoon"
-    description: "Chocolatey package sources for mcptoon"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
-  - name: "dsh-forge"
-    title: "dsh-forge"
-    description: "Skill self-forging plugin for DeepSeek Harness — watch session traces, detect repeated successful tasks, forge them into reusable skills"
-    language: "JavaScript"
-    topics:
-      - "agent"
-      - "cordis"
-      - "deepseek-harness"
-      - "dsh-plugin"
-      - "plugin"
-      - "skill"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
+    last_push: "2026-11-13"
 ---
 
 # activeing123

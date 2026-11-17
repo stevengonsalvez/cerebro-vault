@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 1, 0, 9, 4, 18, 12, 0, 5, 13, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 9, 5, 18, 11, 0, 5, 13, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 2
-    active_days: 4
+    pushes: 18
+    distinct_repos: 3
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 11
-    active_days: 25
+    pushes: 64
+    distinct_repos: 12
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.5200
-  repo_per_active_day: 0.4400
+  push_per_day: 2.4615
+  repo_per_active_day: 0.4615
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,91 +49,92 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
-    distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 4
+    pushes: 18
+    distinct_repos: 3
+    pushes_per_repo: 6.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 63
-    distinct_repos: 11
-    pushes_per_repo: 5.7273
-    active_days: 25
+    pushes: 64
+    distinct_repos: 12
+    pushes_per_repo: 5.3333
+    active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pontape"
-    title: "pontape"
-    description: "ONG open source: acha quem quer mudar de vida, dá o básico, conecta com trabalho e IA, com transparência ao vivo. (nome provisório)"
-    language: "TypeScript"
-    topics: []
+  - name: "sonora"
+    title: "sonora"
+    description: "Native audio mixer for Omarchy (Hyprland + PipeWire) in GTK4, with saved routing for each app and scenes."
+    language: "Python"
+    topics:
+      - "audio-mixer"
+      - "gtk4"
+      - "hyprland"
+      - "linux"
+      - "omarchy"
+      - "pipewire"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "omarchy-device-pulse"
-    title: "omarchy-device-pulse"
-    description: "Bateria e configurações de mouse, teclado e fone na barra do Omarchy. Histórico, alertas, DPI e polling rate nos modelos suportados."
+    last_push: "2026-09-27"
+  - name: "DuoOmarchy"
+    title: "DuoOmarchy"
+    description: "One PC, two people, each in their own game. A second Steam session on Omarchy with its own keyboard, mouse and monitor, managed from the main desktop."
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-10-05"
+  - name: "omarchy-device-pulse"
+    title: "omarchy-device-pulse"
+    description: "Battery and settings for mouse, keyboard and headset in the Omarchy bar, with history, alerts, DPI and polling rate on supported models."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "omarchy-machines-radar"
+    title: "omarchy-machines-radar"
+    description: "Machines radar for the Omarchy bar: CPU, RAM, disk, containers and alerts for your PC, laptop and VPS, read over SSH."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "omarchy-agents"
+    title: "omarchy-agents"
+    description: "Agents panel for the Omarchy bar: token usage of every harness by hour, day, week, month or total, with project inspection."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "omarchy-agent-bench"
     title: "omarchy-agent-bench"
-    description: "Nested X11 benches for AI agents on Omarchy/Hyprland. Agents get their own display, Chromium, and CDP. You keep workspaces 1–5."
+    description: "Nested X11 benches for AI agents on Omarchy/Hyprland. Each task gets its own display, Chromium and CDP, and the agent never takes your mouse."
     language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "ponte"
-    title: "ponte"
-    description: "Android touch controls and live monitor views for an Omarchy desktop, over Tailscale. English by default, Portuguese optional."
-    language: "JavaScript"
-    topics:
-      - "android"
-      - "hyprland"
-      - "omarchy"
-      - "remote-control"
-      - "tailscale"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "the-last-arrow-web"
-    title: "the-last-arrow-web"
-    description: "The Last Arrow refeito do zero no navegador: PvP de arco estilo TowerFall em Three.js + TypeScript"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "omarchy-machines-radar"
-    title: "omarchy-machines-radar"
-    description: "Radar de máquinas (PC, notebook e VPS) na barra do Omarchy: CPU, RAM, disco, containers e avisos por SSH"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-15"
 ---
 
 # LucasOl1337
 
-63 pushes across 11 repositories on 25 active days in the last 90 days of public GitHub push activity.
+64 pushes across 12 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/LucasOl1337

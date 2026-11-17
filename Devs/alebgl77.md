@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 1, 3, 0, 0, 4, 7, 8, 1, 5, 0, 0, 1]
+pushes_per_week: [0, 1, 3, 0, 0, 4, 9, 7, 0, 5, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,24 +77,6 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "awesome-ai-architect"
-    title: "awesome-ai-architect"
-    description: "A self-updating, auto-classified map of the GenAI engineering stack: agents, MCP, memory, RAG, evals, LLMOps, AI security"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-engineering"
-      - "awesome"
-      - "awesome-list"
-      - "claude-code"
-      - "generative-ai"
-      - "github-actions"
-      - "llmops"
-      - "mcp"
-      - "rag"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "ftp-deploy-mcp"
     title: "ftp-deploy-mcp"
     description: "MCP server for FTP/FTPS/SFTP deployment, inspection and transfer. Local confinement, host-key pinning, read-only mode and dry runs; optional durable workflow with verified promotion, confirmation and rollback. EN/FR."
@@ -120,9 +102,83 @@ repos:
       - "sftp"
       - "shared-hosting"
       - "windsurf"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "AnswerLineage"
+    title: "AnswerLineage"
+    description: null
+    language: "Python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
+  - name: "awesome-ai-architect"
+    title: "awesome-ai-architect"
+    description: "A self-updating, auto-classified map of the GenAI engineering stack: agents, MCP, memory, RAG, evals, LLMOps, AI security"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-engineering"
+      - "awesome"
+      - "awesome-list"
+      - "claude-code"
+      - "generative-ai"
+      - "github-actions"
+      - "llmops"
+      - "mcp"
+      - "rag"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "claude-inc"
+    title: "claude-inc"
+    description: "Structured project workflows for Claude Code. Published v1.5.1: 54 skill manuals / 8 departments. Development source: 64 / 9, with peer CEO, CTO and CAIO."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "ai-agents"
+      - "ai-orchestration"
+      - "automation"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-skills"
+      - "developer-tools"
+      - "generative-ai"
+      - "llm"
+      - "multi-agent"
+      - "multi-agent-systems"
+      - "productivity"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "pilovo"
+    title: "pilovo"
+    description: "Chrome extension that shows whether your ChatGPT and Claude tabs are working, have a response ready or need your attention. Local side panel, optional access per site, no telemetry. Open-source preview."
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "browser-extension"
+      - "chatgpt"
+      - "chatgpt-extension"
+      - "chrome-extension"
+      - "chrome-side-panel"
+      - "claude"
+      - "claude-ai"
+      - "local-first"
+      - "manifest-v3"
+      - "no-telemetry"
+      - "open-source"
+      - "privacy"
+      - "productivity"
+      - "react"
+      - "side-panel"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "grafana-llmops-forge"
     title: "grafana-llmops-forge"
     description: "Grafana-native LLMOps dashboards for FinOps, agents, quality and AI governance. Automated query and deployment checks, with a separate optional visual review."
@@ -150,76 +206,7 @@ repos:
       - "vllm"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "ai-factory"
-    title: "ai-factory"
-    description: "Open-source control plane for enterprise AI operations, agent governance, human approvals, and hybrid model routing."
-    language: "Python"
-    topics:
-      - "agent-orchestration"
-      - "ai-agents"
-      - "ai-governance"
-      - "digital-twin"
-      - "enterprise-ai"
-      - "fastapi"
-      - "human-in-the-loop"
-      - "kubernetes"
-      - "llmops"
-      - "model-context-protocol"
-      - "observability"
-      - "threejs"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "open-shadow-ai"
-    title: "open-shadow-ai"
-    description: "Self-hosted Shadow AI discovery and governance. Evidence-first visibility across network, endpoints, Active Directory and Entra ID."
-    language: "Python"
-    topics:
-      - "active-directory"
-      - "ai-compliance"
-      - "ai-governance"
-      - "ai-inventory"
-      - "ai-security"
-      - "cybersecurity"
-      - "docker"
-      - "entra-id"
-      - "eu-ai-act"
-      - "fastapi"
-      - "generative-ai"
-      - "iso-42001"
-      - "kubernetes"
-      - "react"
-      - "self-hosted"
-      - "shadow-ai"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "tierdecay"
-    title: "tierdecay"
-    description: "Per-repo learning layer for AI coding model routers: learns which task classes can safely run on a cheaper tier. Native for Claude Code, Codex, Antigravity · MCP server · zero deps."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "agents-md"
-      - "ai-agents"
-      - "ai-coding"
-      - "claude-code"
-      - "cost-optimization"
-      - "developer-tools"
-      - "finops"
-      - "generative-ai"
-      - "google-antigravity"
-      - "llm"
-      - "llm-finops"
-      - "llmops"
-      - "mcp"
-      - "model-context-protocol"
-      - "model-routing"
-      - "openai-codex"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
 ---
 
 # alebgl77

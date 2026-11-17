@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 2, 3, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 2, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,14 +82,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "custom-search-engines"
-    title: "custom-search-engines"
-    description: "Custom search engines for Google Chrome"
-    language: null
-    topics: []
-    stars_fact: 119
-    first_seen: null
-    last_push: "2020-05-28"
   - name: "learning-papers"
     title: "learning-papers"
     description: "Landmark Papers in Machine Learning"
@@ -97,9 +89,17 @@ repos:
     topics:
       - "machine-learning"
       - "papers"
-    stars_fact: 727
+    stars_fact: 726
     first_seen: null
     last_push: "2026-07-08"
+  - name: "custom-search-engines"
+    title: "custom-search-engines"
+    description: "Custom search engines for Google Chrome"
+    language: null
+    topics: []
+    stars_fact: 120
+    first_seen: null
+    last_push: "2020-05-28"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Dan's dotfiles, deployed with GNU Stow"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "b03e856411c0697d"
 pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics:
       - "artificial-intelligence"
       - "large-language-model"
-    stars_fact: 65066
+    stars_fact: 65597
     first_seen: "2026-09-01T06:00:03.096534+00:00"
     last_push: "2026-10-27"
   - name: "minimind-v"
@@ -95,7 +95,7 @@ repos:
       - "artificial-intelligence"
       - "chatgpt"
       - "vision-language-model"
-    stars_fact: 8824
+    stars_fact: 8845
     first_seen: null
     last_push: "2026-10-27"
   - name: "minimind-o"
@@ -106,9 +106,25 @@ repos:
       - "artificial-intelligence"
       - "chatgpt"
       - "omni"
-    stars_fact: 2710
+    stars_fact: 2733
     first_seen: null
     last_push: "2026-10-27"
+  - name: "jingyaogong"
+    title: "jingyaogong"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "jingyaogong.github.io"
+    title: "jingyaogong.github.io"
+    description: "page"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "face_rec"
     title: "face_rec"
     description: null
@@ -117,22 +133,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2024-01-04"
-  - name: "jingyaogong"
-    title: "jingyaogong"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "jingyaogong.github.io"
-    title: "jingyaogong.github.io"
-    description: "page"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # jingyaogong

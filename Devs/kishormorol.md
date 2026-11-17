@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 2, 0, 7, 9, 2, 0, 2, 6, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 1, 9, 6, 2, 0, 3, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,46 +78,56 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "karigor"
-    title: "karigor"
-    description: "Software agents that take an idea to deployed, maintained software, with no human involvement after the idea. Free and open source."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
+  - name: "out-of-tokens"
+    title: "out-of-tokens"
+    description: "Great ideas, empty wallets. Share an idea you can't afford to build (LLM API or GPU costs) and keep the credit."
+    language: "Python"
+    topics:
+      - "attribution"
+      - "gpu"
+      - "ideas"
+      - "llm"
+      - "open-source"
+      - "startup-ideas"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "promptalias"
-    title: "promptalias"
-    description: "Reusable prompts as Agent Skills for Claude Code, Codex, and Cursor. Named after a cross-tool compiler that was designed, researched, and killed — the prior-art note explains why."
+    last_push: "2026-11-14"
+  - name: "promptlean"
+    title: "promptlean"
+    description: "Open-source library of token-efficient prompts — 120 prompts, 14 categories, 3 variants each (Lean/Balanced/Max Quality). Covers code, research, creative writing, career, mental health, and more."
+    language: "JavaScript"
+    topics:
+      - "ai-tools"
+      - "career"
+      - "chatgpt"
+      - "claude"
+      - "creative-writing"
+      - "developer-tools"
+      - "education"
+      - "gemini"
+      - "gpt"
+      - "llm"
+      - "open-source"
+      - "prompt-engineering"
+      - "prompt-library"
+      - "prompts"
+      - "token-optimization"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "ineedsilence"
+    title: "ineedsilence"
+    description: "Three AI judges from three vendors review a document over three rounds until all sign off. An Agent Skill for Claude Code."
     language: "Python"
     topics:
       - "agent-skills"
       - "claude-code"
-      - "codex"
-      - "cursor"
-      - "developer-tools"
-      - "prompts"
-      - "skill-md"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "thinkdiff"
-    title: "thinkdiff"
-    description: "Comparative visualization of LLM reasoning traces — see how Claude, DeepSeek, and GPT think about the same problem"
-    language: "TypeScript"
-    topics:
-      - "chain-of-thought"
-      - "claude"
-      - "deepseek"
-      - "hci"
       - "llm"
-      - "nextjs"
-      - "openai"
-      - "reasoning"
-      - "visualization"
-    stars_fact: 0
+      - "multi-agent"
+      - "peer-review"
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-10"
   - name: "ResearchScope"
     title: "ResearchScope"
     description: "Open-source research intelligence for CS papers — track what matters, who drives it, what to read first, and where the research gaps are."
@@ -141,9 +151,9 @@ repos:
       - "research-gaps"
       - "research-intelligence"
       - "research-tools"
-    stars_fact: 111
+    stars_fact: 112
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "kishormorol"
     title: "kishormorol"
     description: null
@@ -151,15 +161,22 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "crosslingual-axis-collapse"
-    title: "crosslingual-axis-collapse"
-    description: null
+    last_push: "2026-11-16"
+  - name: "promptalias"
+    title: "promptalias"
+    description: "Reusable prompts as Agent Skills for Claude Code, Codex, and Cursor. Named after a cross-tool compiler that was designed, researched, and killed — the prior-art note explains why."
     language: "Python"
-    topics: []
-    stars_fact: 0
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+      - "cursor"
+      - "developer-tools"
+      - "prompts"
+      - "skill-md"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-10"
 ---
 
 # kishormorol

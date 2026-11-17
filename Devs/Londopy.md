@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 2, 47, 20, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 54, 15, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,29 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "capture-bypass"
+    title: "capture-bypass"
+    description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
+    language: "Rust"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "ot-ics-exposure-research"
+    title: "ot-ics-exposure-research"
+    description: "Passive OT/ICS internet-exposure research (aggregate, count-only) with a defensive blue-team lab, detection rules, a forensics kit, and IEC 62443 / SANS mappings."
+    language: "Python"
+    topics:
+      - "blue-team"
+      - "critical-infrastructure"
+      - "ics-security"
+      - "iec-62443"
+      - "modbus"
+      - "ot-security"
+      - "shodan"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "Londopy"
     title: "Londopy"
     description: null
@@ -84,23 +107,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "patchnotes"
-    title: "patchnotes"
-    description: "Parse Keep a Changelog formatted CHANGELOG.md files into structured Python objects. Zero dependencies."
-    language: "Python"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-04"
-  - name: "capture-bypass"
-    title: "capture-bypass"
-    description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
-    language: "Rust"
-    topics: []
-    stars_fact: 54
-    first_seen: null
-    last_push: "2026-07-12"
+    last_push: "2026-11-17"
   - name: "the-long-fork"
     title: "the-long-fork"
     description: "A repo whose only purpose is to be forked, one link at a time, as deep as possible. Fork the tip, add one line, pass it on."
@@ -118,23 +125,23 @@ repos:
       - "social-experiment"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "HideDesktopApps"
-    title: "HideDesktopApps"
-    description: "Lightweight Windows system-tray app to hide/show desktop icons, taskbar & all windows via hotkeys. Perfect for ricing, streamers, Wallpaper Engine fans & focus tools."
-    language: "Rust"
+    last_push: "2026-11-16"
+  - name: "ropesim"
+    title: "ropesim"
+    description: "RopeSim models lead-fall dynamics using a damped spring / RK4 integration in Rust, exposed to Python via PyO3/Maturin. It ships a full Python API, a five-command CLI, and a PySide6 desktop GUI."
+    language: "Python"
     topics: []
-    stars_fact: 6
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "scoop-bucket"
-    title: "scoop-bucket"
-    description: "Scoop bucket for my apps — scoop bucket add londopy https://github.com/Londopy/scoop-bucket"
-    language: null
+    last_push: "2026-10-27"
+  - name: "patchnotes"
+    title: "patchnotes"
+    description: "Parse Keep a Changelog formatted CHANGELOG.md files into structured Python objects. Zero dependencies."
+    language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-08-04"
 ---
 
 # Londopy

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 0, 0, 0, 0, 14, 12, 21, 19, 41, 0, 3, 0]
+pushes_per_week: [3, 0, 0, 0, 2, 14, 11, 28, 22, 30, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 114
+    pushes: 113
     distinct_repos: 4
-    active_days: 28
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0714
-  repo_per_active_day: 0.1429
+  push_per_day: 4.1852
+  repo_per_active_day: 0.1481
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 114
+    pushes: 113
     distinct_repos: 4
-    pushes_per_repo: 28.5000
-    active_days: 28
+    pushes_per_repo: 28.2500
+    active_days: 27
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "attention"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-12"
   - name: "dsh-auto-research"
     title: "dsh-auto-research"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # cunninghamcard-bit
 
-114 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
+113 pushes across 4 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cunninghamcard-bit

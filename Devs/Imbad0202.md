@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [0, 0, 0, 0, 1, 6, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 7, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,9 @@ repos:
       - "literature-review"
       - "peer-review"
       - "prompt-engineering"
-    stars_fact: 56166
+    stars_fact: 57206
     first_seen: "2026-07-07T06:00:04.676583+00:00"
-    last_push: "2026-11-06"
+    last_push: "2026-11-15"
   - name: "academic-research-skills-codex"
     title: "academic-research-skills-codex"
     description: "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows"
@@ -108,7 +108,7 @@ repos:
       - "peer-review"
       - "prompt-engineering"
       - "research-assistant"
-    stars_fact: 14270
+    stars_fact: 14660
     first_seen: null
     last_push: "2026-11-06"
   - name: "experiment-agent"
@@ -116,7 +116,7 @@ repos:
     description: "Claude Code skill for experiment execution, monitoring, statistical interpretation, and reproducibility verification"
     language: "Python"
     topics: []
-    stars_fact: 215
+    stars_fact: 219
     first_seen: null
     last_push: "2026-11-04"
   - name: "tw-formal-writing"
@@ -134,7 +134,7 @@ repos:
       - "official-document"
       - "prompt-engineering"
       - "taiwan"
-    stars_fact: 198
+    stars_fact: 201
     first_seen: null
     last_push: "2026-09-24"
   - name: "tw-gov-overseas-trip-kit"

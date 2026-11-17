@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 3, 1, 1, 4, 23, 25, 16, 7, 12, 0, 1, 0]
+pushes_per_week: [1, 4, 0, 1, 5, 25, 24, 14, 10, 9, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "soho"
+    title: "soho"
+    description: "Role-based coding agents in Herdr with an optional local plugin"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "vpnt"
+    title: "vpnt"
+    description: "Tray para ligar, desligar e acompanhar VPNs no macOS, Windows e Linux"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "edger"
     title: "edger"
     description: "Secure, versioned edge runtime in Rust with Deno, WebAssembly, cPanel observability, and Kubernetes deployment."
@@ -91,7 +107,7 @@ repos:
       - "webassembly"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-10"
   - name: "scoop-bucket"
     title: "scoop-bucket"
     description: "Personal Scoop bucket: ai-usagebar and friends"
@@ -100,15 +116,7 @@ repos:
       - "scoop-bucket"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "soho"
-    title: "soho"
-    description: "Role-based coding agents in Herdr with an optional local plugin"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-14"
   - name: "openpencil-capture"
     title: "openpencil-capture"
     description: "Capture rendered web UI as editable OpenPencil layers"
@@ -125,14 +133,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-06"
-  - name: "dukto"
-    title: "dukto"
-    description: "Cross-platform file transfer app"
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
 ---
 
 # djalmajr

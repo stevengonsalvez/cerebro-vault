@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 2, 4, 15, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 2, 8, 11, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "glean"
-    title: "glean"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "agents"
-    title: "agents"
-    description: "Scheduled local AI agent jobs on the Claude Agent SDK, driven by launchd on a Mac"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "takeitonline"
-    title: "takeitonline"
-    description: "Ask Claude questions live during a meeting, grounded in what was just said. Use 'wake-up' phrases to take action in the background."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "ruaridhw"
-    title: "ruaridhw"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-25"
-  - name: "schemashift"
-    title: "schemashift"
-    description: "ETLs made easy for LLMs using Polars expressions and Pydantic validation"
-    language: "Python"
-    topics:
-      - "csv-processing"
-      - "etl"
-      - "polars"
-      - "transform"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-10"
-  - name: "insurance-co-pilot"
-    title: "insurance-co-pilot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-20"
+repos: []
 ---
 
 # ruaridhw

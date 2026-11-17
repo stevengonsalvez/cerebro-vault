@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 2, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -87,17 +87,29 @@ repos:
       - "code-review"
       - "rust"
       - "tui"
-    stars_fact: 3552
+    stars_fact: 3615
     first_seen: "2026-07-31T06:00:07.664216+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "yuzudraw"
     title: "yuzudraw"
     description: "visual ASCII editor for both humans and agents"
     language: "Swift"
     topics: []
-    stars_fact: 56
+    stars_fact: 57
     first_seen: null
     last_push: "2026-03-24"
+  - name: "imprint"
+    title: "imprint"
+    description: "Serialization format for row-based incremental data processing"
+    language: "Rust"
+    topics:
+      - "data"
+      - "rust"
+      - "serialization"
+      - "zero-copy"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2025-07-15"
   - name: "compression-golf"
     title: "compression-golf"
     description: "🏌️ a fun challenge to compress 1M rows to the smallest possible size"
@@ -108,18 +120,6 @@ repos:
     stars_fact: 58
     first_seen: null
     last_push: "2026-02-24"
-  - name: "imprint"
-    title: "imprint"
-    description: "Serialization format for row-based incremental data processing"
-    language: "Rust"
-    topics:
-      - "data"
-      - "rust"
-      - "serialization"
-      - "zero-copy"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2025-07-15"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "homebrew tap for tuicr"

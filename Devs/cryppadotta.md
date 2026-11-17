@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [11, 121, 11, 29, 28, 58, 83, 98, 77, 58, 0, 11, 5]
+pushes_per_week: [10, 122, 11, 31, 28, 66, 82, 135, 43, 44, 0, 11, 5]
 windows:
   "7d":
     pushes: 5
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 590
+    pushes: 588
     distinct_repos: 4
-    active_days: 63
+    active_days: 62
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.3651
-  repo_per_active_day: 0.0635
+  push_per_day: 9.4839
+  repo_per_active_day: 0.0645
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 590
+    pushes: 588
     distinct_repos: 4
-    pushes_per_repo: 147.5000
-    active_days: 63
+    pushes_per_repo: 147.0000
+    active_days: 62
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scryfall-mcp"
+    title: "scryfall-mcp"
+    description: "A mcp server for interacting with the Scryfall Magic The Gathering API"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2025-02-12"
   - name: "insole-studio"
     title: "insole-studio"
     description: "Browser-based parametric insole CAD with local infill controls and PrusaSlicer 3MF export"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 510
     first_seen: null
     last_push: "2023-10-24"
-  - name: "scryfall-mcp"
-    title: "scryfall-mcp"
-    description: "A mcp server for interacting with the Scryfall Magic The Gathering API"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 36
-    first_seen: null
-    last_push: "2025-02-12"
   - name: "decks"
     title: "decks"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-590 pushes across 4 repositories on 63 active days in the last 90 days of public GitHub push activity.
+588 pushes across 4 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

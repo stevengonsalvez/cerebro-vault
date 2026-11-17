@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "f8a707d9ac993687"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -98,7 +98,7 @@ repos:
       - "transcription"
       - "video-analysis"
       - "whisper"
-    stars_fact: 2301
+    stars_fact: 2322
     first_seen: "2026-07-03T06:00:07.569198+00:00"
     last_push: "2026-10-23"
   - name: "RehabMate"

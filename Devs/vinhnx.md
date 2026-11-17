@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 0, 1, 2, 1, 2, 6, 3, 0, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 2, 2, 2, 6, 2, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
-    active_days: 18
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1667
-  repo_per_active_day: 0.1667
+  push_per_day: 1.1765
+  repo_per_active_day: 0.1765
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,116 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 3
-    pushes_per_repo: 7.0000
-    active_days: 18
+    pushes_per_repo: 6.6667
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "VTCode"
-    title: "VTCode"
-    description: "A local-first AI coding agent for your terminal and desktop."
-    language: "Rust"
-    topics:
-      - "agent"
-      - "agentclientprotocol"
-      - "agentplugins"
-      - "agentskills"
-      - "ai"
-      - "artificial-intelligence"
-      - "cargo"
-      - "cli"
-      - "codingagent"
-      - "crossterm"
-      - "mcp"
-      - "ratatui"
-      - "rust"
-      - "terminal"
-      - "tui"
-    stars_fact: 906
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "My homebrew tap formula"
-    language: "Ruby"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "Shift"
-    title: "Shift"
-    description: "Light-weight & concurrent EventKit wrapper"
-    language: "Swift"
-    topics:
-      - "async-await"
-      - "asynchronous"
-      - "calendar"
-      - "combine"
-      - "concurrency"
-      - "eventkit"
-      - "ios"
-      - "swift"
-      - "swift-package-manager"
-      - "swift5"
-      - "swiftui"
-      - "wrapper"
-      - "xcode"
-    stars_fact: 66
-    first_seen: null
-    last_push: "2025-03-20"
-  - name: "Clendar"
-    title: "Clendar"
-    description: "Clendar - Minimal Calendar app. Written in SwiftUI."
-    language: "Swift"
-    topics:
-      - "apple"
-      - "calendar"
-      - "catalyst"
-      - "eventkit"
-      - "fastlane"
-      - "github-actions"
-      - "ios"
-      - "ipad"
-      - "iphone"
-      - "macos"
-      - "siri"
-      - "swift"
-      - "swift-package-manager"
-      - "swiftformat"
-      - "swiftlint"
-      - "swiftui"
-      - "watchos"
-      - "widget"
-    stars_fact: 742
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "vitesse-helix"
-    title: "vitesse-helix"
-    description: "Vitesse Black theme for the Helix editor — a port of antfu's Vitesse"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "helix-config"
-    title: "helix-config"
-    description: "My Helix editor config with VS Code keybindings"
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-03"
+repos: []
 ---
 
 # vinhnx
 
-21 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
+20 pushes across 3 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/vinhnx

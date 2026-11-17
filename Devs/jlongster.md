@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 8, 0, 0, 5, 1, 4, 2, 0, 9, 0, 0, 0]
+pushes_per_week: [7, 1, 0, 1, 4, 2, 3, 2, 3, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,36 +77,20 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tigma"
-    title: "tigma"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 562
-    first_seen: null
-    last_push: "2025-12-25"
-  - name: "prepack-revived"
-    title: "prepack-revived"
-    description: "Experimental revival of Facebook's archived Prepack JS partial evaluator, driven by AI coding agents"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "electron-with-server-example"
-    title: "electron-with-server-example"
-    description: "An example Electron app with a backend server all wired up via IPC"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1013
-    first_seen: null
-    last_push: "2022-12-09"
   - name: "freezedry"
     title: "freezedry"
     description: "Run JS initialization at build time in V8, capture the heap via the inspector, and emit plain JS that rebuilds it — with guarded environment assumptions, volatile-read bailouts, a heap-isomorphism verifier, and a trace-based React SSR specializer"
     language: "JavaScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "prepack-revived"
+    title: "prepack-revived"
+    description: "Experimental revival of Facebook's archived Prepack JS partial evaluator, driven by AI coding agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 21
     first_seen: null
     last_push: "2026-11-05"
   - name: "opencode-canvas"
@@ -114,17 +98,33 @@ repos:
     description: "Infinite review canvas for OpenCode sessions: images, videos, HTML, and conjured session butterflies"
     language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-26"
-  - name: "opencode-ui-blocks"
-    title: "opencode-ui-blocks"
-    description: "Interactive UI blocks for the OpenCode TUI: models write small Lua widgets that render live"
+  - name: "electron-with-server-example"
+    title: "electron-with-server-example"
+    description: "An example Electron app with a backend server all wired up via IPC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1012
+    first_seen: null
+    last_push: "2022-12-09"
+  - name: "absurd-sql"
+    title: "absurd-sql"
+    description: "sqlite3 in ur indexeddb (hopefully a better backend soon)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4316
+    first_seen: null
+    last_push: "2023-08-06"
+  - name: "tigma"
+    title: "tigma"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 563
     first_seen: null
-    last_push: "2026-10-12"
+    last_push: "2025-12-25"
 ---
 
 # jlongster

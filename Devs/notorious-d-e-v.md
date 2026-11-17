@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -85,7 +85,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-15"
+    last_push: "2026-11-10"
   - name: "hey-ai"
     title: "hey-ai"
     description: "Say “Hey Chatty”, “Hey Codex”, “Hey Claude” or “Hey Claude Code” and that assistant opens on your Mac, voice already on. On-device speech, nothing recorded. One-line install."

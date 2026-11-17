@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 4, 1, 9, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 4, 1, 10, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,58 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "remove-markdown"
-    title: "remove-markdown"
-    description: "Strip Markdown stuff from text"
-    language: "JavaScript"
-    topics:
-      - "javascript"
-      - "markdown"
-      - "nodejs"
-    stars_fact: 379
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "railway-prometheus"
-    title: "railway-prometheus"
-    description: "one-click deployment of Prometheus to Railway"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "free-design-md"
-    title: "free-design-md"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "mars-fan-scout"
-    title: "mars-fan-scout"
-    description: "Roboflow-assisted Mars polar fan discovery, review, and historical dust-direction demo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "zuchka.dev"
-    title: "zuchka.dev"
-    description: "Personal portfolio and blog at zuchka.dev. Hand-written HTML, no build step."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "mcp-doctor"
-    title: "mcp-doctor"
-    description: "A deterministic quality lab for MCP server interfaces"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
+repos: []
 ---
 
 # zuchka

@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
@@ -80,54 +80,54 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "YouRecApp"
+    title: "YouRecApp"
+    description: "Camera and video editor for the iPhone designed for creators"
+    language: "Swift"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "kilo"
+    title: "kilo"
+    description: "A text editor in less than 1000 LOC with syntax highlight and search."
+    language: "C"
+    topics: []
+    stars_fact: 9241
+    first_seen: null
+    last_push: "2025-01-04"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 24297
+    stars_fact: 24380
     first_seen: "2026-08-04T06:00:05.826189+00:00"
     last_push: "2026-11-08"
+  - name: "inverter"
+    title: "inverter"
+    description: "Telegram bot for GoodWe inverters"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2025-05-08"
   - name: "h3.c"
     title: "h3.c"
     description: "MiniMax H3 inference engine for Mac computers"
     language: "C"
     topics: []
-    stars_fact: 3047
+    stars_fact: 3071
     first_seen: "2026-08-11T06:00:08.519332+00:00"
     last_push: "2026-08-11"
-  - name: "rax"
-    title: "rax"
-    description: "A radix tree implementation in ANSI C"
-    language: "C"
+  - name: "bplog"
+    title: "bplog"
+    description: "Hilo (TM) / Aktiia (TM) open source client implementation for the bluetooth cuff"
+    language: "Kotlin"
     topics: []
-    stars_fact: 1272
+    stars_fact: 26
     first_seen: null
-    last_push: "2023-11-26"
-  - name: "load81"
-    title: "load81"
-    description: "SDL based Lua programming environment for kids similar to Codea"
-    language: "C"
-    topics: []
-    stars_fact: 743
-    first_seen: null
-    last_push: "2022-10-07"
-  - name: "protoview"
-    title: "protoview"
-    description: "Flipper Zero app to display known and unknown signals"
-    language: "C"
-    topics: []
-    stars_fact: 601
-    first_seen: null
-    last_push: "2025-05-05"
-  - name: "voxtral.c"
-    title: "voxtral.c"
-    description: "Pure C inference of Mistral Voxtral Realtime 4B speech to text model"
-    language: "C"
-    topics: []
-    stars_fact: 1751
-    first_seen: null
-    last_push: "2026-02-15"
+    last_push: "2026-03-22"
 ---
 
 # antirez

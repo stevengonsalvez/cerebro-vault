@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [2, 0, 0, 4, 0, 0, 2, 1, 5, 42, 0, 0, 1]
+pushes_per_week: [2, 0, 1, 3, 0, 0, 3, 2, 14, 31, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,23 +77,44 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CUA-Daily"
-    title: "CUA-Daily"
-    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
+  - name: "ugra-rgbd-robust"
+    title: "ugra-rgbd-robust"
+    description: "Missing Is Not Zero: well-posed modality removal for RGB-D segmentation robustness. A removal-equivalence criterion with an inference-time test, plus 293 SHA-256-verified result artifacts the paper's headline table recomputes from."
     language: "Python"
     topics:
-      - "arxiv"
-      - "awesome-list"
-      - "browser-agents"
-      - "computer-use"
-      - "gui-agents"
-      - "llm-agents"
-      - "mobile-agents"
-      - "research-radar"
-      - "web-agents"
+      - "computer-vision"
+      - "dformer"
+      - "missing-modality"
+      - "multimodal"
+      - "nyu-depth-v2"
+      - "pytorch"
+      - "reproducible-research"
+      - "rgbd-segmentation"
+      - "robustness"
+      - "semantic-segmentation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "design-card-atlas"
+    title: "design-card-atlas"
+    description: "Citadel 视觉设计卡：给 3D 场景、镜头与 UI 的参考图册（光 · 尺度 · 材质 · 镜头 · 排版）"
+    language: "Python"
+    topics:
+      - "reference"
+      - "threejs"
+      - "visual-design"
+      - "webgl"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "open-scientist"
+    title: "open-scientist"
+    description: "Open Scientist 0.4: ResearchStudio idea_spark backbone + research-taste selection layers (innovation lens, gap-code filter, problem selection) for Claude Code"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "Embodied-Harness-Daily"
     title: "Embodied-Harness-Daily"
     description: "Embodied agent harness research radar: evidence-grounded discovery, pattern cards, and local review"
@@ -113,55 +134,24 @@ repos:
       - "vla"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "HarnessRSI-Daily"
-    title: "HarnessRSI-Daily"
-    description: "Daily radar for harness-level recursive self-improvement (RSI): self-evolving / self-improving LLM agent papers scored with quote-backed evidence, research-pattern cards, and paper posters. arXiv daily · awesome list · 递归自我改进"
-    language: "HTML"
+    last_push: "2026-11-16"
+  - name: "CUA-Daily"
+    title: "CUA-Daily"
+    description: "CUA Radar — computer-use / GUI / browser agent papers mapped to architecture pattern cards and scored with quote-backed evidence"
+    language: "Python"
     topics:
-      - "agent-harness"
-      - "agent-memory"
-      - "agentic-workflow"
-      - "ai-agents"
-      - "arxiv-daily"
-      - "automated-agent-design"
+      - "arxiv"
       - "awesome-list"
-      - "harness-engineering"
-      - "llm"
+      - "browser-agents"
+      - "computer-use"
+      - "gui-agents"
       - "llm-agents"
-      - "meta-learning"
-      - "open-ended-evolution"
-      - "paper-list"
-      - "prompt-optimization"
-      - "recursive-self-improvement"
+      - "mobile-agents"
       - "research-radar"
-      - "rsi"
-      - "self-evolving-agents"
-      - "self-improving-agents"
-      - "skill-library"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "design-card-atlas"
-    title: "design-card-atlas"
-    description: "Citadel 视觉设计卡：给 3D 场景、镜头与 UI 的参考图册（光 · 尺度 · 材质 · 镜头 · 排版）"
-    language: "Python"
-    topics:
-      - "reference"
-      - "threejs"
-      - "visual-design"
-      - "webgl"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "open-scientist"
-    title: "open-scientist"
-    description: "Open Scientist 0.4: ResearchStudio idea_spark backbone + research-taste selection layers (innovation lens, gap-code filter, problem selection) for Claude Code"
-    language: "Python"
-    topics: []
+      - "web-agents"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "CrepuscularIRIS.github.io"
     title: "CrepuscularIRIS.github.io"
     description: null
@@ -169,7 +159,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
 ---
 
 # CrepuscularIRIS

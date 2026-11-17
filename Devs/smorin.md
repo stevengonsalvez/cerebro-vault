@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 1, 2, 4, 18, 15, 8, 2, 0, 2, 0, 0, 1]
+pushes_per_week: [1, 1, 2, 5, 17, 16, 7, 2, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -82,12 +82,20 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "filegardener"
+    title: "filegardener"
+    description: "File gardener - file maintenance utilities - file dedup, only copy detection, prune empty dirs"
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "deterministic-builds-google"
     title: "deterministic-builds-google"
     description: "Fork of justincastilla/deterministic-builds-ATO, adapted for a Google talk (2026)"
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-26"
   - name: "thothspinner"
@@ -95,7 +103,7 @@ repos:
     description: "Claude Code inspired animation TUI component, a configurable progress indicator library for Python, built on Rich. ThothSpinner provides beautiful, composable terminal UI components including spinners, progress bars, timers, and animated messages with shimmer effects."
     language: "Python"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-11-03"
   - name: "ito"
@@ -106,14 +114,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2025-07-25"
-  - name: "filegardener"
-    title: "filegardener"
-    description: "File gardener - file maintenance utilities - file dedup, only copy detection, prune empty dirs"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "smorin"
     title: "smorin"
     description: null

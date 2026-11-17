@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 1, 5, 4, 4, 3, 0, 3, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 1, 5, 5, 6, 0, 0, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,6 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "recruit-ai-framework"
-    title: "recruit-ai-framework"
-    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "metix-reports"
-    title: "metix-reports"
-    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "modern-ai-resume-builder"
-    title: "modern-ai-resume-builder"
-    description: "demo: https://genedai.cv/ modern-ai-resume-builder | Built by Gene Dai, Co-Founder of Metix AI （https://metix.ai/）"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "genedai.md"
-    title: "genedai.md"
-    description: "Gene Dai — Personal Homepage"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "website2markdown"
-    title: "website2markdown"
-    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0. https://mdget.dev"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cloudflare-workers"
-      - "llms-txt"
-      - "markdown"
-      - "mcp"
-      - "typescript"
-      - "url-to-markdown"
-      - "web-scraping"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "product-manager-skills"
     title: "product-manager-skills"
     description: "PM skill for Claude Code, Codex, Cursor, and Windsurf: diagnose SaaS metrics, critique PRDs, plan roadmaps, run discovery, and coach PM career transitions."
@@ -150,9 +102,57 @@ repos:
       - "saas-metrics"
       - "skill-md"
       - "windsurf-skill"
-    stars_fact: 201
+    stars_fact: 205
     first_seen: null
     last_push: "2026-04-12"
+  - name: "metix-reports"
+    title: "metix-reports"
+    description: "Public catalog of Metix AI talent reports (canonical links to metix.ai)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "genedai.md"
+    title: "genedai.md"
+    description: "Gene Dai — Personal Homepage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "website2markdown"
+    title: "website2markdown"
+    description: "Convert any URL to clean Markdown. Cloudflare Worker with 14 site adapters, MCP Server, Agent Skills, llms.txt. Open source, Apache-2.0. https://mdget.dev"
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "cloudflare-workers"
+      - "llms-txt"
+      - "markdown"
+      - "mcp"
+      - "typescript"
+      - "url-to-markdown"
+      - "web-scraping"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "modern-ai-resume-builder"
+    title: "modern-ai-resume-builder"
+    description: "demo: https://genedai.cv/ modern-ai-resume-builder | Built by Gene Dai, Co-Founder of Metix AI （https://metix.ai/）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "recruit-ai-framework"
+    title: "recruit-ai-framework"
+    description: "Recruit-AI-Framework — Built by Genedai, Co-Founder of OpenJobs AI （https://openjobs-ai.com/）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # Digidai

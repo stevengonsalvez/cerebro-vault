@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "36da1b921f121c1d"
   - "386c24cf5e18fd90"
@@ -81,6 +81,14 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "lanparty"
+    title: "lanparty"
+    description: "Netboot a fleet of desktop machines from a single base image"
+    language: "Shell"
+    topics: []
+    stars_fact: 975
+    first_seen: null
+    last_push: "2026-08-28"
   - name: "dvorak-qwerty"
     title: "dvorak-qwerty"
     description: "\"Dvorak-Qwerty ⌘\" (DQ) keyboard layout for Windows and Unix/Linux/X"
@@ -89,14 +97,6 @@ repos:
     stars_fact: 179
     first_seen: null
     last_push: "2026-09-16"
-  - name: "lanparty"
-    title: "lanparty"
-    description: "Netboot a fleet of desktop machines from a single base image"
-    language: "Shell"
-    topics: []
-    stars_fact: 973
-    first_seen: null
-    last_push: "2026-08-28"
   - name: "home-container"
     title: "home-container"
     description: "Containerize your home directory"

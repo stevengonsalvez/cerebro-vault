@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 2, 0, 0, 4, 3, 1, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 3, 3, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CVE-2025-55182-research"
+    title: "CVE-2025-55182-research"
+    description: "CVE-2025-55182 POC"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 790
+    first_seen: null
+    last_push: "2025-12-08"
   - name: "uponor-virtual-thermostat"
     title: "uponor-virtual-thermostat"
     description: "uponor-virtual-thermostat"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-10-19"
-  - name: "CVE-2025-55182-research"
-    title: "CVE-2025-55182-research"
-    description: "CVE-2025-55182 POC"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 789
-    first_seen: null
-    last_push: "2025-12-08"
   - name: "gantry"
     title: "gantry"
     description: "lightweight VMs in Go"

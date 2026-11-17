@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 3, 0, 0, 4, 17, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 0, 5, 16, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,7 +97,7 @@ repos:
       - "tiling-window-manager"
       - "tui"
       - "windows"
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
     last_push: "2026-10-22"
   - name: "hwatu"
@@ -122,7 +122,7 @@ repos:
       - "wayland"
       - "webkit"
       - "webkitgtk"
-    stars_fact: 118
+    stars_fact: 121
     first_seen: null
     last_push: "2026-10-17"
   - name: "hongnoul.github.io"

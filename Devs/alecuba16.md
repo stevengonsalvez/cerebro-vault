@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [1, 2, 2, 5, 19, 38, 36, 10, 12, 38, 0, 1, 0]
+pushes_per_week: [1, 2, 2, 5, 21, 38, 35, 14, 16, 29, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,6 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap of my repos."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "herdr-webui"
-    title: "herdr-webui"
-    description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "businessbar"
     title: "businessbar"
     description: "A unified macOS menu bar application combining three essential functionalities: Next Meeting->Shows upcoming calendar events with countdown, one-click join, and notifications 2.Notification Badges->icon badges for selected apps as menu bar icons. 3->NoSleep, Prevents the computer from sleeping"
@@ -100,7 +84,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap of my repos."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "herdr-webui"
+    title: "herdr-webui"
+    description: "Standalone browser WebUI for Herdr sessions, with workspace/worktree navigation, terminal attach, agent status, settings, and macOS install/update support. New* Includes a built-in backend."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "fuhrlander"
     title: "fuhrlander"
     description: "Fuhrländer FL2500 2.5MW wind turbine dataset + pre-processing functions R MATLAB"

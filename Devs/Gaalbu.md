@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 1, 7, 15, 5, 9, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 13, 9, 10, 4, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "de-la-do-para"
+    title: "de-la-do-para"
+    description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "triagem-guiada"
+    title: "triagem-guiada"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "agenda-campus-push"
+    title: "agenda-campus-push"
+    description: "Atividade Push FCM: app Flutter com notificações simples, com imagem e com navegação"
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "contatos-api"
     title: "contatos-api"
     description: "API REST de contatos em Node.js, Express, TypeScript e MySQL"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-03"
-  - name: "de-la-do-para"
-    title: "de-la-do-para"
-    description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "Gaalbu"
-    title: "Gaalbu"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "hacktoberfest-encomenda-certa"
-    title: "hacktoberfest-encomenda-certa"
-    description: "Review changes in confectionery orders with Gemma, message evidence and human confirmation."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
 ---
 
 # Gaalbu

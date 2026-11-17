@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -45,6 +45,7 @@ provenance:
   - "3f132fb2c563cba4"
   - "3f88ef2405b8fae7"
   - "44423c0a85b4d691"
+  - "4e2b4f1543d14800"
   - "557818547b5e5732"
   - "5744b97e5a176886"
   - "5dc7e9d03eb17a01"
@@ -158,55 +159,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 84 vault signal(s) — pass"
+  - "provenance: 85 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "frontend-interview-questions"
-    title: "frontend-interview-questions"
-    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
-    language: "JavaScript"
-    topics:
-      - "frontend"
-      - "interview-practice"
-      - "interview-questions"
-      - "javascript"
-    stars_fact: 1145
-    first_seen: null
-    last_push: "2023-01-21"
-  - name: "json-schema-to-typescript"
-    title: "json-schema-to-typescript"
-    description: "Compile JSON Schema to TypeScript type declarations"
-    language: "TypeScript"
-    topics:
-      - "json-schema"
-      - "typescript"
-    stars_fact: 3351
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "undux"
-    title: "undux"
-    description: "⚡️ Dead simple state for React. Now with Hooks support."
-    language: "TypeScript"
-    topics:
-      - "flux"
-      - "react"
-      - "redux"
-      - "typesafe"
-      - "typescript"
-    stars_fact: 1561
-    first_seen: null
-    last_push: "2025-05-08"
-  - name: "tslint-no-circular-imports"
-    title: "tslint-no-circular-imports"
-    description: "TSLint plugin to detect and warn about circular imports"
-    language: "TypeScript"
-    topics:
-      - "tslint"
-      - "typescript"
-    stars_fact: 90
-    first_seen: null
-    last_push: "2021-08-10"
   - name: "programming-typescript-answers"
     title: "programming-typescript-answers"
     description: "Official answers for exercises from Orielly's Programming TypeScript"
@@ -224,6 +180,54 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2026-09-20"
+  - name: "undux"
+    title: "undux"
+    description: "⚡️ Dead simple state for React. Now with Hooks support."
+    language: "TypeScript"
+    topics:
+      - "flux"
+      - "react"
+      - "redux"
+      - "typesafe"
+      - "typescript"
+    stars_fact: 1561
+    first_seen: null
+    last_push: "2025-05-08"
+  - name: "json-schema-to-typescript"
+    title: "json-schema-to-typescript"
+    description: "Compile JSON Schema to TypeScript type declarations"
+    language: "TypeScript"
+    topics:
+      - "json-schema"
+      - "typescript"
+    stars_fact: 3353
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "flow-to-typescript"
+    title: "flow-to-typescript"
+    description: "Convert Flow-annotated files to TypeScript"
+    language: "TypeScript"
+    topics:
+      - "compiler"
+      - "flow"
+      - "flowtype"
+      - "javascript"
+      - "typescript"
+    stars_fact: 439
+    first_seen: null
+    last_push: "2022-12-06"
+  - name: "frontend-interview-questions"
+    title: "frontend-interview-questions"
+    description: "Answers for https://borischerny.com/javascript/%22functional/programming%22/2017/06/09/Frontend-Interview-Questions.html"
+    language: "JavaScript"
+    topics:
+      - "frontend"
+      - "interview-practice"
+      - "interview-questions"
+      - "javascript"
+    stars_fact: 1145
+    first_seen: null
+    last_push: "2023-01-21"
 ---
 
 # bcherny

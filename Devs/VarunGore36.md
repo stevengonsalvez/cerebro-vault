@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 6, 6, 5, 3, 8, 1, 6, 0, 0, 2]
+pushes_per_week: [0, 0, 1, 5, 6, 5, 4, 7, 2, 5, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -78,14 +78,22 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "regime-classifier"
+    title: "regime-classifier"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "toolcage"
     title: "toolcage"
     description: "Local-first runtime for securely executing AI agent tools, with capability-based authorization, credential isolation, controlled network egress, and tamper-evident audit logs."
     language: "Rust"
     topics: []
-    stars_fact: 6
+    stars_fact: 7
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "VarunGore36"
     title: "VarunGore36"
     description: "GitHub Readme"
@@ -93,7 +101,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-16"
   - name: "AstralProject"
     title: "AstralProject"
     description: "An open, reproducible measurement layer for crypto markets. Deterministic replay, honest cost models, reproducible results."
@@ -118,14 +126,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-29"
-  - name: "ENAMEL-Extended"
-    title: "ENAMEL-Extended"
-    description: "Reimplementation and extension of ENAMEL, an ICLR 2025 benchmark for rigorously evaluating the efficiency of LLM-generated code"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-09"
 ---
 
 # VarunGore36

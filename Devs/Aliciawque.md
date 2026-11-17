@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 1, 1, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 0, 1, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,38 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "doc-inventory-contract"
+    title: "doc-inventory-contract"
+    description: "Offline Python CLI to validate an explicit documentation inventory against a recursive Markdown directory scan."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "plan-base-check"
+    title: "plan-base-check"
+    description: "Offline Git base and scoped-file freshness checks for implementation plans."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "har-budget-audit"
+    title: "har-budget-audit"
+    description: "Offline HAR request and byte budgets with aggregate-only reports."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "render-sequence-preflight"
+    title: "render-sequence-preflight"
+    description: "Read-only frame sequence checks for missing, empty, extra and duplicate render frames."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "digital-garden-showcase"
     title: "digital-garden-showcase"
     description: "Digital Garden by Alicia: a free interactive 3D flower garden with four seasons, nature sounds and flower photography. Made with Houdini and Three.js."
@@ -93,55 +125,15 @@ repos:
       - "webgpu"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "dsh-big-whale"
-    title: "dsh-big-whale"
-    description: "大鲸鱼 / Big Whale / 大クジラ — a trilingual DSH desktop companion with lip sync, expressions, idle motions and context-compaction rice."
-    language: "JavaScript"
-    topics:
-      - "2d-avatar"
-      - "deepseek-harness"
-      - "desktop-pet"
-      - "dsh-plugin"
-      - "lip-sync"
-      - "mesh-avatar"
-      - "trilingual"
-      - "windows"
+    last_push: "2026-11-17"
+  - name: "clawd-days"
+    title: "clawd-days"
+    description: null
+    language: "HTML"
+    topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "temp-cleanup-audit"
-    title: "temp-cleanup-audit"
-    description: "Offline Python AST checks for cleanup rooted in the shared temporary directory."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "Aliciawque"
-    title: "Aliciawque"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "missing-eval-audit"
-    title: "missing-eval-audit"
-    description: "Offline fixed-plan evaluation coverage and missing-outcome bounds. Python standard library; missing results are not failures."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "udim-reference-chart"
-    title: "udim-reference-chart"
-    description: "Dependency-free UDIM diagnostic PNG tiles with global coordinates, orientation cues, and reproducible manifests."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-11"
 ---
 
 # Aliciawque

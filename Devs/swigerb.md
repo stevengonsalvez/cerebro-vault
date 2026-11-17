@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 3, 0, 0, 3, 46, 186, 135, 10, 35, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 0, 5, 45, 241, 81, 37, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,12 +78,20 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sku-to-scene"
+    title: "sku-to-scene"
+    description: "SKU to Scene: AI-Directed Retail Video at Enterprise Scale. Agent-orchestrated creative supply chain routing retail briefs to fal video models (Kling v3 Pro, LTX-2.5 Fast/Pro, MiniMax H3 Max/Turbo) in Microsoft Foundry, with Squad + GitHub Copilot."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "squad-pod"
     title: "squad-pod"
     description: "Pixel art office where your Squad AI agents come to life as animated characters — adapted from pixel-agents for Brady Gaster's Squad"
     language: "TypeScript"
     topics: []
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
     last_push: "2026-11-09"
   - name: "podwin.app"
@@ -127,15 +135,7 @@ repos:
       - "voice-assistant"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-05"
-  - name: "retail-pulse"
-    title: "retail-pulse"
-    description: "AI-powered brand analytics for retail & CPG — built with .NET Aspire, MAF, and MCP"
-    language: "C#"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-12"
 ---
 
 # swigerb

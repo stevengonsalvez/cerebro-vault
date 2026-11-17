@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 24, 4, 0, 2, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 24, 4, 0, 3, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,21 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "atlas"
+    title: "atlas"
+    description: "An interactive map of a home network: drawn sheets on one canvas, live status from Prometheus"
+    language: "TypeScript"
+    topics:
+      - "bun"
+      - "homelab"
+      - "network-map"
+      - "prometheus"
+      - "react"
+      - "vite"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "scan-it"
     title: "scan-it"
     description: null
@@ -92,7 +106,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-10"
   - name: "camwall"
     title: "camwall"
     description: "A browser video wall for RTSP cameras and recorders: layouts, groups, saved views, ONVIF discovery"
@@ -105,21 +119,7 @@ repos:
       - "rtsp"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "atlas"
-    title: "atlas"
-    description: "An interactive map of a home network: drawn sheets on one canvas, live status from Prometheus"
-    language: "TypeScript"
-    topics:
-      - "bun"
-      - "homelab"
-      - "network-map"
-      - "prometheus"
-      - "react"
-      - "vite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-10"
   - name: "clickstream"
     title: "clickstream"
     description: "Local-first browser and YouTube activity timeline with cross-device shard sync"
@@ -127,7 +127,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-17"
   - name: "synccenter"
     title: "synccenter"
     description: null

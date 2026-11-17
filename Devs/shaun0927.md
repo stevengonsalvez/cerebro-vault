@@ -8,11 +8,11 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [22, 1, 1, 1, 0, 10, 1, 1, 0, 3, 0, 0, 0]
+pushes_per_week: [22, 1, 2, 0, 2, 8, 1, 1, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "shaun0927"
-    title: "shaun0927"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "openchrome"
-    title: "openchrome"
-    description: "Open-source browser automation MCP server. Control your real Chrome from any AI agent."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 238
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "opensafari"
-    title: "opensafari"
-    description: "Smart. Fast. Parallel. iOS Safari automation MCP server via Xcode Simulator."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "alphaview-uptime"
-    title: "alphaview-uptime"
-    description: "External availability probe for www.alphaview.kr (GitHub Actions, every 5 min, no secrets)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "suwon"
-    title: "suwon"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
-  - name: "thyroid-cancer-classification"
-    title: "thyroid-cancer-classification"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
+repos: []
 ---
 
 # shaun0927

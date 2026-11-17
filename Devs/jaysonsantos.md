@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 2, 8, 23, 7, 5, 5, 10, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 3, 9, 27, 1, 7, 6, 7, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,21 +82,21 @@ repos:
     description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
     language: "Rust"
     topics: []
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "watchkeep"
-    title: "watchkeep"
-    description: "Self-hosted watch tracker for movies and TV shows with Plex webhook scrobbling and a TMDB catalog in PostgreSQL"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-17"
   - name: "bunderwar"
     title: "bunderwar"
     description: "My up-to date docker images with renovate and arm64/amd64 support"
     language: "Earthly"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "watchkeep"
+    title: "watchkeep"
+    description: "Self-hosted watch tracker for movies and TV shows with Plex webhook scrobbling and a TMDB catalog in PostgreSQL"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 167
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-12"
   - name: "beno-arena"
     title: "beno-arena"
     description: "Multiplayer snake game written in beni, with Cloudflare Workers and Durable Objects."

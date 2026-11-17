@@ -5,14 +5,16 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "alibaba/open-code-review"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [15, 14, 12, 19, 43, 52, 47, 15, 17, 11, 0, 1, 0]
+  - "c489e6fb5febf2ab"
+pushes_per_week: [21, 9, 13, 17, 47, 51, 45, 23, 9, 9, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +31,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 246
+    pushes: 245
     distinct_repos: 20
-    active_days: 50
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9200
-  repo_per_active_day: 0.4000
+  push_per_day: 5.0000
+  repo_per_active_day: 0.4082
   not_owned_ratio: 0.2500
   basename_concentration: 0.1000
   shapes: []
@@ -65,18 +67,34 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 246
+    pushes: 245
     distinct_repos: 20
-    pushes_per_repo: 12.3000
-    active_days: 50
+    pushes_per_repo: 12.2500
+    active_days: 49
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "provenance: 2 vault signal(s) — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "proven-tokens"
+    title: "proven-tokens"
+    description: "Math proofs, checked by a computer, that 15 top Ethereum tokens (WBTC, LINK, DAI, UNI, SHIB, PEPE...) do what they promise. Proved in Lean 4 on the exact deployed bytecode, for every input and caller."
+    language: "Lean"
+    topics:
+      - "bytecode"
+      - "erc20"
+      - "ethereum"
+      - "evm"
+      - "formal-verification"
+      - "lean4"
+      - "smart-contract-security"
+      - "theorem-proving"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "openroutercli"
     title: "openroutercli"
     description: "Unofficial CLI for every OpenRouter API endpoint, with OAuth login and --json output for humans and LLM agents."
@@ -92,25 +110,7 @@ repos:
       - "openrouter-integration"
     stars_fact: 14
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "web3-research-mcp"
-    title: "web3-research-mcp"
-    description: "Local MCP server for deep crypto token research across CoinGecko, DeFiLlama and web search. Free, no API key."
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "coingecko"
-      - "crypto"
-      - "defillama"
-      - "mcp"
-      - "mcp-crypto"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "typescript"
-      - "web3"
-    stars_fact: 171
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "soldecomp"
     title: "soldecomp"
     description: "Local workbench to reverse-engineer, replay, and probe deployed Solana sBPF programs from bytecode, with a labeled bug-detector benchmark"
@@ -126,38 +126,7 @@ repos:
       - "sbpf"
       - "security-research"
       - "solana"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "papertrade-recomp"
-    title: "papertrade-recomp"
-    description: "Verified behavior map of Papertrade's unpublished HyperEVM contracts"
-    language: "Python"
-    topics:
-      - "bytecode"
-      - "decompilation"
-      - "evm"
-      - "hyperevm"
-      - "hyperliquid"
-      - "reverse-engineering"
-      - "security-research"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "walletscan"
-    title: "walletscan"
-    description: "walletscan: find the money a wallet forgot (rent, rewards, stuck bridges, airdrops) on EVM, Solana and more chains. Read-only CLI, runs locally."
-    language: "JavaScript"
-    topics:
-      - "airdrop"
-      - "bridge"
-      - "cli"
-      - "crypto"
-      - "defi"
-      - "ethereum"
-      - "solana"
-      - "wallet"
-    stars_fact: 3
+    stars_fact: 2
     first_seen: null
     last_push: "2026-11-05"
   - name: "headless-harness-bench"
@@ -178,11 +147,36 @@ repos:
       - "opencode"
     stars_fact: 4
     first_seen: null
+    last_push: "2026-11-10"
+  - name: "tg-skill"
+    title: "tg-skill"
+    description: "Read-only Telegram skill for Claude Code: read your own DMs, groups and channels"
+    language: "TypeScript"
+    topics:
+      - "agent-skill"
+      - "claude-code"
+      - "telegram"
+      - "typescript"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "3rd-party-audit"
+    title: "3rd-party-audit"
+    description: "Agent skill to inventory and score browser-visible website third parties"
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "python"
+      - "security"
+      - "supply-chain"
+      - "third-party"
+    stars_fact: 0
+    first_seen: null
     last_push: "2026-11-05"
 ---
 
 # aaronjmars
 
-246 pushes across 20 repositories on 50 active days in the last 90 days of public GitHub push activity.
+245 pushes across 20 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

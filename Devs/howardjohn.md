@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 1, 0, 1, 5, 8, 13, 10, 5, 6, 1, 1, 0]
+pushes_per_week: [1, 1, 0, 4, 3, 8, 12, 11, 7, 3, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,20 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pprof-alloc"
+    title: "pprof-alloc"
+    description: "A Rust `GlobalAlloc` that adds observability around any allocator with `pprof` support"
+    language: "Rust"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-02"
   - name: "gateway-api-bench"
     title: "gateway-api-bench"
     description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
     language: "Go"
     topics: []
-    stars_fact: 856
+    stars_fact: 879
     first_seen: null
     last_push: "2026-11-09"
   - name: "registry-redirector"
@@ -102,14 +110,6 @@ repos:
     stars_fact: 45
     first_seen: null
     last_push: "2026-10-15"
-  - name: "pprof-alloc"
-    title: "pprof-alloc"
-    description: "A Rust `GlobalAlloc` that adds observability around any allocator with `pprof` support"
-    language: "Rust"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-02"
   - name: "git-restore-mtime-action"
     title: "git-restore-mtime-action"
     description: null

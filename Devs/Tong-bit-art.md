@@ -8,11 +8,11 @@ provenance_repos:
   - "BuilderIO/agent-native"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 6, 6, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 10, 2, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "regression-firewall"
-    title: "regression-firewall"
-    description: "Behavioral regression safety layer for AI coding agents — capture behavior before an AI edit, block unintended regressions after. Deterministic, no LLM in the verdict."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "ai-safety"
-      - "cli"
-      - "code-review"
-      - "developer-tools"
-      - "llm"
-      - "python"
-      - "regression-testing"
-      - "testing"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "ai-first-repo"
-    title: "ai-first-repo"
-    description: "AI专业大一学习仓库"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "pi-native-crm"
-    title: "pi-native-crm"
-    description: "Pi Native CRM — 以真实 CRM 为状态空间的 Agent 原生工作台：自托管、多租户、LGPD by-design，WhatsApp 原生。Open-source AI sales OS (MIT)."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "crm"
-      - "mcp"
-      - "nextjs"
-      - "self-hosted"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "my-hello-python"
-    title: "my-hello-python"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-26"
-  - name: "test-repo"
-    title: "test-repo"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-07"
+repos: []
 ---
 
 # Tong-bit-art

@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "ef17663e884139a8"
@@ -85,15 +85,23 @@ repos:
     description: "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
     language: "Python"
     topics: []
-    stars_fact: 81119
+    stars_fact: 81259
     first_seen: "2026-08-29T06:00:06.819639+00:00"
-    last_push: "2026-11-05"
+    last_push: "2026-11-15"
+  - name: "1-800-CODER"
+    title: "1-800-CODER"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-14"
   - name: "secret-llama"
     title: "secret-llama"
     description: "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3."
     language: "TypeScript"
     topics: []
-    stars_fact: 2679
+    stars_fact: 2677
     first_seen: null
     last_push: "2024-06-05"
   - name: "aero"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 155
     first_seen: null
     last_push: "2023-01-17"
-  - name: "Yip"
-    title: "Yip"
-    description: "A Unified Notification System for the Web"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 36
-    first_seen: null
-    last_push: "2010-05-07"
 ---
 
 # abi

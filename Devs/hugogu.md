@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [4, 2, 1, 2, 10, 6, 12, 4, 3, 0, 0, 0, 0]
+pushes_per_week: [4, 2, 2, 1, 10, 6, 12, 4, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,28 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "next-wiki"
+    title: "next-wiki"
+    description: "An AI native personal knowledge management & sharing platform"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "kokoro-say"
+    title: "kokoro-say"
+    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
+    language: "Python"
+    topics:
+      - "cli"
+      - "kokoro"
+      - "onnx"
+      - "say"
+      - "text-to-speech"
+      - "tts"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-11"
   - name: "orbit"
     title: "orbit"
     description: "Browser-based 3D solar system observatory: 1700–2200 UTC, Newtonian sandbox, 9096 stars, 19 moons. orbits.observer"
@@ -92,15 +114,7 @@ repos:
       - "webgl"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "next-wiki"
-    title: "next-wiki"
-    description: "An AI native personal knowledge management & sharing platform"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-17"
   - name: "herbert"
     title: "herbert"
     description: "Native SwiftUI H puzzles and Herbert Benchmark for iPhone, iPad and Mac. 30 original MIT lessons, 1,769 community puzzles, parallel AI evaluation with native judging, offline play, and English/中文/日本語."
@@ -124,20 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-04"
-  - name: "kokoro-say"
-    title: "kokoro-say"
-    description: "Speak or save text with the Kokoro-82M voices from the command line, like macOS say"
-    language: "Python"
-    topics:
-      - "cli"
-      - "kokoro"
-      - "onnx"
-      - "say"
-      - "text-to-speech"
-      - "tts"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-11"
   - name: "ai-training"
     title: "ai-training"
     description: null

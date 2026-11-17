@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [5, 2, 6, 9, 20, 20, 22, 1, 7, 9, 0, 0, 0]
+pushes_per_week: [6, 1, 7, 8, 23, 20, 19, 2, 6, 9, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,24 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "moondream-mcp"
+    title: "moondream-mcp"
+    description: "Moondream MCP Server in Python"
+    language: "Python"
+    topics:
+      - "mcp"
+      - "mcp-server"
+      - "moondream"
+      - "python"
+    stars_fact: 49
+    first_seen: null
+    last_push: "2025-07-02"
   - name: "claude-code-otel"
     title: "claude-code-otel"
     description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
     language: "Makefile"
     topics: []
-    stars_fact: 522
+    stars_fact: 523
     first_seen: null
     last_push: "2025-06-17"
   - name: "aws-athena-mcp"
@@ -93,18 +105,6 @@ repos:
     stars_fact: 23
     first_seen: null
     last_push: "2026-11-09"
-  - name: "moondream-mcp"
-    title: "moondream-mcp"
-    description: "Moondream MCP Server in Python"
-    language: "Python"
-    topics:
-      - "mcp"
-      - "mcp-server"
-      - "moondream"
-      - "python"
-    stars_fact: 48
-    first_seen: null
-    last_push: "2025-07-02"
   - name: "github-actions-injection-demo"
     title: "github-actions-injection-demo"
     description: "Demonstration of GitHub Actions shell injection vulnerability - shows why environment variables don't fix the issue"

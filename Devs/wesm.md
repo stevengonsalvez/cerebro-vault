@@ -8,11 +8,11 @@ provenance_repos:
   - "kenn-io/agentsview"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "68551dc8cb2a5ed6"
-pushes_per_week: [32, 11, 15, 17, 53, 69, 85, 97, 41, 22, 0, 0, 0]
+pushes_per_week: [33, 8, 19, 17, 51, 82, 77, 110, 24, 19, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 442
+    pushes: 440
     distinct_repos: 38
-    active_days: 52
+    active_days: 51
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 8.5000
-  repo_per_active_day: 0.7308
+  push_per_day: 8.6275
+  repo_per_active_day: 0.7451
   not_owned_ratio: 0.9737
   basename_concentration: 0.2105
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 9
     not_owned_owners: 3
   "90d":
-    pushes: 442
+    pushes: 440
     distinct_repos: 38
-    pushes_per_repo: 11.6316
-    active_days: 52
+    pushes_per_repo: 11.5789
+    active_days: 51
     repos_not_owned: 37
     not_owned_basenames: 15
     not_owned_owners: 16
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 52 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pydata-book"
-    title: "pydata-book"
-    description: "Materials and IPython notebooks for \"Python for Data Analysis\" by Wes McKinney, published by O'Reilly Media"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 25085
-    first_seen: null
-    last_push: "2025-10-17"
-  - name: "feather"
-    title: "feather"
-    description: "Feather: fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2757
-    first_seen: null
-    last_push: "2025-12-08"
-  - name: "moneyflow"
-    title: "moneyflow"
-    description: "Moneyflow: Personal Finance Data Interface for Power Users (supporting backends like Monarch Money, YNAB)"
-    language: "Go"
-    topics: []
-    stars_fact: 282
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "vldb-2019-apache-arrow-workshop"
-    title: "vldb-2019-apache-arrow-workshop"
-    description: "Materials for Apache Arrow workshop at VLDB 2019"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 40
-    first_seen: null
-    last_push: "2020-07-31"
-  - name: "wesm"
-    title: "wesm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "llm-arithmetic-benchmark"
-    title: "llm-arithmetic-benchmark"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2025-12-01"
+repos: []
 ---
 
 # wesm
 
-442 pushes across 38 repositories on 52 active days in the last 90 days of public GitHub push activity.
+440 pushes across 38 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/wesm

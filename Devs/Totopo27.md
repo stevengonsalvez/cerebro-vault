@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 2, 10, 6, 12, 5, 3, 2, 0, 0, 4]
+pushes_per_week: [0, 0, 0, 2, 10, 8, 10, 5, 3, 2, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,66 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "subpipe-"
-    title: "subpipe-"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "hudr2"
-    title: "hudr2"
-    description: "Sidebar reactivo de telemetría para agentes de IA en terminal."
-    language: "Rust"
-    topics:
-      - "ai-agents"
-      - "crossterm"
-      - "developer-tools"
-      - "gentle-shell-package"
-      - "git-tools"
-      - "herdr"
-      - "opencode"
-      - "rust"
-      - "telemetry"
-      - "terminal-ui"
-      - "tui"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "cnp-precios"
-    title: "cnp-precios"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "nibbleGia"
-    title: "nibbleGia"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "midiOSCControl"
-    title: "midiOSCControl"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
+repos: []
 ---
 
 # Totopo27

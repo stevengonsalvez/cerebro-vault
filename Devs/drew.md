@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "6eb73169f84ce43f"
   - "98255810d4c42dd8"
   - "d17b0500bab017de"
-pushes_per_week: [3, 1, 3, 16, 16, 13, 5, 1, 2, 9, 0, 0, 0]
+pushes_per_week: [2, 1, 3, 18, 15, 13, 5, 1, 6, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -33,16 +33,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 6
-    active_days: 28
+    active_days: 27
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.4643
-  repo_per_active_day: 0.2143
+  push_per_day: 2.5185
+  repo_per_active_day: 0.2222
   not_owned_ratio: 1.0000
   basename_concentration: 0.8333
   shapes: []
@@ -69,16 +69,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 6
-    pushes_per_repo: 11.5000
-    active_days: 28
+    pushes_per_repo: 11.3333
+    active_days: 27
     repos_not_owned: 6
     not_owned_basenames: 2
     not_owned_owners: 6
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "literate-engine"
@@ -101,6 +101,6 @@ repos:
 
 # drew
 
-69 pushes across 6 repositories on 28 active days in the last 90 days of public GitHub push activity.
+68 pushes across 6 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/drew

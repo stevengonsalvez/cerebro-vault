@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 2, 3, 4, 12, 8, 18, 8, 3, 23, 0, 1, 1]
+pushes_per_week: [2, 1, 6, 1, 13, 11, 17, 6, 4, 21, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,12 +79,20 @@ reasons:
 repos:
   - name: "rical-1876"
     title: "rical-1876"
-    description: "Rical 1876: an interactive storyline of late Ottoman statesmen, 1865–1964"
+    description: "Rical 1876: who stood next to whom. Interactive storylines of five chaotic political eras (Rome, the US, the French Revolution, the late Ottomans, the Bolsheviks)."
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-12"
+  - name: "ferman-1851"
+    title: "ferman-1851"
+    description: "An interactive reading of an 1851 Ottoman berat: the document beside its transcription and translation"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "cahidarda.github.io"
     title: "cahidarda.github.io"
     description: "My personal website: writing, publications, and projects. Built with Astro, TypeScript, and Tailwind CSS."
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "obelisk-390"
-    title: "obelisk-390"
-    description: "The Obelisk of Theodosius in Istanbul, readable: a print-style 3D model where you tap a line of hieroglyphs to read it, with the pedestal reliefs and inscriptions. English, Türkçe, Français, 日本語."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-16"
   - name: "bosphore-1819"
     title: "bosphore-1819"
     description: "An 1819 French map of the Bosphorus with every label read, mapped and translated. French original, Ottoman Turkish, and the names we use today."
@@ -108,7 +108,15 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-11-12"
+  - name: "obelisk-390"
+    title: "obelisk-390"
+    description: "The Obelisk of Theodosius in Istanbul, readable: a print-style 3D model where you tap a line of hieroglyphs to read it, with the pedestal reliefs and inscriptions. English, Türkçe, Français, 日本語."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "workflow-realtime-llm-retry"
     title: "workflow-realtime-llm-retry"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-07"
-  - name: "choice-blindness-llms"
-    title: "choice-blindness-llms"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
 ---
 
 # CahidArda

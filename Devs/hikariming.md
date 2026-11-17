@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 2, 1, 2, 6, 13, 16, 4, 2, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 4, 4, 14, 15, 5, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,33 +85,33 @@ repos:
       - "deepseek-harness"
       - "dsh"
       - "dsh-plugin"
-    stars_fact: 377
+    stars_fact: 399
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "dsh-ee"
     title: "dsh-ee"
-    description: null
+    description: "Self-hosted enterprise platform for DeepSeek Harness (DSH): connect company systems and knowledge, build AI micro-apps, and ship them reviewed and permissioned to every employee. 面向 DSH 的自托管企业平台"
     language: "Go"
     topics: []
-    stars_fact: 9
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "lvfind"
-    title: "lvfind"
-    description: "全球 K-pop / J-pop 演出信息站 — Astro SSR + Cloudflare Workers + D1"
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "openkoto"
     title: "openkoto"
     description: "AI based foreign language reading and learning tool that allows you to learn foreign languages using any text content of interest,TextLingo是一款兴趣驱动的AI外语阅读与学习软件"
     language: "Swift"
     topics: []
-    stars_fact: 470
+    stars_fact: 471
     first_seen: null
     last_push: "2026-10-01"
+  - name: "awesome-fable-game"
+    title: "awesome-fable-game"
+    description: "A short index of playable games the community says were made with help from Claude Fable 5.2."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "chat-dataset-baseline"
     title: "chat-dataset-baseline"
     description: "人工精调的中文对话数据集和一段chatglm的微调代码"
@@ -123,14 +123,14 @@ repos:
     stars_fact: 1190
     first_seen: null
     last_push: "2025-05-03"
-  - name: "dsdock"
-    title: "dsdock"
-    description: "DeepSeek Harness 的外部管理器：DSH 版本管理、插件安全安装、快照回滚与救援"
-    language: "Go"
+  - name: "lvfind"
+    title: "lvfind"
+    description: "全球 K-pop / J-pop 演出信息站 — Astro SSR + Cloudflare Workers + D1"
+    language: "Astro"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-14"
 ---
 
 # hikariming

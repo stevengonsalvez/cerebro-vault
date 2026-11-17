@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [8, 16, 0, 0, 11, 2, 27, 8, 28, 105, 0, 1, 1]
+pushes_per_week: [8, 16, 0, 1, 11, 1, 31, 13, 41, 83, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "opencode-bloom"
-    title: "opencode-bloom"
-    description: "Generate animated videos of your local OpenCode V2 sessions."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-06"
   - name: "scrawl"
     title: "scrawl"
     description: "Show an agent a problem: mark up, record, send"
@@ -99,45 +91,56 @@ repos:
       - "opencode"
       - "rust"
       - "screen-recording"
-    stars_fact: 904
+    stars_fact: 933
     first_seen: null
     last_push: "2026-11-01"
-  - name: "ios-kit"
-    title: "ios-kit"
-    description: "iOS 26 (Liquid Glass) in the browser, for prototyping native app UI before building it"
-    language: "JavaScript"
+  - name: "ghui"
+    title: "ghui"
+    description: "A GitHub TUI"
+    language: "TypeScript"
     topics: []
-    stars_fact: 7
+    stars_fact: 1144
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-10-25"
+  - name: "effect-solutions"
+    title: "effect-solutions"
+    description: "A guide to writing idiomatic Effect code."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 465
+    first_seen: null
+    last_push: "2026-04-29"
+  - name: "2password"
+    title: "2password"
+    description: "1Password for coding agents: find, use, and save secrets without exposing them"
+    language: "TypeScript"
+    topics:
+      - "1password"
+      - "agent-skills"
+      - "ai-agents"
+      - "cli"
+      - "secrets"
+    stars_fact: 329
+    first_seen: null
+    last_push: "2026-10-04"
   - name: "psychopomp"
     title: "psychopomp"
     description: null
     language: "Rust"
     topics: []
-    stars_fact: 423
+    stars_fact: 431
     first_seen: null
     last_push: "2026-11-06"
-  - name: "motel"
-    title: "motel"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 306
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "visual-effect"
-    title: "visual-effect"
-    description: "Interactive Effect Visualizations"
-    language: "TypeScript"
+  - name: "skills"
+    title: "skills"
+    description: "Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye."
+    language: null
     topics:
       - "effect"
-      - "examples"
-      - "tutorial"
-      - "typescript"
-    stars_fact: 1170
+      - "skills"
+    stars_fact: 358
     first_seen: null
-    last_push: "2026-07-06"
+    last_push: "2026-10-02"
 ---
 
 # kitlangton

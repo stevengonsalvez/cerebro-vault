@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 2, 6, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 0, 1, 3, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "eval_type_backport"
+    title: "eval_type_backport"
+    description: "Like `typing._eval_type`, but lets older Python versions use newer typing features."
+    language: "Python"
+    topics: []
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-06-02"
   - name: "futurecoder"
     title: "futurecoder"
     description: "100% free and interactive Python course for beginners"
@@ -86,64 +94,49 @@ repos:
       - "learning"
       - "learning-by-doing"
       - "python"
-    stars_fact: 1554
+    stars_fact: 1558
     first_seen: null
     last_push: "2026-05-09"
-  - name: "birdseye"
-    title: "birdseye"
-    description: "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
-    language: "JavaScript"
-    topics:
-      - "ast"
-      - "birdseye"
-      - "debugger"
-      - "debugging"
-      - "python"
-      - "python-debugger"
-    stars_fact: 1774
-    first_seen: null
-    last_push: "2026-01-11"
-  - name: "funcfinder"
-    title: "funcfinder"
-    description: "A tool for automatically solving problems of the form \"I need a python function that does X.\""
+  - name: "stack_data"
+    title: "stack_data"
+    description: null
     language: "Python"
     topics: []
-    stars_fact: 165
+    stars_fact: 52
     first_seen: null
-    last_push: "2015-10-22"
-  - name: "snoop"
-    title: "snoop"
-    description: "A powerful set of Python debugging tools, based on PySnooper"
+    last_push: "2026-10-16"
+  - name: "pure_eval"
+    title: "pure_eval"
+    description: "Safely evaluate AST nodes without side effects"
     language: "Python"
-    topics:
-      - "debugger"
-      - "debugging"
-      - "debugging-tools"
-      - "logging"
-      - "python"
-    stars_fact: 1462
+    topics: []
+    stars_fact: 51
     first_seen: null
-    last_push: "2026-07-18"
+    last_push: "2026-09-10"
   - name: "executing"
     title: "executing"
     description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
     language: "Python"
     topics:
       - "python"
-    stars_fact: 403
+    stars_fact: 405
     first_seen: null
     last_push: "2026-10-29"
-  - name: "heartrate"
-    title: "heartrate"
-    description: "Simple real time visualisation of the execution of a Python program."
+  - name: "sorcery"
+    title: "sorcery"
+    description: "Dark magic delights in Python"
     language: "Python"
     topics:
-      - "debugger"
+      - "ast"
+      - "language-extension"
+      - "language-extensions"
+      - "magic"
       - "python"
-      - "visualization"
-    stars_fact: 1842
+      - "python-ast"
+      - "python3"
+    stars_fact: 430
     first_seen: null
-    last_push: "2021-11-13"
+    last_push: "2021-11-11"
 ---
 
 # alexmojaki

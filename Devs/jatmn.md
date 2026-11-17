@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [14, 2, 1, 1, 4, 5, 4, 13, 26, 21, 0, 1, 2]
+pushes_per_week: [11, 1, 0, 1, 5, 6, 3, 23, 17, 19, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 94
-    distinct_repos: 24
-    active_days: 34
+    pushes: 89
+    distinct_repos: 23
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.7647
-  repo_per_active_day: 0.7059
-  not_owned_ratio: 0.2917
-  basename_concentration: 0.3333
+  push_per_day: 2.7812
+  repo_per_active_day: 0.7188
+  not_owned_ratio: 0.3043
+  basename_concentration: 0.3478
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 7
   "90d":
-    pushes: 94
-    distinct_repos: 24
-    pushes_per_repo: 3.9167
-    active_days: 34
+    pushes: 89
+    distinct_repos: 23
+    pushes_per_repo: 3.8696
+    active_days: 32
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jatmn"
+    title: "jatmn"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "jModGuard"
     title: "jModGuard"
     description: null
@@ -89,15 +97,7 @@ repos:
       - "discord-moderation-bot"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "jatmn"
-    title: "jatmn"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "jatz-distribution"
     title: "jatz-distribution"
     description: "Jat'z Distribution: automated freight trucks and depots for Factorio (in development)"
@@ -108,7 +108,7 @@ repos:
       - "factorio-modding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "Codex-warp"
     title: "Codex-warp"
     description: "Tiny Rust proxy that lets Codex CLI talk to OpenAI-compatible providers through a local Responses API surface."
@@ -118,7 +118,7 @@ repos:
       - "codex-cli"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-14"
   - name: "basic-robots-factorio"
     title: "basic-robots-factorio"
     description: "Basic robots for early game"
@@ -140,11 +140,11 @@ repos:
       - "ultimaker"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-14"
 ---
 
 # jatmn
 
-94 pushes across 24 repositories on 34 active days in the last 90 days of public GitHub push activity.
+89 pushes across 23 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

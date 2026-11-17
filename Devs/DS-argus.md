@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 11, 5, 2, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 13, 3, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "herdr-selection-actions"
+    title: "herdr-selection-actions"
+    description: "Herdr plugin for opening selected HTTP(S) URLs and explicitly searching selected text"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "herdr-floating-tools"
+    title: "herdr-floating-tools"
+    description: "Compact configurable popup launcher for Herdr terminal tools"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "argus-quartz"
     title: "argus-quartz"
     description: null
@@ -120,30 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-30"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for DS-argus apps (Modeleaf)."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "modeleaf"
-    title: "modeleaf"
-    description: "A native, keyboard-first PDF reader for macOS with Vimium-style link hints and Vim-style navigation. Read-only and customizable."
-    language: "Swift"
-    topics:
-      - "keyboard-navigation"
-      - "macos"
-      - "pdf-reader"
-      - "pdf-viewer"
-      - "swift"
-      - "vim"
-      - "vim-keybindings"
-      - "vimium"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # DS-argus

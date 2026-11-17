@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-10T07:05:03.755742+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "f467fac388ed8e8c"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,9 +91,25 @@ repos:
       - "playwright"
       - "puppeteer"
       - "rust"
-    stars_fact: 31671
+    stars_fact: 36065
     first_seen: "2026-08-09T06:00:06.171858+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "obscura-benchmark"
+    title: "obscura-benchmark"
+    description: "Obscura browser benchmark"
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "h4ckf0r0day"
+    title: "h4ckf0r0day"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-05-16"
   - name: "awesome-ai-web-scraping"
     title: "awesome-ai-web-scraping"
     description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
@@ -105,7 +121,7 @@ repos:
       - "llm"
       - "scraping"
       - "web-scraping"
-    stars_fact: 124
+    stars_fact: 130
     first_seen: null
     last_push: "2026-05-18"
   - name: "reCaptchaV3-Invisible-Solver"
@@ -116,25 +132,9 @@ repos:
       - "captcha"
       - "recaptcha"
       - "solver"
-    stars_fact: 64
+    stars_fact: 65
     first_seen: null
     last_push: "2026-04-04"
-  - name: "obscura-benchmark"
-    title: "obscura-benchmark"
-    description: "Obscura browser benchmark"
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "h4ckf0r0day"
-    title: "h4ckf0r0day"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-16"
 ---
 
 # h4ckf0r0day

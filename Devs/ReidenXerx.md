@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [6, 6, 5, 1, 11, 61, 44, 10, 1, 2, 0, 0, 0]
+pushes_per_week: [7, 4, 5, 1, 13, 62, 42, 9, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 147
+    pushes: 146
     distinct_repos: 20
-    active_days: 34
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.3235
-  repo_per_active_day: 0.5882
+  push_per_day: 4.4242
+  repo_per_active_day: 0.6061
   not_owned_ratio: 0.1000
   basename_concentration: 0.0500
   shapes: []
@@ -65,101 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 147
+    pushes: 146
     distinct_repos: 20
-    pushes_per_repo: 7.3500
-    active_days: 34
+    pushes_per_repo: 7.3000
+    active_days: 33
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Event-Horizon"
-    title: "Event-Horizon"
-    description: "Vortex extension that installs a collection exactly as its curator built it — every archive checked by SHA-256, the load order pinned — and keeps it that way. Skyrim SE, Fallout 4, Fallout 3, New Vegas, Starfield."
-    language: "TypeScript"
-    topics:
-      - "bethesda"
-      - "collections"
-      - "electron"
-      - "fallout-new-vegas"
-      - "fallout3"
-      - "fallout4"
-      - "load-order"
-      - "loot"
-      - "mod-manager"
-      - "modding"
-      - "nexusmods"
-      - "skyrim"
-      - "skyrim-special-edition"
-      - "starfield"
-      - "typescript"
-      - "vortex"
-      - "vortex-extension"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "fo4-anatomy"
-    title: "fo4-anatomy"
-    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "fo4-chemistry"
-    title: "fo4-chemistry"
-    description: "NPC autonomy addon for Rapport: decides when two NPCs act, and asks Rapport to run it. Policy only."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "bearing"
-    title: "bearing"
-    description: "An intel layer for AI coding agents that assumes its own rules might be wrong — and keeps the evidence. Authoritative north-stars the agent must cite, a task-core written before compaction eats it, review by an expert in YOUR domain, and an installer that verifies its own claims instead of printing success. Claude Code, Zed, Codex."
-    language: "JavaScript"
-    topics:
-      - "agentic-ai"
-      - "ai"
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "code-review"
-      - "codex"
-      - "context-engineering"
-      - "developer-tools"
-      - "gitnexus"
-      - "llm"
-      - "mcp"
-      - "prompt-engineering"
-      - "zed"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "fo4-rapport"
-    title: "fo4-rapport"
-    description: "F4SE plugin and Papyrus bridge that drives AAF: scene selection, facial expressions, overlays and persistent aftermath for Fallout 4"
-    language: "C++"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "reidenxerx.github.io"
-    title: "reidenxerx.github.io"
-    description: "duduphudu.app: Omarchy plugins, apps and tools by DuduPhudu"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+repos: []
 ---
 
 # ReidenXerx
 
-147 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
+146 pushes across 20 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ReidenXerx

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 1, 0, 4, 15, 25, 12, 12, 10, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 5, 16, 24, 11, 18, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,56 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "whatsmyresolver"
-    title: "whatsmyresolver"
-    description: "A tiny DNS server that returns the client (resolver) IP"
-    language: "Go"
-    topics:
-      - "dns"
-    stars_fact: 29
-    first_seen: null
-    last_push: "2025-08-09"
-  - name: "wasmcop"
-    title: "wasmcop"
-    description: "A side-channel leakage analyzer for WebAssembly modules."
-    language: "Rust"
-    topics:
-      - "cryptography"
-      - "kyberslash"
-      - "side-channel"
-      - "side-channel-analysis"
-      - "side-channel-attacks"
-      - "wasmcop"
-      - "wasmer"
-      - "webassembly"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "jedisct1"
-    title: "jedisct1"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "libhydrogen"
-    title: "libhydrogen"
-    description: "A lightweight, secure, easy-to-use crypto library suitable for constrained environments."
-    language: "C"
-    topics:
-      - "arduino"
-      - "atmega328p"
-      - "avr"
-      - "c"
-      - "crypto"
-      - "cryptography"
-      - "embedded"
-      - "embedded-systems"
-      - "gimli"
-    stars_fact: 797
-    first_seen: null
-    last_push: "2026-09-28"
   - name: "libsodium"
     title: "libsodium"
     description: "A modern, portable, easy to use crypto library."
@@ -136,17 +86,83 @@ repos:
       - "crypto"
       - "cryptography"
       - "zig-package"
-    stars_fact: 14051
+    stars_fact: 14062
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "rust-hctr2"
-    title: "rust-hctr2"
-    description: "Rust implementation of HCTR2, HCTR3, and their beyond-birthday-bound secure variants (CHCTR2, HCTR2-TwKD), plus format-preserving variants."
+    last_push: "2026-11-16"
+  - name: "dsvpn"
+    title: "dsvpn"
+    description: "A Dead Simple VPN."
+    language: "C"
+    topics:
+      - "privacy"
+      - "reallysimple"
+      - "simple"
+      - "vpn"
+    stars_fact: 5827
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "iptoasn-webservice"
+    title: "iptoasn-webservice"
+    description: "Web service to map IP addresses to AS information, using iptoasn.com"
+    language: "Rust"
+    topics:
+      - "as"
+      - "asn"
+      - "bgp"
+      - "ip"
+      - "ip2asn"
+      - "iptoasn"
+    stars_fact: 337
+    first_seen: null
+    last_push: "2026-04-27"
+  - name: "turbocrypt"
+    title: "turbocrypt"
+    description: "A fast, easy-to-use, and secure command-line tool for encrypting and decrypting files , git repositories and directory trees."
+    language: "Zig"
+    topics:
+      - "crypt"
+      - "encryption"
+      - "file"
+      - "file-encryption"
+      - "git"
+      - "repositories"
+      - "turbo"
+      - "turbocrypt"
+      - "zig-package"
+      - "ziglang"
+    stars_fact: 141
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "rust-flightdeck"
+    title: "rust-flightdeck"
+    description: "FlightDeck deck cipher and Deck-BO authenticated encryption (TurboSHAKE-BO, SHAKE-BO)."
     language: "Rust"
     topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "flightdeck-deckbo"
+    title: "flightdeck-deckbo"
+    description: "FlightDeck-DeckBO: Parallelizable, session-supporting, nonce-misuse resistant and committing authenticated encryption."
+    language: "Zig"
+    topics:
+      - "aead"
+      - "authenticated-encryption"
+      - "cryptography"
+      - "deck-bo"
+      - "deckbo"
+      - "flighdeck"
+      - "flightdeck"
+      - "kangarootwelv"
+      - "keccak"
+      - "sponge"
+      - "turboshake"
+      - "turboshake128-bo"
+      - "turboshake256-bo"
+      - "zig-package"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
 ---
 
 # jedisct1

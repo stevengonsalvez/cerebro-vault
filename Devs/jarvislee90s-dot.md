@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 2, 4, 2, 7, 4, 3, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 4, 2, 8, 5, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -137,7 +137,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-16"
+    last_push: "2026-11-12"
   - name: "dsh-deepseek-harness-StudyDocs"
     title: "dsh-deepseek-harness-StudyDocs"
     description: "DeepSeek Harness (dsh) 源码学习文档：需求驱动四维范式（WHY→WHAT→HOW→EXAMPLE），12 篇详解覆盖框架/主干/能力族/多智能体/应用层/工程体系，产物全部来自真实快照，链接直达源码"

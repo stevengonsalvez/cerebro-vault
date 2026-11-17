@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 6, 2, 1, 9, 10, 23, 6, 2, 3, 0, 0, 0]
+pushes_per_week: [2, 5, 2, 1, 9, 15, 23, 1, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Stride"
-    title: "Stride"
-    description: "Stride - Habit tracker for iOS & macOS with widgets, notifications, and StoreKit subscriptions"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "Soundpost"
     title: "Soundpost"
     description: "Soundpost — capture how a moment sounds, seal it, and let your future self open it like a postcard. SwiftUI / SwiftData / StoreKit 2 / CloudKit."
@@ -92,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
   - name: "nihongo-ride"
     title: "nihongo-ride"
     description: "Nihongo Ride — macOS Japanese typing-practice app. Site, privacy policy & support."
@@ -100,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-12"
+  - name: "Stride"
+    title: "Stride"
+    description: "Stride - Habit tracker for iOS & macOS with widgets, notifications, and StoreKit subscriptions"
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "RoastMate"
     title: "RoastMate"
     description: "RoastMate — On-device AI for witty, safe self-expression"

@@ -8,8 +8,8 @@ provenance_repos:
   - "FaqFirebase/pi-desktop"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "5b508e513b9bcb98"
 pushes_per_week: [0, 0, 0, 2, 4, 6, 2, 1, 0, 3, 0, 0, 0]
@@ -76,77 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SosariaAI"
-    title: "SosariaAI"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "opentartarus"
-    title: "opentartarus"
-    description: "Linux GUI for the Razer Tartarus V2 and Tartarus Pro. Key remapping, per-game profiles, macros, and OpenRazer RGB lighting. A Razer Synapse replacement for the keypad, written in Rust."
-    language: "Rust"
-    topics:
-      - "evdev"
-      - "iced"
-      - "key-remapping"
-      - "keyboard-remapping"
-      - "keypad"
-      - "linux"
-      - "linux-gaming"
-      - "macros"
-      - "openrazer"
-      - "openrgb"
-      - "razer"
-      - "razer-synapse"
-      - "razer-tartarus"
-      - "remapper"
-      - "rgb-lighting"
-      - "rust"
-      - "tartarus"
-      - "tartarus-pro"
-      - "tartarus-v2"
-      - "uinput"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "UOTerm"
-    title: "UOTerm"
-    description: "UOTerm is a headless Ultima Online client."
-    language: "Rust"
-    topics:
-      - "ultima"
-      - "ultima-online"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "unraid-docker-templates"
-    title: "unraid-docker-templates"
-    description: "A collection of Docker Templates designed for Unraid"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "von-docker"
-    title: "von-docker"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "laya-system-one-docker"
-    title: "laya-system-one-docker"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
+repos: []
 ---
 
 # PikkonMG

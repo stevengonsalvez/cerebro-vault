@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 5, 1, 4, 5, 6, 17, 9, 6, 0, 0, 0, 0]
+pushes_per_week: [5, 5, 0, 4, 5, 7, 21, 5, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,82 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "databend-internals"
-    title: "databend-internals"
-    description: "Databend 内幕大揭秘"
-    language: "Rust"
-    topics:
-      - "book"
-      - "database"
-      - "databend"
-      - "olap"
-      - "query-engine"
-      - "rust"
-      - "tutorial"
-    stars_fact: 304
-    first_seen: null
-    last_push: "2024-01-26"
-  - name: "riteraft"
-    title: "riteraft"
-    description: "RiteRaft - A raft framework, for regular people"
-    language: "Rust"
-    topics:
-      - "distributed"
-      - "distributed-systems"
-      - "raft"
-      - "raft-framework"
-      - "rust"
-    stars_fact: 333
-    first_seen: null
-    last_push: "2024-02-18"
-  - name: "anylings"
-    title: "anylings"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "dohnuts"
-    title: "dohnuts"
-    description: "Dohnuts builds small multimodal models for direct decisions. -> System One model"
-    language: "Python"
-    topics:
-      - "decision-model"
-      - "jev"
-      - "laya"
-      - "llm"
-      - "lora"
-      - "rlcd"
-      - "system-one"
-      - "typesafe"
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "skills"
-    title: "skills"
-    description: "A small, shared skill library by builders, for builders."
-    language: "HTML"
-    topics:
-      - "agent"
-      - "best-practices"
-      - "claude-code"
-      - "codex"
-      - "python"
-      - "rust"
-      - "skills"
-    stars_fact: 173
-    first_seen: null
-    last_push: "2026-09-14"
-  - name: "human"
-    title: "human"
-    description: "Just programming, humans inside"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
+repos: []
 ---
 
 # PsiACE

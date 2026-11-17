@@ -8,11 +8,11 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [3, 2, 0, 0, 3, 0, 2, 2, 1, 3, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 3, 0, 3, 1, 1, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 10
-    active_days: 13
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2308
-  repo_per_active_day: 0.7692
+  push_per_day: 1.1667
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 13
+    pushes_per_repo: 1.4000
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ub-mode"
-    title: "ub-mode"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 7487
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "swarm-forge"
-    title: "swarm-forge"
-    description: "A simple tool for coordinating several AI agents."
-    language: "Clojure"
-    topics: []
-    stars_fact: 4098
-    first_seen: "2026-08-09T06:00:06.430133+00:00"
-    last_push: "2026-09-07"
-  - name: "scriptwriter"
-    title: "scriptwriter"
-    description: "A plain screenplay editor."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "bookwriter"
-    title: "bookwriter"
-    description: "A small writing application for one long book"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 95
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "skillBoard"
-    title: "skillBoard"
-    description: "Skill Aviation flight schedule board."
-    language: "Clojure"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "crapper"
-    title: "crapper"
-    description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
-    language: "Python"
-    topics: []
-    stars_fact: 222
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # unclebob
 
-16 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
+14 pushes across 10 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/unclebob

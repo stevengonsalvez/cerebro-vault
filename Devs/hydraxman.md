@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 1, 1, 1, 2, 2, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 2, 0, 2, 2, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ApkEditor"
+    title: "ApkEditor"
+    description: "unfinished yet! try to create an apk editor."
+    language: "Java"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2019-10-22"
   - name: "hibeaver"
     title: "hibeaver"
     description: "HiBeaver is a gradle plugin for java byte code manipulation and AOP design by modifying project byte code during build of the package, or modifying byte code within Jar independently."
@@ -88,7 +96,7 @@ repos:
       - "bytecode"
       - "gradle"
       - "java"
-    stars_fact: 708
+    stars_fact: 709
     first_seen: null
     last_push: "2026-01-30"
   - name: "hydraxman.github.io"
@@ -123,14 +131,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-28"
-  - name: "AgentDroidIDE"
-    title: "AgentDroidIDE"
-    description: "Android-first IDE prototype with a Compose workbench and embedded Python runtime interfaces; model providers and agent execution are not yet connected."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-08"
 ---
 
 # hydraxman

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "03dc7a9cfb878de8"
-pushes_per_week: [0, 0, 1, 0, 0, 4, 2, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 4, 2, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,30 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nixos-config"
-    title: "nixos-config"
-    description: "My NixOS configurations."
-    language: "Nix"
-    topics: []
-    stars_fact: 3124
-    first_seen: null
-    last_push: "2026-09-28"
   - name: "vouch"
     title: "vouch"
     description: "A community trust management system based on explicit vouches to participate."
     language: "Nushell"
     topics: []
-    stars_fact: 5165
+    stars_fact: 5180
     first_seen: null
     last_push: "2026-10-11"
-  - name: "zig-overlay"
-    title: "zig-overlay"
-    description: "Nix flake for the Zig compiler."
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "My NixOS configurations."
     language: "Nix"
     topics: []
-    stars_fact: 561
+    stars_fact: 3129
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-09-28"
+  - name: "advent-2021-sql"
+    title: "advent-2021-sql"
+    description: "Advent of Code 2021 using SQL (PostgreSQL-flavored)"
+    language: "PLpgSQL"
+    topics: []
+    stars_fact: 442
+    first_seen: null
+    last_push: "2021-12-07"
   - name: "libxev"
     title: "libxev"
     description: "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API."
@@ -114,7 +114,7 @@ repos:
       - "wasi"
       - "webassembly"
       - "zig"
-    stars_fact: 3602
+    stars_fact: 3610
     first_seen: null
     last_push: "2026-10-20"
   - name: "go-libghostty"
@@ -127,14 +127,14 @@ repos:
     stars_fact: 160
     first_seen: null
     last_push: "2026-11-07"
-  - name: "zig-graph"
-    title: "zig-graph"
-    description: "Directed graph data structure for Zig"
+  - name: "zig-objc"
+    title: "zig-objc"
+    description: "Objective-C runtime bindings for Zig (Zig calling ObjC)."
     language: "Zig"
     topics: []
-    stars_fact: 123
+    stars_fact: 361
     first_seen: null
-    last_push: "2022-09-13"
+    last_push: "2026-10-20"
 ---
 
 # mitchellh

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 1, 0, 0, 3, 7, 1, 1, 8, 0, 1, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 3, 7, 1, 5, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,22 +78,38 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "foundling"
-    title: "foundling"
-    description: null
-    language: "TypeScript"
-    topics: []
+  - name: "reactive-hackaton"
+    title: "reactive-hackaton"
+    description: "Cross-chain arbitrage decided on Reactive Lasna and executed on Base Sepolia, median 1.4 s, no off-chain bot. Reactive Omni Buildathon, Every Second Counts."
+    language: "Solidity"
+    topics:
+      - "arbitrage"
+      - "base"
+      - "foundry"
+      - "hackathon"
+      - "nextjs"
+      - "reactive-network"
+      - "solidity"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "antigravity-bridge"
-    title: "antigravity-bridge"
-    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
+    last_push: "2026-11-17"
+  - name: "foundling"
+    title: "foundling"
+    description: "USDC vault on NEAR: born without keys, trades only inside caps its contract enforces, strategy sealed in an OutLayer TEE, every cycle replayable. NEAR Hackathon 2026."
     language: "TypeScript"
-    topics: []
-    stars_fact: 4
+    topics:
+      - "ai-agents"
+      - "defi"
+      - "near"
+      - "near-hackathon"
+      - "near-protocol"
+      - "rust"
+      - "smart-contracts"
+      - "tee"
+      - "vault"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
   - name: "zorvo"
     title: "zorvo"
     description: "A free, open-source Mac app for Claude Code, Codex, Qwen Code and every ACP agent. Compare agents on one prompt and review their diffs."
@@ -111,7 +127,7 @@ repos:
       - "tauri"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "sp1a-wasm"
     title: "sp1a-wasm"
     description: null
@@ -119,7 +135,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-11"
+  - name: "antigravity-bridge"
+    title: "antigravity-bridge"
+    description: "Universal Multi-Account AI Gateway & Proxy for Google Antigravity (CloudCode) with Zero-Downtime Auto-Failover"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "zakyirsyaad"
     title: "zakyirsyaad"
     description: null
@@ -128,14 +152,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-29"
-  - name: "exoduze"
-    title: "exoduze"
-    description: "Exoduze — AI-agent prediction market monorepo (Next.js, Fastify, Solana/Anchor)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-03"
 ---
 
 # zakyirsyaad

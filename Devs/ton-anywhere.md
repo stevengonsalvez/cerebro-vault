@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 5, 2, 0, 0, 1, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 6, 1, 0, 0, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,62 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ton-anywhere"
-    title: "ton-anywhere"
-    description: "public readme"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "my-favorite-prompts"
-    title: "my-favorite-prompts"
-    description: "personal AI workspace for prompts, agents, skills, etc."
-    language: "Ruby"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "scripts"
-    title: "scripts"
-    description: "some personal scripts"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "omp-handoff-switch"
-    title: "omp-handoff-switch"
-    description: "OMP extension to configure which model role will process handoff compactions."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "llm"
-      - "oh-my-pi"
-      - "oh-my-pi-extension"
-      - "omp"
-      - "omp-extension"
-      - "omp-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "bruna-mvp"
-    title: "bruna-mvp"
-    description: "Bruna UI: High-performance AI design critique tool. Get instant UX/UI audits from screenshots powered by Gemma 4 on Cerebras."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-30"
-  - name: "cerebras-cloud-sdk-ruby"
-    title: "cerebras-cloud-sdk-ruby"
-    description: "Cerebras Cloud Ruby sdk"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-30"
+repos: []
 ---
 
 # ton-anywhere

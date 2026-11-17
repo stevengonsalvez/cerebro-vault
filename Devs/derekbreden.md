@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [37, 25, 4, 17, 89, 43, 59, 19, 11, 45, 0, 3, 4]
+pushes_per_week: [41, 22, 4, 20, 86, 43, 63, 22, 7, 41, 0, 3, 4]
 windows:
   "7d":
     pushes: 4
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "claude-code-setup"
     title: "claude-code-setup"
     description: "My Claude Code customizations: guardrail hooks, the jsonl2md session-relay tool, the /relay command, and the Salon Protocol."

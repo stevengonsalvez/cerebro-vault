@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "d1946b21c02e5fa5"
-pushes_per_week: [1, 0, 0, 1, 0, 6, 6, 1, 2, 3, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 0, 6, 6, 2, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mortalkampagne"
+    title: "mortalkampagne"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "glowgrid"
+    title: "glowgrid"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "TrampoVision"
+    title: "TrampoVision"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "Voxal"
+    title: "Voxal"
+    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "erwann"
     title: "erwann"
     description: "Source of my portfolio"
@@ -86,23 +118,7 @@ repos:
       - "portfolio-website"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "glowgrid"
-    title: "glowgrid"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "Voxal"
-    title: "Voxal"
-    description: "Serverless P2P push-to-talk voice chat — no accounts, no server. Works on desktop (macOS), iOS, Android, and web."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-13"
   - name: "bg-eraser"
     title: "bg-eraser"
     description: "Background Eraser tool fully on device"
@@ -111,22 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-29"
-  - name: "gyro"
-    title: "gyro"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "CarLander"
-    title: "CarLander"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
 ---
 
 # ErwannRobin

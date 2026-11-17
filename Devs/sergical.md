@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [2, 0, 2, 1, 24, 5, 17, 1, 0, 0, 0, 0, 4]
+pushes_per_week: [2, 0, 2, 1, 24, 6, 16, 1, 0, 0, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "skill-studio"
-    title: "skill-studio"
-    description: "Tidy up your agent skills. A macOS app, CLI, and MCP server that finds broken, duplicate, and unused skills across Claude Code, Codex, Cursor, and more, then fixes or parks them with undo."
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "openclaw-ec2-setup"
-    title: "openclaw-ec2-setup"
-    description: "Bootstrap a complete dev environment on AWS EC2 with Tailscale, clawdbot, and Bedrock"
-    language: "Shell"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-02-17"
-  - name: "didtheomentionme"
-    title: "didtheomentionme"
-    description: "Did Theo mention me? Find out if a creator showed or read your X post in a video."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "software-factory"
-    title: "software-factory"
-    description: "eve software factory traced with Sentry"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
-  - name: "agentboard"
-    title: "agentboard"
-    description: "AI Agent Task Board powered by Claude Agent SDK"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-23"
-  - name: "pi-sentry-monitor"
-    title: "pi-sentry-monitor"
-    description: "Sentry AI Monitoring extension for pi coding agent — traces sessions, tool calls, and LLM requests"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-03-31"
+repos: []
 ---
 
 # sergical

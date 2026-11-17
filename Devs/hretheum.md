@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 2, 0, 0, 3, 12, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 9, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "animation-prompt"
+    title: "animation-prompt"
+    description: "Skills for writing flagship animation prompts (2D motion and Three.js 3D) for whole-job models. CC0."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "librus-watch"
     title: "librus-watch"
     description: "Powiadomienia o odstępstwach od normalnego dnia szkolnego na podstawie Librusa"
@@ -93,7 +101,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
   - name: "recipe-shopping-list"
     title: "recipe-shopping-list"
     description: null
@@ -118,14 +126,6 @@ repos:
     title: "detektr"
     description: null
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
-  - name: "ai_oracle"
-    title: "ai_oracle"
-    description: null
-    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null

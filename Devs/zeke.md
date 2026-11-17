@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 0, 2, 4, 5, 5, 4, 2, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 3, 3, 5, 8, 3, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "swiss-design-skill"
-    title: "swiss-design-skill"
-    description: "A Swiss International Style design system skill for AI agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 164
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "faster-chrome-devtools-skill"
-    title: "faster-chrome-devtools-skill"
-    description: "Agent skill that makes Chrome DevTools faster"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 171
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "small-app-gardener"
-    title: "small-app-gardener"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "canvas-polygon"
-    title: "canvas-polygon"
-    description: "Create polygons with the Canvas API"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2022-05-25"
-  - name: "all-the-cloudflare-ai-models"
-    title: "all-the-cloudflare-ai-models"
-    description: "A static JSON array of Cloudflare Workers AI and AI Gateway catalog models, updated daily"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "404_color_bars"
-    title: "404_color_bars"
-    description: "The interweb equivalent of an off-air television."
-    language: null
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2022-05-25"
+repos: []
 ---
 
 # zeke

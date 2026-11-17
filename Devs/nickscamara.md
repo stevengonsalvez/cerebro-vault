@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4fcf7dd2b25b7a7c"
   - "e9dbf459bd01dca3"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 2, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     description: "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl"
     language: "TypeScript"
     topics: []
-    stars_fact: 6298
+    stars_fact: 6300
     first_seen: null
     last_push: "2025-05-07"
   - name: "wikitok"

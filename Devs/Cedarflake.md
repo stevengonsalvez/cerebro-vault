@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 1, 1, 2, 7, 0, 2, 15, 14, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 5, 4, 0, 7, 11, 13, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 3
-    active_days: 19
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2632
-  repo_per_active_day: 0.1579
+  push_per_day: 2.3333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 3
-    pushes_per_repo: 14.3333
-    active_days: 19
+    pushes_per_repo: 14.0000
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Cedarflake-Ame"
@@ -91,7 +91,7 @@ repos:
       - "windows"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "Cedarflake-Lab"
     title: "Cedarflake-Lab"
     description: "Personal monorepo for experiments, apps, packages, and local workbench projects."
@@ -111,7 +111,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-16"
   - name: "InFalsusTouch"
     title: "InFalsusTouch"
     description: "把 Android 手机或平板变成 In Falsus 触控手台：通过 USB 连接电脑，在手机上看谱、滑动 Field、点按或长按六键，支持多设备分工合作游玩。"
@@ -160,6 +160,6 @@ repos:
 
 # Cedarflake
 
-43 pushes across 3 repositories on 19 active days in the last 90 days of public GitHub push activity.
+42 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Cedarflake

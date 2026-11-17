@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 0, 1, 3, 2, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 4, 1, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "VoxMimic"
+    title: "VoxMimic"
+    description: "Rewrite AI-generated text in your own voice. Learns how you write, runs locally with Ollama."
+    language: "Python"
+    topics:
+      - "cli"
+      - "llm"
+      - "ollama"
+      - "paraphrasing"
+      - "privacy"
+      - "python"
+      - "style-transfer"
+      - "writing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "Compute-Pool"
     title: "Compute-Pool"
     description: "Pool several Kaggle accounts into one GPU cluster from a CLI. Independent, data-parallel, and pipeline-parallel training over SSH. Rust CLI, Python training runtime."
@@ -97,7 +113,7 @@ repos:
       - "pytorch"
       - "rust"
       - "ssh"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-07"
   - name: "HGDM-Hierarchical-Gated-Delta-Memory"
@@ -144,14 +160,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-13"
-  - name: "iam-saiteja"
-    title: "iam-saiteja"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # iam-saiteja

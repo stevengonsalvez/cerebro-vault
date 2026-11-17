@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 1, 1, 1, 3, 0, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 1, 3, 0, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,20 +84,32 @@ reasons:
 repos:
   - name: "dead-tests"
     title: "dead-tests"
-    description: "Find tests that look like coverage but can never fail or never run. 21 scanners across Python, Java, C#, PHP, Ruby, Go, Rust and JS."
+    description: "Find tests that look like coverage but never run or can never fail. 22 checks across Python, Java, Kotlin, C#, PHP, Ruby, Go, Rust and JS."
     language: "Python"
     topics:
       - "code-quality"
       - "dead-code"
+      - "github-actions"
+      - "java"
       - "junit"
       - "phpunit"
       - "pytest"
+      - "python"
+      - "sarif"
       - "static-analysis"
       - "test-quality"
       - "testing"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "dylanpulver"
+    title: "dylanpulver"
+    description: null
+    language: null
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
   - name: "factories"
     title: "factories"
     description: "The factory pattern: repeatable pipelines that turn a fuzzy idea into a finished, quality-assured artifact. Registry for the family (code, research, landing-page) and the method: research generates the standards."
@@ -155,19 +167,7 @@ repos:
       - "security"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "supabase-keepalive"
-    title: "supabase-keepalive"
-    description: "🏓 Keep free-tier Supabase projects from pausing: one repo, one GitHub Action, unlimited projects. No server, no cost."
-    language: "JavaScript"
-    topics:
-      - "free-tier"
-      - "github-actions"
-      - "keepalive"
-      - "supabase"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-04"
+    last_push: "2026-11-15"
 ---
 
 # dylanpulver

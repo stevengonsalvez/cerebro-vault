@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4f795faf4eede06c"
   - "dc9094c987231bcf"
-pushes_per_week: [0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 2, 0, 0, 0, 1, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,6 +80,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jev-seo"
+    title: "jev-seo"
+    description: "Live SEO audit for any website from one homepage URL, judged by Jev. PDF, XLSX and Markdown reports."
+    language: "Python"
+    topics: []
+    stars_fact: 959
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "claude-seo"
     title: "claude-seo"
     description: "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
@@ -92,8 +100,83 @@ repos:
       - "marketing-automation"
       - "open-source"
       - "seo"
-    stars_fact: 27707
+    stars_fact: 30143
     first_seen: "2026-10-26T07:00:48.569334+00:00"
+    last_push: "2026-11-16"
+  - name: "chatgpt-seo"
+    title: "chatgpt-seo"
+    description: "Turn a page, draft, or SEO export into a sourced fix plan inside ChatGPT."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-search"
+      - "chatgpt"
+      - "chatgpt-plugin"
+      - "content-briefs"
+      - "content-strategy"
+      - "ecommerce-seo"
+      - "generative-engine-optimization"
+      - "google-search-console"
+      - "international-seo"
+      - "local-seo"
+      - "on-page-seo"
+      - "open-source"
+      - "python"
+      - "schema-markup"
+      - "search-experience-optimization"
+      - "seo"
+      - "structured-data"
+      - "technical-seo"
+      - "xml-sitemap"
+    stars_fact: 929
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "claude-blog"
+    title: "claude-blog"
+    description: "Free, open source blog writer for Claude Code. Researches current sources, writes answer-first posts for Google and AI answers, has an independent reviewer score each one out of 100 and ships only after five delivery gates. 32 skills, 30 /blog commands, 5 agents. Active development at AI-Marketing-Hub/claude-blog; public releases ship here."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "ai-citations"
+      - "ai-content"
+      - "ai-marketing"
+      - "ai-marketing-hub"
+      - "blog"
+      - "blog-writing"
+      - "claude-code"
+      - "claude-code-skill"
+      - "claude-plugin"
+      - "claude-skill"
+      - "content-creation"
+      - "content-optimization"
+      - "content-strategy"
+      - "eeat"
+      - "geo"
+      - "multilingual"
+      - "open-source"
+      - "seo"
+    stars_fact: 2773
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "claude-ads"
+    title: "claude-ads"
+    description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-code-skill"
+      - "google-ads"
+      - "marketing-automation"
+      - "meta-ads"
+      - "open-source"
+      - "paid-advertising"
+      - "ppc"
+    stars_fact: 11102
+    first_seen: null
     last_push: "2026-11-01"
   - name: "claude-obsidian"
     title: "claude-obsidian"
@@ -120,83 +203,9 @@ repos:
       - "personal-knowledge-management"
       - "pkm"
       - "second-brain"
-    stars_fact: 16298
+    stars_fact: 16553
     first_seen: "2026-08-25T06:00:03.138196+00:00"
     last_push: "2026-10-25"
-  - name: "obsidian-herdr"
-    title: "obsidian-herdr"
-    description: "Run Claude Code, Codex, Antigravity and OpenCode in persistent Herdr terminals inside Obsidian, with Mission Control and a safe, undoable vault bridge (CLI + MCP)."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "herdr"
-      - "mcp"
-      - "obsidian"
-      - "obsidian-plugin"
-      - "terminal"
-      - "xterm"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "web-obs"
-    title: "web-obs"
-    description: "Capture a website into your Obsidian vault as Markdown notes and explore it as an interactive 3D site globe. Runs locally, no AI or API keys."
-    language: "Python"
-    topics:
-      - "3d"
-      - "knowledge-graph"
-      - "llms-txt"
-      - "local-first"
-      - "markdown"
-      - "obsidian"
-      - "obsidian-plugin"
-      - "privacy"
-      - "robots-txt"
-      - "seo"
-      - "site-audit"
-      - "sitemap"
-      - "technical-seo"
-      - "website-crawler"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "claude-ads"
-    title: "claude-ads"
-    description: "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai"
-      - "ai-marketing"
-      - "claude-code"
-      - "claude-code-skill"
-      - "google-ads"
-      - "marketing-automation"
-      - "meta-ads"
-      - "open-source"
-      - "paid-advertising"
-      - "ppc"
-    stars_fact: 10890
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "claude-canvas"
-    title: "claude-canvas"
-    description: "AI-orchestrated visual production for Obsidian Canvas. Create presentations, flowcharts, mood boards, knowledge graphs, and galleries with intelligent layout and AI-generated content."
-    language: "Python"
-    topics:
-      - "ai"
-      - "claude-code"
-      - "claude-code-skill"
-      - "knowledge-management"
-      - "obsidian"
-      - "open-source"
-      - "second-brain"
-    stars_fact: 305
-    first_seen: null
-    last_push: "2026-04-10"
 ---
 
 # AgriciDaniel

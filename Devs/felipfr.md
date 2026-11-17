@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3f220f3536f87a11"
-pushes_per_week: [1, 1, 0, 2, 5, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 2, 5, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,18 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "linkedin-mcpserver"
-    title: "linkedin-mcpserver"
-    description: "A powerful Model Context Protocol server for LinkedIn API integration"
-    language: "TypeScript"
-    topics:
-      - "linkedin"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "typescript"
-    stars_fact: 95
-    first_seen: null
-    last_push: "2025-03-28"
   - name: "awesome-n8n-workflows"
     title: "awesome-n8n-workflows"
     description: "A curated collection of awesome n8n workflows for automation, integration, and productivity. Explore ready-to-use JSON workflows for analytics, communication, CRM, e-commerce, finance, HR, marketing, monitoring, security, and more."
@@ -99,9 +87,36 @@ repos:
       - "n8n"
       - "productivity"
       - "workflow"
-    stars_fact: 414
+    stars_fact: 416
     first_seen: null
     last_push: "2025-08-08"
+  - name: "linkedin-mcpserver"
+    title: "linkedin-mcpserver"
+    description: "A powerful Model Context Protocol server for LinkedIn API integration"
+    language: "TypeScript"
+    topics:
+      - "linkedin"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "typescript"
+    stars_fact: 97
+    first_seen: null
+    last_push: "2025-03-28"
+  - name: "tanstack-router-query-auth0-template"
+    title: "tanstack-router-query-auth0-template"
+    description: "Modern React template featuring TanStack Router, TanStack Query, Auth0 authentication, and shadcn/ui components powered by Vite and React 19."
+    language: "TypeScript"
+    topics:
+      - "auth0"
+      - "react"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "tanstack-react-query"
+      - "tanstack-router"
+      - "vite"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-12-08"
   - name: "tlc-agent-harness"
     title: "tlc-agent-harness"
     description: null
@@ -137,14 +152,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2025-04-11"
-  - name: "felipfr"
-    title: "felipfr"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-26"
 ---
 
 # felipfr

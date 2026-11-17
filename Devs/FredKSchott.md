@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,9 +82,25 @@ repos:
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19264
+    stars_fact: 19262
     first_seen: null
     last_push: "2023-03-05"
+  - name: "the-node-way"
+    title: "the-node-way"
+    description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1490
+    first_seen: null
+    last_push: "2016-01-19"
+  - name: "astro-skills"
+    title: "astro-skills"
+    description: "Load and serve Agent Skills from your Astro site, automatically."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-07-09"
   - name: "slackey"
     title: "slackey"
     description: "The simple, easy-to-use JavaScript SDK for Slack"
@@ -93,14 +109,6 @@ repos:
     stars_fact: 30
     first_seen: null
     last_push: "2023-01-03"
-  - name: "the-node-way"
-    title: "the-node-way"
-    description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1491
-    first_seen: null
-    last_push: "2016-01-19"
   - name: "fflip"
     title: "fflip"
     description: "Flexible Feature Flipping/Flagging for Node.js"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 647
     first_seen: null
     last_push: "2020-09-15"
-  - name: "astro-skills"
-    title: "astro-skills"
-    description: "Load and serve Agent Skills from your Astro site, automatically."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2026-07-09"
   - name: "esm-hmr"
     title: "esm-hmr"
     description: "a Hot Module Replacement (HMR) API for your ESM-based dev server."

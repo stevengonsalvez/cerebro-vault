@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "82f6447f851685ec"
-pushes_per_week: [5, 3, 3, 15, 9, 30, 23, 16, 16, 10, 0, 0, 1]
+pushes_per_week: [5, 3, 4, 14, 13, 27, 26, 19, 11, 8, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -102,9 +102,33 @@ repos:
       - "qlora"
       - "sft"
       - "transformers"
-    stars_fact: 10394
+    stars_fact: 10595
     first_seen: "2026-08-16T06:00:08.851157+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "MakazhanAlpamys"
+    title: "MakazhanAlpamys"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "MedHubHAQ"
+    title: "MedHubHAQ"
+    description: "Non-radiographic scoliosis screening for schoolchildren — BlazePose posture-asymmetry analysis plus a phone-as-scoliometer ATR mode, fully on-device in the browser. Trilingual (KK/EN/RU)."
+    language: "JavaScript"
+    topics:
+      - "computer-vision"
+      - "healthcare"
+      - "mediapipe"
+      - "on-device"
+      - "react"
+      - "scoliosis"
+      - "screening"
+      - "tensorflowjs"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-09"
   - name: "Permit-Forge"
     title: "Permit-Forge"
     description: "AI assistant for Dubai building-code compliance — hybrid RAG over 5 Dubai Municipality regulations. Next.js 15, Gemini 2.5 Flash, Supabase pgvector, 1202 passing tests."
@@ -127,14 +151,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-10-28"
-  - name: "MakazhanAlpamys"
-    title: "MakazhanAlpamys"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "NASA-Exoplanet-Detection-AI"
     title: "NASA-Exoplanet-Detection-AI"
     description: "Detects exoplanet candidates in NASA Kepler, K2 and TESS data — ensemble ML (LightGBM, XGBoost, stacking) with SHAP explainability and external validation. NASA Space Apps Global Nominee."
@@ -149,20 +165,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2025-12-16"
-  - name: "Kaspi-Analytics-Platform"
-    title: "Kaspi-Analytics-Platform"
-    description: "Analytics platform over 210,000+ Kaspi.kz marketplace products — price and demand insights with ML forecasting. Next.js 16 + FastAPI + scikit-learn."
-    language: "TypeScript"
-    topics:
-      - "analytics"
-      - "ecommerce"
-      - "fastapi"
-      - "kazakhstan"
-      - "machine-learning"
-      - "nextjs"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-02-14"
 ---
 
 # MakazhanAlpamys

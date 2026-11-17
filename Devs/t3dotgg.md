@@ -9,11 +9,11 @@ provenance_repos:
   - "t3dotgg/tstack"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [3, 8, 13, 10, 6, 36, 32, 84, 51, 72, 0, 0, 0]
+pushes_per_week: [7, 3, 15, 11, 4, 37, 31, 99, 49, 58, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 314
     distinct_repos: 7
-    active_days: 42
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 7.5000
-  repo_per_active_day: 0.1667
+  push_per_day: 7.6585
+  repo_per_active_day: 0.1707
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -66,76 +66,22 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 315
+    pushes: 314
     distinct_repos: 7
-    pushes_per_repo: 45.0000
-    active_days: 42
+    pushes_per_repo: 44.8571
+    active_days: 41
     repos_not_owned: 5
     not_owned_basenames: 4
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tstack"
-    title: "tstack"
-    description: "The agent skills I use every day. Works with Claude Code and Codex."
-    language: "Python"
-    topics: []
-    stars_fact: 3403
-    first_seen: "2026-10-24T06:00:35.391503+00:00"
-    last_push: "2026-10-28"
-  - name: "stripe-recommendations"
-    title: "stripe-recommendations"
-    description: "How to implement Stripe without going mad"
-    language: null
-    topics:
-      - "fullstack"
-      - "nextjs"
-      - "node"
-      - "payments"
-      - "stripe"
-      - "typescript"
-    stars_fact: 6463
-    first_seen: null
-    last_push: "2025-02-07"
-  - name: "quickpic"
-    title: "quickpic"
-    description: "Turn SVGs into high resolution PNGs in 2 clicks"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1307
-    first_seen: null
-    last_push: "2024-11-24"
-  - name: "lust-lang"
-    title: "lust-lang"
-    description: "lust: a Rust-subset compiler with an incremental daemon (fast dev checks for ts-rust)"
-    language: "Rust"
-    topics: []
-    stars_fact: 107
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "slotslop"
-    title: "slotslop"
-    description: "A Vegas-style CLI slot machine that rolls your AI coding harness, model, and effort, then runs the command."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-05-29"
-  - name: "t3dotgg"
-    title: "t3dotgg"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 67
-    first_seen: null
-    last_push: "2026-10-29"
+repos: []
 ---
 
 # t3dotgg
 
-315 pushes across 7 repositories on 42 active days in the last 90 days of public GitHub push activity.
+314 pushes across 7 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/t3dotgg

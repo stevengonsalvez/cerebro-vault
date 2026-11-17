@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 0, 0, 1, 5, 8, 1, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 1, 5, 8, 2, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    active_days: 16
-    repos_not_owned: 10
-    not_owned_basenames: 8
+    pushes: 22
+    distinct_repos: 15
+    active_days: 15
+    repos_not_owned: 8
+    not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 1.0625
-  not_owned_ratio: 0.5882
-  basename_concentration: 0.1765
+  push_per_day: 1.4667
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.5333
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 17
-    pushes_per_repo: 1.4118
-    active_days: 16
-    repos_not_owned: 10
-    not_owned_basenames: 8
+    pushes: 22
+    distinct_repos: 15
+    pushes_per_repo: 1.4667
+    active_days: 15
+    repos_not_owned: 8
+    not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ida-pro-mcp"
@@ -91,36 +91,9 @@ repos:
       - "mcp-server"
       - "modelcontextprotocol"
       - "reverse-engineering"
-    stars_fact: 13428
+    stars_fact: 13494
     first_seen: null
-    last_push: "2026-09-26"
-  - name: "dumpulator"
-    title: "dumpulator"
-    description: "An easy-to-use library for emulating memory dumps. Useful for malware analysis (config extraction, unpacking) and dynamic analysis in general (sandboxing)."
-    language: "C"
-    topics:
-      - "cross-platform"
-      - "debugging-tools"
-      - "easy-to-use"
-      - "emulator"
-      - "hacktoberfest"
-      - "malware"
-      - "malware-analysis"
-      - "malware-analyzer"
-      - "malware-research"
-      - "minidump"
-      - "python"
-      - "python3"
-      - "reverse-engineering"
-      - "sandbox"
-      - "unicorn"
-      - "unpacking"
-      - "windows"
-      - "windows-internals"
-      - "x64"
-    stars_fact: 894
-    first_seen: null
-    last_push: "2024-02-02"
+    last_push: "2026-11-12"
   - name: "TitanHide"
     title: "TitanHide"
     description: "Hiding kernel-driver for x86/x64."
@@ -131,39 +104,34 @@ repos:
       - "hacktoberfest"
       - "rootkit"
       - "windows"
-    stars_fact: 2951
+    stars_fact: 2966
     first_seen: null
     last_push: "2026-07-18"
-  - name: "zeromcp"
-    title: "zeromcp"
-    description: "Zero-dependency MCP server implementation."
+  - name: "github-backup-browser"
+    title: "github-backup-browser"
+    description: "[Slop] Local search and browser for python-github-backup archives."
     language: "Python"
     topics:
-      - "mcp"
-      - "mcp-sdk"
-      - "modelcontextprotocol"
-      - "python"
-      - "python-mcp"
-    stars_fact: 93
+      - "github-backup"
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-09-23"
-  - name: "phnt-single-header"
-    title: "phnt-single-header"
-    description: "Single header version of System Informer's phnt library."
-    language: "CMake"
-    topics:
-      - "debugger"
-      - "native"
-      - "processhacker"
-      - "sdk"
-      - "security"
-      - "systeminformer"
-      - "wdk"
-      - "windows"
-      - "windows-internals"
-    stars_fact: 251
+    last_push: "2026-05-01"
+  - name: "agent"
+    title: "agent"
+    description: "Build your own coding agent workshop materials."
+    language: "C++"
+    topics: []
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-03-27"
+    last_push: "2026-08-17"
+  - name: "claude-marketplace"
+    title: "claude-marketplace"
+    description: "My personal Claude Code marketplace."
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "perfect-dll-proxy"
     title: "perfect-dll-proxy"
     description: "Perfect DLL Proxying using forwards with absolute paths."
@@ -174,13 +142,13 @@ repos:
       - "reverse-engineering"
       - "security"
       - "windows"
-    stars_fact: 377
+    stars_fact: 379
     first_seen: null
     last_push: "2025-11-03"
 ---
 
 # mrexodia
 
-24 pushes across 17 repositories on 16 active days in the last 90 days of public GitHub push activity.
+22 pushes across 15 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mrexodia

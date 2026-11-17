@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "6d3bd03b49986330"
 pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0]
@@ -77,17 +77,6 @@ reasons:
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "Crucix"
-    title: "Crucix"
-    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
-    language: "JavaScript"
-    topics:
-      - "ai"
-      - "intelligence"
-      - "osint"
-    stars_fact: 12205
-    first_seen: null
-    last_push: "2026-05-20"
   - name: "generative-media-skills"
     title: "generative-media-skills"
     description: "Research-backed agent skills and tools for premium image, video, audio, voice, and generative media production across AI coding assistants."
@@ -113,40 +102,20 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 238
+    stars_fact: 245
     first_seen: null
     last_push: "2026-07-14"
-  - name: "OpenFusion"
-    title: "OpenFusion"
-    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
-    language: "Python"
+  - name: "Crucix"
+    title: "Crucix"
+    description: "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes."
+    language: "JavaScript"
     topics:
-      - "agent-orchestration"
-      - "ai-agents"
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "cursor"
-      - "gemini-cli"
-      - "github-copilot"
-      - "llm"
-      - "model-routing"
-      - "multi-model"
-      - "opencode"
-      - "python"
-      - "subagents"
-    stars_fact: 16
+      - "ai"
+      - "intelligence"
+      - "osint"
+    stars_fact: 12229
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "BreakoutAnalysis"
-    title: "BreakoutAnalysis"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 284
-    first_seen: null
-    last_push: "2026-02-23"
+    last_push: "2026-05-20"
   - name: "Resonant"
     title: "Resonant"
     description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
@@ -163,9 +132,17 @@ repos:
       - "open-source"
       - "typescript"
       - "windows"
-    stars_fact: 177
+    stars_fact: 179
     first_seen: null
     last_push: "2026-08-07"
+  - name: "BreakoutAnalysis"
+    title: "BreakoutAnalysis"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 286
+    first_seen: null
+    last_push: "2026-02-23"
   - name: "PhantomReach"
     title: "PhantomReach"
     description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
@@ -188,9 +165,32 @@ repos:
       - "seo"
       - "sqlite"
       - "typescript"
-    stars_fact: 76
+    stars_fact: 77
     first_seen: null
     last_push: "2026-06-27"
+  - name: "OpenFusion"
+    title: "OpenFusion"
+    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
+    language: "Python"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "cursor"
+      - "gemini-cli"
+      - "github-copilot"
+      - "llm"
+      - "model-routing"
+      - "multi-model"
+      - "opencode"
+      - "python"
+      - "subagents"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # calesthio

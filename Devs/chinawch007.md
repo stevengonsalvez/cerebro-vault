@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 1, 0, 1, 2, 1, 4, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 1, 3, 1, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "atoms-demo"
-    title: "atoms-demo"
-    description: "TypeScript AI agent workbench for generating and editing web apps with DeepSeek, live previews, automatic repair, version recovery, and code export."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "Thunder-IVF-PQ"
     title: "Thunder-IVF-PQ"
     description: null
@@ -125,6 +117,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-06-05"
+  - name: "SIMD"
+    title: "SIMD"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-03-23"
 ---
 
 # chinawch007

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4733826595ed972b"
 pushes_per_week: [0, 0, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -95,9 +95,9 @@ repos:
       - "openrouter"
       - "pixel-art"
       - "tauri"
-    stars_fact: 1780
+    stars_fact: 1859
     first_seen: "2026-09-26T06:01:15.987126+00:00"
-    last_push: "2026-11-07"
+    last_push: "2026-11-11"
   - name: "starnet-releases"
     title: "starnet-releases"
     description: "StarNet desktop installers and signed auto-update feed (Windows, macOS). Source: github.com/androoAGI/starnet"
@@ -108,7 +108,7 @@ repos:
       - "installers"
       - "releases"
       - "starnet"
-    stars_fact: 36
+    stars_fact: 38
     first_seen: null
     last_push: "2026-11-07"
   - name: "academy-clips"

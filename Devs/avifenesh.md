@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [17, 18, 13, 24, 107, 247, 94, 90, 55, 57, 0, 6, 3]
+pushes_per_week: [20, 15, 17, 20, 128, 238, 92, 114, 29, 48, 0, 6, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 731
+    pushes: 730
     distinct_repos: 57
-    active_days: 63
+    active_days: 62
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.6032
-  repo_per_active_day: 0.9048
+  push_per_day: 11.7742
+  repo_per_active_day: 0.9194
   not_owned_ratio: 0.5263
   basename_concentration: 0.0175
   shapes: []
@@ -65,22 +65,30 @@ facets:
     not_owned_basenames: 7
     not_owned_owners: 1
   "90d":
-    pushes: 731
+    pushes: 730
     distinct_repos: 57
-    pushes_per_repo: 12.8246
-    active_days: 63
+    pushes_per_repo: 12.8070
+    active_days: 62
     repos_not_owned: 30
     not_owned_basenames: 30
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 62 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hermes-android-app"
+    title: "hermes-android-app"
+    description: "Native Android client for a self-hosted Hermes Agent gateway"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "memra"
     title: "memra"
     description: "Memra is a Rust + CUDA LLM inference engine with hand-written kernels, NVFP4 and mixed-precision execution, and correctness gates scoped to each model and GPU"
-    language: "OpenEdge ABL"
+    language: "Rust"
     topics:
       - "ai"
       - "blackwell"
@@ -102,9 +110,17 @@ repos:
       - "rtx-pro-6000"
       - "rust"
       - "speculative-decoding"
-    stars_fact: 5
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
+  - name: "draft-lm-head-bench"
+    title: "draft-lm-head-bench"
+    description: "Draft LM-head precision A/B (BF16 / FP8 / NVFP4) for vLLM speculative decoding"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "avifenesh"
     title: "avifenesh"
     description: null
@@ -120,7 +136,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-13"
   - name: "phonon2-onnx"
     title: "phonon2-onnx"
     description: "Phonon-2 speech recognizer exported to ONNX: export, exact 2-plane and int8 encoders, parity and WER tools (published as tiyuvta/Phonon-2-ONNX)"
@@ -129,26 +145,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-09"
-  - name: "layby"
-    title: "layby"
-    description: "Layby: place idle LLM sessions' KV cache by when they come back. Cost rule, Layby-Dwell, vLLM and SGLang adapters, ReturnBench."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "gdn-beta-gate"
-    title: "gdn-beta-gate"
-    description: "Code, receipts and checks for 'Retrofitting a Gate on the Delta-Rule Write Strength Shortens RL-Trained Reasoning in Qwen3.5'"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
 ---
 
 # avifenesh
 
-731 pushes across 57 repositories on 63 active days in the last 90 days of public GitHub push activity.
+730 pushes across 57 repositories on 62 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

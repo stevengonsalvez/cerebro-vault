@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 1, 0, 2, 1, 3, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 2, 0, 1, 3, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,12 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel stable tree mirror"
-    language: "C"
-    topics:
-      - "kernel"
-      - "linux"
-    stars_fact: 734
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "gregkh-linux"
-    title: "gregkh-linux"
-    description: "My ~/linux/ directory framework"
-    language: "Yacc"
-    topics: []
-    stars_fact: 104
-    first_seen: null
-    last_push: "2026-11-06"
   - name: "usbutils"
     title: "usbutils"
     description: "USB utilities for Linux, including lsusb"
     language: "C"
     topics: []
-    stars_fact: 464
+    stars_fact: 467
     first_seen: null
     last_push: "2026-11-03"
   - name: "kernel-tutorial"
@@ -111,14 +93,32 @@ repos:
     stars_fact: 1264
     first_seen: null
     last_push: "2021-03-26"
-  - name: "kdbus"
-    title: "kdbus"
-    description: "Kernel \"dbus-like\" code for the Linux kernel"
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel stable tree mirror"
+    language: "C"
+    topics:
+      - "kernel"
+      - "linux"
+    stars_fact: 739
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "usbview"
+    title: "usbview"
+    description: "usb viewer for Linux"
     language: "C"
     topics: []
-    stars_fact: 261
+    stars_fact: 278
     first_seen: null
-    last_push: "2017-01-19"
+    last_push: "2025-08-17"
+  - name: "usb_tutorial"
+    title: "usb_tutorial"
+    description: "My \"Write a Real, Working, Linux Driver\" talk and source code"
+    language: "C"
+    topics: []
+    stars_fact: 170
+    first_seen: null
+    last_push: "2015-02-26"
   - name: "kernel-development"
     title: "kernel-development"
     description: "Presentation on how the Linux kernel is developed"

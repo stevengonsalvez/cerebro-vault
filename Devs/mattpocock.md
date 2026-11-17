@@ -13,39 +13,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "00b3deb7a8bc08be"
   - "25a420d2612019d0"
   - "637c99109af31ed2"
   - "b22ecd25e4a0f368"
-pushes_per_week: [4, 1, 0, 0, 1, 13, 4, 47, 16, 1, 0, 1, 0]
+pushes_per_week: [4, 1, 0, 1, 1, 13, 12, 51, 4, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 89
     distinct_repos: 5
-    active_days: 22
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.2273
+  push_per_day: 3.8696
+  repo_per_active_day: 0.2174
   not_owned_ratio: 0.2000
   basename_concentration: 0.2000
   shapes: []
@@ -56,32 +56,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes_per_repo: 1.3333
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 88
+    pushes: 89
     distinct_repos: 5
-    pushes_per_repo: 17.6000
-    active_days: 22
+    pushes_per_repo: 17.8000
+    active_days: 23
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -89,53 +89,55 @@ repos:
     description: "Skills for Real Engineers. Straight from my .agents directory."
     language: "Shell"
     topics: []
-    stars_fact: 319703
+    stars_fact: 326133
     first_seen: "2026-07-31T06:00:08.910931+00:00"
-    last_push: "2026-11-09"
-  - name: "course-video-manager"
-    title: "course-video-manager"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 881
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "dictionary-of-ai-coding"
-    title: "dictionary-of-ai-coding"
-    description: "AI coding jargon, explained in plain English."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5418
-    first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-11-13"
   - name: "sandcastle"
     title: "sandcastle"
     description: "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()"
     language: "TypeScript"
     topics: []
-    stars_fact: 8954
+    stars_fact: 9130
     first_seen: "2026-10-03T06:01:20.490195+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "mattpocock"
     title: "mattpocock"
     description: null
     language: null
     topics: []
-    stars_fact: 682
+    stars_fact: 708
     first_seen: null
     last_push: "2026-06-22"
-  - name: "harness-claude-code-usage-repro"
-    title: "harness-claude-code-usage-repro"
-    description: "Repro: @ai-sdk/harness-claude-code finish-step reports the whole turn's cumulative usage on the last step, not that step's own"
+  - name: "dictionary-of-ai-coding"
+    title: "dictionary-of-ai-coding"
+    description: "AI coding jargon, explained in plain English."
     language: "TypeScript"
     topics: []
-    stars_fact: 36
-    first_seen: "2026-08-21T06:00:19.148922+00:00"
-    last_push: "2026-08-19"
+    stars_fact: 5508
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "ai-engineer-workshop-2026-project"
+    title: "ai-engineer-workshop-2026-project"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 238
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "ts-reset"
+    title: "ts-reset"
+    description: "A 'CSS reset' for TypeScript, improving types for common JavaScript API's"
+    language: "TypeScript"
+    topics:
+      - "reset"
+      - "typescript"
+    stars_fact: 8648
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # mattpocock
 
-88 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
+89 pushes across 5 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mattpocock

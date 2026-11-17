@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 1, 1, 35, 2, 1, 13, 1, 10, 0, 0, 1]
+pushes_per_week: [2, 0, 1, 1, 35, 2, 4, 10, 1, 10, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,37 +79,19 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "costajohnt"
-    title: "costajohnt"
-    description: "Profile README"
-    language: null
-    topics: []
+  - name: "ha-halo-bassinest"
+    title: "ha-halo-bassinest"
+    description: "Unofficial Home Assistant integration for the HALO BassiNest Smart Swivel Sleeper (lights, sound, status)"
+    language: "Python"
+    topics:
+      - "hacs"
+      - "hacs-integration"
+      - "halo-bassinest"
+      - "home-assistant"
+      - "homeassistant-custom-component"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "costajohnt.github.io"
-    title: "costajohnt.github.io"
-    description: "Source for jcosta.tech, my blog"
-    language: "HTML"
-    topics:
-      - "blog"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "rbcop"
-    title: "rbcop"
-    description: "RuboCop rewritten in Rust: identical output, about 14x faster in CI"
-    language: "Rust"
-    topics:
-      - "linter"
-      - "prism"
-      - "rubocop"
-      - "ruby"
-      - "rust"
-      - "static-analysis"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-17"
   - name: "fleetview"
     title: "fleetview"
     description: "One screen for all your background coding agents. Claude Code's agent view, ported to opencode, claude, and copilot"
@@ -124,7 +106,7 @@ repos:
       - "terminal"
       - "tui"
       - "typescript"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-11-08"
   - name: "oss-autopilot"
@@ -148,22 +130,55 @@ repos:
       - "open-source"
       - "pr-management"
       - "typescript"
-    stars_fact: 28
+    stars_fact: 30
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "mermaid-to-pdf-vscode"
-    title: "mermaid-to-pdf-vscode"
-    description: "CLI and MCP tool to convert Markdown files with Mermaid diagrams to PDF"
+    last_push: "2026-11-14"
+  - name: "groovyfmt"
+    title: "groovyfmt"
+    description: "Fast formatter for Groovy, Gradle build scripts, and Jenkinsfiles (Rust, tree-sitter)"
+    language: "Rust"
+    topics:
+      - "formatter"
+      - "gradle"
+      - "groovy"
+      - "jenkinsfile"
+      - "linter"
+      - "rust"
+      - "spock"
+      - "tree-sitter"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "oss-scout"
+    title: "oss-scout"
+    description: "Find open source issues personalized to your contribution history. Three-strategy search, deep vetting, and viability scoring."
     language: "TypeScript"
     topics:
+      - "claude-code-plugin"
       - "cli"
-      - "markdown"
+      - "contribution-finder"
+      - "contributions"
+      - "github"
+      - "github-api"
+      - "issue-discovery"
+      - "issue-vetting"
       - "mcp"
-      - "mermaid"
-      - "pdf"
+      - "npx"
+      - "open-source"
+      - "personalized"
+      - "typescript"
+      - "vetting"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-13"
+  - name: "costajohnt"
+    title: "costajohnt"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
 ---
 
 # costajohnt

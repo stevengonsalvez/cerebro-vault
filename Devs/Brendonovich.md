@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 5, 1, 0, 11, 9, 3, 3, 4, 0, 0, 0, 0]
+pushes_per_week: [9, 2, 1, 0, 16, 5, 2, 7, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,15 +92,35 @@ repos:
       - "tauri"
       - "twitch"
       - "vtube-studio"
-    stars_fact: 304
+    stars_fact: 307
     first_seen: null
     last_push: "2026-08-28"
+  - name: "sceneify"
+    title: "sceneify"
+    description: "The simplest way to control OBS from JavaScript"
+    language: "TypeScript"
+    topics:
+      - "javascript"
+      - "obs"
+      - "obs-websocket"
+      - "typescript"
+    stars_fact: 94
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "furiten"
+    title: "furiten"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "swift-rs"
     title: "swift-rs"
     description: "Call Swift functions from Rust with ease!"
     language: "Rust"
     topics: []
-    stars_fact: 343
+    stars_fact: 344
     first_seen: null
     last_push: "2026-10-10"
   - name: "cf-effect-experiment"
@@ -119,22 +139,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-10-17"
-  - name: "futhark"
-    title: "futhark"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "apps"
-    title: "apps"
-    description: "vibe coded personal apps"
-    language: "Rust"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-23"
 ---
 
 # Brendonovich

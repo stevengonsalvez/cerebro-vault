@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [1, 0, 1, 4, 6, 20, 0, 0, 0, 2, 0, 0, 3]
+pushes_per_week: [1, 0, 3, 4, 4, 20, 0, 0, 0, 2, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -82,9 +82,42 @@ repos:
     description: "A new programming language implemented by GPT-4."
     language: "Python"
     topics: []
-    stars_fact: 345
+    stars_fact: 344
     first_seen: null
     last_push: "2023-03-15"
+  - name: "multica-mavericks"
+    title: "multica-mavericks"
+    description: "OS X 10.9 Mavericks as a Multica theme: Lucida Grande, Aqua blue selection, gradient push buttons, blue-grey source list."
+    language: "CSS"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "multica-linear"
+    title: "multica-linear"
+    description: "Linear's 2026 desktop design as a Multica theme: neutral greys, the sidebar on the frame, one flat inset panel, 44px rows and an indigo accent."
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "CLRS"
+    title: "CLRS"
+    description: "Introduction to Algorithms solutions and notes."
+    language: "C++"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2015-11-21"
+  - name: "multica-lisa"
+    title: "multica-lisa"
+    description: "The Apple Lisa Office System (1983) as a Multica theme: one-bit black and white, the Lisa system font, a dithered desktop and inverse video."
+    language: "CSS"
+    topics:
+      - "multica-theme"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "programmer-soft-skills"
     title: "programmer-soft-skills"
     description: "程序员的软技能"
@@ -93,42 +126,6 @@ repos:
     stars_fact: 491
     first_seen: null
     last_push: "2022-06-30"
-  - name: ".doom.d"
-    title: ".doom.d"
-    description: "Personal doom emacs configs"
-    language: "Emacs Lisp"
-    topics:
-      - "doom-emacs"
-      - "editor"
-      - "elisp"
-      - "emacs"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2021-12-20"
-  - name: "practical-python-programming-cn"
-    title: "practical-python-programming-cn"
-    description: "翻译 Practical Python Programming https://dabeaz-course.github.io/practical-python/"
-    language: null
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2020-06-30"
-  - name: "worktree-workflow"
-    title: "worktree-workflow"
-    description: "A toolkit for parallel development with git worktrees, designed for Claude Code"
-    language: "Shell"
-    topics: []
-    stars_fact: 108
-    first_seen: null
-    last_push: "2026-02-01"
-  - name: "roam-vim-mode"
-    title: "roam-vim-mode"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # forrestchang

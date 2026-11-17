@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 3, 5, 0, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 5, 0, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "FastBrain-9B"
+    title: "FastBrain-9B"
+    description: "FastBrain-9B: Non-autoregressive System-1 structured decision model — inference, training and evaluation code."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "camera-2018"
     title: "camera-2018"
     description: "Config files for my GitHub profile."
@@ -86,7 +94,7 @@ repos:
       - "github-config"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "astrbot_plugin_fastbrain_proactive"
     title: "astrbot_plugin_fastbrain_proactive"
     description: "AstrBot 主动回复判断插件：FastBrain-9B SystemOne 分类，沿用会话模型，默认观察模式"
@@ -94,7 +102,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "astrbot_plugin_eyewitness_memory"
     title: "astrbot_plugin_eyewitness_memory"
     description: null
@@ -102,15 +110,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "FastBrain"
-    title: "FastBrain"
-    description: "FastBrain-9B: Non-autoregressive System-1 structured decision model — inference, training and evaluation code."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-14"
   - name: "hdu-cs-wiki"
     title: "hdu-cs-wiki"
     description: "HDU 计算机科学讲义 如果对你🫵的学习📚有帮助，还请点亮一下 Star 🌟 哦~ 万分感谢！"

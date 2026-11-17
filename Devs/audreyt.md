@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [8, 3, 2, 4, 8, 9, 15, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [9, 2, 2, 4, 10, 10, 12, 5, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,38 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ethercalc"
+    title: "ethercalc"
+    description: "Web spreadsheet — no sign-up, no install."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3066
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "parse-afp"
+    title: "parse-afp"
+    description: "Parser for IBM's Advanced Function Printing document format"
+    language: "Perl"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2015-12-05"
+  - name: "node-webworker-threads"
+    title: "node-webworker-threads"
+    description: "Lightweight Web Worker API implementation with native threads"
+    language: "C++"
+    topics: []
+    stars_fact: 2275
+    first_seen: null
+    last_push: "2021-09-14"
   - name: "civic.ai"
     title: "civic.ai"
     description: "A governance framework by Audrey Tang and Dr Caroline Emmer De Albuquerque Green that translates Joan Tronto's care ethics into six machine-codeable design primitives for Civic AI — bounded, place-specific AI stewards engineered for relational health, not unbounded optimisation."
     language: "JavaScript"
     topics: []
-    stars_fact: 27
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "regex-genex"
     title: "regex-genex"
     description: "Given a list of regexes, generate all possible strings that matches all of them."
@@ -101,30 +125,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2014-05-20"
-  - name: "lingua-sinica-perlyuyan"
-    title: "lingua-sinica-perlyuyan"
-    description: "Perl in Classical Chinese in Perl"
-    language: "Perl"
-    topics: []
-    stars_fact: 293
-    first_seen: null
-    last_push: "2015-01-10"
-  - name: "ethercalc"
-    title: "ethercalc"
-    description: "Web spreadsheet — no sign-up, no install."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3064
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "reversealignment.ai"
-    title: "reversealignment.ai"
-    description: "Reverse Alignment website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-06"
 ---
 
 # audreyt

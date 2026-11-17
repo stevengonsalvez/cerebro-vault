@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
-pushes_per_week: [1, 0, 1, 1, 3, 3, 3, 3, 0, 2, 0, 1, 1]
+pushes_per_week: [1, 1, 0, 2, 3, 3, 2, 3, 1, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,54 +79,54 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cchistory"
-    title: "cchistory"
-    description: "Extract and compare system prompts and tools from different Claude Code versions"
+  - name: "pi-subagent"
+    title: "pi-subagent"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 499
+    stars_fact: 267
     first_seen: null
-    last_push: "2025-10-30"
-  - name: "claude-commands"
-    title: "claude-commands"
-    description: "Global Claude Code commands and workflows"
-    language: null
-    topics: []
-    stars_fact: 523
-    first_seen: null
-    last_push: "2025-08-11"
-  - name: "jot"
-    title: "jot"
-    description: "Minimal self-hosted markdown editor with inline comment threads"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 359
-    first_seen: null
-    last_push: "2026-04-03"
-  - name: "pi-skills"
-    title: "pi-skills"
-    description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2656
-    first_seen: null
-    last_push: "2026-06-06"
+    last_push: "2026-09-30"
   - name: "sitegeist"
     title: "sitegeist"
     description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
     language: "TypeScript"
     topics: []
-    stars_fact: 917
+    stars_fact: 923
     first_seen: null
     last_push: "2026-03-18"
-  - name: "lemmy"
-    title: "lemmy"
-    description: "Wrapper around tool using LLMs for agentic workflows"
+  - name: "mini-lit"
+    title: "mini-lit"
+    description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 1647
+    stars_fact: 101
     first_seen: null
-    last_push: "2025-08-13"
+    last_push: "2025-11-12"
+  - name: "pi-diff-review"
+    title: "pi-diff-review"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 318
+    first_seen: null
+    last_push: "2026-05-23"
+  - name: "sol-2024"
+    title: "sol-2024"
+    description: "Revamped version of SOL using latest libGDX (2024)"
+    language: "Java"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-04-01"
+  - name: "quantum"
+    title: "quantum"
+    description: "RTS in the spirit of Eufloria"
+    language: "Java"
+    topics: []
+    stars_fact: 119
+    first_seen: null
+    last_push: "2022-11-06"
 ---
 
 # badlogic

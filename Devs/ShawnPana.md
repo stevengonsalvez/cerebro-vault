@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c1af6b58492f9bf4"
   - "ddd7486148a91958"
-pushes_per_week: [2, 0, 0, 0, 2, 8, 0, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 1, 1, 8, 0, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,6 +87,14 @@ repos:
     stars_fact: 1533
     first_seen: null
     last_push: "2026-10-05"
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "ophanim"
     title: "ophanim"
     description: "a terminal with a built-in browser"
@@ -111,14 +119,6 @@ repos:
     stars_fact: 169
     first_seen: null
     last_push: "2026-03-21"
-  - name: "screenstudio-cli"
-    title: "screenstudio-cli"
-    description: "an agent-ready CLI tool to automate Screen Studio"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-04-12"
   - name: "personal-portfolio"
     title: "personal-portfolio"
     description: "A personal portfolio using Three.js"

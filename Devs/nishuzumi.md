@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 2, 0, 1, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 1, 0, 0, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "show-me-you-want-skill"
+    title: "show-me-you-want-skill"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 201
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "gemini-teacher"
+    title: "gemini-teacher"
+    description: "English pronunciation correction teacher built with gemini"
+    language: "Python"
+    topics: []
+    stars_fact: 1210
+    first_seen: null
+    last_push: "2026-08-31"
   - name: "neurom"
     title: "neurom"
     description: null
@@ -85,14 +101,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-11-09"
-  - name: "gemini-teacher"
-    title: "gemini-teacher"
-    description: "English pronunciation correction teacher built with gemini"
-    language: "Python"
-    topics: []
-    stars_fact: 1209
-    first_seen: null
-    last_push: "2026-08-31"
   - name: "moss"
     title: "moss"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "fomomo"
-    title: "fomomo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # nishuzumi

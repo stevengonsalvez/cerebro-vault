@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ae05babd8ff3098f"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 2, 3, 11, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 1, 2, 13, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,31 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "buytracker"
+    title: "buytracker"
+    description: "Browser extension that watches product pages for price drops, new offers, and restocks — JSON-LD + Shopify + cheap-LLM extraction, CamelCamelCamel-style history"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "chattrace"
+    title: "chattrace"
+    description: "ChatTrace Forensic: read-only viewer and evidence exporter for the Microsoft Teams desktop cache. Use Microsoft Purview when you can; this is for when you can't."
+    language: "Rust"
+    topics:
+      - "digital-forensics"
+      - "ediscovery"
+      - "egui"
+      - "evidence"
+      - "forensics"
+      - "indexeddb"
+      - "leveldb"
+      - "microsoft-teams"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "mydiskisfull"
     title: "mydiskisfull"
     description: "Watches your Mac's disk over time: predicts when it will be full, catches runaway disk fillers, explains why and how to avoid it. Free and open source."
@@ -92,7 +117,7 @@ repos:
       - "time-machine"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
   - name: "idlewild"
     title: "idlewild"
     description: null
@@ -100,7 +125,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-13"
   - name: "espresso-macchiato"
     title: "espresso-macchiato"
     description: "macOS menu bar caffeinate app (Coca replacement) written in Swift"
@@ -117,14 +142,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "marie-lookapp-releases"
-    title: "marie-lookapp-releases"
-    description: "Binary releases & auto-update feed for Marie LookApp (tray snippet lookup). Source lives in a private repo."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-06-08"
 ---
 
 # lgibelli

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [3, 9, 6, 12, 25, 33, 21, 12, 11, 4, 0, 0, 0]
+pushes_per_week: [4, 12, 3, 18, 31, 28, 18, 15, 4, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,54 +79,54 @@ reasons:
   - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "omarchy-plugin-grokbot-desktop"
-    title: "omarchy-plugin-grokbot-desktop"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "build-omarchy-plugins"
-    title: "build-omarchy-plugins"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 125
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "omarchy-badges"
-    title: "omarchy-badges"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "omarchy-plugin-familiar-desktop"
-    title: "omarchy-plugin-familiar-desktop"
-    description: "Retiring Familiar Desktop for Omarchy. Feature development has ended; source and releases remain available. Read the EOL and migration guide before changing an existing installation. Core replacement availability depends on your Omarchy version/channel."
-    language: "QML"
-    topics: []
-    stars_fact: 84
-    first_seen: null
-    last_push: "2026-11-06"
   - name: "omarchy-theme-liftoff"
     title: "omarchy-theme-liftoff"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 93
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "omarchy-plugin-grokbot-desktop"
+    title: "omarchy-plugin-grokbot-desktop"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "iOMARCHY"
+    title: "iOMARCHY"
+    description: "Porting Omarchy to A-chip iOS devices"
+    language: "Shell"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "omarchy-task-manager"
+    title: "omarchy-task-manager"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 51
     first_seen: null
     last_push: "2026-11-06"
-  - name: "omarchy-theme-bluechip"
-    title: "omarchy-theme-bluechip"
+  - name: "omarchy-plugin-orb"
+    title: "omarchy-plugin-orb"
     description: null
     language: "JavaScript"
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-10-30"
+  - name: "build-omarchy-plugins"
+    title: "build-omarchy-plugins"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 128
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # tcballard

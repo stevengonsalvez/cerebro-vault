@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 0, 2, 1, 1, 5, 3, 0, 0, 1, 0, 0, 0]
@@ -77,6 +77,50 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hypelens"
+    title: "hypelens"
+    description: "Open-source Hyperliquid wallet analyzer"
+    language: "TypeScript"
+    topics:
+      - "crypto"
+      - "defi"
+      - "hyperliquid"
+      - "nextjs"
+      - "open-source"
+      - "trading-analytics"
+      - "typescript"
+      - "wallet-analyzer"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "bitcoin-mcp"
+    title: "bitcoin-mcp"
+    description: "50 standard Bitcoin tools for MCP agents, with 6 prompts and 8 resources. Uses a local node or explicitly configured compatible API."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "anthropic"
+      - "bitcoin"
+      - "bitcoin-api"
+      - "bitcoin-core"
+      - "bitcoin-mcp"
+      - "bitcoin-node"
+      - "blockchain"
+      - "claude"
+      - "claude-desktop"
+      - "cryptocurrency"
+      - "cursor"
+      - "fee-estimation"
+      - "llm"
+      - "mcp"
+      - "mcp-server"
+      - "mempool"
+      - "model-context-protocol"
+      - "python"
+      - "self-hosted"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-03"
   - name: "firstcut"
     title: "firstcut"
     description: "First Cut public website and publishing policies."
@@ -84,7 +128,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
+  - name: "x402-seller-testkit"
+    title: "x402-seller-testkit"
+    description: "Seller-side x402 conformance and regression harness."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "conformance"
+      - "harness"
+      - "payments"
+      - "seller"
+      - "testing"
+      - "typescript"
+      - "x402"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "paypal-402"
     title: "paypal-402"
     description: "HTTP 402 for AI agents, settled through PayPal: per-call API payments with spending policies"
@@ -108,63 +168,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-08"
-  - name: "bitcoin-api"
-    title: "bitcoin-api"
-    description: "Self-hostable Bitcoin fee intelligence API with optional MCP and x402 integrations. Former public hosting is paused."
-    language: "Python"
-    topics:
-      - "ai"
-      - "ai-agents"
-      - "bitcoin"
-      - "bitcoin-api"
-      - "bitcoin-core"
-      - "bitcoin-node"
-      - "cryptocurrency"
-      - "docker"
-      - "fastapi"
-      - "fee-estimation"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "mempool"
-      - "model-context-protocol"
-      - "python"
-      - "rest-api"
-      - "rpc"
-      - "self-hosted"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "bitcoin-api-x402"
-    title: "bitcoin-api-x402"
-    description: "x402 stablecoin micropayment extension for Satoshi API"
-    language: "Python"
-    topics:
-      - "bitcoin"
-      - "fastapi"
-      - "payments"
-      - "satoshi-api"
-      - "stablecoin"
-      - "x402"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "carry"
-    title: "carry"
-    description: "Carry is the open portability profile for AI."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-memory"
-      - "identity"
-      - "interoperability"
-      - "portability"
-      - "privacy"
-      - "standards"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
 ---
 
 # Bortlesboat

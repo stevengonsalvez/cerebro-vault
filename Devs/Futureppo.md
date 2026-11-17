@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 0, 3, 1, 1, 5, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 3, 1, 5, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astrbot_plugin_Xiaomi_BandProMax"
+    title: "astrbot_plugin_Xiaomi_BandProMax"
+    description: "米家跳蛋控制插件"
+    language: "Python"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2025-11-01"
   - name: "antigravity_bypass"
     title: "antigravity_bypass"
     description: "Google Antigravity MCP tool limit patch: raise local limits to 8192 in Antigravity IDE and the Windows x64 desktop app. MCP 工具数量限制修补，支持自动识别、备份与恢复。"
@@ -91,9 +99,25 @@ repos:
       - "mcp-tools"
       - "model-context-protocol"
       - "tool-limit"
-    stars_fact: 65
+    stars_fact: 69
     first_seen: null
     last_push: "2026-09-15"
+  - name: "astrbot_plugin_global_status"
+    title: "astrbot_plugin_global_status"
+    description: "AstrBot 全球厂商状态监控插件：官方状态订阅、双语 SVG 图片告警与 aiocqhttp 群推送"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "zaiis2api"
+    title: "zaiis2api"
+    description: "无限使用Nano Banana，Nano Banana Pro，Gemini 3 Pro Preview，Claude Opus 4.5"
+    language: "Python"
+    topics: []
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-01-02"
   - name: "astrbot_plugin_zanwo"
     title: "astrbot_plugin_zanwo"
     description: null
@@ -102,14 +126,6 @@ repos:
     stars_fact: 29
     first_seen: null
     last_push: "2026-04-16"
-  - name: "astrbot_plugin_global_status"
-    title: "astrbot_plugin_global_status"
-    description: "AstrBot 全球厂商状态监控插件：官方状态订阅、双语 SVG 图片告警与 aiocqhttp 群推送"
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-09-29"
   - name: "typesafe_register"
     title: "typesafe_register"
     description: "typesafe.ai注册机，极致优化，无限jev"
@@ -118,28 +134,6 @@ repos:
     stars_fact: 133
     first_seen: null
     last_push: "2026-09-21"
-  - name: "zaiis2api"
-    title: "zaiis2api"
-    description: "无限使用Nano Banana，Nano Banana Pro，Gemini 3 Pro Preview，Claude Opus 4.5"
-    language: "Python"
-    topics: []
-    stars_fact: 137
-    first_seen: null
-    last_push: "2026-01-02"
-  - name: "paperbox-classifier"
-    title: "paperbox-classifier"
-    description: "纸盒六分类教学项目：PyTorch ResNet18 迁移学习，包含原图、人工标注、按组划分、训练评估和本地预测界面。"
-    language: "Python"
-    topics:
-      - "computer-vision"
-      - "gradio"
-      - "image-classification"
-      - "pytorch"
-      - "resnet18"
-      - "transfer-learning"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # Futureppo

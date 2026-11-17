@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 5, 2, 11, 15, 14, 7, 8, 7, 0, 0, 1, 0]
+pushes_per_week: [6, 4, 2, 11, 19, 12, 6, 9, 5, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,22 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "disco"
-    title: "disco"
-    description: "Utility for bulk image, license, package, and vulnerability discovery in containerize workloads on GCP. Includes CLI and Service with custom metrics and BigQuery data exports."
+  - name: "s3cme"
+    title: "s3cme"
+    description: "Template Go app repo with local test/lint/build/vulnerability check workflow, and on tag image test/build/release pipelines, with ko generative SBOM, cosign attestation, and SLSA build provenance"
     language: "Go"
-    topics: []
-    stars_fact: 12
+    topics:
+      - "attestation"
+      - "cosine"
+      - "oidc"
+      - "provenance"
+      - "sbom"
+      - "slsa"
+      - "supply-chain-security"
+      - "vulnerability"
+    stars_fact: 105
     first_seen: null
-    last_push: "2024-02-15"
+    last_push: "2024-04-23"
   - name: "cluster"
     title: "cluster"
     description: "Collection of Kubernetes cluster deployment tools for multiple cloud platforms and local development."
@@ -97,7 +105,15 @@ repos:
       - "kubernetes"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-15"
+  - name: "disco"
+    title: "disco"
+    description: "Utility for bulk image, license, package, and vulnerability discovery in containerize workloads on GCP. Includes CLI and Service with custom metrics and BigQuery data exports."
+    language: "Go"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2024-02-15"
   - name: "vimp"
     title: "vimp"
     description: "Aggregate vulnerability scans from multiple container image scanners to identify discrepancies and get comprehensive exposure analysis."
@@ -130,15 +146,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-30"
-  - name: "mchmarny"
-    title: "mchmarny"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
+    last_push: "2026-11-14"
 ---
 
 # mchmarny

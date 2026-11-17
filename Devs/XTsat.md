@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 0, 1, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_comic_parser"
-    title: "astrbot_plugin_comic_parser"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "agent-templates"
-    title: "agent-templates"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "astrbot_plugin_group_file_manager"
-    title: "astrbot_plugin_group_file_manager"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "astrbot_plugin_llm_balance"
-    title: "astrbot_plugin_llm_balance"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "XTsat"
-    title: "XTsat"
-    description: "XTsat"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "rapid-upload-userscript-doc"
-    title: "rapid-upload-userscript-doc"
-    description: "秒传链接提取脚本 - 文档&教程"
-    language: null
-    topics: []
-    stars_fact: 215
-    first_seen: null
-    last_push: "2024-10-28"
+repos: []
 ---
 
 # XTsat

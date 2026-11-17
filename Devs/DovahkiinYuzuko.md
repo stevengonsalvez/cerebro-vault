@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 1, 0, 1, 0, 3, 0, 6, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 0, 3, 5, 1, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,10 +77,60 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gitignore-soc-skill"
+    title: "gitignore-soc-skill"
+    description: "[ENG]An Agent Skill that packages gitignoreSoC (mushi) for AI coding agents like Claude Code and OpenAI Codex. / [JPN]gitignoreSoC（mushi）をClaude CodeやOpenAI CodexなどのAIコーディングエージェントから使えるようにしたAgent Skill"
+    language: "JavaScript"
+    topics:
+      - "agent-skills"
+      - "ai-agent"
+      - "antigravity"
+      - "antigravity-skills"
+      - "claude-code"
+      - "cli"
+      - "git"
+      - "gitignore"
+      - "l21m"
+      - "nodejs"
+      - "openai-codex"
+      - "skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "local-issues-skill"
+    title: "local-issues-skill"
+    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
+    language: null
+    topics:
+      - "agent-skills"
+      - "l21m"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "briefing-board"
+    title: "briefing-board"
+    description: "[ENG]Pre-implementation strategic briefing skill: turns AI-organized topics into a local web dashboard to collect decisions. / [JPN]実装前の設計相談や方針決めで、AIが整理した論点をローカルWeb画面に提示し判断結果を回収するエージェントスキル。"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agent"
+      - "antigravity"
+      - "briefing-board"
+      - "dads"
+      - "decision-making"
+      - "design-review"
+      - "l21m"
+      - "local-web-ui"
+      - "python"
+      - "toml"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "explorations-in-documentation"
     title: "explorations-in-documentation"
     description: "[ENG]A research inquiry and agent skill on information architecture, cognitive engineering, and evidence-based technical documentation / [JPN]認知工学・形式論理学・説得工学の知見に基づくドキュメント設計原則の探求とエージェントスキル"
-    language: null
+    language: "Python"
     topics:
       - "agent-skill"
       - "cognitive-load"
@@ -93,7 +143,7 @@ repos:
       - "technical-writing"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "i-hate-decimal-calc"
     title: "i-hate-decimal-calc"
     description: "[ENG] A strict CAS calculator CLI that completely rejects decimal approximations, converting all decimals to exact fractions. / [JPN] 小数を一切許さず、すべての小数を即座に分数化して厳密計算するCAS電卓CLIツール。"
@@ -111,15 +161,7 @@ repos:
       - "symbolic-computation"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "local-issues-skill"
-    title: "local-issues-skill"
-    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-16"
   - name: "fuck-agy-skills"
     title: "fuck-agy-skills"
     description: "[ENG]CLI tool that synchronizes Agent Skills (~/.agents/skills) to Google Antigravity (~/.gemini/config/skills) via physical copying. / [JPN]Agent Skills（~/.agents/skills）をGoogle Antigravity（~/.gemini/config/skills）へ物理コピーで同期するCLIツール。"
@@ -137,32 +179,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-20"
-  - name: "KanColle-Yuzuko-Blog"
-    title: "KanColle-Yuzuko-Blog"
-    description: "ユズコの艦これ個人攻略ブログ"
-    language: "TypeScript"
-    topics:
-      - "blog"
-      - "game-guide"
-      - "kancolle"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-12"
-  - name: "Sode-no-Shita"
-    title: "Sode-no-Shita"
-    description: "[ENG] A lightweight and secure WebRTC file transfer tool that allows bidirectional P2P transfer of files and folders. / [JPN] P2Pで直接ファイルやフォルダを双方向に送受信できる、軽量で安全なWebRTCファイル転送ツール"
-    language: "TypeScript"
-    topics:
-      - "cross-platform"
-      - "desktop-app"
-      - "file-transfer"
-      - "golang"
-      - "p2p"
-      - "react"
-      - "webrtc"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # DovahkiinYuzuko

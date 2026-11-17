@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [3, 0, 0, 4, 3, 4, 19, 5, 1, 10, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 5, 2, 4, 24, 1, 0, 10, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,9 +100,30 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 662
+    stars_fact: 673
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "aven"
+    title: "aven"
+    description: "Claude Computer Use desktop app built with Tauri and the Vercel AI SDK."
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "claude"
+      - "claude-3-5-sonnet"
+      - "claude-ai"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2024-10-28"
+  - name: "sevra-app"
+    title: "sevra-app"
+    description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and Slotstream."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "make-your-own-js-runtime"
     title: "make-your-own-js-runtime"
     description: "Run JavaScript from Rust using the Deno Runtime crate"
@@ -121,15 +142,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "sevra-app"
-    title: "sevra-app"
-    description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and Slotstream."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-17"
   - name: "computer.md"
     title: "computer.md"
     description: "The open agentic computer. A model reads COMPUTER.md and runs the real machine: terminal, browser, filesystem. The OS becomes plumbing; the model becomes the interface."
@@ -154,30 +167,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-12"
-  - name: "db.md"
-    title: "db.md"
-    description: "Your database is a folder of markdown files, and the agent is the engine. The open standard for databases in plain files. No vector store, ever."
-    language: "Rust"
-    topics:
-      - "agent-memory"
-      - "agentic"
-      - "agentic-ai"
-      - "ai"
-      - "ai-agents"
-      - "cli"
-      - "database"
-      - "knowledge-base"
-      - "llm"
-      - "markdown"
-      - "note-taking"
-      - "obsidian"
-      - "pkm"
-      - "plaintext"
-      - "rust"
-      - "second-brain"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # carloslfu

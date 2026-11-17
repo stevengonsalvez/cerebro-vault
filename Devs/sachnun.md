@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 6, 3, 4, 25, 20, 19, 8, 6, 4, 0, 0, 0]
+pushes_per_week: [6, 6, 4, 7, 26, 15, 20, 11, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,64 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opendum"
-    title: "opendum"
-    description: "Your dummy, one proxy."
-    language: "TypeScript"
-    topics:
-      - "anthropic"
-      - "openai"
-      - "proxy"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "nimeplay"
-    title: "nimeplay"
-    description: "Minimal anime streaming."
-    language: "TypeScript"
-    topics:
-      - "cloudflare"
-      - "nuxt"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "unroxy"
-    title: "unroxy"
-    description: "Universal rotating proxy."
-    language: "Rust"
-    topics:
-      - "ip"
-      - "proxy"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "gphoto"
-    title: "gphoto"
-    description: "Google Photo CLI."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "rctiplus"
-    title: "rctiplus"
-    description: "RCTI+ streaming."
-    language: "TypeScript"
-    topics:
-      - "iptv"
-      - "m3u8"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "pi-opendum"
-    title: "pi-opendum"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # sachnun

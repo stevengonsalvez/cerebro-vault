@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [0, 0, 2, 2, 8, 8, 6, 7, 8, 2, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 2, 8, 9, 6, 12, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,25 +82,52 @@ repos:
     description: "Stay On Top Of Things: a dashboard of what needs your attention, fed by separate source programs over tailcat"
     language: "Go"
     topics: []
-    stars_fact: 6
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "gitbrute"
-    title: "gitbrute"
-    description: "brute-force a git commit hash"
-    language: "Go"
-    topics: []
-    stars_fact: 397
-    first_seen: null
-    last_push: "2022-06-24"
-  - name: "go-tool-cache"
-    title: "go-tool-cache"
+    last_push: "2026-11-15"
+  - name: "gopickgo"
+    title: "gopickgo"
     description: null
     language: "Go"
     topics: []
-    stars_fact: 132
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-01"
+    last_push: "2026-03-17"
+  - name: "parentdeath"
+    title: "parentdeath"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-15"
+  - name: "tsatic"
+    title: "tsatic"
+    description: "Publish static sites on a Tailscale tailnet from Google Drive folders"
+    language: "Go"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "embiggen-disk"
+    title: "embiggen-disk"
+    description: "embiggden-disk live-resizes a filesystem after first live-resizing any necessary layers below it: an optional LVM LV and PV, and an MBR or GPT partition table"
+    language: "Go"
+    topics:
+      - "btrfs"
+      - "ext4"
+      - "gpt"
+      - "lvm"
+      - "mbr"
+      - "qemu"
+      - "resize"
+      - "resize2fs"
+      - "virtual-machine"
+      - "vm"
+      - "vms"
+    stars_fact: 483
+    first_seen: null
+    last_push: "2026-03-02"
   - name: "exp-httpclient"
     title: "exp-httpclient"
     description: "experimental new HTTP client API for #golang (WIP)"
@@ -109,22 +136,6 @@ repos:
     stars_fact: 583
     first_seen: null
     last_push: "2019-01-01"
-  - name: "latlong"
-    title: "latlong"
-    description: "The latlong package maps from a latitude and longitude to a timezone."
-    language: "Go"
-    topics: []
-    stars_fact: 410
-    first_seen: null
-    last_push: "2023-02-17"
-  - name: "goimports"
-    title: "goimports"
-    description: "(old repo) Tool to fix (add, remove) your Go imports automatically."
-    language: "Go"
-    topics: []
-    stars_fact: 1039
-    first_seen: null
-    last_push: "2021-03-31"
 ---
 
 # bradfitz

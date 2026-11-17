@@ -8,11 +8,11 @@ provenance_repos:
   - "virgiliojr94/book-to-skill"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "16a73b8e53c5832a"
-pushes_per_week: [2, 0, 0, 0, 2, 0, 1, 4, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 1, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.5000
+  push_per_day: 1.8000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,87 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "book-to-skill"
-    title: "book-to-skill"
-    description: "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "book-to-skill"
-      - "context-engineering"
-      - "document-processing"
-      - "edtech"
-      - "knowledge-base"
-      - "knowledge-management"
-      - "llm"
-      - "pdf-to-markdown"
-      - "rag"
-      - "self-study"
-      - "study-tools"
-    stars_fact: 37506
-    first_seen: "2026-08-15T06:00:05.480011+00:00"
-    last_push: "2026-11-08"
-  - name: "localpdf.io"
-    title: "localpdf.io"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 278
-    first_seen: null
-    last_push: "2026-05-11"
-  - name: "book-to-skill-use-cases"
-    title: "book-to-skill-use-cases"
-    description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
-    language: null
-    topics:
-      - "agent-skills"
-      - "book-to-skill"
-      - "showcase"
-      - "use-cases"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "virgiliojr94"
-    title: "virgiliojr94"
-    description: "my profile README"
-    language: null
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "duolingo-ux-reference"
-    title: "duolingo-ux-reference"
-    description: "Unofficial UI/UX reference distilled from Duolingo's public design guidelines — an agent skill for frontend devs. Not affiliated with Duolingo."
-    language: null
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-07-17"
-  - name: "x-to-skill"
-    title: "x-to-skill"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-27"
+repos: []
 ---
 
 # virgiliojr94
 
-10 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/virgiliojr94

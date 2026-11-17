@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [8, 1, 0, 1, 7, 2, 3, 3, 3, 0, 0, 0, 0]
+pushes_per_week: [8, 1, 0, 1, 7, 3, 2, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,26 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "build-an-efficient-pwn-environment"
-    title: "build-an-efficient-pwn-environment"
-    description: "How to build an efficient pwn development environment in 2020"
-    language: "Shell"
-    topics:
-      - "ctf"
-      - "gdb"
-      - "pwn"
-      - "pwntools"
-    stars_fact: 268
-    first_seen: null
-    last_push: "2021-01-21"
-  - name: "nur-packages"
-    title: "nur-packages"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
   - name: "gdbserver"
     title: "gdbserver"
     description: "A tiny debugger implement the GDB Remote Serial Protocol. Can work on i386, x86_64, ARM and PowerPC."
@@ -108,27 +88,21 @@ repos:
       - "gdbserver"
       - "powerpc"
       - "x86"
-    stars_fact: 184
+    stars_fact: 185
     first_seen: null
     last_push: "2026-02-23"
-  - name: "hyperpwn"
-    title: "hyperpwn"
-    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
-    language: "JavaScript"
+  - name: "build-an-efficient-pwn-environment"
+    title: "build-an-efficient-pwn-environment"
+    description: "How to build an efficient pwn development environment in 2020"
+    language: "Shell"
     topics:
       - "ctf"
-      - "debugging"
-      - "exploit"
       - "gdb"
-      - "gef"
-      - "hyper"
-      - "peda"
       - "pwn"
-      - "pwndbg"
-      - "reverse-engineering"
-    stars_fact: 641
+      - "pwntools"
+    stars_fact: 269
     first_seen: null
-    last_push: "2025-04-28"
+    last_push: "2021-01-21"
   - name: "udbserver"
     title: "udbserver"
     description: "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
@@ -148,9 +122,35 @@ repos:
       - "riscv"
       - "rust-ffi"
       - "x86"
-    stars_fact: 436
+    stars_fact: 438
     first_seen: null
     last_push: "2026-07-27"
+  - name: "hyperpwn"
+    title: "hyperpwn"
+    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
+    language: "JavaScript"
+    topics:
+      - "ctf"
+      - "debugging"
+      - "exploit"
+      - "gdb"
+      - "gef"
+      - "hyper"
+      - "peda"
+      - "pwn"
+      - "pwndbg"
+      - "reverse-engineering"
+    stars_fact: 642
+    first_seen: null
+    last_push: "2025-04-28"
+  - name: "nur-packages"
+    title: "nur-packages"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "wemeet-flatpak"
     title: "wemeet-flatpak"
     description: "Flatpak packaging and repository for Tencent Meeting (wemeet)"

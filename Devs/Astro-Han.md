@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [32, 9, 3, 10, 43, 47, 2, 2, 4, 1, 0, 0, 0]
+pushes_per_week: [29, 9, 3, 14, 41, 45, 2, 4, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 153
-    distinct_repos: 7
-    active_days: 38
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 150
+    distinct_repos: 6
+    active_days: 37
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.0263
-  repo_per_active_day: 0.1842
-  not_owned_ratio: 0.4286
-  basename_concentration: 0.2857
+  push_per_day: 4.0541
+  repo_per_active_day: 0.1622
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 153
-    distinct_repos: 7
-    pushes_per_repo: 21.8571
-    active_days: 38
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 150
+    distinct_repos: 6
+    pushes_per_repo: 25.0000
+    active_days: 37
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -95,30 +95,32 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2713
+    stars_fact: 2760
     first_seen: null
     last_push: "2026-07-23"
-  - name: "jev-harness"
-    title: "jev-harness"
-    description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "quantclass-sync"
-    title: "quantclass-sync"
-    description: "QuantClass（邢不行量化课）数据增量同步工具，macOS，CLI + GUI"
-    language: "Python"
+  - name: "claude-pace"
+    title: "claude-pace"
+    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
+    language: "Shell"
     topics:
+      - "anthropic"
+      - "bash"
+      - "claude"
+      - "claude-code"
+      - "claude-code-statusline"
       - "cli"
-      - "data-sync"
-      - "macos"
-      - "python"
-      - "quantitative-finance"
-    stars_fact: 17
+      - "developer-tools"
+      - "jq"
+      - "plugin"
+      - "quota-tracker"
+      - "rate-limit"
+      - "statusline"
+      - "terminal"
+      - "usage-monitor"
+      - "usage-tracking"
+    stars_fact: 245
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-10"
   - name: "pawwork"
     title: "pawwork"
     description: "PawWork — free, open-source desktop AI agent for macOS and Windows, built on DeepSeek Harness (DSH). Free models included, no API key or terminal. Office files, web search, and scheduled automations out of the box. An open alternative to Codex App and Claude Cowork."
@@ -144,44 +146,42 @@ repos:
       - "opencode"
       - "productivity"
       - "windows"
-    stars_fact: 223
+    stars_fact: 225
     first_seen: null
     last_push: "2026-10-31"
-  - name: "claude-pace"
-    title: "claude-pace"
-    description: "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file."
-    language: "Shell"
-    topics:
-      - "anthropic"
-      - "bash"
-      - "claude"
-      - "claude-code"
-      - "claude-code-statusline"
-      - "cli"
-      - "developer-tools"
-      - "jq"
-      - "plugin"
-      - "quota-tracker"
-      - "rate-limit"
-      - "statusline"
-      - "terminal"
-      - "usage-monitor"
-      - "usage-tracking"
-    stars_fact: 245
+  - name: "skills"
+    title: "skills"
+    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
+    language: "Python"
+    topics: []
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-09-24"
-  - name: "decision-head-rlcd"
-    title: "decision-head-rlcd"
-    description: "Where does a decision model's generalisation come from? RLCD on Qwen3.5-4B, held-out sets grouped by training-data coverage, JevBench and three external suites."
+    last_push: "2026-11-10"
+  - name: "jev-harness"
+    title: "jev-harness"
+    description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"
     language: "Python"
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-09-22"
+  - name: "quantclass-sync"
+    title: "quantclass-sync"
+    description: "QuantClass（邢不行量化课）数据增量同步工具，macOS，CLI + GUI"
+    language: "Python"
+    topics:
+      - "cli"
+      - "data-sync"
+      - "macos"
+      - "python"
+      - "quantitative-finance"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # Astro-Han
 
-153 pushes across 7 repositories on 38 active days in the last 90 days of public GitHub push activity.
+150 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

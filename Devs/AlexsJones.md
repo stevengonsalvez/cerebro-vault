@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 10, 19, 22, 12, 19, 3, 1, 15, 0, 1, 0]
+pushes_per_week: [1, 2, 12, 18, 21, 12, 21, 1, 2, 14, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,17 +89,17 @@ repos:
       - "mlx"
       - "skill"
       - "unsloth"
-    stars_fact: 38859
+    stars_fact: 39025
     first_seen: "2026-08-18T06:00:11.656121+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "llmserve"
     title: "llmserve"
     description: "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
     language: "Rust"
     topics: []
-    stars_fact: 417
+    stars_fact: 424
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "website"
     title: "website"
     description: null

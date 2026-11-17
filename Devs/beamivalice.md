@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 2, 2, 4, 11, 15, 8, 1, 4, 0, 1, 0]
+pushes_per_week: [1, 0, 2, 2, 4, 11, 17, 7, 0, 4, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,12 +79,20 @@ reasons:
 repos:
   - name: "sushi"
     title: "sushi"
-    description: "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology."
+    description: "Sushi engine runs very high quality quant model in Apple Silicon, using both STQ and EXL3 format with special tuning technology to achieve frontier sub 4 bits compression."
     language: "Zig"
     topics: []
-    stars_fact: 438
+    stars_fact: 484
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "PonyExl3"
+    title: "PonyExl3"
+    description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
+    language: "Python"
+    topics: []
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-08-24"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew tap for sushi"
@@ -109,14 +117,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-10-03"
-  - name: "PonyExl3"
-    title: "PonyExl3"
-    description: "Convert and Run Exl3 format LLM quant on Apple Silicon."
-    language: "Python"
-    topics: []
-    stars_fact: 60
-    first_seen: null
-    last_push: "2026-08-24"
   - name: "fancontrol"
     title: "fancontrol"
     description: null

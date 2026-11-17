@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 0, 0, 3, 1, 1, 1, 5, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 3, 0, 1, 1, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CEA"
+    title: "CEA"
+    description: "CEA · Craft Every Aspect 打磨每一处细节，复用每一个好设计"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "dsh-promptkit"
     title: "dsh-promptkit"
     description: "Turn rough ideas into prompts that work, from guided questions to project context and reusable templates. 把零散想法变成好用的提示词，涵盖追问澄清、项目上下文和模板复用。"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-14"
-  - name: "mydemo"
-    title: "mydemo"
-    description: "这是一个简单的项目"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-12"
 ---
 
 # nk33-dev

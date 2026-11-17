@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [1, 0, 0, 1, 2, 6, 0, 1, 0, 7, 0, 2, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "A10_KnowledgeGraph"
+    title: "A10_KnowledgeGraph"
+    description: "A10 课程知识图谱智能构建与学习导航系统 (Next.js 全栈 + Vercel AI SDK + Neo4j)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "AstrCode"
     title: "AstrCode"
     description: "🚀 AstrBot Agent Orchestration Engine + Skill Development System + Execution Optimization Layer"
@@ -93,14 +101,6 @@ repos:
     stars_fact: 34
     first_seen: null
     last_push: "2026-11-08"
-  - name: "A10_KnowledgeGraph"
-    title: "A10_KnowledgeGraph"
-    description: "A10 课程知识图谱智能构建与学习导航系统 (Next.js 全栈 + Vercel AI SDK + Neo4j)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
   - name: "astrbot_plugin_maibot_hijack"
     title: "astrbot_plugin_maibot_hijack"
     description: "本插件将 AstrBot 作为消息聚合层，MaiBot 作为LLM 回复引擎。AstrBot 负责对接多种消息平台（QQ、Telegram、Discord 等），MaiBot 负责生成智能回复"

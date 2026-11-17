@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [3, 0, 1, 0, 3, 7, 1, 2, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 1, 0, 4, 6, 1, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,51 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "kepano-obsidian"
-    title: "kepano-obsidian"
-    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
-    language: null
-    topics:
-      - "markdown"
-      - "obsidian"
-      - "obsidian-md"
-      - "obsidian-vault"
-    stars_fact: 5677
-    first_seen: null
-    last_push: "2026-01-09"
-  - name: "40-questions"
-    title: "40-questions"
-    description: "Questions that I ask myself at the end of each year and each decade."
-    language: null
-    topics: []
-    stars_fact: 1807
-    first_seen: null
-    last_push: "2026-03-09"
-  - name: "obsidian-skills"
-    title: "obsidian-skills"
-    description: "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas."
-    language: null
-    topics:
-      - "agents"
-      - "agentskills"
-      - "bases"
-      - "claude"
-      - "clawdbot"
-      - "cli"
-      - "codex"
-      - "defuddle"
-      - "hermes"
-      - "jsoncanvas"
-      - "knap"
-      - "markdown"
-      - "md"
-      - "obsidian"
-      - "openclaw"
-      - "opencode"
-      - "skills"
-    stars_fact: 51424
-    first_seen: "2026-08-14T06:00:04.068645+00:00"
-    last_push: "2026-09-15"
   - name: "defuddle"
     title: "defuddle"
     description: "Get the main content of any page as Markdown."
@@ -134,9 +89,21 @@ repos:
       - "md"
       - "obsidian"
       - "readability"
-    stars_fact: 9926
+    stars_fact: 10068
     first_seen: null
     last_push: "2026-10-25"
+  - name: "kepano-obsidian"
+    title: "kepano-obsidian"
+    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+      - "obsidian-md"
+      - "obsidian-vault"
+    stars_fact: 6106
+    first_seen: null
+    last_push: "2026-01-09"
   - name: "obsidian-minimal"
     title: "obsidian-minimal"
     description: "A distraction-free and highly customizable theme for Obsidian."
@@ -149,9 +116,44 @@ repos:
       - "obsidian-md"
       - "obsidian-theme"
       - "theme"
-    stars_fact: 5572
+    stars_fact: 5690
     first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-11-12"
+  - name: "40-questions"
+    title: "40-questions"
+    description: "Questions that I ask myself at the end of each year and each decade."
+    language: null
+    topics: []
+    stars_fact: 1933
+    first_seen: null
+    last_push: "2026-03-09"
+  - name: "flexoki"
+    title: "flexoki"
+    description: "An inky color scheme for prose and code."
+    language: "CSS"
+    topics:
+      - "alacritty"
+      - "color"
+      - "color-scheme"
+      - "colors"
+      - "ghostty"
+      - "intellij"
+      - "iterm2"
+      - "kitty"
+      - "neovim"
+      - "neovim-colorscheme"
+      - "obsidian"
+      - "sublime-text"
+      - "tailwind"
+      - "terminal-colors"
+      - "theme"
+      - "vscode"
+      - "vscode-theme"
+      - "wezterm"
+      - "xresources"
+    stars_fact: 3849
+    first_seen: null
+    last_push: "2026-03-07"
   - name: "clipper-templates"
     title: "clipper-templates"
     description: "Obsidian Web Clipper templates for various sites."
@@ -159,7 +161,7 @@ repos:
     topics:
       - "markdown"
       - "obsidian"
-    stars_fact: 1509
+    stars_fact: 1555
     first_seen: null
     last_push: "2026-03-13"
 ---

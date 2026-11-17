@@ -24,7 +24,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "0eec722f11509f67"
@@ -48,7 +48,7 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [2, 0, 0, 5, 10, 2, 4, 10, 5, 3, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 7, 7, 3, 4, 12, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -113,57 +113,73 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "scrape-florida-outages"
-    title: "scrape-florida-outages"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "scrape-fema-shelters"
-    title: "scrape-fema-shelters"
-    description: null
-    language: null
-    topics:
-      - "git-scraping"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "usgs-scraper"
-    title: "usgs-scraper"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "pge-outages"
-    title: "pge-outages"
-    description: "Tracking PG&E power outages"
+  - name: "shot-scraper"
+    title: "shot-scraper"
+    description: "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript"
     language: "Python"
     topics:
-      - "git-scraping"
-    stars_fact: 29
+      - "playwright"
+      - "playwright-python"
+      - "scraping"
+      - "screenshot-utility"
+      - "screenshots"
+    stars_fact: 2609
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "llm-prices"
-    title: "llm-prices"
-    description: "Prices of various LLMs"
-    language: "HTML"
-    topics: []
-    stars_fact: 197
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "scrape-roads-dot-ca-gov"
-    title: "scrape-roads-dot-ca-gov"
-    description: "Scrape highway information from https://roads.dot.ca.gov/"
-    language: "HTML"
+    last_push: "2026-10-14"
+  - name: "llm"
+    title: "llm"
+    description: "Access large language models from the command-line"
+    language: "Python"
     topics:
-      - "git-scraping"
-    stars_fact: 13
+      - "ai"
+      - "llms"
+      - "openai"
+    stars_fact: 12770
+    first_seen: "2026-07-31T06:00:06.780986+00:00"
+    last_push: "2026-11-17"
+  - name: "github-zip-cors-proxy"
+    title: "github-zip-cors-proxy"
+    description: "Make GitHub zips available via CORS to specific origins"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
+  - name: "datasette"
+    title: "datasette"
+    description: "An open source multi-tool for exploring and publishing data"
+    language: "Python"
+    topics:
+      - "asgi"
+      - "automatic-api"
+      - "csv"
+      - "datasets"
+      - "datasette"
+      - "datasette-io"
+      - "docker"
+      - "json"
+      - "python"
+      - "sql"
+      - "sqlite"
+    stars_fact: 11588
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "showboat"
+    title: "showboat"
+    description: "Create executable documents that demonstrate an agent's work"
+    language: "Go"
+    topics: []
+    stars_fact: 1256
+    first_seen: null
+    last_push: "2026-03-14"
+  - name: "beep-locator"
+    title: "beep-locator"
+    description: "Locate annoying beeps"
+    language: "Python"
+    topics: []
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # simonw

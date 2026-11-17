@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [5, 0, 0, 5, 4, 2, 2, 3, 2, 4, 0, 0, 0]
+pushes_per_week: [5, 0, 0, 5, 5, 2, 1, 3, 2, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,45 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dockndevai.github.io"
-    title: "dockndevai.github.io"
-    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "laya-guard"
-    title: "laya-guard"
-    description: null
-    language: "Python"
-    topics:
-      - "ai-safety"
-      - "guardrails"
-      - "laya"
-      - "mcp"
-      - "policy"
-      - "python"
-      - "security"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "mcp-laya"
-    title: "mcp-laya"
-    description: "Safe-by-default MCP server for Laya — fast, local, non-autoregressive typed decisions (classify / score / yes-no) for AI agents, in 100+ languages."
-    language: "Python"
-    topics:
-      - "ai"
-      - "classification"
-      - "laya"
-      - "mcp"
-      - "model-context-protocol"
-      - "nlp"
-      - "python"
-      - "triage"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "mcp-kafka"
     title: "mcp-kafka"
     description: "MCP server for Apache Kafka — monitor & manage clusters, topics, and consumer groups (with lag), with security modes and access-control flags."
@@ -127,38 +88,74 @@ repos:
       - "mcp"
       - "model-context-protocol"
       - "observability"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "mcp-azure"
-    title: "mcp-azure"
-    description: "MCP server for Azure (Resource Manager) — inventory, tags, VM power, lifecycle — with governance controls (scoping, protected groups, location allowlist, delete gating, confirmation)."
+    last_push: "2026-11-11"
+  - name: "dockndevai.github.io"
+    title: "dockndevai.github.io"
+    description: "Safe-by-default MCP servers for AI agents — Kubernetes, Kafka, ClickHouse, Azure, OCI, Keycloak, Percona PostgreSQL, and RAG. Read-only by default."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "otto-assist"
+    title: "otto-assist"
+    description: "Realtime, voice-driven personal assistant (Jarvis) with Claude as the brain — local Whisper STT, streaming TTS with barge-in, subagents, and a web dashboard."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "ossian"
+    title: "ossian"
+    description: "Open-book RAG over your own documents: Spring Boot + Spring AI, React console, Keycloak OAuth2, Postgres/pgvector, Redis. Answers with citations, plus a maintenance side for ingestion, re-indexing and coverage gaps."
+    language: "Java"
+    topics:
+      - "citations"
+      - "keycloak"
+      - "llm"
+      - "pgvector"
+      - "postgresql"
+      - "rag"
+      - "react"
+      - "redis"
+      - "retrieval-augmented-generation"
+      - "self-hosted"
+      - "spring-ai"
+      - "spring-boot"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "mcp-openshift"
+    title: "mcp-openshift"
+    description: "Safe-by-default MCP server for OpenShift / Kubernetes — projects, pods, logs, deployments, routes and more, with username/password (local IdP) or token auth."
     language: "TypeScript"
     topics:
-      - "azure"
-      - "cloud"
-      - "governance"
+      - "ai"
+      - "devops"
+      - "k8s"
+      - "kubernetes"
+      - "mcp"
+      - "model-context-protocol"
+      - "openshift"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "mcp-kubernetes"
+    title: "mcp-kubernetes"
+    description: "MCP server for Kubernetes — multi-cluster ops with security modes (read-only/read-write/admin) and access-control flags."
+    language: "TypeScript"
+    topics:
+      - "devops"
+      - "k8s"
+      - "kubernetes"
       - "llm"
       - "mcp"
       - "model-context-protocol"
-    stars_fact: 1
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "mcp-oci"
-    title: "mcp-oci"
-    description: "MCP server for Oracle Cloud (OCI) — live resource discovery, dependency mapping, and Terraform generation, with security modes and access-control flags."
-    language: "TypeScript"
-    topics:
-      - "iac"
-      - "llm"
-      - "mcp"
-      - "model-context-protocol"
-      - "oci"
-      - "oracle-cloud"
-      - "terraform"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
 ---
 
 # dockndevai

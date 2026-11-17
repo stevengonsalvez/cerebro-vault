@@ -11,13 +11,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [1, 2, 2, 2, 2, 3, 4, 4, 10, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 4, 0, 2, 4, 3, 4, 10, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,15 +90,7 @@ repos:
       - "agent"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "astron-images"
-    title: "astron-images"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "xhtoken-images"
     title: "xhtoken-images"
     description: "Public image library for xhtoken-trending-content distribution (file name = title, model picks images by content)"
@@ -106,7 +98,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-17"
+  - name: "astron-images"
+    title: "astron-images"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "FenjuFu"
     title: "FenjuFu"
     description: "GitHub profile README"

@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [14, 5, 2, 10, 13, 17, 24, 10, 13, 14, 0, 0, 1]
+pushes_per_week: [14, 5, 6, 7, 17, 12, 25, 11, 11, 14, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -105,9 +105,9 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 95048
+    stars_fact: 97252
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "hive"
     title: "hive"
     description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
@@ -125,32 +125,9 @@ repos:
       - "nodejs"
       - "pty"
       - "typescript"
-    stars_fact: 585
+    stars_fact: 591
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "hive-desktop"
-    title: "hive-desktop"
-    description: "Hive desktop client with unified agent chat and multi-agent collaboration"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "matt-skills-with-to-goal"
-    title: "matt-skills-with-to-goal"
-    description: "Planning → verifiable goals → fresh-session implementation for AI coding agents. Based on mattpocock/skills v1.1."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "developer-tools"
-      - "workflow"
-    stars_fact: 195
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-16"
   - name: "simplify-codebase"
     title: "simplify-codebase"
     description: "Prove and remove accidental codebase complexity without breaking behavior."
@@ -163,25 +140,38 @@ repos:
       - "codex"
       - "developer-tools"
       - "refactoring"
-    stars_fact: 514
+    stars_fact: 517
     first_seen: null
     last_push: "2026-09-04"
-  - name: "codex-field-guide"
-    title: "codex-field-guide"
-    description: "从零理解 OpenAI Codex Coding Agent：Agent Loop、Runtime、Context、Tool、安全边界与源码实现。"
-    language: "MDX"
+  - name: "test-value"
+    title: "test-value"
+    description: "An agent skill for tests worth maintaining. Improve regression protection, feedback speed, and maintenance cost."
+    language: null
     topics:
-      - "astro"
-      - "codex"
-      - "codex-cli"
-      - "coding-agent"
+      - "agent-skills"
+      - "ai-agents"
       - "developer-tools"
-      - "documentation"
-      - "mdx"
-      - "typescript"
-    stars_fact: 4
+      - "test-automation"
+      - "testing"
+    stars_fact: 27
     first_seen: null
-    last_push: "2026-07-26"
+    last_push: "2026-11-15"
+  - name: "pickup"
+    title: "pickup"
+    description: "Find and read local AI agent sessions across Codex, Claude Code, Antigravity, Qoder, Pi, Kimi Code, and Devin CLI."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "pr-lens-demo"
+    title: "pr-lens-demo"
+    description: "Private sandbox demo for PR Lens (architecture, data-flow, payload diff, data-model, walkthrough)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
 ---
 
 # tt-a1i

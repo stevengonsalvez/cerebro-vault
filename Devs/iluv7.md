@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 0, 2, 3, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 4, 2, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "iluv7"
+    title: "iluv7"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "learn-k8s"
+    title: "learn-k8s"
+    description: "Learn Kubernetes Architecture with a Minimal Go Simulation: Java Service Deployment, Failure Recovery, Configuration, Storage, and HPA"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "DiegoC-Agent"
     title: "DiegoC-Agent"
     description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "DiegoC-Harness"
     title: "DiegoC-Harness"
     description: "纯提示词驱动的Agent Team Harness"
@@ -92,7 +108,7 @@ repos:
     topics: []
     stars_fact: 32
     first_seen: null
-    last_push: "2026-07-31"
+    last_push: "2026-11-14"
   - name: "agentscope-eval"
     title: "agentscope-eval"
     description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."
@@ -109,22 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-09"
-  - name: "DiegoC-llmwiki"
-    title: "DiegoC-llmwiki"
-    description: "A personal knowledge base scaffold built on Karpathy's LLM Wiki concept — let LLMs incrementally build and maintain a persistent, structured, ever-growing wiki."
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "iluv7"
-    title: "iluv7"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
 ---
 
 # iluv7

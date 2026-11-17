@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 5, 4, 11, 43, 11, 5, 2, 48, 0, 0, 0]
+pushes_per_week: [0, 0, 5, 4, 11, 45, 9, 6, 1, 48, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
-    distinct_repos: 24
-    active_days: 30
+    pushes: 129
+    distinct_repos: 23
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3333
-  repo_per_active_day: 0.8000
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0417
+  push_per_day: 4.4483
+  repo_per_active_day: 0.7931
+  not_owned_ratio: 0.2609
+  basename_concentration: 0.0435
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,18 +65,58 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 130
-    distinct_repos: 24
-    pushes_per_repo: 5.4167
-    active_days: 30
+    pushes: 129
+    distinct_repos: 23
+    pushes_per_repo: 5.6087
+    active_days: 29
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rekaluna-dev"
+    title: "rekaluna-dev"
+    description: null
+    language: "TypeScript"
+    topics:
+      - "photo-editing"
+      - "printing"
+      - "work"
+      - "workshop"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "flessan"
+    title: "flessan"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "thio.cc.cd"
+    title: "thio.cc.cd"
+    description: "blog:"
+    language: "Vue"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "stubuika"
+    title: "stubuika"
+    description: "Android/iOS translation layer for the desktop, intended for use within Android functions - (yui0/Lunaria Fork)"
+    language: "C"
+    topics:
+      - "apk"
+      - "dvm"
+      - "layer"
+      - "linux"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "mimit"
     title: "mimit"
     description: "A Progressive Web App (PWA) for creating memes. with bunch of feature! (georapbox/meme-generator fork)"
@@ -88,35 +128,7 @@ repos:
       - "web"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "thio.cc.cd"
-    title: "thio.cc.cd"
-    description: "blog:"
-    language: "Vue"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "stubuika"
-    title: "stubuika"
-    description: "Android/iOS translation layer for the desktop, intended for use within Android functions - (yui0/Lunaria Fork)"
-    language: "C"
-    topics:
-      - "apk"
-      - "dvm"
-      - "layer"
-      - "linux"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "flessan"
-    title: "flessan"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-10"
   - name: "Ultimate-GRUB-Themes"
     title: "Ultimate-GRUB-Themes"
     description: "Collection of all Community-made GRUB themes. Contributions welcome! (jacksaur/Gorgeous-GRUB fork)"
@@ -125,18 +137,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-09"
-  - name: "kontekstual"
-    title: "kontekstual"
-    description: "Word-based Indonesian programming language. Terinspirasi dari cara penyampaian Tenaga Pendidik kami di SMKN 4 Banjarmasin, Bapak Hidayatullah, S.Kom."
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
 ---
 
 # flessan
 
-130 pushes across 24 repositories on 30 active days in the last 90 days of public GitHub push activity.
+129 pushes across 23 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/flessan

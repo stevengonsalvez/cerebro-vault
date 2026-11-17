@@ -13,7 +13,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "4a45ac7a449df20e"
@@ -88,61 +88,51 @@ repos:
   - name: "beltworks-play"
     title: "beltworks-play"
     description: "Playable build of Beltworks (deployed from a private repo)"
-    language: "JavaScript"
+    language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "beltworks"
-    title: "beltworks"
-    description: "Browser-based factory automation game (planning)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "fittube"
     title: "fittube"
     description: "Fitness videos recommended by Reddit fitness communities, not the algorithm"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "zerone0x"
-    title: "zerone0x"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "Movie4fun"
-    title: "Movie4fun"
-    description: "Frontend Website like IMDB using React.JS and Redux, TMDB"
+    last_push: "2026-11-16"
+  - name: "hearth"
+    title: "hearth"
+    description: "Self-hosted personal agent host: one isolated cloud desktop per session, built on pi"
     language: "TypeScript"
-    topics:
-      - "frontend"
-      - "imdb"
-      - "movie-rating-app"
-      - "movie-recommendation-app"
-      - "movies-app-react"
-      - "reactjs"
-      - "redux"
-      - "scss"
-      - "tmdb-api"
-      - "typescript"
-    stars_fact: 11
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2025-04-12"
-  - name: "ReadNote"
-    title: "ReadNote"
-    description: "upload some read notes"
+    last_push: "2026-11-17"
+  - name: "trine-cron"
+    title: "trine-cron"
+    description: "Daily rebuild of trine.dev (Vercel deploy hook)"
     language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2022-01-17"
+    last_push: "2026-11-15"
+  - name: "beltworks"
+    title: "beltworks"
+    description: "Browser-based factory automation game"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "mac-live-captions"
+    title: "mac-live-captions"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # zerone0x

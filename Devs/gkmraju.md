@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 1, 0, 0, 1, 0, 0, 2, 3, 1, 0, 0, 1]
+pushes_per_week: [0, 1, 0, 0, 1, 0, 2, 3, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Repo-of-the-day"
-    title: "Repo-of-the-day"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "codex-skill-creator"
     title: "codex-skill-creator"
     description: "Codex skills"
@@ -92,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "gkmraju"
     title: "gkmraju"
     description: "About Me"
@@ -100,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "GitHub-Contribution-Agent"
     title: "GitHub-Contribution-Agent"
     description: "Auto contribution agent"
@@ -108,7 +100,15 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
+  - name: "Repo-of-the-day"
+    title: "Repo-of-the-day"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "quant-github-scout"
     title: "quant-github-scout"
     description: "Top Github repos on Quant, Trading, Crypto etc"

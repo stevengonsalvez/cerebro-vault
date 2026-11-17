@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [10, 13, 4, 24, 101, 160, 131, 35, 18, 67, 1, 2, 0]
+pushes_per_week: [14, 8, 4, 29, 118, 187, 93, 25, 35, 49, 1, 2, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 87
-    distinct_repos: 34
-    active_days: 11
+    pushes: 88
+    distinct_repos: 35
+    active_days: 12
     repos_not_owned: 33
     not_owned_basenames: 31
     not_owned_owners: 3
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 87
-    distinct_repos: 34
-    pushes_per_repo: 2.5588
-    active_days: 11
+    pushes: 88
+    distinct_repos: 35
+    pushes_per_repo: 2.5143
+    active_days: 12
     repos_not_owned: 33
     not_owned_basenames: 31
     not_owned_owners: 3
@@ -77,6 +77,14 @@ reasons:
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "engineering-notes"
+    title: "engineering-notes"
+    description: "Curated essays, field notes and technical reflections by Sebastian Mendel — durable systems, engineering governance, AI-assisted development, platform engineering, security, documentation culture. Companion to the CV at cybottm.github.io/cv."
+    language: "CSS"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-10"
   - name: "CybotTM"
     title: "CybotTM"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "wow-quickroute"
     title: "wow-quickroute"
     description: "World of Warcraft addon for optimal travel routing using teleports, portals, spells and items"
@@ -102,7 +110,7 @@ repos:
       - "wow-addon"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "cv"
     title: "cv"
     description: "CV-as-Code for Sebastian Mendel — CTO, engineering governance, platform engineering, and AI enablement."
@@ -149,14 +157,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-04"
-  - name: "engineering-notes"
-    title: "engineering-notes"
-    description: "Curated essays, field notes and technical reflections by Sebastian Mendel — durable systems, engineering governance, AI-assisted development, platform engineering, security, documentation culture. Companion to the CV at cybottm.github.io/cv."
-    language: "CSS"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-10"
 ---
 
 # CybotTM

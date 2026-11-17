@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 3, 0, 8, 27, 47, 36, 14, 6, 20, 0, 0, 0]
+pushes_per_week: [1, 3, 4, 6, 29, 48, 33, 12, 16, 10, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,82 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AI-gateway"
-    title: "AI-gateway"
-    description: "Reusable Docker Compose AI gateway with CLIProxyAPI, Sub2API, Apache APISIX, and Cloudflare Tunnel."
-    language: "Python"
-    topics:
-      - "ai-gateway"
-      - "apache-apisix"
-      - "cli-proxy-api"
-      - "cloudflare-tunnel"
-      - "docker-compose"
-      - "sub2api"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "xzos-blog"
-    title: "xzos-blog"
-    description: "xzOS source repo"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "procward"
-    title: "procward"
-    description: "Cross-platform process-tree ownership and job control for CLI programs, built in Rust for pi and standalone use."
-    language: "Rust"
-    topics:
-      - "cli"
-      - "cross-platform"
-      - "freebsd"
-      - "init"
-      - "job-control"
-      - "linux"
-      - "macos"
-      - "process-management"
-      - "process-supervisor"
-      - "pty"
-      - "rust"
-      - "subreaper"
-      - "windows-job-objects"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "hermes-litellm-provider"
-    title: "hermes-litellm-provider"
-    description: "Hermes model-provider plugin for LiteLLM proxy"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-05-18"
-  - name: "downstream-fork-maintain-skill"
-    title: "downstream-fork-maintain-skill"
-    description: "Maintain upstream-tracking downstream forks and PR-quality patch stacks without drifting into hard forks."
-    language: "Shell"
-    topics:
-      - "agent-skill"
-      - "downstream"
-      - "fork"
-      - "git"
-      - "github-actions"
-      - "patch-management"
-      - "pull-requests"
-      - "upstream-sync"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "bdd-skill"
-    title: "bdd-skill"
-    description: "AI agent skill for Behavior-Driven Development with Cucumber/Gherkin guidance"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-06-28"
+repos: []
 ---
 
 # xz-dev

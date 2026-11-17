@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 2, 10, 6, 2, 14, 12, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 9, 7, 3, 18, 6, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,18 +77,14 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "panelchemy"
-    title: "panelchemy"
-    description: "Convert comic-panel artwork into configurable layered relief"
+  - name: "motley"
+    title: "motley"
+    description: "Configurable ESP32-C6 Matter-over-Thread firmware and hardware"
     language: "Python"
-    topics:
-      - "3d-printing"
-      - "geometry"
-      - "image-processing"
-      - "python"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "scansor"
     title: "scansor"
     description: "Research toward constrained parametric geometric model fitting with explicit topology and correspondence"
@@ -102,7 +98,7 @@ repos:
       - "python"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "openapi-mcp"
     title: "openapi-mcp"
     description: "Reusable Rust libraries and a standalone MCP server for OpenAPI specifications"
@@ -113,7 +109,7 @@ repos:
       - "rust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "stoat"
     title: "stoat"
     description: "Streaming OAuth Transformer — a config-driven local reverse proxy for OAuth token lifecycle management"
@@ -125,15 +121,22 @@ repos:
       - "rust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "tachiai"
-    title: "tachiai"
-    description: "Multi-stream presentation and manual alignment for provider-hosted video"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 1
+    last_push: "2026-11-17"
+  - name: "mujou"
+    title: "mujou"
+    description: "Convert raster images to vector paths for sand tables, pen plotters, and CNC devices"
+    language: "Rust"
+    topics:
+      - "cnc"
+      - "image-processing"
+      - "pen-plotter"
+      - "rust"
+      - "sand-table"
+      - "vector-graphics"
+      - "wasm"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "carl"
     title: "carl"
     description: "Durable Facebook Marketplace research and evaluation for AI agents"
@@ -147,7 +150,7 @@ repos:
       - "web-research"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
 ---
 
 # altendky

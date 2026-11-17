@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 0, 1, 3, 10, 28, 4, 4, 16, 0, 0, 7]
+pushes_per_week: [1, 1, 0, 1, 3, 12, 26, 7, 1, 16, 0, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -77,30 +77,20 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skillsync"
-    title: "skillsync"
-    description: "Local-first GitHub-backed skill manager for AI agent skills"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
+  - name: "yt-music-gpui"
+    title: "yt-music-gpui"
+    description: "Native YouTube Music client for Linux, built with Rust and GPUI"
+    language: "Rust"
+    topics:
+      - "gpui"
+      - "linux"
+      - "music-player"
+      - "omarchy"
+      - "rust"
+      - "youtube-music"
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "omoji"
-    title: "omoji"
-    description: "A native Omarchy emoji picker inspired by Omacast that learns what you choose for each search"
-    language: "Swift"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "cohall"
-    title: "cohall"
-    description: "Let coding agents delegate work across your own devices."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "omarchy-radio-atlas"
     title: "omarchy-radio-atlas"
     description: "Explore live radio on a rotatable globe from the Omarchy bar."
@@ -116,23 +106,39 @@ repos:
       - "wayland"
     stars_fact: 109
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "blippy"
-    title: "blippy"
-    description: "GitHub in your terminal"
-    language: "Rust"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "t3code-opencode"
-    title: "t3code-opencode"
-    description: "T3Code x OpenCode"
+    last_push: "2026-11-13"
+  - name: "cutroom"
+    title: "cutroom"
+    description: "A local video studio with native agents, visual review, script editing, and MCP."
     language: "TypeScript"
     topics: []
-    stars_fact: 4
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-03-13"
+    last_push: "2026-11-17"
+  - name: "skillsync"
+    title: "skillsync"
+    description: "Local-first GitHub-backed skill manager for AI agent skills"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "cohall"
+    title: "cohall"
+    description: "Let coding agents delegate work across your own devices."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "omoji"
+    title: "omoji"
+    description: "A native Omarchy emoji picker inspired by Omacast that learns what you choose for each search"
+    language: "Swift"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # AksharP5

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "022c4327710cbfe7"
   - "b599dd2f1ad43e10"
-pushes_per_week: [1, 6, 0, 2, 7, 3, 4, 8, 4, 10, 0, 0, 0]
+pushes_per_week: [3, 4, 1, 1, 7, 5, 2, 9, 5, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     description: "这个仓库有1426个star，不信你试试"
     language: "Python"
     topics: []
-    stars_fact: 1414
+    stars_fact: 1413
     first_seen: null
     last_push: "2022-09-13"
   - name: "My-Easy-Pic-Bed"

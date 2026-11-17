@@ -6,22 +6,20 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "agavra/tuicr"
-  - "agentscope-ai/QwenPaw"
   - "simonw/llm"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "4a45ac7a449df20e"
-  - "541318303a272608"
   - "97c4e9cb8b163ddb"
   - "9d52bf97ae057251"
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 0, 7, 19, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 3, 4, 8, 14, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -82,18 +80,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 8 vault signal(s) — pass"
+  - "provenance: 7 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "merge-log-data"
-    title: "merge-log-data"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+repos: []
 ---
 
 # pcbeingused333

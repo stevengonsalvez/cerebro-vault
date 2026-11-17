@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 2, 0, 2, 0, 2, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 1, 2, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "planet-generator"
+    title: "planet-generator"
+    description: "3D procedural planet generator"
+    language: "C#"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2014-08-16"
   - name: "subspace"
     title: "subspace"
     description: "Lightweight vector and matrix math library for OpenGL programming in Scala."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-19"
-  - name: "validation-gen"
-    title: "validation-gen"
-    description: "Dev branch for declarative validation"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-02-20"
 ---
 
 # jpbetz

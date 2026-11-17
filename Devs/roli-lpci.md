@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "3cb7ff1cdcf97c6b"
@@ -19,7 +19,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 3, 19, 41, 34, 24, 0, 0, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 24, 36, 51, 7, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,6 +84,32 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-router"
+    title: "claude-router"
+    description: "claude-router is a local prompt router that picks the right Claude model tier and prepends the right scaffold using local embeddings before you call the API. A deterministic routing layer for eval, research, content, and review prompts that helps teams stop overspending on Sonnet and Opus when Haiku plus structure is enough."
+    language: "Python"
+    topics:
+      - "ai-reliability"
+      - "anthropic"
+      - "claude"
+      - "cost-optimization"
+      - "developer-tools"
+      - "embeddings"
+      - "hermes-labs"
+      - "llm"
+      - "llm-cost"
+      - "llm-ops"
+      - "llm-routing"
+      - "local-embeddings"
+      - "local-first"
+      - "model-routing"
+      - "ollama"
+      - "prompt-engineering"
+      - "prompt-routing"
+      - "python"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "roli-lpci"
     title: "roli-lpci"
     description: "Roli Bosch, founder of Hermes Labs. Philosophy of language applied to how AI systems are instructed and evaluated. Research, open-source tools, upstream fixes."
@@ -134,7 +160,7 @@ repos:
       - "reproducibility"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-13"
   - name: "csv-quality-gate"
     title: "csv-quality-gate"
     description: "csv-quality-gate is a command-line data quality gate that runs CSV preflight validation, failing fast before an ML or LLM pipeline ingests broken, incomplete, duplicated, or junk input. It checks missing columns, empty files, empty cells, and duplicate rows, returning pass, warn, or fail with matching exit codes. Stdlib-only, CI-ready."
@@ -189,34 +215,6 @@ repos:
       - "verification"
       - "zero-llm"
     stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "rule-audit"
-    title: "rule-audit"
-    description: "Static analyzer for AI system prompts: parses a prompt into normative rules and reports contradictions, coverage gaps, priority ambiguities, and absolute-rule edge cases - no LLM calls. Deterministic pure-Python lint with CLI, Python API, and CI exit codes. pip install rule-audit"
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-reliability"
-      - "ai-safety"
-      - "claude-code-plugin"
-      - "cli"
-      - "contradiction-detection"
-      - "developer-tools"
-      - "gemini-cli-extension"
-      - "github-actions"
-      - "hermes-labs"
-      - "linter"
-      - "llm"
-      - "pre-commit"
-      - "prompt-engineering"
-      - "prompt-linter"
-      - "python"
-      - "static-analysis"
-      - "system-prompts"
-      - "zero-llm"
-    stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
 ---

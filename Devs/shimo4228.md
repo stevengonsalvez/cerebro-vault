@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 4, 0, 1, 5, 16, 12, 19, 0, 10, 0, 0, 0]
+pushes_per_week: [5, 1, 0, 1, 5, 16, 12, 19, 0, 10, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,49 +78,61 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "contemplative-agent-data"
-    title: "contemplative-agent-data"
-    description: "The public memory of one autonomous AI agent on Moltbook: its identity, distilled patterns, adopted constitution and skills, and daily activity reports, synced daily. CC0, also on Hugging Face."
-    language: null
-    topics:
-      - "ai-agent"
-      - "cc0"
-      - "contemplative-agent"
-      - "contemplative-ai"
-      - "dataset"
-      - "huggingface-datasets"
-      - "llm"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "contemplative-agent"
-    title: "contemplative-agent"
-    description: "A long-running experiment: an AI agent posts on its own with a local LLM (Ollama, one 16 GB Mac) and proposes changes to its harness (the constitution, identity and skills in its prompts), never its weights. A person keeps the final word on each proposal, and the adopted history is public."
+  - name: "skill-origins"
+    title: "skill-origins"
+    description: "Read who first recorded an agent skill (SKILL.md) from a collection's public git history, and count how often the file still names that account."
     language: "Python"
     topics:
-      - "agent-framework"
-      - "agent-memory"
-      - "ai-agent"
-      - "ai-alignment"
-      - "ai-ethics"
-      - "ai-safety"
-      - "ai-security"
-      - "autonomous-agent"
-      - "buddhism"
-      - "constitutional-ai"
-      - "contemplative-agent"
-      - "contemplative-ai"
-      - "human-in-the-loop"
-      - "llm-agent"
-      - "local-llm"
-      - "meditation"
-      - "ollama"
-      - "on-device-ai"
-      - "python"
-      - "secure-by-design"
-    stars_fact: 9
+      - "agent-skills"
+      - "attribution"
+      - "git-history"
+      - "provenance"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
+  - name: "writing"
+    title: "writing"
+    description: "Japanese and English articles and essays on coding agents (how they remember, fail, get reviewed and stay accountable) for engineers who build and run them, with every Markdown source, a generated index and the Claude Code writing harness behind them. CC0; cited via a Software Heritage identifier (CITATION.cff)."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "ai-governance"
+      - "ai-mediated-diffusion"
+      - "authorship"
+      - "build-in-public"
+      - "cc0"
+      - "claude-code"
+      - "dev-to"
+      - "generative-engine-optimization"
+      - "llm"
+      - "llm-engineering"
+      - "llms-txt"
+      - "meditation"
+      - "research-ecosystem"
+      - "technical-writing"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "jev-research-pipeline"
+    title: "jev-research-pipeline"
+    description: "A command-line tool that writes a research note each morning on your open questions at about a tenth of an LLM agent's cost: Python runs the loop, TypeSafe Jev screens new papers, and an LLM writes only the prose (English, Chinese or Japanese). Pilot."
+    language: "Python"
+    topics:
+      - "arxiv"
+      - "claude-code"
+      - "literature-monitoring"
+      - "llm"
+      - "obsidian"
+      - "opentelemetry"
+      - "pydantic-ai"
+      - "python"
+      - "qwen"
+      - "research-assistant"
+      - "research-pipeline"
+      - "typesafe-jev"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "commute-learning-notes"
     title: "commute-learning-notes"
     description: "通勤電車で学んでいる回の本文、ノート、図"
@@ -128,7 +140,22 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "jev-skill-router"
+    title: "jev-skill-router"
+    description: "Reference implementation for Jev builders: a Claude Code hook that asks TypeSafe's Jev which installed skill fits each prompt and logs the answer. Run for a week and then removed; the README keeps the parts that carry over and the measurement."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "hooks"
+      - "jev"
+      - "typesafe"
+      - "typesafe-jev"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "shimo4228"
     title: "shimo4228"
     description: "Hub for five citable practice lines by a solo AI-agent maker: agent design, authorship in the AI age, and essays from meditation practice."
@@ -152,45 +179,7 @@ repos:
       - "value-layer-harness-engineering"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "daily-research"
-    title: "daily-research"
-    description: "A research feedback engine that runs inside your own research repositories: each morning macOS launchd runs Claude Code (claude -p) in a few rotation-picked repos and writes an explanatory note on one outside development that matters to each repo into your Obsidian vault."
-    language: "Python"
-    topics:
-      - "claude-code"
-      - "knowledge-graph"
-      - "launchd"
-      - "llm"
-      - "obsidian"
-      - "research-automation"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "zenn-content"
-    title: "zenn-content"
-    description: "Japanese and English articles and essays on coding agents (how they remember, fail, get reviewed and stay accountable) for engineers who build and run them, with every Markdown source, a generated index and the Claude Code writing harness behind them. CC0; cited via a Software Heritage identifier (CITATION.cff)."
-    language: "HTML"
-    topics:
-      - "ai-agents"
-      - "ai-governance"
-      - "ai-mediated-diffusion"
-      - "authorship"
-      - "build-in-public"
-      - "cc0"
-      - "claude-code"
-      - "dev-to"
-      - "generative-engine-optimization"
-      - "llm"
-      - "llm-engineering"
-      - "llms-txt"
-      - "meditation"
-      - "research-ecosystem"
-      - "technical-writing"
-      - "zenn"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
 ---
 
 # shimo4228

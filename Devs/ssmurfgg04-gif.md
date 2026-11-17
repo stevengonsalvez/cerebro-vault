@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 1, 7, 4, 55, 18, 81, 10, 2, 4, 0, 0, 0]
+pushes_per_week: [0, 2, 6, 8, 54, 15, 85, 7, 2, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,22 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cairn"
+    title: "cairn"
+    description: "Cairn v4 - content-addressed chunked sync & storage engine for professional video teams (Rust)"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "kilimall-marketplace-archive"
+    title: "kilimall-marketplace-archive"
+    description: "Auditable, provenance-first snapshot of public Kilimall marketplace listings for research and analysis."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "context-m"
     title: "context-m"
     description: "Deterministic agent memory. μ=0. Free, local, forever. Mem0-compatible."
@@ -107,7 +123,7 @@ repos:
       - "zep"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "startups-co-ke"
     title: "startups-co-ke"
     description: "startups.co.ke — Kenya Startup Ecosystem & Business Intelligence Hub. Single-file app (no build step) + Supabase backend. Deployed via GitHub Pages."
@@ -115,7 +131,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "pos-system"
     title: "pos-system"
     description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
@@ -123,15 +139,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "jiji-marketplace-archive"
-    title: "jiji-marketplace-archive"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-15"
   - name: "smart-vat-kenya"
     title: "smart-vat-kenya"
     description: "SmartVAT Kenya — Kenya VAT & eTIMS guidance, calculators and open data: VAT registration, iTax filing deadlines, KRA penalties, amnesty 2026. Maintains the vatkenya npm library. https://smartvatkenya.co.ke"
@@ -154,15 +162,7 @@ repos:
       - "vat"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "misc-notes-data"
-    title: "misc-notes-data"
-    description: "private data attachments for misc-notes (no public redistribution)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-16"
 ---
 
 # ssmurfgg04-gif

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 1, 0, 0, 3, 5, 2, 5, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 0, 1, 2, 6, 1, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,112 +77,109 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "personal-website"
-    title: "personal-website"
-    description: "Source for jayhemnani.in, my portfolio: projects, writing, résumé and a live FDE simulation."
-    language: "TypeScript"
-    topics:
-      - "data-engineering"
-      - "mdx"
-      - "nextjs"
-      - "personal-website"
-      - "portfolio"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "fifa-soccer-ds"
-    title: "fifa-soccer-ds"
-    description: "Tracks soccer players in video and builds graphs of their movement, for sports analytics developers."
+  - name: "contextbox"
+    title: "contextbox"
+    description: "Screenshot your screen from the terminal, pull out the text and links, and search them later."
     language: "Python"
     topics:
-      - "computer-vision"
-      - "fastapi"
+      - "cli"
+      - "click"
+      - "developer-tools"
+      - "ocr"
+      - "python"
+      - "screenshot"
+      - "sqlite"
+      - "tesseract"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "nobel-dataintelligence"
+    title: "nobel-dataintelligence"
+    description: "Research code for predicting protein stability and enzyme kinetics from structure vibrations."
+    language: "Python"
+    topics:
+      - "bioinformatics"
+      - "computational-biology"
+      - "deep-learning"
+      - "enzyme-kinetics"
       - "graph-neural-networks"
-      - "mlops"
-      - "object-tracking"
+      - "normal-mode-analysis"
+      - "protein-stability"
+      - "protein-structure"
       - "python"
       - "pytorch"
-      - "soccer"
-      - "sports-analytics"
-      - "yolov8"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "agentic-logger"
-    title: "agentic-logger"
-    description: "Searchable history of your clipboard, windows and shell commands, on your own machine."
-    language: "Python"
-    topics:
-      - "activity-tracker"
-      - "clipboard"
-      - "flask"
-      - "local-first"
-      - "ollama"
-      - "postgresql"
-      - "python"
-      - "react"
-      - "self-hosted"
-      - "semantic-search"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "hearth"
-    title: "hearth"
-    description: "Terminal workspace for Linux where a per-user server owns your shells"
-    language: "Rust"
-    topics:
-      - "gtk4"
-      - "libadwaita"
-      - "linux"
-      - "rust"
-      - "tailscale"
-      - "terminal"
-      - "terminal-multiplexer"
-      - "tmux-alternative"
-      - "wayland"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "rigseal"
-    title: "rigseal"
-    description: "A lockfile for your AI agent setup: skills, plugins, hooks and MCP servers"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "claude-code"
-      - "cli"
-      - "cursor"
-      - "lockfile"
-      - "mcp"
-      - "model-context-protocol"
-      - "python"
-      - "security"
-      - "supply-chain-security"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "telegraph-receipts-desk"
-    title: "telegraph-receipts-desk"
-    description: "Sanctions checks for paralegals and refund claims for flyers, checked against official sources."
+    last_push: "2026-11-06"
+  - name: "travel-booking-platform"
+    title: "travel-booking-platform"
+    description: "Flight, hotel and car booking site built as Node and Python microservices that talk over Kafka."
     language: "TypeScript"
     topics:
-      - "ai-agents"
-      - "due-diligence"
-      - "ethereum"
-      - "flight-refund"
-      - "nodejs"
-      - "sanctions-screening"
-      - "sepolia"
-      - "telegraph-protocol"
+      - "docker-compose"
+      - "kafka"
+      - "kubernetes"
+      - "microservices"
+      - "mongodb"
+      - "mysql"
+      - "react"
+      - "travel-booking"
       - "typescript"
-      - "x402"
-    stars_fact: 0
+      - "vite"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-06"
+  - name: "stock-data-platform"
+    title: "stock-data-platform"
+    description: "Real-time stock data pipeline with Kafka streaming, Airflow orchestration, and TimescaleDB star-schema warehouse tracking 10 major tickers"
+    language: "Python"
+    topics:
+      - "apache-airflow"
+      - "apache-kafka"
+      - "data-engineering"
+      - "data-pipeline"
+      - "docker"
+      - "etl"
+      - "python"
+      - "stock-market"
+      - "timescaledb"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "jod-skills"
+    title: "jod-skills"
+    description: "Four Claude Code skills: audit a codebase, digest Hacker News and GitHub trending, track open PRs."
+    language: "Python"
+    topics:
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-skills"
+      - "code-audit"
+      - "developer-tools"
+      - "github-trending"
+      - "hacker-news"
+      - "python"
+      - "static-analysis"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "biotech-accelerator"
+    title: "biotech-accelerator"
+    description: "Ask a protein question, get papers, flexibility analysis, active compounds and experiments to try."
+    language: "Python"
+    topics:
+      - "bioinformatics"
+      - "biotech"
+      - "computational-biology"
+      - "drug-discovery"
+      - "langgraph"
+      - "mcp-server"
+      - "normal-mode-analysis"
+      - "protein-structure"
+      - "python"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
 ---
 
 # jayhemnani9910

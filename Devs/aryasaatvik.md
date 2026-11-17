@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 6, 4, 2, 21, 13, 30, 4, 6, 6, 0, 0, 0]
+pushes_per_week: [5, 4, 5, 1, 21, 16, 27, 6, 4, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,50 @@ reasons:
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pagegraph"
+    title: "pagegraph"
+    description: "Route-declared SEO for TanStack Start: head tags, sitemap, robots.txt, JSON-LD and a CI gate from one declaration per route."
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "json-ld"
+      - "llms-txt"
+      - "open-graph"
+      - "react"
+      - "robots-txt"
+      - "seo"
+      - "sitemap"
+      - "structured-data"
+      - "tanstack"
+      - "tanstack-router"
+      - "tanstack-start"
+      - "typescript"
+      - "vite-plugin"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "CapsuleDB"
+    title: "CapsuleDB"
+    description: "Ship persistence with your Effect package: private tables, typed queries and migrations inside the host app's existing database."
+    language: "TypeScript"
+    topics:
+      - "alchemy"
+      - "bun"
+      - "cloudflare-d1"
+      - "cloudflare-workers"
+      - "database"
+      - "effect"
+      - "effect-ts"
+      - "libsql"
+      - "migrations"
+      - "postgresql"
+      - "schema-migrations"
+      - "sql"
+      - "sqlite"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "wt"
     title: "wt"
     description: "Git worktree helper — create worktrees with gitignored file sync and automatic dependency install"
@@ -91,7 +135,7 @@ repos:
       - "worktree"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "frankensearch"
     title: "frankensearch"
     description: "Personal frankensearch source fork for cass integration"
@@ -100,32 +144,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-27"
-  - name: "pagegraph"
-    title: "pagegraph"
-    description: "Route-declared SEO graph and audit toolkit for TanStack Start: sitemap/robots, React head, JSON-LD, Vite coverage gate, live audit, and Jev-backed link decisions."
-    language: "TypeScript"
-    topics:
-      - "json-ld"
-      - "react"
-      - "robots-txt"
-      - "seo"
-      - "sitemap"
-      - "structured-data"
-      - "tanstack"
-      - "tanstack-router"
-      - "typescript"
-      - "vite"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "CapsuleDB"
-    title: "CapsuleDB"
-    description: "A TypeScript library for adding isolated, typed data modules and migrations to your app's existing database."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-05"
   - name: "pi-extensions"
     title: "pi-extensions"
     description: "Pi extension for running Executor tools inside Pi"
@@ -141,7 +159,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-16"
 ---
 
 # aryasaatvik

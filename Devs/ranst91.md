@@ -9,11 +9,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [2, 2, 0, 4, 1, 9, 7, 11, 7, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 5, 1, 12, 5, 9, 7, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,47 +77,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "remote-skills"
-    title: "remote-skills"
-    description: "An open-source toolkit for publishing and consuming Agent Skills directly from the web"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "ai-platformer"
-    title: "ai-platformer"
-    description: "An infinite side-scrolling platformer where the AI is the game engine. Built with CopilotKit and LangGraph."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-23"
-  - name: "chat-ui-clone-talk"
-    title: "chat-ui-clone-talk"
-    description: "A clone of Claude app, as seen in my talks"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-30"
-  - name: "review-fix-loop"
-    title: "review-fix-loop"
-    description: "A Claude Code skill that reviews your code, fixes what it finds, and keeps going until there's nothing left to fix."
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-03-27"
-  - name: "mintlify-docs"
-    title: "mintlify-docs"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-02-27"
+repos: []
 ---
 
 # ranst91

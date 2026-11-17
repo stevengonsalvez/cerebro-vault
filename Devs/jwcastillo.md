@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 6, 1, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "k6-enterprise-framework"
+    title: "k6-enterprise-framework"
+    description: "Production-grade TypeScript k6 load testing framework — two-layer architecture, helpers, patterns, observability, multi-client isolation"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "ndc-mock"
+    title: "ndc-mock"
+    description: "Synthetic IATA NDC mock for load testing, with CLI and MCP server"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
   - name: "jwcastillo"
     title: "jwcastillo"
     description: "Profile README"
@@ -85,15 +101,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "k6-enterprise-framework"
-    title: "k6-enterprise-framework"
-    description: "Production-grade TypeScript k6 load testing framework — two-layer architecture, helpers, patterns, observability, multi-client isolation"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-16"
   - name: "k6_workshops"
     title: "k6_workshops"
     description: "Code of k6 workshops"
@@ -117,29 +125,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-21"
-  - name: "probe-advisor"
-    title: "probe-advisor"
-    description: "How long your Kubernetes pods really take to start and stop, where the time goes, and which probe and shutdown settings to change. Python stdlib, no dependencies."
-    language: "Python"
-    topics:
-      - "graceful-shutdown"
-      - "graceful-shutdown-processes"
-      - "graceful-shutdowns"
-      - "kubernetes"
-      - "liveness-probe"
-      - "liveness-probes"
-      - "loki"
-      - "probes"
-      - "prometheus"
-      - "python"
-      - "sre"
-      - "startup-time"
-      - "startup-time-optimization"
-      - "startup-times"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
+    last_push: "2026-11-13"
 ---
 
 # jwcastillo

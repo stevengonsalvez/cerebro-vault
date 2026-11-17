@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "624efc8fafcad404"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -101,9 +101,17 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 38919
+    stars_fact: 39327
     first_seen: "2026-06-23T06:00:02.599193+00:00"
-    last_push: "2026-10-19"
+    last_push: "2026-11-10"
+  - name: "jobs-for-ai-agents"
+    title: "jobs-for-ai-agents"
+    description: "Your AI job-search wingman — find roles, polish your resume, research companies, and tailor applications, all from Claude Code."
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-04-30"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -116,9 +124,17 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 65
+    stars_fact: 67
     first_seen: null
     last_push: "2026-04-30"
+  - name: "agent-recall"
+    title: "agent-recall"
+    description: "Let your AI agents find and read any past conversation from Claude Code, Codex, OpenCode and Cursor."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "ai-chrome-extension-template"
     title: "ai-chrome-extension-template"
     description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
@@ -148,30 +164,6 @@ repos:
     stars_fact: 12
     first_seen: null
     last_push: "2026-05-07"
-  - name: "agent-recall"
-    title: "agent-recall"
-    description: "Let your AI agents find any conversation you've had across Claude Code, Codex, and OpenCode."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "starry-ai-bookmark-search"
-    title: "starry-ai-bookmark-search"
-    description: "Find your bookmarks like a simple Google search. Local, private, and free. It just works."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "bookmarks"
-      - "chrome-extension"
-      - "local-ai"
-      - "manifest-v3"
-      - "privacy"
-      - "semantic-search"
-      - "transformers-js"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-15"
 ---
 
 # JCodesMore

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 0, 0, 12, 13, 18, 13, 9, 11, 2, 0, 0, 2]
+pushes_per_week: [7, 0, 0, 13, 16, 14, 14, 18, 1, 2, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scripts-emporium"
+    title: "scripts-emporium"
+    description: "A collection of standalone utility scripts for sysadmin tasks, web scraping, DNS management, and everyday automation."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "BluePaper"
     title: "BluePaper"
     description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
   - name: "redmine-mcp-workflows"
     title: "redmine-mcp-workflows"
     description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-15"
   - name: "pyncua"
     title: "pyncua"
     description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-13"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-15"
   - name: "link-scrubber"
     title: "link-scrubber"
     description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
@@ -116,15 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "flipoff"
-    title: "flipoff"
-    description: "Turn any TV into a retro split-flap display. Free, open-source, zero dependencies."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-15"
 ---
 
 # Avicennasis

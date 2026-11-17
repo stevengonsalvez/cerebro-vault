@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [0, 0, 0, 1, 50, 27, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 76, 0, 0, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -93,41 +93,9 @@ repos:
       - "memory"
       - "nous-research"
       - "skills"
-    stars_fact: 5989
+    stars_fact: 6033
     first_seen: null
     last_push: "2026-10-27"
-  - name: "0xNyk"
-    title: "0xNyk"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "ai-agents"
-      - "builderz"
-      - "defi"
-      - "github-profile"
-      - "rust"
-      - "solana"
-      - "trading"
-      - "typescript"
-      - "web3"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "lacp"
-    title: "lacp"
-    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
-    language: "Shell"
-    topics:
-      - "agent-harness"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "control-plane"
-      - "hermes"
-      - "local-first"
-    stars_fact: 309
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "council-of-high-intelligence"
     title: "council-of-high-intelligence"
     description: "Structured multi-perspective deliberation for hard decisions. Run full councils, focused triads, or duo debates across Claude Code, Codex, Gemini CLI, and OpenCode."
@@ -147,31 +115,77 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4824
+    stars_fact: 4859
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-11-09"
-  - name: "obsidian-curator"
-    title: "obsidian-curator"
-    description: "The 4th layer of the Claude+Obsidian memory stack — deterministic knowledge-graph maintenance (rename/link/prune), dry-run by default, zero dependencies."
-    language: "Python"
-    topics: []
-    stars_fact: 4
+    last_push: "2026-11-16"
+  - name: "awesome-agent-cortex"
+    title: "awesome-agent-cortex"
+    description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
+    language: "JavaScript"
+    topics:
+      - "agent-memory"
+      - "agent-security"
+      - "agentic-ai"
+      - "ai-agents"
+      - "awesome"
+      - "awesome-list"
+      - "knowledge-graphs"
+      - "mcp"
+      - "solana"
+    stars_fact: 233
     first_seen: null
-    last_push: "2026-08-25"
-  - name: "hermes-buzz"
-    title: "hermes-buzz"
-    description: "Hermes Agent × Buzz starter kit (buzz-acp + hermes-acp onboarding)"
+    last_push: "2026-10-29"
+  - name: "xint"
+    title: "xint"
+    description: "Local-first X Intelligence CLI for search, monitoring, analysis, exports, OAuth actions, and agent tooling."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "bun"
+      - "claude"
+      - "cli"
+      - "openclaw"
+      - "openclaw-skill"
+      - "osint"
+      - "skill"
+      - "twitter"
+      - "typescript"
+      - "x"
+    stars_fact: 262
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "lacp"
+    title: "lacp"
+    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
     language: "Shell"
     topics:
-      - "acp"
-      - "agent"
-      - "buzz"
+      - "agent-harness"
+      - "ai-agents"
+      - "claude-code"
+      - "codex"
+      - "control-plane"
       - "hermes"
-      - "onboarding"
-      - "template"
-    stars_fact: 23
+      - "local-first"
+    stars_fact: 311
     first_seen: null
-    last_push: "2026-08-25"
+    last_push: "2026-10-26"
+  - name: "0xNyk"
+    title: "0xNyk"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "ai-agents"
+      - "builderz"
+      - "defi"
+      - "github-profile"
+      - "rust"
+      - "solana"
+      - "trading"
+      - "typescript"
+      - "web3"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # 0xNyk

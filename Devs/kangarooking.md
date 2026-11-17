@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "9b860e389365bd38"
 pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -90,25 +90,25 @@ repos:
       - "prompt-engineering"
       - "skill-generator"
       - "templates"
-    stars_fact: 12590
+    stars_fact: 12931
     first_seen: "2026-07-17T06:00:07.124682+00:00"
     last_push: "2026-10-02"
-  - name: "kangarooking-skills"
-    title: "kangarooking-skills"
-    description: "My custom AI Agent skills"
-    language: "Python"
-    topics: []
-    stars_fact: 720
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "first-principles-skill"
-    title: "first-principles-skill"
-    description: null
+  - name: "viral-copywriting-skill"
+    title: "viral-copywriting-skill"
+    description: "把《爆款文案》的销售型文案方法蒸馏成 14 个可执行的 AI skill 工具包"
     language: null
-    topics: []
-    stars_fact: 37
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "cangjie-skill"
+      - "conversion-copywriting"
+      - "copywriting"
+      - "marketing"
+      - "sales-copy"
+    stars_fact: 92
     first_seen: null
-    last_push: "2026-04-23"
+    last_push: "2026-05-02"
   - name: "cognitive-dividend-skill"
     title: "cognitive-dividend-skill"
     description: "把《认知红利》中的思维升级方法论蒸馏成 15 个可执行的 AI skill 工具包"
@@ -122,40 +122,59 @@ repos:
       - "metacognition"
       - "systems-thinking"
       - "thinking-frameworks"
-    stars_fact: 56
+    stars_fact: 59
     first_seen: null
     last_push: "2026-04-17"
-  - name: "director-skills"
-    title: "director-skills"
-    description: "导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-video"
-      - "claude-code"
-      - "codex"
-      - "filmmaking"
-      - "video-generation"
-    stars_fact: 273
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "system-prompt-skills"
-    title: "system-prompt-skills"
-    description: "从 165 个顶级 AI 产品系统提示词中蒸馏出的 15 个可执行 Agent skill"
+  - name: "buffett-letters-skill"
+    title: "buffett-letters-skill"
+    description: "An AI skill pack for value investing, capital allocation, and behavioral discipline, distilled from Warren Buffett's 60+ years of shareholder letters."
     language: null
     topics:
-      - "agent-design"
-      - "agent-skills"
-      - "ai-agents"
-      - "cangjie-skill"
-      - "context-management"
-      - "prompt-engineering"
-      - "prompt-injection"
-      - "system-prompt"
-      - "tool-use"
-    stars_fact: 223
+      - "agent-workflows"
+      - "ai-skills"
+      - "berkshire-hathaway"
+      - "book-to-skill"
+      - "capital-allocation"
+      - "decision-making"
+      - "value-investing"
+      - "warren-buffett"
+    stars_fact: 113
     first_seen: null
-    last_push: "2026-05-04"
+    last_push: "2026-04-17"
+  - name: "contagious-skill"
+    title: "contagious-skill"
+    description: "把《疯传》的 STEPPS 传播原则蒸馏成 15 个可执行的 AI skill 工具包"
+    language: null
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "cangjie-skill"
+      - "contagious"
+      - "marketing"
+      - "stepps"
+      - "viral-marketing"
+      - "word-of-mouth"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-05-02"
+  - name: "copywriters-handbook-skill"
+    title: "copywriters-handbook-skill"
+    description: "把《文案创作完全手册》的销售型文案方法蒸馏成 12 个可执行的 AI skill 工具包"
+    language: null
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "cangjie-skill"
+      - "copywriting"
+      - "direct-response"
+      - "headlines"
+      - "marketing"
+      - "sales-copy"
+    stars_fact: 38
+    first_seen: null
+    last_push: "2026-05-03"
 ---
 
 # kangarooking

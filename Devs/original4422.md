@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 0, 0, 1, 2, 0, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 2, 1, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,12 +82,20 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skills"
+    title: "skills"
+    description: "my skills"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "learn-claude-code"
     title: "learn-claude-code"
     description: "A structured curriculum for understanding Anthropic’s Claude Code (CLI agent) implementation, grounded in a large TypeScript source snapshot"
     language: "Python"
     topics: []
-    stars_fact: 15
+    stars_fact: 16
     first_seen: null
     last_push: "2026-09-15"
   - name: "open-source-scout"
@@ -129,14 +137,6 @@ repos:
   - name: "patch-witness"
     title: "patch-witness"
     description: "Per-test evidence that the same head unittest fails before a fix and passes after it; stdlib, Git snapshots, no model calls."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "learn-codex"
-    title: "learn-codex"
-    description: "A bilingual, runnable Codex course with Taskboard exercises, offline labs and real protocol checks"
     language: "Python"
     topics: []
     stars_fact: 0

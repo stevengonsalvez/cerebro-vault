@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "d2a13eb5e04b724b"
-pushes_per_week: [19, 19, 23, 32, 77, 174, 125, 159, 47, 118, 0, 1, 7]
+pushes_per_week: [17, 19, 26, 33, 91, 166, 135, 168, 51, 85, 0, 1, 8]
 windows:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 7
-    active_days: 11
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 801
+    pushes: 800
     distinct_repos: 11
     active_days: 57
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 14.0526
+  push_per_day: 14.0351
   repo_per_active_day: 0.1930
   not_owned_ratio: 0.3636
   basename_concentration: 0.1818
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 129
+    pushes: 130
     distinct_repos: 7
-    pushes_per_repo: 18.4286
-    active_days: 11
+    pushes_per_repo: 18.5714
+    active_days: 12
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
   "90d":
-    pushes: 801
+    pushes: 800
     distinct_repos: 11
-    pushes_per_repo: 72.8182
+    pushes_per_repo: 72.7273
     active_days: 57
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -139,6 +139,6 @@ repos:
 
 # max-sixty
 
-801 pushes across 11 repositories on 57 active days in the last 90 days of public GitHub push activity.
+800 pushes across 11 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/max-sixty

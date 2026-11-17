@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [14, 1, 0, 0, 1, 10, 0, 0, 1, 2, 0, 0, 0]
+pushes_per_week: [15, 0, 0, 0, 3, 8, 0, 1, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -106,25 +106,9 @@ repos:
       - "llm"
       - "phone-agent"
       - "shizuku"
-    stars_fact: 897
+    stars_fact: 990
     first_seen: null
     last_push: "2026-11-06"
-  - name: "tg-cli"
-    title: "tg-cli"
-    description: "A CLI for Telegram — local-first sync, search, export via MTProto"
-    language: "Python"
-    topics: []
-    stars_fact: 297
-    first_seen: null
-    last_push: "2026-03-15"
-  - name: "Kaze"
-    title: "Kaze"
-    description: "A calm, quick browser for macOS, with an agent that works in your tabs."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 185
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "OpenCLI"
     title: "OpenCLI"
     description: "Make Any Website into CLI & Use your logged-in browser by AI agent."
@@ -137,25 +121,46 @@ repos:
       - "browser-use"
       - "cli"
       - "playwright"
-    stars_fact: 30986
+    stars_fact: 31132
     first_seen: null
     last_push: "2026-11-07"
+  - name: "xhs-cli"
+    title: "xhs-cli"
+    description: "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI"
+    language: "Python"
+    topics:
+      - "cli"
+      - "python"
+      - "redbook"
+      - "xhs"
+      - "xiaohongshu"
+    stars_fact: 698
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Kaze"
+    title: "Kaze"
+    description: "A calm, quick browser for macOS, with an agent that works in your tabs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 217
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "boss-cli"
+    title: "boss-cli"
+    description: "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API"
+    language: "Python"
+    topics: []
+    stars_fact: 1052
+    first_seen: null
+    last_push: "2026-10-09"
   - name: "wx-cli-again"
     title: "wx-cli-again"
     description: "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli"
     language: "Rust"
     topics: []
-    stars_fact: 909
+    stars_fact: 921
     first_seen: null
     last_push: "2026-09-14"
-  - name: "BrowserMCP"
-    title: "BrowserMCP"
-    description: "Connect MCP agents to your logged-in Chrome. Persistent JavaScript workspace, browser automation, and reusable site adapters."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 142
-    first_seen: null
-    last_push: "2026-11-09"
 ---
 
 # jackwener

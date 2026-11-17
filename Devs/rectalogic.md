@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,6 +82,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "langchain-mcp"
+    title: "langchain-mcp"
+    description: "Model Context Protocol tool support for LangChain"
+    language: "Python"
+    topics: []
+    stars_fact: 204
+    first_seen: null
+    last_push: "2025-04-02"
   - name: "terp3d"
     title: "terp3d"
     description: null
@@ -89,7 +97,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
   - name: "asburypark"
     title: "asburypark"
     description: "Happy Hours in Asbury Park, NJ"
@@ -97,7 +105,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-15"
   - name: "bevy_drm_vk"
     title: "bevy_drm_vk"
     description: "Attempted Bevy DRM support via RawWindowHandle::Drm"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-09"
-  - name: "esp32-rtv"
-    title: "esp32-rtv"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-08"
 ---
 
 # rectalogic

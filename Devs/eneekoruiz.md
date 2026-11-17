@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 3, 7, 7, 10, 11, 5, 3, 5, 0, 1, 0]
+pushes_per_week: [1, 0, 3, 9, 8, 11, 7, 6, 4, 3, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,43 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "eneekoruiz"
+    title: "eneekoruiz"
+    description: "Software engineer focused on full-stack applications and automation tools."
+    language: null
+    topics:
+      - "full-stack"
+      - "github-profile"
+      - "software-engineer"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "ana-peluquera"
+    title: "ana-peluquera"
+    description: "Next.js booking website and content dashboard for a local hair and beauty salon."
+    language: "TypeScript"
+    topics:
+      - "booking-system"
+      - "firebase"
+      - "google-calendar"
+      - "nextjs"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "SPL"
+    title: "SPL"
+    description: "Booking and scheduling application for service workflows with overlapping appointment phases."
+    language: "TypeScript"
+    topics:
+      - "nodejs"
+      - "react"
+      - "scheduling"
+      - "typescript"
+      - "vite"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "gallery_organizer"
     title: "gallery_organizer"
     description: "Local Streamlit tool for indexing, searching, and reviewing photo and video collections."
@@ -90,67 +127,33 @@ repos:
       - "streamlit"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "recordatorios"
-    title: "recordatorios"
-    description: "Offline-first productivity and reminder PWA built with React, TypeScript, Dexie.js (IndexedDB), and PostgreSQL sync."
+    last_push: "2026-11-15"
+  - name: "helen"
+    title: "helen"
+    description: "CLI for scaffolding React and Vite projects with optional Docker and GitHub Actions configuration."
     language: "TypeScript"
-    topics:
-      - "dexie"
-      - "indexeddb"
-      - "offline-first"
-      - "productivity"
-      - "pwa"
-      - "react"
-      - "todo-app"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "RKA_P3_Overleaf"
-    title: "RKA_P3_Overleaf"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "passwordmanager"
-    title: "passwordmanager"
-    description: "Offline-first password vault experiment built with React, TypeScript, IndexedDB, and optional Firebase sync."
-    language: "TypeScript"
-    topics:
-      - "firebase"
-      - "indexeddb"
-      - "password-manager"
-      - "react"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "eneekoruiz"
-    title: "eneekoruiz"
-    description: "Software engineer focused on full-stack applications and automation tools."
-    language: null
-    topics:
-      - "full-stack"
-      - "github-profile"
-      - "software-engineer"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "moodlecrawler"
-    title: "moodlecrawler"
-    description: "Python CLI for downloading and organizing course resources from eGela and Moodle."
-    language: "Python"
     topics:
       - "cli"
-      - "moodle"
-      - "python"
-      - "web-scraping"
+      - "docker"
+      - "github-actions"
+      - "react"
+      - "vite"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "portfolio"
+    title: "portfolio"
+    description: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP."
+    language: "TypeScript"
+    topics:
+      - "gsap"
+      - "nextjs"
+      - "portfolio"
+      - "tailwindcss"
+      - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
 ---
 
 # eneekoruiz

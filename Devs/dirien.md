@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 2, 3, 0, 0, 3, 1, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 2, 0, 0, 4, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skill-ci"
-    title: "skill-ci"
-    description: "CI for agent skills on Kubernetes: Harbor, NVIDIA SkillEvaluator and Agent Sandbox, triggered by skill pushes and model changes"
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "herdr-sbx-plugin"
     title: "herdr-sbx-plugin"
     description: "Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent"
@@ -94,7 +86,7 @@ repos:
       - "docker-sandboxes"
       - "herdr"
       - "herdr-plugin"
-    stars_fact: 13
+    stars_fact: 16
     first_seen: null
     last_push: "2026-09-13"
   - name: "dirien"
@@ -104,43 +96,56 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "jev-router"
-    title: "jev-router"
-    description: "Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model"
-    language: "JavaScript"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "jev"
-      - "llm-gateway"
-      - "model-router"
-      - "ollama"
-      - "typesafe"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "my-claude-apm-setup"
-    title: "my-claude-apm-setup"
-    description: "A self-contained APM-managed Claude Code + Codex setup — pinned skills, agents, guardrail hooks, MCP, LSP, and single-source generated context."
-    language: "Shell"
-    topics:
-      - "agent-package-manager"
-      - "ai-agents"
-      - "apm"
-      - "claude-code"
-      - "codex"
+    last_push: "2026-11-17"
+  - name: "stop-wasting-gpus-how-we-built-a-golden-path-for-gpu-sharing-on-kubernetes"
+    title: "stop-wasting-gpus-how-we-built-a-golden-path-for-gpu-sharing-on-kubernetes"
+    description: null
+    language: "TypeScript"
+    topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "infrastructure-sandbox-kit"
-    title: "infrastructure-sandbox-kit"
-    description: "Docker Sandboxes template + kit: an IaC (Pulumi/Terraform/OpenTofu + AWS/Azure/GCP CLIs) Claude Code workstation with APM baked into the agent home."
-    language: "Shell"
+    last_push: "2026-11-10"
+  - name: "minectl"
+    title: "minectl"
+    description: "minectl 🗺 is a cli for creating Minecraft server on different cloud provider."
+    language: "Go"
+    topics:
+      - "azure"
+      - "civo"
+      - "digitalocean"
+      - "equinix"
+      - "fabricmc"
+      - "gce"
+      - "golang"
+      - "hacktoberfest"
+      - "hetzner"
+      - "hetzner-cloud"
+      - "minecraft"
+      - "oracle-cloud-infrastructure"
+      - "ovh"
+      - "ovhcloud"
+      - "scaleway"
+      - "spigotmc"
+      - "vultr"
+    stars_fact: 179
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Custom Claude Code skills for Pulumi infrastructure as code"
+    language: "Python"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "skill-ci"
+    title: "skill-ci"
+    description: "CI for agent skills on Kubernetes: Harbor, NVIDIA SkillEvaluator and Agent Sandbox, triggered by skill pushes and model changes"
+    language: "Go"
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-16"
 ---
 
 # dirien

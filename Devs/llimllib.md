@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
@@ -81,54 +81,54 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "yarapm"
-    title: "yarapm"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "nba_data"
     title: "nba_data"
     description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
     language: "Python"
     topics: []
-    stars_fact: 13
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
+  - name: "yarapm"
+    title: "yarapm"
+    description: "Yet Another RAPM - A Regularized Adjusted plus/minus NBA ranking optimized for rating teams"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "movie-scenes"
+    title: "movie-scenes"
+    description: "Bluesky's favorite movie scenes, with clips"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "stepback.club"
     title: "stepback.club"
     description: "https://billmill.org/nba/"
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "ytgif"
-    title: "ytgif"
-    description: "Create a gif from a youtube video with subtitles enabled, using yt-dlp and ffmpeg"
+    last_push: "2026-11-15"
+  - name: "chatto-install"
+    title: "chatto-install"
+    description: null
     language: "Shell"
     topics: []
-    stars_fact: 63
+    stars_fact: 0
     first_seen: null
-    last_push: "2025-06-05"
-  - name: "git-ls"
-    title: "git-ls"
-    description: "list files and git status in a repository"
-    language: "HTML"
+    last_push: "2026-11-12"
+  - name: "bostonmarathon"
+    title: "bostonmarathon"
+    description: "Almost complete data dumps from the Boston Marathon, 2001-2014"
+    language: "Pkl"
     topics: []
-    stars_fact: 11
+    stars_fact: 29
     first_seen: null
-    last_push: "2026-06-11"
-  - name: "brightlantern"
-    title: "brightlantern"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2025-04-27"
 ---
 
 # llimllib

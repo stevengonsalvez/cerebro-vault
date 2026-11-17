@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [7, 3, 6, 8, 23, 125, 102, 81, 78, 44, 0, 2, 2]
+pushes_per_week: [7, 3, 6, 8, 30, 137, 94, 116, 44, 32, 0, 2, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,32 +77,6 @@ reasons:
   - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "DeepSeek-Reasonix"
-    title: "DeepSeek-Reasonix"
-    description: "A reliable coding agent for complex software engineering tasks."
-    language: "Go"
-    topics:
-      - "agent"
-      - "agent-framework"
-      - "ai-agent"
-      - "ai-coding"
-      - "cli"
-      - "coding-agent"
-      - "deepseek"
-      - "developer-tools"
-      - "dsh"
-      - "dsh-plugin"
-      - "ink"
-      - "llm"
-      - "prompt-caching"
-      - "r1"
-      - "terminal"
-      - "tool-use"
-      - "tui"
-      - "typescript"
-    stars_fact: 36147
-    first_seen: "2026-08-03T06:00:03.957834+00:00"
-    last_push: "2026-11-09"
   - name: "estella"
     title: "estella"
     description: "A fast 2D and 3D game engine — TypeScript SDK, C++/WebAssembly core, visual editor. Ship one project to web, desktop, WeChat MiniGames, playable ads, and native Android / iOS."
@@ -123,31 +97,28 @@ repos:
       - "webgl"
       - "webgpu"
       - "wechat-minigame"
-    stars_fact: 707
+    stars_fact: 961
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "esengine"
-    title: "esengine"
-    description: "ESEngine - High-performance TypeScript ECS Framework for Game Development"
+    last_push: "2026-11-17"
+  - name: "estella-space-frigate"
+    title: "estella-space-frigate"
+    description: "A 3D space game where every model, texture, sound and the HUD comes from recipes, baked in your browser - play it in one 3.4 MB HTML file. Made with the Estella engine."
     language: "TypeScript"
     topics:
-      - "2d-game-engine"
-      - "behavior-tree"
-      - "ecs"
-      - "entity-component-system"
-      - "esengine"
-      - "game-development"
-      - "game-engine"
-      - "game-framework"
-      - "physics"
-      - "sprite"
-      - "tilemap"
-      - "typescript"
-      - "wasm"
-      - "webgl"
-    stars_fact: 933
+      - "estella"
+      - "game"
+      - "procedural"
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-07-30"
+    last_push: "2026-11-17"
+  - name: "estella-mcp-server"
+    title: "estella-mcp-server"
+    description: "MCP server for AI-assisted editing in the Estella game engine editor"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-18"
   - name: "homebrew-reasonix"
     title: "homebrew-reasonix"
     description: "Homebrew tap for Reasonix — the cache-first DeepSeek coding agent."
@@ -155,21 +126,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "BehaviourTree-ai"
-    title: "BehaviourTree-ai"
-    description: "一个高性能的TypeScript AI系统库，包含行为树（Behavior Tree）、实用AI（Utility AI）和有限状态机（FSM），适用于Cocos/Laya"
-    language: "TypeScript"
-    topics:
-      - "behaviourtree"
-      - "cocos"
-      - "egret"
-      - "fsm"
-      - "laya"
-      - "selector"
-    stars_fact: 153
-    first_seen: null
-    last_push: "2026-02-23"
+    last_push: "2026-11-12"
   - name: "xiaoban"
     title: "xiaoban"
     description: "A local-first everyday assistant for phone and desktop"
@@ -178,6 +135,14 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-11-02"
+  - name: "nova-ecs-render-three"
+    title: "nova-ecs-render-three"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-07-25"
 ---
 
 # esengine

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [7, 3, 0, 0, 3, 17, 20, 6, 0, 0, 0, 0, 0]
+pushes_per_week: [8, 2, 0, 0, 4, 21, 15, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2490
+    stars_fact: 2550
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "raw-motion"
     title: "raw-motion"
     description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."

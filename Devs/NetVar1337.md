@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 1, 1, 4, 2, 0, 1, 7, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 3, 1, 2, 0, 3, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,77 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ps4-injection-lab"
-    title: "ps4-injection-lab"
-    description: "Complete PS4 injection framework - 19 entry points (CMD_PROC_ELF, SPRX, ptrace, ring-0, DMA, BT spoof), FW 14.00 GoldHEN, game-agnostic. Apex Legends / R6S / Fortnite and any PS4 title."
-    language: "C"
+  - name: "SlopStation"
+    title: "SlopStation"
+    description: "SlopStation — PS4 reverse-engineering workbench: live memory, debugger, scanner, decompiler, x86-64 emulator, Lua, MCP, bundled ps4debug-NG."
+    language: "C++"
     topics:
-      - "apex-legends"
-      - "gamehacking"
-      - "goldhen"
-      - "jailbreak"
+      - "debugger"
+      - "mcp"
       - "ps4"
       - "reverse-engineering"
-    stars_fact: 0
+      - "tauri"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
+  - name: "claude-for-firefox"
+    title: "claude-for-firefox"
+    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
+    language: "JavaScript"
+    topics:
+      - "ai-assistant"
+      - "browser-extension"
+      - "claude"
+      - "firefox"
+      - "javascript"
+      - "webextension"
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "ps4debug-mcp"
+    title: "ps4debug-mcp"
+    description: "MCP server + Python client for the ps4debug-NG payload (jailbroken PS4 debugger) - AI-driven dynamic RE of PS4 games"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "debugger"
+      - "mcp"
+      - "model-context-protocol"
+      - "ps4"
+      - "python"
+      - "reverse-engineering"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "NetVar1337"
+    title: "NetVar1337"
+    description: "Security research, harness engineering and agentic AI - autonomous security agents, reverse-engineering tooling and agent infrastructure."
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "ai-agents"
+      - "detection-engineering"
+      - "mcp"
+      - "reverse-engineering"
+      - "security-research"
+      - "windows-internals"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "EchoDebug"
+    title: "EchoDebug"
+    description: "Windows reverse-engineering workbench (Tauri + React) with a WebSocket relay and MCP server, backed by Echo's Universal API"
+    language: "TypeScript"
+    topics:
+      - "debugger"
+      - "mcp"
+      - "memory-analysis"
+      - "reverse-engineering"
+      - "tauri"
+      - "windows"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "omniwire"
     title: "omniwire"
     description: "Infrastructure for AI agent swarms - 88 MCP tools, A2A, mesh VPN, CDP browser, 2FA"
@@ -108,66 +165,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2026-10-27"
-  - name: "NetVar1337"
-    title: "NetVar1337"
-    description: "Security research, reverse engineering, AI/ML and Web3 - autonomous security agents, detection engineering, and open-source tooling."
-    language: "Python"
-    topics:
-      - "anti-cheat"
-      - "detection-engineering"
-      - "game-security"
-      - "reverse-engineering"
-      - "security-research"
-      - "windows-internals"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "claude-for-firefox"
-    title: "claude-for-firefox"
-    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
-    language: "JavaScript"
-    topics:
-      - "ai-assistant"
-      - "browser-extension"
-      - "claude"
-      - "firefox"
-      - "javascript"
-      - "webextension"
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "Kevlar"
-    title: "Kevlar"
-    description: "Unified KEVLAR Windows kernel-driver emulation and analysis harness"
-    language: "C++"
-    topics:
-      - "cpp"
-      - "driver"
-      - "emulation"
-      - "kernel"
-      - "malware-analysis"
-      - "reverse-engineering"
-      - "security-research"
-      - "unicorn"
-      - "windows"
-      - "windows-internals"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-09-15"
-  - name: "EchoDebug"
-    title: "EchoDebug"
-    description: "Windows reverse-engineering workbench (Tauri + React) with a WebSocket relay and MCP server, backed by Echo's Universal API"
-    language: "TypeScript"
-    topics:
-      - "debugger"
-      - "mcp"
-      - "memory-analysis"
-      - "reverse-engineering"
-      - "tauri"
-      - "windows"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
 ---
 
 # NetVar1337

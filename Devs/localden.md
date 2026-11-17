@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "02eab667df448997"
   - "2d6ba8fc0269fd52"
-pushes_per_week: [0, 0, 0, 1, 1, 2, 4, 0, 0, 1, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 1, 2, 1, 4, 0, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,6 +79,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mcp-repo-data-tracker"
+    title: "mcp-repo-data-tracker"
+    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
+    language: "HTML"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "ant-repo-data-tracker"
     title: "ant-repo-data-tracker"
     description: "Tracking the issues and PRs in open-source Anthropic SDK repositories."
@@ -86,7 +94,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "agntcon-mcpcon-2026-decks"
+    title: "agntcon-mcpcon-2026-decks"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "mcp-booth"
     title: "mcp-booth"
     description: null
@@ -95,14 +111,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-22"
-  - name: "mcp-repo-data-tracker"
-    title: "mcp-repo-data-tracker"
-    description: "Tracker that gives visibility into the issues/PRs that are currently open in the MCP repo."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-07"
   - name: "claude-mcpapp-onestate"
     title: "claude-mcpapp-onestate"
     description: "Sample demo-ing how Claude can maintain one single widget."
@@ -119,14 +127,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2025-08-18"
-  - name: "min-cs-mcp-auth"
-    title: "min-cs-mcp-auth"
-    description: "Minimal implementation of a C# MCP server that uses Keycloak for auth"
-    language: "C#"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-08-16"
 ---
 
 # localden

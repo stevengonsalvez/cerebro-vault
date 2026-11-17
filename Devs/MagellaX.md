@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 3, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 0, 3, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "software-development-practices-git-workflow"
+    title: "software-development-practices-git-workflow"
+    description: "Local Git workflow demonstration with branching, merging, ignore rules, and revert."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "StreamAttn"
     title: "StreamAttn"
     description: "A high-performance attention mechanism that computes softmax normalization in a single streaming pass using running accumulators (online softmax)."
@@ -121,14 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-06-04"
-  - name: "assistant-bakeoff"
-    title: "assistant-bakeoff"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
 ---
 
 # MagellaX

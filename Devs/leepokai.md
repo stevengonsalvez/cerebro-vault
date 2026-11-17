@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 7, 7, 26, 9, 7, 14, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 7, 9, 26, 11, 3, 14, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -102,33 +102,25 @@ repos:
       - "open-source"
       - "rust"
       - "self-hosted"
-    stars_fact: 2030
+    stars_fact: 2189
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "codync-mem"
-    title: "codync-mem"
-    description: "Memory for coding-agent bots: one store, the rules for who may write it, and what each session sees. Read-only mirror of Codync's host/crates/memory."
+    last_push: "2026-11-17"
+  - name: "codync-accounts"
+    title: "codync-accounts"
+    description: "More than one login per coding agent on one computer: a folder per account. Read-only mirror of Codync's host/crates/accounts."
     language: "Rust"
     topics: []
-    stars_fact: 11
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "homebrew-codync"
-    title: "homebrew-codync"
-    description: "Homebrew tap for Codync — message your coding agents as bots"
-    language: "Ruby"
+    last_push: "2026-11-14"
+  - name: "pi-wasm-kit"
+    title: "pi-wasm-kit"
+    description: "Pi Durable inside QuickJS WebAssembly, with browser and Node hosts. Inspired by PiDurableKit."
+    language: "TypeScript"
     topics: []
-    stars_fact: 2
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "codync-network"
-    title: "codync-network"
-    description: "Agent Tailscale: the agents on your computers find and message each other, peer to peer. Read-only mirror of Codync's host/crates/network."
-    language: "Rust"
-    topics: []
-    stars_fact: 33
-    first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-14"
   - name: "jev-guard"
     title: "jev-guard"
     description: "Auto mode for every coding agent, built on Jev: risk-scores every tool call with session context (deny / ask / allow), flags prompt injection in results, checks skills and plugins. Claude Code, Codex, Copilot, Gemini, Cursor, pi, OpenCode, ACP."
@@ -144,27 +136,25 @@ repos:
       - "opencode"
       - "prompt-injection"
       - "security"
-    stars_fact: 150
+    stars_fact: 153
     first_seen: null
     last_push: "2026-10-02"
-  - name: "jev-adrank"
-    title: "jev-adrank"
-    description: "Real-time ad ranking and creative review on a typed evaluation model — one call prices a whole auction, no trained CTR model, no logged clicks."
-    language: "JavaScript"
-    topics:
-      - "ad-ranking"
-      - "ads"
-      - "auction"
-      - "brand-safety"
-      - "ecpm"
-      - "jev"
-      - "prompt-injection"
-      - "real-time"
-      - "recommender-system"
-      - "typesafe"
-    stars_fact: 1
+  - name: "homebrew-codync"
+    title: "homebrew-codync"
+    description: "Homebrew tap for Codync — message your coding agents as bots"
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-20"
+    last_push: "2026-11-14"
+  - name: "codync-network"
+    title: "codync-network"
+    description: "Agent Tailscale: the agents on your computers find and message each other, peer to peer. Read-only mirror of Codync's host/crates/network."
+    language: "Rust"
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-11-17"
 ---
 
 # leepokai

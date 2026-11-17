@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 0, 1, 1, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,38 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_plugin_lorebook"
-    title: "astrbot_plugin_lorebook"
+  - name: "astrbot_tts"
+    title: "astrbot_tts"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "astrbot_plugin_message_editor"
-    title: "astrbot_plugin_message_editor"
+    last_push: "2026-11-12"
+  - name: "astrbot_plugin_calendar"
+    title: "astrbot_plugin_calendar"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "astrbot_plugin_opus46_thoughts_patch"
-    title: "astrbot_plugin_opus46_thoughts_patch"
+    last_push: "2026-11-14"
+  - name: "astrbot_plugin_platform_specific_prompt"
+    title: "astrbot_plugin_platform_specific_prompt"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-11"
+  - name: "astrbot-frontend"
+    title: "astrbot-frontend"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "astrbot_plugin_gemini_mode"
     title: "astrbot_plugin_gemini_mode"
     description: null
@@ -108,23 +116,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "astrbot_plugin_request_capture"
-    title: "astrbot_plugin_request_capture"
+    last_push: "2026-11-11"
+  - name: "astrbot_plugin_lorebook"
+    title: "astrbot_plugin_lorebook"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "astrbot_plugin_recursion_log"
-    title: "astrbot_plugin_recursion_log"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-11-11"
 ---
 
 # EmilyCheoh

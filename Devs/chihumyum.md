@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 0, 0, 1, 3, 0, 10, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 1, 0, 3, 1, 9, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,7 +80,7 @@ repos:
   - name: "Drifting"
     title: "Drifting"
     description: "Drifting is a cross-platform, AI-native novel-writing app. With the ease of a Markdown editor, the scaffolding of a classic writing studio, and an AI agent for the whole book, it's built to help you write your first bestseller. Drifting 是一款跨平台的 AI 原生小说写作应用。兼具 Markdown 编辑器的轻快、经典写作工坊的创作框架，以及贯穿全书的 AI Agent，助你写出人生第一部畅销书。"
-    language: "TypeScript"
+    language: "Rust"
     topics:
       - "ai-agent"
       - "creative-writing"
@@ -96,9 +96,9 @@ repos:
       - "worldbuilding"
       - "writing-app"
       - "writing-tool"
-    stars_fact: 33
+    stars_fact: 58
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "persimmon-reader"
     title: "persimmon-reader"
     description: "Official website for the Persimmon EPUB reader"
@@ -117,7 +117,7 @@ repos:
       - "ereader"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-11"
   - name: "My-FFVI"
     title: "My-FFVI"
     description: "Source-driven FFVI Pixel Remaster Web migration, shared game systems, and reproducible validation."

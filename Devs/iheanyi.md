@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "camper-android"
+    title: "camper-android"
+    description: "Camper for Bandcamp Android APKs (same builds as Google Play, signed by Google Play)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfile configurations."
@@ -100,7 +108,7 @@ repos:
       - "yt-dlp"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-11"
   - name: "prisma-planetscale-playground"
     title: "prisma-planetscale-playground"
     description: "Playground for Prisma and PlanetScale"
@@ -125,14 +133,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-01-24"
-  - name: "fade-pics-2015"
-    title: "fade-pics-2015"
-    description: "Fading Picture Meme Generator"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2021-02-11"
 ---
 
 # iheanyi

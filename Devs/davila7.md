@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [1, 2, 1, 1, 6, 5, 9, 5, 3, 8, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 1, 6, 6, 8, 6, 4, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,49 +92,59 @@ repos:
       - "cli"
       - "mcp"
       - "registry"
-    stars_fact: 33241
+    stars_fact: 33888
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-11-09"
-  - name: "AyudaChileGPT"
-    title: "AyudaChileGPT"
-    description: "Agente IA experto en centros de Ayuda para emergencias en Chile"
+    last_push: "2026-11-17"
+  - name: "chaos-monkey-coding-agents"
+    title: "chaos-monkey-coding-agents"
+    description: "Chaos Monkey Benchmark for Coding Agents"
     language: "Python"
-    topics: []
-    stars_fact: 14
+    topics:
+      - "benchmark"
+      - "coding-agent"
+    stars_fact: 1
     first_seen: null
-    last_push: "2024-02-08"
-  - name: "jev-explained"
-    title: "jev-explained"
-    description: "Jev Explained"
+    last_push: "2026-11-17"
+  - name: "claude-managed-agents-cookbook"
+    title: "claude-managed-agents-cookbook"
+    description: "Claude Managed Agents Cookbook"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 37
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "agent-code-academy"
+    title: "agent-code-academy"
+    description: "An open catalog of technical learning paths for AI coding agents."
     language: "TypeScript"
-    topics: []
-    stars_fact: 40
+    topics:
+      - "ai-coding"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "cursor"
+      - "github-copilot"
+      - "learning-resources"
+      - "open-source"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "davila7"
-    title: "davila7"
-    description: "Profile"
-    language: null
+    last_push: "2026-11-13"
+  - name: "claude_subagents"
+    title: "claude_subagents"
+    description: "Claude SubAgents"
+    language: "CSS"
     topics: []
-    stars_fact: 36
+    stars_fact: 117
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-06-21"
   - name: "claude-code-en-espanol"
     title: "claude-code-en-espanol"
     description: "Claude Code en Español Github Repos"
     language: null
     topics: []
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-11-05"
-  - name: "RAG"
-    title: "RAG"
-    description: "Embedding semantic search with Cohere"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2024-07-12"
 ---
 
 # davila7

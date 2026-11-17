@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 3, 5, 2, 12, 18, 6, 3, 8, 0, 2, 1]
+pushes_per_week: [0, 0, 5, 3, 2, 15, 16, 7, 3, 6, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,22 +77,6 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ggbdpq"
-    title: "ggbdpq"
-    description: "Frontend Engineer → AI Developer Tooling · LLM gateway · agent runtime · agent skills"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "cursor-loc"
-    title: "cursor-loc"
-    description: "为 Cursor IDE 专有界面提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包 NLS 无法触及的区域，英文界面下也可用。重难点：0.0.9 注入引擎重写为增量翻译——移除每 100ms 全页扫描、attachShadow 原型劫持与 DOM 变更全页重扫三个卡顿根源，exact 词条走 O(1) Map、变更只处理涉及节点，打字与滚动不再被拖慢；补丁仅手动应用时写入安装目录，卸载自动还原，缺备份时如实报告受限项不猜测拼接。"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-10"
   - name: "qoder-proxy-api"
     title: "qoder-proxy-api"
     description: "本地多 Provider 协议网关：把 Gateway 私有协议、qodercli 子进程、Cloud Agents 官方 API 三条异构 Qoder 上游统一成一套 OpenAI / Anthropic 兼容 API（含流式），Claude Code 等客户端直连。亮点：下游协议 ↔ Canonical Event ↔ 上游 Provider 三层解耦，adapter 边界由 CI 架构检查强制，新增 Provider 协议层零改动；显式路由无 fallback，上游失败原样报错；89 项离线测试 + 真实 SSE 抓包 fixtures，无凭证 30 秒 demo。重难点：私有协议逆向与跨 chunk 流边界的协议级 characterization 测试。零第三方运行时依赖。"
@@ -106,9 +90,25 @@ repos:
       - "protocol-gateway"
       - "qoder"
       - "sse"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-10-20"
+  - name: "ggbdpq"
+    title: "ggbdpq"
+    description: "Frontend Engineer → AI Developer Tooling · LLM gateway · agent runtime · agent skills"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "cursor-loc"
+    title: "cursor-loc"
+    description: "为 Cursor IDE 专有界面提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包 NLS 无法触及的区域，英文界面下也可用。重难点：0.0.9 注入引擎重写为增量翻译——移除每 100ms 全页扫描、attachShadow 原型劫持与 DOM 变更全页重扫三个卡顿根源，exact 词条走 O(1) Map、变更只处理涉及节点，打字与滚动不再被拖慢；补丁仅手动应用时写入安装目录，卸载自动还原，缺备份时如实报告受限项不猜测拼接。"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "agent-hub"
     title: "agent-hub"
     description: "Agent 工程演示：巡检多智能体 + 持久化运行时 + MCP/Skill + 混合检索 + 评测"

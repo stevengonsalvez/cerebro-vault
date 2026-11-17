@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 1, 0, 3, 6, 10, 9, 3, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 4, 6, 12, 7, 2, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,38 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "LLMessenger"
-    title: "LLMessenger"
-    description: "Notification firewall for your Mac — AI briefs for iMessage, Signal, Telegram & Slack. On-device AI, no server, no telemetry. Free & open source."
-    language: "Swift"
-    topics:
-      - "ai"
-      - "apple-intelligence"
-      - "imessage"
-      - "llm"
-      - "local-first"
-      - "macos"
-      - "menubar-app"
-      - "notifications"
-      - "ollama"
-      - "privacy"
-      - "productivity"
-      - "signal"
-      - "slack"
-      - "swift"
-      - "swiftui"
-      - "telegram"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "proton-mail-bridge-client"
     title: "proton-mail-bridge-client"
     description: "Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize mail from Claude Desktop, Claude Code or any MCP client. 96 tools, read-only and send-to-self modes."
@@ -134,9 +102,9 @@ repos:
       - "smtp"
       - "sqlite"
       - "typescript"
-    stars_fact: 87
+    stars_fact: 91
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "signal-mcp"
     title: "signal-mcp"
     description: "Signal for AI assistants: an MCP server + CLI with searchable local message history, groups, polls, @mentions and 80+ tools on top of signal-cli. 100% local, read-only mode available."
@@ -159,9 +127,23 @@ repos:
       - "signal-cli"
       - "signal-messenger"
       - "sqlite"
-    stars_fact: 11
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-12"
+  - name: "fashion-skill"
+    title: "fashion-skill"
+    description: "Personal AI stylist skill for Claude Code and Claude Cowork — wardrobe inventory, outfit recommendations, pre-purchase checks, in-store mode, and more."
+    language: null
+    topics:
+      - "anthropic"
+      - "claude-code"
+      - "claude-code-skill"
+      - "fashion"
+      - "style"
+      - "wardrobe"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-05-18"
   - name: "vinted-mcp-cli"
     title: "vinted-mcp-cli"
     description: "Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items, and automate your secondhand workflow"
@@ -175,29 +157,35 @@ repos:
       - "model-context-protocol"
       - "secondhand"
       - "vinted"
-    stars_fact: 20
+    stars_fact: 21
     first_seen: null
     last_push: "2026-11-09"
-  - name: "proton-drive-mcp"
-    title: "proton-drive-mcp"
-    description: "MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and manage your end-to-end encrypted files without leaving the conversation."
-    language: "JavaScript"
+  - name: "finance-assistant"
+    title: "finance-assistant"
+    description: "Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo FIRE. claude.ai · Claude Code · Cowork. Open source, free."
+    language: "Python"
     topics:
-      - "claude"
+      - "anthropic"
+      - "budgeting"
       - "claude-code"
-      - "claude-desktop"
-      - "cli"
-      - "end-to-end-encryption"
+      - "claude-cowork"
+      - "claude-skill"
       - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "ocr"
-      - "proton"
-      - "proton-drive"
-      - "protondrive"
-    stars_fact: 3
+      - "personal-finance"
+      - "productivity"
+      - "skill"
+      - "tax"
+    stars_fact: 53
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-10-30"
+  - name: "googlarz"
+    title: "googlarz"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # googlarz

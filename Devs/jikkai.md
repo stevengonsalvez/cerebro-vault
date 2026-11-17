@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "d148e3d2c2843c2b"
-pushes_per_week: [2, 2, 0, 1, 5, 1, 3, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 0, 1, 5, 3, 1, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jikkai"
+    title: "jikkai"
+    description: "生も死も 残照比ひ 呑み込めり"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "switch-weread"
     title: "switch-weread"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-09-08"
+    last_push: "2026-11-14"
   - name: "verso"
     title: "verso"
     description: "A release toolkit for modern workspace-driven projects."
@@ -115,14 +123,6 @@ repos:
     title: "doctrine"
     description: null
     language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
-  - name: "mdx"
-    title: "mdx"
-    description: "A native MDX content compiler with Vite and Next adapters"
-    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null

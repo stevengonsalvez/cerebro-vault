@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [7, 1, 1, 0, 1, 1, 1, 1, 4, 2, 0, 0, 0]
+pushes_per_week: [7, 1, 1, 0, 1, 1, 1, 4, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,26 +84,9 @@ repos:
     topics:
       - "developer-tools"
       - "git"
-    stars_fact: 780
+    stars_fact: 781
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "stitchmd"
-    title: "stitchmd"
-    description: "Stitch multiple Markdown files together into a single document."
-    language: "Go"
-    topics:
-      - "markdown"
-    stars_fact: 67
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "home"
-    title: "home"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-16"
   - name: "cardamom"
     title: "cardamom"
     description: "Work tracker for agents with visibility for humans."
@@ -111,23 +94,45 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: null
-    language: "Ruby"
+    last_push: "2026-11-12"
+  - name: "stitchmd-action"
+    title: "stitchmd-action"
+    description: "Stitch together Markdown files with stitchmd."
+    language: "TypeScript"
+    topics:
+      - "github-actions"
+      - "markdown"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "doc2go"
+    title: "doc2go"
+    description: "Your Go project's documentation, to-go."
+    language: "Go"
+    topics:
+      - "documentation"
+      - "golang"
+    stars_fact: 121
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "komplete"
+    title: "komplete"
+    description: "Shell completion support for Kong CLI parser."
+    language: "Go"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "test-repo"
-    title: "test-repo"
-    description: "Repository used to test https://github.com/abhinav/git-spice"
-    language: null
-    topics: []
-    stars_fact: 0
+    last_push: "2026-11-16"
+  - name: "silog-go"
+    title: "silog-go"
+    description: "Colorful log/slog handler for CLI applications"
+    language: "Go"
+    topics:
+      - "golang"
+      - "logging"
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-16"
 ---
 
 # abhinav

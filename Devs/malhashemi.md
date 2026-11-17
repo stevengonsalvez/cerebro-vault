@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "745308b2b7085095"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 2, 0, 3, 1, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 3, 1, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,30 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-sessions"
+    title: "opencode-sessions"
+    description: "Session management plugin for OpenCode with multi-agent collaboration support"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 181
+    first_seen: null
+    last_push: "2025-10-30"
+  - name: "opencode-codex-computer-use"
+    title: "opencode-codex-computer-use"
+    description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
+    language: "TypeScript"
+    topics:
+      - "accessibility"
+      - "automation"
+      - "browser-use"
+      - "codex"
+      - "computer-use"
+      - "macos"
+      - "opencode"
+      - "opencode-plugin"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "opencode-gpt-live"
     title: "opencode-gpt-live"
     description: "Talk to OpenCode out loud: real-time GPT-Live voice calls on your ChatGPT subscription"
@@ -93,9 +117,17 @@ repos:
       - "tui"
       - "voice-assistant"
       - "webrtc"
-    stars_fact: 45
+    stars_fact: 48
     first_seen: null
     last_push: "2026-10-07"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "opencode-dynamic-workflows"
     title: "opencode-dynamic-workflows"
     description: "Deterministic multi-agent Workflows for OpenCode: TypeScript scripts that fan work out to subagents and combine their typed results."
@@ -112,14 +144,6 @@ repos:
     stars_fact: 9
     first_seen: null
     last_push: "2026-10-29"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-11-03"
   - name: "dubstack"
     title: "dubstack"
     description: "The development lifecycle where you and your agents work from the same understanding. 19 agent skills for interviews on interactive pages, goals tracked from idea to merge, outlines, implementation, and pull requests."
@@ -135,31 +159,7 @@ repos:
       - "sdlc"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "opencode-codex-computer-use"
-    title: "opencode-codex-computer-use"
-    description: "Let OpenCode operate your desktop apps and Chrome tabs with the Codex Computer Use engine already on your machine"
-    language: "TypeScript"
-    topics:
-      - "accessibility"
-      - "automation"
-      - "browser-use"
-      - "codex"
-      - "computer-use"
-      - "macos"
-      - "opencode"
-      - "opencode-plugin"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "opencode-sessions"
-    title: "opencode-sessions"
-    description: "Session management plugin for OpenCode with multi-agent collaboration support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 180
-    first_seen: null
-    last_push: "2025-10-30"
+    last_push: "2026-11-17"
 ---
 
 # malhashemi

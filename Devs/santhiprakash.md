@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [10, 7, 0, 1, 5, 2, 8, 2, 0, 0, 0, 0, 1]
+pushes_per_week: [13, 4, 0, 1, 5, 2, 9, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -87,7 +87,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-11-15"
   - name: "freshlane"
     title: "freshlane"
     description: "FreshLane — open-source neighborhood supermarket digital storefront (Next.js MVP)"

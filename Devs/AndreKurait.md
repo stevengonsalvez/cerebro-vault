@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 1, 2, 3, 5, 21, 86, 0, 5, 10]
+pushes_per_week: [0, 0, 0, 0, 2, 2, 2, 18, 16, 78, 0, 5, 12]
 windows:
   "7d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 104
+    pushes: 106
     distinct_repos: 3
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
+    pushes: 135
     distinct_repos: 8
     active_days: 24
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 5.5417
+  push_per_day: 5.6250
   repo_per_active_day: 0.3333
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
+    pushes: 12
     distinct_repos: 3
-    pushes_per_repo: 3.3333
+    pushes_per_repo: 4.0000
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 104
+    pushes: 106
     distinct_repos: 3
-    pushes_per_repo: 34.6667
+    pushes_per_repo: 35.3333
     active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 133
+    pushes: 135
     distinct_repos: 8
-    pushes_per_repo: 16.6250
+    pushes_per_repo: 16.8750
     active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,6 +77,30 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "asagiri"
+    title: "asagiri"
+    description: "Asagiri (朝霧): a fast Docker-compatible engine for macOS, Linux and Windows. An independent, Apache-2.0 fork of Kiri."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "joule-kitchen"
+    title: "joule-kitchen"
+    description: "A static Web Bluetooth app for Joule Turbo, with local temperature history, a Docker mock device, and browser-tested GitHub Pages deployment."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "homebrew-asagiri"
+    title: "homebrew-asagiri"
+    description: "Homebrew cask for Asagiri, updated automatically from verified GitHub releases."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "acp-traces"
     title: "acp-traces"
     description: "Proof of concept: a Rust proxy adding OpenTelemetry traces and metrics to Agent Client Protocol traffic."
@@ -109,53 +133,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "snap-version"
-    title: "snap-version"
-    description: "Inspect and rewrite OpenSearch/Elasticsearch snapshot version metadata in local or S3 repositories. Metadata changes do not establish restore compatibility."
-    language: "Java"
-    topics:
-      - "cli"
-      - "elasticsearch"
-      - "java"
-      - "opensearch"
-      - "s3"
-      - "smile"
-      - "snapshot"
-      - "snapshot-metadata"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "opensearch-migrations-demo"
-    title: "opensearch-migrations-demo"
-    description: "Rust CLI/TUI for provisioning local and AWS test environments for OpenSearch Migration Assistant."
-    language: "Rust"
-    topics:
-      - "demo"
-      - "kubernetes"
-      - "migration"
-      - "opensearch"
-      - "ratatui"
-      - "rust"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "jira-mcp-skill"
-    title: "jira-mcp-skill"
-    description: "CLI for configuring Jira/Confluence MCP clients with optional project context."
-    language: "JavaScript"
-    topics:
-      - "cli"
-      - "confluence"
-      - "jira"
-      - "mcp"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
 ---
 
 # AndreKurait
 
-133 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
+135 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AndreKurait

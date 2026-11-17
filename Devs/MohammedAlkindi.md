@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 2, 0, 0, 4, 0, 2, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 4, 0, 2, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,80 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "scout"
-    title: "scout"
-    description: "Plans outdoor shoots around sun, weather, and crowds."
-    language: "Python"
-    topics:
-      - "fastapi"
-      - "mcp-server"
-      - "photography"
-      - "services"
-      - "typescript"
-      - "weather"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "alkindix"
-    title: "alkindix"
-    description: "Personal portfolio and engineering site: systems, numerical correctness, and open source."
-    language: "HTML"
-    topics:
-      - "html"
-      - "personal-website"
-      - "portfolio"
-      - "static-site"
-      - "typescript"
-      - "vercel"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "mohammedalkindi"
-    title: "mohammedalkindi"
-    description: "Profile README"
-    language: null
-    topics:
-      - "github-profile"
-      - "profile-readme"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "ridge"
-    title: "ridge"
-    description: "Spreadsheet analysis. Ridge computes statistics in deterministic code with no model involved. Only the optional explanation step calls an LLM."
+  - name: "gmail-mcp"
+    title: "gmail-mcp"
+    description: "The Gmail MCP connector Anthropic refused to build."
     language: "JavaScript"
-    topics:
-      - "anthropic"
-      - "csv"
-      - "data-analysis"
-      - "data-quality"
-      - "data-visualization"
-      - "excel"
-      - "express"
-      - "llm"
-      - "nodejs"
-      - "spreadsheet-analysis"
-      - "statistics"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "proofx"
-    title: "proofx"
-    description: "Hunts counterexamples to number-theory conjectures and publishes seeded, replayable search ledgers."
-    language: "Python"
-    topics:
-      - "computational-mathematics"
-      - "conjectures"
-      - "formal-verification"
-      - "lean4"
-      - "mathematics"
-      - "number-theory"
-      - "python"
-      - "reproducible-research"
-      - "research-tool"
+    last_push: "2026-11-15"
+  - name: "room-radar"
+    title: "room-radar"
+    description: "ESP32 room presence experiments: Wi-Fi CSI nodes and an HLK-LD2450 mmWave reader, with the numpy/scipy processing side"
+    language: "HTML"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-12"
   - name: "switchyard"
     title: "switchyard"
     description: "Run many AI coding agents on one repo. Each gets its own git worktree, and Switchyard detects collisions between agents before you merge."
@@ -169,7 +111,51 @@ repos:
       - "worktree"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
+  - name: "alkindix"
+    title: "alkindix"
+    description: "Personal portfolio and engineering site: systems, numerical correctness, and open source."
+    language: "HTML"
+    topics:
+      - "html"
+      - "personal-website"
+      - "portfolio"
+      - "static-site"
+      - "typescript"
+      - "vercel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "ieee-balance-bot"
+    title: "ieee-balance-bot"
+    description: "Two-wheeled self-balancing robot with ESP32-S3 firmware, physics simulator, and Python speech telemetry bridge"
+    language: "C"
+    topics:
+      - "control-systems"
+      - "embedded"
+      - "esp32-s3"
+      - "firmware"
+      - "physics-simulation"
+      - "pid-controller"
+      - "python"
+      - "robotics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "scout"
+    title: "scout"
+    description: "Plans outdoor shoots around sun, weather, and crowds."
+    language: "Python"
+    topics:
+      - "fastapi"
+      - "mcp-server"
+      - "photography"
+      - "services"
+      - "typescript"
+      - "weather"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
 ---
 
 # MohammedAlkindi

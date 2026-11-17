@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
 pushes_per_week: [2, 0, 0, 6, 1, 1, 0, 0, 1, 1, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dex-special"
+    title: "dex-special"
+    description: "Dex special build"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "artificial-ocean"
     title: "artificial-ocean"
     description: "Soft-bodied creatures grown from genome strings and bred by how well they feed themselves"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "boom"
     title: "boom"
     description: "Celure AI skin-analysis app - Base44 entity schemas for skin profiles, routines, procedures and clinic referrals"
@@ -95,7 +103,7 @@ repos:
       - "skincare"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
   - name: "cityshield-v2"
     title: "cityshield-v2"
     description: null
@@ -127,15 +135,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "cityshield"
-    title: "cityshield"
-    description: "One emergency incident record that every responding agency in Bengaluru attaches to. React PWA + Fastify API. Prototype."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-14"
 ---
 
 # Hanishchow

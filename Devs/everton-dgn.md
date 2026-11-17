@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 0, 0, 2, 3, 11, 7, 6, 4, 9, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 3, 11, 7, 7, 5, 7, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 11
-    active_days: 20
+    pushes: 42
+    distinct_repos: 10
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1500
-  repo_per_active_day: 0.5500
+  push_per_day: 2.2105
+  repo_per_active_day: 0.5263
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0909
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,61 +65,32 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 43
-    distinct_repos: 11
-    pushes_per_repo: 3.9091
-    active_days: 20
+    pushes: 42
+    distinct_repos: 10
+    pushes_per_repo: 4.2000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "carreira-guiada"
-    title: "carreira-guiada"
-    description: "Automatize sua busca de emprego com IA: currículo, pesquisa de vagas, formulários, candidaturas e retornos por e-mail. Use seu modelo preferido, com execução por objetivo (goal) em ferramentas compatíveis."
-    language: "Python"
+  - name: "solidjs_base"
+    title: "solidjs_base"
+    description: "Shared packages for SolidJS applications built with Vite+."
+    language: "TypeScript"
     topics:
-      - "agentes-de-ia"
-      - "ai-assistant"
-      - "automacao"
-      - "busca-de-emprego"
-      - "candidaturas"
-      - "career"
-      - "carreira"
-      - "curriculo"
-      - "emprego"
-      - "inteligencia-artificial"
-      - "job-search"
-      - "open-source"
-      - "portuguese"
-      - "pt-br"
-      - "python"
-      - "resume"
-      - "trabalho"
-      - "vagas"
-    stars_fact: 2
+      - "monorepo"
+      - "oxlint"
+      - "paraglide"
+      - "solidjs"
+      - "ssr"
+      - "vite-plus"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "llm-router"
-    title: "llm-router"
-    description: "Local OpenCode router for MiniMax, GLM, Claude, and Codex with adaptive routing and configurable tool policies"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "codex"
-      - "glm"
-      - "llm-router"
-      - "local-ai"
-      - "minimax"
-      - "multi-model"
-      - "ollama"
-      - "opencode"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "boilerplate_solidjs"
     title: "boilerplate_solidjs"
     description: "Boilerplate SolidJS 2 com TypeScript, Vite+, SSR e funções de servidor. Inclui Nitro, testes com Vitest e Playwright, lint com Oxlint, formatação com Oxfmt e deploy na Vercel."
@@ -140,18 +111,71 @@ repos:
       - "vitest"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "vitest-env-undefined-repro"
-    title: "vitest-env-undefined-repro"
-    description: "Reproduction: undefined values in test.env become the string \"undefined\""
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
+    last_push: "2026-11-17"
+  - name: "everton-dgn"
+    title: "everton-dgn"
+    description: "Source of my GitHub profile README"
+    language: null
+    topics:
+      - "github-profile"
+      - "profile-readme"
+      - "readme"
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-12"
+  - name: "carreira-guiada"
+    title: "carreira-guiada"
+    description: "AI agent workflow that automates the job search: ATS résumé, job matching, form filling, applications and e-mail follow-ups. Works with Claude Code, Codex CLI or your preferred model."
+    language: "Python"
+    topics:
+      - "agentes-de-ia"
+      - "ai-agents"
+      - "ai-assistant"
+      - "automacao"
+      - "busca-de-emprego"
+      - "candidaturas"
+      - "career"
+      - "carreira"
+      - "curriculo"
+      - "emprego"
+      - "inteligencia-artificial"
+      - "job-search"
+      - "llm"
+      - "open-source"
+      - "portuguese"
+      - "pt-br"
+      - "python"
+      - "resume"
+      - "trabalho"
+      - "vagas"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "generate-commit-extension"
+    title: "generate-commit-extension"
+    description: "AI-powered Conventional Commits for VS Code and VSCodium: generates the message from your staged diff via OpenRouter, Kimi, GLM, MiniMax, Claude Code CLI or Codex CLI."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "claude"
+      - "codex"
+      - "commit-message"
+      - "conventional-commits"
+      - "git"
+      - "glm"
+      - "kimi"
+      - "llm"
+      - "minimax"
+      - "openrouter"
+      - "typescript"
+      - "vscode-extension"
+      - "vscodium"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-04"
   - name: "content-lens"
     title: "content-lens"
-    description: "Local-first browser extension that filters algorithmic feeds with explicit, explainable rules — no account, no backend, no model required. Adapters for YouTube, LinkedIn, X, Reddit and Hacker News."
+    description: "Local-first browser extension that filters algorithmic feeds with explicit, explainable rules. Optional AI classification and rule authoring; no account or backend. YouTube, LinkedIn, X, Reddit, Hacker News."
     language: "TypeScript"
     topics:
       - "browser-extension"
@@ -176,19 +200,11 @@ repos:
       - "youtube"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "vp-run-stdin-nonblock"
-    title: "vp-run-stdin-nonblock"
-    description: "Minimal reproduction: vp run gives scripts a non-blocking stdin when the run config uses a constant"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-16"
 ---
 
 # everton-dgn
 
-43 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
+42 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

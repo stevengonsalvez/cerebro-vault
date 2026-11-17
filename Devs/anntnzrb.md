@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 2, 1, 12, 17, 18, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 0, 13, 22, 14, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "raydian-releases"
+    title: "raydian-releases"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "nurpkgs"
+    title: "nurpkgs"
+    description: "annt's personal NUR (nixpkgs) repository"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "agents"
+    title: "agents"
+    description: "Configurations for LLM Harnesses"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "_nixrice"
     title: "_nixrice"
     description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
@@ -86,23 +110,7 @@ repos:
       - "nix"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "agents"
-    title: "agents"
-    description: "Configurations for LLM Harnesses"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "nurpkgs"
-    title: "nurpkgs"
-    description: "annt's personal NUR (nixpkgs) repository"
-    language: "Nix"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
   - name: "xi"
     title: "xi"
     description: "Deterministic EA SPORTS FC 27 lineup picker: CLI and static site"
@@ -124,26 +132,6 @@ repos:
       - "uv"
       - "voicemeeter"
       - "voicemeeter-banana"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "steamctl"
-    title: "steamctl"
-    description: "Control the running Steam desktop client (friends, voice calls, ring loops) from a CLI or native WebView2 window, via Steam's CEF DevTools port. Windows, Bun, Effect."
-    language: "TypeScript"
-    topics:
-      - "automation"
-      - "bun"
-      - "cdp"
-      - "chrome-devtools-protocol"
-      - "cli"
-      - "effect-ts"
-      - "steam"
-      - "steam-client"
-      - "typescript"
-      - "voice-chat"
-      - "webview2"
       - "windows"
     stars_fact: 0
     first_seen: null

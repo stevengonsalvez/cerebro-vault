@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 3, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 5, 1, 3, 1, 2, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 4
-    active_days: 7
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7143
-  repo_per_active_day: 0.5714
+  push_per_day: 1.6250
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.7500
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
+    pushes: 13
     distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 7
+    pushes_per_repo: 3.2500
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nvtour"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "clickhouseingest"
     title: "clickhouseingest"
     description: null
@@ -97,6 +97,6 @@ repos:
 
 # antonio2368
 
-12 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
+13 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/antonio2368

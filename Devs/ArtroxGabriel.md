@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 1, 2, 4, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 5, 2, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,15 +86,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "frequencia-matrix-easy"
-    title: "frequencia-matrix-easy"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-17"
   - name: "clerk"
     title: "clerk"
     description: "Fast, end-to-end local pipeline for meeting audio/video transcription and structured summary generation using faster-whisper and local Ollama LLMs."
@@ -105,7 +97,15 @@ repos:
       - "transcriptions"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-11"
+  - name: "frequencia-matrix-easy"
+    title: "frequencia-matrix-easy"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "aws-estacionamento"
     title: "aws-estacionamento"
     description: null
@@ -113,7 +113,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-17"
   - name: "aniup"
     title: "aniup"
     description: null

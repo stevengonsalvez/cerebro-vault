@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a1ee33a52509d445"
-pushes_per_week: [0, 2, 0, 0, 8, 6, 3, 1, 2, 1, 0, 1, 0]
+pushes_per_week: [1, 1, 0, 2, 7, 5, 3, 2, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,11 +80,11 @@ repos:
   - name: "agent-world"
     title: "agent-world"
     description: null
-    language: null
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-14"
   - name: "PASTA_robustnet"
     title: "PASTA_robustnet"
     description: null

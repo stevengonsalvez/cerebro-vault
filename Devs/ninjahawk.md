@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "9ee133e6f5024f08"
-pushes_per_week: [0, 0, 0, 0, 7, 2, 3, 0, 3, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 8, 1, 3, 0, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,17 +82,40 @@ repos:
     description: "Benchmark for tracking model capability after release."
     language: "Python"
     topics: []
-    stars_fact: 1853
+    stars_fact: 1939
     first_seen: "2026-09-30T06:02:10.916514+00:00"
-    last_push: "2026-11-09"
-  - name: "S-and-Poke-500"
-    title: "S-and-Poke-500"
-    description: null
+    last_push: "2026-11-17"
+  - name: "Subtext"
+    title: "Subtext"
+    description: "To know what models don't say out loud."
+    language: "HTML"
+    topics:
+      - "interpretability"
+      - "llm"
+      - "mechanistic-interpretability"
+      - "pytorch"
+      - "qwen"
+      - "transformers"
+      - "visualization"
+    stars_fact: 250
+    first_seen: null
+    last_push: "2026-07-23"
+  - name: "hold-or-fold"
+    title: "hold-or-fold"
+    description: "Does a coding agent's confidence tell an overseer which claims survive a challenge? Apart AI x Epistemics sprint, Track 1"
     language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-15"
+  - name: "hollow-agentOS"
+    title: "hollow-agentOS"
+    description: "Hollow is an open-sourced self-modifying agentic system for consumer hardware"
+    language: "Python"
+    topics: []
+    stars_fact: 312
+    first_seen: null
+    last_push: "2026-10-14"
   - name: "crypto"
     title: "crypto"
     description: null
@@ -100,31 +123,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "T-Finance"
-    title: "T-Finance"
+    last_push: "2026-11-17"
+  - name: "S-and-Poke-500"
+    title: "S-and-Poke-500"
     description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "earned-or-claimed"
-    title: "earned-or-claimed"
-    description: "Can a monitor tell when an AI agent has actually finished its task? Apart Swarm Alignment sprint, Track 4"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "fairlittlegoods-site"
-    title: "fairlittlegoods-site"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
 ---
 
 # ninjahawk

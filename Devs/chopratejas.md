@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [2, 0, 1, 3, 4, 3, 8, 17, 1, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 3, 4, 4, 7, 18, 0, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 5
-    active_days: 18
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.3889
-  repo_per_active_day: 0.2778
+  push_per_day: 2.4706
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.8000
   basename_concentration: 0.6000
   shapes: []
@@ -67,18 +67,42 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 43
+    pushes: 42
     distinct_repos: 5
-    pushes_per_repo: 8.6000
-    active_days: 18
+    pushes_per_repo: 8.4000
+    active_days: 17
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "headroom-workshop-kit"
+    title: "headroom-workshop-kit"
+    description: "Hands-on kit: see what your coding agent sends, and what Headroom removes"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "invalidate"
+    title: "invalidate"
+    description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
+    language: "Python"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "vitals"
+    title: "vitals"
+    description: "Codebase vital signs for Claude Code — finds hotspots, diagnoses root causes, ranks fixes by ROI"
+    language: "Python"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-03-04"
   - name: "headroom-zed"
     title: "headroom-zed"
     description: "Zed extension for Headroom — context compression for AI agents"
@@ -105,22 +129,6 @@ repos:
     stars_fact: 80
     first_seen: null
     last_push: "2026-09-30"
-  - name: "invalidate"
-    title: "invalidate"
-    description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
-    language: "Python"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "headroom-workshop-kit"
-    title: "headroom-workshop-kit"
-    description: "Hands-on kit: see what your coding agent sends, and what Headroom removes"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-20"
   - name: "memcached"
     title: "memcached"
     description: "memcached implementation"
@@ -129,18 +137,10 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2024-11-20"
-  - name: "audio-decode"
-    title: "audio-decode"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-26"
 ---
 
 # chopratejas
 
-43 pushes across 5 repositories on 18 active days in the last 90 days of public GitHub push activity.
+42 pushes across 5 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chopratejas

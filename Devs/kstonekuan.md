@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [6, 3, 3, 1, 5, 6, 3, 0, 1, 2, 0, 0, 1]
+pushes_per_week: [6, 2, 3, 1, 5, 6, 3, 1, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 5
     active_days: 21
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.4762
+  push_per_day: 1.4286
   repo_per_active_day: 0.2381
   not_owned_ratio: 1.0000
   basename_concentration: 0.6000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 5
-    pushes_per_repo: 6.2000
+    pushes_per_repo: 6.0000
     active_days: 21
     repos_not_owned: 5
     not_owned_basenames: 3
@@ -149,6 +149,6 @@ repos:
 
 # kstonekuan
 
-31 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+30 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kstonekuan

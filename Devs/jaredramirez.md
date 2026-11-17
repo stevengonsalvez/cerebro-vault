@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 4, 1, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 3, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
   - name: "christmas-gift-drawing"
     title: "christmas-gift-drawing"
     description: "Quick lil application to select who has who for gifts"

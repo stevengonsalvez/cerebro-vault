@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 4, 5, 12, 2, 0, 0, 2]
+pushes_per_week: [2, 0, 0, 1, 0, 0, 4, 8, 9, 2, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,17 +77,6 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "mcp"
-    title: "mcp"
-    description: "CLI that turns MCP servers into terminal commands, single binary"
-    language: "Rust"
-    topics:
-      - "cli"
-      - "mcp"
-      - "mcp-server"
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "awesome-go"
     title: "awesome-go"
     description: "A curated list of awesome Go frameworks, libraries and software"
@@ -99,9 +88,20 @@ repos:
       - "golang"
       - "golang-library"
       - "hacktoberfest"
-    stars_fact: 193000
+    stars_fact: 194339
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-16"
+  - name: "mcp"
+    title: "mcp"
+    description: "CLI that turns MCP servers into terminal commands, single binary"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "mcp"
+      - "mcp-server"
+    stars_fact: 78
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "avelino.run"
     title: "avelino.run"
     description: "My personal blog"
@@ -112,7 +112,15 @@ repos:
       - "personal-website"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "outl-plugin-ouraring"
+    title: "outl-plugin-ouraring"
+    description: "An outl plugin that syncs your Oura Ring health metrics into daily pages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "mads"
     title: "mads"
     description: "Describe your business in a TOML file. mads asks an LLM to plan the account and build the campaigns, checks every limit Google enforces, and writes the CSV files you upload in Google Ads."
@@ -125,7 +133,7 @@ repos:
       - "google-ads"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-12"
   - name: "jbundle"
     title: "jbundle"
     description: "Package JVM applications (Clojure, Java) into self-contained binaries. No JVM installation required to run the output."
@@ -139,18 +147,7 @@ repos:
       - "rust"
     stars_fact: 185
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "avelino"
-    title: "avelino"
-    description: "Hey, I'm Avelino! 👋"
-    language: null
-    topics:
-      - "avelino"
-      - "readme"
-      - "readme-profile"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-04-01"
+    last_push: "2026-11-13"
 ---
 
 # avelino

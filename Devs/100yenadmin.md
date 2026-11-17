@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [55, 12, 3, 8, 4, 45, 67, 30, 47, 43, 1, 1, 7]
+pushes_per_week: [58, 10, 4, 7, 7, 42, 74, 41, 41, 30, 1, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -77,6 +77,22 @@ reasons:
   - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hermes-teammates"
+    title: "hermes-teammates"
+    description: "Give your Hermes agent a fixed team: named teammates with roles, follow-ups that keep context, and a Kanban review lane."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "ai-agents"
+      - "hermes"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "kanban"
+      - "multi-agent"
+      - "subagents"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "hermes-personal-assistant"
     title: "hermes-personal-assistant"
     description: "Your Hermes agent runs errands on the real sites, fills every field, and stops at the last button until you say yes."
@@ -88,9 +104,9 @@ repos:
       - "hermes-plugin"
       - "personal-assistant"
       - "travel"
-    stars_fact: 0
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "fish-audio-hermes"
     title: "fish-audio-hermes"
     description: "Your Hermes agent speaks and listens with Fish Audio: expressive voices in 80+ languages, voice design, live dictation."
@@ -106,12 +122,12 @@ repos:
       - "text-to-speech"
       - "tts"
       - "voice-cloning"
-    stars_fact: 68
+    stars_fact: 69
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "hermes-teammates"
-    title: "hermes-teammates"
-    description: "Give your Hermes agent a fixed team: named teammates with roles, follow-ups that keep context, and a Kanban review lane."
+    last_push: "2026-11-14"
+  - name: "hermes-plan-mode"
+    title: "hermes-plan-mode"
+    description: "Plan mode for Hermes Agent: it explores read-only and writes a plan, and its edit tools stay blocked until you approve."
     language: "Python"
     topics:
       - "ai-agent"
@@ -119,12 +135,10 @@ repos:
       - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
-      - "kanban"
-      - "multi-agent"
-      - "subagents"
-    stars_fact: 59
+      - "plan-mode"
+    stars_fact: 48
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
   - name: "ai-emotion-chip"
     title: "ai-emotion-chip"
     description: "Your Hermes agent decides how to say it: the sighs, whispers and pauses it writes, voiced by ElevenLabs or Fish Audio."
@@ -141,37 +155,24 @@ repos:
       - "voice"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "boardstate-hermes-plugin"
-    title: "boardstate-hermes-plugin"
-    description: "From one ask, your Hermes agent builds a live board of KPIs, tables and charts, and keeps it current as plans change."
-    language: "JavaScript"
-    topics:
-      - "agent"
-      - "ai-agent"
-      - "dashboard"
-      - "hermes"
-      - "hermes-agent"
-      - "hermes-plugin"
-      - "mcp"
-      - "widgets"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "hermes-plan-mode"
-    title: "hermes-plan-mode"
-    description: "Plan mode for Hermes Agent: it explores read-only and writes a plan, and its edit tools stay blocked until you approve."
+    last_push: "2026-11-13"
+  - name: "glasses-platform"
+    title: "glasses-platform"
+    description: "Your own Hermes agent on smart glasses and voice devices: it sees what you see, answers by voice, and reminds you."
     language: "Python"
     topics:
       - "ai-agent"
-      - "ai-agents"
+      - "ai-glasses"
       - "hermes"
       - "hermes-agent"
       - "hermes-plugin"
-      - "plan-mode"
-    stars_fact: 48
+      - "ray-ban-meta"
+      - "smart-glasses"
+      - "voice-assistant"
+      - "wearables"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
 ---
 
 # 100yenadmin

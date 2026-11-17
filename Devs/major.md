@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 2, 3, 15, 3, 5, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 3, 15, 7, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,46 +77,37 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ldap-mcp"
-    title: "ldap-mcp"
-    description: null
+  - name: "MySQLTuner-perl"
+    title: "MySQLTuner-perl"
+    description: "MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability."
+    language: "Perl"
+    topics: []
+    stars_fact: 9477
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "tldw"
+    title: "tldw"
+    description: "Too Long; Didn't Watch. A tiny PubSubHubbub subscriber for YouTube channels that prints a one-line summary to your terminal when a followed creator uploads a new video."
     language: "Python"
     topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "hyprland-input-watch"
+    title: "hyprland-input-watch"
+    description: "Keep Hyprland workspaces accessible when a monitor switches inputs."
+    language: "Python"
+    topics:
+      - "ddcutil"
+      - "hyprland"
+      - "kvm"
+      - "linux"
+      - "monitors"
+      - "python"
+      - "wayland"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "octodns-porkbun"
-    title: "octodns-porkbun"
-    description: "Porkbun DNS provider for octoDNS, powered by oinker"
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "tickerscope"
-    title: "tickerscope"
-    description: "Unofficial async Python client for the MarketSurge stock research API"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "major.io"
-    title: "major.io"
-    description: "Source code for major.io"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "jira-mcp"
-    title: "jira-mcp"
-    description: "Token-efficient, read-only MCP server for Jira Cloud tickets, search, comments, custom fields, and user discovery, powered by FastMCP."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-13"
   - name: "gitlab-mcp"
     title: "gitlab-mcp"
     description: "Token-efficient MCP server for GitLab merge requests, code reviews, merge trains, and work items, powered by FastMCP."
@@ -124,7 +115,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "jira-mcp"
+    title: "jira-mcp"
+    description: "Token-efficient, read-only MCP server for Jira Cloud tickets, search, comments, custom fields, and user discovery, powered by FastMCP."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "fedora-rpm-specs"
+    title: "fedora-rpm-specs"
+    description: "Tracking changes to Fedora RPM spec files"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # major

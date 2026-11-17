@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 3, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,29 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "prompter"
+    title: "prompter"
+    description: "Turn a Markdown script into a full-screen teleprompter on your second monitor, with one command."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "sunshine-gnome-virtual-display"
+    title: "sunshine-gnome-virtual-display"
+    description: "Stream GNOME Wayland to Moonlight on a virtual monitor that matches each client. Sunshine, no dummy plug, multi-monitor extend, Wi-Fi tuning."
+    language: "Python"
+    topics:
+      - "game-streaming"
+      - "gnome"
+      - "linux"
+      - "moonlight"
+      - "sunshine"
+      - "virtual-display"
+      - "wayland"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "emoubarak.github.io"
     title: "emoubarak.github.io"
     description: null
@@ -134,34 +157,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "strata-flash-next-rtx3080-20gb"
-    title: "strata-flash-next-rtx3080-20gb"
-    description: "Qwen3.8-Flash-Next 180B (Strata 0.2.9, Q2_0) on RTX 3080 20 GB over OCuLink Gen4: full config, dated benchmarks, reproduce scripts"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "jev-check"
-    title: "jev-check"
-    description: "AI browser agent testing for staging apps: sign in as a real account state (free, paid, lapsed, team), follow a plain-English goal, verify against the database. Agent skill for Claude Code, Codex."
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-use"
-      - "claude-code"
-      - "e2e-testing"
-      - "jev"
-      - "qa"
-      - "rls"
-      - "skill-md"
-      - "staging"
-      - "supabase"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-04"
 ---
 
 # emoubarak

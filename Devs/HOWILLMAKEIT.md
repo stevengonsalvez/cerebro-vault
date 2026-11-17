@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 1, 1, 1, 1, 1, 0, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 1, 1, 0, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.3333
+  repo_per_active_day: 0.3750
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,18 +65,31 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Sparrow"
+    title: "Sparrow"
+    description: "麻雀虽小。五脏俱全。基于 Decoder-only + MoE 架构的轻量级大语言模型实验项目(196M/A106M)，完整覆盖 Pretrain → SFT → DPO 三阶段训练流程。支持 DeepSpeed ZeRO-1/2/3 分布式训练，提供基于 Reward Model 的自动化评测与 DPO 数据合成方案。"
+    language: "Python"
+    topics:
+      - "deepspeed"
+      - "dpo"
+      - "llm"
+      - "pretraining"
+      - "sft"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-04-09"
   - name: "dsh-model-context-catalog"
     title: "dsh-model-context-catalog"
     description: "DeepSeek Harness 插件：一键匹配模型上下文窗口，展示容量来源，支持勾选批量配置、已有窗口管理和手动编辑。"
@@ -95,7 +108,7 @@ repos:
       - "pi-ai"
     stars_fact: 30
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "football-mcp"
     title: "football-mcp"
     description: "面向 Claude、Codex、Cursor 和 DeepSeek Harness 的足球数据 MCP Server，支持 18 个欧洲联赛、8 个杯赛，以及比赛、积分榜、交锋、赔率和近期状态查询。"
@@ -122,19 +135,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-25"
-  - name: "Sparrow"
-    title: "Sparrow"
-    description: "麻雀虽小。五脏俱全。基于 Decoder-only + MoE 架构的轻量级大语言模型实验项目(196M/A106M)，完整覆盖 Pretrain → SFT → DPO 三阶段训练流程。支持 DeepSpeed ZeRO-1/2/3 分布式训练，提供基于 Reward Model 的自动化评测与 DPO 数据合成方案。"
-    language: "Python"
-    topics:
-      - "deepspeed"
-      - "dpo"
-      - "llm"
-      - "pretraining"
-      - "sft"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-04-09"
   - name: "make-chatgpt-agent"
     title: "make-chatgpt-agent"
     description: "让 ChatGPT 通过 MCP 读写本机代码仓库(devspace + ngrok)｜Let ChatGPT read and write your local code repos via MCP, using devspace and an ngrok tunnel"
@@ -178,6 +178,6 @@ repos:
 
 # HOWILLMAKEIT
 
-9 pushes across 3 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HOWILLMAKEIT

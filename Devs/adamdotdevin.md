@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 0, 1, 0]
@@ -82,9 +82,17 @@ repos:
     description: "Preeeeetty, pretty good"
     language: "JavaScript"
     topics: []
-    stars_fact: 1265
+    stars_fact: 1269
     first_seen: null
     last_push: "2023-02-06"
+  - name: "opencode-peers"
+    title: "opencode-peers"
+    description: "Lets OpenCode sessions find each other and talk"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "dotfiles"
     title: "dotfiles"
     description: "My dotfiles, heyyyy"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 10
     first_seen: null
     last_push: "2022-05-08"
-  - name: "astro-streaming-example"
-    title: "astro-streaming-example"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-07-31"
 ---
 
 # adamdotdevin

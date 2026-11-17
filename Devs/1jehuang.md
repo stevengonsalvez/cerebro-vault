@@ -10,22 +10,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [7, 5, 1, 0, 30, 51, 10, 45, 58, 30, 0, 3, 1]
+pushes_per_week: [7, 4, 1, 0, 31, 53, 9, 56, 52, 23, 0, 3, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 3
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -50,18 +50,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 54
+    pushes: 55
     distinct_repos: 3
-    pushes_per_repo: 18.0000
-    active_days: 12
+    pushes_per_repo: 18.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -95,33 +95,17 @@ repos:
       - "rust"
       - "terminal"
       - "tui"
-    stars_fact: 21648
+    stars_fact: 21827
     first_seen: "2026-07-25T06:00:06.342169+00:00"
-    last_push: "2026-11-09"
-  - name: "jcode-desktop"
-    title: "jcode-desktop"
-    description: "Native spatial desktop client for Jcode"
-    language: "Rust"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "justrust"
-    title: "justrust"
-    description: "Ultra fast Rust compile for coding agents"
-    language: "Rust"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "jcode-mobile"
-    title: "jcode-mobile"
+    last_push: "2026-11-17"
+  - name: "firefox-agent-bridge"
+    title: "firefox-agent-bridge"
     description: null
-    language: "Rust"
+    language: "JavaScript"
     topics: []
-    stars_fact: 1
+    stars_fact: 38
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-10-06"
   - name: "mermaid-rs-renderer"
     title: "mermaid-rs-renderer"
     description: "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
@@ -133,17 +117,33 @@ repos:
       - "mermaid"
       - "rust"
       - "svg"
-    stars_fact: 1819
+    stars_fact: 1823
     first_seen: null
     last_push: "2026-10-04"
-  - name: "jcode-bench"
-    title: "jcode-bench"
-    description: "The first uncontaminatable benchmark: improve given production-grade primitives, exhaustively verified, deterministically scored"
-    language: "C"
+  - name: "justrust"
+    title: "justrust"
+    description: "Ultra fast Rust compile for coding agents"
+    language: "Rust"
     topics: []
-    stars_fact: 10
+    stars_fact: 28
     first_seen: null
-    last_push: "2026-09-01"
+    last_push: "2026-11-17"
+  - name: "jcode-desktop"
+    title: "jcode-desktop"
+    description: "Native spatial desktop client for Jcode"
+    language: "Rust"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "jcode-mobile"
+    title: "jcode-mobile"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # 1jehuang

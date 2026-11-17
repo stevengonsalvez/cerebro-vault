@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 1]
@@ -77,12 +77,20 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ACL4SSR-Luyuyun-Liangxin"
+    title: "ACL4SSR-Luyuyun-Liangxin"
+    description: "基于ACL4SSR的订阅转换配置，适配鹿语云+良心云双机场：Emby节点解析与低倍率引流、地区-机场一键分组、AI/GitHub/TikTok精细分流"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "vivo-notes-migrator"
     title: "vivo-notes-migrator"
     description: "vivo 原子笔记 → Mac 备忘录/JSON/Markdown 一键迁移工具（CDP + webpack 注入，零依赖 Node CLI）"
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-11-05"
   - name: "bilibili-copy-subtitles"
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
-  - name: "ACL4SSR-Luyuyun"
-    title: "ACL4SSR-Luyuyun"
-    description: "基于ACL4SSR订阅地址-针对鹿语云机场定制的订阅转换文件，主要新增鹿语云emby节点解析与规则引流"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-11-15"
   - name: "knowsense"
     title: "knowsense"
     description: null

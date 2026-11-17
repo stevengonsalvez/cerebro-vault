@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [1, 0, 0, 1, 6, 1, 2, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "planwerk"
+    title: "planwerk"
+    description: "A local inbox and kanban board for agentic software development"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "mx-keypad-ahp-bridge"
     title: "mx-keypad-ahp-bridge"
     description: "Direct-HID Logitech MX Creative Keypad console for Agent Host Protocol sessions"
@@ -98,7 +106,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-16"
   - name: "agent-reproach"
     title: "agent-reproach"
     description: "A local feedback button for coding agents, with a compact review canvas."
@@ -107,14 +115,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-06"
-  - name: "planwerk"
-    title: "planwerk"
-    description: "A local inbox and kanban board for agentic software development"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "agent-toolbelt"
     title: "agent-toolbelt"
     description: "Personal agent plugins that earn their place in the toolbelt."

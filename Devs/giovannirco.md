@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 1, 0, 14, 1, 4, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 14, 1, 4, 0, 3, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "giovannirco"
-    title: "giovannirco"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "latchkey"
     title: "latchkey"
     description: "Owner-only control of TTLock smart locks from ESP32 boards: pairing, every lock feature, hardening and a web UI, with no cloud and no phone."
@@ -99,34 +91,7 @@ repos:
       - "ttlock"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "platen"
-    title: "platen"
-    description: "Your printer and scanner for people, programs and AI agents: web UI, REST API and a built-in MCP server. Prints PDFs on raster-only printers, scans to Paperless-ngx. One Go binary, no CUPS."
-    language: "Go"
-    topics:
-      - "airprint"
-      - "escl"
-      - "golang"
-      - "homelab"
-      - "ipp"
-      - "mcp"
-      - "mcp-server"
-      - "paperless-ngx"
-      - "printing"
-      - "scanner"
-      - "self-hosted"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "arith-ts"
-    title: "arith-ts"
-    description: "Integer arithmetic over HTTP in TypeScript (Fastify on Node 24): four endpoints, a page, metrics, Helm and Kustomize."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-12"
   - name: "portfolio"
     title: "portfolio"
     description: "Source of giovanni.dev.br"
@@ -134,7 +99,31 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-13"
+  - name: "giovanni-dev-br-public"
+    title: "giovanni-dev-br-public"
+    description: "A compact Three.js orrery portfolio. Fly between projects, read their dossiers, and talk to COMM about where you are."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "interview-skills"
+    title: "interview-skills"
+    description: "Agent skills (Claude Code, Codex, Grok Build…) to turn interview recordings into local speaker-labelled transcripts and run interview loops"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "jev-playground"
+    title: "jev-playground"
+    description: "Twenty local sites that show TypeSafe Jev making decisions."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "peephole"
     title: "peephole"
     description: "A tiny window into your homelab: a Rust hub renders dashboard pages as frames for small ESP32 screens, with plugins (Prometheus, mempool, UniFi Protect) and browser flashing"
@@ -148,7 +137,7 @@ repos:
       - "rust"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-12"
 ---
 
 # giovannirco

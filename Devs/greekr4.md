@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 0, 4, 0, 1, 0, 2, 2, 0, 1, 0]
+pushes_per_week: [1, 0, 0, 0, 4, 0, 1, 1, 3, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,7 +88,7 @@ repos:
       - "playwright"
       - "stealth"
       - "web-scraping"
-    stars_fact: 206
+    stars_fact: 210
     first_seen: null
     last_push: "2026-08-27"
   - name: "rever-browser"
@@ -108,9 +108,9 @@ repos:
       - "mcp"
       - "reverse-engineering"
       - "web-scraping"
-    stars_fact: 53
+    stars_fact: 55
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "canvas-ui"
     title: "canvas-ui"
     description: "HTML-in-Canvas API (drawElementImage) demos & Claude skill"
@@ -126,7 +126,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-15"
   - name: "viruagent-cli"
     title: "viruagent-cli"
     description: "AI agent-powered CLI for blog publishing, Naver Cafe, Instagram, X (Twitter) & Reddit automation"

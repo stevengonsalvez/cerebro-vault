@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 1, 9, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 7, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,14 +82,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "feedyour.email"
-    title: "feedyour.email"
-    description: "(rss) feed your emails"
-    language: "Ruby"
-    topics: []
-    stars_fact: 49
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "bsky-backup"
     title: "bsky-backup"
     description: "@indirect.io"
@@ -97,7 +89,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
+  - name: "feedyour.email"
+    title: "feedyour.email"
+    description: "(rss) feed your emails"
+    language: "Ruby"
+    topics: []
+    stars_fact: 49
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "rails-footnotes"
     title: "rails-footnotes"
     description: "Every Rails page has footnotes that gives information about your application and links back to your editor"
@@ -105,7 +105,7 @@ repos:
     topics: []
     stars_fact: 1521
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
   - name: "andre.arko.net"
     title: "andre.arko.net"
     description: "blog"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [1, 0, 1, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 5, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,58 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "markdown-magic"
+    title: "markdown-magic"
+    description: "💫 Automatically format markdown files via comment blocks using source code, external data & custom transforms."
+    language: "JavaScript"
+    topics:
+      - "docs"
+      - "docs-generator"
+      - "dx"
+      - "markdown"
+      - "readme"
+      - "wired"
+    stars_fact: 872
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "preseal"
+    title: "preseal"
+    description: "Encrypt env vars before your host sees them. Ciphertext goes to Netlify, AWS SSM or 1Password; the key lives in your code."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "analytics"
+    title: "analytics"
+    description: "Lightweight analytics abstraction layer for tracking page views, custom events, & identifying visitors"
+    language: "JavaScript"
+    topics:
+      - "analytics"
+      - "analytics-utils"
+      - "gdpr-compliant"
+      - "metrics"
+      - "telemetry"
+      - "wired"
+    stars_fact: 2671
+    first_seen: null
+    last_push: "2026-06-27"
+  - name: "claude-code-session-cache"
+    title: "claude-code-session-cache"
+    description: "GitHub Actions to carry a Claude Code session between CI runs on the same Issue/PR (resume after timeouts)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "isomorphic-react-example"
+    title: "isomorphic-react-example"
+    description: "Deprecated! ReactJS + NodeJS ( express ) demo tutorial with video. Universal/Isomorphic JS = Shared JavaScript that runs on both the client & server."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1668
+    first_seen: null
+    last_push: "2017-10-30"
   - name: "awesome-stoicism"
     title: "awesome-stoicism"
     description: "💆‍♂️ Stoic philosophy resources"
@@ -85,52 +137,6 @@ repos:
     stars_fact: 142
     first_seen: null
     last_push: "2023-09-13"
-  - name: "stars"
-    title: "stars"
-    description: "Automatically indexed GitHub stars"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "netlify-functions-workshop"
-    title: "netlify-functions-workshop"
-    description: "Netlify Serverless Functions Workshop"
-    language: "JavaScript"
-    topics:
-      - "functions"
-      - "netlify"
-      - "netlify-functions"
-      - "serverless"
-      - "workshop"
-    stars_fact: 341
-    first_seen: null
-    last_push: "2021-03-11"
-  - name: "configorama"
-    title: "configorama"
-    description: "⚙️ ${variable} support for config files"
-    language: "JavaScript"
-    topics:
-      - "wired"
-    stars_fact: 25
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "claude-runner-public-test"
-    title: "claude-runner-public-test"
-    description: "Throwaway test of claude-runner-action on a public repo"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "claude-runner-action"
-    title: "claude-runner-action"
-    description: "Run Claude Code from @claude mentions on Issues and PRs, or workflow_dispatch, and open PRs for its changes"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
 ---
 
 # DavidWells

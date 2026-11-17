@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [0, 0, 0, 0, 1, 1, 0, 0, 1, 2, 0, 0, 0]
@@ -77,6 +77,19 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "natural-effect"
+    title: "natural-effect"
+    description: "Agent skills for interactive natural materials: water, ice, fog, sand, and snow"
+    language: null
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "creative-coding"
+      - "generative-art"
+      - "interactive-art"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "ambershen.github.io"
     title: "ambershen.github.io"
     description: null
@@ -84,7 +97,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "softmatter"
     title: "softmatter"
     description: null
@@ -101,19 +114,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-04"
-  - name: "natural-effect"
-    title: "natural-effect"
-    description: "Agent skills for interactive natural materials: water, ice, fog, sand, and snow"
-    language: null
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "creative-coding"
-      - "generative-art"
-      - "interactive-art"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "sound-dictionaries"
     title: "sound-dictionaries"
     description: null

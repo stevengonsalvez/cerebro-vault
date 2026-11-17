@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 3, 7, 12, 31, 21, 5, 2, 3, 0, 1, 0]
+pushes_per_week: [1, 1, 4, 8, 17, 25, 21, 5, 2, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -85,9 +85,17 @@ repos:
       - "ai-agents"
       - "context-management"
       - "memory"
-    stars_fact: 133
+    stars_fact: 135
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "jev-mcp"
+    title: "jev-mcp"
+    description: "An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "switchyard"
     title: "switchyard"
     description: null
@@ -123,14 +131,6 @@ repos:
     stars_fact: 60
     first_seen: null
     last_push: "2026-09-17"
-  - name: "jev-mcp"
-    title: "jev-mcp"
-    description: "An eval-first MCP server for TypeSafe's Jev, a System One model that returns typed judgments (noul, choice, score) with probabilities instead of generated text."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-21"
 ---
 
 # BYK

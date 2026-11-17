@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 0, 6, 0, 0, 1, 1, 2, 16, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 5, 0, 1, 0, 1, 5, 13, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skill-model-anatomy"
+    title: "skill-model-anatomy"
+    description: "Agent skill: any model checkpoint as an interactive 3D explorer page"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "transformers"
     title: "transformers"
     description: null
@@ -111,7 +119,7 @@ repos:
       - "pointman-extension"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-15"
   - name: "pointman-tiktok"
     title: "pointman-tiktok"
     description: "TikTok on Pointman: share videos to a TikTok account as inbox drafts or direct posts, made ready with ffmpeg first."
@@ -121,15 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-28"
-  - name: "pointman-karpathy"
-    title: "pointman-karpathy"
-    description: "Message Board behaviour: seven rules for how agents work, after Karpathy's notes on coding agents"
-    language: null
-    topics:
-      - "pointman-extension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # jamescalam

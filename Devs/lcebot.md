@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "716cf9e2237ac9db"
 pushes_per_week: [0, 0, 0, 0, 6, 1, 0, 0, 0, 3, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ferryqr"
+    title: "ferryqr"
+    description: "Privacy-first Android QR scanner that ferries each code to the right app"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "clipsync"
     title: "clipsync"
     description: "Keeps one clipboard in sync across your Android devices and your Windows PC, with text, images and files all supported"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2026-10-15"
-  - name: "ferryqr"
-    title: "ferryqr"
-    description: "Privacy-first Android QR scanner that ferries each code to the right app"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-05"
   - name: "mi-scanner-enhanced"
     title: "mi-scanner-enhanced"
     description: "Removes content censorship and several annoyances from Xiaomi Scanner"

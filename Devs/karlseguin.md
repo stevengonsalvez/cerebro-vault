@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "3fbb0d0462685f17"
-pushes_per_week: [1, 3, 1, 2, 6, 14, 18, 13, 10, 9, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 2, 7, 14, 20, 13, 8, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,42 +86,29 @@ repos:
       - "zig"
       - "zig-library"
       - "zig-package"
-    stars_fact: 1634
+    stars_fact: 1632
     first_seen: null
     last_push: "2026-10-29"
-  - name: "zuckdb.zig"
-    title: "zuckdb.zig"
-    description: "A DuckDB driver for Zig"
-    language: "C"
-    topics:
-      - "duckdb"
-      - "duckdb-driver"
-      - "zig"
-      - "zig-library"
-      - "zig-package"
-    stars_fact: 192
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "the-little-mongodb-book"
-    title: "the-little-mongodb-book"
-    description: "The Little MongoDB Book"
-    language: "TeX"
-    topics: []
-    stars_fact: 1485
-    first_seen: null
-    last_push: "2019-11-18"
-  - name: "mqttz"
-    title: "mqttz"
-    description: "MQTT client for Zig"
+  - name: "pg.zig"
+    title: "pg.zig"
+    description: "Native PostgreSQL driver / client for Zig"
     language: "Zig"
     topics:
-      - "mqtt-client"
+      - "postgresql-client"
       - "zig"
       - "zig-library"
       - "zig-package"
-    stars_fact: 62
+    stars_fact: 606
     first_seen: null
-    last_push: "2026-06-01"
+    last_push: "2026-11-12"
+  - name: "the-little-go-book"
+    title: "the-little-go-book"
+    description: null
+    language: "TeX"
+    topics: []
+    stars_fact: 2348
+    first_seen: null
+    last_push: "2026-07-31"
   - name: "log.zig"
     title: "log.zig"
     description: "A structured logger for Zig"
@@ -132,21 +119,30 @@ repos:
       - "zig"
       - "zig-library"
       - "zig-package"
-    stars_fact: 200
+    stars_fact: 201
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "zul"
-    title: "zul"
-    description: "zig utility library"
+    last_push: "2026-11-11"
+  - name: "websocket.zig"
+    title: "websocket.zig"
+    description: "A websocket implementation for zig"
     language: "Zig"
     topics:
-      - "uuidv4"
-      - "uuidv7"
+      - "websocket"
       - "zig"
+      - "zig-library"
       - "zig-package"
-    stars_fact: 307
+    stars_fact: 527
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-16"
+  - name: "blog"
+    title: "blog"
+    description: "https://www.openmymind.net/"
+    language: "HTML"
+    topics:
+      - "personal-blog"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2026-08-19"
 ---
 
 # karlseguin

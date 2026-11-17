@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "9612918e3494c974"
-pushes_per_week: [1, 1, 1, 0, 1, 4, 5, 4, 1, 1, 0, 1, 0]
+pushes_per_week: [1, 1, 1, 0, 1, 4, 5, 5, 0, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "payme"
+    title: "payme"
+    description: "Personal finance tracking application."
+    language: "Rust"
+    topics: []
+    stars_fact: 388
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "QML"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "relay"
     title: "relay"
     description: "Job scheduler for volunteer compute pools built from consumer hardware."
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "blurs"
     title: "blurs"
     description: "A tiny Bluetooth applet for Wayland."
@@ -93,22 +109,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-08-12"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "QML"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "payme"
-    title: "payme"
-    description: "Personal finance tracking application."
-    language: "Rust"
-    topics: []
-    stars_fact: 386
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "wallpapers"
     title: "wallpapers"
     description: null
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-13"
   - name: "rlox"
     title: "rlox"
     description: "Rust implementation of Lox from \"Crafting Interpreters\" by Robert Nystrom."

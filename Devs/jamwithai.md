@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "04dd280685a49f89"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,23 +82,15 @@ repos:
     description: null
     language: "Python"
     topics: []
-    stars_fact: 10042
+    stars_fact: 10118
     first_seen: "2026-10-04T06:01:26.470162+00:00"
     last_push: "2026-06-05"
-  - name: "observable-job-agent"
-    title: "observable-job-agent"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 324
-    first_seen: null
-    last_push: "2026-08-13"
   - name: "beginner-local-rag-system"
     title: "beginner-local-rag-system"
     description: null
     language: "Jupyter Notebook"
     topics: []
-    stars_fact: 706
+    stars_fact: 709
     first_seen: null
     last_push: "2025-06-29"
   - name: "jamwithai"
@@ -106,9 +98,17 @@ repos:
     description: "Profile README"
     language: null
     topics: []
-    stars_fact: 91
+    stars_fact: 93
     first_seen: null
     last_push: "2026-07-21"
+  - name: "observable-job-agent"
+    title: "observable-job-agent"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 325
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "ai-ml-small-projects"
     title: "ai-ml-small-projects"
     description: null

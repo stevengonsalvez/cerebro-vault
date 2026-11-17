@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 3, 0, 4, 17, 0, 0, 1, 2, 0, 1, 0]
+pushes_per_week: [2, 0, 3, 0, 7, 14, 0, 1, 0, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Cumulus-music"
-    title: "Cumulus-music"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "wg-quic"
-    title: "wg-quic"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "command-code-reverse"
-    title: "command-code-reverse"
-    description: "Converts Command Code API to OpenAI chat completions"
-    language: "Go"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "astrbot-gold-plugin"
-    title: "astrbot-gold-plugin"
-    description: "从招行api实时获取当前金价"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-04-17"
-  - name: "ReuleauxCoder"
-    title: "ReuleauxCoder"
-    description: "Reinventing the wheel, but only for those who prefer it non-circular."
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "ARTEX"
-    title: "ARTEX"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-27"
+repos: []
 ---
 
 # RC-CHN

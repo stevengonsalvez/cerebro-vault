@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "1c2c00360e1569ed"
-pushes_per_week: [1, 0, 0, 1, 4, 6, 5, 6, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 4, 6, 8, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,17 +97,33 @@ repos:
       - "ratatui"
       - "structural-diff"
       - "syntax-aware-diff"
-    stars_fact: 1297
+    stars_fact: 1406
     first_seen: "2026-11-02T07:00:34.552516+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-13"
   - name: "omnidiff-vscode"
     title: "omnidiff-vscode"
     description: "VSCode Plugin for OmniDiff"
     language: "TypeScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-11-09"
+  - name: "stop-bots"
+    title: "stop-bots"
+    description: "Automate stopping bad bots from accessing your server"
+    language: "Rust"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "agentic-gentoo"
+    title: "agentic-gentoo"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "loyalty-card-app"
     title: "loyalty-card-app"
     description: "A household's loyalty cards, self-hosted: shared and private cards, camera scanning, offline at the till. Rust + SQLite + TypeScript PWA."
@@ -123,7 +139,7 @@ repos:
       - "sqlite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-13"
   - name: "friends-and-family-ca"
     title: "friends-and-family-ca"
     description: null
@@ -131,23 +147,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "stop-bots"
-    title: "stop-bots"
-    description: "Automate stopping bad bots from accessing your server"
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "homebrew-omnidiff"
-    title: "homebrew-omnidiff"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-14"
 ---
 
 # ivankovic

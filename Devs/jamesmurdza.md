@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 1, 5, 24, 1, 0, 9, 13, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 5, 24, 1, 1, 10, 11, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "awesome-ai-devtools"
+    title: "awesome-ai-devtools"
+    description: "Curated list of AI-powered developer tools."
+    language: null
+    topics: []
+    stars_fact: 4002
+    first_seen: null
+    last_push: "2026-08-27"
   - name: "background-agents"
     title: "background-agents"
     description: "Run AI coding agents in isolated sandboxes connected to your GitHub repositories"
@@ -86,17 +94,17 @@ repos:
       - "claude-code"
       - "codex"
       - "opencode"
-    stars_fact: 88
+    stars_fact: 91
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "awesome-ai-devtools"
-    title: "awesome-ai-devtools"
-    description: "Curated list of AI-powered developer tools."
+    last_push: "2026-11-17"
+  - name: "jamesmurdza"
+    title: "jamesmurdza"
+    description: null
     language: null
     topics: []
-    stars_fact: 3998
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-08-27"
+    last_push: "2026-09-03"
   - name: "applied-math-study-guides"
     title: "applied-math-study-guides"
     description: null
@@ -121,14 +129,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-24"
-  - name: "dream-summer-school"
-    title: "dream-summer-school"
-    description: "A dream summer school we built together!"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-08"
 ---
 
 # jamesmurdza

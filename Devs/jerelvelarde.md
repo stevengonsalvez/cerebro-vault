@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [0, 0, 0, 0, 4, 6, 30, 0, 1, 8, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 4, 6, 29, 0, 1, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,14 +82,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "personal-finance-copilot"
+    title: "personal-finance-copilot"
+    description: "AI + Finance Tracker — a CopilotKit React Native demo: conversational, multi-currency personal finance (chat-driven transactions/budgets/accounts, receipt-photo attachments, human-in-the-loop approvals) + a Next.js CopilotKit runtime."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-14"
   - name: "functional-copilots"
     title: "functional-copilots"
     description: "Beta: Claude Code skills and CopilotKit starters for building a functional copilot for one business workflow (CopilotKit, AG-UI, CopilotKit Intelligence)."
     language: "TypeScript"
     topics: []
-    stars_fact: 5
+    stars_fact: 7
     first_seen: null
     last_push: "2026-11-05"
+  - name: "agent-design"
+    title: "agent-design"
+    description: "Your agent has a UX whether you designed it or not. A skill for designing and critiquing AI agent experiences: behavior, interface, and agent-readability."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "capy-jelly"
     title: "capy-jelly"
     description: "A capybara cast in jelly: an interactive WebGPU soft-body study with ears that flick and yuzu to balance on its head."
@@ -114,29 +130,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-03-23"
-  - name: "openmuse"
-    title: "openmuse"
-    description: "An open-source personal agent with a persistent browser computer, CopilotKit rich chat, and a React Native app."
-    language: "TypeScript"
-    topics:
-      - "ag-ui"
-      - "ai-agents"
-      - "copilotkit"
-      - "expo"
-      - "personal-assistant"
-      - "react-native"
-      - "self-hosted"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "openduet-launch"
-    title: "openduet-launch"
-    description: "The OpenDuet launch film, drawn in code with Remotion: scenes, phone UI, the mic orb and the sound pipeline"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
 ---
 
 # jerelvelarde

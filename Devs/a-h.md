@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 0, 1, 4, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 1, 4, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,33 @@ repos:
       - "lsp"
       - "server-side-rendering"
       - "templating-languages"
-    stars_fact: 10603
+    stars_fact: 10613
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-13"
+  - name: "generate"
+    title: "generate"
+    description: "Generates Go (golang) Structs from JSON schema."
+    language: "Go"
+    topics: []
+    stars_fact: 450
+    first_seen: null
+    last_push: "2024-04-02"
+  - name: "version"
+    title: "version"
+    description: "CLI tool to create version numbers from git."
+    language: "Go"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "parse"
+    title: "parse"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "dynamocapacity"
     title: "dynamocapacity"
     description: "Compare cost of DynamoDB On Demand versus your current Provisioned Capacity setup."
@@ -111,30 +135,6 @@ repos:
     stars_fact: 45
     first_seen: null
     last_push: "2021-07-21"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Nix"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "parse"
-    title: "parse"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "flakegap"
-    title: "flakegap"
-    description: "Take a Flake and package it for deployment across an airgap."
-    language: "Go"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # a-h

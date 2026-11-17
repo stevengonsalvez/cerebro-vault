@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [1, 4, 0, 6, 13, 7, 15, 9, 9, 4, 1, 0, 0]
+pushes_per_week: [3, 1, 2, 4, 15, 6, 18, 7, 7, 4, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 25
-    active_days: 31
+    active_days: 30
     repos_not_owned: 22
     not_owned_basenames: 17
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.2258
-  repo_per_active_day: 0.8065
+  push_per_day: 2.2667
+  repo_per_active_day: 0.8333
   not_owned_ratio: 0.8800
   basename_concentration: 0.1600
   shapes: []
@@ -65,59 +65,22 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "90d":
-    pushes: 69
+    pushes: 68
     distinct_repos: 25
-    pushes_per_repo: 2.7600
-    active_days: 31
+    pushes_per_repo: 2.7200
+    active_days: 30
     repos_not_owned: 22
     not_owned_basenames: 17
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pushpak1300"
-    title: "pushpak1300"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "pushpak1300.me"
-    title: "pushpak1300.me"
-    description: "Personal Website built from scratch using Nuxt and Tailwind"
-    language: "Vue"
-    topics:
-      - "nuxtjs"
-      - "portfolio-website"
-      - "tailwindcss"
-      - "typescript"
-      - "vue"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "cypress-mailpit"
-    title: "cypress-mailpit"
-    description: "Cypress Commands for Mailpit ✉️"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "ai-chat"
-    title: "ai-chat"
-    description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
-    language: "PHP"
-    topics: []
-    stars_fact: 382
-    first_seen: null
-    last_push: "2026-06-22"
+repos: []
 ---
 
 # pushpak1300
 
-69 pushes across 25 repositories on 31 active days in the last 90 days of public GitHub push activity.
+68 pushes across 25 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pushpak1300

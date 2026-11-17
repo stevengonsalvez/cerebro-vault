@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 10, 5, 24, 30, 73, 47, 18, 6, 13, 0, 1, 2]
+pushes_per_week: [16, 8, 5, 24, 34, 76, 40, 20, 7, 10, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -80,19 +80,19 @@ repos:
   - name: "dotfiles"
     title: "dotfiles"
     description: "dotfiles"
-    language: "Nix"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "freqai-strategies"
     title: "freqai-strategies"
     description: "Freqtrade FreqAI strategies"
     language: "Python"
     topics: []
-    stars_fact: 63
+    stars_fact: 64
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "sap-ai-provider"
     title: "sap-ai-provider"
     description: "Vercel AI Provider for running LLMs on SAP BTP using AI Core"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "benchmarks-js"
     title: "benchmarks-js"
     description: "JS code pattern benchmarks"
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "e-mobility-charging-stations-simulator"
     title: "e-mobility-charging-stations-simulator"
     description: "OCPP-J charging stations simulator"

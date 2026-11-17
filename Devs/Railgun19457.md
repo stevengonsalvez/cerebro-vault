@@ -8,8 +8,8 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 0, 0, 2, 0, 5, 1, 0, 0, 3, 0, 0, 0]
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Railgun19457"
-    title: "Railgun19457"
-    description: "Profile page"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "astrbot_plugin_image_generation"
-    title: "astrbot_plugin_image_generation"
-    description: "通用图像生成插件"
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "Dummy"
-    title: "Dummy"
-    description: "Dummy 是一个面向高版本 Paper 服务端的假人插件，通过服务端真实假玩家实体提供背包、装备、经验、动作、皮肤、持久化和区块加载能力"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "VelocityAuth"
-    title: "VelocityAuth"
-    description: "Velocity 代理端的账号认证插件：账号名独立于游戏 ID，Java 端与基岩端共用同一账号"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "astrbot_plugin_velocity_auth"
-    title: "astrbot_plugin_velocity_auth"
-    description: "AstrBot 插件：连接 VelocityAuth（Velocity），群内验证码验证与玩家/服务器信息查询"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "astrbot_plugin_output_enhance"
-    title: "astrbot_plugin_output_enhance"
-    description: "AstrBot输出增强插件"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-06"
+repos: []
 ---
 
 # Railgun19457

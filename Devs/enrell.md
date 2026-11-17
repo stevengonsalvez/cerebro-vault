@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 4, 4, 9, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 6, 7, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,20 +79,21 @@ reasons:
 repos:
   - name: "lain"
     title: "lain"
-    description: "Local-first media server in Go: replaceable plugins over a tiny core, embedded SPA, direct-play streaming, metadata enrichment and ffmpeg thumbnails."
+    description: "Self-hosted media server in Rust: films, shows, anime, comics and manga in one binary, with a web client and an Android app."
     language: "Rust"
     topics:
-      - "go"
       - "home-media"
       - "local-first"
       - "media-server"
       - "plugin-architecture"
+      - "rust"
+      - "rust-lang"
       - "self-hosted"
       - "streaming"
       - "svelte"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "accela"
     title: "accela"
     description: "A fast, GPU-rendered terminal for Linux with its own VT core: kitty keyboard and graphics, sixel, tabs and splits, 0 wakeups when idle."
@@ -127,7 +128,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
   - name: "animesubs"
     title: "animesubs"
     description: "Desktop app to extract, translate and embed subtitles into videos."

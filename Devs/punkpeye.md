@@ -8,11 +8,11 @@ provenance_repos:
   - "punkpeye/awesome-mcp-servers"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [3, 2, 33, 8, 54, 21, 1, 21, 0, 3, 0, 0, 0]
+pushes_per_week: [4, 1, 34, 17, 44, 21, 1, 21, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "mcp-remote"
-    title: "mcp-remote"
-    description: "Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server."
-    language: "TypeScript"
-    topics:
-      - "mcp"
-    stars_fact: 1669
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "awesome-mcp-servers"
-    title: "awesome-mcp-servers"
-    description: "A collection of MCP servers."
-    language: null
-    topics:
-      - "ai"
-      - "mcp"
-    stars_fact: 97586
-    first_seen: "2026-08-31T06:00:05.900744+00:00"
-    last_push: "2026-11-06"
-  - name: "awesome-remote-mcp-servers"
-    title: "awesome-remote-mcp-servers"
-    description: "A collection of remote MCP servers."
-    language: null
-    topics:
-      - "mcp"
-    stars_fact: 2964
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "pipenet"
-    title: "pipenet"
-    description: "Expose your local server to the public internet instantly"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 536
-    first_seen: null
-    last_push: "2026-09-07"
-  - name: "fastmcp"
-    title: "fastmcp"
-    description: "A TypeScript framework for building MCP servers."
-    language: "TypeScript"
-    topics:
-      - "mcp"
-      - "sse"
-    stars_fact: 3286
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "mcp-proxy"
-    title: "mcp-proxy"
-    description: "A TypeScript streamable HTTP and SSE proxy for MCP servers that use stdio transport."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 294
-    first_seen: null
-    last_push: "2026-11-09"
+repos: []
 ---
 
 # punkpeye

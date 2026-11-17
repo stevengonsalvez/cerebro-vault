@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "90688bf127241ceb"
 pushes_per_week: [1, 0, 0, 0, 1, 0, 3, 5, 0, 1, 0, 0, 0]
@@ -83,9 +83,30 @@ repos:
     description: "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex和其他 AI Agent变得更好用更舒服"
     language: "Rust"
     topics: []
-    stars_fact: 33011
+    stars_fact: 33166
     first_seen: "2026-06-27T06:00:03.973664+00:00"
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "ClaudeMom"
+    title: "ClaudeMom"
+    description: "不用 Claude 账号！把 API Key 变成登录模式，Claude 桌面版全功能解锁（汉化 / 语音 / 电脑控制）"
+    language: "Rust"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "claude-desktop"
+      - "tauri"
+    stars_fact: 568
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "codexpp-request-toasts"
+    title: "codexpp-request-toasts"
+    description: "每完成一次模型请求，就在 Codex 右下角弹出一条提示（模型、耗时、供应商、token、成败），新的从下面顶上来，旧的逐渐变淡消失。"
+    language: "JavaScript"
+    topics:
+      - "codexpp-extension"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "Ad-List"
     title: "Ad-List"
     description: null
@@ -93,7 +114,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
   - name: "CodexPlusPlus-Themes"
     title: "CodexPlusPlus-Themes"
     description: "Codex++ 社区主题市场：浏览、安装和通过 Pull Request 投稿 Dream Skin 主题"
@@ -114,23 +135,6 @@ repos:
     stars_fact: 53
     first_seen: null
     last_push: "2026-11-03"
-  - name: "codexpp-rainbow-sidebar-active"
-    title: "codexpp-rainbow-sidebar-active"
-    description: "当左侧目录里的会话正在运行时，让会话标题显示彩虹渐变并持续流动；会话结束后自动恢复。"
-    language: "JavaScript"
-    topics:
-      - "codexpp-extension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "codexpp-community-hello"
-    title: "codexpp-community-hello"
-    description: "Codex++ 社区拓展安装流程的测试包"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
 ---
 
 # BigPizzaV3

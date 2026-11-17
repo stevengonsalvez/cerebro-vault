@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 0, 1, 4, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 3, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "a_swaybar"
-    title: "a_swaybar"
-    description: "An 808-line C status bar for sway: event-driven volume over libpulse, one coloured block per maki session"
-    language: "C"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "shrimp"
-    title: "shrimp"
-    description: "A music queue daemon in Go: one process owns the queue over a Unix socket, driving mpv and yt-dlp, with a clickable terminal UI"
-    language: "Go"
-    topics:
-      - "daemon"
-      - "go"
-      - "mpv"
-      - "music"
-      - "tui"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "maki-session-status"
-    title: "maki-session-status"
-    description: "A maki plugin that publishes session states for any status bar: event-driven, one file per process"
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "maki-safeish_yolo"
-    title: "maki-safeish_yolo"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-10"
-  - name: "curl-review"
-    title: "curl-review"
-    description: "A triage of all 86 open curl pull requests against a five-question rubric, with the patch and repro that came out of it"
-    language: "Python"
-    topics:
-      - "code-review"
-      - "curl"
-      - "triage"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "kcode"
-    title: "kcode"
-    description: "A fork of jcode, cut down on purpose: 25 crates and a large slice of product surface removed, the rest consolidated into fewer representations"
-    language: "Rust"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-04"
+repos: []
 ---
 
 # zipadoodlez

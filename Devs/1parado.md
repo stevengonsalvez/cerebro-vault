@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 7, 1, 2, 3, 1, 15, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 8, 0, 2, 3, 14, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,37 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "deepseek-sider"
+    title: "deepseek-sider"
+    description: "deepseek-sider"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "Learn-Pi"
+    title: "Learn-Pi"
+    description: "Learn Pi: a progressive harness tutorial for understanding and adapting the Pi coding agent."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-07-28"
+  - name: "claude-openai-gateway"
+    title: "claude-openai-gateway"
+    description: "Zero-dependency Anthropic Messages ↔ OpenAI ChatCompletions protocol gateway with a built-in WebUI console. Use OpenAI-compatible models (tool calling, thinking, web search) in Claude Code & Claude Desktop."
+    language: "JavaScript"
+    topics:
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "gateway"
+      - "llm-proxy"
+      - "openai"
+      - "webui"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "android-rpa"
     title: "android-rpa"
     description: "Android RPA framework: closed-loop automation (BOSS zhipin / WeChat) via uiautomator2, with MCP server for AI agents"
@@ -109,30 +140,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-02"
-  - name: "hangover-paintings"
-    title: "hangover-paintings"
-    description: "hangover paintings"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "Learn-Pi"
-    title: "Learn-Pi"
-    description: "Learn Pi: a progressive harness tutorial for understanding and adapting the Pi coding agent."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "jikehan"
-    title: "jikehan"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
 ---
 
 # 1parado

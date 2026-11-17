@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 14, 112, 140, 80, 28, 3, 0, 0, 16]
+pushes_per_week: [0, 0, 0, 0, 18, 121, 142, 84, 11, 1, 0, 0, 16]
 windows:
   "7d":
     pushes: 16
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "sextant"
-    title: "sextant"
-    description: "Sextant"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "canon"
-    title: "canon"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "week10-sound-studio"
-    title: "week10-sound-studio"
-    description: "Week 10 sound foundations: illustrated line-by-line p5 practice, worksheet map, scales, microphone, FFT and ear training"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "week9-pixel-studio"
-    title: "week9-pixel-studio"
-    description: "An illustrated Week 9 p5.js learning studio: seven stages, plain-language code and an interactive guide beside the real editor."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
+repos: []
 ---
 
 # seathatflowsinourveins

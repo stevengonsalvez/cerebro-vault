@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "f135712f91f710c6"
-pushes_per_week: [8, 2, 7, 8, 32, 35, 12, 28, 29, 30, 0, 0, 0]
+pushes_per_week: [8, 2, 8, 8, 33, 35, 13, 40, 15, 29, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,54 +80,54 @@ reasons:
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "rea-colin-mcrae-3"
-    title: "rea-colin-mcrae-3"
-    description: "Experimental Launcher for Colin McRae 3 to make it work in modern PCs easily"
-    language: "Rust"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "rea-colin-mcrae-4"
-    title: "rea-colin-mcrae-4"
-    description: "Experimental Launcher for Colin McRae 4 to make it work in modern PCs easily"
-    language: "Rust"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "rea-colin-mcrae-2005"
-    title: "rea-colin-mcrae-2005"
-    description: "Experimental Launcher for Colin McRae 2005 to make it work in modern PCs easily"
-    language: "Shell"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "rea-launcher-sdk"
-    title: "rea-launcher-sdk"
-    description: "Framework to build retrogame launchers"
-    language: "Rust"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "ai-memory"
     title: "ai-memory"
     description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 15510
+    stars_fact: 16027
     first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-11-09"
-  - name: "ai-book-2026"
-    title: "ai-book-2026"
-    description: "e-book version of the akitaonrails.com blog."
-    language: "Ruby"
+    last_push: "2026-11-17"
+  - name: "rea-sega-rally-revo"
+    title: "rea-sega-rally-revo"
+    description: "Experimental Launcher for Sega Rally REVO to make it work in modern PCs easily"
+    language: "Rust"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "ai-jail"
+    title: "ai-jail"
+    description: "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)"
+    language: "Rust"
+    topics: []
+    stars_fact: 1513
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "akitaonrails.github.io"
+    title: "akitaonrails.github.io"
+    description: "2025 export from my old Rails-based blog AkitaOnRails.com"
+    language: "HTML"
+    topics: []
+    stars_fact: 234
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "llm-coding-benchmark"
+    title: "llm-coding-benchmark"
+    description: "Simple benchmark to test the most popular open source and commercial LLMs with automated OpenCode"
+    language: "Python"
     topics: []
     stars_fact: 375
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-10-28"
+  - name: "my-skills"
+    title: "my-skills"
+    description: "akitaonrails' personal skills (not tailored for general usage)"
+    language: "Python"
+    topics: []
+    stars_fact: 307
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # akitaonrails

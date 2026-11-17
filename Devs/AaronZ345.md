@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [4, 2, 0, 1, 5, 4, 4, 0, 2, 0, 0, 0, 1]
+pushes_per_week: [4, 2, 1, 1, 4, 7, 1, 0, 2, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,58 +77,104 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xiaoheihe-cli"
-    title: "xiaoheihe-cli"
-    description: "小黑盒游戏记录、个人评分与短评、社区内容操作 CLI，支持 SDK、REST 和 MCP"
+  - name: "Athena-personal-academic-page"
+    title: "Athena-personal-academic-page"
+    description: "A modern personal academic page framework built with React and Vite."
+    language: "JavaScript"
+    topics:
+      - "academic-portfolio"
+      - "academic-website"
+      - "github-pages"
+      - "personal-website"
+      - "react"
+      - "research"
+      - "typescript"
+      - "vite"
+    stars_fact: 212
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "GTSinger"
+    title: "GTSinger"
+    description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
     language: "Python"
     topics:
-      - "cli"
-      - "games"
-      - "heybox"
-      - "mcp"
-      - "python"
-      - "xiaoheihe"
-    stars_fact: 66
+      - "dataset"
+      - "multilingual"
+      - "music"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "technique-detection"
+    stars_fact: 539
     first_seen: null
-    last_push: "2026-10-22"
-  - name: "steam-cli"
-    title: "steam-cli"
-    description: "Steam CLI with browser and Steam App cookie auth, reviews, achievements, prices, MCP and REST"
+    last_push: "2026-11-09"
+  - name: "TCSinger2"
+    title: "TCSinger2"
+    description: "PyTorch Implementation of TCSinger 2(ACL 2025): Customizable Multilingual Zero-shot Singing Voice Synthesis"
+    language: "Python"
+    topics:
+      - "cross-lingual"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "zero-shot"
+    stars_fact: 194
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "TCSinger"
+    title: "TCSinger"
+    description: "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
+    language: "Python"
+    topics:
+      - "cross-lingual"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "zero-shot"
+    stars_fact: 387
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "codebase-argus"
+    title: "codebase-argus"
+    description: "Multi-agent codebase review for PRs, CI, and downstream fork syncs."
     language: "TypeScript"
-    topics: []
-    stars_fact: 59
-    first_seen: null
-    last_push: "2026-10-31"
-  - name: "ISDramaDemo"
-    title: "ISDramaDemo"
-    description: "Demo page of ISDrama"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "GTSingerDemo"
-    title: "GTSingerDemo"
-    description: "Demo page of GTSinger"
-    language: "HTML"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "VersBandDemo"
-    title: "VersBandDemo"
-    description: "Demo page of VersBand"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ci"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "code-review"
+      - "codex"
+      - "developer-tools"
+      - "fork-sync"
+      - "github-actions"
+      - "github-app"
+      - "multi-agent"
+      - "openclaw"
+      - "pull-request"
+      - "skill-md"
+    stars_fact: 60
     first_seen: null
     last_push: "2026-11-09"
-  - name: "ConanDemo"
-    title: "ConanDemo"
-    description: "Demo page of Conan"
-    language: "SCSS"
-    topics: []
-    stars_fact: 6
+  - name: "ISDrama"
+    title: "ISDrama"
+    description: "Dataset and evaluation code of ISDrama(ACM-MM 2025): Immersive Spatial Drama Generation through Multimodal Prompting"
+    language: "Python"
+    topics:
+      - "binaural-rendering"
+      - "dataset"
+      - "drama"
+      - "evaluation"
+      - "spatial-audio"
+      - "video"
+    stars_fact: 239
     first_seen: null
     last_push: "2026-11-09"
 ---

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [0, 0, 0, 1, 1, 1, 4, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 0, 4, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,26 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "can-i-finetune-this"
+    title: "can-i-finetune-this"
+    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
+    language: "Python"
+    topics:
+      - "bitsandbytes"
+      - "fine-tuning"
+      - "gpu"
+      - "hugging-face"
+      - "llm"
+      - "lora"
+      - "memory-estimation"
+      - "peft"
+      - "pytorch"
+      - "qlora"
+      - "transformers"
+      - "vram"
+    stars_fact: 796
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "mini-verl"
     title: "mini-verl"
     description: "verl for a single consumer GPU. PPO, GRPO and on-policy distillation on NVIDIA GPUs."
@@ -101,29 +121,9 @@ repos:
       - "single-gpu"
       - "tool-use"
       - "verl"
-    stars_fact: 310
+    stars_fact: 311
     first_seen: null
     last_push: "2026-09-15"
-  - name: "can-i-finetune-this"
-    title: "can-i-finetune-this"
-    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
-    language: "Python"
-    topics:
-      - "bitsandbytes"
-      - "fine-tuning"
-      - "gpu"
-      - "hugging-face"
-      - "llm"
-      - "lora"
-      - "memory-estimation"
-      - "peft"
-      - "pytorch"
-      - "qlora"
-      - "transformers"
-      - "vram"
-    stars_fact: 795
-    first_seen: null
-    last_push: "2026-10-08"
   - name: "RepoGuardBench"
     title: "RepoGuardBench"
     description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."

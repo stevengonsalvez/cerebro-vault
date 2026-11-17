@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [6, 25, 9, 2, 22, 8, 22, 3, 19, 11, 0, 7, 2]
+pushes_per_week: [7, 25, 8, 4, 21, 8, 22, 9, 13, 10, 0, 7, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 7
-    active_days: 9
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 136
+    pushes: 137
     distinct_repos: 14
-    active_days: 41
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3171
-  repo_per_active_day: 0.3415
+  push_per_day: 3.2619
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2143
   basename_concentration: 0.1429
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 7
-    pushes_per_repo: 4.0000
-    active_days: 9
+    pushes_per_repo: 4.1429
+    active_days: 10
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 136
+    pushes: 137
     distinct_repos: 14
-    pushes_per_repo: 9.7143
-    active_days: 41
+    pushes_per_repo: 9.7857
+    active_days: 42
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "openeval"
@@ -82,7 +82,7 @@ repos:
     description: "Typed prompt-and-judge SDK, CLI, and evidence viewer for agent evaluations"
     language: "TypeScript"
     topics: []
-    stars_fact: 77
+    stars_fact: 79
     first_seen: null
     last_push: "2026-10-05"
   - name: "playsrc"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-136 pushes across 14 repositories on 41 active days in the last 90 days of public GitHub push activity.
+137 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

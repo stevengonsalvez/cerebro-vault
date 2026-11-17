@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [0, 0, 0, 0, 0, 5, 106, 42, 31, 72, 0, 1, 7]
+pushes_per_week: [0, 0, 0, 0, 0, 12, 106, 46, 41, 51, 0, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -93,34 +93,42 @@ repos:
       - "multi-agent-systems"
       - "tmux"
       - "typescript"
-    stars_fact: 8796
+    stars_fact: 8881
     first_seen: "2026-09-28T06:01:28.341049+00:00"
-    last_push: "2026-11-10"
-  - name: "openrig-world"
-    title: "openrig-world"
-    description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "openrig-registry"
     title: "openrig-registry"
     description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "herdr-openrig"
     title: "herdr-openrig"
     description: "OpenRig for Herdr: open your OpenRig agent team’s operator and advisor, see needs-you, follow tasks and message agents from inside Herdr."
     language: "Shell"
     topics:
       - "herdr-plugin"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-12"
+  - name: "openrig-world"
+    title: "openrig-world"
+    description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "openrig-studio"
+    title: "openrig-studio"
+    description: "Official OpenRig Studio SDK (@openrig/studio)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "lymegpt"
     title: "lymegpt"
     description: "LymeGPT is a RAG app using AWS Bedrock and Streamlit to provide information on Lyme disease treatment. It can be used as a template for any RAG app on AWS Bedrock."
@@ -129,14 +137,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2024-07-05"
-  - name: "openrig-studio-apps"
-    title: "openrig-studio-apps"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # mvschwarz

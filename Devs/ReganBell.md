@@ -8,11 +8,11 @@ provenance_repos:
   - "yc-software/qm"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+repos_populated: false
+generated_at: "2026-11-17T07:04:42.440393+00:00"
 provenance:
   - "872178780cb4ed91"
-pushes_per_week: [0, 0, 1, 1, 39, 15, 40, 10, 29, 59, 0, 3, 0]
+pushes_per_week: [0, 0, 1, 2, 42, 11, 40, 25, 37, 36, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "iOS"
-    title: "iOS"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2016-01-10"
-  - name: "inductionviz-frontend"
-    title: "inductionviz-frontend"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-17"
-  - name: "mita"
-    title: "mita"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-20"
-  - name: "toytransformers"
-    title: "toytransformers"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-11"
-  - name: "inductionviz-backend"
-    title: "inductionviz-backend"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "inductionheads"
-    title: "inductionheads"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-22"
+repos: []
 ---
 
 # ReganBell
