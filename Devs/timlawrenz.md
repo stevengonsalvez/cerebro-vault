@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 1, 0, 3, 2, 0, 0, 1, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 3, 2, 0, 0, 3, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "eidolon"
+    title: "eidolon"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "ratiocinator"
+    title: "ratiocinator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "DINO-X"
+    title: "DINO-X"
+    description: "DINO-X is an open-source model zoo for medical imaging, training pan-organ, modality-specific Vision Foundation Models using self-supervised learning. Each model is scale-aware: it natively understands the physical dimensions of what it sees, not just the pixel grid."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "jubilant-palm-tree"
+    title: "jubilant-palm-tree"
+    description: "A research initiative pivoting from human-readable code generation to pure, topological execution matrices."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "prx-tg"
+    title: "prx-tg"
+    description: "Proving that high-quality text-to-image models can be trained on small, vertical datasets using consumer hardware."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "leica-look"
+    title: "leica-look"
+    description: "Quantifying and transferring the Leica lens rendering look via deep learning"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # timlawrenz

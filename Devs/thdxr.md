@@ -9,11 +9,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 1, 3, 9, 1, 0, 7, 7, 4, 0, 3, 3]
+pushes_per_week: [2, 1, 1, 5, 8, 0, 0, 8, 6, 4, 0, 4, 2]
 windows:
   "7d":
     pushes: 3
@@ -77,7 +77,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "environment"
+    title: "environment"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 159
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-05"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2021-10-11"
+  - name: "twitch"
+    title: "twitch"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-07-27"
+  - name: "ampt-api"
+    title: "ampt-api"
+    description: "Ampt app for ampt-api"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-22"
+  - name: "overlay"
+    title: "overlay"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-08-14"
 ---
 
 # thdxr

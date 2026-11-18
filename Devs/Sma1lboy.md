@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 5, 2, 3, 12, 31, 33, 10, 12, 13, 0, 1, 0]
+pushes_per_week: [4, 5, 2, 3, 13, 32, 31, 10, 17, 8, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,78 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rove"
+    title: "rove"
+    description: "All your coding agents, in one place. Claude Code, Codex, Copilot and more, side by side in your terminal."
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "ai-coding-assistant"
+      - "anthropic"
+      - "bun"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "coding-agent"
+      - "developer-tools"
+      - "git-worktree"
+      - "github-copilot"
+      - "llm"
+      - "multiplexer"
+      - "openai"
+      - "parallel-agents"
+      - "terminal"
+      - "tui"
+      - "typescript"
+    stars_fact: 184
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "Unlimited-DeepL-Pro"
+    title: "Unlimited-DeepL-Pro"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2023-12-08"
+  - name: "pua-what-game"
+    title: "pua-what-game"
+    description: "PUA话术识别 — 沉浸式微信聊天模拟器，识别9种常见PUA操控手法的互动游戏"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "sma1lboy.me"
+    title: "sma1lboy.me"
+    description: "personal introduction website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "claude-standup"
+    title: "claude-standup"
+    description: "One panel for every Claude Code session on your machine: what each agent needs from you, and what each one got done."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "claude-code-mod"
+      - "claude-code-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Sma1lboy

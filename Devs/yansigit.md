@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [6, 7, 4, 4, 3, 0, 4, 2, 3, 1, 0, 0, 0]
+pushes_per_week: [10, 3, 4, 5, 2, 0, 4, 5, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gsd-codex-plugin"
+    title: "gsd-codex-plugin"
+    description: "Community-maintained GSD Core plugin for Codex"
+    language: "JavaScript"
+    topics:
+      - "codex"
+      - "gsd"
+      - "plugin"
+      - "spec-driven-development"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "rpi-provider-plugins"
+    title: "rpi-provider-plugins"
+    description: "Rust provider plugins for rpi: ports of Pi's Antigravity, multiprovider and Cursor extensions"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "gjc-cursor-sdk"
+    title: "gjc-cursor-sdk"
+    description: "GJC provider adapter using @cursor/sdk, with GJC-owned tool execution."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "cmd-gpt"
+    title: "cmd-gpt"
+    description: "A Tiny AI Terminal Assistant"
+    language: "Go"
+    topics:
+      - "bash"
+      - "chatgpt"
+      - "gpt"
+      - "llm"
+      - "powershell"
+      - "terminal"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "ios-fastlane-ci"
+    title: "ios-fastlane-ci"
+    description: "Reusable iOS CI/CD (GitHub Actions workflow_call + shared fastlane lanes)"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "tabby-wake-proxy"
+    title: "tabby-wake-proxy"
+    description: "Rust proxy that wakes tabbyAPI on demand and stops its Docker container after inactivity."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-09"
 ---
 
 # yansigit

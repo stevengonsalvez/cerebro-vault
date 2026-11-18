@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [34, 23, 23, 70, 312, 154, 127, 64, 36, 77, 0, 7, 5]
+pushes_per_week: [41, 13, 23, 85, 338, 113, 127, 75, 29, 73, 0, 7, 5]
 windows:
   "7d":
     pushes: 5
@@ -25,30 +25,30 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
-    distinct_repos: 14
-    active_days: 14
-    repos_not_owned: 14
+    pushes: 107
+    distinct_repos: 13
+    active_days: 13
+    repos_not_owned: 13
     not_owned_basenames: 3
-    not_owned_owners: 12
+    not_owned_owners: 11
   "90d":
-    pushes: 932
+    pushes: 929
     distinct_repos: 91
-    active_days: 60
+    active_days: 59
     repos_not_owned: 89
     not_owned_basenames: 11
     not_owned_owners: 82
 automation:
   state: "clear"
-  push_per_day: 15.5333
-  repo_per_active_day: 1.5167
+  push_per_day: 15.7458
+  repo_per_active_day: 1.5424
   not_owned_ratio: 0.9780
   basename_concentration: 0.8022
   shapes:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "15.53 pushes per active day over 90d (932 pushes / 60 active days), above the 15 review line"
+    - "15.75 pushes per active day over 90d (929 pushes / 59 active days), above the 15 review line"
     - "basename concentration 0.8022 (73 of 91 repos share one basename), 89 not owned across 11 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
@@ -78,24 +78,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 114
-    distinct_repos: 14
-    pushes_per_repo: 8.1429
-    active_days: 14
-    repos_not_owned: 14
+    pushes: 107
+    distinct_repos: 13
+    pushes_per_repo: 8.2308
+    active_days: 13
+    repos_not_owned: 13
     not_owned_basenames: 3
-    not_owned_owners: 12
+    not_owned_owners: 11
   "90d":
-    pushes: 932
+    pushes: 929
     distinct_repos: 91
-    pushes_per_repo: 10.2418
-    active_days: 60
+    pushes_per_repo: 10.2088
+    active_days: 59
     repos_not_owned: 89
     not_owned_basenames: 11
     not_owned_owners: 82
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GPTeacher"
@@ -162,6 +162,6 @@ repos:
 
 # teknium1
 
-932 pushes across 91 repositories on 60 active days in the last 90 days of public GitHub push activity.
+929 pushes across 91 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

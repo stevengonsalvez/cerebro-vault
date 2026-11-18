@@ -9,11 +9,11 @@ provenance_repos:
   - "t3dotgg/tstack"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "dd9400311fbaa816"
-pushes_per_week: [7, 3, 15, 11, 4, 37, 31, 99, 49, 58, 0, 0, 0]
+pushes_per_week: [8, 2, 15, 14, 1, 37, 31, 114, 50, 42, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 80
     distinct_repos: 3
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 92
+    pushes: 80
     distinct_repos: 3
-    pushes_per_repo: 30.6667
-    active_days: 9
+    pushes_per_repo: 26.6667
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,7 +77,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tstack"
+    title: "tstack"
+    description: "The agent skills I use every day. Works with Claude Code and Codex."
+    language: "Python"
+    topics: []
+    stars_fact: 4142
+    first_seen: "2026-10-24T06:00:35.391503+00:00"
+    last_push: "2026-11-11"
+  - name: "stripe-recommendations"
+    title: "stripe-recommendations"
+    description: "How to implement Stripe without going mad"
+    language: null
+    topics:
+      - "fullstack"
+      - "nextjs"
+      - "node"
+      - "payments"
+      - "stripe"
+      - "typescript"
+    stars_fact: 6468
+    first_seen: null
+    last_push: "2025-02-07"
+  - name: "quickpic"
+    title: "quickpic"
+    description: "Turn SVGs into high resolution PNGs in 2 clicks"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1308
+    first_seen: null
+    last_push: "2024-11-24"
+  - name: "pilldiff"
+    title: "pilldiff"
+    description: "An unofficial player for billdifferen playlists, built with React and official YouTube and SoundCloud embeds."
+    language: "TypeScript"
+    topics:
+      - "music"
+      - "playlists"
+      - "react"
+      - "soundcloud"
+      - "typescript"
+      - "youtube"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "t3dotgg"
+    title: "t3dotgg"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "lust-lang"
+    title: "lust-lang"
+    description: "lust: a Rust-subset compiler with an incremental daemon (fast dev checks for ts-rust)"
+    language: "Rust"
+    topics: []
+    stars_fact: 109
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # t3dotgg

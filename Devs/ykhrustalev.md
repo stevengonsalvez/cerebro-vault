@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 2, 3, 4, 0, 7, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 3, 4, 0, 8, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 19
     distinct_repos: 8
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 19
     distinct_repos: 8
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Personal Claude Code skills (x-review, x-pr)"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "paperless-ngx-ru"
+    title: "paperless-ngx-ru"
+    description: null
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "ykhrustalev"
+    title: "ykhrustalev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-03"
+  - name: "goroutinepool"
+    title: "goroutinepool"
+    description: "A helper to run goroutines in a pool just like in java's or python's pools"
+    language: "Go"
+    topics:
+      - "golang"
+      - "goroutine"
+      - "goroutine-pool"
+      - "pool"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2020-08-19"
+  - name: "ibtax"
+    title: "ibtax"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2022-02-19"
+  - name: "adventofcode-2023"
+    title: "adventofcode-2023"
+    description: null
+    language: "Zig"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-12-24"
 ---
 
 # ykhrustalev

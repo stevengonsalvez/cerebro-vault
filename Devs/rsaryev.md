@@ -8,11 +8,11 @@ provenance_repos:
   - "localixai/tokendoctor"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "fba317a26ce46e4d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,38 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "llx-plugin"
+    title: "llx-plugin"
+    description: "Add Claude Code plugin support to any agent: load plugins and run their skills, commands, agents and hooks through ports your host implements."
+    language: "TypeScript"
+    topics:
+      - "agent-sdk"
+      - "agents"
+      - "ai-agent"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugins"
+      - "coding-agent"
+      - "hooks"
+      - "llm"
+      - "marketplace"
+      - "mcp"
+      - "plugins"
+      - "skills"
+      - "subagents"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "habit-tracker"
+    title: "habit-tracker"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # rsaryev

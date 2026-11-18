@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 0, 1, 1, 2, 1, 1, 1, 1, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 1, 2, 2, 0, 2, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
     active_days: 10
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.1000
+  push_per_day: 1.0000
   repo_per_active_day: 0.4000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 4
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 2.5000
     active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -76,11 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-skills"
+    title: "claude-skills"
+    description: "Claude skills (experimentation)"
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "claude-skills-central"
+    title: "claude-skills-central"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "HostingEnvironment"
+    title: "HostingEnvironment"
+    description: "Base Jelastic Magento 2 Hosting Environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "pb-hcf"
+    title: "pb-hcf"
+    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
+    language: "Shell"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "hyva-proxiblue-multimenu"
+    title: "hyva-proxiblue-multimenu"
+    description: "Hyva Theme compatible MultiMenu for Magento 2"
+    language: "HTML"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-06-19"
+  - name: "module-base-modules-meta"
+    title: "module-base-modules-meta"
+    description: "Meta package for my site base modules"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # ProxiBlue
 
-11 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
+10 pushes across 4 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ProxiBlue

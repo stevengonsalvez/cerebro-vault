@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [6, 7, 16, 7, 21, 33, 40, 20, 9, 7, 0, 0, 1]
+pushes_per_week: [6, 6, 17, 6, 34, 23, 37, 21, 10, 5, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 166
     distinct_repos: 21
-    active_days: 44
+    active_days: 43
     repos_not_owned: 14
     not_owned_basenames: 4
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.7955
-  repo_per_active_day: 0.4773
+  push_per_day: 3.8605
+  repo_per_active_day: 0.4884
   not_owned_ratio: 0.6667
   basename_concentration: 0.5238
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 167
+    pushes: 166
     distinct_repos: 21
-    pushes_per_repo: 7.9524
-    active_days: 44
+    pushes_per_repo: 7.9048
+    active_days: 43
     repos_not_owned: 14
     not_owned_basenames: 4
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sheepit"
@@ -132,6 +132,6 @@ repos:
 
 # nicoloboschi
 
-167 pushes across 21 repositories on 44 active days in the last 90 days of public GitHub push activity.
+166 pushes across 21 repositories on 43 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nicoloboschi

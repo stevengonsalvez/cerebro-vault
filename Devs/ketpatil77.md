@@ -6,13 +6,11 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "AgriciDaniel/claude-obsidian"
-  - "BuilderIO/agent-native"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
-  - "745308b2b7085095"
   - "dc9094c987231bcf"
 pushes_per_week: [0, 2, 15, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0]
 windows:
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

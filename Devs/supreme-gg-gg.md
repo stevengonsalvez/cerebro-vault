@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 2, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,83 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "instagram-cli"
+    title: "instagram-cli"
+    description: "Instagram's CLI and TUI client -- The ultimate weapon against brainrot"
+    language: "TypeScript"
+    topics:
+      - "brainrot"
+      - "cli"
+      - "command-line-app"
+      - "ink"
+      - "instagram"
+      - "messenger"
+      - "productivity"
+      - "react"
+      - "terminal-graphics"
+      - "terminal-ui"
+      - "typescript"
+    stars_fact: 2208
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "supreme-gg-gg"
+    title: "supreme-gg-gg"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "Eidos"
+    title: "Eidos"
+    description: "A Deep Learning Library"
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2024-12-31"
+  - name: "pendulum-tracking"
+    title: "pendulum-tracking"
+    description: "Track and Analyze Pendulum Motion using OpenCV (PHY180 @ UofT)"
+    language: "Python"
+    topics:
+      - "matplotlib"
+      - "opencv"
+      - "physics"
+      - "python"
+      - "scipy"
+      - "tracking"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2025-10-22"
+  - name: "scholar-link"
+    title: "scholar-link"
+    description: "Find and Explore Connected Research Papers"
+    language: "JavaScript"
+    topics:
+      - "ai"
+      - "chatbot"
+      - "data-visualization"
+      - "flask"
+      - "llm"
+      - "nlp-keywords-extraction"
+      - "react"
+      - "research-tool"
+      - "streamlit"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-10-06"
 ---
 
 # supreme-gg-gg

@@ -8,11 +8,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [1, 5, 3, 14, 37, 30, 5, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [3, 3, 3, 14, 49, 18, 5, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,105 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "autograph"
+    title: "autograph"
+    description: "Self-writing analytics for Kotlin & Compose Multiplatform — auto-tracked screens, impressions, and clicks, with a pluggable event envelope for dedup, ordering, and loss detection. Runs on Segment."
+    language: "Kotlin"
+    topics:
+      - "analytics"
+      - "compose-multiplatform"
+      - "event-tracking"
+      - "instrumentation"
+      - "kmp"
+      - "kotlin-multiplatform"
+      - "segment"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "a2ui-compose"
+    title: "a2ui-compose"
+    description: "A2UI protocol renderer for Compose Multiplatform — Android, iOS, desktop, and web (wasmJs) from a single commonMain"
+    language: "Kotlin"
+    topics:
+      - "a2ui"
+      - "agent-ui"
+      - "compose-multiplatform"
+      - "generative-ui"
+      - "jetpack-compose"
+      - "kotlin"
+      - "kotlin-multiplatform"
+      - "wasm"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "koog-firebase"
+    title: "koog-firebase"
+    description: null
+    language: "Kotlin"
+    topics:
+      - "ai-agents"
+      - "firebase"
+      - "gemini"
+      - "koog"
+      - "kotlin"
+      - "kotlin-multiplatform"
+      - "llm"
+      - "vertex-ai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "agui-compose"
+    title: "agui-compose"
+    description: "Compose Multiplatform client for the AG-UI protocol — streaming text, tool calls, reasoning, human-in-the-loop and A2UI surfaces on Android, iOS, desktop and web."
+    language: "Kotlin"
+    topics:
+      - "a2ui"
+      - "ag-ui"
+      - "agui"
+      - "ai-agents"
+      - "chat-ui"
+      - "compose-multiplatform"
+      - "generative-ui"
+      - "kotlin-multiplatform"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "firebase-kotlin-sdk"
+    title: "firebase-kotlin-sdk"
+    description: "Kotlin Multiplatform SDK wrapping the official Firebase SDKs for Android and iOS, with a focus on Firebase AI Logic."
+    language: "Kotlin"
+    topics:
+      - "android"
+      - "firebase"
+      - "firebase-ai"
+      - "firestore"
+      - "gemini"
+      - "ios"
+      - "kotlin"
+      - "kotlin-multiplatform"
+      - "vertex-ai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "firebase-objc-sdk"
+    title: "firebase-objc-sdk"
+    description: "Objective-C (@objc) wrapper for FirebaseAILogic, distributed as a Swift Package so Kotlin Multiplatform projects can consume it via cinterop."
+    language: "Swift"
+    topics:
+      - "cinterop"
+      - "firebase"
+      - "firebase-ai"
+      - "gemini"
+      - "kotlin-multiplatform"
+      - "kotlin-native"
+      - "objc"
+      - "swift"
+      - "swift-package-manager"
+      - "vertex-ai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
 ---
 
 # uny

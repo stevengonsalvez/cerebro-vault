@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 0, 6, 14, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 7, 13, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,95 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fable-harness"
+    title: "fable-harness"
+    description: "Drop-in Claude Code harness: Fable 5.2 advises/orchestrates, Opus 5.5 builds, Haiku 5.5 scouts, Jev gates routing and done"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "claude-code-docs"
+    title: "claude-code-docs"
+    description: "Claude Code documentation mirror with AI-powered search"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "skillpack"
+    title: "skillpack"
+    description: "Install skill packs (skills, CLIs, MCP servers, Claude plugin) into any coding agent"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "pyxel-survivors"
+    title: "pyxel-survivors"
+    description: "A Vampire Survivors tribute in pure Python/Pyxel: 5 stages, 50 weapons, 22 Arcanas, real wiki data, and an original 90s theme (pizza bats, VHS ghosts, mutant reptile heroes)"
+    language: "Python"
+    topics:
+      - "2d-game"
+      - "90s"
+      - "arcade"
+      - "bullet-heaven"
+      - "comfyui"
+      - "game"
+      - "game-development"
+      - "indie-game"
+      - "open-source-game"
+      - "pixel-art"
+      - "pixel-game"
+      - "python"
+      - "python-game"
+      - "pyxel"
+      - "retro"
+      - "retro-game"
+      - "roguelike"
+      - "roguelite"
+      - "survivors-like"
+      - "vampire-survivors"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "dgx-spark-sunshine-setup"
+    title: "dgx-spark-sunshine-setup"
+    description: "Headless 4K remote desktop for the NVIDIA DGX Spark (GB10): one-command installer for Sunshine + Moonlight low-latency game streaming with NVENC hardware encoding, a software virtual display (no HDMI dummy plug), GDM autologin, and optional Tailscale."
+    language: "Shell"
+    topics:
+      - "arm64"
+      - "dgx"
+      - "dgx-spark"
+      - "edid"
+      - "game-streaming"
+      - "gb10"
+      - "grace-blackwell"
+      - "hardware-encoding"
+      - "headless"
+      - "low-latency"
+      - "moonlight"
+      - "nvenc"
+      - "nvidia"
+      - "remote-access"
+      - "remote-desktop"
+      - "self-hosted"
+      - "sunshine"
+      - "tailscale"
+      - "ubuntu"
+      - "virtual-display"
+    stars_fact: 59
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "engineering-skills"
+    title: "engineering-skills"
+    description: "Engineering skills and a practical workflow from idea to delivery"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
 ---
 
 # seanGSISG

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 0, 0, 3, 7, 4, 11, 13, 1, 7, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 4, 9, 2, 10, 14, 2, 5, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 7
-    active_days: 25
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.9200
-  repo_per_active_day: 0.2800
+  push_per_day: 1.9583
+  repo_per_active_day: 0.2917
   not_owned_ratio: 0.5714
   basename_concentration: 0.4286
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 48
+    pushes: 47
     distinct_repos: 7
-    pushes_per_repo: 6.8571
-    active_days: 25
+    pushes_per_repo: 6.7143
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "YahooCrawler"
@@ -129,6 +129,6 @@ repos:
 
 # jinliyl
 
-48 pushes across 7 repositories on 25 active days in the last 90 days of public GitHub push activity.
+47 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jinliyl

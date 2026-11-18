@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 0, 0, 6, 16, 33, 40, 15, 13, 18, 0, 2, 0]
+pushes_per_week: [1, 0, 0, 7, 18, 30, 40, 16, 12, 18, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    active_days: 7
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 31
+    distinct_repos: 13
+    active_days: 6
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 3
   "90d":
     pushes: 144
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 14
-    pushes_per_repo: 2.2857
-    active_days: 7
-    repos_not_owned: 13
-    not_owned_basenames: 13
+    pushes: 31
+    distinct_repos: 13
+    pushes_per_repo: 2.3846
+    active_days: 6
+    repos_not_owned: 12
+    not_owned_basenames: 12
     not_owned_owners: 3
   "90d":
     pushes: 144
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "grafana-orgswitch-repro"
+    title: "grafana-orgswitch-repro"
+    description: "Minimal reproduction for grafana#120942: JWT org-switch redirect bug in header-mode JWT setups (Teleport-style proxies)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-06"
+  - name: "node-label-controller"
+    title: "node-label-controller"
+    description: "Kubernetes custom controller used to label container linux containers"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2019-06-20"
+  - name: "click-count-devops"
+    title: "click-count-devops"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-05-05"
+  - name: "bank-account-kata"
+    title: "bank-account-kata"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-10-12"
+  - name: "CAeSAR"
+    title: "CAeSAR"
+    description: "Gestionnaire de ressources"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-05-30"
+  - name: "training-java"
+    title: "training-java"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2017-08-11"
 ---
 
 # QuentinBisson

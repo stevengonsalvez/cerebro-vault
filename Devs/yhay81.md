@@ -8,8 +8,8 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 20, 9, 0, 1, 1]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 8
+    pushes_per_repo: 5.8000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
@@ -76,7 +76,114 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pyropdf"
+    title: "pyropdf"
+    description: "Read, render, and edit PDFs in Python with a Rust core. Undo/redo, atomic transactions, and incremental saves. MIT licensed."
+    language: "Rust"
+    topics:
+      - "document-processing"
+      - "ocr"
+      - "pdf"
+      - "pdf-generation"
+      - "pdf-library"
+      - "pdf-parser"
+      - "python"
+      - "rust"
+      - "text-extraction"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "sqrail"
+    title: "sqrail"
+    description: "A bounded SQL-on-files CLI for coding agents. SQL in, files out."
+    language: "C++"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-tools"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "command-line-tool"
+      - "cpp"
+      - "cpp20"
+      - "csv"
+      - "data-engineering"
+      - "data-processing"
+      - "developer-tools"
+      - "duckdb"
+      - "file-processing"
+      - "jsonl"
+      - "llms-txt"
+      - "parquet"
+      - "sql"
+      - "sql-on-files"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "vastgrid"
+    title: "vastgrid"
+    description: "Open huge CSV and Parquet files like a spreadsheet. Local-first, MIT. Browser demo, VS Code, CLI, React, MCP Apps and Jupyter."
+    language: "TypeScript"
+    topics:
+      - "big-data"
+      - "canvas"
+      - "csv"
+      - "csv-viewer"
+      - "data-grid"
+      - "data-viewer"
+      - "datagrid"
+      - "duckdb"
+      - "excel"
+      - "jsonl"
+      - "jupyter"
+      - "large-files"
+      - "mcp"
+      - "parquet"
+      - "parquet-viewer"
+      - "react"
+      - "spreadsheet"
+      - "tsv"
+      - "typescript"
+      - "vscode-extension"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "parapdf"
+    title: "parapdf"
+    description: "React PDF viewer for huge documents, built on pdf.js. Virtualized pages, bounded canvas memory, search, forms and annotations."
+    language: "TypeScript"
+    topics:
+      - "nextjs"
+      - "pdf"
+      - "pdf-annotation"
+      - "pdf-reader"
+      - "pdf-viewer"
+      - "pdfjs"
+      - "react"
+      - "react-component"
+      - "typescript"
+      - "virtualization"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "ja-translation-todo"
+    title: "ja-translation-todo"
+    description: "OSSの日本語翻訳に参加するための公開カタログ。翻訳方針、日本語チーム、参加先を根拠付きで掲載。"
+    language: "Python"
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "socialname"
+    title: "socialname"
+    description: "Local-first public identifier observability: search whether a public username exists and see the evidence behind every answer"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
 ---
 
 # yhay81

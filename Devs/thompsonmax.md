@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 2, 0, 0, 0, 1, 6, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 1, 6, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cse590bproject3"
+    title: "cse590bproject3"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-15"
+  - name: "mushr_global_planner"
+    title: "mushr_global_planner"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-11-17"
+  - name: "project-euler-solutions"
+    title: "project-euler-solutions"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2019-06-11"
+  - name: "EE371_wi18"
+    title: "EE371_wi18"
+    description: "EE 371 lab code and documentation for winter 2018"
+    language: "Verilog"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2018-02-01"
+  - name: "cv-algo-testing"
+    title: "cv-algo-testing"
+    description: "UW EcoCAR Y4 Fall CV Algo Testing"
+    language: "Matlab"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2017-10-14"
+  - name: "SimpleAccelerometer"
+    title: "SimpleAccelerometer"
+    description: "Simple Accelerometer tracker for android devices"
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2017-08-07"
 ---
 
 # thompsonmax

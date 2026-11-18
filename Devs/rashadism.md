@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [1, 0, 1, 0, 4, 8, 5, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 5, 8, 4, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moo-fo"
+    title: "moo-fo"
+    description: "A Claude desktop theme with a moving backdrop: a flying saucer abducts a cow."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "grocery-assistant"
+    title: "grocery-assistant"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "ate-oc"
+    title: "ate-oc"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "test123"
+    title: "test123"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "openchoreo-foundry-selfservice"
+    title: "openchoreo-foundry-selfservice"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "clipstash"
+    title: "clipstash"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-04"
 ---
 
 # rashadism

@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [5, 2, 5, 7, 17, 14, 16, 13, 4, 3, 0, 0, 1]
+pushes_per_week: [5, 1, 5, 7, 18, 14, 15, 13, 6, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 2
-    active_days: 40
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.1750
-  repo_per_active_day: 0.0500
+  push_per_day: 2.2051
+  repo_per_active_day: 0.0513
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 86
     distinct_repos: 2
-    pushes_per_repo: 43.5000
-    active_days: 40
+    pushes_per_repo: 43.0000
+    active_days: 39
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "oxidelica"
+    title: "oxidelica"
+    description: "A modern cross-platform physical modeling environment in Rust, compatible with the Modelica language"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "thulr"
+    title: "thulr"
+    description: "A workspace index that answers the questions grep cannot: plain-English search across several repositories, settings traced from config to code across spellings, and definitions traced to the commits that wrote them."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "wsindex"
+    title: "wsindex"
+    description: "WSIndex — a learning-first Python CLI that indexes a developer workspace (code/configs via AST, docs as text) using Tensorus v1 as the vector DB."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "holofs"
+    title: "holofs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "auto-mapper"
+    title: "auto-mapper"
+    description: "This project is designed to automatically generate mappers for data classes with KSP"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-10-06"
+  - name: "amplify-react-graphql"
+    title: "amplify-react-graphql"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-02-04"
 ---
 
 # rmorenko
 
-87 pushes across 2 repositories on 40 active days in the last 90 days of public GitHub push activity.
+86 pushes across 2 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rmorenko

@@ -8,11 +8,11 @@ provenance_repos:
   - "openclaw/openclaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "0b5c4741d1c147be"
-pushes_per_week: [111, 159, 240, 478, 1096, 1204, 917, 1018, 462, 655, 1, 9, 10]
+pushes_per_week: [155, 109, 247, 553, 1144, 1166, 825, 1210, 455, 470, 1, 9, 10]
 windows:
   "7d":
     pushes: 10
@@ -22,29 +22,29 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 945
-    distinct_repos: 67
-    active_days: 16
-    repos_not_owned: 60
-    not_owned_basenames: 25
-    not_owned_owners: 40
+    pushes: 877
+    distinct_repos: 61
+    active_days: 15
+    repos_not_owned: 54
+    not_owned_basenames: 21
+    not_owned_owners: 38
   "90d":
-    pushes: 6360
+    pushes: 6354
     distinct_repos: 249
-    active_days: 69
+    active_days: 68
     repos_not_owned: 213
     not_owned_basenames: 76
     not_owned_owners: 133
 automation:
   state: "clear"
-  push_per_day: 92.1739
-  repo_per_active_day: 3.6087
+  push_per_day: 93.4412
+  repo_per_active_day: 3.6618
   not_owned_ratio: 0.8554
   basename_concentration: 0.2691
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "92.17 pushes per active day over 90d (6360 pushes / 69 active days), above the 15 review line"
+    - "93.44 pushes per active day over 90d (6354 pushes / 68 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -59,30 +59,100 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 945
-    distinct_repos: 67
-    pushes_per_repo: 14.1045
-    active_days: 16
-    repos_not_owned: 60
-    not_owned_basenames: 25
-    not_owned_owners: 40
+    pushes: 877
+    distinct_repos: 61
+    pushes_per_repo: 14.3770
+    active_days: 15
+    repos_not_owned: 54
+    not_owned_basenames: 21
+    not_owned_owners: 38
   "90d":
-    pushes: 6360
+    pushes: 6354
     distinct_repos: 249
-    pushes_per_repo: 25.5422
-    active_days: 69
+    pushes_per_repo: 25.5181
+    active_days: 68
     repos_not_owned: 213
     not_owned_basenames: 76
     not_owned_owners: 133
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "CodexBar"
+    title: "CodexBar"
+    description: "Show usage stats for OpenAI Codex and Claude Code, without having to login."
+    language: "Swift"
+    topics:
+      - "ai"
+      - "claude-code"
+      - "codex"
+      - "swift"
+    stars_fact: 23113
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "summarize"
+    title: "summarize"
+    description: "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "cli"
+      - "summarize"
+      - "typescript"
+    stars_fact: 6795
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "RepoBar"
+    title: "RepoBar"
+    description: "Show status of GitHub Repos right in your menu bar and terminal: CI, Issues, Pull Requests, Latest Release."
+    language: "Swift"
+    topics:
+      - "github"
+      - "macos"
+      - "statistics"
+    stars_fact: 2227
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "agent-scripts"
+    title: "agent-scripts"
+    description: "Scripts for agents, shared between my repositories."
+    language: "Shell"
+    topics:
+      - "ai-agents"
+    stars_fact: 7479
+    first_seen: null
+    last_push: "2026-10-30"
+  - name: "Trimmy"
+    title: "Trimmy"
+    description: "\"Paste once, run once.\" — Trimmy flattens those multi-line shell snippets you copy so they actually paste and run."
+    language: "Swift"
+    topics:
+      - "clipboard"
+      - "swift"
+    stars_fact: 750
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "oracle"
+    title: "oracle"
+    description: "Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files."
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "anthropic"
+      - "gemini-pro"
+      - "gpt-5-pro"
+      - "openai"
+      - "opus"
+      - "sonnet"
+    stars_fact: 4065
+    first_seen: null
+    last_push: "2026-11-06"
 ---
 
 # steipete
 
-6360 pushes across 249 repositories on 69 active days in the last 90 days of public GitHub push activity.
+6354 pushes across 249 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steipete

@@ -9,11 +9,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 3, 0, 2, 5, 17, 7, 3, 6, 2, 0, 0, 2]
+pushes_per_week: [2, 1, 0, 2, 5, 17, 7, 7, 3, 1, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,7 +77,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "astrbot_plugin_essential"
+    title: "astrbot_plugin_essential"
+    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
+    language: "Python"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-01-19"
+  - name: "helloworld"
+    title: "helloworld"
+    description: "AstrBot Plugin Template"
+    language: "Python"
+    topics: []
+    stars_fact: 193
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "astrbot_plugin_rss"
+    title: "astrbot_plugin_rss"
+    description: "AstrBot 插件 | 群聊/私聊 RSS 订阅推送"
+    language: "Python"
+    topics: []
+    stars_fact: 29
+    first_seen: null
+    last_push: "2025-08-24"
+  - name: "astrbot_plugin_bilibili"
+    title: "astrbot_plugin_bilibili"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 102
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "Soulter"
+    title: "Soulter"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "one-sponsor-list"
+    title: "one-sponsor-list"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Soulter

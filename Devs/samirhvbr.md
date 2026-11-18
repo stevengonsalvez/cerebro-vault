@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 2, 4, 1, 19, 21, 19, 22, 2, 2, 0, 0, 0]
+pushes_per_week: [2, 0, 4, 3, 22, 18, 17, 24, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skill-loop"
+    title: "skill-loop"
+    description: "Hook Stop que faz o agente do Claude Code trabalhar por horas sem ninguem digitar 'continua': classifica a parada em ASK ou DOC, arquiva em .loop/ e devolve o proximo item da fila."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "tura-notes"
+    title: "tura-notes"
+    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "shvia-desktop"
+    title: "shvia-desktop"
+    description: "ShvIA Desktop"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "shvia-bench"
+    title: "shvia-bench"
+    description: "Ambiente isolado e instrumentação reprodutível para benchmark de LLMs em engenharia de software — camada de execução/medição do LEB (env -i + HOME sandbox, proxy de verdade-base, auditoria de isenção)."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "ai-benchmark"
+    title: "ai-benchmark"
+    description: "AI BENCHMARK"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "shvia-code"
+    title: "shvia-code"
+    description: "SHVIA-CODE — CLI agêntico de código 'anna' (Rust) sobre o gateway do ShvIA"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # samirhvbr

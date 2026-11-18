@@ -8,11 +8,11 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 0, 1, 2, 8, 4, 10, 8, 3, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 4, 6, 5, 9, 10, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "SEPURI-SAI-KRISHNA"
+    title: "SEPURI-SAI-KRISHNA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "streamcase"
+    title: "streamcase"
+    description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "importtime-check"
+    title: "importtime-check"
+    description: "A CI gate for detecting Python import-time regressions."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "Hackathon-Radar"
+    title: "Hackathon-Radar"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "twolang-lab"
+    title: "twolang-lab"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "til-everything"
+    title: "til-everything"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-30"
 ---
 
 # SEPURI-SAI-KRISHNA

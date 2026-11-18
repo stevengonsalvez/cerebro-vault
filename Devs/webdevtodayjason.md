@@ -8,11 +8,11 @@ provenance_repos:
   - "ayghri/i-have-adhd"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [4, 0, 0, 18, 28, 9, 5, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [4, 0, 0, 21, 25, 9, 5, 7, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "story-lantern"
+    title: "story-lantern"
+    description: "A bedside lamp your kid talks to. Writes, paints and narrates a new story every night, entirely on a Tiiny Pocket. An open book with a real page turn, recurring characters, fail-closed child safety, and a parent transparency log. Python stdlib only."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "onelane"
+    title: "onelane"
+    description: "Two apps, one Tiiny, no collisions. A cross-process device lock so your second inference waits its turn instead of failing with error 150004. One file, stdlib only."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "claude-hooks"
+    title: "claude-hooks"
+    description: "Claude Code Hooks Manager for managing Hooks in Claude Code via CLI."
+    language: "Python"
+    topics:
+      - "claude"
+      - "claude-api"
+      - "claude-code"
+      - "claude-desktop"
+      - "claude-hooks"
+      - "hooks"
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "archiver"
+    title: "archiver"
+    description: "Turns a shelf of PDFs, or a folder of your own notes, into text an AI can cite. Runs on a Tiiny."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "tiinyengineer"
+    title: "tiinyengineer"
+    description: "A dependable operations watcher for endpoints, jobs, backups, containers, and devices."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "subctl"
+    title: "subctl"
+    description: "Subscription Central — unified CLI/TUI/dashboard for AI subscriptions you're paying for. Multi-account, rate-limit-aware, tmux team launcher, web dashboard. Phase 1: Anthropic Claude."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "ai-cli"
+      - "ai-tools"
+      - "claude-code"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # webdevtodayjason

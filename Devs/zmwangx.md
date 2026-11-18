@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [1, 0, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0, 1]
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ets"
+    title: "ets"
+    description: "Command output timestamper"
+    language: "Go"
+    topics:
+      - "command-line"
+      - "golang"
+      - "pty"
+      - "timestamping"
+    stars_fact: 185
+    first_seen: null
+    last_push: "2024-12-24"
+  - name: "rust-ffmpeg"
+    title: "rust-ffmpeg"
+    description: "Safe FFmpeg wrapper."
+    language: "Rust"
+    topics: []
+    stars_fact: 2026
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "Typeset-EGA-SGA"
+    title: "Typeset-EGA-SGA"
+    description: "Typeset version of EGA and SGA by Grothendieck."
+    language: null
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2014-01-28"
+  - name: "homebrew-npm-noob"
+    title: "homebrew-npm-noob"
+    description: "Generate Homebrew formulae for npm packages"
+    language: "Python"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2023-02-26"
+  - name: "repocards"
+    title: "repocards"
+    description: "Auto-generate GitHub-style repository cards with GitHub Actions"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "rust-ffmpeg-sys"
+    title: "rust-ffmpeg-sys"
+    description: "FFmpeg bindings for Rust."
+    language: "Rust"
+    topics: []
+    stars_fact: 216
+    first_seen: null
+    last_push: "2026-11-11"
 ---
 
 # zmwangx

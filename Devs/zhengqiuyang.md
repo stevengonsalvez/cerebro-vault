@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 1, 6, 2, 0, 5, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 7, 1, 0, 5, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,74 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-extra-income"
+    title: "dsh-extra-income"
+    description: "DeepSeek Harness plugin that bundles the monetize skill: turn a career history into an honest, actionable side-income plan"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "lexiflow"
+    title: "lexiflow"
+    description: "本地优先的全能英语学习应用:沉浸阅读+SM-2+词书+AI 口语(BYO key),零构建零依赖"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "dsh-readme-polish"
+    title: "dsh-readme-polish"
+    description: "DeepSeek Harness plugin that bundles the readme-polish skill: upgrade an existing README to the standard of top repos in its own ecosystem"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "readme-polish"
+    title: "readme-polish"
+    description: "Agent Skill and DeepSeek Harness plugin: upgrade an existing README to the standard of top repos in its own ecosystem, with a deterministic gate"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "readme"
+      - "skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "monetize-skill"
+    title: "monetize-skill"
+    description: "An Agent Skills package that turns your career history into an honest, actionable side-income plan / 把职业经历变成诚实、可执行的变现方案"
+    language: null
+    topics:
+      - "agent-skills"
+      - "ai-skills"
+      - "career-development"
+      - "claude-code"
+      - "claude-skills"
+      - "monetization"
+      - "side-hustle"
+      - "zcode"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "source-audit"
+    title: "source-audit"
+    description: "信源审计：发布前逐链接核对中文稿件断言的 Agent Skill | Pre-publish audit skill — fetch every cited link, grade every claim"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
 ---
 
 # zhengqiuyang

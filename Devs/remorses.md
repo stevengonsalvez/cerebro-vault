@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 2, 1, 2, 2, 6, 0, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [6, 1, 1, 3, 4, 3, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,73 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "playwriter"
+    title: "playwriter"
+    description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
+    language: "TypeScript"
+    topics:
+      - "mcp"
+      - "playwright"
+    stars_fact: 4071
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "gpuix"
+    title: "gpuix"
+    description: "Node.js & Bun bindings for Zed’s GPUI. Build memory efficient native apps with React or Solid.js"
+    language: "Rust"
+    topics:
+      - "gpui"
+      - "react"
+      - "solid"
+      - "zed"
+    stars_fact: 2938
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "spiceflow"
+    title: "spiceflow"
+    description: "Minimal API & React framework, fully type safe, OpenAPI, RSC, MCP, type safe client, streaming with SSE"
+    language: "TypeScript"
+    topics:
+      - "hono"
+      - "mcp"
+      - "react"
+      - "rsc"
+      - "vite"
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "holocron"
+    title: "holocron"
+    description: "Open source drop-in replacement for Mintlify as a Vite plugin"
+    language: "TypeScript"
+    topics:
+      - "documentation"
+      - "mdx"
+      - "mintlify"
+    stars_fact: 810
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "egaki"
+    title: "egaki"
+    description: "Generate images & videos in the terminal, for humans & agents. Supports Google, OpenAI, ChatGPT sub, Fal, Replicate, SuperGrok sub, Seedance, Kontext"
+    language: "TypeScript"
+    topics:
+      - "chatgpt"
+      - "grok"
+      - "midjourney"
+      - "nanobanana"
+    stars_fact: 176
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "errore"
+    title: "errore"
+    description: "Errors as values for TypeScript. Fully type safe error handling."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 286
+    first_seen: null
+    last_push: "2026-10-09"
 ---
 
 # remorses

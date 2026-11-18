@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [6, 4, 2, 11, 19, 12, 6, 9, 5, 0, 0, 1, 0]
+pushes_per_week: [8, 2, 2, 15, 17, 11, 5, 12, 2, 0, 0, 1, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 3
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
+    repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 75
+    pushes: 76
     distinct_repos: 22
-    active_days: 31
+    active_days: 32
     repos_not_owned: 21
     not_owned_basenames: 10
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 2.4194
-  repo_per_active_day: 0.7097
+  push_per_day: 2.3750
+  repo_per_active_day: 0.6875
   not_owned_ratio: 0.9545
   basename_concentration: 0.5455
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 3
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 3
+    repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
   "90d":
-    pushes: 75
+    pushes: 76
     distinct_repos: 22
-    pushes_per_repo: 3.4091
-    active_days: 31
+    pushes_per_repo: 3.4545
+    active_days: 32
     repos_not_owned: 21
     not_owned_basenames: 10
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "s3cme"
@@ -151,6 +151,6 @@ repos:
 
 # mchmarny
 
-75 pushes across 22 repositories on 31 active days in the last 90 days of public GitHub push activity.
+76 pushes across 22 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mchmarny

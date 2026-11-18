@@ -8,11 +8,11 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [6, 4, 0, 2, 7, 10, 8, 4, 3, 3, 0, 0, 0]
+pushes_per_week: [7, 3, 0, 4, 7, 9, 7, 4, 5, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,83 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Make-Bilibili-Great-Than-Ever-Before"
+    title: "Make-Bilibili-Great-Than-Ever-Before"
+    description: "A fork of the userscript \"Make Bilibili Great Again\", but with some experimental features"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 996
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "Surge"
+    title: "Surge"
+    description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
+    language: "TypeScript"
+    topics:
+      - "clash"
+      - "clash-meta"
+      - "clash-premium"
+      - "clash-rules"
+      - "hacktoberfest"
+      - "mihomo"
+      - "mihomo-rules"
+      - "ruleset"
+      - "sing-box"
+      - "sing-box-ruleset"
+      - "stash"
+      - "surfboard"
+      - "surge"
+      - "surge-rules"
+    stars_fact: 4682
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "hikyaku"
+    title: "hikyaku"
+    description: "A high-performance multiplexing proxy that stays lightning fast and highly reliable everywhere, from fiber broadband to lossy in-flight Wi-Fi."
+    language: "Go"
+    topics: []
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "nali-cli"
+    title: "nali-cli"
+    description: ":anchor: Parse geoinfo of IP Address without leaving your terminal"
+    language: "JavaScript"
+    topics:
+      - "cli"
+      - "nali-dig"
+      - "nali-nslookup"
+      - "nali-ping"
+      - "nali-tracepath"
+      - "nali-traceroute"
+      - "qqwry"
+      - "qqwry-ip-database"
+    stars_fact: 454
+    first_seen: null
+    last_push: "2024-03-19"
+  - name: "cloudflare-block-bad-bot-ruleset"
+    title: "cloudflare-block-bad-bot-ruleset"
+    description: ":vertical_traffic_light: Block malicious crawlers with Cloudflare Firewall Rules"
+    language: null
+    topics:
+      - "cloudflare"
+      - "cloudflare-firewall-rules"
+      - "crawler-detector"
+      - "firewall"
+      - "firewall-rules"
+      - "user-agent"
+    stars_fact: 222
+    first_seen: null
+    last_push: "2020-04-17"
+  - name: "speed.skk.moe"
+    title: "speed.skk.moe"
+    description: "The source code of the https://speed.skk.moe"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 112
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # SukkaW

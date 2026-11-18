@@ -8,11 +8,11 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 3, 1, 3, 2, 4, 2, 13, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 1, 3, 2, 5, 6, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gatewayapi-diagrams"
+    title: "gatewayapi-diagrams"
+    description: "Gateway API diagrams"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "copr-build"
+    title: "copr-build"
+    description: "Ricardo's COPR builds"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "praxis-controller"
+    title: "praxis-controller"
+    description: "Praxis Gateway API Controller"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "k8s-controller-skill"
+    title: "k8s-controller-skill"
+    description: "SKILL for Kubernetes Controller development, containing best practices acquired from multiple trusted sources, videos as well as past knowledge of mine :)"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "waf-dynamic"
+    title: "waf-dynamic"
+    description: "Experiment using Coraza as dynmodule on Envoy"
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "cko-examples"
+    title: "cko-examples"
+    description: "Examples of usage of Coraza Kubernetes Operator"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-23"
 ---
 
 # rikatz

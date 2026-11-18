@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [14, 11, 3, 7, 31, 53, 76, 56, 27, 17, 3, 3, 11]
+pushes_per_week: [18, 6, 3, 11, 30, 57, 69, 61, 31, 8, 4, 3, 10]
 windows:
   "7d":
     pushes: 11
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 56
+    pushes: 53
     distinct_repos: 12
-    active_days: 15
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 312
+    pushes: 311
     distinct_repos: 26
-    active_days: 58
+    active_days: 57
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.3793
-  repo_per_active_day: 0.4483
+  push_per_day: 5.4561
+  repo_per_active_day: 0.4561
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 2
   "30d":
-    pushes: 56
+    pushes: 53
     distinct_repos: 12
-    pushes_per_repo: 4.6667
-    active_days: 15
+    pushes_per_repo: 4.4167
+    active_days: 14
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 3
   "90d":
-    pushes: 312
+    pushes: 311
     distinct_repos: 26
-    pushes_per_repo: 12.0000
-    active_days: 58
+    pushes_per_repo: 11.9615
+    active_days: 57
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "DATROMTool"
@@ -129,6 +129,6 @@ repos:
 
 # andrebrait
 
-312 pushes across 26 repositories on 58 active days in the last 90 days of public GitHub push activity.
+311 pushes across 26 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 1, 1, 1, 4, 4, 0, 3, 2, 2, 0, 0, 0]
+pushes_per_week: [2, 1, 2, 1, 4, 3, 0, 5, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-plugin-bridge"
+    title: "dsh-plugin-bridge"
+    description: "DeepSeek Harness plugin for previewable cross-preset session migration. Fixed-schema handoffs preserve state, source-model intent, and unresolved images; the original session stays untouched."
+    language: "JavaScript"
+    topics:
+      - "context-migration"
+      - "cordis"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "preset-migration"
+      - "session-migration"
+    stars_fact: 168
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "Totoro-qaq"
+    title: "Totoro-qaq"
+    description: "GitHub profile README"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "dsh-plugin-index"
+    title: "dsh-plugin-index"
+    description: "Author-maintained DeepSeek Harness plugin index for Jot and Bridge."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "hermes-jot"
+    title: "hermes-jot"
+    description: "Notes, checklists and documents for Hermes Desktop, with optional agent collaboration."
+    language: "TypeScript"
+    topics:
+      - "ai-collaboration"
+      - "desktop"
+      - "hermes-agent"
+      - "hermes-plugin"
+      - "note-taking"
+      - "notes"
+      - "rich-text-editor"
+      - "todo"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-15"
+  - name: "dsh-jot"
+    title: "dsh-jot"
+    description: "Human-editable notes, todos and documents for DeepSeek Harness, with search, tables, attachments, export and optional agent collaboration."
+    language: "TypeScript"
+    topics:
+      - "agent-tools"
+      - "deepseek-harness"
+      - "desktop"
+      - "document-editor"
+      - "dsh-plugin"
+      - "local-first"
+      - "markdown"
+      - "note-taking"
+      - "notes"
+      - "pdf"
+      - "productivity"
+      - "rich-text"
+      - "todo"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "Cobsidian"
+    title: "Cobsidian"
+    description: "Agent-agnostic workflow skill for maintaining Obsidian knowledge bases"
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agent"
+      - "codex"
+      - "dsh-plugin"
+      - "knowledge-base"
+      - "markdown"
+      - "obsidian"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # Totoro-qaq

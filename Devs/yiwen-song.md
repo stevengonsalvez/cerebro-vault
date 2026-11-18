@@ -8,8 +8,8 @@ provenance_repos:
   - "google-research/paper-orchestra"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "16db77652cb13e5e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,47 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "yiwen-song.github.io"
+    title: "yiwen-song.github.io"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "paper_orchestra"
+    title: "paper_orchestra"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-05-16"
+  - name: "vqqa"
+    title: "vqqa"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-17"
+  - name: "sallysyw"
+    title: "sallysyw"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-12-07"
+  - name: "Classification-Explanation-Framework"
+    title: "Classification-Explanation-Framework"
+    description: "Text Classification DEMO"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-12-03"
 ---
 
 # yiwen-song

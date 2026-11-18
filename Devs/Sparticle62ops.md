@@ -8,11 +8,11 @@ provenance_repos:
   - "Sparticle62ops/pssa"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 0, 2, 12, 0, 0, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 12, 0, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "horizon-autolectern"
+    title: "horizon-autolectern"
+    description: "1:1 Rust port of capthehacker99/AutoLectern (CC-BY-NC-SA-4.0) for the Horizon Rust port effort"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "israce-probe"
+    title: "israce-probe"
+    description: "iOS 27.0.1 IOSurfaceRoot kernel UAF on-device repro probe (CVE-2026-112477)"
+    language: "Objective-C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "horizon-wavey-capes"
+    title: "horizon-wavey-capes"
+    description: "Wavey Capes, exact 1:1 Rust translation for Horizon (upstream by tr7zw)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "agency-poem-entry"
+    title: "agency-poem-entry"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "food-picture-entry"
+    title: "food-picture-entry"
+    description: "make.fun food-picture-01: cast-iron garlic butter steak bites hero shot"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "free-model-aggregator-01"
+    title: "free-model-aggregator-01"
+    description: "Rating-ranked aggregator of free LLM providers: three-wire translation, failover, one endpoint"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
 ---
 
 # Sparticle62ops

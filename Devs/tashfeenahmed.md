@@ -8,11 +8,11 @@ provenance_repos:
   - "tashfeenahmed/freellmapi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [7, 3, 1, 3, 18, 21, 9, 5, 1, 8, 0, 0, 0]
+pushes_per_week: [10, 0, 1, 4, 23, 17, 7, 5, 5, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,82 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OnePersonCompany"
+    title: "OnePersonCompany"
+    description: "Personal operations dashboard for a one-person company"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 64
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "freellmapi"
+    title: "freellmapi"
+    description: "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 54200
+    first_seen: "2026-06-25T06:00:03.189917+00:00"
+    last_push: "2026-11-17"
+  - name: "scallopbot"
+    title: "scallopbot"
+    description: "Self-hosted personal AI assistant with sleep-style memory consolidation and MCP-native memory. In maintenance mode."
+    language: "TypeScript"
+    topics:
+      - "affect-computing"
+      - "agent-memory"
+      - "ai"
+      - "ai-agent"
+      - "anthropic"
+      - "bio-inspired"
+      - "cognitive-architecture"
+      - "dream-consolidation"
+      - "llm"
+      - "mcp"
+      - "memory"
+      - "memory-systems"
+      - "multi-provider"
+      - "openai"
+      - "openclaw"
+      - "personal-ai"
+      - "proactive-agents"
+      - "self-hosted"
+      - "spreading-activation"
+      - "typescript"
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "tashfeenahmed"
+    title: "tashfeenahmed"
+    description: "Profile Introduction"
+    language: null
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "circlechat"
+    title: "circlechat"
+    description: "A group chat where your team and AI agents work together. Real CLI agents (Hermes, OpenClaw, Claude Code and more) in their own sandboxes. Self-hosted, AGPL-3.0."
+    language: "TypeScript"
+    topics:
+      - "agent-client-protocol"
+      - "agpl"
+      - "ai-agents"
+      - "claude-code"
+      - "mcp"
+      - "self-hosted"
+      - "team-chat"
+    stars_fact: 97
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "kinetic"
+    title: "kinetic"
+    description: "GTM tables (enrichment, AI research, signals) + cold email outreach in one self-hosted app"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-11-11"
 ---
 
 # tashfeenahmed

@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [3, 1, 1, 3, 3, 13, 10, 4, 3, 5, 0, 1, 0]
+pushes_per_week: [3, 1, 1, 3, 7, 9, 10, 5, 2, 5, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "chaos-zero-nightmare"
+    title: "chaos-zero-nightmare"
+    description: "Browser-based tools for Chaos Zero Nightmare"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "rcdailey"
+    title: "rcdailey"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal dotfiles, managed by chezmoi"
+    language: "Python"
+    topics:
+      - "chezmoi"
+      - "dotfiles"
+      - "fzf"
+      - "kitty"
+      - "lazygit"
+      - "mise"
+      - "opencode"
+      - "powerlevel10k"
+      - "zsh"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "home-ops"
+    title: "home-ops"
+    description: "Kubernetes homelab managed with Flux GitOps"
+    language: "YAML"
+    topics:
+      - "flux"
+      - "gitops"
+      - "home-ops"
+      - "homelab"
+      - "k8s-at-home"
+      - "kubernetes"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "recyclarr-workspace"
+    title: "recyclarr-workspace"
+    description: "Multi-repo workspace for Recyclarr ecosystem development"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "recyclarr-dev-configs"
+    title: "recyclarr-dev-configs"
+    description: "Personal Recyclarr development configs and test fixtures"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
 ---
 
 # rcdailey

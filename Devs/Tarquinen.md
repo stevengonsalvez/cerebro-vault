@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 0, 0, 0, 3, 15, 1, 0, 0, 3, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-dynamic-context-pruning"
+    title: "opencode-dynamic-context-pruning"
+    description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4503
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "opencode-vim"
+    title: "opencode-vim"
+    description: "Vim-style editing and conversation navigation for OpenCode. Edit prompts, select and copy text, and browse your chats—all from the keyboard."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 85
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "opencode-claude-agent"
+    title: "opencode-claude-agent"
+    description: "Experimental opencode plugin that runs Claude Code models through the Claude Agent SDK"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "opencode-smart-title"
+    title: "opencode-smart-title"
+    description: "Auto-generate meaningful session titles for OpenCode conversations using AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2025-12-25"
+  - name: "oc-tps"
+    title: "oc-tps"
+    description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 173
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "opencodex-fast"
+    title: "opencodex-fast"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-04-01"
 ---
 
 # Tarquinen

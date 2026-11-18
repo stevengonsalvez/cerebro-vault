@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [6, 2, 3, 1, 5, 6, 3, 1, 0, 2, 0, 0, 1]
+pushes_per_week: [6, 1, 3, 3, 6, 3, 3, 1, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 5
-    active_days: 21
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.4286
-  repo_per_active_day: 0.2381
+  push_per_day: 1.4500
+  repo_per_active_day: 0.2500
   not_owned_ratio: 1.0000
   basename_concentration: 0.6000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 30
+    pushes: 29
     distinct_repos: 5
-    pushes_per_repo: 6.0000
-    active_days: 21
+    pushes_per_repo: 5.8000
+    active_days: 20
     repos_not_owned: 5
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gemini-4-motionbricks"
@@ -149,6 +149,6 @@ repos:
 
 # kstonekuan
 
-30 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+29 pushes across 5 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kstonekuan

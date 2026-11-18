@@ -8,11 +8,11 @@ provenance_repos:
   - "rociiu/talorys"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "5c1db9239c15fa63"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "talorys"
+    title: "talorys"
+    description: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "cloudflare"
+      - "cloudflare-workers"
+      - "durable-objects"
+      - "personal-assistant"
+      - "react"
+      - "self-hosted"
+      - "typescript"
+      - "workers-ai"
+    stars_fact: 1460
+    first_seen: "2026-10-11T06:01:22.164700+00:00"
+    last_push: "2026-11-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "harmune"
+    title: "harmune"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "hanzelo-stroke-data"
+    title: "hanzelo-stroke-data"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "webvet"
+    title: "webvet"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-31"
+  - name: "mcploom"
+    title: "mcploom"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-08-28"
 ---
 
 # rociiu

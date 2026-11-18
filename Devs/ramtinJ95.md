@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 5, 0, 1, 0, 0, 4, 4, 24, 0, 2, 4]
+pushes_per_week: [2, 1, 5, 0, 1, 0, 0, 7, 2, 23, 1, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Manually managed dotfiles"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "opencode-tokenscope"
+    title: "opencode-tokenscope"
+    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "cost-tracking"
+      - "developer-tools"
+      - "opencode"
+      - "opencode-plugins"
+    stars_fact: 282
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "nexus"
+    title: "nexus"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "inkline"
+    title: "inkline"
+    description: "zsh-style autosuggestions and syntax highlighting for bash, as a readline add-on"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Archivist"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "claude-mods"
+    title: "claude-mods"
+    description: "Claude Code mods, published as one plugin marketplace"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # ramtinJ95

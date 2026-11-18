@@ -6,15 +6,13 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "anomalyco/opencode"
-  - "BuilderIO/agent-native"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
-  - "745308b2b7085095"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 2, 0, 3, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 1, 2, 1, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

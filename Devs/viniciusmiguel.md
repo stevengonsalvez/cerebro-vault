@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 1, 0, 0, 0, 1, 0, 40, 5, 8, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 0, 1, 0, 42, 3, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 3
-    active_days: 4
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 10
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 4
+    pushes_per_repo: 3.3333
+    active_days: 3
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "OpenVTOLPlane"
+    title: "OpenVTOLPlane"
+    description: "Open Hardware and Source VTOL airplane"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2017-08-06"
+  - name: "HappyPumi"
+    title: "HappyPumi"
+    description: "An Open Source version of Pulumi Cloud"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "Photogrammetry-iphone"
+    title: "Photogrammetry-iphone"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-31"
+  - name: "stm32f469-lvgl"
+    title: "stm32f469-lvgl"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2021-04-01"
+  - name: "Simplify"
+    title: "Simplify"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-07"
+  - name: "GraphicsLessons"
+    title: "GraphicsLessons"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-12-04"
 ---
 
 # viniciusmiguel

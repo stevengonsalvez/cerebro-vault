@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 2, 2, 45, 31, 27, 36, 35, 17, 17, 0, 0, 12]
+pushes_per_week: [3, 2, 2, 47, 31, 26, 35, 40, 15, 14, 0, 0, 12]
 windows:
   "7d":
     pushes: 12
@@ -76,7 +76,35 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "yordis"
+    title: "yordis"
+    description: "About me"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "postcss-google-font"
+    title: "postcss-google-font"
+    description: "PostCSS plugin for import Google fonts"
+    language: "JavaScript"
+    topics:
+      - "font"
+      - "google-fonts"
+      - "postcss"
+      - "postcss-google-font"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-06-18"
 ---
 
 # yordis

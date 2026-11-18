@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "dae9f02535f7c22f"
   - "edb3a626875732de"
-pushes_per_week: [13, 4, 0, 1, 5, 2, 9, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [13, 3, 0, 3, 4, 1, 9, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -32,16 +32,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 18
-    active_days: 23
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.5652
-  repo_per_active_day: 0.7826
+  push_per_day: 1.5909
+  repo_per_active_day: 0.8182
   not_owned_ratio: 0.0000
   basename_concentration: 0.0556
   shapes: []
@@ -68,16 +68,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 36
+    pushes: 35
     distinct_repos: 18
-    pushes_per_repo: 2.0000
-    active_days: 23
+    pushes_per_repo: 1.9444
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 3 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "santhiprakash"
@@ -129,6 +129,6 @@ repos:
 
 # santhiprakash
 
-36 pushes across 18 repositories on 23 active days in the last 90 days of public GitHub push activity.
+35 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santhiprakash

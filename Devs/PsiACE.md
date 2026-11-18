@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [5, 5, 0, 4, 5, 7, 21, 5, 5, 0, 0, 0, 0]
+pushes_per_week: [6, 3, 1, 3, 8, 6, 19, 5, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 16
-    active_days: 29
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 1.9655
-  repo_per_active_day: 0.5517
+  push_per_day: 2.0000
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.6250
   basename_concentration: 0.1250
   shapes: []
@@ -65,22 +65,97 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 16
-    pushes_per_repo: 3.5625
-    active_days: 29
+    pushes_per_repo: 3.5000
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "databend-internals"
+    title: "databend-internals"
+    description: "Databend 内幕大揭秘"
+    language: "Rust"
+    topics:
+      - "book"
+      - "database"
+      - "databend"
+      - "olap"
+      - "query-engine"
+      - "rust"
+      - "tutorial"
+    stars_fact: 304
+    first_seen: null
+    last_push: "2024-01-26"
+  - name: "riteraft"
+    title: "riteraft"
+    description: "RiteRaft - A raft framework, for regular people"
+    language: "Rust"
+    topics:
+      - "distributed"
+      - "distributed-systems"
+      - "raft"
+      - "raft-framework"
+      - "rust"
+    stars_fact: 333
+    first_seen: null
+    last_push: "2024-02-18"
+  - name: "anylings"
+    title: "anylings"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "dohnuts"
+    title: "dohnuts"
+    description: "Dohnuts builds small multimodal models for direct decisions. -> System One model"
+    language: "Python"
+    topics:
+      - "decision-model"
+      - "jev"
+      - "laya"
+      - "llm"
+      - "lora"
+      - "rlcd"
+      - "system-one"
+      - "typesafe"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "skills"
+    title: "skills"
+    description: "A small, shared skill library by builders, for builders."
+    language: "HTML"
+    topics:
+      - "agent"
+      - "best-practices"
+      - "claude-code"
+      - "codex"
+      - "python"
+      - "rust"
+      - "skills"
+    stars_fact: 173
+    first_seen: null
+    last_push: "2026-09-14"
+  - name: "human"
+    title: "human"
+    description: "Just programming, humans inside"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-01"
 ---
 
 # PsiACE
 
-57 pushes across 16 repositories on 29 active days in the last 90 days of public GitHub push activity.
+56 pushes across 16 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/PsiACE

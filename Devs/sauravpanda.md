@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [5, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "BrowserAI"
+    title: "BrowserAI"
+    description: "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser"
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "llama"
+      - "llm"
+      - "llm-inference"
+      - "local"
+      - "localllm"
+      - "tts"
+      - "webgpu"
+    stars_fact: 1451
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "forge-llm"
+    title: "forge-llm"
+    description: "Rust-native AOT compiler for small LLMs. Turns GGUF weights into optimized self-contained binaries — CPU SIMD, Metal, WASM, no interpreter."
+    language: "Rust"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "flarellm"
+    title: "flarellm"
+    description: "WASM-first LLM inference engine in pure Rust. WebGPU-accelerated, GGUF-native — run LLMs in the browser with zero server costs."
+    language: "Rust"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "stepback"
+    title: "stepback"
+    description: "iOS practice tool for learning dance from your own video library. Slow-mo without pitch-shift, loop hard sections, frame-step, and beat-locked step timing. SwiftUI + SwiftData, iOS 17+, zero dependencies."
+    language: "Swift"
+    topics:
+      - "avfoundation"
+      - "beat-detection"
+      - "dance"
+      - "ios"
+      - "practice-tool"
+      - "swiftdata"
+      - "swiftui"
+      - "video-playback"
+      - "west-coast-swing"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "wcs-analyzer"
+    title: "wcs-analyzer"
+    description: "AI-powered West Coast Swing dance video analyzer with WSDC-style scoring. Uses Gemini for native video+audio analysis."
+    language: "Python"
+    topics:
+      - "ai"
+      - "dance"
+      - "gemini"
+      - "video-analysis"
+      - "wcs"
+      - "west-coast-swing"
+      - "wsdc"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "find-pickleball-court-sf"
+    title: "find-pickleball-court-sf"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-06-08"
 ---
 
 # sauravpanda

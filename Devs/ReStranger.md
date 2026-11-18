@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 0, 0, 5, 4, 8, 4, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 0, 5, 4, 8, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "restranger_dotfiles"
+    title: "restranger_dotfiles"
+    description: null
+    language: "CSS"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-03-28"
+  - name: "pi-opencode-free"
+    title: "pi-opencode-free"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: null
+    language: "Nix"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "re-nvim"
+    title: "re-nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "pi-working-enhanced"
+    title: "pi-working-enhanced"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "pi-ui-enhanced"
+    title: "pi-ui-enhanced"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
 ---
 
 # ReStranger

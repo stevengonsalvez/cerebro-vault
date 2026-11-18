@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 0, 2, 12, 38, 10, 15, 2, 2, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 11, 38, 10, 15, 3, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 12
-    active_days: 28
+    pushes: 83
+    distinct_repos: 11
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.4286
+  push_per_day: 3.0741
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
-    distinct_repos: 12
-    pushes_per_repo: 7.0000
-    active_days: 28
+    pushes: 83
+    distinct_repos: 11
+    pushes_per_repo: 7.5455
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scarypilot"
+    title: "scarypilot"
+    description: "Copilot CLI Plugin Marketplace"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "pi-mono"
+    title: "pi-mono"
+    description: "Vibe coded pi related projects"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "scarydex"
+    title: "scarydex"
+    description: "personal codex marketplace"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "homebrew-formulae"
+    title: "homebrew-formulae"
+    description: "homebrew tap for personal projects/forks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "winwal"
+    title: "winwal"
+    description: "A PowerShell wrapper around the pywal tool"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "scaryrawr.github.io"
+    title: "scaryrawr.github.io"
+    description: "github page for scaryrawr"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # scaryrawr
 
-84 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
+83 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/scaryrawr

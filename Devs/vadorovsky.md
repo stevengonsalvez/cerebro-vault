@@ -8,8 +8,8 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 0, 0, 0, 3, 2, 1, 1, 0, 0, 0, 1, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "network-types"
+    title: "network-types"
+    description: "Rust structs representing network-related types (on Layer 2, 3 and 4)"
+    language: "Rust"
+    topics: []
+    stars_fact: 67
+    first_seen: null
+    last_push: "2026-04-21"
+  - name: "aya-examples"
+    title: "aya-examples"
+    description: "Examples of small eBPF projects based on Aya"
+    language: "Rust"
+    topics: []
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "aya-core-relocations"
+    title: "aya-core-relocations"
+    description: "An example of eBPF project based on Aya with CO-RE relocations"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "aya-btf"
+    title: "aya-btf"
+    description: "Experimental BTF CO-RE support for https://aya-rs.dev."
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-18"
+  - name: "overlay"
+    title: "overlay"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-31"
+  - name: "packy"
+    title: "packy"
+    description: "CLI tool for unpacking archives"
+    language: "Rust"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-10-12"
 ---
 
 # vadorovsky

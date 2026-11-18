@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [14, 8, 4, 29, 118, 187, 93, 25, 35, 49, 1, 2, 1]
+pushes_per_week: [12, 6, 5, 34, 151, 175, 66, 25, 47, 37, 1, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
-    distinct_repos: 35
-    active_days: 12
-    repos_not_owned: 33
-    not_owned_basenames: 31
-    not_owned_owners: 3
+    pushes: 78
+    distinct_repos: 31
+    active_days: 11
+    repos_not_owned: 29
+    not_owned_basenames: 28
+    not_owned_owners: 2
   "90d":
-    pushes: 566
+    pushes: 562
     distinct_repos: 98
-    active_days: 54
+    active_days: 52
     repos_not_owned: 92
     not_owned_basenames: 88
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.4815
-  repo_per_active_day: 1.8148
+  push_per_day: 10.8077
+  repo_per_active_day: 1.8846
   not_owned_ratio: 0.9388
   basename_concentration: 0.0204
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 88
-    distinct_repos: 35
-    pushes_per_repo: 2.5143
-    active_days: 12
-    repos_not_owned: 33
-    not_owned_basenames: 31
-    not_owned_owners: 3
+    pushes: 78
+    distinct_repos: 31
+    pushes_per_repo: 2.5161
+    active_days: 11
+    repos_not_owned: 29
+    not_owned_basenames: 28
+    not_owned_owners: 2
   "90d":
-    pushes: 566
+    pushes: 562
     distinct_repos: 98
-    pushes_per_repo: 5.7755
-    active_days: 54
+    pushes_per_repo: 5.7347
+    active_days: 52
     repos_not_owned: 92
     not_owned_basenames: 88
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engineering-notes"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-566 pushes across 98 repositories on 54 active days in the last 90 days of public GitHub push activity.
+562 pushes across 98 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

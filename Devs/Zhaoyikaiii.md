@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 1, 0, 0, 3, 1, 0, 5, 1, 1, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 3, 1, 0, 6, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nvim"
+    title: "nvim"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "clotho"
+    title: "clotho"
+    description: "Clotho is a Go swarm orchestration runtime that decomposes complex work into replayable tasks and runs them reliably across agents using NATS JetStream (KV/Streams/ObjectStore)."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-06"
+  - name: "clawteam"
+    title: "clawteam"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "vibe-kanban"
+    title: "vibe-kanban"
+    description: "Get 10X more out of Claude Code, Codex or any coding agent"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-23"
+  - name: "planka-integration"
+    title: "planka-integration"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-10-10"
 ---
 
 # Zhaoyikaiii

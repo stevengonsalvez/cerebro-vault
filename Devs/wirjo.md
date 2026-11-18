@@ -8,8 +8,8 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a50b0e08dbaee74a"
 pushes_per_week: [1, 0, 0, 0, 0, 1, 0, 4, 0, 3, 0, 0, 1]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "fintech-get-started"
+    title: "fintech-get-started"
+    description: "A collection of useful AWS resources to get started and build a fintech startup"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2024-07-24"
+  - name: "voice-ai-benchmarks"
+    title: "voice-ai-benchmarks"
+    description: "Compare STT and LLM providers for voice agents"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "sample-herdr-on-agentcore"
+    title: "sample-herdr-on-agentcore"
+    description: "Run herdr on AWS Bedrock AgentCore Runtime — code sample + remote-attach client"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "sample-claude-for-industries"
+    title: "sample-claude-for-industries"
+    description: "Sample Claude for Industries"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "slides"
+    title: "slides"
+    description: "Slide decks"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
+  - name: "sample-agentic-gpu-capacity"
+    title: "sample-agentic-gpu-capacity"
+    description: "Read-only multi-agent GPU capacity planner on Amazon Bedrock AgentCore"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # wirjo

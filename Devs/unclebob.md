@@ -8,11 +8,11 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [2, 1, 0, 0, 3, 0, 3, 1, 1, 3, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 1, 2, 0, 3, 2, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ub-mode"
+    title: "ub-mode"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 8126
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "fitnesse"
+    title: "fitnesse"
+    description: "FitNesse -- The Acceptance Test Wiki"
+    language: "Java"
+    topics: []
+    stars_fact: 2155
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "agnesse"
+    title: "agnesse"
+    description: "FitNesse, forked for use by AI agents"
+    language: "Java"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "uml-viewer"
+    title: "uml-viewer"
+    description: "Live Quil UML class-diagram viewer driven by EDN"
+    language: "Clojure"
+    topics: []
+    stars_fact: 501
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "swarm-forge"
+    title: "swarm-forge"
+    description: "A simple tool for coordinating several AI agents."
+    language: "Clojure"
+    topics: []
+    stars_fact: 4109
+    first_seen: "2026-08-09T06:00:06.430133+00:00"
+    last_push: "2026-09-07"
+  - name: "crap4clj"
+    title: "crap4clj"
+    description: "A skill implementing the CRAP formula for clojure with speclj. Easy to adjust to other testers."
+    language: "Clojure"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-09-17"
 ---
 
 # unclebob

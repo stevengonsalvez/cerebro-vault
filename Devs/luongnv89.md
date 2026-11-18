@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [27, 11, 14, 24, 68, 34, 20, 21, 15, 5, 2, 0, 3]
+pushes_per_week: [30, 6, 15, 32, 63, 30, 20, 26, 13, 2, 2, 0, 4]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 4
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 11
-    active_days: 9
+    pushes: 21
+    distinct_repos: 12
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 244
-    distinct_repos: 47
+    pushes: 243
+    distinct_repos: 48
     active_days: 54
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.5185
-  repo_per_active_day: 0.8704
-  not_owned_ratio: 0.2128
-  basename_concentration: 0.0426
+  push_per_day: 4.5000
+  repo_per_active_day: 0.8889
+  not_owned_ratio: 0.2083
+  basename_concentration: 0.0417
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 11
-    pushes_per_repo: 1.8182
-    active_days: 9
+    pushes: 21
+    distinct_repos: 12
+    pushes_per_repo: 1.7500
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 244
-    distinct_repos: 47
-    pushes_per_repo: 5.1915
+    pushes: 243
+    distinct_repos: 48
+    pushes_per_repo: 5.0625
     active_days: 54
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -132,6 +132,6 @@ repos:
 
 # luongnv89
 
-244 pushes across 47 repositories on 54 active days in the last 90 days of public GitHub push activity.
+243 pushes across 48 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

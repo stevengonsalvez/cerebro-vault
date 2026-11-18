@@ -9,16 +9,16 @@ artifact_tags: [cerebro/signal]
 workflow_tags: []
 source: github
 url: https://github.com/cursor/plugins
-score: 0.60
-reason: "Cursor plugin spec and official plugins; agent extensibility."
+score: 0.50
+reason: "Cursor plugin spec: extensibility layer for coding agents."
 repo: "cursor/plugins"
-stars: "278"
+stars: "201"
 captured: 2026-08-30T06:00:05.448293+00:00
 rating:
 ---
 # cursor/plugins: Cursor plugin specification and official plugins
 
-> Cursor plugin spec and official plugins; agent extensibility.
+> Cursor plugin spec: extensibility layer for coding agents.
 
 Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest.
 | name | Plugin | Author | Category | description (from marketplace) | 

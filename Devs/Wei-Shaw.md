@@ -8,11 +8,11 @@ provenance_repos:
   - "Wei-Shaw/sub2api"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "91526b8597b5b63d"
-pushes_per_week: [5, 2, 3, 4, 11, 12, 4, 6, 0, 2, 0, 0, 0]
+pushes_per_week: [5, 2, 3, 4, 15, 8, 4, 6, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "sub2api"
+    title: "sub2api"
+    description: "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+    language: "Go"
+    topics:
+      - "2api"
+      - "antigravity2api"
+      - "cc2api"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "crs"
+      - "crs2"
+      - "gemini"
+    stars_fact: 46229
+    first_seen: "2026-08-23T06:00:02.900682+00:00"
+    last_push: "2026-11-18"
+  - name: "claude-relay-service"
+    title: "claude-relay-service"
+    description: "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。"
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-api"
+      - "claude-code"
+      - "claude-proxy"
+      - "codex-cli"
+      - "crs"
+      - "droid"
+      - "droid-cli"
+      - "droid2api"
+      - "gemini-cli"
+    stars_fact: 12817
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "model-price-repo"
+    title: "model-price-repo"
+    description: "This repository stores model pricing files for CRS and sub2api projects. It synchronizes remote price files and allows custom price definitions for better flexibility."
+    language: "Python"
+    topics: []
+    stars_fact: 39
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "rsa-js-php"
+    title: "rsa-js-php"
+    description: "RSA demonstration of Javascript and PHP"
+    language: "JavaScript"
+    topics:
+      - "rsa-js-php"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2018-08-15"
+  - name: "lnmpr"
+    title: "lnmpr"
+    description: "lnmpr一键安装脚本"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2018-12-10"
+  - name: "X-header"
+    title: "X-header"
+    description: "Sublime快捷键生成文件头注释"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2018-07-24"
 ---
 
 # Wei-Shaw

@@ -8,11 +8,11 @@ provenance_repos:
   - "Unclecheng-li/VulnClaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "135bded64aec62fb"
-pushes_per_week: [0, 1, 1, 1, 1, 1, 7, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 2, 0, 1, 7, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,93 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AI_Animation"
+    title: "AI_Animation"
+    description: "本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。"
+    language: "HTML"
+    topics:
+      - "ai"
+      - "ai-agents"
+      - "css"
+      - "dsh-plugin"
+      - "dsh-plugins"
+      - "front-end"
+      - "html5"
+      - "javascript"
+      - "ppt"
+      - "prompt"
+      - "prompt-engineering"
+      - "skill"
+      - "skills"
+    stars_fact: 1806
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "DiskClaw"
+    title: "DiskClaw"
+    description: "DiskClaw(磁盘清理大虾) 是一个基于 AI 分析 的本地桌面磁盘空间清理工具，主打“先扫描分析、再安全清理、支持隔离恢复和历史报告”的本地化清理体验。"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-05-20"
+  - name: "cybersecurity-daily"
+    title: "cybersecurity-daily"
+    description: "网络安全日报—每日推送；Daily updated report on cybersecurity hotspots"
+    language: "HTML"
+    topics:
+      - "cybersecurity"
+      - "hacker-news"
+      - "html"
+      - "security"
+      - "vulnerability"
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "DeepSec"
+    title: "DeepSec"
+    description: "DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC."
+    language: "Python"
+    topics:
+      - "agent"
+      - "ai"
+      - "ai-agents"
+      - "aisecurity"
+      - "cybersecurity"
+      - "dsh"
+      - "dsh-bundle"
+      - "dsh-plugin"
+      - "dsh-plugin-desktop"
+      - "dsh-plugin-market"
+      - "dsh-plugin-verify"
+      - "dsh-plugins"
+      - "dsh-skill"
+      - "hacker"
+      - "plugin"
+      - "redteam"
+      - "security"
+      - "vscode"
+      - "vulnerabilities"
+      - "vulnerability"
+    stars_fact: 518
+    first_seen: null
+    last_push: "2026-08-24"
+  - name: "note-skill"
+    title: "note-skill"
+    description: "生成手写笔记本风格的单文件 HTML 学习笔记。当用户需要将技术内容、漏洞分析、知识总结等转化为视觉精美的网页笔记时使用。"
+    language: "HTML"
+    topics: []
+    stars_fact: 209
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "starlit.com"
+    title: "starlit.com"
+    description: "星伴公开项目主页：本地二次元角色聊天，Windows 与 Android 双端"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # Unclecheng-li

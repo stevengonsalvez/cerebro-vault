@@ -8,11 +8,11 @@ provenance_repos:
   - "workweave/router"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "0af70dc4df451a55"
-pushes_per_week: [3, 2, 0, 3, 8, 6, 10, 2, 1, 2, 0, 0, 1]
+pushes_per_week: [4, 1, 0, 4, 8, 5, 10, 2, 3, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "darya"
+    title: "darya"
+    description: "terminal workspace"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-05"
+  - name: "personal-website"
+    title: "personal-website"
+    description: "Personal Website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-02"
+  - name: "steventohme"
+    title: "steventohme"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-08-18"
+  - name: "CP400"
+    title: "CP400"
+    description: "CP400 - Quantum Software Development"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-22"
+  - name: "music-slack-status"
+    title: "music-slack-status"
+    description: "Sync Your Slack Status With Your Spotify Tunes🎶"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-10-26"
+  - name: "AvI"
+    title: "AvI"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-05-19"
 ---
 
 # steventohme

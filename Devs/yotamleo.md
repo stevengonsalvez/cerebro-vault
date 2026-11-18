@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [1, 0, 1, 23, 92, 123, 144, 134, 65, 113, 0, 3, 3]
+pushes_per_week: [1, 0, 1, 25, 110, 116, 131, 148, 73, 91, 0, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 170
+    pushes: 163
     distinct_repos: 4
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 170
+    pushes: 163
     distinct_repos: 4
-    pushes_per_repo: 42.5000
-    active_days: 12
+    pushes_per_repo: 40.7500
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nvidia-steam-shader-cache"
+    title: "nvidia-steam-shader-cache"
+    description: "Diagnostic toolkit for Steam's NVIDIA shader-cache merge bug on Linux (4 GiB TOC wrap, steam-for-linux#13622)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-25"
 ---
 
 # yotamleo

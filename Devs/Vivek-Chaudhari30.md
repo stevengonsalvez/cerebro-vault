@@ -8,8 +8,8 @@ provenance_repos:
   - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4f795faf4eede06c"
 pushes_per_week: [1, 0, 1, 0, 3, 0, 1, 0, 0, 4, 0, 0, 0]
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "learn-to-remember"
+    title: "learn-to-remember"
+    description: "RL (hand-written GRPO + LoRA) that teaches a small LLM when to trust its notes and when to check the source."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "Vivek-Chaudhari30"
+    title: "Vivek-Chaudhari30"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "Paged_Serve"
+    title: "Paged_Serve"
+    description: "From-scratch LLM inference server: paged KV cache, continuous batching, prefix caching and a custom CUDA paged-attention kernel behind an OpenAI-compatible API. Golden-tested token-for-token against HuggingFace."
+    language: "Python"
+    topics:
+      - "continuous-batching"
+      - "cuda"
+      - "cuda-kernels"
+      - "fastapi"
+      - "gpu"
+      - "inference-server"
+      - "kv-cache"
+      - "llm"
+      - "llm-inference"
+      - "llm-serving"
+      - "openai-api"
+      - "paged-attention"
+      - "prefix-caching"
+      - "python"
+      - "pytorch"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "GRPO-Zero"
+    title: "GRPO-Zero"
+    description: "From-scratch GRPO (Group Relative Policy Optimization) for verifiable math reasoning: trains Qwen2.5 on GSM8K with RLVR — hand-written rollout, group-relative advantages, clipped policy update, KL regularization, LoRA, and reproducible evaluation."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "Blue-Envelope"
+    title: "Blue-Envelope"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "RL-Reasoning-team18"
+    title: "RL-Reasoning-team18"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
 ---
 
 # Vivek-Chaudhari30

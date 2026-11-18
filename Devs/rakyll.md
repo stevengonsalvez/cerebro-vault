@@ -8,8 +8,8 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [2, 0, 0, 4, 7, 1, 0, 0, 1, 4, 1, 0, 0]
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hey"
+    title: "hey"
+    description: "HTTP load generator, ApacheBench (ab) replacement"
+    language: "Go"
+    topics: []
+    stars_fact: 20778
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "govalidate"
+    title: "govalidate"
+    description: "Validates your Go installation and dependencies."
+    language: "Go"
+    topics:
+      - "golang"
+      - "golang-tools"
+    stars_fact: 334
+    first_seen: null
+    last_push: "2023-11-23"
+  - name: "ax-images"
+    title: "ax-images"
+    description: "A repository of prebuilt AX images"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "ax-studio"
+    title: "ax-studio"
+    description: "A desktop studio application for AX"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 14
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "ate-env-demo"
+    title: "ate-env-demo"
+    description: "A visual demo of Agent Substrate Environment with Antigravity"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "go-hardware"
+    title: "go-hardware"
+    description: "A directory of hardware related libs, tools, and tutorials for Go"
+    language: "Go"
+    topics:
+      - "cgo"
+      - "embedded"
+      - "go"
+      - "hardware"
+      - "tutorials"
+    stars_fact: 1387
+    first_seen: null
+    last_push: "2019-07-31"
 ---
 
 # rakyll

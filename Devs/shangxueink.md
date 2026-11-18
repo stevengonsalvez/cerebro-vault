@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [4, 1, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [5, 0, 2, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,39 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "moreduomoreduogreen"
+    title: "moreduomoreduogreen"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "TRSSLauncher-Setup"
+    title: "TRSSLauncher-Setup"
+    description: "在Windows上可以直接使用的TRSS-yunzai安装器，无需linux指令"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-09-16"
+  - name: "koishi-plugin-iirose-welcome"
+    title: "koishi-plugin-iirose-welcome"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-11-06"
+  - name: "koishi-plugin-meter-image"
+    title: "koishi-plugin-meter-image"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-03"
 ---
 
 # shangxueink

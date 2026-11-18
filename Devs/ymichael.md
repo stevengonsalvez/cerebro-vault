@@ -8,11 +8,11 @@ provenance_repos:
   - "ymichael/bb"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "419a4253687fd7a1"
-pushes_per_week: [6, 0, 8, 11, 11, 28, 60, 2, 12, 6, 1, 1, 2]
+pushes_per_week: [3, 0, 11, 8, 15, 29, 55, 2, 15, 3, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 148
+    pushes: 145
     distinct_repos: 4
-    active_days: 37
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.0000
-  repo_per_active_day: 0.1081
+  push_per_day: 4.0278
+  repo_per_active_day: 0.1111
   not_owned_ratio: 1.0000
   basename_concentration: 0.7500
   shapes: []
@@ -65,22 +65,73 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 148
+    pushes: 145
     distinct_repos: 4
-    pushes_per_repo: 37.0000
-    active_days: 37
+    pushes_per_repo: 36.2500
+    active_days: 36
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bb-plugins"
+    title: "bb-plugins"
+    description: "BB plugins by Michael Yong"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "cprofilev"
+    title: "cprofilev"
+    description: ":fire: An easier way to use cProfile"
+    language: "Python"
+    topics: []
+    stars_fact: 424
+    first_seen: null
+    last_push: "2016-02-01"
+  - name: "WidgetSpinner"
+    title: "WidgetSpinner"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-07-29"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "everdell"
+    title: "everdell"
+    description: "🐿️ Play Everdell Online!"
+    language: "TypeScript"
+    topics:
+      - "board-game"
+      - "everdell"
+      - "game"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-03-18"
+  - name: "mill-timezone-app"
+    title: "mill-timezone-app"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-05"
 ---
 
 # ymichael
 
-148 pushes across 4 repositories on 37 active days in the last 90 days of public GitHub push activity.
+145 pushes across 4 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ymichael

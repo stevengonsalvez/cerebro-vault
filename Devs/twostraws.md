@@ -8,8 +8,8 @@ provenance_repos:
   - "twostraws/SwiftUI-Agent-Skill"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "1ee39ec6496bfca4"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Swift-Agent-Skills"
+    title: "Swift-Agent-Skills"
+    description: "A curated directory of open-source AI agent skills for Swift and Apple platform development."
+    language: null
+    topics: []
+    stars_fact: 3054
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "SwiftUI-Agent-Skill"
+    title: "SwiftUI-Agent-Skill"
+    description: "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 6582
+    first_seen: "2026-10-10T06:01:25.363111+00:00"
+    last_push: "2026-10-26"
+  - name: "HackingWithSwift"
+    title: "HackingWithSwift"
+    description: "The project source code for Hacking with iOS."
+    language: "Swift"
+    topics: []
+    stars_fact: 6395
+    first_seen: null
+    last_push: "2025-06-22"
+  - name: "ShaderKit"
+    title: "ShaderKit"
+    description: "A library of fragment shaders you can use in any SpriteKit project."
+    language: "GLSL"
+    topics:
+      - "glsl"
+      - "glsl-shaders"
+      - "spritekit"
+      - "swift"
+    stars_fact: 711
+    first_seen: null
+    last_push: "2023-05-10"
+  - name: "Swift-Testing-Agent-Skill"
+    title: "Swift-Testing-Agent-Skill"
+    description: "Swift Testing agent skill for Claude Code, Codex, and other AI tools."
+    language: null
+    topics: []
+    stars_fact: 483
+    first_seen: null
+    last_push: "2026-05-17"
+  - name: "Inferno"
+    title: "Inferno"
+    description: "Metal shaders for SwiftUI."
+    language: "Metal"
+    topics: []
+    stars_fact: 2942
+    first_seen: null
+    last_push: "2026-05-17"
 ---
 
 # twostraws

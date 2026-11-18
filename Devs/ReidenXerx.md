@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 4, 5, 1, 13, 62, 42, 9, 1, 2, 0, 0, 0]
+pushes_per_week: [11, 0, 5, 3, 18, 56, 41, 9, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Event-Horizon"
+    title: "Event-Horizon"
+    description: "Vortex extension that installs a collection exactly as its curator built it — every archive checked by SHA-256, the load order pinned — and keeps it that way. Skyrim SE, Fallout 4, Fallout 3, New Vegas, Starfield."
+    language: "TypeScript"
+    topics:
+      - "bethesda"
+      - "collections"
+      - "electron"
+      - "fallout-new-vegas"
+      - "fallout3"
+      - "fallout4"
+      - "load-order"
+      - "loot"
+      - "mod-manager"
+      - "modding"
+      - "nexusmods"
+      - "skyrim"
+      - "skyrim-special-edition"
+      - "starfield"
+      - "typescript"
+      - "vortex"
+      - "vortex-extension"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "fo4-anatomy"
+    title: "fo4-anatomy"
+    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "fo4-chemistry"
+    title: "fo4-chemistry"
+    description: "NPC autonomy addon for Rapport: decides when two NPCs act, and asks Rapport to run it. Policy only."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "bearing"
+    title: "bearing"
+    description: "An intel layer for AI coding agents that assumes its own rules might be wrong — and keeps the evidence. Authoritative north-stars the agent must cite, a task-core written before compaction eats it, review by an expert in YOUR domain, and an installer that verifies its own claims instead of printing success. Claude Code, Zed, Codex."
+    language: "JavaScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "code-review"
+      - "codex"
+      - "context-engineering"
+      - "developer-tools"
+      - "gitnexus"
+      - "llm"
+      - "mcp"
+      - "prompt-engineering"
+      - "zed"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "fo4-rapport"
+    title: "fo4-rapport"
+    description: "F4SE plugin and Papyrus bridge that drives AAF: scene selection, facial expressions, overlays and persistent aftermath for Fallout 4"
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "reidenxerx.github.io"
+    title: "reidenxerx.github.io"
+    description: "duduphudu.app: Omarchy plugins, apps and tools by DuduPhudu"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # ReidenXerx

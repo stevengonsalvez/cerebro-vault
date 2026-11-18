@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [7, 2, 0, 0, 0, 5, 22, 13, 18, 5, 0, 3, 6]
+pushes_per_week: [7, 2, 0, 0, 0, 5, 22, 16, 17, 3, 0, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mimo-web2api"
+    title: "mimo-web2api"
+    description: "把小米 MiMo AI Studio 网页端反代为 OpenAI / Anthropic 兼容 API 的本地网关。单 exe 双击即用。Turn MiMo web chat into an OpenAI/Anthropic compatible API."
+    language: "Go"
+    topics:
+      - "ai-gateway"
+      - "anthropic-api"
+      - "golang"
+      - "llm"
+      - "mimo"
+      - "openai-api"
+      - "proxy"
+      - "xiaomi"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "web-ingest"
+    title: "web-ingest"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "teddyli18000"
+    title: "teddyli18000"
+    description: "A living GitHub profile README."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "AiForMillikan"
+    title: "AiForMillikan"
+    description: "AI-assisted Millikan oil-drop experiment project for a university physics honors lab."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "app-pages"
+    title: "app-pages"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "baidu-drive-mover"
+    title: "baidu-drive-mover"
+    description: "Windows CLI tool for moving arbitrary Baidu Netdisk share links to Google Drive with resumable staged transfer."
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
 ---
 
 # teddyli18000

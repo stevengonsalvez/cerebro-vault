@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 3, 4, 6, 29, 48, 33, 12, 16, 10, 0, 0, 0]
+pushes_per_week: [0, 3, 5, 6, 31, 49, 29, 16, 16, 6, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 24
-    active_days: 39
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.1538
-  repo_per_active_day: 0.6154
+  push_per_day: 4.2368
+  repo_per_active_day: 0.6316
   not_owned_ratio: 0.0417
   basename_concentration: 0.0833
   shapes: []
@@ -57,30 +57,105 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
+    pushes: 21
     distinct_repos: 8
-    pushes_per_repo: 2.7500
+    pushes_per_repo: 2.6250
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 162
+    pushes: 161
     distinct_repos: 24
-    pushes_per_repo: 6.7500
-    active_days: 39
+    pushes_per_repo: 6.7083
+    active_days: 38
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AI-gateway"
+    title: "AI-gateway"
+    description: "Reusable Docker Compose AI gateway with CLIProxyAPI, Sub2API, Apache APISIX, and Cloudflare Tunnel."
+    language: "Python"
+    topics:
+      - "ai-gateway"
+      - "apache-apisix"
+      - "cli-proxy-api"
+      - "cloudflare-tunnel"
+      - "docker-compose"
+      - "sub2api"
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "xzos-blog"
+    title: "xzos-blog"
+    description: "xzOS source repo"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "procward"
+    title: "procward"
+    description: "Cross-platform process-tree ownership and job control for CLI programs, built in Rust for pi and standalone use."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "cross-platform"
+      - "freebsd"
+      - "init"
+      - "job-control"
+      - "linux"
+      - "macos"
+      - "process-management"
+      - "process-supervisor"
+      - "pty"
+      - "rust"
+      - "subreaper"
+      - "windows-job-objects"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "hermes-litellm-provider"
+    title: "hermes-litellm-provider"
+    description: "Hermes model-provider plugin for LiteLLM proxy"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-18"
+  - name: "downstream-fork-maintain-skill"
+    title: "downstream-fork-maintain-skill"
+    description: "Maintain upstream-tracking downstream forks and PR-quality patch stacks without drifting into hard forks."
+    language: "Shell"
+    topics:
+      - "agent-skill"
+      - "downstream"
+      - "fork"
+      - "git"
+      - "github-actions"
+      - "patch-management"
+      - "pull-requests"
+      - "upstream-sync"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "bdd-skill"
+    title: "bdd-skill"
+    description: "AI agent skill for Behavior-Driven Development with Cucumber/Gherkin guidance"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-06-28"
 ---
 
 # xz-dev
 
-162 pushes across 24 repositories on 39 active days in the last 90 days of public GitHub push activity.
+161 pushes across 24 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xz-dev

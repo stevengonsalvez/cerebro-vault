@@ -8,11 +8,11 @@ provenance_repos:
   - "EveryInc/compound-engineering-plugin"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "47dca59f5e85d3b9"
-pushes_per_week: [11, 1, 1, 8, 14, 12, 14, 3, 5, 5, 0, 1, 0]
+pushes_per_week: [12, 0, 1, 8, 14, 12, 14, 4, 7, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "illo-skill"
+    title: "illo-skill"
+    description: "illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starring a recurring mascot. 30+ characters packs, with ability to create your own."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "illustration"
+      - "image-generation"
+      - "skill"
+    stars_fact: 432
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "illo-characters"
+    title: "illo-characters"
+    description: "Community character packs for the illo editorial-illustration agent skill"
+    language: null
+    topics: []
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "energon"
+    title: "energon"
+    description: "Self-hosted handoff layer for agent work that doesn't belong in a repo."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "hermes-kids-profile-blueprint"
+    title: "hermes-kids-profile-blueprint"
+    description: "Parent-operated starter kit for designing a private, child-facing Hermes Agent profile"
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-safety"
+      - "child-safety"
+      - "education"
+      - "hermes-agent"
+      - "parenting"
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Cross-platform AI agent skills (SKILL.md) installable via npx skills / gh skills"
+    language: null
+    topics: []
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-08-17"
+  - name: "clefcam"
+    title: "clefcam"
+    description: "A camera that follows your rules, powered by Cloudflare Clef Flash."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-05"
 ---
 
 # tmchow

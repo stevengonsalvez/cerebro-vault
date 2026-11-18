@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 1, 4, 6, 9, 12, 3, 3, 6, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 4, 8, 7, 12, 3, 5, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Pai"
+    title: "Pai"
+    description: "基于 pi 和 pi-durable 构建的本地长程任务 Coding Harness，解决缓存失效、上下文膨胀、失忆与中断恢复。"
+    language: "Python"
+    topics:
+      - "agent"
+      - "feishu"
+      - "python"
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-09-25"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "pi-extensions 集合"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "pi"
+      - "pi-extension"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "Trajex"
+    title: "Trajex"
+    description: "数万行散落的 Claude Code、Codex、Pi 和 Deepseek Harness JSONL 会话，索引至同一个 SQLite 中： Agent 可通过 CLI 实现毫秒级查询，用户可通过 App 直观浏览｜Past Claude Code, Codex, Pi, Deepseek Harness sessions -- queryable by your agent, browsable by you"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 128
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "skills"
+    title: "skills"
+    description: "我的个人 AI Agent Skills 集合，覆盖开发、设计、研究"
+    language: "HTML"
+    topics:
+      - "skills"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "wutongyuonce"
+    title: "wutongyuonce"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "RepoMirror"
+    title: "RepoMirror"
+    description: "一个极简的 macOS 桌面工具，用于将 GitHub 仓库或其子目录镜像同步到本地文件夹树｜A minimal macOS desktop app for mirroring GitHub repositories or repository subdirectories into a local folder tree"
+    language: "Rust"
+    topics:
+      - "github"
+      - "macos"
+      - "macos-app"
+      - "tauri"
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # wutongyuonce

@@ -8,8 +8,8 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+repos_populated: true
+generated_at: "2026-11-18T07:04:04.801884+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 4, 0, 10, 19, 4, 0, 4, 1, 0, 0, 0, 0]
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for Shipmates CLI"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "shipmates"
+    title: "shipmates"
+    description: "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request autonomously. Multi-harness."
+    language: "Rust"
+    topics:
+      - "agent-orchestration"
+      - "agentic"
+      - "agents"
+      - "ai-agents"
+      - "anthropic"
+      - "automation"
+      - "claude"
+      - "claude-ai"
+      - "claude-code"
+      - "cli"
+      - "coding-assistant"
+      - "developer-tools"
+      - "llm"
+      - "multi-agent"
+      - "productivity"
+      - "slash-commands"
+      - "subagents"
+      - "workflow-automation"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "better-mtplx-ui"
+    title: "better-mtplx-ui"
+    description: "A lightweight, parallel-first desktop GUI for MTPLX — browse packs, launch multiple models on their own ports, watch them side by side."
+    language: "Rust"
+    topics:
+      - "apple-silicon"
+      - "llm"
+      - "local-inference"
+      - "mtplx"
+      - "react"
+      - "rust"
+      - "tauri"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "langfuse-k8s-gitops"
+    title: "langfuse-k8s-gitops"
+    description: "General-purpose ArgoCD + Helm umbrella chart deployment for self-hosting Langfuse in a single Kubernetes namespace across local, test, pre-prod, and prod environments"
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "pi-cuttle"
+    title: "pi-cuttle"
+    description: "Hybrid local/cloud model routing for pi: a local classifier picks the model per turn, with a cross-process memory governor so subagent fanout cannot exhaust local VRAM."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "cuttle"
+    title: "cuttle"
+    description: "Frontier mind. Local hands. Agentic coding harness that plans on a frontier model and executes on local/cheap hands."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # saman-mb
