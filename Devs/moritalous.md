@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [0, 1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gacha"
+    title: "gacha"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "cost-widget"
     title: "cost-widget"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-15"
   - name: "cost-widget-mac"
     title: "cost-widget-mac"
     description: null
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-17"
   - name: "claude-managed-agents-workshop-202607"
     title: "claude-managed-agents-workshop-202607"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-04"
-  - name: "claude-mods-router"
-    title: "claude-mods-router"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
 ---
 
 # moritalous

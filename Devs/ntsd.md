@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 1, 17, 13, 10, 16, 18, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 17, 14, 14, 11, 18, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,31 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zerocoach"
+    title: "zerocoach"
+    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "zero-share"
+    title: "zero-share"
+    description: "A secure P2P file sharing using WebRTC without server-side need."
+    language: "JavaScript"
+    topics:
+      - "astro"
+      - "data-sharing"
+      - "data-transfer"
+      - "file-sharing"
+      - "file-transfer"
+      - "hacktoberfest"
+      - "p2p"
+      - "svelte"
+      - "webrtc"
+    stars_fact: 151
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "cross-clipboard"
     title: "cross-clipboard"
     description: "An open source cross-platform clipboard sharing."
@@ -100,7 +125,7 @@ repos:
       - "github-profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
   - name: "ntsd.dev"
     title: "ntsd.dev"
     description: "My website created by Jekyll and Tailwind"
@@ -114,31 +139,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-07"
-  - name: "zero-share"
-    title: "zero-share"
-    description: "A secure P2P file sharing using WebRTC without server-side need."
-    language: "JavaScript"
-    topics:
-      - "astro"
-      - "data-sharing"
-      - "data-transfer"
-      - "file-sharing"
-      - "file-transfer"
-      - "hacktoberfest"
-      - "p2p"
-      - "svelte"
-      - "webrtc"
-    stars_fact: 151
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "zerocoach"
-    title: "zerocoach"
-    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-06"
   - name: "pomodoro-chad"
     title: "pomodoro-chad"
     description: "The Uncompromising GigaChad Pomodoro + Zero-Latency Git Voice Vault"

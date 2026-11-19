@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
-pushes_per_week: [1, 0, 0, 0, 5, 0, 3, 3, 3, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 5, 0, 4, 2, 3, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,84 +77,66 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "namandhakad712"
-    title: "namandhakad712"
-    description: "It's my Shakhsiyat ki tafseel (profile) man, there is nothing to see."
+  - name: "Shrink-toybox"
+    title: "Shrink-toybox"
+    description: "Games into a single line of data url"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "Kirby-Desktop-pet"
+    title: "Kirby-Desktop-pet"
+    description: "(incomplete) assets only"
+    language: "GDScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "Coding-Harness-Portfolio"
+    title: "Coding-Harness-Portfolio"
+    description: "Coding TUI Harness styles portfolio"
+    language: "JavaScript"
+    topics:
+      - "ascii-art"
+      - "coding-harness"
+      - "html-css-javascript"
+      - "minimal"
+      - "portfolio-website"
+      - "terminal-ui"
+      - "tui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-09"
+  - name: "flexi-world-map"
+    title: "flexi-world-map"
+    description: "Half-Life , hackclub project (CAD Model)"
     language: null
     topics:
-      - "human"
+      - "cad"
+      - "flexible"
+      - "hackclub"
+      - "world-map"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "Drawtle-Bench"
-    title: "Drawtle-Bench"
-    description: null
+    last_push: "2026-10-19"
+  - name: "lume-coaster"
+    title: "lume-coaster"
+    description: "HalfLife-Hackclub Week 1 (PCB)"
     language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "whisperflow"
-    title: "whisperflow"
-    description: "WhisperFlow — open-source, local-first AI voice dictation. Your voice, your models, your machine. (whisper.cpp + llama.cpp + HuggingFace)"
-    language: "TypeScript"
     topics:
-      - "asr"
-      - "dictation"
-      - "huggin"
-      - "huggingface-models"
-      - "llama-cpp"
-      - "local-first"
-      - "speech-to-text"
-      - "transcription"
-      - "voice-to-text"
+      - "hackclub"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "dsh-hackatime"
-    title: "dsh-hackatime"
-    description: "Track your DeepSeek Harness coding time on Hackatime (WakaTime-compatible heartbeats). DSH Cordis plugin."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-10-19"
   - name: "WRYM"
     title: "WRYM"
-    description: null
+    description: "The Worm Arena but for LLMs"
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-08"
-  - name: "Rankify-PDF2CBT"
-    title: "Rankify-PDF2CBT"
-    description: "Turn Any PDF into an Interactive Mock Test (CBT)."
-    language: "Vue"
-    topics:
-      - "act-prep"
-      - "cbt-exam-system"
-      - "competitive-exams"
-      - "exam-prep"
-      - "exam-preparation"
-      - "free"
-      - "jee"
-      - "jee-advanced"
-      - "jee-mains"
-      - "jee-preparation"
-      - "mcq-test"
-      - "neet-pg"
-      - "neet-ug"
-      - "pdf-processing"
-      - "pdf2cbt"
-      - "pdfjs"
-      - "privacy-first"
-      - "sat-prep"
-      - "student-tools"
-      - "teacher-tools"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # namandhakad712

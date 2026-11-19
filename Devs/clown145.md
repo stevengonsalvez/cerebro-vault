@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 0, 0, 0, 2, 24, 0, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "snowmux"
+    title: "snowmux"
+    description: "雪酥社区固件和在线刷机工具，基于 CrossMux。"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "qflarebot-plugin-schedule"
     title: "qflarebot-plugin-schedule"
     description: "QFlareBot 课表插件，支持 ICS 导入、QQ 私聊查询与课程提醒"
@@ -120,15 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-01"
-  - name: "qflarebot-plugin-qqadmin"
-    title: "qflarebot-plugin-qqadmin"
-    description: "QFlareBot 群管插件：禁言、撤回、违禁词、刷屏检测、投票禁言、进群审核与欢迎（移植自 AstrBot 插件 astrbot_plugin_qqadmin）"
-    language: "TypeScript"
-    topics:
-      - "qflarebot-plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-30"
 ---
 
 # clown145

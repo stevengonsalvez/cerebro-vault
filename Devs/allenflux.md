@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,6 +82,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "indextts25-hindi-h200"
+    title: "indextts25-hindi-h200"
+    description: "IndexTTS 2.5 Hindi LoRA: small H200 pilot, recovery and merged GPT inference verified. Data: IndicVoices-R Hindi @ 5f4495c91d500742a58d1be2ab07d77f73c0acf8. Experimental best100; quality gate not passed."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "ComfyUI-Video-Subtitle-Remover"
     title: "ComfyUI-Video-Subtitle-Remover"
     description: "ComfyUI nodes for removing hardcoded subtitles and watermarks from video frames."
@@ -105,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-16"
   - name: "ComfyUI-DOGE-Session"
     title: "ComfyUI-DOGE-Session"
     description: "Explicit ComfyUI GPU mining sessions with a new-DOGE target, cancellation, persistent progress and process guards"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-03"
-  - name: "flowbridge"
-    title: "flowbridge"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # allenflux

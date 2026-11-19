@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 0, 1, 4, 6, 5, 9, 10, 1, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 4, 7, 6, 7, 10, 1, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "SEPURI-SAI-KRISHNA"
-    title: "SEPURI-SAI-KRISHNA"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "streamcase"
     title: "streamcase"
     description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
@@ -92,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "importtime-check"
     title: "importtime-check"
     description: "A CI gate for detecting Python import-time regressions."
@@ -100,7 +92,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
+  - name: "SEPURI-SAI-KRISHNA"
+    title: "SEPURI-SAI-KRISHNA"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "Hackathon-Radar"
     title: "Hackathon-Radar"
     description: null
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
   - name: "twolang-lab"
     title: "twolang-lab"
     description: null

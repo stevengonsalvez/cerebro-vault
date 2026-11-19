@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 5, 2, 3, 13, 32, 31, 10, 17, 8, 0, 1, 0]
+pushes_per_week: [6, 3, 2, 3, 14, 39, 25, 8, 20, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 3
-    active_days: 8
+    pushes: 17
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 3
-    pushes_per_repo: 8.6667
-    active_days: 8
+    pushes: 17
+    distinct_repos: 2
+    pushes_per_repo: 8.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Unlimited-DeepL-Pro"
+    title: "Unlimited-DeepL-Pro"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2023-12-08"
   - name: "rove"
     title: "rove"
     description: "All your coding agents, in one place. Claude Code, Codex, Copilot and more, side by side in your terminal."
@@ -102,9 +110,9 @@ repos:
       - "terminal"
       - "tui"
       - "typescript"
-    stars_fact: 184
+    stars_fact: 188
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
   - name: ".dotfiles"
     title: ".dotfiles"
     description: null
@@ -112,15 +120,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "Unlimited-DeepL-Pro"
-    title: "Unlimited-DeepL-Pro"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2023-12-08"
+    last_push: "2026-11-18"
   - name: "pua-what-game"
     title: "pua-what-game"
     description: "PUA话术识别 — 沉浸式微信聊天模拟器，识别9种常见PUA操控手法的互动游戏"

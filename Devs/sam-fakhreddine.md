@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 2, 0, 0, 0, 6, 10, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 0, 8, 8, 7, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "odb"
+    title: "odb"
+    description: "Ol' Dirty Bridge — shimmying requests between local AWS Emulator accounts."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "rotaflow"
     title: "rotaflow"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "family-matrix-server"
     title: "family-matrix-server"
     description: "Private family Matrix homeserver: E2EE chat, Element Call group video, WhatsApp bridge — closed-federation, one-command setup, docker compose"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-17"
   - name: "aws-containers"
     title: "aws-containers"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "astro-6.4.4-popover-persist-bug"
     title: "astro-6.4.4-popover-persist-bug"
     description: null
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-14"
   - name: "investigator"
     title: "investigator"
     description: "🐊🔍 Three-agent AI research pipeline. Verified, multi-audience findings from a single JSON source of truth."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-04-21"
-  - name: "prompt-contracts-explainer"
-    title: "prompt-contracts-explainer"
-    description: "Shareable explainer for prompt contracts"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-15"
 ---
 
 # sam-fakhreddine

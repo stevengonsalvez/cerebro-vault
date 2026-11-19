@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 1, 1, 1, 3, 1, 0, 0, 0, 0, 0, 0]
@@ -89,9 +89,9 @@ repos:
       - "rust"
       - "servo"
       - "web-scraping"
-    stars_fact: 163
+    stars_fact: 164
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-19"
   - name: "kiro-cli-review-action"
     title: "kiro-cli-review-action"
     description: "Automated PR code review powered by Kiro CLI"
@@ -105,7 +105,7 @@ repos:
       - "typescript"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-17"
   - name: "create-github-app-token-aws-kms"
     title: "create-github-app-token-aws-kms"
     description: "GitHub Action for creating a GitHub App installation access token using AWS KMS for JWT signing."
@@ -118,7 +118,7 @@ repos:
       - "typescript"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-12"
   - name: "chat-agent-on-aws-blocks"
     title: "chat-agent-on-aws-blocks"
     description: "A streaming AI chat agent built on AWS Blocks"

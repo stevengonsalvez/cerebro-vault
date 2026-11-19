@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [4, 5, 1, 1, 30, 20, 7, 22, 1, 1, 0, 0, 0]
+pushes_per_week: [4, 4, 1, 5, 26, 22, 6, 21, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 26
-    active_days: 33
+    active_days: 32
     repos_not_owned: 23
     not_owned_basenames: 4
     not_owned_owners: 20
 automation:
   state: "clear"
-  push_per_day: 2.7879
-  repo_per_active_day: 0.7879
+  push_per_day: 2.8438
+  repo_per_active_day: 0.8125
   not_owned_ratio: 0.8846
   basename_concentration: 0.6923
   shapes:
@@ -81,34 +81,34 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 92
+    pushes: 91
     distinct_repos: 26
-    pushes_per_repo: 3.5385
-    active_days: 33
+    pushes_per_repo: 3.5000
+    active_days: 32
     repos_not_owned: 23
     not_owned_basenames: 4
     not_owned_owners: 20
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "warpchart"
-    title: "warpchart"
-    description: "Growth telemetry for any GitHub repository. A live star chart of your repo's journey through the worldwide ranking, with sound."
-    language: "TypeScript"
+  - name: "santifer-irepair"
+    title: "santifer-irepair"
+    description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
+    language: "Astro"
     topics:
-      - "dashboard"
-      - "github-actions"
-      - "github-stars"
-      - "nextjs"
-      - "self-hosted"
-      - "star-history"
-      - "svg"
-      - "telemetry"
-    stars_fact: 19
+      - "airtable"
+      - "astro"
+      - "nodejs"
+      - "programmatic-seo"
+      - "seo"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 45
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-08-27"
   - name: "cv-santiago"
     title: "cv-santiago"
     description: "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience."
@@ -127,33 +127,46 @@ repos:
       - "typescript"
       - "vercel"
       - "vite"
-    stars_fact: 867
+    stars_fact: 871
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "santifer-irepair"
-    title: "santifer-irepair"
-    description: "Astro-based programmatic SEO website that generated 15,500+ unique pages from an Airtable ERP, reaching 2,000 monthly clicks in Google Spain. Full source code + Node.js image pipeline."
-    language: "Astro"
-    topics:
-      - "airtable"
-      - "astro"
-      - "nodejs"
-      - "programmatic-seo"
-      - "seo"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "career-ops-plugin-template"
-    title: "career-ops-plugin-template"
-    description: "Template for a career-ops community plugin (career-ops-plugin-<name>)"
-    language: "JavaScript"
+    last_push: "2026-11-12"
+  - name: "santifer"
+    title: "santifer"
+    description: "Profile README"
+    language: null
     topics: []
-    stars_fact: 7
+    stars_fact: 16
     first_seen: null
-    last_push: "2026-06-29"
+    last_push: "2026-10-14"
+  - name: "claudeable"
+    title: "claudeable"
+    description: "Metaproyecto de Claude Code para crear webs profesionales"
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "mcp"
+      - "react"
+      - "shadcn-ui"
+      - "tailwindcss"
+      - "vite"
+      - "web-development"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "claude-eye"
+    title: "claude-eye"
+    description: "CLI tool that analyzes web animation videos frame-by-frame using Claude Vision"
+    language: "TypeScript"
+    topics:
+      - "animation"
+      - "claude"
+      - "cli"
+      - "css"
+      - "debugging"
+      - "vision-ai"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-01-29"
   - name: "watermark-remover"
     title: "watermark-remover"
     description: "CLI tool to remove watermarks from images using YOLO detection + LaMa inpainting"
@@ -167,29 +180,13 @@ repos:
       - "python"
       - "watermark-removal"
       - "yolo"
-    stars_fact: 30
+    stars_fact: 31
     first_seen: null
     last_push: "2026-01-29"
-  - name: "jacobo-workflows"
-    title: "jacobo-workflows"
-    description: "7 production n8n workflows from Jacobo, a multi-agent AI system (WhatsApp + Voice). Open source by default."
-    language: null
-    topics:
-      - "ai-agents"
-      - "elevenlabs"
-      - "hitl"
-      - "multi-agent"
-      - "n8n"
-      - "tool-calling"
-      - "voice-ai"
-      - "whatsapp"
-    stars_fact: 169
-    first_seen: null
-    last_push: "2026-08-27"
 ---
 
 # santifer
 
-92 pushes across 26 repositories on 33 active days in the last 90 days of public GitHub push activity.
+91 pushes across 26 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

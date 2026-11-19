@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 1, 0, 0, 0, 16, 0, 3, 1, 12, 0, 0, 0]
+pushes_per_week: [1, 1, 0, 0, 0, 16, 1, 2, 1, 12, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,21 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "scriptorium"
+    title: "scriptorium"
+    description: "Open-source AI teammate for Slack, Jira, Confluence and GitHub that asks before it acts: cited answers, approval-gated writes, a hash-chained audit log."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "confluence"
+      - "human-in-the-loop"
+      - "jira"
+      - "llm"
+      - "slack-bot"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "sloweyyy"
     title: "sloweyyy"
     description: null
@@ -84,7 +99,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "cloud-native-ecommerce-platform"
     title: "cloud-native-ecommerce-platform"
     description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
@@ -112,7 +127,7 @@ repos:
       - "terraform"
     stars_fact: 23
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "Trustify-Frontend"
     title: "Trustify-Frontend"
     description: "This repository contains the frontend code for Trustify, a platform for online notarization services that leverages blockchain and NFT for document storage. This frontend interacts with the provided backend to facilitate the user experience."
@@ -137,20 +152,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-26"
-  - name: "design-portfolio"
-    title: "design-portfolio"
-    description: "This repository contains the source code for my portfolio website, showcasing my projects and skills in web development, design, and data analysis."
-    language: "HTML"
-    topics:
-      - "bootstrap"
-      - "css"
-      - "css3"
-      - "html"
-      - "javascript"
-      - "portfolio"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # sloweyyy

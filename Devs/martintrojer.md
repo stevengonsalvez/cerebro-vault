@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 0, 1, 27, 24, 43, 13, 16, 4, 5, 2, 0, 0]
+pushes_per_week: [1, 0, 1, 34, 25, 39, 14, 11, 8, 1, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 8
-    active_days: 7
+    pushes: 10
+    distinct_repos: 7
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 8
-    pushes_per_repo: 1.3750
-    active_days: 7
+    pushes: 10
+    distinct_repos: 7
+    pushes_per_repo: 1.4286
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -81,47 +81,26 @@ repos:
     title: "vtmux"
     description: "Drop-in tmux replacement. Modern stack. Better rendering. Live upgrades."
     language: "Rust"
-    topics:
-      - "ghostty"
-      - "libghostty"
-      - "rust"
-      - "terminal-multiplexer"
-      - "tmux"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "martintrojer.github.com"
+    title: "martintrojer.github.com"
+    description: "Martin's Programming Blog"
+    language: "HTML"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-12"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "debrief"
-    title: "debrief"
-    description: "Catch up with what your coding agents committed, and answer back."
-    language: "Rust"
-    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "mdroots"
-    title: "mdroots"
-    description: "A zero-config markdown (and org) language server and Rust library."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "vecgrep"
     title: "vecgrep"
     description: "Semantic grep — like ripgrep, but with vector search"
@@ -129,7 +108,25 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-09-12"
+    last_push: "2026-11-12"
+  - name: "martintrojer"
+    title: "martintrojer"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "ramble"
+    title: "ramble"
+    description: "Read your notes in the terminal, and follow them wherever they link."
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # martintrojer

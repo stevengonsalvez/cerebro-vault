@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [27, 6, 1, 14, 23, 20, 11, 24, 15, 0, 0, 0, 1]
+pushes_per_week: [28, 4, 3, 20, 17, 18, 14, 21, 15, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 13
-    active_days: 45
+    active_days: 44
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.1556
-  repo_per_active_day: 0.2889
+  push_per_day: 3.2045
+  repo_per_active_day: 0.2955
   not_owned_ratio: 0.5385
   basename_concentration: 0.4615
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 142
+    pushes: 141
     distinct_repos: 13
-    pushes_per_repo: 10.9231
-    active_days: 45
+    pushes_per_repo: 10.8462
+    active_days: 44
     repos_not_owned: 7
     not_owned_basenames: 2
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pit"
@@ -139,6 +139,6 @@ repos:
 
 # cv
 
-142 pushes across 13 repositories on 45 active days in the last 90 days of public GitHub push activity.
+141 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cv

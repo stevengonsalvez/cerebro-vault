@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [0, 0, 0, 0, 5, 2, 0, 0, 16, 0, 0, 0, 1]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-skills-opensandbox-release"
+    title: "agent-skills-opensandbox-release"
+    description: "Runnable tutorial: an Agent Skill helper gates a demo GitHub release through OpenSandbox."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "qodo-boundary-public-20261110"
     title: "qodo-boundary-public-20261110"
     description: "Synthetic Qodo cross-repository boundary test. No real customer data."
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "policyNIM"
     title: "policyNIM"
     description: "PolicyNIM is a policy-aware engineering preflight layer for AI coding agents."
@@ -110,7 +118,7 @@ repos:
       - "verification"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "governed-agent-autonomy-patterns"
     title: "governed-agent-autonomy-patterns"
     description: "This repo is a public, docs-first reference for teams that want agentic coding without chaos. It focuses on the patterns that protect code integrity while still preserving speed: plan, permission, verification, and tool trust."
@@ -118,7 +126,7 @@ repos:
     topics: []
     stars_fact: 22
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-14"
   - name: "software-standards-bootstrap"
     title: "software-standards-bootstrap"
     description: "Software Standards Bootstrap (ssb) is a CLI tool and agent skill for developing repo rules, agent skills, and AGENTS.md inside greenfield repos, making it more agent ready."
@@ -126,15 +134,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-05"
-  - name: "policynim-nemo-coding-workflow"
-    title: "policynim-nemo-coding-workflow"
-    description: "A NVIDIA NeMo-powered coding workflow that uses PolicyNIM to enforce engineering standards during planning, code generation, and evaluation."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-15"
 ---
 
 # nnennandukwe

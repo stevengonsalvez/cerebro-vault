@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 6, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "pi-telemetry-opentelemetry"
     title: "pi-telemetry-opentelemetry"
     description: "OpenTelemetry adapter for pi-telemetry"
@@ -108,7 +108,7 @@ repos:
       - "pi-package"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-17"
   - name: "website"
     title: "website"
     description: "Personal site and resume on Astro; the PDF is printed from the site."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 1, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,19 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent_harness_course"
+    title: "agent_harness_course"
+    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
+    language: "Jupyter Notebook"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "harness-engineering"
+      - "langgraph"
+      - "python"
+    stars_fact: 43
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "memorizz"
     title: "memorizz"
     description: "MemoRizz: A Python library serving as a memory layer for AI applications. Leverages popular databases and storage solutions to optimize memory usage. Provides utility classes and methods for efficient data management."
@@ -90,9 +103,25 @@ repos:
       - "oracle-database"
       - "python"
       - "semantic-search"
-    stars_fact: 788
+    stars_fact: 792
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-16"
+  - name: "agent_memory_course"
+    title: "agent_memory_course"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 76
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "continual_learning"
+    title: "continual_learning"
+    description: "Companion notebooks and data for the O'Reilly courses Build Self-Improving Agents with Memory, Traces, and Skills, and Continual Learning Beyond the Context Window"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "homebrew-memorizz"
     title: "homebrew-memorizz"
     description: "Homebrew tap for the MemoRizz memory-first agent harness"
@@ -100,7 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-16"
   - name: "llmcamp_ai_hub"
     title: "llmcamp_ai_hub"
     description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."
@@ -109,35 +138,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-11-06"
-  - name: "maven_classes"
-    title: "maven_classes"
-    description: "Private cohort materials for Maven agent memory classes, including executed notebooks and an interactive appbook."
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "agent_harness_course"
-    title: "agent_harness_course"
-    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
-    language: "Jupyter Notebook"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "harness-engineering"
-      - "langgraph"
-      - "python"
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-09-30"
-  - name: "agent_memory_course"
-    title: "agent_memory_course"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 75
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # RichmondAlake

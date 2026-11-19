@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-15T07:04:32.881787+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "33a1a1e413da60e1"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
@@ -77,22 +77,22 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "edu-crew"
-    title: "edu-crew"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 87
-    first_seen: null
-    last_push: "2024-11-08"
   - name: "crewai_yt"
     title: "crewai_yt"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 75
+    stars_fact: 77
     first_seen: null
     last_push: "2026-06-19"
+  - name: "edu-crew"
+    title: "edu-crew"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 88
+    first_seen: null
+    last_push: "2024-11-08"
   - name: "benchmark-creator"
     title: "benchmark-creator"
     description: null

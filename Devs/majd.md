@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a48647989fcde575"
 pushes_per_week: [0, 1, 0, 3, 1, 0, 0, 0, 1, 0, 0, 1, 0]
@@ -100,9 +100,9 @@ repos:
       - "swift"
       - "tool"
       - "visionos"
-    stars_fact: 12285
+    stars_fact: 12388
     first_seen: "2026-08-31T06:00:05.900163+00:00"
-    last_push: "2026-11-10"
+    last_push: "2026-11-17"
   - name: "homebrew-repo"
     title: "homebrew-repo"
     description: "Homebrew Repository"
@@ -110,7 +110,7 @@ repos:
     topics: []
     stars_fact: 12
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-11"
   - name: "libTransLock"
     title: "libTransLock"
     description: "Bruteforce the 4-digit passcode on iOS 8"

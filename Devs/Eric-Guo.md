@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 5, 10, 14, 36, 31, 29, 14, 7, 15, 0, 1, 2]
+pushes_per_week: [6, 3, 10, 17, 37, 32, 26, 12, 9, 13, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 6
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 168
     distinct_repos: 22
-    active_days: 48
+    active_days: 47
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.5208
-  repo_per_active_day: 0.4583
+  push_per_day: 3.5745
+  repo_per_active_day: 0.4681
   not_owned_ratio: 0.2273
   basename_concentration: 0.0455
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 21
     distinct_repos: 6
-    pushes_per_repo: 4.0000
-    active_days: 8
+    pushes_per_repo: 3.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 169
+    pushes: 168
     distinct_repos: 22
-    pushes_per_repo: 7.6818
-    active_days: 48
+    pushes_per_repo: 7.6364
+    active_days: 47
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "coreui4-rails-starter"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-169 pushes across 22 repositories on 48 active days in the last 90 days of public GitHub push activity.
+168 pushes across 22 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

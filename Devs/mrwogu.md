@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 1, 12, 19, 11, 5, 2, 3, 2, 1, 0, 0]
+pushes_per_week: [0, 0, 3, 14, 17, 10, 6, 0, 4, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,27 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "factory-droid-openai"
+    title: "factory-droid-openai"
+    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
+    language: "Python"
+    topics:
+      - "api-bridge"
+      - "chat-completions"
+      - "droid-sdk"
+      - "factory-ai"
+      - "factory-droid"
+      - "fastapi"
+      - "function-calling"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "python"
+      - "server-sent-events"
+      - "tool-calling"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "hassio-addons"
     title: "hassio-addons"
     description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
@@ -94,7 +115,7 @@ repos:
       - "tududi"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "xiaomi-smart-fan-card"
     title: "xiaomi-smart-fan-card"
     description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
@@ -108,7 +129,7 @@ repos:
       - "xiaomi"
     stars_fact: 12
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "promptscript"
     title: "promptscript"
     description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
@@ -132,7 +153,7 @@ repos:
       - "typescript"
     stars_fact: 344
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "logstrip"
     title: "logstrip"
     description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
@@ -153,28 +174,7 @@ repos:
       - "zero-dependency"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "factory-droid-openai"
-    title: "factory-droid-openai"
-    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
-    language: "Python"
-    topics:
-      - "api-bridge"
-      - "chat-completions"
-      - "droid-sdk"
-      - "factory-ai"
-      - "factory-droid"
-      - "fastapi"
-      - "function-calling"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "python"
-      - "server-sent-events"
-      - "tool-calling"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-17"
   - name: "PoolMind"
     title: "PoolMind"
     description: "PoolMind — Open-source computer vision system for pool games."

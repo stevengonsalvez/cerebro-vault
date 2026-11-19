@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "8a70d410b1973fe6"
-pushes_per_week: [8, 1, 3, 5, 21, 8, 25, 4, 11, 4, 0, 0, 0]
+pushes_per_week: [8, 1, 3, 5, 24, 10, 21, 3, 15, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 8
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 4.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,80 @@ repos:
     description: "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
     language: "C"
     topics: []
-    stars_fact: 49821
+    stars_fact: 52044
     first_seen: "2026-11-03T07:00:47.945544+00:00"
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
+  - name: "lumabri"
+    title: "lumabri"
+    description: "Run large AI models across your computers and servers. Powered by Colibri. Pure C."
+    language: "C"
+    topics:
+      - "c"
+      - "cluster-computing"
+      - "colibri"
+      - "distributed-inference"
+      - "llm-inference"
+      - "local-ai"
+      - "mixture-of-experts"
+      - "peer-to-peer"
+      - "self-hosted"
+    stars_fact: 230
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "JustVugg"
+    title: "JustVugg"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 34
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "agentmw"
+    title: "agentmw"
+    description: "Open-source middleware for AI agents — catches mid-run failures,compresses stale context, and grows a reasoning library across runs. Any model, any framework."
+    language: "Python"
+    topics:
+      - "agent-middleware"
+      - "agent-monitoring"
+      - "agent-orchestration"
+      - "ai-agents"
+      - "anthropic"
+      - "developer-tools"
+      - "llm"
+      - "llm-observability"
+      - "mcp"
+      - "mcpserver"
+      - "ollama"
+      - "openai"
+      - "openrouter"
+      - "prompt-engineering"
+      - "python"
+      - "reasoning"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-05-19"
+  - name: "flint"
+    title: "flint"
+    description: "Help AI agents use fewer tokens and keep more useful context. Reversible code, JSON and text compression, persistent memory, focused reads and version-aware edits."
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "cli"
+      - "code-compression"
+      - "coding-agents"
+      - "context-compression"
+      - "context-engineering"
+      - "developer-tools"
+      - "llm"
+      - "persistent-memory"
+      - "prompt-compression"
+      - "python"
+      - "reversible-compression"
+      - "token-optimization"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "anybridge"
     title: "anybridge"
     description: "Any website, within reach of any agent. Captures a site's native WebMCP tools and generates the bridge from the live DOM when there are none, exposing both over MCP to Claude Code, Codex and any MCP client."
@@ -106,96 +177,9 @@ repos:
       - "tui"
       - "web-automation"
       - "webmcp"
-    stars_fact: 26
+    stars_fact: 28
     first_seen: null
     last_push: "2026-09-03"
-  - name: "flint"
-    title: "flint"
-    description: "Help AI agents use fewer tokens and keep more useful context. Reversible code, JSON and text compression, persistent memory, focused reads and version-aware edits."
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "cli"
-      - "code-compression"
-      - "coding-agents"
-      - "context-compression"
-      - "context-engineering"
-      - "developer-tools"
-      - "llm"
-      - "persistent-memory"
-      - "prompt-compression"
-      - "python"
-      - "reversible-compression"
-      - "token-optimization"
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "lumabri"
-    title: "lumabri"
-    description: "Run large AI models across your computers and servers. Powered by Colibri. Pure C."
-    language: "C"
-    topics:
-      - "c"
-      - "cluster-computing"
-      - "colibri"
-      - "distributed-inference"
-      - "llm-inference"
-      - "local-ai"
-      - "mixture-of-experts"
-      - "peer-to-peer"
-      - "self-hosted"
-    stars_fact: 219
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "dbcli"
-    title: "dbcli"
-    description: "Lightweight, agent-optimized database CLI with one-shot schema introspection, column profiling, and ERD generation."
-    language: "Python"
-    topics:
-      - "agentic-ai"
-      - "ai"
-      - "ai-agents"
-      - "ai-infrastructure"
-      - "cli"
-      - "context-optimization"
-      - "data-profiling"
-      - "database"
-      - "developer-tools"
-      - "devtools"
-      - "duckdb"
-      - "llm"
-      - "mysql"
-      - "postgresql"
-      - "schema"
-      - "sql"
-      - "sqlite"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-03-02"
-  - name: "loomabase"
-    title: "loomabase"
-    description: "Offline-first synchronization engine for SQLite and PostgreSQL, built in Rust with column-level CRDTs, authoritative partial replicas, and secure multi- tenancy."
-    language: "Rust"
-    topics:
-      - "baas"
-      - "crdt"
-      - "database"
-      - "distributed-systems"
-      - "embedded-database"
-      - "eventual-consistency"
-      - "lamport-clock"
-      - "local-first"
-      - "multi-tenant"
-      - "offline-first"
-      - "postgresql"
-      - "rust"
-      - "sqlite"
-      - "supabase"
-      - "synchronization"
-    stars_fact: 90
-    first_seen: null
-    last_push: "2026-06-28"
 ---
 
 # JustVugg

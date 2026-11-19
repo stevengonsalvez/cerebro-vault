@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "beef767476532531"
-pushes_per_week: [2, 0, 1, 4, 4, 3, 6, 6, 1, 2, 0, 1, 1]
+pushes_per_week: [2, 0, 1, 4, 4, 3, 7, 5, 2, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -102,9 +102,9 @@ repos:
       - "pakistan"
       - "pakistani-developer"
       - "vibe-coding"
-    stars_fact: 68959
+    stars_fact: 69217
     first_seen: "2026-06-26T06:00:06.940898+00:00"
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "codex-cli-best-practice"
     title: "codex-cli-best-practice"
     description: "from vibe coding to agentic engineering - practice makes codex perfect"
@@ -130,17 +130,45 @@ repos:
       - "pakistan"
       - "pakistani-developer"
       - "vibe-coding"
-    stars_fact: 1028
+    stars_fact: 1029
     first_seen: null
     last_push: "2026-06-04"
-  - name: "ralph-wiggum-self-evolving-loop"
-    title: "ralph-wiggum-self-evolving-loop"
-    description: "a ralph wiggum self evolving loop that generates questions designed to break modern LLMs"
+  - name: "claude-code-multi-agent-orchestrartion"
+    title: "claude-code-multi-agent-orchestrartion"
+    description: "multi agent orchestrartion using claude code cli"
     language: "Python"
     topics: []
-    stars_fact: 47
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-05-02"
+    last_push: "2026-04-18"
+  - name: "agentic-engineering"
+    title: "agentic-engineering"
+    description: "does code matter?"
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-engineering"
+      - "agentic-workflow"
+      - "ai"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+      - "codex"
+      - "composer"
+      - "cursor"
+      - "gemini"
+      - "google"
+      - "gpt"
+      - "openai"
+      - "opus"
+      - "pakistan"
+      - "pakistani-developer"
+      - "sonnet"
+      - "vibe-coding"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-05-08"
   - name: "claude-code-hooks"
     title: "claude-code-hooks"
     description: "claude code hooks - adding voice on each hook"
@@ -166,45 +194,17 @@ repos:
       - "pakistan"
       - "pakistani-developer"
       - "vibe-coding"
-    stars_fact: 570
+    stars_fact: 572
     first_seen: null
     last_push: "2026-06-04"
-  - name: "shanraisshan"
-    title: "shanraisshan"
-    description: "Software Architect @ disrupt.com | Agentic Workflows - Claude Code / Codex CLI | AI-First Spec-Driven Development | GCP (Firebase, Cloud Run, Cloud Functions, Pub/Sub) | Mobile (React Native, Kotlin)"
+  - name: "ralph-wiggum-self-evolving-loop"
+    title: "ralph-wiggum-self-evolving-loop"
+    description: "a ralph wiggum self evolving loop that generates questions designed to break modern LLMs"
     language: "Python"
-    topics:
-      - "agentic-ai"
-      - "agentic-coding"
-      - "agentic-development"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "ai-development"
-      - "ai-engineer"
-      - "backend"
-      - "claude-code-best-practice"
-      - "claude-code-hooks"
-      - "codex-cli-best-practice"
-      - "codex-cli-hooks"
-      - "firebase"
-      - "mobile"
-      - "pakistan"
-      - "pakistan-developer"
-      - "product-engineering"
-      - "pyhton"
-      - "spec-driven-development"
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-08-05"
-  - name: "Android-Custom-Intent-List"
-    title: "Android-Custom-Intent-List"
-    description: "Create a intent chooser that display your desired component/activities."
-    language: "Java"
     topics: []
-    stars_fact: 9
+    stars_fact: 47
     first_seen: null
-    last_push: "2017-08-29"
+    last_push: "2026-05-02"
 ---
 
 # shanraisshan

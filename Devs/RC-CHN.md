@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 3, 1, 7, 13, 0, 1, 0, 2, 0, 1, 0]
+pushes_per_week: [2, 0, 3, 2, 11, 8, 0, 1, 0, 2, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ARTEX"
+    title: "ARTEX"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "mx4200-immortalwrt"
+    title: "mx4200-immortalwrt"
+    description: "Linksys MX4200 系列 / MX4300 / HomeWRK ImmortalWrt 开源固件"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "Cumulus-music"
     title: "Cumulus-music"
     description: null
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
   - name: "wg-quic"
     title: "wg-quic"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2025-04-17"
-  - name: "ReuleauxCoder"
-    title: "ReuleauxCoder"
-    description: "Reinventing the wheel, but only for those who prefer it non-circular."
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "ARTEX"
-    title: "ARTEX"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-27"
 ---
 
 # RC-CHN

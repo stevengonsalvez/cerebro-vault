@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [6, 1, 1, 3, 4, 3, 0, 3, 1, 0, 0, 0, 0]
@@ -84,9 +84,9 @@ repos:
     topics:
       - "mcp"
       - "playwright"
-    stars_fact: 4071
+    stars_fact: 4105
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "gpuix"
     title: "gpuix"
     description: "Node.js & Bun bindings for Zed’s GPUI. Build memory efficient native apps with React or Solid.js"
@@ -96,53 +96,44 @@ repos:
       - "react"
       - "solid"
       - "zed"
-    stars_fact: 2938
+    stars_fact: 2976
     first_seen: null
     last_push: "2026-11-01"
-  - name: "spiceflow"
-    title: "spiceflow"
-    description: "Minimal API & React framework, fully type safe, OpenAPI, RSC, MCP, type safe client, streaming with SSE"
-    language: "TypeScript"
-    topics:
-      - "hono"
-      - "mcp"
-      - "react"
-      - "rsc"
-      - "vite"
-    stars_fact: 169
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "holocron"
-    title: "holocron"
-    description: "Open source drop-in replacement for Mintlify as a Vite plugin"
-    language: "TypeScript"
-    topics:
-      - "documentation"
-      - "mdx"
-      - "mintlify"
-    stars_fact: 810
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "egaki"
-    title: "egaki"
-    description: "Generate images & videos in the terminal, for humans & agents. Supports Google, OpenAI, ChatGPT sub, Fal, Replicate, SuperGrok sub, Seedance, Kontext"
-    language: "TypeScript"
-    topics:
-      - "chatgpt"
-      - "grok"
-      - "midjourney"
-      - "nanobanana"
-    stars_fact: 176
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "errore"
-    title: "errore"
-    description: "Errors as values for TypeScript. Fully type safe error handling."
+  - name: "tsc-shame"
+    title: "tsc-shame"
+    description: "Shame your node_modules type checking speed"
     language: "TypeScript"
     topics: []
-    stars_fact: 286
+    stars_fact: 120
     first_seen: null
-    last_push: "2026-10-09"
+    last_push: "2024-12-28"
+  - name: "zele"
+    title: "zele"
+    description: "Email & Calendar CLI. Gmail, Outlook, IMAP/SMTP and Google Calendar from your terminal. For humans & agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 305
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "marauders-map"
+    title: "marauders-map"
+    description: "The Marauder's Map from Harry Potter with live locations from Apple Find My"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "durablefetch"
+    title: "durablefetch"
+    description: "add resumability to any streaming request"
+    language: "TypeScript"
+    topics:
+      - "cloudflare-workers"
+      - "durable-objects"
+      - "fetch"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2025-10-30"
 ---
 
 # remorses

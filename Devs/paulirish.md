@@ -10,19 +10,19 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "301f2d14985e5303"
   - "a4978faa7e166cdb"
-pushes_per_week: [1, 1, 1, 1, 0, 2, 5, 7, 8, 0, 1, 1, 0]
+pushes_per_week: [1, 1, 1, 1, 0, 2, 5, 7, 8, 0, 2, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 9
     distinct_repos: 2
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 6
-    active_days: 18
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5556
-  repo_per_active_day: 0.3333
+  push_per_day: 1.5263
+  repo_per_active_day: 0.3158
   not_owned_ratio: 0.5000
   basename_concentration: 0.1667
   shapes: []
@@ -51,13 +51,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
     pushes: 9
     distinct_repos: 2
@@ -67,42 +67,18 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 6
-    pushes_per_repo: 4.6667
-    active_days: 18
+    pushes_per_repo: 4.8333
+    active_days: 19
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "chrome-capture"
-    title: "chrome-capture"
-    description: "60-120fps / 2160p tab video/audio capture from Chrome"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 254
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "frontend-feeds"
-    title: "frontend-feeds"
-    description: "OPML of the frontend development rss feeds"
-    language: null
-    topics: []
-    stars_fact: 349
-    first_seen: null
-    last_push: "2021-11-08"
-  - name: "lite-youtube-embed"
-    title: "lite-youtube-embed"
-    description: "A faster youtube embed."
-    language: "HTML"
-    topics: []
-    stars_fact: 6359
-    first_seen: null
-    last_push: "2025-11-10"
   - name: "dotfiles"
     title: "dotfiles"
     description: "paul's fish, bash, git, etc config files. good stuff."
@@ -114,15 +90,44 @@ repos:
       - "yay"
     stars_fact: 4361
     first_seen: null
-    last_push: "2026-10-03"
-  - name: "memory-stats.js"
-    title: "memory-stats.js"
-    description: "minimal monitor for JS Heap Size via performance.memory"
-    language: "JavaScript"
+    last_push: "2026-11-15"
+  - name: "chrome-capture"
+    title: "chrome-capture"
+    description: "60-120fps / 2160p tab video/audio capture from Chrome"
+    language: "TypeScript"
     topics: []
-    stars_fact: 2088
+    stars_fact: 519
     first_seen: null
-    last_push: "2015-07-03"
+    last_push: "2026-11-17"
+  - name: "github-email"
+    title: "github-email"
+    description: "Get a GitHub user's email. :sunglasses: Use this responsibly."
+    language: "Shell"
+    topics: []
+    stars_fact: 1012
+    first_seen: null
+    last_push: "2020-08-31"
+  - name: "git-open"
+    title: "git-open"
+    description: "Type `git open` to open the GitHub page or website for a repository in your browser."
+    language: "Shell"
+    topics:
+      - "bitbucket"
+      - "git"
+      - "github"
+      - "gitlab"
+      - "shell"
+    stars_fact: 3461
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "lite-youtube-embed"
+    title: "lite-youtube-embed"
+    description: "A faster youtube embed."
+    language: "HTML"
+    topics: []
+    stars_fact: 6357
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "headless-cat-n-mouse"
     title: "headless-cat-n-mouse"
     description: "Is headless chrome currently detectable? Let's pit the detections and detection evasions against eachother."
@@ -135,6 +140,6 @@ repos:
 
 # paulirish
 
-28 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+29 pushes across 6 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/paulirish

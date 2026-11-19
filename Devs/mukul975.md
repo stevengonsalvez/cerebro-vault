@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-11T07:04:01.224448+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "25764ed5c03fca05"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -102,7 +102,7 @@ repos:
       - "security-automation"
       - "threat-hunting"
       - "threat-intelligence"
-    stars_fact: 35895
+    stars_fact: 36382
     first_seen: "2026-08-19T06:00:14.375290+00:00"
     last_push: "2026-08-31"
   - name: "Privacy-Data-Protection-Skills"
@@ -130,62 +130,9 @@ repos:
       - "privacy-by-design"
       - "privacy-engineering"
       - "regulatory-compliance"
-    stars_fact: 336
+    stars_fact: 343
     first_seen: null
     last_push: "2026-03-16"
-  - name: "cve-mcp-server"
-    title: "cve-mcp-server"
-    description: "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more."
-    language: "Python"
-    topics:
-      - "cisa-kev"
-      - "claude-ai"
-      - "cve"
-      - "cybersecurity"
-      - "devsecops"
-      - "epss"
-      - "fastmcp"
-      - "mcp"
-      - "mitre-attack"
-      - "model-context-protocol"
-      - "nvd"
-      - "osv"
-      - "python"
-      - "security"
-      - "shodan"
-      - "threat-intelligence"
-      - "virustotal"
-      - "vulnerability-management"
-    stars_fact: 1768
-    first_seen: null
-    last_push: "2026-10-01"
-  - name: "mcp-web-scrape"
-    title: "mcp-web-scrape"
-    description: "🚀 mcp-web-scrape — Clean, cache-aware web content fetcher for AI agents. Fetch any URL → extract readable content → return Markdown/JSON with citations. ⚡ Fast caching, 🤝 robots.txt compliant, 📝 Markdown-ready output, �� works with ChatGPT/Claude Desktop."
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "api"
-      - "cache"
-      - "chatgpt"
-      - "citations"
-      - "claude"
-      - "content-extraction"
-      - "llm"
-      - "markdown"
-      - "mcp"
-      - "model-context-protocol"
-      - "nodejs"
-      - "scraper"
-      - "sse"
-      - "stdio"
-      - "typescript"
-      - "web-crawler"
-      - "web-scraping"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-02-16"
   - name: "Threatswarm"
     title: "Threatswarm"
     description: "27 scope-enforced AI agents that run the full pentest kill-chain (recon → exploit → post-ex → DFIR → report) as a one-command Claude Code plugin. Backed by 754 MITRE-mapped skills."
@@ -211,9 +158,62 @@ repos:
       - "red-team"
       - "scope-enforcement"
       - "security-tools"
-    stars_fact: 97
+    stars_fact: 99
     first_seen: null
     last_push: "2026-04-29"
+  - name: "cve-mcp-server"
+    title: "cve-mcp-server"
+    description: "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more."
+    language: "Python"
+    topics:
+      - "cisa-kev"
+      - "claude-ai"
+      - "cve"
+      - "cybersecurity"
+      - "devsecops"
+      - "epss"
+      - "fastmcp"
+      - "mcp"
+      - "mitre-attack"
+      - "model-context-protocol"
+      - "nvd"
+      - "osv"
+      - "python"
+      - "security"
+      - "shodan"
+      - "threat-intelligence"
+      - "virustotal"
+      - "vulnerability-management"
+    stars_fact: 1786
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "claude-team-dashboard"
+    title: "claude-team-dashboard"
+    description: "📊 Real-time monitoring dashboard for Claude Code agent teams"
+    language: "JavaScript"
+    topics:
+      - "agent-monitoring"
+      - "agentic-ai"
+      - "ai-agents"
+      - "ai-coding"
+      - "ai-dashboard"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "dashboard"
+      - "developer-tools"
+      - "javascript"
+      - "llm"
+      - "mcp"
+      - "monitoring"
+      - "nodejs"
+      - "observability"
+      - "open-source"
+      - "real-time"
+      - "websocket"
+    stars_fact: 82
+    first_seen: null
+    last_push: "2026-05-25"
   - name: "Malware-Sandbox-mcp"
     title: "Malware-Sandbox-mcp"
     description: "Detonate files & URLs in cloud malware sandboxes (Hybrid Analysis, tria.ge, ANY.RUN) and enrich IOCs across MalwareBazaar, ThreatFox, URLhaus, Feodo, URLScan & VirusTotal — straight from Claude. BYOK, async, MITRE ATT&CK."
@@ -235,7 +235,7 @@ repos:
       - "sandbox"
       - "security-tools"
       - "threat-intelligence"
-    stars_fact: 35
+    stars_fact: 36
     first_seen: null
     last_push: "2026-08-05"
 ---

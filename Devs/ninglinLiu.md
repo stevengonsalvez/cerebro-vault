@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 1, 5, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 1, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
-    active_days: 5
+    pushes: 6
+    distinct_repos: 4
+    pushes_per_repo: 1.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "script-to-video-skill"
+    title: "script-to-video-skill"
+    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "cheat-on-x"
+    title: "cheat-on-x"
+    description: "X edition of cheat-on-content: score a post, write a blind prediction, ship it, review after 48 hours, and update the rubric."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "ninglinLiu"
     title: "ninglinLiu"
     description: null
@@ -84,31 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "script-to-video-skill"
-    title: "script-to-video-skill"
-    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "infent-agent"
-    title: "infent-agent"
-    description: "Financial research agent with RAG, bounded tool calling, streaming responses, verifiable tool traces and MCP. Built with TypeScript / Next.js, with a bilingual live demo."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "AI-llm-werewolf-arena-"
-    title: "AI-llm-werewolf-arena-"
-    description: "DeepSeek 单 API 多角色狼人杀模拟器 （后续会改多api）"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-01-12"
+    last_push: "2026-11-18"
 ---
 
 # ninglinLiu

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 1, 1, 6, 11, 17, 6, 16, 6, 5, 1, 0, 0]
+pushes_per_week: [0, 1, 3, 6, 9, 17, 8, 14, 6, 5, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "multirotor-esc-handbook"
+    title: "multirotor-esc-handbook"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-10"
+  - name: "BLHeli32Proxy"
+    title: "BLHeli32Proxy"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "blackbox_analyzer"
     title: "blackbox_analyzer"
     description: "Blackbox log (BBL/BFL/CSV) step-response, filter, vibration and PID analysis for Betaflight/EmuFlight"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-18"
   - name: "SPRACINGH7EF"
     title: "SPRACINGH7EF"
     description: "Backup, repair, restore and flashing knowledge for the SP Racing H7EF flight controller (owned hardware): flash map, bootloader, scripts, factory data, case study."
@@ -101,14 +117,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-10-22"
-  - name: "multirotor-esc-handbook"
-    title: "multirotor-esc-handbook"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-10"
   - name: "powershell-git-prompt"
     title: "powershell-git-prompt"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-05"
-  - name: "PuterJS-UI"
-    title: "PuterJS-UI"
-    description: "Experiment to implement simple HTML UI for https://developer.puter.com/ services."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-01"
 ---
 
 # nerdCopter

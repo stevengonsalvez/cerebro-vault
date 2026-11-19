@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-14T07:04:52.615903+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "5a94dd163bfbe84d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
@@ -82,7 +82,7 @@ repos:
     description: "A clean, minimal, terminal-based global intelligence dashboard."
     language: "Go"
     topics: []
-    stars_fact: 335
+    stars_fact: 339
     first_seen: null
     last_push: "2026-03-04"
   - name: "mole"
@@ -90,7 +90,7 @@ repos:
     description: "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data."
     language: "Go"
     topics: []
-    stars_fact: 318
+    stars_fact: 319
     first_seen: "2026-08-15T06:00:07.075101+00:00"
     last_push: "2026-11-08"
   - name: "xcclear"

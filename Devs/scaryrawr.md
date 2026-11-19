@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 3, 11, 38, 10, 15, 3, 1, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 11, 38, 12, 14, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "winwal"
+    title: "winwal"
+    description: "A PowerShell wrapper around the pywal tool"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "copilot.pwsh"
+    title: "copilot.pwsh"
+    description: "copilot completions for powershell"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-19"
   - name: "scarypilot"
     title: "scarypilot"
     description: "Copilot CLI Plugin Marketplace"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "pi-mono"
     title: "pi-mono"
     description: "Vibe coded pi related projects"
@@ -92,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-17"
   - name: "scarydex"
     title: "scarydex"
     description: "personal codex marketplace"
@@ -108,23 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "winwal"
-    title: "winwal"
-    description: "A PowerShell wrapper around the pywal tool"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 57
-    first_seen: null
-    last_push: "2026-07-06"
-  - name: "scaryrawr.github.io"
-    title: "scaryrawr.github.io"
-    description: "github page for scaryrawr"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-18"
 ---
 
 # scaryrawr

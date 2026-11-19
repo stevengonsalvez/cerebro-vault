@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,54 +82,53 @@ repos:
     description: "A presentation-order collection of 3D prompts for copying and reuse."
     language: null
     topics: []
-    stars_fact: 353
+    stars_fact: 410
     first_seen: null
     last_push: "2026-07-02"
-  - name: "bullshit-benchmark"
-    title: "bullshit-benchmark"
-    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
-    language: "Python"
+  - name: "gogh-strike"
+    title: "gogh-strike"
+    description: "A painterly browser shooter: twelve artists, two rival crews, and a paint fight through Van Gogh’s Town."
+    language: "JavaScript"
     topics: []
-    stars_fact: 1909
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-09-05"
+  - name: "claude-interview"
+    title: "claude-interview"
+    description: "A hands-free, recorded video call with Claude: Claude Code for the thinking, ElevenLabs for voice, generated visuals, edit-ready recordings."
+    language: "JavaScript"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "elevenlabs"
+      - "voice"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-09-26"
+  - name: "transformer-architecture"
+    title: "transformer-architecture"
+    description: "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 86
+    first_seen: null
+    last_push: "2026-09-11"
   - name: "model-survey-evaluation"
     title: "model-survey-evaluation"
     description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
     language: "Python"
     topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-07-20"
-  - name: "codex-speed-monitor"
-    title: "codex-speed-monitor"
-    description: "Native macOS menu-bar monitor for Codex token speed"
-    language: "Python"
-    topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-05-12"
-  - name: "Live-YT-Translator"
-    title: "Live-YT-Translator"
-    description: "A Chrome extension for live YouTube translation with OpenAI Realtime."
-    language: "JavaScript"
+    last_push: "2026-07-20"
+  - name: "bullshit-benchmark"
+    title: "bullshit-benchmark"
+    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
+    language: "Python"
     topics: []
-    stars_fact: 62
+    stars_fact: 1914
     first_seen: null
-    last_push: "2026-05-07"
-  - name: "models-learning-chess"
-    title: "models-learning-chess"
-    description: "Language models learning chess: six runs, games, conversation and tool logs, workspace snapshots, and experiment structure."
-    language: "HTML"
-    topics:
-      - "ai-agents"
-      - "benchmark"
-      - "chess"
-      - "dataset"
-      - "language-models"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
+    last_push: "2026-11-18"
 ---
 
 # petergpt

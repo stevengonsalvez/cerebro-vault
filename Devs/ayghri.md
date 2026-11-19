@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "46f3c1d6124190bd"
 pushes_per_week: [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -89,9 +89,33 @@ repos:
       - "claude-skills"
       - "developer-tools"
       - "productivity"
-    stars_fact: 60796
+    stars_fact: 61663
     first_seen: "2026-08-07T06:00:04.662798+00:00"
     last_push: "2026-10-19"
+  - name: "overleaf-mcp"
+    title: "overleaf-mcp"
+    description: "Overleaf MCP: let AI agents operate on your Overleaf projects as real-time collaborators."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "tweet_rss"
+    title: "tweet_rss"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-31"
+  - name: "be-jepa"
+    title: "be-jepa"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "pgcuts"
     title: "pgcuts"
     description: "Probabilistic Graph Cuts - PyTorch implementation"
@@ -108,30 +132,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-04-08"
-  - name: "base46.nvim"
-    title: "base46.nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "statusline-compose.nvim"
-    title: "statusline-compose.nvim"
-    description: null
-    language: "Lua"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "slides"
-    title: "slides"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
 ---
 
 # ayghri

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 5, 0, 1, 0, 0, 7, 2, 23, 1, 1, 4]
+pushes_per_week: [3, 0, 5, 0, 1, 0, 0, 7, 2, 23, 2, 1, 3]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 4
-    active_days: 10
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 31
+    pushes: 30
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 10
+    pushes_per_repo: 7.5000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Manually managed dotfiles"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "opencode-tokenscope"
     title: "opencode-tokenscope"
     description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
@@ -95,9 +87,33 @@ repos:
       - "developer-tools"
       - "opencode"
       - "opencode-plugins"
-    stars_fact: 282
+    stars_fact: 284
     first_seen: null
     last_push: "2026-11-10"
+  - name: "survive-n-conquest"
+    title: "survive-n-conquest"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "herdr-stuff"
+    title: "herdr-stuff"
+    description: "Mods for the Herdr app"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "first-game"
+    title: "first-game"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "nexus"
     title: "nexus"
     description: null
@@ -105,31 +121,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "inkline"
-    title: "inkline"
-    description: "zsh-style autosuggestions and syntax highlighting for bash, as a readline add-on"
-    language: "Rust"
+    last_push: "2026-11-15"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Manually managed dotfiles"
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for Archivist"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "claude-mods"
-    title: "claude-mods"
-    description: "Claude Code mods, published as one plugin marketplace"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-12"
 ---
 
 # ramtinJ95

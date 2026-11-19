@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cinderjs"
+    title: "cinderjs"
+    description: "Asynchronous Cinder + V8 bindings (libcinder + libv8)"
+    language: "C++"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2015-08-28"
   - name: "oc-plugin-vault-tec"
     title: "oc-plugin-vault-tec"
     description: "A RobCo terminal personality that rewires your coding agent into a cheerful Vault-Tec Overseer -- bugs are containment breaches, deploys are surface excursions, and nuclear optimism is mandatory."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 41
     first_seen: null
     last_push: "2026-04-28"
-  - name: "oc-plugin-smoke-test"
-    title: "oc-plugin-smoke-test"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-03"
 ---
 
 # kommander

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [3, 2, 0, 0, 1, 5, 5, 13, 2, 1, 1, 0, 4]
+pushes_per_week: [4, 1, 0, 0, 1, 5, 5, 13, 3, 0, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    active_days: 7
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 7
+    pushes_per_repo: 7.0000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,42 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vapor-squad"
+    title: "vapor-squad"
+    description: "Copilot skill to set up bradygaster/squad in any Git repo without committing Squad files"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-03-09"
+  - name: "docker-why"
+    title: "docker-why"
+    description: "Quick example of using SQL Server and .NET Core on Linux, loading data using bash"
+    language: "C#"
+    topics:
+      - "docker"
+      - "dotnetcore"
+      - "linux"
+      - "sql-server"
+    stars_fact: 39
+    first_seen: null
+    last_push: "2019-02-22"
+  - name: "waza-site-mock-artifacts"
+    title: "waza-site-mock-artifacts"
+    description: "Static image artifacts for Waza site mock issue comments"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "waza-v0.41.0-consumer-check"
+    title: "waza-v0.41.0-consumer-check"
+    description: "Released cross-repo consumer validation for microsoft/waza v0.41.0 (#902)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "sensei"
     title: "sensei"
     description: "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern"
@@ -90,7 +126,7 @@ repos:
       - "testing-tools"
     stars_fact: 60
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-17"
   - name: "azure-deploy"
     title: "azure-deploy"
     description: "Copilot/Claude Skill for deploying applications to Azure (App Service, Functions, Static Web Apps)"
@@ -99,43 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
-  - name: "pycontainer-build"
-    title: "pycontainer-build"
-    description: "Docker-free OCI image builder for Python projects"
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "aspire-beast-social3"
-    title: "aspire-beast-social3"
-    description: "Beast Mode Social Creator - Complete .NET Aspire 9.4.0 AI-powered social media content creation platform with microservices architecture, modern Tailwind CSS UI, and Azure cloud integration"
-    language: "C#"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-08-11"
-  - name: "microsoft-foundry-plugin"
-    title: "microsoft-foundry-plugin"
-    description: "Microsoft Foundry skills and remote MCP connector for Microsoft 365 Copilot"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "spark-to-aspire"
-    title: "spark-to-aspire"
-    description: "Convert GitHub Spark apps to Aspire using current Aspire and Microsoft Foundry skills"
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "aspire"
-      - "copilot-cli"
-      - "github-spark"
-      - "microsoft-foundry"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-11"
 ---
 
 # spboyer

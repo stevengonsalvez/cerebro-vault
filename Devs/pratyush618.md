@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 2, 1, 8, 5, 6, 4, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 2, 8, 4, 7, 3, 1, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 2
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 5
-    active_days: 21
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.2381
+  push_per_day: 1.3182
+  repo_per_active_day: 0.2273
   not_owned_ratio: 0.6000
   basename_concentration: 0.4000
   shapes: []
@@ -49,42 +49,46 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
     active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 29
     distinct_repos: 5
-    pushes_per_repo: 5.6000
-    active_days: 21
+    pushes_per_repo: 5.8000
+    active_days: 22
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "carrova"
     title: "carrova"
     description: null
     language: "Rust"
-    topics: []
+    topics:
+      - "fileserver"
+      - "filesharing"
+      - "filestorage"
+      - "sharing-data"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "pratyush618"
     title: "pratyush618"
     description: null
@@ -92,7 +96,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "singularity-fm"
     title: "singularity-fm"
     description: null
@@ -129,6 +133,6 @@ repos:
 
 # pratyush618
 
-28 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+29 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pratyush618

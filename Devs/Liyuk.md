@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [2, 1, 0, 0, 0, 6, 0, 1, 5, 0, 0, 0, 5]
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
+    pushes: 6
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 4
-    pushes_per_repo: 2.5000
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "openbars"
+    title: "openbars"
+    description: "Free, multi-market, multi-source OHLCV bar collection, cleaning and reconciliation into one canonical dataset."
+    language: "Python"
+    topics:
+      - "crypto"
+      - "duckdb"
+      - "market-data"
+      - "ohlcv"
+      - "parquet"
+      - "python"
+      - "self-hosted"
+      - "stock-data"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "roundtable-work"
     title: "roundtable-work"
     description: "An agent-guided setup and operating model for autonomous collaborative work."
@@ -90,7 +106,25 @@ repos:
       - "multi-agent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
+  - name: "astro-fourfold"
+    title: "astro-fourfold"
+    description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
+    language: "Astro"
+    topics:
+      - "astro"
+      - "astro-blog"
+      - "astro-starter"
+      - "astro-template"
+      - "astro-theme"
+      - "github-pages"
+      - "markdown"
+      - "personal-blog"
+      - "personal-website"
+      - "static-site-generator"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "nuska"
     title: "nuska"
     description: "Research and experiments on autonomous agents: from human intent to verified delivery."
@@ -104,7 +138,7 @@ repos:
       - "multi-agent"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-13"
   - name: "liyuk.github.io"
     title: "liyuk.github.io"
     description: "Personal site: writing, research, projects & photography. Bilingual, built with Astro."
@@ -112,7 +146,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-12"
   - name: "Interview-Book"
     title: "Interview-Book"
     description: "Frontend interview questions and an engineering knowledge guide, from web fundamentals to systems, frameworks, and career growth."
@@ -129,31 +163,6 @@ repos:
     stars_fact: 440
     first_seen: null
     last_push: "2026-10-28"
-  - name: "cn-housing-price-training"
-    title: "cn-housing-price-training"
-    description: "China housing price data construction and forecast: a reproducible 70-city index panel, macro series, and methodology-aware modeling."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "astro-memory-atlas"
-    title: "astro-memory-atlas"
-    description: "A bilingual Astro starter for shared memories, with timelines, annual recaps, an illustrated map, and anniversary countdowns."
-    language: "JavaScript"
-    topics:
-      - "astro"
-      - "astro-starter"
-      - "astro-theme"
-      - "bilingual"
-      - "github-pages"
-      - "leaflet"
-      - "memory-book"
-      - "static-site"
-      - "timeline"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-10"
 ---
 
 # Liyuk

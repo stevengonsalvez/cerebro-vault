@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 15, 11, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 19, 7, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 3
-    active_days: 8
+    pushes: 27
+    distinct_repos: 2
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 28
-    distinct_repos: 3
-    pushes_per_repo: 9.3333
-    active_days: 8
+    pushes: 27
+    distinct_repos: 2
+    pushes_per_repo: 13.5000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "vn-skills"
     title: "vn-skills"
     description: "Agent Skills, CLI, MCP server and TS library for Vietnam-specific logic: VietQR, 34-province addresses, tax IDs, money in words, lunar calendar, e-invoices"
@@ -98,15 +98,7 @@ repos:
       - "vietqr"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
-  - name: "maintainer-bot"
-    title: "maintainer-bot"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-19"
   - name: "thumbly-space-releases"
     title: "thumbly-space-releases"
     description: "Thumbly Space for Mac — downloads (release assets only; no source code)"
@@ -131,6 +123,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-04"
+  - name: "picto-graphic"
+    title: "picto-graphic"
+    description: "Converts a PNG line-art icon into centerline SVG paths, recovering the medial axis the artist drew instead of tracing the filled outline"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-14"
 ---
 
 # beiryu

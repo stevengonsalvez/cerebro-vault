@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [3, 1, 0, 0, 2, 7, 13, 5, 3, 0, 0, 0, 0]
+pushes_per_week: [3, 1, 0, 0, 2, 8, 12, 5, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,9 +89,28 @@ repos:
       - "radarr"
       - "rudarr"
       - "sonarr"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
+  - name: "opencode-classifier-plugin"
+    title: "opencode-classifier-plugin"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "opencode-openai-proxy"
+    title: "opencode-openai-proxy"
+    description: "docker image to expose openai compatible api from opencode"
+    language: "JavaScript"
+    topics:
+      - "docker"
+      - "openai"
+      - "opencode"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "ps5-custom-payloads"
     title: "ps5-custom-payloads"
     description: null
@@ -99,7 +118,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-17"
   - name: "opencode-mem"
     title: "opencode-mem"
     description: "Memory persistence between sessions in project scope for opencode"
@@ -119,29 +138,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-23"
-  - name: "llm-telegram-bot"
-    title: "llm-telegram-bot"
-    description: "Telegram bot to chat with LLMs"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "bot"
-      - "llm"
-      - "telegram"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "opencode-openai-proxy"
-    title: "opencode-openai-proxy"
-    description: "docker image to expose openai compatible api from opencode"
-    language: "JavaScript"
-    topics:
-      - "docker"
-      - "openai"
-      - "opencode"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-07-22"
 ---
 
 # lucasliet

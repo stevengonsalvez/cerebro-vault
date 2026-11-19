@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 0, 1, 2, 4, 0, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 3, 3, 0, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "quaderno-public"
+    title: "quaderno-public"
+    description: "Quaderno: an open-source note-taking app for reMarkable Paper Pro and macOS."
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "Certificate-Manager"
     title: "Certificate-Manager"
     description: "Local HTTPS certificate manager in C with six-language web UI, expiry tracking, contacts, endpoint monitoring and SMTP delivery."
@@ -102,7 +110,7 @@ repos:
       - "vanilla-javascript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-13"
   - name: "PDF-Edit-View"
     title: "PDF-Edit-View"
     description: "PDF-Edit&View — CartaPDF: free offline Swift PDF editor for macOS, Apple frameworks only. PDF/A validation remains partial."
@@ -133,14 +141,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "SecHomelab"
-    title: "SecHomelab"
-    description: "Security homelab con MISP, Splunk, AbuseIPDB e GreyNoise su Podman Compose."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
 ---
 
 # GiorgioOppo

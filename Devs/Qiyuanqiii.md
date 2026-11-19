@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 0, 1, 0, 6, 3, 8, 8, 14, 3, 0, 0, 5]
+pushes_per_week: [3, 0, 1, 0, 6, 5, 6, 8, 16, 1, 0, 4, 1]
 windows:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 12
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 20
+    pushes: 12
     distinct_repos: 1
-    pushes_per_repo: 20.0000
-    active_days: 7
+    pushes_per_repo: 12.0000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "ocr-behavior-review"
     title: "ocr-behavior-review"
     description: "An opt-in behavior contract and counterexample review policy for OpenCodeReview."

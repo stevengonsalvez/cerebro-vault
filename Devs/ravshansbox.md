@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -25,6 +25,7 @@ provenance:
   - "11a9e9aebb65d4c7"
   - "11bfb616c2334a07"
   - "13d96f6971fff698"
+  - "1590e3f6387642d1"
   - "199af8aea5b61129"
   - "199f1aeef5f0463c"
   - "1f4559e41bf13b35"
@@ -96,33 +97,33 @@ provenance:
   - "fd1cb9e783625459"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 0, 0, 0, 0, 2, 6, 185, 1, 20, 1, 0, 2]
+pushes_per_week: [3, 0, 0, 0, 0, 2, 6, 185, 1, 20, 1, 0, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 12
-    active_days: 6
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 220
+    pushes: 221
     distinct_repos: 25
-    active_days: 15
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 14.6667
-  repo_per_active_day: 1.6667
+  push_per_day: 13.8125
+  repo_per_active_day: 1.5625
   not_owned_ratio: 0.0000
   basename_concentration: 0.0400
   shapes: []
@@ -133,34 +134,56 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 12
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 2.0833
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 220
+    pushes: 221
     distinct_repos: 25
-    pushes_per_repo: 8.8000
-    active_days: 15
+    pushes_per_repo: 8.8400
+    active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 85 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "provenance: 86 vault signal(s) — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-prompt-history"
+    title: "pi-prompt-history"
+    description: "Shell-style prompt history extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "prompt-history"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "pi-web"
+    title: "pi-web"
+    description: "Web UI for the pi coding agent"
+    language: "TypeScript"
+    topics:
+      - "pi-package"
+      - "pi-web"
+      - "ui"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "pi-anthropic"
     title: "pi-anthropic"
     description: "Anthropic system prompt sanitiser extension for pi"
@@ -171,7 +194,7 @@ repos:
       - "system-prompt"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-17"
   - name: "pi-rust"
     title: "pi-rust"
     description: null
@@ -187,7 +210,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-19"
   - name: "pi-loop"
     title: "pi-loop"
     description: "Run pi in a loop with a shared context file"
@@ -196,32 +219,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-05"
-  - name: "pi-opencode-zen"
-    title: "pi-opencode-zen"
-    description: "OpenCode Zen provider extension for pi"
-    language: "TypeScript"
-    topics:
-      - "pi-extension"
-      - "pi-package"
-      - "provider"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "pi-prompt-history"
-    title: "pi-prompt-history"
-    description: "Shell-style prompt history extension for pi"
-    language: "TypeScript"
-    topics:
-      - "pi-extension"
-      - "pi-package"
-      - "prompt-history"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-06"
 ---
 
 # ravshansbox
 
-220 pushes across 25 repositories on 15 active days in the last 90 days of public GitHub push activity.
+221 pushes across 25 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

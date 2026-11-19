@@ -6,14 +6,12 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "browser-use/browser-use"
-  - "browser-use/video-use"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-  - "ddd7486148a91958"
 pushes_per_week: [0, 0, 8, 0, 4, 12, 1, 4, 0, 1, 0, 0, 0]
 windows:
   "7d":
@@ -75,7 +73,7 @@ facets:
     not_owned_basenames: 8
     not_owned_owners: 1
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

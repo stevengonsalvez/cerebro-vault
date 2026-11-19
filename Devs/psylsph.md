@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 6, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 1, 6, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,21 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "book-writer"
+    title: "book-writer"
+    description: "A seed prompt in, a drafted, reviewed and polished book out - multi-agent pipeline for local LLMs, with story state, continuity checks, EPUB export and a web GUI"
+    language: "Python"
+    topics:
+      - "book-writing"
+      - "epub"
+      - "llama-cpp"
+      - "llm"
+      - "local-llm"
+      - "multi-agent"
+      - "writing-tools"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "home-energy-manager"
     title: "home-energy-manager"
     description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
@@ -90,9 +105,9 @@ repos:
       - "modbus"
       - "solar"
       - "tauri"
-    stars_fact: 36
+    stars_fact: 35
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
   - name: "givenergy-simulator"
     title: "givenergy-simulator"
     description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
@@ -100,7 +115,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "milsymbol-sidc"
     title: "milsymbol-sidc"
     description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
@@ -125,7 +140,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-14"
   - name: "flashlearn"
     title: "flashlearn"
     description: "AI-powered flashcard app. Snap photos of notes, AI creates quizzes. Spaced repetition + gamification for students."
@@ -157,14 +172,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-11"
-  - name: "autonomous-booksmith"
-    title: "autonomous-booksmith"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-16"
 ---
 
 # psylsph

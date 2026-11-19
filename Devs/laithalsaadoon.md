@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 4, 6, 16, 6, 21, 3, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 3, 12, 10, 10, 17, 3, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,27 +77,6 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ai-gateway"
-    title: "ai-gateway"
-    description: "AI Gateway: LLM inference gateway on AWS with Cognito M2M auth, ALB JWT validation, ECS Fargate, and CloudWatch observability"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "microvms-agentd"
-    title: "microvms-agentd"
-    description: "A verified Rust client stack and in-VM daemon for AWS Lambda MicroVMs: typed trap closures, cost reporting, and a live conformance suite"
-    language: "Rust"
-    topics:
-      - "aws-lambda"
-      - "formal-verification"
-      - "microvm"
-      - "rust"
-      - "stateright"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "atif-sql"
     title: "atif-sql"
     description: "ATIF-native analytics over Claude Code agent trajectories: convert sessions to ATIF, materialize a corpus, query it with DuckDB."
@@ -111,9 +90,30 @@ repos:
       - "duckdb"
       - "observability"
       - "python"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "ai-gateway"
+    title: "ai-gateway"
+    description: "AI Gateway: LLM inference gateway on AWS with Cognito M2M auth, ALB JWT validation, ECS Fargate, and CloudWatch observability"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "microvms-agentd"
+    title: "microvms-agentd"
+    description: "A verified Rust client stack and in-VM daemon for AWS Lambda MicroVMs: typed trap closures, cost reporting, and a live conformance suite"
+    language: "Rust"
+    topics:
+      - "aws-lambda"
+      - "formal-verification"
+      - "microvm"
+      - "rust"
+      - "stateright"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "erpaval"
     title: "erpaval"
     description: "ERPAVal — autonomous software development. Six-phase Explore/Research/Plan/Act/Validate/Compound workflow with classifier-driven routing and a compounding lessons store."

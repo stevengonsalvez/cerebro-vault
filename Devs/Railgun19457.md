@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 2, 0, 5, 1, 0, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 0, 5, 1, 0, 1, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "copilot-custom-api"
+    title: "copilot-custom-api"
+    description: "Connect your own model API endpoints to GitHub Copilot Chat."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "Railgun19457"
     title: "Railgun19457"
     description: "Profile page"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-16"
   - name: "astrbot_plugin_image_generation"
     title: "astrbot_plugin_image_generation"
     description: "通用图像生成插件"
@@ -115,14 +123,6 @@ repos:
     language: "Python"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "astrbot_plugin_output_enhance"
-    title: "astrbot_plugin_output_enhance"
-    description: "AstrBot输出增强插件"
-    language: "Python"
-    topics: []
-    stars_fact: 1
     first_seen: null
     last_push: "2026-11-06"
 ---

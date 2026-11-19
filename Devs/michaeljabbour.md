@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [4, 0, 1, 2, 6, 13, 14, 0, 3, 1, 0, 0, 1]
+pushes_per_week: [4, 0, 1, 2, 6, 15, 12, 0, 3, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "onboarding-agent"
+    title: "onboarding-agent"
+    description: "A local browser guide and companion for getting started with AI coding agents."
+    language: "HTML"
+    topics:
+      - "ai-agents"
+      - "developer-tools"
+      - "local-first"
+      - "onboarding"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "amplifier-capability-unslopper"
     title: "amplifier-capability-unslopper"
     description: "Unslopper: an Amplifier smart tool that removes AI design defaults from HTML, CSS and screenshots"
@@ -84,7 +96,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-16"
   - name: "michaeljabbour.github.io"
     title: "michaeljabbour.github.io"
     description: null
@@ -119,14 +131,6 @@ repos:
   - name: "amplifier-capability-delivery-packager"
     title: "amplifier-capability-delivery-packager"
     description: "Build a bounded local delivery archive from an explicitly reviewed file plan, with integrity and handoff metadata."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "amplifier-capability-project-handoff"
-    title: "amplifier-capability-project-handoff"
-    description: "Capture, resume and check project handoffs with decisions, evidence, unresolved work and next actions."
     language: "Python"
     topics: []
     stars_fact: 0

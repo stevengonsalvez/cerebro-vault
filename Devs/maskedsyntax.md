@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 0, 0, 4, 3, 3, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 4, 2, 3, 1, 0, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,56 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "golings"
+    title: "golings"
+    description: "Go practice, one exercise at a time."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "blocklite"
+    title: "blocklite"
+    description: "A Minimalistic Decentralized Cryptocurrency Implementation in Go"
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-02-15"
+  - name: "xenon"
+    title: "xenon"
+    description: "A modern, lightweight text and code editor built with Qt 6"
+    language: "Rust"
+    topics:
+      - "cpp"
+      - "gtk3"
+      - "linux"
+      - "text-editor"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "steepr"
+    title: "steepr"
+    description: "For people who take tea way too seriously 🍵"
+    language: "Swift"
+    topics:
+      - "ios"
+      - "ios-swift"
+      - "steep"
+      - "swift"
+      - "tea"
+      - "vuejs"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "goggles"
+    title: "goggles"
+    description: "CLI-first publisher for Instagram Reels, YouTube Shorts, and LinkedIn posts."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
   - name: "rook"
     title: "rook"
     description: "A window manager for macOS with keyboard shortcuts"
@@ -85,46 +135,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-10"
-  - name: "pocket"
-    title: "pocket"
-    description: "Pocket: A lightweight application launcher that gets out of your way"
-    language: "Swift"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "sprout"
-    title: "sprout"
-    description: "A fast, interactive CLI for generating Spring Boot projects directly from your terminal, powered by Spring Initializr."
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "pomme"
-    title: "pomme"
-    description: "A lightweight TUI for tracking App Store analytics right from your terminal."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "goggles"
-    title: "goggles"
-    description: "Multi-account social browser"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "emozi"
-    title: "emozi"
-    description: "Emoji picker for linux 😎"
-    language: "Vala"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-03"
 ---
 
 # maskedsyntax

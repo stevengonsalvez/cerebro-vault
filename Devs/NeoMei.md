@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 1, 4, 0, 7, 4, 2, 5, 5, 9, 0, 0, 0]
+pushes_per_week: [1, 1, 4, 0, 7, 4, 3, 4, 6, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 12
     distinct_repos: 4
-    pushes_per_repo: 3.5000
-    active_days: 5
+    pushes_per_repo: 3.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,18 +77,10 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llmrouter"
-    title: "llmrouter"
-    description: "Private LLM API aggregation and client compatibility platform"
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "SuperWagie"
     title: "SuperWagie"
     description: "犇马 SuperWagie · 本地 AI 办公与编程智能体。Local AI workbench for office work and coding, with Markdown tasks, a document library, and document/PPT creation for macOS and Windows."
-    language: "JavaScript"
+    language: "TypeScript"
     topics:
       - "ai-agent"
       - "benma"
@@ -102,9 +94,25 @@ repos:
       - "productivity"
       - "superwagie"
       - "windows"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
+  - name: "SuperPPT"
+    title: "SuperPPT"
+    description: "Create high-detail image-first PPTX decks with versioned planning and editable page revisions."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "llmrouter"
+    title: "llmrouter"
+    description: "Private LLM API aggregation and client compatibility platform"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "UniHub"
     title: "UniHub"
     description: "UniHub: headless identity, accounts and billing services for independent products"
@@ -112,7 +120,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
   - name: "SuperVideo"
     title: "SuperVideo"
     description: "轻量视频制作技能：PPT、绘本、网页教程与教学动画，百炼配音、字幕和 BGM。"
@@ -129,14 +137,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-31"
-  - name: "project-taskboard"
-    title: "project-taskboard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-26"
 ---
 
 # NeoMei

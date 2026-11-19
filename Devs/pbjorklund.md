@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 1, 2, 1, 2, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 2, 1, 1, 2, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "astro-wysiwyg"
+    title: "astro-wysiwyg"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-08-25"
   - name: "pi-zellij-tab-status"
     title: "pi-zellij-tab-status"
     description: null
@@ -97,15 +105,7 @@ repos:
       - "web-annotation"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-02"
-  - name: "astro-wysiwyg"
-    title: "astro-wysiwyg"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-08-25"
+    last_push: "2026-11-16"
   - name: "pi-ollama-decision"
     title: "pi-ollama-decision"
     description: null

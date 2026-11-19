@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [9, 122, 17, 28, 36, 67, 70, 146, 58, 18, 2, 10, 5]
+pushes_per_week: [10, 120, 17, 30, 37, 74, 77, 129, 60, 16, 9, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,8 +22,8 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 92
-    distinct_repos: 2
+    pushes: 76
+    distinct_repos: 1
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -31,14 +31,14 @@ windows:
   "90d":
     pushes: 588
     distinct_repos: 4
-    active_days: 62
+    active_days: 63
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.4839
-  repo_per_active_day: 0.0645
+  push_per_day: 9.3333
+  repo_per_active_day: 0.0635
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 92
-    distinct_repos: 2
-    pushes_per_repo: 46.0000
+    pushes: 76
+    distinct_repos: 1
+    pushes_per_repo: 76.0000
     active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -68,13 +68,13 @@ facets:
     pushes: 588
     distinct_repos: 4
     pushes_per_repo: 147.0000
-    active_days: 62
+    active_days: 63
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 62 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scryfall-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-588 pushes across 4 repositories on 62 active days in the last 90 days of public GitHub push activity.
+588 pushes across 4 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

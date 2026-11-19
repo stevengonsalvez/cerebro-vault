@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "438a9b54b319a0a7"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -99,7 +99,7 @@ repos:
       - "qwen"
       - "qwen-coder"
       - "skills"
-    stars_fact: 1853
+    stars_fact: 1870
     first_seen: null
     last_push: "2026-07-14"
   - name: "free-cluely"
@@ -115,9 +115,17 @@ repos:
       - "interview-coder"
       - "leetcode"
       - "notetaker"
-    stars_fact: 1703
+    stars_fact: 1712
     first_seen: null
     last_push: "2026-04-07"
+  - name: "model-router"
+    title: "model-router"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "open-hubspot"
     title: "open-hubspot"
     description: null
@@ -142,19 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "nano-claude-code"
-    title: "nano-claude-code"
-    description: "A lightweight implementation of Claude Code"
-    language: "JavaScript"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "claude-code-cli"
-      - "coding-agent"
-      - "coding-assistant"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-03-31"
 ---
 
 # Prat011

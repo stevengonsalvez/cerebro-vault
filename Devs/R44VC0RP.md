@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 0, 0, 2, 2, 15, 0, 7, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 2, 2, 15, 1, 6, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,20 +77,44 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "hark"
-    title: "hark"
-    description: "iPhone notifications, approvals, Live Activities, on-call paging and signed-in mini apps for developers and their agents."
+  - name: "ferry"
+    title: "ferry"
+    description: "Send files and run commands between your own machines over your tailnet. One binary for macOS, Linux and Windows."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "agenda.dev"
+    title: "agenda.dev"
+    description: "making the fastest and most capable todo app ever"
     language: "TypeScript"
     topics:
-      - "ai-agents"
-      - "ios"
-      - "mcp"
-      - "notifications"
-      - "on-call"
-      - "webhooks"
-    stars_fact: 211
+      - "fast"
+      - "nextjs"
+      - "todo"
+    stars_fact: 301
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-03-04"
+  - name: "homeport"
+    title: "homeport"
+    description: "Your home Mac's folders in Finder anywhere: a File Provider client and a fast QUIC server over Tailscale"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "superlocal"
+    title: "superlocal"
+    description: "An email client & provider gateway so you can build your best email experience."
+    language: "TypeScript"
+    topics:
+      - "email"
+      - "fast"
+      - "local-first"
+    stars_fact: 234
+    first_seen: null
+    last_push: "2026-09-08"
   - name: "glassx"
     title: "glassx"
     description: "A fully native X client for macOS 27, built with SwiftUI and Liquid Glass."
@@ -105,42 +129,20 @@ repos:
     stars_fact: 37
     first_seen: null
     last_push: "2026-10-14"
-  - name: "claude-agent"
-    title: "claude-agent"
-    description: "OpenCode Claude Agent plugin: fast mode, account rotation and usage-limit cooldown"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "imgen"
-    title: "imgen"
-    description: "Agent-friendly OpenAI image generation, Responses API workflows, and reusable character references"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-16"
-  - name: "opencode.cafe"
-    title: "opencode.cafe"
-    description: "A plugin and extension cafe for OpenCode."
+  - name: "hark"
+    title: "hark"
+    description: "iPhone notifications, approvals, Live Activities, on-call paging and signed-in mini apps for developers and their agents."
     language: "TypeScript"
     topics:
-      - "ai"
-      - "cafe"
-      - "community"
-      - "opencode"
-    stars_fact: 204
+      - "ai-agents"
+      - "ios"
+      - "mcp"
+      - "notifications"
+      - "on-call"
+      - "webhooks"
+    stars_fact: 215
     first_seen: null
-    last_push: "2026-05-21"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 161
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-13"
 ---
 
 # R44VC0RP

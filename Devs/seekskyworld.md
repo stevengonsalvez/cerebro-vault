@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 2, 0, 2, 2, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 2, 2, 2, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Agent-first web presentation workspace: turn briefs into editable slide decks and export native PPTX on demand."
     language: "TypeScript"
     topics: []
-    stars_fact: 182
+    stars_fact: 192
     first_seen: null
     last_push: "2026-08-27"
+  - name: "ai-modeling"
+    title: "ai-modeling"
+    description: "CLI, MCP tools and Agent Skill workflows for Tripo Studio web accounts"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "GB-emulator"
     title: "GB-emulator"
     description: null

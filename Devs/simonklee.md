@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 1, 0, 0, 5, 0, 3, 9, 1, 2, 0, 1, 0]
+pushes_per_week: [5, 1, 0, 0, 5, 2, 3, 7, 1, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opencode-native-preview"
+    title: "opencode-native-preview"
+    description: "OpenCode Native CLI Preview builds"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "tigerstyle"
+    title: "tigerstyle"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-11-29"
   - name: "opentui-bench"
     title: "opentui-bench"
     description: null
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-13"
   - name: "godis"
     title: "godis"
     description: "godis - an old Redis client for Go"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-07-09"
-  - name: "tigerstyle"
-    title: "tigerstyle"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 44
-    first_seen: null
-    last_push: "2025-11-29"
-  - name: "noeqd"
-    title: "noeqd"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2013-12-15"
 ---
 
 # simonklee

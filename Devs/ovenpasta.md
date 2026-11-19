@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-13T07:04:39.147320+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "422d724d1779eadb"
-pushes_per_week: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,23 @@ reasons:
   - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "thunderchez"
+    title: "thunderchez"
+    description: "libraries for chez scheme productivity"
+    language: "Common Lisp"
+    topics:
+      - "scheme"
+    stars_fact: 170
+    first_seen: null
+    last_push: "2024-09-27"
+  - name: "alire-index-gnat-llvm"
+    title: "alire-index-gnat-llvm"
+    description: "Alire index for the gnat_llvm toolchain (GNAT-LLVM, WebAssembly)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
   - name: "adi2"
     title: "adi2"
     description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
@@ -91,18 +108,9 @@ repos:
       - "toolkit"
       - "ui"
       - "widgets"
-    stars_fact: 59
+    stars_fact: 61
     first_seen: "2026-08-25T06:00:02.050180+00:00"
-    last_push: "2026-10-26"
-  - name: "thunderchez"
-    title: "thunderchez"
-    description: "libraries for chez scheme productivity"
-    language: "Common Lisp"
-    topics:
-      - "scheme"
-    stars_fact: 169
-    first_seen: null
-    last_push: "2024-09-27"
+    last_push: "2026-11-16"
   - name: "message_pack"
     title: "message_pack"
     description: "MessagePack for Ada, over Ada.Streams"
@@ -118,7 +126,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-09-07"
+    last_push: "2026-11-17"
   - name: "miogui"
     title: "miogui"
     description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"
@@ -127,14 +135,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2016-12-17"
-  - name: "premake5-cmake"
-    title: "premake5-cmake"
-    description: "cmake target for premake5"
-    language: "Lua"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2019-12-24"
 ---
 
 # ovenpasta

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [6, 2, 0, 0, 3, 12, 4, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [7, 1, 0, 0, 3, 12, 4, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,11 +80,11 @@ repos:
   - name: "site"
     title: "site"
     description: null
-    language: "TypeScript"
+    language: "HTML"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "pranshugupta54"
     title: "pranshugupta54"
     description: "Config files for my GitHub profile."
@@ -123,7 +123,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-16"
+    last_push: "2026-11-18"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null

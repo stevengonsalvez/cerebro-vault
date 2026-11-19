@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [11, 4, 3, 2, 2, 5, 19, 8, 5, 4, 0, 2, 0]
+pushes_per_week: [15, 0, 3, 2, 2, 8, 16, 8, 7, 2, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 3
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 5
+    pushes_per_repo: 2.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,46 +77,53 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "shell_rc"
-    title: "shell_rc"
-    description: null
+  - name: "sad"
+    title: "sad"
+    description: "CLI search and replace | Space Age seD"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "command-line"
+      - "diff"
+      - "editing"
+      - "fzf"
+      - "rust"
+      - "sed"
+      - "terminal"
+      - "tui"
+    stars_fact: 2054
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "chadtree"
+    title: "chadtree"
+    description: "File manager for Neovim. Better than NERDTree."
+    language: "Python"
+    topics:
+      - "chad"
+      - "colours"
+      - "devicons"
+      - "file-explorer"
+      - "file-manager"
+      - "github-colours"
+      - "neovim"
+      - "neovim-plugin"
+      - "nerdtree"
+      - "nvim"
+      - "python"
+      - "tree"
+    stars_fact: 1688
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "lua-async-await"
+    title: "lua-async-await"
+    description: "Async Await in 90 lines of code."
     language: "Lua"
-    topics: []
-    stars_fact: 6
+    topics:
+      - "lua"
+      - "neovim"
+    stars_fact: 380
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "deb"
-    title: "deb"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "ai"
-    title: "ai"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "lab"
-    title: "lab"
-    description: "We have cloud at home"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "deb-src"
-    title: "deb-src"
-    description: "PPA builder, hosted on Github pages"
-    language: "Makefile"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2024-11-19"
   - name: "coq_nvim"
     title: "coq_nvim"
     description: "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
@@ -125,9 +132,25 @@ repos:
       - "completion"
       - "neovim"
       - "neovim-plugin"
-    stars_fact: 3812
+    stars_fact: 3811
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-19"
+  - name: "docker-time-machine"
+    title: "docker-time-machine"
+    description: "Zero Configuration, time machine for MacOS | Docker 🐳"
+    language: "Shell"
+    topics: []
+    stars_fact: 100
+    first_seen: null
+    last_push: "2024-10-26"
+  - name: "deb"
+    title: "deb"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-19"
 ---
 
 # ms-jpq

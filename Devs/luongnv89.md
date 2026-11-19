@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [30, 6, 15, 32, 63, 30, 20, 26, 13, 2, 2, 0, 4]
+pushes_per_week: [32, 4, 15, 39, 63, 29, 16, 24, 13, 2, 2, 0, 5]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 4
+    pushes: 5
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 12
     active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 243
-    distinct_repos: 48
-    active_days: 54
+    pushes: 244
+    distinct_repos: 49
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.8889
-  not_owned_ratio: 0.2083
-  basename_concentration: 0.0417
+  push_per_day: 4.4364
+  repo_per_active_day: 0.8909
+  not_owned_ratio: 0.2041
+  basename_concentration: 0.0408
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 5
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 19
     distinct_repos: 12
-    pushes_per_repo: 1.7500
+    pushes_per_repo: 1.5833
     active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 243
-    distinct_repos: 48
-    pushes_per_repo: 5.0625
-    active_days: 54
+    pushes: 244
+    distinct_repos: 49
+    pushes_per_repo: 4.9796
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-howto"
@@ -85,53 +85,72 @@ repos:
       - "claude-code"
       - "guide"
       - "tutorial"
-    stars_fact: 46924
+    stars_fact: 47423
     first_seen: "2026-06-28T06:00:06.755641+00:00"
-    last_push: "2026-11-03"
-  - name: "buildwiz-ai-show-media"
-    title: "buildwiz-ai-show-media"
-    description: "Episode audio for Build Wiz AI Show on luongnv.com/podcast (release assets)"
-    language: null
+    last_push: "2026-11-14"
+  - name: "asm"
+    title: "asm"
+    description: "The universal skill manager for AI coding agents."
+    language: "TypeScript"
+    topics:
+      - "agents"
+      - "ai"
+      - "aiagents"
+      - "coding"
+      - "skills"
+    stars_fact: 975
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "sleek-ui"
+    title: "sleek-ui"
+    description: "The Unsplash of design systems for AI agents — re-skin your app with one URL"
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "automatically"
+      - "tool"
+      - "ui"
+    stars_fact: 138
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "rex-extensions"
+    title: "rex-extensions"
+    description: "Extensions for the Rex terminal multiplexer: PR/issue panel, Claude usage panel, tab locations, same-machine ssh tabs"
+    language: "JavaScript"
+    topics:
+      - "extensions"
+      - "lua"
+      - "rex"
+      - "terminal"
+      - "terminal-multiplexer"
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "devstats-cli"
+    title: "devstats-cli"
+    description: "Contribution stats for every contributor across GitHub organizations — btop-style terminal tables and a self-contained HTML report"
+    language: "Rust"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "once-upon-a-time-vi-media"
-    title: "once-upon-a-time-vi-media"
-    description: "Episode audio for Once Upon a Time Show (Vietnamese) on luongnv.com/podcast (release assets)"
-    language: null
-    topics: []
-    stars_fact: 0
+    last_push: "2026-11-18"
+  - name: "herdr-github"
+    title: "herdr-github"
+    description: "Open GitHub pull requests and issues of the current repo, in a herdr side pane"
+    language: "JavaScript"
+    topics:
+      - "github"
+      - "herdr"
+      - "herdr-plugin"
+      - "pull-requests"
+      - "tui"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "once-upon-a-time-fr-media"
-    title: "once-upon-a-time-fr-media"
-    description: "Episode audio for Once Upon a Time Show (French) on luongnv.com/podcast (release assets)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "once-upon-a-time-en-media"
-    title: "once-upon-a-time-en-media"
-    description: "Episode audio for Once Upon a Time Show (English) on luongnv.com/podcast (release assets)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "job-alerts"
-    title: "job-alerts"
-    description: "Daily evidence-backed AI engineering job alerts"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-17"
 ---
 
 # luongnv89
 
-243 pushes across 48 repositories on 54 active days in the last 90 days of public GitHub push activity.
+244 pushes across 49 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

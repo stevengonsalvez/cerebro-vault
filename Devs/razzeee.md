@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [3, 2, 5, 3, 15, 7, 16, 23, 10, 2, 0, 1, 0]
+pushes_per_week: [5, 0, 6, 4, 14, 6, 19, 20, 12, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    active_days: 5
+    pushes: 9
+    distinct_repos: 4
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 5
-    pushes_per_repo: 2.2000
-    active_days: 5
+    pushes: 9
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -82,9 +82,9 @@ repos:
     description: "Trakt.tv movie and TV show scrobbler for Kodi"
     language: "Python"
     topics: []
-    stars_fact: 363
+    stars_fact: 364
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-13"
   - name: "flathub-activitypub"
     title: "flathub-activitypub"
     description: null
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-12"
   - name: "flathub-health"
     title: "flathub-health"
     description: "https://razzeee.github.io/flathub-health/"
@@ -100,7 +100,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "flatpak-blackbox-tests"
+    title: "flatpak-blackbox-tests"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "flatpak-sbom"
     title: "flatpak-sbom"
     description: null
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "flatpak-smoke"
     title: "flatpak-smoke"
     description: null
@@ -117,15 +125,7 @@ repos:
       - "flatpak"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-15"
 ---
 
 # razzeee

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 3, 1, 3, 11, 13, 9, 20, 3, 1, 0, 0, 0]
+pushes_per_week: [5, 1, 1, 4, 12, 11, 13, 16, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 67
     distinct_repos: 22
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
     pushes: 67
     distinct_repos: 22
@@ -77,54 +77,54 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skills"
-    title: "skills"
-    description: "My own collection of skills for modern Node.js development"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1968
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "nodejs-download-stats"
-    title: "nodejs-download-stats"
-    description: "Node.js Download Statistics"
+  - name: "async-cache-dedupe"
+    title: "async-cache-dedupe"
+    description: "Async cache with dedupe support"
     language: "JavaScript"
     topics: []
-    stars_fact: 19
+    stars_fact: 715
     first_seen: null
-    last_push: "2026-02-13"
+    last_push: "2026-11-16"
   - name: "autocannon"
     title: "autocannon"
     description: "fast HTTP/1.1 benchmarking tool written in Node.js"
     language: "JavaScript"
     topics: []
-    stars_fact: 8536
+    stars_fact: 8544
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "pi-self-learning"
-    title: "pi-self-learning"
-    description: null
+    last_push: "2026-11-16"
+  - name: "skills"
+    title: "skills"
+    description: "My own collection of skills for modern Node.js development"
     language: "TypeScript"
     topics: []
-    stars_fact: 138
+    stars_fact: 1972
     first_seen: null
-    last_push: "2026-06-15"
+    last_push: "2026-11-16"
+  - name: "make-promises-safe"
+    title: "make-promises-safe"
+    description: "A node.js module to make the use of promises safe"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 662
+    first_seen: null
+    last_push: "2024-12-21"
+  - name: "commist"
+    title: "commist"
+    description: "Build your commands on minimist!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 98
+    first_seen: null
+    last_push: "2024-02-12"
   - name: "hyperid"
     title: "hyperid"
     description: "Uber-fast unique id generation, for Node.js and the browser"
     language: "JavaScript"
     topics: []
-    stars_fact: 753
+    stars_fact: 754
     first_seen: null
     last_push: "2026-07-17"
-  - name: "modular_monolith"
-    title: "modular_monolith"
-    description: "Example of the \"Building a Modular Monolith with Fastify\" talk"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 71
-    first_seen: null
-    last_push: "2024-11-02"
 ---
 
 # mcollina

@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 1, 0, 2, 5, 17, 7, 7, 3, 1, 0, 0, 2]
+pushes_per_week: [2, 1, 0, 3, 4, 18, 6, 7, 3, 1, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 6
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 4.0000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -78,6 +78,14 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "helloworld"
+    title: "helloworld"
+    description: "AstrBot Plugin Template"
+    language: "Python"
+    topics: []
+    stars_fact: 192
+    first_seen: null
+    last_push: "2026-04-12"
   - name: "astrbot_plugin_essential"
     title: "astrbot_plugin_essential"
     description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
@@ -86,14 +94,6 @@ repos:
     stars_fact: 56
     first_seen: null
     last_push: "2026-01-19"
-  - name: "helloworld"
-    title: "helloworld"
-    description: "AstrBot Plugin Template"
-    language: "Python"
-    topics: []
-    stars_fact: 193
-    first_seen: null
-    last_push: "2026-04-12"
   - name: "astrbot_plugin_rss"
     title: "astrbot_plugin_rss"
     description: "AstrBot 插件 | 群聊/私聊 RSS 订阅推送"

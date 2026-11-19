@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [1, 0, 0, 0, 1, 1, 3, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 2, 0, 3, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,7 +92,7 @@ repos:
       - "static-website"
     stars_fact: 138
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-12"
   - name: "jsii-struct-builder"
     title: "jsii-struct-builder"
     description: "Build jsii structs with ease."

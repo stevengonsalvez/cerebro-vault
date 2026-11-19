@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 5, 3, 13, 15, 2, 2, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 1, 4, 3, 15, 13, 3, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,24 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "QShield"
+    title: "QShield"
+    description: "Open-source security analysis for quantum circuits and the quantum software supply chain static scanning, equivalence checks, policy-as-code, and CI."
+    language: "Python"
+    topics:
+      - "amazon-braket"
+      - "openqasm"
+      - "python"
+      - "qasm"
+      - "qasm-compiler"
+      - "quantum-circuits"
+      - "quantum-computing"
+      - "quantum-security"
+      - "supply-chain-security"
+      - "trojan-detection"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "AasthiChain"
     title: "AasthiChain"
     description: "Open-source fractional real estate tokenization prototype with verified property records, an auditable blockchain ledger, and atomic delivery-versus-payment settlement."
@@ -92,7 +110,7 @@ repos:
       - "tokenization"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "CredPool"
     title: "CredPool"
     description: "Credential-gated DeFi liquidity pools. Users prove eligibility with W3C Verifiable Credentials and DIDs, receive a soulbound ERC-1155 access badge, and trade or provide liquidity in a permissioned AMM. Solidity, Hardhat, Ethers.js, IPFS."
@@ -130,14 +148,6 @@ repos:
   - name: "AXI-protocol-verification"
     title: "AXI-protocol-verification"
     description: "Design and verification of the AXI protocol using UVM"
-    language: "SystemVerilog"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
-  - name: "AHB-bus-verification"
-    title: "AHB-bus-verification"
-    description: "Design and verification of the AHB protocol using UVM"
     language: "SystemVerilog"
     topics: []
     stars_fact: 0

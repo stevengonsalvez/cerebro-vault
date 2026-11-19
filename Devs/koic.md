@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 1, 1, 1, 6, 9, 13, 16, 1, 1, 0, 1, 1]
+pushes_per_week: [4, 0, 1, 1, 6, 13, 9, 16, 1, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-15"
   - name: "minifyrb"
     title: "minifyrb"
     description: "A minifier of Ruby files."

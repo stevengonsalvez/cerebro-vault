@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 4, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 3, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "prodani-miami"
-    title: "prodani-miami"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "switch-case-studio"
     title: "switch-case-studio"
     description: "the studio site. react on vite, statically pre-rendered to 36 routes so it loads fast and google can read it without running any javascript."
@@ -92,7 +84,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
+  - name: "prodani-miami"
+    title: "prodani-miami"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "fl-energy-savings-assistance-program"
     title: "fl-energy-savings-assistance-program"
     description: null
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-13"
   - name: "portfolio2024"
     title: "portfolio2024"
     description: "My portfolio repo"

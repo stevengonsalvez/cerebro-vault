@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 4, 3, 22, 18, 17, 24, 0, 2, 0, 0, 0]
+pushes_per_week: [2, 0, 4, 13, 22, 17, 11, 21, 0, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "skill-loop"
-    title: "skill-loop"
-    description: "Hook Stop que faz o agente do Claude Code trabalhar por horas sem ninguem digitar 'continua': classifica a parada em ASK ou DOC, arquiva em .loop/ e devolve o proximo item da fila."
-    language: "Python"
+  - name: "tv"
+    title: "tv"
+    description: "Our own home-screen layout and operating-system customization for smart TVs, starting with LG (webOS)"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "tura-notes"
-    title: "tura-notes"
-    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-15"
   - name: "shvia-desktop"
     title: "shvia-desktop"
     description: "ShvIA Desktop"
@@ -100,23 +92,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "shvia-bench"
-    title: "shvia-bench"
-    description: "Ambiente isolado e instrumentação reprodutível para benchmark de LLMs em engenharia de software — camada de execução/medição do LEB (env -i + HOME sandbox, proxy de verdade-base, auditoria de isenção)."
-    language: "Python"
+    last_push: "2026-11-19"
+  - name: "blue3-dns"
+    title: "blue3-dns"
+    description: "Reference guides for encrypted DNS, NextDNS, and DNS filtering evaluation at Blue3."
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "ai-benchmark"
-    title: "ai-benchmark"
-    description: "AI BENCHMARK"
-    language: "PHP"
+    last_push: "2026-11-12"
+  - name: "tura-notes"
+    title: "tura-notes"
+    description: "A local-first Markdown note-taking app — your folder, your .md files, no proprietary format and no account"
+    language: "Rust"
     topics: []
-    stars_fact: 1
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
   - name: "shvia-code"
     title: "shvia-code"
     description: "SHVIA-CODE — CLI agêntico de código 'anna' (Rust) sobre o gateway do ShvIA"
@@ -124,7 +116,15 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
+  - name: "ai-benchmark"
+    title: "ai-benchmark"
+    description: "AI BENCHMARK"
+    language: "PHP"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-19"
 ---
 
 # samirhvbr

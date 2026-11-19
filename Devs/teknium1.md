@@ -11,23 +11,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [41, 13, 23, 85, 338, 113, 127, 75, 29, 73, 0, 7, 5]
+pushes_per_week: [43, 11, 25, 107, 333, 98, 128, 70, 31, 71, 4, 5, 3]
 windows:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 107
+    pushes: 100
     distinct_repos: 13
-    active_days: 13
+    active_days: 12
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 11
@@ -61,27 +61,27 @@ automation:
     truncated: false
     sampled:
       - "0x7s0lt1/hermes-agent"
+      - "Adolanium/hermes-agent"
       - "aidatatools-dev/hermes-agent"
+      - "AlphaPerseii3000/hermes-agent"
       - "AndreasHiltner/hermes-agent"
-      - "anpicasso/hermes-agent"
-      - "apoapostolov/hermes-agent"
     upstreams:
       - "NousResearch/hermes-agent"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 107
+    pushes: 100
     distinct_repos: 13
-    pushes_per_repo: 8.2308
-    active_days: 13
+    pushes_per_repo: 7.6923
+    active_days: 12
     repos_not_owned: 13
     not_owned_basenames: 3
     not_owned_owners: 11

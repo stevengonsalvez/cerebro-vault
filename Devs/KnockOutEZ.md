@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
-pushes_per_week: [15, 1, 5, 0, 2, 1, 0, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [16, 0, 5, 0, 2, 1, 0, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "KnockOutEZ"
-    title: "KnockOutEZ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "wigolo"
     title: "wigolo"
     description: "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta."
@@ -110,9 +102,17 @@ repos:
       - "web-crawler"
       - "web-scraping"
       - "web-search"
-    stars_fact: 5536
+    stars_fact: 5558
     first_seen: "2026-07-19T06:00:06.180682+00:00"
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
+  - name: "KnockOutEZ"
+    title: "KnockOutEZ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "auto-content-downloader"
     title: "auto-content-downloader"
     description: "Very simple script for downloading massive amount of data automatically. You just drop in all the links you scraped and proxies (optional)."

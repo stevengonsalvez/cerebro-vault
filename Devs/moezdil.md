@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 10, 16, 26, 3, 4, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 11, 17, 24, 4, 3, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,31 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CUDA"
+    title: "CUDA"
+    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
+    language: "Cuda"
+    topics:
+      - "cpp"
+      - "cuda"
+      - "gpu"
+      - "gpu-computing"
+      - "gpu-optimization"
+      - "gpu-programming"
+      - "learning"
+      - "nvidia"
+      - "parallel-computing"
+    stars_fact: 118
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "pr-sync"
+    title: "pr-sync"
+    description: "Keeps my open pull requests level with their base branch"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "hack"
     title: "hack"
     description: "hackathon"
@@ -107,24 +132,7 @@ repos:
       - "tui"
     stars_fact: 37
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "CUDA"
-    title: "CUDA"
-    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
-    language: "Cuda"
-    topics:
-      - "cpp"
-      - "cuda"
-      - "gpu"
-      - "gpu-computing"
-      - "gpu-optimization"
-      - "gpu-programming"
-      - "learning"
-      - "nvidia"
-      - "parallel-computing"
-    stars_fact: 115
-    first_seen: null
-    last_push: "2026-10-02"
+    last_push: "2026-11-16"
   - name: "moezdil"
     title: "moezdil"
     description: null
@@ -132,7 +140,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "openbao-credential-broker-demo"
     title: "openbao-credential-broker-demo"
     description: null
@@ -141,14 +149,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-27"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for siltide, the terminal monitor for GPUs, NPUs, and other AI accelerators"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
 ---
 
 # moezdil

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "b49973635ff55351"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,21 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "wallfacer"
+    title: "wallfacer"
+    description: "A terminal session manager for Claude Code, and more"
+    language: "Go"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "golang"
+      - "productivity"
+      - "tui"
+      - "tui-app"
+    stars_fact: 118
+    first_seen: "2026-08-06T06:00:05.901805+00:00"
+    last_push: "2026-08-01"
   - name: "pradipta.github.io"
     title: "pradipta.github.io"
     description: null
@@ -93,21 +108,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-03"
-  - name: "wallfacer"
-    title: "wallfacer"
-    description: "A terminal session manager for Claude Code, and more"
-    language: "Go"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "cli"
-      - "golang"
-      - "productivity"
-      - "tui"
-      - "tui-app"
-    stars_fact: 117
-    first_seen: "2026-08-06T06:00:05.901805+00:00"
-    last_push: "2026-08-01"
   - name: "splitwise-machine-coding"
     title: "splitwise-machine-coding"
     description: "Backend system, OO design, for Splitwise. This is not the actual code used by Splitwise."

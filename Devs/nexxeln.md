@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 1, 0, 3, 6, 13, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 4, 10, 9, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,9 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "nostakes"
-    title: "nostakes"
-    description: "Poker night with friends, in the browser."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "carry"
-    title: "carry"
-    description: "A font that does arithmetic. Type 128+256= and it draws the 384."
-    language: "Python"
-    topics:
-      - "arithmetic"
-      - "font"
-      - "harfbuzz"
-      - "opentype"
-      - "typography"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-10-25"
   - name: "torrential"
     title: "torrential"
-    description: "Search and download torrents from your terminal, or ask your coding agent to."
+    description: "Find films and shows, and watch them on your computer, phone, or TV while they download."
     language: "Rust"
     topics:
       - "ai-agents"
@@ -110,17 +89,61 @@ repos:
       - "rust"
       - "torrent"
       - "tui"
-    stars_fact: 73
+    stars_fact: 145
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "frameless"
-    title: "frameless"
-    description: "A frameless browser for beautiful screenshots"
+    last_push: "2026-11-17"
+  - name: "nostakes"
+    title: "nostakes"
+    description: "Poker night with friends, in the browser."
     language: "TypeScript"
     topics: []
-    stars_fact: 38
+    stars_fact: 7
     first_seen: null
-    last_push: "2022-08-31"
+    last_push: "2026-11-18"
+  - name: "old-nexxel.dev"
+    title: "old-nexxel.dev"
+    description: "old personal website"
+    language: "TypeScript"
+    topics:
+      - "firebase"
+      - "framer-motion"
+      - "nextjs"
+      - "personal-website"
+      - "portfolio"
+      - "portfolio-website"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2022-08-07"
+  - name: "remix-blog"
+    title: "remix-blog"
+    description: "bare-bones blog app using remix, mdx and tailwindcss for styling"
+    language: "TypeScript"
+    topics:
+      - "blog"
+      - "mdx"
+      - "remix"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2022-04-13"
+  - name: "spotify-voice-control"
+    title: "spotify-voice-control"
+    description: "Voice control for Spotify through the terminal"
+    language: "Python"
+    topics:
+      - "music"
+      - "python"
+      - "speech-recognition"
+      - "spotify"
+      - "spotify-api"
+      - "voice-commands"
+      - "voice-recognition"
+    stars_fact: 77
+    first_seen: null
+    last_push: "2022-09-23"
   - name: "license-generator"
     title: "license-generator"
     description: "Create licenses for your projects right from your terminal!"
@@ -130,25 +153,9 @@ repos:
       - "license"
       - "productivity"
       - "rust"
-    stars_fact: 211
+    stars_fact: 209
     first_seen: null
     last_push: "2024-03-31"
-  - name: "nexxel.dev"
-    title: "nexxel.dev"
-    description: "my personal website and blog"
-    language: "MDX"
-    topics:
-      - "blog"
-      - "mdx"
-      - "nextjs"
-      - "personal-website"
-      - "redis"
-      - "tailwindcss"
-      - "typescript"
-      - "vercel"
-    stars_fact: 280
-    first_seen: null
-    last_push: "2026-11-01"
 ---
 
 # nexxeln

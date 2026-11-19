@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "d2a13eb5e04b724b"
-pushes_per_week: [25, 11, 30, 35, 128, 131, 127, 183, 48, 73, 0, 1, 8]
+pushes_per_week: [30, 6, 32, 48, 128, 131, 116, 179, 53, 68, 1, 0, 8]
 windows:
   "7d":
     pushes: 8
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 130
+    pushes: 109
     distinct_repos: 7
-    active_days: 12
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 130
+    pushes: 109
     distinct_repos: 7
-    pushes_per_repo: 18.5714
-    active_days: 12
+    pushes_per_repo: 15.5714
+    active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -77,14 +77,6 @@ reasons:
   - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "jean-claude"
-    title: "jean-claude"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "worktrunk"
     title: "worktrunk"
     description: "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
@@ -96,9 +88,41 @@ repos:
       - "developer-tools"
       - "git"
       - "worktrees"
-    stars_fact: 12420
+    stars_fact: 12630
     first_seen: "2026-11-03T07:00:47.946136+00:00"
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
+  - name: "sparkjoy"
+    title: "sparkjoy"
+    description: "Claude Code plugin that compacts the conversation when a piece of work is finished, rather than when the context fills. Not ready for general use yet."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "tend"
+    title: "tend"
+    description: "Claude-powered CI workflows for GitHub repositories"
+    language: "Python"
+    topics: []
+    stars_fact: 46
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "cargo-affected"
+    title: "cargo-affected"
+    description: "Run only the Rust tests affected by your changes."
+    language: "Rust"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "aoc-gpt"
+    title: "aoc-gpt"
+    description: "Solve Advent of Code puzzles with GPT-3"
+    language: "Python"
+    topics: []
+    stars_fact: 433
+    first_seen: null
+    last_push: "2022-12-13"
   - name: "leaf"
     title: "leaf"
     description: "Generative UI for your agent"
@@ -106,35 +130,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "tend"
-    title: "tend"
-    description: "Claude-powered CI workflows for GitHub repositories"
-    language: "Python"
-    topics: []
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "cargo-affected"
-    title: "cargo-affected"
-    description: "Run only the Rust tests affected by your changes."
-    language: "Rust"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "pytest-accept"
-    title: "pytest-accept"
-    description: "A pytest plugin for automatically updating doctest outputs"
-    language: "Python"
-    topics:
-      - "literate-testing"
-      - "pytest"
-      - "regression-testing"
-      - "snapshot-testing"
-    stars_fact: 81
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
 ---
 
 # max-sixty

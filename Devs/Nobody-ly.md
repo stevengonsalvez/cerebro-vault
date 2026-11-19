@@ -9,18 +9,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 4, 1, 0, 0, 1, 0, 1, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 2, 1, 0, 1, 0, 0, 1, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 1
@@ -49,13 +49,13 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
     pushes: 2
     distinct_repos: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-11"
   - name: "deepseek-search-skill"
     title: "deepseek-search-skill"
     description: "Model-independent Agent Skill and MCP server for DeepSeek official Search and Fetch APIs."
@@ -100,7 +100,7 @@ repos:
       - "web-search"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-18"
   - name: "simple-fill-image-edit"
     title: "simple-fill-image-edit"
     description: "Semantic local image editing with SAM3, native-mask image editing, and Inpaint Anything crop restoration."

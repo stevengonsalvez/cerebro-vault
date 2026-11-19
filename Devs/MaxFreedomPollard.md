@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 4, 3, 4, 1, 0, 0, 1, 1, 0, 0, 1]
+pushes_per_week: [3, 0, 4, 3, 4, 1, 0, 0, 1, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,38 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MaxFreedomPollard"
-    title: "MaxFreedomPollard"
-    description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
-    language: "Dockerfile"
+  - name: "reverse-engineer-logic"
+    title: "reverse-engineer-logic"
+    description: "Confused by some bullshit? Use this tool to discern the motivation and logic behind anything at all."
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-16"
+  - name: "Max-Watch"
+    title: "Max-Watch"
+    description: "Free, 100% offline, encrypted Mac & Windows video recorder with motion detection. Records while your screen is locked into a password-protected AES-256 vault."
+    language: "C++"
+    topics:
+      - "encrypted-vault"
+      - "macos"
+      - "motion-detection"
+      - "offline"
+      - "security-camera"
+      - "swift"
+      - "video-recorder"
+      - "webcam"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Official Homebrew tap for Max Watch (free offline encrypted Mac video recorder with motion detection)."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "Compartment"
     title: "Compartment"
     description: "Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval."
@@ -112,7 +136,15 @@ repos:
       - "vector-database"
     stars_fact: 569
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-18"
+  - name: "MaxFreedomPollard"
+    title: "MaxFreedomPollard"
+    description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "livemap-legal"
     title: "livemap-legal"
     description: "Offline GPS LiveMap: privacy policy, terms of use and demo video"
@@ -121,34 +153,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-30"
-  - name: "auto-mate-app"
-    title: "auto-mate-app"
-    description: "Auto Mate: the app website and privacy policy"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "artificial-knowledge-collection-6.0"
-    title: "artificial-knowledge-collection-6.0"
-    description: "Knowledge of special interest to AI: nine datasets of concepts, relationships, constants and measurements, each one clean file, aligned into a single 544,279-node map, plus a reasoning benchmark. Artificial knowledge for artificial intelligence."
-    language: "Python"
-    topics:
-      - "ai"
-      - "commonsense"
-      - "commonsense-reasoning"
-      - "dataset"
-      - "entity-linking"
-      - "knowledge-base"
-      - "knowledge-graph"
-      - "llm"
-      - "nlp"
-      - "ontology"
-      - "rag"
-      - "symbolic-ai"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # MaxFreedomPollard

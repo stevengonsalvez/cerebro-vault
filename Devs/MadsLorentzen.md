@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "7af184c03e7ab7a7"
-pushes_per_week: [0, 0, 0, 1, 3, 1, 3, 1, 9, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 3, 2, 3, 0, 9, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 4
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 1
   "90d":
     pushes: 18
     distinct_repos: 5
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 3
-    repos_not_owned: 4
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 4
+    not_owned_owners: 1
   "90d":
     pushes: 18
     distinct_repos: 5
@@ -84,7 +84,7 @@ repos:
     topics:
       - "config"
       - "github-config"
-    stars_fact: 17
+    stars_fact: 18
     first_seen: null
     last_push: "2026-04-17"
   - name: "seis_viz"

@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "78a5846a75cc0fbb"
-pushes_per_week: [5, 3, 5, 7, 9, 9, 21, 18, 3, 2, 0, 1, 1]
+pushes_per_week: [7, 1, 5, 10, 10, 10, 19, 15, 4, 1, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -94,9 +94,25 @@ repos:
       - "llm"
       - "openai"
       - "python"
-    stars_fact: 1906
+    stars_fact: 1931
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
+  - name: "FindJobs-Agent"
+    title: "FindJobs-Agent"
+    description: "LLM-powered toolkit for skill analysis, AI interviews, resume scoring, and job structuring. Automates professional skill taxonomy and interview processes with adaptive difficulty."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "crawler"
+      - "interview"
+      - "job-search"
+      - "llm"
+      - "python"
+      - "react"
+      - "resume"
+    stars_fact: 242
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "RepoWiki"
     title: "RepoWiki"
     description: "Open-source DeepWiki alternative — generate comprehensive wiki documentation for any codebase from terminal or browser"
@@ -110,17 +126,44 @@ repos:
       - "python"
       - "react"
       - "wiki"
-    stars_fact: 305
+    stars_fact: 306
     first_seen: null
-    last_push: "2026-10-23"
-  - name: "he-yufeng"
-    title: "he-yufeng"
-    description: "Profile README"
-    language: null
-    topics: []
-    stars_fact: 3
+    last_push: "2026-11-18"
+  - name: "ContractGuard"
+    title: "ContractGuard"
+    description: "AI agent that reads the fine print so you don't have to. Upload any contract → get red flags, unfair terms, and plain-English explanations in seconds."
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "cli"
+      - "contract-review"
+      - "document-analysis"
+      - "legal-tech"
+      - "llm"
+      - "openai"
+      - "pdf"
+      - "python"
+      - "risk-analysis"
+    stars_fact: 151
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-10-22"
+  - name: "AgentProbe"
+    title: "AgentProbe"
+    description: "Drop-in pytest plugin for regression-testing AI agents — snapshot baselines, semantic comparison, mock LLMs"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "llm"
+      - "mock-llm"
+      - "pytest"
+      - "pytest-plugin"
+      - "python"
+      - "regression-testing"
+      - "snapshot-testing"
+      - "testing"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-09-06"
   - name: "GitSense"
     title: "GitSense"
     description: "AI-powered open source contribution finder and repo radar"
@@ -136,37 +179,9 @@ repos:
       - "llm"
       - "open-source"
       - "python"
-    stars_fact: 89
+    stars_fact: 90
     first_seen: null
     last_push: "2026-10-23"
-  - name: "TrajBias"
-    title: "TrajBias"
-    description: "TrajBias: Structural Biases in LLM-as-Judge Evaluation of Agent Trajectories"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "IslandEscape"
-    title: "IslandEscape"
-    description: "2D pixel-art survival trading game — four LLM-powered AI agents compete to escape the island"
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "deepseek"
-      - "fastify"
-      - "game"
-      - "generative-agents"
-      - "llm"
-      - "llm-agents"
-      - "multi-agent"
-      - "pixijs"
-      - "simulation"
-      - "typescript"
-      - "vue3"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-04"
 ---
 
 # he-yufeng

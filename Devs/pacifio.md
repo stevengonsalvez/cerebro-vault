@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4930e4f9e24bb204"
-pushes_per_week: [2, 0, 0, 0, 4, 5, 0, 1, 1, 1, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 0, 4, 5, 0, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,23 @@ repos:
     description: "visual node editor react flow for gpui"
     language: "Rust"
     topics: []
-    stars_fact: 49
+    stars_fact: 52
     first_seen: null
     last_push: "2026-03-23"
+  - name: "flutter_apps"
+    title: "flutter_apps"
+    description: "A collection of beautiful apps using flutter , inspired by dribble or youtube UI projects :heart: :heart:"
+    language: "Dart"
+    topics:
+      - "beautiful-ui"
+      - "dart"
+      - "flutter"
+      - "flutter-ui"
+      - "flutter-ui-challenges"
+      - "ui"
+    stars_fact: 772
+    first_seen: null
+    last_push: "2021-02-05"
   - name: "cersei"
     title: "cersei"
     description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
@@ -98,23 +112,9 @@ repos:
       - "openai"
       - "opencode"
       - "rust"
-    stars_fact: 466
+    stars_fact: 467
     first_seen: null
     last_push: "2026-08-06"
-  - name: "flutter_apps"
-    title: "flutter_apps"
-    description: "A collection of beautiful apps using flutter , inspired by dribble or youtube UI projects :heart: :heart:"
-    language: "Dart"
-    topics:
-      - "beautiful-ui"
-      - "dart"
-      - "flutter"
-      - "flutter-ui"
-      - "flutter-ui-challenges"
-      - "ui"
-    stars_fact: 771
-    first_seen: null
-    last_push: "2021-02-05"
   - name: "noni"
     title: "noni"
     description: "Flexible deep learning framework for humans"
@@ -131,14 +131,14 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-04-01"
-  - name: "standards"
-    title: "standards"
-    description: null
+  - name: "ui"
+    title: "ui"
+    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 154
     first_seen: null
-    last_push: "2026-10-22"
+    last_push: "2026-04-24"
 ---
 
 # pacifio

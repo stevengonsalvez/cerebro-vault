@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "59f086ad2f833f7e"
-pushes_per_week: [3, 2, 12, 5, 38, 78, 21, 30, 13, 7, 0, 0, 2]
+pushes_per_week: [3, 2, 12, 7, 39, 75, 23, 28, 13, 7, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -89,7 +89,7 @@ repos:
       - "typescript"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-16"
   - name: "guard-jev"
     title: "guard-jev"
     description: null

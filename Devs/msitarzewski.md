@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [0, 0, 0, 3, 0, 5, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 0, 5, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,7 +82,7 @@ repos:
     description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
     language: "Shell"
     topics: []
-    stars_fact: 167699
+    stars_fact: 169264
     first_seen: "2026-08-14T06:00:04.069258+00:00"
     last_push: "2026-11-09"
   - name: "agency-agents-app"
@@ -90,39 +90,39 @@ repos:
     description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
     language: "TypeScript"
     topics: []
-    stars_fact: 948
+    stars_fact: 986
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "GlassPowerTools"
-    title: "GlassPowerTools"
-    description: "Terminals, databases, remote desktops and an editor for every machine you work on. Native on Apple Vision Pro, Mac, iPad and iPhone."
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-17"
   - name: "brew-browser"
     title: "brew-browser"
     description: "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI."
     language: "Rust"
     topics: []
-    stars_fact: 1078
+    stars_fact: 1081
     first_seen: null
     last_push: "2026-10-12"
-  - name: "duh"
-    title: "duh"
-    description: "Multi-model consensus engine — because one LLM opinion isn't enough"
-    language: "Python"
+  - name: "GlassPowerTools"
+    title: "GlassPowerTools"
+    description: "Terminals, databases, remote desktops and an editor for every machine you work on. Native on Apple Vision Pro, Mac, iPad and iPhone."
+    language: "C"
     topics: []
-    stars_fact: 77
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-18"
+  - name: "AutoAudio"
+    title: "AutoAudio"
+    description: "AutoAudio: a personal audiobook studio for Mac. Website and RSS project updates."
+    language: "CSS"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "dentist-landing"
     title: "dentist-landing"
     description: "Feast Dental, a demo landing page built by an Agency Agents team, and It's the prompt: three AI-built dentist pages compared"
     language: "HTML"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-11-10"
 ---

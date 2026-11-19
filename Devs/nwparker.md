@@ -11,23 +11,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [39, 10, 36, 60, 114, 106, 175, 126, 85, 129, 0, 2, 11]
+pushes_per_week: [41, 8, 37, 65, 115, 105, 173, 122, 116, 98, 0, 2, 11]
 windows:
   "7d":
-    pushes: 12
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 4
+    pushes: 11
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 219
+    pushes: 187
     distinct_repos: 10
-    active_days: 13
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 4
     not_owned_owners: 6
@@ -61,25 +61,25 @@ automation:
       - "AmoabaKelvin/orca"
       - "anajuliabit/orca"
       - "beattlekid/orca"
+      - "blaksmatic/orca"
       - "Chihen-Tai/orca"
-      - "DEOWL-kan/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 12
-    distinct_repos: 4
-    pushes_per_repo: 3.0000
-    active_days: 4
-    repos_not_owned: 4
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 3
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "30d":
-    pushes: 219
+    pushes: 187
     distinct_repos: 10
-    pushes_per_repo: 21.9000
-    active_days: 13
+    pushes_per_repo: 18.7000
+    active_days: 12
     repos_not_owned: 9
     not_owned_basenames: 4
     not_owned_owners: 6

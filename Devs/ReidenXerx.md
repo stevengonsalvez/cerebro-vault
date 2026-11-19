@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [11, 0, 5, 3, 18, 56, 41, 9, 2, 1, 0, 0, 0]
+pushes_per_week: [11, 0, 5, 3, 19, 69, 33, 3, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,50 +77,9 @@ reasons:
   - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Event-Horizon"
-    title: "Event-Horizon"
-    description: "Vortex extension that installs a collection exactly as its curator built it — every archive checked by SHA-256, the load order pinned — and keeps it that way. Skyrim SE, Fallout 4, Fallout 3, New Vegas, Starfield."
-    language: "TypeScript"
-    topics:
-      - "bethesda"
-      - "collections"
-      - "electron"
-      - "fallout-new-vegas"
-      - "fallout3"
-      - "fallout4"
-      - "load-order"
-      - "loot"
-      - "mod-manager"
-      - "modding"
-      - "nexusmods"
-      - "skyrim"
-      - "skyrim-special-edition"
-      - "starfield"
-      - "typescript"
-      - "vortex"
-      - "vortex-extension"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "fo4-anatomy"
-    title: "fo4-anatomy"
-    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "fo4-chemistry"
-    title: "fo4-chemistry"
-    description: "NPC autonomy addon for Rapport: decides when two NPCs act, and asks Rapport to run it. Policy only."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "bearing"
     title: "bearing"
-    description: "An intel layer for AI coding agents that assumes its own rules might be wrong — and keeps the evidence. Authoritative north-stars the agent must cite, a task-core written before compaction eats it, review by an expert in YOUR domain, and an installer that verifies its own claims instead of printing success. Claude Code, Zed, Codex."
+    description: "Your tests catch code that breaks; nothing catches an agent that has drifted about what the code means. A toolbelt for developers who already work with coding agents: north-stars that outrank stale docs, memory kept true, a task-core that survives compaction, ast-grep with its traps, review when you ask. No gates. Claude Code, Zed, Codex."
     language: "JavaScript"
     topics:
       - "agentic-ai"
@@ -139,23 +98,51 @@ repos:
       - "zed"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "fo4-rapport"
-    title: "fo4-rapport"
-    description: "F4SE plugin and Papyrus bridge that drives AAF: scene selection, facial expressions, overlays and persistent aftermath for Fallout 4"
-    language: "C++"
-    topics: []
-    stars_fact: 2
+    last_push: "2026-11-17"
+  - name: "herdr-editor"
+    title: "herdr-editor"
+    description: "Herdr mod: an editor pane with file tabs beside your agents. ⌘S never overwrites an agent's changes; word wrap, format, go to line, Markdown preview."
+    language: "JavaScript"
+    topics:
+      - "herdr"
+      - "herdr-mod"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "reidenxerx.github.io"
-    title: "reidenxerx.github.io"
-    description: "duduphudu.app: Omarchy plugins, apps and tools by DuduPhudu"
-    language: "HTML"
+    last_push: "2026-11-16"
+  - name: "herdr-quick-open"
+    title: "herdr-quick-open"
+    description: "Herdr mod: fuzzy-find a file in your repo with ⌘O, then insert it as @path into your agent, view it in a pane, or open it in your editor."
+    language: "JavaScript"
+    topics:
+      - "herdr"
+      - "herdr-mod"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "omarchy-varta"
+    title: "omarchy-varta"
+    description: "An air raid alert watch for Omarchy: your oblast in the bar, a band across the screen when it goes under alert, and an honest 'not watching' when it cannot see the feed."
+    language: "Swift"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew casks for DuduPhudu apps (Varta)"
+    language: "Ruby"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-14"
+  - name: "fo4-anatomy"
+    title: "fo4-anatomy"
+    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # ReidenXerx

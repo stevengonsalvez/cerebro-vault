@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 1, 2, 6, 13, 7, 17, 13, 2, 3, 1, 0, 0]
+pushes_per_week: [4, 0, 3, 9, 10, 7, 16, 13, 4, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 5
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 5
+    pushes_per_repo: 1.2500
+    active_days: 4
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 2
@@ -77,6 +77,14 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-chat"
+    title: "ai-chat"
+    description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
+    language: "PHP"
+    topics: []
+    stars_fact: 383
+    first_seen: null
+    last_push: "2026-06-22"
   - name: "pushpak1300"
     title: "pushpak1300"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "pushpak1300.me"
     title: "pushpak1300.me"
     description: "Personal Website built from scratch using Nuxt and Tailwind"
@@ -97,7 +105,7 @@ repos:
       - "vue"
     stars_fact: 14
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "cypress-mailpit"
     title: "cypress-mailpit"
     description: "Cypress Commands for Mailpit ✉️"
@@ -105,15 +113,7 @@ repos:
     topics: []
     stars_fact: 18
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "ai-chat"
-    title: "ai-chat"
-    description: "A modern AI chat starter kit built with Laravel, featuring real-time streaming responses using Prism, Inertia.js, Vue.js, and TailwindCSS."
-    language: "PHP"
-    topics: []
-    stars_fact: 382
-    first_seen: null
-    last_push: "2026-06-22"
+    last_push: "2026-11-13"
 ---
 
 # pushpak1300

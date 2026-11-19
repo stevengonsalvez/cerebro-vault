@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "fae31da6c227cfde"
 pushes_per_week: [0, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -87,9 +87,17 @@ repos:
       - "llms"
       - "python"
       - "rag"
-    stars_fact: 144389
+    stars_fact: 145043
     first_seen: "2026-07-13T06:00:03.578926+00:00"
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
+  - name: "gemini-artboard"
+    title: "gemini-artboard"
+    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
+    language: "HTML"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-02-20"
   - name: "repotovideo"
     title: "repotovideo"
     description: "Turn any GitHub repository into a promo video in just one-click"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-09"
-  - name: "gemini-artboard"
-    title: "gemini-artboard"
-    description: "Self-contained creative coding playground for Gemini 3.1 Pro"
-    language: "HTML"
-    topics: []
-    stars_fact: 76
-    first_seen: null
-    last_push: "2026-02-20"
 ---
 
 # Shubhamsaboo

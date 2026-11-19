@@ -9,25 +9,25 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [17, 6, 9, 29, 14, 64, 48, 75, 16, 19, 0, 3, 1]
+pushes_per_week: [21, 2, 11, 33, 9, 69, 44, 73, 18, 17, 2, 2, 0]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 11
-    active_days: 9
-    repos_not_owned: 3
+    pushes: 33
+    distinct_repos: 10
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 301
     distinct_repos: 33
@@ -49,21 +49,21 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 39
-    distinct_repos: 11
-    pushes_per_repo: 3.5455
-    active_days: 9
-    repos_not_owned: 3
+    pushes: 33
+    distinct_repos: 10
+    pushes_per_repo: 3.3000
+    active_days: 8
+    repos_not_owned: 2
     not_owned_basenames: 2
-    not_owned_owners: 3
+    not_owned_owners: 2
   "90d":
     pushes: 301
     distinct_repos: 33
@@ -77,33 +77,6 @@ reasons:
   - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "RuView"
-    title: "RuView"
-    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
-    language: "Rust"
-    topics:
-      - "claude"
-      - "claude-code"
-      - "esp32"
-      - "firmware"
-      - "home-assistant"
-      - "home-automation"
-      - "iot"
-      - "mcp"
-      - "monitoring"
-      - "networking"
-      - "pose-estimation"
-      - "react"
-      - "rf"
-      - "self-learning"
-      - "spatial-intelligence"
-      - "typescript"
-      - "webassembly"
-      - "wifi"
-      - "wifi-security"
-    stars_fact: 103954
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "ruflo"
     title: "ruflo"
     description: "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated"
@@ -129,63 +102,115 @@ repos:
       - "swarm-intelligence"
       - "typescript"
       - "vector-search"
-    stars_fact: 81453
+    stars_fact: 82067
     first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-11-11"
-  - name: "mouse-swarm"
-    title: "mouse-swarm"
-    description: "Turn a landing page into a visual build sequence. Elements appear in order while a swarm of colored cursors and agent markers moves around them."
+    last_push: "2026-11-19"
+  - name: "RuView"
+    title: "RuView"
+    description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+    language: "Rust"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "esp32"
+      - "firmware"
+      - "home-assistant"
+      - "home-automation"
+      - "iot"
+      - "mcp"
+      - "monitoring"
+      - "networking"
+      - "pose-estimation"
+      - "react"
+      - "rf"
+      - "self-learning"
+      - "spatial-intelligence"
+      - "typescript"
+      - "webassembly"
+      - "wifi"
+      - "wifi-security"
+    stars_fact: 104602
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "open-claude-code"
+    title: "open-claude-code"
+    description: "Nightly Claude Code CLI Decompile — Reverse Engineered & Rebuilt"
     language: "JavaScript"
     topics:
-      - "skill-md"
-      - "skills"
-    stars_fact: 25
+      - "agentic-ai"
+      - "ai"
+      - "claude"
+      - "claude-code"
+      - "clean-room"
+      - "cli"
+      - "decompiler"
+    stars_fact: 574
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "bmssp"
-    title: "bmssp"
-    description: "Single-source shortest paths in Rust, compiled to WebAssembly. Source of the @ruvnet/bmssp npm package."
-    language: "Rust"
+    last_push: "2026-11-19"
+  - name: "rufield-sleep"
+    title: "rufield-sleep"
+    description: "Local sleep routine console for RuField ESP32 room sensors and an ESP32 I2S pink noise speaker."
+    language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "marketing"
-    title: "marketing"
-    description: "The Best Agentic Marketing Swarm in the World"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 134
-    first_seen: null
-    last_push: "2026-05-23"
-  - name: "metaharness"
-    title: "metaharness"
-    description: "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox)."
-    language: "TypeScript"
+    last_push: "2026-11-18"
+  - name: "RuVector"
+    title: "RuVector"
+    description: "RuVector provides High Performance, Real-Time decisions and agent memory , Self-Learning Ai, Vector GNN DB built in Rust."
+    language: "Rust"
     topics:
-      - "agent-evaluation"
-      - "agent-harness"
-      - "agent-harness-generator"
-      - "agent-scaffolding"
-      - "agentic-ai"
-      - "agentic-framework"
-      - "autonomous-agents"
-      - "claude-code"
-      - "codex"
-      - "create-agent-harness"
-      - "github-actions"
-      - "hermes-agent"
-      - "mcp"
-      - "mcp-server"
-      - "multi-agent"
-      - "openai-codex"
-      - "openclaw"
-      - "pi-dev"
-      - "rvm"
-      - "sandboxing"
-    stars_fact: 744
+      - "ai"
+      - "ai-ocr"
+      - "attention-mechanism"
+      - "gnn"
+      - "gnn-model"
+      - "gnns"
+      - "graph"
+      - "graph-embeddings"
+      - "graph-neural-networks"
+      - "knowledge-graph"
+      - "link-prediction"
+      - "llm-inference"
+      - "low-latency"
+      - "mincut"
+      - "neo4j"
+      - "ocr"
+      - "onnx"
+      - "rust"
+      - "vector"
+      - "wasm"
+    stars_fact: 4711
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
+  - name: "ruv-FANN"
+    title: "ruv-FANN"
+    description: "Neural networks and weight-space programming in Rust, JavaScript and WebAssembly. Inspect activations, edit weights, evaluate candidates, train small models, and explicitly promote or roll back revisions."
+    language: "Rust"
+    topics:
+      - "agentdb"
+      - "cloudflare-workers"
+      - "edge-ai"
+      - "hugging-face"
+      - "javascript"
+      - "local-ai"
+      - "machine-learning"
+      - "model-editing"
+      - "model-evaluation"
+      - "model-versioning"
+      - "neural-network"
+      - "neural-network-inference"
+      - "neural-network-training"
+      - "rust"
+      - "safetensors"
+      - "simd"
+      - "typescript"
+      - "wasm"
+      - "webassembly"
+      - "weight-space-programming"
+    stars_fact: 397
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # ruvnet

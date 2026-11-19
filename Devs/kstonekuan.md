@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [6, 1, 3, 3, 6, 3, 3, 1, 0, 2, 0, 0, 1]
+pushes_per_week: [7, 0, 3, 3, 7, 2, 3, 1, 0, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,14 +77,6 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gemini-4-motionbricks"
-    title: "gemini-4-motionbricks"
-    description: "Gemini 4 Argon with MotionBricks"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "tambourine-voice"
     title: "tambourine-voice"
     description: "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation. Open source alternative to Wispr Flow."
@@ -103,9 +95,17 @@ repos:
       - "webrtc"
       - "whisper"
       - "windows"
-    stars_fact: 393
+    stars_fact: 395
     first_seen: null
-    last_push: "2026-07-17"
+    last_push: "2026-11-15"
+  - name: "gemini-4-motionbricks"
+    title: "gemini-4-motionbricks"
+    description: "Gemini 4 Argon with MotionBricks"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-30"
   - name: "simple-chromium-ai"
     title: "simple-chromium-ai"
     description: "TypeScript library for Local LLM in Chromium browsers"
@@ -128,7 +128,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-18"
   - name: "voice-rtc-bench"
     title: "voice-rtc-bench"
     description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."

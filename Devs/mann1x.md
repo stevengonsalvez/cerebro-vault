@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 1, 5, 22, 52, 31, 38, 5, 8, 0, 1, 0]
+pushes_per_week: [0, 0, 1, 8, 21, 51, 32, 36, 7, 6, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 6
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.3333
-    active_days: 7
+    pushes_per_repo: 1.8333
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,33 @@ repos:
     description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
     language: "Go"
     topics: []
-    stars_fact: 16
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-16"
+  - name: "CPUDoc"
+    title: "CPUDoc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 147
+    first_seen: null
+    last_push: "2025-11-01"
+  - name: "omk-model-optimizer"
+    title: "omk-model-optimizer"
+    description: "Private fork of NVIDIA/Model-Optimizer: model-agnostic 2-bit QAD (IQ2 family) to GGUF"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "automaticum"
+    title: "automaticum"
+    description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "BSManager"
     title: "BSManager"
     description: "VR Base Stations Manager for HMD"
@@ -101,30 +125,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-04-08"
-  - name: "automaticum"
-    title: "automaticum"
-    description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "CPUDoc"
-    title: "CPUDoc"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 146
-    first_seen: null
-    last_push: "2025-11-01"
-  - name: "claude-hooks"
-    title: "claude-hooks"
-    description: "Cross-platform Claude Code hooks for deterministic memory recall (Qdrant + Memory KG, pgvector, sqlite-vec) with HyDE, attention decay, dedup, instinct extraction, and OpenWolf integration"
-    language: "Python"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-11-08"
 ---
 
 # mann1x

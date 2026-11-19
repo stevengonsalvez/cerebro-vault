@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [0, 0, 3, 1, 6, 0, 2, 0, 1, 0, 0, 0, 0]
@@ -86,7 +86,7 @@ repos:
       - "pip"
       - "python"
       - "typechecking"
-    stars_fact: 279
+    stars_fact: 281
     first_seen: null
     last_push: "2026-09-10"
   - name: "dotfiles"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 2, 8, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 4, 6, 1, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,73 +77,54 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "lumen"
-    title: "lumen"
-    description: "Lightweight, pluggable, MCP-first SEO toolkit. Local site audits, keyword ideas, rank checks, CWV reports — CLI + MCP server + Cloudflare Worker. Free services only, BYOK, provenance on every number."
+  - name: "priceanchor-shopify"
+    title: "priceanchor-shopify"
+    description: "PriceAnchor: EU Omnibus 30-day lowest-price + US 90-day former-price guard for Shopify"
     language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "cloudflare-workers"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "mcp-server"
-      - "mcp-tools"
-      - "model-context-protocol"
-      - "nodejs"
-      - "open-source"
-      - "seo"
-      - "seo-audit"
-      - "site-audit"
-      - "typescript"
+    topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "hybridlens"
-    title: "hybridlens"
+    last_push: "2026-11-19"
+  - name: "polish"
+    title: "polish"
+    description: "Polish: a lightweight AI-first shell (Antidote+Starship, agent CLIs, token insights)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "passplay"
+    title: "passplay"
+    description: "Single-device pass-and-play social deduction game — web + native Android, offline, free."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "nitishagar.github.io"
+    title: "nitishagar.github.io"
     description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "mcp-audit-platform"
+    title: "mcp-audit-platform"
+    description: "Deterministic offline MCP / AI-agent config security audit scanner (JSON + SARIF + summary) and pi.dev-themed static site. Static analysis only - not a pentest."
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "applair"
-    title: "applair"
-    description: "Source for applair.in — AppLair mobile app consulting + privacy policies for published Android apps"
-    language: "HTML"
-    topics:
-      - "cloudflare-pages"
-      - "mobile-consulting"
-      - "privacy-policy"
-      - "static-site"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "agent-memory"
-    title: "agent-memory"
-    description: "Team memory for coding agents: shell + transcript capture, MCP recall, self-hosted TLS sync. Apache-2.0."
-    language: "Rust"
+    last_push: "2026-11-14"
+  - name: "sober-ai"
+    title: "sober-ai"
+    description: "Lighthouse reimagined for the AI-first world"
+    language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "vdb"
-    title: "vdb"
-    description: "vdb — an idb-style development bridge for Amazon Fire TV Vega OS 2.0: gRPC companion + CLI + MCP server (unofficial, not affiliated with Amazon)"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "res-blog"
-    title: "res-blog"
-    description: "Nitish Personal Portfolio/Blog"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-13"
 ---
 
 # nitishagar

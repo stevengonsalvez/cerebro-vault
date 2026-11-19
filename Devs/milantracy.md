@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 1, 0, 3, 0, 1, 0, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 2, 0, 1, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-11-18"
   - name: "pstack"
     title: "pstack"
     description: null

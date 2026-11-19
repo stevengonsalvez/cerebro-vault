@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 0, 0, 0, 2, 1, 1, 1, 1, 0, 0, 1, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
+    title: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-06-03"
   - name: "folio-cover-images"
     title: "folio-cover-images"
     description: "Mirror of Folio blog cover images (served via jsDelivr CDN). Source of truth is Cloudflare R2."
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "ssh-on-windows"
     title: "ssh-on-windows"
     description: null
@@ -100,14 +108,6 @@ repos:
     topics:
       - "proxmox-ve-post-install-script"
     stars_fact: 9
-    first_seen: null
-    last_push: "2026-06-03"
-  - name: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
-    title: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 20
     first_seen: null
     last_push: "2026-06-03"
   - name: "remove-tailscale"

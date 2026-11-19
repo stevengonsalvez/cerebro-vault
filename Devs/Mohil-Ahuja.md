@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 0, 1, 1, 2, 4, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 2, 4, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "2D-to-3D-CAD-Reconstruction"
+    title: "2D-to-3D-CAD-Reconstruction"
+    description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "Mohil-Ahuja"
     title: "Mohil-Ahuja"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
   - name: "ci-scratch"
     title: "ci-scratch"
     description: null
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "2D-to-3D-CAD-Reconstruction"
-    title: "2D-to-3D-CAD-Reconstruction"
-    description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-08-13"
+    last_push: "2026-11-17"
   - name: "leadflow"
     title: "leadflow"
     description: "Single-screen lead manager: track leads, log discussions, never miss a follow-up. Next.js + FastAPI."

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [2, 0, 0, 4, 7, 1, 0, 0, 1, 4, 1, 0, 0]
@@ -82,56 +82,55 @@ repos:
     description: "HTTP load generator, ApacheBench (ab) replacement"
     language: "Go"
     topics: []
-    stars_fact: 20778
+    stars_fact: 20799
     first_seen: null
     last_push: "2026-01-10"
-  - name: "govalidate"
-    title: "govalidate"
-    description: "Validates your Go installation and dependencies."
+  - name: "statik"
+    title: "statik"
+    description: "Embed files into a Go executable"
     language: "Go"
     topics:
-      - "golang"
-      - "golang-tools"
-    stars_fact: 334
-    first_seen: null
-    last_push: "2023-11-23"
-  - name: "ax-images"
-    title: "ax-images"
-    description: "A repository of prebuilt AX images"
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "ax-studio"
-    title: "ax-studio"
-    description: "A desktop studio application for AX"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "ate-env-demo"
-    title: "ate-env-demo"
-    description: "A visual demo of Agent Substrate Environment with Antigravity"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "go-hardware"
-    title: "go-hardware"
-    description: "A directory of hardware related libs, tools, and tutorials for Go"
-    language: "Go"
-    topics:
-      - "cgo"
-      - "embedded"
+      - "files"
       - "go"
-      - "hardware"
-      - "tutorials"
-    stars_fact: 1387
+      - "golang"
+      - "http"
+      - "http-server"
+      - "static"
+    stars_fact: 3829
     first_seen: null
-    last_push: "2019-07-31"
+    last_push: "2026-01-10"
+  - name: "ax-tasks"
+    title: "ax-tasks"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "obs-luts"
+    title: "obs-luts"
+    description: "LUT files to use with OBS"
+    language: null
+    topics: []
+    stars_fact: 67
+    first_seen: null
+    last_push: "2020-04-03"
+  - name: "gotest"
+    title: "gotest"
+    description: "go test with colors"
+    language: "Go"
+    topics: []
+    stars_fact: 1392
+    first_seen: null
+    last_push: "2026-01-10"
+  - name: "gemini-api-substrate"
+    title: "gemini-api-substrate"
+    description: null
+    language: "Makefile"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
 ---
 
 # rakyll

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [2, 0, 1, 1, 5, 1, 0, 0, 0, 0, 0, 0, 1]
@@ -77,6 +77,62 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Simple-Java-Text-Editor"
+    title: "Simple-Java-Text-Editor"
+    description: ":memo: PHNotepad is a simple Java text/code editor (notepad) written in Java. It has also nice features such as Search tool, Find/Replace text/code, Auto-completion, Nice Image Buttons for better UX, etc."
+    language: "Java"
+    topics:
+      - "editor"
+      - "java"
+      - "java-editor"
+      - "java-learning"
+      - "java-note"
+      - "java-simple-project"
+      - "java-simple-text-editor"
+      - "java-study"
+      - "java-text"
+      - "java-text-editor"
+      - "learning-java"
+      - "notepad"
+      - "simple-java-editor"
+      - "simple-java-ide"
+      - "simple-java-text-editor"
+      - "simple-text-editor"
+      - "teaching"
+      - "text-editor"
+      - "text-editor-java"
+      - "texteditor"
+    stars_fact: 174
+    first_seen: null
+    last_push: "2022-06-22"
+  - name: "Download-Simply-Videos-From-YouTube"
+    title: "Download-Simply-Videos-From-YouTube"
+    description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
+    language: "Python"
+    topics:
+      - "download-audio-youtube"
+      - "download-video"
+      - "download-youtube"
+      - "downloader"
+      - "downloader-for-youtube"
+      - "mp3-youtube"
+      - "mp3-youtube-converter"
+      - "videos"
+      - "youtube"
+      - "youtube-dl"
+      - "youtube-dlp"
+      - "youtube-download"
+      - "youtube-downloader"
+      - "youtube-downloader-4k"
+      - "youtube-ffmpeg"
+      - "youtube-playlist-downloader"
+      - "youtube-to-audio"
+      - "youtube-to-mp3"
+      - "youtube-videos-downloader"
+      - "youtube2mp3"
+    stars_fact: 407
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "Html2Text"
     title: "Html2Text"
     description: "A very simple (but efficient) \"HTML to plain text\" converter ✍️"
@@ -123,34 +179,6 @@ repos:
     stars_fact: 371
     first_seen: null
     last_push: "2021-05-10"
-  - name: "Download-Simply-Videos-From-YouTube"
-    title: "Download-Simply-Videos-From-YouTube"
-    description: "Python script that downloads and saves any of your favorite YouTube videos and playlists. All you need to do is just run the Python script and follow the terminal prompt."
-    language: "Python"
-    topics:
-      - "download-audio-youtube"
-      - "download-video"
-      - "download-youtube"
-      - "downloader"
-      - "downloader-for-youtube"
-      - "mp3-youtube"
-      - "mp3-youtube-converter"
-      - "videos"
-      - "youtube"
-      - "youtube-dl"
-      - "youtube-dlp"
-      - "youtube-download"
-      - "youtube-downloader"
-      - "youtube-downloader-4k"
-      - "youtube-ffmpeg"
-      - "youtube-playlist-downloader"
-      - "youtube-to-audio"
-      - "youtube-to-mp3"
-      - "youtube-videos-downloader"
-      - "youtube2mp3"
-    stars_fact: 406
-    first_seen: null
-    last_push: "2026-10-31"
   - name: "Simple-Java-Calculator"
     title: "Simple-Java-Calculator"
     description: ":1234: Simple calculator is written in Java with Eclipse. This calculator is simple with an easy code to help novices learn how to operate a calculator."
@@ -185,28 +213,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-11-08"
-  - name: "CompaniesLookup"
-    title: "CompaniesLookup"
-    description: ":office: Simple and fast tool to find companies from Companies House database (with their Company Number or Company Name)."
-    language: "PHP"
-    topics:
-      - "companies-house"
-      - "companies-house-api"
-      - "companieshouse"
-      - "companieshouse-api"
-      - "companieshouse-lookup"
-      - "company-lookup"
-      - "console"
-      - "lookup"
-      - "php"
-      - "php-7"
-      - "search-companies-house"
-      - "uk-companies-lookup"
-      - "uk-companies-search"
-      - "uk-company-lookup"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2017-01-23"
 ---
 
 # pH-7

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [6, 6, 17, 6, 34, 23, 37, 21, 10, 5, 0, 0, 1]
+pushes_per_week: [6, 6, 18, 8, 35, 21, 39, 17, 12, 3, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 9
     distinct_repos: 5
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 16
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 3.2000
-    active_days: 8
+    pushes_per_repo: 1.8000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -77,14 +77,14 @@ reasons:
   - "activity: 43 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "sheepit"
-    title: "sheepit"
-    description: "Your machine, anywhere. A full-featured terminal in your browser."
-    language: "TypeScript"
+  - name: "giotto"
+    title: "giotto"
+    description: null
+    language: "JavaScript"
     topics: []
     stars_fact: 27
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-10-21"
   - name: "aiagentmemory-site"
     title: "aiagentmemory-site"
     description: "Built static site for aiagentmemory.org (deployed from the private aiagentmemory repo)"
@@ -92,7 +92,23 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
+  - name: "gh-stars"
+    title: "gh-stars"
+    description: "alternative to https://github.com/star-history/star-history"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "sheepit"
+    title: "sheepit"
+    description: "Your machine, anywhere. A full-featured terminal in your browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "ciak"
     title: "ciak"
     description: "🎬 The screen recorder your agent edits. Record, then let an agent cut, zoom, caption, narrate and export. Plain files and commands, no timeline."
@@ -101,14 +117,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-11-10"
-  - name: "giotto"
-    title: "giotto"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 28
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "dockerpyze"
     title: "dockerpyze"
     description: "Python applications to Docker, automatically 🐳"
@@ -120,14 +128,6 @@ repos:
     stars_fact: 181
     first_seen: null
     last_push: "2025-04-08"
-  - name: "football-fortune"
-    title: "football-fortune"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-21"
 ---
 
 # nicoloboschi

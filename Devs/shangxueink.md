@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [5, 0, 2, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "TRSSLauncher-Setup"
     title: "TRSSLauncher-Setup"
     description: "在Windows上可以直接使用的TRSS-yunzai安装器，无需linux指令"
@@ -101,6 +101,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-11-06"
+  - name: "koishi-plugin-bangbangcai"
+    title: "koishi-plugin-bangbangcai"
+    description: "koishi插件-邦多利卡面猜猜看"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-12"
   - name: "koishi-plugin-meter-image"
     title: "koishi-plugin-meter-image"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 1, 1, 1, 8, 1, 5, 6, 4, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 2, 8, 3, 2, 6, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    active_days: 2
+    active_days: 1
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 3
     distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
@@ -86,9 +86,20 @@ repos:
       - "idiomatic"
       - "idiomatic-rust"
       - "rust"
-    stars_fact: 7910
+    stars_fact: 7915
     first_seen: null
     last_push: "2026-02-12"
+  - name: "thundervim"
+    title: "thundervim"
+    description: "Native VIM keybindings for Thunderbird; compose text with your favorite editor shortcuts."
+    language: "TypeScript"
+    topics:
+      - "editing"
+      - "thunderbird"
+      - "vim"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "cargo-inspect"
     title: "cargo-inspect"
     description: "Pssst!... see what Rust is doing behind the curtains 🕵🤫"
@@ -102,17 +113,6 @@ repos:
     stars_fact: 384
     first_seen: null
     last_push: "2023-02-27"
-  - name: "thundervim"
-    title: "thundervim"
-    description: "Native VIM keybindings for Thunderbird; compose text with your favorite editor shortcuts."
-    language: "TypeScript"
-    topics:
-      - "editing"
-      - "thunderbird"
-      - "vim"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-09"
   - name: "endler.dev"
     title: "endler.dev"
     description: "My personal website"

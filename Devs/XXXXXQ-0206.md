@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 16, 0, 1, 1, 0, 10, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 16, 1, 0, 1, 1, 9, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,7 +89,7 @@ repos:
     topics: []
     stars_fact: 38
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-17"
   - name: "qq-agent"
     title: "qq-agent"
     description: "Zero-dependency CLI, MCP server, and Agent Skill for a live QQ account through a local OneBot 11 / NapCat endpoint."
@@ -128,7 +128,7 @@ repos:
       - "vite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-17"
   - name: "CquAutoLogin"
     title: "CquAutoLogin"
     description: "Windows tray utility for CQU portal sign-in assistance"
@@ -136,7 +136,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-24"
+    last_push: "2026-11-17"
   - name: "math-paper-writing"
     title: "math-paper-writing"
     description: "供 AI 代理使用的数学论文写作用 skill：729 篇跨 17 个数学分支的手稿语料 + 检索协议 + 硬规则"

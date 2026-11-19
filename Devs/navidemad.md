@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 0, 14, 13, 48, 42, 7, 9, 1, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 14, 19, 42, 42, 7, 10, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,7 +22,7 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
@@ -57,9 +57,9 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.5000
+    pushes_per_repo: 3.5000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -77,14 +77,29 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vicecity-gaps"
+    title: "vicecity-gaps"
+    description: "Digest quotidien des questions GTA VI sans bonne réponse vidéo"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "capybara-lightpanda"
     title: "capybara-lightpanda"
     description: "Run Capybara system tests on Lightpanda — the ultra-fast headless browser built in Zig."
     language: "Ruby"
-    topics: []
-    stars_fact: 8
+    topics:
+      - "capybara"
+      - "headless-browser"
+      - "hotwire"
+      - "lightpanda"
+      - "rails"
+      - "ruby"
+      - "system-tests"
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
   - name: "pi-navrness"
     title: "pi-navrness"
     description: "Personal Pi harness extensions: pi-subagents orchestration with Herdr visibility"
@@ -108,7 +123,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-05"
+    last_push: "2026-11-18"
   - name: "navidemad"
     title: "navidemad"
     description: null
@@ -116,15 +131,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-07-04"
-  - name: "md2slack"
-    title: "md2slack"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-03-06"
+    last_push: "2026-11-18"
 ---
 
 # navidemad

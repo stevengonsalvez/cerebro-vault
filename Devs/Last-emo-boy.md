@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [3, 0, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -77,22 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Swarm"
-    title: "Swarm"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "mactoys"
-    title: "mactoys"
-    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "wuwa-tappo-mac"
     title: "wuwa-tappo-mac"
     description: "Wuwa Tappo 国服非官方 macOS 适配：完整资源打包、Apple Silicon 原生后端与自动构建"
@@ -104,9 +88,33 @@ repos:
       - "tauri"
       - "wuthering-waves"
       - "wuwa"
-    stars_fact: 16
+    stars_fact: 19
     first_seen: null
     last_push: "2026-11-06"
+  - name: "Multisim-MCP"
+    title: "Multisim-MCP"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "Swarm"
+    title: "Swarm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "mactoys"
+    title: "mactoys"
+    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "nib"
     title: "nib"
     description: "nib: an open design canvas for .pen files, with an MCP server for coding agents and a built-in agent"
@@ -123,14 +131,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "oai-skills"
-    title: "oai-skills"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-05-26"
 ---
 
 # Last-emo-boy

@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c47cbc7eb3e22410"
-pushes_per_week: [23, 15, 64, 66, 203, 154, 79, 62, 47, 109, 0, 1, 14]
+pushes_per_week: [25, 13, 65, 79, 201, 153, 76, 54, 51, 105, 0, 2, 13]
 windows:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    active_days: 5
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 170
+    pushes: 145
     distinct_repos: 5
-    active_days: 13
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 13
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 5
+    pushes_per_repo: 6.5000
+    active_days: 4
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 170
+    pushes: 145
     distinct_repos: 5
-    pushes_per_repo: 34.0000
-    active_days: 13
+    pushes_per_repo: 29.0000
+    active_days: 12
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 2
@@ -102,9 +102,9 @@ repos:
       - "openrouter"
       - "proxy"
       - "typescript"
-    stars_fact: 18372
+    stars_fact: 18647
     first_seen: "2026-08-09T06:00:06.171867+00:00"
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "aside-codemode"
     title: "aside-codemode"
     description: "One call where Aside used to spend fifty — rg-backed search, Aside-shaped file tools, and batched browser work inside a single sandboxed JavaScript block. On a real folder, 55s of find+grep became 1s."
@@ -125,15 +125,35 @@ repos:
       - "playwright"
       - "ripgrep"
       - "sandbox"
-    stars_fact: 130
+    stars_fact: 132
     first_seen: null
     last_push: "2026-10-16"
+  - name: "codexclaw"
+    title: "codexclaw"
+    description: "Development discipline + multi-model subagents for OpenAI Codex — 13 dev skills, PABCD workflow, repo map, recall, skill search. Single plugin, no external harness."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "codex"
+      - "codex-plugin"
+      - "codex-skills"
+      - "dev-skills"
+      - "developer-tools"
+      - "multi-agent"
+      - "openai-codex"
+      - "pabcd"
+      - "repo-map"
+      - "subagents"
+      - "workflow-automation"
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "agbrowse"
     title: "agbrowse"
     description: "Ultimate browser automation toolkit for AI agents. Zero MCP token tax, JS evaluate, vision-click with DPR correction."
     language: "JavaScript"
     topics: []
-    stars_fact: 234
+    stars_fact: 237
     first_seen: null
     last_push: "2026-10-16"
   - name: "progrok"
@@ -160,19 +180,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-10-22"
-  - name: "fuck-powershell"
-    title: "fuck-powershell"
-    description: "PowerShell landmine archive: reproducible cases where POSIX assumptions explode. With an installable agent skill + docs site."
-    language: "JavaScript"
-    topics:
-      - "agent-skills"
-      - "cross-platform"
-      - "gotchas"
-      - "powershell"
-      - "windows"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-24"
 ---
 
 # lidge-jun

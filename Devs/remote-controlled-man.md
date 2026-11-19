@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,22 +82,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "remote-controlled-man.github.io"
-    title: "remote-controlled-man.github.io"
-    description: "Steven Huang — projects, agent harnesses, evaluation, and notes"
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "remote-controlled-man"
-    title: "remote-controlled-man"
-    description: "Steven Huang | Agent systems, evaluation, and LLM post-training | HKU"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "skillfit"
     title: "skillfit"
     description: "A/B testing for agent configuration: paired evaluation of Skills, rules and MCP setups, with deterministic verifiers and replayable evidence."
@@ -113,9 +97,25 @@ repos:
       - "evals"
       - "kimi-code"
       - "mcp"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-17"
+  - name: "remote-controlled-man.github.io"
+    title: "remote-controlled-man.github.io"
+    description: "Steven Huang — projects, agent harnesses, evaluation, and notes"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "remote-controlled-man"
+    title: "remote-controlled-man"
+    description: "Steven Huang | Agent systems, evaluation, and LLM post-training | HKU"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "device-agent-arena"
     title: "device-agent-arena"
     description: "Auditable benchmark, post-training pipeline, and compound-agent harness for stateful Chinese tool-use agents."

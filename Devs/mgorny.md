@@ -1,0 +1,102 @@
+---
+login: "mgorny"
+name: null
+discovered_via: "fanout"
+discovered_via_all:
+  - "fanout"
+provenance_repos:
+  - "astral-sh/uv"
+admitted: true
+low_n: false
+repos_populated: true
+generated_at: "2026-11-19T07:04:33.997655+00:00"
+provenance:
+  - "30e283a9b3f70e35"
+pushes_per_week: [1, 3, 3, 11, 11, 3, 13, 4, 1, 0, 0, 0, 0]
+windows:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 50
+    distinct_repos: 26
+    active_days: 21
+    repos_not_owned: 17
+    not_owned_basenames: 17
+    not_owned_owners: 3
+automation:
+  state: "clear"
+  push_per_day: 2.3810
+  repo_per_active_day: 1.2381
+  not_owned_ratio: 0.6538
+  basename_concentration: 0.0769
+  shapes: []
+  shape_evidence: []
+  cleared_by: null
+  cleared_on: null
+  fork_provenance: null
+  prefilter: "rest_verified"
+facets:
+  "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
+    pushes: 50
+    distinct_repos: 26
+    pushes_per_repo: 1.9231
+    active_days: 21
+    repos_not_owned: 17
+    not_owned_basenames: 17
+    not_owned_owners: 3
+reasons:
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 21 active days in 90d — pass"
+  - "automation: clear — pass"
+repos:
+  - name: "gha-artifact-test"
+    title: "gha-artifact-test"
+    description: "testing artifact"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "articles"
+    title: "articles"
+    description: "Source text for my various articles"
+    language: "TeX"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-10"
+---
+
+# mgorny
+
+50 pushes across 26 repositories on 21 active days in the last 90 days of public GitHub push activity.
+
+https://github.com/mgorny

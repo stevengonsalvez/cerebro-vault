@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "4138778ebbc75ba6"
 pushes_per_week: [2, 0, 0, 1, 7, 3, 0, 0, 0, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-11"
   - name: "homebrew-workpot"
     title: "homebrew-workpot"
     description: "homebrew tap for workpot"

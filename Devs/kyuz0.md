@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 1, 1, 2, 5, 6, 1, 4, 0, 1, 0, 0, 0]
+pushes_per_week: [2, 1, 1, 4, 5, 4, 1, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "amd-strix-halo-toolboxes"
-    title: "amd-strix-halo-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2022
-    first_seen: null
-    last_push: "2026-11-07"
   - name: "ai-toolbox-cockpit"
     title: "ai-toolbox-cockpit"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 214
+    stars_fact: 226
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "amd-strix-halo-comfyui-toolboxes"
-    title: "amd-strix-halo-comfyui-toolboxes"
+    last_push: "2026-11-18"
+  - name: "strix-halo-ds4-toolbox"
+    title: "strix-halo-ds4-toolbox"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 181
+    stars_fact: 95
     first_seen: null
-    last_push: "2026-09-02"
-  - name: "amd-r9700-vllm-toolboxes"
-    title: "amd-r9700-vllm-toolboxes"
+    last_push: "2026-10-23"
+  - name: "amd-strix-halo-toolboxes"
+    title: "amd-strix-halo-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 211
+    stars_fact: 2032
     first_seen: null
-    last_push: "2026-10-05"
-  - name: "amd-strix-halo-vllm-toolboxes"
-    title: "amd-strix-halo-vllm-toolboxes"
+    last_push: "2026-11-18"
+  - name: "web-fetch-pi-test-fixtures"
+    title: "web-fetch-pi-test-fixtures"
     description: null
-    language: "Python"
-    topics: []
-    stars_fact: 549
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "pi-sandbox-factory"
-    title: "pi-sandbox-factory"
-    description: null
-    language: "Python"
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-18"
+  - name: "terminal-bench-mini"
+    title: "terminal-bench-mini"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "intel-b70-ai-toolboxes"
+    title: "intel-b70-ai-toolboxes"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-11-01"
 ---
 
 # kyuz0

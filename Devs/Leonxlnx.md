@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [1, 0, 1, 10, 22, 1, 11, 27, 8, 8, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 15, 17, 3, 9, 27, 8, 8, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 4
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -93,9 +93,44 @@ repos:
       - "landing-page"
       - "ui-design"
       - "web-design"
-    stars_fact: 113112
+    stars_fact: 118597
     first_seen: "2026-07-07T06:00:04.098731+00:00"
     last_push: "2026-11-08"
+  - name: "cinetic"
+    title: "cinetic"
+    description: "Cinematic launch films and motion design from code, directed by your coding agent."
+    language: "TypeScript"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "claude-skills"
+      - "launch-video"
+      - "motion-design"
+      - "remotion"
+    stars_fact: 1287
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "athenaion"
+    title: "athenaion"
+    description: "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 726
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "earshot"
+    title: "earshot"
+    description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "audio"
+      - "claude-code"
+      - "mcp"
+      - "sound-design"
+    stars_fact: 5179
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "tastecode"
     title: "tastecode"
     description: "One desktop app for your coding agents, made for creative work. Early beta, Windows and macOS."
@@ -109,53 +144,22 @@ repos:
       - "design"
       - "electron"
       - "grok"
-    stars_fact: 516
+    stars_fact: 595
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "earshot"
-    title: "earshot"
-    description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "audio"
-      - "claude-code"
-      - "mcp"
-      - "sound-design"
-    stars_fact: 4467
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "escapement"
-    title: "escapement"
-    description: "A 36s cinematic short film made by Claude Code (Opus 5.5) driving Blender 5.2 headless from Python"
-    language: "Python"
-    topics: []
-    stars_fact: 118
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "athenaion"
-    title: "athenaion"
-    description: "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 700
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "unlazy"
-    title: "unlazy"
-    description: "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion."
+    last_push: "2026-11-14"
+  - name: "cook"
+    title: "cook"
+    description: "Give your agent a target, a bar and time, then let it cook. An agent skill for visual builds that have to match reference images or videos."
     language: "JavaScript"
     topics:
-      - "ai-agents"
-      - "claude"
+      - "agent-skills"
       - "claude-code"
-      - "llm"
-      - "productivity"
-      - "prompt-engineering"
-      - "skill"
-    stars_fact: 4346
+      - "codex"
+      - "prompting"
+      - "threejs"
+    stars_fact: 705
     first_seen: null
-    last_push: "2026-09-03"
+    last_push: "2026-10-31"
 ---
 
 # Leonxlnx

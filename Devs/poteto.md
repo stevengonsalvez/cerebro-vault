@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "a50d216def4cada3"
 pushes_per_week: [0, 0, 0, 0, 2, 0, 0, 4, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "noodle"
-    title: "noodle"
-    description: "Orchestrate agents using skills"
-    language: "Go"
-    topics: []
-    stars_fact: 612
-    first_seen: null
-    last_push: "2026-03-19"
   - name: "hiring-without-whiteboards"
     title: "hiring-without-whiteboards"
     description: "⭐️ Companies that don't have a broken hiring process"
@@ -97,43 +89,49 @@ repos:
       - "jobs"
       - "tech"
       - "whiteboard"
-    stars_fact: 53174
+    stars_fact: 53434
     first_seen: null
-    last_push: "2026-09-24"
+    last_push: "2026-11-14"
+  - name: "verification-skill-example"
+    title: "verification-skill-example"
+    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
+    language: null
+    topics: []
+    stars_fact: 214
+    first_seen: null
+    last_push: "2026-07-30"
   - name: "how"
     title: "how"
     description: "skill for explaining architecture"
     language: null
     topics: []
-    stars_fact: 962
+    stars_fact: 987
     first_seen: null
     last_push: "2026-04-14"
-  - name: "brainmaxxing"
-    title: "brainmaxxing"
-    description: "stupid simple persistent memory and skill improvement"
-    language: "Python"
+  - name: "noodle"
+    title: "noodle"
+    description: "Orchestrate agents using skills"
+    language: "Go"
     topics: []
-    stars_fact: 373
+    stars_fact: 664
     first_seen: null
-    last_push: "2026-02-27"
-  - name: "rustconf-2020"
-    title: "rustconf-2020"
-    description: "An aggregation of links that summarize RustConf 2020. Pull requests welcome!"
-    language: null
-    topics:
-      - "rust"
-      - "rustconf"
-    stars_fact: 356
-    first_seen: null
-    last_push: "2020-08-31"
+    last_push: "2026-03-19"
   - name: "poteto"
     title: "poteto"
     description: null
     language: null
     topics: []
-    stars_fact: 47
+    stars_fact: 54
     first_seen: null
     last_push: "2020-08-06"
+  - name: "react-test"
+    title: "react-test"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2014-12-03"
 ---
 
 # poteto

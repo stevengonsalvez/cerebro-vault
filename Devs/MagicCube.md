@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "16389f32495280ea"
-pushes_per_week: [0, 0, 0, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "cli-gpt"
+    title: "cli-gpt"
+    description: "Translate human language to command line using ChatGPT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 118
+    first_seen: null
+    last_push: "2023-03-15"
   - name: "helixent"
     title: "helixent"
     description: "Helixent is a small library for building ReAct-style AI agent loops based on the Bun stack."
@@ -89,9 +97,17 @@ repos:
       - "cli"
       - "coding"
       - "skills"
-    stars_fact: 687
+    stars_fact: 690
     first_seen: null
     last_push: "2026-05-21"
+  - name: "agentara"
+    title: "agentara"
+    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 521
+    first_seen: null
+    last_push: "2026-05-11"
   - name: "tensorflow-rex-run"
     title: "tensorflow-rex-run"
     description: "A TensorFlow.js based AI player platform for T-Rex Runner. T-Rex Runner is originally an easter egg game inside chrome."
@@ -107,17 +123,9 @@ repos:
       - "t-rex-runner"
       - "tensorflow"
       - "tensorflow-js"
-    stars_fact: 674
+    stars_fact: 673
     first_seen: null
     last_push: "2023-03-07"
-  - name: "agentara"
-    title: "agentara"
-    description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 520
-    first_seen: null
-    last_push: "2026-05-11"
   - name: "air-charger"
     title: "air-charger"
     description: "AirCharger is an ESP32 based QI wireless charger. With Bluetooth connectivity, you can always check the battery level and other useful information from the built-in display."
@@ -146,14 +154,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2025-11-12"
-  - name: "dayring-mono"
-    title: "dayring-mono"
-    description: "PaperMono application platform"
-    language: "C++"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-22"
 ---
 
 # MagicCube

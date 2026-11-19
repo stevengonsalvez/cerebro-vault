@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [3, 0, 0, 2, 24, 55, 24, 3, 4, 5, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 2, 27, 58, 18, 3, 5, 4, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,58 +77,38 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "gogh-xr"
-    title: "gogh-xr"
-    description: "Walk inside Van Gogh's paintings on Meta Quest 3: a WebXR experience in three.js with living, shader-driven brushstrokes"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "par-storygen"
-    title: "par-storygen"
-    description: "AI-driven TUI choose-your-own-adventure"
-    language: "Python"
-    topics:
-      - "ai"
-      - "choose-your-own-adventure"
-      - "gemini"
-      - "interactive-fiction"
-      - "llm"
-      - "ollama"
-      - "openai"
-      - "openrouter"
-      - "python"
-      - "terminal"
-      - "textual"
-      - "tui"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "claude-office"
     title: "claude-office"
     description: "Real-time pixel art office simulation that visualizes Claude Code operations"
     language: "TypeScript"
     topics: []
-    stars_fact: 615
+    stars_fact: 622
     first_seen: null
-    last_push: "2026-11-05"
-  - name: "par-rt-db"
-    title: "par-rt-db"
-    description: "Self-hosted Convex-inspired realtime document DB in Rust (axum/tokio/Postgres)"
+    last_push: "2026-11-11"
+  - name: "termflix"
+    title: "termflix"
+    description: "Terminal animation player with 43 procedurally generated animations, multiple render modes, and true color support"
     language: "Rust"
     topics: []
-    stars_fact: 2
+    stars_fact: 82
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-09-30"
   - name: "roku-fishtank"
     title: "roku-fishtank"
     description: null
     language: "Brightscript"
     topics: []
-    stars_fact: 2
+    stars_fact: 5
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-19"
+  - name: "rogue-xr"
+    title: "rogue-xr"
+    description: "Clockwork Spire: a seated WebXR roguelike deckbuilder for Meta Quest 3 (three.js)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "parllama"
     title: "parllama"
     description: "TUI for Ollama and other LLM providers"
@@ -143,9 +123,27 @@ repos:
       - "python"
       - "terminal"
       - "tui"
-    stars_fact: 496
+    stars_fact: 497
     first_seen: null
     last_push: "2026-10-16"
+  - name: "mux-xr"
+    title: "mux-xr"
+    description: "WebXR workspace for par-mux: monitor and control terminal panes from a browser or Meta Quest 3"
+    language: "TypeScript"
+    topics:
+      - "meta-quest-3"
+      - "mixed-reality"
+      - "par-mux"
+      - "terminal"
+      - "terminal-emulator"
+      - "threejs"
+      - "typescript"
+      - "virtual-reality"
+      - "vite"
+      - "webxr"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-19"
 ---
 
 # paulrobello

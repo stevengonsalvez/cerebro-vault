@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 0, 1, 1, 5, 1, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 5, 1, 2, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,12 +79,12 @@ reasons:
 repos:
   - name: "gitterm"
     title: "gitterm"
-    description: "an open-source, self-hostable control plane for running coding agents on your own cloud, with your own keys."
+    description: "control plane to provide agents remote sandboxes for operations and moving sessions"
     language: "TypeScript"
     topics: []
-    stars_fact: 35
+    stars_fact: 36
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-17"
   - name: "oc-plugins"
     title: "oc-plugins"
     description: null

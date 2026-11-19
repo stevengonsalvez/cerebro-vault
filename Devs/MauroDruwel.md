@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [0, 0, 0, 2, 4, 6, 4, 3, 4, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 6, 4, 5, 2, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,37 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Smartschool-MCP"
+    title: "Smartschool-MCP"
+    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "education"
+      - "mcp"
+      - "python"
+      - "smartschool"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "homewizard-cloud-ha"
+    title: "homewizard-cloud-ha"
+    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
+    language: "Python"
+    topics:
+      - "home-assistant-integration"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "homewizard-cloud"
+    title: "homewizard-cloud"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "NIMStats"
     title: "NIMStats"
     description: "📊 Automated hourly benchmarks for 20+ NVIDIA NIM models — interactive dashboard, zero infra, self-hostable. Open-source & community-driven."
@@ -91,9 +122,9 @@ repos:
       - "nim"
       - "nvidia"
       - "open-source"
-    stars_fact: 58
+    stars_fact: 57
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-19"
   - name: "Swimrankings"
     title: "Swimrankings"
     description: "🏊‍♂️ SwimRankings is a lightweight yet powerful Python library designed to streamline access to competitive swimming data from swimrankings.net. Whether you're a coach, athlete, analyst, or developer, this tool empowers you to retrieve race results, swimmer profiles, meet details, and performance times with just a few lines of code."
@@ -120,51 +151,6 @@ repos:
       - "openapi"
       - "quality-gate"
       - "reusable-workflows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "Smartschool-MCP"
-    title: "Smartschool-MCP"
-    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automation"
-      - "education"
-      - "mcp"
-      - "python"
-      - "smartschool"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "WakeOverESP"
-    title: "WakeOverESP"
-    description: "Wake up PC via USB, esp32 and WiFi"
-    language: "C++"
-    topics:
-      - "arduino"
-      - "cpp"
-      - "esp32"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "TunnelDashDesktop"
-    title: "TunnelDashDesktop"
-    description: "Desktop sidekick for Cloudflare Tunnels — proxy SSH/TCP/HTTP routes to local ports, launch native SSH sessions via ~/.ssh/config key auth, and manage Zero Trust access from a clean macOS/Windows/Linux GUI."
-    language: "TypeScript"
-    topics:
-      - "api"
-      - "cloudflare"
-      - "cloudflare-tunnel"
-      - "desktop-app"
-      - "react"
-      - "rust"
-      - "ssh"
-      - "tauri"
-      - "tunnel"
-      - "typescript"
-      - "vite"
-      - "zero-trust"
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-09"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 1, 1, 1, 6, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 2, 5, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,35 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "learn-llm"
+    title: "learn-llm"
+    description: "从零手写大语言模型 · 交互可视化站点源码（learn-llm.fim.ai）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "awesome-proactive-agents"
+    title: "awesome-proactive-agents"
+    description: "When should an always-on agent intervene? A field map of proactive AI assistance: signals, decision, action, memory, evaluation & self-improvement."
+    language: "Python"
+    topics:
+      - "agents"
+      - "awesome-list"
+      - "llm"
+      - "mixed-reality"
+      - "proactive-ai"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "body-whitepaper"
+    title: "body-whitepaper"
+    description: "体重白皮书：减脂与维持（body.fim.ai）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "who-mortality-statistical-analysis"
     title: "who-mortality-statistical-analysis"
     description: "MSAI Course Final Project - Statistical Analysis of WHO Global Health Estimates 2021"
@@ -97,20 +126,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "awesome-proactive-agents"
-    title: "awesome-proactive-agents"
-    description: "When should an always-on agent intervene? A field map of proactive AI assistance: signals, decision, action, memory, evaluation & self-improvement."
-    language: "Python"
-    topics:
-      - "agents"
-      - "awesome-list"
-      - "llm"
-      - "mixed-reality"
-      - "proactive-ai"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-19"
   - name: "tao-hpu"
     title: "tao-hpu"
     description: "✨ My GitHub Profile README"
@@ -118,23 +134,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "llm-from-scratch"
-    title: "llm-from-scratch"
-    description: "从 0 到 1 手搓大模型:逐行中文讲解,从字符级 bigram 一路复现 GPT-2 124M(含交互式可视化)。A from-scratch LLM course in Chinese — build a Transformer by hand, then reproduce GPT-2 124M."
-    language: "HTML"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-24"
-  - name: "nano-spec"
-    title: "nano-spec"
-    description: "Spec-driven thinking, nano-sized docs. Lightweight task specification for AI-assisted development."
-    language: null
-    topics: []
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-01-25"
+    last_push: "2026-11-19"
 ---
 
 # tao-hpu

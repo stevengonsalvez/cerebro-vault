@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-19T07:04:33.997655+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 1, 6, 12, 1, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 6, 10, 1, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,38 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "kitbo-site"
-    title: "kitbo-site"
-    description: "Kitbo 奇宝 product presentation and encrypted research archive"
-    language: "HTML"
+  - name: "harnesslab"
+    title: "harnesslab"
+    description: "Record, diff, and gate agent harness behavior as an executable Trace Contract. CI regression tests for lifecycle, tools, approvals, MCP, and adapters."
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "agent-observability"
+      - "agent-runtime"
+      - "agent-testing"
+      - "ai-agents"
+      - "conformance-testing"
+      - "deepseek"
+      - "developer-tools"
+      - "fastapi"
+      - "llm-agents"
+      - "mcp"
+      - "observability"
+      - "python"
+      - "regression-testing"
+      - "replay"
+      - "trace"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "sub2api-reasoning-fix"
+    title: "sub2api-reasoning-fix"
+    description: "Sub2API reasoning isolation fix: history replay, reasoning-only output separation, and native OpenAI/Codex compatibility. Third-party patch with tests and downloadable packages."
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-18"
   - name: "frontier-signal-lab"
     title: "frontier-signal-lab"
     description: "SaveScope: audit PyTorch saved-tensor compression against gradients and actual AdamW updates. Reproducible CPU experiments and an interactive report."
@@ -102,7 +126,15 @@ repos:
       - "research-tools"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-12"
+  - name: "kitbo-site"
+    title: "kitbo-site"
+    description: "Kitbo 奇宝 product presentation and encrypted research archive"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
   - name: "agent-infra-validation-20261105"
     title: "agent-infra-validation-20261105"
     description: "Deterministic synthetic validation for agent infrastructure fixes; no model calls"
@@ -124,29 +156,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-04"
-  - name: "MultiAgent-Optimization"
-    title: "MultiAgent-Optimization"
-    description: "Advanced Multi-Agent Optimization System featuring intelligent routing strategies, semantic memory optimization, distributed coordination with failover mechanisms, and AI-powered conflict resolution capabilities"
-    language: "Python"
-    topics: []
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-06-29"
-  - name: "Linxiushen"
-    title: "Linxiushen"
-    description: "Independent FDE engineer: AI workflow integrations and merged open-source contributions"
-    language: null
-    topics:
-      - "ai-workflows"
-      - "engineering-portfolio"
-      - "fde-engineering"
-      - "mcp"
-      - "open-source-contributions"
-      - "python"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
 ---
 
 # Linxiushen
