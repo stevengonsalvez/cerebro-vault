@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 0, 3, 0, 13, 22, 15, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 0, 13, 22, 14, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "nurpkgs"
     title: "nurpkgs"
     description: "annt's personal NUR (nixpkgs) repository"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "agents"
     title: "agents"
     description: "Configurations for LLM Harnesses"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "_nixrice"
     title: "_nixrice"
     description: "@anntnzrb's *nix environment; managed by the Nix ecosystem"
@@ -110,7 +110,7 @@ repos:
       - "nix"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "xi"
     title: "xi"
     description: "Deterministic EA SPORTS FC 27 lineup picker: CLI and static site"

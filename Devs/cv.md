@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [28, 4, 3, 20, 17, 18, 14, 21, 15, 0, 0, 0, 1]
+pushes_per_week: [6, 1, 10, 24, 20, 14, 19, 17, 3, 0, 0, 1, 4]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 4
+    pushes: 4
+    distinct_repos: 2
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 141
-    distinct_repos: 13
-    active_days: 44
-    repos_not_owned: 7
+    pushes: 119
+    distinct_repos: 10
+    active_days: 42
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.2045
-  repo_per_active_day: 0.2955
-  not_owned_ratio: 0.5385
-  basename_concentration: 0.4615
+  push_per_day: 2.8333
+  repo_per_active_day: 0.2381
+  not_owned_ratio: 0.3000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 8
-    distinct_repos: 4
+    pushes: 4
+    distinct_repos: 2
     pushes_per_repo: 2.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 5
+    distinct_repos: 3
+    pushes_per_repo: 1.6667
+    active_days: 4
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 141
-    distinct_repos: 13
-    pushes_per_repo: 10.8462
-    active_days: 44
-    repos_not_owned: 7
+    pushes: 119
+    distinct_repos: 10
+    pushes_per_repo: 11.9000
+    active_days: 42
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 7
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 44 active days in 90d — pass"
+  - "activity: 42 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-action"
+    title: "pi-action"
+    description: "GitHub Action to invoke the PI coding agent on issues and PRs via comment triggers"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "pit"
     title: "pit"
     description: "Give Pi one typed tool instead of a toolbox."
@@ -89,17 +97,9 @@ repos:
       - "pi-package"
       - "sandbox"
       - "typescript"
-    stars_fact: 18
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-11-12"
-  - name: "pi-action"
-    title: "pi-action"
-    description: "GitHub Action to invoke the PI coding agent on issues and PRs via comment triggers"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-24"
   - name: "kotatsu"
     title: "kotatsu"
     description: "Glue-free, hardware-free kotatsu (Japanese heated table) CNC-cut from 18 mm birch plywood: parametric Python generator, DXFs, web viewer"
@@ -110,7 +110,7 @@ repos:
       - "furniture"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-16"
   - name: "music-assistant-mqtt"
     title: "music-assistant-mqtt"
     description: "Music Assistant's players and plays (skips included, with catalog ids) published to MQTT. Written in Bend, with proven laws."
@@ -139,6 +139,6 @@ repos:
 
 # cv
 
-141 pushes across 13 repositories on 44 active days in the last 90 days of public GitHub push activity.
+119 pushes across 10 repositories on 42 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cv

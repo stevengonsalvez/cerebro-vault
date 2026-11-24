@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [11, 2, 3, 0, 8, 11, 3, 9, 5, 4, 0, 0, 0]
+pushes_per_week: [3, 3, 0, 8, 7, 7, 5, 8, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 46
     distinct_repos: 3
-    active_days: 29
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9310
-  repo_per_active_day: 0.1034
+  push_per_day: 1.8400
+  repo_per_active_day: 0.1200
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -58,24 +58,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 46
     distinct_repos: 3
-    pushes_per_repo: 18.6667
-    active_days: 29
+    pushes_per_repo: 15.3333
+    active_days: 25
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "busdriver"
@@ -85,7 +85,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "seatbelt"
     title: "seatbelt"
     description: "Zero-config security scanning for vibe coders. Claude Code plugin bundling gitleaks, checkov, trivy, and zizmor as pre-commit hooks."
@@ -114,6 +114,6 @@ repos:
 
 # chris-yyau
 
-56 pushes across 3 repositories on 29 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chris-yyau

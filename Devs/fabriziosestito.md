@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 0, 1, 0, 3, 1, 1, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 3, 1, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 9
+    pushes: 8
+    distinct_repos: 3
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.5000
+  repo_per_active_day: 0.3750
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,34 +57,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 9
+    pushes: 8
+    distinct_repos: 3
+    pushes_per_repo: 2.6667
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for fabriziosestito's tools"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
   - name: "copilot-claude-proxy"
     title: "copilot-claude-proxy"
     description: "A small Go proxy that exposes GitHub Copilot as an Anthropic-compatible API."
@@ -93,7 +85,23 @@ repos:
       - "claude-code"
       - "copilot"
       - "proxy"
-    stars_fact: 8
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "mana"
+    title: "mana"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Homebrew tap for fabriziosestito's tools"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-10-18"
   - name: "oink"
@@ -108,7 +116,7 @@ repos:
       - "rpg"
     stars_fact: 11
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-21"
   - name: "range10"
     title: "range10"
     description: "Cross-platform golf range companion for the Garmin Approach R10. Featuring speed training, practice sessions, and shot analytics."
@@ -130,18 +138,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2024-02-20"
-  - name: "ktest"
-    title: "ktest"
-    description: "A Rust crate for testing kube-rs controllers using KWOK."
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-27"
 ---
 
 # fabriziosestito
 
-9 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 3 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fabriziosestito

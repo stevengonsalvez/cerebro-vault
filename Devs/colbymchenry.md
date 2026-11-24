@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "5ae8aede20b52732"
-pushes_per_week: [0, 0, 0, 2, 3, 31, 12, 6, 19, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 3, 20, 24, 4, 15, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 73
     distinct_repos: 3
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
-    distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 73
     distinct_repos: 3
@@ -82,63 +82,49 @@ repos:
     description: "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
     language: "TypeScript"
     topics: []
-    stars_fact: 77785
+    stars_fact: 78592
     first_seen: "2026-10-01T06:00:50.112518+00:00"
-    last_push: "2026-11-16"
-  - name: "codebrew"
-    title: "codebrew"
-    description: "Run someone else's app on your Mac with one command. Like a one-click installer for code projects, with your AI coding agent ready to help."
-    language: null
-    topics:
-      - "ai-agents"
-      - "android"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "dev-environment"
-      - "developer-tools"
-      - "electron"
-      - "expo"
-      - "ios"
-      - "macos"
-      - "nextjs"
-      - "onboarding"
-      - "react-native"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "shopify-graphql-admin-mcp"
-    title: "shopify-graphql-admin-mcp"
-    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-03-24"
+    last_push: "2026-11-23"
   - name: "claude-context-menu"
     title: "claude-context-menu"
     description: null
     language: "Shell"
     topics: []
-    stars_fact: 9
+    stars_fact: 11
     first_seen: null
     last_push: "2026-02-19"
+  - name: "winlite-ai-bridge"
+    title: "winlite-ai-bridge"
+    description: "The open part of Windows Lite's look: finds the AI command-line tools on your PC, runs their sign-ins, and talks to each over its own protocol (JSON-RPC over stdio). MIT."
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "n8n-gcp-firebase"
     title: "n8n-gcp-firebase"
     description: "Deploy an n8n instance to Cloud Run"
     language: "Shell"
     topics: []
-    stars_fact: 6
+    stars_fact: 8
     first_seen: null
     last_push: "2025-04-03"
-  - name: "frontend-audit-skill"
-    title: "frontend-audit-skill"
-    description: "Measured visual-regression gate for frontends. Compares live renders to design PNGs."
-    language: "JavaScript"
+  - name: "shopify-graphql-admin-mcp"
+    title: "shopify-graphql-admin-mcp"
+    description: "Connect Claude to your Shopify store, and unlock the full power of Claude for your store."
+    language: "TypeScript"
     topics: []
-    stars_fact: 25
+    stars_fact: 23
     first_seen: null
-    last_push: "2026-05-13"
+    last_push: "2026-03-24"
+  - name: "hoblets"
+    title: "hoblets"
+    description: "Hoblets downloads, release notes, and automatic update feeds."
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-20"
 ---
 
 # colbymchenry

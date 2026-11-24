@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 2, 16, 16, 18, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 9, 20, 19, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "website-ai-impact"
-    title: "website-ai-impact"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "website-blog-archive"
-    title: "website-blog-archive"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "website-hoyo-subscribe"
-    title: "website-hoyo-subscribe"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "astrbot_plugin_cost_control"
-    title: "astrbot_plugin_cost_control"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-06"
-  - name: "Protea"
-    title: "Protea"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "bellis"
-    title: "bellis"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
+repos: []
 ---
 
 # leafliber

@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 0, 1, 5, 0, 1, 1, 0, 12, 6, 0, 0, 0]
+pushes_per_week: [0, 1, 5, 0, 1, 0, 1, 5, 13, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 12
-    active_days: 5
-    repos_not_owned: 11
-    not_owned_basenames: 9
-    not_owned_owners: 4
+    pushes: 4
+    distinct_repos: 4
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 17
-    active_days: 11
+    active_days: 12
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 2.3636
-  repo_per_active_day: 1.5455
+  push_per_day: 2.3333
+  repo_per_active_day: 1.4167
   not_owned_ratio: 0.8235
   basename_concentration: 0.1765
   shapes: []
@@ -49,34 +49,50 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "30d":
-    pushes: 15
-    distinct_repos: 12
-    pushes_per_repo: 1.2500
-    active_days: 5
-    repos_not_owned: 11
-    not_owned_basenames: 9
-    not_owned_owners: 4
+    pushes: 4
+    distinct_repos: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 3
+    not_owned_basenames: 3
+    not_owned_owners: 2
   "90d":
-    pushes: 26
+    pushes: 28
     distinct_repos: 17
-    pushes_per_repo: 1.5294
-    active_days: 11
+    pushes_per_repo: 1.6471
+    active_days: 12
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "skill-projects"
+    title: "skill-projects"
+    description: "Projects skill: how an agent runs a project on Spacesheep (task shape, boards)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "ecommerce-agent"
+    title: "ecommerce-agent"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-01-31"
   - name: "skill-model-anatomy"
     title: "skill-model-anatomy"
     description: "Agent skill: any model checkpoint as an interactive 3D explorer page"
@@ -101,7 +117,7 @@ repos:
       - "pointman-extension"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-22"
   - name: "pointman-video_editor"
     title: "pointman-video_editor"
     description: "Pointman behaviour: how an agent edits video well, with Resolve and ElevenLabs setup"
@@ -111,28 +127,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-29"
-  - name: "pointman-cve"
-    title: "pointman-cve"
-    description: "Recent security advisories, the ones that hit your lockfiles, and a shared record of each that touched a project, in Pointman."
-    language: "Python"
-    topics:
-      - "pointman-extension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "pointman-tiktok"
-    title: "pointman-tiktok"
-    description: "TikTok on Pointman: share videos to a TikTok account as inbox drafts or direct posts, made ready with ffmpeg first."
-    language: "Rust"
-    topics:
-      - "pointman-extension"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
 ---
 
 # jamescalam
 
-26 pushes across 17 repositories on 11 active days in the last 90 days of public GitHub push activity.
+28 pushes across 17 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jamescalam

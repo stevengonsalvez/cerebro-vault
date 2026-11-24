@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [5, 1, 1, 1, 4, 8, 0, 2, 0, 0, 0, 1, 0]
+pushes_per_week: [2, 1, 1, 4, 7, 1, 0, 2, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 19
     distinct_repos: 5
-    active_days: 12
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.9167
-  repo_per_active_day: 0.4167
+  push_per_day: 1.9000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,18 +65,50 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 19
     distinct_repos: 5
-    pushes_per_repo: 4.6000
-    active_days: 12
+    pushes_per_repo: 3.8000
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "TCSinger2"
+    title: "TCSinger2"
+    description: "PyTorch Implementation of TCSinger 2(ACL 2025): Customizable Multilingual Zero-shot Singing Voice Synthesis"
+    language: "Python"
+    topics:
+      - "cross-lingual"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "zero-shot"
+    stars_fact: 195
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "GTSinger"
+    title: "GTSinger"
+    description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
+    language: "Python"
+    topics:
+      - "dataset"
+      - "multilingual"
+      - "music"
+      - "singing"
+      - "singing-voice-synthesis"
+      - "speech-to-sing"
+      - "style-control"
+      - "style-transfer"
+      - "technique-detection"
+    stars_fact: 538
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "Athena-personal-academic-page"
     title: "Athena-personal-academic-page"
     description: "A modern personal academic page framework built with React and Vite."
@@ -93,38 +125,6 @@ repos:
     stars_fact: 212
     first_seen: null
     last_push: "2026-10-30"
-  - name: "GTSinger"
-    title: "GTSinger"
-    description: "Dataset and code of GTSinger(NeurIPS 2024 Spotlight): A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
-    language: "Python"
-    topics:
-      - "dataset"
-      - "multilingual"
-      - "music"
-      - "singing"
-      - "singing-voice-synthesis"
-      - "speech-to-sing"
-      - "style-control"
-      - "style-transfer"
-      - "technique-detection"
-    stars_fact: 539
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "TCSinger2"
-    title: "TCSinger2"
-    description: "PyTorch Implementation of TCSinger 2(ACL 2025): Customizable Multilingual Zero-shot Singing Voice Synthesis"
-    language: "Python"
-    topics:
-      - "cross-lingual"
-      - "singing"
-      - "singing-voice-synthesis"
-      - "speech-to-sing"
-      - "style-control"
-      - "style-transfer"
-      - "zero-shot"
-    stars_fact: 194
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "TCSinger"
     title: "TCSinger"
     description: "PyTorch Implementation of TCSinger(EMNLP 2024): Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control"
@@ -181,6 +181,6 @@ repos:
 
 # AaronZ345
 
-23 pushes across 5 repositories on 12 active days in the last 90 days of public GitHub push activity.
+19 pushes across 5 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AaronZ345

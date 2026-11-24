@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [4, 4, 11, 14, 31, 17, 32, 18, 12, 15, 0, 1, 1]
+pushes_per_week: [5, 9, 10, 23, 21, 37, 21, 6, 23, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 13
     distinct_repos: 5
-    active_days: 8
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 160
+    pushes: 158
     distinct_repos: 10
-    active_days: 46
+    active_days: 45
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4783
-  repo_per_active_day: 0.2174
+  push_per_day: 3.5111
+  repo_per_active_day: 0.2222
   not_owned_ratio: 0.8000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 26
+    pushes: 13
     distinct_repos: 5
-    pushes_per_repo: 5.2000
-    active_days: 8
+    pushes_per_repo: 2.6000
+    active_days: 5
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
   "90d":
-    pushes: 160
+    pushes: 158
     distinct_repos: 10
-    pushes_per_repo: 16.0000
-    active_days: 46
+    pushes_per_repo: 15.8000
+    active_days: 45
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "b4"
@@ -132,6 +132,6 @@ repos:
 
 # blove
 
-160 pushes across 10 repositories on 46 active days in the last 90 days of public GitHub push activity.
+158 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blove

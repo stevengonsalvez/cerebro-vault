@@ -8,16 +8,16 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 0, 4, 3, 4, 1, 0, 0, 1, 1, 0, 0, 1]
+pushes_per_week: [2, 4, 3, 4, 0, 1, 0, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2857
-  repo_per_active_day: 0.7143
+  push_per_day: 1.3077
+  repo_per_active_day: 0.7692
   not_owned_ratio: 0.0000
   basename_concentration: 0.1000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,98 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 10
-    pushes_per_repo: 1.8000
-    active_days: 14
+    pushes_per_repo: 1.7000
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "reverse-engineer-logic"
-    title: "reverse-engineer-logic"
-    description: "Confused by some bullshit? Use this tool to discern the motivation and logic behind anything at all."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "Max-Watch"
-    title: "Max-Watch"
-    description: "Free, 100% offline, encrypted Mac & Windows video recorder with motion detection. Records while your screen is locked into a password-protected AES-256 vault."
-    language: "C++"
-    topics:
-      - "encrypted-vault"
-      - "macos"
-      - "motion-detection"
-      - "offline"
-      - "security-camera"
-      - "swift"
-      - "video-recorder"
-      - "webcam"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Official Homebrew tap for Max Watch (free offline encrypted Mac video recorder with motion detection)."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "Compartment"
-    title: "Compartment"
-    description: "Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval."
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "ai-memory"
-      - "claude"
-      - "claude-code"
-      - "claude-desktop"
-      - "encryption"
-      - "gemini-cli-extension"
-      - "hermes-agent"
-      - "local-first"
-      - "long-term-memory"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "offline-first"
-      - "openclaw"
-      - "privacy"
-      - "python"
-      - "semantic-search"
-      - "vector-database"
-    stars_fact: 569
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "MaxFreedomPollard"
-    title: "MaxFreedomPollard"
-    description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
-    language: "Dockerfile"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "livemap-legal"
-    title: "livemap-legal"
-    description: "Offline GPS LiveMap: privacy policy, terms of use and demo video"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+repos: []
 ---
 
 # MaxFreedomPollard
 
-18 pushes across 10 repositories on 14 active days in the last 90 days of public GitHub push activity.
+17 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/MaxFreedomPollard

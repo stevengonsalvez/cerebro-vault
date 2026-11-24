@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [0, 0, 0, 0, 1, 8, 1, 3, 0, 6, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 8, 1, 2, 1, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "FullDots"
+    title: "FullDots"
+    description: "AI coworkers with their own computers. Local-first and self-hosted: bring any model, connect MCP tools with browser sign-in, and approve risky actions."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "computer-use"
+      - "llm"
+      - "local-first"
+      - "mcp"
+      - "react"
+      - "self-hosted"
+      - "typescript"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "openboard"
     title: "openboard"
     description: "A shared canvas your AI agent can read, edit, and be steered from. Works with any MCP client."
@@ -102,25 +118,17 @@ repos:
       - "react"
       - "typescript"
       - "whiteboard"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "FullDots"
-    title: "FullDots"
-    description: "AI coworkers with their own computers. Local-first and self-hosted: bring any model, connect MCP tools with browser sign-in, and approve risky actions."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "computer-use"
-      - "llm"
-      - "local-first"
-      - "mcp"
-      - "react"
-      - "self-hosted"
-      - "typescript"
-    stars_fact: 3
+    last_push: "2026-11-19"
+  - name: "MasrKit"
+    title: "MasrKit"
+    description: "Open-source skills for AI coding agents to build digital products that feel truly Egyptian, covering Arabic UX, Egyptian content, RTL design, frontend, backend, local integrations, and product best practices."
+    language: "HTML"
+    topics: []
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-09-26"
   - name: "group-5-mes-test-agent"
     title: "group-5-mes-test-agent"
     description: null
@@ -128,7 +136,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-23"
   - name: "git-cheatsheet"
     title: "git-cheatsheet"
     description: "One-page git, GitHub CLI and GitHub Actions cheatsheet with diagrams"
@@ -147,20 +155,6 @@ repos:
     language: null
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "arabkit"
-    title: "arabkit"
-    description: "Open-source AI agent skills for building products that feel local in every Arab country, organized by country."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "arab-world"
-      - "arabic"
-      - "localization"
-      - "rtl"
-    stars_fact: 1
     first_seen: null
     last_push: "2026-09-28"
 ---

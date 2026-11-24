@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dbbcb182b33b2dd8"
-pushes_per_week: [0, 0, 0, 1, 4, 0, 1, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 2, 0, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,34 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gardener"
+    title: "gardener"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2026-05-05"
+  - name: "JPBC_Optimize_IBE"
+    title: "JPBC_Optimize_IBE"
+    description: "JPBC_Optimize_IBE by JPBC"
+    language: "Java"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2019-04-09"
+  - name: "libimagequant-go"
+    title: "libimagequant-go"
+    description: "golang wrapper for libimagequant."
+    language: "C"
+    topics:
+      - "compression"
+      - "golang"
+      - "libimagequant"
+      - "png"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2019-04-09"
   - name: "utc8times"
     title: "utc8times"
     description: null
@@ -84,7 +112,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "sheetsql"
     title: "sheetsql"
     description: "Google Spreadsheet as a Database"
@@ -101,35 +129,6 @@ repos:
     stars_fact: 560
     first_seen: null
     last_push: "2026-09-12"
-  - name: "imagic"
-    title: "imagic"
-    description: "An easy and fast tool to process images."
-    language: "Go"
-    topics:
-      - "cli"
-      - "compression"
-      - "image-processing"
-      - "libimagequant"
-      - "watermark"
-    stars_fact: 16
-    first_seen: null
-    last_push: "2021-04-28"
-  - name: "color-cn"
-    title: "color-cn"
-    description: "Spread Chinese traditional colors to the world."
-    language: "CSS"
-    topics: []
-    stars_fact: 37
-    first_seen: null
-    last_push: "2019-08-29"
-  - name: "pond"
-    title: "pond"
-    description: "Generic Object Pool for Golang."
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2021-08-12"
 ---
 
 # joway

@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "3cb7ff1cdcf97c6b"
@@ -19,7 +19,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 3, 31, 44, 39, 4, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 24, 36, 51, 7, 0, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,12 +29,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 125
     distinct_repos: 44
@@ -64,13 +64,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 125
     distinct_repos: 44
@@ -107,7 +107,7 @@ repos:
       - "prompt-engineering"
       - "prompt-routing"
       - "python"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-09-29"
   - name: "roli-lpci"
@@ -160,7 +160,7 @@ repos:
       - "reproducibility"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-19"
   - name: "csv-quality-gate"
     title: "csv-quality-gate"
     description: "csv-quality-gate is a command-line data quality gate that runs CSV preflight validation, failing fast before an ML or LLM pipeline ingests broken, incomplete, duplicated, or junk input. It checks missing columns, empty files, empty cells, and duplicate rows, returning pass, warn, or fail with matching exit codes. Stdlib-only, CI-ready."

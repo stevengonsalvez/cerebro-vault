@@ -1,46 +1,47 @@
 ---
 login: "M4n5ter"
 name: null
-discovered_via: "fanout"
+discovered_via: "vault"
 discovered_via_all:
   - "fanout"
+  - "vault"
 provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [22, 3, 2, 3, 20, 9, 2, 5, 18, 10, 0, 2, 2]
+pushes_per_week: [5, 2, 1, 15, 13, 5, 4, 6, 23, 0, 1, 3, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    active_days: 10
+    pushes: 11
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 98
-    distinct_repos: 14
-    active_days: 33
-    repos_not_owned: 9
-    not_owned_basenames: 3
-    not_owned_owners: 9
+    pushes: 80
+    distinct_repos: 7
+    active_days: 29
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.9697
-  repo_per_active_day: 0.4242
-  not_owned_ratio: 0.6429
-  basename_concentration: 0.4286
+  push_per_day: 2.7586
+  repo_per_active_day: 0.2414
+  not_owned_ratio: 0.2857
+  basename_concentration: 0.2857
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,100 +53,35 @@ facets:
     pushes: 2
     distinct_repos: 1
     pushes_per_repo: 2.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 31
-    distinct_repos: 5
-    pushes_per_repo: 6.2000
-    active_days: 10
+    pushes: 11
+    distinct_repos: 3
+    pushes_per_repo: 3.6667
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 98
-    distinct_repos: 14
-    pushes_per_repo: 7.0000
-    active_days: 33
-    repos_not_owned: 9
-    not_owned_basenames: 3
-    not_owned_owners: 9
+    pushes: 80
+    distinct_repos: 7
+    pushes_per_repo: 11.4286
+    active_days: 29
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "rigs"
-    title: "rigs"
-    description: "Rigs is an Agent orchestration framework based on Rig"
-    language: "Rust"
-    topics:
-      - "agent"
-      - "agents"
-      - "ai"
-      - "orchestration"
-      - "orchestrator"
-      - "rig"
-    stars_fact: 20
-    first_seen: null
-    last_push: "2025-04-04"
-  - name: "skills"
-    title: "skills"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "agent-finance"
-    title: "agent-finance"
-    description: "AI-agent-first market intelligence CLI for evidence-driven financial research."
-    language: "Rust"
-    topics:
-      - "ai-agent"
-      - "cli"
-      - "finance"
-      - "market-data"
-      - "rust"
-      - "trading"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "sprig"
-    title: "sprig"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "sprig-benchmarks"
-    title: "sprig-benchmarks"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "opencode-gateway"
-    title: "opencode-gateway"
-    description: "Turn OpenCode into a local automation gateway with Telegram delivery, scheduled jobs, durable memory, and conversational ops."
-    language: "TypeScript"
-    topics:
-      - "gateway"
-      - "openclaw"
-      - "opencode"
-      - "opencode-plugin"
-      - "telegram"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-04-25"
+repos: []
 ---
 
 # M4n5ter
 
-98 pushes across 14 repositories on 33 active days in the last 90 days of public GitHub push activity.
+80 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

@@ -10,39 +10,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
   - "4d1450729e6ff44d"
-pushes_per_week: [9, 3, 7, 5, 8, 9, 6, 6, 3, 5, 0, 0, 0]
+pushes_per_week: [3, 6, 5, 7, 8, 7, 7, 2, 7, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
+    pushes: 6
+    distinct_repos: 5
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 25
-    active_days: 34
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 54
+    distinct_repos: 21
+    active_days: 31
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7941
-  repo_per_active_day: 0.7353
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.0800
+  push_per_day: 1.7419
+  repo_per_active_day: 0.6774
+  not_owned_ratio: 0.1905
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,50 +51,59 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 6
-    pushes_per_repo: 1.1667
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
     active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 61
-    distinct_repos: 25
-    pushes_per_repo: 2.4400
-    active_days: 34
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 3
+    pushes: 54
+    distinct_repos: 21
+    pushes_per_repo: 2.5714
+    active_days: 31
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 2
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tryexpress"
-    title: "tryexpress"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
   - name: "socketIOChat"
     title: "socketIOChat"
     description: "use socket.io build a chatRoom"
     language: "TypeScript"
     topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "tryexpress"
+    title: "tryexpress"
+    description: null
+    language: "JavaScript"
+    topics: []
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-12"
+  - name: "learnNodejs"
+    title: "learnNodejs"
+    description: "learn nodejs"
+    language: "JavaScript"
+    topics:
+      - "learn"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "youtube-download"
     title: "youtube-download"
     description: "youtube-dl"
@@ -119,18 +128,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-09"
-  - name: "codex-recall"
-    title: "codex-recall"
-    description: "Search your Codex history by code, project, command, error, or conversation — then resume the exact session."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-02"
 ---
 
 # luojiyin1987
 
-61 pushes across 25 repositories on 34 active days in the last 90 days of public GitHub push activity.
+54 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luojiyin1987

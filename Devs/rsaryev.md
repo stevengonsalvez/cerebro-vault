@@ -7,40 +7,40 @@ discovered_via_all:
 provenance_repos:
   - "localixai/tokendoctor"
 admitted: true
-low_n: true
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+low_n: false
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "fba317a26ce46e4d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
     pushes: 8
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    distinct_repos: 7
+    active_days: 5
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 8
+    active_days: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.6667
-  repo_per_active_day: 1.6667
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 1.8333
+  repo_per_active_day: 1.3333
+  not_owned_ratio: 0.6250
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,69 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 3
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
     pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    distinct_repos: 7
+    pushes_per_repo: 1.1429
+    active_days: 5
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 11
+    distinct_repos: 8
+    pushes_per_repo: 1.3750
+    active_days: 6
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "llx-plugin"
-    title: "llx-plugin"
-    description: "Add Claude Code plugin support to any agent: load plugins and run their skills, commands, agents and hooks through ports your host implements."
-    language: "TypeScript"
-    topics:
-      - "agent-sdk"
-      - "agents"
-      - "ai-agent"
-      - "claude"
-      - "claude-code"
-      - "claude-code-plugins"
-      - "coding-agent"
-      - "hooks"
-      - "llm"
-      - "marketplace"
-      - "mcp"
-      - "plugins"
-      - "skills"
-      - "subagents"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "habit-tracker"
-    title: "habit-tracker"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
+repos: []
 ---
 
 # rsaryev
 
-8 pushes across 5 repositories on 3 active days in the last 90 days of public GitHub push activity.
+11 pushes across 8 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rsaryev

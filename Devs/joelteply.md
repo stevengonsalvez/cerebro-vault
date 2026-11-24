@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [12, 5, 16, 21, 58, 97, 71, 46, 35, 81, 3, 0, 10]
+pushes_per_week: [7, 16, 12, 53, 94, 87, 36, 28, 99, 1, 2, 10, 8]
 windows:
   "7d":
-    pushes: 10
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 8
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 66
     distinct_repos: 3
     active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 455
+    pushes: 453
     distinct_repos: 7
     active_days: 55
     repos_not_owned: 6
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.2727
+  push_per_day: 8.2364
   repo_per_active_day: 0.1273
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 10
-    distinct_repos: 1
-    pushes_per_repo: 10.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 115
+    pushes: 66
     distinct_repos: 3
-    pushes_per_repo: 38.3333
+    pushes_per_repo: 22.0000
     active_days: 11
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 455
+    pushes: 453
     distinct_repos: 7
-    pushes_per_repo: 65.0000
+    pushes_per_repo: 64.7143
     active_days: 55
     repos_not_owned: 6
     not_owned_basenames: 6
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-455 pushes across 7 repositories on 55 active days in the last 90 days of public GitHub push activity.
+453 pushes across 7 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

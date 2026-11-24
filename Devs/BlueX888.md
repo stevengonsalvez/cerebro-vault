@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 3, 7, 4, 0, 7, 1, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 7, 5, 0, 6, 1, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "MyResearch"
-    title: "MyResearch"
+  - name: "xiaohongshu-research-notes"
+    title: "xiaohongshu-research-notes"
     description: null
-    language: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
+  - name: "starlight-sidebar-hash-repro"
+    title: "starlight-sidebar-hash-repro"
+    description: "Minimal reproduction for withastro/starlight#4432: sidebar links with a hash/query are not marked current"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "MyResearch"
+    title: "MyResearch"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "BlueX888"
     title: "BlueX888"
     description: null
@@ -92,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "Medical-Agent-Swarm"
     title: "Medical-Agent-Swarm"
     description: "基于 LangGraph 的医疗问答多智能体原型：Orchestrator–Worker 编排 + 确定性安全层"
@@ -109,22 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-09"
-  - name: "auto-contribute"
-    title: "auto-contribute"
-    description: "Autonomous open-source contribution skill for AI coding agents"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "mastra-mcp-media-repro"
-    title: "mastra-mcp-media-repro"
-    description: "Minimal repro: MCP image tool results reach the AI SDK v5 model prompt as spec-v3 image-data instead of a media part (@mastra/core)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # BlueX888

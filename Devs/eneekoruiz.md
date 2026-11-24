@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 3, 9, 8, 11, 8, 5, 5, 2, 1, 0, 0]
+pushes_per_week: [0, 3, 9, 8, 11, 7, 6, 4, 3, 0, 1, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 12
+    pushes: 55
+    distinct_repos: 13
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0385
-  repo_per_active_day: 0.4615
+  push_per_day: 2.1154
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0833
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 4
-    pushes_per_repo: 1.5000
-    active_days: 4
+    pushes_per_repo: 1.2500
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 53
-    distinct_repos: 12
-    pushes_per_repo: 4.4167
+    pushes: 55
+    distinct_repos: 13
+    pushes_per_repo: 4.2308
     active_days: 26
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -78,86 +78,64 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "eneekoruiz"
-    title: "eneekoruiz"
-    description: "Software engineer focused on full-stack applications and automation tools."
-    language: null
+  - name: "tabs"
+    title: "tabs"
+    description: "Reproductor de tablaturas y afinador de guitarra offline con Web Audio API, Pitchy y AlphaTab."
+    language: "JavaScript"
     topics:
-      - "full-stack"
-      - "github-profile"
-      - "software-engineer"
+      - "webaudio"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "ana-peluquera"
-    title: "ana-peluquera"
-    description: "Next.js booking website and content dashboard for a local hair and beauty salon."
-    language: "TypeScript"
-    topics:
-      - "booking-system"
-      - "firebase"
-      - "google-calendar"
-      - "nextjs"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "SPL"
-    title: "SPL"
-    description: "Booking and scheduling application for service workflows with overlapping appointment phases."
-    language: "TypeScript"
-    topics:
-      - "nodejs"
-      - "react"
-      - "scheduling"
-      - "typescript"
-      - "vite"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "gallery_organizer"
-    title: "gallery_organizer"
-    description: "Local Streamlit tool for indexing, searching, and reviewing photo and video collections."
-    language: "Python"
-    topics:
-      - "computer-vision"
-      - "photo-management"
-      - "python"
-      - "sqlite"
-      - "streamlit"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "helen"
-    title: "helen"
-    description: "CLI for scaffolding React and Vite projects with optional Docker and GitHub Actions configuration."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "docker"
-      - "github-actions"
-      - "react"
-      - "vite"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-23"
   - name: "portfolio"
     title: "portfolio"
-    description: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and GSAP."
+    description: "Portfolio personal web desarrollado con Next.js (App Router), TypeScript, Tailwind CSS y animaciones GSAP."
     language: "TypeScript"
     topics:
-      - "gsap"
       - "nextjs"
-      - "portfolio"
-      - "tailwindcss"
-      - "typescript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-22"
+  - name: "revista"
+    title: "revista"
+    description: "Revista y plataforma digital para la marca de eventos RAK$ desarrollada con Next.js, React Three Fiber (3D) y Sanity CMS."
+    language: "TypeScript"
+    topics:
+      - "nextjs"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "regla"
+    title: "regla"
+    description: "PWA y app móvil con Capacitor para registro del ciclo y bienestar con almacenamiento local privado."
+    language: "TypeScript"
+    topics:
+      - "pwa"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "recordatorios"
+    title: "recordatorios"
+    description: "PWA de gestión de tareas y recordatorios offline-first con React, TypeScript, IndexedDB y backend Express."
+    language: "TypeScript"
+    topics:
+      - "offline-first"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "LoginJSF"
+    title: "LoginJSF"
+    description: "Aplicación web académica de gestión de viajes compartidos con Java, JSF y base de datos ObjectDB."
+    language: "Java"
+    topics:
+      - "java"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
 ---
 
 # eneekoruiz
 
-53 pushes across 12 repositories on 26 active days in the last 90 days of public GitHub push activity.
+55 pushes across 13 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneekoruiz

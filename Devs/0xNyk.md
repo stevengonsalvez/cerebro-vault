@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "635453fe3b6ecc12"
-pushes_per_week: [0, 0, 0, 5, 73, 0, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 76, 0, 0, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -93,7 +93,7 @@ repos:
       - "memory"
       - "nous-research"
       - "skills"
-    stars_fact: 6033
+    stars_fact: 6071
     first_seen: null
     last_push: "2026-10-27"
   - name: "council-of-high-intelligence"
@@ -115,9 +115,35 @@ repos:
       - "opencode"
       - "prompt-engineering"
       - "structured-debate"
-    stars_fact: 4859
+    stars_fact: 4880
     first_seen: "2026-06-30T06:00:04.278254+00:00"
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
+  - name: "unmachined"
+    title: "unmachined"
+    description: "Anti-AI-slop agent skill: makes text read written and UI look made, not generated. Deterministic scanners + severity-tiered tell catalogs."
+    language: "Python"
+    topics:
+      - "ai-writing"
+      - "anti-slop"
+      - "claude-code"
+      - "llm"
+      - "skill"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "agent-security"
+    title: "agent-security"
+    description: "Deterministic safety gates for repositories touched by coding agents and automation."
+    language: "Shell"
+    topics:
+      - "agent-security"
+      - "github-cli"
+      - "prompt-injection"
+      - "secret-scanning"
+      - "supply-chain-security"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "awesome-agent-cortex"
     title: "awesome-agent-cortex"
     description: "Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce."
@@ -154,38 +180,6 @@ repos:
     stars_fact: 262
     first_seen: null
     last_push: "2026-11-13"
-  - name: "lacp"
-    title: "lacp"
-    description: "Local-first policy, evidence, memory, and recovery controls for Claude, Codex, Hermes, and other CLI coding agents."
-    language: "Shell"
-    topics:
-      - "agent-harness"
-      - "ai-agents"
-      - "claude-code"
-      - "codex"
-      - "control-plane"
-      - "hermes"
-      - "local-first"
-    stars_fact: 311
-    first_seen: null
-    last_push: "2026-10-26"
-  - name: "0xNyk"
-    title: "0xNyk"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "ai-agents"
-      - "builderz"
-      - "defi"
-      - "github-profile"
-      - "rust"
-      - "solana"
-      - "trading"
-      - "typescript"
-      - "web3"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-16"
 ---
 
 # 0xNyk

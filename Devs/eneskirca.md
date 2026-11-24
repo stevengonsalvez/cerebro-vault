@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c7d59e96ede9112e"
-pushes_per_week: [7, 2, 0, 0, 14, 21, 6, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 4, 21, 15, 6, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 6
-    active_days: 18
-    repos_not_owned: 5
+    pushes: 48
+    distinct_repos: 4
+    active_days: 16
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.0556
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.8333
+  push_per_day: 3.0000
+  repo_per_active_day: 0.2500
+  not_owned_ratio: 0.7500
+  basename_concentration: 0.7500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 55
-    distinct_repos: 6
-    pushes_per_repo: 9.1667
-    active_days: 18
-    repos_not_owned: 5
+    pushes: 48
+    distinct_repos: 4
+    pushes_per_repo: 12.0000
+    active_days: 16
+    repos_not_owned: 3
     not_owned_basenames: 2
-    not_owned_owners: 5
+    not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nodeterm"
@@ -102,9 +102,9 @@ repos:
       - "terminal-multiplexer"
       - "tmux"
       - "workspace-manager"
-    stars_fact: 2550
+    stars_fact: 2575
     first_seen: "2026-08-23T06:00:02.975209+00:00"
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "raw-motion"
     title: "raw-motion"
     description: "Motion graphics an AI can actually write. No animation library — one seek(t) function, rendered at 60fps with real motion blur and a synthesized soundtrack."
@@ -151,6 +151,6 @@ repos:
 
 # eneskirca
 
-55 pushes across 6 repositories on 18 active days in the last 90 days of public GitHub push activity.
+48 pushes across 4 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eneskirca

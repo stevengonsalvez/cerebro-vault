@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 2, 3, 10, 4, 1, 2, 1, 5, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 9, 6, 2, 0, 3, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,6 +78,42 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nirmito"
+    title: "nirmito"
+    description: "Software agents that take an idea to deployed, maintained software, with no human involvement after the idea. Free and open source."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "cli-faq-shortcuts"
+    title: "cli-faq-shortcuts"
+    description: "Turn repeated Claude Code, Codex, and Cursor prompts into reusable slash commands. Local Python history extractor + Agent Skill."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "anthropic"
+      - "automation"
+      - "claude"
+      - "claude-code"
+      - "claude-code-skills"
+      - "cli"
+      - "codex"
+      - "cursor"
+      - "cursor-ai"
+      - "developer-tools"
+      - "llm"
+      - "openai-codex"
+      - "productivity"
+      - "prompts"
+      - "python"
+      - "skill"
+      - "slash-commands"
+      - "workflow-automation"
+    stars_fact: 135
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "out-of-tokens"
     title: "out-of-tokens"
     description: "Great ideas, empty wallets. Share an idea you can't afford to build (LLM API or GPU costs) and keep the credit."
@@ -153,30 +189,7 @@ repos:
       - "research-tools"
     stars_fact: 112
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "kishormorol"
-    title: "kishormorol"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "promptalias"
-    title: "promptalias"
-    description: "Reusable prompts as Agent Skills for Claude Code, Codex, and Cursor. Named after a cross-tool compiler that was designed, researched, and killed — the prior-art note explains why."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "codex"
-      - "cursor"
-      - "developer-tools"
-      - "prompts"
-      - "skill-md"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-24"
 ---
 
 # kishormorol

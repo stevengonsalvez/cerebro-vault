@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [1, 0, 0, 0, 4, 3, 8, 4, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 4, 2, 9, 4, 0, 1, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 14
-    active_days: 13
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.6923
-  repo_per_active_day: 1.0769
+  push_per_day: 1.7143
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.2143
   basename_concentration: 0.0714
   shapes: []
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 1.5000
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 22
+    pushes: 24
     distinct_repos: 14
-    pushes_per_repo: 1.5714
-    active_days: 13
+    pushes_per_repo: 1.7143
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hermes-oci-provider"
+    title: "hermes-oci-provider"
+    description: "Oracle Cloud Infrastructure (OCI) Generative AI model provider plugin for Hermes Agent"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "openshell-oci-kill-switch-demo"
     title: "openshell-oci-kill-switch-demo"
     description: "Agent kill switch demo on NVIDIA OpenShell with OCI Generative AI: runbook, evidence, insights, upstream OCI integration status"
@@ -117,18 +125,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-18"
-  - name: "fede-kamel"
-    title: "fede-kamel"
-    description: "GitHub profile README"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
 ---
 
 # fede-kamel
 
-22 pushes across 14 repositories on 13 active days in the last 90 days of public GitHub push activity.
+24 pushes across 14 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/fede-kamel

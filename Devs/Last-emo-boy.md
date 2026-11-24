@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 7, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 11
-    active_days: 6
+    pushes: 10
+    distinct_repos: 10
+    active_days: 5
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 2.0000
-  repo_per_active_day: 1.8333
-  not_owned_ratio: 0.9091
-  basename_concentration: 0.0909
+  repo_per_active_day: 2.0000
+  not_owned_ratio: 1.0000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,76 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 12
-    distinct_repos: 11
-    pushes_per_repo: 1.0909
-    active_days: 6
+    pushes: 10
+    distinct_repos: 10
+    pushes_per_repo: 1.0000
+    active_days: 5
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wuwa-tappo-mac"
-    title: "wuwa-tappo-mac"
-    description: "Wuwa Tappo 国服非官方 macOS 适配：完整资源打包、Apple Silicon 原生后端与自动构建"
-    language: "JavaScript"
-    topics:
-      - "desktop-pet"
-      - "macos"
-      - "rust"
-      - "tauri"
-      - "wuthering-waves"
-      - "wuwa"
-    stars_fact: 19
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "Multisim-MCP"
-    title: "Multisim-MCP"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "Swarm"
-    title: "Swarm"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "mactoys"
-    title: "mactoys"
-    description: "PowerToys, reimagined for the Mac. 31 power-user utilities in one native menu-bar app for macOS 26."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "nib"
-    title: "nib"
-    description: "nib: an open design canvas for .pen files, with an MCP server for coding agents and a built-in agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "agent-crucible"
-    title: "agent-crucible"
-    description: "Agent Crucible (CRUX): verified BSC deployment, bounded all-pay PvP and an installable player Skill."
-    language: "Solidity"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+repos: []
 ---
 
 # Last-emo-boy
 
-12 pushes across 11 repositories on 6 active days in the last 90 days of public GitHub push activity.
+10 pushes across 10 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Last-emo-boy

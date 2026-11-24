@@ -12,12 +12,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "229b322ed982d40b"
   - "c4281af03270173b"
-pushes_per_week: [0, 0, 0, 1, 8, 9, 22, 0, 2, 7, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 4, 6, 29, 0, 1, 8, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,11 +27,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 49
@@ -62,12 +62,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 4
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 49
@@ -82,54 +82,54 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "personal-finance-copilot"
-    title: "personal-finance-copilot"
-    description: "AI + Finance Tracker — a CopilotKit React Native demo: conversational, multi-currency personal finance (chat-driven transactions/budgets/accounts, receipt-photo attachments, human-in-the-loop approvals) + a Next.js CopilotKit runtime."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-14"
-  - name: "functional-copilots"
-    title: "functional-copilots"
-    description: "Beta: Claude Code skills and CopilotKit starters for building a functional copilot for one business workflow (CopilotKit, AG-UI, CopilotKit Intelligence)."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "agent-design"
-    title: "agent-design"
-    description: "Your agent has a UX whether you designed it or not. A skill for designing and critiquing AI agent experiences: behavior, interface, and agent-readability."
+  - name: "chiefclaw"
+    title: "chiefclaw"
+    description: null
     language: "JavaScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-10"
-  - name: "capy-jelly"
-    title: "capy-jelly"
-    description: "A capybara cast in jelly: an interactive WebGPU soft-body study with ears that flick and yuzu to balance on its head."
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "open-harvey"
-    title: "open-harvey"
-    description: "An open-source contract-review copilot demo built with CopilotKit and AG-UI. Runs on a scripted mock with no API key. Not affiliated with or endorsed by Harvey."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "awesome-style-refs"
-    title: "awesome-style-refs"
+    last_push: "2026-02-25"
+  - name: "awesome-openclaw-apps"
+    title: "awesome-openclaw-apps"
     description: null
     language: null
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-03-23"
+    last_push: "2026-03-12"
+  - name: "vibecore"
+    title: "vibecore"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2025-09-20"
+  - name: "naaf-research-agents"
+    title: "naaf-research-agents"
+    description: "National AI Assessment Framework Deep Research Agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-02-22"
+  - name: "chalk-skills"
+    title: "chalk-skills"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-10"
+  - name: "adkflow"
+    title: "adkflow"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-06-06"
 ---
 
 # jerelvelarde

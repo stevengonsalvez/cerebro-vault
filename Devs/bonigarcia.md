@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 3, 2, 0, 6, 0, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 3, 1, 1, 6, 0, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -94,9 +94,52 @@ repos:
       - "prompting"
       - "rag"
       - "spec-driven-development"
-    stars_fact: 188
+    stars_fact: 192
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "vibium-demo"
+    title: "vibium-demo"
+    description: "Basic demo using Vibium"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "mastering-junit5"
+    title: "mastering-junit5"
+    description: "Examples of the Packt book \"Mastering Software Testing with JUnit 5: Comprehensive guide to develop high quality Java applications\""
+    language: "Java"
+    topics:
+      - "android"
+      - "appium"
+      - "docker"
+      - "java"
+      - "junit"
+      - "junit5"
+      - "mockito"
+      - "rest"
+      - "selenium"
+      - "spring"
+      - "spring-boot"
+    stars_fact: 429
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "webdrivermanager"
+    title: "webdrivermanager"
+    description: "Automated driver management and other helper features for Selenium WebDriver in Java"
+    language: "Java"
+    topics:
+      - "chromedriver"
+      - "docker"
+      - "geckodriver"
+      - "java"
+      - "maven"
+      - "selenium"
+      - "selenium-webdriver"
+      - "webdriver"
+    stars_fact: 2689
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "selenium-jupiter"
     title: "selenium-jupiter"
     description: "JUnit extension for Selenium WebDriver"
@@ -114,23 +157,7 @@ repos:
       - "vnc"
     stars_fact: 237
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "webdrivermanager"
-    title: "webdrivermanager"
-    description: "Automated driver management and other helper features for Selenium WebDriver in Java"
-    language: "Java"
-    topics:
-      - "chromedriver"
-      - "docker"
-      - "geckodriver"
-      - "java"
-      - "maven"
-      - "selenium"
-      - "selenium-webdriver"
-      - "webdriver"
-    stars_fact: 2691
-    first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "webdrivermanager-basic"
     title: "webdrivermanager-basic"
     description: "Basic project with JUnit tests using Selenium Webdriver and WebDriverManager"
@@ -138,28 +165,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "novnc"
-    title: "novnc"
-    description: "Standalone noVNC client based on Alpine"
-    language: "Dockerfile"
-    topics:
-      - "docker"
-      - "docker-image"
-      - "novnc"
-      - "vnc"
-      - "webdrivermanager"
-    stars_fact: 47
-    first_seen: null
-    last_push: "2025-09-01"
-  - name: "selenium-examples"
-    title: "selenium-examples"
-    description: "Basic examples using Selenium and Java"
-    language: "Java"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-18"
 ---
 
 # bonigarcia

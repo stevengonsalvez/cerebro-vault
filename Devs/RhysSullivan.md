@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 7, 0, 18, 33, 30, 27, 13, 1, 8, 0, 0, 1]
+pushes_per_week: [7, 0, 10, 26, 37, 29, 19, 0, 9, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 4
+    pushes: 7
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 138
     distinct_repos: 11
-    active_days: 39
+    active_days: 37
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 3.5897
-  repo_per_active_day: 0.2821
+  push_per_day: 3.7297
+  repo_per_active_day: 0.2973
   not_owned_ratio: 0.8182
   basename_concentration: 0.4545
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 4
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 140
+    pushes: 138
     distinct_repos: 11
-    pushes_per_repo: 12.7273
-    active_days: 39
+    pushes_per_repo: 12.5455
+    active_days: 37
     repos_not_owned: 9
     not_owned_basenames: 5
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "twitter-account-location-in-username"
-    title: "twitter-account-location-in-username"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 330
-    first_seen: null
-    last_push: "2025-11-23"
-  - name: "shiptalkers"
-    title: "shiptalkers"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 794
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "minecraft-rhys-dev"
-    title: "minecraft-rhys-dev"
-    description: "Client mods for the minecraft.rhys.dev server (Modrinth App pack)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "hogchat"
-    title: "hogchat"
-    description: "Chat with your PostHog data"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 168
-    first_seen: null
-    last_push: "2024-03-02"
-  - name: "personal-site"
-    title: "personal-site"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "epstein-files-browser"
-    title: "epstein-files-browser"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 759
-    first_seen: null
-    last_push: "2025-12-20"
+repos: []
 ---
 
 # RhysSullivan
 
-140 pushes across 11 repositories on 39 active days in the last 90 days of public GitHub push activity.
+138 pushes across 11 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

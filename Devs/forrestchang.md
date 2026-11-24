@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ca6e9330cc1b2a53"
-pushes_per_week: [1, 0, 3, 6, 10, 12, 0, 0, 2, 0, 0, 0, 3]
+pushes_per_week: [0, 3, 4, 4, 20, 0, 0, 0, 2, 0, 0, 3, 5]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 5
     distinct_repos: 1
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 41
     distinct_repos: 2
-    active_days: 15
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4667
-  repo_per_active_day: 0.1333
+  push_per_day: 2.4118
+  repo_per_active_day: 0.1176
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,14 +49,6 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
     pushes: 5
     distinct_repos: 1
     pushes_per_repo: 5.0000
@@ -64,19 +56,52 @@ facets:
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
+  "30d":
+    pushes: 8
+    distinct_repos: 1
+    pushes_per_repo: 8.0000
+    active_days: 5
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 37
+    pushes: 41
     distinct_repos: 2
-    pushes_per_repo: 18.5000
-    active_days: 15
+    pushes_per_repo: 20.5000
+    active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "youtube-reader"
+    title: "youtube-reader"
+    description: "CLI to turn YouTube transcripts into readable articles (supports API, yt-dlp subtitles, and Whisper transcription)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-02-03"
+  - name: "forrestchang"
+    title: "forrestchang"
+    description: "Jiayuan Zhang's GitHub Profile"
+    language: null
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-04-01"
+  - name: "multica-theme-fathom"
+    title: "multica-theme-fathom"
+    description: "Fathom: a deep-ocean blue Multica theme with a pixel-art sea, white pages and a night sea in dark mode."
+    language: "CSS"
+    topics:
+      - "multica-theme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "gptlang"
     title: "gptlang"
     description: "A new programming language implemented by GPT-4."
@@ -101,35 +126,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-14"
-  - name: "CLRS"
-    title: "CLRS"
-    description: "Introduction to Algorithms solutions and notes."
-    language: "C++"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2015-11-21"
-  - name: "multica-lisa"
-    title: "multica-lisa"
-    description: "The Apple Lisa Office System (1983) as a Multica theme: one-bit black and white, the Lisa system font, a dithered desktop and inverse video."
-    language: "CSS"
-    topics:
-      - "multica-theme"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "programmer-soft-skills"
-    title: "programmer-soft-skills"
-    description: "程序员的软技能"
-    language: "Vue"
-    topics: []
-    stars_fact: 491
-    first_seen: null
-    last_push: "2022-06-30"
 ---
 
 # forrestchang
 
-37 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
+41 pushes across 2 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/forrestchang

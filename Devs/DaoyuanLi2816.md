@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "50b9cd6dfa9f75d1"
   - "939f60d749009d51"
-pushes_per_week: [0, 0, 1, 0, 2, 0, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 0, 4, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,26 +78,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "can-i-finetune-this"
-    title: "can-i-finetune-this"
-    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
+  - name: "RepoGuardBench"
+    title: "RepoGuardBench"
+    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
     language: "Python"
     topics:
-      - "bitsandbytes"
-      - "fine-tuning"
-      - "gpu"
-      - "hugging-face"
-      - "llm"
-      - "lora"
-      - "memory-estimation"
-      - "peft"
-      - "pytorch"
-      - "qlora"
-      - "transformers"
-      - "vram"
-    stars_fact: 796
+      - "ai-security"
+      - "benchmark"
+      - "coding-agents"
+      - "llm-security"
+      - "local-llm"
+      - "prompt-injection"
+      - "reproducible-research"
+      - "software-engineering"
+    stars_fact: 75
     first_seen: null
-    last_push: "2026-10-08"
+    last_push: "2026-10-03"
   - name: "mini-verl"
     title: "mini-verl"
     description: "verl for a single consumer GPU. PPO, GRPO and on-policy distillation on NVIDIA GPUs."
@@ -121,25 +117,48 @@ repos:
       - "single-gpu"
       - "tool-use"
       - "verl"
-    stars_fact: 311
+    stars_fact: 313
     first_seen: null
     last_push: "2026-09-15"
-  - name: "RepoGuardBench"
-    title: "RepoGuardBench"
-    description: "Benchmarking repository-borne prompt injection attacks and lightweight defenses for local coding agents. DL4C @ ICML 2026."
+  - name: "pairjudge"
+    title: "pairjudge"
+    description: "Pairwise LLM judges (A/B/tie): budget-aware multi-turn packing, position-bias correction, pseudo-label distillation. Generalized from the 4th-place (gold) solution to Kaggle LMSYS Chatbot Arena."
     language: "Python"
     topics:
-      - "ai-security"
-      - "benchmark"
-      - "coding-agents"
-      - "llm-security"
-      - "local-llm"
-      - "prompt-injection"
-      - "reproducible-research"
-      - "software-engineering"
-    stars_fact: 75
+      - "chatbot-arena"
+      - "gold-medal"
+      - "kaggle-competition"
+      - "kaggle-solution"
+      - "llm"
+      - "llm-as-judge"
+      - "lora"
+      - "nlp"
+      - "preference-learning"
+      - "reward-model"
+      - "rlhf"
+    stars_fact: 171
     first_seen: null
-    last_push: "2026-10-03"
+    last_push: "2026-10-09"
+  - name: "can-i-finetune-this"
+    title: "can-i-finetune-this"
+    description: "Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements."
+    language: "Python"
+    topics:
+      - "bitsandbytes"
+      - "fine-tuning"
+      - "gpu"
+      - "hugging-face"
+      - "llm"
+      - "lora"
+      - "memory-estimation"
+      - "peft"
+      - "pytorch"
+      - "qlora"
+      - "transformers"
+      - "vram"
+    stars_fact: 796
+    first_seen: null
+    last_push: "2026-10-08"
   - name: "labelbank"
     title: "labelbank"
     description: "Retrieve + rerank over a closed label bank: LLM bi-encoders with self-mined hard negatives and a generative listwise reranker. Generalized from a silver-medal solution to Kaggle Eedi — Mining Misconceptions in Mathematics."
@@ -181,25 +200,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2026-07-11"
-  - name: "pairjudge"
-    title: "pairjudge"
-    description: "Pairwise LLM judges (A/B/tie): budget-aware multi-turn packing, position-bias correction, pseudo-label distillation. Generalized from the 4th-place (gold) solution to Kaggle LMSYS Chatbot Arena."
-    language: "Python"
-    topics:
-      - "chatbot-arena"
-      - "gold-medal"
-      - "kaggle-competition"
-      - "kaggle-solution"
-      - "llm"
-      - "llm-as-judge"
-      - "lora"
-      - "nlp"
-      - "preference-learning"
-      - "reward-model"
-      - "rlhf"
-    stars_fact: 170
-    first_seen: null
-    last_push: "2026-10-09"
 ---
 
 # DaoyuanLi2816

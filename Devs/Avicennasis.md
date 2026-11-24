@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [7, 0, 3, 15, 15, 11, 13, 18, 1, 2, 0, 0, 2]
+pushes_per_week: [0, 0, 13, 16, 14, 14, 18, 1, 2, 0, 0, 2, 3]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 5
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 28
     active_days: 27
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.2222
+  push_per_day: 3.0741
   repo_per_active_day: 1.0370
   not_owned_ratio: 0.1786
   basename_concentration: 0.0357
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 4
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 87
+    pushes: 83
     distinct_repos: 28
-    pushes_per_repo: 3.1071
+    pushes_per_repo: 2.9643
     active_days: 27
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-21"
   - name: "BluePaper"
     title: "BluePaper"
     description: "Cross-platform Bluetooth label printer app — KMP + Compose Multiplatform"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "redmine-mcp-workflows"
     title: "redmine-mcp-workflows"
     description: "Schema-aware MCP server for Redmine — validates workflow transitions, custom fields, and required fields before round-tripping the API"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "pyncua"
     title: "pyncua"
     description: "Python client for the NCUA Credit Union Mapping API — sync & async, typed Pydantic v2 models"
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-21"
   - name: "porkbun-mcp-server"
     title: "porkbun-mcp-server"
     description: "Model Context Protocol server for Porkbun's API v3 — domains, DNS, DNSSEC, SSL with pluggable audit-log emit on every mutation"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-21"
   - name: "link-scrubber"
     title: "link-scrubber"
     description: "Cross-browser extension that strips or rewrites tracking parameters from URLs"
@@ -124,11 +124,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
 ---
 
 # Avicennasis
 
-87 pushes across 28 repositories on 27 active days in the last 90 days of public GitHub push activity.
+83 pushes across 28 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Avicennasis

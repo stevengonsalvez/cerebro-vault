@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 1, 1, 1, 2, 1, 4, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 1, 2, 5, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,59 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "truss-framework"
-    title: "truss-framework"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "leoreisdias"
-    title: "leoreisdias"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "fullstack-assets-ts"
-    title: "fullstack-assets-ts"
-    description: "A collection of reusable utilities for NestJS, Next.js & isomorphic code. Not a package, but ready-to-use code for copying & reusing. Includes API helpers, authentication, validation, UI/UX optimizations & microservice utilities. Covers React components, hooks, Prisma utilities & CASL permissions. Check the READMEs for details!"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-08"
-  - name: "mini-animations-motion-reactspring-gsap-animejs"
-    title: "mini-animations-motion-reactspring-gsap-animejs"
-    description: "A quick and mini comparision among Motion, React Spring, GSAP and Animejs DX/Feeling"
-    language: "TypeScript"
-    topics:
-      - "animejs"
-      - "gsap"
-      - "motion"
-      - "react-spring"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-10-07"
-  - name: "upload-ai-api"
-    title: "upload-ai-api"
-    description: "NLW AI - Set/2023"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-09-18"
-  - name: "upload-ai-web"
-    title: "upload-ai-web"
-    description: "NLW AI - Set/2023"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-09-18"
+repos: []
 ---
 
 # leoreisdias

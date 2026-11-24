@@ -8,39 +8,39 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 2, 2, 2, 4, 1, 8, 0, 2, 1, 0, 0]
+pushes_per_week: [2, 1, 2, 3, 4, 1, 7, 1, 2, 0, 1, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 4
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 8
+    pushes: 28
+    distinct_repos: 9
     active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3000
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.1250
+  push_per_day: 1.4000
+  repo_per_active_day: 0.4500
+  not_owned_ratio: 0.4444
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    pushes: 4
+    distinct_repos: 1
+    pushes_per_repo: 4.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 26
-    distinct_repos: 8
-    pushes_per_repo: 3.2500
+    pushes: 28
+    distinct_repos: 9
+    pushes_per_repo: 3.1111
     active_days: 20
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -76,57 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "AstrBot-Go"
-    title: "AstrBot-Go"
-    description: "Desktop launcher for AstrBot built with Tauri and Vuetify. / 基于 Tauri 与 Vuetify 构建的 AstrBot 桌面启动器。"
-    language: "Rust"
-    topics:
-      - "astrbot"
-      - "launcher"
-      - "tauri"
-      - "vueitfy"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "astrbot_plugin_qq_custom_command_panel"
-    title: "astrbot_plugin_qq_custom_command_panel"
-    description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
-    language: "Python"
-    topics:
-      - "astrbot-plugin"
-      - "python"
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "astrbot_plugin_qq_custom_menu"
-    title: "astrbot_plugin_qq_custom_menu"
-    description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "mantoujun12"
-    title: "mantoujun12"
-    description: "Helloヾ(•ω•`)o"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "mantoujun12.github.io"
-    title: "mantoujun12.github.io"
-    description: "This is my Personal Website."
-    language: "SCSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-07"
+repos: []
 ---
 
 # mantoujun12
 
-26 pushes across 8 repositories on 20 active days in the last 90 days of public GitHub push activity.
+28 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

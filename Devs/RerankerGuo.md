@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "541318303a272608"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 3, 4, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 3, 4, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RerankerGuo"
+    title: "RerankerGuo"
+    description: "Profile README · AI Native Coder @ Southeast University · Agent Infra / Agent Memory / LLM Post-Training"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "RerankerGuo.github.io"
     title: "RerankerGuo.github.io"
     description: null
@@ -86,7 +94,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-18"
 ---
 
 # RerankerGuo

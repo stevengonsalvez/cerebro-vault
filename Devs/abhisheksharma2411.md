@@ -11,12 +11,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "c489e6fb5febf2ab"
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 0, 2, 6, 5, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 6, 3, 3, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -26,9 +26,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -61,10 +61,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,6 +81,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "streamcheck"
+    title: "streamcheck"
+    description: "Static detection of exactly-once violations in payment stream pipelines, with executable witnesses"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "distributed-systems-skills"
     title: "distributed-systems-skills"
     description: "Agent skills for production correctness: idempotency, exactly-once effects, failure-mode analysis, and money-movement integrity."
@@ -95,9 +103,17 @@ repos:
       - "reliability"
       - "site-reliability-engineering"
       - "skills"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
+  - name: "finality-aware-planning"
+    title: "finality-aware-planning"
+    description: "A planner that prices its options under uncertain payment finality, and a negative result about expected-value safety shields"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "justonce"
     title: "justonce"
     description: "Make side effects happen exactly once. Idempotency keys, atomic claims, and an effect ledger for code that charges money, sends messages, or mutates state."
@@ -117,7 +133,7 @@ repos:
       - "sqlite"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-18"
   - name: "abhisheksharma2411.github.io"
     title: "abhisheksharma2411.github.io"
     description: null
@@ -134,22 +150,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-15"
-  - name: "gcp-payment-platform-reference"
-    title: "gcp-payment-platform-reference"
-    description: "Reference modules for payment platforms on Google Cloud: an end-to-end payment platform, and multi-provider orchestration with capability contracts, deterministic routing and failover permitted only from a proven-safe outcome. Zero runtime dependencies."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
-  - name: "gcp-secure-decision-systems-lab"
-    title: "gcp-secure-decision-systems-lab"
-    description: "Runnable labs for secure decision systems on Google Cloud: deadline-aware fraud decisioning, authorization-aware RAG, a PCI-aware token boundary, and a real-time fraud platform reference. Zero runtime dependencies, no cloud project required."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-14"
 ---
 
 # abhisheksharma2411

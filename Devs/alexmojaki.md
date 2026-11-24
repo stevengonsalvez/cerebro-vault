@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [1, 0, 0, 0, 0, 1, 2, 1, 6, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 0, 1, 3, 6, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 11
     distinct_repos: 3
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 11
     distinct_repos: 3
@@ -77,14 +77,6 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "eval_type_backport"
-    title: "eval_type_backport"
-    description: "Like `typing._eval_type`, but lets older Python versions use newer typing features."
-    language: "Python"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-06-02"
   - name: "futurecoder"
     title: "futurecoder"
     description: "100% free and interactive Python course for beginners"
@@ -94,34 +86,42 @@ repos:
       - "learning"
       - "learning-by-doing"
       - "python"
-    stars_fact: 1558
+    stars_fact: 1559
     first_seen: null
     last_push: "2026-05-09"
-  - name: "stack_data"
-    title: "stack_data"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 52
-    first_seen: null
-    last_push: "2026-10-16"
-  - name: "pure_eval"
-    title: "pure_eval"
-    description: "Safely evaluate AST nodes without side effects"
-    language: "Python"
-    topics: []
-    stars_fact: 51
-    first_seen: null
-    last_push: "2026-09-10"
   - name: "executing"
     title: "executing"
     description: "Get information about what a Python frame is currently doing, particularly the AST node being executed"
     language: "Python"
     topics:
       - "python"
-    stars_fact: 405
+    stars_fact: 404
     first_seen: null
-    last_push: "2026-10-29"
+    last_push: "2026-11-23"
+  - name: "snoop"
+    title: "snoop"
+    description: "A powerful set of Python debugging tools, based on PySnooper"
+    language: "Python"
+    topics:
+      - "debugger"
+      - "debugging"
+      - "debugging-tools"
+      - "logging"
+      - "python"
+    stars_fact: 1461
+    first_seen: null
+    last_push: "2026-07-18"
+  - name: "heartrate"
+    title: "heartrate"
+    description: "Simple real time visualisation of the execution of a Python program."
+    language: "Python"
+    topics:
+      - "debugger"
+      - "python"
+      - "visualization"
+    stars_fact: 1841
+    first_seen: null
+    last_push: "2021-11-13"
   - name: "sorcery"
     title: "sorcery"
     description: "Dark magic delights in Python"
@@ -134,9 +134,23 @@ repos:
       - "python"
       - "python-ast"
       - "python3"
-    stars_fact: 430
+    stars_fact: 429
     first_seen: null
     last_push: "2021-11-11"
+  - name: "birdseye"
+    title: "birdseye"
+    description: "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    language: "JavaScript"
+    topics:
+      - "ast"
+      - "birdseye"
+      - "debugger"
+      - "debugging"
+      - "python"
+      - "python-debugger"
+    stars_fact: 1773
+    first_seen: null
+    last_push: "2026-01-11"
 ---
 
 # alexmojaki

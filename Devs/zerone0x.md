@@ -13,42 +13,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
   - "4a45ac7a449df20e"
   - "dae9f02535f7c22f"
   - "e6357f1e7e944cc8"
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 2]
+pushes_per_week: [0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 2, 2]
 windows:
   "7d":
     pushes: 2
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 5
-    active_days: 8
+    pushes: 11
+    distinct_repos: 6
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1250
-  repo_per_active_day: 0.6250
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.2000
+  push_per_day: 1.1000
+  repo_per_active_day: 0.6000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,31 +60,79 @@ facets:
     pushes: 2
     distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    pushes_per_repo: 1.0000
-    active_days: 3
+    pushes: 6
+    distinct_repos: 5
+    pushes_per_repo: 1.2000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
-    distinct_repos: 5
-    pushes_per_repo: 1.8000
-    active_days: 8
+    pushes: 11
+    distinct_repos: 6
+    pushes_per_repo: 1.8333
+    active_days: 10
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 5 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "mac-live-captions"
+    title: "mac-live-captions"
+    description: "On-device live English captions for Mac system audio, shown at the notch. For Apple Silicon and macOS 26 or later."
+    language: "Swift"
+    topics:
+      - "accessibility"
+      - "live-captions"
+      - "macos"
+      - "on-device"
+      - "speech-to-text"
+      - "swift"
+      - "system-audio"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "Movie4fun"
+    title: "Movie4fun"
+    description: "Frontend Website like IMDB using React.JS and Redux, TMDB"
+    language: "TypeScript"
+    topics:
+      - "frontend"
+      - "imdb"
+      - "movie-rating-app"
+      - "movie-recommendation-app"
+      - "movies-app-react"
+      - "reactjs"
+      - "redux"
+      - "scss"
+      - "tmdb-api"
+      - "typescript"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-04-12"
+  - name: "Echo-Frontend"
+    title: "Echo-Frontend"
+    description: "Echo Social Frontend using Next.JS and TailwindCSS"
+    language: "TypeScript"
+    topics:
+      - "bun"
+      - "full-stack"
+      - "nextjs"
+      - "social-media"
+      - "tailwindcss"
+      - "typescript"
+      - "webdevelopment"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-03-21"
   - name: "beltworks-play"
     title: "beltworks-play"
     description: "Playable build of Beltworks (deployed from a private repo)"
@@ -100,7 +148,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "hearth"
     title: "hearth"
     description: "Self-hosted personal agent host: one isolated cloud desktop per session, built on pi"
@@ -109,34 +157,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-17"
-  - name: "trine-cron"
-    title: "trine-cron"
-    description: "Daily rebuild of trine.dev (Vercel deploy hook)"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "beltworks"
-    title: "beltworks"
-    description: "Browser-based factory automation game"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "mac-live-captions"
-    title: "mac-live-captions"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
 ---
 
 # zerone0x
 
-9 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
+11 pushes across 6 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zerone0x

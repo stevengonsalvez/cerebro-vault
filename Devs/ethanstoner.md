@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "curbcut-research"
+    title: "curbcut-research"
+    description: "Open data and methods behind the Curb Cut Project's accessibility studies of local nonprofit websites"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "Hunyuan3D-2.1-Complete-Install-Guide"
     title: "Hunyuan3D-2.1-Complete-Install-Guide"
     description: "A comprehensive step-by-step installation guide for Hunyuan3D-2.1 with ComfyUI on Windows"
@@ -119,7 +127,7 @@ repos:
       - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-28"
+    last_push: "2026-11-21"
   - name: "strata"
     title: "strata"
     description: "Zero-setup DICOM viewer: point one binary at a folder of CT/MRI files and view them in the browser, in 2D and GPU-raymarched 3D. Rust + WebGL2."
@@ -151,24 +159,6 @@ repos:
       - "local-ai"
       - "python"
       - "web-app"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "universe-simulator-cpp"
-    title: "universe-simulator-cpp"
-    description: "Universe simulator in C++20 and OpenGL: Newtonian N-body gravity with real solar-system data, a spacetime-curvature visualisation, and live energy and momentum diagnostics."
-    language: "C++"
-    topics:
-      - "astronomy"
-      - "cpp"
-      - "cpp20"
-      - "gamedev"
-      - "imgui"
-      - "n-body"
-      - "opengl"
-      - "orbital-mechanics"
-      - "physics"
-      - "simulation"
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-28"

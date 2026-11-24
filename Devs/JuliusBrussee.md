@@ -8,11 +8,11 @@ provenance_repos:
   - "JuliusBrussee/caveman"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "bac657e60ae022eb"
-pushes_per_week: [0, 1, 2, 1, 5, 7, 7, 7, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 1, 4, 7, 8, 7, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,89 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "caveman"
-    title: "caveman"
-    description: "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
-    language: "Go"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "llm"
-      - "meme"
-      - "prompt-engineering"
-      - "skill"
-      - "tokens"
-    stars_fact: 120830
-    first_seen: "2026-07-03T06:00:07.803484+00:00"
-    last_push: "2026-11-16"
-  - name: "caveman-code"
-    title: "caveman-code"
-    description: "Frozen — terminal coding agent measured at 1.93× fewer tokens than Codex CLI. Still works; active development moved to JuliusBrussee/caveman (caveman wrap)."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 953
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "cavegemma"
-    title: "cavegemma"
-    description: "LoRA fine-tune Gemma 4 31B to speak caveman-mode natively. Style: github.com/JuliusBrussee/caveman"
-    language: "Python"
-    topics:
-      - "caveman"
-      - "fine-tuning"
-      - "gemma"
-      - "llm"
-      - "lora"
-      - "qlora"
-      - "style-transfer"
-      - "unsloth"
-    stars_fact: 123
-    first_seen: null
-    last_push: "2026-07-09"
-  - name: "cavekit"
-    title: "cavekit"
-    description: "Frozen — compressed spec-driven development plugin for Claude Code. Still works; active development moved to JuliusBrussee/caveman."
-    language: null
-    topics:
-      - "claude-code"
-      - "parallel-agents"
-      - "skills"
-      - "spec-driven-development"
-      - "test-driven-development"
-    stars_fact: 1165
-    first_seen: null
-    last_push: "2026-08-14"
-  - name: "revu-swift"
-    title: "revu-swift"
-    description: "Local-first macOS study app with FSRS review, decks, study guides, exams, import/export, and a polished SwiftUI desktop interface."
-    language: "Swift"
-    topics:
-      - "macos"
-      - "productivity"
-      - "swift"
-    stars_fact: 387
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "cavemem"
-    title: "cavemem"
-    description: "Frozen — cross-agent persistent memory for coding assistants. Still works; the compressed-memory core now ships inside JuliusBrussee/caveman."
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "caveman"
-      - "claude"
-      - "claude-code"
-      - "compress"
-      - "memory"
-      - "rag"
-      - "rag-chatbot"
-    stars_fact: 679
-    first_seen: null
-    last_push: "2026-08-14"
+repos: []
 ---
 
 # JuliusBrussee

@@ -8,11 +8,11 @@ provenance_repos:
   - "kepano/obsidian-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [3, 0, 1, 2, 2, 7, 0, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 4, 6, 1, 2, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 7
-    active_days: 13
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4615
-  repo_per_active_day: 0.5385
+  push_per_day: 1.4545
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.7143
   basename_concentration: 0.2857
   shapes: []
@@ -57,117 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 19
+    pushes: 16
     distinct_repos: 7
-    pushes_per_repo: 2.7143
-    active_days: 13
+    pushes_per_repo: 2.2857
+    active_days: 11
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "defuddle"
-    title: "defuddle"
-    description: "Get the main content of any page as Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "defuddle"
-      - "html"
-      - "markdown"
-      - "md"
-      - "obsidian"
-      - "readability"
-    stars_fact: 10068
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "kepano-obsidian"
-    title: "kepano-obsidian"
-    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
-    language: null
-    topics:
-      - "markdown"
-      - "obsidian"
-      - "obsidian-md"
-      - "obsidian-vault"
-    stars_fact: 6106
-    first_seen: null
-    last_push: "2026-01-09"
-  - name: "obsidian-minimal"
-    title: "obsidian-minimal"
-    description: "A distraction-free and highly customizable theme for Obsidian."
-    language: "CSS"
-    topics:
-      - "dark-mode"
-      - "dark-theme"
-      - "light-theme"
-      - "obsidian"
-      - "obsidian-md"
-      - "obsidian-theme"
-      - "theme"
-    stars_fact: 5690
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "40-questions"
-    title: "40-questions"
-    description: "Questions that I ask myself at the end of each year and each decade."
-    language: null
-    topics: []
-    stars_fact: 1933
-    first_seen: null
-    last_push: "2026-03-09"
-  - name: "flexoki"
-    title: "flexoki"
-    description: "An inky color scheme for prose and code."
-    language: "CSS"
-    topics:
-      - "alacritty"
-      - "color"
-      - "color-scheme"
-      - "colors"
-      - "ghostty"
-      - "intellij"
-      - "iterm2"
-      - "kitty"
-      - "neovim"
-      - "neovim-colorscheme"
-      - "obsidian"
-      - "sublime-text"
-      - "tailwind"
-      - "terminal-colors"
-      - "theme"
-      - "vscode"
-      - "vscode-theme"
-      - "wezterm"
-      - "xresources"
-    stars_fact: 3849
-    first_seen: null
-    last_push: "2026-03-07"
-  - name: "clipper-templates"
-    title: "clipper-templates"
-    description: "Obsidian Web Clipper templates for various sites."
-    language: null
-    topics:
-      - "markdown"
-      - "obsidian"
-    stars_fact: 1555
-    first_seen: null
-    last_push: "2026-03-13"
+repos: []
 ---
 
 # kepano
 
-19 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+16 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kepano

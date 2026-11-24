@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 2, 2, 1, 0, 2, 2, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 0, 1, 1, 3, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,56 +77,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "playwright-bot-bypass"
-    title: "playwright-bot-bypass"
-    description: "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)"
-    language: "JavaScript"
-    topics:
-      - "automation"
-      - "bot-detection"
-      - "claude-code-skill"
-      - "playwright"
-      - "stealth"
-      - "web-scraping"
-    stars_fact: 210
-    first_seen: null
-    last_push: "2026-08-27"
-  - name: "rever-browser"
-    title: "rever-browser"
-    description: "AI agent browser for web reverse engineering"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "ai-agent"
-      - "api-security"
-      - "browser-automation"
-      - "chrome-devtools-protocol"
-      - "cybersecurity"
-      - "deobfuscation"
-      - "devtools"
-      - "hacking"
-      - "mcp"
-      - "reverse-engineering"
-      - "web-scraping"
-    stars_fact: 55
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "canvas-ui"
-    title: "canvas-ui"
-    description: "HTML-in-Canvas API (drawElementImage) demos & Claude skill"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-20"
-  - name: "nba-r"
-    title: "nba-r"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
   - name: "viruagent-cli"
     title: "viruagent-cli"
     description: "AI agent-powered CLI for blog publishing, Naver Cafe, Instagram, X (Twitter) & Reddit automation"
@@ -151,9 +101,59 @@ repos:
       - "tistory"
       - "twitter"
       - "x-twitter"
-    stars_fact: 43
+    stars_fact: 46
     first_seen: null
     last_push: "2026-09-15"
+  - name: "playwright-bot-bypass"
+    title: "playwright-bot-bypass"
+    description: "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)"
+    language: "JavaScript"
+    topics:
+      - "automation"
+      - "bot-detection"
+      - "claude-code-skill"
+      - "playwright"
+      - "stealth"
+      - "web-scraping"
+    stars_fact: 214
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "rever-browser"
+    title: "rever-browser"
+    description: "AI agent browser for web reverse engineering"
+    language: "Rust"
+    topics:
+      - "ai"
+      - "ai-agent"
+      - "api-security"
+      - "browser-automation"
+      - "chrome-devtools-protocol"
+      - "cybersecurity"
+      - "deobfuscation"
+      - "devtools"
+      - "hacking"
+      - "mcp"
+      - "reverse-engineering"
+      - "web-scraping"
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "canvas-ui"
+    title: "canvas-ui"
+    description: "HTML-in-Canvas API (drawElementImage) demos & Claude skill"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-20"
+  - name: "nba-r"
+    title: "nba-r"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "Viruagent"
     title: "Viruagent"
     description: "AI-powered Tistory blog automation from the CLI: an AI Agent handles the entire process from writing and editing to publishing."

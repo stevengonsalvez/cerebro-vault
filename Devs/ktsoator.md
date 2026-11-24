@@ -8,29 +8,29 @@ provenance_repos:
   - "agent-substrate/substrate"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 1, 2, 3, 2, 2, 4, 3, 0, 0, 0, 2]
+pushes_per_week: [1, 1, 1, 3, 3, 2, 4, 3, 0, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 21
-    distinct_repos: 9
+    distinct_repos: 10
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.2353
-  repo_per_active_day: 0.5294
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.2222
+  repo_per_active_day: 0.5882
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 3
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 21
-    distinct_repos: 9
-    pushes_per_repo: 2.3333
+    distinct_repos: 10
+    pushes_per_repo: 2.1000
     active_days: 17
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -76,19 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ktsoator"
-    title: "ktsoator"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-15"
+repos: []
 ---
 
 # ktsoator
 
-21 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
+21 pushes across 10 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ktsoator

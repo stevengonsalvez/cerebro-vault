@@ -8,11 +8,11 @@ provenance_repos:
   - "omnara-ai/omnara"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "a1ee33a52509d445"
-pushes_per_week: [1, 1, 0, 4, 8, 4, 1, 2, 2, 0, 0, 1, 0]
+pushes_per_week: [1, 0, 2, 7, 5, 3, 2, 1, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 1
-    active_days: 18
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3333
-  repo_per_active_day: 0.0556
+  push_per_day: 1.3529
+  repo_per_active_day: 0.0588
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -57,70 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 24
+    pushes: 23
     distinct_repos: 1
-    pushes_per_repo: 24.0000
-    active_days: 18
+    pushes_per_repo: 23.0000
+    active_days: 17
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "agent-world"
-    title: "agent-world"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "PASTA_robustnet"
-    title: "PASTA_robustnet"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-05-08"
-  - name: "prolip"
-    title: "prolip"
-    description: "PROLIP Artifact"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2022-06-01"
-  - name: "Sleep-App"
-    title: "Sleep-App"
-    description: "This iOS app informs a person when to go to sleep in order to wake up feeling refreshed the next day. It calculates the time a person should go to bed using the time at which they wish to wake up, and the average length of a sleep cycle. By waking up after a cycle is completed, the person will not feel groggy when it's time to wake up."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-04-17"
-  - name: "traveltime"
-    title: "traveltime"
-    description: "travel website"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2017-01-09"
+repos: []
 ---
 
 # ksarangmath
 
-24 pushes across 1 repository on 18 active days in the last 90 days of public GitHub push activity.
+23 pushes across 1 repository on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ksarangmath

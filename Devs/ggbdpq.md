@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 6, 2, 2, 26, 5, 8, 2, 6, 2, 0, 1]
+pushes_per_week: [0, 5, 3, 2, 15, 16, 7, 3, 6, 0, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    active_days: 5
+    pushes: 7
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 61
     distinct_repos: 11
-    active_days: 26
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.3077
-  repo_per_active_day: 0.4231
+  push_per_day: 2.2593
+  repo_per_active_day: 0.4074
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 6
-    pushes_per_repo: 1.8333
-    active_days: 5
+    pushes: 7
+    distinct_repos: 3
+    pushes_per_repo: 2.3333
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 60
+    pushes: 61
     distinct_repos: 11
-    pushes_per_repo: 5.4545
-    active_days: 26
+    pushes_per_repo: 5.5455
+    active_days: 27
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "qoder-proxy-api"
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "cursor-loc"
     title: "cursor-loc"
     description: "为 Cursor IDE 专有界面提供简体中文汉化：覆盖 Settings、Agent、Composer、Review 等 Microsoft 官方语言包 NLS 无法触及的区域，英文界面下也可用。重难点：0.0.9 注入引擎重写为增量翻译——移除每 100ms 全页扫描、attachShadow 原型劫持与 DOM 变更全页重扫三个卡顿根源，exact 词条走 O(1) Map、变更只处理涉及节点，打字与滚动不再被拖慢；补丁仅手动应用时写入安装目录，卸载自动还原，缺备份时如实报告受限项不猜测拼接。"
@@ -151,6 +151,6 @@ repos:
 
 # ggbdpq
 
-60 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+61 pushes across 11 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ggbdpq

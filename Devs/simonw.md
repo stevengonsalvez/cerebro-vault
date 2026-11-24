@@ -24,7 +24,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0726bc457d4dcf89"
   - "0eec722f11509f67"
@@ -48,35 +48,35 @@ provenance:
   - "e9879ff70aa53e1e"
   - "f37003b32e1952f4"
   - "f5034dade94eb802"
-pushes_per_week: [2, 0, 1, 9, 7, 2, 4, 12, 3, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 7, 7, 3, 4, 12, 4, 1, 0, 0, 0, 6]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 6
+    distinct_repos: 4
     active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 5
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 23
+    pushes: 45
+    distinct_repos: 24
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7826
-  repo_per_active_day: 1.0000
-  not_owned_ratio: 0.1304
-  basename_concentration: 0.0870
+  push_per_day: 1.9565
+  repo_per_active_day: 1.0435
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.0833
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -85,25 +85,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 3
-    distinct_repos: 2
+    pushes: 6
+    distinct_repos: 4
     pushes_per_repo: 1.5000
     active_days: 2
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
+  "30d":
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 41
-    distinct_repos: 23
-    pushes_per_repo: 1.7826
+    pushes: 45
+    distinct_repos: 24
+    pushes_per_repo: 1.8750
     active_days: 23
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -113,19 +113,38 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "shot-scraper"
-    title: "shot-scraper"
-    description: "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript"
+  - name: "llm-glm"
+    title: "llm-glm"
+    description: "Access models via the Z.ai API"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "claude-code-transcripts"
+    title: "claude-code-transcripts"
+    description: "Tools for publishing transcripts for Claude Code sessions"
+    language: "Python"
+    topics: []
+    stars_fact: 1738
+    first_seen: null
+    last_push: "2026-02-12"
+  - name: "sqlite-utils"
+    title: "sqlite-utils"
+    description: "Python CLI utility and library for manipulating SQLite databases"
     language: "Python"
     topics:
-      - "playwright"
-      - "playwright-python"
-      - "scraping"
-      - "screenshot-utility"
-      - "screenshots"
-    stars_fact: 2609
+      - "cli"
+      - "click"
+      - "datasette"
+      - "datasette-io"
+      - "datasette-tool"
+      - "python"
+      - "sqlite"
+      - "sqlite-database"
+    stars_fact: 2226
     first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-12"
   - name: "llm"
     title: "llm"
     description: "Access large language models from the command-line"
@@ -134,17 +153,9 @@ repos:
       - "ai"
       - "llms"
       - "openai"
-    stars_fact: 12770
+    stars_fact: 12817
     first_seen: "2026-07-31T06:00:06.780986+00:00"
     last_push: "2026-11-17"
-  - name: "github-zip-cors-proxy"
-    title: "github-zip-cors-proxy"
-    description: "Make GitHub zips available via CORS to specific origins"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-14"
   - name: "datasette"
     title: "datasette"
     description: "An open source multi-tool for exploring and publishing data"
@@ -161,29 +172,21 @@ repos:
       - "python"
       - "sql"
       - "sqlite"
-    stars_fact: 11588
+    stars_fact: 11649
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "showboat"
-    title: "showboat"
-    description: "Create executable documents that demonstrate an agent's work"
+    last_push: "2026-11-23"
+  - name: "rodney"
+    title: "rodney"
+    description: "CLI tool for interacting with the web"
     language: "Go"
     topics: []
-    stars_fact: 1256
+    stars_fact: 767
     first_seen: null
-    last_push: "2026-03-14"
-  - name: "beep-locator"
-    title: "beep-locator"
-    description: "Locate annoying beeps"
-    language: "Python"
-    topics: []
-    stars_fact: 53
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-03-12"
 ---
 
 # simonw
 
-41 pushes across 23 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 24 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/simonw

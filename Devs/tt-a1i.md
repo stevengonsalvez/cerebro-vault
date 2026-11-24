@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "26de699d3e5c651e"
   - "4d1450729e6ff44d"
-pushes_per_week: [15, 4, 6, 13, 14, 11, 26, 18, 1, 14, 0, 0, 1]
+pushes_per_week: [4, 6, 7, 17, 12, 25, 11, 11, 14, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 4
+    pushes: 5
+    distinct_repos: 2
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 123
-    distinct_repos: 23
-    active_days: 38
+    pushes: 111
+    distinct_repos: 22
+    active_days: 35
     repos_not_owned: 17
     not_owned_basenames: 2
     not_owned_owners: 16
 automation:
   state: "clear"
-  push_per_day: 3.2368
-  repo_per_active_day: 0.6053
-  not_owned_ratio: 0.7391
-  basename_concentration: 0.4783
+  push_per_day: 3.1714
+  repo_per_active_day: 0.6286
+  not_owned_ratio: 0.7727
+  basename_concentration: 0.4545
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,32 +52,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 1.0000
+    pushes_per_repo: 3.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
-    distinct_repos: 4
-    pushes_per_repo: 3.7500
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
     active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 1
-    not_owned_owners: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 123
-    distinct_repos: 23
-    pushes_per_repo: 5.3478
-    active_days: 38
+    pushes: 111
+    distinct_repos: 22
+    pushes_per_repo: 5.0455
+    active_days: 35
     repos_not_owned: 17
     not_owned_basenames: 2
     not_owned_owners: 16
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "archify"
@@ -105,9 +105,24 @@ repos:
       - "software-architecture"
       - "system-design"
       - "visualization"
-    stars_fact: 97252
+    stars_fact: 99416
     first_seen: "2026-08-15T06:00:05.480092+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "agent-worker"
+    title: "agent-worker"
+    description: "An Agent Skill to orchestrate local Codex, Claude Code, Qoder, Kimi, and Devin CLIs as background coding workers and cross-model reviewers with live progress and zero context bloat."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "devin"
+      - "kimi"
+      - "qoder"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "hive"
     title: "hive"
     description: "Browser-native hive-mind for CLI coding agents — Claude Code, Codex, Gemini, and OpenCode collaborate as real PTY processes via a team protocol."
@@ -125,57 +140,43 @@ repos:
       - "nodejs"
       - "pty"
       - "typescript"
-    stars_fact: 591
+    stars_fact: 611
     first_seen: null
     last_push: "2026-11-16"
-  - name: "simplify-codebase"
-    title: "simplify-codebase"
-    description: "Prove and remove accidental codebase complexity without breaking behavior."
-    language: "HTML"
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "code-quality"
-      - "codebase"
-      - "codex"
-      - "developer-tools"
-      - "refactoring"
-    stars_fact: 517
-    first_seen: null
-    last_push: "2026-09-04"
-  - name: "test-value"
-    title: "test-value"
-    description: "An agent skill for tests worth maintaining. Improve regression protection, feedback speed, and maintenance cost."
-    language: null
-    topics:
-      - "agent-skills"
-      - "ai-agents"
-      - "developer-tools"
-      - "test-automation"
-      - "testing"
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "pickup"
-    title: "pickup"
-    description: "Find and read local AI agent sessions across Codex, Claude Code, Antigravity, Qoder, Pi, Kimi Code, and Devin CLI."
-    language: "Python"
+  - name: "tokenmeter"
+    title: "tokenmeter"
+    description: "htop for AI Agents — monitor token usage, costs & tool calls across Claude Code and Codex in real time"
+    language: "Go"
     topics: []
-    stars_fact: 0
+    stars_fact: 47
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "pr-lens-demo"
-    title: "pr-lens-demo"
-    description: "Private sandbox demo for PR Lens (architecture, data-flow, payload diff, data-model, walkthrough)"
-    language: "TypeScript"
+    last_push: "2026-11-23"
+  - name: "skillroster"
+    title: "skillroster"
+    description: "Turn scattered, duplicated AI-agent Skills into per-Agent Rosters—with evidence, receipts, and exact undo."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "developer-tools"
+      - "local-first"
+      - "rust"
+      - "skill-management"
+    stars_fact: 55
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "proxide"
+    title: "proxide"
+    description: "Any-agent GPT Pro workspace bridge: Rust MCP connector and browser fallback for local repositories."
+    language: "Rust"
     topics: []
-    stars_fact: 0
+    stars_fact: 17
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-06-20"
 ---
 
 # tt-a1i
 
-123 pushes across 23 repositories on 38 active days in the last 90 days of public GitHub push activity.
+111 pushes across 22 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tt-a1i

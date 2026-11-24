@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [13, 5, 7, 52, 150, 208, 28, 11, 53, 31, 2, 1, 2]
+pushes_per_week: [6, 4, 29, 118, 187, 93, 25, 35, 49, 1, 2, 1, 15]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 15
+    distinct_repos: 8
+    active_days: 4
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 28
-    active_days: 11
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    pushes: 39
+    distinct_repos: 21
+    active_days: 10
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 1
   "90d":
-    pushes: 563
-    distinct_repos: 98
-    active_days: 53
-    repos_not_owned: 92
-    not_owned_basenames: 88
+    pushes: 565
+    distinct_repos: 99
+    active_days: 51
+    repos_not_owned: 93
+    not_owned_basenames: 89
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 10.6226
-  repo_per_active_day: 1.8491
-  not_owned_ratio: 0.9388
-  basename_concentration: 0.0204
+  push_per_day: 11.0784
+  repo_per_active_day: 1.9412
+  not_owned_ratio: 0.9394
+  basename_concentration: 0.0202
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 15
+    distinct_repos: 8
+    pushes_per_repo: 1.8750
+    active_days: 4
+    repos_not_owned: 8
+    not_owned_basenames: 8
     not_owned_owners: 1
   "30d":
-    pushes: 68
-    distinct_repos: 28
-    pushes_per_repo: 2.4286
-    active_days: 11
-    repos_not_owned: 26
-    not_owned_basenames: 26
+    pushes: 39
+    distinct_repos: 21
+    pushes_per_repo: 1.8571
+    active_days: 10
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 1
   "90d":
-    pushes: 563
-    distinct_repos: 98
-    pushes_per_repo: 5.7449
-    active_days: 53
-    repos_not_owned: 92
-    not_owned_basenames: 88
+    pushes: 565
+    distinct_repos: 99
+    pushes_per_repo: 5.7071
+    active_days: 51
+    repos_not_owned: 93
+    not_owned_basenames: 89
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engineering-notes"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "wow-quickroute"
     title: "wow-quickroute"
     description: "World of Warcraft addon for optimal travel routing using teleports, portals, spells and items"
@@ -110,7 +110,7 @@ repos:
       - "wow-addon"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-22"
   - name: "cv"
     title: "cv"
     description: "CV-as-Code for Sebastian Mendel — CTO, engineering governance, platform engineering, and AI enablement."
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-563 pushes across 98 repositories on 53 active days in the last 90 days of public GitHub push activity.
+565 pushes across 99 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

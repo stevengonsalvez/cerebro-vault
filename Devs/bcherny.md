@@ -11,7 +11,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -72,6 +72,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "a9972b90c90a6092"
   - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
@@ -94,13 +95,15 @@ provenance:
   - "e58a3ce1f17ad846"
   - "e75aaf1e12900808"
   - "ed610e0dc54be0b1"
+  - "f3d370a5121afbf2"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fbfedaa618aab83d"
   - "fd1cb9e783625459"
+  - "fdc4cffb6fa79465"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -161,27 +164,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 87 vault signal(s) — pass"
+  - "provenance: 90 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "programming-typescript-answers"
-    title: "programming-typescript-answers"
-    description: "Official answers for exercises from Orielly's Programming TypeScript"
-    language: "TypeScript"
-    topics:
-      - "typescript"
-    stars_fact: 561
-    first_seen: null
-    last_push: "2021-08-10"
-  - name: "bcherny.github.io"
-    title: "bcherny.github.io"
-    description: "My blog"
-    language: "SCSS"
-    topics: []
-    stars_fact: 20
-    first_seen: null
-    last_push: "2026-09-20"
   - name: "undux"
     title: "undux"
     description: "⚡️ Dead simple state for React. Now with Hooks support."
@@ -192,7 +178,7 @@ repos:
       - "redux"
       - "typesafe"
       - "typescript"
-    stars_fact: 1561
+    stars_fact: 1560
     first_seen: null
     last_push: "2025-05-08"
   - name: "json-schema-to-typescript"
@@ -202,9 +188,17 @@ repos:
     topics:
       - "json-schema"
       - "typescript"
-    stars_fact: 3353
+    stars_fact: 3354
     first_seen: null
     last_push: "2026-09-07"
+  - name: "skymaps"
+    title: "skymaps"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2022-03-08"
   - name: "flow-to-typescript"
     title: "flow-to-typescript"
     description: "Convert Flow-annotated files to TypeScript"
@@ -230,6 +224,14 @@ repos:
     stars_fact: 1145
     first_seen: null
     last_push: "2023-01-21"
+  - name: "Talks"
+    title: "Talks"
+    description: "Some presentations I made or am working on"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2023-01-12"
 ---
 
 # bcherny

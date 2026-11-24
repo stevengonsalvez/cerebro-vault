@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 0, 3, 4, 3, 0, 0, 0, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 5, 3, 0, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 7
-    active_days: 12
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.0833
-  repo_per_active_day: 0.5833
+  push_per_day: 1.0909
+  repo_per_active_day: 0.6364
   not_owned_ratio: 0.2857
   basename_concentration: 0.1429
   shapes: []
@@ -58,34 +58,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 13
+    pushes: 12
     distinct_repos: 7
-    pushes_per_repo: 1.8571
-    active_days: 12
+    pushes_per_repo: 1.7143
+    active_days: 11
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 12 active days in 90d — pass"
+  - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "agent-skills"
     title: "agent-skills"
     description: "Reusable skills for AI agents. Install only the workflows you need."
-    language: "Ruby"
+    language: "Shell"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-22"
   - name: "hey-ai"
     title: "hey-ai"
     description: "Say “Hey Chatty”, “Hey Codex”, “Hey Claude” or “Hey Claude Code” and that assistant opens on your Mac, voice already on. On-device speech, nothing recorded. One-line install."
@@ -140,6 +140,6 @@ repos:
 
 # notorious-d-e-v
 
-13 pushes across 7 repositories on 12 active days in the last 90 days of public GitHub push activity.
+12 pushes across 7 repositories on 11 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/notorious-d-e-v

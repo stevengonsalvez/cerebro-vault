@@ -8,11 +8,11 @@ provenance_repos:
   - "ChromeDevTools/chrome-devtools-mcp"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "379642deb53f3714"
-pushes_per_week: [5, 0, 3, 0, 4, 4, 0, 1, 7, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 0, 1, 4, 3, 0, 5, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 7
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 3
-    not_owned_owners: 7
+    pushes: 19
+    distinct_repos: 6
+    active_days: 12
+    repos_not_owned: 6
+    not_owned_basenames: 2
+    not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 1.7143
+  push_per_day: 1.5833
   repo_per_active_day: 0.5000
   not_owned_ratio: 1.0000
-  basename_concentration: 0.5714
+  basename_concentration: 0.6667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,58 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 3
-    repos_not_owned: 3
-    not_owned_basenames: 2
-    not_owned_owners: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 7
-    pushes_per_repo: 3.4286
-    active_days: 14
-    repos_not_owned: 7
-    not_owned_basenames: 3
-    not_owned_owners: 7
+    pushes: 19
+    distinct_repos: 6
+    pushes_per_repo: 3.1667
+    active_days: 12
+    repos_not_owned: 6
+    not_owned_basenames: 2
+    not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "base-x-rs"
-    title: "base-x-rs"
-    description: "Encode/decode any base"
-    language: "Rust"
-    topics:
-      - "base-x"
-      - "rust"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "git-review"
-    title: "git-review"
-    description: "Git reviews for local network"
-    language: "Go"
-    topics:
-      - "code-review"
-      - "git"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "chromedriver-bug-repro"
-    title: "chromedriver-bug-repro"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-03-04"
+repos: []
 ---
 
 # OrKoN
 
-24 pushes across 7 repositories on 14 active days in the last 90 days of public GitHub push activity.
+19 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/OrKoN

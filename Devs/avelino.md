@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 0, 0, 1, 0, 0, 4, 12, 7, 0, 0, 1, 1]
+pushes_per_week: [0, 0, 1, 0, 0, 4, 8, 9, 2, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 1
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
-    distinct_repos: 9
-    active_days: 13
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 27
+    distinct_repos: 8
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1538
-  repo_per_active_day: 0.6923
-  not_owned_ratio: 0.2222
-  basename_concentration: 0.1111
+  push_per_day: 2.2500
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.1250
+  basename_concentration: 0.1250
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 28
-    distinct_repos: 9
-    pushes_per_repo: 3.1111
-    active_days: 13
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 27
+    distinct_repos: 8
+    pushes_per_repo: 3.3750
+    active_days: 12
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "awesome-go"
@@ -88,9 +88,9 @@ repos:
       - "golang"
       - "golang-library"
       - "hacktoberfest"
-    stars_fact: 194339
+    stars_fact: 195728
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "mcp"
     title: "mcp"
     description: "CLI that turns MCP servers into terminal commands, single binary"
@@ -99,9 +99,17 @@ repos:
       - "cli"
       - "mcp"
       - "mcp-server"
-    stars_fact: 78
+    stars_fact: 80
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
+  - name: "flexoki-logseq"
+    title: "flexoki-logseq"
+    description: "A beautifully crafted, accessible theme for Logseq inspired by Steph Ango's Flexoki color scheme. Enhanced with professional design system, accessibility features, and performance optimizations"
+    language: "CSS"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-05-08"
   - name: "avelino.run"
     title: "avelino.run"
     description: "My personal blog"
@@ -110,9 +118,23 @@ repos:
       - "hacktoberfest"
       - "personal-blog"
       - "personal-website"
-    stars_fact: 18
+    stars_fact: 20
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "airtraffic"
+    title: "airtraffic"
+    description: "Automatic URL routing for Firefox containers and Chrome tab groups. Define URL patterns, assign them to a destination, and tabs land in the right place automatically"
+    language: "TypeScript"
+    topics:
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "firefox"
+      - "firefox-addon"
+      - "zen-browser"
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "outl-plugin-ouraring"
     title: "outl-plugin-ouraring"
     description: "An outl plugin that syncs your Oura Ring health metrics into daily pages"
@@ -121,37 +143,10 @@ repos:
     stars_fact: 4
     first_seen: null
     last_push: "2026-11-12"
-  - name: "mads"
-    title: "mads"
-    description: "Describe your business in a TOML file. mads asks an LLM to plan the account and build the campaigns, checks every limit Google enforces, and writes the CSV files you upload in Google Ads."
-    language: "Rust"
-    topics:
-      - "ad-management"
-      - "ad-manager"
-      - "ads"
-      - "campaign-management"
-      - "google-ads"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "jbundle"
-    title: "jbundle"
-    description: "Package JVM applications (Clojure, Java) into self-contained binaries. No JVM installation required to run the output."
-    language: "Rust"
-    topics:
-      - "clojure"
-      - "graalvm"
-      - "graalvm-native-image"
-      - "jlink"
-      - "jvm"
-      - "rust"
-    stars_fact: 185
-    first_seen: null
-    last_push: "2026-11-13"
 ---
 
 # avelino
 
-28 pushes across 9 repositories on 13 active days in the last 90 days of public GitHub push activity.
+27 pushes across 8 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avelino

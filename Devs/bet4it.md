@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [9, 0, 0, 2, 6, 3, 4, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 7, 3, 2, 3, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 4
-    active_days: 14
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.2857
+  push_per_day: 1.5833
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -65,18 +65,69 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 19
     distinct_repos: 4
-    pushes_per_repo: 7.0000
-    active_days: 14
+    pushes_per_repo: 4.7500
+    active_days: 12
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "udbserver"
+    title: "udbserver"
+    description: "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
+    language: "Rust"
+    topics:
+      - "aarch64"
+      - "arm"
+      - "bindings"
+      - "debugging"
+      - "emulator"
+      - "gdb"
+      - "gdbserver"
+      - "m68k"
+      - "mips"
+      - "powerpc"
+      - "reverse-engineering"
+      - "riscv"
+      - "rust-ffi"
+      - "x86"
+    stars_fact: 436
+    first_seen: null
+    last_push: "2026-07-27"
+  - name: "hyperpwn"
+    title: "hyperpwn"
+    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
+    language: "JavaScript"
+    topics:
+      - "ctf"
+      - "debugging"
+      - "exploit"
+      - "gdb"
+      - "gef"
+      - "hyper"
+      - "peda"
+      - "pwn"
+      - "pwndbg"
+      - "reverse-engineering"
+    stars_fact: 641
+    first_seen: null
+    last_push: "2025-04-28"
+  - name: "hyperinator"
+    title: "hyperinator"
+    description: "Layout automation plugin for Hyper. Inspired by tmuxinator"
+    language: "JavaScript"
+    topics:
+      - "hyper"
+      - "layout"
+      - "terminal"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2025-04-27"
   - name: "gdbserver"
     title: "gdbserver"
     description: "A tiny debugger implement the GDB Remote Serial Protocol. Can work on i386, x86_64, ARM and PowerPC."
@@ -103,46 +154,6 @@ repos:
     stars_fact: 269
     first_seen: null
     last_push: "2021-01-21"
-  - name: "udbserver"
-    title: "udbserver"
-    description: "Unicorn Emulator Debug Server - Written in Rust, with bindings for C, Go, Java and Python"
-    language: "Rust"
-    topics:
-      - "aarch64"
-      - "arm"
-      - "bindings"
-      - "debugging"
-      - "emulator"
-      - "gdb"
-      - "gdbserver"
-      - "m68k"
-      - "mips"
-      - "powerpc"
-      - "reverse-engineering"
-      - "riscv"
-      - "rust-ffi"
-      - "x86"
-    stars_fact: 438
-    first_seen: null
-    last_push: "2026-07-27"
-  - name: "hyperpwn"
-    title: "hyperpwn"
-    description: "A hyper plugin to provide a flexible GDB GUI frontend with the help of GEF, pwndbg or peda"
-    language: "JavaScript"
-    topics:
-      - "ctf"
-      - "debugging"
-      - "exploit"
-      - "gdb"
-      - "gef"
-      - "hyper"
-      - "peda"
-      - "pwn"
-      - "pwndbg"
-      - "reverse-engineering"
-    stars_fact: 642
-    first_seen: null
-    last_push: "2025-04-28"
   - name: "nur-packages"
     title: "nur-packages"
     description: null
@@ -150,19 +161,11 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "wemeet-flatpak"
-    title: "wemeet-flatpak"
-    description: "Flatpak packaging and repository for Tencent Meeting (wemeet)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-25"
+    last_push: "2026-11-24"
 ---
 
 # bet4it
 
-28 pushes across 4 repositories on 14 active days in the last 90 days of public GitHub push activity.
+19 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bet4it

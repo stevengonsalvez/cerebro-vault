@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "f467fac388ed8e8c"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -91,25 +91,20 @@ repos:
       - "playwright"
       - "puppeteer"
       - "rust"
-    stars_fact: 36065
+    stars_fact: 37215
     first_seen: "2026-08-09T06:00:06.171858+00:00"
-    last_push: "2026-11-17"
-  - name: "obscura-benchmark"
-    title: "obscura-benchmark"
-    description: "Obscura browser benchmark"
+    last_push: "2026-11-24"
+  - name: "reCaptchaV3-Invisible-Solver"
+    title: "reCaptchaV3-Invisible-Solver"
+    description: "reCaptcha V3 Invisible Solver"
     language: "Python"
-    topics: []
-    stars_fact: 13
+    topics:
+      - "captcha"
+      - "recaptcha"
+      - "solver"
+    stars_fact: 66
     first_seen: null
-    last_push: "2026-10-04"
-  - name: "h4ckf0r0day"
-    title: "h4ckf0r0day"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-05-16"
+    last_push: "2026-04-04"
   - name: "awesome-ai-web-scraping"
     title: "awesome-ai-web-scraping"
     description: "A curated list of AI-powered web scraping tools, LLM-friendly crawlers, MCP servers, and infrastructure for turning the web into data."
@@ -121,20 +116,25 @@ repos:
       - "llm"
       - "scraping"
       - "web-scraping"
-    stars_fact: 130
+    stars_fact: 134
     first_seen: null
     last_push: "2026-05-18"
-  - name: "reCaptchaV3-Invisible-Solver"
-    title: "reCaptchaV3-Invisible-Solver"
-    description: "reCaptcha V3 Invisible Solver"
+  - name: "obscura-benchmark"
+    title: "obscura-benchmark"
+    description: "Obscura browser benchmark"
     language: "Python"
-    topics:
-      - "captcha"
-      - "recaptcha"
-      - "solver"
-    stars_fact: 65
+    topics: []
+    stars_fact: 14
     first_seen: null
-    last_push: "2026-04-04"
+    last_push: "2026-10-04"
+  - name: "h4ckf0r0day"
+    title: "h4ckf0r0day"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-05-16"
 ---
 
 # h4ckf0r0day

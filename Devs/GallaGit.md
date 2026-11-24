@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 0, 0, 6, 2, 2, 1, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 4, 2, 2, 2, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
-    distinct_repos: 7
-    active_days: 13
+    pushes: 15
+    distinct_repos: 6
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2308
-  repo_per_active_day: 0.5385
-  not_owned_ratio: 0.1429
-  basename_concentration: 0.1429
+  push_per_day: 1.2500
+  repo_per_active_day: 0.5000
+  not_owned_ratio: 0.1667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 16
-    distinct_repos: 7
-    pushes_per_repo: 2.2857
-    active_days: 13
+    pushes: 15
+    distinct_repos: 6
+    pushes_per_repo: 2.5000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GallaDev_workspace"
@@ -91,7 +91,7 @@ repos:
       - "typescript"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "dsmora-aie-pt-02resume-clase"
     title: "dsmora-aie-pt-02resume-clase"
     description: "Esto es un resume de las clases en 4Geeks"
@@ -146,6 +146,6 @@ repos:
 
 # GallaGit
 
-16 pushes across 7 repositories on 13 active days in the last 90 days of public GitHub push activity.
+15 pushes across 6 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/GallaGit

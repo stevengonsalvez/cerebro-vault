@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 0, 0, 0, 6, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,73 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "User-specific application configuration is traditionally stored in so called dotfiles, these are my own."
-    language: "Lua"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "pi-telemetry-opentelemetry"
-    title: "pi-telemetry-opentelemetry"
-    description: "OpenTelemetry adapter for pi-telemetry"
-    language: "TypeScript"
-    topics:
-      - "observability"
-      - "opentelemetry"
-      - "pi-telemetry"
-      - "telemetry"
-      - "tracing"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "pi-pkg"
-    title: "pi-pkg"
-    description: "Personal Pi package — extensions, skills, prompts, and themes."
-    language: "TypeScript"
-    topics:
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-package"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "website"
-    title: "website"
-    description: "Personal site and resume on Astro; the PDF is printed from the site."
-    language: "CSS"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "asdf-k3d"
-    title: "asdf-k3d"
-    description: "k3d plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "k3d"
-      - "kubernetes"
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-06-19"
-  - name: "asdf-vector"
-    title: "asdf-vector"
-    description: "Vector plugin for asdf version manager"
-    language: "Shell"
-    topics:
-      - "asdf"
-      - "asdf-plugin"
-      - "asdf-vm"
-      - "observability"
-      - "vector"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-11-20"
+repos: []
 ---
 
 # spencergilbert

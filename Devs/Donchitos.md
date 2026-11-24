@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "14444dc7b4eca899"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -94,7 +94,7 @@ repos:
       - "indie-game-dev"
       - "unity"
       - "unreal-engine"
-    stars_fact: 39827
+    stars_fact: 40801
     first_seen: "2026-11-01T07:00:37.930588+00:00"
     last_push: "2026-11-09"
 ---

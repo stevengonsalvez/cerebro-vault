@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "06b6387dd3484f1c"
   - "c133b93b912dffd6"
-pushes_per_week: [1, 1, 0, 2, 4, 3, 1, 3, 2, 0, 1, 0, 1]
+pushes_per_week: [1, 0, 2, 3, 3, 2, 3, 1, 1, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -79,12 +79,28 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-skills"
+    title: "pi-skills"
+    description: "Skills for pi coding agent (compatible with Claude Code and Codex CLI)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2670
+    first_seen: null
+    last_push: "2026-06-06"
+  - name: "pi-share-hf"
+    title: "pi-share-hf"
+    description: "Collect, review, and upload redacted pi session files to a Hugging Face dataset"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 265
+    first_seen: null
+    last_push: "2026-04-13"
   - name: "pi-subagent"
     title: "pi-subagent"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 267
+    stars_fact: 270
     first_seen: null
     last_push: "2026-09-30"
   - name: "sitegeist"
@@ -92,41 +108,25 @@ repos:
     description: "An AI assistant that lives in your browser. Built for collaboration, not autonomy theater. You guide, it executes. Automate repetitive web tasks, extract data from any website, and transform it into whatever you need."
     language: "TypeScript"
     topics: []
-    stars_fact: 923
+    stars_fact: 925
     first_seen: null
     last_push: "2026-03-18"
-  - name: "mini-lit"
-    title: "mini-lit"
-    description: null
+  - name: "cchistory"
+    title: "cchistory"
+    description: "Extract and compare system prompts and tools from different Claude Code versions"
     language: "TypeScript"
     topics: []
-    stars_fact: 101
+    stars_fact: 501
     first_seen: null
-    last_push: "2025-11-12"
-  - name: "pi-diff-review"
-    title: "pi-diff-review"
-    description: null
-    language: "JavaScript"
+    last_push: "2025-10-30"
+  - name: "skyview"
+    title: "skyview"
+    description: "Thread reader for Bluesky"
+    language: "TypeScript"
     topics: []
-    stars_fact: 318
+    stars_fact: 89
     first_seen: null
-    last_push: "2026-05-23"
-  - name: "sol-2024"
-    title: "sol-2024"
-    description: "Revamped version of SOL using latest libGDX (2024)"
-    language: "Java"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2024-04-01"
-  - name: "quantum"
-    title: "quantum"
-    description: "RTS in the spirit of Eufloria"
-    language: "Java"
-    topics: []
-    stars_fact: 119
-    first_seen: null
-    last_push: "2022-11-06"
+    last_push: "2024-11-27"
 ---
 
 # badlogic

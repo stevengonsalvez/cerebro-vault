@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [2, 1, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 9
-    distinct_repos: 3
+    distinct_repos: 4
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -39,9 +39,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.2857
-  repo_per_active_day: 0.4286
+  repo_per_active_day: 0.5714
   not_owned_ratio: 0.0000
-  basename_concentration: 0.3333
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
+    distinct_repos: 4
+    pushes_per_repo: 2.2500
     active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -78,18 +78,6 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "demo-gitskins"
-    title: "demo-gitskins"
-    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
-    language: null
-    topics:
-      - "contribution-graph"
-      - "github-profile"
-      - "readme"
-      - "svg-animation"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-11-17"
   - name: "ship-safe"
     title: "ship-safe"
     description: "The independent security agent for AI-written software. Finds issues, investigates whether they are real, and shows you the evidence. Deterministic core, no API key needed, JSON and SARIF output."
@@ -112,7 +100,7 @@ repos:
       - "security-tools"
       - "static-analysis"
       - "supply-chain-security"
-    stars_fact: 872
+    stars_fact: 873
     first_seen: "2026-08-06T06:00:05.901982+00:00"
     last_push: "2026-10-17"
   - name: "awesome-gitskins"
@@ -128,9 +116,29 @@ repos:
       - "portfolio"
       - "profile-readme"
       - "readme-template"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
     last_push: "2026-10-28"
+  - name: "demo-gitskins"
+    title: "demo-gitskins"
+    description: "A premium GitHub profile README, built entirely from live GitSkins sections — animated, no workflows, no committed assets."
+    language: null
+    topics:
+      - "contribution-graph"
+      - "github-profile"
+      - "readme"
+      - "svg-animation"
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "airfreight-tms"
+    title: "airfreight-tms"
+    description: "Multi-tenant airfreight forwarding TMS"
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "gitskins-pages-test"
     title: "gitskins-pages-test"
     description: "My developer portfolio, built with GitSkins"
@@ -147,18 +155,10 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-03-24"
-  - name: "-X-Cleaner-Extension"
-    title: "-X-Cleaner-Extension"
-    description: "A professional Chrome extension to automatically delete tweets and undo reposts on X (formerly Twitter)."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2025-12-30"
 ---
 
 # asamassekou10
 
-9 pushes across 3 repositories on 7 active days in the last 90 days of public GitHub push activity.
+9 pushes across 4 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/asamassekou10

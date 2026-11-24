@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [2, 1, 1, 4, 5, 4, 1, 4, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 2, 4, 7, 1, 1, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 9
-    active_days: 17
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.3529
-  repo_per_active_day: 0.5294
+  push_per_day: 1.4000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 21
     distinct_repos: 9
-    pushes_per_repo: 2.5556
-    active_days: 17
+    pushes_per_repo: 2.3333
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ai-toolbox-cockpit"
-    title: "ai-toolbox-cockpit"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 226
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "strix-halo-ds4-toolbox"
-    title: "strix-halo-ds4-toolbox"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 95
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "amd-strix-halo-toolboxes"
-    title: "amd-strix-halo-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2032
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "web-fetch-pi-test-fixtures"
-    title: "web-fetch-pi-test-fixtures"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "terminal-bench-mini"
-    title: "terminal-bench-mini"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "intel-b70-ai-toolboxes"
-    title: "intel-b70-ai-toolboxes"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-11-01"
+repos: []
 ---
 
 # kyuz0
 
-23 pushes across 9 repositories on 17 active days in the last 90 days of public GitHub push activity.
+21 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

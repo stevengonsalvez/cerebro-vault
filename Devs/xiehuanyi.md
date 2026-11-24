@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 10, 16, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 18, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "filament-segmentation-2026"
+    title: "filament-segmentation-2026"
+    description: "Solar filament instance segmentation on GONG H-alpha frames: code for our Filament Segmentation Challenge 2026 final submissions"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "netops-agents-viz"
     title: "netops-agents-viz"
     description: "Interactive progress demo: NetOps agents on live Clos fabrics (KAUST)"
@@ -118,14 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-19"
-  - name: "nanoMegatron"
-    title: "nanoMegatron"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-16"
 ---
 
 # xiehuanyi

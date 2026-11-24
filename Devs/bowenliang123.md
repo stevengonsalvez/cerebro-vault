@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [2, 1, 1, 6, 3, 9, 5, 11, 3, 4, 0, 0, 0]
+pushes_per_week: [1, 0, 4, 5, 10, 2, 13, 1, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 1
-    active_days: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 2
-    active_days: 26
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7308
-  repo_per_active_day: 0.0769
+  push_per_day: 1.7917
+  repo_per_active_day: 0.0833
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,29 +57,29 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 45
+    pushes: 43
     distinct_repos: 2
-    pushes_per_repo: 22.5000
-    active_days: 26
+    pushes_per_repo: 21.5000
+    active_days: 24
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dsh-context"
     title: "dsh-context"
-    description: "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板、浏览器、侧栏、命令，透视上下文组成、演进、压缩、多 Agent等。"
+    description: "DeepSeek Harness officially recommended - a context insight plugin, for context composition, evolution and Multi-Agent collaboration. DeepSeek Harness官方推荐的上下文洞察插件，透视上下文组成与演进，以及多Agent 协作与通讯。"
     language: "TypeScript"
     topics:
       - "cordis-plugin"
@@ -88,9 +88,21 @@ repos:
       - "dsh-external"
       - "dsh-plugin"
       - "dsh-plugins"
-    stars_fact: 5210
+    stars_fact: 5470
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "markdown-exporter"
+    title: "markdown-exporter"
+    description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "dify"
+      - "dify-plugin"
+      - "markdown"
+    stars_fact: 275
+    first_seen: null
+    last_push: "2026-08-13"
   - name: "zcode-context-insight"
     title: "zcode-context-insight"
     description: null
@@ -110,18 +122,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-08-18"
-  - name: "markdown-exporter"
-    title: "markdown-exporter"
-    description: "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "dify"
-      - "dify-plugin"
-      - "markdown"
-    stars_fact: 274
-    first_seen: null
-    last_push: "2026-08-13"
   - name: "dify-grafana-dashboard"
     title: "dify-grafana-dashboard"
     description: "Grafana dashboard for Dify"
@@ -142,6 +142,6 @@ repos:
 
 # bowenliang123
 
-45 pushes across 2 repositories on 26 active days in the last 90 days of public GitHub push activity.
+43 pushes across 2 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/bowenliang123

@@ -8,39 +8,39 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [3, 1, 1, 3, 7, 11, 8, 5, 3, 4, 1, 0, 0]
+pushes_per_week: [1, 1, 3, 3, 13, 10, 4, 3, 5, 0, 1, 0, 4]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    active_days: 6
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 5
+    pushes: 48
+    distinct_repos: 6
     active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6207
-  repo_per_active_day: 0.1724
-  not_owned_ratio: 0.4000
-  basename_concentration: 0.2000
+  push_per_day: 1.6552
+  repo_per_active_day: 0.2069
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 4
+    distinct_repos: 2
+    pushes_per_repo: 2.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 7
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 6
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 47
-    distinct_repos: 5
-    pushes_per_repo: 9.4000
+    pushes: 48
+    distinct_repos: 6
+    pushes_per_repo: 8.0000
     active_days: 29
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -76,74 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "chaos-zero-nightmare"
-    title: "chaos-zero-nightmare"
-    description: "Browser-based tools for Chaos Zero Nightmare"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "rcdailey"
-    title: "rcdailey"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Personal dotfiles, managed by chezmoi"
-    language: "Python"
-    topics:
-      - "chezmoi"
-      - "dotfiles"
-      - "fzf"
-      - "kitty"
-      - "lazygit"
-      - "mise"
-      - "opencode"
-      - "powerlevel10k"
-      - "zsh"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "home-ops"
-    title: "home-ops"
-    description: "Kubernetes homelab managed with Flux GitOps"
-    language: "YAML"
-    topics:
-      - "flux"
-      - "gitops"
-      - "home-ops"
-      - "homelab"
-      - "k8s-at-home"
-      - "kubernetes"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "recyclarr-workspace"
-    title: "recyclarr-workspace"
-    description: "Multi-repo workspace for Recyclarr ecosystem development"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "recyclarr-dev-configs"
-    title: "recyclarr-dev-configs"
-    description: "Personal Recyclarr development configs and test fixtures"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-07"
+repos: []
 ---
 
 # rcdailey
 
-47 pushes across 5 repositories on 29 active days in the last 90 days of public GitHub push activity.
+48 pushes across 6 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rcdailey

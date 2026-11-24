@@ -8,37 +8,37 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 3, 3, 4, 9, 4, 3, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 2, 4, 4, 6, 5, 5, 0, 0, 1, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 29
     distinct_repos: 12
-    active_days: 16
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6875
-  repo_per_active_day: 0.7500
+  push_per_day: 1.7059
+  repo_per_active_day: 0.7059
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -49,90 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 4
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 27
+    pushes: 29
     distinct_repos: 12
-    pushes_per_repo: 2.2500
-    active_days: 16
+    pushes_per_repo: 2.4167
+    active_days: 17
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "viniciusdsandrade"
-    title: "viniciusdsandrade"
-    description: "Config files for my GitHub profile."
-    language: "JavaScript"
-    topics:
-      - "config"
-      - "dev"
-      - "front-end"
-      - "github-config"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "atuacao-publica"
-    title: "atuacao-publica"
-    description: "Portal de transparência sobre a atividade de políticos brasileiros a partir de fontes oficiais"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "lan-remote-ios"
-    title: "lan-remote-ios"
-    description: "Local network remote control application for iOS"
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "lan-cameras-mac"
-    title: "lan-cameras-mac"
-    description: "App nativo para macOS que mostra e controla câmeras IP XiongMai pela rede local, sem depender da nuvem"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "lan-cameras-ios"
-    title: "lan-cameras-ios"
-    description: "App nativo para iPhone que mostra e controla câmeras IP XiongMai pela rede local, sem depender da nuvem"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "lan-cameras-android"
-    title: "lan-cameras-android"
-    description: "App Android para câmeras IP XiongMai na rede local (RTSP, ONVIF e DVRIP), sem a nuvem do fabricante"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-23"
+repos: []
 ---
 
 # viniciusdsandrade
 
-27 pushes across 12 repositories on 16 active days in the last 90 days of public GitHub push activity.
+29 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/viniciusdsandrade

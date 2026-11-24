@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 0, 14, 0, 2, 3, 0, 3, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 14, 1, 4, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,25 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "platen"
+    title: "platen"
+    description: "Your printer and scanner for people, programs and AI agents: web UI, REST API and a built-in MCP server. Prints PDFs on raster-only printers, scans to Paperless-ngx. One Go binary, no CUPS."
+    language: "Go"
+    topics:
+      - "airprint"
+      - "escl"
+      - "golang"
+      - "homelab"
+      - "ipp"
+      - "mcp"
+      - "mcp-server"
+      - "paperless-ngx"
+      - "printing"
+      - "scanner"
+      - "self-hosted"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "latchkey"
     title: "latchkey"
     description: "Owner-only control of TTLock smart locks from ESP32 boards: pairing, every lock feature, hardening and a web UI, with no cloud and no phone."
@@ -107,7 +126,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "interview-skills"
     title: "interview-skills"
     description: "Agent skills (Claude Code, Codex, Grok Build…) to turn interview recordings into local speaker-labelled transcripts and run interview loops"
@@ -122,20 +141,6 @@ repos:
     language: "HTML"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "peephole"
-    title: "peephole"
-    description: "A tiny window into your homelab: a Rust hub renders dashboard pages as frames for small ESP32 screens, with plugins (Prometheus, mempool, UniFi Protect) and browser flashing"
-    language: "Rust"
-    topics:
-      - "dashboard"
-      - "esp32"
-      - "esphome"
-      - "homelab"
-      - "prometheus"
-      - "rust"
-    stars_fact: 1
     first_seen: null
     last_push: "2026-11-12"
 ---

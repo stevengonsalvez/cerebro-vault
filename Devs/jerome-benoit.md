@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [17, 7, 8, 27, 34, 79, 31, 21, 11, 5, 1, 1, 1]
+pushes_per_week: [8, 5, 24, 34, 76, 40, 20, 7, 10, 0, 1, 2, 5]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 5
+    distinct_repos: 5
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 11
     distinct_repos: 6
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 232
     distinct_repos: 19
-    active_days: 53
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    active_days: 51
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.5849
-  repo_per_active_day: 0.3585
-  not_owned_ratio: 0.4211
+  push_per_day: 4.5490
+  repo_per_active_day: 0.3725
+  not_owned_ratio: 0.3684
   basename_concentration: 0.1579
   shapes: []
   shape_evidence: []
@@ -49,50 +49,58 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 5
+    distinct_repos: 5
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 11
     distinct_repos: 6
-    pushes_per_repo: 2.6667
-    active_days: 9
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes_per_repo: 1.8333
+    active_days: 8
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 243
+    pushes: 232
     distinct_repos: 19
-    pushes_per_repo: 12.7895
-    active_days: 53
-    repos_not_owned: 8
-    not_owned_basenames: 7
+    pushes_per_repo: 12.2105
+    active_days: 51
+    repos_not_owned: 7
+    not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "dotfiles"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
   - name: "freqai-strategies"
     title: "freqai-strategies"
     description: "Freqtrade FreqAI strategies"
     language: "Python"
     topics: []
-    stars_fact: 64
+    stars_fact: 65
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
+  - name: "ts-eslint-no-unsafe-class-instance-assignment-repro"
+    title: "ts-eslint-no-unsafe-class-instance-assignment-repro"
+    description: "Minimal reproduction: @typescript-eslint/no-unsafe-class-instance-assignment false positive on winston transports"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles"
+    language: "Nix"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "sap-ai-provider"
     title: "sap-ai-provider"
     description: "Vercel AI Provider for running LLMs on SAP BTP using AI Core"
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "benchmarks-js"
     title: "benchmarks-js"
     description: "JS code pattern benchmarks"
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "e-mobility-charging-stations-simulator"
     title: "e-mobility-charging-stations-simulator"
     description: "OCPP-J charging stations simulator"
@@ -121,18 +129,10 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2022-06-07"
-  - name: "diagrams"
-    title: "diagrams"
-    description: "Diagrams"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-04-16"
 ---
 
 # jerome-benoit
 
-243 pushes across 19 repositories on 53 active days in the last 90 days of public GitHub push activity.
+232 pushes across 19 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

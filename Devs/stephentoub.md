@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-16T07:03:52.735992+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "30c775fdbb4f52bd"
   - "f4e0adf84666b0c9"
-pushes_per_week: [0, 0, 0, 2, 7, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,6 +79,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agent-framework"
+    title: "agent-framework"
+    description: "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-02-11"
   - name: "MidiSharp"
     title: "MidiSharp"
     description: "C# library for reading, writing, and manipulating MIDI (*.mid) files."

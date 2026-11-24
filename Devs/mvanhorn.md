@@ -11,6 +11,7 @@ provenance_repos:
   - "agavra/tuicr"
   - "agentscope-ai/QwenPaw"
   - "AlexsJones/llmfit"
+  - "alibaba/open-code-review"
   - "alibaba/page-agent"
   - "ayghri/i-have-adhd"
   - "backnotprop/plannotator"
@@ -18,7 +19,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "234088bc43763aa2"
@@ -26,74 +27,75 @@ provenance:
   - "4a45ac7a449df20e"
   - "541318303a272608"
   - "b88590c43555a909"
+  - "c489e6fb5febf2ab"
   - "d1946b21c02e5fa5"
   - "dae9f02535f7c22f"
   - "e6357f1e7e944cc8"
   - "edb3a626875732de"
-pushes_per_week: [5, 1, 7, 10, 26, 71, 54, 258, 7, 11, 0, 1, 5]
+pushes_per_week: [2, 4, 9, 27, 50, 73, 255, 10, 16, 0, 1, 5, 10]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 4
+    pushes: 10
+    distinct_repos: 8
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 19
-    active_days: 9
+    pushes: 21
+    distinct_repos: 15
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 456
-    distinct_repos: 107
+    pushes: 462
+    distinct_repos: 110
     active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 9.5000
-  repo_per_active_day: 2.2292
-  not_owned_ratio: 0.0187
-  basename_concentration: 0.0187
+  push_per_day: 9.6250
+  repo_per_active_day: 2.2917
+  not_owned_ratio: 0.0182
+  basename_concentration: 0.0182
   shapes:
     - "mass_self_repo"
   shape_evidence:
-    - "107 distinct repos, 2 not owned (ratio 0.0187), 9.50 pushes per active day"
+    - "110 distinct repos, 2 not owned (ratio 0.0182), 9.62 pushes per active day"
   cleared_by: "e01-fixer"
   cleared_on: "2026-08-26"
   fork_provenance: null
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 4
+    pushes: 10
+    distinct_repos: 8
     pushes_per_repo: 1.2500
     active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 23
-    distinct_repos: 19
-    pushes_per_repo: 1.2105
-    active_days: 9
+    pushes: 21
+    distinct_repos: 15
+    pushes_per_repo: 1.4000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 456
-    distinct_repos: 107
-    pushes_per_repo: 4.2617
+    pushes: 462
+    distinct_repos: 110
+    pushes_per_repo: 4.2000
     active_days: 48
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
-  - "provenance: 10 vault signal(s) — pass"
+  - "provenance: 11 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -102,67 +104,80 @@ repos:
     description: "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
     language: "Python"
     topics:
-      - "ai-prompts"
-      - "ai-skill"
-      - "bluesky"
-      - "claude"
-      - "claude-code"
-      - "clawhub"
-      - "deep-research"
-      - "hackernews"
+      - "agent-skills"
+      - "artificial-intelligence"
+      - "automation"
+      - "bot"
+      - "command-line"
+      - "data-science"
+      - "dsh"
+      - "dsh-plugin"
+      - "golang"
       - "instagram"
-      - "openclaw"
+      - "llms"
+      - "nlp"
+      - "osint"
       - "polymarket"
-      - "recency"
+      - "python3"
       - "reddit"
-      - "research"
-      - "social-media"
+      - "terminal"
       - "tiktok"
-      - "trends"
       - "twitter"
-      - "web-search"
       - "youtube"
-    stars_fact: 68365
+    stars_fact: 73904
     first_seen: "2026-08-03T06:00:03.956698+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "agent-tincan"
+    title: "agent-tincan"
+    description: "Let your AI agents ask each other for help, over Tailscale. Wherever they run."
+    language: "Go"
+    topics:
+      - "agent-collaboration"
+      - "agent-communication"
+      - "agent-messaging"
+      - "agent-network"
+      - "agent-to-agent"
+      - "inter-agent-communication"
+      - "tailscale"
+    stars_fact: 438
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "cli-printing-press"
     title: "cli-printing-press"
     description: "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands."
     language: "Go"
     topics:
       - "ai-agents"
+      - "api-client"
       - "cli"
+      - "cli-app"
       - "cli-generator"
+      - "code-generator"
+      - "codegen"
+      - "developer-experience"
       - "developer-tools"
       - "golang"
+      - "golang-cli"
+      - "offline-first"
       - "openapi"
-    stars_fact: 5003
+      - "openapi-generator"
+      - "openapi3"
+      - "sdk-generator"
+    stars_fact: 5044
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-24"
   - name: "printing-press-library"
     title: "printing-press-library"
     description: "Official library of CLIs generated by the CLI Printing Press. Endorsed, tested, and community-contributed."
     language: "Go"
-    topics: []
-    stars_fact: 2132
+    topics:
+      - "awesome-cli"
+      - "cli"
+      - "cli-tools"
+      - "mcp-servers"
+    stars_fact: 2146
     first_seen: null
-    last_push: "2026-11-15"
-  - name: "mvanhorn"
-    title: "mvanhorn"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 54
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "agent-tincan"
-    title: "agent-tincan"
-    description: "Let your AI agents ask each other for help, over Tailscale. Wherever they run."
-    language: "Go"
-    topics: []
-    stars_fact: 419
-    first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "agentcookie"
     title: "agentcookie"
     description: "Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually browse on, continuously, encrypted over Tailscale, so OpenClaw, Hermes, or any other agent runtime wakes up authenticated. macOS, peer-to-peer, no cloud middleman."
@@ -176,13 +191,21 @@ repos:
       - "golang"
       - "macos"
       - "tailscale"
-    stars_fact: 877
+    stars_fact: 883
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
+  - name: "mvanhorn"
+    title: "mvanhorn"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 57
+    first_seen: null
+    last_push: "2026-11-09"
 ---
 
 # mvanhorn
 
-456 pushes across 107 repositories on 48 active days in the last 90 days of public GitHub push activity.
+462 pushes across 110 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mvanhorn

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "541318303a272608"
-pushes_per_week: [0, 0, 0, 0, 8, 0, 0, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 8, 0, 0, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,85 +77,61 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "android-firefly-rk3288"
-    title: "android-firefly-rk3288"
-    description: "Experimental Android 17 TV port for the original Firefly RK3288: corresponding kernel, device, audio and H.264 playback sources, build integration and a detailed Chinese porting retrospective."
-    language: "C"
+  - name: "k4-jammy-gnome"
+    title: "k4-jammy-gnome"
+    description: "Liontron K4 V3.0: reproducible Ubuntu 22.04 arm64 GNOME image recipes for TF and eMMC"
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "batocera-firefly-rk3288"
-    title: "batocera-firefly-rk3288"
-    description: "Firefly-RK3288 的 Batocera 39 社区适配：设备树、U-Boot 配置、补丁与可复现镜像构建脚本。"
-    language: "C"
-    topics:
-      - "batocera"
-      - "firefly"
-      - "retrogaming"
-      - "rk3288"
-      - "rockchip"
-    stars_fact: 1
+    last_push: "2026-11-21"
+  - name: "ubuntu-26.04-firefly-rk3399"
+    title: "ubuntu-26.04-firefly-rk3399"
+    description: "Ubuntu 26.04.1 LTS GNOME for Firefly-RK3399 DDR3: TF and eMMC images with build scripts"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "ubuntu-firefly-rk3288"
-    title: "ubuntu-firefly-rk3288"
-    description: "Ubuntu 22.04 GNOME image build for the original Firefly-RK3288: microSD, HDMI, Linux 6.6 and Panfrost"
+    last_push: "2026-11-20"
+  - name: "android-tv-firefly-rk3399"
+    title: "android-tv-firefly-rk3399"
+    description: "Android 14 television bring-up and Dangbei Desktop integration for the original Firefly-RK3399 DDR3"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "ubuntu-firefly-rk3399"
+    title: "ubuntu-firefly-rk3399"
+    description: "Ubuntu 22.04 GNOME images for original Firefly-RK3399 DDR3, with TF and eMMC boot support"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "openwrt-firefly-rk3399"
+    title: "openwrt-firefly-rk3399"
+    description: "OpenWrt 25.12.6 for original Firefly-RK3399 DDR3: TF/eMMC images, USB gigabit WAN, Chinese LuCI, reproducible build sources."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "batocera-firefly-rk3399"
+    title: "batocera-firefly-rk3399"
+    description: "Batocera 43.1 for original Firefly RK3399 DDR3: eMMC, TF installer and Select hotkey"
     language: "Python"
     topics:
-      - "armhf"
+      - "batocera"
+      - "emmc"
       - "firefly"
-      - "gnome"
       - "linux"
-      - "rk3288"
-      - "ubuntu"
+      - "retrogaming"
+      - "rk3399"
+      - "rockchip"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "Orbitra"
-    title: "Orbitra"
-    description: "Orbitra is a local-first browser emulator for GBA, Game Boy, NES, SNES, and experimental GameCube, powered by WebAssembly cores."
-    language: "JavaScript"
-    topics:
-      - "browser-emulator"
-      - "dolphin"
-      - "emulator"
-      - "game-boy"
-      - "game-boy-advance"
-      - "game-boy-color"
-      - "gamecube"
-      - "gamepad"
-      - "gba"
-      - "gbc"
-      - "mgba"
-      - "nes"
-      - "pwa"
-      - "react"
-      - "retro-gaming"
-      - "save-states"
-      - "snes"
-      - "typescript"
-      - "vite"
-      - "webassembly"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "mall-app"
-    title: "mall-app"
-    description: "Vue全家桶+Vant 搭建大型单页面电商项目"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-12-03"
-  - name: "cmd"
-    title: "cmd"
-    description: "一些常用的命令..."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-02-28"
+    last_push: "2026-11-20"
 ---
 
 # hehuang139

@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 2, 3, 1, 2, 1, 10, 6, 1, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 4, 2, 1, 7, 5, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,68 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "tokenbar"
-    title: "tokenbar"
-    description: "Cota das assinaturas Claude, Codex e Antigravity na bandeja do Windows"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "system-tray"
-      - "typescript"
-      - "windows"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "n3tf4c3"
-    title: "n3tf4c3"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "bytehalt"
-    title: "bytehalt"
-    description: "Windows Drive & Folder Security"
-    language: "Rust"
-    topics:
-      - "bitlocker"
-      - "rust"
-      - "security"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "netlane"
-    title: "netlane"
-    description: "Diagnóstico de rede com IA para Windows"
-    language: "Rust"
-    topics:
-      - "ai"
-      - "networking"
-      - "pcap"
-      - "rust"
-      - "windows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "trukenza"
-    title: "trukenza"
-    description: "Trukenza: truco multijogador no navegador"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "riscote"
-    title: "riscote"
-    description: "Jogo pincelado"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
+repos: []
 ---
 
 # n3tf4c3

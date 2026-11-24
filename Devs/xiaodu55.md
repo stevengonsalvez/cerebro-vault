@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 3, 5, 0, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 5, 1, 3, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "github-profile-skill"
-    title: "github-profile-skill"
-    description: "中文 GitHub 个人主页美化技能包：取真实公开数据 → 采集个人信息 → 渲染 README 与个人网站（AGENT OPS HUD 版式），交付前静态自检。"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "xiaodu55"
-    title: "xiaodu55"
-    description: "杜凯峰 · AI 应用 / Agent 方向 — 45 个已合并上游 PR，Agent 治理与 RAG 评测门禁。"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "xiaodu55.github.io"
-    title: "xiaodu55.github.io"
-    description: "HFusion // AGENT OPS — AI 应用 / Agent 方向：Agent 治理、RAG 评测门禁与高并发后端。"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "HFusionHub"
-    title: "HFusionHub"
-    description: "多租户 AI Agent 平台：Java+Python 双语言分层、RAG 全链路 + 220 用例 CI 评测门禁、工具审批 exactly-once、插件沙箱"
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "fastapi"
-      - "llm"
-      - "milvus"
-      - "multi-tenant"
-      - "mysql"
-      - "rag"
-      - "spring-boot"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-16"
+repos: []
 ---
 
 # xiaodu55

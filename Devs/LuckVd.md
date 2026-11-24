@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 0, 0, 4, 0, 0, 3, 2, 2, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 3, 0, 2, 2, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
-    active_days: 4
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 4
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "stockfu"
-    title: "stockfu"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "LuckVd"
-    title: "LuckVd"
-    description: "GitHub profile · 贡献可视化"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "LuckVd.github.io"
-    title: "LuckVd.github.io"
-    description: "个人博客 · Hexo"
-    language: "Stylus"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "qswarm"
-    title: "qswarm"
-    description: "蜂群代码安全审查系统（设计 v0.3.4）· M0/M1 闭环 + M2 放行"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "learn-weave"
-    title: "learn-weave"
-    description: "面向个人的、可本地部署、通过浏览器使用的学习与知识记录工具(Vue 3 + FastAPI)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "word-atlas-android"
-    title: "word-atlas-android"
-    description: "词光 Word Atlas 非官方安卓版：Capacitor 封装，完全离线、零权限（上游 designfuchen/word-atlas，MIT / CC BY 4.0）"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
+repos: []
 ---
 
 # LuckVd

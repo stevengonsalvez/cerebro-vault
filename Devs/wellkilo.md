@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "wellkilo"
+    title: "wellkilo"
+    description: "Personal profile"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
   - name: "SlideCraft"
     title: "SlideCraft"
     description: "AI skill that generates stunning presentations in HTML (animated, zero-dependency) and PPTX (PowerPoint-editable) formats. 12 curated visual themes with anti-AI-slop design philosophy."
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-03"
-  - name: "wellkilo"
-    title: "wellkilo"
-    description: "Personal profile"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-27"
   - name: "codex-jev-preflight"
     title: "codex-jev-preflight"
     description: "Fail-open Codex UserPromptSubmit hook that injects TypeSafe Jev pre-task routing metadata."

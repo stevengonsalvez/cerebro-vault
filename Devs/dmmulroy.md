@@ -9,28 +9,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 2, 1]
 windows:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 7
-    distinct_repos: 5
+    distinct_repos: 4
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -38,9 +38,9 @@ windows:
 automation:
   state: "clear"
   push_per_day: 1.1667
-  repo_per_active_day: 0.8333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 7
-    distinct_repos: 5
-    pushes_per_repo: 1.4000
+    distinct_repos: 4
+    pushes_per_repo: 1.7500
     active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -86,66 +86,58 @@ repos:
       - "linting"
       - "oxlint"
       - "typescript"
-    stars_fact: 6071
+    stars_fact: 6358
     first_seen: null
-    last_push: "2026-10-14"
-  - name: "pi-claude-cli"
-    title: "pi-claude-cli"
-    description: "pi provider that runs Claude models through the official Claude Code CLI on your Claude subscription"
+    last_push: "2026-11-20"
+  - name: "rex-sdk"
+    title: "rex-sdk"
+    description: "Effect-native TypeScript SDK for the Rex server API"
     language: "TypeScript"
     topics: []
-    stars_fact: 68
+    stars_fact: 51
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "skills"
-    title: "skills"
+    last_push: "2026-11-24"
+  - name: ".dotfiles"
+    title: ".dotfiles"
     description: null
     language: "TypeScript"
     topics: []
-    stars_fact: 434
+    stars_fact: 994
     first_seen: null
-    last_push: "2026-07-23"
-  - name: "cf-workflow-pool"
-    title: "cf-workflow-pool"
-    description: "A pre-started instance pool for Cloudflare Workflows (Effect + Alchemy). Results: https://cf-workflow-pool.mulroy.dev"
-    language: "TypeScript"
+    last_push: "2026-11-24"
+  - name: "distilled-lua"
+    title: "distilled-lua"
+    description: "Lua API clients for 115 providers, generated from Distilled's Smithy models. Pure Lua with no dependencies. Runs on Lua 5.1 to 5.5, LuaJIT and gopher-lua in Rex."
+    language: "Lua"
     topics: []
-    stars_fact: 73
+    stars_fact: 65
     first_seen: null
-    last_push: "2026-10-09"
-  - name: "jj-ryu"
-    title: "jj-ryu"
-    description: "Stacked PRs for Jujutsu. Push bookmark stacks to GitHub and GitLab as chained pull requests."
-    language: "Rust"
+    last_push: "2026-11-19"
+  - name: "better-result"
+    title: "better-result"
+    description: "Lightweight Result type for TypeScript with generator-based composition."
+    language: "TypeScript"
     topics:
-      - "git"
-      - "github"
-      - "gitlab"
-      - "graphite"
-      - "jj"
-      - "stacked-prs"
-      - "vcs"
-    stars_fact: 201
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "jj-starship"
-    title: "jj-starship"
-    description: "Fast unified Starship prompt module for Git and Jujutsu repositories"
-    language: "Rust"
-    topics:
-      - "git"
-      - "jj"
-      - "jujutsu"
+      - "error-handling"
+      - "result-type"
       - "rust"
-      - "shell-prompt"
-      - "starship"
-    stars_fact: 253
+      - "try-catch"
+      - "typescript"
+    stars_fact: 2021
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-08-23"
+  - name: "cloudflare-skill"
+    title: "cloudflare-skill"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 727
+    first_seen: null
+    last_push: "2026-01-29"
 ---
 
 # dmmulroy
 
-7 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
+7 pushes across 4 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dmmulroy

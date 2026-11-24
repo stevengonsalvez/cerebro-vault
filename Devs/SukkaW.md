@@ -8,39 +8,39 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [7, 2, 0, 5, 6, 11, 5, 4, 5, 1, 0, 0, 0]
+pushes_per_week: [4, 0, 2, 7, 10, 8, 4, 3, 3, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 12
-    active_days: 31
+    pushes: 42
+    distinct_repos: 11
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4839
-  repo_per_active_day: 0.3871
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.0833
+  push_per_day: 1.4483
+  repo_per_active_day: 0.3793
+  not_owned_ratio: 0.2727
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,114 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 46
-    distinct_repos: 12
-    pushes_per_repo: 3.8333
-    active_days: 31
+    pushes: 42
+    distinct_repos: 11
+    pushes_per_repo: 3.8182
+    active_days: 29
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Make-Bilibili-Great-Than-Ever-Before"
-    title: "Make-Bilibili-Great-Than-Ever-Before"
-    description: "A fork of the userscript \"Make Bilibili Great Again\", but with some experimental features"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 996
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "Surge"
-    title: "Surge"
-    description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
-    language: "TypeScript"
-    topics:
-      - "clash"
-      - "clash-meta"
-      - "clash-premium"
-      - "clash-rules"
-      - "hacktoberfest"
-      - "mihomo"
-      - "mihomo-rules"
-      - "ruleset"
-      - "sing-box"
-      - "sing-box-ruleset"
-      - "stash"
-      - "surfboard"
-      - "surge"
-      - "surge-rules"
-    stars_fact: 4682
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "hikyaku"
-    title: "hikyaku"
-    description: "A high-performance multiplexing proxy that stays lightning fast and highly reliable everywhere, from fiber broadband to lossy in-flight Wi-Fi."
-    language: "Go"
-    topics: []
-    stars_fact: 104
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "nali-cli"
-    title: "nali-cli"
-    description: ":anchor: Parse geoinfo of IP Address without leaving your terminal"
-    language: "JavaScript"
-    topics:
-      - "cli"
-      - "nali-dig"
-      - "nali-nslookup"
-      - "nali-ping"
-      - "nali-tracepath"
-      - "nali-traceroute"
-      - "qqwry"
-      - "qqwry-ip-database"
-    stars_fact: 454
-    first_seen: null
-    last_push: "2024-03-19"
-  - name: "cloudflare-block-bad-bot-ruleset"
-    title: "cloudflare-block-bad-bot-ruleset"
-    description: ":vertical_traffic_light: Block malicious crawlers with Cloudflare Firewall Rules"
-    language: null
-    topics:
-      - "cloudflare"
-      - "cloudflare-firewall-rules"
-      - "crawler-detector"
-      - "firewall"
-      - "firewall-rules"
-      - "user-agent"
-    stars_fact: 222
-    first_seen: null
-    last_push: "2020-04-17"
-  - name: "speed.skk.moe"
-    title: "speed.skk.moe"
-    description: "The source code of the https://speed.skk.moe"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 112
-    first_seen: null
-    last_push: "2026-11-04"
+repos: []
 ---
 
 # SukkaW
 
-46 pushes across 12 repositories on 31 active days in the last 90 days of public GitHub push activity.
+42 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

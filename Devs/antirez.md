@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
   - "f0fa1fe670d03028"
-pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -80,54 +80,54 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "YouRecApp"
-    title: "YouRecApp"
-    description: "Camera and video editor for the iPhone designed for creators"
-    language: "Swift"
-    topics: []
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "kilo"
-    title: "kilo"
-    description: "A text editor in less than 1000 LOC with syntax highlight and search."
+  - name: "sx1262-adsb"
+    title: "sx1262-adsb"
+    description: "ADSB receiver abusing the SX1262 LoRa chip capabilities"
     language: "C"
     topics: []
-    stars_fact: 9241
+    stars_fact: 22
     first_seen: null
-    last_push: "2025-01-04"
+    last_push: "2026-11-20"
   - name: "ds4"
     title: "ds4"
     description: "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
     language: "C"
     topics: []
-    stars_fact: 24380
+    stars_fact: 24439
     first_seen: "2026-08-04T06:00:05.826189+00:00"
     last_push: "2026-11-08"
-  - name: "inverter"
-    title: "inverter"
-    description: "Telegram bot for GoodWe inverters"
-    language: "Python"
+  - name: "kilo"
+    title: "kilo"
+    description: "A text editor in less than 1000 LOC with syntax highlight and search."
+    language: "C"
     topics: []
-    stars_fact: 8
+    stars_fact: 9254
     first_seen: null
-    last_push: "2025-05-08"
+    last_push: "2025-01-04"
+  - name: "smallchat"
+    title: "smallchat"
+    description: "A minimal programming example for a chat server"
+    language: "C"
+    topics: []
+    stars_fact: 7477
+    first_seen: null
+    last_push: "2024-01-27"
+  - name: "linenoise"
+    title: "linenoise"
+    description: "A small self-contained alternative to readline and libedit"
+    language: "C"
+    topics: []
+    stars_fact: 4375
+    first_seen: null
+    last_push: "2026-05-02"
   - name: "h3.c"
     title: "h3.c"
     description: "MiniMax H3 inference engine for Mac computers"
     language: "C"
     topics: []
-    stars_fact: 3071
+    stars_fact: 3097
     first_seen: "2026-08-11T06:00:08.519332+00:00"
     last_push: "2026-08-11"
-  - name: "bplog"
-    title: "bplog"
-    description: "Hilo (TM) / Aktiia (TM) open source client implementation for the bluetooth cuff"
-    language: "Kotlin"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-03-22"
 ---
 
 # antirez

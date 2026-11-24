@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3f220f3536f87a11"
-pushes_per_week: [1, 1, 1, 2, 4, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 5, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    active_days: 8
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.2500
-  repo_per_active_day: 0.2500
+  push_per_day: 1.2857
+  repo_per_active_day: 0.2857
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
   shapes: []
@@ -65,18 +65,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 2
-    pushes_per_repo: 5.0000
-    active_days: 8
+    pushes_per_repo: 4.5000
+    active_days: 7
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 8 active days in 90d — pass"
+  - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "linkedin-mcpserver"
+    title: "linkedin-mcpserver"
+    description: "A powerful Model Context Protocol server for LinkedIn API integration"
+    language: "TypeScript"
+    topics:
+      - "linkedin"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "typescript"
+    stars_fact: 100
+    first_seen: null
+    last_push: "2025-03-28"
   - name: "awesome-n8n-workflows"
     title: "awesome-n8n-workflows"
     description: "A curated collection of awesome n8n workflows for automation, integration, and productivity. Explore ready-to-use JSON workflows for analytics, communication, CRM, e-commerce, finance, HR, marketing, monitoring, security, and more."
@@ -90,18 +102,6 @@ repos:
     stars_fact: 416
     first_seen: null
     last_push: "2025-08-08"
-  - name: "linkedin-mcpserver"
-    title: "linkedin-mcpserver"
-    description: "A powerful Model Context Protocol server for LinkedIn API integration"
-    language: "TypeScript"
-    topics:
-      - "linkedin"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "typescript"
-    stars_fact: 97
-    first_seen: null
-    last_push: "2025-03-28"
   - name: "tanstack-router-query-auth0-template"
     title: "tanstack-router-query-auth0-template"
     description: "Modern React template featuring TanStack Router, TanStack Query, Auth0 authentication, and shadcn/ui components powered by Vite and React 19."
@@ -156,6 +156,6 @@ repos:
 
 # felipfr
 
-10 pushes across 2 repositories on 8 active days in the last 90 days of public GitHub push activity.
+9 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/felipfr

@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 3, 0, 0, 1, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 1, 0, 1, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astrbot_plugin_comic_parser"
-    title: "astrbot_plugin_comic_parser"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "agent-templates"
-    title: "agent-templates"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "mslx-plugin-cron"
-    title: "mslx-plugin-cron"
-    description: null
-    language: "C#"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "astrbot_plugin_model_status"
-    title: "astrbot_plugin_model_status"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-15"
-  - name: "astrbot_plugin_llm_balance"
-    title: "astrbot_plugin_llm_balance"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "astrbot_plugin_group_file_manager"
-    title: "astrbot_plugin_group_file_manager"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-07"
+repos: []
 ---
 
 # XTsat

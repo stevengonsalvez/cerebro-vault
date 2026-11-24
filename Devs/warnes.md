@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 1, 2, 1, 2, 3, 0, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 1, 1, 2, 2, 2, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 12
     distinct_repos: 3
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 12
     distinct_repos: 3
@@ -76,39 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "lucas-game"
-    title: "lucas-game"
-    description: "A simple interactive game that fills the screen with random colors and plays musical tones when keys are pressed."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "markdown-table-aligner"
-    title: "markdown-table-aligner"
-    description: "A Python package for aligning markdown table columns to uniform widths"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-02-02"
-  - name: "NanoStringQCPro"
-    title: "NanoStringQCPro"
-    description: "This is a read-only mirror of the Bioconductor SVN repository. Package Homepage: http://bioconductor.org/packages/devel/bioc/html/NanoStringQCPro.html Bug Reports: https://support.bioconductor.org/p/new/post/?tag_val=NanoStringQCPro."
-    language: "R"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2016-07-13"
-  - name: "TracAnnouncer"
-    title: "TracAnnouncer"
-    description: "Clone of the subversion repository for the Trac AnnouncerPlugin, which provides an alternative notification system for Trac. See http://trac-hacks.org/wiki/AnnouncerPlugin"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2014-03-21"
+repos: []
 ---
 
 # warnes

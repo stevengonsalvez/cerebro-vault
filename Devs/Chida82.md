@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 3, 3, 3, 8, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 4, 2, 5, 4, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-20"
   - name: "StarForge"
     title: "StarForge"
     description: null
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-22"
   - name: "herdr-caffeinate-keeper"
     title: "herdr-caffeinate-keeper"
     description: null

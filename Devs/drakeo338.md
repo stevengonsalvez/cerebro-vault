@@ -5,14 +5,17 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "affaan-m/ECC"
   - "apache/maka"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
+  - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 2, 12, 9, 3, 1, 0, 0, 0, 0]
+  - "edb3a626875732de"
+pushes_per_week: [0, 0, 0, 1, 8, 14, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -73,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -84,7 +87,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
 ---
 
 # drakeo338

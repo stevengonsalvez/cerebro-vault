@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 4, 1, 0, 0, 4, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 2, 0, 0, 4, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -86,9 +86,24 @@ repos:
       - "docker-sandboxes"
       - "herdr"
       - "herdr-plugin"
-    stars_fact: 16
+    stars_fact: 17
     first_seen: null
     last_push: "2026-09-13"
+  - name: "jev-router"
+    title: "jev-router"
+    description: "Pass-through model router for Claude Code and Codex CLI that picks a model tier per human turn with Jev, TypeSafe AI's decision model"
+    language: "JavaScript"
+    topics:
+      - "claude-code"
+      - "codex"
+      - "jev"
+      - "llm-gateway"
+      - "model-router"
+      - "ollama"
+      - "typesafe"
+    stars_fact: 20
+    first_seen: null
+    last_push: "2026-10-29"
   - name: "dirien"
     title: "dirien"
     description: "All about Engin Diri"
@@ -96,7 +111,7 @@ repos:
     topics: []
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "stop-wasting-gpus-how-we-built-a-golden-path-for-gpu-sharing-on-kubernetes"
     title: "stop-wasting-gpus-how-we-built-a-golden-path-for-gpu-sharing-on-kubernetes"
     description: null
@@ -129,7 +144,7 @@ repos:
       - "vultr"
     stars_fact: 179
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-21"
   - name: "claude-skills"
     title: "claude-skills"
     description: "Custom Claude Code skills for Pulumi infrastructure as code"
@@ -138,14 +153,6 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2026-11-10"
-  - name: "skill-ci"
-    title: "skill-ci"
-    description: "CI for agent skills on Kubernetes: Harbor, NVIDIA SkillEvaluator and Agent Sandbox, triggered by skill pushes and model changes"
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-16"
 ---
 
 # dirien

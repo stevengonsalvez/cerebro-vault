@@ -8,11 +8,11 @@ provenance_repos:
   - "superdesigndev/treg"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "8b01562a542974d1"
-pushes_per_week: [0, 1, 2, 1, 9, 6, 1, 7, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 2, 7, 6, 3, 6, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 29
     distinct_repos: 2
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 29
     distinct_repos: 2
@@ -76,55 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "wechatBot"
-    title: "wechatBot"
-    description: "面向个人的微信 wechat 机器人平台 - 使用微信网页版接口 wechat4u"
-    language: "Vue"
-    topics: []
-    stars_fact: 402
-    first_seen: null
-    last_push: "2019-10-21"
-  - name: "personal-website"
-    title: "personal-website"
-    description: "my personal website"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-22"
-  - name: "echospace"
-    title: "echospace"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-11"
-  - name: "wechatplus"
-    title: "wechatplus"
-    description: "a third-party wechat client by vue - 微信第三方网页客户端"
-    language: "Vue"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2016-05-23"
-  - name: "image-token-meter"
-    title: "image-token-meter"
-    description: "A lightweight tool to estimate the number of tokens consumed by images in GPT-4o(others in the future) based on image size."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-07-05"
-  - name: "graphiql-picker"
-    title: "graphiql-picker"
-    description: "A prototype picker plugin for graphiql"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2022-04-26"
+repos: []
 ---
 
 # stonexer

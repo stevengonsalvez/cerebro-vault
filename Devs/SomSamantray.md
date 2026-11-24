@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [2, 1, 0, 4, 4, 1, 2, 9, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 5, 2, 2, 8, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 14
-    active_days: 17
+    pushes: 22
+    distinct_repos: 13
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.4118
-  repo_per_active_day: 0.8235
+  push_per_day: 1.4667
+  repo_per_active_day: 0.8667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,72 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 24
-    distinct_repos: 14
-    pushes_per_repo: 1.7143
-    active_days: 17
+    pushes: 22
+    distinct_repos: 13
+    pushes_per_repo: 1.6923
+    active_days: 15
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "dwnld-any"
-    title: "dwnld-any"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-07-28"
-  - name: "JS-Animation-Webpage"
-    title: "JS-Animation-Webpage"
-    description: "Claude Code skill for adding stunning JavaScript animations to any web project. Covers GSAP, Three.js, anime.js, Motion.dev, and 30+ libraries with production-ready code recipes."
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-02-25"
-  - name: "mac-storage-doctor"
-    title: "mac-storage-doctor"
-    description: "Claude Code skill: deep macOS disk-space analysis with safe, confirm-before-delete cleanup recommendations"
-    language: null
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-22"
-  - name: "SomSamantray"
-    title: "SomSamantray"
-    description: "Config files for my GitHub profile."
-    language: null
-    topics:
-      - "config"
-      - "github-config"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "ai-canvas-branching"
-    title: "ai-canvas-branching"
-    description: "Infinite canvas for branching AI conversations with dynamic node positioning and multi-canvas support"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2025-10-26"
+repos: []
 ---
 
 # SomSamantray
 
-24 pushes across 14 repositories on 17 active days in the last 90 days of public GitHub push activity.
+22 pushes across 13 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SomSamantray

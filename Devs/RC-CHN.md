@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 0, 3, 2, 11, 8, 0, 1, 0, 2, 1, 0, 0]
+pushes_per_week: [0, 3, 0, 7, 14, 0, 1, 0, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 11
-    active_days: 16
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.8750
-  repo_per_active_day: 0.6875
+  push_per_day: 1.8667
+  repo_per_active_day: 0.7333
   not_owned_ratio: 0.1818
   basename_concentration: 0.1818
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 28
     distinct_repos: 11
-    pushes_per_repo: 2.7273
-    active_days: 16
+    pushes_per_repo: 2.5455
+    active_days: 15
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ARTEX"
-    title: "ARTEX"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "mx4200-immortalwrt"
-    title: "mx4200-immortalwrt"
-    description: "Linksys MX4200 系列 / MX4300 / HomeWRK ImmortalWrt 开源固件"
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "Cumulus-music"
-    title: "Cumulus-music"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "wg-quic"
-    title: "wg-quic"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "command-code-reverse"
-    title: "command-code-reverse"
-    description: "Converts Command Code API to OpenAI chat completions"
-    language: "Go"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "astrbot-gold-plugin"
-    title: "astrbot-gold-plugin"
-    description: "从招行api实时获取当前金价"
-    language: "Python"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2025-04-17"
+repos: []
 ---
 
 # RC-CHN
 
-30 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
+28 pushes across 11 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RC-CHN

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,19 +17,19 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 1, 16, 3, 41, 29, 27, 20, 6, 10, 0, 0, 6]
+pushes_per_week: [1, 16, 3, 15, 49, 32, 16, 8, 13, 0, 0, 6, 0]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 10
     distinct_repos: 2
-    active_days: 6
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -54,18 +54,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 6
+    pushes_per_repo: 5.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,22 @@ reasons:
   - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "seminar-agentic-coding-handson-public"
+    title: "seminar-agentic-coding-handson-public"
+    description: "Agentic Coding講座（SBクリエイティブ）ハンズオン用リポジトリ"
+    language: "HTML"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "cf2router"
+    title: "cf2router"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "lazycodecommit"
     title: "lazycodecommit"
     description: null
@@ -89,7 +105,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "book-agentic-coding-examples"
     title: "book-agentic-coding-examples"
     description: "「Agentic Coding 生成AI時代のシステム開発入門」の読者向けリポジトリ"
@@ -105,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "local_busmap_tokyo"
     title: "local_busmap_tokyo"
     description: null
@@ -113,23 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "chokkin"
-    title: "chokkin"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "zghalint"
-    title: "zghalint"
-    description: null
-    language: "Zig"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
 ---
 
 # watany-dev

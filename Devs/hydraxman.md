@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 0, 1, 2, 0, 2, 2, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 1, 2, 0, 2, 2, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.1111
-  repo_per_active_day: 0.5556
+  push_per_day: 1.1250
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.4000
   basename_concentration: 0.2000
   shapes: []
@@ -67,26 +67,18 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 9
+    pushes_per_repo: 1.8000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ApkEditor"
-    title: "ApkEditor"
-    description: "unfinished yet! try to create an apk editor."
-    language: "Java"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2019-10-22"
   - name: "hibeaver"
     title: "hibeaver"
     description: "HiBeaver is a gradle plugin for java byte code manipulation and AOP design by modifying project byte code during build of the package, or modifying byte code within Jar independently."
@@ -96,9 +88,17 @@ repos:
       - "bytecode"
       - "gradle"
       - "java"
-    stars_fact: 709
+    stars_fact: 708
     first_seen: null
     last_push: "2026-01-30"
+  - name: "ApkEditor"
+    title: "ApkEditor"
+    description: "unfinished yet! try to create an apk editor."
+    language: "Java"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2019-10-22"
   - name: "hydraxman.github.io"
     title: "hydraxman.github.io"
     description: null
@@ -114,7 +114,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-18"
   - name: "Jar2Java"
     title: "Jar2Java"
     description: "The output of this project, which is a runnable jar file, is able to transfer jar to organized java files. Futher plan is to analyze them."
@@ -135,6 +135,6 @@ repos:
 
 # hydraxman
 
-10 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
+9 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hydraxman

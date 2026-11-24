@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 2, 3, 1, 2, 0, 3, 5, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 3, 1, 2, 0, 3, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 16
     distinct_repos: 10
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 16
     distinct_repos: 10
@@ -76,95 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "SlopStation"
-    title: "SlopStation"
-    description: "SlopStation — PS4 reverse-engineering workbench: live memory, debugger, scanner, decompiler, x86-64 emulator, Lua, MCP, bundled ps4debug-NG."
-    language: "C++"
-    topics:
-      - "debugger"
-      - "mcp"
-      - "ps4"
-      - "reverse-engineering"
-      - "tauri"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "claude-for-firefox"
-    title: "claude-for-firefox"
-    description: "Claude for Firefox - community browser extension with sidebar chat and automation"
-    language: "JavaScript"
-    topics:
-      - "ai-assistant"
-      - "browser-extension"
-      - "claude"
-      - "firefox"
-      - "javascript"
-      - "webextension"
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "ps4debug-mcp"
-    title: "ps4debug-mcp"
-    description: "MCP server + Python client for the ps4debug-NG payload (jailbroken PS4 debugger) - AI-driven dynamic RE of PS4 games"
-    language: "Python"
-    topics:
-      - "ai-agents"
-      - "debugger"
-      - "mcp"
-      - "model-context-protocol"
-      - "ps4"
-      - "python"
-      - "reverse-engineering"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "NetVar1337"
-    title: "NetVar1337"
-    description: "Security research, harness engineering and agentic AI - autonomous security agents, reverse-engineering tooling and agent infrastructure."
-    language: "Python"
-    topics:
-      - "agent-harness"
-      - "ai-agents"
-      - "detection-engineering"
-      - "mcp"
-      - "reverse-engineering"
-      - "security-research"
-      - "windows-internals"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "EchoDebug"
-    title: "EchoDebug"
-    description: "Windows reverse-engineering workbench (Tauri + React) with a WebSocket relay and MCP server, backed by Echo's Universal API"
-    language: "TypeScript"
-    topics:
-      - "debugger"
-      - "mcp"
-      - "memory-analysis"
-      - "reverse-engineering"
-      - "tauri"
-      - "windows"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "omniwire"
-    title: "omniwire"
-    description: "Infrastructure for AI agent swarms - 88 MCP tools, A2A, mesh VPN, CDP browser, 2FA"
-    language: "TypeScript"
-    topics:
-      - "a2a"
-      - "ai-agents"
-      - "devops"
-      - "infrastructure"
-      - "mcp"
-      - "model-context-protocol"
-      - "npm"
-      - "typescript"
-      - "wireguard"
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-27"
+repos: []
 ---
 
 # NetVar1337

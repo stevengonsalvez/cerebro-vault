@@ -12,7 +12,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "47417b643909abb5"
   - "afe9ef77456d9360"
@@ -86,9 +86,33 @@ repos:
     description: "Codex++ tweak system for the Codex desktop app"
     language: "JavaScript"
     topics: []
-    stars_fact: 3767
+    stars_fact: 3766
     first_seen: "2026-10-16T08:25:05.455247+00:00"
     last_push: "2026-10-15"
+  - name: "codexplusplus-horizontal-tabs"
+    title: "codexplusplus-horizontal-tabs"
+    description: "Codex++ tweak that adds a stable horizontal chat tab bar."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-08"
+  - name: "codex-plusplus-better-browser"
+    title: "codex-plusplus-better-browser"
+    description: "Better Browser Codex++ tweak"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-02"
+  - name: "codex-plusplus-bennett-ui"
+    title: "codex-plusplus-bennett-ui"
+    description: "Codex++ tweak with Bennett's UI improvements"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-05-08"
   - name: "codex-subscription-router"
     title: "codex-subscription-router"
     description: null
@@ -105,34 +129,6 @@ repos:
     stars_fact: 570
     first_seen: null
     last_push: "2026-05-07"
-  - name: "codex-apple-watch"
-    title: "codex-apple-watch"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 110
-    first_seen: null
-    last_push: "2026-05-24"
-  - name: "Revolut-Card-CLI"
-    title: "Revolut-Card-CLI"
-    description: "Unofficial TypeScript CLI for managing Revolut virtual cards"
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "revolut"
-      - "typescript"
-      - "virtual-cards"
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-08-28"
-  - name: "arcodex"
-    title: "arcodex"
-    description: "Open source Codex browser extension for Chrome and Arc"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-06-17"
 ---
 
 # b-nnett

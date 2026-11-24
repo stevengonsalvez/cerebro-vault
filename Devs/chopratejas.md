@@ -10,23 +10,23 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "668711a6e1072822"
   - "73468cde177ddae6"
-pushes_per_week: [1, 0, 1, 4, 6, 4, 4, 18, 2, 2, 0, 0, 0]
+pushes_per_week: [0, 1, 3, 4, 4, 7, 18, 0, 4, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -51,18 +51,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 4
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -79,30 +79,22 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ephemeral-ai"
+    title: "ephemeral-ai"
+    description: "Self-healing AI workbench with warm Droplet pools on DigitalOcean"
+    language: "Python"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-03-04"
   - name: "headroom-workshop-kit"
     title: "headroom-workshop-kit"
     description: "Hands-on kit: see what your coding agent sends, and what Headroom removes"
     language: "Python"
     topics: []
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-10-20"
-  - name: "invalidate"
-    title: "invalidate"
-    description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
-    language: "Python"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-09-21"
-  - name: "vitals"
-    title: "vitals"
-    description: "Codebase vital signs for Claude Code — finds hotspots, diagnoses root causes, ranks fixes by ROI"
-    language: "Python"
-    topics: []
-    stars_fact: 42
-    first_seen: null
-    last_push: "2026-03-04"
   - name: "headroom-zed"
     title: "headroom-zed"
     description: "Zed extension for Headroom — context compression for AI agents"
@@ -121,6 +113,22 @@ repos:
     stars_fact: 67
     first_seen: null
     last_push: "2026-03-18"
+  - name: "invalidate"
+    title: "invalidate"
+    description: "The invalidation layer for AI memory. Every fact gets a lease; new evidence ends it. Built on TypeSafe Jev."
+    language: "Python"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-09-21"
+  - name: "vitals"
+    title: "vitals"
+    description: "Codebase vital signs for Claude Code — finds hotspots, diagnoses root causes, ranks fixes by ROI"
+    language: "Python"
+    topics: []
+    stars_fact: 42
+    first_seen: null
+    last_push: "2026-03-04"
   - name: "tokview"
     title: "tokview"
     description: "See where your LLM tokens actually go — down to the individual tool call. A small, local, zero-config proxy + dashboard for token/cost tracking across Claude, OpenAI, Gemini."
@@ -129,14 +137,6 @@ repos:
     stars_fact: 80
     first_seen: null
     last_push: "2026-09-30"
-  - name: "memcached"
-    title: "memcached"
-    description: "memcached implementation"
-    language: "Java"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2024-11-20"
 ---
 
 # chopratejas

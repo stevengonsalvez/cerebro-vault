@@ -10,12 +10,12 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "4d1450729e6ff44d"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 0, 10, 11, 20, 16, 11, 3, 2, 0, 0, 0]
+pushes_per_week: [0, 0, 7, 12, 14, 24, 7, 6, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -25,9 +25,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,10 +60,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -85,9 +85,9 @@ repos:
     description: "《Pi Agent从入门到精通》：面向零基础的中文开源书，基于源码拆解上下文、记忆、工具、扩展与持续进化，附可复现实验。"
     language: "JavaScript"
     topics: []
-    stars_fact: 57
+    stars_fact: 66
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-19"
   - name: "Dante-dan"
     title: "Dante-dan"
     description: null
@@ -95,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "dayweave"
     title: "dayweave"
     description: "Dayweave · 拾日 — An ambient personal secretary: everyday conversations to lasting text archives and thoughtful insights."

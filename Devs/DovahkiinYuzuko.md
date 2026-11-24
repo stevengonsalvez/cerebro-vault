@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [1, 0, 0, 1, 3, 0, 5, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 0, 3, 5, 1, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,35 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "explorations-in-documentation"
+    title: "explorations-in-documentation"
+    description: "[ENG]A research inquiry and agent skill on information architecture, cognitive engineering, and evidence-based documentation design / [JPN]認知工学・形式論理学・説得工学の知見に基づくドキュメント設計原則の探求とエージェントスキル"
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "cognitive-load"
+      - "document-design"
+      - "documentation"
+      - "guidelines"
+      - "information-architecture"
+      - "llm"
+      - "readme"
+      - "research"
+      - "technical-writing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "local-issues-skill"
+    title: "local-issues-skill"
+    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "l21m"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "gitignore-soc-skill"
     title: "gitignore-soc-skill"
     description: "[ENG]An Agent Skill that packages gitignoreSoC (mushi) for AI coding agents like Claude Code and OpenAI Codex. / [JPN]gitignoreSoC（mushi）をClaude CodeやOpenAI CodexなどのAIコーディングエージェントから使えるようにしたAgent Skill"
@@ -97,17 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-06"
-  - name: "local-issues-skill"
-    title: "local-issues-skill"
-    description: "[ENG] Agent skill to manage local issues and roadmaps for AI-assisted development / [JPN] AIエージェント開発向けにローカルissueとロードマップを管理するエージェントスキル"
-    language: null
-    topics:
-      - "agent-skills"
-      - "l21m"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "briefing-board"
     title: "briefing-board"
     description: "[ENG]Pre-implementation strategic briefing skill: turns AI-organized topics into a local web dashboard to collect decisions. / [JPN]実装前の設計相談や方針決めで、AIが整理した論点をローカルWeb画面に提示し判断結果を回収するエージェントスキル。"
@@ -124,23 +142,6 @@ repos:
       - "local-web-ui"
       - "python"
       - "toml"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "explorations-in-documentation"
-    title: "explorations-in-documentation"
-    description: "[ENG]A research inquiry and agent skill on information architecture, cognitive engineering, and evidence-based technical documentation / [JPN]認知工学・形式論理学・説得工学の知見に基づくドキュメント設計原則の探求とエージェントスキル"
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "cognitive-load"
-      - "documentation"
-      - "guidelines"
-      - "information-architecture"
-      - "llm"
-      - "readme"
-      - "research"
-      - "technical-writing"
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-16"

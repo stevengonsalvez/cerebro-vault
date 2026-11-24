@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 0, 0, 2, 2, 1, 1, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 1, 2, 0, 4, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 11
     distinct_repos: 7
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 11
     distinct_repos: 7
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "astro-wysiwyg"
-    title: "astro-wysiwyg"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2026-08-25"
-  - name: "pi-zellij-tab-status"
-    title: "pi-zellij-tab-status"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "pi-web-annotator"
-    title: "pi-web-annotator"
-    description: "Annotate webpage elements or text, send targeted change requests to Pi, or copy them as Markdown."
-    language: "TypeScript"
-    topics:
-      - "developer-tools"
-      - "firefox-extension"
-      - "markdown"
-      - "pi-package"
-      - "web-annotation"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "pi-ollama-decision"
-    title: "pi-ollama-decision"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "zellij-tabbar"
-    title: "zellij-tabbar"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
-  - name: "omaip"
-    title: "omaip"
-    description: "Omarchy shell plugin for externally observed exit-IP whitelist and blacklist checks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-07"
+repos: []
 ---
 
 # pbjorklund

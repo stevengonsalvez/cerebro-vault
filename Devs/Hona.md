@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [25, 7, 8, 7, 25, 5, 18, 13, 11, 8, 6, 1, 3]
+pushes_per_week: [17, 8, 4, 21, 8, 22, 9, 13, 10, 0, 7, 3, 14]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 14
+    distinct_repos: 2
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
-  "90d":
-    pushes: 137
-    distinct_repos: 14
-    active_days: 42
+    pushes: 32
+    distinct_repos: 5
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
+  "90d":
+    pushes: 136
+    distinct_repos: 15
+    active_days: 41
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2619
-  repo_per_active_day: 0.3333
-  not_owned_ratio: 0.2143
-  basename_concentration: 0.1429
+  push_per_day: 3.3171
+  repo_per_active_day: 0.3659
+  not_owned_ratio: 0.2667
+  basename_concentration: 0.1333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
+    pushes: 14
+    distinct_repos: 2
+    pushes_per_repo: 7.0000
     active_days: 2
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 20
-    distinct_repos: 4
-    pushes_per_repo: 5.0000
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 1
-  "90d":
-    pushes: 137
-    distinct_repos: 14
-    pushes_per_repo: 9.7857
-    active_days: 42
+    pushes: 32
+    distinct_repos: 5
+    pushes_per_repo: 6.4000
+    active_days: 8
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
+  "90d":
+    pushes: 136
+    distinct_repos: 15
+    pushes_per_repo: 9.0667
+    active_days: 41
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 42 active days in 90d — pass"
+  - "activity: 41 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "playsrc"
+    title: "playsrc"
+    description: "Play Team Fortress 2 in the browser"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-09-01"
   - name: "openeval"
     title: "openeval"
     description: "Typed prompt-and-judge SDK, CLI, and evidence viewer for agent evaluations"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 79
     first_seen: null
     last_push: "2026-10-05"
-  - name: "playsrc"
-    title: "playsrc"
-    description: "Play Team Fortress 2 in the browser"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 31
-    first_seen: null
-    last_push: "2026-09-01"
   - name: "opencode-ralph"
     title: "opencode-ralph"
     description: "Ralph Driven Development using OpenCode SDK and OpenTUI"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-137 pushes across 14 repositories on 42 active days in the last 90 days of public GitHub push activity.
+136 pushes across 15 repositories on 41 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

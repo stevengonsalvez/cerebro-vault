@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 1, 2, 5, 0, 8, 6, 4, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 4, 2, 8, 5, 2, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "tuvis-website"
-    title: "tuvis-website"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
   - name: "tuvis"
     title: "tuvis"
     description: "Tuvis(兔维斯) — desktop mission control for AI coding agents: live session monitoring, remote injection, Skill/MCP management & usage ledger. One hub for Claude Code, Codex, OpenCode & more."
@@ -106,9 +98,25 @@ repos:
       - "session-monitoring"
       - "tauri"
       - "usage-tracking"
-    stars_fact: 100
+    stars_fact: 101
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-24"
+  - name: "local-datasource"
+    title: "local-datasource"
+    description: "通过本地MCP，调用免费 API 查询金融市场、宏观经济与学术论文数据"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "tuvis-website"
+    title: "tuvis-website"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "VideoToDoc-skills"
     title: "VideoToDoc-skills"
     description: "三个协同工作的 Skill，实现从视频到飞书文档的自动化转换。"
@@ -138,14 +146,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-12"
-  - name: "dsh-deepseek-harness-StudyDocs"
-    title: "dsh-deepseek-harness-StudyDocs"
-    description: "DeepSeek Harness (dsh) 源码学习文档：需求驱动四维范式（WHY→WHAT→HOW→EXAMPLE），12 篇详解覆盖框架/主干/能力族/多智能体/应用层/工程体系，产物全部来自真实快照，链接直达源码"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-08-16"
 ---
 
 # jarvislee90s-dot

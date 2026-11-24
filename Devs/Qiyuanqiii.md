@@ -8,37 +8,37 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [3, 0, 1, 0, 6, 5, 6, 8, 16, 1, 0, 4, 1]
+pushes_per_week: [0, 1, 0, 6, 2, 9, 8, 10, 7, 0, 0, 5, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 5
     distinct_repos: 1
-    active_days: 5
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 4
-    active_days: 26
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.9615
-  repo_per_active_day: 0.1538
+  push_per_day: 2.0000
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.5000
   basename_concentration: 0.2500
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 12
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 12.0000
-    active_days: 5
+    pushes_per_repo: 5.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 51
+    pushes: 48
     distinct_repos: 4
-    pushes_per_repo: 12.7500
-    active_days: 26
+    pushes_per_repo: 12.0000
+    active_days: 24
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "Qiyuanqiii"
-    title: "Qiyuanqiii"
-    description: "Profile README · Go · AI Agents · Cybersecurity · Open Source"
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "ocr-behavior-review"
-    title: "ocr-behavior-review"
-    description: "An opt-in behavior contract and counterexample review policy for OpenCodeReview."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "VulnGym-T2"
-    title: "VulnGym-T2"
-    description: "2026 腾讯开源 VulnGym赛道 T2选题 双证+奖金"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-18"
-  - name: "VulnGym-bv2-private"
-    title: "VulnGym-bv2-private"
-    description: "Private engineering repository for the VulnGym T1 x T2 B-v2 automation loop"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-09"
-  - name: "Jump-Terminator"
-    title: "Jump-Terminator"
-    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
-  - name: "codex-401-doctor"
-    title: "codex-401-doctor"
-    description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
-    language: "PowerShell"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-29"
+repos: []
 ---
 
 # Qiyuanqiii
 
-51 pushes across 4 repositories on 26 active days in the last 90 days of public GitHub push activity.
+48 pushes across 4 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Qiyuanqiii

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 5, 0, 2, 1, 25, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 1, 2, 1, 2, 24, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 2
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 26
-    distinct_repos: 2
-    pushes_per_repo: 13.0000
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "CPyMO-Ports"
+    title: "CPyMO-Ports"
+    description: "CPyMO 视觉小说引擎的开源移植项目，首发支持 Symbian S60v3 与初代 RG35XX（GarlicOS）。"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "Flashpoint-Uninstaller"
+    title: "Flashpoint-Uninstaller"
+    description: "一键彻底卸载 Flashpoint 的单文件极简工具"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
   - name: "Blueteemo"
     title: "Blueteemo"
     description: "✨ Profile README"
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-24"
   - name: "maimai-knowledge-skill"
     title: "maimai-knowledge-skill"
     description: "🎵 舞萌DX歌曲知识库 - 支持查分/封面图/拟合难度/歌曲推荐"
@@ -114,27 +130,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-02"
-  - name: "wap-probe"
-    title: "wap-probe"
-    description: "WAP protocol probing, WML/WMLC parsing, and interoperability testing toolkit."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-02"
-  - name: "dsh-smart-namer"
-    title: "dsh-smart-namer"
-    description: "Smart naming for DeepSeek Harness sessions and workspaces — short names from the item's own content, one click to rename."
-    language: "JavaScript"
-    topics:
-      - "cordis"
-      - "deepseek-harness"
-      - "dsh"
-      - "dsh-plugin"
-      - "plugin"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
 ---
 
 # Blueteemo

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "b03e856411c0697d"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,13 +79,24 @@ reasons:
 repos:
   - name: "minimind"
     title: "minimind"
-    description: "🧠 Train a 64M-parameter LLM from scratch in just 2h!"
+    description: "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
     language: "Python"
     topics:
       - "artificial-intelligence"
       - "large-language-model"
-    stars_fact: 65597
+    stars_fact: 70000
     first_seen: "2026-09-01T06:00:03.096534+00:00"
+    last_push: "2026-11-23"
+  - name: "minimind-o"
+    title: "minimind-o"
+    description: "🎙️ A 0.1B Omni model trained from scratch, capable of listening, speaking, and seeing!"
+    language: "Python"
+    topics:
+      - "artificial-intelligence"
+      - "chatgpt"
+      - "omni"
+    stars_fact: 2771
+    first_seen: null
     last_push: "2026-10-27"
   - name: "minimind-v"
     title: "minimind-v"
@@ -95,36 +106,9 @@ repos:
       - "artificial-intelligence"
       - "chatgpt"
       - "vision-language-model"
-    stars_fact: 8845
+    stars_fact: 8883
     first_seen: null
     last_push: "2026-10-27"
-  - name: "minimind-o"
-    title: "minimind-o"
-    description: "🎙️ A 0.1B Omni model trained from scratch, capable of listening, speaking, and seeing!"
-    language: "Python"
-    topics:
-      - "artificial-intelligence"
-      - "chatgpt"
-      - "omni"
-    stars_fact: 2733
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "jingyaogong"
-    title: "jingyaogong"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "jingyaogong.github.io"
-    title: "jingyaogong.github.io"
-    description: "page"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "face_rec"
     title: "face_rec"
     description: null
@@ -133,6 +117,22 @@ repos:
     stars_fact: 13
     first_seen: null
     last_push: "2024-01-04"
+  - name: "jingyaogong"
+    title: "jingyaogong"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "jingyaogong.github.io"
+    title: "jingyaogong.github.io"
+    description: "page"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-18"
 ---
 
 # jingyaogong

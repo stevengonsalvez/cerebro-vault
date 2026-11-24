@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -69,6 +69,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "a9972b90c90a6092"
   - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
@@ -91,30 +92,32 @@ provenance:
   - "e58a3ce1f17ad846"
   - "e75aaf1e12900808"
   - "ed610e0dc54be0b1"
+  - "f3d370a5121afbf2"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fbfedaa618aab83d"
   - "fd1cb9e783625459"
+  - "fdc4cffb6fa79465"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [3, 0, 0, 0, 0, 2, 6, 185, 1, 20, 1, 0, 3]
+pushes_per_week: [0, 0, 0, 0, 2, 6, 157, 29, 20, 1, 0, 2, 2]
 windows:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 12
-    active_days: 7
+    pushes: 10
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 221
+    pushes: 219
     distinct_repos: 25
     active_days: 16
     repos_not_owned: 0
@@ -122,7 +125,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 13.8125
+  push_per_day: 13.6875
   repo_per_active_day: 1.5625
   not_owned_ratio: 0.0000
   basename_concentration: 0.0400
@@ -134,31 +137,31 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
+    pushes_per_repo: 2.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 25
-    distinct_repos: 12
-    pushes_per_repo: 2.0833
-    active_days: 7
+    pushes: 10
+    distinct_repos: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 221
+    pushes: 219
     distinct_repos: 25
-    pushes_per_repo: 8.8400
+    pushes_per_repo: 8.7600
     active_days: 16
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 86 vault signal(s) — pass"
+  - "provenance: 89 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -223,6 +226,6 @@ repos:
 
 # ravshansbox
 
-221 pushes across 25 repositories on 16 active days in the last 90 days of public GitHub push activity.
+219 pushes across 25 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ravshansbox

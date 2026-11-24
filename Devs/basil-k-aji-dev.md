@@ -5,14 +5,17 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
+  - "affaan-m/ECC"
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
+  - "1df6ea1f1256059e"
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 3, 7, 1, 6, 0, 0, 0, 0, 0, 0]
+  - "edb3a626875732de"
+pushes_per_week: [0, 0, 3, 5, 3, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -73,7 +76,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 3 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
@@ -84,7 +87,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "basil-k-aji-dev"
     title: "basil-k-aji-dev"
     description: "Profile README"
@@ -92,7 +95,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "amodal_completion"
     title: "amodal_completion"
     description: "Open-world amodal appearance completion pipeline: SAM3 + GPT-5 + InstaOrder + FLUX.1-Fill, with iterative off-frame extension"

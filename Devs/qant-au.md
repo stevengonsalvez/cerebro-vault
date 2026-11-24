@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-seo"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 0, 0, 0, 0, 36, 3, 5, 10, 6, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 23, 15, 6, 8, 8, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 7
     distinct_repos: 3
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.3333
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,25 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "axonometra"
-    title: "axonometra"
-    description: "Open-source 3D planning engine for land and marine plans. A maintained fork of NeonPlan 3D."
-    language: "TypeScript"
-    topics:
-      - "3d"
-      - "boat"
-      - "floor-plan"
-      - "hacs"
-      - "hacs-integration"
-      - "home-assistant"
-      - "lit"
-      - "marine"
-      - "signalk"
-      - "threejs"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
+repos: []
 ---
 
 # qant-au

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 0, 0, 1, 2, 0, 1, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 0, 1, 3, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.5000
+  push_per_day: 1.8000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,26 +65,36 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 10
+    pushes: 9
     distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 6
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "usbutils"
-    title: "usbutils"
-    description: "USB utilities for Linux, including lsusb"
+  - name: "linux"
+    title: "linux"
+    description: "Linux kernel stable tree mirror"
+    language: "C"
+    topics:
+      - "kernel"
+      - "linux"
+    stars_fact: 750
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "kdbus"
+    title: "kdbus"
+    description: "Kernel \"dbus-like\" code for the Linux kernel"
     language: "C"
     topics: []
-    stars_fact: 467
+    stars_fact: 260
     first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2017-01-19"
   - name: "kernel-tutorial"
     title: "kernel-tutorial"
     description: "Basic \"How to write a Linux kernel patch and submit it\" tutorial"
@@ -93,16 +103,14 @@ repos:
     stars_fact: 1264
     first_seen: null
     last_push: "2021-03-26"
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel stable tree mirror"
+  - name: "usbutils"
+    title: "usbutils"
+    description: "USB utilities for Linux, including lsusb"
     language: "C"
-    topics:
-      - "kernel"
-      - "linux"
-    stars_fact: 739
+    topics: []
+    stars_fact: 467
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-03"
   - name: "usbview"
     title: "usbview"
     description: "usb viewer for Linux"
@@ -119,18 +127,10 @@ repos:
     stars_fact: 170
     first_seen: null
     last_push: "2015-02-26"
-  - name: "kernel-development"
-    title: "kernel-development"
-    description: "Presentation on how the Linux kernel is developed"
-    language: "TeX"
-    topics: []
-    stars_fact: 693
-    first_seen: null
-    last_push: "2026-11-03"
 ---
 
 # gregkh
 
-10 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+9 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/gregkh

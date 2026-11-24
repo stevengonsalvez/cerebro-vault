@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [1, 0, 3, 0, 0, 6, 7, 7, 4, 1, 0, 0, 1]
+pushes_per_week: [1, 3, 0, 0, 4, 9, 7, 0, 5, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 12
-    active_days: 17
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7647
-  repo_per_active_day: 0.7059
+  push_per_day: 1.7222
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
   basename_concentration: 0.0833
   shapes: []
@@ -57,26 +57,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 6
-    pushes_per_repo: 1.0000
-    active_days: 4
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 30
+    pushes: 31
     distinct_repos: 12
-    pushes_per_repo: 2.5000
-    active_days: 17
+    pushes_per_repo: 2.5833
+    active_days: 18
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "open-shadow-ai"
+    title: "open-shadow-ai"
+    description: "Self-hosted Shadow AI discovery and governance. Evidence-first visibility across network, endpoints, Active Directory and Entra ID."
+    language: "Python"
+    topics:
+      - "active-directory"
+      - "ai-compliance"
+      - "ai-governance"
+      - "ai-inventory"
+      - "ai-security"
+      - "cybersecurity"
+      - "docker"
+      - "entra-id"
+      - "eu-ai-act"
+      - "fastapi"
+      - "generative-ai"
+      - "iso-42001"
+      - "kubernetes"
+      - "react"
+      - "self-hosted"
+      - "shadow-ai"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "ai-factory"
+    title: "ai-factory"
+    description: "Open-source control plane for enterprise AI operations, agent governance, human approvals, and hybrid model routing."
+    language: "Python"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "ai-governance"
+      - "digital-twin"
+      - "enterprise-ai"
+      - "fastapi"
+      - "human-in-the-loop"
+      - "kubernetes"
+      - "llmops"
+      - "model-context-protocol"
+      - "observability"
+      - "threejs"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "ftp-deploy-mcp"
     title: "ftp-deploy-mcp"
     description: "MCP server for FTP/FTPS/SFTP deployment, inspection and transfer. Local confinement, host-key pinning, read-only mode and dry runs; optional durable workflow with verified promotion, confirmation and rollback. EN/FR."
@@ -112,7 +156,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "awesome-ai-architect"
     title: "awesome-ai-architect"
     description: "A self-updating, auto-classified map of the GenAI engineering stack: agents, MCP, memory, RAG, evals, LLMOps, AI security"
@@ -130,7 +174,7 @@ repos:
       - "rag"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "claude-inc"
     title: "claude-inc"
     description: "Structured project workflows for Claude Code. Published v1.5.1: 54 skill manuals / 8 departments. Development source: 64 / 9, with peer CEO, CTO and CAIO."
@@ -154,63 +198,10 @@ repos:
     stars_fact: 24
     first_seen: null
     last_push: "2026-11-11"
-  - name: "pilovo"
-    title: "pilovo"
-    description: "Chrome extension that shows whether your ChatGPT and Claude tabs are working, have a response ready or need your attention. Local side panel, optional access per site, no telemetry. Open-source preview."
-    language: "TypeScript"
-    topics:
-      - "ai-tools"
-      - "browser-extension"
-      - "chatgpt"
-      - "chatgpt-extension"
-      - "chrome-extension"
-      - "chrome-side-panel"
-      - "claude"
-      - "claude-ai"
-      - "local-first"
-      - "manifest-v3"
-      - "no-telemetry"
-      - "open-source"
-      - "privacy"
-      - "productivity"
-      - "react"
-      - "side-panel"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "grafana-llmops-forge"
-    title: "grafana-llmops-forge"
-    description: "Grafana-native LLMOps dashboards for FinOps, agents, quality and AI governance. Automated query and deployment checks, with a separate optional visual review."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "ai-governance"
-      - "ai-observability"
-      - "claude-code"
-      - "claude-skills"
-      - "eu-ai-act"
-      - "finops"
-      - "generative-ai"
-      - "grafana"
-      - "grafana-dashboards"
-      - "iso-42001"
-      - "litellm"
-      - "llm-finops"
-      - "llm-observability"
-      - "llmops"
-      - "nist-ai-rmf"
-      - "opentelemetry"
-      - "prometheus"
-      - "sre"
-      - "vllm"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-15"
 ---
 
 # alebgl77
 
-30 pushes across 12 repositories on 17 active days in the last 90 days of public GitHub push activity.
+31 pushes across 12 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alebgl77

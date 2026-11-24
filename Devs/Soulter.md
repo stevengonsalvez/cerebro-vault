@@ -9,28 +9,28 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 1, 0, 3, 4, 18, 6, 7, 3, 1, 0, 0, 2]
+pushes_per_week: [2, 0, 2, 5, 17, 7, 3, 6, 2, 0, 0, 2, 0]
 windows:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 4
-    distinct_repos: 1
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 4
     active_days: 22
     repos_not_owned: 4
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.1364
+  push_per_day: 2.0909
   repo_per_active_day: 0.1818
   not_owned_ratio: 1.0000
   basename_concentration: 0.5000
@@ -50,6 +50,14 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 2
     distinct_repos: 1
     pushes_per_repo: 2.0000
@@ -57,18 +65,10 @@ facets:
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 4
-    distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
   "90d":
-    pushes: 47
+    pushes: 46
     distinct_repos: 4
-    pushes_per_repo: 11.7500
+    pushes_per_repo: 11.5000
     active_days: 22
     repos_not_owned: 4
     not_owned_basenames: 3
@@ -77,59 +77,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "helloworld"
-    title: "helloworld"
-    description: "AstrBot Plugin Template"
-    language: "Python"
-    topics: []
-    stars_fact: 192
-    first_seen: null
-    last_push: "2026-04-12"
-  - name: "astrbot_plugin_essential"
-    title: "astrbot_plugin_essential"
-    description: "AstrBot Q群插件 | 随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。"
-    language: "Python"
-    topics: []
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "astrbot_plugin_rss"
-    title: "astrbot_plugin_rss"
-    description: "AstrBot 插件 | 群聊/私聊 RSS 订阅推送"
-    language: "Python"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2025-08-24"
-  - name: "astrbot_plugin_bilibili"
-    title: "astrbot_plugin_bilibili"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 102
-    first_seen: null
-    last_push: "2026-10-09"
-  - name: "Soulter"
-    title: "Soulter"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "one-sponsor-list"
-    title: "one-sponsor-list"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
+repos: []
 ---
 
 # Soulter
 
-47 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
+46 pushes across 4 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Soulter

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 1, 6, 8, 2, 1, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 4, 6, 7, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -128,7 +128,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "animesubs"
     title: "animesubs"
     description: "Desktop app to extract, translate and embed subtitles into videos."

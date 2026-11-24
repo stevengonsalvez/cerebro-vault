@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 2, 60, 10, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 54, 15, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,72 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "capture-bypass"
-    title: "capture-bypass"
-    description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
-    language: "Rust"
-    topics: []
-    stars_fact: 56
-    first_seen: null
-    last_push: "2026-07-12"
-  - name: "ot-ics-exposure-research"
-    title: "ot-ics-exposure-research"
-    description: "Passive OT/ICS internet-exposure research (aggregate, count-only) with a defensive blue-team lab, detection rules, a forensics kit, and IEC 62443 / SANS mappings."
-    language: "Python"
-    topics:
-      - "blue-team"
-      - "critical-infrastructure"
-      - "ics-security"
-      - "iec-62443"
-      - "modbus"
-      - "ot-security"
-      - "shodan"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "Londopy"
-    title: "Londopy"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "the-long-fork"
-    title: "the-long-fork"
-    description: "A repo whose only purpose is to be forked, one link at a time, as deep as possible. Fork the tip, add one line, pass it on."
-    language: "Python"
-    topics:
-      - "ascii-art"
-      - "chain"
-      - "collaborative"
-      - "community"
-      - "fork"
-      - "game"
-      - "github-actions"
-      - "github-pages"
-      - "hash-chain"
-      - "social-experiment"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "ropesim"
-    title: "ropesim"
-    description: "RopeSim models lead-fall dynamics using a damped spring / RK4 integration in Rust, exposed to Python via PyO3/Maturin. It ships a full Python API, a five-command CLI, and a PySide6 desktop GUI."
-    language: "Python"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "patchnotes"
-    title: "patchnotes"
-    description: "Parse Keep a Changelog formatted CHANGELOG.md files into structured Python objects. Zero dependencies."
-    language: "Python"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-08-04"
+repos: []
 ---
 
 # Londopy

@@ -10,42 +10,42 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [2, 2, 3, 3, 5, 15, 8, 6, 0, 2, 0, 0, 1]
+pushes_per_week: [2, 3, 1, 6, 15, 9, 4, 2, 2, 0, 0, 1, 3]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 3
-    distinct_repos: 2
+    distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 11
-    active_days: 26
-    repos_not_owned: 8
+    pushes: 48
+    distinct_repos: 10
+    active_days: 27
+    repos_not_owned: 7
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 1.8077
-  repo_per_active_day: 0.4231
-  not_owned_ratio: 0.7273
-  basename_concentration: 0.8182
+  push_per_day: 1.7778
+  repo_per_active_day: 0.3704
+  not_owned_ratio: 0.7000
+  basename_concentration: 0.8000
   shapes:
     - "fork_farm_own_upstream"
   shape_evidence:
-    - "basename concentration 0.8182 (9 of 11 repos share one basename), 8 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Alishahryar1/free-claude-code"
+    - "basename concentration 0.8000 (8 of 10 repos share one basename), 7 not owned across 1 basenames — 5 of 5 sampled repos resolved; 5 fork an upstream this account owns; upstreams: Alishahryar1/free-claude-code"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance:
@@ -66,32 +66,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
     pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
+  "30d":
+    pushes: 5
+    distinct_repos: 1
+    pushes_per_repo: 5.0000
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 47
-    distinct_repos: 11
-    pushes_per_repo: 4.2727
-    active_days: 26
-    repos_not_owned: 8
+    pushes: 48
+    distinct_repos: 10
+    pushes_per_repo: 4.8000
+    active_days: 27
+    repos_not_owned: 7
     not_owned_basenames: 1
-    not_owned_owners: 8
+    not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 26 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "free-claude-code"
@@ -99,9 +99,17 @@ repos:
     description: "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)"
     language: "Python"
     topics: []
-    stars_fact: 70916
+    stars_fact: 72989
     first_seen: "2026-08-04T06:00:05.827253+00:00"
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
+  - name: "avazu-ctr"
+    title: "avazu-ctr"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-26"
   - name: "gpu-ops-platform"
     title: "gpu-ops-platform"
     description: null
@@ -110,14 +118,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-02-15"
-  - name: "avazu-ctr"
-    title: "avazu-ctr"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-10-26"
   - name: "Machine-Learning-Methods-in-Physics"
     title: "Machine-Learning-Methods-in-Physics"
     description: null
@@ -130,6 +130,6 @@ repos:
 
 # Alishahryar1
 
-47 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
+48 pushes across 10 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Alishahryar1

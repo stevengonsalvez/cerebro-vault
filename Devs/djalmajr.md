@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [2, 2, 1, 0, 8, 29, 18, 14, 12, 6, 1, 0, 0]
+pushes_per_week: [2, 0, 1, 5, 25, 24, 14, 10, 9, 0, 1, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 3
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 93
-    distinct_repos: 14
-    active_days: 35
+    distinct_repos: 15
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.6571
-  repo_per_active_day: 0.4000
+  push_per_day: 2.5833
+  repo_per_active_day: 0.4167
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
+    pushes_per_repo: 2.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
     pushes: 93
-    distinct_repos: 14
-    pushes_per_repo: 6.6429
-    active_days: 35
+    distinct_repos: 15
+    pushes_per_repo: 6.2000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "vpnt"
+    title: "vpnt"
+    description: "Tray para ligar, desligar e acompanhar VPNs no macOS, Windows e Linux"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "soho"
     title: "soho"
     description: "Role-based coding agents in Herdr with an optional local plugin"
@@ -84,15 +92,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "vpnt"
-    title: "vpnt"
-    description: "Tray para ligar, desligar e acompanhar VPNs no macOS, Windows e Linux"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "edger"
     title: "edger"
     description: "Secure, versioned edge runtime in Rust with Deno, WebAssembly, cPanel observability, and Kubernetes deployment."
@@ -107,7 +107,7 @@ repos:
       - "webassembly"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-22"
   - name: "scoop-bucket"
     title: "scoop-bucket"
     description: "Personal Scoop bucket: ai-usagebar and friends"
@@ -116,7 +116,7 @@ repos:
       - "scoop-bucket"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-23"
   - name: "openpencil-capture"
     title: "openpencil-capture"
     description: "Capture rendered web UI as editable OpenPencil layers"
@@ -137,6 +137,6 @@ repos:
 
 # djalmajr
 
-93 pushes across 14 repositories on 35 active days in the last 90 days of public GitHub push activity.
+93 pushes across 15 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/djalmajr

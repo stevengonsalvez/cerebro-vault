@@ -11,16 +11,16 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "ef17663e884139a8"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -52,10 +52,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -85,9 +85,17 @@ repos:
     description: "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)"
     language: "Python"
     topics: []
-    stars_fact: 81259
+    stars_fact: 81410
     first_seen: "2026-08-29T06:00:06.819639+00:00"
     last_push: "2026-11-15"
+  - name: "secret-llama"
+    title: "secret-llama"
+    description: "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2674
+    first_seen: null
+    last_push: "2024-06-05"
   - name: "1-800-CODER"
     title: "1-800-CODER"
     description: null
@@ -96,14 +104,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-05-14"
-  - name: "secret-llama"
-    title: "secret-llama"
-    description: "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2677
-    first_seen: null
-    last_push: "2024-06-05"
   - name: "aero"
     title: "aero"
     description: "Open source CLI version of code interpreter on self-hosted, sandboxed infra using Modal"

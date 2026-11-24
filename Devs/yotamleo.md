@@ -8,37 +8,37 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [1, 0, 2, 29, 112, 126, 129, 133, 91, 73, 2, 1, 3]
+pushes_per_week: [0, 1, 23, 92, 123, 144, 134, 65, 113, 0, 3, 3, 8]
 windows:
   "7d":
-    pushes: 3
+    pushes: 8
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 144
+    pushes: 41
     distinct_repos: 2
-    active_days: 10
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 702
+    pushes: 709
     distinct_repos: 5
-    active_days: 47
+    active_days: 49
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 14.9362
-  repo_per_active_day: 0.1064
+  push_per_day: 14.4694
+  repo_per_active_day: 0.1020
   not_owned_ratio: 0.4000
   basename_concentration: 0.4000
   shapes: []
@@ -49,46 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 8.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 144
+    pushes: 41
     distinct_repos: 2
-    pushes_per_repo: 72.0000
-    active_days: 10
+    pushes_per_repo: 20.5000
+    active_days: 9
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 702
+    pushes: 709
     distinct_repos: 5
-    pushes_per_repo: 140.4000
-    active_days: 47
+    pushes_per_repo: 141.8000
+    active_days: 49
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "nvidia-steam-shader-cache"
-    title: "nvidia-steam-shader-cache"
-    description: "Diagnostic toolkit for Steam's NVIDIA shader-cache merge bug on Linux (4 GiB TOC wrap, steam-for-linux#13622)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
+repos: []
 ---
 
 # yotamleo
 
-702 pushes across 5 repositories on 47 active days in the last 90 days of public GitHub push activity.
+709 pushes across 5 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yotamleo

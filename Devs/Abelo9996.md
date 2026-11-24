@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 6, 0, 7, 7, 14, 3, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 6, 0, 7, 7, 13, 4, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,9 +27,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -62,10 +62,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sampling-or-coordination"
+    title: "sampling-or-coordination"
+    description: "Code, prompts and per-record logs for 'Sampling or Coordination?' (self-consistency vs multi-agent workflows at matched token, price and energy cost, Qwen2.5-3B)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "integrity-agent"
+    title: "integrity-agent"
+    description: "Evidence-first research integrity screening for expert human review"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "weight-space-programming"
+    title: "weight-space-programming"
+    description: "Reproducible experiments for weight-space editing, symmetry audits, and matched search baselines."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "readback-test"
     title: "readback-test"
     description: "Claim-only grader probes, backend read-back conformance checks, and reproducible phantom-action evidence examples"
@@ -97,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-17"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: "Homebrew formulae and casks for nerf-watch, snap-back, agent-fence and rerun-bench"
@@ -105,56 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "nerf-watch"
-    title: "nerf-watch"
-    description: "See what loads into every Claude Code session before you type, cut the parts you never use in one command, and prove it from your own logs. Also flags silent regressions."
-    language: "TypeScript"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "coding-agents"
-      - "llm-evaluation"
-      - "observability"
-      - "regression-detection"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "rerun-bench"
-    title: "rerun-bench"
-    description: "Replay your own repo's past bug fixes on your coding agent, several times each, and see where it is reliable and where it is a coin flip."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "benchmark"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "consistency"
-      - "llm-evaluation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "agent-fence"
-    title: "agent-fence"
-    description: "See what your coding agent tried: replay your existing Claude Code and Codex logs against one permission policy, then block force pushes, secret reads and rm -rf for real."
-    language: "TypeScript"
-    topics:
-      - "audit-log"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "coding-agents"
-      - "hooks"
-      - "permissions"
-      - "policy-engine"
-      - "security"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
+    last_push: "2026-11-23"
 ---
 
 # Abelo9996

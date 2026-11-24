@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [51, 11, 6, 35, 97, 27, 53, 21, 16, 31, 0, 4, 3]
+pushes_per_week: [19, 4, 20, 86, 43, 63, 22, 7, 41, 0, 3, 4, 7]
 windows:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 26
     distinct_repos: 1
-    active_days: 11
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 355
+    pushes: 319
     distinct_repos: 2
-    active_days: 57
+    active_days: 55
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 6.2281
-  repo_per_active_day: 0.0351
+  push_per_day: 5.8000
+  repo_per_active_day: 0.0364
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 7.0000
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 50
+    pushes: 26
     distinct_repos: 1
-    pushes_per_repo: 50.0000
-    active_days: 11
+    pushes_per_repo: 26.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 355
+    pushes: 319
     distinct_repos: 2
-    pushes_per_repo: 177.5000
-    active_days: 57
+    pushes_per_repo: 159.5000
+    active_days: 55
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homesodamachine"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "claude-code-setup"
     title: "claude-code-setup"
     description: "My Claude Code customizations: guardrail hooks, the jsonl2md session-relay tool, the /relay command, and the Salon Protocol."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-19"
   - name: "truce-web"
     title: "truce-web"
     description: "Truce. No escalations. No judgments. No name calling."
@@ -129,6 +129,6 @@ repos:
 
 # derekbreden
 
-355 pushes across 2 repositories on 57 active days in the last 90 days of public GitHub push activity.
+319 pushes across 2 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/derekbreden

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 1, 6, 9, 11, 9, 3, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 4, 8, 14, 7, 3, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 3
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,50 @@ reasons:
   - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "firmauy"
+    title: "firmauy"
+    description: "Sign and verify PDF (PAdES), XML (XAdES) and arbitrary files (CAdES/.p7s) with the Uruguayan cédula via PKCS#11."
+    language: "Python"
+    topics:
+      - "cades"
+      - "cedula"
+      - "civic-tech"
+      - "digital-signature"
+      - "eid"
+      - "middleware"
+      - "opensc"
+      - "p7s"
+      - "pades"
+      - "pkcs11"
+      - "smartcard"
+      - "uruguay"
+      - "xades"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "firmauy-desktop"
+    title: "firmauy-desktop"
+    description: "Desktop app to sign and verify documents with the Uruguayan electronic ID card (cédula), powered by FirmaUY."
+    language: "Python"
+    topics:
+      - "cades"
+      - "cedula"
+      - "desktop-app"
+      - "digital-signature"
+      - "document-signing"
+      - "eid"
+      - "electronic-signature"
+      - "pades"
+      - "pcsc"
+      - "pkcs11"
+      - "pyside6"
+      - "signature-verification"
+      - "smartcard"
+      - "uruguay"
+      - "xades"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "nanosaas"
     title: "nanosaas"
     description: "Turn Python functions into credit-based services with FastAPI, TaskIQ, and a built-in web UI."
@@ -100,7 +144,7 @@ repos:
       - "webhooks"
     stars_fact: 9
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-24"
   - name: "fastapi-lowjs-auth"
     title: "fastapi-lowjs-auth"
     description: "FastAPI LowJS auth system with backend and frontend. FastAPI + fastapi-users + fastapi-sso / HTML + TailwindCSS + AlpineJS"
@@ -108,7 +152,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "fastapi-ai-assistant"
     title: "fastapi-ai-assistant"
     description: "A minimal FastAPI application demonstrating a streaming AI chatbot with OpenAI’s Code Interpreter and a simple Alpine.js front end."
@@ -143,38 +187,7 @@ repos:
       - "zsh"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-01"
-  - name: "ai-url-aggregator"
-    title: "ai-url-aggregator"
-    description: "Python tool that uses Perplexity and OpenAI to search the internet for relevant URLs, then filters, deduplicates, and verifies each link’s availability, all in one streamlined workflow."
-    language: "Python"
-    topics:
-      - "artificial-intelligence"
-      - "llm"
-      - "openai"
-      - "perplexity"
-      - "python"
-      - "query-expansion"
-      - "relevance-ranking"
-      - "search-automation"
-      - "semantic-search"
-      - "structured-outputs"
-      - "url-aggregation"
-      - "url-deduplication"
-      - "url-discovery"
-      - "url-validation"
-      - "web-search"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "playwright-splash"
-    title: "playwright-splash"
-    description: "Simple Playwright scraper which receives an URL and returns the website code."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-17"
 ---
 
 # carlosplanchon

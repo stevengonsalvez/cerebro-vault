@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "f8a707d9ac993687"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -98,9 +98,45 @@ repos:
       - "transcription"
       - "video-analysis"
       - "whisper"
-    stars_fact: 2322
+    stars_fact: 2340
     first_seen: "2026-07-03T06:00:07.569198+00:00"
-    last_push: "2026-10-23"
+    last_push: "2026-11-20"
+  - name: "claude-playbook-loop"
+    title: "claude-playbook-loop"
+    description: "A 200-line Python loop that lets Claude rewrite its own rules every night. Companion to claude-memory-framework."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "markdown"
+      - "prompt-engineering"
+      - "python"
+      - "self-improvement"
+      - "solo-founder"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-04-08"
+  - name: "claude-memory-framework"
+    title: "claude-memory-framework"
+    description: "Give Claude Code a structured business memory — 7 categories, why+how-to-apply pattern, session hooks. 讓 Claude Code 記住你的生意，不只是 code。"
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "business-ai"
+      - "claude"
+      - "claude-code"
+      - "claude-skills"
+      - "knowledge-management"
+      - "memory-system"
+      - "solo-founder"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-04-08"
   - name: "RehabMate"
     title: "RehabMate"
     description: "復健幫手 — a tiny 3D body pain-mapping tool for rehab clinics: patients tap where it hurts, doctors get a clean list. One HTML file, three.js, no build."
@@ -142,32 +178,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-07"
-  - name: "magic-diary"
-    title: "magic-diary"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-08"
-  - name: "claude-memory-framework"
-    title: "claude-memory-framework"
-    description: "Give Claude Code a structured business memory — 7 categories, why+how-to-apply pattern, session hooks. 讓 Claude Code 記住你的生意，不只是 code。"
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "business-ai"
-      - "claude"
-      - "claude-code"
-      - "claude-skills"
-      - "knowledge-management"
-      - "memory-system"
-      - "solo-founder"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-08"
 ---
 
 # HUANGCHIHHUNGLeo

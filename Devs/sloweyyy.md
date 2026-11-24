@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 1, 0, 0, 0, 16, 1, 2, 1, 12, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 16, 0, 2, 1, 13, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 9
-    active_days: 11
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0909
-  repo_per_active_day: 0.8182
+  push_per_day: 3.3000
+  repo_per_active_day: 0.9000
   not_owned_ratio: 0.0000
   basename_concentration: 0.1111
   shapes: []
@@ -57,105 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 13
-    distinct_repos: 4
-    pushes_per_repo: 3.2500
-    active_days: 4
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 33
     distinct_repos: 9
-    pushes_per_repo: 3.7778
-    active_days: 11
+    pushes_per_repo: 3.6667
+    active_days: 10
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 11 active days in 90d — pass"
+  - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "scriptorium"
-    title: "scriptorium"
-    description: "Open-source AI teammate for Slack, Jira, Confluence and GitHub that asks before it acts: cited answers, approval-gated writes, a hash-chained audit log."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "confluence"
-      - "human-in-the-loop"
-      - "jira"
-      - "llm"
-      - "slack-bot"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "sloweyyy"
-    title: "sloweyyy"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "cloud-native-ecommerce-platform"
-    title: "cloud-native-ecommerce-platform"
-    description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
-    language: "TypeScript"
-    topics:
-      - "angular"
-      - "aws"
-      - "cloud-native"
-      - "csharp"
-      - "devops"
-      - "docker"
-      - "dotnet"
-      - "eks"
-      - "elk-stack"
-      - "grafana"
-      - "istio"
-      - "jaeger"
-      - "kubernetes"
-      - "microfrontend"
-      - "microservice"
-      - "nx"
-      - "opentelemetry"
-      - "prometheus"
-      - "react"
-      - "terraform"
-    stars_fact: 23
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "Trustify-Frontend"
-    title: "Trustify-Frontend"
-    description: "This repository contains the frontend code for Trustify, a platform for online notarization services that leverages blockchain and NFT for document storage. This frontend interacts with the provided backend to facilitate the user experience."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "Trustify-Backend"
-    title: "Trustify-Backend"
-    description: "Trustify is a blockchain-integrated e-notarization platform built with AI & Web3. It enables secure, legal, and remote notarizations in Vietnam via Solana NFTs, AI doc verification, e-signatures, and real-time video sessions. Built for B2B SaaS."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "3d-portfolio"
-    title: "3d-portfolio"
-    description: "This repository contains the source code for my 3D portfolio website, showcasing my projects and skills in a three-dimensional web environment."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-26"
+repos: []
 ---
 
 # sloweyyy
 
-34 pushes across 9 repositories on 11 active days in the last 90 days of public GitHub push activity.
+33 pushes across 9 repositories on 10 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/sloweyyy

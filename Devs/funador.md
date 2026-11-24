@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-09T23:36:02.931621+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1437405ffd8a6211"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -89,7 +89,7 @@ repos:
       - "merge-queue"
       - "monorepo-tooling"
       - "parallel-agents"
-    stars_fact: 131
+    stars_fact: 132
     first_seen: "2026-07-30T06:00:04.087790+00:00"
     last_push: "2026-08-24"
   - name: "react-auth-client"

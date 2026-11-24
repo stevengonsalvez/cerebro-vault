@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 2, 0, 3, 1, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 1, 3, 0, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,9 +27,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -62,10 +62,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,26 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "keypop"
+    title: "keypop"
+    description: "🔑 Stop pasting API keys into Claude Code & Cursor. keypop pops a native dialog to collect a secret your agent never sees: value goes to a local file, never the model's context. One shell script, no infra."
+    language: "Shell"
+    topics:
+      - "agentic-ai"
+      - "ai-agents"
+      - "anthropic"
+      - "api-keys"
+      - "claude-code"
+      - "cli"
+      - "cursor"
+      - "developer-tools"
+      - "llm"
+      - "macos"
+      - "secrets-management"
+      - "security"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "dead-tests"
     title: "dead-tests"
     description: "Find tests that look like coverage but never run or can never fail. 22 checks across Python, Java, Kotlin, C#, PHP, Ruby, Go, Rust and JS."
@@ -148,26 +168,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-04"
-  - name: "keypop"
-    title: "keypop"
-    description: "🔑 Stop pasting API keys into Claude Code & Cursor. keypop pops a native dialog to collect a secret your agent never sees: value goes to a local file, never the model's context. 60 lines of shell, no infra."
-    language: "Shell"
-    topics:
-      - "agentic-ai"
-      - "ai-agents"
-      - "anthropic"
-      - "api-keys"
-      - "claude-code"
-      - "cli"
-      - "cursor"
-      - "developer-tools"
-      - "llm"
-      - "macos"
-      - "secrets-management"
-      - "security"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
 ---
 
 # dylanpulver

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [0, 0, 0, 8, 1, 1, 7, 14, 10, 3, 0, 0, 0]
+pushes_per_week: [0, 0, 7, 2, 1, 2, 19, 6, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 44
     distinct_repos: 7
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 11
-    distinct_repos: 4
-    pushes_per_repo: 2.7500
-    active_days: 5
-    repos_not_owned: 4
-    not_owned_basenames: 4
-    not_owned_owners: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 44
     distinct_repos: 7
@@ -77,6 +77,16 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ngrep"
+    title: "ngrep"
+    description: "ngrep is like GNU grep applied to the network layer. It's a PCAP-based tool that allows you to specify an extended regular or hexadecimal expression to match against data payloads of packets. It understands many kinds of protocols, including IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw, across a wide variety of interface types, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop."
+    language: "C"
+    topics:
+      - "grepping"
+      - "sniffer"
+    stars_fact: 1027
+    first_seen: null
+    last_push: "2026-02-08"
   - name: "sentinel"
     title: "sentinel"
     description: "Security scanner for GitHub Actions workflows — 28 rules, auto-fix engine, AI-powered remediation via Claude. Ruby CLI, GitHub Action, pre-commit hook."
@@ -85,16 +95,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-06-27"
-  - name: "ngrep"
-    title: "ngrep"
-    description: "ngrep is like GNU grep applied to the network layer. It's a PCAP-based tool that allows you to specify an extended regular or hexadecimal expression to match against data payloads of packets. It understands many kinds of protocols, including IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw, across a wide variety of interface types, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop."
-    language: "C"
-    topics:
-      - "grepping"
-      - "sniffer"
-    stars_fact: 1025
-    first_seen: null
-    last_push: "2026-02-08"
   - name: "env"
     title: "env"
     description: "My BAMF shell environment."

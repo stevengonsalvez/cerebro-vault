@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 0, 1, 0, 1, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 1, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,79 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "paste-preview"
-    title: "paste-preview"
-    description: "Paste n Preview, share your snippets"
-    language: "TypeScript"
-    topics:
-      - "alchemy"
-      - "cloudflare"
-      - "effects"
-      - "react"
-      - "tailwindcss"
-      - "tanstack-start"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
-  - name: "portofolio"
-    title: "portofolio"
-    description: "Just mY Personal Website"
-    language: "TypeScript"
-    topics:
-      - "astro"
-      - "reactjs"
-      - "tailwindcss"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "just mY config file"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-30"
-  - name: "ai-interview"
-    title: "ai-interview"
-    description: "Go prep for your interview m8"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "devenv"
-      - "drizzle"
-      - "effects"
-      - "elysiajs"
-      - "gemini"
-      - "interview"
-      - "interview-practice"
-      - "interview-preparation"
-      - "nix"
-      - "reactjs"
-      - "tanstack"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "Skripsi"
-    title: "Skripsi"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-23"
-  - name: "SyahrulBhudiF"
-    title: "SyahrulBhudiF"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
+repos: []
 ---
 
 # SyahrulBhudiF

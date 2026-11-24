@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 2, 1, 4, 6, 23, 8, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 2, 4, 3, 23, 7, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,42 @@ reasons:
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "effect-ci-testbed"
+    title: "effect-ci-testbed"
+    description: "README-driven testbed for authoring portable CI workflows with Effect"
+    language: "TypeScript"
+    topics:
+      - "ci"
+      - "cloudflare"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "durable-machines"
+    title: "durable-machines"
+    description: "XState machines in Durable Objects that you can watch live."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "click-to-component"
+    title: "click-to-component"
+    description: "Option+Click React components in your browser to instantly open the source in VS Code"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2348
+    first_seen: null
+    last_push: "2025-09-23"
+  - name: "awesome-starter-packs"
+    title: "awesome-starter-packs"
+    description: "Bluesky Starter Packs to find awesome accounts to follow"
+    language: null
+    topics:
+      - "awesome"
+      - "awesome-list"
+    stars_fact: 87
+    first_seen: null
+    last_push: "2024-12-23"
   - name: "workspace"
     title: "workspace"
     description: null
@@ -93,38 +129,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-12"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew tap for ericclemmons projects"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "autopair"
-    title: "autopair"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "workers-builds-docker-probe"
-    title: "workers-builds-docker-probe"
-    description: "Minimal repro: rootless Docker inside Workers Builds"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "workers-stack-affinity"
-    title: "workers-stack-affinity"
-    description: "Prototype for release-aware Worker, RPC, and Durable Object stack affinity"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
 ---
 
 # ericclemmons

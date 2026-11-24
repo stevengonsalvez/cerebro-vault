@@ -10,37 +10,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "78a5846a75cc0fbb"
-pushes_per_week: [7, 1, 5, 10, 10, 10, 19, 15, 4, 1, 1, 0, 1]
+pushes_per_week: [3, 5, 6, 9, 10, 21, 17, 2, 4, 0, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 79
     distinct_repos: 25
-    active_days: 38
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2105
-  repo_per_active_day: 0.6579
+  push_per_day: 2.1944
+  repo_per_active_day: 0.6944
   not_owned_ratio: 0.0400
   basename_concentration: 0.0800
   shapes: []
@@ -51,32 +51,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 6
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 84
+    pushes: 79
     distinct_repos: 25
-    pushes_per_repo: 3.3600
-    active_days: 38
+    pushes_per_repo: 3.1600
+    active_days: 36
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "CoreCoder"
@@ -186,6 +186,6 @@ repos:
 
 # he-yufeng
 
-84 pushes across 25 repositories on 38 active days in the last 90 days of public GitHub push activity.
+79 pushes across 25 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/he-yufeng

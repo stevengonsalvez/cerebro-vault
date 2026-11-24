@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "6d3bd03b49986330"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.6667
+  push_per_day: 3.0000
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 7
+    pushes: 6
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 3
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "generative-media-skills"
@@ -102,7 +102,7 @@ repos:
       - "text-to-video"
       - "video-generation"
       - "video-production"
-    stars_fact: 245
+    stars_fact: 252
     first_seen: null
     last_push: "2026-07-14"
   - name: "Crucix"
@@ -113,9 +113,17 @@ repos:
       - "ai"
       - "intelligence"
       - "osint"
-    stars_fact: 12229
+    stars_fact: 12253
     first_seen: null
     last_push: "2026-05-20"
+  - name: "BreakoutAnalysis"
+    title: "BreakoutAnalysis"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 288
+    first_seen: null
+    last_push: "2026-02-23"
   - name: "Resonant"
     title: "Resonant"
     description: "Free, local AI music studio for Windows—generate songs, play instruments, arrange, mix, export WAV, and connect Codex or Claude through MCP."
@@ -132,17 +140,32 @@ repos:
       - "open-source"
       - "typescript"
       - "windows"
-    stars_fact: 179
+    stars_fact: 180
     first_seen: null
     last_push: "2026-08-07"
-  - name: "BreakoutAnalysis"
-    title: "BreakoutAnalysis"
-    description: null
+  - name: "OpenFusion"
+    title: "OpenFusion"
+    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
     language: "Python"
-    topics: []
-    stars_fact: 286
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "cursor"
+      - "gemini-cli"
+      - "github-copilot"
+      - "llm"
+      - "model-routing"
+      - "multi-model"
+      - "opencode"
+      - "python"
+      - "subagents"
+    stars_fact: 18
     first_seen: null
-    last_push: "2026-02-23"
+    last_push: "2026-10-29"
   - name: "PhantomReach"
     title: "PhantomReach"
     description: "Free, open-source local business intelligence audits for marketers and agencies. Run on your machine with real public data, and agentic workflow"
@@ -168,33 +191,10 @@ repos:
     stars_fact: 77
     first_seen: null
     last_push: "2026-06-27"
-  - name: "OpenFusion"
-    title: "OpenFusion"
-    description: "Multi-model routing for any AI coding agent: send each task to the cheapest model that can do it well. Works with Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, OpenCode."
-    language: "Python"
-    topics:
-      - "agent-orchestration"
-      - "ai-agents"
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "cursor"
-      - "gemini-cli"
-      - "github-copilot"
-      - "llm"
-      - "model-routing"
-      - "multi-model"
-      - "opencode"
-      - "python"
-      - "subagents"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-10-29"
 ---
 
 # calesthio
 
-7 pushes across 2 repositories on 3 active days in the last 90 days of public GitHub push activity.
+6 pushes across 2 repositories on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/calesthio

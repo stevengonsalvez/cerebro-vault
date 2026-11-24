@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "fb0827c68cc0b5d0"
-pushes_per_week: [3, 0, 3, 2, 4, 6, 20, 1, 2, 8, 0, 0, 0]
+pushes_per_week: [0, 0, 5, 2, 4, 24, 1, 0, 10, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 2
-    active_days: 3
+    pushes: 5
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 5
-    active_days: 20
+    pushes: 46
+    distinct_repos: 3
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.4500
-  repo_per_active_day: 0.2500
-  not_owned_ratio: 0.2000
-  basename_concentration: 0.2000
+  push_per_day: 2.5556
+  repo_per_active_day: 0.1667
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 2
+    pushes: 5
+    distinct_repos: 1
     pushes_per_repo: 5.0000
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 49
-    distinct_repos: 5
-    pushes_per_repo: 9.8000
-    active_days: 20
+    pushes: 46
+    distinct_repos: 3
+    pushes_per_repo: 15.3333
+    active_days: 18
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "slotstream"
@@ -100,9 +100,38 @@ repos:
       - "qwen"
       - "qwen3"
       - "swift"
-    stars_fact: 673
+    stars_fact: 675
     first_seen: "2026-09-02T06:00:06.666008+00:00"
-    last_push: "2026-11-16"
+    last_push: "2026-11-17"
+  - name: "xstate-react-router"
+    title: "xstate-react-router"
+    description: "XState connector to React Router."
+    language: "TypeScript"
+    topics:
+      - "react"
+      - "react-router"
+      - "state-machine"
+      - "statecharts"
+      - "xstate"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2021-09-25"
+  - name: "android_device_nothing_metroid"
+    title: "android_device_nothing_metroid"
+    description: "LineageOS device tree for Nothing Phone (3) (metroid)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "sevra-app"
+    title: "sevra-app"
+    description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and on-device Splash/Metal inference."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "aven"
     title: "aven"
     description: "Claude Computer Use desktop app built with Tauri and the Vercel AI SDK."
@@ -116,14 +145,6 @@ repos:
     stars_fact: 16
     first_seen: null
     last_push: "2024-10-28"
-  - name: "sevra-app"
-    title: "sevra-app"
-    description: "Sevra: native local-AI workbooks with documents, tables, traceable records and conversation. Swift, SQLite and Slotstream."
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
   - name: "make-your-own-js-runtime"
     title: "make-your-own-js-runtime"
     description: "Run JavaScript from Rust using the Deno Runtime crate"
@@ -135,42 +156,10 @@ repos:
     stars_fact: 29
     first_seen: null
     last_push: "2024-12-07"
-  - name: "rewire"
-    title: "rewire"
-    description: "A browser language model laboratory. Chat, teach, and take apart real models on your device."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "computer.md"
-    title: "computer.md"
-    description: "The open agentic computer. A model reads COMPUTER.md and runs the real machine: terminal, browser, filesystem. The OS becomes plumbing; the model becomes the interface."
-    language: "Go"
-    topics:
-      - "agentic"
-      - "agentic-ai"
-      - "agentic-computer"
-      - "ai"
-      - "ai-agents"
-      - "automation"
-      - "autonomous-agents"
-      - "browser-automation"
-      - "cli"
-      - "computer-use"
-      - "daemon"
-      - "desktop-automation"
-      - "go"
-      - "llm"
-      - "markdown"
-      - "self-hosted"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-08-12"
 ---
 
 # carloslfu
 
-49 pushes across 5 repositories on 20 active days in the last 90 days of public GitHub push activity.
+46 pushes across 3 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/carloslfu

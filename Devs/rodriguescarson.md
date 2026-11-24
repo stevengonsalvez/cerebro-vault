@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 1, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -98,7 +98,7 @@ repos:
       - "world-models"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-24"
   - name: "arc-agi-3"
     title: "arc-agi-3"
     description: "Carson Rodrigues' LLM agent for ARC-AGI-3 (ARC Prize 2026, Kaggle): Qwen3.8-Flash-Next on SGLang in the Duck / Franzen Milestone-2 harness, with level memory, reliability fixes and a daily submission scheduler"
@@ -122,7 +122,7 @@ repos:
       - "sglang"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-24"
   - name: "gemma-swe-agent"
     title: "gemma-swe-agent"
     description: null
@@ -130,7 +130,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-22"
   - name: "refundly"
     title: "refundly"
     description: "An AI agent that refunds and cancels through PayPal, and never says done until PayPal's own ledger agrees. PayPal AI Hackathon."
@@ -144,7 +144,7 @@ repos:
       - "verification"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-24"
   - name: "inkrepro"
     title: "inkrepro"
     description: "How much of an ink prediction survives changing the checkpoint? Full-population reproducibility check over the Vesuvius eligible-scroll atlas. No GPU, no inference."
@@ -152,7 +152,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-22"
   - name: "earshot"
     title: "earshot"
     description: "Live AI audio-described football commentary for blind fans (Inside the Game hackathon)"
@@ -160,7 +160,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-24"
 ---
 
 # rodriguescarson

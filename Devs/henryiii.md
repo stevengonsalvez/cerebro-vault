@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 0, 2, 3, 12, 12, 10, 3, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 11, 10, 14, 2, 2, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 23
-    active_days: 23
+    active_days: 22
     repos_not_owned: 16
     not_owned_basenames: 15
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 1.0000
+  push_per_day: 2.0455
+  repo_per_active_day: 1.0455
   not_owned_ratio: 0.6957
   basename_concentration: 0.0870
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 23
-    pushes_per_repo: 2.0000
-    active_days: 23
+    pushes_per_repo: 1.9565
+    active_days: 22
     repos_not_owned: 16
     not_owned_basenames: 15
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "validate-pyproject-schema-store"
@@ -136,6 +136,6 @@ repos:
 
 # henryiii
 
-46 pushes across 23 repositories on 23 active days in the last 90 days of public GitHub push activity.
+45 pushes across 23 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/henryiii

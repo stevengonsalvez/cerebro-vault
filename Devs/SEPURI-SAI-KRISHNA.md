@@ -8,39 +8,39 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [1, 0, 1, 4, 7, 6, 7, 10, 1, 4, 0, 0, 0]
+pushes_per_week: [0, 1, 2, 8, 4, 10, 8, 3, 4, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
-  "90d":
-    pushes: 41
-    distinct_repos: 14
-    active_days: 24
+  "30d":
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
+  "90d":
+    pushes: 43
+    distinct_repos: 16
+    active_days: 24
+    repos_not_owned: 5
+    not_owned_basenames: 5
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7083
-  repo_per_active_day: 0.5833
-  not_owned_ratio: 0.2143
-  basename_concentration: 0.0714
+  push_per_day: 1.7917
+  repo_per_active_day: 0.6667
+  not_owned_ratio: 0.3125
+  basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
-  "90d":
-    pushes: 41
-    distinct_repos: 14
-    pushes_per_repo: 2.9286
-    active_days: 24
+  "30d":
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 3
     not_owned_basenames: 3
+    not_owned_owners: 1
+  "90d":
+    pushes: 43
+    distinct_repos: 16
+    pushes_per_repo: 2.6875
+    active_days: 24
+    repos_not_owned: 5
+    not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "streamcase"
-    title: "streamcase"
-    description: "Deterministic testing for Apache Spark Structured Streaming pipelines"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "importtime-check"
-    title: "importtime-check"
-    description: "A CI gate for detecting Python import-time regressions."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "SEPURI-SAI-KRISHNA"
-    title: "SEPURI-SAI-KRISHNA"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "Hackathon-Radar"
-    title: "Hackathon-Radar"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "twolang-lab"
-    title: "twolang-lab"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-29"
-  - name: "til-everything"
-    title: "til-everything"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-30"
+repos: []
 ---
 
 # SEPURI-SAI-KRISHNA
 
-41 pushes across 14 repositories on 24 active days in the last 90 days of public GitHub push activity.
+43 pushes across 16 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SEPURI-SAI-KRISHNA

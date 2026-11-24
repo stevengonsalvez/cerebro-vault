@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 1, 0, 1, 1, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 1, 2, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sahin"
+    title: "sahin"
+    description: "Run your own PC copy of Blur on a jailbroken PS5, through prospero-win"
+    language: "C++"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "nanokvm-android"
+    title: "nanokvm-android"
+    description: "Control a PC through its Sipeed NanoKVM from Android: power, reset, status, KVM screen, widgets. LAN + Tailscale auto-discovery."
+    language: "Kotlin"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "cs16-macos-arm64"
+    title: "cs16-macos-arm64"
+    description: "Counter-Strike 1.6 running natively on Apple Silicon (Xash3D FWGS + CS16Client)"
+    language: "Shell"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-31"
   - name: "django-admin-mcp"
     title: "django-admin-mcp"
     description: "Expose Django admin models to MCP (Model Context Protocol) clients. Add a mixin to your ModelAdmin classes and let AI assistants like Claude perform CRUD operations, execute admin actions, and explore relationships—all respecting Django's permission system."
@@ -92,17 +116,9 @@ repos:
       - "mcp"
       - "model-context-protocol"
       - "python"
-    stars_fact: 32
+    stars_fact: 33
     first_seen: null
-    last_push: "2026-11-13"
-  - name: "cs16-macos-arm64"
-    title: "cs16-macos-arm64"
-    description: "Counter-Strike 1.6 running natively on Apple Silicon (Xash3D FWGS + CS16Client)"
-    language: "Shell"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-23"
   - name: "7tg"
     title: "7tg"
     description: null
@@ -110,23 +126,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-13"
-  - name: "nanokvm-android"
-    title: "nanokvm-android"
-    description: "Control a PC through its Sipeed NanoKVM from Android: power, reset, status, KVM screen, widgets. LAN + Tailscale auto-discovery."
-    language: "Kotlin"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "sahin"
-    title: "sahin"
-    description: "Run your own PC copy of Blur on a jailbroken PS5, through prospero-win"
-    language: "C++"
-    topics: []
-    stars_fact: 10
-    first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-24"
   - name: "futbol13"
     title: "futbol13"
     description: "Run your own PC copy of Pro Evolution Soccer 2013 on a jailbroken PS5, through prospero-win"

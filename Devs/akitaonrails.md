@@ -11,39 +11,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "f135712f91f710c6"
-pushes_per_week: [9, 1, 9, 12, 38, 31, 9, 42, 17, 23, 0, 0, 0]
+pushes_per_week: [1, 8, 8, 33, 35, 13, 40, 15, 29, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 30
-    distinct_repos: 14
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 1
+  "30d":
+    pushes: 12
+    distinct_repos: 8
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 191
-    distinct_repos: 34
-    active_days: 47
-    repos_not_owned: 9
+    pushes: 184
+    distinct_repos: 36
+    active_days: 45
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 10
 automation:
   state: "clear"
-  push_per_day: 4.0638
-  repo_per_active_day: 0.7234
-  not_owned_ratio: 0.2647
-  basename_concentration: 0.2647
+  push_per_day: 4.0889
+  repo_per_active_day: 0.8000
+  not_owned_ratio: 0.2778
+  basename_concentration: 0.2778
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -52,86 +52,86 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
-  "30d":
-    pushes: 30
-    distinct_repos: 14
-    pushes_per_repo: 2.1429
-    active_days: 5
-    repos_not_owned: 3
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 3
+    not_owned_owners: 1
+  "30d":
+    pushes: 12
+    distinct_repos: 8
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 191
-    distinct_repos: 34
-    pushes_per_repo: 5.6176
-    active_days: 47
-    repos_not_owned: 9
+    pushes: 184
+    distinct_repos: 36
+    pushes_per_repo: 5.1111
+    active_days: 45
+    repos_not_owned: 10
     not_owned_basenames: 2
-    not_owned_owners: 9
+    not_owned_owners: 10
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ai-usagebar"
+    title: "ai-usagebar"
+    description: "Rust-based waybar widget to monitor status of Claude, GPT, GLM, OpenRouter plans/credits - inspired by claudebar/codexbar"
+    language: "Rust"
+    topics: []
+    stars_fact: 805
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "ai-memory"
     title: "ai-memory"
     description: "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
     language: "Rust"
     topics: []
-    stars_fact: 16027
+    stars_fact: 16340
     first_seen: "2026-08-18T06:00:11.655353+00:00"
-    last_push: "2026-11-17"
-  - name: "rea-sega-rally-revo"
-    title: "rea-sega-rally-revo"
-    description: "Experimental Launcher for Sega Rally REVO to make it work in modern PCs easily"
-    language: "Rust"
-    topics: []
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "ai-jail"
-    title: "ai-jail"
-    description: "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)"
-    language: "Rust"
-    topics: []
-    stars_fact: 1513
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "akitaonrails.github.io"
-    title: "akitaonrails.github.io"
-    description: "2025 export from my old Rails-based blog AkitaOnRails.com"
-    language: "HTML"
-    topics: []
-    stars_fact: 234
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "llm-coding-benchmark"
-    title: "llm-coding-benchmark"
-    description: "Simple benchmark to test the most popular open source and commercial LLMs with automated OpenCode"
-    language: "Python"
-    topics: []
-    stars_fact: 375
-    first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-23"
   - name: "my-skills"
     title: "my-skills"
     description: "akitaonrails' personal skills (not tailored for general usage)"
     language: "Python"
     topics: []
-    stars_fact: 307
+    stars_fact: 318
     first_seen: null
     last_push: "2026-10-31"
+  - name: "llm-coding-benchmark"
+    title: "llm-coding-benchmark"
+    description: "Simple benchmark to test the most popular open source and commercial LLMs with automated OpenCode"
+    language: "Python"
+    topics: []
+    stars_fact: 379
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "FrankMega"
+    title: "FrankMega"
+    description: "Ruby on Rails file download service for Docker home servers"
+    language: "Ruby"
+    topics: []
+    stars_fact: 89
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "FrankMD"
+    title: "FrankMD"
+    description: "Self-hosted, Simple Markdown Web Editor and Notes Organizer"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 593
+    first_seen: null
+    last_push: "2026-11-23"
 ---
 
 # akitaonrails
 
-191 pushes across 34 repositories on 47 active days in the last 90 days of public GitHub push activity.
+184 pushes across 36 repositories on 45 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akitaonrails

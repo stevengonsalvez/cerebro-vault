@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [3, 2, 0, 6, 30, 28, 11, 28, 18, 0, 0, 0, 1]
+pushes_per_week: [2, 0, 1, 15, 45, 9, 30, 10, 11, 0, 0, 1, 0]
 windows:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 15
-    distinct_repos: 5
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 4
   "90d":
-    pushes: 127
+    pushes: 124
     distinct_repos: 20
-    active_days: 30
+    active_days: 27
     repos_not_owned: 17
     not_owned_basenames: 8
     not_owned_owners: 14
 automation:
   state: "clear"
-  push_per_day: 4.2333
-  repo_per_active_day: 0.6667
+  push_per_day: 4.5926
+  repo_per_active_day: 0.7407
   not_owned_ratio: 0.8500
   basename_concentration: 0.4500
   shapes: []
@@ -49,6 +49,14 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
@@ -56,25 +64,17 @@ facets:
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
-  "30d":
-    pushes: 15
-    distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 4
-    repos_not_owned: 5
-    not_owned_basenames: 4
-    not_owned_owners: 4
   "90d":
-    pushes: 127
+    pushes: 124
     distinct_repos: 20
-    pushes_per_repo: 6.3500
-    active_days: 30
+    pushes_per_repo: 6.2000
+    active_days: 27
     repos_not_owned: 17
     not_owned_basenames: 8
     not_owned_owners: 14
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skills"
@@ -99,7 +99,7 @@ repos:
       - "slidev"
     stars_fact: 45
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-24"
   - name: "kiira"
     title: "kiira"
     description: "Type-check the TypeScript & JavaScript code in your Markdown against your real project — in your editor, the CLI, and CI."
@@ -155,6 +155,6 @@ repos:
 
 # AlemTuzlak
 
-127 pushes across 20 repositories on 30 active days in the last 90 days of public GitHub push activity.
+124 pushes across 20 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlemTuzlak

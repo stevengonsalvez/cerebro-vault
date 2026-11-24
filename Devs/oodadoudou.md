@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 2, 0, 8, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 5, 4, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Inkloom"
+    title: "Inkloom"
+    description: null
+    language: "Kotlin"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "Transoria-Agent-Lab"
     title: "Transoria-Agent-Lab"
     description: null
@@ -97,7 +105,7 @@ repos:
     topics: []
     stars_fact: 76
     first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-18"
   - name: "Tools"
     title: "Tools"
     description: "perosonal tools"
@@ -122,14 +130,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-12"
-  - name: "oodadoudou"
-    title: "oodadoudou"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-23"
 ---
 
 # oodadoudou

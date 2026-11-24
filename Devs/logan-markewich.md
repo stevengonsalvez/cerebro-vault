@@ -8,11 +8,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [1, 0, 0, 3, 0, 3, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,60 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "jeff"
-    title: "jeff"
-    description: "A self-hosted drop-in replacement for TypeSafe's jev, powered by GliFormer."
-    language: "Python"
-    topics:
-      - "classification"
-      - "encoder"
-      - "gliner"
-      - "jev"
-      - "typesafe"
-    stars_fact: 319
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "llama_index_starter_pack"
-    title: "llama_index_starter_pack"
-    description: "This repository provides very basic flask, streamlit, and docker examples for the llama_index (fka gpt_index) package"
-    language: "Python"
-    topics: []
-    stars_fact: 632
-    first_seen: null
-    last_push: "2024-08-28"
-  - name: "liteparse-financial-agent"
-    title: "liteparse-financial-agent"
-    description: "A financial agent built on top of liteparse document processing"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-08-16"
-  - name: "finparse-pipeline"
-    title: "finparse-pipeline"
-    description: "A small example repo for building a backend with LlamaParse"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-05-13"
-  - name: "crusty-llm"
-    title: "crusty-llm"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-20"
-  - name: "agent-as-a-service"
-    title: "agent-as-a-service"
-    description: "Use a LlamaIndex Agent as a backend service"
-    language: "Python"
-    topics: []
-    stars_fact: 26
-    first_seen: null
-    last_push: "2024-05-03"
+repos: []
 ---
 
 # logan-markewich

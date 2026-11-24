@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [2, 0, 1, 3, 8, 10, 8, 10, 7, 1, 2, 0, 0]
+pushes_per_week: [1, 0, 4, 3, 8, 12, 11, 7, 3, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 2
-    active_days: 6
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 8
-    active_days: 25
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.0800
-  repo_per_active_day: 0.3200
+  push_per_day: 2.1250
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -57,26 +57,34 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 6
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 52
+    pushes: 51
     distinct_repos: 8
-    pushes_per_repo: 6.5000
-    active_days: 25
+    pushes_per_repo: 6.3750
+    active_days: 24
     repos_not_owned: 4
     not_owned_basenames: 2
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gateway-api-bench"
+    title: "gateway-api-bench"
+    description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
+    language: "Go"
+    topics: []
+    stars_fact: 883
+    first_seen: null
+    last_push: "2026-11-09"
   - name: "pprof-alloc"
     title: "pprof-alloc"
     description: "A Rust `GlobalAlloc` that adds observability around any allocator with `pprof` support"
@@ -85,14 +93,6 @@ repos:
     stars_fact: 5
     first_seen: null
     last_push: "2026-10-02"
-  - name: "gateway-api-bench"
-    title: "gateway-api-bench"
-    description: "Gateway API Benchmarks provides a common set of tests to evaluate a Gateway API implementation."
-    language: "Go"
-    topics: []
-    stars_fact: 879
-    first_seen: null
-    last_push: "2026-11-09"
   - name: "registry-redirector"
     title: "registry-redirector"
     description: null
@@ -130,6 +130,6 @@ repos:
 
 # howardjohn
 
-52 pushes across 8 repositories on 25 active days in the last 90 days of public GitHub push activity.
+51 pushes across 8 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/howardjohn

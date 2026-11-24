@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 2, 6, 15, 48, 15, 85, 7, 3, 1, 0, 0, 0]
+pushes_per_week: [2, 6, 8, 54, 15, 85, 7, 2, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -27,9 +27,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -62,10 +62,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pos-system"
+    title: "pos-system"
+    description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-15"
   - name: "cairn"
     title: "cairn"
     description: "Cairn v4 - content-addressed chunked sync & storage engine for professional video teams (Rust)"
@@ -89,7 +97,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-24"
   - name: "kilimall-marketplace-archive"
     title: "kilimall-marketplace-archive"
     description: "Auditable, provenance-first snapshot of public Kilimall marketplace listings for research and analysis."
@@ -123,7 +131,7 @@ repos:
       - "zep"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "startups-co-ke"
     title: "startups-co-ke"
     description: "startups.co.ke — Kenya Startup Ecosystem & Business Intelligence Hub. Single-file app (no build step) + Supabase backend. Deployed via GitHub Pages."
@@ -131,15 +139,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "pos-system"
-    title: "pos-system"
-    description: "White-label multi-terminal POS: Go + React single binary. M-Pesa STK + manual receipt fallback, dynamic RBAC, offline sync, ESC/POS printing, shifts & reports. Built for Kenyan retail."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-24"
   - name: "smart-vat-kenya"
     title: "smart-vat-kenya"
     description: "SmartVAT Kenya — Kenya VAT & eTIMS guidance, calculators and open data: VAT registration, iTax filing deadlines, KRA penalties, amnesty 2026. Maintains the vatkenya npm library. https://smartvatkenya.co.ke"

@@ -9,39 +9,39 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [5, 0, 0, 2, 6, 16, 16, 13, 5, 5, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 5, 16, 12, 19, 0, 10, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 26
-    active_days: 22
+    pushes: 65
+    distinct_repos: 27
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0909
-  repo_per_active_day: 1.1818
+  push_per_day: 3.0952
+  repo_per_active_day: 1.2857
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0385
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -50,34 +50,49 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 5
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 68
-    distinct_repos: 26
-    pushes_per_repo: 2.6154
-    active_days: 22
+    pushes: 65
+    distinct_repos: 27
+    pushes_per_repo: 2.4074
+    active_days: 21
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "jev-skill-router"
+    title: "jev-skill-router"
+    description: "Reference implementation for Jev builders: a Claude Code hook that asks TypeSafe's Jev which installed skill fits each prompt and logs the answer. Run for a week and then removed; the README keeps the parts that carry over and the measurement."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "hooks"
+      - "jev"
+      - "typesafe"
+      - "typesafe-jev"
+    stars_fact: 23
+    first_seen: null
+    last_push: "2026-10-10"
   - name: "skill-origins"
     title: "skill-origins"
     description: "Read who first recorded an agent skill (SKILL.md) from a collection's public git history, and count how often the file still names that account."
@@ -112,7 +127,7 @@ repos:
       - "technical-writing"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "jev-research-pipeline"
     title: "jev-research-pipeline"
     description: "A command-line tool that writes a research note each morning on your open questions at about a tenth of an LLM agent's cost: Python runs the loop, TypeSafe Jev screens new papers, and an LLM writes only the prose (English, Chinese or Japanese). Pilot."
@@ -140,22 +155,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "jev-skill-router"
-    title: "jev-skill-router"
-    description: "Reference implementation for Jev builders: a Claude Code hook that asks TypeSafe's Jev which installed skill fits each prompt and logs the answer. Run for a week and then removed; the README keeps the parts that carry over and the measurement."
-    language: "Python"
-    topics:
-      - "agent-skills"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "hooks"
-      - "jev"
-      - "typesafe"
-      - "typesafe-jev"
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-24"
   - name: "shimo4228"
     title: "shimo4228"
     description: "Hub for five citable practice lines by a solo AI-agent maker: agent design, authorship in the AI age, and essays from meditation practice."
@@ -179,11 +179,11 @@ repos:
       - "value-layer-harness-engineering"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
 ---
 
 # shimo4228
 
-68 pushes across 26 repositories on 22 active days in the last 90 days of public GitHub push activity.
+65 pushes across 27 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shimo4228

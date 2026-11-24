@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 0, 3, 15, 38, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 9, 42, 7, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,61 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pi-hydra"
-    title: "pi-hydra"
-    description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
-    language: "TypeScript"
-    topics:
-      - "code-review"
-      - "pi"
-      - "pi-coding-agent"
-      - "pi-extension"
-      - "pi-package"
-      - "prompt-caching"
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-10-13"
-  - name: "openclaw-staging-workspace"
-    title: "openclaw-staging-workspace"
-    description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "openclaw-infra"
-    title: "openclaw-infra"
-    description: "Secure self-hosted OpenClaw deployment on Hetzner Cloud with Tailscale"
-    language: "Python"
-    topics: []
-    stars_fact: 22
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "pi-idle-compact"
-    title: "pi-idle-compact"
-    description: "Compacts a pi session once its prompt cache has expired, never while pi's cache warming keeps it alive"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "pi-fast-models"
-    title: "pi-fast-models"
-    description: "Fast-mode virtual models for pi, with allowance-adjusted cost estimates"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "claude-plugins"
-    title: "claude-plugins"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-15"
+repos: []
 ---
 
 # pandysp

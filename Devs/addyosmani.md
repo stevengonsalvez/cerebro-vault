@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 1, 0, 0, 2, 0, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 1, 1, 2, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,47 +89,9 @@ repos:
       - "codex"
       - "cursor"
       - "skills"
-    stars_fact: 118431
+    stars_fact: 120139
     first_seen: "2026-06-19T17:17:12.671343+00:00"
-    last_push: "2026-11-14"
-  - name: "web-quality-skills"
-    title: "web-quality-skills"
-    description: "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals."
-    language: "Shell"
-    topics:
-      - "accessibility"
-      - "agent-skills"
-      - "claude-skills"
-      - "core-web-vitals"
-      - "lighthouse"
-      - "skills"
-      - "testing"
-      - "web-performance"
-    stars_fact: 3100
-    first_seen: null
-    last_push: "2026-08-24"
-  - name: "tunnel-bear-login"
-    title: "tunnel-bear-login"
-    description: "Repro of \"The Tunnel Bear\" login page"
-    language: "TypeScript"
-    topics:
-      - "login"
-    stars_fact: 407
-    first_seen: null
-    last_push: "2025-02-16"
-  - name: "video-compress"
-    title: "video-compress"
-    description: "Video compression in the browser using FFMPEG.wasm"
-    language: "TypeScript"
-    topics:
-      - "ffmpeg"
-      - "react"
-      - "video"
-      - "video-compression"
-      - "web"
-    stars_fact: 235
-    first_seen: null
-    last_push: "2025-02-07"
+    last_push: "2026-11-24"
   - name: "skills.addy.ie"
     title: "skills.addy.ie"
     description: "Agent Skills official site"
@@ -139,22 +101,41 @@ repos:
       - "agents"
       - "claude"
       - "codex"
-    stars_fact: 38
+    stars_fact: 42
     first_seen: null
     last_push: "2026-08-27"
-  - name: "clarity"
-    title: "clarity"
-    description: "Clarity - an Agent skill for clearer writing"
-    language: "JavaScript"
-    topics:
-      - "ai-writing"
-      - "ai-writing-assistant"
-      - "writing"
-      - "writing-assistant"
-      - "writing-tools"
-    stars_fact: 362
+  - name: "es6-tools"
+    title: "es6-tools"
+    description: "An aggregation of tooling for using ES6 today"
+    language: null
+    topics: []
+    stars_fact: 3972
     first_seen: null
-    last_push: "2026-09-05"
+    last_push: "2019-10-31"
+  - name: "essential-js-design-patterns"
+    title: "essential-js-design-patterns"
+    description: "Repo for my 'Learning JavaScript Design Patterns' book"
+    language: "HTML"
+    topics: []
+    stars_fact: 4904
+    first_seen: null
+    last_push: "2021-08-01"
+  - name: "basket.js"
+    title: "basket.js"
+    description: "A script and resource loader for caching & loading files with localStorage"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3343
+    first_seen: null
+    last_push: "2025-03-02"
+  - name: "backbone-fundamentals"
+    title: "backbone-fundamentals"
+    description: ":book: A creative-commons book on Backbone.js for beginners and advanced users alike"
+    language: "Rich Text Format"
+    topics: []
+    stars_fact: 9169
+    first_seen: null
+    last_push: "2024-11-30"
 ---
 
 # addyosmani

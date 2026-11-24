@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 1, 13, 9, 10, 4, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 13, 9, 10, 4, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lstm-energia-pjme"
+    title: "lstm-energia-pjme"
+    description: "LSTM para prever o consumo horário de energia (PJM East) — comparação de janelas de 24h e 168h. Trabalho de ML/CC6NA."
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "cnn-inceptionv4-sea-animals"
+    title: "cnn-inceptionv4-sea-animals"
+    description: "Transfer learning e fine-tuning com Inception-v4 no Sea Animals Image Dataset (CC6NA 2026.2)"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "validador-manifesto-carga"
+    title: "validador-manifesto-carga"
+    description: "AV2 LFA: validação em duas etapas com autômato de pilha (GLC) e autômato linearmente limitado"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "carimbo"
     title: "carimbo"
     description: null
@@ -84,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "de-la-do-para"
     title: "de-la-do-para"
     description: "De Lá do Pará — loja de produtos paraenses (Spring Boot + Angular, checkout confiável com Kafka). Portfólio local, demonstração."
@@ -101,30 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-10"
-  - name: "agenda-campus-push"
-    title: "agenda-campus-push"
-    description: "Atividade Push FCM: app Flutter com notificações simples, com imagem e com navegação"
-    language: "Dart"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "contatos-api"
-    title: "contatos-api"
-    description: "API REST de contatos em Node.js, Express, TypeScript e MySQL"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "ff-mcp-bridge"
-    title: "ff-mcp-bridge"
-    description: "Firefox extension + local MCP server so Claude Code (or any MCP client) can control Firefox"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
 ---
 
 # Gaalbu

@@ -8,37 +8,37 @@ provenance_repos:
   - "michael-denyer/pstack-claude"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [2, 3, 4, 4, 25, 25, 49, 13, 3, 0, 1, 0, 1]
+pushes_per_week: [4, 4, 1, 12, 30, 58, 15, 3, 0, 0, 1, 1, 2]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
     pushes: 4
     distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 15
-    active_days: 34
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.8235
-  repo_per_active_day: 0.4412
+  push_per_day: 3.7429
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.1333
   basename_concentration: 0.2000
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -60,150 +60,27 @@ facets:
     pushes: 4
     distinct_repos: 3
     pushes_per_repo: 1.3333
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 4
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 130
+    pushes: 131
     distinct_repos: 15
-    pushes_per_repo: 8.6667
-    active_days: 34
+    pushes_per_repo: 8.7333
+    active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pstack-claude"
-    title: "pstack-claude"
-    description: "Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses."
-    language: "JavaScript"
-    topics:
-      - "agent-plugin"
-      - "agent-skills"
-      - "agentic-ai"
-      - "anthropic"
-      - "antigravity-skills"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "claude-code-skills"
-      - "claude-plugin"
-      - "claude-skills"
-      - "code-review"
-      - "codex"
-      - "codex-cli"
-      - "codex-plugin"
-      - "codex-skills"
-      - "gemini-cli"
-      - "muse-plugin"
-      - "opencode"
-      - "pstack"
-    stars_fact: 4415
-    first_seen: "2026-10-05T06:00:40.760152+00:00"
-    last_push: "2026-11-13"
-  - name: "agent-formal-verify"
-    title: "agent-formal-verify"
-    description: "TLA+ model checking and Lean proofs for coding agents, with explicit tool setup."
-    language: "JavaScript"
-    topics:
-      - "agent"
-      - "agent-plugin"
-      - "agent-skills"
-      - "boris-cherny"
-      - "claude"
-      - "claude-code"
-      - "claude-plugin"
-      - "codex"
-      - "codex-plugin"
-      - "formal-verification"
-      - "lean"
-      - "opencode"
-      - "opencode-plugin"
-      - "pi"
-      - "skills"
-      - "tla"
-      - "verification"
-      - "verify"
-    stars_fact: 48
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "jamma"
-    title: "jamma"
-    description: "JAMMA (Highly-Accelerated Multi-method Mixed-model Association) -- a fast and modern Python and C reimplementation of GEMMA for large-scale GWAS."
-    language: "Python"
-    topics:
-      - "association-study"
-      - "bioinformatics"
-      - "gemma"
-      - "genomics"
-      - "gwas"
-      - "linear-mixed-model"
-      - "mixed-models"
-      - "python"
-      - "statistical-genetics"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "memory-mcp"
-    title: "memory-mcp"
-    description: "Engram-inspired memory MCP server with hot cache and pattern mining"
-    language: "Python"
-    topics:
-      - "agent-plugin"
-      - "agent-skills"
-      - "claude-code"
-      - "claude-plugin"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "pyLocusZoom"
-    title: "pyLocusZoom"
-    description: "pyLocusZoom -- publication-ready GWAS visualization in Python: LocusZoom-style regional association plots with LD coloring, gene tracks and recombination overlays, plus Manhattan, QQ, Miami, eQTL, fine-mapping, PheWAS and forest plots. Dog and cat genomes built in."
-    language: "Python"
-    topics:
-      - "bioinformatics"
-      - "colocalization"
-      - "eqtl"
-      - "fine-mapping"
-      - "forest-plot"
-      - "genomics"
-      - "gwas"
-      - "ld-heatmap"
-      - "linkage-disequilibrium"
-      - "locuszoom"
-      - "manhattan-plot"
-      - "miami-plot"
-      - "phewas"
-      - "qq-plot"
-      - "regional-plot"
-      - "statistical-genetics"
-      - "visualization"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "fast-beagle-5.5"
-    title: "fast-beagle-5.5"
-    description: "Fast standalone C port of Beagle 5.5 genotype phasing and imputation, byte-identical output to the Java release (27Feb25.75f).."
-    language: "Java"
-    topics:
-      - "beagle"
-      - "bgen"
-      - "bioinformatics"
-      - "genomics"
-      - "imputation"
-      - "phasing"
-      - "vcf"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-16"
+repos: []
 ---
 
 # michael-denyer
 
-130 pushes across 15 repositories on 34 active days in the last 90 days of public GitHub push activity.
+131 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michael-denyer

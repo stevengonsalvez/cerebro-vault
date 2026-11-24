@@ -9,26 +9,26 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
   - "98a2deac3e2f9725"
   - "9a8fde6cfa9ab68c"
   - "b949a65ff91f9791"
   - "e9879ff70aa53e1e"
-pushes_per_week: [0, 0, 0, 4, 2, 5, 2, 4, 0, 1, 0, 0, 1]
+pushes_per_week: [0, 0, 4, 2, 2, 5, 4, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -53,18 +53,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -81,6 +81,45 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "obsidian_notes"
+    title: "obsidian_notes"
+    description: "Code to turn my obsidian folder into notes.billmill.org"
+    language: "Python"
+    topics: []
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "personal_code"
+    title: "personal_code"
+    description: "random code that I have lying around"
+    language: "HTML"
+    topics: []
+    stars_fact: 51
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "limbo"
+    title: "limbo"
+    description: "A simple, clean, easy to modify Slack chatbot"
+    language: "Python"
+    topics:
+      - "chatbot"
+      - "docker"
+      - "python"
+      - "slack"
+    stars_fact: 401
+    first_seen: null
+    last_push: "2024-03-17"
+  - name: "bloomfilter-tutorial"
+    title: "bloomfilter-tutorial"
+    description: "A Bloom Filter Tutorial"
+    language: "HTML"
+    topics:
+      - "bloomfilter"
+      - "javascript"
+      - "tutorial"
+    stars_fact: 695
+    first_seen: null
+    last_push: "2024-10-09"
   - name: "nba_data"
     title: "nba_data"
     description: "Up to date NBA data dumps from stats.nba.com and ESPN Analytics"
@@ -88,7 +127,7 @@ repos:
     topics: []
     stars_fact: 15
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-20"
   - name: "yarapm"
     title: "yarapm"
     description: "Yet Another RAPM - A Regularized Adjusted plus/minus NBA ranking optimized for rating teams"
@@ -96,39 +135,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "movie-scenes"
-    title: "movie-scenes"
-    description: "Bluesky's favorite movie scenes, with clips"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "stepback.club"
-    title: "stepback.club"
-    description: "https://billmill.org/nba/"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "chatto-install"
-    title: "chatto-install"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "bostonmarathon"
-    title: "bostonmarathon"
-    description: "Almost complete data dumps from the Boston Marathon, 2001-2014"
-    language: "Pkl"
-    topics: []
-    stars_fact: 29
-    first_seen: null
-    last_push: "2025-04-27"
+    last_push: "2026-11-20"
 ---
 
 # llimllib

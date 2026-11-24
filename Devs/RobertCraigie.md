@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 0, 3, 1, 6, 0, 2, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 1, 6, 0, 2, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 13
     distinct_repos: 3
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 13
     distinct_repos: 3
@@ -76,63 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "pyright-python"
-    title: "pyright-python"
-    description: "Python command line wrapper for pyright, a static type checker"
-    language: "Python"
-    topics:
-      - "cli"
-      - "pip"
-      - "python"
-      - "typechecking"
-    stars_fact: 281
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-04"
-  - name: "craigie.dev"
-    title: "craigie.dev"
-    description: "Personal blog"
-    language: "HTML"
-    topics:
-      - "blog"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-04-02"
-  - name: "prisma-py-async-quickstart"
-    title: "prisma-py-async-quickstart"
-    description: "Quickstart example from the Prisma Client Python documentation"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2024-02-21"
-  - name: "pytest-pyright"
-    title: "pytest-pyright"
-    description: "Pytest plugin for type checking code with Pyright"
-    language: "Python"
-    topics:
-      - "pytest"
-      - "pytest-plugin"
-      - "typing"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2024-01-26"
-  - name: "pydantic-bug-repro"
-    title: "pydantic-bug-repro"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-01-10"
+repos: []
 ---
 
 # RobertCraigie

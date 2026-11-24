@@ -2,21 +2,21 @@
 title: "v2.1.321"
 category: coding-agents-llm
 tags: [ai/agents, cerebro/signal, release-notes]
-topic_tags: [release-notes, ai/agents]
+topic_tags: [ai/agents, release-notes]
 source_tags: []
 entity_tags: []
 artifact_tags: [cerebro/signal]
 workflow_tags: []
 source: rss
 url: https://github.com/anthropics/claude-code/releases/tag/v2.1.321
-score: 0.80
-reason: "Claude Code changelog: new Fable model, cache pricing, flags"
+score: 0.75
+reason: "Claude Code release adding Fable 5.2 with cache-read pricing"
 captured: 2026-11-09T23:32:07.995645+00:00
 rating:
 ---
 # v2.1.321
 
-> Claude Code changelog: new Fable model, cache pricing, flags
+> Claude Code release adding Fable 5.2 with cache-read pricing
 
 <h2>What's changed</h2>
 <ul>

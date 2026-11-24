@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [0, 0, 2, 1, 1, 6, 2, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 2, 1, 1, 5, 3, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,21 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "bitcoin-protocol-guide"
+    title: "bitcoin-protocol-guide"
+    description: "Bitcoin protocol internals — UTXOs, Script, SegWit, Taproot, Ordinals. Real transaction examples with CLI verification."
+    language: null
+    topics:
+      - "bitcoin"
+      - "education"
+      - "ordinals"
+      - "protocol"
+      - "segwit"
+      - "taproot"
+      - "utxo"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-03-22"
   - name: "hypelens"
     title: "hypelens"
     description: "Open-source Hyperliquid wallet analyzer"
@@ -150,21 +165,6 @@ repos:
     description: "HTTP 402 for AI agents, settled through PayPal: per-call API payments with spending policies"
     language: "TypeScript"
     topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "espn-fantasy-mods"
-    title: "espn-fantasy-mods"
-    description: "Userscripts that fix things ESPN Fantasy Football gets wrong (corrected Chance to Win, more coming)"
-    language: "JavaScript"
-    topics:
-      - "espn"
-      - "fantasy-football"
-      - "sports-analytics"
-      - "tampermonkey"
-      - "userscript"
-      - "violentmonkey"
-      - "win-probability"
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-08"

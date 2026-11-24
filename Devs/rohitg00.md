@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
   - "7b553354eb544407"
-pushes_per_week: [13, 2, 1, 0, 4, 22, 13, 9, 16, 0, 0, 0, 1]
+pushes_per_week: [3, 1, 0, 0, 17, 21, 10, 5, 11, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -25,25 +25,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 2
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 81
-    distinct_repos: 8
-    active_days: 29
+    pushes: 70
+    distinct_repos: 9
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.7931
-  repo_per_active_day: 0.2759
-  not_owned_ratio: 0.3750
-  basename_concentration: 0.2500
+  push_per_day: 2.8000
+  repo_per_active_day: 0.3600
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.2222
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -60,24 +60,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 14
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 4
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 81
-    distinct_repos: 8
-    pushes_per_repo: 10.1250
-    active_days: 29
+    pushes: 70
+    distinct_repos: 9
+    pushes_per_repo: 7.7778
+    active_days: 25
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ai-engineering-from-scratch"
@@ -105,9 +105,9 @@ repos:
       - "transformers"
       - "tutorial"
       - "typescript"
-    stars_fact: 78614
+    stars_fact: 80011
     first_seen: "2026-07-21T06:00:01.973180+00:00"
-    last_push: "2026-11-13"
+    last_push: "2026-11-18"
   - name: "agentmemory"
     title: "agentmemory"
     description: "#1 Persistent memory for AI coding agents based on real-world benchmarks"
@@ -129,9 +129,36 @@ repos:
       - "openclaw"
       - "opencode"
       - "pi"
-    stars_fact: 30332
+    stars_fact: 30561
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-18"
+  - name: "pro-workflow"
+    title: "pro-workflow"
+    description: "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills."
+    language: "JavaScript"
+    topics:
+      - "agent-orchestration"
+      - "ai-agents"
+      - "ai-coding"
+      - "ai-workflow"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "claude-code-skills"
+      - "claude-skills"
+      - "codex"
+      - "context-engineering"
+      - "cursor"
+      - "developer-tools"
+      - "gemini-cli"
+      - "hooks"
+      - "productivity"
+      - "self-correction"
+      - "workflow"
+      - "worktrees"
+    stars_fact: 2970
+    first_seen: null
+    last_push: "2026-09-29"
   - name: "awesome-claude-design"
     title: "awesome-claude-design"
     description: "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes."
@@ -146,61 +173,44 @@ repos:
       - "claude-skills"
       - "design-md"
       - "design-system"
-    stars_fact: 1225
+    stars_fact: 1248
     first_seen: null
     last_push: "2026-04-23"
-  - name: "k8sgames"
-    title: "k8sgames"
-    description: "Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands: 3D browser game, no install needed."
+  - name: "awesome-claude-code-toolkit"
+    title: "awesome-claude-code-toolkit"
+    description: "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, and more."
     language: "JavaScript"
     topics:
-      - "browser-game"
-      - "cka"
-      - "cloud-native"
-      - "containers"
-      - "devops"
-      - "education"
-      - "games"
-      - "gamification"
-      - "k8s"
-      - "k8sgames"
-      - "kubectl"
-      - "kubernetes"
-      - "kubernetes-learning"
-      - "learning"
-      - "simulation"
-      - "sre"
-      - "threejs"
-    stars_fact: 1474
+      - "claude"
+      - "claude-code"
+      - "claudecode"
+      - "claudecode-hooks"
+      - "plugins"
+      - "skills"
+    stars_fact: 2862
     first_seen: null
-    last_push: "2026-04-28"
-  - name: "DevOps_Books"
-    title: "DevOps_Books"
-    description: "Contribute to Open-Source"
-    language: null
-    topics: []
-    stars_fact: 2151
-    first_seen: null
-    last_push: "2025-05-29"
-  - name: "devops-interview-questions"
-    title: "devops-interview-questions"
-    description: "Creating this repository as a central hub for all DevOps interview questions to help you land your next job."
-    language: null
+    last_push: "2026-05-12"
+  - name: "skillkit"
+    title: "skillkit"
+    description: "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more"
+    language: "TypeScript"
     topics:
-      - "devops"
-      - "helper"
-      - "interview"
-      - "interview-questions"
-      - "jobs"
-      - "jobsearch"
-      - "questions"
-    stars_fact: 2098
+      - "agent-skills"
+      - "agentskills"
+      - "ai"
+      - "cli"
+      - "codex"
+      - "cursor"
+      - "gemini"
+      - "opencode"
+      - "skills"
+    stars_fact: 1588
     first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-06-02"
 ---
 
 # rohitg00
 
-81 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+70 pushes across 9 repositories on 25 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rohitg00

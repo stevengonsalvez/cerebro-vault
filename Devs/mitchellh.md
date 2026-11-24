@@ -8,11 +8,11 @@ provenance_repos:
   - "ghostty-org/ghostty"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "03dc7a9cfb878de8"
-pushes_per_week: [0, 0, 1, 0, 0, 5, 1, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 4, 2, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,65 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "vouch"
-    title: "vouch"
-    description: "A community trust management system based on explicit vouches to participate."
-    language: "Nushell"
-    topics: []
-    stars_fact: 5180
-    first_seen: null
-    last_push: "2026-10-11"
-  - name: "nixos-config"
-    title: "nixos-config"
-    description: "My NixOS configurations."
-    language: "Nix"
-    topics: []
-    stars_fact: 3129
-    first_seen: null
-    last_push: "2026-09-28"
-  - name: "advent-2021-sql"
-    title: "advent-2021-sql"
-    description: "Advent of Code 2021 using SQL (PostgreSQL-flavored)"
-    language: "PLpgSQL"
-    topics: []
-    stars_fact: 442
-    first_seen: null
-    last_push: "2021-12-07"
-  - name: "libxev"
-    title: "libxev"
-    description: "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API."
-    language: "Zig"
-    topics:
-      - "async"
-      - "c"
-      - "epoll"
-      - "io-uring"
-      - "kqueue"
-      - "wasi"
-      - "webassembly"
-      - "zig"
-    stars_fact: 3610
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "go-libghostty"
-    title: "go-libghostty"
-    description: "[Mirror] Go bindings for libghostty-vt. Source of truth: https://tangled.org/mitchellh.com/go-libghostty"
-    language: "Go"
-    topics:
-      - "ghostty"
-      - "libghostty"
-    stars_fact: 160
-    first_seen: null
-    last_push: "2026-11-07"
-  - name: "zig-objc"
-    title: "zig-objc"
-    description: "Objective-C runtime bindings for Zig (Zig calling ObjC)."
-    language: "Zig"
-    topics: []
-    stars_fact: 361
-    first_seen: null
-    last_push: "2026-10-20"
+repos: []
 ---
 
 # mitchellh

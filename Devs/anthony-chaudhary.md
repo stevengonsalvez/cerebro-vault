@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [43, 7, 19, 29, 50, 17, 18, 35, 7, 6, 0, 1, 1]
+pushes_per_week: [19, 17, 22, 51, 23, 19, 33, 3, 13, 0, 0, 2, 2]
 windows:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    active_days: 1
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 9
     distinct_repos: 1
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 233
-    distinct_repos: 2
-    active_days: 50
+    pushes: 204
+    distinct_repos: 1
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.6600
-  repo_per_active_day: 0.0400
+  push_per_day: 4.3404
+  repo_per_active_day: 0.0213
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 1.0000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,62 +49,59 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 9
     distinct_repos: 1
-    pushes_per_repo: 15.0000
-    active_days: 6
+    pushes_per_repo: 9.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 233
-    distinct_repos: 2
-    pushes_per_repo: 116.5000
-    active_days: 50
+    pushes: 204
+    distinct_repos: 1
+    pushes_per_repo: 204.0000
+    active_days: 47
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
     title: "fak"
-    description: "Agentic Runtime"
+    description: "Agentic Runtime (Inference Engine)"
     language: "Go"
     topics:
       - "agent-kernel"
       - "agentic-ai"
       - "ai-agents"
-      - "ai-gateway"
-      - "claude-code"
-      - "context-compression"
       - "gguf"
       - "golang"
       - "guardrails"
+      - "inference-engine"
+      - "inference-optimization"
+      - "inference-server"
       - "kv-cache"
-      - "llm-agents"
-      - "llm-inference"
-      - "llm-serving"
-      - "llmops"
+      - "llama-cpp"
       - "local-llm"
-      - "mcp"
       - "prompt-cache"
       - "self-hosted"
+      - "sglang"
       - "token-optimization"
-      - "yagni"
-    stars_fact: 49
+      - "vllm"
+    stars_fact: 50
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "anthony-chaudhary.github.io"
     title: "anthony-chaudhary.github.io"
     description: "Anthony Chaudhary — personal site (GitHub Pages root)"
@@ -168,6 +165,6 @@ repos:
 
 # anthony-chaudhary
 
-233 pushes across 2 repositories on 50 active days in the last 90 days of public GitHub push activity.
+204 pushes across 1 repository on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

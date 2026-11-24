@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "daa338753d6df9fd"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -84,7 +84,7 @@ repos:
     topics:
       - "ai-agents"
       - "claude-code"
-    stars_fact: 249
+    stars_fact: 250
     first_seen: "2026-07-24T06:00:05.187645+00:00"
     last_push: "2026-07-27"
   - name: "pittacus"

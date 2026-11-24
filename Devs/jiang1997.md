@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 1, 8, 5, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 4, 10, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,7 +94,7 @@ repos:
       - "react"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-21"
   - name: "chrome-deepseek-enchance-plugin"
     title: "chrome-deepseek-enchance-plugin"
     description: "Chrome extension to quote selected DeepSeek response text into your message draft with one click. Runs locally, with no tracking."
@@ -105,7 +105,7 @@ repos:
       - "local-first"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "Echo"
     title: "Echo"
     description: "Echo helps you improve expression in your target language while communicating with Claude Code and Codex CLI. Grammar feedback, translation, and back-translation stay in the UI and never enter your active conversation’s model context."

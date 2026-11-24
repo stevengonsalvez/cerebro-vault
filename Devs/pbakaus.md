@@ -8,28 +8,28 @@ provenance_repos:
   - "pbakaus/impeccable"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ec673bd7694d3a65"
-pushes_per_week: [1, 0, 4, 3, 2, 8, 26, 4, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 3, 3, 4, 30, 4, 0, 3, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 3
     active_days: 22
     repos_not_owned: 1
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3182
+  push_per_day: 2.3636
   repo_per_active_day: 0.1364
   not_owned_ratio: 0.3333
   basename_concentration: 0.6667
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 51
+    pushes: 52
     distinct_repos: 3
-    pushes_per_repo: 17.0000
+    pushes_per_repo: 17.3333
     active_days: 22
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -76,64 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "impeccable"
-    title: "impeccable"
-    description: "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
-    language: "Rust"
-    topics:
-      - "agent-skills"
-      - "ai"
-      - "anti-slop"
-      - "design"
-      - "slop"
-    stars_fact: 111579
-    first_seen: "2026-10-25T07:00:44.509744+00:00"
-    last_push: "2026-11-17"
-  - name: "radiant"
-    title: "radiant"
-    description: "A curated collection of generative shader art"
-    language: "HTML"
-    topics: []
-    stars_fact: 1043
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "agent-reviews"
-    title: "agent-reviews"
-    description: "Token efficient, automated Github review workflows and bug fixing."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 328
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "impeccable-talks"
-    title: "impeccable-talks"
-    description: "Talks for the Impeccable project."
-    language: "HTML"
-    topics: []
-    stars_fact: 58
-    first_seen: null
-    last_push: "2026-07-01"
-  - name: "scroller"
-    title: "scroller"
-    description: "Accelerated panning and zooming for HTML and Canvas"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 3930
-    first_seen: null
-    last_push: "2025-11-21"
-  - name: "epubslicer"
-    title: "epubslicer"
-    description: "This utility has the ability to remove sections/chapters from an epub (e.g. to create a preview epub)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2023-03-04"
+repos: []
 ---
 
 # pbakaus
 
-51 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
+52 pushes across 3 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pbakaus

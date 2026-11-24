@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 0, 4, 0, 3, 7, 0, 3, 1, 0, 1]
+pushes_per_week: [0, 0, 0, 4, 0, 3, 6, 1, 3, 0, 1, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dwg2pdf-toolkit"
+    title: "dwg2pdf-toolkit"
+    description: "整版 CAD 图纸(DWG/DXF)转按图框分页、中文清晰、白底可打印的矢量 PDF；含 AI 助理技能包"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "ApifoxHelper"
     title: "ApifoxHelper"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-20"
   - name: "castorhrio"
     title: "castorhrio"
     description: "Backend engineer - distributed systems and message queues"
@@ -93,7 +101,7 @@ repos:
       - "profile"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-24"
   - name: "agent-pointer-desktop"
     title: "agent-pointer-desktop"
     description: "Windows desktop guide arrows for AI agent handoffs, based on bigarrow."
@@ -125,22 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-04"
-  - name: "SourceSeek"
-    title: "SourceSeek"
-    description: "一键探测网页图片 · 音频 · 视频，支持 HLS 与 DASH 流媒体完整下载合并"
-    language: "JavaScript"
-    topics:
-      - "chrome-extension"
-      - "dash"
-      - "hls"
-      - "m3u8"
-      - "manifest-v3"
-      - "media-downloader"
-      - "source-seek"
-      - "video-downloader"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-17"
 ---
 
 # castorhrio

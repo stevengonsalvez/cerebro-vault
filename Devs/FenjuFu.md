@@ -11,18 +11,18 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "46f3c1d6124190bd"
   - "c489e6fb5febf2ab"
   - "edb3a626875732de"
-pushes_per_week: [3, 0, 4, 0, 2, 7, 0, 12, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 0, 2, 4, 3, 4, 10, 1, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 18
-    active_days: 15
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.0667
-  repo_per_active_day: 1.2000
+  push_per_day: 2.2308
+  repo_per_active_day: 1.3846
   not_owned_ratio: 0.1667
   basename_concentration: 0.1111
   shapes: []
@@ -54,10 +54,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 18
-    pushes_per_repo: 1.7222
-    active_days: 15
+    pushes_per_repo: 1.6111
+    active_days: 13
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 4 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Awesome-Astron-Workflow"
@@ -90,7 +90,7 @@ repos:
       - "agent"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "xhtoken-images"
     title: "xhtoken-images"
     description: "Public image library for xhtoken-trending-content distribution (file name = title, model picks images by content)"
@@ -98,7 +98,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "astron-images"
     title: "astron-images"
     description: null
@@ -106,7 +106,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "FenjuFu"
     title: "FenjuFu"
     description: "GitHub profile README"
@@ -135,6 +135,6 @@ repos:
 
 # FenjuFu
 
-31 pushes across 18 repositories on 15 active days in the last 90 days of public GitHub push activity.
+29 pushes across 18 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/FenjuFu

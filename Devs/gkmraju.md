@@ -9,22 +9,22 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 1, 0, 1, 0, 0, 2, 3, 0, 1, 0, 0, 1]
+pushes_per_week: [1, 0, 0, 1, 0, 2, 3, 0, 1, 0, 0, 1, 0]
 windows:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -49,18 +49,18 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "30d":
     pushes: 1
     distinct_repos: 1
     pushes_per_repo: 1.0000
     active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
-  "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Bounty-Radar"
+    title: "Bounty-Radar"
+    description: "Search code bounties, bug bounties, OSS issue bounties, and freelance platform bounties, rank them by prize money, difficulty, freshness, trust, and competition, then publish the best results to a Telegram channel."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-17"
   - name: "codex-skill-creator"
     title: "codex-skill-creator"
     description: "Codex skills"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "gkmraju"
     title: "gkmraju"
     description: "About Me"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "GitHub-Contribution-Agent"
     title: "GitHub-Contribution-Agent"
     description: "Auto contribution agent"
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "Repo-of-the-day"
     title: "Repo-of-the-day"
     description: null
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "quant-github-scout"
     title: "quant-github-scout"
     description: "Top Github repos on Quant, Trading, Crypto etc"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-17"
-  - name: "codex-skill-msa-gage-rr-builder"
-    title: "codex-skill-msa-gage-rr-builder"
-    description: "Codex skill for balanced crossed Gauge R&R: tested ANOVA, validated JSON and accessible HTML reports. Derived from a Claude skill; MIT."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-13"
 ---
 
 # gkmraju

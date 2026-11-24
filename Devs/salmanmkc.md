@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-cookbooks"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1f49d0119cedbc84"
-pushes_per_week: [0, 1, 2, 9, 11, 13, 3, 5, 8, 2, 0, 0, 0]
+pushes_per_week: [1, 2, 8, 10, 10, 8, 3, 6, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,47 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "salmanmkc"
-    title: "salmanmkc"
-    description: "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    language: null
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "multimodal-brain-computer-interface-inference"
-    title: "multimodal-brain-computer-interface-inference"
-    description: "🧠 Real-time multi-modal inference system fusing EEG, PPG & CV signals for neural state estimation | Made at MIT"
-    language: "C#"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-02-10"
-  - name: "agentverse"
-    title: "agentverse"
-    description: "1st place at UCL agentverse (AI agent hackathon)"
-    language: "Python"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2025-11-03"
-  - name: "salmanmkc.github.io"
-    title: "salmanmkc.github.io"
-    description: null
-    language: "Astro"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "devin-self-heal-dashboard"
-    title: "devin-self-heal-dashboard"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-30"
+repos: []
 ---
 
 # salmanmkc

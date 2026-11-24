@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -82,9 +82,9 @@ repos:
     description: "An agentic memory engine designed for lossless, tiered verbatim storage and multi-hop retrieval."
     language: "Python"
     topics: []
-    stars_fact: 27
+    stars_fact: 34
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-23"
   - name: "edge"
     title: "edge"
     description: "EdgeScale (edgerun) — high-performance in-process GPU upscaling and companion iGPU offload for Linux games (native Vulkan, Proton/Wine, and OpenGL)"
@@ -108,7 +108,7 @@ repos:
       - "windows"
       - "windows-app"
       - "windows-desktop"
-    stars_fact: 8
+    stars_fact: 9
     first_seen: null
     last_push: "2026-11-11"
   - name: "epochdb-server"
@@ -118,7 +118,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-18"
   - name: "the-office-crewai"
     title: "the-office-crewai"
     description: "A 3d office with agents that do actual work."

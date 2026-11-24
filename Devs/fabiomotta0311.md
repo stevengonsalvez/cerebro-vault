@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 0, 11, 6, 2, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 5, 11, 2, 3, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "daviegolias"
+    title: "daviegolias"
+    description: "Jogo 2D de ação e combate contra chefe baseado na passagem bíblica de Davi e Golias (Godot 4 / GDScript)"
+    language: "GDScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "hermes-microsoft365-plugin"
     title: "hermes-microsoft365-plugin"
     description: "Standalone Hermes plugin for the Microsoft 365 ecosystem through Microsoft Graph"
@@ -90,9 +98,25 @@ repos:
       - "planner"
       - "sharepoint"
       - "teams"
-    stars_fact: 5
+    stars_fact: 7
     first_seen: null
     last_push: "2026-10-30"
+  - name: "fastfile"
+    title: "fastfile"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "fast365"
+    title: "fast365"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "hermes-plugins"
     title: "hermes-plugins"
     description: null
@@ -109,30 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-04-28"
-  - name: "gomarketplace"
-    title: "gomarketplace"
-    description: "React Native App to Market Place"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-01-07"
-  - name: "rpachallenge_robocorp"
-    title: "rpachallenge_robocorp"
-    description: "RPA Challenge: Input Forms - olved using Robocorp"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2021-12-16"
-  - name: "rpachallenge_inputforms_uipath"
-    title: "rpachallenge_inputforms_uipath"
-    description: "RPA Challenge Input Forms. Solved using UiPath in the New Design and Object Repository"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-12-16"
 ---
 
 # fabiomotta0311

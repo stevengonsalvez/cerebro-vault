@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 2, 5, 11, 4, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 15, 5, 0, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,35 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "docshelf.nvim"
+    title: "docshelf.nvim"
+    description: "Offline API documentation inside Neovim — devdocs.io, Hackage, docs.rs, Sphinx sites, pkg.go.dev and DocC (Apple) docs, read and grepped as plain text"
+    language: "Lua"
+    topics:
+      - "devdocs"
+      - "documentation"
+      - "lua"
+      - "neovim"
+      - "neovim-lua"
+      - "neovim-lua-plugin"
+      - "neovim-plugin"
+      - "nvim"
+      - "nvim-lua"
+      - "nvim-plugin"
+      - "offline-documentation"
+      - "snacks-nvim"
+      - "telescope"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "dev.wezterm"
+    title: "dev.wezterm"
+    description: "Simple wezterm plugin to determine its location within a dev environment or in deployment"
+    language: "Lua"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-05-26"
   - name: "localdata-mcp"
     title: "localdata-mcp"
     description: "MCP server giving LLM agents access to databases, files, graphs, and a full data science toolkit — 52 tools across 13 database types and 20+ file formats"
@@ -104,7 +133,7 @@ repos:
       - "time-series"
     stars_fact: 15
     first_seen: null
-    last_push: "2026-11-08"
+    last_push: "2026-11-20"
   - name: "taskforge-core"
     title: "taskforge-core"
     description: "Engine for taskforge: one task model across Taskwarrior, OmniFocus and code TODOs"
@@ -129,55 +158,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2026-03-06"
-  - name: "workspace-qdrant-mcp"
-    title: "workspace-qdrant-mcp"
-    description: "Project-aware collection management based on Qdrant, including a Rust MCP, daemon and CLI: hybrid semantic, pattern and full-text (FTS5) search into single or cross-concerns collection. Dedicated collections for knowledge library, LLM behavioral rules, and an LLM scratchpad"
-    language: "Rust"
-    topics:
-      - "bm25"
-      - "claude-code"
-      - "dense-vectors"
-      - "fts5"
-      - "full-text-search"
-      - "hybrid-search"
-      - "knowledge-graph"
-      - "knowledge-library"
-      - "llm-behavioral-rule"
-      - "llm-scratchpad"
-      - "local-embeddings"
-      - "mcp"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "pattern-search"
-      - "qdrant"
-      - "remote-embeddings"
-      - "semantic-search"
-      - "sparse-vectors"
-      - "vector-database"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "docshelf.nvim"
-    title: "docshelf.nvim"
-    description: "Offline API documentation inside Neovim — devdocs.io, Hackage, docs.rs, Sphinx sites, pkg.go.dev and DocC (Apple) docs, read and grepped as plain text"
-    language: "Lua"
-    topics:
-      - "devdocs"
-      - "documentation"
-      - "lua"
-      - "neovim"
-      - "neovim-lua"
-      - "neovim-lua-plugin"
-      - "neovim-plugin"
-      - "nvim"
-      - "nvim-lua"
-      - "nvim-plugin"
-      - "offline-documentation"
-      - "snacks-nvim"
-      - "telescope"
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-09-27"
 ---
 
 # ChrisGVE

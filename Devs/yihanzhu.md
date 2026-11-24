@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [1, 4, 15, 8, 38, 32, 4, 11, 5, 4, 0, 0, 0]
+pushes_per_week: [4, 12, 11, 38, 28, 7, 10, 7, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 4
-    active_days: 34
+    pushes: 121
+    distinct_repos: 3
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5882
-  repo_per_active_day: 0.1176
+  push_per_day: 3.6667
+  repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  basename_concentration: 0.3333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,85 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
-    distinct_repos: 4
-    pushes_per_repo: 30.5000
-    active_days: 34
+    pushes: 121
+    distinct_repos: 3
+    pushes_per_repo: 40.3333
+    active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 34 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "ystack"
-    title: "ystack"
-    description: "A small autonomous coding team that takes a north star and ships the work itself."
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "valor"
-    title: "valor"
-    description: "career coach for developers"
-    language: "Python"
-    topics:
-      - "career-development"
-      - "claude-code"
-      - "codex"
-      - "cursor"
-      - "developer-productivity"
-      - "developer-tools"
-      - "local-first"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "cs336-ai-study"
-    title: "cs336-ai-study"
-    description: "English-first bilingual Stanford CS336 AI tutoring; 299 points; learner progress stays local"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "grants"
-    title: "grants"
-    description: "See, date and revoke the permissions you have given AI coding agents (Claude Code, Codex). Local only."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "yihanzhu"
-    title: "yihanzhu"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-05"
-  - name: "ystack-dummy-target"
-    title: "ystack-dummy-target"
-    description: "Fresh, unrelated target repo for ystack's external-target portability proof (TR-1 Q1)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
+repos: []
 ---
 
 # yihanzhu
 
-122 pushes across 4 repositories on 34 active days in the last 90 days of public GitHub push activity.
+121 pushes across 3 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yihanzhu

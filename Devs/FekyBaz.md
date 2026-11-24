@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "46f3c1d6124190bd"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 18, 9, 1, 16, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 18, 6, 3, 17, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 17
+    pushes: 16
     distinct_repos: 1
-    pushes_per_repo: 17.0000
-    active_days: 2
+    pushes_per_repo: 16.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nlp-en-de-seq2seq-attention"
+    title: "nlp-en-de-seq2seq-attention"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "ajr_layanqate3"
+    title: "ajr_layanqate3"
+    description: "أجر لا ينقطع - Endless Reward: Arabic-first community platform for dhikr, dua, ayah, and hadith"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "nlp-word-embeddings-assignment2"
     title: "nlp-word-embeddings-assignment2"
     description: "NLP Assignment 2 — Word2Vec Skip-gram vs GloVe, Visualization, and Evaluation"
@@ -85,14 +101,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-25"
-  - name: "ajr_layanqate3"
-    title: "ajr_layanqate3"
-    description: "أجر لا ينقطع - Endless Reward: Arabic-first community platform for dhikr, dua, ayah, and hadith"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "nlp-naive-bayes-assignment6"
     title: "nlp-naive-bayes-assignment6"
     description: "Assignment 1 - Naive Bayes Text Classification"
@@ -116,15 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-31"
-  - name: "sre-incident-assistant"
-    title: "sre-incident-assistant"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-06"
+    last_push: "2026-11-18"
 ---
 
 # FekyBaz

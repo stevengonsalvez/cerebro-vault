@@ -8,39 +8,39 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 18, 4, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 7, 15, 0, 1, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 1
-    active_days: 6
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 2
-    active_days: 7
+    pushes: 25
+    distinct_repos: 4
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.2857
-  repo_per_active_day: 0.2857
+  push_per_day: 2.7778
+  repo_per_active_day: 0.4444
   not_owned_ratio: 0.0000
-  basename_concentration: 0.5000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,106 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 21
-    distinct_repos: 1
-    pushes_per_repo: 21.0000
-    active_days: 6
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
-    distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 7
+    pushes: 25
+    distinct_repos: 4
+    pushes_per_repo: 6.2500
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "cloudbot"
-    title: "cloudbot"
-    description: "Your own always-on AI coworker on your VPS. Works with Claude, ChatGPT, Gemini, Grok and more, on your own subscription or API key. Chat with it, give it a computer, let it work while you are away."
-    language: "TypeScript"
-    topics:
-      - "ai-agent"
-      - "automation"
-      - "chatgpt"
-      - "claude"
-      - "codex"
-      - "gemini"
-      - "grok"
-      - "multi-provider"
-      - "self-hosted"
-      - "vps"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "cloudbot-templates"
-    title: "cloudbot-templates"
-    description: "Bot templates for CloudBot. Pick one in the chat or share your own."
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-22"
-  - name: "durable-recorder"
-    title: "durable-recorder"
-    description: "Browser audio, video and screen recording that survives a locked phone, a killed tab or a dropped microphone."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "claude-voice"
-    title: "claude-voice"
-    description: "Controle por voz do Claude Code: ditado com faster-whisper na GPU e resposta falada (Fish Audio ou edge-tts), com overlay de espectro e suporte a WSL e Codex CLI"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "csv-dashboard"
-    title: "csv-dashboard"
-    description: "Turn any CSV or Excel file into a self-contained HTML dashboard. Zero dependencies, no network calls, correct by construction."
-    language: "HTML"
-    topics:
-      - "analytics"
-      - "csv"
-      - "dashboard"
-      - "data-visualization"
-      - "excel"
-      - "html"
-      - "nodejs"
-      - "reporting"
-      - "xlsx"
-      - "zero-dependencies"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-07-26"
-  - name: "benchmarking-ordenacao"
-    title: "benchmarking-ordenacao"
-    description: null
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-25"
+repos: []
 ---
 
 # mateuscmtropical
 
-23 pushes across 2 repositories on 7 active days in the last 90 days of public GitHub push activity.
+25 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mateuscmtropical

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "My dotfile configurations."
+    language: "Lua"
+    topics: []
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "grove"
+    title: "grove"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-08-30"
+  - name: "shadcn-rails"
+    title: "shadcn-rails"
+    description: "A Claude Code experiment for porting shadcn to Rails"
+    language: "Ruby"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-09-21"
   - name: "camper-android"
     title: "camper-android"
     description: "Camper for Bandcamp Android APKs (same builds as Google Play, signed by Google Play)"
@@ -84,15 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "My dotfile configurations."
-    language: "Shell"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-23"
   - name: "rippr-vst"
     title: "rippr-vst"
     description: "VST3 instrument for acquiring, previewing, and dragging DAW-ready samples without leaving your session."
@@ -117,22 +133,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2021-11-12"
-  - name: "friendly-spoon"
-    title: "friendly-spoon"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2020-11-16"
-  - name: "go-tweets"
-    title: "go-tweets"
-    description: "Hopefully gonna get some good data visualizations with Twitter and GoLang."
-    language: "Go"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2023-01-24"
 ---
 
 # iheanyi

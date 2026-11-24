@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 1, 1, 0, 2, 0, 0, 2, 2, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 2, 0, 0, 0, 4, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -83,49 +83,68 @@ repos:
     language: "Python"
     topics:
       - "astrbot"
-    stars_fact: 564
+      - "astrbot-plugin"
+      - "meme"
+      - "python"
+      - "webui"
+    stars_fact: 571
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "deepseek-fanart-meme-pack"
-    title: "deepseek-fanart-meme-pack"
-    description: "DeepSeek 二创表情包，适配 AstrBot Meme Manager"
-    language: null
-    topics: []
-    stars_fact: 16
+    last_push: "2026-11-24"
+  - name: "anka-afk.github.io"
+    title: "anka-afk.github.io"
+    description: "Anka 的个人博客源码（mxts.jiujiuer.xyz）。"
+    language: "Astro"
+    topics:
+      - "blog"
+      - "github-pages"
+      - "personal-website"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-25"
-  - name: "atri-meme-pack"
-    title: "atri-meme-pack"
-    description: "面向 AstrBot meme_manager 的 ATRI 表情包，包含 551 张静态与动态表情"
+    last_push: "2026-11-24"
+  - name: "congyu-meme-pack"
+    title: "congyu-meme-pack"
+    description: "面向 AstrBot meme_manager 的丛雨表情包，包含 83 张静态与动态表情"
     language: null
-    topics: []
-    stars_fact: 4
+    topics:
+      - "astrbot"
+      - "astrbot-meme-pack"
+      - "meme-pack"
+    stars_fact: 0
     first_seen: null
     last_push: "2026-08-30"
-  - name: "astrbot_plugin_napdog"
-    title: "astrbot_plugin_napdog"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-10-07"
-  - name: "blue-fat-fish-meme-pack"
-    title: "blue-fat-fish-meme-pack"
-    description: "蓝色大肥鱼动态表情包，适配 AstrBot Meme Manager"
+  - name: "juxueli-meme-pack"
+    title: "juxueli-meme-pack"
+    description: "橘雪莉表情包，适配 AstrBot meme_manager"
     language: null
-    topics: []
-    stars_fact: 16
+    topics:
+      - "astrbot"
+      - "astrbot-meme-pack"
+      - "meme-pack"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-09-06"
-  - name: "astrbot_sowing_discord"
-    title: "astrbot_sowing_discord"
-    description: "搬史自动化新时代!"
-    language: "Python"
-    topics: []
-    stars_fact: 618
+    last_push: "2026-08-30"
+  - name: "laffey2-meme-pack"
+    title: "laffey2-meme-pack"
+    description: "拉菲2动态表情包 | 素材制作 Z-wumi | AstrBot Meme Manager"
+    language: null
+    topics:
+      - "astrbot"
+      - "astrbot-meme-pack"
+      - "meme-pack"
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-09-04"
+  - name: "clover-days-meme-pack"
+    title: "clover-days-meme-pack"
+    description: "Clover Days 鹰仓杏铃表情包，适配 AstrBot Meme Manager"
+    language: null
+    topics:
+      - "astrbot"
+      - "astrbot-meme-pack"
+      - "meme-pack"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # anka-afk

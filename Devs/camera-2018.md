@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 3, 5, 0, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 5, 0, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,7 +94,7 @@ repos:
       - "github-config"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "astrbot_plugin_fastbrain_proactive"
     title: "astrbot_plugin_fastbrain_proactive"
     description: "AstrBot 主动回复判断插件：FastBrain-9B SystemOne 分类，沿用会话模型，默认观察模式"
@@ -133,7 +133,7 @@ repos:
       - "vitepress"
     stars_fact: 265
     first_seen: null
-    last_push: "2026-06-07"
+    last_push: "2026-11-22"
   - name: "astrbot_plugin_animatedemoji"
     title: "astrbot_plugin_animatedemoji"
     description: null

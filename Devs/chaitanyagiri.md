@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e5b23adc376a62a9"
-pushes_per_week: [1, 0, 1, 1, 0, 3, 8, 10, 1, 1, 0, 0, 1]
+pushes_per_week: [0, 1, 1, 0, 2, 8, 9, 2, 2, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 2
-    active_days: 16
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.6875
-  repo_per_active_day: 0.1250
+  push_per_day: 1.7333
+  repo_per_active_day: 0.1333
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -49,42 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
+    pushes: 26
     distinct_repos: 2
-    pushes_per_repo: 13.5000
-    active_days: 16
+    pushes_per_repo: 13.0000
+    active_days: 15
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 16 active days in 90d — pass"
+  - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "higgsfieldautomation"
-    title: "higgsfieldautomation"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2025-10-17"
   - name: "Tweetit"
     title: "Tweetit"
     description: "Tweetit is a twitter bot with amazing features."
@@ -93,9 +85,17 @@ repos:
       - "javascript"
       - "nodejs"
       - "twitter-bot"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2018-03-09"
+  - name: "higgsfieldautomation"
+    title: "higgsfieldautomation"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-10-17"
   - name: "chaitanyagiri.github.io"
     title: "chaitanyagiri.github.io"
     description: null
@@ -132,6 +132,6 @@ repos:
 
 # chaitanyagiri
 
-27 pushes across 2 repositories on 16 active days in the last 90 days of public GitHub push activity.
+26 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/chaitanyagiri

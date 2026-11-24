@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 0, 0, 0, 13, 4, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 0, 11, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -120,7 +120,7 @@ repos:
       - "windsurf"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-22"
   - name: "orynval-labs"
     title: "orynval-labs"
     description: "Local security tools for AI agents: review MCP configs, detect baseline drift, inspect identities, and draft evidence-backed security answers."
@@ -142,7 +142,7 @@ repos:
       - "security-tools"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-11"
+    last_push: "2026-11-22"
 ---
 
 # tomelias10

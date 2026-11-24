@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [9, 2, 1, 0, 18, 4, 3, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 0, 16, 5, 2, 7, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 33
     distinct_repos: 2
-    active_days: 18
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3333
-  repo_per_active_day: 0.1111
+  push_per_day: 2.3571
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.5000
   basename_concentration: 0.5000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 33
     distinct_repos: 2
-    pushes_per_repo: 21.0000
-    active_days: 18
+    pushes_per_repo: 16.5000
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "MacroGraph"
@@ -92,9 +92,25 @@ repos:
       - "tauri"
       - "twitch"
       - "vtube-studio"
-    stars_fact: 307
+    stars_fact: 306
     first_seen: null
     last_push: "2026-08-28"
+  - name: "swift-rs"
+    title: "swift-rs"
+    description: "Call Swift functions from Rust with ease!"
+    language: "Rust"
+    topics: []
+    stars_fact: 341
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "apps"
+    title: "apps"
+    description: "vibe coded personal apps"
+    language: "Rust"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-23"
   - name: "sceneify"
     title: "sceneify"
     description: "The simplest way to control OBS from JavaScript"
@@ -114,15 +130,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-14"
-  - name: "swift-rs"
-    title: "swift-rs"
-    description: "Call Swift functions from Rust with ease!"
-    language: "Rust"
-    topics: []
-    stars_fact: 344
-    first_seen: null
-    last_push: "2026-10-10"
+    last_push: "2026-11-24"
   - name: "cf-effect-experiment"
     title: "cf-effect-experiment"
     description: null
@@ -130,19 +138,11 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "vite-plugin-opencode"
-    title: "vite-plugin-opencode"
-    description: "Select UI elements in a Vite app and send contextual feedback to OpenCode"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-11-22"
 ---
 
 # Brendonovich
 
-42 pushes across 2 repositories on 18 active days in the last 90 days of public GitHub push activity.
+33 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Brendonovich

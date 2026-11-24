@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 2, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -97,7 +97,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-23"
   - name: "asburypark"
     title: "asburypark"
     description: "Happy Hours in Asbury Park, NJ"
@@ -105,7 +105,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-18"
   - name: "bevy_drm_vk"
     title: "bevy_drm_vk"
     description: "Attempted Bevy DRM support via RawWindowHandle::Drm"

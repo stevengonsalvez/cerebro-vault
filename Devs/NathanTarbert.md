@@ -8,36 +8,36 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [3, 0, 2, 4, 2, 3, 12, 5, 4, 3, 0, 0, 0]
+pushes_per_week: [1, 2, 2, 4, 1, 13, 4, 3, 6, 0, 0, 0, 3]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
     pushes: 6
     distinct_repos: 2
     active_days: 3
     repos_not_owned: 2
-    not_owned_basenames: 2
+    not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 38
+    pushes: 39
     distinct_repos: 7
     active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.5833
+  push_per_day: 1.6250
   repo_per_active_day: 0.2917
   not_owned_ratio: 0.7143
   basename_concentration: 0.4286
@@ -49,127 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 2
+    repos_not_owned: 2
+    not_owned_basenames: 1
+    not_owned_owners: 2
   "30d":
     pushes: 6
     distinct_repos: 2
     pushes_per_repo: 3.0000
     active_days: 3
     repos_not_owned: 2
-    not_owned_basenames: 2
+    not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 38
+    pushes: 39
     distinct_repos: 7
-    pushes_per_repo: 5.4286
+    pushes_per_repo: 5.5714
     active_days: 24
     repos_not_owned: 5
     not_owned_basenames: 3
-    not_owned_owners: 3
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "NathanTarbert"
-    title: "NathanTarbert"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "agent-skills-that-boost-productivity"
-    title: "agent-skills-that-boost-productivity"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-18"
-  - name: "nates-blockchain-memory-game"
-    title: "nates-blockchain-memory-game"
-    description: "This app is a memory game that connects to a Metamask wallet using Ganache or Hardhat as the local node. The smart contract was written in Solidity and React for the frontend framework."
-    language: "Solidity"
-    topics:
-      - "blockchain"
-      - "game"
-      - "ganache"
-      - "reactjs"
-      - "solidity"
-      - "wallet"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2022-01-29"
-  - name: "intake-copilot"
-    title: "intake-copilot"
-    description: "🔥Voice-first patient intake demo with CopilotKit headless + Mastra — collects identity by voice, triages symptoms by tap, and recommends a specialist with a clinical summary."
-    language: "TypeScript"
-    topics:
-      - "ag-ui"
-      - "agentic-ui"
-      - "ai-agent"
-      - "copilotkit"
-      - "healthcare"
-      - "llm"
-      - "mapbox"
-      - "mapbox-gl"
-      - "mastra"
-      - "patient-intake"
-      - "react"
-      - "tailwindcss"
-      - "typescript"
-      - "vite"
-      - "voice-ai"
-      - "whisper"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-06-13"
-  - name: "incident-copilot"
-    title: "incident-copilot"
-    description: "🔐 AI-powered incident-response dashboard built with CopilotKit + Custom Agent — natural-language triage, human-in-the-loop actions, and live charts over a decade of global cybersecurity threats."
-    language: "TypeScript"
-    topics:
-      - "agentic-ai"
-      - "ai-agent"
-      - "copilotkit"
-      - "cybersecurity"
-      - "express"
-      - "human-in-the-loop"
-      - "incident-response"
-      - "llm"
-      - "openai"
-      - "react"
-      - "recharts"
-      - "secops"
-      - "typescript"
-      - "vite"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-14"
-  - name: "pac-chat-ai-powered-pacman"
-    title: "pac-chat-ai-powered-pacman"
-    description: "Retro app showcasing the CopilotKit Headless UI and Generative UI"
-    language: "TypeScript"
-    topics:
-      - "copilotkit"
-      - "generative-ui"
-      - "headless-ui"
-      - "nextjs"
-      - "react"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-04-01"
+repos: []
 ---
 
 # NathanTarbert
 
-38 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
+39 pushes across 7 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NathanTarbert

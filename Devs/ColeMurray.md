@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "8311cfc3055f8fea"
-pushes_per_week: [6, 1, 7, 9, 25, 20, 16, 8, 4, 5, 0, 0, 0]
+pushes_per_week: [1, 7, 8, 23, 20, 19, 2, 6, 9, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 1
-    active_days: 3
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
+    pushes: 95
     distinct_repos: 2
-    active_days: 36
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.8056
-  repo_per_active_day: 0.0556
+  push_per_day: 2.9688
+  repo_per_active_day: 0.0625
   not_owned_ratio: 0.5000
   basename_concentration: 1.0000
   shapes: []
@@ -57,26 +57,48 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
+    pushes: 4
     distinct_repos: 1
-    pushes_per_repo: 9.0000
-    active_days: 3
+    pushes_per_repo: 4.0000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 101
+    pushes: 95
     distinct_repos: 2
-    pushes_per_repo: 50.5000
-    active_days: 36
+    pushes_per_repo: 47.5000
+    active_days: 32
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-code-otel"
+    title: "claude-code-otel"
+    description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
+    language: "Makefile"
+    topics: []
+    stars_fact: 527
+    first_seen: null
+    last_push: "2025-06-17"
+  - name: "medium-facenet-tutorial"
+    title: "medium-facenet-tutorial"
+    description: "Facial Recognition Pipeline using Dlib and Tensorflow"
+    language: "Python"
+    topics:
+      - "dlib"
+      - "docker"
+      - "facial-recognition"
+      - "python3"
+      - "tensorflow"
+      - "tensorflow-tutorials"
+    stars_fact: 221
+    first_seen: null
+    last_push: "2023-03-24"
   - name: "moondream-mcp"
     title: "moondream-mcp"
     description: "Moondream MCP Server in Python"
@@ -89,14 +111,6 @@ repos:
     stars_fact: 49
     first_seen: null
     last_push: "2025-07-02"
-  - name: "claude-code-otel"
-    title: "claude-code-otel"
-    description: "A comprehensive observability solution for monitoring Claude Code usage, performance, and costs."
-    language: "Makefile"
-    topics: []
-    stars_fact: 523
-    first_seen: null
-    last_push: "2025-06-17"
   - name: "aws-athena-mcp"
     title: "aws-athena-mcp"
     description: "AWS Athena MCP using FastMCP"
@@ -121,26 +135,10 @@ repos:
     stars_fact: 43
     first_seen: null
     last_push: "2026-01-16"
-  - name: "modal-vm-examples"
-    title: "modal-vm-examples"
-    description: "Runnable Modal VM Sandbox examples — run Docker, docker compose, docker build, and filesystem snapshots on Modal's microVM runtime (vm_runtime). Reproducible Modal VM examples."
-    language: "Python"
-    topics:
-      - "docker"
-      - "docker-compose"
-      - "examples"
-      - "microvm"
-      - "modal"
-      - "modal-vm"
-      - "sandbox"
-      - "vm-runtime"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-06-16"
 ---
 
 # ColeMurray
 
-101 pushes across 2 repositories on 36 active days in the last 90 days of public GitHub push activity.
+95 pushes across 2 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ColeMurray

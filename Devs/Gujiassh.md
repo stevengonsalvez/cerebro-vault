@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3c90af76cbde0363"
   - "d1946b21c02e5fa5"
-pushes_per_week: [1, 1, 0, 0, 8, 2, 0, 0, 2, 1, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 8, 0, 0, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,23 +24,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 5
-    active_days: 9
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.6667
-  repo_per_active_day: 0.5556
+  push_per_day: 1.7500
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -59,34 +59,48 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 15
+    pushes: 14
     distinct_repos: 5
-    pushes_per_repo: 3.0000
-    active_days: 9
+    pushes_per_repo: 2.8000
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Gujiassh"
-    title: "Gujiassh"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
+  - name: "trustmcp"
+    title: "trustmcp"
+    description: "Static security scanner for JavaScript/TypeScript MCP servers. Detect risky shell, secret, filesystem, and network behavior via CLI or GitHub Actions."
+    language: "TypeScript"
+    topics:
+      - "ai-security"
+      - "cli"
+      - "code-scanning"
+      - "developer-tools"
+      - "github-action"
+      - "mcp"
+      - "mcp-security"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "sarif"
+      - "security"
+      - "security-scanner"
+      - "static-analysis"
+      - "typescript"
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-08-06"
   - name: "sceneweave"
     title: "sceneweave"
     description: "Open-source, self-hosted editor and runtime for data-driven Three.js scenes, digital twins, IoT visualization, and embeddable WebGL viewers."
@@ -104,9 +118,17 @@ repos:
       - "threejs"
       - "typescript"
       - "webgl"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-10-25"
+  - name: "Gujiassh"
+    title: "Gujiassh"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
   - name: "citeframe"
     title: "citeframe"
     description: "Citeframe is a self-hosted multimodal AI knowledge workspace for organizing heterogeneous assets, asking evidence-grounded questions, conducting research, and preserving traceable knowledge."
@@ -141,32 +163,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-28"
-  - name: "trustmcp"
-    title: "trustmcp"
-    description: "Static security scanner for JavaScript/TypeScript MCP servers. Detect risky shell, secret, filesystem, and network behavior via CLI or GitHub Actions."
-    language: "TypeScript"
-    topics:
-      - "ai-security"
-      - "cli"
-      - "code-scanning"
-      - "developer-tools"
-      - "github-action"
-      - "mcp"
-      - "mcp-security"
-      - "mcp-server"
-      - "model-context-protocol"
-      - "sarif"
-      - "security"
-      - "security-scanner"
-      - "static-analysis"
-      - "typescript"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-06"
 ---
 
 # Gujiassh
 
-15 pushes across 5 repositories on 9 active days in the last 90 days of public GitHub push activity.
+14 pushes across 5 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gujiassh

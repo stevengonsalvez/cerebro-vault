@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 2, 4, 14, 3, 7, 8, 4, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 3, 11, 7, 7, 5, 7, 0, 0, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 10
-    active_days: 19
+    pushes: 43
+    distinct_repos: 11
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2105
-  repo_per_active_day: 0.5263
+  push_per_day: 2.1500
+  repo_per_active_day: 0.5500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1000
+  basename_concentration: 0.0909
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,80 +49,34 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
-    distinct_repos: 5
-    pushes_per_repo: 1.6000
-    active_days: 3
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
-    distinct_repos: 10
-    pushes_per_repo: 4.2000
-    active_days: 19
+    pushes: 43
+    distinct_repos: 11
+    pushes_per_repo: 3.9091
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "solidjs_base"
-    title: "solidjs_base"
-    description: "Shared packages for SolidJS applications built with Vite+."
-    language: "TypeScript"
-    topics:
-      - "monorepo"
-      - "oxlint"
-      - "paraglide"
-      - "solidjs"
-      - "ssr"
-      - "vite-plus"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "boilerplate_solidjs"
-    title: "boilerplate_solidjs"
-    description: "Boilerplate SolidJS 2 com TypeScript, Vite+, SSR e funções de servidor. Inclui Nitro, testes com Vitest e Playwright, lint com Oxlint, formatação com Oxfmt e deploy na Vercel."
-    language: "TypeScript"
-    topics:
-      - "boilerplate"
-      - "nitro"
-      - "oxfmt"
-      - "oxlint"
-      - "playwright"
-      - "server-functions"
-      - "solidjs"
-      - "ssr"
-      - "typescript"
-      - "vercel"
-      - "vite"
-      - "vite-plus"
-      - "vitest"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "everton-dgn"
-    title: "everton-dgn"
-    description: "Source of my GitHub profile README"
-    language: null
-    topics:
-      - "github-profile"
-      - "profile-readme"
-      - "readme"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-12"
   - name: "carreira-guiada"
     title: "carreira-guiada"
     description: "AI agent workflow that automates the job search: ATS résumé, job matching, form filling, applications and e-mail follow-ups. Works with Claude Code, Codex CLI or your preferred model."
@@ -148,9 +102,55 @@ repos:
       - "resume"
       - "trabalho"
       - "vagas"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
     last_push: "2026-11-13"
+  - name: "boilerplate_solidjs"
+    title: "boilerplate_solidjs"
+    description: "SolidJS 2 boilerplate with TypeScript, Vite+, SSR and server functions, internationalized in Portuguese, English and Spanish. Includes Nitro, Vitest and Playwright tests, Oxlint, Oxfmt and Vercel deploy."
+    language: "TypeScript"
+    topics:
+      - "boilerplate"
+      - "nitro"
+      - "oxfmt"
+      - "oxlint"
+      - "playwright"
+      - "server-functions"
+      - "solidjs"
+      - "ssr"
+      - "typescript"
+      - "vercel"
+      - "vite"
+      - "vite-plus"
+      - "vitest"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "solidjs_base"
+    title: "solidjs_base"
+    description: "Shared packages for SolidJS applications built with Vite+."
+    language: "TypeScript"
+    topics:
+      - "monorepo"
+      - "oxlint"
+      - "paraglide"
+      - "solidjs"
+      - "ssr"
+      - "vite-plus"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "everton-dgn"
+    title: "everton-dgn"
+    description: "Source of my GitHub profile README"
+    language: null
+    topics:
+      - "github-profile"
+      - "profile-readme"
+      - "readme"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-12"
   - name: "generate-commit-extension"
     title: "generate-commit-extension"
     description: "AI-powered Conventional Commits for VS Code and VSCodium: generates the message from your staged diff via OpenRouter, Kimi, GLM, MiniMax, Claude Code CLI or Codex CLI."
@@ -205,6 +205,6 @@ repos:
 
 # everton-dgn
 
-42 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
+43 pushes across 11 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/everton-dgn

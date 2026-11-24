@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [3, 2, 0, 0, 4, 9, 1, 10, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 0, 0, 3, 8, 2, 10, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 7
+    pushes: 27
+    distinct_repos: 6
     active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.7059
-  repo_per_active_day: 0.4118
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.1429
+  push_per_day: 1.5882
+  repo_per_active_day: 0.3529
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,13 +65,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
-    distinct_repos: 7
-    pushes_per_repo: 4.1429
+    pushes: 27
+    distinct_repos: 6
+    pushes_per_repo: 4.5000
     active_days: 17
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    repos_not_owned: 4
+    not_owned_basenames: 4
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
@@ -94,15 +94,23 @@ repos:
       - "python"
       - "skills"
       - "tui"
-    stars_fact: 3971
+    stars_fact: 3977
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
+  - name: "mcp-miro"
+    title: "mcp-miro"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 112
+    first_seen: null
+    last_push: "2024-12-23"
   - name: "mcp-hfspace"
     title: "mcp-hfspace"
     description: "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode."
     language: "TypeScript"
     topics: []
-    stars_fact: 389
+    stars_fact: 387
     first_seen: null
     last_push: "2025-06-13"
   - name: "miscellany"
@@ -121,14 +129,6 @@ repos:
     stars_fact: 126
     first_seen: null
     last_push: "2025-10-22"
-  - name: "mcp-miro"
-    title: "mcp-miro"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 113
-    first_seen: null
-    last_push: "2024-12-23"
   - name: "fast-agent-docs"
     title: "fast-agent-docs"
     description: "Documentation site for fast-agent"
@@ -141,6 +141,6 @@ repos:
 
 # evalstate
 
-29 pushes across 7 repositories on 17 active days in the last 90 days of public GitHub push activity.
+27 pushes across 6 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/evalstate

@@ -7,38 +7,38 @@ discovered_via_all:
 provenance_repos:
   - "Forward-Future/loop-library"
 admitted: true
-low_n: true
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+low_n: false
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "33a1a1e413da60e1"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 9
+    distinct_repos: 2
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 12
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 12
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.5000
-  repo_per_active_day: 0.5000
+  push_per_day: 2.0000
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -49,86 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 9
+    distinct_repos: 2
+    pushes_per_repo: 4.5000
+    active_days: 4
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "30d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 12
+    distinct_repos: 2
+    pushes_per_repo: 6.0000
+    active_days: 6
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
   "90d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
+    pushes: 12
+    distinct_repos: 2
+    pushes_per_repo: 6.0000
+    active_days: 6
+    repos_not_owned: 2
     not_owned_basenames: 1
-    not_owned_owners: 1
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "crewai_yt"
-    title: "crewai_yt"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 77
-    first_seen: null
-    last_push: "2026-06-19"
-  - name: "edu-crew"
-    title: "edu-crew"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 88
-    first_seen: null
-    last_push: "2024-11-08"
-  - name: "benchmark-creator"
-    title: "benchmark-creator"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 7
-    first_seen: null
-    last_push: "2025-01-22"
-  - name: "no-kings-land"
-    title: "no-kings-land"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-04-25"
-  - name: "excel-clone"
-    title: "excel-clone"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-08-12"
-  - name: "croq-crew"
-    title: "croq-crew"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2024-03-20"
+repos: []
 ---
 
 # mberman84
 
-3 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
+12 pushes across 2 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mberman84

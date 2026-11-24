@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "e2f800cf55605b30"
-pushes_per_week: [0, 1, 1, 3, 10, 11, 1, 13, 2, 1, 0, 0, 1]
+pushes_per_week: [1, 1, 2, 8, 9, 6, 12, 3, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 44
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 2
+    distinct_repos: 2
     pushes_per_repo: 1.0000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 44
@@ -77,6 +77,49 @@ reasons:
   - "activity: 25 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "gomemcache"
+    title: "gomemcache"
+    description: "Go Memcached client library #golang"
+    language: "Go"
+    topics:
+      - "golang"
+      - "memcache"
+      - "memcached-clients"
+    stars_fact: 1886
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "tswipoexp"
+    title: "tswipoexp"
+    description: "an experimental & unmaintained & unofficial portable Windows Tailscale client"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-09-23"
+  - name: "homelab"
+    title: "homelab"
+    description: "Brad's homelab setup"
+    language: null
+    topics: []
+    stars_fact: 2055
+    first_seen: null
+    last_push: "2020-01-30"
+  - name: "forkyou"
+    title: "forkyou"
+    description: "code review tool"
+    language: "Go"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "exp-httpclient"
+    title: "exp-httpclient"
+    description: "experimental new HTTP client API for #golang (WIP)"
+    language: "Go"
+    topics: []
+    stars_fact: 582
+    first_seen: null
+    last_push: "2019-01-01"
   - name: "sotot"
     title: "sotot"
     description: "Stay On Top Of Things: a dashboard of what needs your attention, fed by separate source programs over tailcat"
@@ -84,58 +127,7 @@ repos:
     topics: []
     stars_fact: 13
     first_seen: null
-    last_push: "2026-11-15"
-  - name: "gopickgo"
-    title: "gopickgo"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-03-17"
-  - name: "parentdeath"
-    title: "parentdeath"
-    description: null
-    language: "Go"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-03-15"
-  - name: "tsatic"
-    title: "tsatic"
-    description: "Publish static sites on a Tailscale tailnet from Google Drive folders"
-    language: "Go"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "embiggen-disk"
-    title: "embiggen-disk"
-    description: "embiggden-disk live-resizes a filesystem after first live-resizing any necessary layers below it: an optional LVM LV and PV, and an MBR or GPT partition table"
-    language: "Go"
-    topics:
-      - "btrfs"
-      - "ext4"
-      - "gpt"
-      - "lvm"
-      - "mbr"
-      - "qemu"
-      - "resize"
-      - "resize2fs"
-      - "virtual-machine"
-      - "vm"
-      - "vms"
-    stars_fact: 483
-    first_seen: null
-    last_push: "2026-03-02"
-  - name: "exp-httpclient"
-    title: "exp-httpclient"
-    description: "experimental new HTTP client API for #golang (WIP)"
-    language: "Go"
-    topics: []
-    stars_fact: 583
-    first_seen: null
-    last_push: "2019-01-01"
+    last_push: "2026-11-19"
 ---
 
 # bradfitz

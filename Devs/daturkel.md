@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 0, 5, 0, 3, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 2, 3, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,6 +82,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "llm-tools-rag"
+    title: "llm-tools-rag"
+    description: "Plugin for basic RAG functionality with the LLM tool"
+    language: "Python"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2025-10-22"
   - name: "learning-papers"
     title: "learning-papers"
     description: "Landmark Papers in Machine Learning"
@@ -124,14 +132,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-25"
-  - name: "shelve"
-    title: "shelve"
-    description: "Self-hosted Chrome extension and web app for saving tabs into folders, synced via your own Cloudflare Worker + D1."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-01"
 ---
 
 # daturkel

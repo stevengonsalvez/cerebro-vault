@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 1, 0, 6, 3, 5, 9, 2, 4, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 3, 6, 5, 9, 0, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
-    active_days: 4
+    pushes: 3
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 2
+    pushes: 3
+    distinct_repos: 1
     pushes_per_repo: 3.0000
-    active_days: 4
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,28 +77,34 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "attocode"
-    title: "attocode"
-    description: "A series of lessons, 0 to hero ai coding agent building guide."
+  - name: "sam-clip-diffusion"
+    title: "sam-clip-diffusion"
+    description: "SAM + CLIP + DIFFUSION for image to edit objects in images using plain text"
     language: "Python"
     topics:
-      - "agent"
-      - "agentic-ai"
       - "ai"
-      - "ai-coding"
-      - "coding-agent"
-      - "coding-assistant"
+      - "blip"
+      - "clip"
       - "deep-learning"
-      - "education"
-      - "from-scratch"
-      - "learning-agents"
-      - "llm"
-      - "mcp"
-      - "python"
-      - "tutorial"
-    stars_fact: 17
+      - "diffusion"
+      - "generative-ai"
+      - "huggingface"
+      - "huggingface-transformers"
+      - "image-editing"
+      - "inpainting"
+      - "object-segmentation"
+      - "pytorch"
+      - "sam"
+      - "segment-anything"
+      - "semantic-image-inpainting"
+      - "semantic-segmentation"
+      - "stable-diffusion"
+      - "stable-diffusion-inpainting"
+      - "text-to-image"
+      - "transformer"
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2023-04-14"
   - name: "openflipbook"
     title: "openflipbook"
     description: "Open-source flipbook.page clone — every page is an AI-generated illustration, click anywhere to explore deeper. Next.js + FastAPI + Modal. BYO keys."
@@ -120,9 +126,31 @@ repos:
       - "self-hosted"
       - "typescript"
       - "vision-model"
-    stars_fact: 218
+    stars_fact: 222
     first_seen: null
     last_push: "2026-11-11"
+  - name: "attocode"
+    title: "attocode"
+    description: "A series of lessons, 0 to hero ai coding agent building guide."
+    language: "Python"
+    topics:
+      - "agent"
+      - "agentic-ai"
+      - "ai"
+      - "ai-coding"
+      - "coding-agent"
+      - "coding-assistant"
+      - "deep-learning"
+      - "education"
+      - "from-scratch"
+      - "learning-agents"
+      - "llm"
+      - "mcp"
+      - "python"
+      - "tutorial"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "open_geo_spy"
     title: "open_geo_spy"
     description: "A basic implementation of geospy"
@@ -173,24 +201,6 @@ repos:
     stars_fact: 52
     first_seen: null
     last_push: "2026-03-08"
-  - name: "crucible"
-    title: "crucible"
-    description: "Autonomous ML research on rental GPUs — LLM-driven hypothesis generation and fleet orchestration on RunPod"
-    language: "Python"
-    topics:
-      - "ai-scientist"
-      - "autonomous-research"
-      - "experiment-automation"
-      - "gpu"
-      - "hyperparameter-optimization"
-      - "llm"
-      - "machine-learning"
-      - "mlops"
-      - "python"
-      - "runpod"
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-09-30"
 ---
 
 # eren23

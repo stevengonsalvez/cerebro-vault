@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "2d6ba8fc0269fd52"
-pushes_per_week: [1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.5000
+  repo_per_active_day: 0.6000
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
   shapes: []
@@ -65,70 +65,22 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 6
+    pushes: 5
     distinct_repos: 3
-    pushes_per_repo: 2.0000
-    active_days: 6
+    pushes_per_repo: 1.6667
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 6 active days in 90d — pass"
+  - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "kitchen-london"
-    title: "kitchen-london"
-    description: "IKEA FAKTUM replacement fronts, London — elevations and supplier price comparison"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "london-tables-2026"
-    title: "london-tables-2026"
-    description: "47 round dining tables with photos, live prices and direct links, grouped by how much floor the circle actually eats"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "okinawa-2026"
-    title: "okinawa-2026"
-    description: "Five Okinawa stays for 28 Sep - 10 Oct 2026, mapped and ranked against the island's best beaches, food areas and top-ten sights"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-29"
-  - name: "jQuery.Buttonify"
-    title: "jQuery.Buttonify"
-    description: "Buttonify turns hyperlinks into styled buttons"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2010-08-24"
-  - name: "docker-training"
-    title: "docker-training"
-    description: null
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2018-06-18"
-  - name: "smnbss.github.io"
-    title: "smnbss.github.io"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2017-04-29"
+repos: []
 ---
 
 # smnbss
 
-6 pushes across 3 repositories on 6 active days in the last 90 days of public GitHub push activity.
+5 pushes across 3 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smnbss

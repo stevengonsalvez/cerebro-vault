@@ -7,12 +7,13 @@ discovered_via_all:
 provenance_repos:
   - "anthropics/claude-code"
   - "anthropics/claude-code-action"
+  - "anthropics/claude-cookbooks"
   - "anthropics/claude-plugins-official"
   - "anthropics/knowledge-work-plugins"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "02eab667df448997"
@@ -34,6 +35,7 @@ provenance:
   - "199af8aea5b61129"
   - "199f1aeef5f0463c"
   - "1f4559e41bf13b35"
+  - "1f49d0119cedbc84"
   - "20cf339db543fe6b"
   - "2180229dc69461fd"
   - "228dddec5b6b8ab4"
@@ -75,6 +77,7 @@ provenance:
   - "97c5df49eed3f0cf"
   - "9951decf1ff354d0"
   - "a3ec5261dfb4f2cd"
+  - "a9972b90c90a6092"
   - "ace31f3b0bb1b6f0"
   - "b5445ed720b1d92d"
   - "b56da077d21ad4f4"
@@ -97,13 +100,15 @@ provenance:
   - "e58a3ce1f17ad846"
   - "e75aaf1e12900808"
   - "ed610e0dc54be0b1"
+  - "f3d370a5121afbf2"
   - "f672838de330e86f"
   - "f9a1870648a6375a"
   - "fbfedaa618aab83d"
   - "fd1cb9e783625459"
+  - "fdc4cffb6fa79465"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 3, 6, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 1, 2, 5, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -113,12 +118,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 10
     distinct_repos: 1
@@ -148,13 +153,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 3
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 10
     distinct_repos: 1
@@ -164,7 +169,7 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
-  - "provenance: 89 vault signal(s) — pass"
+  - "provenance: 93 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

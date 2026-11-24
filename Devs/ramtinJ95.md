@@ -8,37 +8,37 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [3, 0, 5, 0, 1, 0, 0, 7, 2, 23, 2, 1, 3]
+pushes_per_week: [1, 5, 0, 1, 0, 0, 4, 4, 24, 0, 2, 4, 0]
 windows:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    active_days: 9
+    pushes: 19
+    distinct_repos: 3
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 8
-    active_days: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2381
-  repo_per_active_day: 0.3810
+  push_per_day: 2.3684
+  repo_per_active_day: 0.4211
   not_owned_ratio: 0.0000
   basename_concentration: 0.1250
   shapes: []
@@ -49,91 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
-    distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 30
-    distinct_repos: 4
-    pushes_per_repo: 7.5000
-    active_days: 9
+    pushes: 19
+    distinct_repos: 3
+    pushes_per_repo: 6.3333
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 47
+    pushes: 45
     distinct_repos: 8
-    pushes_per_repo: 5.8750
-    active_days: 21
+    pushes_per_repo: 5.6250
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "opencode-tokenscope"
-    title: "opencode-tokenscope"
-    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
-    language: "TypeScript"
-    topics:
-      - "ai-tools"
-      - "cost-tracking"
-      - "developer-tools"
-      - "opencode"
-      - "opencode-plugins"
-    stars_fact: 284
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "survive-n-conquest"
-    title: "survive-n-conquest"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "herdr-stuff"
-    title: "herdr-stuff"
-    description: "Mods for the Herdr app"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "first-game"
-    title: "first-game"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "nexus"
-    title: "nexus"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "Manually managed dotfiles"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-12"
+repos: []
 ---
 
 # ramtinJ95
 
-47 pushes across 8 repositories on 21 active days in the last 90 days of public GitHub push activity.
+45 pushes across 8 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ramtinJ95

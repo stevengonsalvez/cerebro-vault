@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "fda2072231b00dde"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "local-llm"
-    title: "local-llm"
-    description: "Everything I know about running LLMs locally"
-    language: "Shell"
-    topics: []
-    stars_fact: 1891
-    first_seen: "2026-07-04T06:00:03.825011+00:00"
-    last_push: "2026-07-10"
   - name: "desk"
     title: "desk"
     description: "A lightweight workspace manager for the shell"
@@ -99,6 +91,14 @@ repos:
     stars_fact: 2570
     first_seen: null
     last_push: "2022-07-07"
+  - name: "local-llm"
+    title: "local-llm"
+    description: "Everything I know about running LLMs locally"
+    language: "Shell"
+    topics: []
+    stars_fact: 1893
+    first_seen: "2026-07-04T06:00:03.825011+00:00"
+    last_push: "2026-07-10"
   - name: "delving-bitcoin-archive"
     title: "delving-bitcoin-archive"
     description: "A public archive of delvingbitcoin.org"
@@ -106,7 +106,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "tinychain"
     title: "tinychain"
     description: "A pocket-sized implementation of Bitcoin"

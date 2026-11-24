@@ -8,28 +8,28 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [5, 0, 6, 4, 14, 6, 19, 20, 12, 0, 1, 0, 0]
+pushes_per_week: [2, 5, 3, 14, 8, 16, 22, 9, 4, 0, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 85
     distinct_repos: 20
     active_days: 34
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 2.5588
+  push_per_day: 2.5000
   repo_per_active_day: 0.5882
   not_owned_ratio: 0.4500
   basename_concentration: 0.1000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 9
-    distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 87
+    pushes: 85
     distinct_repos: 20
-    pushes_per_repo: 4.3500
+    pushes_per_repo: 4.2500
     active_days: 34
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -76,60 +76,11 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "script.trakt"
-    title: "script.trakt"
-    description: "Trakt.tv movie and TV show scrobbler for Kodi"
-    language: "Python"
-    topics: []
-    stars_fact: 364
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "flathub-activitypub"
-    title: "flathub-activitypub"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
-  - name: "flathub-health"
-    title: "flathub-health"
-    description: "https://razzeee.github.io/flathub-health/"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "flatpak-blackbox-tests"
-    title: "flatpak-blackbox-tests"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "flatpak-sbom"
-    title: "flatpak-sbom"
-    description: null
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "flatpak-smoke"
-    title: "flatpak-smoke"
-    description: null
-    language: "Rust"
-    topics:
-      - "flatpak"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
+repos: []
 ---
 
 # razzeee
 
-87 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
+85 pushes across 20 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/razzeee

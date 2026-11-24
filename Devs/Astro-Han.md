@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [31, 6, 4, 29, 49, 21, 2, 6, 1, 0, 0, 0, 0]
+pushes_per_week: [8, 3, 14, 41, 45, 2, 4, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 120
     distinct_repos: 6
-    active_days: 36
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.1389
-  repo_per_active_day: 0.1667
+  push_per_day: 3.7500
+  repo_per_active_day: 0.1875
   not_owned_ratio: 0.3333
   basename_concentration: 0.3333
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 149
+    pushes: 120
     distinct_repos: 6
-    pushes_per_repo: 24.8333
-    active_days: 36
+    pushes_per_repo: 20.0000
+    active_days: 32
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "karpathy-llm-wiki"
@@ -95,7 +95,7 @@ repos:
       - "personal-knowledge-base"
       - "productivity"
       - "rag-alternative"
-    stars_fact: 2760
+    stars_fact: 2799
     first_seen: null
     last_push: "2026-07-23"
   - name: "claude-pace"
@@ -118,7 +118,15 @@ repos:
       - "terminal"
       - "usage-monitor"
       - "usage-tracking"
-    stars_fact: 245
+    stars_fact: 247
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "skills"
+    title: "skills"
+    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
+    language: "Python"
+    topics: []
+    stars_fact: 13
     first_seen: null
     last_push: "2026-11-10"
   - name: "pawwork"
@@ -146,17 +154,9 @@ repos:
       - "opencode"
       - "productivity"
       - "windows"
-    stars_fact: 225
+    stars_fact: 228
     first_seen: null
     last_push: "2026-10-31"
-  - name: "skills"
-    title: "skills"
-    description: "Personal agent skills for careful reasoning, evidence-driven coding, and clean session closeout."
-    language: "Python"
-    topics: []
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "jev-harness"
     title: "jev-harness"
     description: "A coding agent that filters every tool result through Jev before the model sees it, with an A/B harness measuring pass@1 and cost against the unfiltered control"
@@ -177,11 +177,11 @@ repos:
       - "quantitative-finance"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-10-31"
+    last_push: "2026-11-20"
 ---
 
 # Astro-Han
 
-149 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
+120 pushes across 6 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Astro-Han

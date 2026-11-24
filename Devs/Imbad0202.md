@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "f458b196520daad6"
-pushes_per_week: [0, 0, 0, 1, 4, 3, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 7, 1, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,9 +90,9 @@ repos:
       - "literature-review"
       - "peer-review"
       - "prompt-engineering"
-    stars_fact: 57206
+    stars_fact: 58391
     first_seen: "2026-07-07T06:00:04.676583+00:00"
-    last_push: "2026-11-15"
+    last_push: "2026-11-24"
   - name: "academic-research-skills-codex"
     title: "academic-research-skills-codex"
     description: "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows"
@@ -108,7 +108,7 @@ repos:
       - "peer-review"
       - "prompt-engineering"
       - "research-assistant"
-    stars_fact: 14660
+    stars_fact: 15019
     first_seen: null
     last_push: "2026-11-06"
   - name: "experiment-agent"
@@ -116,7 +116,7 @@ repos:
     description: "Claude Code skill for experiment execution, monitoring, statistical interpretation, and reproducibility verification"
     language: "Python"
     topics: []
-    stars_fact: 219
+    stars_fact: 221
     first_seen: null
     last_push: "2026-11-04"
   - name: "tw-formal-writing"
@@ -134,15 +134,7 @@ repos:
       - "official-document"
       - "prompt-engineering"
       - "taiwan"
-    stars_fact: 201
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "tw-gov-overseas-trip-kit"
-    title: "tw-gov-overseas-trip-kit"
-    description: "台灣公務機關出國報告文件產生工具，對齊行政院出國報告要點附件一/二"
-    language: "Python"
-    topics: []
-    stars_fact: 2
+    stars_fact: 205
     first_seen: null
     last_push: "2026-09-24"
   - name: "critical-thinking-for-humans"
@@ -159,9 +151,17 @@ repos:
       - "logical-fallacies"
       - "reasoning"
       - "scam-literacy"
-    stars_fact: 43
+    stars_fact: 45
     first_seen: null
     last_push: "2026-10-13"
+  - name: "tw-gov-overseas-trip-kit"
+    title: "tw-gov-overseas-trip-kit"
+    description: "台灣公務機關出國報告文件產生工具，對齊行政院出國報告要點附件一/二"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-24"
 ---
 
 # Imbad0202

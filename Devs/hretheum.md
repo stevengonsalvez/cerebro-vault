@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [0, 0, 2, 0, 0, 14, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 0, 0, 9, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,6 +78,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "kinari-choir-characters"
+    title: "kinari-choir-characters"
+    description: "Prym, Basso and Echo: the three wooden puppets of Choir Rehearsals (kinari.church). Rigged glTF characters, CC BY 4.0."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "layercard"
+    title: "layercard"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "animation-prompt"
     title: "animation-prompt"
     description: "Skills for writing flagship animation prompts (2D motion and Three.js 3D) for whole-job models. CC0."
@@ -93,7 +109,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-21"
   - name: "exocortex-public"
     title: "exocortex-public"
     description: "Exocortex engine and lab: public record of AI R&D (PL/EN). Private until the publishing gate is proven."
@@ -110,26 +126,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-07"
-  - name: "ds-demo-tokens"
-    title: "ds-demo-tokens"
-    description: "Przykładowy kanon DTCG: jeden rdzeń, trzy marki, 13 celowo zasianych rozjazdów. Sklonuj i uruchom jedną komendę, żeby zobaczyć raport na własnym terminalu."
-    language: "JavaScript"
-    topics:
-      - "design-systems"
-      - "design-tokens"
-      - "dtcg"
-      - "multi-brand"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-17"
-  - name: "detektr"
-    title: "detektr"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-15"
 ---
 
 # hretheum

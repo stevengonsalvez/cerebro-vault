@@ -8,11 +8,11 @@ provenance_repos:
   - "torvalds/linux"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "8a1948cc7f7c09c4"
-pushes_per_week: [1, 0, 0, 0, 3, 4, 4, 3, 2, 1, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 3, 5, 3, 0, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    active_days: 15
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.2000
-  repo_per_active_day: 0.1333
+  push_per_day: 1.2143
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.5000
   shapes: []
@@ -57,78 +57,30 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 18
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 9.0000
-    active_days: 15
+    pushes_per_repo: 8.5000
+    active_days: 14
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "linux"
-    title: "linux"
-    description: "Linux kernel source tree"
-    language: "C"
-    topics: []
-    stars_fact: 256230
-    first_seen: "2026-08-23T06:00:01.522669+00:00"
-    last_push: "2026-11-18"
-  - name: "AudioNoise"
-    title: "AudioNoise"
-    description: "Random digital audio effects"
-    language: "C"
-    topics: []
-    stars_fact: 4529
-    first_seen: null
-    last_push: "2026-05-08"
-  - name: "GuitarPedal"
-    title: "GuitarPedal"
-    description: "Linus learns analog circuits"
-    language: "C"
-    topics: []
-    stars_fact: 2506
-    first_seen: null
-    last_push: "2026-11-06"
-  - name: "HunspellColorize"
-    title: "HunspellColorize"
-    description: "Wrapper around 'less' to colorize spelling mistakes using Hunspell"
-    language: "C"
-    topics: []
-    stars_fact: 401
-    first_seen: null
-    last_push: "2026-01-19"
-  - name: "uemacs"
-    title: "uemacs"
-    description: "Random version of microemacs with my private modificatons"
-    language: "C"
-    topics: []
-    stars_fact: 2201
-    first_seen: null
-    last_push: "2026-08-06"
-  - name: "test-tlb"
-    title: "test-tlb"
-    description: "Stupid memory latency and TLB tester"
-    language: "C"
-    topics: []
-    stars_fact: 1086
-    first_seen: null
-    last_push: "2024-08-19"
+repos: []
 ---
 
 # torvalds
 
-18 pushes across 2 repositories on 15 active days in the last 90 days of public GitHub push activity.
+17 pushes across 2 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/torvalds

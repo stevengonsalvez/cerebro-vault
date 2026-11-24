@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 1, 6, 0, 0, 0, 1, 3, 3, 0, 0, 0]
+pushes_per_week: [0, 1, 5, 1, 0, 0, 1, 0, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,71 +76,7 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "yunyancuo"
-    title: "yunyancuo"
-    description: "美化我的gg空间"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "astrbot_plugin_zhiren_leaderboard"
-    title: "astrbot_plugin_zhiren_leaderboard"
-    description: "智人排行榜 — AstrBot 群聊加/扣分记分插件，周榜自动播报，内置 Web 排行榜界面"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "campus-tls-fix"
-    title: "campus-tls-fix"
-    description: "校园网 TLS/SNI 阻断本地修复工具：一键修复网易 UU 远程 (GameViewer) 连接超时与 QQ/微信聊天图片加载缓慢（腾讯 HTTPDNS 阻断），零依赖原生 .NET 实现，支持路由器/手机局域网共享与内网 DNS 动态继承。"
-    language: "PowerShell"
-    topics:
-      - "campus-network"
-      - "gameviewer"
-      - "httpdns"
-      - "qq"
-      - "sni"
-      - "tls-fragmentation"
-      - "uu-remote"
-      - "wechat"
-      - "windows"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "notes-for-deep-learniung"
-    title: "notes-for-deep-learniung"
-    description: "notes-for-deep-learniung"
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "multi-agent-study-notes"
-    title: "multi-agent-study-notes"
-    description: "多智能体协作（MAS）前沿论文、工业界工程协议（MCP/A2A）与听力学多模态多Agent系统（A0-A9）架构设计学习笔记"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-27"
-  - name: "velorag"
-    title: "velorag"
-    description: "🚀 Production-grade RAG framework — hybrid search + knowledge graph + agent canvas + multi-tenant KB. 开源名舰级 RAG 引擎."
-    language: "Python"
-    topics:
-      - "agent"
-      - "ai"
-      - "knowledge-graph"
-      - "llm"
-      - "python"
-      - "rag"
-      - "retrieval-augmented-generation"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
+repos: []
 ---
 
 # yunyancuo

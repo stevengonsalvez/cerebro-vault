@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "541318303a272608"
   - "d1946b21c02e5fa5"
-pushes_per_week: [0, 0, 1, 1, 8, 1, 0, 3, 1, 3, 0, 2, 0]
+pushes_per_week: [0, 1, 0, 8, 2, 0, 3, 0, 4, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -24,9 +24,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -59,10 +59,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
-    distinct_repos: 5
-    pushes_per_repo: 1.2000
-    active_days: 3
+    pushes: 5
+    distinct_repos: 4
+    pushes_per_repo: 1.2500
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -79,6 +79,25 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "goofish-cli"
+    title: "goofish-cli"
+    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
+    language: "Python"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "claude"
+      - "cli"
+      - "goofish"
+      - "mcp"
+      - "mcp-server"
+      - "python"
+      - "typer"
+      - "websocket"
+      - "xianyu"
+    stars_fact: 509
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "ai-engineering-from-scratch-zh"
     title: "ai-engineering-from-scratch-zh"
     description: "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 542 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南"
@@ -104,44 +123,34 @@ repos:
       - "reinforcement-learning"
       - "transformers"
       - "tutorial"
-    stars_fact: 1344
+    stars_fact: 1365
     first_seen: null
-    last_push: "2026-11-15"
-  - name: "goofish-cli"
-    title: "goofish-cli"
-    description: "闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents"
-    language: "Python"
+    last_push: "2026-11-23"
+  - name: "open-tag"
+    title: "open-tag"
+    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
+    language: "TypeScript"
     topics:
-      - "ai-agent"
-      - "automation"
-      - "claude"
-      - "cli"
-      - "goofish"
-      - "mcp"
-      - "mcp-server"
-      - "python"
-      - "typer"
+      - "agentic-workflows"
+      - "agents"
+      - "ai-agents"
+      - "chatops"
+      - "claude-code"
+      - "claude-tag"
+      - "codex"
+      - "collaboration"
+      - "llm"
+      - "local-first"
+      - "loop-engineering"
+      - "multi-agent"
+      - "openai-codex"
+      - "self-hosted"
+      - "slack-alternative"
+      - "typescript"
       - "websocket"
-      - "xianyu"
-    stars_fact: 492
+    stars_fact: 220
     first_seen: null
-    last_push: "2026-11-14"
-  - name: "self-hosted-vpn"
-    title: "self-hosted-vpn"
-    description: "Domainless single-tenant VPS proxy skill (VLESS Reality + Hysteria2, Let's Encrypt IP cert subscriptions, and slot-decoupled desktop/mobile routing)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "weixin_search_mcp"
-    title: "weixin_search_mcp"
-    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
-    language: "Python"
-    topics: []
-    stars_fact: 206
-    first_seen: null
-    last_push: "2026-08-17"
+    last_push: "2026-08-22"
   - name: "Loomic"
     title: "Loomic"
     description: "Open-source AI canvas design agent — alternative to Lovart / CapCut Video Studio / Canva AI. Chat-driven image & video generation on an infinite canvas."
@@ -167,34 +176,30 @@ repos:
       - "text-to-video"
       - "typescript"
       - "video-generation"
-    stars_fact: 319
+    stars_fact: 325
     first_seen: null
     last_push: "2026-09-30"
-  - name: "open-tag"
-    title: "open-tag"
-    description: "Open-source, self-hostable alternative to Claude Tag — a Slack-style workspace where your team and its AI agents (Claude Code, Codex, GitHub Copilot, and more) work as teammates in channels, threads, DMs, and shared tasks. Your data stays on your machines."
-    language: "TypeScript"
+  - name: "claude-style-illustration"
+    title: "claude-style-illustration"
+    description: "Claude-inspired editorial illustrations: one idea, a few bold marks. An Agent Skill with seven original examples."
+    language: null
     topics:
-      - "agentic-workflows"
-      - "agents"
-      - "ai-agents"
-      - "chatops"
-      - "claude-code"
-      - "claude-tag"
+      - "agent-skills"
+      - "claude"
       - "codex"
-      - "collaboration"
-      - "llm"
-      - "local-first"
-      - "loop-engineering"
-      - "multi-agent"
-      - "openai-codex"
-      - "self-hosted"
-      - "slack-alternative"
-      - "typescript"
-      - "websocket"
-    stars_fact: 216
+      - "illustration"
+      - "image-generation"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-08-22"
+    last_push: "2026-09-07"
+  - name: "weixin_search_mcp"
+    title: "weixin_search_mcp"
+    description: "微信公众号搜索，及文章内容获取，大模型mcp服务"
+    language: "Python"
+    topics: []
+    stars_fact: 207
+    first_seen: null
+    last_push: "2026-08-17"
 ---
 
 # fancyboi999

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 2, 1, 4, 14, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 4, 11, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "nailong-bot"
+    title: "nailong-bot"
+    description: "Atelier Agent · 个人研究工作台"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "nailong-gallery"
     title: "nailong-gallery"
     description: null
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-23"
   - name: "nailong-bot-experiment"
     title: "nailong-bot-experiment"
     description: "Personal Agent"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-10-02"
-  - name: "jarvis-agent"
-    title: "jarvis-agent"
-    description: "My Jarvis"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-25"
 ---
 
 # CxHsin

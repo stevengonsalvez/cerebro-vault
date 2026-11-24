@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "624efc8fafcad404"
-pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -101,17 +101,9 @@ repos:
       - "typescript"
       - "web-scraping"
       - "website-clone"
-    stars_fact: 39327
+    stars_fact: 39719
     first_seen: "2026-06-23T06:00:02.599193+00:00"
     last_push: "2026-11-10"
-  - name: "jobs-for-ai-agents"
-    title: "jobs-for-ai-agents"
-    description: "Your AI job-search wingman — find roles, polish your resume, research companies, and tailor applications, all from Claude Code."
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2026-04-30"
   - name: "youtube-for-ai-agents"
     title: "youtube-for-ai-agents"
     description: "Your AI agent can now search Youtube, watch videos, create highlight reels, and more"
@@ -124,17 +116,9 @@ repos:
       - "mcp"
       - "plugin"
       - "youtube"
-    stars_fact: 67
+    stars_fact: 70
     first_seen: null
     last_push: "2026-04-30"
-  - name: "agent-recall"
-    title: "agent-recall"
-    description: "Let your AI agents find and read any past conversation from Claude Code, Codex, OpenCode and Cursor."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-11-13"
   - name: "ai-chrome-extension-template"
     title: "ai-chrome-extension-template"
     description: "Make any Chrome extension with AI agents — autonomous dev loop: plan, build, test in a real browser, iterate, package, release."
@@ -147,23 +131,33 @@ repos:
       - "mv3"
       - "skills"
       - "template"
-    stars_fact: 14
+    stars_fact: 15
     first_seen: null
     last_push: "2026-08-15"
-  - name: "discord-for-ai-agents"
-    title: "discord-for-ai-agents"
-    description: "Connect your AI agent to Discord - create servers, moderate, and more"
-    language: "TypeScript"
-    topics:
-      - "agent"
-      - "ai"
-      - "claude-code"
-      - "discord"
-      - "mcp"
-      - "plugin"
-    stars_fact: 12
+  - name: "Powerful-Websites-You-Should-Know-About"
+    title: "Powerful-Websites-You-Should-Know-About"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 33
     first_seen: null
-    last_push: "2026-05-07"
+    last_push: "2026-04-30"
+  - name: "jobs-for-ai-agents"
+    title: "jobs-for-ai-agents"
+    description: "Your AI job-search wingman — find roles, polish your resume, research companies, and tailor applications, all from Claude Code."
+    language: "Python"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-04-30"
+  - name: "agent-recall"
+    title: "agent-recall"
+    description: "Let your AI agents find and read any past conversation from Claude Code, Codex, OpenCode and Cursor."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-23"
 ---
 
 # JCodesMore

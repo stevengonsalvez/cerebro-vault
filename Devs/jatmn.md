@@ -9,38 +9,38 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3876228ad226052b"
-pushes_per_week: [11, 1, 0, 1, 5, 6, 8, 30, 9, 15, 1, 1, 1]
+pushes_per_week: [1, 0, 1, 5, 6, 3, 23, 17, 19, 0, 1, 2, 16]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 16
+    distinct_repos: 5
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 11
-    active_days: 9
-    repos_not_owned: 7
+    active_days: 7
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 5
   "90d":
-    pushes: 89
-    distinct_repos: 23
-    active_days: 32
+    pushes: 94
+    distinct_repos: 25
+    active_days: 29
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 2.7812
-  repo_per_active_day: 0.7188
-  not_owned_ratio: 0.3043
-  basename_concentration: 0.3478
+  push_per_day: 3.2414
+  repo_per_active_day: 0.8621
+  not_owned_ratio: 0.2800
+  basename_concentration: 0.3200
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -49,34 +49,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 16
+    distinct_repos: 5
+    pushes_per_repo: 3.2000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 24
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.1818
-    active_days: 9
-    repos_not_owned: 7
+    pushes_per_repo: 2.6364
+    active_days: 7
+    repos_not_owned: 5
     not_owned_basenames: 1
-    not_owned_owners: 7
+    not_owned_owners: 5
   "90d":
-    pushes: 89
-    distinct_repos: 23
-    pushes_per_repo: 3.8696
-    active_days: 32
+    pushes: 94
+    distinct_repos: 25
+    pushes_per_repo: 3.7600
+    active_days: 29
     repos_not_owned: 7
     not_owned_basenames: 1
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "JiStats"
+    title: "JiStats"
+    description: "Windows desktop app for tracking AI usage and quotas"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "jatmn"
     title: "jatmn"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "jModGuard"
     title: "jModGuard"
     description: null
@@ -97,7 +105,7 @@ repos:
       - "discord-moderation-bot"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-23"
   - name: "jatz-distribution"
     title: "jatz-distribution"
     description: "Jat'z Distribution: automated freight trucks and depots for Factorio (in development)"
@@ -108,7 +116,7 @@ repos:
       - "factorio-modding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-22"
   - name: "Codex-warp"
     title: "Codex-warp"
     description: "Tiny Rust proxy that lets Codex CLI talk to OpenAI-compatible providers through a local Responses API surface."
@@ -118,7 +126,7 @@ repos:
       - "codex-cli"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-23"
   - name: "basic-robots-factorio"
     title: "basic-robots-factorio"
     description: "Basic robots for early game"
@@ -129,22 +137,11 @@ repos:
       - "factorio-modding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-08"
-  - name: "Deneb"
-    title: "Deneb"
-    description: "Deneb is a community firmware-mod project for the UltiMaker 2+ Connect. The goal is to make the printer more local-first, more responsive, and less resource-taxed while preserving safety-critical behavior and a path back to official UltiMaker firmware."
-    language: "C"
-    topics:
-      - "3dprinter"
-      - "firmware"
-      - "ultimaker"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-22"
 ---
 
 # jatmn
 
-89 pushes across 23 repositories on 32 active days in the last 90 days of public GitHub push activity.
+94 pushes across 25 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jatmn

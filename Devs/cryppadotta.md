@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [10, 120, 17, 30, 37, 74, 77, 129, 60, 16, 9, 3, 6]
+pushes_per_week: [122, 11, 31, 28, 66, 82, 135, 43, 44, 0, 11, 6, 2]
 windows:
   "7d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    active_days: 4
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 76
+    pushes: 24
     distinct_repos: 1
-    active_days: 15
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 588
+    pushes: 581
     distinct_repos: 4
-    active_days: 63
+    active_days: 59
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.3333
-  repo_per_active_day: 0.0635
+  push_per_day: 9.8475
+  repo_per_active_day: 0.0678
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 2
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 4
+    pushes_per_repo: 2.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 76
+    pushes: 24
     distinct_repos: 1
-    pushes_per_repo: 76.0000
-    active_days: 15
+    pushes_per_repo: 24.0000
+    active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 588
+    pushes: 581
     distinct_repos: 4
-    pushes_per_repo: 147.0000
-    active_days: 63
+    pushes_per_repo: 145.2500
+    active_days: 59
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scryfall-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-588 pushes across 4 repositories on 63 active days in the last 90 days of public GitHub push activity.
+581 pushes across 4 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

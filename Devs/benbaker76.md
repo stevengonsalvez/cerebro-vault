@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 1, 4, 1, 1, 0, 1, 3, 1, 1, 0]
+pushes_per_week: [0, 0, 0, 2, 4, 1, 0, 0, 4, 0, 2, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 6
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 6
+    pushes_per_repo: 1.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,22 +77,30 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Hackintool"
-    title: "Hackintool"
-    description: "The Swiss army knife of vanilla Hackintoshing"
-    language: "Swift"
-    topics: []
-    stars_fact: 3553
-    first_seen: null
-    last_push: "2026-11-14"
   - name: "OpenSWOS"
     title: "OpenSWOS"
     description: "An open-source C port of Sensible World of Soccer (Amiga), for Windows, macOS, Linux, Amiga and the web, with online multiplayer."
     language: "C"
     topics: []
-    stars_fact: 82
+    stars_fact: 93
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "Hackintool"
+    title: "Hackintool"
+    description: "The Swiss army knife of vanilla Hackintoshing"
+    language: "Swift"
+    topics: []
+    stars_fact: 3560
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "Pigtail"
+    title: "Pigtail"
+    description: "Anti-stalker and surveillance detection software"
+    language: "C++"
+    topics: []
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-05-14"
   - name: "EFI-Agent"
     title: "EFI-Agent"
     description: "Simple, low resource, efficient and no frills tool to mount EFI partitions."
@@ -117,14 +125,6 @@ repos:
     stars_fact: 55
     first_seen: null
     last_push: "2026-10-21"
-  - name: "swosgfx"
-    title: "swosgfx"
-    description: "C++ port of SwosGfx"
-    language: "C"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-09"
 ---
 
 # benbaker76

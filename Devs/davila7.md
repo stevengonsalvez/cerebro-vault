@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "25bff0b4a0ece6bc"
-pushes_per_week: [2, 1, 1, 2, 6, 7, 6, 7, 6, 3, 0, 0, 0]
+pushes_per_week: [1, 1, 1, 6, 6, 8, 6, 4, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    active_days: 4
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 4
-    active_days: 30
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.3667
-  repo_per_active_day: 0.1333
+  push_per_day: 1.3929
+  repo_per_active_day: 0.1429
   not_owned_ratio: 0.0000
   basename_concentration: 0.2500
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 6
+    pushes: 3
     distinct_repos: 2
-    pushes_per_repo: 3.0000
-    active_days: 4
+    pushes_per_repo: 1.5000
+    active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 41
+    pushes: 39
     distinct_repos: 4
-    pushes_per_repo: 10.2500
-    active_days: 30
+    pushes_per_repo: 9.7500
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "claude-code-templates"
@@ -92,63 +92,61 @@ repos:
       - "cli"
       - "mcp"
       - "registry"
-    stars_fact: 33888
+    stars_fact: 34170
     first_seen: "2026-07-11T06:00:03.582945+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
+  - name: "jev-explained"
+    title: "jev-explained"
+    description: "Jev Explained"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 40
+    first_seen: null
+    last_push: "2026-09-20"
   - name: "chaos-monkey-coding-agents"
     title: "chaos-monkey-coding-agents"
     description: "Chaos Monkey Benchmark for Coding Agents"
     language: "Python"
     topics:
+      - "ai-agents"
       - "benchmark"
+      - "claude-code"
       - "coding-agent"
-    stars_fact: 1
+      - "fault-injection"
+      - "llm-evaluation"
+      - "mcp"
+      - "robustness"
+    stars_fact: 6
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-23"
+  - name: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
+    title: "Ingenier-a-de-Soluciones-con-Inteligencia-Artificial"
+    description: "Ingeniería de Soluciones con Inteligencia Artificial"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 69
+    first_seen: null
+    last_push: "2025-09-11"
   - name: "claude-managed-agents-cookbook"
     title: "claude-managed-agents-cookbook"
     description: "Claude Managed Agents Cookbook"
     language: "Jupyter Notebook"
     topics: []
-    stars_fact: 37
+    stars_fact: 38
     first_seen: null
     last_push: "2026-10-11"
-  - name: "agent-code-academy"
-    title: "agent-code-academy"
-    description: "An open catalog of technical learning paths for AI coding agents."
-    language: "TypeScript"
-    topics:
-      - "ai-coding"
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "cursor"
-      - "github-copilot"
-      - "learning-resources"
-      - "open-source"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "claude_subagents"
-    title: "claude_subagents"
-    description: "Claude SubAgents"
-    language: "CSS"
+  - name: "drex-cookbook"
+    title: "drex-cookbook"
+    description: "Drex Cookbook"
+    language: "Jupyter Notebook"
     topics: []
-    stars_fact: 117
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-06-21"
-  - name: "claude-code-en-espanol"
-    title: "claude-code-en-espanol"
-    description: "Claude Code en Español Github Repos"
-    language: null
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-01"
 ---
 
 # davila7
 
-41 pushes across 4 repositories on 30 active days in the last 90 days of public GitHub push activity.
+39 pushes across 4 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/davila7

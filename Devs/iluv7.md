@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 0, 1, 4, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 0, 0, 4, 2, 0, 0, 0, 0, 0, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "DiegoC-Harness"
+    title: "DiegoC-Harness"
+    description: "An agent development pipeline driven entirely by prompts, involving roles such as PM, RD, QA, etc."
+    language: "Shell"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-11-14"
   - name: "iluv7"
     title: "iluv7"
     description: null
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "learn-k8s"
     title: "learn-k8s"
     description: "Learn Kubernetes Architecture with a Minimal Go Simulation: Java Service Deployment, Failure Recovery, Configuration, Storage, and HPA"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-22"
   - name: "DiegoC-Agent"
     title: "DiegoC-Agent"
     description: "A CLI AI agent with MCP tools support, featuring interactive mode and customizable skills"
@@ -101,14 +109,6 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-11-16"
-  - name: "DiegoC-Harness"
-    title: "DiegoC-Harness"
-    description: "纯提示词驱动的Agent Team Harness"
-    language: "Shell"
-    topics: []
-    stars_fact: 32
-    first_seen: null
-    last_push: "2026-11-14"
   - name: "agentscope-eval"
     title: "agentscope-eval"
     description: "Evaluation layer for AgentScope: execution status, tool correctness, and answer quality, powered by DeepEval."

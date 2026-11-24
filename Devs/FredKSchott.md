@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "b1a4604cc570de42"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,9 +82,20 @@ repos:
     description: "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️"
     language: "JavaScript"
     topics: []
-    stars_fact: 19262
+    stars_fact: 19260
     first_seen: null
     last_push: "2023-03-05"
+  - name: "esm-hmr"
+    title: "esm-hmr"
+    description: "a Hot Module Replacement (HMR) API for your ESM-based dev server."
+    language: "TypeScript"
+    topics:
+      - "esm-hmr"
+      - "hmr-server-engine"
+      - "snowpack"
+    stars_fact: 433
+    first_seen: null
+    last_push: "2024-06-17"
   - name: "the-node-way"
     title: "the-node-way"
     description: "Design patterns and best practices for building scaleable, maintainable and beautiful Node.js applications. Now with website! -->"
@@ -117,17 +128,6 @@ repos:
     stars_fact: 647
     first_seen: null
     last_push: "2020-09-15"
-  - name: "esm-hmr"
-    title: "esm-hmr"
-    description: "a Hot Module Replacement (HMR) API for your ESM-based dev server."
-    language: "TypeScript"
-    topics:
-      - "esm-hmr"
-      - "hmr-server-engine"
-      - "snowpack"
-    stars_fact: 432
-    first_seen: null
-    last_push: "2024-06-17"
 ---
 
 # FredKSchott

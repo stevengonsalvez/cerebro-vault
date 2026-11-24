@@ -5,44 +5,42 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "alibaba/open-code-review"
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "9d67ce648f6a8919"
-  - "c489e6fb5febf2ab"
-pushes_per_week: [22, 8, 13, 23, 54, 53, 33, 21, 12, 5, 1, 0, 0]
+pushes_per_week: [9, 13, 17, 47, 51, 45, 23, 9, 9, 0, 1, 0, 1]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 5
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 3
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 245
-    distinct_repos: 20
-    active_days: 49
+    pushes: 225
+    distinct_repos: 21
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.0000
-  repo_per_active_day: 0.4082
-  not_owned_ratio: 0.2500
-  basename_concentration: 0.1000
+  push_per_day: 4.8913
+  repo_per_active_day: 0.4565
+  not_owned_ratio: 0.2381
+  basename_concentration: 0.0952
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -51,34 +49,52 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 12
-    distinct_repos: 5
-    pushes_per_repo: 2.4000
-    active_days: 6
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 3
+    pushes_per_repo: 1.0000
+    active_days: 3
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 245
-    distinct_repos: 20
-    pushes_per_repo: 12.2500
-    active_days: 49
+    pushes: 225
+    distinct_repos: 21
+    pushes_per_repo: 10.7143
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
-  - "provenance: 2 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "provenance: 1 vault signal(s) — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "web3-research-mcp"
+    title: "web3-research-mcp"
+    description: "Local MCP server for deep crypto token research across CoinGecko, DeFiLlama and web search. Free, no API key."
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "coingecko"
+      - "crypto"
+      - "defillama"
+      - "mcp"
+      - "mcp-crypto"
+      - "mcp-server"
+      - "model-context-protocol"
+      - "typescript"
+      - "web3"
+    stars_fact: 172
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "proven-tokens"
     title: "proven-tokens"
     description: "Math proofs, checked by a computer, that 15 top Ethereum tokens (WBTC, LINK, DAI, UNI, SHIB, PEPE...) do what they promise. Proved in Lean 4 on the exact deployed bytecode, for every input and caller."
@@ -92,25 +108,9 @@ repos:
       - "lean4"
       - "smart-contract-security"
       - "theorem-proving"
-    stars_fact: 4
+    stars_fact: 5
     first_seen: null
     last_push: "2026-11-13"
-  - name: "openroutercli"
-    title: "openroutercli"
-    description: "Unofficial CLI for every OpenRouter API endpoint, with OAuth login and --json output for humans and LLM agents."
-    language: "JavaScript"
-    topics:
-      - "ai-agents"
-      - "cli"
-      - "llm"
-      - "nodejs"
-      - "oauth"
-      - "openrouter"
-      - "openrouter-api"
-      - "openrouter-integration"
-    stars_fact: 14
-    first_seen: null
-    last_push: "2026-11-15"
   - name: "soldecomp"
     title: "soldecomp"
     description: "Local workbench to reverse-engineer, replay, and probe deployed Solana sBPF programs from bytecode, with a labeled bug-detector benchmark"
@@ -126,9 +126,25 @@ repos:
       - "sbpf"
       - "security-research"
       - "solana"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-21"
+  - name: "openroutercli"
+    title: "openroutercli"
+    description: "Unofficial CLI for every OpenRouter API endpoint, with OAuth login and --json output for humans and LLM agents."
+    language: "JavaScript"
+    topics:
+      - "ai-agents"
+      - "cli"
+      - "llm"
+      - "nodejs"
+      - "oauth"
+      - "openrouter"
+      - "openrouter-api"
+      - "openrouter-integration"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "headless-harness-bench"
     title: "headless-harness-bench"
     description: "Benchmark of 9 coding-agent harnesses as headless agent loops driven by a control plane: static source audit /81, live contract tests /21, golden task with cost and time"
@@ -147,7 +163,7 @@ repos:
       - "opencode"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-21"
   - name: "tg-skill"
     title: "tg-skill"
     description: "Read-only Telegram skill for Claude Code: read your own DMs, groups and channels"
@@ -159,24 +175,11 @@ repos:
       - "typescript"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-04"
-  - name: "3rd-party-audit"
-    title: "3rd-party-audit"
-    description: "Agent skill to inventory and score browser-visible website third parties"
-    language: "Python"
-    topics:
-      - "agent-skill"
-      - "python"
-      - "security"
-      - "supply-chain"
-      - "third-party"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-18"
 ---
 
 # aaronjmars
 
-245 pushes across 20 repositories on 49 active days in the last 90 days of public GitHub push activity.
+225 pushes across 21 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

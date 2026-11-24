@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "38c3408d933af173"
-pushes_per_week: [0, 0, 1, 0, 0, 0, 12, 5, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 0, 12, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -92,17 +92,17 @@ repos:
       - "llm"
       - "prompt-engineering"
       - "yagni"
-    stars_fact: 192386
+    stars_fact: 197878
     first_seen: "2026-08-26T06:00:04.229087+00:00"
-    last_push: "2026-10-29"
+    last_push: "2026-11-22"
   - name: "DietrichGebert"
     title: "DietrichGebert"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 45
+    stars_fact: 46
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
 ---
 
 # DietrichGebert

@@ -9,37 +9,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [9, 2, 2, 5, 11, 13, 8, 4, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 4, 10, 10, 12, 5, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 47
     distinct_repos: 16
-    active_days: 29
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    active_days: 26
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.8621
-  repo_per_active_day: 0.5517
-  not_owned_ratio: 0.0000
+  push_per_day: 1.8077
+  repo_per_active_day: 0.6154
+  not_owned_ratio: 0.0625
   basename_concentration: 0.0625
   shapes: []
   shape_evidence: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "30d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes: 2
+    distinct_repos: 2
+    pushes_per_repo: 1.0000
+    active_days: 2
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 47
     distinct_repos: 16
-    pushes_per_repo: 3.3750
-    active_days: 29
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    pushes_per_repo: 2.9375
+    active_days: 26
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ethercalc"
@@ -82,9 +82,25 @@ repos:
     description: "Web spreadsheet — no sign-up, no install."
     language: "TypeScript"
     topics: []
-    stars_fact: 3066
+    stars_fact: 3068
     first_seen: null
-    last_push: "2026-11-05"
+    last_push: "2026-11-24"
+  - name: "lingua-sinica-perlyuyan"
+    title: "lingua-sinica-perlyuyan"
+    description: "Perl in Classical Chinese in Perl"
+    language: "Perl"
+    topics: []
+    stars_fact: 294
+    first_seen: null
+    last_push: "2015-01-10"
+  - name: "node-webworker-threads"
+    title: "node-webworker-threads"
+    description: "Lightweight Web Worker API implementation with native threads"
+    language: "C++"
+    topics: []
+    stars_fact: 2274
+    first_seen: null
+    last_push: "2021-09-14"
   - name: "parse-afp"
     title: "parse-afp"
     description: "Parser for IBM's Advanced Function Printing document format"
@@ -93,14 +109,6 @@ repos:
     stars_fact: 6
     first_seen: null
     last_push: "2015-12-05"
-  - name: "node-webworker-threads"
-    title: "node-webworker-threads"
-    description: "Lightweight Web Worker API implementation with native threads"
-    language: "C++"
-    topics: []
-    stars_fact: 2275
-    first_seen: null
-    last_push: "2021-09-14"
   - name: "civic.ai"
     title: "civic.ai"
     description: "A governance framework by Audrey Tang and Dr Caroline Emmer De Albuquerque Green that translates Joan Tronto's care ethics into six machine-codeable design primitives for Civic AI — bounded, place-specific AI stewards engineered for relational health, not unbounded optimisation."
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 28
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "regex-genex"
     title: "regex-genex"
     description: "Given a list of regexes, generate all possible strings that matches all of them."
@@ -117,18 +125,10 @@ repos:
     stars_fact: 148
     first_seen: null
     last_push: "2015-09-24"
-  - name: "quickcheck-regex"
-    title: "quickcheck-regex"
-    description: "Generate regex-constrained strings for QuickCheck"
-    language: "Haskell"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2014-05-20"
 ---
 
 # audreyt
 
-54 pushes across 16 repositories on 29 active days in the last 90 days of public GitHub push activity.
+47 pushes across 16 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/audreyt

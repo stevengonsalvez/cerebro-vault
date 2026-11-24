@@ -8,37 +8,37 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+repos_populated: false
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [1, 0, 1, 1, 6, 14, 1, 5, 0, 3, 0, 0, 2]
+pushes_per_week: [0, 1, 1, 3, 13, 5, 5, 0, 3, 0, 0, 2, 3]
 windows:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 1
-    active_days: 4
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 5
-    active_days: 20
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 1.7000
-  repo_per_active_day: 0.2500
+  push_per_day: 1.6364
+  repo_per_active_day: 0.2273
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -49,138 +49,38 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 3
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 3.0000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 8
     distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 4
+    pushes_per_repo: 8.0000
+    active_days: 7
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 34
+    pushes: 36
     distinct_repos: 5
-    pushes_per_repo: 6.8000
-    active_days: 20
+    pushes_per_repo: 7.2000
+    active_days: 22
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos:
-  - name: "profiler-md"
-    title: "profiler-md"
-    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
-    language: "TypeScript"
-    topics:
-      - "cli"
-      - "markdown"
-      - "performance"
-      - "performance-analysis"
-      - "performance-optimization"
-      - "profiler-data"
-    stars_fact: 21
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "lfi"
-    title: "lfi"
-    description: "🦥 A lazy functional iteration library supporting sync, async, and concurrent iteration."
-    language: "TypeScript"
-    topics:
-      - "async"
-      - "concurrent"
-      - "functional-programming"
-      - "generator"
-      - "iterable"
-      - "iterator"
-      - "javascript"
-      - "lazy"
-      - "npm-module"
-      - "npm-package"
-      - "promise"
-      - "sync"
-    stars_fact: 352
-    first_seen: null
-    last_push: "2025-12-16"
-  - name: "keyalesce"
-    title: "keyalesce"
-    description: "🔑 Get the same key for the same sequence of values!"
-    language: "TypeScript"
-    topics:
-      - "finalizationregistry"
-      - "hashing"
-      - "idempotent"
-      - "key-value"
-      - "map"
-      - "set"
-      - "weakmap"
-      - "weakref"
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "mmmm"
-    title: "mmmm"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "spotify-true-random"
-    title: "spotify-true-random"
-    description: "🔀 An application for unbiased truly random playlist and library shuffling with Spotify."
-    language: "TypeScript"
-    topics:
-      - "api"
-      - "audio"
-      - "css"
-      - "css3"
-      - "html"
-      - "html-css"
-      - "html-css-javascript"
-      - "html5"
-      - "javascript"
-      - "library-shuffling"
-      - "music"
-      - "random"
-      - "shuffle"
-      - "shuffle-array"
-      - "spotify"
-      - "spotify-api"
-      - "spotify-playlist"
-      - "spotify-plugin"
-      - "spotify-web-api"
-      - "website"
-    stars_fact: 110
-    first_seen: null
-    last_push: "2026-11-03"
-  - name: "website"
-    title: "website"
-    description: "My website!"
-    language: "TypeScript"
-    topics:
-      - "blog"
-      - "portfolio"
-      - "portfolio-website"
-      - "software-engineering"
-      - "web-development"
-      - "website"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-02"
+repos: []
 ---
 
 # TomerAberbach
 
-34 pushes across 5 repositories on 20 active days in the last 90 days of public GitHub push activity.
+36 pushes across 5 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/TomerAberbach

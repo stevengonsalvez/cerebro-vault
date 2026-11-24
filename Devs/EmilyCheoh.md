@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-18T07:04:04.801884+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 1, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,54 +77,54 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "astrbot_tts"
-    title: "astrbot_tts"
+  - name: "fix_inconsistent_message"
+    title: "fix_inconsistent_message"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-12"
-  - name: "astrbot_plugin_calendar"
-    title: "astrbot_plugin_calendar"
+    last_push: "2026-05-16"
+  - name: "astrbot_plugin_tts_emotion_router"
+    title: "astrbot_plugin_tts_emotion_router"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-14"
-  - name: "astrbot_plugin_platform_specific_prompt"
-    title: "astrbot_plugin_platform_specific_prompt"
+    last_push: "2026-04-21"
+  - name: "mnemosyne_notify"
+    title: "mnemosyne_notify"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-20"
+  - name: "mnemosyne_plugin"
+    title: "mnemosyne_plugin"
     description: null
     language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "astrbot-frontend"
-    title: "astrbot-frontend"
+    last_push: "2026-02-19"
+  - name: "Happy-Hour-Every-Hour"
+    title: "Happy-Hour-Every-Hour"
     description: null
     language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
-  - name: "astrbot_plugin_gemini_mode"
-    title: "astrbot_plugin_gemini_mode"
+    last_push: "2018-02-09"
+  - name: "deep_learning"
+    title: "deep_learning"
     description: null
-    language: "Python"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "astrbot_plugin_lorebook"
-    title: "astrbot_plugin_lorebook"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2020-12-10"
 ---
 
 # EmilyCheoh

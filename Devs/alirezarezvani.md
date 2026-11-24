@@ -8,12 +8,12 @@ discovered_via_all:
 provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
-low_n: false
+low_n: true
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
     pushes: 2
     distinct_repos: 1
     active_days: 2
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 5
-    distinct_repos: 1
-    active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.2000
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -58,6 +58,14 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
+  "90d":
     pushes: 2
     distinct_repos: 1
     pushes_per_repo: 2.0000
@@ -65,17 +73,9 @@ facets:
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
-  "90d":
-    pushes: 5
-    distinct_repos: 1
-    pushes_per_repo: 5.0000
-    active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 5 active days in 90d — pass"
+  - "activity: 2 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
   - name: "claude-skills"
@@ -103,9 +103,9 @@ repos:
       - "openclaw-plugins"
       - "openclaw-skills"
       - "prompt-engineering"
-    stars_fact: 29933
+    stars_fact: 30414
     first_seen: "2026-08-10T06:00:04.550142+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-23"
   - name: "claude-code-skill-factory"
     title: "claude-code-skill-factory"
     description: "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
@@ -117,7 +117,7 @@ repos:
       - "claude-code"
       - "claude-skills"
       - "claude-skills-creator"
-    stars_fact: 904
+    stars_fact: 914
     first_seen: null
     last_push: "2025-11-12"
   - name: "claude-code-tresor"
@@ -132,9 +132,39 @@ repos:
       - "agents"
       - "anthropic-claude"
       - "claude-code"
-    stars_fact: 788
+    stars_fact: 790
     first_seen: null
     last_push: "2026-11-10"
+  - name: "claude-code-github-workflow"
+    title: "claude-code-github-workflow"
+    description: "World-Class GitHub Workflow for Claude Code. This Blueprint for Using Claude Code and Github as your Workflow automation suite and Project Management. Including Fully automated Task Management and Issue Tracking as well as Context Engineering. Turn Your Github Repository to the Second Brain for Your Claude Code."
+    language: "Shell"
+    topics:
+      - "claude-code"
+      - "github-actions"
+      - "github-claude-code"
+      - "github-projects"
+      - "github-wiki"
+      - "release-automation"
+      - "release-engineering"
+      - "workflow-automation"
+      - "workflow-reusable"
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-03-02"
+  - name: "ClaudeForge"
+    title: "ClaudeForge"
+    description: "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code."
+    language: "Python"
+    topics:
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "claude-code"
+      - "claude-skill"
+      - "claude-subagents"
+    stars_fact: 435
+    first_seen: null
+    last_push: "2026-05-19"
   - name: "claude-code-aso-skill"
     title: "claude-code-aso-skill"
     description: "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App"
@@ -150,58 +180,13 @@ repos:
       - "claude-skill"
       - "ios"
       - "playstore"
-    stars_fact: 469
+    stars_fact: 471
     first_seen: null
     last_push: "2026-05-25"
-  - name: "claude-code-github-workflow"
-    title: "claude-code-github-workflow"
-    description: "World-Class GitHub Workflow for Claude Code. This Blueprint for Using Claude Code and Github as your Workflow automation suite and Project Management. Including Fully automated Task Management and Issue Tracking as well as Context Engineering. Turn Your Github Repository to the Second Brain for Your Claude Code."
-    language: "Shell"
-    topics:
-      - "claude-code"
-      - "github-actions"
-      - "github-claude-code"
-      - "github-projects"
-      - "github-wiki"
-      - "release-automation"
-      - "release-engineering"
-      - "workflow-automation"
-      - "workflow-reusable"
-    stars_fact: 71
-    first_seen: null
-    last_push: "2026-03-02"
-  - name: "gaios"
-    title: "gaios"
-    description: "Open-source AI Operating System (AIOS) blueprint for Claude Code & Codex — turn any agent into your personal second brain + Chief of Staff: skills, self-verifying workflows, a second-brain wiki, and deterministic tools. Fork it for any role or domain."
-    language: "Python"
-    topics:
-      - "agentic-workflows"
-      - "agents-md"
-      - "ai-agents"
-      - "ai-automation"
-      - "ai-chief-of-staff"
-      - "ai-operating-system"
-      - "aios"
-      - "anthropic"
-      - "blueprint"
-      - "claude-code"
-      - "claude-skills"
-      - "codex"
-      - "codex-cli"
-      - "knowledge-management"
-      - "llm"
-      - "mcp"
-      - "openai"
-      - "personal-assistant"
-      - "productivity"
-      - "second-brain"
-    stars_fact: 50
-    first_seen: null
-    last_push: "2026-11-10"
 ---
 
 # alirezarezvani
 
-5 pushes across 1 repository on 5 active days in the last 90 days of public GitHub push activity.
+2 pushes across 1 repository on 2 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alirezarezvani

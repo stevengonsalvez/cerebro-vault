@@ -10,27 +10,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [1, 2, 12, 21, 20, 11, 20, 1, 5, 11, 0, 1, 0]
+pushes_per_week: [2, 12, 18, 21, 12, 21, 1, 2, 14, 0, 1, 0, 2]
 windows:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    active_days: 6
-    repos_not_owned: 7
-    not_owned_basenames: 3
-    not_owned_owners: 6
+    pushes: 10
+    distinct_repos: 6
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
   "90d":
-    pushes: 105
+    pushes: 106
     distinct_repos: 19
     active_days: 34
     repos_not_owned: 15
@@ -38,7 +38,7 @@ windows:
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.0882
+  push_per_day: 3.1176
   repo_per_active_day: 0.5588
   not_owned_ratio: 0.7895
   basename_concentration: 0.5263
@@ -50,25 +50,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 0
-    distinct_repos: 0
-    pushes_per_repo: 0.0000
-    active_days: 0
+    pushes: 2
+    distinct_repos: 1
+    pushes_per_repo: 2.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
-    distinct_repos: 10
-    pushes_per_repo: 1.6000
-    active_days: 6
-    repos_not_owned: 7
-    not_owned_basenames: 3
-    not_owned_owners: 6
+    pushes: 10
+    distinct_repos: 6
+    pushes_per_repo: 1.6667
+    active_days: 3
+    repos_not_owned: 4
+    not_owned_basenames: 1
+    not_owned_owners: 4
   "90d":
-    pushes: 105
+    pushes: 106
     distinct_repos: 19
-    pushes_per_repo: 5.5263
+    pushes_per_repo: 5.5789
     active_days: 34
     repos_not_owned: 15
     not_owned_basenames: 6
@@ -89,17 +89,25 @@ repos:
       - "mlx"
       - "skill"
       - "unsloth"
-    stars_fact: 39025
+    stars_fact: 39282
     first_seen: "2026-08-18T06:00:11.656121+00:00"
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "llmserve"
     title: "llmserve"
     description: "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
     language: "Rust"
     topics: []
-    stars_fact: 424
+    stars_fact: 429
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-24"
+  - name: "llama-panel"
+    title: "llama-panel"
+    description: "A MacOS llama-server command centre"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "website"
     title: "website"
     description: null
@@ -130,19 +138,11 @@ repos:
       - "repository-management"
     stars_fact: 32
     first_seen: null
-    last_push: "2026-10-15"
-  - name: "homebrew-llmfit"
-    title: "homebrew-llmfit"
-    description: null
-    language: "Ruby"
-    topics: []
-    stars_fact: 17
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-20"
 ---
 
 # AlexsJones
 
-105 pushes across 19 repositories on 34 active days in the last 90 days of public GitHub push activity.
+106 pushes across 19 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexsJones

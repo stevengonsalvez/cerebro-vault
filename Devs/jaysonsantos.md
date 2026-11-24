@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 1, 7, 13, 19, 3, 8, 9, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 3, 9, 27, 1, 7, 6, 7, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 61
     distinct_repos: 9
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 10
-    distinct_repos: 3
-    pushes_per_repo: 3.3333
-    active_days: 4
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 61
     distinct_repos: 9
@@ -82,9 +82,9 @@ repos:
     description: "Thin multi-protocol desktop messenger (Rust + egui). Experimental unofficial protocol modules — see README."
     language: "Rust"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "bunderwar"
     title: "bunderwar"
     description: "My up-to date docker images with renovate and arm64/amd64 support"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "watchkeep"
     title: "watchkeep"
     description: "Self-hosted watch tracker for movies and TV shows with Plex webhook scrobbling and a TMDB catalog in PostgreSQL"
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 167
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-23"
   - name: "beno-arena"
     title: "beno-arena"
     description: "Multiplayer snake game written in beni, with Cloudflare Workers and Durable Objects."

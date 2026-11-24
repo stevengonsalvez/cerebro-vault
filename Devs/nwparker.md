@@ -11,37 +11,37 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [41, 8, 37, 65, 115, 105, 173, 122, 116, 98, 0, 2, 11]
+pushes_per_week: [10, 33, 56, 113, 110, 179, 65, 114, 161, 0, 1, 12, 19]
 windows:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 19
+    distinct_repos: 8
+    active_days: 4
+    repos_not_owned: 8
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 7
   "30d":
-    pushes: 187
-    distinct_repos: 10
-    active_days: 12
+    pushes: 67
+    distinct_repos: 9
+    active_days: 11
     repos_not_owned: 9
-    not_owned_basenames: 4
-    not_owned_owners: 6
+    not_owned_basenames: 2
+    not_owned_owners: 8
   "90d":
-    pushes: 893
+    pushes: 873
     distinct_repos: 35
-    active_days: 65
+    active_days: 63
     repos_not_owned: 34
     not_owned_basenames: 5
     not_owned_owners: 31
 automation:
   state: "clear"
-  push_per_day: 13.7385
-  repo_per_active_day: 0.5385
+  push_per_day: 13.8571
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.9714
   basename_concentration: 0.8857
   shapes:
@@ -59,7 +59,7 @@ automation:
     truncated: false
     sampled:
       - "AmoabaKelvin/orca"
-      - "anajuliabit/orca"
+      - "audichuang/orca"
       - "beattlekid/orca"
       - "blaksmatic/orca"
       - "Chihen-Tai/orca"
@@ -68,34 +68,42 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 3
-    repos_not_owned: 3
+    pushes: 19
+    distinct_repos: 8
+    pushes_per_repo: 2.3750
+    active_days: 4
+    repos_not_owned: 8
     not_owned_basenames: 2
-    not_owned_owners: 2
+    not_owned_owners: 7
   "30d":
-    pushes: 187
-    distinct_repos: 10
-    pushes_per_repo: 18.7000
-    active_days: 12
+    pushes: 67
+    distinct_repos: 9
+    pushes_per_repo: 7.4444
+    active_days: 11
     repos_not_owned: 9
-    not_owned_basenames: 4
-    not_owned_owners: 6
+    not_owned_basenames: 2
+    not_owned_owners: 8
   "90d":
-    pushes: 893
+    pushes: 873
     distinct_repos: 35
-    pushes_per_repo: 25.5143
-    active_days: 65
+    pushes_per_repo: 24.9429
+    active_days: 63
     repos_not_owned: 34
     not_owned_basenames: 5
     not_owned_owners: 31
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 65 active days in 90d — pass"
+  - "activity: 63 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "orca-mirror"
+    title: "orca-mirror"
+    description: "Mirror of stablyai/orca"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "chain-trigger"
     title: "chain-trigger"
     description: null
@@ -136,18 +144,10 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2023-06-08"
-  - name: "PageRankMapReduceBlocked"
-    title: "PageRankMapReduceBlocked"
-    description: "Blocked PageRank implementation (MapReduce) via Java on AWS"
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2015-05-12"
 ---
 
 # nwparker
 
-893 pushes across 35 repositories on 65 active days in the last 90 days of public GitHub push activity.
+873 pushes across 35 repositories on 63 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

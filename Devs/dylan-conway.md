@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [18, 1, 12, 35, 51, 24, 12, 18, 29, 6, 1, 3, 3]
+pushes_per_week: [3, 12, 22, 60, 21, 19, 14, 14, 25, 0, 4, 3, 5]
 windows:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 5
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 17
     distinct_repos: 2
-    active_days: 11
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 202
     distinct_repos: 5
     active_days: 48
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.4375
+  push_per_day: 4.2083
   repo_per_active_day: 0.1042
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
-    distinct_repos: 1
-    pushes_per_repo: 3.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 36
+    pushes: 17
     distinct_repos: 2
-    pushes_per_repo: 18.0000
-    active_days: 11
+    pushes_per_repo: 8.5000
+    active_days: 10
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 213
+    pushes: 202
     distinct_repos: 5
-    pushes_per_repo: 42.6000
+    pushes_per_repo: 40.4000
     active_days: 48
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -137,6 +137,6 @@ repos:
 
 # dylan-conway
 
-213 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
+202 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dylan-conway

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-17T07:04:42.440393+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [0, 0, 0, 0, 3, 4, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 4, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,30 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "pi-extensions"
-    title: "pi-extensions"
-    description: "My pi-agent extensions"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-06"
   - name: "pdf-sign"
     title: "pdf-sign"
     description: "A simple PDF signing application."
     language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-07-22"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "My pi-agent extensions"
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "naive-ui-esm"
+    title: "naive-ui-esm"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-21"
   - name: "Fling"
     title: "Fling"
     description: "Vim-style macOS window manager"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2025-10-29"
-  - name: "antd-css-in-js-reproduce"
-    title: "antd-css-in-js-reproduce"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-09-04"
 ---
 
 # faga295

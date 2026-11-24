@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-19T07:04:33.997655+00:00"
+generated_at: "2026-11-24T15:04:00.605290+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [2, 2, 2, 1, 12, 5, 11, 6, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 2, 1, 10, 6, 12, 4, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 5
-    active_days: 21
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.0000
-  repo_per_active_day: 0.2381
+  push_per_day: 2.1053
+  repo_per_active_day: 0.2632
   not_owned_ratio: 0.0000
   basename_concentration: 0.2000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 42
+    pushes: 40
     distinct_repos: 5
-    pushes_per_repo: 8.4000
-    active_days: 21
+    pushes_per_repo: 8.0000
+    active_days: 19
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "next-wiki"
@@ -114,7 +114,7 @@ repos:
       - "webgl"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "herbert"
     title: "herbert"
     description: "Native SwiftUI H puzzles and Herbert Benchmark for iPhone, iPad and Mac. 30 original MIT lessons, 1,769 community puzzles, parallel AI evaluation with native judging, offline play, and English/中文/日本語."
@@ -169,6 +169,6 @@ repos:
 
 # hugogu
 
-42 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+40 pushes across 5 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/hugogu
