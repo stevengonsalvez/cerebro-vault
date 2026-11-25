@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "1be978947e68d1f2"
 pushes_per_week: [1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "gacha"
+    title: "gacha"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "cost-widget"
+    title: "cost-widget"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "cost-widget-mac"
+    title: "cost-widget-mac"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "claude-managed-agents-workshop-202607"
+    title: "claude-managed-agents-workshop-202607"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "eki-timer"
+    title: "eki-timer"
+    description: "時間を「分」ではなく「駅」ではかるタイマー（山手線・大阪環状線）"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "my-jev-playground"
+    title: "my-jev-playground"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
 ---
 
 # moritalous

@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 4, 21, 18, 29, 5, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 5, 23, 17, 27, 5, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    pushes_per_repo: 1.0000
-    active_days: 2
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nyakku.moe"
+    title: "nyakku.moe"
+    description: ":pencil2: Nyakku 的个人博客～"
+    language: "Astro"
+    topics:
+      - "blog"
+      - "codes"
+      - "note"
+      - "scripts"
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "SigureMo.github.io"
+    title: "SigureMo.github.io"
+    description: ":lollipop: My lovely blog!"
+    language: "HTML"
+    topics:
+      - "blog"
+      - "codes"
+      - "note"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "❣️ My personal dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "SigureMo"
+    title: "SigureMo"
+    description: ":crystal_ball: ニャックの魔法(●• ̀ω•́ )✧"
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "image-hosting"
+    title: "image-hosting"
+    description: "🖼️ Image hosting for my sites."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "renovate-config"
+    title: "renovate-config"
+    description: ":arrow_up: My shareable config for @renovateapp"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # SigureMo

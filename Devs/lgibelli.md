@@ -8,8 +8,8 @@ provenance_repos:
   - "allenai/olmocr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ae05babd8ff3098f"
 pushes_per_week: [0, 0, 0, 1, 1, 2, 13, 1, 2, 0, 0, 0, 0]
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "buytracker"
+    title: "buytracker"
+    description: "Browser extension that watches product pages for price drops, new offers, and restocks — JSON-LD + Shopify + cheap-LLM extraction, CamelCamelCamel-style history"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "chattrace"
+    title: "chattrace"
+    description: "ChatTrace Forensic: read-only viewer and evidence exporter for the Microsoft Teams desktop cache. Use Microsoft Purview when you can; this is for when you can't."
+    language: "Rust"
+    topics:
+      - "digital-forensics"
+      - "ediscovery"
+      - "egui"
+      - "evidence"
+      - "forensics"
+      - "indexeddb"
+      - "leveldb"
+      - "microsoft-teams"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "mydiskisfull"
+    title: "mydiskisfull"
+    description: "Watches your Mac's disk over time: predicts when it will be full, catches runaway disk fillers, explains why and how to avoid it. Free and open source."
+    language: "Rust"
+    topics:
+      - "apfs"
+      - "cli"
+      - "disk-space"
+      - "macos"
+      - "monitoring"
+      - "rust"
+      - "storage"
+      - "time-machine"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "idlewild"
+    title: "idlewild"
+    description: null
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "espresso-macchiato"
+    title: "espresso-macchiato"
+    description: "macOS menu bar caffeinate app (Coca replacement) written in Swift"
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "syp"
+    title: "syp"
+    description: "SYP (Sync Your Playlists): browser extension to export, import and copy playlists between Spotify, YouTube Music, Apple Music and Amazon Music, locally in your browser."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
 ---
 
 # lgibelli

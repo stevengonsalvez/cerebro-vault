@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 7, 11, 2, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 6, 12, 1, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "harnesslab"
+    title: "harnesslab"
+    description: "Record, diff, and gate agent harness behavior as an executable Trace Contract. CI regression tests for lifecycle, tools, approvals, MCP, and adapters."
+    language: "Python"
+    topics:
+      - "agent-harness"
+      - "agent-observability"
+      - "agent-runtime"
+      - "agent-testing"
+      - "ai-agents"
+      - "conformance-testing"
+      - "deepseek"
+      - "developer-tools"
+      - "fastapi"
+      - "llm-agents"
+      - "mcp"
+      - "observability"
+      - "python"
+      - "regression-testing"
+      - "replay"
+      - "trace"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "sub2api-reasoning-fix"
+    title: "sub2api-reasoning-fix"
+    description: "Sub2API reasoning isolation fix: history replay, reasoning-only output separation, and native OpenAI/Codex compatibility. Third-party patch with tests and downloadable packages."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "frontier-signal-lab"
+    title: "frontier-signal-lab"
+    description: "SaveScope: audit PyTorch saved-tensor compression against gradients and actual AdamW updates. Reproducible CPU experiments and an interactive report."
+    language: "Python"
+    topics:
+      - "activation-compression"
+      - "adamw"
+      - "agents"
+      - "ai-research"
+      - "attention"
+      - "autograd"
+      - "pytorch"
+      - "reproducibility"
+      - "reproducible-research"
+      - "research-tools"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "kitbo-site"
+    title: "kitbo-site"
+    description: "Kitbo 奇宝 product presentation and encrypted research archive"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "agent-infra-validation-20261105"
+    title: "agent-infra-validation-20261105"
+    description: "Deterministic synthetic validation for agent infrastructure fixes; no model calls"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "metis-voc"
+    title: "metis-voc"
+    description: "Evidence-aware product research workspace: market data, VOC, concepts, human review and decision governance on Cloudflare Workers."
+    language: "JavaScript"
+    topics:
+      - "cloudflare-workers"
+      - "ecommerce"
+      - "product-research"
+      - "typescript"
+      - "voice-of-customer"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # Linxiushen

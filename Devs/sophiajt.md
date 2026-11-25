@@ -8,8 +8,8 @@ provenance_repos:
   - "nushell/nushell"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "b5545247abc68902"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jaktnesmonster"
+    title: "jaktnesmonster"
+    description: null
+    language: "CMake"
+    topics: []
+    stars_fact: 79
+    first_seen: null
+    last_push: "2025-03-30"
+  - name: "rustyjit"
+    title: "rustyjit"
+    description: "A JIT experiment in Rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 146
+    first_seen: null
+    last_push: "2024-06-30"
+  - name: "nu_app"
+    title: "nu_app"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 22
+    first_seen: null
+    last_push: "2023-10-20"
+  - name: "create_keyboard_layouts"
+    title: "create_keyboard_layouts"
+    description: "An app to help layout keys based on your corpus and preferences"
+    language: "Rust"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2023-05-29"
+  - name: "onehour"
+    title: "onehour"
+    description: "A small programming language created in an hour"
+    language: "Rust"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2021-08-07"
+  - name: "sophiajt.github.io"
+    title: "sophiajt.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-11"
 ---
 
 # sophiajt

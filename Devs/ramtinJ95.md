@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [1, 5, 0, 1, 0, 0, 4, 4, 24, 0, 2, 4, 0]
+pushes_per_week: [1, 5, 0, 1, 0, 0, 7, 2, 23, 1, 1, 4, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 3
-    active_days: 7
+    pushes: 6
+    distinct_repos: 2
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 19
-    distinct_repos: 3
-    pushes_per_repo: 6.3333
-    active_days: 7
+    pushes: 6
+    distinct_repos: 2
+    pushes_per_repo: 3.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-tokenscope"
+    title: "opencode-tokenscope"
+    description: "Comprehensive token usage analysis and cost tracking for opencode sessions"
+    language: "TypeScript"
+    topics:
+      - "ai-tools"
+      - "cost-tracking"
+      - "developer-tools"
+      - "opencode"
+      - "opencode-plugins"
+    stars_fact: 284
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "survive-n-conquest"
+    title: "survive-n-conquest"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "herdr-stuff"
+    title: "herdr-stuff"
+    description: "Mods for the Herdr app"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "first-game"
+    title: "first-game"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "nexus"
+    title: "nexus"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Manually managed dotfiles"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
 ---
 
 # ramtinJ95

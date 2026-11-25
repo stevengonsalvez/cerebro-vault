@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 4, 5, 11, 7, 2, 3, 2, 0, 0, 1, 1]
+pushes_per_week: [0, 1, 4, 7, 9, 7, 3, 3, 1, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "scoop-bucket"
+    title: "scoop-bucket"
+    description: "Yet another Scoop bucket"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "pi-packages"
+    title: "pi-packages"
+    description: "Yet another Pi packages"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Yet another dotfiles"
+    language: "Go Template"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Yet another Homebrew tap"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "morphe-patches"
+    title: "morphe-patches"
+    description: "Yet another Morphe Patches"
+    language: "Kotlin"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "UnityVietnameseFontSync"
+    title: "UnityVietnameseFontSync"
+    description: "BepInEx 5 plugin for Vietnamese glyph fallback and targeted TextMeshPro font replacement in Unity Mono games."
+    language: "C#"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-29"
 ---
 
 # zeldrisho

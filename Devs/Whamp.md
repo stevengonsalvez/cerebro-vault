@@ -8,8 +8,8 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
 pushes_per_week: [0, 0, 1, 4, 7, 4, 1, 2, 0, 0, 0, 0, 0]
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Will Hampson's Pi coding agent extensions: pstack, quiet, and personal packages"
+    language: "TypeScript"
+    topics:
+      - "coding-agent"
+      - "extensions"
+      - "pi"
+      - "pi-coding-agent"
+      - "pi-package"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-24"
+  - name: "glm-vision"
+    title: "glm-vision"
+    description: "Pi extension: intercepts image reads for non-vision GLM models, sends to GLM-4.6v with structured prompts for categorized analysis"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-02-04"
+  - name: "chirp-stt"
+    title: "chirp-stt"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 195
+    first_seen: null
+    last_push: "2026-02-27"
+  - name: "pi-token-burden"
+    title: "pi-token-burden"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "skills"
+    title: "skills"
+    description: "Public agent skills authored and maintained by Will Hampson."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "property-based-testing"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "pi-rlm"
+    title: "pi-rlm"
+    description: "RLM (Recursive Language Model) extension for pi - process large context files that exceed LLM context windows"
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-02-08"
 ---
 
 # Whamp

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 0, 3, 5, 14, 2, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 1, 0, 3, 6, 13, 2, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "torrential"
+    title: "torrential"
+    description: "Find films and shows, and watch them on your computer, phone, or TV while they download."
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "bittorrent"
+      - "cli"
+      - "libtorrent"
+      - "rust"
+      - "torrent"
+      - "tui"
+    stars_fact: 145
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "nostakes"
+    title: "nostakes"
+    description: "Poker night with friends, in the browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "old-nexxel.dev"
+    title: "old-nexxel.dev"
+    description: "old personal website"
+    language: "TypeScript"
+    topics:
+      - "firebase"
+      - "framer-motion"
+      - "nextjs"
+      - "personal-website"
+      - "portfolio"
+      - "portfolio-website"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2022-08-07"
+  - name: "remix-blog"
+    title: "remix-blog"
+    description: "bare-bones blog app using remix, mdx and tailwindcss for styling"
+    language: "TypeScript"
+    topics:
+      - "blog"
+      - "mdx"
+      - "remix"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2022-04-13"
+  - name: "spotify-voice-control"
+    title: "spotify-voice-control"
+    description: "Voice control for Spotify through the terminal"
+    language: "Python"
+    topics:
+      - "music"
+      - "python"
+      - "speech-recognition"
+      - "spotify"
+      - "spotify-api"
+      - "voice-commands"
+      - "voice-recognition"
+    stars_fact: 77
+    first_seen: null
+    last_push: "2022-09-23"
+  - name: "license-generator"
+    title: "license-generator"
+    description: "Create licenses for your projects right from your terminal!"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "license"
+      - "productivity"
+      - "rust"
+    stars_fact: 209
+    first_seen: null
+    last_push: "2024-03-31"
 ---
 
 # nexxeln

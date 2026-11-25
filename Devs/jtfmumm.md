@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 1, 4, 3, 4, 8, 3, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 4, 3, 6, 6, 3, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rlox"
+    title: "rlox"
+    description: "A Rust implementation of an interpreter for the Lox language."
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2024-09-15"
+  - name: "curryon2018"
+    title: "curryon2018"
+    description: "Resources related to CurryOn 2018 Talk"
+    language: null
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2018-07-24"
+  - name: "acolyte"
+    title: "acolyte"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2023-08-01"
+  - name: "pony-functional-data"
+    title: "pony-functional-data"
+    description: "Functional data structures for Pony"
+    language: "Pony"
+    topics: []
+    stars_fact: 43
+    first_seen: null
+    last_push: "2017-04-28"
+  - name: "novitiate"
+    title: "novitiate"
+    description: "A procedurally generated RPG inspired by Rogue and written in Pony."
+    language: "Pony"
+    topics:
+      - "pony-language"
+      - "ponylang"
+      - "roguelike"
+      - "rpg"
+    stars_fact: 70
+    first_seen: null
+    last_push: "2020-04-11"
+  - name: "image-generator"
+    title: "image-generator"
+    description: "Generative art in ClojureScript (using canvas and core.async)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2013-11-05"
 ---
 
 # jtfmumm

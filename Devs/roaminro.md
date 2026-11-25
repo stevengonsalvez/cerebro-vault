@@ -8,11 +8,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [1, 0, 1, 0, 6, 1, 0, 2, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 1, 5, 1, 1, 2, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "test-repo-1"
+    title: "test-repo-1"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "mastra-agent-threads"
+    title: "mastra-agent-threads"
+    description: "Mastra PoC: agents that start agents, in per-user Modal sandboxes, with a web app"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "gh-test-project-multi-env"
+    title: "gh-test-project-multi-env"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-27"
+  - name: "mastra-editor-demo"
+    title: "mastra-editor-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-12"
+  - name: "mastra-hitl-demo"
+    title: "mastra-hitl-demo"
+    description: "Support copilot demo showcasing Mastra subagents, human-in-the-loop tool approvals, observational memory, and MCP — Vite + Assistant UI frontend."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "mastra-agent-version-lifecycle"
+    title: "mastra-agent-version-lifecycle"
+    description: "Mastra agent version lifecycle demo — emulate a QA → prod release flow for a fully stored agent using Mastra's version lifecycle"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-18"
 ---
 
 # roaminro

@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 2, 0, 2, 6, 5, 3, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 1, 2, 6, 4, 4, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "django-autotyping"
+    title: "django-autotyping"
+    description: "Automatically add type hints for Django powered applications."
+    language: "Python"
+    topics: []
+    stars_fact: 75
+    first_seen: null
+    last_push: "2024-05-29"
+  - name: "regex-rs"
+    title: "regex-rs"
+    description: "Python bindings to the Rust regex crate"
+    language: "Rust"
+    topics:
+      - "python"
+      - "regex"
+      - "rust"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "clamdpy"
+    title: "clamdpy"
+    description: "A Python wrapper around clamd, the ClamAV daemon"
+    language: "Python"
+    topics: []
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "jsonlogic"
+    title: "jsonlogic"
+    description: "An extensible and sane implementation of JsonLogic"
+    language: "Python"
+    topics: []
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "rtfc"
+    title: "rtfc"
+    description: "A tool to manage changelogs and versioning."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "flake8-pydantic"
+    title: "flake8-pydantic"
+    description: "A flake8 plugin to check Pydantic related code."
+    language: "Python"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2024-12-26"
 ---
 
 # Viicos

@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 1, 0, 1, 1, 2, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 0, 1, 2, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "airline-bi"
+    title: "airline-bi"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "yohaku"
+    title: "yohaku"
+    description: "All in one tools"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "Kotori"
+    title: "Kotori"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "Dearly"
+    title: "Dearly"
+    description: "A private diary for composing dated memories on a freeform canvas."
+    language: "TypeScript"
+    topics:
+      - "alchemy"
+      - "effect-ts"
+      - "foldkit"
+      - "turborepo"
+      - "typescript"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "paste-preview"
+    title: "paste-preview"
+    description: "Paste n Preview, share your snippets"
+    language: "TypeScript"
+    topics:
+      - "alchemy"
+      - "cloudflare"
+      - "effects"
+      - "react"
+      - "tailwindcss"
+      - "tanstack-start"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "portofolio"
+    title: "portofolio"
+    description: "Just mY Personal Website"
+    language: "TypeScript"
+    topics:
+      - "astro"
+      - "reactjs"
+      - "tailwindcss"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
 ---
 
 # SyahrulBhudiF

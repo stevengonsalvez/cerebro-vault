@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e1f0381c8cfc61e3"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 7, 16, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 23, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -78,9 +78,22 @@ reasons:
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "unref-pre-commit"
+    title: "unref-pre-commit"
+    description: "A pre-commit hook for unref, installed from the prebuilt wheels on PyPI."
+    language: "Python"
+    topics:
+      - "dead-code"
+      - "pre-commit"
+      - "prek"
+      - "python"
+      - "unused-code"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "unref"
     title: "unref"
-    description: "Find unreferenced Python code"
+    description: "An extremely fast Python dead code finder, written in Rust."
     language: "Rust"
     topics:
       - "code-quality"
@@ -90,9 +103,9 @@ repos:
       - "ruff"
       - "static-analysis"
       - "unused-code"
-    stars_fact: 9
+    stars_fact: 140
     first_seen: "2026-11-18T07:00:33.085223+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-22"
   - name: "pgmig"
     title: "pgmig"
     description: "Generate migrations between Postgres databases"
@@ -106,9 +119,9 @@ repos:
       - "python"
       - "schema"
       - "schema-diff"
-    stars_fact: 12
+    stars_fact: 13
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-21"
   - name: "shpyx"
     title: "shpyx"
     description: "Run shell commands in Python"
@@ -123,7 +136,7 @@ repos:
       - "terminal"
     stars_fact: 18
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-21"
   - name: "Apakottur"
     title: "Apakottur"
     description: "Profile README"
@@ -131,7 +144,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-21"
   - name: "hrusha"
     title: "hrusha"
     description: null
@@ -140,14 +153,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-05-22"
-  - name: "action-poetry-package-update"
-    title: "action-poetry-package-update"
-    description: "GitHub Action for updating Python Poetry packages"
-    language: "Python"
-    topics: []
-    stars_fact: 9
-    first_seen: null
-    last_push: "2025-04-12"
 ---
 
 # Apakottur

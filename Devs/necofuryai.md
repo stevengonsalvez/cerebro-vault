@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [1, 0, 1, 0, 1, 4, 2, 0, 1, 0, 0, 0, 0]
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "depatrol"
+    title: "depatrol"
+    description: "Read-only control plane for dependency update bots (Dependabot/Renovate)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "necofuryai"
+    title: "necofuryai"
+    description: "necofuryai GitHub profile"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "necofuryai.dev"
+    title: "necofuryai.dev"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Personal macOS configuration, managed with chezmoi"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "genko-zed"
+    title: "genko-zed"
+    description: "Lightweight writing tools for Japanese fiction and technical articles (Zed extension)"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Agent skills for Claude Code and Codex"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "claude-code"
+      - "codex"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # necofuryai

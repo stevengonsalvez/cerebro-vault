@@ -8,11 +8,11 @@ provenance_repos:
   - "abi/screenshot-to-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [4, 0, 2, 7, 10, 8, 4, 3, 3, 0, 0, 0, 1]
+pushes_per_week: [2, 0, 4, 7, 9, 7, 4, 5, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 11
-    active_days: 29
+    pushes: 40
+    distinct_repos: 9
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4483
-  repo_per_active_day: 0.3793
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0909
+  push_per_day: 1.4815
+  repo_per_active_day: 0.3333
+  not_owned_ratio: 0.3333
+  basename_concentration: 0.1111
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,89 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 42
-    distinct_repos: 11
-    pushes_per_repo: 3.8182
-    active_days: 29
+    pushes: 40
+    distinct_repos: 9
+    pushes_per_repo: 4.4444
+    active_days: 27
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Surge"
+    title: "Surge"
+    description: "Rule Snippet & Rule Set for Surge / Mihomo (Clash.Meta) / Clash Premium (Dreamacro) / sing-box / Surfboard for Android / Stash"
+    language: "TypeScript"
+    topics:
+      - "clash"
+      - "clash-meta"
+      - "clash-premium"
+      - "clash-rules"
+      - "hacktoberfest"
+      - "mihomo"
+      - "mihomo-rules"
+      - "ruleset"
+      - "sing-box"
+      - "sing-box-ruleset"
+      - "stash"
+      - "surfboard"
+      - "surge"
+      - "surge-rules"
+    stars_fact: 4724
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "hikyaku"
+    title: "hikyaku"
+    description: "A high-performance multiplexing proxy that stays lightning fast and highly reliable everywhere, from fiber broadband to lossy in-flight Wi-Fi."
+    language: "Go"
+    topics: []
+    stars_fact: 119
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "tailproxy"
+    title: "tailproxy"
+    description: "`tailproxy` is a docker that exposes the Tailscale network via Snell/SOCKS5 Proxy"
+    language: "Shell"
+    topics: []
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "OpenCore-Document-zh_Hans"
+    title: "OpenCore-Document-zh_Hans"
+    description: "[非官方/Unofficial] OpenCore Bootloader 参考手册简体中文翻译"
+    language: "JavaScript"
+    topics:
+      - "documentation"
+      - "hackintosh"
+      - "opencore"
+      - "opencore-efi"
+      - "zh-cn"
+    stars_fact: 307
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "Make-Bilibili-Great-Than-Ever-Before"
+    title: "Make-Bilibili-Great-Than-Ever-Before"
+    description: "A fork of the userscript \"Make Bilibili Great Again\", but with some experimental features"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1003
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "chnroutes2-optimized"
+    title: "chnroutes2-optimized"
+    description: "Better aggregated chnroutes, but even better"
+    language: "HTML"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # SukkaW
 
-42 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+40 pushes across 9 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/SukkaW

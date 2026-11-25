@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 7, 15, 0, 1, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 13, 9, 0, 1, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ascendancy"
+    title: "ascendancy"
+    description: "Ascendancy: third-person fantasy action RPG in Godot 4 (stylized, CC0 art pipeline)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "vanguarda"
+    title: "vanguarda"
+    description: "Team FPS against bots in C++20 + raylib: TDM, co-op operations and assault mode, procedural weapons, maps and art"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "cloudbot"
+    title: "cloudbot"
+    description: "Your own always-on AI coworker on your VPS. Works with Claude, ChatGPT, Gemini, Grok and more, on your own subscription or API key. Chat with it, give it a computer, let it work while you are away."
+    language: "TypeScript"
+    topics:
+      - "ai-agent"
+      - "automation"
+      - "chatgpt"
+      - "claude"
+      - "codex"
+      - "gemini"
+      - "grok"
+      - "multi-provider"
+      - "self-hosted"
+      - "vps"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "cloudbot-templates"
+    title: "cloudbot-templates"
+    description: "Bot templates for CloudBot. Pick one in the chat or share your own."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "durable-recorder"
+    title: "durable-recorder"
+    description: "Browser audio, video and screen recording that survives a locked phone, a killed tab or a dropped microphone."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "claude-voice"
+    title: "claude-voice"
+    description: "Controle por voz do Claude Code: ditado com faster-whisper na GPU e resposta falada (Fish Audio ou edge-tts), com overlay de espectro e suporte a WSL e Codex CLI"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-02"
 ---
 
 # mateuscmtropical

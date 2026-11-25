@@ -8,8 +8,8 @@ provenance_repos:
   - "supanadit/morse"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "59baa2731025f811"
 pushes_per_week: [0, 0, 0, 0, 0, 6, 5, 0, 2, 0, 0, 1, 0]
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "morse"
+    title: "morse"
+    description: "A comfortable GUI for the Pi + OpenCode"
+    language: "TypeScript"
+    topics:
+      - "angular"
+      - "nestjs"
+      - "opencode"
+      - "opencode-v2"
+      - "pi"
+    stars_fact: 16
+    first_seen: "2026-10-21T06:01:21.528026+00:00"
+    last_push: "2026-11-25"
+  - name: "phpv"
+    title: "phpv"
+    description: "PHP Version Manager"
+    language: "Go"
+    topics:
+      - "bash"
+      - "php"
+      - "posix-compliant"
+      - "shell"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "supanadit"
+    title: "supanadit"
+    description: "Github Secret"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "containers-docs"
+    title: "containers-docs"
+    description: "Documentation for the Containers Collection"
+    language: "PHP"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "containers"
+    title: "containers"
+    description: "Specialized and Custom Made Containers"
+    language: "JavaScript"
+    topics:
+      - "containers"
+      - "docker"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "ezx"
+    title: "ezx"
+    description: "Eazy Executor ?"
+    language: "Go"
+    topics:
+      - "docker"
+      - "docker-container"
+      - "init"
+      - "init-system"
+      - "linux"
+      - "pid1"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
 ---
 
 # supanadit

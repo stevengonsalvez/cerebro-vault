@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 2, 9, 2, 1, 3, 0, 1, 0, 1, 0]
+pushes_per_week: [0, 0, 0, 6, 5, 2, 4, 0, 0, 1, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "playground-flight-booking"
+    title: "playground-flight-booking"
+    description: "Spring AI powered expert system demo"
+    language: "Java"
+    topics:
+      - "artificial-intelligence"
+      - "expert-system"
+      - "generative-ai"
+    stars_fact: 374
+    first_seen: null
+    last_push: "2026-02-14"
+  - name: "spring-ai-mcp-blogpost"
+    title: "spring-ai-mcp-blogpost"
+    description: "Companion example for the Spring AI MCP Intro blog post"
+    language: "Java"
+    topics: []
+    stars_fact: 32
+    first_seen: null
+    last_push: "2025-09-28"
+  - name: "voxxeddays2026-demo"
+    title: "voxxeddays2026-demo"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 52
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "calcite-sql-rewriter"
+    title: "calcite-sql-rewriter"
+    description: "JDBC driver that converts any INSERT, UPDATE and DELETE statements into append-only INSERTs. Instead of updating rows in-place it inserts the new version of the row along with version metadata"
+    language: "Java"
+    topics: []
+    stars_fact: 82
+    first_seen: null
+    last_push: "2017-03-27"
+  - name: "ing-guild-meetup-demo"
+    title: "ing-guild-meetup-demo"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "spring-ai-cli-chatbot"
+    title: "spring-ai-cli-chatbot"
+    description: "A command-line chatbot built with Spring AI that demonstrates Retrieval-Augmented Generation (RAG) and conversational memory capabilities."
+    language: "Java"
+    topics:
+      - "chatmemory"
+      - "rag"
+      - "spring-boot"
+      - "springai"
+    stars_fact: 69
+    first_seen: null
+    last_push: "2026-01-03"
 ---
 
 # tzolov

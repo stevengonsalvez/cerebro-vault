@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 1, 0, 4, 10, 27, 20, 8, 4, 0, 0, 1, 3]
+pushes_per_week: [0, 1, 0, 4, 14, 23, 25, 3, 4, 0, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    active_days: 5
+    pushes: 5
+    distinct_repos: 2
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 7
-    distinct_repos: 3
-    pushes_per_repo: 2.3333
-    active_days: 5
+    pushes: 5
+    distinct_repos: 2
+    pushes_per_repo: 2.5000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "herdr-web"
+    title: "herdr-web"
+    description: "Web-based client for https://herdr.dev/ terminal session manager"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 168
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "A collection of extensions for badlogic/pi-mono coding agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-02-23"
+  - name: "sedes"
+    title: "sedes"
+    description: "An opinionated, personal ADE that supports remote backends, agent tools exposed over a control plane and scriptable notification hooks including 2-way voice on Android."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "agent-access-broker"
+    title: "agent-access-broker"
+    description: "Scoped, audited access to service APIs for AI agents, with centralized policy enforcement and credential management."
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "assistant"
+    title: "assistant"
+    description: "Panel-based personal assistant with a plugin architecture for productivity workflows. AI agents share a workspace of notes, lists and other panels with the user. Supports Claude Code, Codex, and pi CLI agents with text and voice interfaces. Extend with custom plugins or use built-in plugins exported as skills with CLIs."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 92
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "workbench-ui"
+    title: "workbench-ui"
+    description: "Shared UI kit: plain CSS and React components for dense, desktop-first tool UIs"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # kcosr

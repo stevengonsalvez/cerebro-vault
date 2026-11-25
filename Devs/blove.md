@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [5, 9, 10, 23, 21, 37, 21, 6, 23, 0, 1, 1, 1]
+pushes_per_week: [4, 10, 11, 32, 13, 34, 23, 10, 17, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 157
     distinct_repos: 10
-    active_days: 45
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.5111
-  repo_per_active_day: 0.2222
+  push_per_day: 3.5682
+  repo_per_active_day: 0.2273
   not_owned_ratio: 0.8000
   basename_concentration: 0.1000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 13
-    distinct_repos: 5
-    pushes_per_repo: 2.6000
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
-    not_owned_owners: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 1
   "90d":
-    pushes: 158
+    pushes: 157
     distinct_repos: 10
-    pushes_per_repo: 15.8000
-    active_days: 45
+    pushes_per_repo: 15.7000
+    active_days: 44
     repos_not_owned: 8
     not_owned_basenames: 8
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "b4"
@@ -132,6 +132,6 @@ repos:
 
 # blove
 
-158 pushes across 10 repositories on 45 active days in the last 90 days of public GitHub push activity.
+157 pushes across 10 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/blove

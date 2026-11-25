@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 3, 1, 1, 2, 9, 0, 0, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 3, 1, 2, 1, 9, 0, 1, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "AnyList"
+    title: "AnyList"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "php_writeexcel"
+    title: "php_writeexcel"
+    description: "Johann Hanne's php lib to write excel file"
+    language: "PHP"
+    topics:
+      - "excel"
+      - "php"
+    stars_fact: 14
+    first_seen: null
+    last_push: "2020-04-21"
+  - name: "git-mirror"
+    title: "git-mirror"
+    description: "Git utility to clone a repo from anywhere on the file system to your regular project directory while mirroring the remote path"
+    language: "Rust"
+    topics:
+      - "deno"
+      - "git"
+      - "typescript"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "reverie"
+    title: "reverie"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "sasse"
+    title: "sasse"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-16"
+  - name: "website"
+    title: "website"
+    description: "personal website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # thoroc

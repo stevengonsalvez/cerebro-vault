@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c954be1eb1223fa4"
   - "eb166180687b6629"
-pushes_per_week: [12, 3, 18, 31, 28, 18, 15, 4, 3, 0, 0, 0, 0]
+pushes_per_week: [10, 3, 18, 35, 26, 16, 16, 4, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -31,18 +31,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
-    distinct_repos: 41
-    active_days: 40
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 130
+    distinct_repos: 39
+    active_days: 39
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.3000
-  repo_per_active_day: 1.0250
-  not_owned_ratio: 0.0976
-  basename_concentration: 0.0244
+  push_per_day: 3.3333
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.0513
+  basename_concentration: 0.0256
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 132
-    distinct_repos: 41
-    pushes_per_repo: 3.2195
-    active_days: 40
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 130
+    distinct_repos: 39
+    pushes_per_repo: 3.3333
+    active_days: 39
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "omarchy-plugin-orb"
@@ -131,6 +131,6 @@ repos:
 
 # tcballard
 
-132 pushes across 41 repositories on 40 active days in the last 90 days of public GitHub push activity.
+130 pushes across 39 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/tcballard

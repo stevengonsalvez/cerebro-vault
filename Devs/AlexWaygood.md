@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [6, 5, 8, 4, 9, 11, 4, 9, 6, 0, 0, 0, 0]
+pushes_per_week: [5, 6, 7, 4, 9, 11, 6, 11, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 12
-    active_days: 29
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.1379
-  repo_per_active_day: 0.4138
+  push_per_day: 2.1786
+  repo_per_active_day: 0.4286
   not_owned_ratio: 0.8333
   basename_concentration: 0.1667
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 62
+    pushes: 61
     distinct_repos: 12
-    pushes_per_repo: 5.1667
-    active_days: 29
+    pushes_per_repo: 5.0833
+    active_days: 28
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "typeshed-stats"
@@ -133,6 +133,6 @@ repos:
 
 # AlexWaygood
 
-62 pushes across 12 repositories on 29 active days in the last 90 days of public GitHub push activity.
+61 pushes across 12 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexWaygood

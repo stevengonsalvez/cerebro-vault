@@ -10,7 +10,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -83,6 +83,7 @@ provenance:
   - "c2db1cf2bc94be3c"
   - "cc2a7fed69a6e4ac"
   - "cdf0d63217ad659b"
+  - "d1a8a8c302ae6a4a"
   - "d320458473217aca"
   - "d46568f6f6a488d8"
   - "d9b88297cf0d952f"
@@ -102,7 +103,7 @@ provenance:
   - "fdc4cffb6fa79465"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [2, 0, 1, 5, 6, 4, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 6, 5, 4, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -119,18 +120,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 5
-    active_days: 13
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 18
+    distinct_repos: 4
+    active_days: 12
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4615
-  repo_per_active_day: 0.3846
+  push_per_day: 1.5000
+  repo_per_active_day: 0.3333
   not_owned_ratio: 1.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -155,16 +156,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 5
-    pushes_per_repo: 3.8000
-    active_days: 13
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 18
+    distinct_repos: 4
+    pushes_per_repo: 4.5000
+    active_days: 12
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
-  - "provenance: 90 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "provenance: 91 vault signal(s) — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "action-test-publish"
@@ -179,6 +180,6 @@ repos:
 
 # ashwin-ant
 
-19 pushes across 5 repositories on 13 active days in the last 90 days of public GitHub push activity.
+18 pushes across 4 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ashwin-ant

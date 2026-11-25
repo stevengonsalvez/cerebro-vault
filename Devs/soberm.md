@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 4, 0, 1, 7, 5, 0, 0, 5, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 1, 1, 8, 3, 0, 2, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nextjs-firefox-loading-loop-repro"
+    title: "nextjs-firefox-loading-loop-repro"
+    description: "Minimal reproduction: Next.js 16 infinite reload loop in Firefox with loading.tsx and slow async Server Components"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "amplify-url-shortener"
+    title: "amplify-url-shortener"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-03"
+  - name: "amplify-vue-template"
+    title: "amplify-vue-template"
+    description: "My Amplify Gen 2 starter application"
+    language: "Vue"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-07"
+  - name: "zkDKG"
+    title: "zkDKG"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2022-10-19"
+  - name: "zkOracle"
+    title: "zkOracle"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-03-07"
+  - name: "l2_x_chain_transfer"
+    title: "l2_x_chain_transfer"
+    description: null
+    language: "Solidity"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-03-07"
 ---
 
 # soberm

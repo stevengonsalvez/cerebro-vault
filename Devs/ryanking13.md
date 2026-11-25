@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 2, 4, 2, 0, 0, 1, 0, 0, 0, 0, 3]
+pushes_per_week: [0, 3, 1, 4, 2, 0, 0, 1, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "android-SSL-unpinning"
+    title: "android-SSL-unpinning"
+    description: "Bypass android application SSL-pinning"
+    language: "Python"
+    topics:
+      - "android"
+      - "apk"
+      - "https"
+      - "reverse-engineering"
+      - "ssl"
+    stars_fact: 210
+    first_seen: null
+    last_push: "2023-02-27"
+  - name: "awesome-korean-newsletters"
+    title: "awesome-korean-newsletters"
+    description: "한국어 뉴스레터 모음 / A curated list of awesome korean newsletters"
+    language: null
+    topics:
+      - "awesome"
+      - "korean"
+      - "newsletter"
+    stars_fact: 53
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "ctf-cheatsheet"
+    title: "ctf-cheatsheet"
+    description: "CTF, wargame cheatsheet"
+    language: "Python"
+    topics: []
+    stars_fact: 33
+    first_seen: null
+    last_push: "2018-11-29"
+  - name: "workerd-profile-python-workers"
+    title: "workerd-profile-python-workers"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "image-redraw-worker-test2"
+    title: "image-redraw-worker-test2"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "hyperdrive-test"
+    title: "hyperdrive-test"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-31"
 ---
 
 # ryanking13

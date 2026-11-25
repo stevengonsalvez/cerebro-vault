@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [1, 0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 1, 8]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 1, 8]
 windows:
   "7d":
     pushes: 8
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
-    distinct_repos: 6
-    active_days: 7
+    pushes: 14
+    distinct_repos: 5
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.1429
-  repo_per_active_day: 0.8571
-  not_owned_ratio: 0.1667
-  basename_concentration: 0.1667
+  push_per_day: 2.3333
+  repo_per_active_day: 0.8333
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,72 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 15
-    distinct_repos: 6
-    pushes_per_repo: 2.5000
-    active_days: 7
+    pushes: 14
+    distinct_repos: 5
+    pushes_per_repo: 2.8000
+    active_days: 6
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nest-graceful-shutdown-repro"
+    title: "nest-graceful-shutdown-repro"
+    description: "Reproduction: handlers in flight lose their reply when a NestJS microservice closes (Redis, MQTT, RabbitMQ, NATS, TCP)"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "samuelmbabhazi"
+    title: "samuelmbabhazi"
+    description: "Config files for my GitHub profile."
+    language: "Python"
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: ".github"
+    title: ".github"
+    description: "Default community health files and funding links"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "fugaji-releases"
+    title: "fugaji-releases"
+    description: "Fugaji app downloads (Android APK releases)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "findit-backend"
+    title: "findit-backend"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-29"
+  - name: "findit"
+    title: "findit"
+    description: "Alost and found management platform for university campuses in Rwanda*"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-01-25"
 ---
 
 # samuelmbabhazi
 
-15 pushes across 6 repositories on 7 active days in the last 90 days of public GitHub push activity.
+14 pushes across 5 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/samuelmbabhazi

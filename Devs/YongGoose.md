@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 4, 4, 6, 11, 1, 1, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "YongGoose"
+    title: "YongGoose"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "JPA-Shop-Example"
+    title: "JPA-Shop-Example"
+    description: "상품 주문등 간단한 쇼핑몰 구현"
+    language: "Java"
+    topics:
+      - "java"
+      - "javaspringboot"
+      - "spring-boot"
+      - "spring-mvc"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-03-15"
+  - name: "Maven-Central-utility-plugins-for-Gradle"
+    title: "Maven-Central-utility-plugins-for-Gradle"
+    description: "☀️ Gradle plugin that ensures smooth, error-free Maven Central publishing"
+    language: "Kotlin"
+    topics:
+      - "gradle"
+      - "gradle-kotlin-dsl"
+      - "maven-central"
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-01"
+  - name: "TIL"
+    title: "TIL"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-03-29"
+  - name: "seata-tc-cleanup-benchmark"
+    title: "seata-tc-cleanup-benchmark"
+    description: "Performance benchmarking for optimizing multi-threaded global_table cleanup in Seata Transaction Coordinator (TC), focusing on improving throughput under high concurrency."
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-06-07"
+  - name: "JAVA-CodingTest"
+    title: "JAVA-CodingTest"
+    description: null
+    language: "Java"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-12-02"
 ---
 
 # YongGoose

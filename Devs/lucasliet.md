@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [1, 0, 0, 1, 7, 14, 3, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 7, 13, 5, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,68 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "arrmate"
+    title: "arrmate"
+    description: "A companion app for Radarr and Sonarr instances."
+    language: "Dart"
+    topics:
+      - "app"
+      - "arr"
+      - "companion"
+      - "flutter"
+      - "radarr"
+      - "rudarr"
+      - "sonarr"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "opencode-classifier-plugin"
+    title: "opencode-classifier-plugin"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "opencode-openai-proxy"
+    title: "opencode-openai-proxy"
+    description: "docker image to expose openai compatible api from opencode"
+    language: "JavaScript"
+    topics:
+      - "docker"
+      - "openai"
+      - "opencode"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "ps5-custom-payloads"
+    title: "ps5-custom-payloads"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "opencode-mem"
+    title: "opencode-mem"
+    description: "Memory persistence between sessions in project scope for opencode"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "chatgpt-openai-proxy"
+    title: "chatgpt-openai-proxy"
+    description: "Use your chatgpt plan as an openai compatible api"
+    language: "Python"
+    topics:
+      - "api"
+      - "chatgpt"
+      - "openai"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-23"
 ---
 
 # lucasliet

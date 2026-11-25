@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 1, 1, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "test-mise-pypi-pep503-index-minimum-release-age"
+    title: "test-mise-pypi-pep503-index-minimum-release-age"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "test-renovate-mise-pypi-sidecar-missing-uv-python"
+    title: "test-renovate-mise-pypi-sidecar-missing-uv-python"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "test-renovate-e2e-mise-pypi-with-dependencies"
+    title: "test-renovate-e2e-mise-pypi-with-dependencies"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "test-renovate-mise-pypi-with"
+    title: "test-renovate-mise-pypi-with"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "test-renovate-minimumreleaseage-uv"
+    title: "test-renovate-minimumreleaseage-uv"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-05-29"
+  - name: "personal"
+    title: "personal"
+    description: "Personal website's project for Giscus integration"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-11-10"
 ---
 
 # sisp

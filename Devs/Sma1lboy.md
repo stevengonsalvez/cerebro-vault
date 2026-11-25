@@ -8,11 +8,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 2, 3, 12, 31, 33, 10, 12, 13, 0, 1, 0, 0]
+pushes_per_week: [4, 2, 3, 13, 32, 31, 10, 17, 8, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    active_days: 3
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 121
     distinct_repos: 13
     active_days: 36
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3889
+  push_per_day: 3.3611
   repo_per_active_day: 0.3611
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 4
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 4.0000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 122
+    pushes: 121
     distinct_repos: 13
-    pushes_per_repo: 9.3846
+    pushes_per_repo: 9.3077
     active_days: 36
     repos_not_owned: 3
     not_owned_basenames: 3
@@ -76,11 +76,82 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Unlimited-DeepL-Pro"
+    title: "Unlimited-DeepL-Pro"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2023-12-08"
+  - name: "rove"
+    title: "rove"
+    description: "All your coding agents, in one place. Claude Code, Codex, Copilot and more, side by side in your terminal."
+    language: "TypeScript"
+    topics:
+      - "agentic-ai"
+      - "ai"
+      - "ai-agents"
+      - "ai-coding-assistant"
+      - "anthropic"
+      - "bun"
+      - "claude-code"
+      - "cli"
+      - "codex"
+      - "coding-agent"
+      - "developer-tools"
+      - "git-worktree"
+      - "github-copilot"
+      - "llm"
+      - "multiplexer"
+      - "openai"
+      - "parallel-agents"
+      - "terminal"
+      - "tui"
+      - "typescript"
+    stars_fact: 188
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "pua-what-game"
+    title: "pua-what-game"
+    description: "PUA话术识别 — 沉浸式微信聊天模拟器，识别9种常见PUA操控手法的互动游戏"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-06"
+  - name: "sma1lboy.me"
+    title: "sma1lboy.me"
+    description: "personal introduction website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "claude-standup"
+    title: "claude-standup"
+    description: "One panel for every Claude Code session on your machine: what each agent needs from you, and what each one got done."
+    language: "TypeScript"
+    topics:
+      - "claude-code"
+      - "claude-code-mod"
+      - "claude-code-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # Sma1lboy
 
-122 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
+121 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

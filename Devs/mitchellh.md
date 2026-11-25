@@ -8,8 +8,8 @@ provenance_repos:
   - "ghostty-org/ghostty"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "03dc7a9cfb878de8"
 pushes_per_week: [0, 1, 0, 0, 4, 2, 4, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,65 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vouch"
+    title: "vouch"
+    description: "A community trust management system based on explicit vouches to participate."
+    language: "Nushell"
+    topics: []
+    stars_fact: 5196
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "zig-quickjs-ng"
+    title: "zig-quickjs-ng"
+    description: "Zig build and bindings for quickjs-ng"
+    language: "Zig"
+    topics: []
+    stars_fact: 122
+    first_seen: null
+    last_push: "2026-01-06"
+  - name: "go-libghostty"
+    title: "go-libghostty"
+    description: "[Mirror] Go bindings for libghostty-vt. Source of truth: https://tangled.org/mitchellh.com/go-libghostty"
+    language: "Go"
+    topics:
+      - "ghostty"
+      - "libghostty"
+    stars_fact: 165
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "nixos-config"
+    title: "nixos-config"
+    description: "My NixOS configurations."
+    language: "Nix"
+    topics: []
+    stars_fact: 3132
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "libxev"
+    title: "libxev"
+    description: "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API."
+    language: "Zig"
+    topics:
+      - "async"
+      - "c"
+      - "epoll"
+      - "io-uring"
+      - "kqueue"
+      - "wasi"
+      - "webassembly"
+      - "zig"
+    stars_fact: 3614
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "gophercloud-fork-40444fb"
+    title: "gophercloud-fork-40444fb"
+    description: "The repo name says it all."
+    language: "Go"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2015-04-03"
 ---
 
 # mitchellh

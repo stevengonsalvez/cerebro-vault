@@ -8,11 +8,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [0, 0, 0, 0, 5, 3, 3, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 4, 2, 3, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "indexnow-indexing-script"
+    title: "indexnow-indexing-script"
+    description: "Can't fix Google? Index your website on Bing, Yahoo, Yandex, and other alternative search engines."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 55
+    first_seen: null
+    last_push: "2024-05-11"
+  - name: "cpk-voice"
+    title: "cpk-voice"
+    description: "Three voice examples on CopilotKit v2: streaming turns, full duplex, and model turn-taking with Cartesia streaming STT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-03"
+  - name: "genaiui-exploration-apps"
+    title: "genaiui-exploration-apps"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "autowiki"
+    title: "autowiki"
+    description: "Initialize and maintain Karpathy-style LLM wikis in any project (CLI)"
+    language: "HTML"
+    topics:
+      - "ai"
+      - "ai-memory"
+      - "documentation"
+      - "karpathy-llm-wiki"
+      - "notebook"
+      - "wiki"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "react-aiwriter"
+    title: "react-aiwriter"
+    description: "Typewriter effect inspired by ChatGPT 🤖"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2023-11-01"
+  - name: "react-native-gesture-detector"
+    title: "react-native-gesture-detector"
+    description: "Create and detect custom, complex gestures in React Native. 🍭"
+    language: "JavaScript"
+    topics:
+      - "custom-gestures"
+      - "detection"
+      - "gesture"
+      - "react-native"
+      - "react-native-component"
+    stars_fact: 82
+    first_seen: null
+    last_push: "2023-01-06"
 ---
 
 # mxmzb

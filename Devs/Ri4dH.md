@@ -8,8 +8,8 @@ provenance_repos:
   - "Ri4dH/failtrace"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "8a80ff7a1f732ff5"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "failtrace"
+    title: "failtrace"
+    description: "Stop guessing why CI failed. Reproduce it locally."
+    language: "Go"
+    topics:
+      - "ci"
+      - "cli"
+      - "debugging"
+      - "developer-tools"
+      - "github-actions"
+      - "golang"
+    stars_fact: 15
+    first_seen: "2026-11-19T07:00:47.104391+00:00"
+    last_push: "2026-11-19"
+  - name: "Redrep"
+    title: "Redrep"
+    description: "A free, account-free workout tracker for iPhone: plan your week, log every set, and get a Redline score for every workout. A fork of openGym."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "Ri4dH"
+    title: "Ri4dH"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "4-Bit-Processor"
+    title: "4-Bit-Processor"
+    description: "A 4-bit CPU built from logic gates in the Digital simulator: ALU, program counter, memory, control logic."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-04"
+  - name: "AI-Fact-Checker"
+    title: "AI-Fact-Checker"
+    description: "TruthVerifier: a Chrome extension that fact-checks highlighted text with Gemini and live sources."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-06"
+  - name: "WorldCupPredictor"
+    title: "WorldCupPredictor"
+    description: "Explainable FIFA World Cup 2026 match predictions from a seven-model ensemble on live tournament data."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-30"
 ---
 
 # Ri4dH

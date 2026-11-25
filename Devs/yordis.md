@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 2, 45, 31, 27, 36, 35, 17, 17, 0, 0, 12, 2]
+pushes_per_week: [2, 2, 47, 31, 26, 35, 40, 15, 14, 0, 0, 12, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
-    distinct_repos: 5
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 3
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 226
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 22
-    distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 5
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 14
+    distinct_repos: 3
+    pushes_per_repo: 4.6667
+    active_days: 4
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
     pushes: 226
@@ -76,7 +76,35 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 45 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: ".github"
+    title: ".github"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
+  - name: "yordis"
+    title: "yordis"
+    description: "About me"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-21"
+  - name: "postcss-google-font"
+    title: "postcss-google-font"
+    description: "PostCSS plugin for import Google fonts"
+    language: "JavaScript"
+    topics:
+      - "font"
+      - "google-fonts"
+      - "postcss"
+      - "postcss-google-font"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-06-18"
 ---
 
 # yordis

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [2, 0, 3, 4, 12, 3, 3, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 0, 3, 6, 11, 2, 3, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 11
-    active_days: 19
+    pushes: 27
+    distinct_repos: 10
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 1.4737
-  repo_per_active_day: 0.5789
-  not_owned_ratio: 0.3636
-  basename_concentration: 0.2727
+  push_per_day: 1.5000
+  repo_per_active_day: 0.5556
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.3000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
-    distinct_repos: 11
-    pushes_per_repo: 2.5455
-    active_days: 19
+    pushes: 27
+    distinct_repos: 10
+    pushes_per_repo: 2.7000
+    active_days: 18
     repos_not_owned: 4
     not_owned_basenames: 3
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gpui-pre-ios"
@@ -137,6 +137,6 @@ repos:
 
 # HsiangNianian
 
-28 pushes across 11 repositories on 19 active days in the last 90 days of public GitHub push activity.
+27 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/HsiangNianian

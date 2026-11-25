@@ -8,8 +8,8 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 0, 2, 54, 15, 1, 1, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,87 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "socal-snow"
+    title: "socal-snow"
+    description: "Hourly snowpack model runs on real weather for Southern California touring peaks. Experimental and unvalidated, not an avalanche forecast."
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "socal-snowpack-sim"
+    title: "socal-snowpack-sim"
+    description: "Terrain and snowpack simulator for 34 Southern California ski-touring peaks, with a 3D map viewer of simulated winters. A learning tool, not an avalanche forecast."
+    language: "JavaScript"
+    topics:
+      - "3d-map"
+      - "avalanche"
+      - "backcountry-skiing"
+      - "data-visualization"
+      - "dem"
+      - "freeze-thaw"
+      - "gis"
+      - "lidar"
+      - "python"
+      - "san-bernardino-mountains"
+      - "san-gabriel-mountains"
+      - "simulation"
+      - "ski-touring"
+      - "snowpack"
+      - "southern-california"
+      - "terrain-analysis"
+      - "threejs"
+      - "usgs"
+      - "vite"
+      - "webgl"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "ridgewarden-library"
+    title: "ridgewarden-library"
+    description: "Offline library for AREDN meshes: Wikipedia, regional maps and NWS alerts fetched once and mirrored to every site"
+    language: "JavaScript"
+    topics:
+      - "amateur-radio"
+      - "aredn"
+      - "ham-radio"
+      - "kiwix"
+      - "mesh-network"
+      - "offline-first"
+      - "pmtiles"
+      - "raspberry-pi"
+      - "ridgewarden"
+      - "rust"
+      - "weather-alerts"
+      - "wikipedia"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "capture-bypass"
+    title: "capture-bypass"
+    description: "DLL injection tool to bypass screen-capture protection on Windows 10/11"
+    language: "Rust"
+    topics: []
+    stars_fact: 61
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "beam"
+    title: "beam"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "deadpoint"
+    title: "deadpoint"
+    description: "Detect weak PRNG usage, prove exploitability by recovering generator state and predicting future & past outputs (MT19937/LCG, partial outputs via an SMT/Z3 model), then recommend the CSPRNG fix. Python library + CLI."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-12"
 ---
 
 # Londopy

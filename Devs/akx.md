@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [4, 1, 3, 2, 7, 5, 7, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [2, 1, 3, 3, 8, 3, 7, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    active_days: 18
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7222
-  repo_per_active_day: 0.6111
+  push_per_day: 1.7059
+  repo_per_active_day: 0.6471
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 31
+    pushes: 29
     distinct_repos: 11
-    pushes_per_repo: 2.8182
-    active_days: 18
+    pushes_per_repo: 2.6364
+    active_days: 17
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dot3k-c"
@@ -133,6 +133,6 @@ repos:
 
 # akx
 
-31 pushes across 11 repositories on 18 active days in the last 90 days of public GitHub push activity.
+29 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akx

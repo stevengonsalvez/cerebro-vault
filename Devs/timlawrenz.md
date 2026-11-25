@@ -8,11 +8,11 @@ provenance_repos:
   - "antirez/ds4"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 1, 0, 3, 2, 0, 0, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 3, 2, 0, 0, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ratiocinator"
+    title: "ratiocinator"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "jubilant-palm-tree"
+    title: "jubilant-palm-tree"
+    description: "A research initiative pivoting from human-readable code generation to pure, topological execution matrices."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-25"
+  - name: "leica-look"
+    title: "leica-look"
+    description: "Quantifying and transferring the Leica lens rendering look via deep learning"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
+  - name: "image_embed"
+    title: "image_embed"
+    description: "Simple FastAPI service that creates embeddings for images"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "stratum-hq"
+    title: "stratum-hq"
+    description: "Stratum-HQ is a high-fidelity human dataset enrichment engine. It transforms raw images into dense, multi-layered training data by integrating T5-Large text embeddings, DINOv3 visual and spatial tokens, and 133-point DWPose keypoints. Optimized for Sapiens and consumer GPUs, it bridges the gap between pixels and anatomical structure."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-14"
+  - name: "Groundwork"
+    title: "Groundwork"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-26"
 ---
 
 # timlawrenz

@@ -8,11 +8,11 @@ provenance_repos:
   - "BigPizzaV3/CodexPlusPlus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [0, 0, 1, 27, 30, 4, 2, 0, 0, 0, 0, 0, 4]
+pushes_per_week: [0, 0, 9, 36, 13, 4, 2, 0, 0, 0, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "baby_panel_for_cecilia"
+    title: "baby_panel_for_cecilia"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "growdesk-server"
+    title: "growdesk-server"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "agy-switch"
+    title: "agy-switch"
+    description: "Multi-Account Switcher & Real-Time Quota Dashboard for Google Antigravity CLI"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "droiddeck-support"
+    title: "droiddeck-support"
+    description: "DroidDeck support and privacy information"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-24"
+  - name: "antigravity-cli-delegate"
+    title: "antigravity-cli-delegate"
+    description: "Low-context Gemini delegation skill with event-driven MCP progress, compact results, and no polling"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
+  - name: "st-card-translate"
+    title: "st-card-translate"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-22"
 ---
 
 # WangZhuo2015

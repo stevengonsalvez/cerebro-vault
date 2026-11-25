@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 1, 3, 2, 2, 1, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 2, 2, 2, 1, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,70 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-vscode-workbench"
+    title: "dsh-vscode-workbench"
+    description: "DeepSeek Harness 的 VS Code 风格工作台：资源管理器、Monaco 编辑、Markdown 与 PDF 预览、全文搜索、Git 暂存与提交、可分屏的官方终端和内置或系统浏览器都在同一界面，右侧可直接和 DSH 对话，主题、布局与语言服务在 DSH 设置中统一管理。"
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "dsh-plugin-market"
+      - "git"
+      - "vscode-theme"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "tingfeng347"
+    title: "tingfeng347"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "windvim"
+    title: "windvim"
+    description: "WindVim 是基于 LazyVim 的个人定制 Neovim 配置，面向习惯终端开发、希望使用中文界面并结合 AI 编程工具的用户。沿用 LazyVim 的插件生态、语言支持与快捷键，再加入一套可以直接使用的界面与工作区配置。"
+    language: "Lua"
+    topics:
+      - "code"
+      - "lazyvim"
+      - "nvim"
+      - "terminal"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "mactools"
+    title: "mactools"
+    description: "macOS 工具集：Homebrew 软件管理、环境诊断、清理、镜像与 AI 编程工具。ma install / maci"
+    language: "Python"
+    topics:
+      - "homebrew"
+      - "macos"
+      - "terminal-app"
+      - "tools"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "repo2tree"
+    title: "repo2tree"
+    description: "Explore local codebases with interactive code maps and step-by-step static walkthroughs."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-21"
 ---
 
 # tingfeng347

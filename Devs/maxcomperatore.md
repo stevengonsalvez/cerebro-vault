@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 1, 4, 15, 3, 1, 1, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 5, 16, 1, 1, 1, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,30 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "nexusgene"
+    title: "nexusgene"
+    description: "Nexusedit (NEXUS-880): In vivo precision Cas12a-LNP base-editing platform targeting TTR amyloidosis."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "auranucleix"
+    title: "auranucleix"
+    description: "Auraglipron (AURA-712): De novo allosteric Gs-biased oral GLP-1 receptor agonist with high predicted oral bioavailability and reduced nausea profile."
+    language: "HTML"
+    topics:
+      - "admet"
+      - "alphafold"
+      - "cheminformatics"
+      - "computational-biology"
+      - "drug-discovery"
+      - "glp-1"
+      - "rdkit"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
 ---
 
 # maxcomperatore

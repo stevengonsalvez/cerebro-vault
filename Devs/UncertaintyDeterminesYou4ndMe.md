@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 0, 0, 4, 0, 1, 0, 1, 0, 0, 0, 0]
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 6
     distinct_repos: 3
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 6
     distinct_repos: 3
@@ -76,7 +76,91 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-reading-room"
+    title: "dsh-reading-room"
+    description: "阅读室：在 DeepSeek Harness (dsh) 里用母语读原版书。导入 EPUB/TXT/Markdown/网页，按章节由模型精译，点一下看原文；选中即可追问。"
+    language: "JavaScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "dsh-plugin"
+      - "epub"
+      - "reader"
+      - "translation"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "dsh-thesis-trail"
+    title: "dsh-thesis-trail"
+    description: "循迹：在 DeepSeek Harness 里长期跟踪可证伪的投资命题，按时用 DeepSeek API 联网研究，人和 AI 共编议题"
+    language: "JavaScript"
+    topics:
+      - "deepseek"
+      - "deepseek-harness"
+      - "dsh-plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "hibi"
+    title: "hibi"
+    description: "Hibi (日々) — markdown-backed menu bar todo for macOS with time horizons, Eisenhower quadrants, and a task-bound Pomodoro"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "flintrade"
+    title: "flintrade"
+    description: "An autonomous LLM paper-trading agent that dreams, remembers, and reviews its own trades"
+    language: "Go"
+    topics:
+      - "ai-agent"
+      - "algorithmic-trading"
+      - "autonomous-agent"
+      - "claude"
+      - "lancedb"
+      - "llm-agent"
+      - "memory"
+      - "mygo"
+      - "paper-trading"
+      - "quantitative-trading"
+      - "trading-bot"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "powershell-windows-cli-agent-skill"
+    title: "powershell-windows-cli-agent-skill"
+    description: "AI agent skill for PowerShell and Windows CMD/Batch. Makes agents write correct, safe Windows commands."
+    language: "Python"
+    topics:
+      - "active-directory"
+      - "agent"
+      - "agent-skill"
+      - "ai-agent"
+      - "batch"
+      - "cim"
+      - "cli"
+      - "cmd"
+      - "command-line"
+      - "powershell"
+      - "powershell-7"
+      - "registry"
+      - "skill"
+      - "windows"
+      - "windows-automation"
+      - "wmi"
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-06-12"
+  - name: "memo"
+    title: "memo"
+    description: "a memo"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-29"
 ---
 
 # UncertaintyDeterminesYou4ndMe

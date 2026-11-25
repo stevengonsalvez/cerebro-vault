@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [7, 0, 10, 26, 37, 29, 19, 0, 9, 0, 0, 0, 1]
+pushes_per_week: [7, 0, 18, 28, 28, 28, 19, 0, 9, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 138
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 7
-    distinct_repos: 2
-    pushes_per_repo: 3.5000
-    active_days: 3
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 138
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "twitter-account-location-in-username"
+    title: "twitter-account-location-in-username"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 330
+    first_seen: null
+    last_push: "2025-11-23"
+  - name: "shiptalkers"
+    title: "shiptalkers"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 794
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "minecraft-rhys-dev"
+    title: "minecraft-rhys-dev"
+    description: "Client mods for the minecraft.rhys.dev server (Modrinth App pack)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "hogchat"
+    title: "hogchat"
+    description: "Chat with your PostHog data"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 168
+    first_seen: null
+    last_push: "2024-03-02"
+  - name: "personal-site"
+    title: "personal-site"
+    description: null
+    language: "Astro"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "epstein-files-browser"
+    title: "epstein-files-browser"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 759
+    first_seen: null
+    last_push: "2025-12-20"
 ---
 
 # RhysSullivan

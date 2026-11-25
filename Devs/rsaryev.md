@@ -8,11 +8,11 @@ provenance_repos:
   - "localixai/tokendoctor"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "fba317a26ce46e4d"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 3, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 7
-    active_days: 5
+    pushes: 6
+    distinct_repos: 6
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 8
-    distinct_repos: 7
-    pushes_per_repo: 1.1429
-    active_days: 5
+    pushes: 6
+    distinct_repos: 6
+    pushes_per_repo: 1.0000
+    active_days: 4
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
@@ -76,7 +76,15 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "habit-tracker"
+    title: "habit-tracker"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # rsaryev

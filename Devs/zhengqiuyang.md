@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 1, 6, 2, 0, 5, 3, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 1, 7, 1, 0, 5, 3, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bug-vet"
+    title: "bug-vet"
+    description: "Vet silent contract bugs with executable red/green proof: structural oracles, adversarial falsification, fail-closed evidence ledger, SARIF, and an MCP server any coding agent can call."
+    language: "Python"
+    topics:
+      - "ai-agents"
+      - "bug-detection"
+      - "code-analysis"
+      - "developer-tools"
+      - "mcp"
+      - "mcp-server"
+      - "python"
+      - "sarif"
+      - "static-analysis"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "pixel-idle-dungeon"
+    title: "pixel-idle-dungeon"
+    description: "余烬深渊 · Ember Abyss — 零构建像素风地下城挂机 RPG"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "interview-mate"
+    title: "interview-mate"
+    description: "🎯 AI Agent 驱动的面试训练系统：智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达 / 简历工坊，零依赖本地运行"
+    language: "JavaScript"
+    topics:
+      - "ai-agent"
+      - "flashcards"
+      - "interview"
+      - "job-search"
+      - "llm"
+      - "mock-interview"
+      - "self-hosted"
+      - "spaced-repetition"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "dsh-extra-income"
+    title: "dsh-extra-income"
+    description: "DeepSeek Harness plugin that bundles the monetize skill: turn a career history into an honest, actionable side-income plan"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "skills"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "lexiflow"
+    title: "lexiflow"
+    description: "本地优先的全能英语学习应用:沉浸阅读+SM-2+词书+AI 口语(BYO key),零构建零依赖"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "dsh-readme-polish"
+    title: "dsh-readme-polish"
+    description: "DeepSeek Harness plugin that bundles the readme-polish skill: upgrade an existing README to the standard of top repos in its own ecosystem"
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "deepseek-harness"
+      - "dsh-plugin"
+      - "readme"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
 ---
 
 # zhengqiuyang

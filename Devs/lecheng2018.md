@@ -8,8 +8,8 @@ provenance_repos:
   - "agentscope-ai/QwenPaw"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "541318303a272608"
 pushes_per_week: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2]
@@ -76,7 +76,81 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "dsh-qq-hub"
+    title: "dsh-qq-hub"
+    description: "把 QQ 接入 DeepSeek Harness：经 SnowLuma / OneBot v11 接私聊与群聊，支持按会话隔离的记忆、多平台链接解析与网页管理面板。"
+    language: "JavaScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh-agent"
+      - "dsh-plugin"
+      - "napcat"
+      - "onebot"
+      - "qq"
+      - "snowluma"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "luci-theme-falcon-public"
+    title: "luci-theme-falcon-public"
+    description: "Falcon — 现代卡片式 OpenWrt LuCI 主题：侧边栏布局、光纤/PON 实时光链路、在线设备与限速、全动态接口发现"
+    language: "JavaScript"
+    topics:
+      - "gpon"
+      - "luci"
+      - "luci-theme"
+      - "openwrt"
+      - "openwrt-theme"
+      - "router"
+      - "theme"
+      - "xgpon"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "dsh-qq-hub-mods"
+    title: "dsh-qq-hub-mods"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "adblock-rules"
+    title: "adblock-rules"
+    description: "自动更新的广告过滤规则（dnsmasq格式），供OpenWrt定时拉取"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "dsh-moyu"
+    title: "dsh-moyu"
+    description: "QQ Bot IM channel plugin for deepseek-harness — 官方 dsh-qqbot 定制 fork：字母问答卡 / dsh-meme 零配置桥 / 主动消息配额+暂存箱 / 健康面板"
+    language: "TypeScript"
+    topics:
+      - "deepseek-harness"
+      - "dsh"
+      - "qq-bot"
+      - "qqbot"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "qwenpaw-simple-mode"
+    title: "qwenpaw-simple-mode"
+    description: "A restrained QwenPaw Console theme plugin: collapses scattered buttons, unifies breakpoints, and declutters the mobile layout."
+    language: "JavaScript"
+    topics:
+      - "console"
+      - "mobile"
+      - "qwenpaw"
+      - "qwenpaw-plugin"
+      - "responsive"
+      - "theme"
+      - "ui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-31"
 ---
 
 # lecheng2018

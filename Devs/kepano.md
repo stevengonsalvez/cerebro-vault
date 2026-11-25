@@ -8,11 +8,11 @@ provenance_repos:
   - "kepano/obsidian-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "83e0e833f0504fcd"
-pushes_per_week: [0, 1, 0, 4, 6, 1, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 3, 6, 1, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,94 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "defuddle"
+    title: "defuddle"
+    description: "Get the main content of any page as Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "defuddle"
+      - "html"
+      - "markdown"
+      - "md"
+      - "obsidian"
+      - "readability"
+    stars_fact: 10177
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "clipper-templates"
+    title: "clipper-templates"
+    description: "Obsidian Web Clipper templates for various sites."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+    stars_fact: 1580
+    first_seen: null
+    last_push: "2026-03-13"
+  - name: "kepano-obsidian"
+    title: "kepano-obsidian"
+    description: "My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in."
+    language: null
+    topics:
+      - "markdown"
+      - "obsidian"
+      - "obsidian-md"
+      - "obsidian-vault"
+    stars_fact: 6371
+    first_seen: null
+    last_push: "2026-01-09"
+  - name: "obsidian-minimal"
+    title: "obsidian-minimal"
+    description: "A distraction-free and highly customizable theme for Obsidian."
+    language: "CSS"
+    topics:
+      - "dark-mode"
+      - "dark-theme"
+      - "light-theme"
+      - "obsidian"
+      - "obsidian-md"
+      - "obsidian-theme"
+      - "theme"
+    stars_fact: 5750
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "flexoki"
+    title: "flexoki"
+    description: "An inky color scheme for prose and code."
+    language: "CSS"
+    topics:
+      - "alacritty"
+      - "color"
+      - "color-scheme"
+      - "colors"
+      - "ghostty"
+      - "intellij"
+      - "iterm2"
+      - "kitty"
+      - "neovim"
+      - "neovim-colorscheme"
+      - "obsidian"
+      - "sublime-text"
+      - "tailwind"
+      - "terminal-colors"
+      - "theme"
+      - "vscode"
+      - "vscode-theme"
+      - "wezterm"
+      - "xresources"
+    stars_fact: 3866
+    first_seen: null
+    last_push: "2026-03-07"
+  - name: "40-questions"
+    title: "40-questions"
+    description: "Questions that I ask myself at the end of each year and each decade."
+    language: null
+    topics: []
+    stars_fact: 1952
+    first_seen: null
+    last_push: "2026-03-09"
 ---
 
 # kepano

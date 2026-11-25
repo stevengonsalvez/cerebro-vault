@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [1, 1, 3, 3, 2, 2, 0, 0, 2, 0, 0, 0, 0]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Phoenix500526"
+    title: "Phoenix500526"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "Phoenix500526.github.io"
+    title: "Phoenix500526.github.io"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "2048"
+    title: "2048"
+    description: "My project"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2014-10-31"
+  - name: "Tmuduo"
+    title: "Tmuduo"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2020-12-09"
+  - name: "TinyORM"
+    title: "TinyORM"
+    description: null
+    language: "C++"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2021-03-04"
+  - name: "rust-practice"
+    title: "rust-practice"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-01-22"
 ---
 
 # Phoenix500526

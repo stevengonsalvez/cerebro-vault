@@ -8,8 +8,8 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0, 1, 0]
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 5
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
     pushes: 5
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mDNSSupervisor"
+    title: "mDNSSupervisor"
+    description: "Monitor mDNSResponder and restart it when it's out of control"
+    language: "Go"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2020-11-28"
+  - name: "rust-ffmpeg"
+    title: "rust-ffmpeg"
+    description: "Safe FFmpeg wrapper."
+    language: "Rust"
+    topics: []
+    stars_fact: 2026
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "ets"
+    title: "ets"
+    description: "Command output timestamper"
+    language: "Go"
+    topics:
+      - "command-line"
+      - "golang"
+      - "pty"
+      - "timestamping"
+    stars_fact: 185
+    first_seen: null
+    last_push: "2024-12-24"
+  - name: "Typeset-EGA-SGA"
+    title: "Typeset-EGA-SGA"
+    description: "Typeset version of EGA and SGA by Grothendieck."
+    language: null
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2014-01-28"
+  - name: "homebrew-npm-noob"
+    title: "homebrew-npm-noob"
+    description: "Generate Homebrew formulae for npm packages"
+    language: "Python"
+    topics: []
+    stars_fact: 44
+    first_seen: null
+    last_push: "2023-02-26"
+  - name: "repocards"
+    title: "repocards"
+    description: "Auto-generate GitHub-style repository cards with GitHub Actions"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # zmwangx

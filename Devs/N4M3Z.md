@@ -8,11 +8,11 @@ provenance_repos:
   - "agavra/tuicr"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [5, 0, 4, 18, 5, 1, 0, 3, 3, 0, 1, 0, 0]
+pushes_per_week: [1, 0, 4, 21, 2, 1, 0, 4, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 10
-    active_days: 18
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 0.5556
+  push_per_day: 2.2500
+  repo_per_active_day: 0.6250
   not_owned_ratio: 0.5000
   basename_concentration: 0.1000
   shapes: []
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 3
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
-    pushes: 40
+    pushes: 36
     distinct_repos: 10
-    pushes_per_repo: 4.0000
-    active_days: 18
+    pushes_per_repo: 3.6000
+    active_days: 16
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 18 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "obisidian-web-clipper"
+    title: "obisidian-web-clipper"
+    description: "Obsidian Web Clipper Bookmarklet to save articles and pages from the web (for Safari, Chrome, Firefox, and mobile browsers)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2022-01-07"
+  - name: "html-tools"
+    title: "html-tools"
+    description: "Browser runtime and Python tooling for HTML pages: annotations, high contrast, frame fit, bundling, hash-checked export"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "lsrules"
+    title: "lsrules"
+    description: "Little Snitch policy references and offline validators."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Personal Homebrew tap (proton-drive-cli: official Proton Drive CLI binary)"
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "chezmoi-managed dotfiles"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "rust-cache"
+    title: "rust-cache"
+    description: "Prune stale cargo build output every night, including leftover macOS debug objects"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
 ---
 
 # N4M3Z
 
-40 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
+36 pushes across 10 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/N4M3Z

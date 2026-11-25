@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [1, 0, 1, 2, 1, 4, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 1, 1, 4, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ecoflow-monitor"
+    title: "ecoflow-monitor"
+    description: "Backend service streaming live EcoFlow DELTA 3 telemetry via the private app API — REST + Prometheus + rules/webhooks + MQTT re-publish"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-15"
+  - name: "pi-output-styles"
+    title: "pi-output-styles"
+    description: "Named, swappable, append-only system-prompt styles for Oh My Pi (OMP) and Pi — with a live /style switcher."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "blog"
+    title: "blog"
+    description: "Blog build with Astro"
+    language: "XSLT"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "LoneExile"
+    title: "LoneExile"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "zmk_config"
+    title: "zmk_config"
+    description: "Personal ZMK configuration"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: ".dotfiles"
+    title: ".dotfiles"
+    description: "Dotfile with Nix"
+    language: "Shell"
+    topics:
+      - "archlinux"
+      - "awesomewm"
+      - "dotfiles"
+      - "dotfiles-linux"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # LoneExile

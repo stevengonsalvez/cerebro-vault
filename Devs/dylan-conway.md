@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "0b22ca37fd3884c9"
-pushes_per_week: [3, 12, 22, 60, 21, 19, 14, 14, 25, 0, 4, 3, 5]
+pushes_per_week: [1, 12, 27, 57, 21, 17, 18, 21, 14, 1, 3, 3, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 2
-    active_days: 10
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 202
+    pushes: 200
     distinct_repos: 5
-    active_days: 48
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.2083
-  repo_per_active_day: 0.1042
+  push_per_day: 4.3478
+  repo_per_active_day: 0.1087
   not_owned_ratio: 1.0000
   basename_concentration: 0.2000
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 8.5000
-    active_days: 10
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 202
+    pushes: 200
     distinct_repos: 5
-    pushes_per_repo: 40.4000
-    active_days: 48
+    pushes_per_repo: 40.0000
+    active_days: 46
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "3dca"
@@ -137,6 +137,6 @@ repos:
 
 # dylan-conway
 
-202 pushes across 5 repositories on 48 active days in the last 90 days of public GitHub push activity.
+200 pushes across 5 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/dylan-conway

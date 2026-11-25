@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 4, 8, 17, 25, 21, 5, 2, 2, 0, 1, 0, 0]
+pushes_per_week: [0, 4, 9, 19, 24, 19, 6, 2, 1, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 11
-    active_days: 36
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.3889
-  repo_per_active_day: 0.3056
+  push_per_day: 2.4286
+  repo_per_active_day: 0.3143
   not_owned_ratio: 0.6364
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 86
+    pushes: 85
     distinct_repos: 11
-    pushes_per_repo: 7.8182
-    active_days: 36
+    pushes_per_repo: 7.7273
+    active_days: 35
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "loreai"
@@ -135,6 +135,6 @@ repos:
 
 # BYK
 
-86 pushes across 11 repositories on 36 active days in the last 90 days of public GitHub push activity.
+85 pushes across 11 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/BYK

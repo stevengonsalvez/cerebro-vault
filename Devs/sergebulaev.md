@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [2, 1, 6, 1, 2, 2, 0, 5, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 3, 4, 3, 0, 2, 5, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,156 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "linkedin-skills"
+    title: "linkedin-skills"
+    description: "Claude skills for LinkedIn. 12 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-content"
+      - "ai-marketing"
+      - "anthropic"
+      - "awesome-claude"
+      - "claude-code"
+      - "claude-skills"
+      - "content-creation"
+      - "content-engineering"
+      - "linkedin"
+      - "linkedin-automation"
+      - "linkedin-engineering"
+      - "llm-tools"
+      - "openclaw-skill"
+      - "personal-branding"
+      - "prompt-engineering"
+      - "skill-md"
+      - "social-media-automation"
+    stars_fact: 6040
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "instagram-skills"
+    title: "instagram-skills"
+    description: "Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtag strategy, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agents"
+      - "ai-marketing"
+      - "captions"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "content-creation"
+      - "content-engineering"
+      - "hashtags"
+      - "instagram"
+      - "instagram-marketing"
+      - "marketing-automation"
+      - "openclaw-skill"
+      - "publora"
+      - "reels"
+      - "social-media-marketing"
+    stars_fact: 877
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "tiktok-skills"
+    title: "tiktok-skills"
+    description: "TikTok marketing skills for Claude Code and Codex: 3-second video hooks, captions, trend mapping, and a weekly plan. Draft, humanize, and publish via Publora. MIT. Content engineering by Creative Content Crafts."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agents"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "content-creation"
+      - "content-engineering"
+      - "marketing-automation"
+      - "openclaw-skill"
+      - "publora"
+      - "short-form-video"
+      - "social-media-marketing"
+      - "tiktok"
+      - "tiktok-marketing"
+      - "video-hooks"
+    stars_fact: 134
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "x-skills"
+    title: "x-skills"
+    description: "X (Twitter) marketing skills for Claude Code and Codex: write tweets, threads, and replies in your voice, strip AI tells, and publish via Publora. Open source, MIT. Content engineering by Creative Content Crafts."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agents"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "content-creation"
+      - "content-engineering"
+      - "marketing-automation"
+      - "openclaw-skill"
+      - "publora"
+      - "social-media-marketing"
+      - "tweets"
+      - "twitter"
+      - "twitter-marketing"
+      - "x-twitter"
+    stars_fact: 187
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "threads-skills"
+    title: "threads-skills"
+    description: "Threads marketing skills for Claude Code and Codex: posts, multi-post threads, hooks, replies, and a weekly plan in your voice. Publish via Publora. Open source, MIT. Content engineering by Creative Content Crafts."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agents"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "content-creation"
+      - "content-engineering"
+      - "marketing-automation"
+      - "meta"
+      - "openclaw-skill"
+      - "publora"
+      - "social-media-marketing"
+      - "threads"
+      - "threads-marketing"
+    stars_fact: 73
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "youtube-skills"
+    title: "youtube-skills"
+    description: "YouTube and YouTube Shorts marketing skills for Claude Code and Codex: high-CTR titles, SEO descriptions, retention hooks, thumbnails, and a content plan. Publish via Publora. MIT. Content engineering by Creative Content Crafts."
+    language: "Python"
+    topics:
+      - "agent-skill"
+      - "ai-agents"
+      - "ai-marketing"
+      - "claude-code"
+      - "claude-skills"
+      - "codex"
+      - "content-creation"
+      - "content-engineering"
+      - "marketing-automation"
+      - "openclaw-skill"
+      - "publora"
+      - "social-media-marketing"
+      - "thumbnails"
+      - "video-marketing"
+      - "youtube"
+      - "youtube-marketing"
+      - "youtube-shorts"
+    stars_fact: 102
+    first_seen: null
+    last_push: "2026-11-18"
 ---
 
 # sergebulaev

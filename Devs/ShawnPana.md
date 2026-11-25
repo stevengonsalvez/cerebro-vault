@@ -8,8 +8,8 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 0, 1, 1, 8, 0, 3, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "screenstudio-cli"
+    title: "screenstudio-cli"
+    description: "an agent-ready CLI tool to automate Screen Studio"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-04-12"
+  - name: "smux"
+    title: "smux"
+    description: "tmux config with built-in terminal automation and agent-to-agent communication."
+    language: "Shell"
+    topics: []
+    stars_fact: 1534
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "ophanim"
+    title: "ophanim"
+    description: "a terminal with a built-in browser"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-04-26"
+  - name: "ShawnPana"
+    title: "ShawnPana"
+    description: "profile-maxxing"
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "aurl"
+    title: "aurl"
+    description: "A command line tool for turning any API into a CLI command, supporting OpenAPI 3.0, OpenAPI 3.1, Swagger 2.0, and GraphQL. aurl auto-detects authentication, validates requests against the spec, and generates documentation from introspection."
+    language: "Go"
+    topics: []
+    stars_fact: 169
+    first_seen: null
+    last_push: "2026-03-21"
+  - name: "personal-portfolio"
+    title: "personal-portfolio"
+    description: "A personal portfolio using Three.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-12"
 ---
 
 # ShawnPana

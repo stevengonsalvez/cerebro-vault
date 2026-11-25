@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 2, 12, 38, 10, 15, 2, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 11, 38, 10, 15, 3, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "winwal"
+    title: "winwal"
+    description: "A PowerShell wrapper around the pywal tool"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 58
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "copilot.pwsh"
+    title: "copilot.pwsh"
+    description: "copilot completions for powershell"
+    language: "PowerShell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-02-19"
+  - name: "scarypilot"
+    title: "scarypilot"
+    description: "Copilot CLI Plugin Marketplace"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "pi-mono"
+    title: "pi-mono"
+    description: "Vibe coded pi related projects"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "scarydex"
+    title: "scarydex"
+    description: "personal codex marketplace"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "homebrew-formulae"
+    title: "homebrew-formulae"
+    description: "homebrew tap for personal projects/forks"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
 ---
 
 # scaryrawr

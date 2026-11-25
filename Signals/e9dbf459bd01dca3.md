@@ -1,22 +1,27 @@
 ---
-title: "firecrawl/firecrawl: The API to search, scrape, and interact with the web at scale. 🔥"
-category: agentic-saas
-tags: [ai/tool-pairing]
+title: "firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API."
+category: vibe-coding
+tags: [cerebro/signal, repo/trending]
+topic_tags: [repo/trending]
+source_tags: []
+entity_tags: []
+artifact_tags: [cerebro/signal]
+workflow_tags: []
 source: github
 url: https://github.com/firecrawl/firecrawl
-score: 0.70
-reason: "Web interaction API; core tool for agentic automation."
+score: 0.60
+reason: "Agent data infrastructure repo: search and scrape for agents"
+repo: "firecrawl/firecrawl"
+stars: "991"
 captured: 2026-06-23T06:00:02.598395+00:00
 rating:
 ---
-# firecrawl/firecrawl: The API to search, scrape, and interact with the web at scale. 🔥
+# firecrawl/firecrawl: Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
 
-> Web interaction API; core tool for agentic automation.
+> Agent data infrastructure repo: search and scrape for agents
 
-The API to search, scrape, and interact with the web at scale. 🔥 The web context API to find sources, extract content, and turn it into clean Markdown or structured data your agents can ship with. Open source and available as a hosted service.
-Pst. Hey, you, join our stargazers :)
-- Industry-leading reliability: Covers 96% of the web, including JS-heavy pages — no proxy headaches, just clean data (see benchmarks)
-- Blazingly fast: P95 latency of 3.4s across millions of pages, built for real-time agents and dynamic apps
-- LLM-ready output: Clean markdown, structured JSON, screenshots, and more
+Knowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.
+- Firecrawl Local. Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.
+- Firecrawl Cloud. Use the hosted service at firecrawl.dev for everything Local does at scale with nothing to run, plus search and the 550+ data providers in Firecrawl Alexandria for far more knowledge
 
 [Open ↗](https://github.com/firecrawl/firecrawl)

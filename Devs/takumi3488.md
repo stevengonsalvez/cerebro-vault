@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [6, 2, 7, 45, 30, 42, 19, 33, 43, 0, 2, 3, 6]
+pushes_per_week: [6, 3, 6, 46, 32, 39, 20, 47, 28, 0, 2, 3, 6]
 windows:
   "7d":
     pushes: 6
@@ -22,11 +22,11 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 19
-    distinct_repos: 14
-    active_days: 8
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 12
+    distinct_repos: 12
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
     pushes: 238
@@ -57,12 +57,12 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "30d":
-    pushes: 19
-    distinct_repos: 14
-    pushes_per_repo: 1.3571
-    active_days: 8
-    repos_not_owned: 7
-    not_owned_basenames: 7
+    pushes: 12
+    distinct_repos: 12
+    pushes_per_repo: 1.0000
+    active_days: 7
+    repos_not_owned: 6
+    not_owned_basenames: 6
     not_owned_owners: 1
   "90d":
     pushes: 238
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kunianki"
+    title: "kunianki"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "ishigama-search"
+    title: "ishigama-search"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "leaderboards"
+    title: "leaderboards"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "zandaka"
+    title: "zandaka"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "release-date-sorter"
+    title: "release-date-sorter"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "takumi3488"
+    title: "takumi3488"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # takumi3488

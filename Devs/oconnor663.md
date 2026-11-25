@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 4, 12, 4, 0, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 6, 10, 4, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "blake3-py"
+    title: "blake3-py"
+    description: "Python bindings for the BLAKE3 cryptographic hash function"
+    language: "Python"
+    topics: []
+    stars_fact: 209
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "sha256_project"
+    title: "sha256_project"
+    description: "The SHA-256 Project, developed for NYU Tandon's Applied Cryptography course"
+    language: "Python"
+    topics: []
+    stars_fact: 561
+    first_seen: null
+    last_push: "2025-07-09"
+  - name: "duct.rs"
+    title: "duct.rs"
+    description: "a Rust library for running child processes"
+    language: "Rust"
+    topics: []
+    stars_fact: 1048
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "clinacl"
+    title: "clinacl"
+    description: "a command line tool for playing with NaCl"
+    language: "Python"
+    topics: []
+    stars_fact: 269
+    first_seen: null
+    last_push: "2020-02-24"
+  - name: "bao"
+    title: "bao"
+    description: "an implementation of BLAKE3 verified streaming"
+    language: "Rust"
+    topics: []
+    stars_fact: 596
+    first_seen: null
+    last_push: "2025-05-07"
+  - name: "duct.py"
+    title: "duct.py"
+    description: "a Python library for running child processes"
+    language: "Python"
+    topics: []
+    stars_fact: 139
+    first_seen: null
+    last_push: "2026-03-17"
 ---
 
 # oconnor663

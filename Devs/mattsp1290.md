@@ -8,11 +8,11 @@ provenance_repos:
   - "ag-ui-protocol/ag-ui"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "10a12acb9645adcc"
-pushes_per_week: [1, 1, 26, 0, 19, 17, 0, 1, 10, 0, 1, 6, 2]
+pushes_per_week: [1, 3, 24, 1, 24, 11, 0, 1, 10, 0, 1, 6, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    active_days: 7
+    pushes: 9
+    distinct_repos: 6
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 7
-    pushes_per_repo: 1.5714
-    active_days: 7
+    pushes: 9
+    distinct_repos: 6
+    pushes_per_repo: 1.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mpcboy"
+    title: "mpcboy"
+    description: "Gameboy VST for Akai MPCs"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "pi-control"
+    title: "pi-control"
+    description: "An app for managing raspi4s in a specific configuration"
+    language: "C++"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "deskhand"
+    title: "deskhand"
+    description: "Like magic hand but for your mac desktop and the caster is some agent somewhere."
+    language: "Swift"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "lotel"
+    title: "lotel"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "lotel-rs"
+    title: "lotel-rs"
+    description: "A local OpenTelemetry CLI with an importable recreation of the otel collector"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-05-25"
+  - name: "beans"
+    title: "beans"
+    description: "A CLI with a Beads like interface and git backed persistence"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # mattsp1290

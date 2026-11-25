@@ -8,11 +8,11 @@ provenance_repos:
   - "tashfeenahmed/freellmapi"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "f9d54d6e051498a6"
-pushes_per_week: [0, 1, 3, 18, 21, 9, 5, 1, 8, 0, 0, 0, 3]
+pushes_per_week: [0, 1, 4, 23, 17, 7, 5, 5, 4, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 4
-    distinct_repos: 3
-    pushes_per_repo: 1.3333
-    active_days: 2
+    pushes: 3
+    distinct_repos: 2
+    pushes_per_repo: 1.5000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,82 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "freellmapi"
+    title: "freellmapi"
+    description: "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 57962
+    first_seen: "2026-06-25T06:00:03.189917+00:00"
+    last_push: "2026-11-25"
+  - name: "circlechat"
+    title: "circlechat"
+    description: "A group chat where your team and AI agents work together. Real CLI agents (Hermes, OpenClaw, Claude Code and more) in their own sandboxes. Self-hosted, AGPL-3.0."
+    language: "TypeScript"
+    topics:
+      - "agent-client-protocol"
+      - "agpl"
+      - "ai-agents"
+      - "claude-code"
+      - "mcp"
+      - "self-hosted"
+      - "team-chat"
+    stars_fact: 104
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "kinetic"
+    title: "kinetic"
+    description: "GTM tables (enrichment, AI research, signals) + cold email outreach in one self-hosted app"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 30
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "OnePersonCompany"
+    title: "OnePersonCompany"
+    description: "Personal operations dashboard for a one-person company"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 72
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "scallopbot"
+    title: "scallopbot"
+    description: "Self-hosted personal AI assistant with sleep-style memory consolidation and MCP-native memory. In maintenance mode."
+    language: "TypeScript"
+    topics:
+      - "affect-computing"
+      - "agent-memory"
+      - "ai"
+      - "ai-agent"
+      - "anthropic"
+      - "bio-inspired"
+      - "cognitive-architecture"
+      - "dream-consolidation"
+      - "llm"
+      - "mcp"
+      - "memory"
+      - "memory-systems"
+      - "multi-provider"
+      - "openai"
+      - "openclaw"
+      - "personal-ai"
+      - "proactive-agents"
+      - "self-hosted"
+      - "spreading-activation"
+      - "typescript"
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "cashmaxx"
+    title: "cashmaxx"
+    description: "Cashmaxx: an autonomous money-making agent with a guarded crypto wallet, built on a fork of HKUDS/nanobot"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-10-04"
 ---
 
 # tashfeenahmed

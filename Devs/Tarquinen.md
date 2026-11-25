@@ -8,8 +8,8 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 0, 0, 3, 15, 1, 0, 0, 3, 0, 0, 0, 3]
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 2
-    pushes_per_repo: 2.5000
-    active_days: 3
+    pushes: 3
+    distinct_repos: 1
+    pushes_per_repo: 3.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-dynamic-context-pruning"
+    title: "opencode-dynamic-context-pruning"
+    description: "Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4522
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "opencode-vim"
+    title: "opencode-vim"
+    description: "Vim-style editing and conversation navigation for OpenCode. Edit prompts, select and copy text, and browse your chats—all from the keyboard."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 93
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "opencode-claude-agent"
+    title: "opencode-claude-agent"
+    description: "Experimental opencode plugin that runs Claude Code models through the Claude Agent SDK"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "opencode-claude-usage"
+    title: "opencode-claude-usage"
+    description: "OpenCode Desktop plugin that shows your Claude subscription usage"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "oc-tps"
+    title: "oc-tps"
+    description: "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 174
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "opencode-smart-title"
+    title: "opencode-smart-title"
+    description: "Auto-generate meaningful session titles for OpenCode conversations using AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 56
+    first_seen: null
+    last_push: "2025-12-25"
 ---
 
 # Tarquinen

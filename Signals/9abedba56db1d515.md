@@ -9,13 +9,13 @@ artifact_tags: [cerebro/signal]
 workflow_tags: []
 source: x
 url: https://x.com/theo/status/2119970535056846996
-score: 0.55
-reason: "Codex vs Claude usage split in coding agent; real signal, no detail"
+score: 0.50
+reason: "Usage share data, Claude vs Codex inside a coding agent harness"
 author: "theo"
-likes: 1262
-retweets: 30
-replies: 105
-views: 68673
+likes: 2831
+retweets: 59
+replies: 183
+views: 187694
 query: "@theo"
 captured: 2026-11-10T07:01:29.736256+00:00
 rating:
@@ -24,7 +24,7 @@ rating:
 
 I charted out the split of Codex vs Claude in T3 Code over time. Never seen anything like this before. https://t.co/yePG0DsGDX
 
-> Codex vs Claude usage split in coding agent; real signal, no detail
+> Usage share data, Claude vs Codex inside a coding agent harness
 
 The complete and utter domination of Opus 5.5 is hard to put into words.
 

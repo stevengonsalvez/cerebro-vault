@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 0, 2, 3, 1, 2, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 3, 2, 1, 2, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,71 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "maki-session-index"
+    title: "maki-session-index"
+    description: "Search and read your other maki chat sessions"
+    language: "Lua"
+    topics:
+      - "maki"
+      - "plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "gesso"
+    title: "gesso"
+    description: "Deploy a static directory to a Cloudflare Worker: three API calls, content-addressed uploads, no Node."
+    language: "Go"
+    topics:
+      - "cli"
+      - "cloudflare-workers"
+      - "deploy"
+      - "golang"
+      - "static-site"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "maki-generalist"
+    title: "maki-generalist"
+    description: "A maki plugin that makes maki a generalist rather than a coding-only agent."
+    language: "Lua"
+    topics:
+      - "maki"
+      - "plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "maki-session-status"
+    title: "maki-session-status"
+    description: "A maki plugin that publishes session states for any status bar: event-driven, one file per process"
+    language: "Lua"
+    topics:
+      - "maki"
+      - "plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "a_swaybar"
+    title: "a_swaybar"
+    description: "An 808-line C status bar for sway: event-driven volume over libpulse, one coloured block per maki session"
+    language: "C"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
+  - name: "shrimp"
+    title: "shrimp"
+    description: "A music queue daemon in Go: one process owns the queue over a Unix socket, driving mpv and yt-dlp, with a clickable terminal UI"
+    language: "Go"
+    topics:
+      - "daemon"
+      - "go"
+      - "mpv"
+      - "music"
+      - "tui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # zipadoodlez

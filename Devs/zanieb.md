@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 2, 20, 1, 4, 6, 1, 18, 0, 0, 0, 3]
+pushes_per_week: [1, 1, 2, 21, 2, 2, 7, 5, 13, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "srs"
+    title: "srs"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-07-13"
+  - name: "charmbracelet-x"
+    title: "charmbracelet-x"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "musl-static-dlopen"
+    title: "musl-static-dlopen"
+    description: "A single-file Linux executable with an embedded musl loader for native Rust plugins."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-27"
+  - name: "rooster"
+    title: "rooster"
+    description: "Release management tool"
+    language: "Python"
+    topics: []
+    stars_fact: 70
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "git-pypi"
+    title: "git-pypi"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-06-03"
+  - name: "sld"
+    title: "sld"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # zanieb

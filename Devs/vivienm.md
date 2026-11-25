@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 1, 1, 6, 1, 0, 0, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 1, 2, 5, 1, 0, 0, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: "Opinionated agent skills"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "copier-python"
+    title: "copier-python"
+    description: "An opinionated Copier template for Python projects"
+    language: "Jinja"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "copier-rust"
+    title: "copier-rust"
+    description: "An opinionated Copier template for Rust projects"
+    language: "Jinja"
+    topics:
+      - "copier-template"
+      - "rust"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "namexif"
+    title: "namexif"
+    description: "Rename photos according to their EXIF date tag"
+    language: "Rust"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "rust-nominal"
+    title: "rust-nominal"
+    description: "A Rust library for batch file renaming"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "paswitch"
+    title: "paswitch"
+    description: "A tiny CLI audio output switcher for PipeWire and PulseAudio"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-13"
 ---
 
 # vivienm

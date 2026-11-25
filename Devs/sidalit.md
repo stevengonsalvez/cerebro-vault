@@ -8,11 +8,11 @@ provenance_repos:
   - "AlexsJones/llmfit"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 2, 7, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 2, 0, 0, 0, 4, 5, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openpencil-snap"
+    title: "openpencil-snap"
+    description: "Snap packaging for OpenPencil, an AI-native vector design tool."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "strix-snap"
+    title: "strix-snap"
+    description: "Snap packaging for Strix, an open-source AI penetration testing tool."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "beszel-snap"
+    title: "beszel-snap"
+    description: "Snap packaging for Beszel, a lightweight server monitoring hub and agent."
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "picgo-snap"
+    title: "picgo-snap"
+    description: "Snap packaging for PicGo, a tool for uploading images to image hosts and copying Markdown links."
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "betterleaks-snap"
+    title: "betterleaks-snap"
+    description: "Snap packaging for Betterleaks, a scanner that finds leaked secrets in Git, files and code hosts."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "floci-oci-snap"
+    title: "floci-oci-snap"
+    description: "Snap packaging for Floci OCI, a local Oracle Cloud Infrastructure emulator."
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
 ---
 
 # sidalit

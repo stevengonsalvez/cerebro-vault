@@ -8,11 +8,11 @@ provenance_repos:
   - "rivet-dev/rivet"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "335e94a0914635a1"
-pushes_per_week: [9, 0, 2, 15, 10, 9, 8, 14, 0, 0, 0, 0, 4]
+pushes_per_week: [8, 0, 2, 16, 10, 8, 14, 8, 0, 0, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 10
-    active_days: 23
+    active_days: 22
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0870
-  repo_per_active_day: 0.4348
+  push_per_day: 3.1818
+  repo_per_active_day: 0.4545
   not_owned_ratio: 1.0000
   basename_concentration: 0.1000
   shapes: []
@@ -65,22 +65,78 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 71
+    pushes: 70
     distinct_repos: 10
-    pushes_per_repo: 7.1000
-    active_days: 23
+    pushes_per_repo: 7.0000
+    active_days: 22
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 23 active days in 90d — pass"
+  - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VisualProgrammingLanguage"
+    title: "VisualProgrammingLanguage"
+    description: "Visual programming language written in Swift that assembles to executable Swift code."
+    language: "Swift"
+    topics:
+      - "coreml"
+      - "ios"
+      - "playground"
+      - "swift"
+      - "vpl"
+    stars_fact: 1208
+    first_seen: null
+    last_push: "2026-03-11"
+  - name: "herdr-plugin-jj-workspace"
+    title: "herdr-plugin-jj-workspace"
+    description: "Create and remove Jujutsu (jj) workspaces as Herdr workspaces"
+    language: "Rust"
+    topics:
+      - "herdr"
+      - "herdr-plugin"
+      - "jujutsu"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "tokio-tungstenite-rivet"
+    title: "tokio-tungstenite-rivet"
+    description: "Rivet fork of tokio-tungstenite with write-pressure stats"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-14"
+  - name: "linear-webhook-template"
+    title: "linear-webhook-template"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-05-23"
+  - name: "SceneKit-Splines"
+    title: "SceneKit-Splines"
+    description: "A simple spline class that uses SCNVector3's with different interpolation methods."
+    language: "Swift"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2018-07-24"
+  - name: "demo-godot-unix-exit"
+    title: "demo-godot-unix-exit"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-03-03"
 ---
 
 # NathanFlurry
 
-71 pushes across 10 repositories on 23 active days in the last 90 days of public GitHub push activity.
+70 pushes across 10 repositories on 22 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/NathanFlurry

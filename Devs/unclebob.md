@@ -8,11 +8,11 @@ provenance_repos:
   - "unclebob/swarm-forge"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "91ad171deae90329"
-pushes_per_week: [1, 0, 0, 3, 0, 3, 1, 1, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 1, 2, 0, 3, 2, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ub-mode"
+    title: "ub-mode"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 8699
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "swarm-forge"
+    title: "swarm-forge"
+    description: "A simple tool for coordinating several AI agents."
+    language: "Clojure"
+    topics: []
+    stars_fact: 4123
+    first_seen: "2026-08-09T06:00:06.430133+00:00"
+    last_push: "2026-09-07"
+  - name: "fitnesse"
+    title: "fitnesse"
+    description: "FitNesse -- The Acceptance Test Wiki"
+    language: "Java"
+    topics: []
+    stars_fact: 2157
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "uml-viewer"
+    title: "uml-viewer"
+    description: "Live Quil UML class-diagram viewer driven by EDN"
+    language: "Clojure"
+    topics: []
+    stars_fact: 506
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "mutator"
+    title: "mutator"
+    description: "Mutation testing for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
+    language: "Python"
+    topics: []
+    stars_fact: 127
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "crapper"
+    title: "crapper"
+    description: "CRAP scores for Clojure, Java, Go, TypeScript, Rust, and Python, in the snapshot uml-viewer reads."
+    language: "Python"
+    topics: []
+    stars_fact: 245
+    first_seen: null
+    last_push: "2026-11-10"
 ---
 
 # unclebob

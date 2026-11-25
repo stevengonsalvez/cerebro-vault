@@ -8,8 +8,8 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
 pushes_per_week: [0, 0, 2, 2, 2, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pi-vikunja"
+    title: "pi-vikunja"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "ownbook"
+    title: "ownbook"
+    description: "A self-hosted ebook reader your LLM can read — EPUB/PDF/MOBI, multi-device sync, embedded MCP server."
+    language: "Go"
+    topics:
+      - "ebook-reader"
+      - "epub"
+      - "llm"
+      - "mcp"
+      - "model-context-protocol"
+      - "pdf"
+      - "pocketbase"
+      - "selfhosted"
+      - "vue"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "pi-usage-web"
+    title: "pi-usage-web"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
+  - name: "stasis"
+    title: "stasis"
+    description: "Pause the machine. Rest the human. — Rust input-locker rest tool (Linux/Wayland verified)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "uzqw's dotfiles"
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "utips"
+    title: "utips"
+    description: "utips is an open-source personal workspace for notes, todos, reminders, accounting, mobile PWA, and weather, refined through over a year of daily use."
+    language: "Vue"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-28"
 ---
 
 # uzqw

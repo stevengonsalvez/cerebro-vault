@@ -8,8 +8,8 @@ provenance_repos:
   - "Nutlope/hallmark"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "56ed6f5b1a23b5b5"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "hallmark"
+    title: "hallmark"
+    description: "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+    language: "CSS"
+    topics: []
+    stars_fact: 57690
+    first_seen: "2026-09-04T06:00:17.162493+00:00"
+    last_push: "2026-11-11"
+  - name: "ai-subtitles"
+    title: "ai-subtitles"
+    description: "Generate subtitles for any videos with AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 482
+    first_seen: null
+    last_push: "2026-04-07"
+  - name: "logocreator"
+    title: "logocreator"
+    description: "A free + OSS logo generator powered by Flux on Together AI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 8948
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "self.so"
+    title: "self.so"
+    description: "LinkedIn -> personal site generator"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3113
+    first_seen: null
+    last_push: "2026-10-26"
+  - name: "roomGPT"
+    title: "roomGPT"
+    description: "Upload a photo of your room to generate your dream room with AI."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 10725
+    first_seen: null
+    last_push: "2024-04-20"
+  - name: "fontzz"
+    title: "fontzz"
+    description: "36 original fonts"
+    language: "Python"
+    topics: []
+    stars_fact: 90
+    first_seen: null
+    last_push: "2026-11-02"
 ---
 
 # Nutlope

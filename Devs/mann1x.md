@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 1, 1, 24, 54, 31, 30, 12, 9, 0, 1, 0, 4]
+pushes_per_week: [0, 1, 5, 22, 52, 31, 38, 5, 8, 0, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "xollama"
+    title: "xollama"
+    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
+    language: "Go"
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "CPUDoc"
+    title: "CPUDoc"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 147
+    first_seen: null
+    last_push: "2025-11-01"
+  - name: "omk-model-optimizer"
+    title: "omk-model-optimizer"
+    description: "Private fork of NVIDIA/Model-Optimizer: model-agnostic 2-bit QAD (IQ2 family) to GGUF"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "automaticum"
+    title: "automaticum"
+    description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "BSManager"
+    title: "BSManager"
+    description: "VR Base Stations Manager for HMD"
+    language: "C#"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "foo_dsd_trellis"
+    title: "foo_dsd_trellis"
+    description: "foobar2000 DSD Trellis SDM DSP plugin — C/MSVC/Windows"
+    language: "C"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-04-08"
 ---
 
 # mann1x

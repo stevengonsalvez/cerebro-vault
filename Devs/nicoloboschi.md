@@ -8,11 +8,11 @@ provenance_repos:
   - "vectorize-io/hindsight"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ef1d62b18b98cdd0"
-pushes_per_week: [6, 16, 7, 21, 33, 40, 20, 9, 7, 0, 0, 1, 2]
+pushes_per_week: [6, 17, 6, 34, 23, 37, 21, 10, 5, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
-    active_days: 4
+    pushes: 4
+    distinct_repos: 3
+    pushes_per_repo: 1.3333
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,58 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "giotto"
+    title: "giotto"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "aiagentmemory-site"
+    title: "aiagentmemory-site"
+    description: "Built static site for aiagentmemory.org (deployed from the private aiagentmemory repo)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "gh-stars"
+    title: "gh-stars"
+    description: "alternative to https://github.com/star-history/star-history"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-08-04"
+  - name: "sheepit"
+    title: "sheepit"
+    description: "Your machine, anywhere. A full-featured terminal in your browser."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 27
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "ciak"
+    title: "ciak"
+    description: "🎬 The screen recorder your agent edits. Record, then let an agent cut, zoom, caption, narrate and export. Plain files and commands, no timeline."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "dockerpyze"
+    title: "dockerpyze"
+    description: "Python applications to Docker, automatically 🐳"
+    language: "Python"
+    topics:
+      - "docker"
+      - "poetry"
+      - "python"
+    stars_fact: 181
+    first_seen: null
+    last_push: "2025-04-08"
 ---
 
 # nicoloboschi

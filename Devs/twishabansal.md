@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/claude-plugins-official"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "02eab667df448997"
-pushes_per_week: [0, 1, 0, 7, 12, 2, 1, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 2, 5, 12, 2, 1, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 27
     distinct_repos: 5
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 27
     distinct_repos: 5
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "twishabansal.github.io"
+    title: "twishabansal.github.io"
+    description: "Personal blog"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-29"
+  - name: "vector-store-experiments"
+    title: "vector-store-experiments"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-12"
+  - name: "Image-Colourisation"
+    title: "Image-Colourisation"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2021-04-15"
+  - name: "frappe-mean"
+    title: "frappe-mean"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-04-04"
+  - name: "Handwritten_alphabet_classification"
+    title: "Handwritten_alphabet_classification"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-07-18"
+  - name: "COVID_trends_prediction"
+    title: "COVID_trends_prediction"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-06-24"
 ---
 
 # twishabansal

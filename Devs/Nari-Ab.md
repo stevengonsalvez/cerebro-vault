@@ -8,11 +8,11 @@ provenance_repos:
   - "AGGIB/Stroq"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "24e1aea537d2f659"
-pushes_per_week: [0, 0, 0, 0, 0, 7, 3, 2, 7, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 7, 4, 3, 5, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 20
     distinct_repos: 6
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
-    repos_not_owned: 1
-    not_owned_basenames: 1
-    not_owned_owners: 1
+    active_days: 1
+    repos_not_owned: 0
+    not_owned_basenames: 0
+    not_owned_owners: 0
   "90d":
     pushes: 20
     distinct_repos: 6
@@ -76,7 +76,80 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "music-app"
+    title: "music-app"
+    description: null
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-23"
+  - name: "agent-roast"
+    title: "agent-roast"
+    description: "Stops AI coding agents from making the build green by weakening tests, coverage gates or CI. Stop hook for Claude Code, Codex and Cursor, pre-commit, GitHub Action. Offline, no tokens."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "ai-coding"
+      - "claude-code"
+      - "cli"
+      - "code-review"
+      - "codex"
+      - "cursor"
+      - "developer-tools"
+      - "git"
+      - "github-actions"
+      - "guardrails"
+      - "llm"
+      - "pre-commit"
+      - "static-analysis"
+      - "testing"
+      - "typescript"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "shadowbox"
+    title: "shadowbox"
+    description: "Zero-trust copy-on-write sandbox and interactive time-machine for AI coding agents."
+    language: "Rust"
+    topics:
+      - "agent-security"
+      - "ai-agents"
+      - "claude-code"
+      - "cli"
+      - "cursor"
+      - "developer-tools"
+      - "rust"
+      - "sandbox"
+      - "security"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "tender-ai-bot"
+    title: "tender-ai-bot"
+    description: "AI-ассистент мониторинга и скоринга тендеров (ЕИС, Сбербанк-АСТ, GigaChat, YandexGPT, RAG, Telegram)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-06"
+  - name: "Nari-Ab"
+    title: "Nari-Ab"
+    description: "GitHub Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "semvibe"
+    title: "semvibe"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-04"
 ---
 
 # Nari-Ab

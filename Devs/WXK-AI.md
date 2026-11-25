@@ -8,11 +8,11 @@ provenance_repos:
   - "WXK-AI/jev-opus"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3024da90105b00f2"
-pushes_per_week: [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,84 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 3 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "jev-opus"
+    title: "jev-opus"
+    description: "Claude Opus 5.5 with the effort level re-decided every step by the TypeSafe Jev reflex — without breaking the prompt cache. CLI + Claude Code plugin."
+    language: "TypeScript"
+    topics:
+      - "agent"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "effort"
+      - "opus"
+      - "prompt-caching"
+    stars_fact: 19
+    first_seen: "2026-10-05T06:00:42.527572+00:00"
+    last_push: "2026-10-10"
+  - name: "WXK-AI"
+    title: "WXK-AI"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "jev-ex"
+    title: "jev-ex"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-17"
+  - name: "apple-menubar-design"
+    title: "apple-menubar-design"
+    description: "A Codex skill for native macOS menu bar apps and interfaces. Apple HIG guidance, macOS 27 design studies, SwiftUI/AppKit, and accessibility."
+    language: "Python"
+    topics:
+      - "accessibility"
+      - "appkit"
+      - "codex-skill"
+      - "human-interface-guidelines"
+      - "macos"
+      - "menu-bar"
+      - "swiftui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "razer-viper-control"
+    title: "razer-viper-control"
+    description: "Native macOS menu-bar control for Razer Viper V3 HyperSpeed (IOHID / OpenRazer protocol)"
+    language: "Swift"
+    topics:
+      - "hid"
+      - "macos"
+      - "menu-bar-app"
+      - "mouse"
+      - "razer"
+      - "swift"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-12"
+  - name: "langfuse-menubar"
+    title: "langfuse-menubar"
+    description: "Native macOS menu-bar dashboard for Langfuse cost, tokens, latency, errors, and model usage"
+    language: "Swift"
+    topics:
+      - "developer-tools"
+      - "langfuse"
+      - "llmops"
+      - "macos"
+      - "menu-bar"
+      - "observability"
+      - "self-hosted"
+      - "swift"
+      - "swiftui"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-10"
 ---
 
 # WXK-AI

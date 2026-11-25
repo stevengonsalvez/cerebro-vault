@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 4, 6, 10, 23, 7, 11, 8, 6, 0, 0, 0, 0]
+pushes_per_week: [1, 4, 6, 10, 25, 5, 17, 2, 6, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,93 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "awesome-cryptography"
+    title: "awesome-cryptography"
+    description: "A curated list of cryptography resources and links."
+    language: null
+    topics:
+      - "awesome"
+      - "awesome-list"
+      - "crypto"
+      - "cryptography"
+      - "encryption"
+      - "list"
+    stars_fact: 7211
+    first_seen: null
+    last_push: "2026-07-15"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "dotfiles for the developer happiness: macos, zsh, brew, vscode, python, minimalism"
+    language: "Shell"
+    topics:
+      - "codespaces"
+      - "dotbot"
+      - "dotfiles"
+      - "elixir"
+      - "fzf"
+      - "macos"
+      - "nodejs"
+      - "python"
+      - "vscode"
+      - "zsh"
+    stars_fact: 993
+    first_seen: null
+    last_push: "2026-10-31"
+  - name: "sobole-zsh-theme"
+    title: "sobole-zsh-theme"
+    description: "Minimalistic zsh theme inspired by the old-fashioned hobbies."
+    language: "Shell"
+    topics:
+      - "terminal"
+      - "terminal-theme"
+      - "theme"
+      - "zsh"
+      - "zsh-theme"
+    stars_fact: 171
+    first_seen: null
+    last_push: "2026-06-19"
+  - name: "git-secret"
+    title: "git-secret"
+    description: ":busts_in_silhouette: A bash-tool to store your private data inside a git repository."
+    language: "Shell"
+    topics:
+      - "encryption"
+      - "git"
+      - "git-addons"
+      - "git-secret"
+      - "gpg"
+      - "secret-management"
+    stars_fact: 4060
+    first_seen: null
+    last_push: "2026-09-28"
+  - name: "ship-it-boardgame"
+    title: "ship-it-boardgame"
+    description: "Social and fun boardgame about IT. Best with 🍻"
+    language: "Python"
+    topics:
+      - "boardgame"
+      - "it-boardgame"
+      - "print-and-play"
+      - "tabletop"
+      - "tabletop-simulator"
+    stars_fact: 232
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "misspell-fixer-action"
+    title: "misspell-fixer-action"
+    description: "📝Automatically fixes typos and mistakes in your source code and docs!"
+    language: "Shell"
+    topics:
+      - "github-action"
+      - "github-action-localizstion"
+      - "github-actions"
+      - "localization"
+      - "misspell"
+      - "misspell-fixer"
+    stars_fact: 156
+    first_seen: null
+    last_push: "2024-02-12"
 ---
 
 # sobolevn

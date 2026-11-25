@@ -8,11 +8,11 @@ provenance_repos:
   - "1jehuang/jcode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [0, 0, 9, 5, 18, 11, 0, 5, 13, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 10, 15, 8, 10, 1, 12, 5, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "omarchy-9router-radar"
+    title: "omarchy-9router-radar"
+    description: "Radar único de contas, cotas e uso dos seus 9Routers na barra do Omarchy. Ícone 9R e prioridade pela cota livre."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "omarchy-agent-bench"
+    title: "omarchy-agent-bench"
+    description: "Nested X11 benches for AI agents on Omarchy/Hyprland. Each task gets its own display, Chromium and CDP, and the agent never takes your mouse."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "sonora"
+    title: "sonora"
+    description: "Native audio mixer for Omarchy (Hyprland + PipeWire) in GTK4, with saved routing for each app and scenes."
+    language: "Python"
+    topics:
+      - "audio-mixer"
+      - "gtk4"
+      - "hyprland"
+      - "linux"
+      - "omarchy"
+      - "pipewire"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-27"
+  - name: "omarchy-device-pulse"
+    title: "omarchy-device-pulse"
+    description: "Battery and settings for mouse, keyboard and headset in the Omarchy bar, with history, alerts, DPI and polling rate on supported models."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "DuoOmarchy"
+    title: "DuoOmarchy"
+    description: "One PC, two people, each in their own game. A second Steam session on Omarchy with its own keyboard, mouse and monitor, managed from the main desktop."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-05"
+  - name: "omarchy-machines-radar"
+    title: "omarchy-machines-radar"
+    description: "Machines radar for the Omarchy bar: CPU, RAM, disk, containers and alerts for your PC, laptop and VPS, read over SSH."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
 ---
 
 # LucasOl1337

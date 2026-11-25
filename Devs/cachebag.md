@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "9612918e3494c974"
-pushes_per_week: [1, 1, 0, 1, 4, 5, 5, 0, 1, 0, 1, 0, 0]
+pushes_per_week: [0, 1, 0, 1, 6, 3, 5, 1, 0, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 11
-    active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 18
+    distinct_repos: 10
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.3571
-  repo_per_active_day: 0.7857
-  not_owned_ratio: 0.2727
-  basename_concentration: 0.0909
+  push_per_day: 1.3846
+  repo_per_active_day: 0.7692
+  not_owned_ratio: 0.2000
+  basename_concentration: 0.1000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 19
-    distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 14
-    repos_not_owned: 3
-    not_owned_basenames: 3
-    not_owned_owners: 3
+    pushes: 18
+    distinct_repos: 10
+    pushes_per_repo: 1.8000
+    active_days: 13
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 14 active days in 90d — pass"
+  - "activity: 13 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "blurs"
@@ -129,6 +129,6 @@ repos:
 
 # cachebag
 
-19 pushes across 11 repositories on 14 active days in the last 90 days of public GitHub push activity.
+18 pushes across 10 repositories on 13 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cachebag

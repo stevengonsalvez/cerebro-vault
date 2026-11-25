@@ -8,11 +8,11 @@ provenance_repos:
   - "AgriciDaniel/claude-obsidian"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "dc9094c987231bcf"
-pushes_per_week: [2, 15, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 15, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,25 +22,25 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 7
-    active_days: 9
+    pushes: 19
+    distinct_repos: 6
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 0.7778
+  push_per_day: 2.3750
+  repo_per_active_day: 0.7500
   not_owned_ratio: 0.0000
-  basename_concentration: 0.1429
+  basename_concentration: 0.1667
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -57,30 +57,78 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 20
-    distinct_repos: 7
-    pushes_per_repo: 2.8571
-    active_days: 9
+    pushes: 19
+    distinct_repos: 6
+    pushes_per_repo: 3.1667
+    active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ketpatil77"
+    title: "ketpatil77"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "ketpatil77.github.io"
+    title: "ketpatil77.github.io"
+    description: "Portfolio website"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "KETPORT"
+    title: "KETPORT"
+    description: "Production-grade developer portfolio for Ketan Patil, highlighting full-stack engineering, AI integrations, secure systems, and polished user experience."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "CETRS"
+    title: "CETRS"
+    description: "certificates"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-07"
+  - name: "TPO"
+    title: "TPO"
+    description: "AIT Training and Placement Portal for students, TPO administrators, and TPC observers"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "cert-guard"
+    title: "cert-guard"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-11"
 ---
 
 # ketpatil77
 
-20 pushes across 7 repositories on 9 active days in the last 90 days of public GitHub push activity.
+19 pushes across 6 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ketpatil77

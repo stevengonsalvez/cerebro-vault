@@ -8,11 +8,11 @@ provenance_repos:
   - "Sparticle62ops/pssa"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "cf64edd36b9e7709"
-pushes_per_week: [0, 0, 0, 2, 12, 0, 0, 0, 3, 0, 0, 0, 9]
+pushes_per_week: [0, 0, 0, 2, 12, 0, 0, 3, 0, 0, 0, 0, 9]
 windows:
   "7d":
     pushes: 9
@@ -76,7 +76,61 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "pssa"
+    title: "pssa"
+    description: "PSSA: a non-transformer language model written from scratch in Rust. Recurrent state-space layer, episodic memory, self-modifying weights, CUDA training, and a full terminal dashboard."
+    language: "Rust"
+    topics:
+      - "cuda"
+      - "language-model"
+      - "machine-learning"
+      - "rust"
+      - "state-space-model"
+      - "tui"
+    stars_fact: 121
+    first_seen: "2026-09-30T06:02:10.916657+00:00"
+    last_push: "2026-11-19"
+  - name: "horizon-music-player"
+    title: "horizon-music-player"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "horizon-pickup-notifications"
+    title: "horizon-pickup-notifications"
+    description: "Pickup Notifications (Roundaround) ported to Horizon as a native Rust mod (slice 1)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "horizon-centered-crosshair"
+    title: "horizon-centered-crosshair"
+    description: "centered-crosshair ported to Horizon native Rust mods (MIT, (c) 2023 JustAlittleWolf)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "horizon-blur-plus"
+    title: "horizon-blur-plus"
+    description: "Blur+ (Motschen/Blur v6.3.1) ported to Horizon as a native Rust mod (slice 1)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "horizon-brb"
+    title: "horizon-brb"
+    description: "Better Recipe Book (brb) ported to Horizon as a native Rust mod (upstream mrshmllow/BetterRecipeBook, MIT)"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
 ---
 
 # Sparticle62ops

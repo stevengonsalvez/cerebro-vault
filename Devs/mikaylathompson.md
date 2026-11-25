@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 1, 6, 14, 3, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 8, 13, 2, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "vaulter"
+    title: "vaulter"
+    description: "Turn Obsidian Vaults into deeply linked PDF or EPUB documents, compatible with Kindle Scribe or other e-readers"
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "railway-terminus"
+    title: "railway-terminus"
+    description: "Bringing together Railway & TRMNL"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-02-04"
+  - name: "advent2021"
+    title: "advent2021"
+    description: "Runner code and solutions for Advent of Code 2021"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2021-12-21"
+  - name: "yoto-today-in-history"
+    title: "yoto-today-in-history"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-11"
+  - name: "transformation-playground"
+    title: "transformation-playground"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-03-14"
+  - name: "rfs-simulations"
+    title: "rfs-simulations"
+    description: null
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-10-19"
 ---
 
 # mikaylathompson

@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 0, 0, 1, 0, 3, 4, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 1, 2, 4, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "2D-to-3D-CAD-Reconstruction"
+    title: "2D-to-3D-CAD-Reconstruction"
+    description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-08-13"
+  - name: "Mohil-Ahuja"
+    title: "Mohil-Ahuja"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "ci-scratch"
+    title: "ci-scratch"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "leadflow"
+    title: "leadflow"
+    description: "Single-screen lead manager: track leads, log discussions, never miss a follow-up. Next.js + FastAPI."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-13"
+  - name: "balloonbench"
+    title: "balloonbench"
+    description: "A synthetic-first benchmark, evaluation harness and geometry-grounded verifier for GD&T extraction from 2D engineering drawings."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "fourshots"
+    title: "fourshots"
+    description: "NPCI allows four attempts per UPI AutoPay mandate cycle. This decides how to spend them,+38.8% recovered vs Razorpay's documented retry policy, mean over 20 cohorts. Razorpay AI Buildathon 2026, Track 03."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-31"
 ---
 
 # Mohil-Ahuja

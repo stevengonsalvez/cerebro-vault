@@ -8,11 +8,11 @@ provenance_repos:
   - "akitaonrails/ai-memory"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 18, 121, 142, 84, 11, 1, 0, 0, 16, 2]
+pushes_per_week: [0, 0, 0, 41, 109, 131, 93, 3, 0, 0, 1, 16, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,31 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "week11-sound-lab"
+    title: "week11-sound-lab"
+    description: "Week 11 algorithmic sound: three experiments, a 60-second composition, explanations and measured results"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "week10-sound-studio"
+    title: "week10-sound-studio"
+    description: "Week 10 sound foundations: illustrated line-by-line p5 practice, worksheet map, scales, microphone, FFT and ear training"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "week9-pixel-studio"
+    title: "week9-pixel-studio"
+    description: "An illustrated Week 9 p5.js learning studio: seven stages, plain-language code and an interactive guide beside the real editor."
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-04"
 ---
 
 # seathatflowsinourveins

@@ -8,8 +8,8 @@ provenance_repos:
   - "addyosmani/agent-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "dae9f02535f7c22f"
 pushes_per_week: [0, 0, 0, 0, 1, 1, 1, 2, 1, 0, 0, 0, 0]
@@ -76,7 +76,103 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ComfyUI-3D-rocm"
+    title: "ComfyUI-3D-rocm"
+    description: "Image to textured 3D asset in ComfyUI on AMD GPUs (ROCm, Windows + Linux): TripoSG and Hunyuan3D-2.1 PBR texturing nodes, no CUDA extensions"
+    language: "Python"
+    topics:
+      - "3d-generation"
+      - "amd"
+      - "amd-gpu"
+      - "comfyui"
+      - "comfyui-custom-nodes"
+      - "comfyui-nodes"
+      - "game-assets"
+      - "hunyuan3d"
+      - "image-to-3d"
+      - "pbr-texture"
+      - "radeon"
+      - "rocm"
+      - "triposg"
+      - "windows"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "nunchaku-rocm"
+    title: "nunchaku-rocm"
+    description: "4-bit SVDQuant (Nunchaku) diffusion inference on AMD GPUs (ROCm): Triton backend, native RDNA3 int4 kernels, FLUX.1, FLUX.2 [klein], Qwen-Image, Z-Image-Turbo, SDXL, LoRA, ComfyUI nodes"
+    language: "Python"
+    topics:
+      - "4-bit"
+      - "amd"
+      - "amd-gpu"
+      - "comfyui"
+      - "diffusion-models"
+      - "flux"
+      - "generative-ai"
+      - "int4"
+      - "lora"
+      - "nunchaku"
+      - "pytorch"
+      - "quantization"
+      - "qwen-image"
+      - "radeon"
+      - "rocm"
+      - "sdxl"
+      - "svdquant"
+      - "text-to-image"
+      - "triton"
+      - "z-image"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "SageAttention-rocm"
+    title: "SageAttention-rocm"
+    description: "SageAttention on AMD ROCm (Triton + native RDNA3 kernel), fork of thu-ml/SageAttention"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "capviz"
+    title: "capviz"
+    description: "Linux Capabilities Vector Visualizer"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-02-11"
+  - name: "caddy-ext-proc"
+    title: "caddy-ext-proc"
+    description: "A Caddy middleware that delegates HTTP processing to an ext_proc compatible service"
+    language: "Go"
+    topics:
+      - "caddy-module"
+      - "caddy-plugin"
+      - "caddy2"
+      - "extensibility"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-22"
+  - name: "beatfit"
+    title: "beatfit"
+    description: "Retime video clips so chosen moments land on the beats of a song."
+    language: "Python"
+    topics:
+      - "audio"
+      - "beat-sync"
+      - "dynamic-programming"
+      - "ffmpeg"
+      - "montage"
+      - "music"
+      - "python"
+      - "retiming"
+      - "video-editing"
+      - "video-processing"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-07"
 ---
 
 # TwelveNights

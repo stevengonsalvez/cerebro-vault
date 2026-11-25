@@ -8,11 +8,11 @@ provenance_repos:
   - "virgiliojr94/book-to-skill"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "16a73b8e53c5832a"
-pushes_per_week: [0, 0, 0, 2, 0, 1, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,72 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 4 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "book-to-skill"
+    title: "book-to-skill"
+    description: "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-agents"
+      - "book-to-skill"
+      - "context-engineering"
+      - "document-processing"
+      - "edtech"
+      - "knowledge-base"
+      - "knowledge-management"
+      - "llm"
+      - "pdf-to-markdown"
+      - "rag"
+      - "self-study"
+      - "study-tools"
+    stars_fact: 38980
+    first_seen: "2026-08-15T06:00:05.480011+00:00"
+    last_push: "2026-11-24"
+  - name: "jarvis-aiops"
+    title: "jarvis-aiops"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "book-to-skill-use-cases"
+    title: "book-to-skill-use-cases"
+    description: "Community use cases for book-to-skill — one line here, the full account in the author's own Gist. No generated skills, no book content."
+    language: null
+    topics:
+      - "agent-skills"
+      - "book-to-skill"
+      - "showcase"
+      - "use-cases"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-09-15"
+  - name: "localpdf.io"
+    title: "localpdf.io"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 279
+    first_seen: null
+    last_push: "2026-05-11"
+  - name: "duolingo-ux-reference"
+    title: "duolingo-ux-reference"
+    description: "Unofficial UI/UX reference distilled from Duolingo's public design guidelines — an agent skill for frontend devs. Not affiliated with Duolingo."
+    language: null
+    topics: []
+    stars_fact: 9
+    first_seen: null
+    last_push: "2026-07-17"
+  - name: "virgiliojr94"
+    title: "virgiliojr94"
+    description: "my profile README"
+    language: null
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-22"
 ---
 
 # virgiliojr94

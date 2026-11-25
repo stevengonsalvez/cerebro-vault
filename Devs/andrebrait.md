@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [7, 3, 7, 31, 53, 76, 56, 27, 17, 3, 3, 11, 27]
+pushes_per_week: [6, 3, 11, 30, 57, 69, 61, 31, 8, 4, 3, 10, 27]
 windows:
   "7d":
     pushes: 27
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 10
-    active_days: 14
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 321
+    pushes: 320
     distinct_repos: 26
-    active_days: 56
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.7321
-  repo_per_active_day: 0.4643
+  push_per_day: 5.8182
+  repo_per_active_day: 0.4727
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "30d":
-    pushes: 46
+    pushes: 45
     distinct_repos: 10
-    pushes_per_repo: 4.6000
-    active_days: 14
+    pushes_per_repo: 4.5000
+    active_days: 13
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 321
+    pushes: 320
     distinct_repos: 26
-    pushes_per_repo: 12.3462
-    active_days: 56
+    pushes_per_repo: 12.3077
+    active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 6
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "lg510s-firmware-lab"
@@ -129,6 +129,6 @@ repos:
 
 # andrebrait
 
-321 pushes across 26 repositories on 56 active days in the last 90 days of public GitHub push activity.
+320 pushes across 26 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

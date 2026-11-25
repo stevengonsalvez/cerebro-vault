@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [1, 1, 2, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,57 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "netbird-api-exporter"
+    title: "netbird-api-exporter"
+    description: "A Prometheus exporter for NetBird API"
+    language: "Go"
+    topics:
+      - "netbird"
+      - "prometheus-exporter"
+    stars_fact: 66
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "node-exporter-mycloud"
+    title: "node-exporter-mycloud"
+    description: "Prometheus node_exporter app for the WD My Cloud EX2 Ultra (OS5) — install the .bin via the web UI, set the listen port and collectors from the dashboard."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "cursor-admin-api-exporter"
+    title: "cursor-admin-api-exporter"
+    description: "Cursor Admin API Exporter - For exporting Cursor AI stats from newly Admin API"
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-09-08"
+  - name: "litellm-cc-statusline"
+    title: "litellm-cc-statusline"
+    description: "The Claude Code Status Line for LiteLLM"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2025-12-05"
+  - name: "test"
+    title: "test"
+    description: "One-liner pre-purchase check for a used MacBook (MDM/DEP, battery, specs)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-06"
+  - name: "stf-throwaway"
+    title: "stf-throwaway"
+    description: "Throwaway repo for end-to-end testing a release automation workflow. Publishing is neutered."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-04"
 ---
 
 # matanbaruch

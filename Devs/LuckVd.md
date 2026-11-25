@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [1, 0, 0, 1, 3, 0, 2, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 4, 0, 0, 3, 1, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "qac-skill"
+    title: "qac-skill"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "stockfu"
+    title: "stockfu"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "LuckVd"
+    title: "LuckVd"
+    description: "GitHub profile · 贡献可视化"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "LuckVd.github.io"
+    title: "LuckVd.github.io"
+    description: "个人博客 · Hexo"
+    language: "Stylus"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "qswarm"
+    title: "qswarm"
+    description: "蜂群代码安全审查系统（设计 v0.3.4）· M0/M1 闭环 + M2 放行"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "learn-weave"
+    title: "learn-weave"
+    description: "面向个人的、可本地部署、通过浏览器使用的学习与知识记录工具(Vue 3 + FastAPI)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-11"
 ---
 
 # LuckVd

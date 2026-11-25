@@ -8,8 +8,8 @@ provenance_repos:
   - "kangarooking/cangjie-skill"
 admitted: true
 low_n: true
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "9b860e389365bd38"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,86 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "agnes-free-model-skills"
+    title: "agnes-free-model-skills"
+    description: "Agnes AI 免费文本、图片、视频模型的 Codex/Agent Skills"
+    language: "Python"
+    topics: []
+    stars_fact: 204
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "cangjie-skill"
+    title: "cangjie-skill"
+    description: "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）"
+    language: "Python"
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "automation"
+      - "book-to-skill"
+      - "knowledge-distillation"
+      - "prompt-engineering"
+      - "skill-generator"
+      - "templates"
+    stars_fact: 13303
+    first_seen: "2026-07-17T06:00:07.124682+00:00"
+    last_push: "2026-10-02"
+  - name: "poor-charlies-almanack-skill"
+    title: "poor-charlies-almanack-skill"
+    description: "An AI skill pack for decision-making, investing, and better judgment, distilled into reusable reasoning modules."
+    language: null
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "charlie-munger"
+      - "cognitive-bias"
+      - "decision-making"
+      - "investing"
+      - "mental-models"
+    stars_fact: 50
+    first_seen: null
+    last_push: "2026-04-17"
+  - name: "first-principles-skill"
+    title: "first-principles-skill"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 38
+    first_seen: null
+    last_push: "2026-04-23"
+  - name: "director-skills"
+    title: "director-skills"
+    description: "导演Skill：面向 AI 视频创作的开源 Agent Skills | Director Skills: Open-source Agent Skills for AI video creation."
+    language: "Python"
+    topics:
+      - "agent-skills"
+      - "ai-video"
+      - "claude-code"
+      - "codex"
+      - "filmmaking"
+      - "video-generation"
+    stars_fact: 307
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "mao-selected-works-skill"
+    title: "mao-selected-works-skill"
+    description: "An AI skill pack distilling Selected Works of Mao Zedong into reusable cognition, strategy, organization, and execution modules."
+    language: null
+    topics:
+      - "agent-workflows"
+      - "ai-skills"
+      - "book-to-skill"
+      - "cangjie-skill"
+      - "contradiction-analysis"
+      - "decision-making"
+      - "organization"
+      - "strategy"
+      - "systems-thinking"
+    stars_fact: 133
+    first_seen: null
+    last_push: "2026-05-02"
 ---
 
 # kangarooking

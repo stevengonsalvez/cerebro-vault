@@ -8,8 +8,8 @@ provenance_repos:
   - "anthropics/claude-code-action"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "0b22ca37fd3884c9"
 pushes_per_week: [0, 0, 0, 3, 6, 0, 4, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "Glass-Rea"
+    title: "Glass-Rea"
+    description: "Free, private data usage monitor and network monitor for Windows: data use per app, live traffic, connections, an app firewall, devices on your network and alerts. Also on the Microsoft Store."
+    language: "C#"
+    topics:
+      - "app-firewall"
+      - "bandwidth-monitor"
+      - "csharp"
+      - "data-usage"
+      - "dotnet"
+      - "etw"
+      - "firewall"
+      - "internet-usage"
+      - "microsoft-store"
+      - "network-monitor"
+      - "network-traffic"
+      - "windows"
+      - "winui3"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "IDM-Rea"
+    title: "IDM-Rea"
+    description: null
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "revil"
+    title: "revil"
+    description: "Portfolio ✨"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "TemRevil"
+    title: "TemRevil"
+    description: "Config files for my GitHub profile."
+    language: null
+    topics:
+      - "config"
+      - "github-config"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "Whistle"
+    title: "Whistle"
+    description: "Social Media - UI, using Glassy Blurly Vision to Define it."
+    language: "CSS"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-18"
+  - name: "t-sec"
+    title: "t-sec"
+    description: "Age-encrypted developer secrets CLI with a terminal UI and per-device trust"
+    language: "TypeScript"
+    topics:
+      - "age"
+      - "cli"
+      - "secrets-management"
+      - "terminal-ui"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-04"
 ---
 
 # TemRevil

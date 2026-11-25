@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [2, 0, 2, 13, 6, 14, 29, 0, 5, 0, 0, 1, 0]
+pushes_per_week: [1, 0, 4, 11, 6, 14, 29, 3, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 23
-    active_days: 22
+    active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 10
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.2727
-  repo_per_active_day: 1.0455
+  push_per_day: 3.3810
+  repo_per_active_day: 1.0952
   not_owned_ratio: 0.6087
   basename_concentration: 0.1304
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 2
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 72
+    pushes: 71
     distinct_repos: 23
-    pushes_per_repo: 3.1304
-    active_days: 22
+    pushes_per_repo: 3.0870
+    active_days: 21
     repos_not_owned: 14
     not_owned_basenames: 10
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "feed"
@@ -154,6 +154,6 @@ repos:
 
 # JacobCoffee
 
-72 pushes across 23 repositories on 22 active days in the last 90 days of public GitHub push activity.
+71 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JacobCoffee

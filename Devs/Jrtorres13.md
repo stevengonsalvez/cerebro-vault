@@ -8,11 +8,11 @@ provenance_repos:
   - "alirezarezvani/claude-skills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 3]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "claude-crew"
+    title: "claude-crew"
+    description: "Your Claude tasks as a crew of tiny Claudes"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "pocketdeck"
+    title: "pocketdeck"
+    description: "PocketDeck: turn a spare phone into a Stream Deck for your PC"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "hot-seat"
+    title: "hot-seat"
+    description: "Hot Seat: AI advisor board"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "jobsite-crm"
+    title: "jobsite-crm"
+    description: "JobSite CRM: construction CRM and job pipeline"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "groundwork"
+    title: "groundwork"
+    description: "Groundwork: calisthenics, mobility and fascia trainer"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "morning-brief"
+    title: "morning-brief"
+    description: "Morning Brief: daily planner for Claude work"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # Jrtorres13

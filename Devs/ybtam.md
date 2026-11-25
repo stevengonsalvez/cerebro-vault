@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 0, 0, 25, 2, 13, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 0, 26, 1, 13, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "iris-intellij-theme"
+    title: "iris-intellij-theme"
+    description: "Iris light and dark theme for WebStorm and JetBrains IDEs, based on the T3 Code Iris palette."
+    language: "Python"
+    topics:
+      - "color-scheme"
+      - "intellij-plugin"
+      - "jetbrains"
+      - "theme"
+      - "webstorm"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "drizzle-graphql-bug"
+    title: "drizzle-graphql-bug"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-06-07"
+  - name: "accproxy.com"
+    title: "accproxy.com"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-02-28"
+  - name: "img-converter"
+    title: "img-converter"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-09-14"
+  - name: "schema-first-experiment"
+    title: "schema-first-experiment"
+    description: "this is an experiment stack to see if schema first approach makes sense for DX."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-03-04"
+  - name: "pothos-drizzle-experiment"
+    title: "pothos-drizzle-experiment"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-02-21"
 ---
 
 # ybtam

@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [2, 0, 0, 2, 9, 23, 5, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 0, 5, 6, 23, 6, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,98 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "bat"
+    title: "bat"
+    description: "A cat(1) clone with wings."
+    language: "Rust"
+    topics:
+      - "cli"
+      - "command-line"
+      - "git"
+      - "hacktoberfest"
+      - "rust"
+      - "syntax-highlighting"
+      - "terminal"
+      - "tool"
+    stars_fact: 61304
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "fd"
+    title: "fd"
+    description: "A simple, fast and user-friendly alternative to 'find'"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "command-line"
+      - "filesystem"
+      - "hacktoberfest"
+      - "regex"
+      - "rust"
+      - "search"
+      - "terminal"
+      - "tool"
+    stars_fact: 45108
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "hexyl"
+    title: "hexyl"
+    description: "A command-line hex viewer"
+    language: "Rust"
+    topics:
+      - "binary-data"
+      - "command-line"
+      - "hexadecimal"
+      - "rust"
+      - "tool"
+    stars_fact: 10314
+    first_seen: null
+    last_push: "2026-04-30"
+  - name: "hyperfine"
+    title: "hyperfine"
+    description: "A command-line benchmarking tool"
+    language: "Rust"
+    topics:
+      - "benchmark"
+      - "cli"
+      - "command-line"
+      - "rust"
+      - "terminal"
+      - "tool"
+    stars_fact: 29300
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "numbat"
+    title: "numbat"
+    description: "A statically typed programming language for scientific computations with first class support for physical dimensions and units"
+    language: "Rust"
+    topics:
+      - "calculator"
+      - "physics"
+      - "programming-language"
+      - "statically-typed"
+      - "terminal-based"
+      - "units"
+      - "web-app"
+    stars_fact: 2847
+    first_seen: null
+    last_push: "2026-10-11"
+  - name: "pastel"
+    title: "pastel"
+    description: "A command-line tool to generate, analyze, convert and manipulate colors"
+    language: "Rust"
+    topics:
+      - "cli"
+      - "color-converter"
+      - "color-space"
+      - "colors"
+      - "command-line"
+      - "rust"
+      - "terminal"
+      - "tool"
+    stars_fact: 6554
+    first_seen: null
+    last_push: "2026-05-01"
 ---
 
 # sharkdp

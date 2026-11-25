@@ -8,11 +8,11 @@ provenance_repos:
   - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 3, 0]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,62 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "eslint-plugin-vue-data-testid"
+    title: "eslint-plugin-vue-data-testid"
+    description: "An ESLint plugin to enforce consistent usage of 'data-testid' attributes in Vue.js components for better testability"
+    language: "JavaScript"
+    topics:
+      - "eslint"
+      - "eslint-plugin"
+      - "eslint-rules"
+      - "vue"
+      - "vue2"
+      - "vue3"
+      - "vuejs"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2023-07-24"
+  - name: "todo-app"
+    title: "todo-app"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-25"
+  - name: "my-tanstack-app"
+    title: "my-tanstack-app"
+    description: "A TanStack Start project with Neon, Drizzle, Sentry, Better Auth, Tanstack Query, and Cloudflare"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-22"
+  - name: "vibesdk"
+    title: "vibesdk"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-09-29"
+  - name: "ziglings"
+    title: "ziglings"
+    description: null
+    language: "Zig"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-11-10"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2024-08-13"
 ---
 
 # xyos

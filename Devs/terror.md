@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 6, 2, 11, 10, 12, 11, 7, 0, 0, 0, 0, 6]
+pushes_per_week: [1, 6, 3, 10, 10, 12, 12, 6, 0, 0, 0, 0, 6]
 windows:
   "7d":
     pushes: 6
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ocs"
+    title: "ocs"
+    description: "A session picker for opencode"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-06"
+  - name: "just-lsp"
+    title: "just-lsp"
+    description: "A language server for just"
+    language: "Rust"
+    topics: []
+    stars_fact: 361
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "lab"
+    title: "lab"
+    description: "A durable agent orchestrator"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "spymux"
+    title: "spymux"
+    description: "A centralized view for all of your tmux panes"
+    language: "Rust"
+    topics: []
+    stars_fact: 68
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "treesitter.run"
+    title: "treesitter.run"
+    description: "A web playground for tree-sitter"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "kotomori"
+    title: "kotomori"
+    description: "A coding agent"
+    language: "Rust"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-15"
 ---
 
 # terror

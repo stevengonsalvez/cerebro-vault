@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [3, 0, 5, 2, 17, 26, 10, 4, 8, 1, 0, 3, 0]
+pushes_per_week: [2, 1, 4, 4, 16, 25, 10, 9, 3, 1, 0, 3, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 79
-    distinct_repos: 28
-    active_days: 31
-    repos_not_owned: 21
-    not_owned_basenames: 21
+    pushes: 78
+    distinct_repos: 27
+    active_days: 30
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 9
 automation:
   state: "clear"
-  push_per_day: 2.5484
-  repo_per_active_day: 0.9032
-  not_owned_ratio: 0.7500
-  basename_concentration: 0.0357
+  push_per_day: 2.6000
+  repo_per_active_day: 0.9000
+  not_owned_ratio: 0.7407
+  basename_concentration: 0.0370
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,22 +65,80 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 79
-    distinct_repos: 28
-    pushes_per_repo: 2.8214
-    active_days: 31
-    repos_not_owned: 21
-    not_owned_basenames: 21
+    pushes: 78
+    distinct_repos: 27
+    pushes_per_repo: 2.8889
+    active_days: 30
+    repos_not_owned: 20
+    not_owned_basenames: 20
     not_owned_owners: 9
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "ff2mpv"
+    title: "ff2mpv"
+    description: "A Firefox/Chrome add-on for playing URLs in mpv."
+    language: "PowerShell"
+    topics:
+      - "addon"
+      - "browser-extension"
+      - "chrome-extension"
+      - "firefox-extension"
+      - "hacktoberfest"
+      - "mpv"
+      - "webextension"
+    stars_fact: 653
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "vulnbrocards.com"
+    title: "vulnbrocards.com"
+    description: "The content behind vulnbrocards.com"
+    language: null
+    topics:
+      - "security"
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "ordered_enum"
+    title: "ordered_enum"
+    description: "Totally ordered enums for Python."
+    language: "Python"
+    topics:
+      - "enum"
+      - "python"
+    stars_fact: 32
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "openssl-dockerfiles"
+    title: "openssl-dockerfiles"
+    description: "Dockerfiles for a few versions of OpenSSL. Not suitable for production use."
+    language: "Dockerfile"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "gha-hazmat"
+    title: "gha-hazmat"
+    description: "A menagerie of insecure and exploitable GitHub Actions workflows and action definitions"
+    language: null
+    topics: []
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-10-08"
+  - name: "gzip-sniff"
+    title: "gzip-sniff"
+    description: "Looking at gzip variance across HTTP responses"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # woodruffw
 
-79 pushes across 28 repositories on 31 active days in the last 90 days of public GitHub push activity.
+78 pushes across 27 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/woodruffw

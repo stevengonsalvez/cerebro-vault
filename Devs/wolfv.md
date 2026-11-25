@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 1, 2, 13, 28, 16, 14, 4, 6, 0, 1, 1, 1]
+pushes_per_week: [0, 1, 2, 17, 25, 15, 17, 2, 5, 0, 1, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "cycling-workout"
+    title: "cycling-workout"
+    description: "Indoor cycling trainer (Zwift) connected via Bluetooth"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-10-29"
+  - name: "julia-forge"
+    title: "julia-forge"
+    description: "Recipes for julia (the language) and more"
+    language: "Python"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "pixi-experimental-backends"
+    title: "pixi-experimental-backends"
+    description: "Experimental Pixi build backends for Meson and Autotools"
+    language: "Rust"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "cuda-pixi-examples"
+    title: "cuda-pixi-examples"
+    description: null
+    language: "Cuda"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-22"
+  - name: "apostrophe"
+    title: "apostrophe"
+    description: "Apostrophe Markdown editor with macOS Pixi support"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-17"
+  - name: "pixi-build-bazel"
+    title: "pixi-build-bazel"
+    description: "Experimental pixi build backend for Bazel workspaces, plus Bazel rules that produce conda packages"
+    language: "Starlark"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
 ---
 
 # wolfv

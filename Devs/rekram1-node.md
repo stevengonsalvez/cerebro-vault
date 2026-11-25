@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [5, 9, 15, 17, 37, 29, 25, 29, 41, 1, 1, 2, 8]
+pushes_per_week: [5, 10, 16, 21, 35, 25, 29, 44, 22, 1, 1, 3, 7]
 windows:
   "7d":
     pushes: 8
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 12
     distinct_repos: 2
-    active_days: 9
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 21
+    pushes: 12
     distinct_repos: 2
-    pushes_per_repo: 10.5000
-    active_days: 9
+    pushes_per_repo: 6.0000
+    active_days: 8
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -76,7 +76,63 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "dotfiles"
+    title: "dotfiles"
+    description: "Chezmoi + Brew to replicate my development setup easily"
+    language: "Shell"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "blinkgo"
+    title: "blinkgo"
+    description: "Simple SDK for interacting with blink cameras, mainly: authentication, listing devices/networks/clips, and downloading clips from local storage"
+    language: "Go"
+    topics:
+      - "blink"
+      - "blinkpy"
+      - "camera"
+      - "golang-library"
+      - "home-automation"
+      - "sdk"
+      - "sdk-go"
+      - "security-camera"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2023-01-18"
+  - name: "vscode-settings"
+    title: "vscode-settings"
+    description: "vs code config files so that I can easily replicate my developer environment"
+    language: "Shell"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-07-19"
+  - name: "text-processor"
+    title: "text-processor"
+    description: "NLP utility library to interact with text. Initially this is to process English documents, essays, etc"
+    language: "Go"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2023-01-29"
+  - name: "plagiarism-detection-backend"
+    title: "plagiarism-detection-backend"
+    description: "TAMU HACK 2023"
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-01-29"
 ---
 
 # rekram1-node

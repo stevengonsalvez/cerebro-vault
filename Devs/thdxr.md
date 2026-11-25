@@ -9,11 +9,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 3, 9, 1, 0, 7, 7, 4, 0, 3, 3, 22]
+pushes_per_week: [1, 1, 5, 8, 0, 0, 8, 6, 4, 0, 4, 2, 22]
 windows:
   "7d":
     pushes: 22
@@ -23,9 +23,9 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -58,10 +58,10 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 31
+    pushes: 28
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 9
+    pushes_per_repo: 7.0000
+    active_days: 8
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
@@ -77,7 +77,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "environment"
+    title: "environment"
+    description: null
+    language: "Lua"
+    topics: []
+    stars_fact: 159
+    first_seen: null
+    last_push: "2026-07-02"
+  - name: "docs"
+    title: "docs"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2025-12-05"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2021-10-11"
+  - name: "twitch"
+    title: "twitch"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2023-07-27"
+  - name: "ampt-api"
+    title: "ampt-api"
+    description: "Ampt app for ampt-api"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-09-22"
+  - name: "overlay"
+    title: "overlay"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2022-08-14"
 ---
 
 # thdxr

@@ -8,11 +8,11 @@ provenance_repos:
   - "backnotprop/plannotator"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [0, 0, 3, 5, 0, 1, 0, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 3, 5, 0, 1, 1, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,75 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "tiny-software-factory"
+    title: "tiny-software-factory"
+    description: "Tiny software factory: GitHub issues in, merged PRs out. Agents for intake, spec, build, review and approval across Claude Code, Codex and Pi."
+    language: "Python"
+    topics:
+      - "agentic-workflows"
+      - "ai-agents"
+      - "automation"
+      - "claude-code"
+      - "codex"
+      - "coding-agents"
+      - "github-issues"
+      - "llm"
+      - "pi"
+      - "software-factory"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "open-canvas"
+    title: "open-canvas"
+    description: "A local-first visual design editor with artboards, editable text, shapes, images, SVG/PDF export, and local MCP control."
+    language: "TypeScript"
+    topics:
+      - "canvas-editor"
+      - "design-editor"
+      - "design-tools"
+      - "local-first"
+      - "mcp"
+      - "model-context-protocol"
+      - "react"
+      - "svg"
+      - "typescript"
+      - "vite"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "pi-extensions"
+    title: "pi-extensions"
+    description: "Independently installable extensions for Pi Coding Agent."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 35
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "utpalsinghdev"
+    title: "utpalsinghdev"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "detect-scene-cut"
+    title: "detect-scene-cut"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "git-img-modal"
+    title: "git-img-modal"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
 ---
 
 # utpalsinghdev

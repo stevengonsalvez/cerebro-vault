@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [0, 1, 3, 30, 6, 5, 1, 1, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 3, 31, 7, 3, 2, 0, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,12 +22,12 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    active_days: 3
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 50
     distinct_repos: 6
@@ -57,13 +57,13 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
-    distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
-    repos_not_owned: 2
+    pushes: 1
+    distinct_repos: 1
+    pushes_per_repo: 1.0000
+    active_days: 1
+    repos_not_owned: 1
     not_owned_basenames: 1
-    not_owned_owners: 2
+    not_owned_owners: 1
   "90d":
     pushes: 50
     distinct_repos: 6
@@ -76,7 +76,64 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "babel"
+    title: "babel"
+    description: "HackUPC Fall 2017"
+    language: "JavaScript"
+    topics:
+      - "babel"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: null
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "pnow"
+    title: "pnow"
+    description: "Just post things, as a human"
+    language: "Swift"
+    topics:
+      - "dev-null"
+      - "linkedin"
+      - "posting"
+      - "twitter"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "hackspain"
+    title: "hackspain"
+    description: "CINTA — Class-agnostic INline Transport Analyzer"
+    language: "Python"
+    topics:
+      - "ai"
+      - "classifier"
+      - "hardware"
+      - "robotics"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-20"
+  - name: "prodex-js"
+    title: "prodex-js"
+    description: "The ultimate vide coding MCP!"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 7
+    first_seen: null
+    last_push: "2025-03-26"
+  - name: "blog"
+    title: "blog"
+    description: null
+    language: "MDX"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
 ---
 
 # tarasyarema

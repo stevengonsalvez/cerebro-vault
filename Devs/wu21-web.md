@@ -8,11 +8,11 @@ provenance_repos:
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 6, 9, 15, 1, 2, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 2, 6, 8, 15, 2, 1, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
-    active_days: 2
+    pushes: 1
+    distinct_repos: 1
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 2
-    distinct_repos: 2
+    pushes: 1
+    distinct_repos: 1
     pushes_per_repo: 1.0000
-    active_days: 2
+    active_days: 1
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,54 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "qman"
+    title: "qman"
+    description: "Virtual Machine Management Made Easy in The Command Line"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "wu21-web"
+    title: "wu21-web"
+    description: "wu21-web's ReadMe"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "conv"
+    title: "conv"
+    description: "All in one file conversions through FFmpeg, ImageMagick's magick, and Pandoc."
+    language: "Go"
+    topics:
+      - "compacted"
+      - "converter"
+      - "ffmpeg"
+      - "gunzip"
+      - "imagemagick"
+      - "pandoc"
+      - "tar"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-03"
+  - name: "gh-pfp"
+    title: "gh-pfp"
+    description: "Github Style Profile Picture Generator + API + Web + Command Line"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-08"
+  - name: "authcore"
+    title: "authcore"
+    description: "Core of an authenticator on the command line."
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-23"
 ---
 
 # wu21-web

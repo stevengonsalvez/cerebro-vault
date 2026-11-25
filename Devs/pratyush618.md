@@ -8,11 +8,11 @@ provenance_repos:
   - "abhigyanpatwari/GitNexus"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 1, 8, 4, 7, 4, 1, 0, 0, 0, 1, 2]
+pushes_per_week: [0, 2, 1, 8, 5, 6, 4, 1, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,59 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "carrova"
+    title: "carrova"
+    description: null
+    language: "Rust"
+    topics:
+      - "fileserver"
+      - "filesharing"
+      - "filestorage"
+      - "sharing-data"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "pratyush618"
+    title: "pratyush618"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "singularity-fm"
+    title: "singularity-fm"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "Fidget-Spinner"
+    title: "Fidget-Spinner"
+    description: "RGB coloured fidget spinner"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2020-11-11"
+  - name: "pyfs-watcher"
+    title: "pyfs-watcher"
+    description: "Rust based watchdog"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-03-04"
+  - name: "doc_loader"
+    title: "doc_loader"
+    description: "Document loader for AI agents"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2025-07-30"
 ---
 
 # pratyush618

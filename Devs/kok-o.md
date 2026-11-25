@@ -8,11 +8,11 @@ provenance_repos:
   - "AGGIB/Stroq"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "24e1aea537d2f659"
-pushes_per_week: [0, 0, 1, 10, 11, 9, 6, 5, 2, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 11, 10, 9, 8, 5, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,66 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "kok-o"
+    title: "kok-o"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "ml-research-kit"
+    title: "ml-research-kit"
+    description: "Two standalone Agent Skills: research for evidence-based decisions and ml-research for ML experiments and benchmark evaluation."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "contextos-agents"
+    title: "contextos-agents"
+    description: "Deterministic context and policy compiler for supported AI coding agents."
+    language: "JavaScript"
+    topics:
+      - "ai-coding-agents"
+      - "claude"
+      - "context-compiler"
+      - "context-governance"
+      - "contextos"
+      - "copilot"
+      - "cursor"
+      - "developer-tools"
+      - "mcp"
+      - "prompt-engineering"
+      - "zed"
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-11-10"
+  - name: "cqa-hackathon-2026"
+    title: "cqa-hackathon-2026"
+    description: "SetW | AI-оценка диалогов RU/KZ/EN: 8 критериев, доказательства, апелляции и экспорт DEV/PROD. React, FastAPI, SQLite. Freedom Broker CQA Hackathon 2026."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-08"
+  - name: "soup-kernel-lab"
+    title: "soup-kernel-lab"
+    description: "Independent Soup training experiments with a GitHub-fed Kaggle notebook and preserved qualified baseline"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "my-site"
+    title: "my-site"
+    description: "My website"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-22"
 ---
 
 # kok-o

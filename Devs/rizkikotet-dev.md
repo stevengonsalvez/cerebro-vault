@@ -8,8 +8,8 @@ provenance_repos:
   - "Alishahryar1/free-claude-code"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 0, 0, 0, 5, 1, 1, 0, 0, 0, 0, 0, 0]
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "valencystudio-filemanager"
+    title: "valencystudio-filemanager"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-19"
+  - name: "valencystudio"
+    title: "valencystudio"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-14"
+  - name: "valencystudio-music"
+    title: "valencystudio-music"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-30"
+  - name: "FreeProxy-Router"
+    title: "FreeProxy-Router"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-07"
+  - name: "myapps"
+    title: "myapps"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-09-05"
+  - name: "luci-theme-rtawrt"
+    title: "luci-theme-rtawrt"
+    description: "Theme OpenWrt Based NeoBird"
+    language: "CSS"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2025-05-15"
 ---
 
 # rizkikotet-dev

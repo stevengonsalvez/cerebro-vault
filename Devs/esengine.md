@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "b5590ec052a4f771"
-pushes_per_week: [2, 6, 8, 30, 137, 94, 116, 44, 32, 0, 2, 2, 5]
+pushes_per_week: [1, 6, 9, 34, 141, 85, 140, 28, 24, 0, 2, 2, 5]
 windows:
   "7d":
     pushes: 5
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    active_days: 7
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 478
+    pushes: 477
     distinct_repos: 7
-    active_days: 48
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 9.9583
-  repo_per_active_day: 0.1458
+  push_per_day: 10.1489
+  repo_per_active_day: 0.1489
   not_owned_ratio: 0.5714
   basename_concentration: 0.7143
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 15
+    pushes: 10
     distinct_repos: 2
-    pushes_per_repo: 7.5000
-    active_days: 7
+    pushes_per_repo: 5.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 478
+    pushes: 477
     distinct_repos: 7
-    pushes_per_repo: 68.2857
-    active_days: 48
+    pushes_per_repo: 68.1429
+    active_days: 47
     repos_not_owned: 4
     not_owned_basenames: 1
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 48 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "estella"
@@ -147,6 +147,6 @@ repos:
 
 # esengine
 
-478 pushes across 7 repositories on 48 active days in the last 90 days of public GitHub push activity.
+477 pushes across 7 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/esengine

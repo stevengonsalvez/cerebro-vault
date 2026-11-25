@@ -8,11 +8,11 @@ provenance_repos:
   - "astral-sh/uv"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [2, 1, 26, 19, 6, 17, 49, 6, 12, 2, 0, 0, 0]
+pushes_per_week: [2, 1, 27, 21, 13, 7, 55, 5, 7, 2, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "uv-workflow-run-demo"
+    title: "uv-workflow-run-demo"
+    description: "Disposable demonstration of uv integration tests using workflow_run and read-only cache access"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-02"
+  - name: "automations"
+    title: "automations"
+    description: "Scheduled data collection automations"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-06"
+  - name: "zaniebot-sync"
+    title: "zaniebot-sync"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-06-01"
+  - name: "zaniebot-test-releases"
+    title: "zaniebot-test-releases"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-16"
+  - name: "ost-aws-canary"
+    title: "ost-aws-canary"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-10"
+  - name: "release-authenticator-example"
+    title: "release-authenticator-example"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-04-08"
 ---
 
 # zaniebot

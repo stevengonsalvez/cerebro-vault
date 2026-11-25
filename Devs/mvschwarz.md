@@ -8,11 +8,11 @@ provenance_repos:
   - "mvschwarz/openrig"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "a5babe6eb0c3a37f"
-pushes_per_week: [0, 0, 0, 0, 12, 106, 46, 41, 51, 0, 1, 7, 11]
+pushes_per_week: [0, 0, 0, 1, 14, 103, 49, 47, 42, 0, 1, 7, 11]
 windows:
   "7d":
     pushes: 11
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 2
-    active_days: 10
+    pushes: 20
+    distinct_repos: 1
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 32
-    distinct_repos: 2
-    pushes_per_repo: 16.0000
-    active_days: 10
+    pushes: 20
+    distinct_repos: 1
+    pushes_per_repo: 20.0000
+    active_days: 9
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,67 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "openrig"
+    title: "openrig"
+    description: "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
+    language: "TypeScript"
+    topics:
+      - "agent-harness"
+      - "agent-orchestration"
+      - "agent-skills"
+      - "ai-coding"
+      - "claude-code"
+      - "cli"
+      - "codex-cli"
+      - "multi-agent"
+      - "multi-agent-systems"
+      - "tmux"
+      - "typescript"
+    stars_fact: 8974
+    first_seen: "2026-09-28T06:01:28.341049+00:00"
+    last_push: "2026-11-25"
+  - name: "openrig-world"
+    title: "openrig-world"
+    description: "Project world for building OpenRig with coding agents: a context pack and a small contributor rig."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "openrig-studio"
+    title: "openrig-studio"
+    description: "Official OpenRig Studio SDK (@openrig/studio)"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "openrig-registry"
+    title: "openrig-registry"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "herdr-openrig"
+    title: "herdr-openrig"
+    description: "OpenRig for Herdr: open your OpenRig agent team’s operator and advisor, see needs-you, follow tasks and message agents from inside Herdr."
+    language: "Shell"
+    topics:
+      - "herdr-plugin"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "lymegpt"
+    title: "lymegpt"
+    description: "LymeGPT is a RAG app using AWS Bedrock and Streamlit to provide information on Lyme disease treatment. It can be used as a template for any RAG app on AWS Bedrock."
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2024-07-05"
 ---
 
 # mvschwarz

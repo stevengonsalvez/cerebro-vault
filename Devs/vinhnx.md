@@ -8,11 +8,11 @@ provenance_repos:
   - "agentskills/agentskills"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 1, 2, 2, 2, 6, 2, 2, 1, 0, 0, 0, 2]
+pushes_per_week: [0, 1, 2, 2, 4, 4, 2, 2, 1, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -76,7 +76,95 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "VTCode"
+    title: "VTCode"
+    description: "VT Code is an open-source coding agent for everyone"
+    language: "Rust"
+    topics:
+      - "acp"
+      - "coding-agents"
+      - "desktop"
+      - "gpui"
+      - "gpui-kit"
+      - "macos"
+      - "mcp"
+      - "rust"
+      - "tui"
+      - "webmcp"
+    stars_fact: 918
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "Clendar"
+    title: "Clendar"
+    description: "Clendar - Minimal Calendar app. Written in SwiftUI."
+    language: "Swift"
+    topics:
+      - "apple"
+      - "calendar"
+      - "catalyst"
+      - "eventkit"
+      - "fastlane"
+      - "github-actions"
+      - "ios"
+      - "ipad"
+      - "iphone"
+      - "macos"
+      - "siri"
+      - "swift"
+      - "swift-package-manager"
+      - "swiftformat"
+      - "swiftlint"
+      - "swiftui"
+      - "watchos"
+      - "widget"
+    stars_fact: 748
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "My homebrew tap formula"
+    language: "Ruby"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "tui-shimmer"
+    title: "tui-shimmer"
+    description: "Shimmer text effect for Ratatui"
+    language: "Rust"
+    topics:
+      - "ratatui"
+      - "shimmer"
+      - "terminal"
+      - "tui"
+    stars_fact: 31
+    first_seen: null
+    last_push: "2026-10-23"
+  - name: "codemods"
+    title: "codemods"
+    description: "My Codemods"
+    language: "Rust"
+    topics:
+      - "codemod"
+      - "registry"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "vtcode-battery-pack"
+    title: "vtcode-battery-pack"
+    description: "Curated battery pack of VT Code crates for building Rust coding agents with OS-native sandboxing, multi-provider LLM support, and extensible skills."
+    language: "Rust"
+    topics:
+      - "battery-pack"
+      - "coding-agent"
+      - "llm"
+      - "rust"
+      - "tui"
+      - "vtcode"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-17"
 ---
 
 # vinhnx

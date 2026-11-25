@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 0, 0, 1, 4, 3, 7, 2, 3, 0, 1, 0, 1]
+pushes_per_week: [1, 0, 0, 5, 0, 3, 9, 1, 2, 0, 1, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    active_days: 3
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 3
+    pushes: 2
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 1.0000
+    active_days: 2
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -76,7 +76,55 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "opencode-native-preview"
+    title: "opencode-native-preview"
+    description: "OpenCode Native CLI Preview builds"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-11-18"
+  - name: "tigerstyle"
+    title: "tigerstyle"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 45
+    first_seen: null
+    last_push: "2025-11-29"
+  - name: "opentui-bench"
+    title: "opentui-bench"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-13"
+  - name: "godis"
+    title: "godis"
+    description: "godis - an old Redis client for Go"
+    language: "Go"
+    topics: []
+    stars_fact: 86
+    first_seen: null
+    last_push: "2020-02-17"
+  - name: "opentui-tex"
+    title: "opentui-tex"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-09-03"
+  - name: "node-demo"
+    title: "node-demo"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-09"
 ---
 
 # simonklee

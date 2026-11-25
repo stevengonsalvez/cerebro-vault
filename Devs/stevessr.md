@@ -8,11 +8,11 @@ provenance_repos:
   - "AstrBotDevs/AstrBot"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [16, 4, 38, 61, 20, 148, 229, 9, 78, 0, 3, 8, 4]
+pushes_per_week: [14, 5, 39, 60, 22, 145, 231, 12, 73, 0, 3, 8, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 22
     distinct_repos: 5
-    active_days: 6
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 618
+    pushes: 616
     distinct_repos: 23
-    active_days: 53
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 11.6604
-  repo_per_active_day: 0.4340
+  push_per_day: 12.0784
+  repo_per_active_day: 0.4510
   not_owned_ratio: 0.0000
   basename_concentration: 0.0435
   shapes: []
@@ -57,30 +57,80 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 57
+    pushes: 22
     distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 6
+    pushes_per_repo: 4.4000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 618
+    pushes: 616
     distinct_repos: 23
-    pushes_per_repo: 26.8696
-    active_days: 53
+    pushes_per_repo: 26.7826
+    active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 51 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: ".github"
+    title: ".github"
+    description: "PICO 4 Ultra temporary-root module builds and release hosting"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "astrbot_plugin_matrix_adapter"
+    title: "astrbot_plugin_matrix_adapter"
+    description: "stevessr🐟 自用的matrix插件，为 astrbot 设计，有问题请提issue"
+    language: "Python"
+    topics:
+      - "astrbot-plugin"
+      - "matrix"
+    stars_fact: 26
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "agent-ebpf-filter"
+    title: "agent-ebpf-filter"
+    description: null
+    language: "Go"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "custom_lib_build"
+    title: "custom_lib_build"
+    description: null
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
+  - name: "hspice"
+    title: "hspice"
+    description: null
+    language: "Typst"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "sso"
+    title: "sso"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-03"
 ---
 
 # stevessr
 
-618 pushes across 23 repositories on 53 active days in the last 90 days of public GitHub push activity.
+616 pushes across 23 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

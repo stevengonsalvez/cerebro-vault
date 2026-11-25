@@ -8,11 +8,11 @@ provenance_repos:
   - "anthropics/anthropic-sdk-python"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 1, 1, 3, 13, 5, 5, 0, 3, 0, 0, 2, 3]
+pushes_per_week: [0, 1, 1, 3, 14, 4, 5, 0, 3, 0, 0, 2, 3]
 windows:
   "7d":
     pushes: 3
@@ -22,9 +22,9 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 1
-    active_days: 7
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -57,10 +57,10 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 8
+    pushes: 5
     distinct_repos: 1
-    pushes_per_repo: 8.0000
-    active_days: 7
+    pushes_per_repo: 5.0000
+    active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -76,7 +76,115 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "lfi"
+    title: "lfi"
+    description: "🦥 A lazy functional iteration library supporting sync, async, and concurrent iteration."
+    language: "TypeScript"
+    topics:
+      - "async"
+      - "concurrent"
+      - "functional-programming"
+      - "generator"
+      - "iterable"
+      - "iterator"
+      - "javascript"
+      - "lazy"
+      - "npm-module"
+      - "npm-package"
+      - "promise"
+      - "sync"
+    stars_fact: 350
+    first_seen: null
+    last_push: "2025-12-16"
+  - name: "parse-imports"
+    title: "parse-imports"
+    description: "⚡ A blazing fast ES module imports parser."
+    language: "TypeScript"
+    topics:
+      - "dynamic-import"
+      - "dynamic-imports"
+      - "es-module"
+      - "es6"
+      - "esm"
+      - "identifier"
+      - "import-export"
+      - "imports-parser"
+      - "javascript"
+      - "nodejs"
+      - "parse-imports"
+      - "parser"
+      - "statement"
+      - "wasm"
+    stars_fact: 54
+    first_seen: null
+    last_push: "2025-09-02"
+  - name: "spotify-true-random"
+    title: "spotify-true-random"
+    description: "🔀 An application for unbiased truly random playlist and library shuffling with Spotify."
+    language: "TypeScript"
+    topics:
+      - "api"
+      - "audio"
+      - "css"
+      - "css3"
+      - "html"
+      - "html-css"
+      - "html-css-javascript"
+      - "html5"
+      - "javascript"
+      - "library-shuffling"
+      - "music"
+      - "random"
+      - "shuffle"
+      - "shuffle-array"
+      - "spotify"
+      - "spotify-api"
+      - "spotify-playlist"
+      - "spotify-plugin"
+      - "spotify-web-api"
+      - "website"
+    stars_fact: 109
+    first_seen: null
+    last_push: "2026-11-03"
+  - name: "profiler-md"
+    title: "profiler-md"
+    description: "🔥 Converts performance profiles to human and LLM friendly Markdown."
+    language: "TypeScript"
+    topics:
+      - "cli"
+      - "markdown"
+      - "performance"
+      - "performance-analysis"
+      - "performance-optimization"
+      - "profiler-data"
+    stars_fact: 25
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "keyalesce"
+    title: "keyalesce"
+    description: "🔑 Get the same key for the same sequence of values!"
+    language: "TypeScript"
+    topics:
+      - "finalizationregistry"
+      - "hashing"
+      - "idempotent"
+      - "key-value"
+      - "map"
+      - "set"
+      - "weakmap"
+      - "weakref"
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "mmmm"
+    title: "mmmm"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
 ---
 
 # TomerAberbach

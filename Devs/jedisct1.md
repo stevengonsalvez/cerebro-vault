@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 0, 5, 16, 24, 11, 18, 4, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 2, 8, 11, 24, 11, 22, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 43
-    active_days: 24
+    active_days: 23
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 3.3750
-  repo_per_active_day: 1.7917
+  push_per_day: 3.4783
+  repo_per_active_day: 1.8696
   not_owned_ratio: 0.3256
   basename_concentration: 0.0465
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 81
+    pushes: 80
     distinct_repos: 43
-    pushes_per_repo: 1.8837
-    active_days: 24
+    pushes_per_repo: 1.8605
+    active_days: 23
     repos_not_owned: 14
     not_owned_basenames: 13
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 24 active days in 90d — pass"
+  - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "minisign"
@@ -158,6 +158,6 @@ repos:
 
 # jedisct1
 
-81 pushes across 43 repositories on 24 active days in the last 90 days of public GitHub push activity.
+80 pushes across 43 repositories on 23 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jedisct1

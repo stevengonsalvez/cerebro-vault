@@ -9,11 +9,11 @@ provenance_repos:
   - "apache/maka"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [5, 2, 1, 15, 13, 5, 4, 6, 23, 0, 1, 3, 2]
+pushes_per_week: [3, 2, 1, 19, 9, 5, 5, 12, 16, 0, 1, 3, 2]
 windows:
   "7d":
     pushes: 2
@@ -23,23 +23,23 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 2
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 7
-    active_days: 29
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7586
-  repo_per_active_day: 0.2414
+  push_per_day: 2.7857
+  repo_per_active_day: 0.2500
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -58,30 +58,95 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 11
-    distinct_repos: 3
-    pushes_per_repo: 3.6667
-    active_days: 7
-    repos_not_owned: 2
-    not_owned_basenames: 2
-    not_owned_owners: 2
+    pushes: 8
+    distinct_repos: 2
+    pushes_per_repo: 4.0000
+    active_days: 6
+    repos_not_owned: 1
+    not_owned_basenames: 1
+    not_owned_owners: 1
   "90d":
-    pushes: 80
+    pushes: 78
     distinct_repos: 7
-    pushes_per_repo: 11.4286
-    active_days: 29
+    pushes_per_repo: 11.1429
+    active_days: 28
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "rigs"
+    title: "rigs"
+    description: "Rigs is an Agent orchestration framework based on Rig"
+    language: "Rust"
+    topics:
+      - "agent"
+      - "agents"
+      - "ai"
+      - "orchestration"
+      - "orchestrator"
+      - "rig"
+    stars_fact: 20
+    first_seen: null
+    last_push: "2025-04-04"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-09"
+  - name: "agent-finance"
+    title: "agent-finance"
+    description: "AI-agent-first market intelligence CLI for evidence-driven financial research."
+    language: "Rust"
+    topics:
+      - "ai-agent"
+      - "cli"
+      - "finance"
+      - "market-data"
+      - "rust"
+      - "trading"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-07-12"
+  - name: "sprig"
+    title: "sprig"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "sprig-benchmarks"
+    title: "sprig-benchmarks"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "opencode-gateway"
+    title: "opencode-gateway"
+    description: "Turn OpenCode into a local automation gateway with Telegram delivery, scheduled jobs, durable memory, and conversational ops."
+    language: "TypeScript"
+    topics:
+      - "gateway"
+      - "openclaw"
+      - "opencode"
+      - "opencode-plugin"
+      - "telegram"
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-04-25"
 ---
 
 # M4n5ter
 
-80 pushes across 7 repositories on 29 active days in the last 90 days of public GitHub push activity.
+78 pushes across 7 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/M4n5ter

@@ -8,11 +8,11 @@ provenance_repos:
   - "anomalyco/opencode"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [16, 0, 1, 11, 1, 31, 13, 41, 83, 0, 1, 1, 4]
+pushes_per_week: [14, 0, 3, 10, 1, 30, 18, 64, 55, 1, 0, 1, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 38
-    distinct_repos: 5
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 3
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 203
+    pushes: 201
     distinct_repos: 17
-    active_days: 35
+    active_days: 33
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 5.8000
-  repo_per_active_day: 0.4857
+  push_per_day: 6.0909
+  repo_per_active_day: 0.5152
   not_owned_ratio: 0.7059
   basename_concentration: 0.1765
   shapes: []
@@ -57,30 +57,95 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 38
-    distinct_repos: 5
-    pushes_per_repo: 7.6000
-    active_days: 6
-    repos_not_owned: 4
-    not_owned_basenames: 4
+    pushes: 9
+    distinct_repos: 3
+    pushes_per_repo: 3.0000
+    active_days: 5
+    repos_not_owned: 3
+    not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 203
+    pushes: 201
     distinct_repos: 17
-    pushes_per_repo: 11.9412
-    active_days: 35
+    pushes_per_repo: 11.8235
+    active_days: 33
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 33 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "2password"
+    title: "2password"
+    description: "1Password for coding agents: find, use, and save secrets without exposing them"
+    language: "TypeScript"
+    topics:
+      - "1password"
+      - "agent-skills"
+      - "ai-agents"
+      - "cli"
+      - "secrets"
+    stars_fact: 333
+    first_seen: null
+    last_push: "2026-10-04"
+  - name: "effect-solutions"
+    title: "effect-solutions"
+    description: "A guide to writing idiomatic Effect code."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 468
+    first_seen: null
+    last_push: "2026-04-29"
+  - name: "scrawl"
+    title: "scrawl"
+    description: "Show an agent a problem: mark up, record, send"
+    language: "Rust"
+    topics:
+      - "ai-agents"
+      - "claude-code"
+      - "coding-agents"
+      - "developer-tools"
+      - "gpui"
+      - "macos"
+      - "opencode"
+      - "rust"
+      - "screen-recording"
+    stars_fact: 965
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "opencode-plugins"
+    title: "opencode-plugins"
+    description: "Personal plugins for OpenCode V2"
+    language: "TypeScript"
+    topics:
+      - "opencode"
+      - "opencode-plugin"
+      - "tui"
+    stars_fact: 18
+    first_seen: null
+    last_push: "2026-09-18"
+  - name: "ghui"
+    title: "ghui"
+    description: "A GitHub TUI"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1149
+    first_seen: null
+    last_push: "2026-10-25"
+  - name: "neotype"
+    title: "neotype"
+    description: "A friendly newtype library for Scala 3"
+    language: "Scala"
+    topics: []
+    stars_fact: 263
+    first_seen: null
+    last_push: "2026-09-02"
 ---
 
 # kitlangton
 
-203 pushes across 17 repositories on 35 active days in the last 90 days of public GitHub push activity.
+201 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

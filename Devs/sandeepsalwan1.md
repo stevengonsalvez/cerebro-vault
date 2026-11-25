@@ -8,11 +8,11 @@ provenance_repos:
   - "browser-use/browser-use"
 admitted: true
 low_n: false
-repos_populated: false
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+repos_populated: true
+generated_at: "2026-11-25T07:05:09.746086+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [1, 0, 0, 1, 5, 6, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 2, 4, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -76,7 +76,60 @@ reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
-repos: []
+repos:
+  - name: "mac-setup"
+    title: "mac-setup"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-15"
+  - name: "sandeepsalwan1"
+    title: "sandeepsalwan1"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "sandeepsalwan1.github.io"
+    title: "sandeepsalwan1.github.io"
+    description: "Web"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-14"
+  - name: "saveFoster"
+    title: "saveFoster"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-06"
+  - name: "lastpage"
+    title: "lastpage"
+    description: "Your PDFs remember where you stopped reading. Local-first resume and recent-close history."
+    language: "JavaScript"
+    topics:
+      - "local-first"
+      - "pdf-reader"
+      - "pdfjs"
+      - "privacy"
+      - "reading-progress"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-08-07"
+  - name: "AgentHackathon"
+    title: "AgentHackathon"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-07-04"
 ---
 
 # sandeepsalwan1
