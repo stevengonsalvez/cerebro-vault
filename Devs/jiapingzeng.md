@@ -1,18 +1,18 @@
 ---
-login: "XiGou"
+login: "jiapingzeng"
 name: null
 discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "Alishahryar1/free-claude-code"
+  - "aws/agent-toolkit-for-aws"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
-  - "9d67ce648f6a8919"
-pushes_per_week: [2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - "a50b0e08dbaee74a"
+pushes_per_week: [1, 0, 1, 1, 3, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 4
+    pushes: 7
+    distinct_repos: 5
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.0000
-  repo_per_active_day: 0.8000
-  not_owned_ratio: 0.0000
-  basename_concentration: 0.2500
+  push_per_day: 1.4000
+  repo_per_active_day: 1.0000
+  not_owned_ratio: 0.4000
+  basename_concentration: 0.2000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,70 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 5
-    distinct_repos: 4
-    pushes_per_repo: 1.2500
+    pushes: 7
+    distinct_repos: 5
+    pushes_per_repo: 1.4000
     active_days: 5
-    repos_not_owned: 0
-    not_owned_basenames: 0
-    not_owned_owners: 0
+    repos_not_owned: 2
+    not_owned_basenames: 2
+    not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xigou.github.io"
-    title: "xigou.github.io"
-    description: "https://quartz.19960312.xyz, https://cloudflare.19960312.xyz, https://vercel.19960312.xyz"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-24"
-  - name: "Obsidain-Digital-Garden"
-    title: "Obsidain-Digital-Garden"
-    description: null
-    language: null
+  - name: "home-prod"
+    title: "home-prod"
+    description: "Home automation Kubernetes cluster"
+    language: "Shell"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
-  - name: "LuxeFlux"
-    title: "LuxeFlux"
+    last_push: "2026-11-23"
+  - name: "ml-commons-tests"
+    title: "ml-commons-tests"
     description: null
     language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-18"
-  - name: "hu-chenfeng"
-    title: "hu-chenfeng"
+    last_push: "2026-02-26"
+  - name: "agui-testsuite"
+    title: "agui-testsuite"
     description: null
-    language: "JavaScript"
+    language: "TypeScript"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-09-11"
-  - name: "baopilong"
-    title: "baopilong"
+    last_push: "2026-02-25"
+  - name: "mcp-proxy-sigv4"
+    title: "mcp-proxy-sigv4"
     description: null
-    language: "JavaScript"
+    language: "Python"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2025-11-06"
+  - name: "strands-agui-agent"
+    title: "strands-agui-agent"
+    description: null
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-13"
-  - name: "fio-webui"
-    title: "fio-webui"
+    last_push: "2025-10-01"
+  - name: "cs35l"
+    title: "cs35l"
     description: null
-    language: "JavaScript"
+    language: "Roff"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-08-06"
+    last_push: "2020-03-31"
 ---
 
-# XiGou
+# jiapingzeng
 
-5 pushes across 4 repositories on 5 active days in the last 90 days of public GitHub push activity.
+7 pushes across 5 repositories on 5 active days in the last 90 days of public GitHub push activity.
 
-https://github.com/XiGou
+https://github.com/jiapingzeng

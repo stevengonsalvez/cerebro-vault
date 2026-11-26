@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 40, 65, 75, 187, 195, 149, 101, 98, 2, 22, 22, 31]
+pushes_per_week: [13, 50, 64, 86, 201, 170, 140, 118, 81, 16, 11, 19, 34]
 windows:
   "7d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 4
-    active_days: 4
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 86
+    pushes: 80
     distinct_repos: 5
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 1001
+    pushes: 1003
     distinct_repos: 39
     active_days: 69
     repos_not_owned: 25
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 19
 automation:
   state: "clear"
-  push_per_day: 14.5072
+  push_per_day: 14.5362
   repo_per_active_day: 0.5652
   not_owned_ratio: 0.6410
   basename_concentration: 0.2564
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 31
+    pushes: 34
     distinct_repos: 4
-    pushes_per_repo: 7.7500
-    active_days: 4
+    pushes_per_repo: 8.5000
+    active_days: 5
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 86
+    pushes: 80
     distinct_repos: 5
-    pushes_per_repo: 17.2000
+    pushes_per_repo: 16.0000
     active_days: 16
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 1001
+    pushes: 1003
     distinct_repos: 39
-    pushes_per_repo: 25.6667
+    pushes_per_repo: 25.7179
     active_days: 69
     repos_not_owned: 25
     not_owned_basenames: 8
@@ -164,6 +164,6 @@ repos:
 
 # code-yeongyu
 
-1001 pushes across 39 repositories on 69 active days in the last 90 days of public GitHub push activity.
+1003 pushes across 39 repositories on 69 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

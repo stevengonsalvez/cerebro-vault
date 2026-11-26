@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "e1f0381c8cfc61e3"
-pushes_per_week: [6, 2, 25, 19, 37, 22, 17, 4, 12, 0, 1, 0, 2]
+pushes_per_week: [1, 3, 27, 19, 37, 19, 17, 6, 10, 1, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 147
+    pushes: 142
     distinct_repos: 21
-    active_days: 41
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.5854
-  repo_per_active_day: 0.5122
+  push_per_day: 3.5500
+  repo_per_active_day: 0.5250
   not_owned_ratio: 0.0000
   basename_concentration: 0.0476
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 147
+    pushes: 142
     distinct_repos: 21
-    pushes_per_repo: 7.0000
-    active_days: 41
+    pushes_per_repo: 6.7619
+    active_days: 40
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 40 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "skarmory"
@@ -134,6 +134,6 @@ repos:
 
 # eddiethedean
 
-147 pushes across 21 repositories on 41 active days in the last 90 days of public GitHub push activity.
+142 pushes across 21 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/eddiethedean

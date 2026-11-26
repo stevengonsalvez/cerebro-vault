@@ -6,11 +6,13 @@ discovered_via_all:
   - "vault"
 provenance_repos:
   - "n8n-io/n8n"
+  - "n8n-io/nod"
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-10-11T06:04:44.624574+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
+  - "8b1c7ec39d8341cc"
   - "c37165a31cd3fc39"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:

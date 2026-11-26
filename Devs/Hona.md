@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [12, 8, 4, 22, 8, 21, 13, 11, 8, 0, 7, 3, 14]
+pushes_per_week: [4, 8, 7, 25, 5, 18, 13, 11, 8, 6, 1, 3, 15]
 windows:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 4
-    active_days: 6
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 124
     distinct_repos: 15
     active_days: 40
     repos_not_owned: 4
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.2750
+  push_per_day: 3.1000
   repo_per_active_day: 0.3750
   not_owned_ratio: 0.2667
   basename_concentration: 0.1333
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 2
-    pushes_per_repo: 7.0000
-    active_days: 2
+    pushes_per_repo: 7.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 24
+    pushes: 25
     distinct_repos: 4
-    pushes_per_repo: 6.0000
-    active_days: 6
+    pushes_per_repo: 6.2500
+    active_days: 7
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 131
+    pushes: 124
     distinct_repos: 15
-    pushes_per_repo: 8.7333
+    pushes_per_repo: 8.2667
     active_days: 40
     repos_not_owned: 4
     not_owned_basenames: 4
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-131 pushes across 15 repositories on 40 active days in the last 90 days of public GitHub push activity.
+124 pushes across 15 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

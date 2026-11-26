@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "d2a13eb5e04b724b"
-pushes_per_week: [7, 30, 35, 128, 131, 127, 183, 48, 73, 0, 1, 8, 16]
+pushes_per_week: [5, 32, 48, 128, 131, 116, 179, 53, 68, 1, 0, 8, 16]
 windows:
   "7d":
     pushes: 16
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 787
+    pushes: 785
     distinct_repos: 12
-    active_days: 56
+    active_days: 55
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 14.0536
-  repo_per_active_day: 0.2143
+  push_per_day: 14.2727
+  repo_per_active_day: 0.2182
   not_owned_ratio: 0.3333
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 787
+    pushes: 785
     distinct_repos: 12
-    pushes_per_repo: 65.5833
-    active_days: 56
+    pushes_per_repo: 65.4167
+    active_days: 55
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 56 active days in 90d — pass"
+  - "activity: 55 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "worktrunk"
@@ -135,6 +135,6 @@ repos:
 
 # max-sixty
 
-787 pushes across 12 repositories on 56 active days in the last 90 days of public GitHub push activity.
+785 pushes across 12 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/max-sixty

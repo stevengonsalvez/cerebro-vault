@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 2, 6, 14, 12, 19, 2, 8, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 6, 16, 16, 13, 5, 5, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 27
-    active_days: 21
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0952
-  repo_per_active_day: 1.2857
+  push_per_day: 3.2000
+  repo_per_active_day: 1.3500
   not_owned_ratio: 0.0000
   basename_concentration: 0.0370
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
+    pushes: 64
     distinct_repos: 27
-    pushes_per_repo: 2.4074
-    active_days: 21
+    pushes_per_repo: 2.3704
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-skill-router"
@@ -184,6 +184,6 @@ repos:
 
 # shimo4228
 
-65 pushes across 27 repositories on 21 active days in the last 90 days of public GitHub push activity.
+64 pushes across 27 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/shimo4228

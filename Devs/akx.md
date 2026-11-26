@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [2, 1, 3, 3, 8, 3, 7, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 3, 3, 8, 4, 6, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 11
-    active_days: 17
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 1.7059
-  repo_per_active_day: 0.6471
+  push_per_day: 1.7500
+  repo_per_active_day: 0.6875
   not_owned_ratio: 0.2727
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 29
+    pushes: 28
     distinct_repos: 11
-    pushes_per_repo: 2.6364
-    active_days: 17
+    pushes_per_repo: 2.5455
+    active_days: 16
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 17 active days in 90d — pass"
+  - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "dot3k-c"
@@ -133,6 +133,6 @@ repos:
 
 # akx
 
-29 pushes across 11 repositories on 17 active days in the last 90 days of public GitHub push activity.
+28 pushes across 11 repositories on 16 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/akx

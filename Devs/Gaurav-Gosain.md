@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "a8880d67c967e370"
-pushes_per_week: [2, 0, 8, 9, 30, 63, 40, 34, 34, 1, 5, 1, 6]
+pushes_per_week: [0, 0, 8, 13, 35, 60, 34, 45, 23, 2, 4, 1, 7]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    active_days: 2
+    pushes: 7
+    distinct_repos: 2
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 233
+    pushes: 232
     distinct_repos: 13
     active_days: 40
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 5.8250
+  push_per_day: 5.8000
   repo_per_active_day: 0.3250
   not_owned_ratio: 0.1538
   basename_concentration: 0.2308
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 16
+    pushes: 14
     distinct_repos: 3
-    pushes_per_repo: 5.3333
+    pushes_per_repo: 4.6667
     active_days: 8
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 233
+    pushes: 232
     distinct_repos: 13
-    pushes_per_repo: 17.9231
+    pushes_per_repo: 17.8462
     active_days: 40
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -168,6 +168,6 @@ repos:
 
 # Gaurav-Gosain
 
-233 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
+232 pushes across 13 repositories on 40 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Gaurav-Gosain

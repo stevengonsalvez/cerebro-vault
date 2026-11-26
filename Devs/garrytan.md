@@ -10,28 +10,28 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "31b3468471cae2ac"
   - "b321d228efd2bc14"
-pushes_per_week: [4, 2, 4, 12, 33, 197, 126, 53, 74, 3, 2, 3, 57]
+pushes_per_week: [2, 2, 4, 19, 41, 209, 99, 62, 65, 4, 1, 4, 57]
 windows:
   "7d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 5
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 6
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 570
+    pushes: 569
     distinct_repos: 9
     active_days: 50
     repos_not_owned: 1
@@ -39,7 +39,7 @@ windows:
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.4000
+  push_per_day: 11.3800
   repo_per_active_day: 0.1800
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
@@ -51,25 +51,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 57
+    pushes: 58
     distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 5
+    pushes_per_repo: 11.6000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 70
+    pushes: 66
     distinct_repos: 6
-    pushes_per_repo: 11.6667
+    pushes_per_repo: 11.0000
     active_days: 12
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 570
+    pushes: 569
     distinct_repos: 9
-    pushes_per_repo: 63.3333
+    pushes_per_repo: 63.2222
     active_days: 50
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -131,6 +131,6 @@ repos:
 
 # garrytan
 
-570 pushes across 9 repositories on 50 active days in the last 90 days of public GitHub push activity.
+569 pushes across 9 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

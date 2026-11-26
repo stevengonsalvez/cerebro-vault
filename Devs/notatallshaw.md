@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [3, 1, 1, 4, 1, 0, 16, 9, 18, 0, 0, 0, 3]
+pushes_per_week: [2, 1, 1, 4, 1, 0, 16, 11, 16, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 7
-    active_days: 22
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 2.5455
-  repo_per_active_day: 0.3182
+  push_per_day: 2.6190
+  repo_per_active_day: 0.3333
   not_owned_ratio: 0.2857
   basename_concentration: 0.2857
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 56
+    pushes: 55
     distinct_repos: 7
-    pushes_per_repo: 8.0000
-    active_days: 22
+    pushes_per_repo: 7.8571
+    active_days: 21
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "nab"
@@ -129,6 +129,6 @@ repos:
 
 # notatallshaw
 
-56 pushes across 7 repositories on 22 active days in the last 90 days of public GitHub push activity.
+55 pushes across 7 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/notatallshaw

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [4, 2, 3, 13, 32, 31, 10, 17, 8, 0, 1, 0, 0]
+pushes_per_week: [3, 2, 3, 14, 39, 25, 8, 20, 5, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 13
-    active_days: 36
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.3611
-  repo_per_active_day: 0.3611
+  push_per_day: 3.4286
+  repo_per_active_day: 0.3714
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 13
-    pushes_per_repo: 9.3077
-    active_days: 36
+    pushes_per_repo: 9.2308
+    active_days: 35
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "Unlimited-DeepL-Pro"
@@ -152,6 +152,6 @@ repos:
 
 # Sma1lboy
 
-121 pushes across 13 repositories on 36 active days in the last 90 days of public GitHub push activity.
+120 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

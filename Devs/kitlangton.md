@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [14, 0, 3, 10, 1, 30, 18, 64, 55, 1, 0, 1, 4]
+pushes_per_week: [8, 0, 3, 10, 1, 30, 18, 74, 45, 1, 0, 1, 5]
 windows:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    active_days: 2
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 3
+    pushes: 7
+    distinct_repos: 2
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 201
+    pushes: 196
     distinct_repos: 17
-    active_days: 33
+    active_days: 34
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 6.0909
-  repo_per_active_day: 0.5152
+  push_per_day: 5.7647
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.7059
   basename_concentration: 0.1765
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 4
+    pushes: 5
     distinct_repos: 2
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 2.5000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 9
-    distinct_repos: 3
-    pushes_per_repo: 3.0000
+    pushes: 7
+    distinct_repos: 2
+    pushes_per_repo: 3.5000
     active_days: 5
-    repos_not_owned: 3
-    not_owned_basenames: 3
+    repos_not_owned: 2
+    not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 201
+    pushes: 196
     distinct_repos: 17
-    pushes_per_repo: 11.8235
-    active_days: 33
+    pushes_per_repo: 11.5294
+    active_days: 34
     repos_not_owned: 12
     not_owned_basenames: 11
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "2password"
@@ -146,6 +146,6 @@ repos:
 
 # kitlangton
 
-201 pushes across 17 repositories on 33 active days in the last 90 days of public GitHub push activity.
+196 pushes across 17 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kitlangton

@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [1, 0, 0, 7, 44, 240, 87, 34, 3, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 8, 51, 262, 57, 37, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -30,16 +30,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 418
+    pushes: 417
     distinct_repos: 11
-    active_days: 29
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 14.4138
-  repo_per_active_day: 0.3793
+  push_per_day: 14.8929
+  repo_per_active_day: 0.3929
   not_owned_ratio: 0.0000
   basename_concentration: 0.0909
   shapes: []
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 418
+    pushes: 417
     distinct_repos: 11
-    pushes_per_repo: 38.0000
-    active_days: 29
+    pushes_per_repo: 37.9091
+    active_days: 28
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "copilot-ledger-action"
@@ -130,6 +130,6 @@ repos:
 
 # swigerb
 
-418 pushes across 11 repositories on 29 active days in the last 90 days of public GitHub push activity.
+417 pushes across 11 repositories on 28 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/swigerb

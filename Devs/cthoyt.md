@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [3, 1, 5, 21, 32, 11, 25, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 11, 15, 33, 14, 21, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 28
-    active_days: 32
+    active_days: 31
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 3.1250
-  repo_per_active_day: 0.8750
+  push_per_day: 3.1613
+  repo_per_active_day: 0.9032
   not_owned_ratio: 0.5000
   basename_concentration: 0.0714
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 100
+    pushes: 98
     distinct_repos: 28
-    pushes_per_repo: 3.5714
-    active_days: 32
+    pushes_per_repo: 3.5000
+    active_days: 31
     repos_not_owned: 14
     not_owned_basenames: 12
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 32 active days in 90d — pass"
+  - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "sssom-curator"
@@ -168,6 +168,6 @@ repos:
 
 # cthoyt
 
-100 pushes across 28 repositories on 32 active days in the last 90 days of public GitHub push activity.
+98 pushes across 28 repositories on 31 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cthoyt

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [11, 21, 17, 168, 204, 85, 122, 34, 35, 0, 6, 3, 7]
+pushes_per_week: [9, 27, 11, 189, 202, 81, 107, 47, 22, 4, 2, 4, 6]
 windows:
   "7d":
     pushes: 7
@@ -22,23 +22,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 7
+    active_days: 9
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 713
+    pushes: 711
     distinct_repos: 59
-    active_days: 60
+    active_days: 59
     repos_not_owned: 31
     not_owned_basenames: 31
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.8833
-  repo_per_active_day: 0.9833
+  push_per_day: 12.0508
+  repo_per_active_day: 1.0000
   not_owned_ratio: 0.5254
   basename_concentration: 0.0169
   shapes: []
@@ -57,24 +57,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "30d":
-    pushes: 17
-    distinct_repos: 8
-    pushes_per_repo: 2.1250
-    active_days: 10
-    repos_not_owned: 5
-    not_owned_basenames: 5
+    pushes: 16
+    distinct_repos: 7
+    pushes_per_repo: 2.2857
+    active_days: 9
+    repos_not_owned: 4
+    not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 713
+    pushes: 711
     distinct_repos: 59
-    pushes_per_repo: 12.0847
-    active_days: 60
+    pushes_per_repo: 12.0508
+    active_days: 59
     repos_not_owned: 31
     not_owned_basenames: 31
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 60 active days in 90d — pass"
+  - "activity: 59 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "norch"
@@ -184,6 +184,6 @@ repos:
 
 # avifenesh
 
-713 pushes across 59 repositories on 60 active days in the last 90 days of public GitHub push activity.
+711 pushes across 59 repositories on 59 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

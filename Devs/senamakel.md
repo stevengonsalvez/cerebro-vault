@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [10, 5, 57, 160, 145, 125, 326, 153, 66, 0, 0, 2, 7]
+pushes_per_week: [7, 6, 64, 180, 154, 94, 320, 185, 34, 0, 0, 2, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1056
-    distinct_repos: 105
-    active_days: 55
-    repos_not_owned: 68
+    pushes: 1053
+    distinct_repos: 104
+    active_days: 54
+    repos_not_owned: 67
     not_owned_basenames: 46
-    not_owned_owners: 23
+    not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 19.2000
-  repo_per_active_day: 1.9091
-  not_owned_ratio: 0.6476
-  basename_concentration: 0.1619
+  push_per_day: 19.5000
+  repo_per_active_day: 1.9259
+  not_owned_ratio: 0.6442
+  basename_concentration: 0.1635
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "19.20 pushes per active day over 90d (1056 pushes / 55 active days), above the 15 review line"
+    - "19.50 pushes per active day over 90d (1053 pushes / 54 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1056
-    distinct_repos: 105
-    pushes_per_repo: 10.0571
-    active_days: 55
-    repos_not_owned: 68
+    pushes: 1053
+    distinct_repos: 104
+    pushes_per_repo: 10.1250
+    active_days: 54
+    repos_not_owned: 67
     not_owned_basenames: 46
-    not_owned_owners: 23
+    not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-ladder-router"
@@ -131,6 +131,6 @@ repos:
 
 # senamakel
 
-1056 pushes across 105 repositories on 55 active days in the last 90 days of public GitHub push activity.
+1053 pushes across 104 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

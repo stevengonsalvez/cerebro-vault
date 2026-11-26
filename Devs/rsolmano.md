@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "0acf196572ceb07e"
-pushes_per_week: [2, 0, 0, 2, 6, 3, 10, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 0, 3, 7, 1, 10, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    active_days: 13
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.7692
-  repo_per_active_day: 0.1538
+  push_per_day: 1.8333
+  repo_per_active_day: 0.1667
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 23
+    pushes: 22
     distinct_repos: 2
-    pushes_per_repo: 11.5000
-    active_days: 13
+    pushes_per_repo: 11.0000
+    active_days: 12
     repos_not_owned: 2
     not_owned_basenames: 1
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 13 active days in 90d — pass"
+  - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "datagen-intellij-plugin"
@@ -89,6 +89,6 @@ repos:
 
 # rsolmano
 
-23 pushes across 2 repositories on 13 active days in the last 90 days of public GitHub push activity.
+22 pushes across 2 repositories on 12 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/rsolmano

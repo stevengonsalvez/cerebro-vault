@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [10, 36, 60, 114, 106, 175, 126, 85, 129, 0, 2, 11, 19]
+pushes_per_week: [7, 37, 65, 115, 105, 173, 122, 116, 98, 0, 2, 11, 19]
 windows:
   "7d":
     pushes: 19
@@ -25,23 +25,23 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 7
   "30d":
-    pushes: 38
+    pushes: 32
     distinct_repos: 9
-    active_days: 10
+    active_days: 9
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 873
+    pushes: 870
     distinct_repos: 35
-    active_days: 63
+    active_days: 61
     repos_not_owned: 34
     not_owned_basenames: 5
     not_owned_owners: 31
 automation:
   state: "clear"
-  push_per_day: 13.8571
-  repo_per_active_day: 0.5556
+  push_per_day: 14.2623
+  repo_per_active_day: 0.5738
   not_owned_ratio: 0.9714
   basename_concentration: 0.8857
   shapes:
@@ -62,7 +62,7 @@ automation:
       - "anajuliabit/orca"
       - "audichuang/orca"
       - "beattlekid/orca"
-      - "blaksmatic/orca"
+      - "Chihen-Tai/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"
@@ -76,24 +76,24 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 7
   "30d":
-    pushes: 38
+    pushes: 32
     distinct_repos: 9
-    pushes_per_repo: 4.2222
-    active_days: 10
+    pushes_per_repo: 3.5556
+    active_days: 9
     repos_not_owned: 9
     not_owned_basenames: 2
     not_owned_owners: 8
   "90d":
-    pushes: 873
+    pushes: 870
     distinct_repos: 35
-    pushes_per_repo: 24.9429
-    active_days: 63
+    pushes_per_repo: 24.8571
+    active_days: 61
     repos_not_owned: 34
     not_owned_basenames: 5
     not_owned_owners: 31
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 63 active days in 90d — pass"
+  - "activity: 61 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "orca-mirror"
@@ -148,6 +148,6 @@ repos:
 
 # nwparker
 
-873 pushes across 35 repositories on 63 active days in the last 90 days of public GitHub push activity.
+870 pushes across 35 repositories on 61 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/nwparker

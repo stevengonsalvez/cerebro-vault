@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [6, 3, 11, 30, 57, 69, 61, 31, 8, 4, 3, 10, 27]
+pushes_per_week: [4, 4, 14, 31, 62, 62, 58, 36, 3, 6, 2, 9, 28]
 windows:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 5
-    active_days: 4
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 320
+    pushes: 319
     distinct_repos: 26
     active_days: 55
     repos_not_owned: 10
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 6
 automation:
   state: "clear"
-  push_per_day: 5.8182
+  push_per_day: 5.8000
   repo_per_active_day: 0.4727
   not_owned_ratio: 0.3846
   basename_concentration: 0.0769
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 27
+    pushes: 28
     distinct_repos: 5
-    pushes_per_repo: 5.4000
-    active_days: 4
+    pushes_per_repo: 5.6000
+    active_days: 5
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 2
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 4
   "90d":
-    pushes: 320
+    pushes: 319
     distinct_repos: 26
-    pushes_per_repo: 12.3077
+    pushes_per_repo: 12.2692
     active_days: 55
     repos_not_owned: 10
     not_owned_basenames: 10
@@ -129,6 +129,6 @@ repos:
 
 # andrebrait
 
-320 pushes across 26 repositories on 55 active days in the last 90 days of public GitHub push activity.
+319 pushes across 26 repositories on 55 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/andrebrait

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "b68d90c0788819fd"
-pushes_per_week: [5, 1, 1, 30, 20, 7, 22, 1, 1, 0, 0, 0, 2]
+pushes_per_week: [4, 1, 5, 26, 22, 6, 21, 1, 1, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 27
-    active_days: 30
+    active_days: 29
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 21
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.9000
+  push_per_day: 3.0690
+  repo_per_active_day: 0.9310
   not_owned_ratio: 0.8889
   basename_concentration: 0.7037
   shapes:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 2
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 27
-    pushes_per_repo: 3.3333
-    active_days: 30
+    pushes_per_repo: 3.2963
+    active_days: 29
     repos_not_owned: 24
     not_owned_basenames: 4
     not_owned_owners: 21
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 30 active days in 90d — pass"
+  - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "santifer-irepair"
@@ -187,6 +187,6 @@ repos:
 
 # santifer
 
-90 pushes across 27 repositories on 30 active days in the last 90 days of public GitHub push activity.
+89 pushes across 27 repositories on 29 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/santifer

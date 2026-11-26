@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [122, 17, 28, 36, 67, 70, 146, 58, 18, 2, 10, 6, 1]
+pushes_per_week: [119, 17, 30, 37, 74, 77, 129, 60, 16, 9, 3, 6, 1]
 windows:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    active_days: 2
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 581
+    pushes: 578
     distinct_repos: 4
-    active_days: 59
+    active_days: 58
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.8475
-  repo_per_active_day: 0.0678
+  push_per_day: 9.9655
+  repo_per_active_day: 0.0690
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 2
+    pushes: 1
     distinct_repos: 1
-    pushes_per_repo: 2.0000
-    active_days: 2
+    pushes_per_repo: 1.0000
+    active_days: 1
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 581
+    pushes: 578
     distinct_repos: 4
-    pushes_per_repo: 145.2500
-    active_days: 59
+    pushes_per_repo: 144.5000
+    active_days: 58
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scryfall-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-581 pushes across 4 repositories on 59 active days in the last 90 days of public GitHub push activity.
+578 pushes across 4 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta

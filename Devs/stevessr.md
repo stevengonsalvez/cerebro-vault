@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [14, 5, 39, 60, 22, 145, 231, 12, 73, 0, 3, 8, 4]
+pushes_per_week: [13, 6, 38, 63, 36, 135, 224, 20, 65, 3, 0, 8, 4]
 windows:
   "7d":
     pushes: 4
@@ -22,14 +22,14 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 5
-    active_days: 5
+    pushes: 15
+    distinct_repos: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 616
+    pushes: 615
     distinct_repos: 23
     active_days: 51
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.0784
+  push_per_day: 12.0588
   repo_per_active_day: 0.4510
   not_owned_ratio: 0.0000
   basename_concentration: 0.0435
@@ -57,17 +57,17 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 22
-    distinct_repos: 5
-    pushes_per_repo: 4.4000
-    active_days: 5
+    pushes: 15
+    distinct_repos: 3
+    pushes_per_repo: 5.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 616
+    pushes: 615
     distinct_repos: 23
-    pushes_per_repo: 26.7826
+    pushes_per_repo: 26.7391
     active_days: 51
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -131,6 +131,6 @@ repos:
 
 # stevessr
 
-616 pushes across 23 repositories on 51 active days in the last 90 days of public GitHub push activity.
+615 pushes across 23 repositories on 51 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

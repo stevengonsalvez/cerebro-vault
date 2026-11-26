@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 6, 2, 14, 9, 17, 6, 8, 17, 0, 1, 1, 0]
+pushes_per_week: [0, 7, 1, 16, 14, 15, 1, 9, 16, 0, 1, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 17
-    active_days: 25
+    active_days: 24
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 3.2800
-  repo_per_active_day: 0.6800
+  push_per_day: 3.3750
+  repo_per_active_day: 0.7083
   not_owned_ratio: 0.7059
   basename_concentration: 0.1765
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
+    pushes: 81
     distinct_repos: 17
-    pushes_per_repo: 4.8235
-    active_days: 25
+    pushes_per_repo: 4.7647
+    active_days: 24
     repos_not_owned: 12
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 25 active days in 90d — pass"
+  - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rical-1876"
@@ -129,6 +129,6 @@ repos:
 
 # CahidArda
 
-82 pushes across 17 repositories on 25 active days in the last 90 days of public GitHub push activity.
+81 pushes across 17 repositories on 24 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CahidArda

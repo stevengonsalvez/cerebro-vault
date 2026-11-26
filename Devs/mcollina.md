@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 1, 3, 11, 13, 9, 20, 3, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 4, 12, 11, 13, 16, 4, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 22
-    active_days: 28
+    active_days: 27
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 8
 automation:
   state: "clear"
-  push_per_day: 2.2500
-  repo_per_active_day: 0.7857
+  push_per_day: 2.2963
+  repo_per_active_day: 0.8148
   not_owned_ratio: 0.7727
   basename_concentration: 0.0909
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 63
+    pushes: 62
     distinct_repos: 22
-    pushes_per_repo: 2.8636
-    active_days: 28
+    pushes_per_repo: 2.8182
+    active_days: 27
     repos_not_owned: 17
     not_owned_basenames: 16
     not_owned_owners: 8
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "async-cache-dedupe"
@@ -129,6 +129,6 @@ repos:
 
 # mcollina
 
-63 pushes across 22 repositories on 28 active days in the last 90 days of public GitHub push activity.
+62 pushes across 22 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mcollina

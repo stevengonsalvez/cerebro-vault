@@ -5,16 +5,13 @@ discovered_via: "fanout"
 discovered_via_all:
   - "fanout"
 provenance_repos:
-  - "affaan-m/ECC"
   - "alibaba/open-code-review"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
-  - "1df6ea1f1256059e"
   - "c489e6fb5febf2ab"
-  - "edb3a626875732de"
 pushes_per_week: [0, 0, 3, 7, 1, 6, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
@@ -76,7 +73,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 3 vault signal(s) — pass"
+  - "provenance: 1 vault signal(s) — pass"
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

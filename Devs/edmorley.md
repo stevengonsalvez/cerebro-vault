@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-26T07:04:12.617303+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 3, 0, 0, 0, 17, 0, 3, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 3, 0, 0, 7, 10, 0, 3, 2, 0, 1, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 14
-    active_days: 7
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 26
+    distinct_repos: 13
+    active_days: 6
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.8571
-  repo_per_active_day: 2.0000
+  push_per_day: 4.3333
+  repo_per_active_day: 2.1667
   not_owned_ratio: 1.0000
-  basename_concentration: 0.0714
+  basename_concentration: 0.0769
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 27
-    distinct_repos: 14
-    pushes_per_repo: 1.9286
-    active_days: 7
-    repos_not_owned: 14
-    not_owned_basenames: 14
+    pushes: 26
+    distinct_repos: 13
+    pushes_per_repo: 2.0000
+    active_days: 6
+    repos_not_owned: 13
+    not_owned_basenames: 13
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 7 active days in 90d — pass"
+  - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "heroku-buildpack-timestamps"
@@ -121,6 +121,6 @@ repos:
 
 # edmorley
 
-27 pushes across 14 repositories on 7 active days in the last 90 days of public GitHub push activity.
+26 pushes across 13 repositories on 6 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/edmorley
