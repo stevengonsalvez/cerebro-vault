@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
 pushes_per_week: [0, 0, 0, 0, 16, 1, 2, 1, 12, 0, 0, 0, 0]
@@ -77,29 +77,6 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "scriptorium"
-    title: "scriptorium"
-    description: "Open-source AI teammate for Slack, Jira, Confluence and GitHub that asks before it acts: cited answers, approval-gated writes, a hash-chained audit log."
-    language: "TypeScript"
-    topics:
-      - "ai-agents"
-      - "confluence"
-      - "human-in-the-loop"
-      - "jira"
-      - "llm"
-      - "slack-bot"
-      - "typescript"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "sloweyyy"
-    title: "sloweyyy"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "cloud-native-ecommerce-platform"
     title: "cloud-native-ecommerce-platform"
     description: "Cloud-native e-commerce on .NET 10 LTS microservices with React + Nx Module Federation microfrontends, deployed to AWS EKS via Terraform with Istio service mesh. MongoDB / Redis / PostgreSQL / SQL Server, RabbitMQ, Ocelot gateway. Legacy Angular UI in /client."
@@ -125,9 +102,32 @@ repos:
       - "prometheus"
       - "react"
       - "terraform"
-    stars_fact: 23
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
+  - name: "scriptorium"
+    title: "scriptorium"
+    description: "Open-source AI teammate for Slack, Jira, Confluence and GitHub that asks before it acts: cited answers, approval-gated writes, a hash-chained audit log."
+    language: "TypeScript"
+    topics:
+      - "ai-agents"
+      - "confluence"
+      - "human-in-the-loop"
+      - "jira"
+      - "llm"
+      - "slack-bot"
+      - "typescript"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "sloweyyy"
+    title: "sloweyyy"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "Trustify-Frontend"
     title: "Trustify-Frontend"
     description: "This repository contains the frontend code for Trustify, a platform for online notarization services that leverages blockchain and NFT for document storage. This frontend interacts with the provided backend to facilitate the user experience."

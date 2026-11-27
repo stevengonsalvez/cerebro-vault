@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 4, 19, 3, 3, 5, 16, 2, 0, 0, 0, 3]
+pushes_per_week: [0, 3, 3, 18, 4, 2, 5, 16, 2, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 10
-    active_days: 19
+    active_days: 18
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.0000
-  repo_per_active_day: 0.5263
+  push_per_day: 3.1111
+  repo_per_active_day: 0.5556
   not_owned_ratio: 0.9000
   basename_concentration: 0.1000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 57
+    pushes: 56
     distinct_repos: 10
-    pushes_per_repo: 5.7000
-    active_days: 19
+    pushes_per_repo: 5.6000
+    active_days: 18
     repos_not_owned: 9
     not_owned_basenames: 9
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 19 active days in 90d — pass"
+  - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "srs"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-22"
   - name: "musl-static-dlopen"
     title: "musl-static-dlopen"
     description: "A single-file Linux executable with an embedded musl loader for native Rust plugins."
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-06-03"
+    last_push: "2026-11-24"
   - name: "sld"
     title: "sld"
     description: null
@@ -129,6 +129,6 @@ repos:
 
 # zanieb
 
-57 pushes across 10 repositories on 19 active days in the last 90 days of public GitHub push activity.
+56 pushes across 10 repositories on 18 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/zanieb

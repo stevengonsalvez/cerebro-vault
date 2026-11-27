@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 0, 0, 0, 1, 3, 3, 6, 1, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 1, 4, 2, 6, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,27 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "diynow-agent"
+    title: "diynow-agent"
+    description: "DIYNow: read-only MCP for 2027 master's programme facts, plus the application skill (Claude Code, Codex, Agent Plugins)"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "thumbglance-specifications"
+    title: "thumbglance-specifications"
+    description: "Source-linked YouTube image specifications with verification dates, released under CC0 1.0."
+    language: null
+    topics:
+      - "csv"
+      - "dataset"
+      - "specifications"
+      - "thumbnails"
+      - "youtube"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "Ethereal49"
     title: "Ethereal49"
     description: "Config files for my GitHub profile."
@@ -84,7 +105,7 @@ repos:
     topics:
       - "config"
       - "github-config"
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
     last_push: "2026-11-14"
   - name: "Ethereal49.github.io"
@@ -103,19 +124,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-23"
-  - name: "thumbglance-specifications"
-    title: "thumbglance-specifications"
-    description: "Source-linked YouTube image specifications with verification dates, released under CC0 1.0."
-    language: null
-    topics:
-      - "csv"
-      - "dataset"
-      - "specifications"
-      - "thumbnails"
-      - "youtube"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-17"
   - name: "thumbglance"
     title: "thumbglance"
     description: "Browser-local thumbnail previews and resizing with adjustable JPG quality and actual output size."
@@ -128,14 +136,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-17"
-  - name: "openvibeboard"
-    title: "openvibeboard"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-07-29"
 ---
 
 # Ethereal49

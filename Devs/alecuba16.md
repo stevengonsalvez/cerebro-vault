@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "2a7f0fddd2dac162"
-pushes_per_week: [2, 4, 3, 29, 38, 27, 15, 27, 17, 1, 0, 1, 3]
+pushes_per_week: [0, 4, 3, 38, 36, 21, 14, 27, 17, 1, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 6
-    active_days: 37
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.5135
-  repo_per_active_day: 0.1622
+  push_per_day: 4.5833
+  repo_per_active_day: 0.1667
   not_owned_ratio: 0.0000
   basename_concentration: 0.1667
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 167
+    pushes: 165
     distinct_repos: 6
-    pushes_per_repo: 27.8333
-    active_days: 37
+    pushes_per_repo: 27.5000
+    active_days: 36
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 37 active days in 90d — pass"
+  - "activity: 36 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "homebrew-tap"
@@ -134,6 +134,6 @@ repos:
 
 # alecuba16
 
-167 pushes across 6 repositories on 37 active days in the last 90 days of public GitHub push activity.
+165 pushes across 6 repositories on 36 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/alecuba16

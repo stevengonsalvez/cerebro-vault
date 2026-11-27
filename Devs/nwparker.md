@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0a8884baa5f55aa6"
   - "2a7f0fddd2dac162"
-pushes_per_week: [7, 37, 65, 115, 105, 173, 122, 116, 98, 0, 2, 11, 19]
+pushes_per_week: [7, 43, 89, 89, 147, 130, 119, 117, 97, 0, 2, 13, 17]
 windows:
   "7d":
     pushes: 19
@@ -62,7 +62,7 @@ automation:
       - "anajuliabit/orca"
       - "audichuang/orca"
       - "beattlekid/orca"
-      - "Chihen-Tai/orca"
+      - "blaksmatic/orca"
     upstreams:
       - "stablyai/orca"
   prefilter: "rest_verified"

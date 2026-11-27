@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "481b19745d66d642"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,7 +82,7 @@ repos:
     description: null
     language: null
     topics: []
-    stars_fact: 379
+    stars_fact: 382
     first_seen: null
     last_push: "2025-09-15"
 ---

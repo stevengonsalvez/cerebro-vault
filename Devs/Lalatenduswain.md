@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 2, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 2, 1, 1, 1, 1, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,14 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
-    title: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
-    description: null
-    language: null
+  - name: "poweroff-remote"
+    title: "poweroff-remote"
+    description: "Android app to power servers off over SSH and back on with Wake-on-LAN, credentials encrypted on-device"
+    language: "Kotlin"
     topics: []
-    stars_fact: 21
+    stars_fact: 0
     first_seen: null
-    last_push: "2026-06-03"
+    last_push: "2026-10-22"
   - name: "folio-cover-images"
     title: "folio-cover-images"
     description: "Mirror of Folio blog cover images (served via jsDelivr CDN). Source of truth is Cloudflare R2."
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
   - name: "ssh-on-windows"
     title: "ssh-on-windows"
     description: null
@@ -101,6 +101,14 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-06"
+  - name: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
+    title: "Open-Source-Alternatives-to-Microsoft-Entra-Conditional-Access-and-Intune"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-06-03"
   - name: "ProxmoxVE-Post-Install-Script"
     title: "ProxmoxVE-Post-Install-Script"
     description: "This script is designed to automate the post-installation setup of Proxmox VE. It streamlines the configuration of repositories, high availability, and system updates. Use this script responsibly and ensure your environment is backed up before proceeding."
@@ -118,14 +126,6 @@ repos:
     stars_fact: 14
     first_seen: null
     last_push: "2026-06-03"
-  - name: "kids_first_ml_project_with_google_colab"
-    title: "kids_first_ml_project_with_google_colab"
-    description: null
-    language: "Jupyter Notebook"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-09-08"
 ---
 
 # Lalatenduswain

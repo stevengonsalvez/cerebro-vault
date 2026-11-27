@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,6 +82,22 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "comfy-aimdo-rust"
+    title: "comfy-aimdo-rust"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
+  - name: "recall-relay"
+    title: "recall-relay"
+    description: null
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "indextts25-hindi-h200"
     title: "indextts25-hindi-h200"
     description: "IndexTTS 2.5 Hindi LoRA: small H200 pilot, recovery and merged GPT inference verified. Data: IndicVoices-R Hindi @ 5f4495c91d500742a58d1be2ab07d77f73c0acf8. Experimental best100; quality gate not passed."
@@ -113,23 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "ComfyUI-DOGE-Session"
-    title: "ComfyUI-DOGE-Session"
-    description: "Explicit ComfyUI GPU mining sessions with a new-DOGE target, cancellation, persistent progress and process guards"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-27"
-  - name: "ComfyUI-PromoTypesetter"
-    title: "ComfyUI-PromoTypesetter"
-    description: "Exact-copy marketing artwork for Qwen/ComfyUI: real CJK typography, five styles, background text checks, and per-image batch results."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-03"
+    last_push: "2026-11-23"
 ---
 
 # allenflux

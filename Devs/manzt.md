@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 1, 4, 5, 1, 8, 17, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 3, 5, 1, 8, 17, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -86,27 +86,9 @@ repos:
       - "marimo"
       - "python"
       - "widgets"
-    stars_fact: 950
+    stars_fact: 953
     first_seen: null
     last_push: "2026-11-06"
-  - name: "zarrita.js"
-    title: "zarrita.js"
-    description: "A JavaScript toolkit for working with chunked, compressed, n-dimensional arrays"
-    language: "TypeScript"
-    topics:
-      - "typescript"
-      - "zarr"
-    stars_fact: 159
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "juv"
-    title: "juv"
-    description: "Create, manage, and run Jupyter notebooks with their dependencies"
-    language: "Python"
-    topics: []
-    stars_fact: 324
-    first_seen: null
-    last_push: "2026-03-30"
   - name: "quak"
     title: "quak"
     description: "a scalable data profiler"
@@ -120,6 +102,24 @@ repos:
     stars_fact: 413
     first_seen: null
     last_push: "2026-07-17"
+  - name: "zarrita.js"
+    title: "zarrita.js"
+    description: "A JavaScript toolkit for working with chunked, compressed, n-dimensional arrays"
+    language: "TypeScript"
+    topics:
+      - "typescript"
+      - "zarr"
+    stars_fact: 162
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "juv"
+    title: "juv"
+    description: "Create, manage, and run Jupyter notebooks with their dependencies"
+    language: "Python"
+    topics: []
+    stars_fact: 324
+    first_seen: null
+    last_push: "2026-03-30"
   - name: "python-machine-learning-marimo"
     title: "python-machine-learning-marimo"
     description: "Editable machine-learning lessons in marimo, exported to WebAssembly with bundled dependencies."

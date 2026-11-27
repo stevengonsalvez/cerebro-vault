@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 1, 0, 6, 5, 6, 8, 16, 1, 0, 4, 1, 0]
+pushes_per_week: [0, 1, 2, 4, 5, 6, 8, 17, 0, 0, 4, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
   - name: "ocr-behavior-review"
     title: "ocr-behavior-review"
     description: "An opt-in behavior contract and counterexample review policy for OpenCodeReview."
@@ -109,14 +109,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-09-09"
-  - name: "Jump-Terminator"
-    title: "Jump-Terminator"
-    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-08-09"
   - name: "codex-401-doctor"
     title: "codex-401-doctor"
     description: "Diagnose and repair common Codex 401 Unauthorized issues on Windows"
@@ -125,6 +117,14 @@ repos:
     stars_fact: 2
     first_seen: null
     last_push: "2026-08-29"
+  - name: "Jump-Terminator"
+    title: "Jump-Terminator"
+    description: "Jump Terminator Android 跨应用跳转控制工具（S0 技术可行性验证）"
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-08-09"
 ---
 
 # Qiyuanqiii

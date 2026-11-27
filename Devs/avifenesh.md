@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [9, 27, 11, 189, 202, 81, 107, 47, 22, 4, 2, 4, 6]
+pushes_per_week: [6, 28, 11, 215, 186, 78, 99, 48, 21, 5, 1, 4, 6]
 windows:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 711
+    pushes: 708
     distinct_repos: 59
-    active_days: 59
+    active_days: 58
     repos_not_owned: 31
     not_owned_basenames: 31
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 12.0508
-  repo_per_active_day: 1.0000
+  push_per_day: 12.2069
+  repo_per_active_day: 1.0172
   not_owned_ratio: 0.5254
   basename_concentration: 0.0169
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 7
-    distinct_repos: 4
-    pushes_per_repo: 1.7500
-    active_days: 4
+    pushes: 6
+    distinct_repos: 3
+    pushes_per_repo: 2.0000
+    active_days: 3
     repos_not_owned: 2
     not_owned_basenames: 2
     not_owned_owners: 1
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 4
     not_owned_owners: 1
   "90d":
-    pushes: 711
+    pushes: 708
     distinct_repos: 59
-    pushes_per_repo: 12.0508
-    active_days: 59
+    pushes_per_repo: 12.0000
+    active_days: 58
     repos_not_owned: 31
     not_owned_basenames: 31
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 59 active days in 90d — pass"
+  - "activity: 58 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "norch"
@@ -184,6 +184,6 @@ repos:
 
 # avifenesh
 
-711 pushes across 59 repositories on 59 active days in the last 90 days of public GitHub push activity.
+708 pushes across 59 repositories on 58 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/avifenesh

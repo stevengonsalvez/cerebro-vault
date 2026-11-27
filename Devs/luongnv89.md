@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [3, 15, 39, 63, 29, 16, 24, 13, 2, 2, 0, 5, 5]
+pushes_per_week: [3, 15, 57, 50, 24, 22, 18, 13, 2, 2, 0, 5, 5]
 windows:
   "7d":
     pushes: 5
@@ -85,9 +85,27 @@ repos:
       - "claude-code"
       - "guide"
       - "tutorial"
-    stars_fact: 47423
+    stars_fact: 47632
     first_seen: "2026-06-28T06:00:06.755641+00:00"
-    last_push: "2026-11-14"
+    last_push: "2026-11-21"
+  - name: "voice-cast"
+    title: "voice-cast"
+    description: "Your words, any voice. Voice cloning and text-to-speech with multiple TTS engines. Clone any voice from a short audio sample and generate speech in that voice."
+    language: "Python"
+    topics:
+      - "tts"
+      - "voice"
+    stars_fact: 24
+    first_seen: null
+    last_push: "2026-08-29"
+  - name: "plugsquire-website"
+    title: "plugsquire-website"
+    description: "Website for Plugsquire, a macOS app that checks everything connected to your Mac"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "asm"
     title: "asm"
     description: "The universal skill manager for AI coding agents."
@@ -98,21 +116,9 @@ repos:
       - "aiagents"
       - "coding"
       - "skills"
-    stars_fact: 975
+    stars_fact: 976
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "sleek-ui"
-    title: "sleek-ui"
-    description: "The Unsplash of design systems for AI agents — re-skin your app with one URL"
-    language: "TypeScript"
-    topics:
-      - "ai"
-      - "automatically"
-      - "tool"
-      - "ui"
-    stars_fact: 138
-    first_seen: null
-    last_push: "2026-10-27"
+    last_push: "2026-11-25"
   - name: "rex-extensions"
     title: "rex-extensions"
     description: "Extensions for the Rex terminal multiplexer: PR/issue panel, Claude usage panel, tab locations, same-machine ssh tabs"
@@ -123,30 +129,31 @@ repos:
       - "rex"
       - "terminal"
       - "terminal-multiplexer"
-    stars_fact: 22
+    stars_fact: 26
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "devstats-cli"
-    title: "devstats-cli"
-    description: "Contribution stats for every contributor across GitHub organizations — btop-style terminal tables and a self-contained HTML report"
-    language: "Rust"
-    topics: []
+    last_push: "2026-11-26"
+  - name: "printer-cli"
+    title: "printer-cli"
+    description: "Your printer's dashboard in the terminal: ink, paper, alerts, nozzle checks, head cleaning, printing and scanning for network printers. CLI + TUI over IPP, eSCL, SNMP and Epson ESC/P2."
+    language: "Python"
+    topics:
+      - "airprint"
+      - "cli"
+      - "epson"
+      - "escl"
+      - "ipp"
+      - "network-printer"
+      - "printer"
+      - "printing"
+      - "python"
+      - "scanner"
+      - "snmp"
+      - "terminal"
+      - "textual"
+      - "tui"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "herdr-github"
-    title: "herdr-github"
-    description: "Open GitHub pull requests and issues of the current repo, in a herdr side pane"
-    language: "JavaScript"
-    topics:
-      - "github"
-      - "herdr"
-      - "herdr-plugin"
-      - "pull-requests"
-      - "tui"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-25"
 ---
 
 # luongnv89

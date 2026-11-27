@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "533d51d9d3dea76f"
-pushes_per_week: [0, 3, 2, 8, 4, 4, 2, 2, 3, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 3, 10, 5, 0, 2, 2, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -90,7 +90,7 @@ repos:
       - "swift4-2"
       - "tvos"
       - "watchos"
-    stars_fact: 709
+    stars_fact: 708
     first_seen: null
     last_push: "2022-04-03"
   - name: "CardSlider"

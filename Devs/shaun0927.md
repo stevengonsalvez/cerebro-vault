@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 2, 0, 4, 7, 0, 1, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 0, 7, 4, 0, 1, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "opensafari"
+    title: "opensafari"
+    description: "Smart. Fast. Parallel. iOS Safari automation MCP server via Xcode Simulator."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-07-28"
   - name: "openchrome"
     title: "openchrome"
     description: "Open-source browser automation MCP server. Control your real Chrome from any AI agent."
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "opensafari"
-    title: "opensafari"
-    description: "Smart. Fast. Parallel. iOS Safari automation MCP server via Xcode Simulator."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-07-28"
+    last_push: "2026-11-27"
   - name: "alphaview-uptime"
     title: "alphaview-uptime"
     description: "External availability probe for www.alphaview.kr (GitHub Actions, every 5 min, no secrets)"
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "suwon"
     title: "suwon"
     description: null

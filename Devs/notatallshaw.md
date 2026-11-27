@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
 pushes_per_week: [2, 1, 1, 4, 1, 0, 16, 11, 16, 0, 0, 0, 3]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 32
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-24"
   - name: "fall_guys_ping_estimate"
     title: "fall_guys_ping_estimate"
     description: null

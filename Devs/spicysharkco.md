@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 16, 9, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 0, 0, 0, 0, 2, 16, 9, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-26"
   - name: "spicysharkco"
     title: "spicysharkco"
     description: "Profile README"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "chess-sim2real-benchmark"
     title: "chess-sim2real-benchmark"
     description: "Render generator and 20,000-image benchmark: what synthetic training data buys a chess-recognition model on real camera images"

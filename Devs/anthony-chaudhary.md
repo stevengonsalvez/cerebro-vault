@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [7, 19, 29, 50, 17, 18, 35, 7, 6, 0, 1, 1, 2]
+pushes_per_week: [4, 20, 35, 43, 19, 16, 35, 7, 6, 0, 1, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 192
+    pushes: 189
     distinct_repos: 1
-    active_days: 45
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 4.2667
-  repo_per_active_day: 0.0222
+  push_per_day: 4.2955
+  repo_per_active_day: 0.0227
   not_owned_ratio: 0.0000
   basename_concentration: 1.0000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 192
+    pushes: 189
     distinct_repos: 1
-    pushes_per_repo: 192.0000
-    active_days: 45
+    pushes_per_repo: 189.0000
+    active_days: 44
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "fak"
@@ -165,6 +165,6 @@ repos:
 
 # anthony-chaudhary
 
-192 pushes across 1 repository on 45 active days in the last 90 days of public GitHub push activity.
+189 pushes across 1 repository on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/anthony-chaudhary

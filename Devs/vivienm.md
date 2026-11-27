@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
 pushes_per_week: [0, 0, 1, 3, 4, 1, 0, 1, 0, 0, 0, 0, 1]
@@ -77,14 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "copier-skills"
+    title: "copier-skills"
+    description: "An opinionated Copier template for Agent Skills projects"
+    language: "Jinja"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "skills"
     title: "skills"
-    description: "Opinionated agent skills"
+    description: "Personal skills for agentic workflows"
     language: null
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-22"
   - name: "copier-python"
     title: "copier-python"
     description: "An opinionated Copier template for Python projects"
@@ -119,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-20"
-  - name: "paswitch"
-    title: "paswitch"
-    description: "A tiny CLI audio output switcher for PipeWire and PulseAudio"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-13"
 ---
 
 # vivienm

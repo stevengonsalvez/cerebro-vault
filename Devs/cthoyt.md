@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 11, 15, 33, 14, 21, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 12, 19, 28, 17, 17, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,17 @@ reasons:
   - "activity: 31 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "rorio"
+    title: "rorio"
+    description: "Convert the Research Organization Registry (ROR) into an OWL instance ontology"
+    language: "Python"
+    topics:
+      - "bibliometrics"
+      - "ror"
+      - "scientometrics"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-05-07"
   - name: "sssom-curator"
     title: "sssom-curator"
     description: "🗳️ Prediction and curation of semantic mappings in SSSOM"
@@ -127,7 +138,7 @@ repos:
       - "obofoundry"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "cthoyt.github.io"
     title: "cthoyt.github.io"
     description: "My personal website, served at https://cthoyt.com"
@@ -155,15 +166,7 @@ repos:
       - "wikidata"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-16"
-  - name: "semantic-pydantic"
-    title: "semantic-pydantic"
-    description: "Annotate data models in Pydantic and APIs in FastAPI with the Bioregistry to make them more FAIR"
-    language: "Python"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-20"
 ---
 
 # cthoyt

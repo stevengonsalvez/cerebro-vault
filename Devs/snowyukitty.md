@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "9e2ff10d772b1e71"
-pushes_per_week: [0, 1, 0, 0, 0, 10, 4, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 0, 0, 2, 9, 3, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,25 +79,32 @@ reasons:
 repos:
   - name: "psycho-sleuth-subtitles"
     title: "psycho-sleuth-subtitles"
-    description: "Windows x64 dual-subtitle patcher for Steam's Psycho-Sleuth (病能探偵 / 異病偵探 / 异病侦探) — mix any 2 of English, Japanese, Traditional Chinese, and Simplified Chinese across 6 pairs & 12 display orders with byte-exact restore."
+    description: "Browser Web Patcher & Windows x64 dual-subtitle tool for Steam's Psycho-Sleuth (病能探偵 / 異病偵探 / 异病侦探) — mix any 2 of EN, JA, 繁體, 简体 (12 orders), zero CMD, zero uploads, byte-exact restore."
     language: null
     topics:
+      - "bilingual"
       - "bilingual-subtitles"
+      - "browser-tool"
+      - "byounou-tantei"
       - "chinese"
       - "dual-subtitles"
       - "english"
+      - "github-pages"
       - "japanese"
+      - "japanese-learning"
       - "language-learning"
       - "localization"
       - "mystery-game"
       - "psycho-sleuth"
       - "steam"
       - "subtitle-patcher"
+      - "unity"
       - "visual-novel"
+      - "web-patcher"
       - "windows"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-24"
   - name: "agent-orchestrator"
     title: "agent-orchestrator"
     description: "Multi-account desktop workflow orchestrator for local CLI AI agents, with routed profiles, PTY sessions, and signal-aware blocks."
@@ -111,9 +118,9 @@ repos:
       - "windows"
       - "workflow-automation"
       - "xtermjs"
-    stars_fact: 3
+    stars_fact: 4
     first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-22"
   - name: "ai-iconflow"
     title: "ai-iconflow"
     description: "Reviewed, platform-ready icon families from one semantic SVG master — favicon, PWA, Tauri, Electron, tray. Distinctiveness = specificity, proven at 16px."
@@ -149,7 +156,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
+    last_push: "2026-11-21"
   - name: "mvp-snowy-style-atlas"
     title: "mvp-snowy-style-atlas"
     description: null
@@ -157,7 +164,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-11"
+    last_push: "2026-11-24"
   - name: "emojikit"
     title: "emojikit"
     description: "Turn any character image into a high-quality animated emoji pack (Slack/Discord/Twitch) — 2D puppet engine, auto-rigging, web studio."

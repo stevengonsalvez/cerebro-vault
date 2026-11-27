@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 4, 13, 22, 17, 11, 21, 0, 2, 0, 0, 0, 5]
+pushes_per_week: [0, 5, 15, 22, 16, 13, 17, 0, 2, 0, 0, 0, 5]
 windows:
   "7d":
     pushes: 5
@@ -77,6 +77,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "debian-mirror"
+    title: "debian-mirror"
+    description: "Build and operation of mirror.blue3.com.br, Blue3's Debian mirror (full archive + debian-cd)"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "tv"
     title: "tv"
     description: "Our own home-screen layout and operating-system customization for smart TVs, starting with LG (webOS)"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "shvia-desktop"
     title: "shvia-desktop"
     description: "ShvIA Desktop"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "blue3-dns"
     title: "blue3-dns"
     description: "Reference guides for encrypted DNS, NextDNS, and DNS filtering evaluation at Blue3."
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-27"
   - name: "shvia-code"
     title: "shvia-code"
     description: "SHVIA-CODE — CLI agêntico de código 'anna' (Rust) sobre o gateway do ShvIA"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-16"
-  - name: "ai-benchmark"
-    title: "ai-benchmark"
-    description: "AI BENCHMARK"
-    language: "PHP"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
 ---
 
 # samirhvbr

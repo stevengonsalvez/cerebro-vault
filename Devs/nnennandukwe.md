@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [0, 0, 0, 5, 2, 0, 0, 16, 0, 0, 0, 1, 4]
+pushes_per_week: [0, 0, 1, 6, 0, 0, 0, 16, 0, 0, 1, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -118,7 +118,7 @@ repos:
       - "verification"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "governed-agent-autonomy-patterns"
     title: "governed-agent-autonomy-patterns"
     description: "This repo is a public, docs-first reference for teams that want agentic coding without chaos. It focuses on the patterns that protect code integrity while still preserving speed: plan, permission, verification, and tool trust."
@@ -126,7 +126,7 @@ repos:
     topics: []
     stars_fact: 22
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-22"
   - name: "software-standards-bootstrap"
     title: "software-standards-bootstrap"
     description: "Software Standards Bootstrap (ssb) is a CLI tool and agent skill for developing repo rules, agent skills, and AGENTS.md inside greenfield repos, making it more agent ready."
@@ -134,7 +134,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
 ---
 
 # nnennandukwe

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
 pushes_per_week: [0, 2, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "dsh-aurabot-qq-market-dev-plugins"
+    title: "dsh-aurabot-qq-market-dev-plugins"
+    description: "AuraBot 插件市场示例仓库：两个可直接用的插件（转告主人 / 语音点歌）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "dsh-aurabot-qq-market-dev"
+    title: "dsh-aurabot-qq-market-dev"
+    description: "AuraBot 插件市场：索引与镜像构建（fork 自 aureth-labs/dsh-aurabot-qq-market-dev）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "moreduomoreduogreen"
     title: "moreduomoreduogreen"
     description: null
@@ -84,7 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "TRSSLauncher-Setup"
     title: "TRSSLauncher-Setup"
     description: "在Windows上可以直接使用的TRSS-yunzai安装器，无需linux指令"
@@ -109,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2025-07-12"
-  - name: "koishi-plugin-meter-image"
-    title: "koishi-plugin-meter-image"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2025-03-03"
 ---
 
 # shangxueink

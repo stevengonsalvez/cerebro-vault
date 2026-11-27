@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 0, 1, 1, 1, 0, 0, 0, 2, 0, 0, 1, 0]
@@ -86,7 +86,7 @@ repos:
       - "macos"
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-25"
   - name: "homebrew-summond"
     title: "homebrew-summond"
     description: "Summond Homebrew Formula"
@@ -95,14 +95,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-18"
-  - name: "skillz"
-    title: "skillz"
-    description: "Generic sink for agent skills to share"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
   - name: "homebrew-commonplace"
     title: "homebrew-commonplace"
     description: "Homebrew tap for commonplace"
@@ -110,7 +102,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "commonplace"
     title: "commonplace"
     description: "Self-hosted Readwise alternative: import Kindle and Xteink highlights, search them by keyword or meaning, and resurface a daily shuffle."
@@ -136,7 +128,7 @@ repos:
       - "xteink"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "ankix"
     title: "ankix"
     description: "Generate contextual Anki translations from Kindle vocab highlights, YouTube transcripts, and web articles, using a local Ollama model"
@@ -155,6 +147,14 @@ repos:
       - "vocabulary"
       - "youtube"
     stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "homebrew-ankix"
+    title: "homebrew-ankix"
+    description: "Homebrew tap for ankix"
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-11-18"
 ---

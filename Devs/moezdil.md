@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 11, 17, 24, 4, 3, 0, 0, 1, 3]
+pushes_per_week: [0, 0, 0, 1, 14, 14, 23, 4, 3, 0, 0, 1, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,39 +77,6 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "CUDA"
-    title: "CUDA"
-    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
-    language: "Cuda"
-    topics:
-      - "cpp"
-      - "cuda"
-      - "gpu"
-      - "gpu-computing"
-      - "gpu-optimization"
-      - "gpu-programming"
-      - "learning"
-      - "nvidia"
-      - "parallel-computing"
-    stars_fact: 118
-    first_seen: null
-    last_push: "2026-10-02"
-  - name: "pr-sync"
-    title: "pr-sync"
-    description: "Keeps my open pull requests level with their base branch"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "hack"
-    title: "hack"
-    description: "hackathon"
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
   - name: "siltide"
     title: "siltide"
     description: "Terminal fleet monitor for GPUs, NPUs, and 13 other accelerator kinds, from utilization down to which pod is using them."
@@ -130,9 +97,42 @@ repos:
       - "slurm"
       - "terminal"
       - "tui"
-    stars_fact: 37
+    stars_fact: 38
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
+  - name: "CUDA"
+    title: "CUDA"
+    description: "Learn how a GPU works, then write CUDA code. Plain-English lessons with interactive diagrams."
+    language: "Cuda"
+    topics:
+      - "cpp"
+      - "cuda"
+      - "gpu"
+      - "gpu-computing"
+      - "gpu-optimization"
+      - "gpu-programming"
+      - "learning"
+      - "nvidia"
+      - "parallel-computing"
+    stars_fact: 119
+    first_seen: null
+    last_push: "2026-10-02"
+  - name: "pr-sync"
+    title: "pr-sync"
+    description: "Keeps my open pull requests level with their base branch"
+    language: "Shell"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
+  - name: "hack"
+    title: "hack"
+    description: "hackathon"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-10"
   - name: "moezdil"
     title: "moezdil"
     description: null
@@ -140,7 +140,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "openbao-credential-broker-demo"
     title: "openbao-credential-broker-demo"
     description: null

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1f49d0119cedbc84"
 pushes_per_week: [0, 0, 0, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0]
@@ -77,19 +77,6 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agent_harness_course"
-    title: "agent_harness_course"
-    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
-    language: "Jupyter Notebook"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "harness-engineering"
-      - "langgraph"
-      - "python"
-    stars_fact: 43
-    first_seen: null
-    last_push: "2026-11-16"
   - name: "memorizz"
     title: "memorizz"
     description: "MemoRizz: A Python library serving as a memory layer for AI applications. Leverages popular databases and storage solutions to optimize memory usage. Provides utility classes and methods for efficient data management."
@@ -103,9 +90,22 @@ repos:
       - "oracle-database"
       - "python"
       - "semantic-search"
-    stars_fact: 792
+    stars_fact: 795
     first_seen: null
     last_push: "2026-11-16"
+  - name: "agent_harness_course"
+    title: "agent_harness_course"
+    description: "Technical companion to the O'Reilly Harness Engineering for AI Agents workshop"
+    language: "Jupyter Notebook"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "harness-engineering"
+      - "langgraph"
+      - "python"
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "agent_memory_course"
     title: "agent_memory_course"
     description: null
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-21"
   - name: "llmcamp_ai_hub"
     title: "llmcamp_ai_hub"
     description: "Hands-on agent memory notebooks and an interactive appbook for context engineering."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ef17663e884139a8"
-pushes_per_week: [0, 1, 17, 14, 14, 11, 18, 1, 1, 0, 0, 0, 3]
+pushes_per_week: [0, 1, 21, 12, 15, 8, 18, 1, 1, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,14 +77,6 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "zerocoach"
-    title: "zerocoach"
-    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 5
-    first_seen: null
-    last_push: "2026-11-06"
   - name: "zero-share"
     title: "zero-share"
     description: "A secure P2P file sharing using WebRTC without server-side need."
@@ -99,9 +91,25 @@ repos:
       - "p2p"
       - "svelte"
       - "webrtc"
-    stars_fact: 151
+    stars_fact: 152
     first_seen: null
     last_push: "2026-11-11"
+  - name: "threejs-merry-christmas"
+    title: "threejs-merry-christmas"
+    description: "3D Christmas Theme by Three.js"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2022-12-25"
+  - name: "zerocoach"
+    title: "zerocoach"
+    description: "An open-source, privacy-first AI health coach. Features offline mobile LLM inference, visual nutrition tracking, wearable sync, and adaptive lifestyle."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-11-06"
   - name: "cross-clipboard"
     title: "cross-clipboard"
     description: "An open source cross-platform clipboard sharing."
@@ -125,7 +133,7 @@ repos:
       - "github-profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "ntsd.dev"
     title: "ntsd.dev"
     description: "My website created by Jekyll and Tailwind"
@@ -138,24 +146,7 @@ repos:
       - "tailwind"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-07"
-  - name: "pomodoro-chad"
-    title: "pomodoro-chad"
-    description: "The Uncompromising GigaChad Pomodoro + Zero-Latency Git Voice Vault"
-    language: "Astro"
-    topics:
-      - "astro"
-      - "chadmodoro"
-      - "deep-work"
-      - "elevenlabs"
-      - "focus-timer"
-      - "gigachad"
-      - "pomodoro"
-      - "productivity"
-      - "render"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
+    last_push: "2026-11-22"
 ---
 
 # ntsd

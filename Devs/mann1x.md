@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 1, 8, 21, 51, 32, 36, 7, 6, 1, 0, 0, 4]
+pushes_per_week: [0, 1, 10, 29, 45, 33, 31, 7, 6, 1, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -77,20 +77,12 @@ reasons:
   - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "xollama"
-    title: "xollama"
-    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
-    language: "Go"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-11-16"
   - name: "CPUDoc"
     title: "CPUDoc"
     description: null
     language: "C#"
     topics: []
-    stars_fact: 147
+    stars_fact: 146
     first_seen: null
     last_push: "2025-11-01"
   - name: "omk-model-optimizer"
@@ -98,9 +90,17 @@ repos:
     description: "Private fork of NVIDIA/Model-Optimizer: model-agnostic 2-bit QAD (IQ2 family) to GGUF"
     language: "Python"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-26"
+  - name: "xollama"
+    title: "xollama"
+    description: "xollama — an ollama fork with the fixes and PRs upstream has not merged, and the opencoti-llamafile inference engine"
+    language: "Go"
+    topics: []
+    stars_fact: 21
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "automaticum"
     title: "automaticum"
     description: "Test harness for coding agents: orchestrated lanes, verdicts from harness-run oracles, built-in diagnostics"
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-21"
   - name: "BSManager"
     title: "BSManager"
     description: "VR Base Stations Manager for HMD"

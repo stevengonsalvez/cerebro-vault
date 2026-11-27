@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "9d67ce648f6a8919"
-pushes_per_week: [8, 13, 23, 54, 53, 33, 21, 12, 5, 1, 0, 0, 1]
+pushes_per_week: [6, 15, 31, 50, 53, 27, 21, 12, 5, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 224
+    pushes: 222
     distinct_repos: 21
-    active_days: 45
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 4.9778
-  repo_per_active_day: 0.4667
+  push_per_day: 5.0455
+  repo_per_active_day: 0.4773
   not_owned_ratio: 0.2381
   basename_concentration: 0.0952
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 224
+    pushes: 222
     distinct_repos: 21
-    pushes_per_repo: 10.6667
-    active_days: 45
+    pushes_per_repo: 10.5714
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "web3-research-mcp"
@@ -180,6 +180,6 @@ repos:
 
 # aaronjmars
 
-224 pushes across 21 repositories on 45 active days in the last 90 days of public GitHub push activity.
+222 pushes across 21 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aaronjmars

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "8a70d410b1973fe6"
-pushes_per_week: [1, 3, 5, 24, 10, 21, 3, 15, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 3, 8, 22, 10, 21, 2, 15, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,25 @@ repos:
     description: "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
     language: "C"
     topics: []
-    stars_fact: 52044
+    stars_fact: 53622
     first_seen: "2026-11-03T07:00:47.945544+00:00"
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
+  - name: "mnem"
+    title: "mnem"
+    description: "Memory as state, not search — deterministic, dependency-free memory for AI agents. The memory lives in a Markdown file."
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "llm"
+      - "markdown"
+      - "memory"
+      - "python"
+      - "state-management"
+      - "zero-dependencies"
+    stars_fact: 71
+    first_seen: null
+    last_push: "2026-07-06"
   - name: "lumabri"
     title: "lumabri"
     description: "Run large AI models across your computers and servers. Powered by Colibri. Pure C."
@@ -99,63 +115,9 @@ repos:
       - "mixture-of-experts"
       - "peer-to-peer"
       - "self-hosted"
-    stars_fact: 230
+    stars_fact: 235
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "JustVugg"
-    title: "JustVugg"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 34
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "agentmw"
-    title: "agentmw"
-    description: "Open-source middleware for AI agents — catches mid-run failures,compresses stale context, and grows a reasoning library across runs. Any model, any framework."
-    language: "Python"
-    topics:
-      - "agent-middleware"
-      - "agent-monitoring"
-      - "agent-orchestration"
-      - "ai-agents"
-      - "anthropic"
-      - "developer-tools"
-      - "llm"
-      - "llm-observability"
-      - "mcp"
-      - "mcpserver"
-      - "ollama"
-      - "openai"
-      - "openrouter"
-      - "prompt-engineering"
-      - "python"
-      - "reasoning"
-    stars_fact: 26
-    first_seen: null
-    last_push: "2026-05-19"
-  - name: "flint"
-    title: "flint"
-    description: "Help AI agents use fewer tokens and keep more useful context. Reversible code, JSON and text compression, persistent memory, focused reads and version-aware edits."
-    language: "Python"
-    topics:
-      - "agent-memory"
-      - "ai-agents"
-      - "cli"
-      - "code-compression"
-      - "coding-agents"
-      - "context-compression"
-      - "context-engineering"
-      - "developer-tools"
-      - "llm"
-      - "persistent-memory"
-      - "prompt-compression"
-      - "python"
-      - "reversible-compression"
-      - "token-optimization"
-    stars_fact: 15
-    first_seen: null
-    last_push: "2026-10-21"
+    last_push: "2026-11-26"
   - name: "anybridge"
     title: "anybridge"
     description: "Any website, within reach of any agent. Captures a site's native WebMCP tools and generates the bridge from the live DOM when there are none, exposing both over MCP to Claude Code, Codex and any MCP client."
@@ -177,9 +139,39 @@ repos:
       - "tui"
       - "web-automation"
       - "webmcp"
-    stars_fact: 28
+    stars_fact: 29
     first_seen: null
     last_push: "2026-09-03"
+  - name: "flint"
+    title: "flint"
+    description: "Help AI agents use fewer tokens and keep more useful context. Reversible code, JSON and text compression, persistent memory, focused reads and version-aware edits."
+    language: "Python"
+    topics:
+      - "agent-memory"
+      - "ai-agents"
+      - "cli"
+      - "code-compression"
+      - "coding-agents"
+      - "context-compression"
+      - "context-engineering"
+      - "developer-tools"
+      - "llm"
+      - "persistent-memory"
+      - "prompt-compression"
+      - "python"
+      - "reversible-compression"
+      - "token-optimization"
+    stars_fact: 16
+    first_seen: null
+    last_push: "2026-10-21"
+  - name: "JustVugg"
+    title: "JustVugg"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 38
+    first_seen: null
+    last_push: "2026-11-20"
 ---
 
 # JustVugg

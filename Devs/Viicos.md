@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 2, 2, 1, 7, 3, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 2, 2, 3, 6, 2, 4, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "imf-parser"
+    title: "imf-parser"
+    description: "An Internet Message Format parser, as per RFC 5322"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "django-autotyping"
     title: "django-autotyping"
     description: "Automatically add type hints for Django powered applications."
@@ -120,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-08-29"
-  - name: "flake8-pydantic"
-    title: "flake8-pydantic"
-    description: "A flake8 plugin to check Pydantic related code."
-    language: "Python"
-    topics: []
-    stars_fact: 21
-    first_seen: null
-    last_push: "2024-12-26"
 ---
 
 # Viicos

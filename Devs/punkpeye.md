@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "61a57c93de29a252"
-pushes_per_week: [0, 34, 17, 60, 6, 17, 4, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 36, 15, 63, 3, 21, 0, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -83,9 +83,9 @@ repos:
     language: null
     topics:
       - "mcp"
-    stars_fact: 3548
+    stars_fact: 4213
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-26"
   - name: "awesome-mcp-servers"
     title: "awesome-mcp-servers"
     description: "A collection of MCP servers."
@@ -93,9 +93,9 @@ repos:
     topics:
       - "ai"
       - "mcp"
-    stars_fact: 98143
+    stars_fact: 98554
     first_seen: "2026-08-31T06:00:05.900744+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-26"
   - name: "awesome-mcp-clients"
     title: "awesome-mcp-clients"
     description: "A collection of MCP clients."
@@ -103,7 +103,7 @@ repos:
     topics:
       - "clients"
       - "mcp"
-    stars_fact: 6642
+    stars_fact: 6645
     first_seen: null
     last_push: "2026-06-07"
   - name: "mcp-remote"
@@ -112,9 +112,19 @@ repos:
     language: "TypeScript"
     topics:
       - "mcp"
-    stars_fact: 1674
+    stars_fact: 1686
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
+  - name: "awesome-mcp-devtools"
+    title: "awesome-mcp-devtools"
+    description: "A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server development."
+    language: null
+    topics:
+      - "devtools"
+      - "mcp"
+    stars_fact: 490
+    first_seen: null
+    last_push: "2026-08-04"
   - name: "fastmcp"
     title: "fastmcp"
     description: "A TypeScript framework for building MCP servers."
@@ -124,17 +134,7 @@ repos:
       - "sse"
     stars_fact: 3290
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "awesome-mcp-devtools"
-    title: "awesome-mcp-devtools"
-    description: "A curated list of developer tools, SDKs, libraries, and testing utilities for Model Context Protocol (MCP) server development."
-    language: null
-    topics:
-      - "devtools"
-      - "mcp"
-    stars_fact: 488
-    first_seen: null
-    last_push: "2026-08-04"
+    last_push: "2026-11-26"
 ---
 
 # punkpeye

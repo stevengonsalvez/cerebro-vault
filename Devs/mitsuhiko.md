@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 5, 39, 19, 5, 5, 4, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 0, 5, 41, 18, 4, 5, 4, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -80,58 +80,55 @@ repos:
   - name: "tvpipe"
     title: "tvpipe"
     description: "Airplay/Chrome Cast anything"
-    language: "Rust"
+    language: "TypeScript"
     topics: []
-    stars_fact: 73
+    stars_fact: 234
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "minijinja"
-    title: "minijinja"
-    description: "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2"
-    language: "Rust"
-    topics:
-      - "jinja"
-      - "jinja2"
-      - "rust"
-      - "templates"
-    stars_fact: 2826
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "lineread"
-    title: "lineread"
-    description: "Like readline but not copyleft"
-    language: "Rust"
-    topics: []
-    stars_fact: 27
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "insta"
-    title: "insta"
-    description: "A snapshot testing library for rust"
+    last_push: "2026-11-26"
+  - name: "similar"
+    title: "similar"
+    description: "A high level diffing library for rust based on diffs"
     language: "Rust"
     topics:
+      - "diff"
+      - "patch"
       - "rust"
-      - "snapshot-tests"
-      - "vscode-extension"
-    stars_fact: 2989
+      - "unified-diff"
+    stars_fact: 1346
     first_seen: null
-    last_push: "2026-10-26"
-  - name: "gh-issue-sync"
-    title: "gh-issue-sync"
-    description: "A github issue sync tool for working with issues locally"
-    language: "Go"
+    last_push: "2026-10-24"
+  - name: "agent-stuff"
+    title: "agent-stuff"
+    description: "These are commands I use with agents, mostly Claude"
+    language: "TypeScript"
     topics: []
-    stars_fact: 170
+    stars_fact: 3230
     first_seen: null
-    last_push: "2026-03-31"
-  - name: "flask-pastebin"
-    title: "flask-pastebin"
-    description: "Example pastebin with websockets, sqlalchemy, facebook connect and a bunch of other buzzwords"
-    language: "Python"
+    last_push: "2026-09-27"
+  - name: "fragile"
+    title: "fragile"
+    description: "Utility wrapper to send non send types to other threads safely"
+    language: "Rust"
     topics: []
-    stars_fact: 265
+    stars_fact: 195
     first_seen: null
-    last_push: "2016-09-29"
+    last_push: "2026-09-04"
+  - name: "listenfd"
+    title: "listenfd"
+    description: "Helper crate to work with systemd/catflap socket activation"
+    language: "Rust"
+    topics: []
+    stars_fact: 244
+    first_seen: null
+    last_push: "2025-01-20"
+  - name: "better-panic"
+    title: "better-panic"
+    description: "A python inspired panic handler for rust"
+    language: "Rust"
+    topics: []
+    stars_fact: 437
+    first_seen: null
+    last_push: "2023-09-05"
 ---
 
 # mitsuhiko

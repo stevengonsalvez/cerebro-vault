@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "422d724d1779eadb"
 pushes_per_week: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,31 @@ reasons:
   - "activity: 1 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
+  - name: "adi2"
+    title: "adi2"
+    description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
+    language: "Ada"
+    topics:
+      - "ada"
+      - "ada2022"
+      - "css"
+      - "graphics"
+      - "gui"
+      - "sdl3"
+      - "toolkit"
+      - "ui"
+      - "widgets"
+    stars_fact: 62
+    first_seen: "2026-08-25T06:00:02.050180+00:00"
+    last_push: "2026-11-16"
+  - name: "wuffada"
+    title: "wuffada"
+    description: "Memory-safe image and data decoders in pure Ada: Wuffs compiled to Ada, on a SPARK-proved base library"
+    language: "Ada"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "thunderchez"
     title: "thunderchez"
     description: "libraries for chez scheme productivity"
@@ -94,23 +119,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-13"
-  - name: "adi2"
-    title: "adi2"
-    description: "A modern GUI library for Ada: CSS styling, XML UI, SDL3"
-    language: "Ada"
-    topics:
-      - "ada"
-      - "ada2022"
-      - "css"
-      - "graphics"
-      - "gui"
-      - "sdl3"
-      - "toolkit"
-      - "ui"
-      - "widgets"
-    stars_fact: 61
-    first_seen: "2026-08-25T06:00:02.050180+00:00"
-    last_push: "2026-11-16"
   - name: "message_pack"
     title: "message_pack"
     description: "MessagePack for Ada, over Ada.Streams"
@@ -126,15 +134,7 @@ repos:
     topics: []
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "miogui"
-    title: "miogui"
-    description: "MIOGUI - More Immediate Operation GUI - Develop GUI in scheme in incremental & immediate mode!"
-    language: "Scheme"
-    topics: []
-    stars_fact: 8
-    first_seen: null
-    last_push: "2016-12-17"
+    last_push: "2026-11-20"
 ---
 
 # ovenpasta

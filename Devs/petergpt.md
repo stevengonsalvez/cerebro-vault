@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "fef1723d0079f86e"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -82,17 +82,25 @@ repos:
     description: "A presentation-order collection of 3D prompts for copying and reuse."
     language: null
     topics: []
-    stars_fact: 410
+    stars_fact: 431
     first_seen: null
     last_push: "2026-07-02"
-  - name: "gogh-strike"
-    title: "gogh-strike"
-    description: "A painterly browser shooter: twelve artists, two rival crews, and a paint fight through Van Gogh’s Town."
-    language: "JavaScript"
+  - name: "bullshit-benchmark"
+    title: "bullshit-benchmark"
+    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
+    language: "Python"
     topics: []
-    stars_fact: 17
+    stars_fact: 1919
     first_seen: null
-    last_push: "2026-09-05"
+    last_push: "2026-11-26"
+  - name: "model-survey-evaluation"
+    title: "model-survey-evaluation"
+    description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
+    language: "Python"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2026-07-20"
   - name: "claude-interview"
     title: "claude-interview"
     description: "A hands-free, recorded video call with Claude: Claude Code for the thinking, ElevenLabs for voice, generated visuals, edit-ready recordings."
@@ -105,30 +113,28 @@ repos:
     stars_fact: 8
     first_seen: null
     last_push: "2026-09-26"
-  - name: "transformer-architecture"
-    title: "transformer-architecture"
-    description: "Explore the original Transformer and DeepSeek V4.1 Flash in interactive 3D."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 86
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "model-survey-evaluation"
-    title: "model-survey-evaluation"
-    description: "Reproducible 3,400-call evaluation of forced-choice LLM response distributions against YouGov GB surveys"
+  - name: "doomql"
+    title: "doomql"
+    description: "A playable terminal FPS whose simulation and framebuffer are calculated in SQLite."
     language: "Python"
     topics: []
-    stars_fact: 5
+    stars_fact: 65
+    first_seen: "2026-07-14T06:00:04.766426+00:00"
+    last_push: "2026-07-13"
+  - name: "lean-3d-game-axiom"
+    title: "lean-3d-game-axiom"
+    description: "A playable 3D voxel game built in Lean 4."
+    language: "Lean"
+    topics:
+      - "3d"
+      - "game"
+      - "lean"
+      - "lean4"
+      - "raylib"
+      - "voxel"
+    stars_fact: 24
     first_seen: null
-    last_push: "2026-07-20"
-  - name: "bullshit-benchmark"
-    title: "bullshit-benchmark"
-    description: "BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev."
-    language: "Python"
-    topics: []
-    stars_fact: 1914
-    first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-07-12"
 ---
 
 # petergpt

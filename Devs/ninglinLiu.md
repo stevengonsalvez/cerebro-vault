@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 1, 5, 1, 0, 0, 0]
@@ -77,30 +77,54 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "script-to-video-skill"
-    title: "script-to-video-skill"
-    description: "Agent skill for consistent Chinese explainer videos: evidence, motion planning, internal review and delivery auditing."
+  - name: "zkhahaha"
+    title: "zkhahaha"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-01-17"
+  - name: "AI-llm-werewolf-arena-"
+    title: "AI-llm-werewolf-arena-"
+    description: "DeepSeek 单 API 多角色狼人杀模拟器 （后续会改多api）"
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-01-12"
+  - name: "edgenetai"
+    title: "edgenetai"
+    description: "EdgeNet.AI is a decentralized AI inference network that converts global idle GPU and edge devices into a verifiable compute marketplace. Developers can run AI tasks on distributed nodes and receive cryptographic Proof-of-Inference, ensuring trust, transparency, and cost-efficient computation. EdgeNet.AI enables fair pricing, anti-fraud execution."
     language: "TypeScript"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-14"
-  - name: "cheat-on-x"
-    title: "cheat-on-x"
-    description: "X edition of cheat-on-content: score a post, write a blind prediction, ship it, review after 48 hours, and update the rubric."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-13"
-  - name: "ninglinLiu"
-    title: "ninglinLiu"
+    last_push: "2026-03-15"
+  - name: "RiskLights-AI-driven-Crypto-Market-Risk-Radar-with-Automated-Alerts"
+    title: "RiskLights-AI-driven-Crypto-Market-Risk-Radar-with-Automated-Alerts"
     description: null
-    language: "Python"
+    language: "TypeScript"
     topics: []
-    stars_fact: 0
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2025-11-10"
+  - name: "awsome-alpha-radar-crypto-intelligence"
+    title: "awsome-alpha-radar-crypto-intelligence"
+    description: "🛰️ Alpha Radar - 去中心化加密情报聚合系统 | Decentralized Crypto Intelligence Aggregator AI-powered crypto intelligence platform with multi-source data aggregation, sentiment analysis, and real-time signal processing."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-10-07"
+  - name: "group86-Pac-Man-project"
+    title: "group86-Pac-Man-project"
+    description: "group86 Pac-Man project"
+    language: "C"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2025-11-01"
 ---
 
 # ninglinLiu

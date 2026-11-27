@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 3, 3, 13, 16, 4, 20, 21, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 3, 5, 12, 17, 2, 20, 21, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,39 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pep508_rs"
+    title: "pep508_rs"
+    description: "A library for python dependency specifiers (PEP 508) with validations and warnings"
+    language: "Rust"
+    topics: []
+    stars_fact: 19
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "ris-vendor-stats"
+    title: "ris-vendor-stats"
+    description: "Gescrapte Statistiken über die RIS-Hersteller in Deutschland"
+    language: "Python"
+    topics:
+      - "ratsinformationssystem"
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "pep440-rs"
+    title: "pep440-rs"
+    description: "A library for python version numbers and specifiers, implementing PEP 440"
+    language: "Rust"
+    topics: []
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-10-20"
+  - name: "sudoku-in-python-packaging"
+    title: "sudoku-in-python-packaging"
+    description: "Sudoku solving in python packaging"
+    language: "Python"
+    topics: []
+    stars_fact: 451
+    first_seen: null
+    last_push: "2024-10-20"
   - name: "rustup-pypi"
     title: "rustup-pypi"
     description: "Unofficial rustup distribution for PyPI"
@@ -84,7 +117,7 @@ repos:
     topics: []
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-20"
+    last_push: "2026-11-24"
   - name: "github-wikidata-bot"
     title: "github-wikidata-bot"
     description: "Updates Wikidata entries using metadata from github"
@@ -97,39 +130,6 @@ repos:
     stars_fact: 46
     first_seen: null
     last_push: "2026-11-18"
-  - name: "sudoku-in-python-packaging"
-    title: "sudoku-in-python-packaging"
-    description: "Sudoku solving in python packaging"
-    language: "Python"
-    topics: []
-    stars_fact: 452
-    first_seen: null
-    last_push: "2024-10-20"
-  - name: "ris-vendor-stats"
-    title: "ris-vendor-stats"
-    description: "Gescrapte Statistiken über die RIS-Hersteller in Deutschland"
-    language: "Python"
-    topics:
-      - "ratsinformationssystem"
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "tracing-durations-export"
-    title: "tracing-durations-export"
-    description: "Record and visualize parallelism of tracing spans"
-    language: "Rust"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "pep508_rs"
-    title: "pep508_rs"
-    description: "A library for python dependency specifiers (PEP 508) with validations and warnings"
-    language: "Rust"
-    topics: []
-    stars_fact: 18
-    first_seen: null
-    last_push: "2026-10-20"
 ---
 
 # konstin

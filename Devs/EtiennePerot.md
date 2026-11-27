@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 0, 0, 0, 3, 10, 0, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 2, 1, 10, 0, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,30 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "fuse-jna"
-    title: "fuse-jna"
-    description: "No-nonsense, actually-working Java bindings to FUSE using JNA."
-    language: "Java"
-    topics: []
-    stars_fact: 141
-    first_seen: null
-    last_push: "2016-11-01"
   - name: "gladosvoicegen"
     title: "gladosvoicegen"
     description: "GLaDOS voice generator - Windows/Melodyne GUI automation code"
     language: "Python"
     topics: []
-    stars_fact: 215
+    stars_fact: 216
     first_seen: null
     last_push: "2014-08-01"
-  - name: "parcimonie.sh"
-    title: "parcimonie.sh"
-    description: "Refresh your GnuPG keyring without disclosing your whole contact list to the world"
-    language: "Shell"
-    topics: []
-    stars_fact: 231
-    first_seen: null
-    last_push: "2023-02-26"
   - name: "safe-code-execution"
     title: "safe-code-execution"
     description: "Code execution utilities for Open WebUI & Ollama"
@@ -109,9 +93,25 @@ repos:
       - "gvisor"
       - "ollama"
       - "openwebui"
-    stars_fact: 325
+    stars_fact: 324
     first_seen: null
     last_push: "2024-11-11"
+  - name: "fuse-jna"
+    title: "fuse-jna"
+    description: "No-nonsense, actually-working Java bindings to FUSE using JNA."
+    language: "Java"
+    topics: []
+    stars_fact: 141
+    first_seen: null
+    last_push: "2016-11-01"
+  - name: "parcimonie.sh"
+    title: "parcimonie.sh"
+    description: "Refresh your GnuPG keyring without disclosing your whole contact list to the world"
+    language: "Shell"
+    topics: []
+    stars_fact: 231
+    first_seen: null
+    last_push: "2023-02-26"
   - name: "macchiato"
     title: "macchiato"
     description: "MAC spoofing with a restricted range of OUI prefixes"

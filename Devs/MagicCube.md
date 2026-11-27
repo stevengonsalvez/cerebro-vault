@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "16389f32495280ea"
 pushes_per_week: [0, 1, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,19 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "cli-gpt"
-    title: "cli-gpt"
-    description: "Translate human language to command line using ChatGPT."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 118
+  - name: "movie-board"
+    title: "movie-board"
+    description: "Re-design and implement Douban Movie with React and Redux."
+    language: "JavaScript"
+    topics:
+      - "douban"
+      - "lolomo"
+      - "movie"
+      - "react"
+      - "redux"
+    stars_fact: 135
     first_seen: null
-    last_push: "2023-03-15"
+    last_push: "2022-02-12"
   - name: "helixent"
     title: "helixent"
     description: "Helixent is a small library for building ReAct-style AI agent loops based on the Bun stack."
@@ -105,7 +110,7 @@ repos:
     description: "Your 24/7 personal assistant powered by Claude Code and OpenAI Codex. Multi-channel messaging, long-term memory, skills, task scheduling, session management, and more — all running locally."
     language: "TypeScript"
     topics: []
-    stars_fact: 521
+    stars_fact: 523
     first_seen: null
     last_push: "2026-05-11"
   - name: "tensorflow-rex-run"
@@ -123,9 +128,17 @@ repos:
       - "t-rex-runner"
       - "tensorflow"
       - "tensorflow-js"
-    stars_fact: 673
+    stars_fact: 672
     first_seen: null
     last_push: "2023-03-07"
+  - name: "cli-gpt"
+    title: "cli-gpt"
+    description: "Translate human language to command line using ChatGPT."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 118
+    first_seen: null
+    last_push: "2023-03-15"
   - name: "air-charger"
     title: "air-charger"
     description: "AirCharger is an ESP32 based QI wireless charger. With Bluetooth connectivity, you can always check the battery level and other useful information from the built-in display."
@@ -146,14 +159,6 @@ repos:
     stars_fact: 18
     first_seen: null
     last_push: "2019-09-17"
-  - name: "lang-lens"
-    title: "lang-lens"
-    description: "Yet another UI built for LangGraph."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2025-11-12"
 ---
 
 # MagicCube

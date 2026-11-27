@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [2, 2, 2, 2, 4, 1, 8, 0, 2, 1, 0, 0, 4]
+pushes_per_week: [1, 2, 2, 5, 1, 1, 8, 0, 2, 1, 0, 0, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 9
-    active_days: 20
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4500
+  push_per_day: 1.4211
+  repo_per_active_day: 0.4737
   not_owned_ratio: 0.4444
   basename_concentration: 0.1111
   shapes: []
@@ -65,18 +65,26 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 28
+    pushes: 27
     distinct_repos: 9
-    pushes_per_repo: 3.1111
-    active_days: 20
+    pushes_per_repo: 3.0000
+    active_days: 19
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 20 active days in 90d — pass"
+  - "activity: 19 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "AstrBot-Go-Android"
+    title: "AstrBot-Go-Android"
+    description: "Unofficial third-party Android launcher for AstrBot (PRoot local runtime, Flutter UI)"
+    language: "Dart"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "AstrBot-Go"
     title: "AstrBot-Go"
     description: "Desktop launcher for AstrBot built with Tauri and Vuetify. / 基于 Tauri 与 Vuetify 构建的 AstrBot 桌面启动器。"
@@ -88,7 +96,7 @@ repos:
       - "vueitfy"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "astrbot_plugin_qq_custom_command_panel"
     title: "astrbot_plugin_qq_custom_command_panel"
     description: "帮助用户在 QQ 使用指令面板快速调用 AstrBot 的指令"
@@ -98,7 +106,7 @@ repos:
       - "python"
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "astrbot_plugin_qq_custom_menu"
     title: "astrbot_plugin_qq_custom_menu"
     description: "让 AstrBot 机器人拥有在 QQ 显示自定义菜单的功能"
@@ -106,7 +114,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "mantoujun12"
     title: "mantoujun12"
     description: "Helloヾ(•ω•`)o"
@@ -127,6 +135,6 @@ repos:
 
 # mantoujun12
 
-28 pushes across 9 repositories on 20 active days in the last 90 days of public GitHub push activity.
+27 pushes across 9 repositories on 19 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/mantoujun12

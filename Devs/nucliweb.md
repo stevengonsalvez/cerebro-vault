@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 2, 2, 7, 6, 5, 1, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 3, 1, 8, 5, 5, 1, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "creative-coding"
-    title: "creative-coding"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "webperf-snippets"
     title: "webperf-snippets"
     description: "Tested JavaScript snippets that measure and debug web performance. Your AI agent runs them for you, or you run them yourself in DevTools: the same code every time."
@@ -107,9 +99,17 @@ repos:
       - "webperf"
       - "webperformance"
       - "webvitals"
-    stars_fact: 1458
+    stars_fact: 1459
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
+  - name: "el-arbol-de-accesibilidad-fragil"
+    title: "el-arbol-de-accesibilidad-fragil"
+    description: "El árbol de accesibilidad frágil: por qué el HTML semántico es clave para el rendimiento web. Charla A11y Conf 2026"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "People-You-Should-Follow-on-CodePen"
     title: "People-You-Should-Follow-on-CodePen"
     description: "People You Should Follow on CodePen"
@@ -125,9 +125,27 @@ repos:
       - "p5js"
       - "svg"
       - "webgl"
-    stars_fact: 716
+    stars_fact: 714
     first_seen: null
     last_push: "2021-01-02"
+  - name: "creative-coding"
+    title: "creative-coding"
+    description: "Creative Coding talk deck for La Girotrònica: a web app with live demos (p5.js, WebGL shaders, WebGPU compute, Three.js) that the audience plays with their phones via Firebase."
+    language: "JavaScript"
+    topics:
+      - "creative-coding"
+      - "firebase"
+      - "p5js"
+      - "processing"
+      - "shaders"
+      - "slides"
+      - "talk"
+      - "threejs"
+      - "webgl"
+      - "webgpu"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "agent-first-perf-audits"
     title: "agent-first-perf-audits"
     description: "Workshop: a performance gate for pull requests with agents and MCP. Subagents measure Core Web Vitals, deterministic rules decide the verdict and a local LLM explains the cause. Runs on your laptop with Docker Compose, offline."
@@ -162,15 +180,7 @@ repos:
       - "webpagetest"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "image-element"
-    title: "image-element"
-    description: "Repository to curated best practices for web images 🏞"
-    language: null
-    topics: []
-    stars_fact: 435
-    first_seen: null
-    last_push: "2026-04-19"
+    last_push: "2026-11-27"
 ---
 
 # nucliweb

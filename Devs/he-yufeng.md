@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "10a12acb9645adcc"
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 5, 10, 10, 10, 19, 15, 4, 1, 1, 0, 1, 0]
+pushes_per_week: [1, 5, 11, 10, 14, 16, 13, 4, 1, 1, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -94,25 +94,9 @@ repos:
       - "llm"
       - "openai"
       - "python"
-    stars_fact: 1931
+    stars_fact: 1980
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "FindJobs-Agent"
-    title: "FindJobs-Agent"
-    description: "LLM-powered toolkit for skill analysis, AI interviews, resume scoring, and job structuring. Automates professional skill taxonomy and interview processes with adaptive difficulty."
-    language: "Python"
-    topics:
-      - "ai-agent"
-      - "crawler"
-      - "interview"
-      - "job-search"
-      - "llm"
-      - "python"
-      - "react"
-      - "resume"
-    stars_fact: 242
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-27"
   - name: "RepoWiki"
     title: "RepoWiki"
     description: "Open-source DeepWiki alternative — generate comprehensive wiki documentation for any codebase from terminal or browser"
@@ -126,9 +110,17 @@ repos:
       - "python"
       - "react"
       - "wiki"
-    stars_fact: 306
+    stars_fact: 312
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-25"
+  - name: "he-yufeng"
+    title: "he-yufeng"
+    description: "Profile README"
+    language: null
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "ContractGuard"
     title: "ContractGuard"
     description: "AI agent that reads the fine print so you don't have to. Upload any contract → get red flags, unfair terms, and plain-English explanations in seconds."
@@ -144,26 +136,25 @@ repos:
       - "pdf"
       - "python"
       - "risk-analysis"
-    stars_fact: 151
+    stars_fact: 153
     first_seen: null
     last_push: "2026-10-22"
-  - name: "AgentProbe"
-    title: "AgentProbe"
-    description: "Drop-in pytest plugin for regression-testing AI agents — snapshot baselines, semantic comparison, mock LLMs"
+  - name: "FindJobs-Agent"
+    title: "FindJobs-Agent"
+    description: "LLM-powered toolkit for skill analysis, AI interviews, resume scoring, and job structuring. Automates professional skill taxonomy and interview processes with adaptive difficulty."
     language: "Python"
     topics:
       - "ai-agent"
+      - "crawler"
+      - "interview"
+      - "job-search"
       - "llm"
-      - "mock-llm"
-      - "pytest"
-      - "pytest-plugin"
       - "python"
-      - "regression-testing"
-      - "snapshot-testing"
-      - "testing"
-    stars_fact: 28
+      - "react"
+      - "resume"
+    stars_fact: 243
     first_seen: null
-    last_push: "2026-09-06"
+    last_push: "2026-10-23"
   - name: "GitSense"
     title: "GitSense"
     description: "AI-powered open source contribution finder and repo radar"
@@ -179,7 +170,7 @@ repos:
       - "llm"
       - "open-source"
       - "python"
-    stars_fact: 90
+    stars_fact: 91
     first_seen: null
     last_push: "2026-10-23"
 ---

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [3, 0, 3, 10, 18, 11, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [3, 1, 2, 11, 19, 9, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -107,7 +107,7 @@ repos:
       - "vision-language-models"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
   - name: "niansia.github.io"
     title: "niansia.github.io"
     description: "Personal research portfolio for graduate applications, built with Quarto."

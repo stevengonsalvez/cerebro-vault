@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 2, 27, 58, 18, 3, 5, 4, 0, 0, 0, 1]
+pushes_per_week: [0, 0, 2, 37, 51, 16, 2, 5, 4, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,55 +77,14 @@ reasons:
   - "activity: 28 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "claude-office"
-    title: "claude-office"
-    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 622
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "termflix"
-    title: "termflix"
-    description: "Terminal animation player with 43 procedurally generated animations, multiple render modes, and true color support"
-    language: "Rust"
-    topics: []
-    stars_fact: 82
-    first_seen: null
-    last_push: "2026-09-30"
   - name: "roku-fishtank"
     title: "roku-fishtank"
     description: null
     language: "Brightscript"
     topics: []
-    stars_fact: 5
+    stars_fact: 9
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "rogue-xr"
-    title: "rogue-xr"
-    description: "Clockwork Spire: a seated WebXR roguelike deckbuilder for Meta Quest 3 (three.js)"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "parllama"
-    title: "parllama"
-    description: "TUI for Ollama and other LLM providers"
-    language: "Python"
-    topics:
-      - "ai"
-      - "anthropic"
-      - "gemini"
-      - "ollama"
-      - "ollama-tui"
-      - "openai"
-      - "python"
-      - "terminal"
-      - "tui"
-    stars_fact: 497
-    first_seen: null
-    last_push: "2026-10-16"
+    last_push: "2026-11-24"
   - name: "mux-xr"
     title: "mux-xr"
     description: "WebXR workspace for par-mux: monitor and control terminal panes from a browser or Meta Quest 3"
@@ -141,9 +100,60 @@ repos:
       - "virtual-reality"
       - "vite"
       - "webxr"
-    stars_fact: 1
+    stars_fact: 2
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
+  - name: "voxel-world"
+    title: "voxel-world"
+    description: "GPU-accelerated voxel sandbox using Vulkan compute shaders for real-time ray marching"
+    language: "Rust"
+    topics:
+      - "compute-shaders"
+      - "creative-mode"
+      - "game-engine"
+      - "multiplayer"
+      - "procedural-generation"
+      - "ray-marching"
+      - "rust"
+      - "voxel"
+      - "vulkan"
+    stars_fact: 13
+    first_seen: null
+    last_push: "2026-07-11"
+  - name: "claude-office"
+    title: "claude-office"
+    description: "Real-time pixel art office simulation that visualizes Claude Code operations"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 631
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "parsidion"
+    title: "parsidion"
+    description: "Claude Code customization toolkit — skills, agents, and hook scripts"
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "small-world"
+    title: "small-world"
+    description: "A Three.js terrarium that grows a tiny floating-island world — biome, terrain, flora, creatures, birds, and weather — from a 16-bit seed."
+    language: "JavaScript"
+    topics:
+      - "biome"
+      - "floating-island"
+      - "generative-art"
+      - "procedural-generation"
+      - "seed"
+      - "terrain"
+      - "terrarium"
+      - "threejs"
+      - "voxel"
+      - "webgl"
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-10-26"
 ---
 
 # paulrobello

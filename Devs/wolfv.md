@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 1, 18, 33, 6, 17, 5, 2, 1, 0, 1, 1]
+pushes_per_week: [0, 2, 1, 23, 28, 6, 17, 5, 2, 1, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-23"
   - name: "pixi-experimental-backends"
     title: "pixi-experimental-backends"
     description: "Experimental Pixi build backends for Meson and Autotools"

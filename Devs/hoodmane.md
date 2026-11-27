@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 1, 3, 4, 1, 0, 3, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 3, 3, 1, 0, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "js_spectralsequences"
+    title: "js_spectralsequences"
+    description: "Browser-based interactive spectral sequence viewer and editor."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 5
+    first_seen: null
+    last_push: "2024-08-29"
   - name: "cpython-emcc-tot"
     title: "cpython-emcc-tot"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2023-11-17"
-  - name: "libffi-emscripten"
-    title: "libffi-emscripten"
-    description: "Emscripten port of libffi"
-    language: "C"
-    topics: []
-    stars_fact: 13
-    first_seen: null
-    last_push: "2023-06-21"
 ---
 
 # hoodmane

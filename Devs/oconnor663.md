@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 7, 10, 3, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 3, 8, 11, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -82,9 +82,17 @@ repos:
     description: "Python bindings for the BLAKE3 cryptographic hash function"
     language: "Python"
     topics: []
-    stars_fact: 209
+    stars_fact: 208
     first_seen: null
     last_push: "2026-11-01"
+  - name: "clinacl"
+    title: "clinacl"
+    description: "a command line tool for playing with NaCl"
+    language: "Python"
+    topics: []
+    stars_fact: 270
+    first_seen: null
+    last_push: "2020-02-24"
   - name: "sha256_project"
     title: "sha256_project"
     description: "The SHA-256 Project, developed for NYU Tandon's Applied Cryptography course"
@@ -93,38 +101,30 @@ repos:
     stars_fact: 561
     first_seen: null
     last_push: "2025-07-09"
-  - name: "duct.rs"
-    title: "duct.rs"
-    description: "a Rust library for running child processes"
+  - name: "shared_child.rs"
+    title: "shared_child.rs"
+    description: "a wrapper around std::process::Child that lets multiple threads wait or kill at once"
     language: "Rust"
     topics: []
-    stars_fact: 1048
+    stars_fact: 53
     first_seen: null
-    last_push: "2026-09-20"
-  - name: "clinacl"
-    title: "clinacl"
-    description: "a command line tool for playing with NaCl"
-    language: "Python"
-    topics: []
-    stars_fact: 269
-    first_seen: null
-    last_push: "2020-02-24"
-  - name: "bao"
-    title: "bao"
-    description: "an implementation of BLAKE3 verified streaming"
-    language: "Rust"
-    topics: []
-    stars_fact: 596
-    first_seen: null
-    last_push: "2025-05-07"
+    last_push: "2026-09-03"
   - name: "duct.py"
     title: "duct.py"
     description: "a Python library for running child processes"
     language: "Python"
     topics: []
-    stars_fact: 139
+    stars_fact: 140
     first_seen: null
     last_push: "2026-03-17"
+  - name: "duct.rs"
+    title: "duct.rs"
+    description: "a Rust library for running child processes"
+    language: "Rust"
+    topics: []
+    stars_fact: 1050
+    first_seen: null
+    last_push: "2026-09-20"
 ---
 
 # oconnor663

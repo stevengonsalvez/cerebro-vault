@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ef03efa8fa36c2ae"
 pushes_per_week: [0, 5, 0, 2, 1, 0, 0, 4, 0, 0, 0, 0, 1]
@@ -102,25 +102,9 @@ repos:
       - "web-crawler"
       - "web-scraping"
       - "web-search"
-    stars_fact: 5558
+    stars_fact: 5568
     first_seen: "2026-07-19T06:00:06.180682+00:00"
-    last_push: "2026-11-18"
-  - name: "KnockOutEZ"
-    title: "KnockOutEZ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "auto-content-downloader"
-    title: "auto-content-downloader"
-    description: "Very simple script for downloading massive amount of data automatically. You just drop in all the links you scraped and proxies (optional)."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-10-02"
+    last_push: "2026-11-26"
   - name: "diffdeck"
     title: "diffdeck"
     description: "DiffDeck: 🚀 Streamline Code Reviews and Collaboration with Smart Diffs, Security Scans, and AI-Ready Outputs!"
@@ -130,9 +114,25 @@ repos:
       - "go"
       - "golang"
       - "llm"
-    stars_fact: 51
+    stars_fact: 50
     first_seen: null
     last_push: "2024-12-30"
+  - name: "KnockOutEZ"
+    title: "KnockOutEZ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "auto-content-downloader"
+    title: "auto-content-downloader"
+    description: "Very simple script for downloading massive amount of data automatically. You just drop in all the links you scraped and proxies (optional)."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2023-10-02"
   - name: "homebrew-wigolo"
     title: "homebrew-wigolo"
     description: "Homebrew tap for wigolo"

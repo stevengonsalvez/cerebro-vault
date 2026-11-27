@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 0, 0, 3, 15, 38, 5, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 8, 19, 28, 4, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,30 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "salon"
+    title: "salon"
+    description: "A self-hosted alternative to Claude Artifacts: pages your agent publishes, used live by several people, with comments that reach the agent"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "pi-compaction-brief"
+    title: "pi-compaction-brief"
+    description: "A pi extension that preserves user requests and writes a handoff brief during compaction."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "issue-to-pr-demo"
+    title: "issue-to-pr-demo"
+    description: "A Flue workflow for GitHub Issues: low-risk changes go to a reviewable PR; risky requests go back to the issue for a decision."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "pi-hydra"
     title: "pi-hydra"
     description: "Extra heads for your pi coding agent: live oversight through prompt-cache replay"
@@ -90,7 +114,7 @@ repos:
       - "prompt-caching"
     stars_fact: 13
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-11-19"
   - name: "openclaw-staging-workspace"
     title: "openclaw-staging-workspace"
     description: "Staging workspace for openclaw-infra phoenix test pipeline (main agent)"
@@ -106,31 +130,7 @@ repos:
     topics: []
     stars_fact: 22
     first_seen: null
-    last_push: "2026-11-03"
-  - name: "pi-idle-compact"
-    title: "pi-idle-compact"
-    description: "Compacts a pi session once its prompt cache has expired, never while pi's cache warming keeps it alive"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "pi-fast-models"
-    title: "pi-fast-models"
-    description: "Fast-mode virtual models for pi, with allowance-adjusted cost estimates"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "claude-plugins"
-    title: "claude-plugins"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-24"
 ---
 
 # pandysp

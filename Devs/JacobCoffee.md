@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 0, 6, 9, 8, 14, 27, 3, 2, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 8, 7, 10, 17, 22, 3, 2, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 23
-    active_days: 21
+    pushes: 70
+    distinct_repos: 22
+    active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 10
     not_owned_owners: 11
 automation:
   state: "clear"
-  push_per_day: 3.3810
-  repo_per_active_day: 1.0952
-  not_owned_ratio: 0.6087
-  basename_concentration: 0.1304
+  push_per_day: 3.5000
+  repo_per_active_day: 1.1000
+  not_owned_ratio: 0.6364
+  basename_concentration: 0.1364
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,69 +65,18 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 71
-    distinct_repos: 23
-    pushes_per_repo: 3.0870
-    active_days: 21
+    pushes: 70
+    distinct_repos: 22
+    pushes_per_repo: 3.1818
+    active_days: 20
     repos_not_owned: 14
     not_owned_basenames: 10
     not_owned_owners: 11
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "feed"
-    title: "feed"
-    description: "Rough Planet Python Feed POC"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "homelab"
-    title: "homelab"
-    description: "Its a lab, but at home."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "loopbacker"
-    title: "loopbacker"
-    description: "Because $100 is too much for my audio interface to work properly. 1000% Vibe Coded."
-    language: "C"
-    topics:
-      - "audio-interface"
-      - "audio-monitoring"
-      - "claude-code"
-      - "loopback"
-      - "motu-m2"
-      - "output-routing"
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "hearth"
-    title: "hearth"
-    description: "Fire TV launcher with seasonal themes, homelab status and a remote-only command rail"
-    language: "Kotlin"
-    topics:
-      - "firestick"
-      - "firetv-apps"
-      - "launcher"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "nubbin"
-    title: "nubbin"
-    description: "Notch/island notications"
-    language: "Swift"
-    topics:
-      - "macos-26"
-      - "notch-app"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
   - name: "civicrm-py"
     title: "civicrm-py"
     description: "A CiviCRM plugin for web frameworks."
@@ -150,10 +99,61 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-28"
+  - name: "loopbacker"
+    title: "loopbacker"
+    description: "Because $100 is too much for my audio interface to work properly. 1000% Vibe Coded."
+    language: "C"
+    topics:
+      - "audio-interface"
+      - "audio-monitoring"
+      - "claude-code"
+      - "loopback"
+      - "motu-m2"
+      - "output-routing"
+    stars_fact: 5
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "feed"
+    title: "feed"
+    description: "Rough Planet Python Feed POC"
+    language: "HTML"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-27"
+  - name: "homelab"
+    title: "homelab"
+    description: "Its a lab, but at home."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "hearth"
+    title: "hearth"
+    description: "Fire TV launcher with seasonal themes, homelab status and a remote-only command rail"
+    language: "Kotlin"
+    topics:
+      - "firestick"
+      - "firetv-apps"
+      - "launcher"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-05"
+  - name: "nubbin"
+    title: "nubbin"
+    description: "Notch/island notications"
+    language: "Swift"
+    topics:
+      - "macos-26"
+      - "notch-app"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-10-30"
 ---
 
 # JacobCoffee
 
-71 pushes across 23 repositories on 21 active days in the last 90 days of public GitHub push activity.
+70 pushes across 22 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JacobCoffee

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
 pushes_per_week: [0, 0, 3, 5, 1, 2, 1, 0, 0, 0, 0, 0, 0]
@@ -86,7 +86,7 @@ repos:
       - "github-config"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "lubingtan.github.io"
     title: "lubingtan.github.io"
     description: "https://lubingtan.github.io/"
@@ -94,7 +94,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-24"
   - name: "modelCC"
     title: "modelCC"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 4, 2, 3, 1, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 5, 2, 2, 1, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,25 +77,48 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "golings"
-    title: "golings"
-    description: "Go practice, one exercise at a time."
-    language: "Go"
+  - name: "astha-portfolio"
+    title: "astha-portfolio"
+    description: "Portfolio for Dr. Astha Jathar, dental surgeon, Nagpur"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "dotscout"
+    title: "dotscout"
+    description: "Discover available domains."
+    language: null
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "blocklite"
-    title: "blocklite"
-    description: "A Minimalistic Decentralized Cryptocurrency Implementation in Go"
-    language: "Go"
+    last_push: "2026-11-25"
+  - name: "writestuff"
+    title: "writestuff"
+    description: "write whatever."
+    language: "Dart"
     topics: []
-    stars_fact: 6
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-02-15"
+    last_push: "2026-11-25"
+  - name: "rezumate"
+    title: "rezumate"
+    description: "Native iOS resume optimization powered by a FastAPI analysis backend."
+    language: "Swift"
+    topics:
+      - "ats"
+      - "ats-optimization"
+      - "fastapi"
+      - "ios"
+      - "resume-optimization"
+      - "resume-parser"
+      - "swift"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "xenon"
     title: "xenon"
-    description: "A modern, lightweight text and code editor built with Qt 6"
+    description: "A fast, native code editor for Java."
     language: "Rust"
     topics:
       - "cpp"
@@ -105,36 +128,19 @@ repos:
     stars_fact: 3
     first_seen: null
     last_push: "2026-11-16"
-  - name: "steepr"
-    title: "steepr"
-    description: "For people who take tea way too seriously 🍵"
-    language: "Swift"
+  - name: "grindsheet"
+    title: "grindsheet"
+    description: "A web app to track, manage, and optimize my DSA progress for acing coding interviews."
+    language: "Gleam"
     topics:
-      - "ios"
-      - "ios-swift"
-      - "steep"
-      - "swift"
-      - "tea"
-      - "vuejs"
-    stars_fact: 2
+      - "algorithms-and-data-structures"
+      - "dsa"
+      - "erlang"
+      - "gleam"
+      - "webapp"
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-14"
-  - name: "goggles"
-    title: "goggles"
-    description: "CLI-first publisher for Instagram Reels, YouTube Shorts, and LinkedIn posts."
-    language: "Go"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-04"
-  - name: "rook"
-    title: "rook"
-    description: "A window manager for macOS with keyboard shortcuts"
-    language: "Swift"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-20"
 ---
 
 # maskedsyntax

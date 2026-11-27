@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-24T15:04:00.605290+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 2, 24, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 5, 21, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,15 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "qflarebot-plugin-email"
+    title: "qflarebot-plugin-email"
+    description: "QFlareBot 外置邮件插件，供其他插件和 Agent 通过 Cloudflare Email Sending 发信。"
+    language: "TypeScript"
+    topics:
+      - "qflarebot-plugin"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "snowmux"
     title: "snowmux"
     description: "雪酥社区固件和在线刷机工具，基于 CrossMux。"
@@ -113,15 +122,6 @@ repos:
   - name: "qflarebot-plugin-pixiv"
     title: "qflarebot-plugin-pixiv"
     description: "Pixiv 随机美图 / 作品详情查询（pixiv.yuki.sh 第三方图床）— qqbot-workers 插件"
-    language: "TypeScript"
-    topics:
-      - "qflarebot-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "qflarebot-plugin-llm"
-    title: "qflarebot-plugin-llm"
-    description: "QFlareBot 的大模型接口插件：统一管理供应商与模型别名，向其他插件导出 llm 服务（含工具调用与多模态透传）"
     language: "TypeScript"
     topics:
       - "qflarebot-plugin"

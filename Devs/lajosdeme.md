@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "5a94dd163bfbe84d"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
@@ -82,7 +82,7 @@ repos:
     description: "A clean, minimal, terminal-based global intelligence dashboard."
     language: "Go"
     topics: []
-    stars_fact: 339
+    stars_fact: 340
     first_seen: null
     last_push: "2026-03-04"
   - name: "mole"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 319
     first_seen: "2026-08-15T06:00:07.075101+00:00"
-    last_push: "2026-11-08"
+    last_push: "2026-11-24"
   - name: "xcclear"
     title: "xcclear"
     description: "Simple and easy to use command line application written in Go for cleaning unnecessary XCode files."
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-13"
+    last_push: "2026-11-24"
   - name: "Dates"
     title: "Dates"
     description: "Dates is a small Swift library containing useful Date extensions and functions that will speed up your development workflow."

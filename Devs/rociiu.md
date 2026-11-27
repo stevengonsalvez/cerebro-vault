@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "5c1db9239c15fa63"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0, 0, 0]
@@ -91,9 +91,9 @@ repos:
       - "self-hosted"
       - "typescript"
       - "workers-ai"
-    stars_fact: 1475
+    stars_fact: 1493
     first_seen: "2026-10-11T06:01:22.164700+00:00"
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "homebrew-tap"
     title: "homebrew-tap"
     description: null

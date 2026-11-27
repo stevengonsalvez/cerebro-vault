@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4930e4f9e24bb204"
-pushes_per_week: [0, 0, 0, 4, 5, 0, 1, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 4, 3, 0, 1, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,12 +77,36 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ui"
+    title: "ui"
+    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 153
+    first_seen: null
+    last_push: "2026-04-24"
+  - name: "cersei"
+    title: "cersei"
+    description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
+    language: "Rust"
+    topics:
+      - "agent"
+      - "antrophic"
+      - "claude-code"
+      - "codex"
+      - "coding-agent"
+      - "openai"
+      - "opencode"
+      - "rust"
+    stars_fact: 466
+    first_seen: null
+    last_push: "2026-08-06"
   - name: "gpui-flow"
     title: "gpui-flow"
     description: "visual node editor react flow for gpui"
     language: "Rust"
     topics: []
-    stars_fact: 52
+    stars_fact: 53
     first_seen: null
     last_push: "2026-03-23"
   - name: "flutter_apps"
@@ -99,22 +123,6 @@ repos:
     stars_fact: 772
     first_seen: null
     last_push: "2021-02-05"
-  - name: "cersei"
-    title: "cersei"
-    description: "The Rust SDK for building coding agents. Tools, streaming, graph, sub-agent orchestration, MCP — as composable functions"
-    language: "Rust"
-    topics:
-      - "agent"
-      - "antrophic"
-      - "claude-code"
-      - "codex"
-      - "coding-agent"
-      - "openai"
-      - "opencode"
-      - "rust"
-    stars_fact: 467
-    first_seen: null
-    last_push: "2026-08-06"
   - name: "noni"
     title: "noni"
     description: "Flexible deep learning framework for humans"
@@ -131,14 +139,6 @@ repos:
     stars_fact: 15
     first_seen: null
     last_push: "2026-04-01"
-  - name: "ui"
-    title: "ui"
-    description: "The shadcn for agent UI. A framework-agnostic design language for dense, AMOLED-black, multi-surface interfaces"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 154
-    first_seen: null
-    last_push: "2026-04-24"
 ---
 
 # pacifio

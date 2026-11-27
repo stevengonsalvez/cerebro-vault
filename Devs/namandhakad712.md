@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1a4e40e8e8763b4b"
-pushes_per_week: [0, 0, 0, 5, 0, 4, 2, 3, 4, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 4, 1, 3, 2, 3, 4, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,41 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Mirage"
+    title: "Mirage"
+    description: "Open-source tripwires and decoys against AI attack agents: see who scouts your site, waste their time, never break your traffic. Fail-open by design."
+    language: "Go"
+    topics:
+      - "ai-agents"
+      - "cloudflare-workers"
+      - "crowdsec"
+      - "deception"
+      - "go"
+      - "honeypot"
+      - "nginx"
+      - "security"
+      - "typescript"
+      - "waf"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "whisperflow"
+    title: "whisperflow"
+    description: "WhisperFlow — open-source, local-first AI voice dictation. Your voice, your models, your machine. (whisper.cpp + llama.cpp + HuggingFace)"
+    language: "TypeScript"
+    topics:
+      - "asr"
+      - "dictation"
+      - "huggin"
+      - "huggingface-models"
+      - "llama-cpp"
+      - "local-first"
+      - "speech-to-text"
+      - "transcription"
+      - "voice-to-text"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "Shrink-toybox"
     title: "Shrink-toybox"
     description: "Games into a single line of data url"
@@ -120,23 +155,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-19"
-  - name: "lume-coaster"
-    title: "lume-coaster"
-    description: "HalfLife-Hackclub Week 1 (PCB)"
-    language: "Python"
-    topics:
-      - "hackclub"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-19"
-  - name: "WRYM"
-    title: "WRYM"
-    description: "The Worm Arena but for LLMs"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
 ---
 
 # namandhakad712

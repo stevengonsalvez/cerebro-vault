@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 0, 0, 6, 0, 1, 5, 0, 0, 0, 5, 1]
+pushes_per_week: [1, 0, 0, 3, 3, 0, 1, 5, 0, 0, 0, 6, 0]
 windows:
   "7d":
     pushes: 1
@@ -77,36 +77,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "openbars"
-    title: "openbars"
-    description: "Free, multi-market, multi-source OHLCV bar collection, cleaning and reconciliation into one canonical dataset."
-    language: "Python"
-    topics:
-      - "crypto"
-      - "duckdb"
-      - "market-data"
-      - "ohlcv"
-      - "parquet"
-      - "python"
-      - "self-hosted"
-      - "stock-data"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "roundtable-work"
-    title: "roundtable-work"
-    description: "An agent-guided setup and operating model for autonomous collaborative work."
-    language: "JavaScript"
-    topics:
-      - "agent-orchestration"
-      - "agentic-workflows"
-      - "ai-agents"
-      - "autonomous-agents"
-      - "developer-tools"
-      - "multi-agent"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "astro-fourfold"
     title: "astro-fourfold"
     description: "A static-first personal publication theme for Astro: writing, columns, tags, projects, research, photo essays, search, favorites, RSS, and GitHub Pages support."
@@ -122,9 +92,55 @@ repos:
       - "personal-blog"
       - "personal-website"
       - "static-site-generator"
-    stars_fact: 11
+    stars_fact: 12
     first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-11-20"
+  - name: "Interview-Book"
+    title: "Interview-Book"
+    description: "Frontend interview questions and an engineering knowledge guide, from web fundamentals to systems, frameworks, and career growth."
+    language: null
+    topics:
+      - "career-development"
+      - "computer-science"
+      - "frontend"
+      - "interview"
+      - "interview-questions"
+      - "javascript"
+      - "software-engineering"
+      - "vitepress"
+    stars_fact: 439
+    first_seen: null
+    last_push: "2026-10-28"
+  - name: "openbars"
+    title: "openbars"
+    description: "Free, multi-market, multi-source OHLCV bar collection, cleaning and reconciliation into one canonical dataset."
+    language: "Python"
+    topics:
+      - "crypto"
+      - "duckdb"
+      - "market-data"
+      - "ohlcv"
+      - "parquet"
+      - "python"
+      - "self-hosted"
+      - "stock-data"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "roundtable-work"
+    title: "roundtable-work"
+    description: "An agent-guided setup and operating model for autonomous collaborative work."
+    language: "JavaScript"
+    topics:
+      - "agent-orchestration"
+      - "agentic-workflows"
+      - "ai-agents"
+      - "autonomous-agents"
+      - "developer-tools"
+      - "multi-agent"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "nuska"
     title: "nuska"
     description: "Research and experiments on autonomous agents: from human intent to verified delivery."
@@ -146,23 +162,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-12"
-  - name: "Interview-Book"
-    title: "Interview-Book"
-    description: "Frontend interview questions and an engineering knowledge guide, from web fundamentals to systems, frameworks, and career growth."
-    language: null
-    topics:
-      - "career-development"
-      - "computer-science"
-      - "frontend"
-      - "interview"
-      - "interview-questions"
-      - "javascript"
-      - "software-engineering"
-      - "vitepress"
-    stars_fact: 440
-    first_seen: null
-    last_push: "2026-10-28"
+    last_push: "2026-11-26"
 ---
 
 # Liyuk

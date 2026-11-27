@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 7, 5, 7, 12, 12, 10, 6, 0, 0, 0, 0, 6]
+pushes_per_week: [1, 7, 10, 2, 13, 11, 10, 6, 0, 0, 0, 5, 1]
 windows:
   "7d":
     pushes: 6
@@ -77,6 +77,38 @@ reasons:
   - "activity: 24 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "just-lsp"
+    title: "just-lsp"
+    description: "A language server for just"
+    language: "Rust"
+    topics: []
+    stars_fact: 362
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "unclutter"
+    title: "unclutter"
+    description: "A rust port of mozilla/readability"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "later"
+    title: "later"
+    description: "A self-hostable read-it-later service"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "strew"
+    title: "strew"
+    description: "A tool to manage your dotfiles"
+    language: "Rust"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-24"
   - name: "ocs"
     title: "ocs"
     description: "A session picker for opencode"
@@ -84,15 +116,7 @@ repos:
     topics: []
     stars_fact: 2
     first_seen: null
-    last_push: "2026-11-06"
-  - name: "just-lsp"
-    title: "just-lsp"
-    description: "A language server for just"
-    language: "Rust"
-    topics: []
-    stars_fact: 361
-    first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-20"
   - name: "lab"
     title: "lab"
     description: "A durable agent orchestrator"
@@ -100,31 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "spymux"
-    title: "spymux"
-    description: "A centralized view for all of your tmux panes"
-    language: "Rust"
-    topics: []
-    stars_fact: 68
-    first_seen: null
-    last_push: "2026-11-08"
-  - name: "treesitter.run"
-    title: "treesitter.run"
-    description: "A web playground for tree-sitter"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 4
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "kotomori"
-    title: "kotomori"
-    description: "A coding agent"
-    language: "Rust"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-26"
 ---
 
 # terror

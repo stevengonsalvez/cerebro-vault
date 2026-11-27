@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [0, 1, 4, 1, 0, 2, 3, 0, 0, 1, 0, 0, 0]
+pushes_per_week: [0, 1, 4, 1, 1, 1, 3, 0, 0, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "unifi-family"
+    title: "unifi-family"
+    description: "CLI over the official UniFi Network Integration API to allow/block websites per device or person, on custom schedules — built for family/parental controls."
+    language: "Python"
+    topics:
+      - "cli"
+      - "family"
+      - "firewall"
+      - "parental-controls"
+      - "python"
+      - "ubiquiti"
+      - "unifi"
+      - "uv"
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "agenthook"
     title: "agenthook"
     description: "A webhook inbox for coding agents. Runs locally & remotely."
@@ -124,14 +140,6 @@ repos:
     language: "Astro"
     topics: []
     stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "pi-projects"
-    title: "pi-projects"
-    description: "Self-contained project directories for the pi coding agent"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
     first_seen: null
     last_push: "2026-09-10"
 ---

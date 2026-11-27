@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 5, 0, 1, 0, 0, 7, 2, 23, 2, 1, 3, 0]
@@ -87,7 +87,7 @@ repos:
       - "developer-tools"
       - "opencode"
       - "opencode-plugins"
-    stars_fact: 284
+    stars_fact: 286
     first_seen: null
     last_push: "2026-11-10"
   - name: "survive-n-conquest"
@@ -97,7 +97,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "herdr-stuff"
     title: "herdr-stuff"
     description: "Mods for the Herdr app"
@@ -105,7 +105,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-27"
   - name: "first-game"
     title: "first-game"
     description: null
@@ -113,7 +113,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "nexus"
     title: "nexus"
     description: null
@@ -121,7 +121,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-27"
   - name: "dotfiles"
     title: "dotfiles"
     description: "Manually managed dotfiles"
@@ -129,7 +129,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-23"
 ---
 
 # ramtinJ95

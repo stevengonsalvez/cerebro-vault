@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 4, 5, 20, 25, 5, 10, 2, 1, 0, 3, 1]
+pushes_per_week: [1, 1, 5, 10, 21, 18, 5, 10, 2, 1, 0, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,19 @@ reasons:
   - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "steg86"
+    title: "steg86"
+    description: "Hiding messages in x86 programs using semantic duals"
+    language: "Rust"
+    topics:
+      - "amd64"
+      - "binary-translation"
+      - "hacktoberfest"
+      - "steganography"
+      - "x86"
+    stars_fact: 324
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "ff2mpv"
     title: "ff2mpv"
     description: "A Firefox/Chrome add-on for playing URLs in mpv."
@@ -92,6 +105,20 @@ repos:
     stars_fact: 653
     first_seen: null
     last_push: "2026-10-08"
+  - name: "pyrage"
+    title: "pyrage"
+    description: "Python bindings for rage (age in Rust)"
+    language: "Rust"
+    topics:
+      - "age"
+      - "encryption-decryption"
+      - "python"
+      - "rust"
+      - "ssh"
+      - "x25519"
+    stars_fact: 95
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "vulnbrocards.com"
     title: "vulnbrocards.com"
     description: "The content behind vulnbrocards.com"
@@ -119,22 +146,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-12"
-  - name: "gha-hazmat"
-    title: "gha-hazmat"
-    description: "A menagerie of insecure and exploitable GitHub Actions workflows and action definitions"
-    language: null
-    topics: []
-    stars_fact: 24
-    first_seen: null
-    last_push: "2026-10-08"
-  - name: "gzip-sniff"
-    title: "gzip-sniff"
-    description: "Looking at gzip variance across HTTP responses"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-08"
 ---
 
 # woodruffw

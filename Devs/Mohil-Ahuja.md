@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c1af6b58492f9bf4"
 pushes_per_week: [0, 0, 1, 0, 1, 2, 4, 2, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "help-wait-or-stay-silent"
+    title: "help-wait-or-stay-silent"
+    description: "When should an AI assistant speak up during an assembly mistake? DS4101 HTI project, Plaksha"
+    language: "Jupyter Notebook"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "2D-to-3D-CAD-Reconstruction"
     title: "2D-to-3D-CAD-Reconstruction"
     description: "Deep learning pipeline reconstructing 3D parametric CAD models from 2D multi-view orthographic drawings using ResNet-Transformer Seq2Seq architecture, generating STEP files with procedural CAD operations."
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "ci-scratch"
     title: "ci-scratch"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-03"
-  - name: "fourshots"
-    title: "fourshots"
-    description: "NPCI allows four attempts per UPI AutoPay mandate cycle. This decides how to spend them,+38.8% recovered vs Razorpay's documented retry policy, mean over 20 cohorts. Razorpay AI Buildathon 2026, Track 03."
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-31"
 ---
 
 # Mohil-Ahuja

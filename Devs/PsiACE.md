@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [2, 2, 2, 8, 7, 18, 5, 5, 0, 0, 0, 0, 1]
+pushes_per_week: [2, 2, 4, 6, 11, 17, 2, 5, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -80,11 +80,39 @@ repos:
   - name: "anylings"
     title: "anylings"
     description: null
-    language: null
+    language: "Python"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-25"
+  - name: "databend-internals"
+    title: "databend-internals"
+    description: "Databend 内幕大揭秘"
+    language: "Rust"
+    topics:
+      - "book"
+      - "database"
+      - "databend"
+      - "olap"
+      - "query-engine"
+      - "rust"
+      - "tutorial"
+    stars_fact: 303
+    first_seen: null
+    last_push: "2024-01-26"
+  - name: "riteraft"
+    title: "riteraft"
+    description: "RiteRaft - A raft framework, for regular people"
+    language: "Rust"
+    topics:
+      - "distributed"
+      - "distributed-systems"
+      - "raft"
+      - "raft-framework"
+      - "rust"
+    stars_fact: 332
+    first_seen: null
+    last_push: "2024-02-18"
   - name: "dohnuts"
     title: "dohnuts"
     description: "Dohnuts builds small multimodal models for direct decisions. -> System One model"
@@ -101,34 +129,6 @@ repos:
     stars_fact: 40
     first_seen: null
     last_push: "2026-10-06"
-  - name: "databend-internals"
-    title: "databend-internals"
-    description: "Databend 内幕大揭秘"
-    language: "Rust"
-    topics:
-      - "book"
-      - "database"
-      - "databend"
-      - "olap"
-      - "query-engine"
-      - "rust"
-      - "tutorial"
-    stars_fact: 304
-    first_seen: null
-    last_push: "2024-01-26"
-  - name: "riteraft"
-    title: "riteraft"
-    description: "RiteRaft - A raft framework, for regular people"
-    language: "Rust"
-    topics:
-      - "distributed"
-      - "distributed-systems"
-      - "raft"
-      - "raft-framework"
-      - "rust"
-    stars_fact: 333
-    first_seen: null
-    last_push: "2024-02-18"
   - name: "skills"
     title: "skills"
     description: "A small, shared skill library by builders, for builders."

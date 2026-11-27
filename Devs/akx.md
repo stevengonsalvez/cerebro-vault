@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 3, 3, 8, 4, 6, 0, 2, 0, 0, 0, 0]
+pushes_per_week: [1, 1, 3, 6, 5, 5, 5, 0, 2, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,22 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "ggify"
+    title: "ggify"
+    description: "Tool to download models from Huggingface Hub and convert them to GGML/GGUF for llama.cpp"
+    language: "Python"
+    topics: []
+    stars_fact: 194
+    first_seen: null
+    last_push: "2025-04-29"
+  - name: "Notifications"
+    title: "Notifications"
+    description: "Notification sounds."
+    language: "Python"
+    topics: []
+    stars_fact: 99
+    first_seen: null
+    last_push: "2020-02-24"
   - name: "dot3k-c"
     title: "dot3k-c"
     description: "A C library for Pimoroni's Display-O-Tron 3000"
@@ -113,22 +129,6 @@ repos:
     stars_fact: 20
     first_seen: null
     last_push: "2023-03-22"
-  - name: "talsi"
-    title: "talsi"
-    description: "Fast local SQLite-backed key-value storage for Python"
-    language: "Rust"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-10"
-  - name: "Notifications"
-    title: "Notifications"
-    description: "Notification sounds."
-    language: "Python"
-    topics: []
-    stars_fact: 98
-    first_seen: null
-    last_push: "2020-02-24"
 ---
 
 # akx

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 6, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "Web3Notes"
+    title: "Web3Notes"
+    description: "https://shauryasrivastava.tech/web3notes"
+    language: null
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-05-08"
   - name: "verbatim"
     title: "verbatim"
     description: null
@@ -117,14 +125,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-16"
-  - name: "Overlook"
-    title: "Overlook"
-    description: "A real-time collaborative code editor with terminal aesthetics, AI assistance, and security testing capabilities. Built with React, Node.js, and Socket.IO for secure, hacker-themed collaborative development."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2025-10-05"
 ---
 
 # Shaurya2k06

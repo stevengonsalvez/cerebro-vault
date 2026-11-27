@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 0, 3, 7, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-27"
   - name: "astrbot_plugin_searxng"
     title: "astrbot_plugin_searxng"
     description: null
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-11-27"
   - name: "Steam_Profile_API_Server"
     title: "Steam_Profile_API_Server"
     description: "一个简单的无服务器 API，用于展示你自己的 Steam 用户信息。"

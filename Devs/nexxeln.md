@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 1, 0, 4, 10, 9, 1, 0, 0, 0, 0, 0, 1]
+pushes_per_week: [0, 1, 1, 4, 12, 7, 0, 0, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,14 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "talktui"
+    title: "talktui"
+    description: "presentations on the terminal"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 157
+    first_seen: null
+    last_push: "2026-06-29"
   - name: "torrential"
     title: "torrential"
     description: "Find films and shows, and watch them on your computer, phone, or TV while they download."
@@ -89,9 +97,25 @@ repos:
       - "rust"
       - "torrent"
       - "tui"
-    stars_fact: 145
+    stars_fact: 149
     first_seen: null
     last_push: "2026-11-17"
+  - name: "nexxel.dev"
+    title: "nexxel.dev"
+    description: "my personal website and blog"
+    language: "MDX"
+    topics:
+      - "blog"
+      - "mdx"
+      - "nextjs"
+      - "personal-website"
+      - "redis"
+      - "tailwindcss"
+      - "typescript"
+      - "vercel"
+    stars_fact: 281
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "nostakes"
     title: "nostakes"
     description: "Poker night with friends, in the browser."
@@ -99,7 +123,7 @@ repos:
     topics: []
     stars_fact: 7
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-25"
   - name: "old-nexxel.dev"
     title: "old-nexxel.dev"
     description: "old personal website"
@@ -129,33 +153,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2022-04-13"
-  - name: "spotify-voice-control"
-    title: "spotify-voice-control"
-    description: "Voice control for Spotify through the terminal"
-    language: "Python"
-    topics:
-      - "music"
-      - "python"
-      - "speech-recognition"
-      - "spotify"
-      - "spotify-api"
-      - "voice-commands"
-      - "voice-recognition"
-    stars_fact: 77
-    first_seen: null
-    last_push: "2022-09-23"
-  - name: "license-generator"
-    title: "license-generator"
-    description: "Create licenses for your projects right from your terminal!"
-    language: "Rust"
-    topics:
-      - "cli"
-      - "license"
-      - "productivity"
-      - "rust"
-    stars_fact: 209
-    first_seen: null
-    last_push: "2024-03-31"
 ---
 
 # nexxeln

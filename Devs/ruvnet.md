@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [2, 11, 33, 9, 69, 44, 73, 18, 17, 2, 2, 1, 0]
+pushes_per_week: [2, 13, 32, 8, 77, 43, 66, 18, 17, 2, 2, 1, 0]
 windows:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 1
-    distinct_repos: 1
-    pushes_per_repo: 1.0000
-    active_days: 1
+    pushes: 0
+    distinct_repos: 0
+    pushes_per_repo: 0.0000
+    active_days: 0
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -102,9 +102,9 @@ repos:
       - "swarm-intelligence"
       - "typescript"
       - "vector-search"
-    stars_fact: 82067
+    stars_fact: 82517
     first_seen: "2026-08-22T06:00:04.021788+00:00"
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "RuView"
     title: "RuView"
     description: "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
@@ -129,32 +129,9 @@ repos:
       - "webassembly"
       - "wifi"
       - "wifi-security"
-    stars_fact: 104602
+    stars_fact: 105315
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "open-claude-code"
-    title: "open-claude-code"
-    description: "Nightly Claude Code CLI Decompile — Reverse Engineered & Rebuilt"
-    language: "JavaScript"
-    topics:
-      - "agentic-ai"
-      - "ai"
-      - "claude"
-      - "claude-code"
-      - "clean-room"
-      - "cli"
-      - "decompiler"
-    stars_fact: 574
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "rufield-sleep"
-    title: "rufield-sleep"
-    description: "Local sleep routine console for RuField ESP32 room sensors and an ESP32 I2S pink noise speaker."
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
   - name: "RuVector"
     title: "RuVector"
     description: "RuVector provides High Performance, Real-Time decisions and agent memory , Self-Learning Ai, Vector GNN DB built in Rust."
@@ -180,37 +157,51 @@ repos:
       - "rust"
       - "vector"
       - "wasm"
-    stars_fact: 4711
+    stars_fact: 4721
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "ruv-FANN"
-    title: "ruv-FANN"
-    description: "Neural networks and weight-space programming in Rust, JavaScript and WebAssembly. Inspect activations, edit weights, evaluate candidates, train small models, and explicitly promote or roll back revisions."
-    language: "Rust"
+    last_push: "2026-11-26"
+  - name: "ruPet"
+    title: "ruPet"
+    description: "A friendly animated robot pet for the ChatGPT and Codex desktop pet system."
+    language: null
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-10-10"
+  - name: "chatgpt-openai-api-plugin"
+    title: "chatgpt-openai-api-plugin"
+    description: "A powerful ChatGPT plugin that integrates with the OpenAI API, enabling creative text generation, conversational AI, model fine-tuning, and more. Enhance ChatGPT's capabilities with seamless access to OpenAI's language models."
+    language: "Python"
+    topics: []
+    stars_fact: 151
+    first_seen: null
+    last_push: "2023-05-02"
+  - name: "ruvllm"
+    title: "ruvllm"
+    description: "Governed neural weight editing and coding model adaptation. Native Rust patches, exact rollback, LoRA, Claude Code routing, and reproducible benchmarks."
+    language: "Python"
     topics:
-      - "agentdb"
-      - "cloudflare-workers"
-      - "edge-ai"
-      - "hugging-face"
-      - "javascript"
-      - "local-ai"
-      - "machine-learning"
+      - "agentic-ai"
+      - "ai"
+      - "ai-governance"
+      - "benchmarks"
+      - "claude-code"
+      - "evals"
+      - "gpu"
+      - "llm"
+      - "lora"
+      - "mlx"
       - "model-editing"
-      - "model-evaluation"
-      - "model-versioning"
-      - "neural-network"
-      - "neural-network-inference"
-      - "neural-network-training"
+      - "model-routing"
+      - "qwen"
+      - "reproducible-research"
+      - "ruflo"
       - "rust"
+      - "rvf"
       - "safetensors"
-      - "simd"
-      - "typescript"
-      - "wasm"
-      - "webassembly"
-      - "weight-space-programming"
-    stars_fact: 397
+    stars_fact: 15
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-06"
 ---
 
 # ruvnet

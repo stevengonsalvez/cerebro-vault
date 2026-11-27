@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 1, 1, 1, 3, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -89,9 +89,9 @@ repos:
       - "rust"
       - "servo"
       - "web-scraping"
-    stars_fact: 164
+    stars_fact: 166
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-25"
   - name: "kiro-cli-review-action"
     title: "kiro-cli-review-action"
     description: "Automated PR code review powered by Kiro CLI"
@@ -118,7 +118,7 @@ repos:
       - "typescript"
     stars_fact: 17
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-26"
   - name: "chat-agent-on-aws-blocks"
     title: "chat-agent-on-aws-blocks"
     description: "A streaming AI chat agent built on AWS Blocks"

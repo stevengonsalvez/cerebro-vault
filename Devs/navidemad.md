@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 0, 14, 19, 42, 42, 7, 10, 0, 0, 0, 1, 0]
+pushes_per_week: [0, 0, 14, 30, 32, 41, 7, 10, 0, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "vicecity-gaps"
-    title: "vicecity-gaps"
-    description: "Digest quotidien des questions GTA VI sans bonne réponse vidéo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "capybara-lightpanda"
     title: "capybara-lightpanda"
     description: "Run Capybara system tests on Lightpanda — the ultra-fast headless browser built in Zig."
@@ -97,7 +89,15 @@ repos:
       - "rails"
       - "ruby"
       - "system-tests"
-    stars_fact: 10
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "vicecity-gaps"
+    title: "vicecity-gaps"
+    description: "Digest quotidien des questions GTA VI sans bonne réponse vidéo"
+    language: "Python"
+    topics: []
+    stars_fact: 0
     first_seen: null
     last_push: "2026-11-19"
   - name: "pi-navrness"
@@ -123,7 +123,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-24"
   - name: "navidemad"
     title: "navidemad"
     description: null

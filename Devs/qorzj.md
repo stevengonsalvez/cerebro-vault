@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
 pushes_per_week: [0, 1, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0, 0]
@@ -77,6 +77,14 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "web_search_cli"
+    title: "web_search_cli"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 15
+    first_seen: null
+    last_push: "2026-05-03"
   - name: "red_alert_notify"
     title: "red_alert_notify"
     description: null
@@ -92,15 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-08-28"
-  - name: "web_search_cli"
-    title: "web_search_cli"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-05-03"
+    last_push: "2026-11-25"
   - name: "deepcode-qrcode-benchmark"
     title: "deepcode-qrcode-benchmark"
     description: null

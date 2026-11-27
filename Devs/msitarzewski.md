@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0b6244279772ea4c"
-pushes_per_week: [0, 0, 3, 0, 5, 3, 1, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [0, 0, 3, 2, 4, 2, 1, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -82,7 +82,7 @@ repos:
     description: "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
     language: "Shell"
     topics: []
-    stars_fact: 169264
+    stars_fact: 170504
     first_seen: "2026-08-14T06:00:04.069258+00:00"
     last_push: "2026-11-09"
   - name: "agency-agents-app"
@@ -90,7 +90,7 @@ repos:
     description: "Agency Agents is a small, native app for browsing, installing, and tracking the agent personas from msitarzewski/agency-agents across the AI coding tools you actually use."
     language: "TypeScript"
     topics: []
-    stars_fact: 986
+    stars_fact: 1042
     first_seen: null
     last_push: "2026-11-17"
   - name: "brew-browser"
@@ -98,33 +98,42 @@ repos:
     description: "Homebrew is the standard package manager on macOS. brew-browser gives it a real native GUI."
     language: "Rust"
     topics: []
-    stars_fact: 1081
+    stars_fact: 1084
     first_seen: null
     last_push: "2026-10-12"
-  - name: "GlassPowerTools"
-    title: "GlassPowerTools"
-    description: "Terminals, databases, remote desktops and an editor for every machine you work on. Native on Apple Vision Pro, Mac, iPad and iPhone."
-    language: "C"
+  - name: "agent-room"
+    title: "agent-room"
+    description: "Human control plane for supervising AI workers"
+    language: "Go"
     topics: []
-    stars_fact: 2
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
+  - name: "anomalous-mac"
+    title: "anomalous-mac"
+    description: "System anomaly detection for macOS — Activity Monitor with a 'So what?' and 'Now what?' layer. On-device judgment via Apple Intelligence, safety-tiered actions, open source."
+    language: "Swift"
+    topics:
+      - "activity-monitor"
+      - "anomaly-detection"
+      - "apple-intelligence"
+      - "foundation-models"
+      - "macos"
+      - "menu-bar"
+      - "open-source"
+      - "swift"
+      - "swiftui"
+    stars_fact: 28
+    first_seen: null
+    last_push: "2026-10-07"
   - name: "AutoAudio"
     title: "AutoAudio"
     description: "AutoAudio: a personal audiobook studio for Mac. Website and RSS project updates."
     language: "CSS"
     topics: []
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
     last_push: "2026-11-09"
-  - name: "dentist-landing"
-    title: "dentist-landing"
-    description: "Feast Dental, a demo landing page built by an Agency Agents team, and It's the prompt: three AI-built dentist pages compared"
-    language: "HTML"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
 ---
 
 # msitarzewski

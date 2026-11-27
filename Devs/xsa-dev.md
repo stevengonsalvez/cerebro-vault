@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "2a7f0fddd2dac162"
 pushes_per_week: [0, 0, 0, 0, 0, 1, 0, 1, 6, 0, 0, 0, 2]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "excel-mcp-agent"
+    title: "excel-mcp-agent"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
+  - name: "voice-schedule-gemini"
+    title: "voice-schedule-gemini"
+    description: "Учебный голосовой помощник расписания — Gemini Live, Node.js, streaming audio"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "meeting-analyzer"
     title: "meeting-analyzer"
     description: null
@@ -104,7 +120,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-22"
   - name: "hyperliquid-backtest"
     title: "hyperliquid-backtest"
     description: null
@@ -117,22 +133,6 @@ repos:
     stars_fact: 22
     first_seen: null
     last_push: "2025-11-04"
-  - name: "ai-curator-demo"
-    title: "ai-curator-demo"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "tactics-arena-worlds"
-    title: "tactics-arena-worlds"
-    description: "Deterministic 8x6 squad tactics battle for Solana Mobile (Seeker dApp Store), Web, and Yandex Games"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-24"
 ---
 
 # xsa-dev

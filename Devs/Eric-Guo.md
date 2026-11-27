@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 10, 17, 37, 32, 26, 12, 9, 13, 1, 0, 2, 6]
+pushes_per_week: [2, 13, 17, 39, 31, 24, 10, 9, 13, 1, 0, 2, 6]
 windows:
   "7d":
     pushes: 6
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 167
     distinct_repos: 24
-    active_days: 45
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.7333
-  repo_per_active_day: 0.5333
+  push_per_day: 3.7955
+  repo_per_active_day: 0.5455
   not_owned_ratio: 0.2083
   basename_concentration: 0.0417
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 168
+    pushes: 167
     distinct_repos: 24
-    pushes_per_repo: 7.0000
-    active_days: 45
+    pushes_per_repo: 6.9583
+    active_days: 44
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 45 active days in 90d — pass"
+  - "activity: 44 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "wechat"
@@ -143,6 +143,6 @@ repos:
 
 # Eric-Guo
 
-168 pushes across 24 repositories on 45 active days in the last 90 days of public GitHub push activity.
+167 pushes across 24 repositories on 44 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Eric-Guo

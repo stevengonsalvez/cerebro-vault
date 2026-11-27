@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 5, 3, 19, 69, 33, 3, 2, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 5, 4, 31, 66, 23, 3, 2, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,31 @@ reasons:
   - "activity: 29 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "omarchy-barber"
+    title: "omarchy-barber"
+    description: "Edit the Omarchy bar right on the bar: take widgets off, add, move and set them up in place with undo, and layouts that switch by themselves."
+    language: "QML"
+    topics:
+      - "hyprland"
+      - "omarchy"
+      - "omarchy-plugin"
+      - "quickshell"
+      - "status-bar"
+      - "wayland"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-10-16"
+  - name: "herdr-git-panel"
+    title: "herdr-git-panel"
+    description: "Git panel for the Herdr app: staged/unstaged lists, hunk staging, branches, fetch/pull/push, stashes, commits. Replaces Changes."
+    language: "JavaScript"
+    topics:
+      - "git"
+      - "herdr"
+      - "herdr-mod"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-19"
   - name: "bearing"
     title: "bearing"
     description: "Your tests catch code that breaks; nothing catches an agent that has drifted about what the code means. A toolbelt for developers who already work with coding agents: north-stars that outrank stale docs, memory kept true, a task-core that survives compaction, ast-grep with its traps, review when you ask. No gates. Claude Code, Zed, Codex."
@@ -98,7 +123,7 @@ repos:
       - "zed"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-20"
   - name: "herdr-editor"
     title: "herdr-editor"
     description: "Herdr mod: an editor pane with file tabs beside your agents. ⌘S never overwrites an agent's changes; word wrap, format, go to line, Markdown preview."
@@ -127,22 +152,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-14"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Homebrew casks for DuduPhudu apps (Varta)"
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-14"
-  - name: "fo4-anatomy"
-    title: "fo4-anatomy"
-    description: "Anatomy - CBBE Genitals, Physics and Arousal for Fallout 4: built on the player's PC from their own CBBE, with the fo4-ocbpc engine"
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-15"
 ---
 
 # ReidenXerx

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "2c81603e7aea49b9"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -77,14 +77,6 @@ reasons:
   - "activity: 0 active days in 90d — below the 5-day line, LABELLED low-n (never suppressed)"
   - "automation: clear — pass"
 repos:
-  - name: "chatcn"
-    title: "chatcn"
-    description: "Beautiful, open-source chat UI components for React. Messages, threads, reactions, file upload, 4 themes. Built on shadcn/ui + Tailwind CSS."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 107
-    first_seen: null
-    last_push: "2026-04-03"
   - name: "Swiftlet"
     title: "Swiftlet"
     description: "Swiftlet is a Swift and Metal runtime that runs large Qwen Mixture-of-Experts models locally on Apple devices by streaming expert weights from storage, enabling 35B and 80B models to run with low RAM, including on iPhone."
@@ -95,9 +87,17 @@ repos:
       - "on-device-ai"
       - "qwen"
       - "swift"
-    stars_fact: 667
+    stars_fact: 668
     first_seen: "2026-08-04T06:00:07.487421+00:00"
     last_push: "2026-11-17"
+  - name: "chatcn"
+    title: "chatcn"
+    description: "Beautiful, open-source chat UI components for React. Messages, threads, reactions, file upload, 4 themes. Built on shadcn/ui + Tailwind CSS."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 107
+    first_seen: null
+    last_push: "2026-04-03"
   - name: "localLLM"
     title: "localLLM"
     description: "Privacy-first iOS app with on-device LLM inference via llama.cpp. Chat with local models, get AI health insights from HealthKit, and track finances from PDF statements."

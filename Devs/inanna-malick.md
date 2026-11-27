@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 0, 4, 4, 3, 5, 18, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 0, 5, 4, 2, 5, 18, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,22 +77,22 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "agent-skills"
-    title: "agent-skills"
-    description: "Personal skills for capable agents and agent swarms"
-    language: null
-    topics: []
-    stars_fact: 39
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "metacog"
     title: "metacog"
     description: "mcp tools for llm metacogntition"
     language: "TypeScript"
     topics: []
-    stars_fact: 98
+    stars_fact: 100
     first_seen: null
     last_push: "2026-09-11"
+  - name: "agent-skills"
+    title: "agent-skills"
+    description: "Personal skills for capable agents and agent swarms"
+    language: null
+    topics: []
+    stars_fact: 40
+    first_seen: null
+    last_push: "2026-11-27"
   - name: "portia"
     title: "portia"
     description: null

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "291d5eb46511b79f"
-pushes_per_week: [0, 1, 15, 17, 3, 9, 27, 8, 8, 0, 0, 0, 2]
+pushes_per_week: [0, 2, 15, 16, 3, 9, 27, 8, 8, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -93,60 +93,37 @@ repos:
       - "landing-page"
       - "ui-design"
       - "web-design"
-    stars_fact: 118597
+    stars_fact: 122077
     first_seen: "2026-07-07T06:00:04.098731+00:00"
-    last_push: "2026-11-08"
-  - name: "cinetic"
-    title: "cinetic"
-    description: "Cinematic launch films and motion design from code, directed by your coding agent."
-    language: "TypeScript"
+    last_push: "2026-11-26"
+  - name: "imagegen-skills"
+    title: "imagegen-skills"
+    description: "Design image-generation skills for coding agents: website comps, mobile app screens, brand kits, and image-to-code."
+    language: "JavaScript"
     topics:
       - "agent-skills"
       - "claude-code"
-      - "claude-skills"
-      - "launch-video"
-      - "motion-design"
-      - "remotion"
-    stars_fact: 1287
+      - "codex"
+      - "design"
+      - "image-generation"
+    stars_fact: 109
     first_seen: null
-    last_push: "2026-11-09"
-  - name: "athenaion"
-    title: "athenaion"
-    description: "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 726
-    first_seen: null
-    last_push: "2026-10-17"
+    last_push: "2026-10-19"
   - name: "earshot"
     title: "earshot"
-    description: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+    description: "Sound effects for coding agents: ask in plain words and earshot renders the sound in code. CPU-only, no audio model, open source."
     language: "Python"
     topics:
       - "ai-agents"
       - "audio"
       - "claude-code"
       - "mcp"
+      - "sfx"
       - "sound-design"
-    stars_fact: 5179
+      - "sound-effects"
+    stars_fact: 5919
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "tastecode"
-    title: "tastecode"
-    description: "One desktop app for your coding agents, made for creative work. Early beta, Windows and macOS."
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "codex"
-      - "coding-agents"
-      - "creative-coding"
-      - "cursor"
-      - "design"
-      - "electron"
-      - "grok"
-    stars_fact: 595
-    first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-22"
   - name: "cook"
     title: "cook"
     description: "Give your agent a target, a bar and time, then let it cook. An agent skill for visual builds that have to match reference images or videos."
@@ -157,9 +134,25 @@ repos:
       - "codex"
       - "prompting"
       - "threejs"
-    stars_fact: 705
+    stars_fact: 855
     first_seen: null
     last_push: "2026-10-31"
+  - name: "room-at-dawn"
+    title: "room-at-dawn"
+    description: "A photoreal bedroom at dawn, built entirely from code in three.js — procedural geometry and textures, path-traced baked light, 4K HDR film renderer."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 111
+    first_seen: null
+    last_push: "2026-11-12"
+  - name: "escapement"
+    title: "escapement"
+    description: "A 36s cinematic short film made by Claude Code (Opus 5.5) driving Blender 5.2 headless from Python"
+    language: "Python"
+    topics: []
+    stars_fact: 186
+    first_seen: null
+    last_push: "2026-11-08"
 ---
 
 # Leonxlnx

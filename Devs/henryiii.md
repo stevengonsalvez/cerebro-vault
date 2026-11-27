@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 3, 12, 12, 10, 3, 3, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 9, 9, 14, 6, 2, 3, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-26"
   - name: "level-up-your-python"
     title: "level-up-your-python"
     description: "Course over intermediate Python"

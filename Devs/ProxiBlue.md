@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 1, 1, 2, 2, 0, 2, 1, 0, 0, 0, 0, 0]
@@ -77,6 +77,22 @@ reasons:
   - "activity: 9 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "openmage-cluster"
+    title: "openmage-cluster"
+    description: "Auto-scalable and highly-available OpenMage cluster with load balancing, data replication, content caching and user session storage."
+    language: "PHP"
+    topics: []
+    stars_fact: 6
+    first_seen: null
+    last_push: "2025-06-19"
+  - name: "pb-hcf"
+    title: "pb-hcf"
+    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
+    language: "Shell"
+    topics: []
+    stars_fact: 4
+    first_seen: null
+    last_push: "2026-11-16"
   - name: "pb-board"
     title: "pb-board"
     description: "Claude Code mod: live side pane for HCF plan progress, running agents and Playwright test runs"
@@ -84,15 +100,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-11"
-  - name: "pb-hcf"
-    title: "pb-hcf"
-    description: "Context-wire bundle for HCF: to add in custom playbook into v2 hook to extend capabilities"
-    language: "Shell"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-25"
   - name: "pb-codegraph"
     title: "pb-codegraph"
     description: "Cross-module impact analysis for Magento 2 / Mage-OS. Detects blast radius (callers, plugin chains, observers, cron data dependencies) before deploy. LLM-driven v0.1.0; deterministic tree-sitter graph in v0.2+."
@@ -108,7 +116,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-25"
   - name: "claude-skills"
     title: "claude-skills"
     description: "Claude skills (experimentation)"
@@ -117,14 +125,6 @@ repos:
     stars_fact: 17
     first_seen: null
     last_push: "2026-10-13"
-  - name: "HostingEnvironment"
-    title: "HostingEnvironment"
-    description: "Base Jelastic Magento 2 Hosting Environment"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-06"
 ---
 
 # ProxiBlue

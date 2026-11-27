@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
 pushes_per_week: [0, 0, 1, 2, 1, 0, 1, 1, 0, 0, 0, 0, 1]
@@ -77,18 +77,18 @@ reasons:
   - "activity: 7 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "persona-grokbot"
-    title: "persona-grokbot"
-    description: "Grok Bot as a Persona personal agents source (agent_sources plugin)"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
   - name: "freellmapi"
     title: "freellmapi"
     description: "Contribution branches for tashfeenahmed/freellmapi"
     language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-11"
+  - name: "persona-grokbot"
+    title: "persona-grokbot"
+    description: "Grok Bot as a Persona personal agents source (agent_sources plugin)"
+    language: "JavaScript"
     topics: []
     stars_fact: 0
     first_seen: null

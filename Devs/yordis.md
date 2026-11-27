@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [2, 3, 56, 25, 24, 36, 37, 15, 14, 0, 4, 8, 6]
+pushes_per_week: [2, 5, 58, 24, 22, 38, 34, 15, 14, 0, 4, 8, 7]
 windows:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    active_days: 2
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 230
+    pushes: 231
     distinct_repos: 32
-    active_days: 46
+    active_days: 47
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 5.0000
-  repo_per_active_day: 0.6957
+  push_per_day: 4.9149
+  repo_per_active_day: 0.6809
   not_owned_ratio: 0.7812
   basename_concentration: 0.0625
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
+    pushes: 7
     distinct_repos: 1
-    pushes_per_repo: 6.0000
-    active_days: 2
+    pushes_per_repo: 7.0000
+    active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
   "30d":
-    pushes: 18
+    pushes: 19
     distinct_repos: 3
-    pushes_per_repo: 6.0000
-    active_days: 5
+    pushes_per_repo: 6.3333
+    active_days: 6
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 230
+    pushes: 231
     distinct_repos: 32
-    pushes_per_repo: 7.1875
-    active_days: 46
+    pushes_per_repo: 7.2188
+    active_days: 47
     repos_not_owned: 25
     not_owned_basenames: 24
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 46 active days in 90d — pass"
+  - "activity: 47 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: ".github"
@@ -109,6 +109,6 @@ repos:
 
 # yordis
 
-230 pushes across 32 repositories on 46 active days in the last 90 days of public GitHub push activity.
+231 pushes across 32 repositories on 47 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yordis

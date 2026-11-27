@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 1, 0, 1, 1, 5, 0, 2, 1, 0, 0, 0, 0]
@@ -77,6 +77,27 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "computer-build-me-an-app-v2026"
+    title: "computer-build-me-an-app-v2026"
+    description: "Slides for my talk \"Computer build me an app v2026\""
+    language: "Svelte"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "sveltekit-view-transition"
+    title: "sveltekit-view-transition"
+    description: "Start using view transitions without any hassle!"
+    language: "TypeScript"
+    topics:
+      - "hacktoberfest"
+      - "svelte"
+      - "sveltekit"
+      - "view-transitions"
+      - "view-transitions-api"
+    stars_fact: 189
+    first_seen: null
+    last_push: "2026-11-02"
   - name: "sveltekit-search-params"
     title: "sveltekit-search-params"
     description: "The easiest way to read and WRITE from query parameters in sveltekit."
@@ -91,20 +112,7 @@ repos:
       - "sveltekit"
     stars_fact: 673
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "sveltekit-view-transition"
-    title: "sveltekit-view-transition"
-    description: "Start using view transitions without any hassle!"
-    language: "TypeScript"
-    topics:
-      - "hacktoberfest"
-      - "svelte"
-      - "sveltekit"
-      - "view-transitions"
-      - "view-transitions-api"
-    stars_fact: 190
-    first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-25"
   - name: "tmcp"
     title: "tmcp"
     description: "Typescript SDK to build MCP servers in an agnostic way"
@@ -112,7 +120,7 @@ repos:
     topics: []
     stars_fact: 207
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-26"
   - name: "ricciuti.me"
     title: "ricciuti.me"
     description: "my personal website"
@@ -120,7 +128,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-22"
   - name: "mcp-add"
     title: "mcp-add"
     description: "Universal cli to add an MCP server to a variety of clients"
@@ -129,14 +137,6 @@ repos:
     stars_fact: 29
     first_seen: null
     last_push: "2026-03-17"
-  - name: "the-blog-of-alexandria"
-    title: "the-blog-of-alexandria"
-    description: "The Blog of Alexandria, a never ending source of information"
-    language: "Svelte"
-    topics: []
-    stars_fact: 3
-    first_seen: null
-    last_push: "2026-10-21"
 ---
 
 # paoloricciuti

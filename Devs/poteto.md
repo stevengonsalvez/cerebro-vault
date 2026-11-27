@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a50d216def4cada3"
 pushes_per_week: [0, 0, 0, 2, 0, 0, 4, 0, 0, 0, 0, 0, 0]
@@ -89,31 +89,23 @@ repos:
       - "jobs"
       - "tech"
       - "whiteboard"
-    stars_fact: 53434
+    stars_fact: 53704
     first_seen: null
     last_push: "2026-11-14"
-  - name: "verification-skill-example"
-    title: "verification-skill-example"
-    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
-    language: null
+  - name: "brainmaxxing"
+    title: "brainmaxxing"
+    description: "stupid simple persistent memory and skill improvement"
+    language: "Python"
     topics: []
-    stars_fact: 214
+    stars_fact: 421
     first_seen: null
-    last_push: "2026-07-30"
-  - name: "how"
-    title: "how"
-    description: "skill for explaining architecture"
-    language: null
-    topics: []
-    stars_fact: 987
-    first_seen: null
-    last_push: "2026-04-14"
+    last_push: "2026-02-27"
   - name: "noodle"
     title: "noodle"
     description: "Orchestrate agents using skills"
     language: "Go"
     topics: []
-    stars_fact: 664
+    stars_fact: 751
     first_seen: null
     last_push: "2026-03-19"
   - name: "poteto"
@@ -121,17 +113,25 @@ repos:
     description: null
     language: null
     topics: []
-    stars_fact: 54
+    stars_fact: 64
     first_seen: null
     last_push: "2020-08-06"
-  - name: "react-test"
-    title: "react-test"
-    description: null
-    language: "JavaScript"
+  - name: "verification-skill-example"
+    title: "verification-skill-example"
+    description: "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)"
+    language: null
     topics: []
-    stars_fact: 2
+    stars_fact: 227
     first_seen: null
-    last_push: "2014-12-03"
+    last_push: "2026-07-30"
+  - name: "how"
+    title: "how"
+    description: "skill for explaining architecture"
+    language: null
+    topics: []
+    stars_fact: 1020
+    first_seen: null
+    last_push: "2026-04-14"
 ---
 
 # poteto

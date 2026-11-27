@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [0, 3, 2, 2, 8, 16, 8, 7, 2, 0, 2, 0, 2]
+pushes_per_week: [0, 3, 2, 2, 14, 10, 8, 7, 2, 0, 2, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,38 @@ reasons:
   - "activity: 22 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "coq_nvim"
+    title: "coq_nvim"
+    description: "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
+    language: "Lua"
+    topics:
+      - "completion"
+      - "neovim"
+      - "neovim-plugin"
+    stars_fact: 3813
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "gay"
+    title: "gay"
+    description: "Colour your text / terminal to be more gay. 🏳️‍🌈"
+    language: "Python"
+    topics:
+      - "asexual"
+      - "bisexual"
+      - "cli"
+      - "gay"
+      - "gay-pride"
+      - "lgbt"
+      - "lgbtq"
+      - "non-binary"
+      - "python"
+      - "queer"
+      - "terminal"
+      - "trans"
+      - "transgender"
+    stars_fact: 352
+    first_seen: null
+    last_push: "2026-11-22"
   - name: "sad"
     title: "sad"
     description: "CLI search and replace | Space Age seD"
@@ -91,7 +123,7 @@ repos:
       - "sed"
       - "terminal"
       - "tui"
-    stars_fact: 2054
+    stars_fact: 2056
     first_seen: null
     last_push: "2026-11-15"
   - name: "chadtree"
@@ -111,9 +143,9 @@ repos:
       - "nvim"
       - "python"
       - "tree"
-    stars_fact: 1688
+    stars_fact: 1687
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "lua-async-await"
     title: "lua-async-await"
     description: "Async Await in 90 lines of code."
@@ -121,36 +153,20 @@ repos:
     topics:
       - "lua"
       - "neovim"
-    stars_fact: 380
+    stars_fact: 379
     first_seen: null
     last_push: "2024-11-19"
-  - name: "coq_nvim"
-    title: "coq_nvim"
-    description: "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
-    language: "Lua"
+  - name: "noact"
+    title: "noact"
+    description: "Minimalist React (< 70 lines)"
+    language: "TypeScript"
     topics:
-      - "completion"
-      - "neovim"
-      - "neovim-plugin"
-    stars_fact: 3811
+      - "react"
+      - "typescript"
+      - "virtual-dom"
+    stars_fact: 320
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "docker-time-machine"
-    title: "docker-time-machine"
-    description: "Zero Configuration, time machine for MacOS | Docker 🐳"
-    language: "Shell"
-    topics: []
-    stars_fact: 100
-    first_seen: null
-    last_push: "2024-10-26"
-  - name: "deb"
-    title: "deb"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2025-03-11"
 ---
 
 # ms-jpq

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [13, 50, 64, 86, 201, 170, 140, 118, 81, 16, 11, 19, 34]
+pushes_per_week: [12, 55, 64, 82, 228, 151, 131, 119, 80, 18, 9, 21, 32]
 windows:
   "7d":
     pushes: 34
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 1003
+    pushes: 1002
     distinct_repos: 39
-    active_days: 69
+    active_days: 68
     repos_not_owned: 25
     not_owned_basenames: 8
     not_owned_owners: 19
 automation:
   state: "clear"
-  push_per_day: 14.5362
-  repo_per_active_day: 0.5652
+  push_per_day: 14.7353
+  repo_per_active_day: 0.5735
   not_owned_ratio: 0.6410
   basename_concentration: 0.2564
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 1003
+    pushes: 1002
     distinct_repos: 39
-    pushes_per_repo: 25.7179
-    active_days: 69
+    pushes_per_repo: 25.6923
+    active_days: 68
     repos_not_owned: 25
     not_owned_basenames: 8
     not_owned_owners: 19
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 69 active days in 90d — pass"
+  - "activity: 68 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "oh-my-openagent"
@@ -164,6 +164,6 @@ repos:
 
 # code-yeongyu
 
-1003 pushes across 39 repositories on 69 active days in the last 90 days of public GitHub push activity.
+1002 pushes across 39 repositories on 68 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/code-yeongyu

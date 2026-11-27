@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "01cd6a498d377caf"
   - "0307ec1244417a61"
@@ -101,7 +101,7 @@ provenance:
   - "fdc4cffb6fa79465"
   - "fe9e50bf2d5b21fe"
   - "ff1ca072bf39e471"
-pushes_per_week: [0, 0, 0, 0, 2, 6, 185, 1, 20, 1, 0, 3, 1]
+pushes_per_week: [0, 0, 0, 0, 2, 21, 170, 1, 20, 1, 0, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -166,6 +166,25 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "pi-vscode"
+    title: "pi-vscode"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "pi-subagent"
+    title: "pi-subagent"
+    description: "Subagent extension for pi"
+    language: "TypeScript"
+    topics:
+      - "pi-extension"
+      - "pi-package"
+      - "subagent"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "pi-prompt-history"
     title: "pi-prompt-history"
     description: "Shell-style prompt history extension for pi"
@@ -187,7 +206,7 @@ repos:
       - "ui"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-26"
   - name: "pi-anthropic"
     title: "pi-anthropic"
     description: "Anthropic system prompt sanitiser extension for pi"
@@ -207,22 +226,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-08"
-  - name: "next-issue"
-    title: "next-issue"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "pi-loop"
-    title: "pi-loop"
-    description: "Run pi in a loop with a shared context file"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
 ---
 
 # ravshansbox

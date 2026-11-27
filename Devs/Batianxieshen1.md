@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 0, 6, 5, 5, 1, 4, 1, 1, 0, 0, 0]
@@ -116,7 +116,7 @@ repos:
       - "windows"
     stars_fact: 6
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-24"
   - name: "blog"
     title: "blog"
     description: "蓝纸 · 一个人的造物与札记 — AI 应用 / 数据分析 / 写作"
@@ -140,7 +140,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-24"
   - name: "focus-room"
     title: "focus-room"
     description: null

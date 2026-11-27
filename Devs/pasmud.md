@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
@@ -78,54 +78,54 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "secretops-sentinel"
-    title: "secretops-sentinel"
-    description: "Secret scanning, redaction, rotation workflow, and pre-commit helper for local repositories"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-05-25"
-  - name: "runesmith"
-    title: "runesmith"
-    description: "OpenCode mission runtime with leased agents, evidence-gated completion, recovery policies, and a control dashboard"
-    language: "TypeScript"
+  - name: "csv-schema-check"
+    title: "csv-schema-check"
+    description: "Validate CSV exports against declarative schemas"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-06-04"
-  - name: "pasmud"
-    title: "pasmud"
-    description: null
-    language: null
+    last_push: "2026-11-26"
+  - name: "django-csv-import"
+    title: "django-csv-import"
+    description: "Reusable Django admin CSV imports with preview and transactional writes"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-05-26"
-  - name: "sbom-compass"
-    title: "sbom-compass"
-    description: "SBOM and dependency vulnerability productivity dashboard for local repositories"
-    language: "TypeScript"
+    last_push: "2026-11-26"
+  - name: "fixture-factory"
+    title: "fixture-factory"
+    description: "Generate deterministic synthetic datasets and controlled test errors"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-05-25"
-  - name: "infraguard-workbench"
-    title: "infraguard-workbench"
-    description: "IaC, Docker, Kubernetes, and container misconfiguration scanning workbench"
-    language: "TypeScript"
+    last_push: "2026-11-26"
+  - name: "openapi-change-report"
+    title: "openapi-change-report"
+    description: "Compare OpenAPI descriptions and report client compatibility changes"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-05-25"
-  - name: "reviewshield"
-    title: "reviewshield"
-    description: "Secure code review and SAST triage dashboard"
-    language: "TypeScript"
+    last_push: "2026-11-26"
+  - name: "postgres-backup-verify"
+    title: "postgres-backup-verify"
+    description: "Verify trusted PostgreSQL backups with disposable local restores"
+    language: "Python"
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-05-25"
+    last_push: "2026-11-26"
+  - name: "incident-clock"
+    title: "incident-clock"
+    description: "Build UTC incident timelines from local evidence exports"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
 ---
 
 # pasmud

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "9d67ce648f6a8919"
 pushes_per_week: [0, 2, 0, 6, 4, 5, 2, 5, 0, 0, 0, 0, 0]
@@ -77,37 +77,6 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Smartschool-MCP"
-    title: "Smartschool-MCP"
-    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
-    language: "Python"
-    topics:
-      - "ai"
-      - "automation"
-      - "education"
-      - "mcp"
-      - "python"
-      - "smartschool"
-    stars_fact: 8
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "homewizard-cloud-ha"
-    title: "homewizard-cloud-ha"
-    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
-    language: "Python"
-    topics:
-      - "home-assistant-integration"
-    stars_fact: 2
-    first_seen: null
-    last_push: "2026-10-21"
-  - name: "homewizard-cloud"
-    title: "homewizard-cloud"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-10-19"
   - name: "NIMStats"
     title: "NIMStats"
     description: "📊 Automated hourly benchmarks for 20+ NVIDIA NIM models — interactive dashboard, zero infra, self-hostable. Open-source & community-driven."
@@ -122,9 +91,48 @@ repos:
       - "nim"
       - "nvidia"
       - "open-source"
-    stars_fact: 57
+    stars_fact: 63
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
+  - name: "dropship-buster"
+    title: "dropship-buster"
+    description: "🛡️ Zero-click dropshipping & scam detector Chrome extension with real factory supplier finder and Dockerized telemetry server."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "Smartschool-MCP"
+    title: "Smartschool-MCP"
+    description: "Smartschool MCP: A Model Context Protocol (MCP) server that enables seamless communication between AI agents and the Smartschool platform. 🧠"
+    language: "Python"
+    topics:
+      - "ai"
+      - "automation"
+      - "education"
+      - "mcp"
+      - "python"
+      - "smartschool"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "homewizard-cloud-ha"
+    title: "homewizard-cloud-ha"
+    description: "Home Assistant integration for HomeWizard P1 energy meter cloud streaming via WebSocket"
+    language: "Python"
+    topics:
+      - "home-assistant-integration"
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "homewizard-cloud"
+    title: "homewizard-cloud"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-10-19"
   - name: "Swimrankings"
     title: "Swimrankings"
     description: "🏊‍♂️ SwimRankings is a lightweight yet powerful Python library designed to streamline access to competitive swimming data from swimrankings.net. Whether you're a coach, athlete, analyst, or developer, this tool empowers you to retrieve race results, swimmer profiles, meet details, and performance times with just a few lines of code."
@@ -138,22 +146,7 @@ repos:
       - "web-scraper"
     stars_fact: 5
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "quality-gate"
-    title: "quality-gate"
-    description: "The canonical Mauro Quality Gate (MQG) standards, reusable CI/CD workflows, templates, and automated auditing tool for general software projects."
-    language: "Python"
-    topics:
-      - "ci-cd"
-      - "developer-tools"
-      - "engineering-standards"
-      - "forge"
-      - "openapi"
-      - "quality-gate"
-      - "reusable-workflows"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-09"
+    last_push: "2026-11-26"
 ---
 
 # MauroDruwel

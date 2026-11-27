@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [7, 6, 64, 180, 154, 94, 320, 185, 34, 0, 0, 2, 7]
+pushes_per_week: [5, 12, 92, 169, 154, 93, 298, 186, 33, 0, 1, 1, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1053
-    distinct_repos: 104
-    active_days: 54
+    pushes: 1051
+    distinct_repos: 103
+    active_days: 53
     repos_not_owned: 67
     not_owned_basenames: 46
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 19.5000
-  repo_per_active_day: 1.9259
-  not_owned_ratio: 0.6442
-  basename_concentration: 0.1635
+  push_per_day: 19.8302
+  repo_per_active_day: 1.9434
+  not_owned_ratio: 0.6505
+  basename_concentration: 0.1650
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "19.50 pushes per active day over 90d (1053 pushes / 54 active days), above the 15 review line"
+    - "19.83 pushes per active day over 90d (1051 pushes / 53 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -67,70 +67,70 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1053
-    distinct_repos: 104
-    pushes_per_repo: 10.1250
-    active_days: 54
+    pushes: 1051
+    distinct_repos: 103
+    pushes_per_repo: 10.2039
+    active_days: 53
     repos_not_owned: 67
     not_owned_basenames: 46
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 54 active days in 90d — pass"
+  - "activity: 53 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "llm-ladder-router"
-    title: "llm-ladder-router"
-    description: "A very simple ladder router that caps the prices of various LLM providers and routes to the best rates possible. For max tokenmaxing"
-    language: "Rust"
+  - name: "abelian-erh"
+    title: "abelian-erh"
+    description: "The extended Riemann hypothesis for abelian number fields from GRH for Dirichlet L-functions, in Lean (in progress)."
+    language: "Lean"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "erdos-770"
+    title: "erdos-770"
+    description: "GRH implies Erdős 770(iii), with an explicit bound h(n) ≤ max{P(n), C log² n}, in Lean (RH-consequence; not a resolution of Erdős 770)"
+    language: "Lean"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-19"
-  - name: "oh-bench-rsi"
-    title: "oh-bench-rsi"
-    description: "A RSI loop that helps OH improve it's memory benchmarks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-25"
-  - name: "recursive-factorio"
-    title: "recursive-factorio"
-    description: "OpenHuman setup to fully play factorio, win the game and try to get upto 10mn SPM using Recursive Self Improvement"
-    language: "Python"
+    last_push: "2026-11-25"
+  - name: "erdos-233"
+    title: "erdos-233"
+    description: "Lean 4: the sum of squared prime gaps under RH (Erdős problem 233, upper bound). Work in progress."
+    language: "Lean"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-10-11"
-  - name: "senamakel"
-    title: "senamakel"
-    description: "My homepage repo"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-18"
-  - name: "enamakel.com"
-    title: "enamakel.com"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-10"
-  - name: "math-superagent"
-    title: "math-superagent"
-    description: "Math specialized research agent in rust"
-    language: "Python"
+    last_push: "2026-11-25"
+  - name: "li-criterion-rh"
+    title: "li-criterion-rh"
+    description: "Lean 4: RH implies positivity of the Li coefficients. Work in progress."
+    language: "Lean"
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-08-31"
+    last_push: "2026-11-25"
+  - name: "density-rh"
+    title: "density-rh"
+    description: "Lean 4: zero counting N(T) and the density hypothesis from RH. Work in progress."
+    language: "Lean"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "speiser-rh"
+    title: "speiser-rh"
+    description: "Speiser's theorem: RH implies zeta' has no zeros in 0 < Re s < 1/2, in Lean (in progress)."
+    language: "Lean"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-25"
 ---
 
 # senamakel
 
-1053 pushes across 104 repositories on 54 active days in the last 90 days of public GitHub push activity.
+1051 pushes across 103 repositories on 53 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

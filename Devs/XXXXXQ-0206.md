@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 16, 1, 0, 1, 1, 9, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 16, 1, 0, 1, 2, 8, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -87,9 +87,9 @@ repos:
     description: "基于 Autumn-27/ARTEX 的 AGPL-3.0 自主安全测试平台：planner/worker、多图态势、范围审批、会话与内网编排；仅供源码学习和本地隔离验证。两套前端：类 Codex 风格客户端（开发中，默认嵌进单体）与 ARTEX 原生 Web（兜底）；本仓库不区分 main/dev。"
     language: "Go"
     topics: []
-    stars_fact: 38
+    stars_fact: 40
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "qq-agent"
     title: "qq-agent"
     description: "Zero-dependency CLI, MCP server, and Agent Skill for a live QQ account through a local OneBot 11 / NapCat endpoint."
@@ -128,7 +128,7 @@ repos:
       - "vite"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-23"
   - name: "CquAutoLogin"
     title: "CquAutoLogin"
     description: "Windows tray utility for CQU portal sign-in assistance"
@@ -136,7 +136,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-24"
   - name: "math-paper-writing"
     title: "math-paper-writing"
     description: "供 AI 代理使用的数学论文写作用 skill：729 篇跨 17 个数学分支的手稿语料 + 检索协议 + 硬规则"

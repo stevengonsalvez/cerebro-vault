@@ -10,11 +10,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "301f2d14985e5303"
   - "a4978faa7e166cdb"
-pushes_per_week: [1, 1, 1, 0, 2, 5, 7, 8, 0, 2, 0, 1, 0]
+pushes_per_week: [1, 1, 1, 1, 4, 2, 7, 8, 0, 2, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -79,34 +79,42 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "dotfiles"
-    title: "dotfiles"
-    description: "paul's fish, bash, git, etc config files. good stuff."
-    language: "Shell"
-    topics:
-      - "dotfiles"
-      - "fish"
-      - "homebrew"
-      - "yay"
-    stars_fact: 4361
-    first_seen: null
-    last_push: "2026-11-15"
   - name: "chrome-capture"
     title: "chrome-capture"
     description: "60-120fps / 2160p tab video/audio capture from Chrome"
     language: "TypeScript"
     topics: []
-    stars_fact: 519
+    stars_fact: 565
     first_seen: null
     last_push: "2026-11-17"
-  - name: "github-email"
-    title: "github-email"
-    description: "Get a GitHub user's email. :sunglasses: Use this responsibly."
-    language: "Shell"
+  - name: "lite-youtube-embed"
+    title: "lite-youtube-embed"
+    description: "A faster youtube embed."
+    language: "HTML"
     topics: []
-    stars_fact: 1012
+    stars_fact: 6355
     first_seen: null
-    last_push: "2020-08-31"
+    last_push: "2026-11-16"
+  - name: "speedline"
+    title: "speedline"
+    description: "Calculate the speed index from devtools performance trace"
+    language: "JavaScript"
+    topics: []
+    stars_fact: 811
+    first_seen: null
+    last_push: "2025-11-11"
+  - name: "pwmetrics"
+    title: "pwmetrics"
+    description: "Progressive web metrics at your fingertipz"
+    language: "TypeScript"
+    topics:
+      - "lighthouse"
+      - "metrics"
+      - "performance"
+      - "webperf"
+    stars_fact: 1236
+    first_seen: null
+    last_push: "2022-12-09"
   - name: "git-open"
     title: "git-open"
     description: "Type `git open` to open the GitHub page or website for a repository in your browser."
@@ -117,25 +125,17 @@ repos:
       - "github"
       - "gitlab"
       - "shell"
-    stars_fact: 3461
+    stars_fact: 3466
     first_seen: null
     last_push: "2026-05-25"
-  - name: "lite-youtube-embed"
-    title: "lite-youtube-embed"
-    description: "A faster youtube embed."
-    language: "HTML"
-    topics: []
-    stars_fact: 6357
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "headless-cat-n-mouse"
-    title: "headless-cat-n-mouse"
-    description: "Is headless chrome currently detectable? Let's pit the detections and detection evasions against eachother."
+  - name: "memory-stats.js"
+    title: "memory-stats.js"
+    description: "minimal monitor for JS Heap Size via performance.memory"
     language: "JavaScript"
     topics: []
-    stars_fact: 656
+    stars_fact: 2087
     first_seen: null
-    last_push: "2021-06-05"
+    last_push: "2015-07-03"
 ---
 
 # paulirish

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3cb7ff1cdcf97c6b"
 pushes_per_week: [0, 1, 0, 1, 1, 3, 5, 2, 0, 0, 0, 0, 0]
@@ -77,6 +77,24 @@ reasons:
   - "activity: 10 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "miro-cli"
+    title: "miro-cli"
+    description: "Single-binary CLI that wraps the Miro REST API as shell commands, with a local SQLite mirror for offline search."
+    language: "Go"
+    topics:
+      - "claude"
+      - "claude-code"
+      - "cli"
+      - "cobra"
+      - "collaboration"
+      - "go"
+      - "golang"
+      - "miro"
+      - "miro-api"
+      - "whiteboard"
+    stars_fact: 3
+    first_seen: null
+    last_push: "2026-11-18"
   - name: "ridge"
     title: "ridge"
     description: "MCP server that reverse-engineers architecture from code (Go, TypeScript, Python) and markdown into a structured graph. Detects drift between any two branches, tags, or commits"
@@ -103,7 +121,7 @@ repos:
       - "tree-sitter"
     stars_fact: 8
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-24"
   - name: "mediawiki-mcp-server"
     title: "mediawiki-mcp-server"
     description: "MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants"
@@ -122,7 +140,7 @@ repos:
       - "wikipedia"
     stars_fact: 25
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "miro-mcp-server"
     title: "miro-mcp-server"
     description: "MCP server for controlling Miro whiteboards with AI assistants"
@@ -141,7 +159,7 @@ repos:
       - "whiteboard"
     stars_fact: 33
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "SkillCheck-Free"
     title: "SkillCheck-Free"
     description: "Validate Claude Code skills against the agentskills specification (Free tier)"
@@ -185,15 +203,7 @@ repos:
       - "typescript"
     stars_fact: 50
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "kanadojo"
-    title: "kanadojo"
-    description: "KanaDojo — Japanese kana training app with spaced repetition and mnemonic art"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 6
-    first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-24"
 ---
 
 # olgasafonova

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
-pushes_per_week: [4, 5, 29, 35, 27, 23, 27, 29, 4, 0, 1, 4, 1]
+pushes_per_week: [2, 7, 35, 28, 30, 25, 21, 29, 4, 0, 2, 3, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 189
+    pushes: 187
     distinct_repos: 6
-    active_days: 47
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.0213
-  repo_per_active_day: 0.1277
+  push_per_day: 4.0652
+  repo_per_active_day: 0.1304
   not_owned_ratio: 0.6667
   basename_concentration: 0.3333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 189
+    pushes: 187
     distinct_repos: 6
-    pushes_per_repo: 31.5000
-    active_days: 47
+    pushes_per_repo: 31.1667
+    active_days: 46
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mike-dotfiles"
@@ -89,6 +89,6 @@ repos:
 
 # ibetitsmike
 
-189 pushes across 6 repositories on 47 active days in the last 90 days of public GitHub push activity.
+187 pushes across 6 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ibetitsmike

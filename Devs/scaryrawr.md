@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [0, 3, 11, 38, 12, 14, 2, 2, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 4, 29, 21, 19, 5, 2, 2, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,17 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "base16-opencode"
+    title: "base16-opencode"
+    description: "themes for opencode using tinted theming base16/24"
+    language: "Mustache"
+    topics:
+      - "base16"
+      - "opencode"
+      - "themes"
+    stars_fact: 8
+    first_seen: null
+    last_push: "2026-04-18"
   - name: "winwal"
     title: "winwal"
     description: "A PowerShell wrapper around the pywal tool"
@@ -108,7 +119,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-27"
   - name: "scarydex"
     title: "scarydex"
     description: "personal codex marketplace"
@@ -117,14 +128,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-04"
-  - name: "homebrew-formulae"
-    title: "homebrew-formulae"
-    description: "homebrew tap for personal projects/forks"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
 ---
 
 # scaryrawr

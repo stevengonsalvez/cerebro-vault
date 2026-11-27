@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [2, 3, 19, 5, 6, 2, 0, 0, 0, 0, 0, 0, 2]
+pushes_per_week: [2, 3, 21, 5, 6, 0, 0, 0, 0, 0, 0, 0, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,22 @@ reasons:
   - "activity: 15 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "semantic-router-pr-7268-full-ci"
+    title: "semantic-router-pr-7268-full-ci"
+    description: "Reproduction of the PR 7268 merge queue checks"
+    language: "Go"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "semantic-router-pr-7268-ci"
+    title: "semantic-router-pr-7268-ci"
+    description: "CLI packaging diagnostic for Semantic Router PR 7268"
+    language: null
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
   - name: "HGSparkConnectorExample"
     title: "HGSparkConnectorExample"
     description: null
@@ -109,22 +125,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2023-07-29"
-  - name: "JVM-Study"
-    title: "JVM-Study"
-    description: null
-    language: "Java"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2021-08-18"
-  - name: "spark3datasourcev2demo"
-    title: "spark3datasourcev2demo"
-    description: null
-    language: "Scala"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2023-05-16"
 ---
 
 # liuxiaocs7

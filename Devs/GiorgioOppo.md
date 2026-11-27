@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [0, 1, 3, 3, 0, 0, 0, 2, 0, 0, 0, 0, 0]
@@ -81,10 +81,27 @@ repos:
     title: "quaderno-public"
     description: "Quaderno: an open-source note-taking app for reMarkable Paper Pro and macOS."
     language: "C++"
-    topics: []
+    topics:
+      - "bluetooth"
+      - "drawio"
+      - "e-ink"
+      - "epub"
+      - "flowchart"
+      - "handwriting"
+      - "handwriting-recognition"
+      - "macos"
+      - "markdown"
+      - "note-taking"
+      - "ocr"
+      - "offline-first"
+      - "pdf-annotation"
+      - "qml"
+      - "qt"
+      - "remarkable"
+      - "remarkable-paper-pro"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-22"
   - name: "Certificate-Manager"
     title: "Certificate-Manager"
     description: "Local HTTPS certificate manager in C with six-language web UI, expiry tracking, contacts, endpoint monitoring and SMTP delivery."
@@ -110,7 +127,7 @@ repos:
       - "vanilla-javascript"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-20"
   - name: "PDF-Edit-View"
     title: "PDF-Edit-View"
     description: "PDF-Edit&View — CartaPDF: free offline Swift PDF editor for macOS, Apple frameworks only. PDF/A validation remains partial."

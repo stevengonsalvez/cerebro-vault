@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -82,14 +82,6 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "learn-llm"
-    title: "learn-llm"
-    description: "从零手写大语言模型 · 交互可视化站点源码（learn-llm.fim.ai）"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "awesome-proactive-agents"
     title: "awesome-proactive-agents"
     description: "When should an always-on agent intervene? A field map of proactive AI assistance: signals, decision, action, memory, evaluation & self-improvement."
@@ -100,9 +92,33 @@ repos:
       - "llm"
       - "mixed-reality"
       - "proactive-ai"
-    stars_fact: 9
+    stars_fact: 10
     first_seen: null
     last_push: "2026-10-16"
+  - name: "learn-llm"
+    title: "learn-llm"
+    description: "从零手写大语言模型 · 交互可视化站点源码（learn-llm.fim.ai）"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "llm-from-scratch"
+    title: "llm-from-scratch"
+    description: "从 0 到 1 手搓大模型:逐行中文讲解,从字符级 bigram 一路复现 GPT-2 124M(含交互式可视化)。A from-scratch LLM course in Chinese — build a Transformer by hand, then reproduce GPT-2 124M."
+    language: "Python"
+    topics: []
+    stars_fact: 11
+    first_seen: null
+    last_push: "2026-11-19"
+  - name: "tao-hpu.github.io"
+    title: "tao-hpu.github.io"
+    description: "A minimal static personal homepage."
+    language: "TypeScript"
+    topics: []
+    stars_fact: 1
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "body-whitepaper"
     title: "body-whitepaper"
     description: "体重白皮书：减脂与维持（body.fim.ai）"
@@ -119,22 +135,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-11"
-  - name: "tao-hpu.github.io"
-    title: "tao-hpu.github.io"
-    description: "A minimal static personal homepage."
-    language: "TypeScript"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
-  - name: "tao-hpu"
-    title: "tao-hpu"
-    description: "✨ My GitHub Profile README"
-    language: null
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-19"
 ---
 
 # tao-hpu

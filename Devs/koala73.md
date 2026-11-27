@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "5fce3c914fe93bcc"
-pushes_per_week: [8, 12, 31, 56, 33, 43, 21, 27, 11, 3, 2, 4, 2]
+pushes_per_week: [7, 14, 31, 59, 33, 42, 17, 27, 11, 3, 2, 4, 2]
 windows:
   "7d":
     pushes: 2
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 253
+    pushes: 252
     distinct_repos: 4
     active_days: 57
     repos_not_owned: 3
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.4386
+  push_per_day: 4.4211
   repo_per_active_day: 0.0702
   not_owned_ratio: 0.7500
   basename_concentration: 1.0000
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 253
+    pushes: 252
     distinct_repos: 4
-    pushes_per_repo: 63.2500
+    pushes_per_repo: 63.0000
     active_days: 57
     repos_not_owned: 3
     not_owned_basenames: 1
@@ -95,9 +95,17 @@ repos:
       - "osint"
       - "palantir"
       - "situation"
-    stars_fact: 90920
+    stars_fact: 91242
     first_seen: "2026-08-01T06:00:04.424073+00:00"
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
+  - name: "whoopskill"
+    title: "whoopskill"
+    description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 48
+    first_seen: null
+    last_push: "2026-01-25"
   - name: "worldmonitor-hermes-plugin"
     title: "worldmonitor-hermes-plugin"
     description: "Source-aware global intelligence for Hermes via WorldMonitor MCP."
@@ -114,14 +122,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-10"
-  - name: "whoopskill"
-    title: "whoopskill"
-    description: "CLI to Get Whoop wearable data via Rest API, perfect for Agents to be taught as a SKILL"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 47
-    first_seen: null
-    last_push: "2026-01-25"
   - name: "docs"
     title: "docs"
     description: null
@@ -142,6 +142,6 @@ repos:
 
 # koala73
 
-253 pushes across 4 repositories on 57 active days in the last 90 days of public GitHub push activity.
+252 pushes across 4 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/koala73

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [0, 0, 2, 2, 1, 5, 0, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 2, 3, 3, 0, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "claude-tracker"
+    title: "claude-tracker"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "substrate-gcp-secrets-manager-plugin"
     title: "substrate-gcp-secrets-manager-plugin"
     description: "GCP secrets manager plugin that implements substrate credential provider protos"

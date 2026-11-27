@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "1be978947e68d1f2"
-pushes_per_week: [1, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [1, 0, 2, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "lumaqr"
+    title: "lumaqr"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "qr-drop"
+    title: "qr-drop"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "gacha-kuji"
+    title: "gacha-kuji"
+    description: null
+    language: "TypeScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-21"
+  - name: "cardputer-zero-muse-gadgets"
+    title: "cardputer-zero-muse-gadgets"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "gacha"
     title: "gacha"
     description: null
@@ -92,39 +124,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
-  - name: "cost-widget-mac"
-    title: "cost-widget-mac"
-    description: null
-    language: "Swift"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "claude-managed-agents-workshop-202607"
-    title: "claude-managed-agents-workshop-202607"
-    description: null
-    language: "MDX"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-28"
-  - name: "eki-timer"
-    title: "eki-timer"
-    description: "時間を「分」ではなく「駅」ではかるタイマー（山手線・大阪環状線）"
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-20"
-  - name: "my-jev-playground"
-    title: "my-jev-playground"
-    description: null
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-04"
+    last_push: "2026-11-25"
 ---
 
 # moritalous

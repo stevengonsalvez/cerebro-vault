@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [2, 0, 0, 7, 8, 19, 6, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [2, 0, 1, 8, 11, 14, 6, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,20 @@ reasons:
   - "activity: 17 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "hyperfine"
+    title: "hyperfine"
+    description: "A command-line benchmarking tool"
+    language: "Rust"
+    topics:
+      - "benchmark"
+      - "cli"
+      - "command-line"
+      - "rust"
+      - "terminal"
+      - "tool"
+    stars_fact: 29378
+    first_seen: null
+    last_push: "2026-11-01"
   - name: "bat"
     title: "bat"
     description: "A cat(1) clone with wings."
@@ -90,9 +104,9 @@ repos:
       - "syntax-highlighting"
       - "terminal"
       - "tool"
-    stars_fact: 61304
+    stars_fact: 61534
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-27"
   - name: "fd"
     title: "fd"
     description: "A simple, fast and user-friendly alternative to 'find'"
@@ -107,9 +121,9 @@ repos:
       - "search"
       - "terminal"
       - "tool"
-    stars_fact: 45108
+    stars_fact: 45222
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-25"
   - name: "hexyl"
     title: "hexyl"
     description: "A command-line hex viewer"
@@ -120,38 +134,9 @@ repos:
       - "hexadecimal"
       - "rust"
       - "tool"
-    stars_fact: 10314
+    stars_fact: 10346
     first_seen: null
     last_push: "2026-04-30"
-  - name: "hyperfine"
-    title: "hyperfine"
-    description: "A command-line benchmarking tool"
-    language: "Rust"
-    topics:
-      - "benchmark"
-      - "cli"
-      - "command-line"
-      - "rust"
-      - "terminal"
-      - "tool"
-    stars_fact: 29300
-    first_seen: null
-    last_push: "2026-11-01"
-  - name: "numbat"
-    title: "numbat"
-    description: "A statically typed programming language for scientific computations with first class support for physical dimensions and units"
-    language: "Rust"
-    topics:
-      - "calculator"
-      - "physics"
-      - "programming-language"
-      - "statically-typed"
-      - "terminal-based"
-      - "units"
-      - "web-app"
-    stars_fact: 2847
-    first_seen: null
-    last_push: "2026-10-11"
   - name: "pastel"
     title: "pastel"
     description: "A command-line tool to generate, analyze, convert and manipulate colors"
@@ -165,9 +150,24 @@ repos:
       - "rust"
       - "terminal"
       - "tool"
-    stars_fact: 6554
+    stars_fact: 6591
     first_seen: null
     last_push: "2026-05-01"
+  - name: "numbat"
+    title: "numbat"
+    description: "A statically typed programming language for scientific computations with first class support for physical dimensions and units"
+    language: "Rust"
+    topics:
+      - "calculator"
+      - "physics"
+      - "programming-language"
+      - "statically-typed"
+      - "terminal-based"
+      - "units"
+      - "web-app"
+    stars_fact: 2850
+    first_seen: null
+    last_push: "2026-10-11"
 ---
 
 # sharkdp

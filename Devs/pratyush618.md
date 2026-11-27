@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 2, 2, 8, 4, 7, 3, 1, 0, 0, 0, 2, 1]
+pushes_per_week: [0, 2, 3, 8, 3, 8, 2, 1, 0, 0, 0, 2, 1]
 windows:
   "7d":
     pushes: 1
@@ -79,16 +79,26 @@ reasons:
 repos:
   - name: "carrova"
     title: "carrova"
-    description: null
+    description: "Move app configs, keys and data between computers over your LAN. You pick what moves, and apps get reinstalled instead of copied. It also links Android phones for clipboard, files, notifications and calls."
     language: "Rust"
     topics:
-      - "fileserver"
-      - "filesharing"
-      - "filestorage"
-      - "sharing-data"
+      - "android"
+      - "clipboard-sync"
+      - "destktop-app"
+      - "dotfiles"
+      - "end-to-end-encryption"
+      - "file-transfer"
+      - "kdeconnect-alternative"
+      - "lan"
+      - "linux"
+      - "migration"
+      - "open-source"
+      - "quic"
+      - "react"
+      - "rust"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-25"
   - name: "pratyush618"
     title: "pratyush618"
     description: null
@@ -96,7 +106,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "singularity-fm"
     title: "singularity-fm"
     description: null

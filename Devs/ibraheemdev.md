@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 2, 9, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 5, 7, 0, 0, 1, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,18 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "matchit"
+    title: "matchit"
+    description: "A high performance, zero-copy URL router."
+    language: "Rust"
+    topics:
+      - "prefix-tree"
+      - "radix-tree"
+      - "router"
+      - "url"
+    stars_fact: 542
+    first_seen: null
+    last_push: "2026-04-08"
   - name: "modern-unix"
     title: "modern-unix"
     description: "A collection of modern/faster/saner alternatives to common unix commands."
@@ -89,32 +101,9 @@ repos:
       - "terminal"
       - "tools"
       - "unix"
-    stars_fact: 33032
+    stars_fact: 33037
     first_seen: null
     last_push: "2024-09-10"
-  - name: "papaya"
-    title: "papaya"
-    description: "A fast and ergonomic concurrent hashmap for read-heavy workloads."
-    language: "Rust"
-    topics:
-      - "concurrent"
-      - "hashmap"
-      - "hashtable"
-    stars_fact: 961
-    first_seen: null
-    last_push: "2026-08-21"
-  - name: "matchit"
-    title: "matchit"
-    description: "A high performance, zero-copy URL router."
-    language: "Rust"
-    topics:
-      - "prefix-tree"
-      - "radix-tree"
-      - "router"
-      - "url"
-    stars_fact: 541
-    first_seen: null
-    last_push: "2026-04-08"
   - name: "seize"
     title: "seize"
     description: "Fast, efficient, and robust memory reclamation for Rust."
@@ -127,6 +116,17 @@ repos:
     stars_fact: 482
     first_seen: null
     last_push: "2025-09-13"
+  - name: "papaya"
+    title: "papaya"
+    description: "A fast and ergonomic concurrent hashmap for read-heavy workloads."
+    language: "Rust"
+    topics:
+      - "concurrent"
+      - "hashmap"
+      - "hashtable"
+    stars_fact: 963
+    first_seen: null
+    last_push: "2026-08-21"
   - name: "boxcar"
     title: "boxcar"
     description: "A concurrent, append-only vector."

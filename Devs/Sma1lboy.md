@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 2, 3, 14, 39, 25, 8, 20, 5, 1, 0, 0, 0]
+pushes_per_week: [3, 2, 7, 18, 35, 21, 8, 21, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,14 +77,6 @@ reasons:
   - "activity: 35 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "Unlimited-DeepL-Pro"
-    title: "Unlimited-DeepL-Pro"
-    description: null
-    language: "JavaScript"
-    topics: []
-    stars_fact: 25
-    first_seen: null
-    last_push: "2023-12-08"
   - name: "rove"
     title: "rove"
     description: "All your coding agents, in one place. Claude Code, Codex, Copilot and more, side by side in your terminal."
@@ -110,9 +102,25 @@ repos:
       - "terminal"
       - "tui"
       - "typescript"
-    stars_fact: 188
+    stars_fact: 190
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
+  - name: "Unlimited-DeepL-Pro"
+    title: "Unlimited-DeepL-Pro"
+    description: null
+    language: "JavaScript"
+    topics: []
+    stars_fact: 25
+    first_seen: null
+    last_push: "2023-12-08"
+  - name: "CSE2231"
+    title: "CSE2231"
+    description: "Project, homework and midterm review"
+    language: null
+    topics: []
+    stars_fact: 18
+    first_seen: null
+    last_push: "2022-12-10"
   - name: ".dotfiles"
     title: ".dotfiles"
     description: null
@@ -120,7 +128,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "pua-what-game"
     title: "pua-what-game"
     description: "PUA话术识别 — 沉浸式微信聊天模拟器，识别9种常见PUA操控手法的互动游戏"
@@ -137,17 +145,6 @@ repos:
     stars_fact: 7
     first_seen: null
     last_push: "2026-10-28"
-  - name: "claude-standup"
-    title: "claude-standup"
-    description: "One panel for every Claude Code session on your machine: what each agent needs from you, and what each one got done."
-    language: "TypeScript"
-    topics:
-      - "claude-code"
-      - "claude-code-mod"
-      - "claude-code-plugin"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-26"
 ---
 
 # Sma1lboy

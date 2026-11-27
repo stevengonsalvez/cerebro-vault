@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a5ffcd0a46dd44fd"
-pushes_per_week: [5, 16, 68, 198, 140, 110, 152, 66, 0, 3, 2, 2, 1]
+pushes_per_week: [5, 21, 113, 165, 153, 97, 135, 66, 0, 4, 2, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -89,7 +89,7 @@ repos:
       - "mcp"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "planterm"
     title: "planterm"
     description: "CAREL pLAN terminal protocol library — act as a pGD terminal: decode, enroll, navigate, edit"
@@ -112,7 +112,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "ble-midi-footswitch"
     title: "ble-midi-footswitch"
     description: "An ESP32 (Wemos Lolin32) based footswitch controller"
@@ -128,7 +128,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-23"
   - name: "aum-session-go"
     title: "aum-session-go"
     description: null
@@ -136,7 +136,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-23"
 ---
 
 # teemow

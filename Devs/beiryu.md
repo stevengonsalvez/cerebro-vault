@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 19, 7, 1, 0, 1, 0]
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "vn-skills"
     title: "vn-skills"
     description: "Agent Skills, CLI, MCP server and TS library for Vietnam-specific logic: VietQR, 34-province addresses, tax IDs, money in words, lunar calendar, e-invoices"
@@ -98,7 +98,7 @@ repos:
       - "vietqr"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-25"
   - name: "thumbly-space-releases"
     title: "thumbly-space-releases"
     description: "Thumbly Space for Mac — downloads (release assets only; no source code)"
@@ -106,7 +106,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-25"
+    last_push: "2026-11-22"
   - name: "nextjs-portfolio-pageview-counter"
     title: "nextjs-portfolio-pageview-counter"
     description: "📂 My personal portfolio website, showcasing my projects and skills."

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 0, 4, 6, 1, 0, 0, 0, 0, 0, 1, 1]
+pushes_per_week: [0, 0, 0, 7, 3, 1, 0, 0, 0, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-22"
   - name: "polish"
     title: "polish"
     description: "Polish: a lightweight AI-first shell (Antidote+Starship, agent CLIs, token insights)"
@@ -92,7 +92,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "passplay"
     title: "passplay"
     description: "Single-device pass-and-play social deduction game — web + native Android, offline, free."
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-21"
   - name: "sober-ai"
     title: "sober-ai"
     description: "Lighthouse reimagined for the AI-first world"

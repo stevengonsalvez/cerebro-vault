@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 4, 3, 4, 1, 0, 0, 1, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 4, 4, 3, 1, 0, 0, 1, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,38 +77,6 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "reverse-engineer-logic"
-    title: "reverse-engineer-logic"
-    description: "Confused by some bullshit? Use this tool to discern the motivation and logic behind anything at all."
-    language: "JavaScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "Max-Watch"
-    title: "Max-Watch"
-    description: "Free, 100% offline, encrypted Mac & Windows video recorder with motion detection. Records while your screen is locked into a password-protected AES-256 vault."
-    language: "C++"
-    topics:
-      - "encrypted-vault"
-      - "macos"
-      - "motion-detection"
-      - "offline"
-      - "security-camera"
-      - "swift"
-      - "video-recorder"
-      - "webcam"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "homebrew-tap"
-    title: "homebrew-tap"
-    description: "Official Homebrew tap for Max Watch (free offline encrypted Mac video recorder with motion detection)."
-    language: "Ruby"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-17"
   - name: "Compartment"
     title: "Compartment"
     description: "Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval."
@@ -134,9 +102,49 @@ repos:
       - "python"
       - "semantic-search"
       - "vector-database"
-    stars_fact: 569
+    stars_fact: 472
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-27"
+  - name: "ultimate-caving-app-legal"
+    title: "ultimate-caving-app-legal"
+    description: "Ultimate Caving App: privacy policy, terms of use, and demo video (100% free, ad-free offline 3D caving navigation)"
+    language: "HTML"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "reverse-engineer-logic"
+    title: "reverse-engineer-logic"
+    description: "Confused by some bullshit? Use this tool to discern the motivation and logic behind anything at all."
+    language: "JavaScript"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-16"
+  - name: "Max-Watch"
+    title: "Max-Watch"
+    description: "Free, 100% offline, encrypted Mac & Windows video recorder with motion detection. Records while your screen is locked into a password-protected AES-256 vault."
+    language: "C++"
+    topics:
+      - "encrypted-vault"
+      - "macos"
+      - "motion-detection"
+      - "offline"
+      - "security-camera"
+      - "swift"
+      - "video-recorder"
+      - "webcam"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "homebrew-tap"
+    title: "homebrew-tap"
+    description: "Official Homebrew tap for Max Watch (free offline encrypted Mac video recorder with motion detection)."
+    language: "Ruby"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-17"
   - name: "MaxFreedomPollard"
     title: "MaxFreedomPollard"
     description: "Portfolio: benchmark challenges for coding agents, Compartment, merged contributions"
@@ -144,15 +152,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
-  - name: "livemap-legal"
-    title: "livemap-legal"
-    description: "Offline GPS LiveMap: privacy policy, terms of use and demo video"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
+    last_push: "2026-11-27"
 ---
 
 # MaxFreedomPollard

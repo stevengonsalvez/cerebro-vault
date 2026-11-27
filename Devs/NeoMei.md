@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "90688bf127241ceb"
-pushes_per_week: [1, 4, 0, 7, 4, 3, 4, 6, 8, 0, 0, 0, 1]
+pushes_per_week: [1, 4, 1, 8, 2, 3, 4, 6, 8, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,10 +77,18 @@ reasons:
   - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "antigravity-skill"
+    title: "antigravity-skill"
+    description: "Codex skill for local collaboration with Antigravity Desktop"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "SuperWagie"
     title: "SuperWagie"
     description: "犇马 SuperWagie · 本地 AI 办公与编程智能体。Local AI workbench for office work and coding, with Markdown tasks, a document library, and document/PPT creation for macOS and Windows."
-    language: "TypeScript"
+    language: "JavaScript"
     topics:
       - "ai-agent"
       - "benma"
@@ -96,7 +104,7 @@ repos:
       - "windows"
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "SuperPPT"
     title: "SuperPPT"
     description: "Create high-detail image-first PPTX decks with versioned planning and editable page revisions."
@@ -104,7 +112,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-27"
   - name: "llmrouter"
     title: "llmrouter"
     description: "Private LLM API aggregation and client compatibility platform"
@@ -112,7 +120,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-25"
   - name: "UniHub"
     title: "UniHub"
     description: "UniHub: headless identity, accounts and billing services for independent products"
@@ -120,7 +128,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-25"
   - name: "SuperVideo"
     title: "SuperVideo"
     description: "轻量视频制作技能：PPT、绘本、网页教程与教学动画，百炼配音、字幕和 BGM。"
@@ -129,14 +137,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-01"
-  - name: "inidd"
-    title: "inidd"
-    description: "魂器（inidd）：DeepSeek Harness 的人格化插件集"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-31"
 ---
 
 # NeoMei

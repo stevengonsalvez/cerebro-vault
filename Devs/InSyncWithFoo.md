@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 1, 1, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 1, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    active_days: 9
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
   push_per_day: 1.0000
-  repo_per_active_day: 0.4444
+  repo_per_active_day: 0.5000
   not_owned_ratio: 0.2500
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 9
+    pushes: 8
     distinct_repos: 4
-    pushes_per_repo: 2.2500
-    active_days: 9
+    pushes_per_repo: 2.0000
+    active_days: 8
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 9 active days in 90d — pass"
+  - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jetbrains-ides-build-numbers"
@@ -84,7 +84,7 @@ repos:
     topics: []
     stars_fact: 3
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-24"
   - name: "a-n-plus-b"
     title: "a-n-plus-b"
     description: "A toy parser for the An+B CSS microsyntax"
@@ -108,7 +108,7 @@ repos:
       - "uv"
     stars_fact: 195
     first_seen: null
-    last_push: "2026-11-02"
+    last_push: "2026-11-23"
   - name: "pyright-for-pycharm"
     title: "pyright-for-pycharm"
     description: "Pyright integration for PyCharm"
@@ -141,6 +141,6 @@ repos:
 
 # InSyncWithFoo
 
-9 pushes across 4 repositories on 9 active days in the last 90 days of public GitHub push activity.
+8 pushes across 4 repositories on 8 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/InSyncWithFoo

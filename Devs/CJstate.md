@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [0, 0, 0, 1, 2, 6, 5, 0, 2, 0, 1, 0, 0]
+pushes_per_week: [0, 0, 0, 1, 2, 6, 5, 0, 2, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -93,7 +93,7 @@ repos:
       - "profile-readme"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "Veritas-Harness"
     title: "Veritas-Harness"
     description: "A zero-dependency AI Agent harness that proves your runs are byte-level reproducible and tamper-evident."

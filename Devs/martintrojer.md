@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
-pushes_per_week: [0, 1, 34, 25, 39, 14, 11, 8, 1, 2, 0, 0, 1]
+pushes_per_week: [0, 1, 36, 28, 38, 16, 5, 8, 1, 2, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -82,9 +82,17 @@ repos:
     description: "Drop-in tmux replacement. Modern stack. Better rendering. Live upgrades."
     language: "Rust"
     topics: []
-    stars_fact: 22
+    stars_fact: 26
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
+  - name: "jj-fugitive"
+    title: "jj-fugitive"
+    description: "A Neovim plugin that brings vim-fugitive-style version control integration for Jujutsu (jj)."
+    language: "Lua"
+    topics: []
+    stars_fact: 10
+    first_seen: null
+    last_push: "2026-04-09"
   - name: "martintrojer.github.com"
     title: "martintrojer.github.com"
     description: "Martin's Programming Blog"
@@ -92,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-12"
+    last_push: "2026-11-24"
   - name: "dotfiles"
     title: "dotfiles"
     description: null
@@ -100,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-27"
   - name: "vecgrep"
     title: "vecgrep"
     description: "Semantic grep — like ripgrep, but with vector search"
@@ -119,14 +127,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-12"
-  - name: "ramble"
-    title: "ramble"
-    description: "Read your notes in the terminal, and follow them wherever they link."
-    language: "Rust"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-10"
 ---
 
 # martintrojer

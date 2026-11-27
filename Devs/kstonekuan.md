@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c5d31b731e2b133d"
-pushes_per_week: [0, 3, 3, 7, 2, 3, 1, 0, 2, 0, 0, 1, 2]
+pushes_per_week: [0, 3, 4, 6, 2, 3, 1, 0, 2, 0, 0, 1, 2]
 windows:
   "7d":
     pushes: 2
@@ -77,6 +77,21 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "simple-chromium-ai"
+    title: "simple-chromium-ai"
+    description: "TypeScript library for Local LLM in Chromium browsers"
+    language: "TypeScript"
+    topics:
+      - "browser-extension"
+      - "chrome"
+      - "chrome-extension"
+      - "chromium"
+      - "gemini-nano-in-chrome"
+      - "local-llm"
+      - "typescript"
+    stars_fact: 270
+    first_seen: null
+    last_push: "2026-08-11"
   - name: "tambourine-voice"
     title: "tambourine-voice"
     description: "Your personal voice interface for any app. Speak naturally and your words appear wherever your cursor is, with fully customizable AI voice dictation. Open source alternative to Wispr Flow."
@@ -97,7 +112,7 @@ repos:
       - "windows"
     stars_fact: 395
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-21"
   - name: "gemini-4-motionbricks"
     title: "gemini-4-motionbricks"
     description: "Gemini 4 Argon with MotionBricks"
@@ -106,21 +121,6 @@ repos:
     stars_fact: 11
     first_seen: null
     last_push: "2026-10-30"
-  - name: "simple-chromium-ai"
-    title: "simple-chromium-ai"
-    description: "TypeScript library for Local LLM in Chromium browsers"
-    language: "TypeScript"
-    topics:
-      - "browser-extension"
-      - "chrome"
-      - "chrome-extension"
-      - "chromium"
-      - "gemini-nano-in-chrome"
-      - "local-llm"
-      - "typescript"
-    stars_fact: 268
-    first_seen: null
-    last_push: "2026-08-11"
   - name: "init-project-skill"
     title: "init-project-skill"
     description: null
@@ -128,7 +128,7 @@ repos:
     topics: []
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-20"
   - name: "voice-rtc-bench"
     title: "voice-rtc-bench"
     description: "A distributed benchmarking system for comparing WebRTC voice AI platforms (Daily vs LiveKit) across multiple geographic locations and time periods."

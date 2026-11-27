@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4138778ebbc75ba6"
-pushes_per_week: [0, 0, 0, 56, 109, 126, 83, 3, 0, 0, 5, 12, 1]
+pushes_per_week: [0, 0, 0, 72, 107, 118, 77, 3, 0, 0, 5, 12, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,10 +77,26 @@ reasons:
   - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "agy-sota-convergence"
+    title: "agy-sota-convergence"
+    description: "Definitive Google Antigravity (AGY 2.0) SOTA Practice, Disjoint L0-L10 Ecosystem, Bounded MADR 4.0.0 ADRs & Cryptographically Sealed Compounding Manifest (v3.1.0)"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-27"
+  - name: "noesis"
+    title: "noesis"
+    description: "Noesis — Tier-0 SOTA Upstream-Only Quantitative Research, Single-Engine NautilusTrader v2, and 4-Lane Compounding Harness"
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "week11-sound-lab"
     title: "week11-sound-lab"
     description: "Week 11 algorithmic sound: three experiments, a 60-second composition, explanations and measured results"
-    language: "JavaScript"
+    language: "HTML"
     topics: []
     stars_fact: 0
     first_seen: null

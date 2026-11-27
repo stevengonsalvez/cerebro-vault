@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 6, 4, 14, 6, 19, 20, 12, 0, 1, 0, 0, 1]
+pushes_per_week: [0, 6, 7, 12, 8, 16, 20, 12, 0, 1, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "flatpak-blackbox-tests"
     title: "flatpak-blackbox-tests"
     description: null
@@ -108,7 +108,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-26"
   - name: "flatpak-sbom"
     title: "flatpak-sbom"
     description: null
@@ -116,7 +116,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "flatpak-smoke"
     title: "flatpak-smoke"
     description: null
@@ -125,7 +125,7 @@ repos:
       - "flatpak"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-26"
 ---
 
 # razzeee

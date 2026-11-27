@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 0, 0, 1, 1, 2, 0, 1, 1, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 1, 0, 3, 0, 0, 1, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,14 @@ reasons:
   - "activity: 5 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "zbus_systemd"
+    title: "zbus_systemd"
+    description: "A pure-Rust library to interact with systemd DBus services"
+    language: "Rust"
+    topics: []
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-10-21"
   - name: "libsystemd-rs"
     title: "libsystemd-rs"
     description: "A pure-Rust client library to work with systemd"
@@ -84,7 +92,7 @@ repos:
     topics: []
     stars_fact: 154
     first_seen: null
-    last_push: "2026-06-03"
+    last_push: "2026-11-23"
   - name: "caps-rs"
     title: "caps-rs"
     description: "A pure-Rust library to work with Linux capabilities"
@@ -106,14 +114,6 @@ repos:
     stars_fact: 44
     first_seen: null
     last_push: "2026-09-01"
-  - name: "zbus_systemd"
-    title: "zbus_systemd"
-    description: "A pure-Rust library to interact with systemd DBus services"
-    language: "Rust"
-    topics: []
-    stars_fact: 59
-    first_seen: null
-    last_push: "2026-10-21"
   - name: "capnpoc-yoke"
     title: "capnpoc-yoke"
     description: "Zero-copy deserialization using Cap'n Proto and Yoke"

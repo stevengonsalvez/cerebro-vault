@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
 pushes_per_week: [0, 0, 0, 0, 2, 2, 15, 1, 6, 2, 0, 0, 17]
@@ -77,58 +77,38 @@ reasons:
   - "activity: 16 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ferry"
-    title: "ferry"
-    description: "Send files and run commands between your own machines over your tailnet. One binary for macOS, Linux and Windows."
-    language: "Rust"
+  - name: "dashsplat"
+    title: "dashsplat"
+    description: "Turn a car's dashcam footage into a 3D world you can drive through again: Gaussian splats, a 1 cm road atlas, tracked vehicles and a diffusion-repaired chase view."
+    language: "Python"
     topics: []
-    stars_fact: 2
+    stars_fact: 349
     first_seen: null
-    last_push: "2026-11-17"
-  - name: "agenda.dev"
-    title: "agenda.dev"
-    description: "making the fastest and most capable todo app ever"
-    language: "TypeScript"
-    topics:
-      - "fast"
-      - "nextjs"
-      - "todo"
-    stars_fact: 301
-    first_seen: null
-    last_push: "2026-03-04"
-  - name: "homeport"
-    title: "homeport"
-    description: "Your home Mac's folders in Finder anywhere: a File Provider client and a fast QUIC server over Tailscale"
-    language: "Rust"
+    last_push: "2026-11-22"
+  - name: "coastcap"
+    title: "coastcap"
+    description: null
+    language: "HTML"
     topics: []
-    stars_fact: 2
+    stars_fact: 10
     first_seen: null
-    last_push: "2026-10-29"
-  - name: "superlocal"
-    title: "superlocal"
-    description: "An email client & provider gateway so you can build your best email experience."
+    last_push: "2026-07-29"
+  - name: "skills"
+    title: "skills"
+    description: null
+    language: "HTML"
+    topics: []
+    stars_fact: 166
+    first_seen: null
+    last_push: "2026-11-01"
+  - name: "tagalong"
+    title: "tagalong"
+    description: "Tag @tagalongbot in any thread on X and the reply chain goes to your agent."
     language: "TypeScript"
-    topics:
-      - "email"
-      - "fast"
-      - "local-first"
-    stars_fact: 234
+    topics: []
+    stars_fact: 1
     first_seen: null
-    last_push: "2026-09-08"
-  - name: "glassx"
-    title: "glassx"
-    description: "A fully native X client for macOS 27, built with SwiftUI and Liquid Glass."
-    language: "Swift"
-    topics:
-      - "liquid-glass"
-      - "macos"
-      - "macos-app"
-      - "swiftui"
-      - "twitter"
-      - "x"
-    stars_fact: 37
-    first_seen: null
-    last_push: "2026-10-14"
+    last_push: "2026-11-26"
   - name: "hark"
     title: "hark"
     description: "iPhone notifications, approvals, Live Activities, on-call paging and signed-in mini apps for developers and their agents."
@@ -140,9 +120,21 @@ repos:
       - "notifications"
       - "on-call"
       - "webhooks"
-    stars_fact: 215
+    stars_fact: 214
     first_seen: null
-    last_push: "2026-11-13"
+    last_push: "2026-11-20"
+  - name: "opencode.cafe"
+    title: "opencode.cafe"
+    description: "A plugin and extension cafe for OpenCode."
+    language: "TypeScript"
+    topics:
+      - "ai"
+      - "cafe"
+      - "community"
+      - "opencode"
+    stars_fact: 206
+    first_seen: null
+    last_push: "2026-05-21"
 ---
 
 # R44VC0RP

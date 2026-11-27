@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [1, 1, 3, 4, 3, 0, 3, 1, 0, 0, 0, 0, 1]
+pushes_per_week: [1, 1, 4, 4, 2, 2, 1, 1, 0, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,33 @@ reasons:
   - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "holocron"
+    title: "holocron"
+    description: "Open source drop-in replacement for Mintlify as a Vite plugin"
+    language: "TypeScript"
+    topics:
+      - "documentation"
+      - "mdx"
+      - "mintlify"
+    stars_fact: 817
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "zele"
+    title: "zele"
+    description: "Email & Calendar CLI. Gmail, Outlook, iCloud, IMAP/SMTP and Google Calendar from your terminal. For humans & agents"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 306
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "sigillo"
+    title: "sigillo"
+    description: "Self-hostable secrets management platform. Open source Doppler alternative"
+    language: "TypeScript"
+    topics: []
+    stars_fact: 123
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "playwriter"
     title: "playwriter"
     description: "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP"
@@ -84,9 +111,9 @@ repos:
     topics:
       - "mcp"
       - "playwright"
-    stars_fact: 4105
+    stars_fact: 4133
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-25"
   - name: "gpuix"
     title: "gpuix"
     description: "Node.js & Bun bindings for Zed’s GPUI. Build memory efficient native apps with React or Solid.js"
@@ -96,44 +123,21 @@ repos:
       - "react"
       - "solid"
       - "zed"
-    stars_fact: 2976
+    stars_fact: 2995
     first_seen: null
     last_push: "2026-11-01"
-  - name: "tsc-shame"
-    title: "tsc-shame"
-    description: "Shame your node_modules type checking speed"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 120
-    first_seen: null
-    last_push: "2024-12-28"
-  - name: "zele"
-    title: "zele"
-    description: "Email & Calendar CLI. Gmail, Outlook, IMAP/SMTP and Google Calendar from your terminal. For humans & agents"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 305
-    first_seen: null
-    last_push: "2026-11-15"
-  - name: "marauders-map"
-    title: "marauders-map"
-    description: "The Marauder's Map from Harry Potter with live locations from Apple Find My"
-    language: "TypeScript"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "durablefetch"
-    title: "durablefetch"
-    description: "add resumability to any streaming request"
+  - name: "kimaki"
+    title: "kimaki"
+    description: "all opencode features deeply integrated inside Discord. each project is a channel. each session a thread"
     language: "TypeScript"
     topics:
-      - "cloudflare-workers"
-      - "durable-objects"
-      - "fetch"
-    stars_fact: 54
+      - "clawdbot"
+      - "discord"
+      - "openclaw-alternative"
+      - "opencode"
+    stars_fact: 1457
     first_seen: null
-    last_push: "2025-10-30"
+    last_push: "2026-11-24"
 ---
 
 # remorses

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
-pushes_per_week: [0, 0, 1, 4, 3, 15, 13, 3, 1, 0, 0, 1, 1]
+pushes_per_week: [0, 0, 1, 6, 2, 14, 13, 3, 1, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -77,6 +77,56 @@ reasons:
   - "activity: 23 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "SpikeForge"
+    title: "SpikeForge"
+    description: "Software-only SNN analysis toolkit for graph extraction, IR transforms, INT8 quantization, and resource estimates for generic hardware profiles."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "SparseMAC"
+    title: "SparseMAC"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "MutantCore"
+    title: "MutantCore"
+    description: null
+    language: "Verilog"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "SpikeRoute"
+    title: "SpikeRoute"
+    description: null
+    language: "SystemVerilog"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "sensor2spike"
+    title: "sensor2spike"
+    description: "Sensor-to-spike encoding: five encoders, a NumPy LIF reference backend, and a multi-objective optimiser that measures accuracy against spike budget."
+    language: "Python"
+    topics:
+      - "event-based"
+      - "machine-learning"
+      - "neuromorphic"
+      - "optimization"
+      - "pareto-front"
+      - "python"
+      - "sensor-data"
+      - "snn"
+      - "spike-encoding"
+      - "spiking-neural-networks"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
   - name: "QShield"
     title: "QShield"
     description: "Open-source security analysis for quantum circuits and the quantum software supply chain static scanning, equivalence checks, policy-as-code, and CI."
@@ -94,65 +144,7 @@ repos:
       - "trojan-detection"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "AasthiChain"
-    title: "AasthiChain"
-    description: "Open-source fractional real estate tokenization prototype with verified property records, an auditable blockchain ledger, and atomic delivery-versus-payment settlement."
-    language: "JavaScript"
-    topics:
-      - "blockchain"
-      - "delivery-versus-payment"
-      - "fintech"
-      - "golang"
-      - "hyperledger-fabric"
-      - "react"
-      - "real-estate"
-      - "tokenization"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-16"
-  - name: "CredPool"
-    title: "CredPool"
-    description: "Credential-gated DeFi liquidity pools. Users prove eligibility with W3C Verifiable Credentials and DIDs, receive a soulbound ERC-1155 access badge, and trade or provide liquidity in a permissioned AMM. Solidity, Hardhat, Ethers.js, IPFS."
-    language: "TypeScript"
-    topics:
-      - "defi"
-      - "did"
-      - "erc-1155"
-      - "hardhat"
-      - "solidity"
-      - "verifiable-credentials"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-03"
-  - name: "rtsp-stream-viewer"
-    title: "rtsp-stream-viewer"
-    description: "RTSP Stream Viewer — React + Django Channels + FFmpeg (Skylark Labs coding test)"
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-29"
-  - name: "Virtual-Automotive-ECU"
-    title: "Virtual-Automotive-ECU"
-    description: "Virtual Automotive ECU Simulator is a C++ framework that simulates automotive ECUs with SocketCAN (vcan0), Secure Boot (RSA), an HSM emulator, UDS-style messaging, and multiple virtual ECUs (Sensor, Gateway, Radar, BMS, TPMS). It enables secure CAN communication, diagnostics, and embedded systems prototyping on Linux."
-    language: "C++"
-    topics:
-      - "automotive-security"
-      - "can-bus"
-      - "electronic-control-unit"
-      - "uds"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-08-02"
-  - name: "AXI-protocol-verification"
-    title: "AXI-protocol-verification"
-    description: "Design and verification of the AXI protocol using UVM"
-    language: "SystemVerilog"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-05-24"
+    last_push: "2026-11-23"
 ---
 
 # katepallewarprathmesh-sketch

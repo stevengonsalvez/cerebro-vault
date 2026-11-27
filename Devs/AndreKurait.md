@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "a50b0e08dbaee74a"
-pushes_per_week: [0, 0, 1, 2, 3, 3, 20, 26, 63, 4, 5, 9, 54]
+pushes_per_week: [0, 0, 1, 2, 3, 3, 20, 28, 61, 5, 5, 8, 55]
 windows:
   "7d":
     pushes: 55
-    distinct_repos: 2
+    distinct_repos: 3
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 73
     distinct_repos: 3
-    active_days: 12
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 190
+    pushes: 191
     distinct_repos: 8
-    active_days: 29
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 6.5517
-  repo_per_active_day: 0.2759
+  push_per_day: 6.3667
+  repo_per_active_day: 0.2667
   not_owned_ratio: 0.1250
   basename_concentration: 0.2500
   shapes: []
@@ -50,31 +50,31 @@ automation:
 facets:
   "7d":
     pushes: 55
-    distinct_repos: 2
-    pushes_per_repo: 27.5000
+    distinct_repos: 3
+    pushes_per_repo: 18.3333
     active_days: 5
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 72
+    pushes: 73
     distinct_repos: 3
-    pushes_per_repo: 24.0000
-    active_days: 12
+    pushes_per_repo: 24.3333
+    active_days: 13
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 190
+    pushes: 191
     distinct_repos: 8
-    pushes_per_repo: 23.7500
-    active_days: 29
+    pushes_per_repo: 23.8750
+    active_days: 30
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 29 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "asagiri"
@@ -137,6 +137,6 @@ repos:
 
 # AndreKurait
 
-190 pushes across 8 repositories on 29 active days in the last 90 days of public GitHub push activity.
+191 pushes across 8 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AndreKurait

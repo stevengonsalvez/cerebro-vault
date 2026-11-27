@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 2, 1, 3, 5, 0, 1, 0, 2, 0, 0, 0, 1]
+pushes_per_week: [0, 2, 1, 4, 4, 0, 1, 0, 2, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -92,7 +92,7 @@ repos:
       - "rust"
     stars_fact: 19
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-26"
   - name: "aaron-ang.github.io"
     title: "aaron-ang.github.io"
     description: "Personal blog and project portfolio, built with Hugo."
@@ -100,7 +100,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-15"
+    last_push: "2026-11-26"
   - name: "epub-to-m4b"
     title: "epub-to-m4b"
     description: "Turn an EPUB into an M4B audiobook with a WebVTT transcript, using pluggable TTS engines."
@@ -129,7 +129,7 @@ repos:
       - "telegram-bot"
     stars_fact: 1
     first_seen: null
-    last_push: "2026-11-19"
+    last_push: "2026-11-26"
   - name: "letter-boxed"
     title: "letter-boxed"
     description: "Puzzle solver and visualizer"

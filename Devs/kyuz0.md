@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [1, 1, 4, 5, 4, 1, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 1, 4, 8, 1, 2, 3, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 9
-    active_days: 15
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.6000
+  push_per_day: 1.4286
+  repo_per_active_day: 0.6429
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -65,70 +65,70 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
+    pushes: 20
     distinct_repos: 9
-    pushes_per_repo: 2.3333
-    active_days: 15
+    pushes_per_repo: 2.2222
+    active_days: 14
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "ai-toolbox-cockpit"
-    title: "ai-toolbox-cockpit"
+  - name: "ai-sandbox-factory"
+    title: "ai-sandbox-factory"
+    description: "Run Pi, Codex, Claude Code and Antigravity in isolated coding workspaces with protected credentials and configurable access."
+    language: "Python"
+    topics: []
+    stars_fact: 2
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "amd-strix-halo-comfyui-toolboxes"
+    title: "amd-strix-halo-comfyui-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 226
+    stars_fact: 188
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "strix-halo-ds4-toolbox"
-    title: "strix-halo-ds4-toolbox"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 95
-    first_seen: null
-    last_push: "2026-10-23"
+    last_push: "2026-09-02"
   - name: "amd-strix-halo-toolboxes"
     title: "amd-strix-halo-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 2032
+    stars_fact: 2041
     first_seen: null
     last_push: "2026-11-18"
-  - name: "web-fetch-pi-test-fixtures"
-    title: "web-fetch-pi-test-fixtures"
-    description: null
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-18"
-  - name: "terminal-bench-mini"
-    title: "terminal-bench-mini"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 11
-    first_seen: null
-    last_push: "2026-11-14"
   - name: "intel-b70-ai-toolboxes"
     title: "intel-b70-ai-toolboxes"
     description: null
     language: "Python"
     topics: []
-    stars_fact: 48
+    stars_fact: 49
     first_seen: null
     last_push: "2026-11-01"
+  - name: "ai-toolbox-cockpit"
+    title: "ai-toolbox-cockpit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 239
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "llama-toolboxes-cockpit"
+    title: "llama-toolboxes-cockpit"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 110
+    first_seen: null
+    last_push: "2026-08-28"
 ---
 
 # kyuz0
 
-21 pushes across 9 repositories on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 9 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/kyuz0

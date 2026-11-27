@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [5, 7, 52, 150, 208, 28, 11, 53, 31, 2, 1, 2, 14]
+pushes_per_week: [3, 9, 86, 123, 199, 32, 7, 53, 31, 3, 0, 2, 14]
 windows:
   "7d":
     pushes: 14
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 564
+    pushes: 562
     distinct_repos: 99
-    active_days: 50
+    active_days: 49
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 11.2800
-  repo_per_active_day: 1.9800
+  push_per_day: 11.4694
+  repo_per_active_day: 2.0204
   not_owned_ratio: 0.9394
   basename_concentration: 0.0202
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 564
+    pushes: 562
     distinct_repos: 99
-    pushes_per_repo: 5.6970
-    active_days: 50
+    pushes_per_repo: 5.6768
+    active_days: 49
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engineering-notes"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-564 pushes across 99 repositories on 50 active days in the last 90 days of public GitHub push activity.
+562 pushes across 99 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

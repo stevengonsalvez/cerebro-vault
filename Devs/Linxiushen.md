@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c489e6fb5febf2ab"
 pushes_per_week: [0, 0, 3, 6, 10, 1, 1, 0, 1, 0, 0, 0, 0]
@@ -77,6 +77,30 @@ reasons:
   - "activity: 12 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "collab-desk"
+    title: "collab-desk"
+    description: "A local multi-agent group workspace with offline Qwen inference and Codex handoff."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-24"
+  - name: "microcat"
+    title: "microcat"
+    description: "Simulation-first quadruped robotics: parametric CAD, MuJoCo, PPO, ONNX policies and an intent-driven control runtime."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-23"
+  - name: "industry-ai-harnesses"
+    title: "industry-ai-harnesses"
+    description: "Explore 27 clinical, manufacturing and energy decisions with an interactive Python Agent on GitHub Pages. Inspect evidence, replay scenarios and download results."
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "harnesslab"
     title: "harnesslab"
     description: "Record, diff, and gate agent harness behavior as an executable Trace Contract. CI regression tests for lifecycle, tools, approvals, MCP, and adapters."
@@ -127,35 +151,6 @@ repos:
     stars_fact: 1
     first_seen: null
     last_push: "2026-11-12"
-  - name: "kitbo-site"
-    title: "kitbo-site"
-    description: "Kitbo 奇宝 product presentation and encrypted research archive"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-11"
-  - name: "agent-infra-validation-20261105"
-    title: "agent-infra-validation-20261105"
-    description: "Deterministic synthetic validation for agent infrastructure fixes; no model calls"
-    language: null
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-05"
-  - name: "metis-voc"
-    title: "metis-voc"
-    description: "Evidence-aware product research workspace: market data, VOC, concepts, human review and decision governance on Cloudflare Workers."
-    language: "JavaScript"
-    topics:
-      - "cloudflare-workers"
-      - "ecommerce"
-      - "product-research"
-      - "typescript"
-      - "voice-of-customer"
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-11-04"
 ---
 
 # Linxiushen

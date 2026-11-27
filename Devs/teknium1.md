@@ -11,11 +11,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "48dbbdd8fd0d3029"
   - "ec2b8bd43eefd65f"
-pushes_per_week: [10, 25, 107, 333, 98, 128, 70, 31, 71, 4, 5, 3, 20]
+pushes_per_week: [7, 28, 157, 282, 118, 111, 65, 34, 68, 7, 2, 5, 18]
 windows:
   "7d":
     pushes: 20
@@ -32,23 +32,23 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 905
+    pushes: 902
     distinct_repos: 96
-    active_days: 58
+    active_days: 57
     repos_not_owned: 94
     not_owned_basenames: 11
     not_owned_owners: 87
 automation:
   state: "clear"
-  push_per_day: 15.6034
-  repo_per_active_day: 1.6552
+  push_per_day: 15.8246
+  repo_per_active_day: 1.6842
   not_owned_ratio: 0.9792
   basename_concentration: 0.8125
   shapes:
     - "high_push_rate"
     - "fork_farm_third_party"
   shape_evidence:
-    - "15.60 pushes per active day over 90d (905 pushes / 58 active days), above the 15 review line"
+    - "15.82 pushes per active day over 90d (902 pushes / 57 active days), above the 15 review line"
     - "basename concentration 0.8125 (78 of 96 repos share one basename), 94 not owned across 11 basenames — 5 of 5 sampled repos resolved; 5 fork somebody else's repo; upstreams: NousResearch/hermes-agent"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
@@ -61,7 +61,7 @@ automation:
     truncated: false
     sampled:
       - "0x7s0lt1/hermes-agent"
-      - "Adolanium/hermes-agent"
+      - "aean0x/hermes-agent"
       - "ajensenwaud/hermes-agent"
       - "badiyee85/hermes-agent"
       - "basilnas/hermes-agent"
@@ -86,16 +86,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 8
   "90d":
-    pushes: 905
+    pushes: 902
     distinct_repos: 96
-    pushes_per_repo: 9.4271
-    active_days: 58
+    pushes_per_repo: 9.3958
+    active_days: 57
     repos_not_owned: 94
     not_owned_basenames: 11
     not_owned_owners: 87
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 58 active days in 90d — pass"
+  - "activity: 57 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "GPTeacher"
@@ -150,6 +150,6 @@ repos:
 
 # teknium1
 
-905 pushes across 96 repositories on 58 active days in the last 90 days of public GitHub push activity.
+902 pushes across 96 repositories on 57 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/teknium1

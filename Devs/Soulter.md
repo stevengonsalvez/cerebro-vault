@@ -10,10 +10,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [1, 0, 3, 4, 18, 6, 7, 3, 1, 0, 0, 2, 0]
+pushes_per_week: [1, 0, 3, 7, 17, 5, 6, 3, 1, 0, 0, 2, 0]
 windows:
   "7d":
     pushes: 0
@@ -83,7 +83,7 @@ repos:
     description: "AstrBot Plugin Template"
     language: "Python"
     topics: []
-    stars_fact: 192
+    stars_fact: 193
     first_seen: null
     last_push: "2026-04-12"
   - name: "astrbot_plugin_essential"
@@ -117,7 +117,7 @@ repos:
     topics: []
     stars_fact: 11
     first_seen: null
-    last_push: "2026-11-01"
+    last_push: "2026-11-20"
   - name: "one-sponsor-list"
     title: "one-sponsor-list"
     description: null
@@ -125,7 +125,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-10-26"
+    last_push: "2026-11-25"
 ---
 
 # Soulter

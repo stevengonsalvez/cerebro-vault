@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 1, 2, 6, 15, 12, 0, 3, 1, 0, 0, 1, 0]
+pushes_per_week: [0, 1, 4, 11, 10, 10, 0, 3, 1, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -88,7 +88,7 @@ repos:
       - "onboarding"
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-14"
+    last_push: "2026-11-19"
   - name: "amplifier-capability-unslopper"
     title: "amplifier-capability-unslopper"
     description: "Unslopper: an Amplifier smart tool that removes AI design defaults from HTML, CSS and screenshots"

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3eacb4655aba2497"
 pushes_per_week: [1, 0, 0, 0, 11, 2, 1, 0, 0, 0, 0, 0, 0]
@@ -90,7 +90,7 @@ repos:
       - "mcp"
       - "scheduler"
       - "swift"
-    stars_fact: 13
+    stars_fact: 15
     first_seen: null
     last_push: "2026-11-04"
   - name: "Silibar"

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [1, 0, 0, 1, 5, 5, 13, 3, 0, 1, 0, 4, 10]
+pushes_per_week: [1, 0, 0, 1, 7, 3, 13, 3, 0, 1, 2, 2, 10]
 windows:
   "7d":
     pushes: 10
@@ -77,6 +77,28 @@ reasons:
   - "activity: 18 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "sensei"
+    title: "sensei"
+    description: "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern"
+    language: "TypeScript"
+    topics:
+      - "claude"
+      - "copilot"
+      - "gemeni"
+      - "quality"
+      - "skills"
+      - "testing-tools"
+    stars_fact: 60
+    first_seen: null
+    last_push: "2026-11-22"
+  - name: "PyContainer.Aspire.Hosting"
+    title: "PyContainer.Aspire.Hosting"
+    description: "Build and push Aspire Python app images with pycontainer-build, no Docker or Podman required"
+    language: "C#"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "vapor-squad"
     title: "vapor-squad"
     description: "Copilot skill to set up bradygaster/squad in any Git repo without committing Squad files"
@@ -113,28 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-13"
-  - name: "sensei"
-    title: "sensei"
-    description: "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern"
-    language: "TypeScript"
-    topics:
-      - "claude"
-      - "copilot"
-      - "gemeni"
-      - "quality"
-      - "skills"
-      - "testing-tools"
-    stars_fact: 60
-    first_seen: null
-    last_push: "2026-11-17"
-  - name: "azure-deploy"
-    title: "azure-deploy"
-    description: "Copilot/Claude Skill for deploying applications to Azure (App Service, Functions, Static Web Apps)"
-    language: "Shell"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-30"
 ---
 
 # spboyer

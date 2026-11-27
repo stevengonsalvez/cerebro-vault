@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "c1af6b58492f9bf4"
-pushes_per_week: [7, 3, 7, 183, 115, 67, 95, 16, 21, 0, 0, 9, 16]
+pushes_per_week: [1, 3, 72, 132, 107, 69, 87, 16, 21, 0, 0, 9, 16]
 windows:
   "7d":
     pushes: 16
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 539
+    pushes: 533
     distinct_repos: 23
-    active_days: 41
+    active_days: 39
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 13.1463
-  repo_per_active_day: 0.5610
+  push_per_day: 13.6667
+  repo_per_active_day: 0.5897
   not_owned_ratio: 0.7826
   basename_concentration: 0.0435
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 5
     not_owned_owners: 1
   "90d":
-    pushes: 539
+    pushes: 533
     distinct_repos: 23
-    pushes_per_repo: 23.4348
-    active_days: 41
+    pushes_per_repo: 23.1739
+    active_days: 39
     repos_not_owned: 18
     not_owned_basenames: 18
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 41 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "mac-hardware-toys"
@@ -200,6 +200,6 @@ repos:
 
 # pirate
 
-539 pushes across 23 repositories on 41 active days in the last 90 days of public GitHub push activity.
+533 pushes across 23 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/pirate

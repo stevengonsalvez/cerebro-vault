@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -99,7 +99,7 @@ repos:
       - "mcp"
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-26"
   - name: "remote-controlled-man.github.io"
     title: "remote-controlled-man.github.io"
     description: "Steven Huang — projects, agent harnesses, evaluation, and notes"
@@ -107,7 +107,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-10"
+    last_push: "2026-11-26"
   - name: "remote-controlled-man"
     title: "remote-controlled-man"
     description: "Steven Huang | Agent systems, evaluation, and LLM post-training | HKU"
@@ -115,7 +115,7 @@ repos:
     topics: []
     stars_fact: 0
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-25"
   - name: "device-agent-arena"
     title: "device-agent-arena"
     description: "Auditable benchmark, post-training pipeline, and compound-agent harness for stateful Chinese tool-use agents."

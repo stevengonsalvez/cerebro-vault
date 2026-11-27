@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "234088bc43763aa2"
-pushes_per_week: [0, 0, 2, 0, 1, 6, 2, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 0, 2, 0, 3, 4, 2, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,6 +77,38 @@ reasons:
   - "activity: 8 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "home-energy-manager"
+    title: "home-energy-manager"
+    description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
+    language: "Rust"
+    topics:
+      - "battery"
+      - "energy-monitoring"
+      - "givenergy"
+      - "home-automation"
+      - "inverter"
+      - "modbus"
+      - "solar"
+      - "tauri"
+    stars_fact: 36
+    first_seen: null
+    last_push: "2026-11-26"
+  - name: "opencv-image-edit"
+    title: "opencv-image-edit"
+    description: "Mobile-first AI image editor powered by OpenCV 5 — background blur/remove, film grain, AI upscale, color filters. Vanilla HTML/CSS/JS PWA + FastAPI. ~1.3GB Docker image, no torch."
+    language: "Python"
+    topics:
+      - "ai"
+      - "computer-vision"
+      - "docker"
+      - "fastapi"
+      - "image-processing"
+      - "opencv"
+      - "pwa"
+      - "python"
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "book-writer"
     title: "book-writer"
     description: "A seed prompt in, a drafted, reviewed and polished book out - multi-agent pipeline for local LLMs, with story state, continuity checks, EPUB export and a web GUI"
@@ -92,22 +124,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-18"
-  - name: "home-energy-manager"
-    title: "home-energy-manager"
-    description: "Desktop app for monitoring and controlling GivEnergy solar inverters over your local network — no cloud account needed"
-    language: "Rust"
-    topics:
-      - "battery"
-      - "energy-monitoring"
-      - "givenergy"
-      - "home-automation"
-      - "inverter"
-      - "modbus"
-      - "solar"
-      - "tauri"
-    stars_fact: 35
-    first_seen: null
-    last_push: "2026-11-19"
   - name: "givenergy-simulator"
     title: "givenergy-simulator"
     description: "Digital twin of a GivEnergy solar + battery plant for testing client apps"
@@ -115,7 +131,7 @@ repos:
     topics: []
     stars_fact: 4
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-24"
   - name: "milsymbol-sidc"
     title: "milsymbol-sidc"
     description: "Fluent TypeScript builder for MIL-STD-2525E / APP-6 numeric (20-character) SIDC strings, for use with the milsymbol library"
@@ -156,22 +172,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-11-01"
-  - name: "opencv-image-edit"
-    title: "opencv-image-edit"
-    description: "Mobile-first AI image editor powered by OpenCV 5 — background blur/remove, film grain, AI upscale, color filters. Vanilla HTML/CSS/JS PWA + FastAPI. ~1.3GB Docker image, no torch."
-    language: "Python"
-    topics:
-      - "ai"
-      - "computer-vision"
-      - "docker"
-      - "fastapi"
-      - "image-processing"
-      - "opencv"
-      - "pwa"
-      - "python"
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-10-11"
 ---
 
 # psylsph

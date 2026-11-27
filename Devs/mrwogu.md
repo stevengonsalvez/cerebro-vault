@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "3c90af76cbde0363"
-pushes_per_week: [0, 3, 14, 17, 10, 6, 0, 4, 1, 1, 0, 0, 0]
+pushes_per_week: [0, 3, 17, 14, 10, 6, 0, 4, 1, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -77,27 +77,6 @@ reasons:
   - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
-  - name: "factory-droid-openai"
-    title: "factory-droid-openai"
-    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
-    language: "Python"
-    topics:
-      - "api-bridge"
-      - "chat-completions"
-      - "droid-sdk"
-      - "factory-ai"
-      - "factory-droid"
-      - "fastapi"
-      - "function-calling"
-      - "llm"
-      - "openai"
-      - "openai-compatible"
-      - "python"
-      - "server-sent-events"
-      - "tool-calling"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-02"
   - name: "hassio-addons"
     title: "hassio-addons"
     description: "Home Assistant add-on wrappers around upstream projects with automated releases and security gates."
@@ -113,23 +92,9 @@ repos:
       - "stirling-pdf"
       - "traefik"
       - "tududi"
-    stars_fact: 2
+    stars_fact: 3
     first_seen: null
-    last_push: "2026-11-18"
-  - name: "xiaomi-smart-fan-card"
-    title: "xiaomi-smart-fan-card"
-    description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
-    language: "TypeScript"
-    topics:
-      - "fan"
-      - "hacs"
-      - "home-assistant"
-      - "lovelace"
-      - "smart-home"
-      - "xiaomi"
-    stars_fact: 12
-    first_seen: null
-    last_push: "2026-11-18"
+    last_push: "2026-11-23"
   - name: "promptscript"
     title: "promptscript"
     description: "Prompt-as-Code for Enterprise AI. Standardize, audit, and deploy instructions across any AI coding assistant."
@@ -151,9 +116,9 @@ repos:
       - "promptops"
       - "promptscript"
       - "typescript"
-    stars_fact: 344
+    stars_fact: 324
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-23"
   - name: "logstrip"
     title: "logstrip"
     description: "Library that compresses massive CI/system logs into dense, AI-ready error context, reducing LLM input tokens and filtering noise with streaming-safe parsing."
@@ -172,9 +137,44 @@ repos:
       - "logs"
       - "token-reduction"
       - "zero-dependency"
-    stars_fact: 7
+    stars_fact: 8
     first_seen: null
-    last_push: "2026-11-17"
+    last_push: "2026-11-25"
+  - name: "factory-droid-openai"
+    title: "factory-droid-openai"
+    description: "Unofficial OpenAI-compatible bridge for Factory Droid"
+    language: "Python"
+    topics:
+      - "api-bridge"
+      - "chat-completions"
+      - "droid-sdk"
+      - "factory-ai"
+      - "factory-droid"
+      - "fastapi"
+      - "function-calling"
+      - "llm"
+      - "openai"
+      - "openai-compatible"
+      - "python"
+      - "server-sent-events"
+      - "tool-calling"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-02"
+  - name: "xiaomi-smart-fan-card"
+    title: "xiaomi-smart-fan-card"
+    description: "Capability-aware Lovelace card for Xiaomi and generic Home Assistant fans"
+    language: "TypeScript"
+    topics:
+      - "fan"
+      - "hacs"
+      - "home-assistant"
+      - "lovelace"
+      - "smart-home"
+      - "xiaomi"
+    stars_fact: 12
+    first_seen: null
+    last_push: "2026-11-26"
   - name: "PoolMind"
     title: "PoolMind"
     description: "PoolMind — Open-source computer vision system for pool games."

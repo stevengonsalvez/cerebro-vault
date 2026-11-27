@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [0, 0, 2, 7, 28, 3, 4, 6, 1, 0, 0, 0, 9]
+pushes_per_week: [0, 0, 3, 8, 27, 2, 4, 6, 1, 0, 0, 0, 9]
 windows:
   "7d":
     pushes: 9
@@ -77,6 +77,14 @@ reasons:
   - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "RockChinQ"
+    title: "RockChinQ"
+    description: null
+    language: null
+    topics: []
+    stars_fact: 17
+    first_seen: null
+    last_push: "2026-10-22"
   - name: "free-one-api"
     title: "free-one-api"
     description: "LLM 逆向工程接口管理 | 通过标准 OpenAI API 访问 ChatGPT / gpt4free / Bard / Claude / HuggingChat / 通义千问 等 AI 的破解版 || ChatGPT reverse engineering API management | Access all reverse engineered LLM libs by standard OpenAI API format || 免费 ChatGPT Free GPT LLM API | 逆向工程 转 OpenAI API | converts all llm libs to OpenAI API"
@@ -98,9 +106,9 @@ repos:
       - "revchatgpt"
       - "reverse-engineering"
       - "tongyiqianwen"
-    stars_fact: 953
+    stars_fact: 961
     first_seen: null
-    last_push: "2026-11-16"
+    last_push: "2026-11-21"
   - name: "kenshi-map"
     title: "kenshi-map"
     description: "Kenshi 中文互动地图 · Kenshi interactive map (Chinese) — kenshi.rcpd.cc"
@@ -143,14 +151,6 @@ repos:
     stars_fact: 199
     first_seen: null
     last_push: "2024-01-23"
-  - name: "RockChinQ"
-    title: "RockChinQ"
-    description: null
-    language: null
-    topics: []
-    stars_fact: 16
-    first_seen: null
-    last_push: "2026-10-22"
 ---
 
 # RockChinQ

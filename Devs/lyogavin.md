@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: true
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "759119abe3ffdb8f"
 pushes_per_week: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -95,9 +95,9 @@ repos:
       - "open-source"
       - "open-source-models"
       - "qlora"
-    stars_fact: 42675
+    stars_fact: 43513
     first_seen: "2026-06-23T06:00:02.600201+00:00"
-    last_push: "2026-11-19"
+    last_push: "2026-11-27"
   - name: "godmodeanimation"
     title: "godmodeanimation"
     description: "2D Game Animation in God Mode"

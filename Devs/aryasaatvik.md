@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 5, 4, 20, 14, 29, 4, 7, 3, 0, 0, 0, 0]
+pushes_per_week: [3, 5, 10, 16, 13, 28, 4, 7, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 19
-    active_days: 33
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7273
-  repo_per_active_day: 0.5758
+  push_per_day: 2.7812
+  repo_per_active_day: 0.5938
   not_owned_ratio: 0.2632
   basename_concentration: 0.0526
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 90
+    pushes: 89
     distinct_repos: 19
-    pushes_per_repo: 4.7368
-    active_days: 33
+    pushes_per_repo: 4.6842
+    active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 5
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 33 active days in 90d — pass"
+  - "activity: 32 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "cloud-code-ai-provider"
@@ -168,6 +168,6 @@ repos:
 
 # aryasaatvik
 
-90 pushes across 19 repositories on 33 active days in the last 90 days of public GitHub push activity.
+89 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

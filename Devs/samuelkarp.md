@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-26T07:04:12.617303+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "4a45ac7a449df20e"
 pushes_per_week: [0, 1, 1, 2, 0, 0, 3, 0, 0, 0, 0, 0, 0]
@@ -77,6 +77,18 @@ reasons:
   - "activity: 6 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "purple-docker"
+    title: "purple-docker"
+    description: "purple-docker: A libpurple protocol plugin for your Docker containers"
+    language: "Go"
+    topics:
+      - "containers"
+      - "docker"
+      - "libpurple"
+      - "libpurple-plugin"
+    stars_fact: 45
+    first_seen: null
+    last_push: "2020-06-13"
   - name: "runj"
     title: "runj"
     description: "runj is an experimental, proof-of-concept OCI-compatible runtime for FreeBSD jails."
@@ -123,14 +135,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-09-30"
-  - name: "samuelkarp.com"
-    title: "samuelkarp.com"
-    description: "https://samuelkarp.com"
-    language: "HTML"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-11-12"
 ---
 
 # samuelkarp

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-25T07:05:09.746086+00:00"
+generated_at: "2026-11-27T07:03:22.901956+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [0, 3, 1, 4, 2, 0, 0, 1, 0, 0, 0, 0, 3]
+pushes_per_week: [0, 3, 2, 3, 2, 0, 0, 1, 0, 0, 0, 0, 3]
 windows:
   "7d":
     pushes: 3
@@ -77,6 +77,22 @@ reasons:
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
+  - name: "micropip-uv-resolver"
+    title: "micropip-uv-resolver"
+    description: null
+    language: "Python"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-25"
+  - name: "uv-emscripten"
+    title: "uv-emscripten"
+    description: "Experimental uv resolver running on web browser"
+    language: "Rust"
+    topics: []
+    stars_fact: 0
+    first_seen: null
+    last_push: "2026-11-20"
   - name: "android-SSL-unpinning"
     title: "android-SSL-unpinning"
     description: "Bypass android application SSL-pinning"
@@ -117,22 +133,6 @@ repos:
     stars_fact: 0
     first_seen: null
     last_push: "2026-10-07"
-  - name: "image-redraw-worker-test2"
-    title: "image-redraw-worker-test2"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 0
-    first_seen: null
-    last_push: "2026-09-11"
-  - name: "hyperdrive-test"
-    title: "hyperdrive-test"
-    description: null
-    language: "Python"
-    topics: []
-    stars_fact: 1
-    first_seen: null
-    last_push: "2026-07-31"
 ---
 
 # ryanking13
