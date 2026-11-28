@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "c60b77ce50fb8910"
-pushes_per_week: [2, 13, 32, 8, 77, 43, 66, 18, 17, 2, 2, 1, 0]
+pushes_per_week: [3, 12, 32, 42, 52, 37, 62, 26, 9, 2, 2, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 281
-    distinct_repos: 30
-    active_days: 47
+    pushes: 280
+    distinct_repos: 29
+    active_days: 46
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 automation:
   state: "clear"
-  push_per_day: 5.9787
-  repo_per_active_day: 0.6383
-  not_owned_ratio: 0.2333
-  basename_concentration: 0.2000
+  push_per_day: 6.0870
+  repo_per_active_day: 0.6304
+  not_owned_ratio: 0.2414
+  basename_concentration: 0.2069
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 281
-    distinct_repos: 30
-    pushes_per_repo: 9.3667
-    active_days: 47
+    pushes: 280
+    distinct_repos: 29
+    pushes_per_repo: 9.6552
+    active_days: 46
     repos_not_owned: 7
     not_owned_basenames: 3
     not_owned_owners: 7
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 47 active days in 90d — pass"
+  - "activity: 46 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "ruflo"
@@ -206,6 +206,6 @@ repos:
 
 # ruvnet
 
-281 pushes across 30 repositories on 47 active days in the last 90 days of public GitHub push activity.
+280 pushes across 29 repositories on 46 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ruvnet

@@ -9,13 +9,13 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "3eacb4655aba2497"
-pushes_per_week: [3, 16, 26, 55, 113, 55, 44, 35, 81, 3, 0, 11, 8]
+pushes_per_week: [3, 16, 36, 62, 111, 44, 39, 44, 72, 3, 8, 6, 5]
 windows:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
     active_days: 4
     repos_not_owned: 2
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 450
+    pushes: 449
     distinct_repos: 7
-    active_days: 55
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 8.1818
-  repo_per_active_day: 0.1273
+  push_per_day: 8.3148
+  repo_per_active_day: 0.1296
   not_owned_ratio: 0.8571
   basename_concentration: 0.1429
   shapes: []
@@ -49,9 +49,9 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 8
+    pushes: 7
     distinct_repos: 2
-    pushes_per_repo: 4.0000
+    pushes_per_repo: 3.5000
     active_days: 4
     repos_not_owned: 2
     not_owned_basenames: 2
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 450
+    pushes: 449
     distinct_repos: 7
-    pushes_per_repo: 64.2857
-    active_days: 55
+    pushes_per_repo: 64.1429
+    active_days: 54
     repos_not_owned: 6
     not_owned_basenames: 6
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "llm-interrogation"
@@ -121,6 +121,6 @@ repos:
 
 # joelteply
 
-450 pushes across 7 repositories on 55 active days in the last 90 days of public GitHub push activity.
+449 pushes across 7 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/joelteply

@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "78a5846a75cc0fbb"
-pushes_per_week: [6, 8, 43, 63, 47, 148, 193, 20, 65, 3, 0, 8, 4]
+pushes_per_week: [2, 15, 79, 22, 68, 129, 189, 28, 57, 3, 0, 8, 4]
 windows:
   "7d":
     pushes: 4
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 608
+    pushes: 604
     distinct_repos: 23
-    active_days: 50
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 12.1600
-  repo_per_active_day: 0.4600
+  push_per_day: 12.5833
+  repo_per_active_day: 0.4792
   not_owned_ratio: 0.0000
   basename_concentration: 0.0435
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 608
+    pushes: 604
     distinct_repos: 23
-    pushes_per_repo: 26.4348
-    active_days: 50
+    pushes_per_repo: 26.2609
+    active_days: 48
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 48 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "astrbot_plugin_matrix_adapter"
@@ -131,6 +131,6 @@ repos:
 
 # stevessr
 
-608 pushes across 23 repositories on 50 active days in the last 90 days of public GitHub push activity.
+604 pushes across 23 repositories on 48 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/stevessr

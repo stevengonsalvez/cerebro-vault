@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "e6357f1e7e944cc8"
-pushes_per_week: [2, 6, 13, 40, 51, 12, 14, 20, 2, 0, 0, 0, 3]
+pushes_per_week: [0, 7, 14, 48, 42, 17, 8, 20, 2, 0, 0, 3, 0]
 windows:
   "7d":
     pushes: 3
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 163
+    pushes: 161
     distinct_repos: 24
-    active_days: 38
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 4.2895
-  repo_per_active_day: 0.6316
+  push_per_day: 4.3514
+  repo_per_active_day: 0.6486
   not_owned_ratio: 0.0417
   basename_concentration: 0.0833
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 163
+    pushes: 161
     distinct_repos: 24
-    pushes_per_repo: 6.7917
-    active_days: 38
+    pushes_per_repo: 6.7083
+    active_days: 37
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 38 active days in 90d — pass"
+  - "activity: 37 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pi-audit-todo"
@@ -154,6 +154,6 @@ repos:
 
 # xz-dev
 
-163 pushes across 24 repositories on 38 active days in the last 90 days of public GitHub push activity.
+161 pushes across 24 repositories on 37 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/xz-dev

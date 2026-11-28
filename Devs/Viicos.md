@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [1, 2, 2, 3, 6, 2, 4, 1, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 2, 2, 3, 6, 2, 4, 1, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 6
-    active_days: 15
+    pushes: 20
+    distinct_repos: 5
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 1.4000
-  repo_per_active_day: 0.4000
-  not_owned_ratio: 0.5000
-  basename_concentration: 0.3333
+  push_per_day: 1.4286
+  repo_per_active_day: 0.3571
+  not_owned_ratio: 0.6000
+  basename_concentration: 0.4000
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 21
-    distinct_repos: 6
-    pushes_per_repo: 3.5000
-    active_days: 15
+    pushes: 20
+    distinct_repos: 5
+    pushes_per_repo: 4.0000
+    active_days: 14
     repos_not_owned: 3
     not_owned_basenames: 2
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 15 active days in 90d — pass"
+  - "activity: 14 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "imf-parser"
@@ -132,6 +132,6 @@ repos:
 
 # Viicos
 
-21 pushes across 6 repositories on 15 active days in the last 90 days of public GitHub push activity.
+20 pushes across 5 repositories on 14 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Viicos

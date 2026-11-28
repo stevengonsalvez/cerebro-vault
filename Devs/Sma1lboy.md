@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 2, 7, 18, 35, 21, 8, 21, 4, 1, 0, 0, 0]
+pushes_per_week: [2, 2, 14, 15, 39, 13, 8, 21, 4, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 13
-    active_days: 35
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.4286
-  repo_per_active_day: 0.3714
+  push_per_day: 3.5000
+  repo_per_active_day: 0.3824
   not_owned_ratio: 0.2308
   basename_concentration: 0.0769
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 120
+    pushes: 119
     distinct_repos: 13
-    pushes_per_repo: 9.2308
-    active_days: 35
+    pushes_per_repo: 9.1538
+    active_days: 34
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 2
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 35 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "rove"
@@ -149,6 +149,6 @@ repos:
 
 # Sma1lboy
 
-120 pushes across 13 repositories on 35 active days in the last 90 days of public GitHub push activity.
+119 pushes across 13 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Sma1lboy

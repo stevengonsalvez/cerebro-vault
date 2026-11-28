@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 2, 23, 27, 33, 24, 12, 1, 8, 0, 0, 1, 0]
+pushes_per_week: [0, 4, 22, 29, 31, 25, 10, 1, 8, 0, 0, 1, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 10
-    active_days: 36
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 3.7222
-  repo_per_active_day: 0.2778
+  push_per_day: 3.8529
+  repo_per_active_day: 0.2941
   not_owned_ratio: 0.8000
   basename_concentration: 0.4000
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 134
+    pushes: 131
     distinct_repos: 10
-    pushes_per_repo: 13.4000
-    active_days: 36
+    pushes_per_repo: 13.1000
+    active_days: 34
     repos_not_owned: 8
     not_owned_basenames: 5
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 36 active days in 90d — pass"
+  - "activity: 34 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "twitter-account-location-in-username"
@@ -129,6 +129,6 @@ repos:
 
 # RhysSullivan
 
-134 pushes across 10 repositories on 36 active days in the last 90 days of public GitHub push activity.
+131 pushes across 10 repositories on 34 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/RhysSullivan

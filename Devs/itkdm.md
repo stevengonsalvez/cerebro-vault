@@ -9,11 +9,11 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "1df6ea1f1256059e"
   - "edb3a626875732de"
-pushes_per_week: [2, 6, 11, 18, 9, 18, 0, 0, 1, 0, 0, 0, 0]
+pushes_per_week: [2, 5, 22, 7, 18, 9, 0, 0, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -30,18 +30,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
-    distinct_repos: 5
-    active_days: 21
+    pushes: 64
+    distinct_repos: 4
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.0952
-  repo_per_active_day: 0.2381
+  push_per_day: 3.2000
+  repo_per_active_day: 0.2000
   not_owned_ratio: 0.0000
-  basename_concentration: 0.2000
+  basename_concentration: 0.2500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -66,16 +66,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 65
-    distinct_repos: 5
-    pushes_per_repo: 13.0000
-    active_days: 21
+    pushes: 64
+    distinct_repos: 4
+    pushes_per_repo: 16.0000
+    active_days: 20
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 21 active days in 90d — pass"
+  - "activity: 20 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "aiagentguide"
@@ -135,6 +135,6 @@ repos:
 
 # itkdm
 
-65 pushes across 5 repositories on 21 active days in the last 90 days of public GitHub push activity.
+64 pushes across 4 repositories on 20 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/itkdm

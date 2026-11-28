@@ -9,27 +9,27 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "57ecd5833b895331"
-pushes_per_week: [3, 4, 5, 26, 40, 33, 12, 3, 0, 1, 0, 1, 3]
+pushes_per_week: [1, 4, 5, 25, 43, 37, 5, 3, 0, 1, 0, 1, 4]
 windows:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    active_days: 3
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
-    active_days: 5
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 15
     active_days: 35
     repos_not_owned: 2
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 3.7429
+  push_per_day: 3.6857
   repo_per_active_day: 0.4286
   not_owned_ratio: 0.1333
   basename_concentration: 0.2000
@@ -49,25 +49,25 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 3
+    pushes: 4
     distinct_repos: 2
-    pushes_per_repo: 1.5000
-    active_days: 3
+    pushes_per_repo: 2.0000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "30d":
-    pushes: 5
+    pushes: 6
     distinct_repos: 3
-    pushes_per_repo: 1.6667
-    active_days: 5
+    pushes_per_repo: 2.0000
+    active_days: 6
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 131
+    pushes: 129
     distinct_repos: 15
-    pushes_per_repo: 8.7333
+    pushes_per_repo: 8.6000
     active_days: 35
     repos_not_owned: 2
     not_owned_basenames: 1
@@ -201,6 +201,6 @@ repos:
 
 # michael-denyer
 
-131 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
+129 pushes across 15 repositories on 35 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/michael-denyer

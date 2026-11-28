@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "745308b2b7085095"
-pushes_per_week: [11, 58, 716, 902, 254, 103, 84, 55, 29, 1, 1, 3, 6]
+pushes_per_week: [5, 76, 992, 682, 193, 104, 70, 62, 22, 1, 1, 5, 4]
 windows:
   "7d":
     pushes: 6
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 2223
+    pushes: 2217
     distinct_repos: 5
-    active_days: 55
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 40.4182
-  repo_per_active_day: 0.0909
+  push_per_day: 41.0556
+  repo_per_active_day: 0.0926
   not_owned_ratio: 1.0000
   basename_concentration: 1.0000
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "40.42 pushes per active day over 90d (2223 pushes / 55 active days), above the 15 review line"
+    - "41.06 pushes per active day over 90d (2217 pushes / 54 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 2223
+    pushes: 2217
     distinct_repos: 5
-    pushes_per_repo: 444.6000
-    active_days: 55
+    pushes_per_repo: 443.4000
+    active_days: 54
     repos_not_owned: 5
     not_owned_basenames: 1
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 55 active days in 90d — pass"
+  - "activity: 54 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "jev-browser-benchmark"
@@ -131,6 +131,6 @@ repos:
 
 # steve8708
 
-2223 pushes across 5 repositories on 55 active days in the last 90 days of public GitHub push activity.
+2217 pushes across 5 repositories on 54 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/steve8708

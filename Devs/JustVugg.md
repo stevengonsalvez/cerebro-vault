@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "8a70d410b1973fe6"
-pushes_per_week: [1, 3, 8, 22, 10, 21, 2, 15, 0, 0, 0, 0, 0]
+pushes_per_week: [0, 6, 5, 22, 15, 16, 2, 15, 0, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
-    distinct_repos: 7
-    active_days: 28
-    repos_not_owned: 5
+    pushes: 81
+    distinct_repos: 6
+    active_days: 27
+    repos_not_owned: 4
     not_owned_basenames: 1
-    not_owned_owners: 5
+    not_owned_owners: 4
 automation:
   state: "clear"
-  push_per_day: 2.9286
-  repo_per_active_day: 0.2500
-  not_owned_ratio: 0.7143
-  basename_concentration: 0.8571
+  push_per_day: 3.0000
+  repo_per_active_day: 0.2222
+  not_owned_ratio: 0.6667
+  basename_concentration: 0.8333
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 82
-    distinct_repos: 7
-    pushes_per_repo: 11.7143
-    active_days: 28
-    repos_not_owned: 5
+    pushes: 81
+    distinct_repos: 6
+    pushes_per_repo: 13.5000
+    active_days: 27
+    repos_not_owned: 4
     not_owned_basenames: 1
-    not_owned_owners: 5
+    not_owned_owners: 4
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 28 active days in 90d — pass"
+  - "activity: 27 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "colibri"
@@ -176,6 +176,6 @@ repos:
 
 # JustVugg
 
-82 pushes across 7 repositories on 28 active days in the last 90 days of public GitHub push activity.
+81 pushes across 6 repositories on 27 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/JustVugg

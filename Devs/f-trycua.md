@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "feacb1c4ff8cc40f"
-pushes_per_week: [1, 19, 16, 23, 59, 16, 22, 18, 5, 1, 0, 0, 0]
+pushes_per_week: [1, 18, 21, 30, 47, 18, 20, 18, 5, 1, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 180
+    pushes: 179
     distinct_repos: 14
-    active_days: 40
+    active_days: 39
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 13
 automation:
   state: "clear"
-  push_per_day: 4.5000
-  repo_per_active_day: 0.3500
+  push_per_day: 4.5897
+  repo_per_active_day: 0.3590
   not_owned_ratio: 1.0000
   basename_concentration: 0.8571
   shapes:
@@ -81,16 +81,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 180
+    pushes: 179
     distinct_repos: 14
-    pushes_per_repo: 12.8571
-    active_days: 40
+    pushes_per_repo: 12.7857
+    active_days: 39
     repos_not_owned: 14
     not_owned_basenames: 3
     not_owned_owners: 13
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 40 active days in 90d — pass"
+  - "activity: 39 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "johto-autumn"
@@ -105,6 +105,6 @@ repos:
 
 # f-trycua
 
-180 pushes across 14 repositories on 40 active days in the last 90 days of public GitHub push activity.
+179 pushes across 14 repositories on 39 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/f-trycua

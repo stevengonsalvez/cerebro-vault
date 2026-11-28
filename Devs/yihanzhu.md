@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "4d1450729e6ff44d"
-pushes_per_week: [3, 17, 18, 26, 33, 3, 11, 5, 4, 0, 0, 0, 1]
+pushes_per_week: [3, 16, 31, 15, 31, 3, 11, 5, 4, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 3
     active_days: 33
     repos_not_owned: 0
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 3.6667
+  push_per_day: 3.6364
   repo_per_active_day: 0.0909
   not_owned_ratio: 0.0000
   basename_concentration: 0.3333
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 121
+    pushes: 120
     distinct_repos: 3
-    pushes_per_repo: 40.3333
+    pushes_per_repo: 40.0000
     active_days: 33
     repos_not_owned: 0
     not_owned_basenames: 0
@@ -136,6 +136,6 @@ repos:
 
 # yihanzhu
 
-121 pushes across 3 repositories on 33 active days in the last 90 days of public GitHub push activity.
+120 pushes across 3 repositories on 33 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/yihanzhu

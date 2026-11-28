@@ -9,36 +9,36 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "dae9f02535f7c22f"
-pushes_per_week: [3, 9, 86, 123, 199, 32, 7, 53, 31, 3, 0, 2, 14]
+pushes_per_week: [3, 16, 93, 127, 181, 33, 6, 57, 27, 3, 0, 4, 13]
 windows:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    active_days: 3
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 11
-    active_days: 8
+    active_days: 9
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 562
+    pushes: 563
     distinct_repos: 99
-    active_days: 49
+    active_days: 50
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 11.4694
-  repo_per_active_day: 2.0204
+  push_per_day: 11.2600
+  repo_per_active_day: 1.9800
   not_owned_ratio: 0.9394
   basename_concentration: 0.0202
   shapes: []
@@ -49,32 +49,32 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 14
+    pushes: 15
     distinct_repos: 7
-    pushes_per_repo: 2.0000
-    active_days: 3
+    pushes_per_repo: 2.1429
+    active_days: 4
     repos_not_owned: 7
     not_owned_basenames: 7
     not_owned_owners: 1
   "30d":
-    pushes: 19
+    pushes: 20
     distinct_repos: 11
-    pushes_per_repo: 1.7273
-    active_days: 8
+    pushes_per_repo: 1.8182
+    active_days: 9
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 1
   "90d":
-    pushes: 562
+    pushes: 563
     distinct_repos: 99
-    pushes_per_repo: 5.6768
-    active_days: 49
+    pushes_per_repo: 5.6869
+    active_days: 50
     repos_not_owned: 93
     not_owned_basenames: 89
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 49 active days in 90d — pass"
+  - "activity: 50 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "engineering-notes"
@@ -161,6 +161,6 @@ repos:
 
 # CybotTM
 
-562 pushes across 99 repositories on 49 active days in the last 90 days of public GitHub push activity.
+563 pushes across 99 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/CybotTM

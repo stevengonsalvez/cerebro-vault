@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "30e283a9b3f70e35"
-pushes_per_week: [3, 6, 10, 8, 3, 10, 6, 12, 1, 0, 0, 0, 1]
+pushes_per_week: [3, 5, 10, 8, 2, 10, 6, 12, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,18 +29,18 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
-    distinct_repos: 12
-    active_days: 27
+    pushes: 58
+    distinct_repos: 11
+    active_days: 26
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 2.2222
-  repo_per_active_day: 0.4444
-  not_owned_ratio: 0.8333
-  basename_concentration: 0.1667
+  push_per_day: 2.2308
+  repo_per_active_day: 0.4231
+  not_owned_ratio: 0.9091
+  basename_concentration: 0.1818
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 60
-    distinct_repos: 12
-    pushes_per_repo: 5.0000
-    active_days: 27
+    pushes: 58
+    distinct_repos: 11
+    pushes_per_repo: 5.2727
+    active_days: 26
     repos_not_owned: 10
     not_owned_basenames: 10
     not_owned_owners: 3
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 27 active days in 90d — pass"
+  - "activity: 26 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "typeshed-stats"
@@ -133,6 +133,6 @@ repos:
 
 # AlexWaygood
 
-60 pushes across 12 repositories on 27 active days in the last 90 days of public GitHub push activity.
+58 pushes across 11 repositories on 26 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/AlexWaygood

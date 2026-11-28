@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "8ed2cce02536b2fa"
-pushes_per_week: [5, 12, 92, 169, 154, 93, 298, 186, 33, 0, 1, 1, 7]
+pushes_per_week: [2, 27, 123, 124, 190, 103, 251, 196, 23, 0, 2, 0, 7]
 windows:
   "7d":
     pushes: 7
@@ -29,22 +29,22 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1051
-    distinct_repos: 103
-    active_days: 53
-    repos_not_owned: 67
-    not_owned_basenames: 46
+    pushes: 1048
+    distinct_repos: 102
+    active_days: 52
+    repos_not_owned: 66
+    not_owned_basenames: 45
     not_owned_owners: 22
 automation:
   state: "clear"
-  push_per_day: 19.8302
-  repo_per_active_day: 1.9434
-  not_owned_ratio: 0.6505
-  basename_concentration: 0.1650
+  push_per_day: 20.1538
+  repo_per_active_day: 1.9615
+  not_owned_ratio: 0.6471
+  basename_concentration: 0.1667
   shapes:
     - "high_push_rate"
   shape_evidence:
-    - "19.83 pushes per active day over 90d (1051 pushes / 53 active days), above the 15 review line"
+    - "20.15 pushes per active day over 90d (1048 pushes / 52 active days), above the 15 review line"
   cleared_by: "e01-builder"
   cleared_on: "2026-08-26"
   fork_provenance: null
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 1051
-    distinct_repos: 103
-    pushes_per_repo: 10.2039
-    active_days: 53
-    repos_not_owned: 67
-    not_owned_basenames: 46
+    pushes: 1048
+    distinct_repos: 102
+    pushes_per_repo: 10.2745
+    active_days: 52
+    repos_not_owned: 66
+    not_owned_basenames: 45
     not_owned_owners: 22
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 53 active days in 90d — pass"
+  - "activity: 52 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "abelian-erh"
@@ -131,6 +131,6 @@ repos:
 
 # senamakel
 
-1051 pushes across 103 repositories on 53 active days in the last 90 days of public GitHub push activity.
+1048 pushes across 102 repositories on 52 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/senamakel

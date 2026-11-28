@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 8, 12, 20, 6, 17, 13, 11, 8, 6, 1, 3, 15]
+pushes_per_week: [1, 9, 16, 15, 6, 18, 12, 11, 8, 6, 3, 1, 15]
 windows:
   "7d":
     pushes: 15
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 123
+    pushes: 121
     distinct_repos: 15
-    active_days: 39
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 3.1538
-  repo_per_active_day: 0.3846
+  push_per_day: 3.1842
+  repo_per_active_day: 0.3947
   not_owned_ratio: 0.2667
   basename_concentration: 0.1333
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 3
     not_owned_owners: 1
   "90d":
-    pushes: 123
+    pushes: 121
     distinct_repos: 15
-    pushes_per_repo: 8.2000
-    active_days: 39
+    pushes_per_repo: 8.0667
+    active_days: 38
     repos_not_owned: 4
     not_owned_basenames: 4
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 39 active days in 90d — pass"
+  - "activity: 38 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "playsrc"
@@ -129,6 +129,6 @@ repos:
 
 # Hona
 
-123 pushes across 15 repositories on 39 active days in the last 90 days of public GitHub push activity.
+121 pushes across 15 repositories on 38 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/Hona

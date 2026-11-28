@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [1, 3, 5, 17, 22, 0, 2, 0, 2, 0, 0, 1, 1]
+pushes_per_week: [0, 3, 12, 16, 16, 0, 2, 1, 1, 0, 0, 1, 1]
 windows:
   "7d":
     pushes: 1
@@ -34,16 +34,16 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 18
-    active_days: 22
+    active_days: 21
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.4545
-  repo_per_active_day: 0.8182
+  push_per_day: 2.5238
+  repo_per_active_day: 0.8571
   not_owned_ratio: 0.8889
   basename_concentration: 0.0556
   shapes: []
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 1
   "90d":
-    pushes: 54
+    pushes: 53
     distinct_repos: 18
-    pushes_per_repo: 3.0000
-    active_days: 22
+    pushes_per_repo: 2.9444
+    active_days: 21
     repos_not_owned: 16
     not_owned_basenames: 16
     not_owned_owners: 2
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 22 active days in 90d — pass"
+  - "activity: 21 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "filegardener"
@@ -134,6 +134,6 @@ repos:
 
 # smorin
 
-54 pushes across 18 repositories on 22 active days in the last 90 days of public GitHub push activity.
+53 pushes across 18 repositories on 21 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/smorin

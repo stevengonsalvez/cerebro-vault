@@ -10,16 +10,16 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "31b3468471cae2ac"
   - "b321d228efd2bc14"
-pushes_per_week: [2, 2, 4, 23, 43, 209, 93, 63, 64, 4, 2, 7, 53]
+pushes_per_week: [1, 2, 4, 25, 69, 185, 89, 74, 53, 4, 2, 22, 38]
 windows:
   "7d":
-    pushes: 57
+    pushes: 52
     distinct_repos: 5
-    active_days: 5
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -31,16 +31,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 569
+    pushes: 568
     distinct_repos: 9
-    active_days: 50
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 11.3800
-  repo_per_active_day: 0.1800
+  push_per_day: 11.5918
+  repo_per_active_day: 0.1837
   not_owned_ratio: 0.1111
   basename_concentration: 0.1111
   shapes: []
@@ -51,10 +51,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 57
+    pushes: 52
     distinct_repos: 5
-    pushes_per_repo: 11.4000
-    active_days: 5
+    pushes_per_repo: 10.4000
+    active_days: 4
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -67,16 +67,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 569
+    pushes: 568
     distinct_repos: 9
-    pushes_per_repo: 63.2222
-    active_days: 50
+    pushes_per_repo: 63.1111
+    active_days: 49
     repos_not_owned: 1
     not_owned_basenames: 1
     not_owned_owners: 1
 reasons:
   - "provenance: 2 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "gstack"
@@ -131,6 +131,6 @@ repos:
 
 # garrytan
 
-569 pushes across 9 repositories on 50 active days in the last 90 days of public GitHub push activity.
+568 pushes across 9 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/garrytan

@@ -9,7 +9,7 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "0eec722f11509f67"
   - "97c4e9cb8b163ddb"
@@ -17,7 +17,7 @@ provenance:
   - "c7515e0fa4368a55"
   - "d3abe74726b22711"
   - "e7c647c4d0689526"
-pushes_per_week: [2, 7, 33, 30, 17, 85, 4, 3, 1, 0, 0, 0, 0]
+pushes_per_week: [1, 8, 44, 18, 17, 85, 4, 3, 1, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -34,18 +34,18 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 182
-    distinct_repos: 21
-    active_days: 31
+    pushes: 181
+    distinct_repos: 20
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 automation:
   state: "clear"
-  push_per_day: 5.8710
-  repo_per_active_day: 0.6774
+  push_per_day: 6.0333
+  repo_per_active_day: 0.6667
   not_owned_ratio: 0.0000
-  basename_concentration: 0.0476
+  basename_concentration: 0.0500
   shapes: []
   shape_evidence: []
   cleared_by: null
@@ -70,16 +70,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 182
-    distinct_repos: 21
-    pushes_per_repo: 8.6667
-    active_days: 31
+    pushes: 181
+    distinct_repos: 20
+    pushes_per_repo: 9.0500
+    active_days: 30
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
   - "provenance: 6 vault signal(s) — pass"
-  - "activity: 31 active days in 90d — pass"
+  - "activity: 30 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "pos-system"
@@ -167,6 +167,6 @@ repos:
 
 # ssmurfgg04-gif
 
-182 pushes across 21 repositories on 31 active days in the last 90 days of public GitHub push activity.
+181 pushes across 20 repositories on 30 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/ssmurfgg04-gif

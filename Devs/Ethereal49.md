@@ -6,13 +6,15 @@ discovered_via_all:
   - "fanout"
 provenance_repos:
   - "AgriciDaniel/claude-seo"
+  - "backnotprop/plannotator"
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "4f795faf4eede06c"
-pushes_per_week: [0, 0, 0, 0, 1, 4, 2, 6, 1, 0, 0, 0, 1]
+  - "e6357f1e7e944cc8"
+pushes_per_week: [0, 0, 0, 1, 1, 3, 2, 6, 1, 0, 0, 0, 1]
 windows:
   "7d":
     pushes: 1
@@ -73,7 +75,7 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
 reasons:
-  - "provenance: 1 vault signal(s) — pass"
+  - "provenance: 2 vault signal(s) — pass"
   - "activity: 11 active days in 90d — pass"
   - "automation: clear — pass"
 repos:

@@ -9,14 +9,14 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "98a99d0df7599b35"
-pushes_per_week: [3, 15, 57, 50, 24, 22, 18, 13, 2, 2, 0, 5, 5]
+pushes_per_week: [3, 19, 74, 41, 11, 24, 16, 14, 1, 2, 1, 6, 3]
 windows:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     active_days: 3
     repos_not_owned: 1
     not_owned_basenames: 1
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 216
+    pushes: 215
     distinct_repos: 45
     active_days: 50
     repos_not_owned: 9
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 3
 automation:
   state: "clear"
-  push_per_day: 4.3200
+  push_per_day: 4.3000
   repo_per_active_day: 0.9000
   not_owned_ratio: 0.2000
   basename_concentration: 0.0444
@@ -49,8 +49,8 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 5
-    distinct_repos: 5
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
     active_days: 3
     repos_not_owned: 1
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 2
     not_owned_owners: 2
   "90d":
-    pushes: 216
+    pushes: 215
     distinct_repos: 45
-    pushes_per_repo: 4.8000
+    pushes_per_repo: 4.7778
     active_days: 50
     repos_not_owned: 9
     not_owned_basenames: 9
@@ -158,6 +158,6 @@ repos:
 
 # luongnv89
 
-216 pushes across 45 repositories on 50 active days in the last 90 days of public GitHub push activity.
+215 pushes across 45 repositories on 50 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/luongnv89

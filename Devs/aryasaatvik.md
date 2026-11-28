@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [3, 5, 10, 16, 13, 28, 4, 7, 3, 0, 0, 0, 0]
+pushes_per_week: [3, 4, 18, 13, 16, 20, 4, 7, 3, 0, 0, 0, 0]
 windows:
   "7d":
     pushes: 0
@@ -29,7 +29,7 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 19
     active_days: 32
     repos_not_owned: 5
@@ -37,7 +37,7 @@ windows:
     not_owned_owners: 2
 automation:
   state: "clear"
-  push_per_day: 2.7812
+  push_per_day: 2.7500
   repo_per_active_day: 0.5938
   not_owned_ratio: 0.2632
   basename_concentration: 0.0526
@@ -65,9 +65,9 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 89
+    pushes: 88
     distinct_repos: 19
-    pushes_per_repo: 4.6842
+    pushes_per_repo: 4.6316
     active_days: 32
     repos_not_owned: 5
     not_owned_basenames: 5
@@ -168,6 +168,6 @@ repos:
 
 # aryasaatvik
 
-89 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
+88 pushes across 19 repositories on 32 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/aryasaatvik

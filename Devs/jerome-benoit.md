@@ -9,15 +9,15 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "ffccace0ba14fd15"
-pushes_per_week: [4, 10, 32, 42, 72, 23, 21, 11, 5, 1, 1, 3, 4]
+pushes_per_week: [1, 21, 29, 58, 56, 18, 18, 12, 4, 1, 1, 3, 4]
 windows:
   "7d":
-    pushes: 6
-    distinct_repos: 6
-    active_days: 4
+    pushes: 4
+    distinct_repos: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 229
+    pushes: 226
     distinct_repos: 19
-    active_days: 50
+    active_days: 49
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 5
 automation:
   state: "clear"
-  push_per_day: 4.5800
-  repo_per_active_day: 0.3800
+  push_per_day: 4.6122
+  repo_per_active_day: 0.3878
   not_owned_ratio: 0.3684
   basename_concentration: 0.1579
   shapes: []
@@ -49,10 +49,10 @@ automation:
   prefilter: "rest_verified"
 facets:
   "7d":
-    pushes: 6
-    distinct_repos: 6
+    pushes: 4
+    distinct_repos: 4
     pushes_per_repo: 1.0000
-    active_days: 4
+    active_days: 3
     repos_not_owned: 0
     not_owned_basenames: 0
     not_owned_owners: 0
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 0
     not_owned_owners: 0
   "90d":
-    pushes: 229
+    pushes: 226
     distinct_repos: 19
-    pushes_per_repo: 12.0526
-    active_days: 50
+    pushes_per_repo: 11.8947
+    active_days: 49
     repos_not_owned: 7
     not_owned_basenames: 6
     not_owned_owners: 5
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 50 active days in 90d — pass"
+  - "activity: 49 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "freqai-strategies"
@@ -133,6 +133,6 @@ repos:
 
 # jerome-benoit
 
-229 pushes across 19 repositories on 50 active days in the last 90 days of public GitHub push activity.
+226 pushes across 19 repositories on 49 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/jerome-benoit

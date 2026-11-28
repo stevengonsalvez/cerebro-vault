@@ -9,10 +9,10 @@ provenance_repos:
 admitted: true
 low_n: false
 repos_populated: true
-generated_at: "2026-11-27T07:03:22.901956+00:00"
+generated_at: "2026-11-28T07:04:07.003610+00:00"
 provenance:
   - "a5e43b1572bfaf36"
-pushes_per_week: [71, 22, 30, 34, 92, 68, 118, 60, 16, 10, 2, 6, 1]
+pushes_per_week: [24, 28, 34, 23, 107, 60, 111, 63, 13, 10, 4, 4, 1]
 windows:
   "7d":
     pushes: 1
@@ -29,16 +29,16 @@ windows:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 530
+    pushes: 482
     distinct_repos: 4
-    active_days: 57
+    active_days: 56
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 automation:
   state: "clear"
-  push_per_day: 9.2982
-  repo_per_active_day: 0.0702
+  push_per_day: 8.6071
+  repo_per_active_day: 0.0714
   not_owned_ratio: 0.7500
   basename_concentration: 0.2500
   shapes: []
@@ -65,16 +65,16 @@ facets:
     not_owned_basenames: 1
     not_owned_owners: 1
   "90d":
-    pushes: 530
+    pushes: 482
     distinct_repos: 4
-    pushes_per_repo: 132.5000
-    active_days: 57
+    pushes_per_repo: 120.5000
+    active_days: 56
     repos_not_owned: 3
     not_owned_basenames: 3
     not_owned_owners: 1
 reasons:
   - "provenance: 1 vault signal(s) — pass"
-  - "activity: 57 active days in 90d — pass"
+  - "activity: 56 active days in 90d — pass"
   - "automation: clear — pass"
 repos:
   - name: "scryfall-mcp"
@@ -129,6 +129,6 @@ repos:
 
 # cryppadotta
 
-530 pushes across 4 repositories on 57 active days in the last 90 days of public GitHub push activity.
+482 pushes across 4 repositories on 56 active days in the last 90 days of public GitHub push activity.
 
 https://github.com/cryppadotta
